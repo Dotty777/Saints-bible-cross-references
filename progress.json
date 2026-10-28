@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-28",
-  "updated_at_utc": "2026-10-28T21:56:28.977737+00:00",
+  "updated_at_utc": "2026-10-28T22:55:10.546860+00:00",
   "scope": "Old Testament, including deuterocanonical books; 46 book records. Preserve Saints-Translation Greek-based verse identities, expanded Esther and Daniel, and Psalm 151.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 0,
   "pending_book_records": 46,
-  "completed_chapters": 1,
-  "completed_source_verses": 31,
-  "completed_cross_references": 94,
+  "completed_chapters": 9,
+  "completed_source_verses": 235,
+  "completed_cross_references": 634,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
     "book": "Genesis",
-    "chapter": 2,
-    "reference": "Genesis 2:1",
-    "source_id": "v2-1"
+    "chapter": 10,
+    "reference": "Genesis 10:1",
+    "source_id": "v10-1"
   },
   "books": [
     {
@@ -30,18 +30,34 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 31,
-      "completed_cross_references": 94,
+      "completed_source_verses": 235,
+      "completed_cross_references": 634,
       "order": 1,
       "total_source_verse_units": 1531,
       "total_chapters": 50,
       "completed_chapters": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
       ],
       "completed_verse_ranges": [
-        "Genesis 1:1-31"
+        "Genesis 1:1-31",
+        "Genesis 2:1-25",
+        "Genesis 3:1-24",
+        "Genesis 4:1-26",
+        "Genesis 5:1-32",
+        "Genesis 6:1-22",
+        "Genesis 7:1-24",
+        "Genesis 8:1-22",
+        "Genesis 9:1-29"
       ],
-      "next_reference": "Genesis 2:1"
+      "next_reference": "Genesis 10:1"
     },
     {
       "book": "Exodus",
@@ -558,6 +574,30 @@
       "target_met": false,
       "note": "Initial setup batch: source edition, repository format, complete Genesis verse inventory and first chapter review established. This is 94 completed pairs, not a claim of 500 completed in an hour.",
       "next_reference": "Genesis 2:1"
+    },
+    {
+      "run_id": "2026-10-28T224219Z",
+      "date": "2026-10-28",
+      "source_range": "Genesis 2:1-9:29",
+      "completed_chapters": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "distinct_source_verses": 204,
+      "new_completed_pairs": 540,
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 40,
+      "unresolved_retained_cases": 0,
+      "review_record": "genesis/review-batches/2026-10-28T224219Z.json",
+      "next_reference": "Genesis 10:1"
     }
   ]
 }

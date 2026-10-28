@@ -17,9 +17,16 @@ def require(condition,message):
     if not condition: raise ValueError(message)
 class Anchors(HTMLParser):
     def __init__(self):
-        super().__init__();self.ids=[]
+        super().__init__();self.ids=[];self.details=0;self.scripture=[];self.in_scripture=False;self.current=[]
     def handle_starttag(self,tag,attrs):
         self.ids.extend(v for k,v in attrs if k=='id')
+        if tag=='details':self.details+=1
+        if tag=='p' and ('class','scripture') in attrs:self.in_scripture=True;self.current=[]
+    def handle_data(self,text):
+        if self.in_scripture:self.current.append(text)
+    def handle_endtag(self,tag):
+        if tag=='p' and self.in_scripture:
+            self.scripture.append(''.join(self.current));self.in_scripture=False
 def validate(write_receipts=False):
     progress=load(ROOT/'progress.json')
     reports=[]
@@ -64,6 +71,7 @@ def validate(write_receipts=False):
                     require(m is not None,'Unsupported target-range identity')
                     book,c,a,z=m.groups()
                     expected=[f'{book} {c}:{n}' for n in range(int(a),int(z or a)+1)]
+                    require(v['reference'] not in expected,'Target contains its own source verse')
                     require(expected==[x['reference'] for x in e['target_verses']],'Missing or misordered target evidence')
                     for x in e['target_verses']:
                         require(bool(x['text'].strip()),'Empty target evidence')
@@ -81,11 +89,17 @@ def validate(write_receipts=False):
         require(complete_chapters==data['completed_chapters']==b['completed_chapters'],'Completed chapter mismatch')
         parser=Anchors();parser.feed((ROOT/b['records']/data['readable_html']).read_text(encoding='utf-8'))
         require(Counter(parser.ids)==Counter(v['id'] for v in complete),'Readable HTML/source anchor mismatch')
+        require(parser.scripture==[v['text'] for v in complete],'Readable HTML changes source wording or order')
+        require(parser.details==len(edges),'Readable HTML cross-reference count mismatch')
+        text=(ROOT/b['records']/data['readable_text']).read_text(encoding='utf-8')
+        for v in complete:
+            require(v['reference']+'\n'+v['text']+'\n' in text,'Plain-text source verse missing or changed')
         report={'schema_version':1,'book':b['book'],'checked_at_utc':datetime.now(timezone.utc).isoformat(),
             'inventory_source_units':len(source_refs),'completed_source_verses':len(complete),
             'completed_chapters':complete_chapters,'completed_cross_references':len(edges),
             'unique_pair_ids':len(edges),'target_passage_identity_and_hash_checks':'passed',
             'source_evidence_hash_checks':'passed','readable_html_source_anchors':'passed',
+            'readable_html_source_text_and_pair_count':'passed','plain_text_source_coverage':'passed',
             'semantic_review':'Passage-grounded AI-assisted editorial review, recorded per pair; hash validation does not independently establish interpretation.',
             'remote_publication_readback':'verified separately after push; not established by this local validator',
             'live_destination_anchor_checks':'not performed','independent_specialist_review':'pending'}
