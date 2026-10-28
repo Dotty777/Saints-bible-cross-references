@@ -1,0 +1,1324 @@
+{
+  "run_id": "2026-10-28T233950Z",
+  "date": "2026-10-28",
+  "source_range": "Genesis 10:1-19:38",
+  "completed_chapters": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "distinct_source_verses": 261,
+  "new_completed_pairs": 610,
+  "hourly_target": 500,
+  "target_met": true,
+  "target_shortfall": 0,
+  "target_excess": 110,
+  "unresolved_retained_cases": [],
+  "review_record": "genesis/review-batches/2026-10-28T233950Z.json",
+  "next_reference": "Genesis 20:1",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-28",
+  "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
+  "inputs": [
+    {
+      "file": "genesis-10-11.tsv",
+      "sha256": "bdb3de71c851269914325ca1067b684b9da66103b900eefd828eb583d98ee30d",
+      "pairs": 136
+    },
+    {
+      "file": "genesis-12-14.tsv",
+      "sha256": "66521133b2c64581103c0ac27e3b684e3a695f62c6d0f88e824693b60f8f1702",
+      "pairs": 156
+    },
+    {
+      "file": "genesis-15-17.tsv",
+      "sha256": "cf0c71e20eec440f0b844e9e5b53ac453d5eba875bab86e6f91cea93f8ae9335",
+      "pairs": 158
+    },
+    {
+      "file": "genesis-18-19.tsv",
+      "sha256": "60980c9e8f222bdcefd26a8877df5ccd889a364271adb37672cc33758ff24fc2",
+      "pairs": 160
+    }
+  ],
+  "chapter_pair_counts": {
+    "10": 64,
+    "11": 72,
+    "12": 55,
+    "13": 47,
+    "14": 54,
+    "15": 52,
+    "16": 36,
+    "17": 70,
+    "18": 73,
+    "19": 87
+  },
+  "review_receipts": [
+    {
+      "reviewer": "Codex (AI-assisted English-passage review)",
+      "reviewed": "2026-10-28",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "chapters": [
+        10,
+        11
+      ],
+      "source_verses": 64,
+      "completed_pairs": 136,
+      "distinct_target_verse_units_read": 125,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "second_editorial_pass": "completed; independent AI peer review received, required Sodom wording refinement and optional language-setting clarification applied",
+      "source_blobs": [
+        {
+          "book": "Jonah",
+          "records": "jonah/verses.json",
+          "blob_sha": "b2f33077a19167cd7c2c8cdb48562b942ce91380"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        }
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Genesis 10:13-29",
+          "target": "1 Chronicles 1:11-16,18-23",
+          "reason": "These separate numbered units are absent from the pinned English records. No text or anchors were filled from another edition and no absent target was counted."
+        },
+        {
+          "source_reference": "Genesis 10:14",
+          "target": "Amos 9:7",
+          "reason": "The supplied Amos says foreigners from Cappadocia and Syrians from a pit. A proposed direct Philistines-from-Caphtor identification was not retained without an established source-language/identity comparison.",
+          "source_blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Genesis 10:2,4,22,24",
+          "note": "Retain Elishah in both supplied Japheth/Javan lists and Cainan in both supplied Shem and Arphaxad contexts. Cross-references do not remove or harmonize these differing placements."
+        },
+        {
+          "reference": "Genesis 10:3-29 / 1 Chronicles 1",
+          "note": "The available Chronicles text contains no separate 1:11-16 or 1:18-23 units. Only actual available units are used. English forms such as Kitians/Kittians, Regma/Raamah, Sala/Shelah and Ragau/Reu remain distinct in their quoted sources."
+        },
+        {
+          "reference": "Genesis 10:8-12",
+          "note": "Nimrod remains a giant hunter before the Lord in the supplied text. No claim that before means rebellion, or that Nimrod built the later tower, is added. Dasem is retained and the great-city clause is not independently resolved."
+        },
+        {
+          "reference": "Genesis 10:5,20,31,32 / Deuteronomy 32:8-9",
+          "note": "The nations comparison retains Deuteronomy's angels-of-God wording without forcing a traditional number of peoples or mapping the genealogies onto modern racial identities."
+        },
+        {
+          "reference": "Genesis 11:1,7-9 / Acts 2:4-8",
+          "note": "Language settings and comprehension are compared thematically. Acts is not described as explicitly quoting Babel or declaring a reversal of Genesis 11:1."
+        },
+        {
+          "reference": "Genesis 11:5 / Genesis 18:20-21",
+          "note": "The descent-and-seeing parallel preserves the supplied Sodom wording about being brought to an end according to the cry; a familiar alternate formulation about what the people have done was removed during peer QA."
+        },
+        {
+          "reference": "Genesis 11:10-25",
+          "note": "Luke and Chronicles links establish corresponding genealogical positions only. They do not corroborate Genesis's ages, unnamed children or death notices. The combined Arphaxad/Cainan material remains within the original 11:13 anchor."
+        },
+        {
+          "reference": "Genesis 11:26-32",
+          "note": "Do not merge the ancestor Nahor with Terah's son of the same name, Haran the deceased man with Harran the destination, or Iscah with Sara. Sara is the supplied name here and changes to Sarah at17:15. Acts7 and Nehemiah9 supply retrospective divine-action perspectives; no forced reconstruction of Terah's or Abram's birth years is imposed."
+        }
+      ],
+      "unresolved_cases": [],
+      "limits": "Passage-grounded English editorial review; no independent human specialist or original-language collation claimed."
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex (AI-assisted editorial review)",
+      "reviewed": "2026-10-28",
+      "checked_at_utc": "2026-10-28T23:49:05.990125+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "chapters": [
+        12,
+        13,
+        14
+      ],
+      "source_verse_units": 62,
+      "completed_pairs": 156,
+      "pairs_by_chapter": {
+        "Genesis 12": 55,
+        "Genesis 13": 47,
+        "Genesis 14": 54
+      },
+      "target_verse_units_read": 151,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "source_and_target_review_passes": 2,
+      "review_scope": "English passage-grounded curated comparison. Read complete source chapters, every selected target passage and needed context, then reread individual explanations against the actual texts. No new Greek/Hebrew, critical-apparatus or independent human specialist verification.",
+      "coverage_checks": {
+        "all_source_verses_represented": true,
+        "duplicate_pairs": 0,
+        "self_containing_targets": 0,
+        "missing_target_units": 0
+      },
+      "source_blobs": [
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+        },
+        {
+          "book": "2 Peter",
+          "records": "2-peter/verses.json",
+          "blob_sha": "4f2eb3a0b1cf30ce38641beba7e29ef2747f24e1"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        },
+        {
+          "book": "Sirach",
+          "records": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+        }
+      ],
+      "additional_sources": [
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Genesis 12:1 / Acts 7:2-4",
+          "note": "Acts places the initial appearance before residence at Haran and narrates movement after the father's death. The records preserve its presentation alongside Genesis rather than imposing a new chronological harmonization."
+        },
+        {
+          "reference": "Genesis 12:3 / Galatians 3:8 / Acts 3:25-26",
+          "note": "The supplied Genesis says all the tribes of the earth in Abram; later texts speak of nations or families and, in Acts, the seed. These are labelled explicit reuse and interpretation without replacing the supplied English wording."
+        },
+        {
+          "reference": "Genesis 12:6 / Genesis 33:18-20 / Genesis 35:4",
+          "note": "The connections concern Shechem and patriarchal acts there. The oak and the later terebinth are not asserted to be the same individual tree or parcel."
+        },
+        {
+          "reference": "Genesis 12:9 / Genesis 13:1,3",
+          "note": "The supplied text says wilderness. No alternate Negev wording, precise geographical reconstruction or modern travel itinerary is inserted."
+        },
+        {
+          "reference": "Genesis 12:11-20",
+          "note": "The later wife-and-sister episodes in Genesis 20 and 26 are narrative parallels. The comparison does not identify their rulers as one historical person, approve the deception, or claim identical circumstances. Sara and Sarah labels remain as supplied."
+        },
+        {
+          "reference": "Genesis 13:8 / Genesis 14:14",
+          "note": "The family term brother is read alongside Genesis 12:5, which explicitly identifies Lot as Abram's brother's son. No biological brother relationship is substituted."
+        },
+        {
+          "reference": "Genesis 13:16",
+          "note": "The supplied Genesis uses sand of the earth. Sirach 44:21 uses dust and stars; the related multitude imagery is retained with its own wording rather than made an exact verbal quotation."
+        },
+        {
+          "reference": "Genesis 14:1-9",
+          "note": "The supplied king names, nations, giants, Ommaeans, rulers of Amalek, Salt Sea and itinerary remain intact. No modern identification of kings, reconstructed campaign route or resolution of possible chronological/geographical questions is claimed."
+        },
+        {
+          "reference": "Genesis 14:10",
+          "note": "The account says the kings fled and fell into bitumen pits, and later mentions the king of Sodom meeting Abram. The retained links do not infer a death, an escape mechanism or a resolved identity question."
+        },
+        {
+          "reference": "Genesis 14:11,16,21",
+          "note": "The supplied text repeatedly names horses. The records do not silently replace that reading with goods or a different textual stream's spoils terminology."
+        },
+        {
+          "reference": "Genesis 14:13,24",
+          "note": "Man from beyond and Aunan are preserved from the supplied English. The record does not substitute Hebrew as a new lexical finding or normalize Aunan to another edition's proper name."
+        },
+        {
+          "reference": "Genesis 14:18-20",
+          "note": "Melchizedek links follow the actual priesthood, blessing and tenth-giving reuse in Psalms and Hebrews. No Eucharistic interpretation is added merely from the loaves and wine, and Hebrews' theological claims are identified as that text's interpretation."
+        },
+        {
+          "reference": "Genesis 14:14 / Genesis 17:23",
+          "note": "The shared household-born servant category does not establish that the later circumcision group contains exactly the same three hundred and eighteen individuals."
+        }
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Genesis 14:5",
+          "target": "Deuteronomy 2:10-11",
+          "reason": "No Ommaeans/Emim identity mapping was established in this English-only pass; the campaign verse has other supported narrative references."
+        },
+        {
+          "source_reference": "Genesis 14:7",
+          "target": "2 Chronicles 20:2",
+          "reason": "The supplied place-name forms Hazezon-tamar and Asasanthamar were read, but a new identification was not established in this pass. This candidate is omitted and receives no completion credit."
+        }
+      ],
+      "unresolved_cases": [],
+      "pending_review": [
+        "Independent human specialist review",
+        "Original-language and apparatus comparison",
+        "Live destination anchors and display verification"
+      ],
+      "tsv_sha256": "66521133b2c64581103c0ac27e3b684e3a695f62c6d0f88e824693b60f8f1702",
+      "target_verse_sha256": {
+        "2 Chronicles 20:7": "5d0d50b96e6fc4f6a5ab6f9786fbf953c7234fced7a7f2df0787b5350f629b1a",
+        "2 Peter 2:6": "46f54968e7f4023153d3856711533b4644ea1a29a58be51a65dd93121cd2ba12",
+        "2 Peter 2:7": "dcf5c41e1ff39fc8891cdf7071c9070d5d11896d5e2c6fcfff799308d6834068",
+        "2 Peter 2:8": "da7f09b69429f92e982bf07abcb9ebfc6eee99e67e997da139117c128b93379e",
+        "Acts 3:25": "e76d1d5e90a773cf7f80261acdabc89775c367337590121ac76302b777c19aa5",
+        "Acts 3:26": "a07999af2a93651be9593a48323d13a073b9380cf475745f3196fddbe4a9d2f5",
+        "Acts 7:2": "46d44043d88851dab3fc7b29ba953c51afa01a681c7ab0078bf76218baed2e2c",
+        "Acts 7:3": "a5f349e46861d2b6af1a523f800d3cee6a79c375740b9deb81ddd14168e6d232",
+        "Acts 7:4": "e5304e9ab3d801a49249a050702b2fd45fa977d78e71de6ed3688b78bdba5f2c",
+        "Acts 7:5": "a5191c25ba6f1c4869528ee75b077c8056be936d627c706bf57b42af5316fc93",
+        "Deuteronomy 29:22": "5cde4e583ff1afb37ec46a0c33528c3308bbfc5f42bd8939c87584b23656b9af",
+        "Deuteronomy 2:12": "9671d1d77d1892b068703d7a240be8cb499ee92c5cb84959ad23b1bf456dbfd2",
+        "Deuteronomy 3:17": "34352d10a02ef196aff4673521cda614e8d759bd975b7341b5f51cd42679067e",
+        "Exodus 12:31": "15791b4b54b744f6c6283df24523b708c0fc13dea5a6cb015f68264976d6945a",
+        "Exodus 12:32": "773bfdcb7ca58f69927edd7726c967d1c4074e34467097ba9c0e640e6ce8f785",
+        "Galatians 3:8": "6bdd73dcc42f231101213c31f4e69545c66af8e7c64e640d618ed038cee1261e",
+        "Galatians 3:9": "ccc5da29343dd4494140a7f6c3b9d5fdb404df518d8ea38a53193625ae76b1d6",
+        "Genesis 10:10": "0ae5275987d86952cf009b9e83db8cf492e93c05cad00e750ab7fe24c8f772b7",
+        "Genesis 11:31": "2a8afe77147dbf703838757556550617145aa81ad70f07723ebcda4f4dafc341",
+        "Genesis 12:10": "cfb44c501d869313b9a611861debe609bdec9dd345945d7d06b7434c00b6c559",
+        "Genesis 12:11": "c07773b07b049755c0a113c8d5f25bba264aa2a6cc243df84a7e2009a94c337f",
+        "Genesis 12:14": "9941cf6540fad0b008c50740e3a7b27cd20ab459852154aea512778a76675dcc",
+        "Genesis 12:16": "198db0389999d37c05990e297a60c1dac08f3f115a41187f82e7ab554f39ee81",
+        "Genesis 12:19": "257126fcfd5a51fae6243a39e162561736572988b44f8e14bf8857be51c3d98d",
+        "Genesis 12:20": "af8ade991944af92efd18202e1cf24db5f42f4e156a3af29dd05985e7ba6eb2c",
+        "Genesis 12:3": "8b86a0eabbd7c6b64eb7b162bcc5da7d2c5e3e0969bb17f06b07536d5fcc8cbe",
+        "Genesis 12:4": "d283de9be65f04a03c51ff33203e998b8c440e3a12f3d7aa009a80c75b98b573",
+        "Genesis 12:5": "3f3ba06d5ef17b9d0a575dc6166ec4149772a5c7ac45bc75d0eb3026bdbf658b",
+        "Genesis 12:6": "679437d65773362e18e401a21f629bb7f655d2ff6f44a614f552fa2c9717d80f",
+        "Genesis 12:7": "b3d69745ad1bd26973eeb082e79b770fd8a7ab4ec7ea7625fa497c02a25fa969",
+        "Genesis 12:8": "e977a601226d4102305cd6d85b9dbc7fcbad083689c4a9e772b4dc14cf844d6a",
+        "Genesis 13:1": "b348322107de97212bc934d64139ec9cd8941369df0009e79e260090c39e2e6b",
+        "Genesis 13:11": "96c3b9000dfd2682ca354f09c9d7173143445036caa24c67876d300f97ad56b4",
+        "Genesis 13:12": "9f6a0b681b1845653994e89bc5003af5d1d97e8dbe5f329a2b98049bb4753b96",
+        "Genesis 13:15": "5180350847d7edd74a6ac05d57302842122ca935e63687bed99053a31441ffaa",
+        "Genesis 13:18": "29003b925cff8b53217e83f1bf8668a9caaca718ea86572f20301b3471419f3e",
+        "Genesis 13:2": "965e1d7024f373a8449fd8dfb97347cdd02821799b15adc8f5227755d12dbfcf",
+        "Genesis 13:3": "63a79d014de8753c119653d39eb063af8633711490b79d307f5b9148935fb5bb",
+        "Genesis 13:4": "e12a4b56fa63dfa1496c72183ea5fe58f7e72ea397b51e779d3a9dd135945fd8",
+        "Genesis 13:8": "408ee26408813f290527fecee4ade7378812a31e48f43a4a3eeece31c88310f3",
+        "Genesis 13:9": "1ce884c429b177c7c6b03e3a61795e82b3d535f0e1a90b3c3568d0a39d14992c",
+        "Genesis 14:1": "c9a08b7b9077bc1d82b04d18be2b6ffa3c1237f51da1ad206348ee14560fa6f5",
+        "Genesis 14:10": "edd257b2515ee23fc61cb6a65a4203a91d13c51c8dbe494592c4f3d4317bdaa3",
+        "Genesis 14:11": "a66c72001588e20e8be566292cfe554a0c6e9bcbe5593fa228668a456ce8082c",
+        "Genesis 14:12": "f55f4625e005c901b38afabbea3001e5c911db1f8467efdeb959f7a224789bd7",
+        "Genesis 14:13": "741b700ced2ae3929f26ac48b8a1118646c8fec51c32112fef0e1d20fc5c131b",
+        "Genesis 14:14": "fde69caa91ee89b11c8e6816ac250111eef9b6ef89ffc3818dea4389bc32d439",
+        "Genesis 14:15": "dfde0efd01564986fc17410a9729508549b5aca39aaee2c44de12266447b7d8a",
+        "Genesis 14:16": "42a40f2fb6f7e0b28d5594bd995105ebadae301dc78a709a50788a23c5822a67",
+        "Genesis 14:19": "bf94592111da7e62f5b04a776f2819f4b95a8d4c7eca3e10f61617ae82f5b352",
+        "Genesis 14:2": "9d041a00795b132e57467af1e89e842ccdd39835be5d68c1bc14781f145a66ea",
+        "Genesis 14:21": "1ce9cf71dffbb3c540d06355ce09e226dee49ba0d67511a1f804130ca7cc4ca2",
+        "Genesis 14:22": "c649b9ed198cd3b9045466044b5381cd77fd1d3e4a16efd15c858b02b9b3a12d",
+        "Genesis 14:23": "c13bf723ff7fee0c4e79f629255cb3b90eed5b3406adf2f7ed430811f425b98c",
+        "Genesis 14:24": "e6f4b1446e587194a48aef45add0c6a50a9ca717196c7d87205c3b5a8377839e",
+        "Genesis 14:3": "8bb912cfcb8240d1850d0efa5c806330b1d113114061fe84ade79040858fd7b2",
+        "Genesis 14:4": "4088320ae285671fcd9e051ae39ec407b1ac897b3ac90a879125c6c66b3043d4",
+        "Genesis 14:5": "664cf9d0e699194b9a3bb4d0a720f2a0117af5b0f295d8a424c7aa1a86325e8e",
+        "Genesis 14:6": "9b53da0a5763f9c14a61a7a7d0dbee035ff1510fc094d1364ecca1c9ac3c624a",
+        "Genesis 14:8": "410b5dfe7b426f81cd4fe7da301b6365c606fd91ac8d81295a3e390a32c93dc1",
+        "Genesis 14:9": "2556a08bf1c9cdfd9fb191ff8f61e187c0beb23f5fdc8b9d94d7596cf191f89b",
+        "Genesis 15:18": "26e184dbd817799ff7731c7e62e1396f8e62ed1046246f315449d8ede9cf04c1",
+        "Genesis 17:23": "76cdb4c57e3d48c3cd4ac6a235c2dbb0e46f009db04e0c75ec455834b894d8bc",
+        "Genesis 17:4": "e7e8a23a0388d0eae6757558cf0b7985f3f955211ce82426bb43309154490e23",
+        "Genesis 17:5": "f718de40149140cce3ada9d04b5daf255881faf6d33c13649f69180effd0b03c",
+        "Genesis 17:6": "f0aa9110a4a401f3c0d46c017f2f73bd27f75ce9515bbbec8178f2eafba12bf5",
+        "Genesis 17:8": "9e0abb711a3e3c6f99839136913aa3ce67f623f81f4e636fff02c40d87981be2",
+        "Genesis 18:1": "cf23a1afd4d6461286e4c94798fc7f3e65493e96d2fc21bd33aa744c96c98200",
+        "Genesis 18:18": "e99cdca67d05c4a23347a452c35e7f93f2a1de52c775945ae6908c801199d819",
+        "Genesis 18:20": "1f0f8ba7b432d3e9fa3fb00875765b497fa77168055ac4084bbee5ef14dbf466",
+        "Genesis 19:1": "626db31ae02a22799036f8bbfe301beaea4cb6ed997a24eee7ba5e054cfcdd4e",
+        "Genesis 19:22": "283f4cd5ba87b2afe3f315af1fddeef5955d262148278d3fa006f3a79dae7906",
+        "Genesis 19:23": "080c87431a19d824bba1c6c309bfba3e4ed767b388bd2aa1a3df8eeb49ed7c70",
+        "Genesis 19:24": "ca925fbb3d95ebcc3b5cd2492b07b6951f30f1185ae126971d93245143ed9812",
+        "Genesis 19:25": "49ee3172cc2786f7c328727dd8a582e58501b8a86a0364161f7e5a0f3fe679f0",
+        "Genesis 19:4": "5be2f6dc789daac45a49386dd21ec48553524fd178f9be8ecf1e13283b8fc329",
+        "Genesis 19:5": "722de4a468ab733b15c9508e7992f29d34db8b293db01e34dedf019b4e793d80",
+        "Genesis 19:6": "577862d033240763da966e78ba8a17f3acabb7b18c9ff9fc332639bd07103c0a",
+        "Genesis 19:7": "7fc109a0ddc96172b66f2eea3fee0db86dbf356c2580489c86e5c66d81c83e8e",
+        "Genesis 19:8": "f3acb6c0d1ed43c002dd919097a6c3e1b800247845a7e4c6693ddd2f7794ecc6",
+        "Genesis 19:9": "0f69e7796ae33e536a13e6c40f2f96297cefb84009094f92765770645eea73b0",
+        "Genesis 1:1": "7af8a98f1aa740861bc862931805b296e7167ba996df2c3f57845ff590b26e53",
+        "Genesis 20:10": "607763be553aa5d8aceb86d800f5ce399fd974bdcdc0329ca597c34599b19acb",
+        "Genesis 20:11": "f907e03cead4fcf29adf80a6f32a842ffa64b1f6a141ffd17338953f7c9fe617",
+        "Genesis 20:12": "fb2284d0d06f597ace3ff2cfbef599f2df05712d54513ab21a5242dd0aba8068",
+        "Genesis 20:13": "507d33c962fc46c39ef4520adfc904ac6341012821f00750a057819520797da3",
+        "Genesis 20:14": "e03bf66afbc7e629faee6e7789a521d7c87f039256746fe0190a1ad3f0998670",
+        "Genesis 20:15": "999d7e5d001925af6b59aa1c0194fb10c96f7483730df6ccd5e556b855e8e07b",
+        "Genesis 20:17": "945d399375c6cea6dcff9c03ea9fcea1deb7fa29d21fecf2ab723b3e69f43e21",
+        "Genesis 20:18": "d42ff6ffdef40ce54f30af10145853fb16a3bf90bc2cafc3a085d691cf109bbd",
+        "Genesis 20:2": "3ae1ece6acf86bf5dfaf41dd158b181d3c088b6de26d5525377daeb73574ef98",
+        "Genesis 20:3": "6190d79627e24b42a6a7e5e714b3329120ebefb3c22eb592e12e16f529a10fac",
+        "Genesis 20:7": "b701771a082f45cb4652a938551bd3d66aef219cc563dabaec66efdd79e85c54",
+        "Genesis 20:9": "88829c11922f64ea174435f92e60eb5ce3092e29a17f738c0ef4aef6d013815b",
+        "Genesis 21:33": "4e444b824075d3ddc56b85ade41405e905bc3f515add7dc3d4923bf9790d5ae7",
+        "Genesis 22:17": "b4d69a05560aa4dc63a2e5b53d2fe2b60768fba88dab9f1fc84a6bcfeb7787b1",
+        "Genesis 22:18": "84f9c90590083cd32f0d9d4ef6c19a51c7312a2281f82b098fe809419aee9943",
+        "Genesis 23:19": "ebc7cdb71b77530a22835b5aac8c1ec1f781a5622f072f5b3327d5110ddf84fe",
+        "Genesis 24:3": "7f37f0175ea501857f21de47dd65ec559b13a3f4a95e65b2f9eb43b28b40d03d",
+        "Genesis 24:35": "a0f875ef35856e3d5f83d09ffed46260b2e217c1a9d4f699b0fd6608fb8545ba",
+        "Genesis 24:7": "83d4de92cf0c2a58fd5d1909a76b4ef06af675ec8dfd986d4f429ee709fb1e07",
+        "Genesis 26:1": "f21af25c01598eefc83d0f2f136baf5b23e94a319466c3ea4be22fbbed809a43",
+        "Genesis 26:10": "eec9829f3e03ba66c0175c9e8d95d83ae9c725e8c1c818fe6e44835bb151ef6e",
+        "Genesis 26:11": "bd8b9f2d4f13194b682982255d2a501c47e32d68ce16d183afd99946268f36ac",
+        "Genesis 26:19": "465dffd577151fead0bc4430aa6344807ab0944e8a58201329ec2380ff9eea12",
+        "Genesis 26:2": "7dd14e8b4478ef9399e63d8a81dabbd68bbcf1c33e4e68c60f6e7bf09ebaa80b",
+        "Genesis 26:20": "40140b71f01c928e330ab948195385a85d37de7536021947e9a330f949aad290",
+        "Genesis 26:21": "2c13ad1a7162fe4ba1c5182bcff0c73ffa0f50fe659895e4ee9b6020e7395452",
+        "Genesis 26:22": "0bcc7eaa243c96ce450f42e63ef485347d5412f00d67777c2532c95194346909",
+        "Genesis 26:25": "b3eecac8ec9476dad82e82c61f7491f331a7da435ec78b9b67d603b2072661d6",
+        "Genesis 26:7": "6b7dfde93e289497c63bf22e47a93766e8f6ac84e53601b74bec5d88a9aae974",
+        "Genesis 26:9": "ea27763e3964ec3546458968f457a3ec4d547deaaa3839a763bb2c421da99dce",
+        "Genesis 27:29": "ec05f49a5511a1b4346f3426c5021202c40ec275a5803f182d54ca97bbdf9572",
+        "Genesis 28:14": "76ebe9e8231b2706c1e6c4c933a7318f3a4c148663ce7cfafc452089aa6c167e",
+        "Genesis 28:22": "3e233d19ed4751aedb595c306f79672a73bb0388db12f4ce41a305c319a9ea40",
+        "Genesis 2:10": "44b79d75873925af0ac7fbc2f91854b10b790b05157268a1dba0e7b616541fcf",
+        "Genesis 2:8": "80128a76f1a7340c77a947654df378c99ea307c07875a1615eeb8e75a53ff6b9",
+        "Genesis 2:9": "40761656a438d312dacd81c3b1b4727ccda4bc495bd3838fdca8a43c8db45c77",
+        "Genesis 33:18": "2b8e8f1e4bd1e140abdf03b9c7a4e40d3c6fa1d7f038b1d1627109cfc1688090",
+        "Genesis 33:19": "24bc51817421e336930d62b509929d264702cd54c97c5444e0409a8ba2755850",
+        "Genesis 33:20": "8bea02be57d9ab9c5515890994793d87f2aeaab872bf23bbbefab3fd986dc6f5",
+        "Genesis 35:4": "5238afec9f643e77ecd4edf83d2794725b31c07b655543ed552c6a7fd3fc3b7a",
+        "Genesis 36:20": "7949efc5aff1263b637b2fea1fdab5cf8a9181a9fc0f93c57046cc15a6bfe045",
+        "Genesis 36:21": "96d1c5b133a702b19b64d79a232abc3220c1571dd5ec47daccc5be326c0284e1",
+        "Genesis 36:6": "0409a8da041d22a1e9e4b8fbf9fd0a1311211acdb137cbd5ee137f103b981824",
+        "Genesis 36:7": "a70927c805a212cf88026df59d69d0701cacbc4f5ba05796d399cda1a250dc82",
+        "Genesis 42:1": "6e99eaf02e2b5c972ded089a4236e88fb2beb23a3ee02dda72c61939d4e55726",
+        "Genesis 42:2": "9d7fda3cb7321548f50f1ff1fec6a03f770a9bdae9f99a585066a0a76fc11f7e",
+        "Hebrews 11:12": "cba1f2ecda0d75b73f01a7a36753b4eca68ba138fc86ed12934bba991571373c",
+        "Hebrews 11:8": "edd82a7d9ad1b77648fb74efd03cb6f8ffd95b4da6f39d49c1b38eacaac80852",
+        "Hebrews 11:9": "a829b060a2a6a6be77572f59fb9bfe81b5895a72fbd61431656bcfbd1a2b474c",
+        "Hebrews 6:20": "406e5b8d69337ab350c91d8ec7b3a2eb3d439ee16831e2ac2fe6a8398dee19d5",
+        "Hebrews 7:1": "6254b6cfe2749f45cc921cdb762fab39f4595007b73b5d525f72e8ef00c480e3",
+        "Hebrews 7:10": "7636c6893be94c325aa0c82d349f8c204037ba7c104c0f286f761a156442d398",
+        "Hebrews 7:2": "d82dd035945456af8bec3c394078b36e17bc77da095f838103c5ba55636f955b",
+        "Hebrews 7:3": "7130e7d9de4e879634e2f366686ee1c4f4692c34615440c8f850a1c4cc3d4cc1",
+        "Hebrews 7:4": "156c0f42a622324b5c1f09d7245dccd0020d07bee0966f8a2c0d6d8143cdd9ca",
+        "Hebrews 7:5": "7e3a0020159e9402cb52b1f3a4dfa8a4c05a7e6b283d1855bd61b5b50e93a388",
+        "Hebrews 7:6": "ccc29d3849b810f717400457c6aad8113d35addbaef6678df2c880f12b062971",
+        "Hebrews 7:7": "4722a88d956a8cebcf6dfa9a1d0f4a7be71206501fdd708643df83f2e9063fb8",
+        "Hebrews 7:9": "b781a84542d9e50bc4b1e1a92172d6d0e25c232e9bb2bbe1010c04b17374f88e",
+        "Joshua 24:32": "9ac00f51e67e2b02547f0475a21cd59c2aefc11c27ca3071729d51f1199d3eb3",
+        "Matthew 5:9": "94449e3bf37e18ec5818b259d97defd55dcecf7dfaf398382c31aee54345bd74",
+        "Nehemiah 9:7": "4c45ac0af67e631bfd29c1237af39aea757ee535de1bbe7a82757587488aec35",
+        "Nehemiah 9:8": "5699fe9ec7746dcc624b683fc0ee6a936a45b4285e45829f1ef9391b867d889e",
+        "Psalms 104:14": "801a5d0fc38ddb65049ec7dab5092d884465e741d3307df89871c3006586626e",
+        "Psalms 104:15": "5fbdd7f80e6389cdf2bc02523e15966547202cfba2e82349df0b735850cb0028",
+        "Psalms 109:4": "3125f364119463cf789c56261825f27899cedc41de0c952d723750131e5151a8",
+        "Romans 12:18": "9d65fdd07a95cd7a30cda3737678851f4f4868f94ccf42630dad8c6e72f6ae77",
+        "Sirach 44:19": "cd567bb3b8aa000b26e4511e57101419f702f3e6c137f21a752f43efcc6f4779",
+        "Sirach 44:21": "ac8cd992f80667c1c21f2f2ac118b1b38c7678af95520ce69f30337ab2ffeaaf"
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex (AI-assisted editorial review)",
+      "reviewed": "2026-10-28",
+      "checked_at_utc": "2026-10-28T23:49:08.456908+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        15,
+        16,
+        17
+      ],
+      "source_passages": [
+        "Genesis 15:1-21",
+        "Genesis 16:1-16",
+        "Genesis 17:1-27"
+      ],
+      "source_verses": 64,
+      "completed_pairs": 158,
+      "chapter_counts": {
+        "15": {
+          "source_verses": 21,
+          "pairs": 52
+        },
+        "16": {
+          "source_verses": 16,
+          "pairs": 36
+        },
+        "17": {
+          "source_verses": 27,
+          "pairs": 70
+        }
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "distinct_target_verse_units": 172,
+      "review_method": "Read the complete supplied English source chapters, actual retained target passages and necessary context; reread proposed explanations against that text. Particular later interpretations, narrative outcomes, covenant forms and ritual analogies are explicitly labelled.",
+      "second_editorial_pass": "completed; corrected Genesis 17:4 category so Romans 4:17 is not called an exact quotation of that individual verse",
+      "source_books": [
+        {
+          "book": "1 Chronicles",
+          "records": "1-chronicles/verses.json",
+          "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Colossians",
+          "records": "colossians/verses.json",
+          "blob_sha": "5e135d4d842ec8c19239abac374b1cbb547e0844"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Ezekiel",
+          "records": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d"
+        },
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "James",
+          "records": "james/verses.json",
+          "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Luke",
+          "records": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        },
+        {
+          "book": "Sirach",
+          "records": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+        }
+      ],
+      "additional_sources": [
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Genesis 15:2-3",
+          "note": "The supplied reading names Masek, the slave woman born in Abram's house, and Damascus Eliezer. The review does not silently substitute the familiar steward-only wording or resolve the source's household syntax."
+        },
+        {
+          "reference": "Genesis 15:8 / Hebrews 6:17-18",
+          "note": "The Hebrews link compares divine assurance of promise. The oath discussed there is not claimed to be a quotation of Genesis 15; the surrounding Hebrews quotation recalls the later Abrahamic oath."
+        },
+        {
+          "reference": "Genesis 15:9-11",
+          "note": "The birds requested for the covenant scene are distinguished from birds descending on the divided bodies. The source says Abram sat down with them at 15:11; drove them away is not imported from another edition."
+        },
+        {
+          "reference": "Genesis 15:10 / Leviticus 1:17",
+          "note": "Not dividing the bird is a particular ritual-handling comparison. It does not equate the covenant scene with later Sinai burnt-offering legislation."
+        },
+        {
+          "reference": "Genesis 15:13 / Exodus 12:40-41",
+          "note": "Genesis's four-hundred-year affliction prediction and Exodus's four hundred and thirty years of residence in both Egypt and Canaan remain distinct. No harmonized chronology or textual-critical resolution is asserted."
+        },
+        {
+          "reference": "Genesis 16:1-9 / Galatians 4:22-25",
+          "note": "Paul explicitly interprets the two women allegorically as covenants. Links are labelled later reuse and interpretation; the Genesis narrative is not claimed to state that allegory or give a new general prescription of slavery."
+        },
+        {
+          "reference": "Genesis 16:12",
+          "note": "The actual opposite-all-his-brothers wording is linked to Genesis 25:18. No modern ethnic or political identification is added, and wilderness residence is not equated with every conflict phrase."
+        },
+        {
+          "reference": "Genesis 16:13-14; 24:62; 32:31",
+          "note": "The supplied well and place labels are retained: The Well Where I Saw Before Me, Well of the Vision, and Form of God. Related seeing-and-naming comparisons do not claim new Hebrew etymological or geographical verification."
+        },
+        {
+          "reference": "Genesis 17:1",
+          "note": "The supplied divine self-identification is I am your God. The review does not replace it with Almighty or claim a newly collated divine-name reading."
+        },
+        {
+          "reference": "Genesis 17:4-5 / Romans 4:17",
+          "note": "Romans quotes the name explanation in 17:5. The link from 17:4 is labelled reuse and interpretation of the multinational promise, not an exact quotation of that individual verse."
+        },
+        {
+          "reference": "Genesis 17:14 / Exodus 4:24-26",
+          "note": "The eighth-day clause in Genesis is preserved. The Exodus comparison retains its angel, circumcision statement and ambiguous pronouns; the review does not identify an unstated threatened person or replace its wording with a bridegroom-of-blood formula."
+        },
+        {
+          "reference": "Genesis 17:15-16",
+          "note": "The supplied Sara-to-Sarah distinction remains. In 17:16 the later blessing pronoun is him, the promised child; it is not silently changed to her. Nehemiah's supplied Abraam spelling likewise remains in the target evidence."
+        },
+        {
+          "reference": "Genesis 17:17 / Romans 4:19-21",
+          "note": "Genesis reports Abraham's laughter; Romans presents his faith in the promise. Both statements are retained without substituting a psychological diagnosis or erasing either account."
+        },
+        {
+          "reference": "Genesis 17:20; 25:12-16 / 1 Chronicles 1:29-31",
+          "note": "The promised twelve nations are compared with the later twelvefold descendant record. Variant supplied name spellings in Genesis and Chronicles are preserved rather than normalized."
+        },
+        {
+          "reference": "Genesis 17:11 / Colossians 2:11-12",
+          "note": "The physical covenant sign and Colossians' circumcision-not-made-by-hands interpretation remain distinguished. Genesis is not claimed to mention baptism."
+        }
+      ],
+      "candidate_exclusions": [],
+      "unresolved_cases": [],
+      "target_verse_sha256": {
+        "1 Chronicles 1:29": "dc97915f302307517696cf1c5954876b3a1a8221cc8c13320120178db1fce724",
+        "1 Chronicles 1:30": "30935262c624ffe077fdf88e000309b77084d6d0663d4a77c2f191ece0e94cb6",
+        "1 Chronicles 1:31": "4210d9d9c47fa386fddcb0b4f0a544d1e79d497fff9a755988e9412f4ecdd03f",
+        "1 Samuel 15:6": "c0513ef0ccd553248792c351a29c4eed63f03d672386325fecd80f87e13d4a4c",
+        "Acts 7:4": "e5304e9ab3d801a49249a050702b2fd45fa977d78e71de6ed3688b78bdba5f2c",
+        "Acts 7:5": "a5191c25ba6f1c4869528ee75b077c8056be936d627c706bf57b42af5316fc93",
+        "Acts 7:6": "816695a0b9184b20aa40ba3a2b7195e11ed6ede274f9690de0759fddadd59235",
+        "Acts 7:7": "afe6c3ab0f086286cb0777248cb8bdce1f1c8b2ee81976c506210769fa7fa29e",
+        "Acts 7:8": "6a06cd1c50ffbc2e317c692603466a8116603ed08057d4593c0117b36ca6424c",
+        "Colossians 2:11": "d7b9ad29c87ef2dfb61c981dda976d6d7d25b45741dfb3f2e0e52d94512b598d",
+        "Colossians 2:12": "5eb42dde379c85d0df725bd1262366056e0c8547f0c3d1fa29e90e8a1a258b6b",
+        "Deuteronomy 1:7": "3c250d70fd69797032b58565572664e455706358566d219d3d07ca30af0f16b5",
+        "Deuteronomy 1:8": "d66be0c1bcafdc66a4ff45341a73775e0ea05d77a4ac20b2f9d1ed26e2cb94c7",
+        "Deuteronomy 7:1": "aacf360bef26caf9288de8147fddbc6d18b81686f1c8bd4f134aeeb3e6a1daec",
+        "Deuteronomy 9:4": "ec2937f5389fb1b139f6223079f8636cca442df9e84b2f1255fe8d2eedd4fef3",
+        "Deuteronomy 9:5": "244673f7411d7cac80cd0b28a23b7600064a2532b3808067fcf6740942951872",
+        "Deuteronomy 9:6": "faacf23c9fc4aa431b8af2ec906bc4d90f4691a4f6d9f1c66856aaa03a8fe777",
+        "Exodus 12:35": "084c63a8d008c12b1dc2383df30a150ad9e9e0bb1658c631a23dadc86eeb62f5",
+        "Exodus 12:36": "0bf3e0ac465e8b69bfb31f306c3afd4cd6b38b003e97ecf2b4d2fdfa88018c03",
+        "Exodus 12:37": "649ff9f0c354fd0b709279e2b0c6482591fa808c95eb75e2a7e8f61b6488e530",
+        "Exodus 12:38": "9b62c7955b23f846930b04c7cad02d82d3e731248db0b65822af9a5ae7d23371",
+        "Exodus 12:40": "683577541ef1ab3a89acc6e587f211021d82c08dc6925a0c2bb09b2b331c85a3",
+        "Exodus 12:41": "170354869db79e911a5940b728257b76b12942bc37c2a6d220b41c93a719552c",
+        "Exodus 12:44": "f79eea8dd23b97c3ccc5356a693b7b45729581a9ea440e7b59e9a13ae8272d63",
+        "Exodus 12:48": "07e180cc69afe2c9499ea38004bdeb83f4afc479c48875fd2b9b7dd39e9f0e37",
+        "Exodus 19:18": "7b0327eb4d120a307f3b8ed2b72e051fbf7f3bcff9fd566732a3552f272bacf2",
+        "Exodus 1:11": "224ca65cba087f27b5aafa4404fc8d066fc7796633109410778351c555a5575c",
+        "Exodus 1:12": "c710c857d803bfdca57fedfc41c69677fb961690592facbaf9ddd2af080cb224",
+        "Exodus 1:13": "dc89a4d6ef06f18ec4f9b70eb46829f30f9299e4bbac6a2d27455443f8f37a4c",
+        "Exodus 1:14": "47a905ab015103b08689632894a739d4ae30110c6b48e8284330661c1414a04b",
+        "Exodus 3:8": "b69b47b56dc74bc8742d251c7a7eb2a84c4f7fb3fbfe023f421f9a6a3f115269",
+        "Exodus 4:24": "4fc27175ea5c2cfbeb4e76c08a30d4355f6b265d4a19acac5acfc3600e311def",
+        "Exodus 4:25": "95c238a7179cdc0272d316f3071c10a66262218ad31087c1997a490ed52abf3d",
+        "Exodus 4:26": "80dcf7963a6ee273ee68199514df1e05499713d70424f2ed9ead7ad7aadc97f2",
+        "Exodus 6:4": "11bdad52985011cc3a575999d086a25745d0499b174d8b26aaf80ee787e24932",
+        "Exodus 6:5": "928b4281ce83b17ca62a55687ce01bc81cf777938437aec02a5914bd5142cc8a",
+        "Exodus 6:6": "0f702baa11a8cfb474f941bc01a1b4f59893fbf9f283178b32a41098c23b91f4",
+        "Exodus 6:7": "ee309a57fe0eab59b39140044ef940026547232b11fd4a4fc672e23b752f89bb",
+        "Ezekiel 1:28": "88a5a1a481e993c9be693a934a2d6caf40b0d61ee0f2a9c283f64d940dda1d2c",
+        "Galatians 3:16": "30cddeeb788b08635fbd5656f59f38dcdd5aed3665f50809d18812cd2f57a59d",
+        "Galatians 3:17": "a226a6a658ed0fedb7e349c4b1a6f5bca2ddf66a935da5984055e1e036201294",
+        "Galatians 3:18": "6161482b600785025d23666403515478c3b24f5eb521e2efe18a617e0939411e",
+        "Galatians 3:6": "5c66a796624e8f8937df874e386abeb0660c20a3e9de50741b3266cd4e7dd949",
+        "Galatians 3:7": "6ed9b61689ff33f7e85101b3d410e1aa6da50f17a5ca7ce4a5483a75849b6523",
+        "Galatians 3:8": "6bdd73dcc42f231101213c31f4e69545c66af8e7c64e640d618ed038cee1261e",
+        "Galatians 3:9": "ccc5da29343dd4494140a7f6c3b9d5fdb404df518d8ea38a53193625ae76b1d6",
+        "Galatians 4:22": "3e32297ccdb09952cc716df06e1c7ee50390c2ce7bf5ded2f685ade742d287c1",
+        "Galatians 4:23": "4b26a829d1d38ccd4cf069a8a87d7ec784e1649510dc64d71c5e11d218c3e23b",
+        "Galatians 4:24": "45f5ab678014a81119a1bc04b70a6d08b2383c166b326aef031cb2f264e6b139",
+        "Galatians 4:25": "98d7691b9662957ba3074e64bddab55e9305c97e98dfdf487d14ea143492e8ea",
+        "Galatians 4:28": "62f1df6baf6905d94b7cd748c1fe05a161d411fdf6547841dce5b01a1bb62771",
+        "Genesis 11:30": "7f2c17cecd830f6cfe2b01b8d0889510a7c74626a12512191a10df97c0a7e66c",
+        "Genesis 12:2": "e759ed8dd01171bec219dc5e01acd901fe9b996c10e2eebaba19d502873d8c08",
+        "Genesis 12:3": "8b86a0eabbd7c6b64eb7b162bcc5da7d2c5e3e0969bb17f06b07536d5fcc8cbe",
+        "Genesis 12:4": "d283de9be65f04a03c51ff33203e998b8c440e3a12f3d7aa009a80c75b98b573",
+        "Genesis 12:5": "3f3ba06d5ef17b9d0a575dc6166ec4149772a5c7ac45bc75d0eb3026bdbf658b",
+        "Genesis 15:10": "2dde97e25fcfabc8a93254452d6b0c0e365707b32a4b70433ec2f730aff21784",
+        "Genesis 15:17": "4839596f8efe1169d206a502ae11e83d180e4eea34678ac1091be0858d00601d",
+        "Genesis 15:18": "26e184dbd817799ff7731c7e62e1396f8e62ed1046246f315449d8ede9cf04c1",
+        "Genesis 15:4": "abe4b669585de0b87d37138e7ed3a0111b7af073248b0619ecffae7c37ecd11b",
+        "Genesis 16:1": "43ed1e81042186307f0fbb38d0e734b8b00c5988333875984a519e519ecfcaea",
+        "Genesis 16:10": "14c70a0e2453aca6a4199e7b2cb914e0945506f47a9f04dff44be43c94b3397e",
+        "Genesis 16:11": "1b52471f4c3e95736225d9dbd6d6ffdb614e2a44acdcb6bc891fa7efc6ae783b",
+        "Genesis 16:14": "0cb3b4cd2138b5cf5e89f7ac656380ba6d8cbf5e1b8665f8c5c1dee712adda6e",
+        "Genesis 16:15": "5dfd87cc6be34b4f00731fa63a315fbfc85d50757800286a29c3b8f392cb6d8e",
+        "Genesis 16:16": "23d0de1fc3e337526b773634baa044bf3afcab68a1e9ab21865712239f90e187",
+        "Genesis 16:4": "f32442f13652662b386a0995102ee3384a9df519063b21d3529af8fd578337dc",
+        "Genesis 16:5": "e90cf79ef2b8135d21759f46a40142344dcc15a5d39328a9e12bba26b7e90f02",
+        "Genesis 16:6": "8b81fb3eb08987b4902c5cc02cd62c04a7ffd25b2e5a923f6d0902e33a2db9bf",
+        "Genesis 16:7": "32216d48fc86c20e5007c6c49cf10a33a23023ae41ab501cff03d744495af827",
+        "Genesis 16:9": "c0807c9e8423f3401e82db84df61c767d6869fbef7c5e855b69c25c575142ccd",
+        "Genesis 17:1": "844825fb7f9f7385fcca72033388c2515be1ddb682e787b933b8f6e745e8089b",
+        "Genesis 17:10": "7e217fbf5826ccb2116cd592815d92d2658093f58662ba17597bc8379b0fa25f",
+        "Genesis 17:11": "af5172136041429fc1ff520a110b418b3749e13b6a1fbaa0b38dbec03dc280db",
+        "Genesis 17:12": "cbce8c76d4920331a6e694088e49b9b83a62608c00b079cbc97ffd3868abc6a0",
+        "Genesis 17:13": "d9f663dddc588d3d4c58783414883633a4294b08b2766cec9d571533ff5ed142",
+        "Genesis 17:16": "0b5153b6c4f49bb1d08328db8bfbd9e7373b8374d1e439753f8675b8cd4c20cb",
+        "Genesis 17:17": "972c381532166c69af92bec85afa93265c78517fc9e203b33e9afdfcac851cca",
+        "Genesis 17:19": "f2bcd5417aaf4d725b6c442345c3c8d44500f11ff1747fc3bd2f1d672a16ff72",
+        "Genesis 17:20": "f2ecb14cb57fd66c09a84c1026feeacd6bdeb115ada2a2d352caa59b9f1756ab",
+        "Genesis 17:23": "76cdb4c57e3d48c3cd4ac6a235c2dbb0e46f009db04e0c75ec455834b894d8bc",
+        "Genesis 17:24": "337be40efb86b69f919412be15f238f996b6fc96e0abb4095af78977f7b1ec04",
+        "Genesis 17:25": "d9574b2c0ff4526aa1746d4f97c93c2cb649915d1605db5e57516b8fd5d0a684",
+        "Genesis 17:27": "a9a539b1706b5e194723d2635aa643a2d475d9de590ce5b0238c9ee285929a9a",
+        "Genesis 18:10": "b65d91f71ff53d2219b54c90f48cc36f3bda838f9f2c7fa7758d498aa20af7d1",
+        "Genesis 18:11": "20f7b496bcc96e03a5fba43cca9d625b68ea4dc3b45cadc48f281811ab6d0d3f",
+        "Genesis 18:12": "db6938de7c63b35cbc08425b83ba6d88d309a9565a76c61a0592a1e619285ba6",
+        "Genesis 18:13": "9a5fc4ba8b684add47fede75c41eaa6d56fb07f4002debbcc581b57e90d8b99c",
+        "Genesis 18:14": "9bbe20bc48ce756c00db5f18a5d9efa1a4d9aa986953cf67fe549732764ada9d",
+        "Genesis 18:19": "e814f8749720d67c748a5fb5577f68a79f27234fb8ace374ea658bb24d7b98ec",
+        "Genesis 18:33": "d84c995fd6d8b59232dcf59ef6ffa856df50901132e4ae1658302564effe3751",
+        "Genesis 21:1": "846393a122e6e7fa413e68180e84a654bdcbe8e860257dfeab88d5b5b6cd0c5c",
+        "Genesis 21:10": "6904d44b700d9699e7d83069702e0cc6f25711772936cf89c9a9fb95121d248c",
+        "Genesis 21:11": "936f273419bea0d918d235afe8b8cd4c3d0735d7881a4d6dc67fd2575bda386e",
+        "Genesis 21:12": "d4a059f8dc17ce156bf7bc2d4f70a97d80de3a239da3dcc1090b9b431e99669b",
+        "Genesis 21:13": "4e6de0caac5a24f7b4c746f5976283662df275e9733b3941b0d509387662ab8e",
+        "Genesis 21:14": "b2bc0d5a1b647158270d13d33274c1584d31f6046c14fc66083d829f42239cb6",
+        "Genesis 21:15": "25b622a2ad99f025b0923fbad3c9b9d94ee6a22f270dd4c48171783a559e185f",
+        "Genesis 21:16": "0a93ce8effa4699a0e6a4a26fa18a643a84ccb932130f45dfae69a32fdb325d9",
+        "Genesis 21:17": "3f794d0095211147b6bb5e3963d076fe592f3ac4d956afc42431dbfe11282e0b",
+        "Genesis 21:18": "31baa45f27b66e4464fd727af45cb7264d61c74491d6372c9c839eaa54707ec0",
+        "Genesis 21:19": "eaa49a793068e6cac2e7e331ccc8d3c9d29de698c0bb88cc73fd641719da5412",
+        "Genesis 21:2": "184ce2b71dbc820f43bfd1f6f8b5e9d2e89525c59fe22f49ed287aeec8b96634",
+        "Genesis 21:20": "1aeebf702595d730852f5d321db0cc512fcd70400b19e0e95f058c2206bf0589",
+        "Genesis 21:21": "d3d661fc67ae43558aa4d0d627e844668e54fa399c9d53c02720cad53aae87fb",
+        "Genesis 21:3": "0db91d921dc79ee7d0133047ef78599217e07f54980dcb3f86b2fa21c39c4411",
+        "Genesis 21:4": "654f18fc63a4f1bc752683c6879fcd0636da31e7b507229708ff0a5ea4c575a1",
+        "Genesis 21:5": "d8d5eabbe151011c34d601f05fa080e8023a73fb70c3ff1004bad672f98af691",
+        "Genesis 21:6": "38e97a98f9b107971dea4f721ced0afe04bce6bb0d654bc0069979859b4322d0",
+        "Genesis 21:7": "14183672a4daa5aebf0fe5bd27c8c8dd58858e0c97f428addef923b56f5cf6fa",
+        "Genesis 21:9": "c3c0bd0ae2a1419019346417274109a894c49d671929a1442a1968378eeb84aa",
+        "Genesis 22:17": "b4d69a05560aa4dc63a2e5b53d2fe2b60768fba88dab9f1fc84a6bcfeb7787b1",
+        "Genesis 24:62": "a54f29c6e05d4c36bb4398db3ceb700aa15a19eca3d37d82971e74ce91c23379",
+        "Genesis 25:10": "1634a0856ebfc5033fa7f6561573084cc696ed55cbfab46142a6827546bc3d4b",
+        "Genesis 25:12": "9383a61f480e54b4caa880400cf11da110cffc4b0d5d3583502ec90d910808eb",
+        "Genesis 25:13": "da7c56bcb6753385f4b9fe8ed9a2a6a0084ddcf21e4fc0e9fa07f117e35afda2",
+        "Genesis 25:14": "47689806a8c4d00f722d62ef30b506835940411db9800799c4bf94bdec3b82d9",
+        "Genesis 25:15": "78e660e84fc6bcd3dc9f7c63b7d608866611acf13ca2052a2ea785a078a73bc5",
+        "Genesis 25:16": "892acae0a3c5258a085e4731059e8317033d6efbd5154d56d50d0ae2fc357ed6",
+        "Genesis 25:18": "17825dae683f0197f4af921a4ad348cecc7aa1eca75b17fde8b645db0391de73",
+        "Genesis 25:5": "6ed74af965f2d9e849cd0eee215f9b2963688d4fb67bb7dc46ca51d28311063c",
+        "Genesis 25:7": "50d3987968146733ce4553f9361dbc0301f12339e8e9779ce981cb4934b4d8c3",
+        "Genesis 25:8": "3f78548a85b6d10719ad7d44d69b387c6eb796b1cf5fbe2bdf37b25ae3b6a9ab",
+        "Genesis 25:9": "2ceb59722c8d54d7dc7a008fae5440914b0ca98203f5666543e851aa8afe3bdc",
+        "Genesis 26:24": "80a40cbcb9ada3c84771f293a7691a4230f9fd07ec59d40c3b4f56fe53933957",
+        "Genesis 2:21": "a76cf8ed725216d027c1db3c184a3021a84a21b052b73d60d5dc83206f02b2ad",
+        "Genesis 30:3": "263af5b3a39927a01c434c517914386e4358667a8a5ff5226196ab90195da84d",
+        "Genesis 30:4": "6badad9396898455268a3175229ab0b4d2acbf1504942dd99fca9cd6853a5890",
+        "Genesis 32:31": "d2a4a52fee95cff1b89702d674dacfa3d9a1e08586b07f476e3172d46ac1cfd7",
+        "Genesis 35:10": "4b1dc02ef6b2408c5399afe1238eeaae03e7a2573b7e7d75c8be3447f650bf2d",
+        "Genesis 35:11": "ddd247ab7d08cb8d7944e0f5573a9d3ce55fc4ae15792833bb9f30f6041a2565",
+        "Genesis 35:13": "a61f3fc9d8324e1d25e5f5b82fd5acb44f56a762e1104f9a96851140b8bc7578",
+        "Genesis 6:9": "a042350eb355893d3c0eb1ecfeed39bc37ce27eaed3c4ce273f5282946d29251",
+        "Hebrews 11:11": "9f47c3cc285ec6683f0fa58f84b9587b7ce73e02e7dde02c6fbca93d2fdbf75f",
+        "Hebrews 11:12": "cba1f2ecda0d75b73f01a7a36753b4eca68ba138fc86ed12934bba991571373c",
+        "Hebrews 11:13": "d5e124ccc0e54b1d7f1a1e8f0130212b4d1926141a266c63be275b476f4d9c18",
+        "Hebrews 11:6": "5891f917c992ceabc1fabe4d172d0f8001cf8df14ae3c2781f6dbef395a9a3a3",
+        "Hebrews 11:9": "a829b060a2a6a6be77572f59fb9bfe81b5895a72fbd61431656bcfbd1a2b474c",
+        "Hebrews 6:17": "071c6c4f1eb354da71755385ec8111e4d1df67740d95beb6b123ba831d3b61ad",
+        "Hebrews 6:18": "cea77ec45e11bc0e8502b7cc012ac424efff3160f400e972022e310b89513df9",
+        "James 2:21": "6e73d1b374f8f7142369100a584001524b720b70556a2f9ac2ffa81d0184410d",
+        "James 2:22": "5c634e034ef8f5cbe5f514cee18529e63412a40001df622163726ea3e77b5d9a",
+        "James 2:23": "249e3ad6578195c3649fc57a22bc871f541465dff964e91013b2db6f2d717593",
+        "Leviticus 12:3": "5f45a7ff19963c3fa32757b5d0e7cfed3609b16610e57f014a0988cf86179c4b",
+        "Leviticus 1:14": "b735d4832e345be42571ef0b9a061d587c0beb3b7cb2fe93aba85ac4e76ee16e",
+        "Leviticus 1:17": "7dba8e7a88ac5e162c8f3d5969b339514cafb6c84b84e734058b1d1673f20150",
+        "Luke 1:59": "10b3a52beef4104fab613e04ca95eac99788f2404cbef978bb0793159cb3ba25",
+        "Luke 2:21": "0b261ec3efa1f734f43c81b426def6cc462fb5b81ef586ed7621b39f6618a872",
+        "Nehemiah 9:7": "4c45ac0af67e631bfd29c1237af39aea757ee535de1bbe7a82757587488aec35",
+        "Nehemiah 9:8": "5699fe9ec7746dcc624b683fc0ee6a936a45b4285e45829f1ef9391b867d889e",
+        "Psalms 104:10": "2bc5b04ed431392b07091d3fa63b17818de108ff8541f3162880555cc21dbf05",
+        "Psalms 104:11": "e60d73d77e12f6bb41898a63d048fe016d2dbb13860ba2fe82de54f72571127b",
+        "Psalms 104:8": "ea66b6073f9b6052e943470c2f55f3227e0ead7cb72b355444586f1a0674fc11",
+        "Psalms 104:9": "5a7bc2a432543cf56ebc2cfe1e936473f712177e63c693a073711ac4d98190d1",
+        "Romans 4:10": "9d6ef98ee8549791e9aab363aa77710253171c0d73d303f5755e589499ed59d9",
+        "Romans 4:11": "ec24a856792d5cc50e4b40a8dbc2dcfe66b279bea4383c1ec549df7aec4972a1",
+        "Romans 4:17": "e6fd408dfde9b85196e7ffbcca2d27ca4329df4f0584c1a1a11fe4ef144d4192",
+        "Romans 4:18": "7af1166718a28f2e71af6cf9d5911b80c24cf8afd7abcb53799a51065a8cab77",
+        "Romans 4:19": "4c666b43ad53cc695675ca9d63cd1f76f4ea23f088aeec2b80331fe3198aac62",
+        "Romans 4:20": "353a77ad0a3d39ed5ff9c3aea6c5e168f74c78ecd1cbed3b6669928a0f6823dc",
+        "Romans 4:21": "32b040dd9fa6a8c55e8e65fbe4e82d22142631beca886890197ef353263e4cc0",
+        "Romans 4:22": "2191770305bba5bf71964d3a32ae483895adb2b38f5e538c469b5480fe2e850c",
+        "Romans 4:23": "bb79b495daccc484ab18fec7ce5da88ef3f43443d0105f82799d0c8ca4d55b74",
+        "Romans 4:24": "f64262cfcd19ba09af0a43c1dc399463b5691237d8b9a9afc5a652b010f32b82",
+        "Romans 4:3": "6231c0e412b17cac6b4ca2c701bc37acbbb56b9f41705d22e1cb9f5c03e0b905",
+        "Romans 4:9": "80047350ad27c92bd642a20a86c9d48f454852fd6e57a81df0a8d8d780b9430d",
+        "Romans 9:7": "24712a171116cc60f79b38d010d478f7f667c95094f5f480b6fe6797a8b28e8a",
+        "Romans 9:8": "78c4ae561bc8eeac1d9aea168e8b8cf7aa3d41fdc8615341c8b4c5efb7e328cc",
+        "Romans 9:9": "3a998d4f6cc3e583b6bc1b9ecfb5c311ca82f612ace0b29c49f69502d42160b7",
+        "Sirach 44:19": "cd567bb3b8aa000b26e4511e57101419f702f3e6c137f21a752f43efcc6f4779",
+        "Sirach 44:20": "6f9e6a195da792a7ee22a373546e497b4f286d599473a77cb4b9c4e358ca85ca",
+        "Sirach 44:21": "ac8cd992f80667c1c21f2f2ac118b1b38c7678af95520ce69f30337ab2ffeaaf"
+      },
+      "validation": {
+        "all_64_source_verses_covered": true,
+        "all_target_ranges_resolve": true,
+        "duplicate_pairs": 0,
+        "self_containing_targets": 0,
+        "rationales_at_least_ten_words": true
+      },
+      "tsv_sha256": "cf0c71e20eec440f0b844e9e5b53ac453d5eba875bab86e6f91cea93f8ae9335",
+      "pending": [
+        "Independent human specialist review",
+        "New original-language and apparatus comparison",
+        "Live destination-anchor and reader-display checks"
+      ]
+    },
+    {
+      "reviewer": "Codex (AI-assisted editorial review)",
+      "reviewed": "2026-10-28",
+      "reviewed_at_utc": "2026-10-28T23:48:52.949947+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_passages": [
+        "Genesis 18:1-33",
+        "Genesis 19:1-38"
+      ],
+      "completed_source_verses": 71,
+      "completed_pairs": 160,
+      "chapter_pair_counts": {
+        "18": 73,
+        "19": 87
+      },
+      "distinct_target_verse_units": 150,
+      "tsv_sha256": "60980c9e8f222bdcefd26a8877df5ccd889a364271adb37672cc33758ff24fc2",
+      "sources": [
+        {
+          "book": "1 Peter",
+          "path": "1-peter/verses.json",
+          "blob_sha": "24498c091c777535f4a4069f62d6844c31fccc53",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "2 Kings",
+          "path": "2-kings/verses.json",
+          "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "2 Peter",
+          "path": "2-peter/verses.json",
+          "blob_sha": "4f2eb3a0b1cf30ce38641beba7e29ef2747f24e1",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Amos",
+          "path": "amos/verses.json",
+          "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Deuteronomy",
+          "path": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Exodus",
+          "path": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Ezekiel",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Galatians",
+          "path": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Genesis",
+          "path": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Hebrews",
+          "path": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Isaiah",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Jeremiah",
+          "path": "jeremiah/verses.json",
+          "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Job",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "John",
+          "path": "john/verses.json",
+          "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Jude",
+          "path": "jude/verses.json",
+          "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Judges",
+          "path": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Leviticus",
+          "path": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Luke",
+          "path": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Psalms",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Romans",
+          "path": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        },
+        {
+          "book": "Wisdom of Solomon",
+          "path": "wisdom-of-solomon/verses.json",
+          "blob_sha": "468127efad884589c0e3009ffb16ab7d1ad2fe10",
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494"
+        }
+      ],
+      "checks": {
+        "all_source_verses_read": true,
+        "all_retained_target_passages_read": true,
+        "necessary_context_read": true,
+        "second_editorial_pass": "completed against supplied English passages",
+        "duplicate_pairs": 0,
+        "self_containing_targets": 0,
+        "missing_target_verses": 0,
+        "each_source_verse_received_initial_curated_pass": true
+      },
+      "context_read": [
+        "Genesis 17:15-21",
+        "Genesis 21:1-6",
+        "Hebrews 13:1-3",
+        "Romans 4:18-21",
+        "Judges 19:15-25",
+        "2 Kings 6:18-20",
+        "Wisdom of Solomon 10:6-8",
+        "Luke 17:28-32",
+        "2 Peter 2:6-9"
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Genesis 18:1-2, 22 / Genesis 19:1",
+          "note": "God, three men and later two angels are the supplied narrative labels. No new identification of the three visitors with distinct divine persons is asserted. Hebrews 13:2 is a qualified hospitality allusion, not an explicit naming of Abraham or Lot."
+        },
+        {
+          "reference": "Genesis 18:12 / 1 Peter 3:6",
+          "note": "Sarah's my lord refers to her husband in the supplied inward speech. The Peter link concerns that designation and does not claim a word-for-word quotation of the whole Genesis verse."
+        },
+        {
+          "reference": "Genesis 18:21",
+          "note": "The supplied Greek-based text asks whether they are being brought to an end according to the cry. Its wording is retained; the review does not replace it with another edition's formulation or settle questions about divine knowledge."
+        },
+        {
+          "reference": "Genesis 18:24-32 / Jeremiah 5:1",
+          "note": "The declining fifty-to-ten appeals are kept distinct. Jeremiah concerns Jerusalem and one person doing justice. Conditional promises are not reported as though Sodom was in fact spared."
+        },
+        {
+          "reference": "Genesis 19:5 / Jude 1:7",
+          "note": "The source reports a hostile sexual demand against guests. Jude's other flesh wording is retained as a later interpretation without resolving every phrase or making claims about modern identity groups."
+        },
+        {
+          "reference": "Genesis 19:8 / Judges 19:24",
+          "note": "The hosts' offers of women are reported actions, not divine commands or endorsements. Genesis does not say Lot's offer was carried out; the later Gibeah outcome is not imported into Sodom."
+        },
+        {
+          "reference": "Genesis 19:14-16",
+          "note": "The source says sons-in-law who had taken his daughters, and later they were troubled. These are not silently rewritten as betrothed sons-in-law or Lot lingered. The review does not harmonize the daughters' status by adding unreported family members."
+        },
+        {
+          "reference": "Genesis 19:24-29 / Wisdom of Solomon 10:6-7",
+          "note": "Wisdom's righteous fugitive, Five Cities and salt pillar are linked as particular later recollections. No new archaeological location or evidentiary claim is made."
+        },
+        {
+          "reference": "Genesis 19:31-36",
+          "note": "The absence of any man upon the earth is the older daughter's reported claim. It is not adopted as the narrator's assertion of worldwide extinction. The account's description of the father's unawareness is preserved."
+        },
+        {
+          "reference": "Genesis 19:32 / Leviticus 18:6-7",
+          "note": "The kinship prohibition is a later legal comparison, not a legal speech attributed to the daughters or a claim that the Genesis narrator explicitly issues that command in this scene."
+        },
+        {
+          "reference": "Genesis 19:37 / Deuteronomy 2:9",
+          "note": "The supplied Deuteronomy 2:9 has the land name Seir while addressing the Moabites and sons of Lot. That reading is not silently changed to another edition's Ar; the retained link concerns descent from Lot, not reconstructed territorial boundaries."
+        },
+        {
+          "reference": "Genesis 19:38 / Deuteronomy 2:19",
+          "note": "Genesis names the ancestor Amman and the people Ammanites, while Deuteronomy uses Ammon. Both English forms are retained and linked by the stated Lot ancestry rather than normalized away."
+        }
+      ],
+      "unresolved_cases": [],
+      "candidate_exclusions": [
+        {
+          "target": "Revelation/verses.json",
+          "reason": "No such file exists in the pinned source snapshot according to the existing source inventory. No Revelation text was proposed, read or counted in this batch."
+        },
+        {
+          "source_reference": "Genesis 18:17",
+          "target": "Amos 3:7",
+          "reason": "Second-pass rationale refined to retain the supplied term discipline, rather than reducing the whole passage to a generic disclosure formula."
+        }
+      ],
+      "limits": [
+        "English passage review only; no new Greek/Hebrew or critical-apparatus collation",
+        "Independent human specialist review pending",
+        "Live destination-anchor/display verification not performed"
+      ]
+    }
+  ],
+  "peer_review_receipts": [
+    {
+      "reviewer": "Codex peer agent (AI-assisted English-passage QA)",
+      "reviewed": "2026-10-28",
+      "checked_at_utc": "2026-10-28T23:50:42.177527+00:00",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "audited_file": "genesis-10-11.tsv",
+      "audited_file_sha256": "f8cb98cecd45ce6c91744e79c7c80e4bfcf588e65bec09bca33bf429a9a6ef13",
+      "source_verses_read": 64,
+      "pairs_reviewed": 136,
+      "distinct_target_verse_units_read": 125,
+      "decision": "Approve after preserving the supplied Genesis 18:21 wording in the Genesis 11:5 rationale; no pair removals needed.",
+      "findings": [
+        {
+          "severity": "required rationale refinement",
+          "source_reference": "Genesis 11:5",
+          "target": "Genesis 18:20-21",
+          "problem": "The rationale paraphrases the Sodom target as seeing what people have done. This supplied reading specifically asks whether they are being brought to an end according to their cry, so the familiar alternate formulation should not replace it.",
+          "recommended_rationale": "Both scenes describe the Lord coming down to see in a city-judgment setting. The supplied Sodom wording concerns whether they are being brought to an end according to the cry.",
+          "action": "Retain the literary parallel and revise its explanation; do not change either source passage."
+        },
+        {
+          "severity": "optional clarity refinement",
+          "source_reference": "Genesis 11:1",
+          "target": "Acts 2:4-8",
+          "problem": "Genesis 11:1 itself presents shared speech, not yet the subsequent loss of mutual understanding. The current rationale reaches ahead to that later problem rather than stating the direct difference between these two settings.",
+          "recommended_rationale": "Genesis opens with one shared language; Acts describes diverse languages spoken and understood by their hearers. The comparison concerns the narratives' linguistic settings rather than an explicit quotation of Genesis 11:1.",
+          "action": "Retain the thematic comparison; this wording more directly grounds it in the selected source verse."
+        }
+      ],
+      "confirmed_distinctions": [
+        "All 64 source verse units and every retained target verse were read in the actual cached English records.",
+        "The available 1 Chronicles 1:17 unit ends after Arphaxad, and 1:24 contains Sala; omitted units are not filled from another edition.",
+        "Genesis 10:2 retains eight sons of Japheth, including Elishah; Genesis 10:28 retains only Abimael and Sheba.",
+        "Genesis 10:22 names Cainan among Shem's sons while 10:24 and 11:12-13 place a Cainan in Arphaxad's line. The rationales preserve these texts and do not resolve or erase that difference.",
+        "Combined Genesis 11:13 is retained as one verse unit with Arphaxad and Cainan material; no extra verse anchor is invented.",
+        "Cush/Regma, Sala/Shelah, Ragau/Reu, Kitians/Kittians and Rhodian English-name differences are not silently normalized.",
+        "The ancestor Nahor in Luke 3:34 is not identified with Terah's son Nahor in Genesis 11:26; Haran the man is not conflated with Harran the destination.",
+        "The supplied Deuteronomy 32:8 angels-of-God reading is retained; no nation count is imposed.",
+        "Chronicles/Luke are not claimed to corroborate genealogical ages or unnamed children.",
+        "Acts 7 and Nehemiah 9 are distinguished as divine-action retrospectives from Genesis 11:31's household departure attributed to Terah."
+      ],
+      "unresolved_retained_identities": [],
+      "completion_credit": 0,
+      "repository_or_tsv_edited": false,
+      "limits": "Independent AI English editorial check, not human specialist review or new original-language collation."
+    },
+    {
+      "reviewer": "Codex root (AI-assisted English-passage QA)",
+      "reviewed": "2026-10-28",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_verses_read": 62,
+      "pair_explanations_reviewed": 156,
+      "decision": "approved; no actionable findings",
+      "scope": "Read all Genesis12-14 source verses and all156 explanations. Independently checked actual higher-risk companion passages for wife/sister accounts, promises, famine, named places, land/wealth/separation, Greek Psalm and Deuteronomy numbering, and Melchizedek/tenths against Genesis20,24,26,28,33,35,36; Joshua24; Psalms104/109; Deuteronomy2/3/29; Sirach44; 2Chronicles20; Hebrews6/7/11; Acts3 and Galatians3. This is a selected independent target audit after the initial reviewer read every target, not a claim of human specialist review.",
+      "confirmed_distinctions": [
+        "Genesis12:9 wilderness and Genesis13:16 sand are preserved rather than silently replaced with another edition's familiar readings.",
+        "Gen14:11,16,21 horses remain intact, as do man from beyond and Aunan.",
+        "Gen14:10 falling into pits is not turned into an unsupported assertion that the kings died.",
+        "Kinship brother versus nephew is explained through actual Gen12:5 parentage.",
+        "Later land, multitude and priesthood interpretations are identified as retrospective or theological where needed.",
+        "Hebrews' identification of the tenth-giver and Melchizedek's priestly typology are distinguished from claims added to Genesis."
+      ],
+      "findings": [],
+      "unresolved_retained_cases": [],
+      "completion_credit": 0
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex peer agent (AI-assisted English passage QA)",
+      "reviewed": "2026-10-28",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "audited_file": "genesis-15-17.tsv",
+      "source_chapters": [
+        15,
+        16,
+        17
+      ],
+      "source_verse_units": 64,
+      "pairs_reviewed": 158,
+      "decision": "approved",
+      "scope": "Read all 64 actual source verses and the complete TSV and receipt. Independently checked the actual promise, faith, justification, circumcision, Hagar/Sara and source-specific-numbering targets, including the full Romans 4 argument, James 2:21-23, Galatians 4:21-31 and relevant ritual, chronology and naming contexts. This is a second AI editorial audit, not independent human specialist approval.",
+      "findings": [],
+      "confirmed_distinctions": [
+        "Genesis 15:6 links accurately distinguish Paul's and James's stated later interpretations; no generic doctrinal conclusion is added to Genesis.",
+        "Romans 4:17 is not mislabelled an exact quotation of Genesis 17:4; its quoted name explanation comes from the following verse.",
+        "The supplied Genesis 15:2 Masek/household wording and Genesis 15:11 sitting with the divided pieces are not replaced by familiar alternate readings.",
+        "The four hundred years of Genesis 15 and the four hundred and thirty years in the supplied Exodus 12:40, explicitly in Egypt and Canaan, remain distinct without a forced chronology.",
+        "Bird handling in Leviticus 1:17 is a limited ritual comparison, not a claim that Genesis 15 enacts the later Sinai legislation.",
+        "The Hagar/Sarah household narratives are separated from Paul's expressly labelled covenant allegory. The return command is not turned into a new prescription for readers.",
+        "Genesis 16:12 preserves wild man rather than importing another edition's animal image; later wilderness residence is not equated with every conflict clause.",
+        "The Greek-based Genesis 32:31 target actually contains Form of God and seeing God face to face; no conventional verse-number substitution was made.",
+        "Genesis 16:14 and Genesis 24:62 well names are connected only as related sight-associated designations, without a new geographical identification.",
+        "Genesis 17:14 retains its eighth-day condition; Exodus 4:24-26 is used with its dangerous encounter and ambiguous pronouns left unresolved.",
+        "The supplied Exodus 12:44 explicitly mentions the household slave and one bought with silver, supporting the circumcision-category comparisons.",
+        "Abraham's ninety-nine years, Ishmael's thirteen years and Abraham's eighty-six years at the birth are checked only within the supplied chronology.",
+        "Sara-to-Sarah, I am your God, and the nations/kings language are preserved as supplied; no alternate divine title or normalized proper names are silently inserted."
+      ],
+      "additional_completed_pairs": 0,
+      "repository_or_tsv_edited": false,
+      "remaining_review": [
+        "Independent human specialist review",
+        "Original-language and apparatus comparison",
+        "Live destination-anchor and reader-display verification"
+      ],
+      "audited_tsv_sha256": "cf0c71e20eec440f0b844e9e5b53ac453d5eba875bab86e6f91cea93f8ae9335",
+      "checked_at_utc": "2026-10-28T23:51:28.990558+00:00"
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex peer agent (AI-assisted English-passage review)",
+      "reviewed": "2026-10-28",
+      "checked_at_utc": "2026-10-28T23:52:16.555436+00:00",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "audited_file": "genesis-18-19.tsv",
+      "audited_file_sha256": "60980c9e8f222bdcefd26a8877df5ccd889a364271adb37672cc33758ff24fc2",
+      "source_verses_read": 71,
+      "pairs_reviewed": 160,
+      "distinct_target_verse_units_read": 150,
+      "decision": "approved",
+      "findings": [],
+      "blocking_semantic_findings": [],
+      "scope": "Independently read all supplied Genesis 18-19 source verses, the complete proposed TSV and review receipt, and the actual retained target English passages and relevant context. Checked source-specific wording and the limits of each claimed relationship.",
+      "confirmed_distinctions": [
+        "Genesis 18:21 retains whether they are being brought to an end according to their cry; its descent comparisons do not substitute another edition's done-altogether wording or settle divine-knowledge questions.",
+        "God, three men and later two angels remain the supplied narrative labels; no identification of all three with divine persons is asserted. Hebrews 13:2 is qualified as a hospitality allusion with unnamed hosts.",
+        "The paired Abraham/Lot hospitality and Judges 19 comparisons preserve different participants, sexual demands, host offers and outcomes. Lot's offer is not reported as fulfilled or divinely endorsed.",
+        "The declining fifty-to-ten intercession is treated as conditional requests and answers. Jeremiah 5:1 concerns Jerusalem and one just person, rather than proof that Sodom was spared.",
+        "Genesis 19:14 taken-daughters wording and 19:16 they-were-troubled wording are preserved without invented relatives, betrothal harmonization or a substituted lingered statement.",
+        "Sodom's later guilt and destruction references are grounded in actual Ezekiel, Jude, Peter, Luke, Deuteronomy, Isaiah and Wisdom wording without generalizations about modern identity groups.",
+        "The older daughter's absence-of-any-man statement remains character speech, not a universal-extinction assertion. The father's reported lack of awareness is not changed, and the two daughters' outcomes remain distinct.",
+        "The supplied Balak/Zoar reference at Genesis 14:2 is an actual city-name identification. Deuteronomy 2:9's Seir wording is retained and not used to reconstruct Moabite boundaries.",
+        "Moabites and Ammanites remain distinct Lot-descended groups; Deuteronomy's Ammon spelling is not silently imposed on Genesis's Amman.",
+        "Greek-numbered Psalm references and Deuteronomy 29:22 resolve to the actual supplied texts; no missing or self-containing target was found."
+      ],
+      "additional_completed_pairs": 0,
+      "repository_or_tsv_edited": false,
+      "limits": "Independent AI editorial QA of English passages, not human specialist approval, new original-language collation, or live-anchor/display verification."
+    }
+  ],
+  "applied_peer_corrections": [
+    {
+      "source_reference": "Genesis 11:5",
+      "target": "Genesis 18:20-21",
+      "correction": "Preserved the supplied Sodom wording about being brought to an end according to the cry."
+    },
+    {
+      "source_reference": "Genesis 11:1",
+      "target": "Acts 2:4-8",
+      "correction": "Compared one shared language with diverse languages understood, grounding the explanation in the selected source verse."
+    }
+  ],
+  "root_review": "All Genesis12-14 source verses and proposed explanations read; actual higher-risk wife/sister, promise, land/wealth, famine, geography, Greek-numbering and Melchizedek targets checked as described in the peer-review receipt. No additional interpretation was added to ambiguous source wording.",
+  "excluded_candidates": [
+    {
+      "source_reference": "Genesis 10:13-29",
+      "target": "1 Chronicles 1:11-16,18-23",
+      "reason": "These separate numbered units are absent from the pinned English records. No text or anchors were filled from another edition and no absent target was counted."
+    },
+    {
+      "source_reference": "Genesis 10:14",
+      "target": "Amos 9:7",
+      "reason": "The supplied Amos says foreigners from Cappadocia and Syrians from a pit. A proposed direct Philistines-from-Caphtor identification was not retained without an established source-language/identity comparison.",
+      "source_blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30"
+    },
+    {
+      "source_reference": "Genesis 14:5",
+      "target": "Deuteronomy 2:10-11",
+      "reason": "No Ommaeans/Emim identity mapping was established in this English-only pass; the campaign verse has other supported narrative references."
+    },
+    {
+      "source_reference": "Genesis 14:7",
+      "target": "2 Chronicles 20:2",
+      "reason": "The supplied place-name forms Hazezon-tamar and Asasanthamar were read, but a new identification was not established in this pass. This candidate is omitted and receives no completion credit."
+    },
+    {
+      "target": "Revelation/verses.json",
+      "reason": "No such file exists in the pinned source snapshot according to the existing source inventory. No Revelation text was proposed, read or counted in this batch."
+    },
+    {
+      "source_reference": "Genesis 18:17",
+      "target": "Amos 3:7",
+      "reason": "Second-pass rationale refined to retain the supplied term discipline, rather than reducing the whole passage to a generic disclosure formula."
+    }
+  ],
+  "remaining_checks": [
+    "Independent human specialist review",
+    "Original-language and critical-apparatus comparison",
+    "Live destination-anchor and display verification"
+  ]
+}

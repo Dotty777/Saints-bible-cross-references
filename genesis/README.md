@@ -1,6 +1,6 @@
 # Genesis — Saints Bible cross-references
 
-Genesis 1–9 is complete at the initial curated cross-reference stage: **235 source verses and 634 distinct source/target-passage pairs**. Later chapters remain pending. Next: **Genesis 10:1**.
+Genesis 1–19 is complete at the initial curated cross-reference stage: **496 source verses and 1244 distinct source/target-passage pairs**. Later chapters remain pending. Next: **Genesis 20:1**.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -22,10 +22,11 @@ Retain the source's exact references and anchors, including its Greek-based Psal
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and start at Genesis 10:1. Review source verses in source order. Retain only connections supported by actual passage text and an individual explanation. A target range counts as one pair. Save partial progress before stopping; unresolved identity or evidence remains pending. The hourly target is 500 newly completed pairs, with actual counts reported separately from distinct source verses.
+Read the current [overall tracker](../progress.json), preserve completed records, and start at Genesis 20:1. Review source verses in source order. Retain only connections supported by actual passage text and an individual explanation. A target range counts as one pair. Save partial progress before stopping; unresolved identity or evidence remains pending. The hourly target is 500 newly completed pairs, with actual counts reported separately from distinct source verses.
 
 Same-chapter literary parallels and narrative continuations are labelled explicitly. These records do not claim that every possible cross-reference has been discovered. Independent specialist review, live destination-anchor checks and live display checks remain outstanding.
 
 ## Review batches
 
 - [2026-10-28T224219Z](review-batches/2026-10-28T224219Z.json): 540 newly completed pairs across 204 source verses.
+- [2026-10-28T233950Z](review-batches/2026-10-28T233950Z.json): 610 newly completed pairs across 261 source verses.

@@ -45,8 +45,8 @@ readme=re.sub(r'^- \[Genesis[^\n]+',f'- [Genesis — 50 chapters](genesis/README
 readme=re.sub(r'\*\*Next: Genesis \d+:\d+\.\*\*',f'**Next: {next_ref}.**',readme)
 readme=re.sub(r'of which \d+ are completed\.',f'of which {count} are completed.',readme)
 marker='\nLatest saved review: '
-if marker in readme:readme=readme[:readme.index(marker)]+'\n'
+if marker in readme:readme=readme[:readme.index(marker)].rstrip()
 run=progress['runs'][-1]
-readme+=f'\nLatest saved review: {run["date"]}, **{run["new_completed_pairs"]} new pairs across {run["distinct_source_verses"]} source verses**. Hourly target: {run["hourly_target"]}; shortfall: {run.get("target_shortfall",max(0,run["hourly_target"]-run["new_completed_pairs"]))}. [Review record]({run["review_record"]}).\n'
+readme=readme.rstrip()+f'\n\nLatest saved review: {run["date"]}, **{run["new_completed_pairs"]} new pairs across {run["distinct_source_verses"]} source verses**. Hourly target: {run["hourly_target"]}; shortfall: {run.get("target_shortfall",max(0,run["hourly_target"]-run["new_completed_pairs"]))}. [Review record]({run["review_record"]}).\n'
 (ROOT/'README.md').write_text(readme,encoding='utf-8')
 print(json.dumps({'rendered_source_verses':count,'rendered_pairs':pairs,'next':next_ref}))
