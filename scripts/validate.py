@@ -50,13 +50,30 @@ def validate(write_receipts=False):
         require(len(members)==division['book_count'],'Division count mismatch')
         require([b['order'] for b in members]==list(range(division['first_book_order'],division['last_book_order']+1)),'Division order mismatch')
     first_unfinished=None
+    missing_earlier=[]
+    inventories={}
+    for record in progress['books']:
+        path=ROOT/record['records']/'verses.json'
+        if path.exists():
+            saved=load(path)
+            inventories[saved['book']]={str(ch['chapter']):[v['reference'] for v in ch['verses']] for ch in saved['chapters']}
     for b in progress['books']:
         file=ROOT/b['records']/'verses.json'
         if not file.exists():
             require(b['completed_source_verses']==0 and b['completed_cross_references']==0,'Missing completed book file: '+b['book'])
+            missing_earlier.append(b['book'])
             continue
+        require(not missing_earlier,'Book inventory skips earlier uninventoried books: '+', '.join(missing_earlier))
         data=load(file)
         require(data['book']==b['book'],'Book identity mismatch')
+        inventory_file=ROOT/b['records']/'inventory.json'
+        if inventory_file.exists():
+            inventory=load(inventory_file)
+            actual=[(v['reference'],v['id'],digest(v['text'])) for ch in data['chapters'] for v in ch['verses']]
+            declared=[(v['reference'],v['id'],v['text_sha256']) for ch in inventory['chapters'] for v in ch['units']]
+            require(actual==declared,'Source inventory wording, order or anchor mismatch')
+            require(len(actual)==inventory['total_source_verse_units'],'Declared inventory total mismatch')
+            require(inventory['source_commit']==data['source_snapshot']['commit'] and inventory['source_blob_sha']==data['source_snapshot']['blob_sha'],'Inventory source pin mismatch')
         source_refs=set();source_ids=set();complete=[];complete_chapters=[];edges=[]
         for ch in data['chapters']:
             for v in ch['verses']:
@@ -80,11 +97,21 @@ def validate(write_receipts=False):
                     require(re.fullmatch(r'[a-f0-9]{40}',target['commit']) is not None,'Unpinned source commit')
                     require(re.fullmatch(r'[a-f0-9]{40}',target['blob_sha']) is not None,'Missing source blob identity')
                     require('/blob/'+target['commit']+'/' in target['url'],'Source URL not pinned')
-                    m=re.fullmatch(r'(.+) (\d+):(\d+)(?:-(\d+))?',e['target'])
+                    m=re.fullmatch(r'(.+) (\d+):(\d+[a-z]?)(?:-(\d+[a-z]?))?',e['target'])
                     require(m is not None,'Unsupported target-range identity')
                     book,c,a,z=m.groups()
                     require(book in allowed,'Target book is outside Saints 70: '+book)
-                    expected=[f'{book} {c}:{n}' for n in range(int(a),int(z or a)+1)]
+                    if z and book in inventories:
+                        ordered=inventories[book][c]
+                        start,end=f'{book} {c}:{a}',f'{book} {c}:{z}'
+                        require(start in ordered and end in ordered,'Target endpoint absent from source inventory')
+                        first,last=ordered.index(start),ordered.index(end)
+                        require(first<=last,'Reversed target range')
+                        expected=ordered[first:last+1]
+                    elif z:
+                        require(a.isdigit() and z.isdigit(),'A continuation range requires its source inventory')
+                        expected=[f'{book} {c}:{n}' for n in range(int(a),int(z)+1)]
+                    else:expected=[f'{book} {c}:{a}']
                     require(v['reference'] not in expected,'Target contains its own source verse')
                     require(expected==[x['reference'] for x in e['target_verses']],'Missing or misordered target evidence')
                     for x in e['target_verses']:
@@ -101,6 +128,9 @@ def validate(write_receipts=False):
         require(len(complete)==data['completed_source_verses']==b['completed_source_verses'],'Completed verse count mismatch')
         require(len(edges)==data['completed_cross_references']==b['completed_cross_references'],'Completed pair count mismatch')
         require(complete_chapters==data['completed_chapters']==b['completed_chapters'],'Completed chapter mismatch')
+        book_next=next((v['reference'] for ch in data['chapters'] for v in ch['verses'] if v['status']!='completed'),None)
+        require(data['next_reference']==b['next_reference']==book_next,'Book continuation mismatch')
+        require((data['review_status']=='complete_initial_curated_pass')==(book_next is None),'Book completion status mismatch')
         parser=Anchors();parser.feed((ROOT/b['records']/data['readable_html']).read_text(encoding='utf-8'))
         require(Counter(parser.ids)==Counter(v['id'] for v in complete),'Readable HTML/source anchor mismatch')
         require(parser.scripture==[v['text'] for v in complete],'Readable HTML changes source wording or order')
@@ -127,6 +157,7 @@ def validate(write_receipts=False):
     require(total_verses==progress['completed_source_verses'],'Root verse total mismatch')
     require(total_chapters==progress['completed_chapters'],'Root chapter total mismatch')
     require(total_books==progress['completed_book_records'],'Root completed-book total mismatch')
+    require(len(progress['books'])-total_books==progress['pending_book_records'],'Root pending-book total mismatch')
     require(first_unfinished==progress['next']['reference'],'Continuation skips an unfinished source verse')
     print(json.dumps({'result':'passed','canon_books':len(canonical),'books_in_plan':len(names),'completed_source_verses':total_verses,
         'completed_pairs':total_pairs,'completed_chapters':total_chapters,'next':first_unfinished}))

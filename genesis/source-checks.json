@@ -342,10 +342,10 @@
     }
   ],
   "checked_scope": {
-    "source_passage": "Genesis 1:1-44:34",
-    "source_verse_units": 1357,
-    "retained_pairs": 3005,
-    "distinct_target_verse_units": 1891
+    "source_passage": "Genesis 1:1-Genesis 50:26",
+    "source_verse_units": 1531,
+    "retained_pairs": 3341,
+    "distinct_target_verse_units": 2049
   },
   "numbering": "Exact Saints-Translation labels are retained. In particular Psalms 18, 32, 73, 94, 103 and 135 use the reference edition's Greek numbering. Do not substitute common Hebrew/English Psalm numbers.",
   "method": "Select passage-grounded connections; read the actual source and target English text; write an individual explanation; reread explanations against both passages. Save exact target text and hashes. Count a range as one pair, even when it contains several verses.",
@@ -357,10 +357,10 @@
   ],
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "pending": [
-    "Genesis 45-50 cross-reference pass",
     "Remaining Old Testament book inventories and review",
     "Independent specialist review",
-    "Live destination anchors and reader display checks"
+    "Live destination anchors and reader display checks",
+    "Target evidence pending: Genesis 49:9 / Revelation 5:5"
   ],
   "review_batches": [
     {
@@ -397,8 +397,23 @@
       "new_source_verses": 318,
       "new_pairs": 606,
       "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-29T113940Z",
+      "records": "review-batches/2026-10-29T113940Z.json",
+      "new_source_verses": 174,
+      "new_pairs": 336,
+      "unresolved_retained_cases": 0
     }
   ],
   "canon_manifest": "../canon.json",
-  "canon_policy": "Use only the Saints Holy Bible 70-book membership, exact order and divisions. Current source review is its 43 Old Testament books; matching targets may use all 70 books."
+  "canon_policy": "Use only the Saints Holy Bible 70-book membership, exact order and divisions. Current source review is its 43 Old Testament books; matching targets may use all 70 books.",
+  "unresolved_candidates": [
+    {
+      "source_reference": "Genesis 49:9",
+      "target": "Revelation 5:5",
+      "reason": "Saints70 retains this canonical book, but its exact target text is not present in the pinned Saints-Translation records. Missing source identity/content must be supplied before review.",
+      "status": "pending pinned target evidence"
+    }
+  ]
 }

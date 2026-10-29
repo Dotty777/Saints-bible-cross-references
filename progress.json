@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T11:09:31.547390+00:00",
+  "updated_at_utc": "2026-10-29T12:16:10.763113+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -9,18 +9,18 @@
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "target_per_hour": 500,
   "target_unit": "distinct completed source-verse/target-passage pairs",
-  "completed_book_records": 0,
-  "pending_book_records": 43,
-  "completed_chapters": 44,
-  "completed_source_verses": 1357,
-  "completed_cross_references": 3005,
+  "completed_book_records": 1,
+  "pending_book_records": 42,
+  "completed_chapters": 54,
+  "completed_source_verses": 1631,
+  "completed_cross_references": 3547,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
-    "book": "Genesis",
-    "chapter": 45,
-    "reference": "Genesis 45:1",
-    "source_id": "v45-1"
+    "book": "Exodus",
+    "chapter": 5,
+    "reference": "Exodus 5:1",
+    "source_id": "v5-1"
   },
   "books": [
     {
@@ -28,10 +28,10 @@
       "records": "genesis/",
       "source_records": "genesis/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "in progress",
+      "status": "completed",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 1357,
-      "completed_cross_references": 3005,
+      "completed_source_verses": 1531,
+      "completed_cross_references": 3341,
       "order": 1,
       "total_source_verse_units": 1531,
       "total_chapters": 50,
@@ -79,7 +79,13 @@
         41,
         42,
         43,
-        44
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
       ],
       "completed_verse_ranges": [
         "Genesis 1:1-31",
@@ -125,9 +131,15 @@
         "Genesis 41:1-57",
         "Genesis 42:1-38",
         "Genesis 43:1-34",
-        "Genesis 44:1-34"
+        "Genesis 44:1-34",
+        "Genesis 45:1-28",
+        "Genesis 46:1-34",
+        "Genesis 47:1-31",
+        "Genesis 48:1-22",
+        "Genesis 49:1-33",
+        "Genesis 50:1-26"
       ],
-      "next_reference": "Genesis 45:1",
+      "next_reference": null,
       "division": "Law",
       "division_slug": "law",
       "testament": "Old Testament",
@@ -138,15 +150,30 @@
       "records": "exodus/",
       "source_records": "exodus/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
-      "inventory_status": "not yet inventoried",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "status": "in progress",
+      "inventory_status": "complete for pinned source",
+      "completed_source_verses": 100,
+      "completed_cross_references": 206,
       "order": 2,
       "division": "Law",
       "division_slug": "law",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/law/exodus/"
+      "source_staging_path": "/bible/law/exodus/",
+      "total_source_verse_units": 1165,
+      "total_chapters": 40,
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "next_reference": "Exodus 5:1",
+      "completed_verse_ranges": [
+        "Exodus 1:1-22",
+        "Exodus 2:1-25",
+        "Exodus 3:1-22",
+        "Exodus 4:1-31"
+      ]
     },
     {
       "book": "Leviticus",
@@ -900,6 +927,53 @@
       "unresolved_retained_cases": 0,
       "review_record": "genesis/review-batches/2026-10-29T104409Z.json",
       "next_reference": "Genesis 45:1"
+    },
+    {
+      "run_id": "2026-10-29T113940Z",
+      "date": "2026-10-29",
+      "source_range": "Genesis 45:1-50:26; Exodus 1:1-4:31",
+      "distinct_source_verses": 274,
+      "new_completed_pairs": 542,
+      "book_results": [
+        {
+          "book": "Genesis",
+          "source_range": "Genesis 45:1-50:26",
+          "distinct_source_verses": 174,
+          "new_completed_pairs": 336,
+          "completed_chapters": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "book_initial_curated_pass_complete": true,
+          "next_reference": null
+        },
+        {
+          "book": "Exodus",
+          "source_range": "Exodus 1:1-4:31",
+          "distinct_source_verses": 100,
+          "new_completed_pairs": 206,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "Exodus 5:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 42,
+      "unresolved_retained_cases": 0,
+      "unresolved_candidate_count": 1,
+      "review_record": "review-batches/2026-10-29T113940Z.json",
+      "next_reference": "Exodus 5:1"
     }
   ],
   "canon_manifest": "canon.json",

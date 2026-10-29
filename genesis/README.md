@@ -1,6 +1,6 @@
 # Genesis — Saints Bible cross-references
 
-Genesis 1–44 is complete at the initial curated cross-reference stage: **1357 source verses and 3005 distinct source/target-passage pairs**. Later chapters remain pending. Next: **Genesis 45:1**.
+Genesis 1–50 is complete at the initial curated cross-reference stage: **1531 source verses and 3341 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: Exodus 5:1.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -22,9 +22,11 @@ Retain the source's exact references and anchors, including its Greek-based Psal
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and start at Genesis 45:1. Review source verses in source order. Retain only connections supported by actual passage text and an individual explanation. A target range counts as one pair. Save partial progress before stopping; unresolved identity or evidence remains pending. The hourly target is 500 newly completed pairs, with actual counts reported separately from distinct source verses.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **Exodus 5:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
-Same-chapter literary parallels and narrative continuations are labelled explicitly. These records do not claim that every possible cross-reference has been discovered. Independent specialist review, live destination-anchor checks and live display checks remain outstanding.
+Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
+
+Pending target evidence: 1 candidate(s), excluded from completed counts. See [source-checks.json](source-checks.json).
 
 ## Review batches
 
@@ -33,3 +35,4 @@ Same-chapter literary parallels and narrative continuations are labelled explici
 - [2026-10-29T003621Z](review-batches/2026-10-29T003621Z.json): 516 newly completed pairs across 232 source verses.
 - [2026-10-29T013621Z](review-batches/2026-10-29T013621Z.json): 639 newly completed pairs across 311 source verses.
 - [2026-10-29T104409Z](review-batches/2026-10-29T104409Z.json): 606 newly completed pairs across 318 source verses.
+- [2026-10-29T113940Z](review-batches/2026-10-29T113940Z.json): 336 newly completed pairs across 174 source verses.
