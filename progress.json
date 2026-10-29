@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T21:14:14.270679+00:00",
+  "updated_at_utc": "2026-10-29T22:18:04.681888+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 4,
   "pending_book_records": 39,
-  "completed_chapters": 153,
-  "completed_source_verses": 4842,
-  "completed_cross_references": 8814,
+  "completed_chapters": 169,
+  "completed_source_verses": 5314,
+  "completed_cross_references": 9369,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
     "book": "Deuteronomy",
-    "chapter": 1,
-    "reference": "Deuteronomy 1:1",
-    "source_id": "v1-1"
+    "chapter": 17,
+    "reference": "Deuteronomy 17:1",
+    "source_id": "v17-1"
   },
   "books": [
     {
@@ -422,10 +422,10 @@
       "records": "deuteronomy/",
       "source_records": "deuteronomy/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
+      "status": "in progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "completed_source_verses": 472,
+      "completed_cross_references": 555,
       "order": 5,
       "division": "Law",
       "division_slug": "law",
@@ -433,9 +433,43 @@
       "source_staging_path": "/bible/law/deuteronomy/",
       "total_source_verse_units": 959,
       "total_chapters": 34,
-      "completed_chapters": [],
-      "completed_verse_ranges": [],
-      "next_reference": "Deuteronomy 1:1"
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "completed_verse_ranges": [
+        "Deuteronomy 1:1-46",
+        "Deuteronomy 2:1-37",
+        "Deuteronomy 3:1-29",
+        "Deuteronomy 4:1-49",
+        "Deuteronomy 5:1-33",
+        "Deuteronomy 6:1-25",
+        "Deuteronomy 7:1-26",
+        "Deuteronomy 8:1-20",
+        "Deuteronomy 9:1-29",
+        "Deuteronomy 10:1-22",
+        "Deuteronomy 11:1-32",
+        "Deuteronomy 12:1-31",
+        "Deuteronomy 13:1-19",
+        "Deuteronomy 14:1-29",
+        "Deuteronomy 15:1-23",
+        "Deuteronomy 16:1-22"
+      ],
+      "next_reference": "Deuteronomy 17:1"
     },
     {
       "book": "Joshua",
@@ -1572,6 +1606,50 @@
           "completed_pairs": 0
         }
       ]
+    },
+    {
+      "run_id": "2026-10-29T215017Z",
+      "date": "2026-10-29",
+      "source_range": "Deuteronomy 1:1-16:22",
+      "distinct_source_verses": 472,
+      "new_completed_pairs": 555,
+      "book_results": [
+        {
+          "book": "Deuteronomy",
+          "source_range": "Deuteronomy 1:1-16:22",
+          "distinct_source_verses": 472,
+          "new_completed_pairs": 555,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "Deuteronomy 17:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 55,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 0,
+      "known_pending_target_candidate_count": 8,
+      "review_record": "review-batches/2026-10-29T215017Z.json",
+      "next_reference": "Deuteronomy 17:1"
     }
   ],
   "canon_manifest": "canon.json",

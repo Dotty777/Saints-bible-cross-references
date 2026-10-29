@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_4_6 (AI-assisted supplied-English passage curation)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-29T22:13:39.160766+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    4,
+    5,
+    6
+  ],
+  "source_verses": 107,
+  "completed_source_verses": 107,
+  "completed_pairs": 128,
+  "distinct_target_verse_units": 147,
+  "chapter_pair_counts": {
+    "4": 56,
+    "5": 39,
+    "6": 33
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read all107 actual source units in full, all retained target passages and necessary Exodus19/20/24/34, Numbers25/27/35, Deuteronomy3/10/17/19/28/30, Joshua20/24, Hebrews12, Mark12, Matthew4/22 and Luke4 context. Separately displayed all128 complete source-target-category-rationale combinations for rereading, with a separately reread4:23-25 section after a display truncation. Retained actual Decalogue numbering, differing Sabbath rationales, no-visible-likeness versus face-to-face descriptions, distinct heavenly/earthly speech descriptions, Eastern refuge place forms and source wording mercy at6:25. This is initial curated English-text review, not exhaustive discovery or specialist-language verification.",
+  "pin_method": "Fresh raw fetch of each of8 source books at the pinned commit, Git blob rehash against existing registries, complete parsed equality with local cache; raw and cache byte normalization distinguished.",
+  "source_books": [
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Hebrews",
+      "records": "hebrews/verses.json",
+      "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Luke",
+      "records": "luke/verses.json",
+      "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+    },
+    {
+      "book": "Mark",
+      "records": "mark/verses.json",
+      "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c"
+    },
+    {
+      "book": "Matthew",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    }
+  ],
+  "pin_receipt": "deuteronomy-4-6-pins.json",
+  "input_file": "deuteronomy-4-6.tsv",
+  "input_sha256": "0fb75385fd15fd09bc45dc304f4439d8484b114cae6b93748176b54e6d16406c",
+  "final_input_sha256": "0fb75385fd15fd09bc45dc304f4439d8484b114cae6b93748176b54e6d16406c",
+  "source_inventory": "deuteronomy/inventory.json",
+  "inventory_completion_credit": 0,
+  "unresolved_cases": [],
+  "unresolved_candidates": [],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Import Jeremiah29:12-14 from an alternate numbering system.",
+      "reason": "This endpoint range is absent from the supplied source; retained Deuteronomy30:1-3 instead for the wholehearted-return connection."
+    },
+    {
+      "proposed_claim": "Resolve modern identities of Bezer/Bosor, Ramoth/Aremoth, Golan/Gaulon or Asedoth/Asedoth-Pisgah.",
+      "reason": "Retained comparisons concern the explicit refuge roles, named tribal and regional setting or eastern boundary description, preserving all forms without independent identity verification."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "Deuteronomy4",
+      "note": "Preserve the distinction between no visible likeness and later face-to-face wording, fire on earth and voice from heaven, mercy alongside judgment, actual Sion/Hermon and Asedoth forms, and all three eastern refuge entries. The source comparison does not settle modern place identity."
+    },
+    {
+      "reference": "Deuteronomy5",
+      "note": "Actual Deuteronomy5:17adultery/18murder/19theft correspond to Exodus20:13adultery/15murder/14theft. Sabbath rest is grounded in Egyptian deliverance here and creation in Exodus20:11. Covenantal and encounter descriptions remain in their actual forms without harmonization."
+    },
+    {
+      "reference": "Deuteronomy6",
+      "note": "Preserve the extended heading at6:4, heart/soul/strength versus NT heart/soul/mind forms, immovable before the eyes, fear/serve/cleave/swear wording versus NT worship/serve-only, Testing, and mercy at6:25. Speakers remain distinguished, including Jesus and the scribe in Mark12."
+    }
+  ]
+}
