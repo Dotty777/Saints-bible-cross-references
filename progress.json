@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-28",
-  "updated_at_utc": "2026-10-29T01:14:12.256201+00:00",
+  "updated_at_utc": "2026-10-29T01:57:49.364476+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 0,
   "pending_book_records": 43,
-  "completed_chapters": 26,
-  "completed_source_verses": 728,
-  "completed_cross_references": 1760,
+  "completed_chapters": 35,
+  "completed_source_verses": 1039,
+  "completed_cross_references": 2399,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
     "book": "Genesis",
-    "chapter": 27,
-    "reference": "Genesis 27:1",
-    "source_id": "v27-1"
+    "chapter": 36,
+    "reference": "Genesis 36:1",
+    "source_id": "v36-1"
   },
   "books": [
     {
@@ -30,8 +30,8 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 728,
-      "completed_cross_references": 1760,
+      "completed_source_verses": 1039,
+      "completed_cross_references": 2399,
       "order": 1,
       "total_source_verse_units": 1531,
       "total_chapters": 50,
@@ -61,7 +61,16 @@
         23,
         24,
         25,
-        26
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
       ],
       "completed_verse_ranges": [
         "Genesis 1:1-31",
@@ -89,9 +98,18 @@
         "Genesis 23:1-20",
         "Genesis 24:1-67",
         "Genesis 25:1-34",
-        "Genesis 26:1-35"
+        "Genesis 26:1-35",
+        "Genesis 27:1-46",
+        "Genesis 28:1-22",
+        "Genesis 29:1-35",
+        "Genesis 30:1-43",
+        "Genesis 31:1-54",
+        "Genesis 32:1-33",
+        "Genesis 33:1-20",
+        "Genesis 34:1-31",
+        "Genesis 35:1-29"
       ],
-      "next_reference": "Genesis 27:1",
+      "next_reference": "Genesis 36:1",
       "division": "Law",
       "division_slug": "law",
       "testament": "Old Testament",
@@ -814,6 +832,31 @@
       "unresolved_retained_cases": 0,
       "review_record": "genesis/review-batches/2026-10-29T003621Z.json",
       "next_reference": "Genesis 27:1"
+    },
+    {
+      "run_id": "2026-10-29T013621Z",
+      "date": "2026-10-28",
+      "source_range": "Genesis 27:1-35:29",
+      "completed_chapters": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "distinct_source_verses": 311,
+      "new_completed_pairs": 639,
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 139,
+      "unresolved_retained_cases": 0,
+      "review_record": "genesis/review-batches/2026-10-29T013621Z.json",
+      "next_reference": "Genesis 36:1"
     }
   ],
   "canon_manifest": "canon.json",
