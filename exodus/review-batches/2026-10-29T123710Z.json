@@ -1,0 +1,2636 @@
+{
+  "run_id": "2026-10-29T123710Z",
+  "date": "2026-10-29",
+  "source_range": "Exodus 5:1-14:31",
+  "distinct_source_verses": 288,
+  "new_completed_pairs": 571,
+  "book_results": [
+    {
+      "book": "Exodus",
+      "source_range": "Exodus 5:1-14:31",
+      "distinct_source_verses": 288,
+      "new_completed_pairs": 571,
+      "completed_chapters": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "book_initial_curated_pass_complete": false,
+      "next_reference": "Exodus 15:1"
+    }
+  ],
+  "hourly_target": 500,
+  "target_met": true,
+  "target_shortfall": 0,
+  "target_excess": 71,
+  "unresolved_retained_cases": [],
+  "new_unresolved_candidate_count": 0,
+  "known_pending_target_candidate_count": 1,
+  "review_record": "review-batches/2026-10-29T123710Z.json",
+  "next_reference": "Exodus 15:1",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-29",
+  "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
+  "inputs": [
+    {
+      "file": "exodus-5-7.tsv",
+      "sha256": "2b85e56215bee444d659b39da300a35149df7c5c2d39f335a68ff1f467a455b2",
+      "pairs": 154
+    },
+    {
+      "file": "exodus-8-10.tsv",
+      "sha256": "8771e9fc6e147a0f309c3b820984a0b0aa42b001b3f70be0d37ceb675e065042",
+      "pairs": 184
+    },
+    {
+      "file": "exodus-11-12.tsv",
+      "sha256": "4d2c6427801600ada262595e1e1d69823dbc5e4f6686ad52f09fa09bbff6f63d",
+      "pairs": 126
+    },
+    {
+      "file": "exodus-13-14.tsv",
+      "sha256": "a6b57ca46a9935456588d25d36ca4a21176ceb82f9ece7f5d7b2676cda1e378b",
+      "pairs": 107
+    }
+  ],
+  "chapter_pair_counts": {
+    "5": 40,
+    "6": 57,
+    "7": 57,
+    "8": 57,
+    "9": 71,
+    "10": 56,
+    "11": 20,
+    "12": 106,
+    "13": 45,
+    "14": 62
+  },
+  "review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex subagent (AI-assisted English-passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T12:59:20.646165+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "canon_authority": "Exclusive Saints Holy Bible seventy-book membership from saints-crossrefs/canon.json.",
+      "source_chapters": [
+        5,
+        6,
+        7
+      ],
+      "source_verses": 82,
+      "completed_pairs": 154,
+      "chapter_pair_counts": {
+        "Exodus 5": 40,
+        "Exodus 6": 57,
+        "Exodus 7": 57
+      },
+      "distinct_target_verse_units_read": 159,
+      "same_chapter_pairs": 58,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "necessary_context_read": true,
+      "second_editorial_pass": "Reread all154 saved rationales against the complete actual source and target passages. Kept the speaker and agency distinctions, checked every family-list form and generation level, and clarified the difference between Moses' removal promise and the unquoted prayer in8:7-9.",
+      "source_books": [
+        {
+          "book": "1 Chronicles",
+          "records": "1-chronicles/verses.json",
+          "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+        },
+        {
+          "book": "2 Timothy",
+          "records": "2-timothy/verses.json",
+          "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        }
+      ],
+      "additional_sources": [
+        {
+          "book": "2 Timothy",
+          "records": "2-timothy/verses.json",
+          "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-timothy/verses.json",
+          "fetch_method": "Connected GitHub fetch_file at exact commit; complete content independently verified by the raw Git blob hash.",
+          "local_verified_snapshot": "2-timothy-source.json",
+          "target_and_context_read": "2 Timothy3:1-9, retaining3:8-9 only as the proposed target."
+        }
+      ],
+      "source_verse_units": [
+        {
+          "reference": "Exodus 5:1",
+          "original_anchor": "v5-1",
+          "text_sha256": "78bcc95b766205268a0df87bfd562b5aa2bdc8c067f184065a11d290f4681a06"
+        },
+        {
+          "reference": "Exodus 5:2",
+          "original_anchor": "v5-2",
+          "text_sha256": "fb669c7c90799e62d33c7cbed3132800ca253047330be8c9603046d6a68f9441"
+        },
+        {
+          "reference": "Exodus 5:3",
+          "original_anchor": "v5-3",
+          "text_sha256": "fc82a42d7deff7ff0437a7043d4e6b5de4e83e2bb0204522f280b6dec9b607f0"
+        },
+        {
+          "reference": "Exodus 5:4",
+          "original_anchor": "v5-4",
+          "text_sha256": "baade99473fdd7a62323f913f317777894b1854ebe14a4df244c616c72b1f5d2"
+        },
+        {
+          "reference": "Exodus 5:5",
+          "original_anchor": "v5-5",
+          "text_sha256": "9ca4b5dac88aefbed2435389c166cbe8ddbdf298b980dadb04f4d3348aae1ebc"
+        },
+        {
+          "reference": "Exodus 5:6",
+          "original_anchor": "v5-6",
+          "text_sha256": "293eb078345c312f1eabe45427d159ab8c4b657d61271341d39f7d3d730ae118"
+        },
+        {
+          "reference": "Exodus 5:7",
+          "original_anchor": "v5-7",
+          "text_sha256": "057b92b8a939e13db7ea25516c1b43f5ae203e5688fd61fb44da335c6b8b2018"
+        },
+        {
+          "reference": "Exodus 5:8",
+          "original_anchor": "v5-8",
+          "text_sha256": "d2a1e5840965fd33b545e77269ec186b441b2f282d54bab0e935beae72e54936"
+        },
+        {
+          "reference": "Exodus 5:9",
+          "original_anchor": "v5-9",
+          "text_sha256": "43dbeb3ec7ab631a329dbec0faa920aa57d9c632b3f9e4b3a8dff22d16674720"
+        },
+        {
+          "reference": "Exodus 5:10",
+          "original_anchor": "v5-10",
+          "text_sha256": "632b55b50a9c76dfa77b932c47d7418800be530e613eda0a10546f8b7edc02d4"
+        },
+        {
+          "reference": "Exodus 5:11",
+          "original_anchor": "v5-11",
+          "text_sha256": "f5dc1ac369a79a8d16bb5722910de55cd7c97d29bbcf247394f0149617a1767b"
+        },
+        {
+          "reference": "Exodus 5:12",
+          "original_anchor": "v5-12",
+          "text_sha256": "addbc993c89ddf6b85dc6c7463c3e55bd4bc8936939df457577c5264a9ed4e0b"
+        },
+        {
+          "reference": "Exodus 5:13",
+          "original_anchor": "v5-13",
+          "text_sha256": "0197febd8ef70dc1225e397e27ee1d2f692944fb3b502207c4a37e3009f6cb86"
+        },
+        {
+          "reference": "Exodus 5:14",
+          "original_anchor": "v5-14",
+          "text_sha256": "182778211126825c737a5919fabc04ca0572349a52200dc89d796068b8a894be"
+        },
+        {
+          "reference": "Exodus 5:15",
+          "original_anchor": "v5-15",
+          "text_sha256": "cbea9e53829d30682b397db7a1d3a35f39285ef3644372668ff10c043c693806"
+        },
+        {
+          "reference": "Exodus 5:16",
+          "original_anchor": "v5-16",
+          "text_sha256": "ce49276e70b9f7062aee448740206bd71c10c312a1db005ef8b1db6a8d18df70"
+        },
+        {
+          "reference": "Exodus 5:17",
+          "original_anchor": "v5-17",
+          "text_sha256": "6b8a2d29ee2ff058b3eeae68c9bc0ecb9ad39d8c30924fb8e148eb649a84df73"
+        },
+        {
+          "reference": "Exodus 5:18",
+          "original_anchor": "v5-18",
+          "text_sha256": "31b5f06bcd34a63094d596514abe08dab7ebad1c458373a51f2cb056dac8a467"
+        },
+        {
+          "reference": "Exodus 5:19",
+          "original_anchor": "v5-19",
+          "text_sha256": "3fb4aa6f9277a53ee476cb31a174a4564004598b379181560caa6e7e113217f6"
+        },
+        {
+          "reference": "Exodus 5:20",
+          "original_anchor": "v5-20",
+          "text_sha256": "229dff7c0aec5c23cd4beea6530c394c65b0b765f57cb671a2cbc58e59de8304"
+        },
+        {
+          "reference": "Exodus 5:21",
+          "original_anchor": "v5-21",
+          "text_sha256": "6637dd9ede5ee9582551010f2c59f4466e065009379c3b6d028938dbcd17479e"
+        },
+        {
+          "reference": "Exodus 5:22",
+          "original_anchor": "v5-22",
+          "text_sha256": "32ad1965768a7c5dcb3c91c276c83dd177c69b3fcc228c1a563528707b8837e9"
+        },
+        {
+          "reference": "Exodus 5:23",
+          "original_anchor": "v5-23",
+          "text_sha256": "2867cef8247b5df8b7252bcf4e4bf2b6f8d6c43fec32f7d0805b7f601b119a4b"
+        },
+        {
+          "reference": "Exodus 6:1",
+          "original_anchor": "v6-1",
+          "text_sha256": "7efbd30b9a4d3743401b9e6553da824659487482f4f0cbf25ec9a151c703f958"
+        },
+        {
+          "reference": "Exodus 6:2",
+          "original_anchor": "v6-2",
+          "text_sha256": "b4003c9a9e1c13b11bb141f82d2b4f8b37465dfbe2f39e8292a930e9c0d70beb"
+        },
+        {
+          "reference": "Exodus 6:3",
+          "original_anchor": "v6-3",
+          "text_sha256": "911b6c341c559ae07ca9282cf3f60240aa106157e8d729c863fe3a6cbd69f1a2"
+        },
+        {
+          "reference": "Exodus 6:4",
+          "original_anchor": "v6-4",
+          "text_sha256": "11bdad52985011cc3a575999d086a25745d0499b174d8b26aaf80ee787e24932"
+        },
+        {
+          "reference": "Exodus 6:5",
+          "original_anchor": "v6-5",
+          "text_sha256": "928b4281ce83b17ca62a55687ce01bc81cf777938437aec02a5914bd5142cc8a"
+        },
+        {
+          "reference": "Exodus 6:6",
+          "original_anchor": "v6-6",
+          "text_sha256": "0f702baa11a8cfb474f941bc01a1b4f59893fbf9f283178b32a41098c23b91f4"
+        },
+        {
+          "reference": "Exodus 6:7",
+          "original_anchor": "v6-7",
+          "text_sha256": "ee309a57fe0eab59b39140044ef940026547232b11fd4a4fc672e23b752f89bb"
+        },
+        {
+          "reference": "Exodus 6:8",
+          "original_anchor": "v6-8",
+          "text_sha256": "85bb46235bd35e77f970d5977fbe3e511c5c1a0db09c0ef5e17212b870ae02e6"
+        },
+        {
+          "reference": "Exodus 6:9",
+          "original_anchor": "v6-9",
+          "text_sha256": "e85168dc643e8c6883fc21f05658fe1701100bb49ae4614602baf94258ee4ab8"
+        },
+        {
+          "reference": "Exodus 6:10",
+          "original_anchor": "v6-10",
+          "text_sha256": "dd42e408a786c9f0bd9cf181fcce7c7f303fa3a37831e9e7ed2c9f4bc0faa3df"
+        },
+        {
+          "reference": "Exodus 6:11",
+          "original_anchor": "v6-11",
+          "text_sha256": "32b3f9fc1cd6334c5f22ffd5d46e16a231ae1a287bd45d9fc424ab2f2cef3c99"
+        },
+        {
+          "reference": "Exodus 6:12",
+          "original_anchor": "v6-12",
+          "text_sha256": "3c1c0172492fff6436404eca7cfc475cb5a9f3565b2fe88314a1ae64e83c67e4"
+        },
+        {
+          "reference": "Exodus 6:13",
+          "original_anchor": "v6-13",
+          "text_sha256": "49113fcdac584b028a01de2bb702efb75e2f0d3674051be264406cb0c515bd6c"
+        },
+        {
+          "reference": "Exodus 6:14",
+          "original_anchor": "v6-14",
+          "text_sha256": "346d5718cb66a9f5b81a23533ad707f680576d89dc7aacb85ec9e06f02808a10"
+        },
+        {
+          "reference": "Exodus 6:15",
+          "original_anchor": "v6-15",
+          "text_sha256": "41b69f4e4dae7902280c96475722f643a2ba89019535d888014c54d5978132c2"
+        },
+        {
+          "reference": "Exodus 6:16",
+          "original_anchor": "v6-16",
+          "text_sha256": "0f7153605fae8ad1aed11dfe83f7095a80c3c03c2350261ded8fb6ec71a6bba2"
+        },
+        {
+          "reference": "Exodus 6:17",
+          "original_anchor": "v6-17",
+          "text_sha256": "6e0c4bb5a3812b305e8bc2b37f0de8a3dc019f46d891b7aae63f28577e08586c"
+        },
+        {
+          "reference": "Exodus 6:18",
+          "original_anchor": "v6-18",
+          "text_sha256": "170b5500a412db4c17c99572bc0fa688de6100b876fb98c4e9b34f0f48bfe168"
+        },
+        {
+          "reference": "Exodus 6:19",
+          "original_anchor": "v6-19",
+          "text_sha256": "17e85bbf7060158ec3041c9bcbeed61c7427a2cddaf66fc29b038a21921ac7a7"
+        },
+        {
+          "reference": "Exodus 6:20",
+          "original_anchor": "v6-20",
+          "text_sha256": "3973827cdbaf6bb22f21ca42b10862d6d9c53d05f0ec00fbe89add8efb14762b"
+        },
+        {
+          "reference": "Exodus 6:21",
+          "original_anchor": "v6-21",
+          "text_sha256": "30ecc9690a48783117b60f791819c5773e2a2a1c52a479efcf92c1fe208643f6"
+        },
+        {
+          "reference": "Exodus 6:22",
+          "original_anchor": "v6-22",
+          "text_sha256": "2fd3f2806934ea10517d7ab73460df006314156020619a514782ac92dce6122b"
+        },
+        {
+          "reference": "Exodus 6:23",
+          "original_anchor": "v6-23",
+          "text_sha256": "3bfc818a7910c39e82276e0b27621c09c9a65191115a33dd596c3446af19370d"
+        },
+        {
+          "reference": "Exodus 6:24",
+          "original_anchor": "v6-24",
+          "text_sha256": "6afe2df12ae93f84d20b4f3816b517ef9398c8c1baf0c01af07a13f2c0c743cd"
+        },
+        {
+          "reference": "Exodus 6:25",
+          "original_anchor": "v6-25",
+          "text_sha256": "41eb29a8c5b2e5b1ba8e0ff8deceb3f7db50aeceb629626252cecb7730422550"
+        },
+        {
+          "reference": "Exodus 6:26",
+          "original_anchor": "v6-26",
+          "text_sha256": "e694860727e777e0241dde0c760725771df368cc20aead776376a0912e4bc927"
+        },
+        {
+          "reference": "Exodus 6:27",
+          "original_anchor": "v6-27",
+          "text_sha256": "2c30f0452df0ef3f97998c1b58be3a914681266037e0e3464530c925f67ab3b1"
+        },
+        {
+          "reference": "Exodus 6:28",
+          "original_anchor": "v6-28",
+          "text_sha256": "7191a4b9aa2eaeb04d414141df8cc43c9e3537c72301674dd5cf908d47352f51"
+        },
+        {
+          "reference": "Exodus 6:29",
+          "original_anchor": "v6-29",
+          "text_sha256": "11c44d7b264e438f15d5f38fec04e33f588f4770cac1bb9679e3edd62a4258d8"
+        },
+        {
+          "reference": "Exodus 6:30",
+          "original_anchor": "v6-30",
+          "text_sha256": "581a2d2aae903e39c71db7e8a74d3dadff4a30300b3d4ab0aad09d3e05d5a69a"
+        },
+        {
+          "reference": "Exodus 7:1",
+          "original_anchor": "v7-1",
+          "text_sha256": "5538e4a11b2c9644b2d4299bce549868d688ce9ac8ed6021e0edb613db347bd2"
+        },
+        {
+          "reference": "Exodus 7:2",
+          "original_anchor": "v7-2",
+          "text_sha256": "456d6b3ffd0e5eb3bd75d04d277df38fb79d6318227e48460a31b8255b8da051"
+        },
+        {
+          "reference": "Exodus 7:3",
+          "original_anchor": "v7-3",
+          "text_sha256": "a6cd6598ca463e1908a9da98e1cfde7326885f6d123f05b39f295cfb1627a339"
+        },
+        {
+          "reference": "Exodus 7:4",
+          "original_anchor": "v7-4",
+          "text_sha256": "a436cc34b9e7b9fca4b50df699165f30cd5b2043929b48a48838b6fb6a4debf9"
+        },
+        {
+          "reference": "Exodus 7:5",
+          "original_anchor": "v7-5",
+          "text_sha256": "55a96919b3a8e60328393f2f76f0b4d2d586a667fe032bf58b603df26342119d"
+        },
+        {
+          "reference": "Exodus 7:6",
+          "original_anchor": "v7-6",
+          "text_sha256": "ba8c8f9bc555e9232b4588443d18759018543511ba006ca71cf3cff27eeedc38"
+        },
+        {
+          "reference": "Exodus 7:7",
+          "original_anchor": "v7-7",
+          "text_sha256": "e7feb56e8e2974ffcc008e995f258751ce2f5c1b152d1a61962f7d739279cd15"
+        },
+        {
+          "reference": "Exodus 7:8",
+          "original_anchor": "v7-8",
+          "text_sha256": "b2b12830ff771cc2ee72894d58e69218a0e9da6335c6524d032cc1c9ab1a1106"
+        },
+        {
+          "reference": "Exodus 7:9",
+          "original_anchor": "v7-9",
+          "text_sha256": "7f12837e29be09fa84f9b27ed76162ed04941bf54d0611dd5cb5369656050fed"
+        },
+        {
+          "reference": "Exodus 7:10",
+          "original_anchor": "v7-10",
+          "text_sha256": "e9913634049f2c512bbf97ad915d51a8314c8bdeb8d8bfff805e463162a72349"
+        },
+        {
+          "reference": "Exodus 7:11",
+          "original_anchor": "v7-11",
+          "text_sha256": "ba4c1144f2db590730e22525a34c445507c9f99151dcdd483c08b7f373f951e7"
+        },
+        {
+          "reference": "Exodus 7:12",
+          "original_anchor": "v7-12",
+          "text_sha256": "165555dd9fdb4b284dcecc085878f6830d163e0813c18102c1d49636408b1cc1"
+        },
+        {
+          "reference": "Exodus 7:13",
+          "original_anchor": "v7-13",
+          "text_sha256": "c158f0249a9861a644c0bce0686a2be92c84fd1f90533b7e4585089d8f168c26"
+        },
+        {
+          "reference": "Exodus 7:14",
+          "original_anchor": "v7-14",
+          "text_sha256": "d1f7f5dbf96e916e08313f88d865591ad866fda0edabad2c8ace90cb031367f5"
+        },
+        {
+          "reference": "Exodus 7:15",
+          "original_anchor": "v7-15",
+          "text_sha256": "b93cd5829d844a1233ba01d26c704f15509a7fa1121896429bcf50c9349c083e"
+        },
+        {
+          "reference": "Exodus 7:16",
+          "original_anchor": "v7-16",
+          "text_sha256": "6fffa68c7f2199ae8761ff55cc5c4f9f3cca732e62a73dd1cef2ead031b77779"
+        },
+        {
+          "reference": "Exodus 7:17",
+          "original_anchor": "v7-17",
+          "text_sha256": "b66a911c0167e20a5d9a16e7146ecc9bf5ee8cf8f6550f11766a9d8918965763"
+        },
+        {
+          "reference": "Exodus 7:18",
+          "original_anchor": "v7-18",
+          "text_sha256": "73e29d46ac8e0fb71d81405f9058718975dfe1c3194099f05c277686794b42b8"
+        },
+        {
+          "reference": "Exodus 7:19",
+          "original_anchor": "v7-19",
+          "text_sha256": "22f7aac853299eb369f1c2d6123f82094e0e1d2c57cddfff37a1894e187cef9b"
+        },
+        {
+          "reference": "Exodus 7:20",
+          "original_anchor": "v7-20",
+          "text_sha256": "719f286e5dd6bdedcc105cd8d9c93a934a92e3326c2dcea9a49455eeaaf2346d"
+        },
+        {
+          "reference": "Exodus 7:21",
+          "original_anchor": "v7-21",
+          "text_sha256": "977a4414ea0590b607dee8d460c9e7433a9005f6bf319e74e684d7137c0fbe95"
+        },
+        {
+          "reference": "Exodus 7:22",
+          "original_anchor": "v7-22",
+          "text_sha256": "360461d250e6d2f8f0ce27885e7d4f6374430343ee4c2eb849cef0b617983f2f"
+        },
+        {
+          "reference": "Exodus 7:23",
+          "original_anchor": "v7-23",
+          "text_sha256": "99b56a4c3c417ab66b8c83cc6cd2907c3edde6e24f1d4b5b580e2b2c4b81f12f"
+        },
+        {
+          "reference": "Exodus 7:24",
+          "original_anchor": "v7-24",
+          "text_sha256": "aefaa978e24a6a9b183384c75e34595e4fd629c0f6673dc783dae2076480b18d"
+        },
+        {
+          "reference": "Exodus 7:25",
+          "original_anchor": "v7-25",
+          "text_sha256": "38904f25af5851554fa4688569038cd998dc6a70d8c983c0c8c5289a9d1de93f"
+        },
+        {
+          "reference": "Exodus 7:26",
+          "original_anchor": "v7-26",
+          "text_sha256": "6f0f71db6da5ac3de57a79b12a604052077f9dfb821f1fef0c805ee57830da7a"
+        },
+        {
+          "reference": "Exodus 7:27",
+          "original_anchor": "v7-27",
+          "text_sha256": "986c6ec645bcf9ba8a882ba10b2605a37ad142057143ad9e606bb91b8648d2e1"
+        },
+        {
+          "reference": "Exodus 7:28",
+          "original_anchor": "v7-28",
+          "text_sha256": "55459d5eaa18f4a27fb6951fc69bad966c4c58d0bffc822b926529c810fad841"
+        },
+        {
+          "reference": "Exodus 7:29",
+          "original_anchor": "v7-29",
+          "text_sha256": "ba857ba2b8f9c283e47fc6288c938d141b19b9f2f8a59f276bdd130ffc17f129"
+        }
+      ],
+      "context_passages_read": [
+        "Exodus 5:1-23",
+        "Exodus 6:1-30",
+        "Exodus 7:1-29",
+        "Numbers 3:1-4",
+        "Numbers 3:17-33",
+        "Numbers 16:1-3",
+        "Numbers 26:1-13",
+        "Numbers 26:58-61",
+        "Numbers 25:6-13",
+        "1 Chronicles 6:1-25",
+        "1 Chronicles 9:19",
+        "Leviticus 10:1-5",
+        "Ruth 4:19-20",
+        "Numbers 1:7",
+        "Exodus 3:7-22",
+        "Exodus 4:2-23",
+        "Exodus 4:27-31",
+        "Exodus 8:1-15",
+        "Exodus 8:20-28",
+        "Exodus 9:10-12",
+        "Exodus 10:1-2",
+        "Exodus 11:1-3",
+        "Exodus 12:29-38",
+        "Exodus 14:4",
+        "Exodus 14:17-18",
+        "Romans 9:15-18",
+        "Psalms 77:43-45",
+        "Psalms 104:8-10",
+        "Psalms 104:26-30",
+        "Genesis 17:1",
+        "Genesis 17:7-8",
+        "Genesis 35:9-12",
+        "Genesis 15:18-21",
+        "Genesis 46:9-11",
+        "Exodus 1:9-14",
+        "Exodus 2:1",
+        "Exodus 2:23-25",
+        "Leviticus 26:11-13",
+        "Exodus 29:45-46",
+        "Deuteronomy 26:8-9",
+        "Acts 7:23-30",
+        "Numbers 33:38-39",
+        "2 Timothy 3:1-9"
+      ],
+      "editorial_notes": [
+        "All82 actual units received an initial curated pass, with at least one retained pair per unit. No fixed number of matches was imposed; completion is not exhaustive discovery. All intrachapter connections carry the Same-chapter prefix.",
+        "The source's chapter7 has29 units and ends with the frog warning. Its7:26-29 are not silently relocated to another edition's chapter8; the frog outbreak begins in this edition's8:1-2.",
+        "The king's idleness accusation and explanation of the worship request remain his speech, distinct from the narrator's painful labour, unchanged quota, stubble-gathering and scourging notices. Different population-policy speeches do not establish the identity or reign of an unnamed Pharaoh.",
+        "The labour roles remain taskmasters and scribes as supplied; the text's Israelite scribes, their petitions, Pharaoh's response, their accusation of Moses/Aaron and Moses' appeal to God are kept as different narrative and speech levels.",
+        "Straw not being supplied is not made a claim that no material exists anywhere; the people gather stubble. Pharaoh's unchanged count is compared with its actual enforcement without introducing a new modern production estimate.",
+        "The release promises are not made completed events before the departure narration. The later frog-period royal promise is not treated as a completed departure either.",
+        "Exodus6:3 says appearing as their God, and Genesis17:1 says I am your God. No Almighty title is imported. The name-Lord disclosure statements remain supplied, without a new harmonization of every earlier name occurrence.",
+        "Exodus6:5 retains your covenant, alongside the earlier narrator's His covenant in2:24 and the psalm's ancestral-covenant summary. These are not silently turned into one identical quotation.",
+        "Exodus29:45-46 says called upon among Israel, and Leviticus26:11 says covenant among them. The chosen links do not replace those supplied forms with dwelling/tabernacle wording from another edition.",
+        "Exodus6:9 expressly explains the failure to listen by discouragement and hard labour, not by Pharaoh's charge of idleness or an invented universal spiritual diagnosis. Moses' subsequent inference about Pharaoh remains his own argument.",
+        "The source lifespans remain Levi137, Kohath130 and Amram132. Jochebed is the daughter of Amram's father's brother here; Numbers26:59 retains its own difficult daughter-of-Levi and Egypt-birth wording. No aunt-for-cousin substitution or reconstructed ancestry is imposed.",
+        "Simeon's six sons and Phoenician mother differ from Genesis' supplied names/Canaanite description and Numbers' five clan headings. Chronicles' Gedson/Lobeni/Semei, Kaath/Ambram/Issaar/Oziel and Mooli/Omousi remain its supplied forms, not silent corrections of Exodus.",
+        "Exodus6:22 Elzaphan/Sithri is compared with Numbers' Elizaphan and Leviticus' Misadai/Elzaphan, without treating the differently named additional sons as resolved identities. Elisheba's relationship to Amminadab and Nahshon does not transfer her brother's Judah-representative office to her.",
+        "Exodus6:24 lists Assir, Elkanah and Abiasaph as Korah's sons; Chronicles6:7-8 uses a descent chain including Kore, Asir, Elkanah and Abiasaph. The generations are not flattened or every similarly named occurrence merged. The Numbers survival notice does not name each son.",
+        "Phinehas' later priesthood episode and Eleazar's later Levite leadership are linked through explicit parentage, without supplying Putiel's daughter's personal name. No modern permission for violence is derived from the priesthood episode.",
+        "The Aaron/Moses genealogy headings are compared with the commission they frame. The summary saying they brought Israel out is not used to claim that the first Pharaoh audience already accomplished the actual departure.",
+        "Without eloquence, weak of voice and slow of tongue remain the supplied speech descriptions. No uncircumcised-lips phrase or medical diagnosis is substituted. The god-to-Pharaoh/prophet wording in7:1 remains distinct from matters-pertaining-to-God and mouth-to-the-people wording in4:16.",
+        "God's explicit future hardening, later narrator attribution to God, grew-strong/grew-hard notices without a named agent, God's heavy-heart assessment, and Pharaoh's later making his own heart heavy are kept distinct. Romans is a later theological discussion, not claimed to quote7:3 or to resolve every agency formulation.",
+        "The eighty/eighty-three age notice is retained as supplied, including its singular speaking wording. Stephen's forty-plus-forty recollection and Aaron's123-year death notice are comparisons of stated markers, not a newly reconstructed chronology of every intervening event.",
+        "Moses' private serpent-staff scene is distinguished from Aaron's public dragon-staff scene. The source reports the enchanters' transformations, Aaron's staff swallowing their staffs, and their later failure with gnats; no replacement creature term or independent explanation of sorcery is imposed.",
+        "The pinned2 Timothy passage names Jannes and Jambres opposing Moses. It is retained as a later allusion to opposition, without adding those names to Exodus or claiming independently resolved identities for every wise man, sorcerer or enchanter.",
+        "Exodus7:17 gives God's I-strike declaration;7:19 commands Moses to instruct Aaron;7:20 names both brothers and then uses a singular he;7:25 attributes the strike to the Lord. The unresolved singular is not independently assigned and these narrative levels are not collapsed.",
+        "The source's wood-and-stone blood wording is not replaced by a newly supplied vessel or idol interpretation. The earlier water-poured-on-dry-ground verification and the later Egypt-wide waters judgment retain their different scale and setting.",
+        "Fish deaths, stench, inability to drink and digging are linked to the stated warnings, without claiming the digging succeeds. The psalm's rain-waters and singular frog expressions remain its own wording and do not add new events or a frog census to Exodus.",
+        "Seven days passing after the river strike is not turned into an explicit statement that the blood condition ended after exactly seven days. The frog household-invasion and removal location lists remain distinct; Moses' promised removal words to Pharaoh are not quoted as the unreported words of his later prayer."
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Exodus 5:3",
+          "candidate_target": "Exodus 4:23",
+          "reason": "Did not equate the warning of death or slaughter meeting us in the petition with the earlier warning to kill Pharaoh's firstborn; the targets retain the actual three-day request instead."
+        },
+        {
+          "source_reference": "Exodus 6:3",
+          "candidate": "An Almighty title or an independently harmonized divine-name history",
+          "reason": "The supplied English title and name-disclosure statements are retained without another edition's replacement."
+        },
+        {
+          "source_reference": "Exodus 6:20",
+          "candidate": "A reconstructed genealogy making the stated wife an aunt rather than the father's brother's daughter",
+          "reason": "Both actual ancestry records are read and their distinct wording remains."
+        },
+        {
+          "source_reference": "Exodus 6:24",
+          "candidate": "Flattened sibling/descent-chain identities",
+          "reason": "The parallel records have different supplied structures; no new resolved identity table is credited."
+        },
+        {
+          "source_reference": "Exodus 7:11",
+          "candidate": "Assigning Jannes and Jambres as independently established identities of every unnamed Egyptian practitioner",
+          "reason": "The letter is retained only as its own later allusion and comparison."
+        },
+        {
+          "source_reference": "Exodus 7:20",
+          "candidate": "An independently resolved singular he or human/divine agency conflation",
+          "reason": "The actual pronoun and each instruction/narration layer are preserved; the retained relationships do not depend on resolving the singular actor."
+        },
+        {
+          "source_reference": "Exodus 7:25",
+          "candidate": "Declaring a separately stated end of the blood condition after seven days",
+          "reason": "The verse gives elapsed time after the strike, not that additional ending statement."
+        }
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "validation": {
+        "all_actual_source_units_covered": true,
+        "all_targets_present": true,
+        "duplicate_pairs": 0,
+        "self_containing_target_ranges": 0,
+        "invalid_fields": 0,
+        "unmarked_same_chapter_pairs": 0,
+        "all_used_books_in_saints70": true,
+        "all_used_books_have_pinned_source_receipts": true,
+        "new_source_raw_git_blob_verified": true
+      },
+      "target_verse_sha256": {
+        "Exodus 3:18": "b9b2d449c74e9b55f369d54ea6c8ef53187b6881b7639f89cfbf7e8d3ef3bfb7",
+        "Exodus 12:31": "15791b4b54b744f6c6283df24523b708c0fc13dea5a6cb015f68264976d6945a",
+        "Exodus 12:32": "773bfdcb7ca58f69927edd7726c967d1c4074e34467097ba9c0e640e6ce8f785",
+        "Exodus 3:19": "48e7e455897a240391c383e72feee633e6717ed427901c914b77a0a5f3065d2b",
+        "Exodus 7:5": "55a96919b3a8e60328393f2f76f0b4d2d586a667fe032bf58b603df26342119d",
+        "Exodus 8:23": "42fcb60cbf6da3046095d5e6c93f396d70156603b2198e3597f8c5a650da3e5c",
+        "Exodus 5:6": "293eb078345c312f1eabe45427d159ab8c4b657d61271341d39f7d3d730ae118",
+        "Exodus 5:7": "057b92b8a939e13db7ea25516c1b43f5ae203e5688fd61fb44da335c6b8b2018",
+        "Exodus 5:8": "d2a1e5840965fd33b545e77269ec186b441b2f282d54bab0e935beae72e54936",
+        "Exodus 5:9": "43dbeb3ec7ab631a329dbec0faa920aa57d9c632b3f9e4b3a8dff22d16674720",
+        "Exodus 1:9": "cc91c31396c7ae051d87dee38b2138be17a3bf5295bb3d8f2128a42261fdd9b9",
+        "Exodus 1:10": "a430b3c5b3f4b2a11acd5efdb64a968bc79d5d6fdd82dba41ae2eaf28feb33e9",
+        "Exodus 5:10": "632b55b50a9c76dfa77b932c47d7418800be530e613eda0a10546f8b7edc02d4",
+        "Exodus 5:11": "f5dc1ac369a79a8d16bb5722910de55cd7c97d29bbcf247394f0149617a1767b",
+        "Exodus 5:12": "addbc993c89ddf6b85dc6c7463c3e55bd4bc8936939df457577c5264a9ed4e0b",
+        "Exodus 5:18": "31b5f06bcd34a63094d596514abe08dab7ebad1c458373a51f2cb056dac8a467",
+        "Exodus 5:13": "0197febd8ef70dc1225e397e27ee1d2f692944fb3b502207c4a37e3009f6cb86",
+        "Exodus 5:14": "182778211126825c737a5919fabc04ca0572349a52200dc89d796068b8a894be",
+        "Exodus 5:17": "6b8a2d29ee2ff058b3eeae68c9bc0ecb9ad39d8c30924fb8e148eb649a84df73",
+        "Exodus 1:14": "47a905ab015103b08689632894a739d4ae30110c6b48e8284330661c1414a04b",
+        "Exodus 5:16": "ce49276e70b9f7062aee448740206bd71c10c312a1db005ef8b1db6a8d18df70",
+        "Exodus 5:15": "cbea9e53829d30682b397db7a1d3a35f39285ef3644372668ff10c043c693806",
+        "Exodus 5:19": "3fb4aa6f9277a53ee476cb31a174a4564004598b379181560caa6e7e113217f6",
+        "Exodus 5:21": "6637dd9ede5ee9582551010f2c59f4466e065009379c3b6d028938dbcd17479e",
+        "Exodus 5:22": "32ad1965768a7c5dcb3c91c276c83dd177c69b3fcc228c1a563528707b8837e9",
+        "Exodus 5:23": "2867cef8247b5df8b7252bcf4e4bf2b6f8d6c43fec32f7d0805b7f601b119a4b",
+        "Exodus 3:10": "51398753bbf5ab8533f8a20939725402f7b26ac64c4bae3278e4328de88761d3",
+        "Exodus 6:1": "7efbd30b9a4d3743401b9e6553da824659487482f4f0cbf25ec9a151c703f958",
+        "Exodus 12:33": "1dc044bd3f17767b9ca2aafb0a37b277d0442341bdc54fb76a75ada76b8218b0",
+        "Exodus 3:14": "1d86df3427c86454af7ba24ccb5c3c3cf6af9be694939b481460cc81751cdaa3",
+        "Exodus 3:15": "ade2159f07ff711eafc89abc862a5543cce8306036879d55bc59d17b822051b1",
+        "Genesis 17:1": "844825fb7f9f7385fcca72033388c2515be1ddb682e787b933b8f6e745e8089b",
+        "Exodus 3:13": "93c87b6a273a01b8cad99ec7c8a1712341ef1a2533e12e22e660e7439ee5c464",
+        "Genesis 17:7": "e326954db4b2407c5bc23f4683ee15b62e63d4d4c779fa900f0c39091f8cc276",
+        "Genesis 17:8": "9e0abb711a3e3c6f99839136913aa3ce67f623f81f4e636fff02c40d87981be2",
+        "Genesis 35:12": "5b95f2373d878f026b3369d8971c703ed012ad4ddbf447887c5abb1083c4ead2",
+        "Exodus 2:23": "694053df7af9e6ab93faea7c838dba8b9b98e853d868b54941b9d38fc26b9b74",
+        "Exodus 2:24": "50e9914cbe7bf65bc557e13b3b489f57cf9956187c2cbefe2df45c8560cf1e78",
+        "Exodus 2:25": "a621ac5991df1a4dbd542f33b8117fe7e2ef584148273c71825c98022839e76a",
+        "Psalms 104:8": "ea66b6073f9b6052e943470c2f55f3227e0ead7cb72b355444586f1a0674fc11",
+        "Psalms 104:9": "5a7bc2a432543cf56ebc2cfe1e936473f712177e63c693a073711ac4d98190d1",
+        "Psalms 104:10": "2bc5b04ed431392b07091d3fa63b17818de108ff8541f3162880555cc21dbf05",
+        "Exodus 3:7": "03a783c67b9692d6d11334a524f478656857c628019034c41ad54d77a9ee50a7",
+        "Exodus 3:8": "b69b47b56dc74bc8742d251c7a7eb2a84c4f7fb3fbfe023f421f9a6a3f115269",
+        "Deuteronomy 26:8": "cfa337df4d5ef516087f95cdb60f6cbecddfd763de853175dce38659d86fdda6",
+        "Leviticus 26:12": "8619a2e1ff837b05b38de8025e653741a4848f78eea4d1680596e16ee62a2204",
+        "Leviticus 26:13": "2f88174876911fe320e8d79375d5777d0bb0ba86cfda4640dd7b22e1e7096cdf",
+        "Exodus 29:45": "53c4980ebdd5917092af9bd1aa91f8e305dfa724396573e1371fcad8ab1d5abf",
+        "Exodus 29:46": "a9e7c469a4b3783db333bcf9969316f175cf779f7da753aede8fc942162657db",
+        "Deuteronomy 26:9": "5b80c5a5e74b95bca94c2aa9d1d1f067df71693a9d1f91106d5be910cb9b5a53",
+        "Exodus 4:31": "841580713b0d73fc62723cf64a3238704175e963f0e98ac51f0c29773cbf62f6",
+        "Exodus 6:11": "32b3f9fc1cd6334c5f22ffd5d46e16a231ae1a287bd45d9fc424ab2f2cef3c99",
+        "Exodus 7:2": "456d6b3ffd0e5eb3bd75d04d277df38fb79d6318227e48460a31b8255b8da051",
+        "Exodus 4:10": "1eaa5576df336f7a06369ec0a0459ed299778a566a924447e9d13ab5d1c4f6d4",
+        "Exodus 6:9": "e85168dc643e8c6883fc21f05658fe1701100bb49ae4614602baf94258ee4ab8",
+        "Exodus 6:26": "e694860727e777e0241dde0c760725771df368cc20aead776376a0912e4bc927",
+        "Exodus 6:27": "2c30f0452df0ef3f97998c1b58be3a914681266037e0e3464530c925f67ab3b1",
+        "Exodus 7:1": "5538e4a11b2c9644b2d4299bce549868d688ce9ac8ed6021e0edb613db347bd2",
+        "Genesis 46:9": "dab4327fd341250e7c17ed8924b3e5a70f634515a84be1ef451c4dfe9305c6f7",
+        "Numbers 26:5": "f13a5f342864e5a3b1e06283afb19c0afc048db87c9d521bd6982b3e9494d4a5",
+        "Numbers 26:6": "fe76e55e7a0df86e9eb1cbab6b8b13b85c947616beb0cdf0daf0a74600198460",
+        "Genesis 46:10": "c48218823a141bc3aa92346b49db997444e305b32777dfec1f4cdaead811c594",
+        "Numbers 26:12": "1668efb402183e23bf3437dc80d8aa3f9eeeb883fa31241d5ce2c8f22f78dc12",
+        "Numbers 26:13": "88a93cb8569416f2d1ffb773cbf5ab5fe77f62bdf526ae2c7e6a9b9202faff3c",
+        "Genesis 46:11": "03efe2f3754a89a11f65cba770ae896817ee22ec869c7de2a97270280e87f707",
+        "Numbers 3:17": "a041cb0c099cf3eb7ca34b334bfa2c274a8070a1b26cf245414e483db5da7c42",
+        "Numbers 3:18": "1055b1a10409674f60052861c68734bb1bdbb8da8f3e7cfe1d6dd336a317aff5",
+        "1 Chronicles 6:2": "180f95cc4ec5023448fda9534457dd1d68fa83fbd5b443d5976f70a7a0ba82fb",
+        "Numbers 3:19": "4d7a4549e86ca28e37984bd88a6affa83a2e13cb65080e2d835b858412e0ff20",
+        "1 Chronicles 6:3": "93f64bd4ab4524f3e0dfa55afad969b312908d564c7aa889267a8f90c823045f",
+        "Numbers 3:20": "d2f9dcbdfc0d765e4e6a87bbb18d1846c8ab1f285338c203e05511e7bc1167ba",
+        "1 Chronicles 6:4": "6e050b2616acd63cf5823f8df13f32325a0c609d35de05bf24702e1dd8a30dad",
+        "Exodus 2:1": "97c54e4a86ec3650ddda6dc770df7a3de66fa12e087503a3ef40fb1e127fc055",
+        "Numbers 26:59": "771b3484f381dae142227366b74a325814d89d902b8189423ec394f7f9ac29b0",
+        "Numbers 16:1": "0e8a0dd3d09efabbccbabb693bc15ebe895b5b447049c9004f3e110ecb52add9",
+        "Exodus 6:18": "170b5500a412db4c17c99572bc0fa688de6100b876fb98c4e9b34f0f48bfe168",
+        "Numbers 3:30": "01e4c5c6530d9ba45c457ee950127be3e8d363dfd6754f9fa8a010df02d46a8e",
+        "Leviticus 10:4": "51834e1a7cdfe2d4e1046d34882352807e9017947e6c88ffdae6fecb98338b13",
+        "Numbers 3:2": "8699dd4f5f6c1351db643973e822de9f5ca53cf97ab8dbfdc74f4aebb0e171e8",
+        "Numbers 1:7": "889d559e0c351b396e0799fb89f0d2f36c7c18126c30c7a415e533205e7ad58e",
+        "Numbers 26:11": "4a20fc73c7853687ddf79316d0177dfecea08436a4c191bf1364d645e513e31d",
+        "1 Chronicles 6:7": "10c1f8427ea8ebcd729a8df4a2d145e0ee26d40ff1004cd29428d518c494eb42",
+        "1 Chronicles 6:8": "9bdd0aa2d3e1e998e3e4c13b921eaf38f92768615dadc79b7b1ae3b373ac4168",
+        "Numbers 25:7": "46fa1148b416b722f9650bbc1ee3284846bcd8eca97d37c168bdb3353edb0511",
+        "Numbers 25:8": "a1e46f1fd6dcb9117b7a42fb67656ded97be08c74f3b9908427b15dc035c998c",
+        "Numbers 25:9": "916c519e102986eb479da84afcfbb4b85534eb50d7ddf5a77edca81c977b62ec",
+        "Numbers 25:10": "c0dfa3c35e6401020f58bc07d04db4e4e308ffa710489e9acb2dd505a3143228",
+        "Numbers 25:11": "1e29b1e71edfccba9ab1471619e5eb38deabd7c577f282eed9a8355def83598d",
+        "Numbers 25:12": "8a6dbee7bcd82f050f55b0d655a658ca5147612f86f0aa1edd70320a46a92f3b",
+        "Numbers 25:13": "4145834d4a807fb74ffb4979459738afa5a6ff36f833026696fb22f008cc274b",
+        "Numbers 3:32": "bc39cf25a48c31d325760964d08ff4ec0033f0ec980f19543746cddcf58e8579",
+        "Exodus 6:13": "49113fcdac584b028a01de2bb702efb75e2f0d3674051be264406cb0c515bd6c",
+        "Numbers 3:1": "065d18a97ac9f4c24cadb0318ebf4ec2bc47dfcae30917090937bd6832fb311f",
+        "Exodus 5:1": "78bcc95b766205268a0df87bfd562b5aa2bdc8c067f184065a11d290f4681a06",
+        "Exodus 12:34": "5ad6f4c620b0caa155d7d9e8eed166bdf177411c20f097597befdd31eb3dfba4",
+        "Exodus 12:35": "084c63a8d008c12b1dc2383df30a150ad9e9e0bb1658c631a23dadc86eeb62f5",
+        "Exodus 12:36": "0bf3e0ac465e8b69bfb31f306c3afd4cd6b38b003e97ecf2b4d2fdfa88018c03",
+        "Exodus 12:37": "649ff9f0c354fd0b709279e2b0c6482591fa808c95eb75e2a7e8f61b6488e530",
+        "Exodus 6:29": "11c44d7b264e438f15d5f38fec04e33f588f4770cac1bb9679e3edd62a4258d8",
+        "Exodus 6:12": "3c1c0172492fff6436404eca7cfc475cb5a9f3565b2fe88314a1ae64e83c67e4",
+        "Exodus 4:15": "967ab65370dd17921efbc06850094202a1cd20d2c82f788a7fa33935726b3d93",
+        "Exodus 4:16": "6e11e4403231397007ebdfdc3328bcb509b310bb9826e5a78492c10f3e7d6c2b",
+        "Exodus 4:21": "f2e470cd2aef93212c60e9c919d9807621dd2ebf133d718d56409112b9b38d12",
+        "Exodus 9:12": "710191390d1acac48c5789f8e355dcf39bf2fc696c4b0b10a32e8ccdc5eaa713",
+        "Romans 9:17": "c357e2b3fb478cc7349aead0525739cc36f0f87d3ad3bf9cebcc5c7e5a0598fc",
+        "Romans 9:18": "659637c6785658d0c7fd80d9e378317a1f0376dd1a08f6a3c081d5efccfe5392",
+        "Exodus 3:20": "ca371563c90668e76b387359f2153149c21367f869bfcf9a36f23b80dceb126b",
+        "Exodus 5:2": "fb669c7c90799e62d33c7cbed3132800ca253047330be8c9603046d6a68f9441",
+        "Exodus 14:17": "f57a76f0bb582563993cb5781fe89d5cbabe195bedb4a89f050216f603436be7",
+        "Exodus 14:18": "a96812c839634b53ecc0eeefc91c08b9f77c5e7af65855ede303d16aede602b0",
+        "Exodus 7:9": "7f12837e29be09fa84f9b27ed76162ed04941bf54d0611dd5cb5369656050fed",
+        "Exodus 7:10": "e9913634049f2c512bbf97ad915d51a8314c8bdeb8d8bfff805e463162a72349",
+        "Acts 7:23": "ca6132076a6984c324074ba5e9f6a866633ae0be83b828f51e5a5242badbcf7e",
+        "Acts 7:24": "1d19b01770b3a5d8794850788049fd596d1b05b162b3c485f3fe06b02a5728f4",
+        "Acts 7:25": "c3755c8a56f9e02deb3a7107d50f1fc09266bbe121246c2deb35f0042e4ee22e",
+        "Acts 7:26": "9c7f4605fa7d4a410980d651c628ec35651c2b33b01825f3710370e6fb86124f",
+        "Acts 7:27": "523c521201c441d65e64da747e4d72b375ba4584330a8417f7ce65d6aa16b952",
+        "Acts 7:28": "1f1a514d85388f8b997be86c70428d975d3f2eb7415436b4d56def8435f17620",
+        "Acts 7:29": "9e3673ae9f528cab115035a21ba68ece6e14fa7fde13b17bf08d56251de6fae5",
+        "Acts 7:30": "e0a7d332a250b7fb0c3b4c0fa31dc04305f3f9f316b96149bcdc208096e69419",
+        "Numbers 33:38": "465937f2deed78a7f3bba9f04a977008b376c2655dafee0bbc284b6dc4ae66ab",
+        "Numbers 33:39": "2c1a25efb45cf3b561002d3c3bceb88359d81dc93a684e72023da56adce526fa",
+        "Exodus 4:3": "65d97ef1c0f29d62f71b131b1f916bc0f7580241bd2dc156b8983f291e64ee12",
+        "Exodus 4:4": "78cc5e59849bf7268f967fd20fd5d2b2a2dd6c005ebb0b14599b63d8da45465e",
+        "Psalms 104:26": "d365783231e858c75d1fdb28482d7ed271f4f8e2473040888b8e7eef2d07ce96",
+        "Psalms 104:27": "ebbf99e53ef181c3687b8e7a26eb7eb881be734067c27160dc7de591307676ec",
+        "Exodus 7:22": "360461d250e6d2f8f0ce27885e7d4f6374430343ee4c2eb849cef0b617983f2f",
+        "2 Timothy 3:8": "dab065b10c2390b6926fe4e26bcdc0cf115d5df287c3025e72ac06b7e42fb729",
+        "2 Timothy 3:9": "4a60ab53dab655a989208176001eff4a76a7eeaa8518391dd2f85125e4f9942d",
+        "Exodus 8:14": "b1a80365da64d4db72ea997fd84e88f60d8a4df67b00cdfbe2bb6111fcf64612",
+        "Exodus 8:15": "98d2ac2f5cfdc7c1aee25379139e6c0391bdc7c46d94d255463f7334471c4765",
+        "Exodus 7:3": "a6cd6598ca463e1908a9da98e1cfde7326885f6d123f05b39f295cfb1627a339",
+        "Exodus 8:28": "d75b62ae4e30d6dbd57b0d35f1bfd730adf40861927ce6ca6db48dae51d04693",
+        "Exodus 7:13": "c158f0249a9861a644c0bce0686a2be92c84fd1f90533b7e4585089d8f168c26",
+        "Exodus 4:17": "512ddc7cf6c0d7451177b8d76c93ff4a0558e121d8eba632d84258a779a2ef2f",
+        "Exodus 7:20": "719f286e5dd6bdedcc105cd8d9c93a934a92e3326c2dcea9a49455eeaaf2346d",
+        "Exodus 5:3": "fc82a42d7deff7ff0437a7043d4e6b5de4e83e2bb0204522f280b6dec9b607f0",
+        "Exodus 7:26": "6f0f71db6da5ac3de57a79b12a604052077f9dfb821f1fef0c805ee57830da7a",
+        "Exodus 7:21": "977a4414ea0590b607dee8d460c9e7433a9005f6bf319e74e684d7137c0fbe95",
+        "Psalms 104:29": "8344c8c1db81511cc9ce1be6d71691523a9e042729b98be55bb03412c0158cdf",
+        "Exodus 7:23": "99b56a4c3c417ab66b8c83cc6cd2907c3edde6e24f1d4b5b580e2b2c4b81f12f",
+        "Exodus 7:24": "aefaa978e24a6a9b183384c75e34595e4fd629c0f6673dc783dae2076480b18d",
+        "Psalms 77:44": "ef2a05de23fb8a96214d4466b4aba584d0ab545d169c3d6f4c169f02b3cf3edc",
+        "Exodus 4:9": "69a334ec756782ec28d1f6ea3507b2591ee15d5685cdbe686a6749bfe898a598",
+        "Exodus 7:17": "b66a911c0167e20a5d9a16e7146ecc9bf5ee8cf8f6550f11766a9d8918965763",
+        "Exodus 7:18": "73e29d46ac8e0fb71d81405f9058718975dfe1c3194099f05c277686794b42b8",
+        "Exodus 7:19": "22f7aac853299eb369f1c2d6123f82094e0e1d2c57cddfff37a1894e187cef9b",
+        "Exodus 7:11": "ba4c1144f2db590730e22525a34c445507c9f99151dcdd483c08b7f373f951e7",
+        "Exodus 7:12": "165555dd9fdb4b284dcecc085878f6830d163e0813c18102c1d49636408b1cc1",
+        "Exodus 7:14": "d1f7f5dbf96e916e08313f88d865591ad866fda0edabad2c8ace90cb031367f5",
+        "Exodus 8:4": "55d4ce1bdba048013e2cb20d61786e802a161c1ca9bc452b082f7fd1ee49857e",
+        "Exodus 8:1": "bddab900f49ef8e849acfc2e0dd48831c93cad9ef56c621f06a4ab3085d0b284",
+        "Exodus 8:2": "c731539435f6d1d275a86c9d4e5d4c07e9bbc924ecf1546d4105352d81af4266",
+        "Psalms 104:30": "9bb8b73e56fb3b645aa91b10c3d7f91d0be634a205bfee8edd369a86e34b1115",
+        "Exodus 8:7": "eb84a579dde092f0b66434e5a6173c7d00b2d9123da04a2c65d65de6f824f45e",
+        "Exodus 8:8": "2dc5b9cffea3c979a3be0e799ef4289698128c12fb2ae20827a301fe91aaecce",
+        "Exodus 8:9": "fe30df0944f36c9473169726f5f893502d6ce9683eef8f9b76f3f6375a1ce411",
+        "Exodus 8:3": "5fa7a40c68b80f2d1543cccf9b749a4ca34e8331eb5b591c189b9471a5427e26",
+        "Psalms 77:45": "b5d056ef2defa638898544784ab9b63e8734184150109d56fef9f9b9e0cce0be"
+      },
+      "source_verse_sha256": {
+        "Exodus 5:1": "78bcc95b766205268a0df87bfd562b5aa2bdc8c067f184065a11d290f4681a06",
+        "Exodus 5:2": "fb669c7c90799e62d33c7cbed3132800ca253047330be8c9603046d6a68f9441",
+        "Exodus 5:3": "fc82a42d7deff7ff0437a7043d4e6b5de4e83e2bb0204522f280b6dec9b607f0",
+        "Exodus 5:4": "baade99473fdd7a62323f913f317777894b1854ebe14a4df244c616c72b1f5d2",
+        "Exodus 5:5": "9ca4b5dac88aefbed2435389c166cbe8ddbdf298b980dadb04f4d3348aae1ebc",
+        "Exodus 5:6": "293eb078345c312f1eabe45427d159ab8c4b657d61271341d39f7d3d730ae118",
+        "Exodus 5:7": "057b92b8a939e13db7ea25516c1b43f5ae203e5688fd61fb44da335c6b8b2018",
+        "Exodus 5:8": "d2a1e5840965fd33b545e77269ec186b441b2f282d54bab0e935beae72e54936",
+        "Exodus 5:9": "43dbeb3ec7ab631a329dbec0faa920aa57d9c632b3f9e4b3a8dff22d16674720",
+        "Exodus 5:10": "632b55b50a9c76dfa77b932c47d7418800be530e613eda0a10546f8b7edc02d4",
+        "Exodus 5:11": "f5dc1ac369a79a8d16bb5722910de55cd7c97d29bbcf247394f0149617a1767b",
+        "Exodus 5:12": "addbc993c89ddf6b85dc6c7463c3e55bd4bc8936939df457577c5264a9ed4e0b",
+        "Exodus 5:13": "0197febd8ef70dc1225e397e27ee1d2f692944fb3b502207c4a37e3009f6cb86",
+        "Exodus 5:14": "182778211126825c737a5919fabc04ca0572349a52200dc89d796068b8a894be",
+        "Exodus 5:15": "cbea9e53829d30682b397db7a1d3a35f39285ef3644372668ff10c043c693806",
+        "Exodus 5:16": "ce49276e70b9f7062aee448740206bd71c10c312a1db005ef8b1db6a8d18df70",
+        "Exodus 5:17": "6b8a2d29ee2ff058b3eeae68c9bc0ecb9ad39d8c30924fb8e148eb649a84df73",
+        "Exodus 5:18": "31b5f06bcd34a63094d596514abe08dab7ebad1c458373a51f2cb056dac8a467",
+        "Exodus 5:19": "3fb4aa6f9277a53ee476cb31a174a4564004598b379181560caa6e7e113217f6",
+        "Exodus 5:20": "229dff7c0aec5c23cd4beea6530c394c65b0b765f57cb671a2cbc58e59de8304",
+        "Exodus 5:21": "6637dd9ede5ee9582551010f2c59f4466e065009379c3b6d028938dbcd17479e",
+        "Exodus 5:22": "32ad1965768a7c5dcb3c91c276c83dd177c69b3fcc228c1a563528707b8837e9",
+        "Exodus 5:23": "2867cef8247b5df8b7252bcf4e4bf2b6f8d6c43fec32f7d0805b7f601b119a4b",
+        "Exodus 6:1": "7efbd30b9a4d3743401b9e6553da824659487482f4f0cbf25ec9a151c703f958",
+        "Exodus 6:2": "b4003c9a9e1c13b11bb141f82d2b4f8b37465dfbe2f39e8292a930e9c0d70beb",
+        "Exodus 6:3": "911b6c341c559ae07ca9282cf3f60240aa106157e8d729c863fe3a6cbd69f1a2",
+        "Exodus 6:4": "11bdad52985011cc3a575999d086a25745d0499b174d8b26aaf80ee787e24932",
+        "Exodus 6:5": "928b4281ce83b17ca62a55687ce01bc81cf777938437aec02a5914bd5142cc8a",
+        "Exodus 6:6": "0f702baa11a8cfb474f941bc01a1b4f59893fbf9f283178b32a41098c23b91f4",
+        "Exodus 6:7": "ee309a57fe0eab59b39140044ef940026547232b11fd4a4fc672e23b752f89bb",
+        "Exodus 6:8": "85bb46235bd35e77f970d5977fbe3e511c5c1a0db09c0ef5e17212b870ae02e6",
+        "Exodus 6:9": "e85168dc643e8c6883fc21f05658fe1701100bb49ae4614602baf94258ee4ab8",
+        "Exodus 6:10": "dd42e408a786c9f0bd9cf181fcce7c7f303fa3a37831e9e7ed2c9f4bc0faa3df",
+        "Exodus 6:11": "32b3f9fc1cd6334c5f22ffd5d46e16a231ae1a287bd45d9fc424ab2f2cef3c99",
+        "Exodus 6:12": "3c1c0172492fff6436404eca7cfc475cb5a9f3565b2fe88314a1ae64e83c67e4",
+        "Exodus 6:13": "49113fcdac584b028a01de2bb702efb75e2f0d3674051be264406cb0c515bd6c",
+        "Exodus 6:14": "346d5718cb66a9f5b81a23533ad707f680576d89dc7aacb85ec9e06f02808a10",
+        "Exodus 6:15": "41b69f4e4dae7902280c96475722f643a2ba89019535d888014c54d5978132c2",
+        "Exodus 6:16": "0f7153605fae8ad1aed11dfe83f7095a80c3c03c2350261ded8fb6ec71a6bba2",
+        "Exodus 6:17": "6e0c4bb5a3812b305e8bc2b37f0de8a3dc019f46d891b7aae63f28577e08586c",
+        "Exodus 6:18": "170b5500a412db4c17c99572bc0fa688de6100b876fb98c4e9b34f0f48bfe168",
+        "Exodus 6:19": "17e85bbf7060158ec3041c9bcbeed61c7427a2cddaf66fc29b038a21921ac7a7",
+        "Exodus 6:20": "3973827cdbaf6bb22f21ca42b10862d6d9c53d05f0ec00fbe89add8efb14762b",
+        "Exodus 6:21": "30ecc9690a48783117b60f791819c5773e2a2a1c52a479efcf92c1fe208643f6",
+        "Exodus 6:22": "2fd3f2806934ea10517d7ab73460df006314156020619a514782ac92dce6122b",
+        "Exodus 6:23": "3bfc818a7910c39e82276e0b27621c09c9a65191115a33dd596c3446af19370d",
+        "Exodus 6:24": "6afe2df12ae93f84d20b4f3816b517ef9398c8c1baf0c01af07a13f2c0c743cd",
+        "Exodus 6:25": "41eb29a8c5b2e5b1ba8e0ff8deceb3f7db50aeceb629626252cecb7730422550",
+        "Exodus 6:26": "e694860727e777e0241dde0c760725771df368cc20aead776376a0912e4bc927",
+        "Exodus 6:27": "2c30f0452df0ef3f97998c1b58be3a914681266037e0e3464530c925f67ab3b1",
+        "Exodus 6:28": "7191a4b9aa2eaeb04d414141df8cc43c9e3537c72301674dd5cf908d47352f51",
+        "Exodus 6:29": "11c44d7b264e438f15d5f38fec04e33f588f4770cac1bb9679e3edd62a4258d8",
+        "Exodus 6:30": "581a2d2aae903e39c71db7e8a74d3dadff4a30300b3d4ab0aad09d3e05d5a69a",
+        "Exodus 7:1": "5538e4a11b2c9644b2d4299bce549868d688ce9ac8ed6021e0edb613db347bd2",
+        "Exodus 7:2": "456d6b3ffd0e5eb3bd75d04d277df38fb79d6318227e48460a31b8255b8da051",
+        "Exodus 7:3": "a6cd6598ca463e1908a9da98e1cfde7326885f6d123f05b39f295cfb1627a339",
+        "Exodus 7:4": "a436cc34b9e7b9fca4b50df699165f30cd5b2043929b48a48838b6fb6a4debf9",
+        "Exodus 7:5": "55a96919b3a8e60328393f2f76f0b4d2d586a667fe032bf58b603df26342119d",
+        "Exodus 7:6": "ba8c8f9bc555e9232b4588443d18759018543511ba006ca71cf3cff27eeedc38",
+        "Exodus 7:7": "e7feb56e8e2974ffcc008e995f258751ce2f5c1b152d1a61962f7d739279cd15",
+        "Exodus 7:8": "b2b12830ff771cc2ee72894d58e69218a0e9da6335c6524d032cc1c9ab1a1106",
+        "Exodus 7:9": "7f12837e29be09fa84f9b27ed76162ed04941bf54d0611dd5cb5369656050fed",
+        "Exodus 7:10": "e9913634049f2c512bbf97ad915d51a8314c8bdeb8d8bfff805e463162a72349",
+        "Exodus 7:11": "ba4c1144f2db590730e22525a34c445507c9f99151dcdd483c08b7f373f951e7",
+        "Exodus 7:12": "165555dd9fdb4b284dcecc085878f6830d163e0813c18102c1d49636408b1cc1",
+        "Exodus 7:13": "c158f0249a9861a644c0bce0686a2be92c84fd1f90533b7e4585089d8f168c26",
+        "Exodus 7:14": "d1f7f5dbf96e916e08313f88d865591ad866fda0edabad2c8ace90cb031367f5",
+        "Exodus 7:15": "b93cd5829d844a1233ba01d26c704f15509a7fa1121896429bcf50c9349c083e",
+        "Exodus 7:16": "6fffa68c7f2199ae8761ff55cc5c4f9f3cca732e62a73dd1cef2ead031b77779",
+        "Exodus 7:17": "b66a911c0167e20a5d9a16e7146ecc9bf5ee8cf8f6550f11766a9d8918965763",
+        "Exodus 7:18": "73e29d46ac8e0fb71d81405f9058718975dfe1c3194099f05c277686794b42b8",
+        "Exodus 7:19": "22f7aac853299eb369f1c2d6123f82094e0e1d2c57cddfff37a1894e187cef9b",
+        "Exodus 7:20": "719f286e5dd6bdedcc105cd8d9c93a934a92e3326c2dcea9a49455eeaaf2346d",
+        "Exodus 7:21": "977a4414ea0590b607dee8d460c9e7433a9005f6bf319e74e684d7137c0fbe95",
+        "Exodus 7:22": "360461d250e6d2f8f0ce27885e7d4f6374430343ee4c2eb849cef0b617983f2f",
+        "Exodus 7:23": "99b56a4c3c417ab66b8c83cc6cd2907c3edde6e24f1d4b5b580e2b2c4b81f12f",
+        "Exodus 7:24": "aefaa978e24a6a9b183384c75e34595e4fd629c0f6673dc783dae2076480b18d",
+        "Exodus 7:25": "38904f25af5851554fa4688569038cd998dc6a70d8c983c0c8c5289a9d1de93f",
+        "Exodus 7:26": "6f0f71db6da5ac3de57a79b12a604052077f9dfb821f1fef0c805ee57830da7a",
+        "Exodus 7:27": "986c6ec645bcf9ba8a882ba10b2605a37ad142057143ad9e606bb91b8648d2e1",
+        "Exodus 7:28": "55459d5eaa18f4a27fb6951fc69bad966c4c58d0bffc822b926529c810fad841",
+        "Exodus 7:29": "ba857ba2b8f9c283e47fc6288c938d141b19b9f2f8a59f276bdd130ffc17f129"
+      },
+      "tsv_sha256": "2b85e56215bee444d659b39da300a35149df7c5c2d39f335a68ff1f467a455b2",
+      "final_input_sha256": "2b85e56215bee444d659b39da300a35149df7c5c2d39f335a68ff1f467a455b2",
+      "pending": [],
+      "repository_edited": false,
+      "scope_limits": "AI-assisted English-passage curation only. No Scripture wording changes, new Greek/Hebrew or apparatus verification, independent human-specialist approval or exhaustive cross-reference claim.",
+      "post_review_corrections": []
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex (AI-assisted English-passage review; Exodus8-10 curator)",
+      "reviewed": "2026-10-29",
+      "timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T13:06:56.158641+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        8,
+        9,
+        10
+      ],
+      "source_verses": 92,
+      "completed_pairs": 184,
+      "distinct_target_verse_units": 134,
+      "chapter_counts": {
+        "8": {
+          "source_verses": 28,
+          "pairs": 57
+        },
+        "9": {
+          "source_verses": 35,
+          "pairs": 71
+        },
+        "10": {
+          "source_verses": 29,
+          "pairs": 56
+        }
+      },
+      "source_review_status": "Complete initial curated pass for all92 actual source records; not a claim of exhaustive discovery.",
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "second_editorial_reread": "All184 retained rationales reread against actual source and complete retained targets with context. A water-embassy category and household-teaching actor wording were narrowed for precision; all validation checks were repeated after those clarifications.",
+      "source_books": [
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Luke",
+          "records": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        },
+        {
+          "book": "Wisdom of Solomon",
+          "records": "wisdom-of-solomon/verses.json",
+          "blob_sha": "468127efad884589c0e3009ffb16ab7d1ad2fe10"
+        }
+      ],
+      "context_passages_read": [
+        "Exodus 7:1-5",
+        "Exodus 7:15-29",
+        "Exodus 6:6-8",
+        "Exodus 3:18",
+        "Exodus 5:1-3",
+        "Psalms 77:43-51",
+        "Psalms 104:26-36",
+        "Romans 9:14-24",
+        "Wisdom of Solomon 16:16-20",
+        "Wisdom of Solomon 17:1-20",
+        "Wisdom of Solomon 18:1-8",
+        "Wisdom of Solomon 19:1-9",
+        "Exodus 12:26-27",
+        "Exodus 13:8-9",
+        "Exodus 13:14-15",
+        "Deuteronomy 4:34-35",
+        "Deuteronomy 6:20-23",
+        "Luke 10:21",
+        "Luke 11:14-23",
+        "Exodus 11:1-10",
+        "Deuteronomy 28:27",
+        "Psalms 23:1",
+        "Exodus 14:17-18",
+        "Exodus 12:31-38"
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Exodus8:1-28",
+          "note": "This edition has28 source units in chapter8. Its frog warning is7:26-29 and the actual bringing-up begins8:1-2; conventional32-verse chapter8 numbering was not substituted. Aaron's staff action, Moses' intercession and the Lord's response remain distinct. The enchanters' reported imitation is not newly explained as either illusion or an independently tested mechanism."
+        },
+        {
+          "reference": "Exodus8:5-15",
+          "note": "Tomorrow, the river exception, frog deaths, heaps and stench retain their supplied scopes. Gnats are not silently replaced with lice. The enchanters' finger-of-God confession is their statement; Luke11:20 is a later distinctive-expression comparison, not a claim that gnats are demons or that Luke explicitly quotes these speakers."
+        },
+        {
+          "reference": "Exodus8:17-28 /9:4-7,26 /10:23",
+          "note": "Dog-flies, Goshen, people-and-livestock distinctions and Israelite light are retained for their particular plagues. The comparison of exemptions does not invent an unreported blanket protection from every Egyptian affliction. Promised release, actual refusal and the prayed-for relief are kept as different actions."
+        },
+        {
+          "reference": "Exodus8:21-25 /10:7-11,24-26",
+          "note": "In-land sacrifice, not going far, men-only permission, household permission without livestock and Moses' full-party demand remain different stated proposals. Moses' forecast of stoning is not a recorded stoning or a new identification of Egyptian sacred species. Lord-be-with-you and evil-lies-before-you remain Pharaoh's own words without a supplied narrator's conversion or motive verdict. You shall also give us offerings is not reduced to an independently documented transfer arrangement."
+        },
+        {
+          "reference": "Exodus8:11,15,28 /9:7,12,34-35 /10:1,20,27",
+          "note": "Became-heavy, passive-hardened, Pharaoh-made-heavy and Lord-hardened formulations retain their respective speakers and agency.9:12 ends as the Lord had commanded;9:35 has the Lord's earlier speech to Moses. Neither human nor divine formulations are erased by the later Romans interpretation, and no complete causal system is independently asserted."
+        },
+        {
+          "reference": "Exodus9:3-11,19-21",
+          "note": "Livestock in the plains in the warning, all Egyptian livestock in the death notice, protected Israelite livestock and later references to animals are all preserved. No import, repopulation or hidden survivor roster is invented. Four-footed animals, furnace soot and blistering boils retain their actual terms; neither a modern disease diagnosis nor a new anatomical location for every case is inferred from Deuteronomy's later Egyptian-ulcer comparison."
+        },
+        {
+          "reference": "Exodus9:14-18",
+          "note": "The knowledge/power/name purpose is stated in the speeches.9:15 uses future I will stretch out and strike, not an imported could-have counterfactual.9:16's preserved and Romans9:17's raised-you-up forms remain distinct within the explicit later scriptural quotation. Unprecedented-hail statements retain their created-Egypt and nation-origin comparison wording, without a new climate record or creation date."
+        },
+        {
+          "reference": "Exodus9:19-35",
+          "note": "Some attendants heed the warning and shelter livestock; others leave it exposed. These actions do not independently determine every attendant's conversion status or resolve Moses' later general assessment of fear. Hail, fire, thunder and rain remain their actual narrated elements. Flax/barley damage and late wheat/spelt survival qualify broad crop damage; no additional harvest month or weather mechanism is assigned. Pharaoh's confession is distinguished from subsequent narrated sin/refusal."
+        },
+        {
+          "reference": "Exodus10:1-2",
+          "note": "The Lord's statement that He hardened hearts and mocked the Egyptians is preserved alongside the command to recount signs to children and grandchildren. The later household-teaching passages are linked to the specific Exodus memory rather than a new universal claim about an ethnic population."
+        },
+        {
+          "reference": "Exodus10:4-20",
+          "note": "The south wind brings the locusts, and a strong wind from the sea removes them into the Red Sea; east/west and Sea-of-Reeds substitutions are not made. Hand-over-land command and staff-toward-heaven performance retain their distinct words. The land is described as ruined after vegetation is eaten, not silently darkened by locusts. Later Psalm larvae and crop terms remain in that later passage. This death is Pharaoh's description of the crisis, not his reported death."
+        },
+        {
+          "reference": "Exodus10:21-29",
+          "note": "Darkness that may be felt, gloom, tempest, three days and no one rising from bed remain as supplied. Wisdom's roof/prison/workplace imagery and contrasting holy light are labelled later theological reflections, not additional eyewitness details inserted into Exodus. The face ban, reply and later summons are compared without inventing a physical audience or declaring the later summons an independently proven broken promise."
+        },
+        {
+          "reference": "Psalms23,77,104 /Wisdom of Solomon16-18 /Romans9 /Luke11",
+          "note": "The exact Saints70 target records and Greek/Septuagint Psalm numbering were used. Later poems, prayers and theological interpretation retain their different plant, animal, agency and spatial descriptions. Wisdom of Solomon remains a Saints70 book; no extra canon book or replacement edition was introduced."
+        }
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Exodus 8:14",
+          "target": "Wisdom of Solomon 17:7-8",
+          "reason": "Not retained as a direct recollection of the gnat failure: the read Wisdom critique occurs in darkness/fear context, while more particular practitioner comparisons exist in the Exodus narrative."
+        },
+        {
+          "source_reference": "Exodus 9:6",
+          "target": "Exodus 9:19",
+          "reason": "Not retained as proof of a specific repopulation/import/survivor explanation for the later livestock warning; the supplied passages do not independently establish that reconstruction."
+        },
+        {
+          "source_reference": "Exodus 10:29",
+          "target": "Exodus 12:31",
+          "reason": "Not retained as proof that Moses personally appeared and broke his reply: the later verse reports a summons and words, without independently specifying the physical arrangement. The changed royal command is retained only under10:28."
+        }
+      ],
+      "unresolved_candidates": [],
+      "unresolved_cases": [],
+      "unresolved_source_pass_blockers": [],
+      "textual_scope_questions_not_harmonized": [
+        "Livestock all/plains wording and later references to animals",
+        "Varied divine/human/passive hardening and heavy-heart agency",
+        "Some attendants heeding the word alongside Moses' later general fear assessment",
+        "Face-ban wording and the physical circumstances of the later summons"
+      ],
+      "validation": {
+        "source_coverage": 92,
+        "pairs": 184,
+        "duplicate_pairs": 0,
+        "self_containing_targets": 0,
+        "missing_retained_target_units": 0,
+        "all_target_books_in_saints70": true,
+        "all_intrachapter_relationships_explicitly_labelled": true,
+        "intrachapter_pairs": 105
+      },
+      "tsv_sha256": "8771e9fc6e147a0f309c3b820984a0b0aa42b001b3f70be0d37ceb675e065042",
+      "source_verse_sha256": {
+        "Exodus 10:1": "03394ce805f6639a633ccb2e945afe13c4c5311012ad1907b68bed7d5869b528",
+        "Exodus 10:10": "aa45fb3e99a40ce9eac35b9c807b9b20b0aec63a741b9f1bd9bbc9c3609e40de",
+        "Exodus 10:11": "f8851a1035fe9b1a654fddc18433db3f3eeb7b469c27de9fe7ae8ebb8d7ef790",
+        "Exodus 10:12": "e6415942fd75ba7e72d122a55de76df3d75be0a1c015aa9406a386e4be74c427",
+        "Exodus 10:13": "793eadf47e6860348237ab3827cff17f2672b5e9ee8e582965b16c2b96f6ffbc",
+        "Exodus 10:14": "3bbc2e697efce979cb175947b6d4ff49fac071c4586efbb21c2b11e5c6c8477f",
+        "Exodus 10:15": "1fabca11daa23f1d897d9ce0887bb72cf9d40e8fdb2c3bc25c9fefec673ad6c2",
+        "Exodus 10:16": "89e68e415f8b13b22248acdabc22fc3fb2538d3aae64818d68c7593eda0b4c81",
+        "Exodus 10:17": "29eb4d863fbd491fc8f3ce8e110d603b14b1854bfcab43407cf3e39a54c712c6",
+        "Exodus 10:18": "c61717ce9a2725325cfb660c0dd184063f95a37638bad592be3b5a5d21b3bd61",
+        "Exodus 10:19": "e013708b517010796e62ee236f71d9bb3e6af822e349ff575ebfd21e59561652",
+        "Exodus 10:2": "be03a0edae22a69ef12a5f4e5d29375d350f7374ac0e8e873cad938d04dd5b53",
+        "Exodus 10:20": "086c1a144c73bc0bacb935e6d21db1041756c851f336019299fb7b61588c6562",
+        "Exodus 10:21": "c2c996c130869bd1c273aee85de8bd5d75626a6e790b128a125eb3415fa2aff9",
+        "Exodus 10:22": "58142b0aa13d3e520bbc8d4b29fd440456eac8f16e6e09046235e89956a5744d",
+        "Exodus 10:23": "94d686c820da59f3b2988b7a792033d3b476eca5faef750c56fa9232526a960e",
+        "Exodus 10:24": "5acd1bdcdc7dbd388a07c95d338021d1a28e881fb06324e4d7f35b1fd3931e61",
+        "Exodus 10:25": "f6c1ea4a3e0fc8a71a7beafe785b860c0ffc5462c0535d074be878c319109528",
+        "Exodus 10:26": "4d101d50aba811273576edb50854d7323de4835bd20cf04aba3474bc44579ce8",
+        "Exodus 10:27": "0d2de42569d8760c1ad851dbfe7edac0747f7b62a7b51fc60e436121f2beed97",
+        "Exodus 10:28": "4dc1471c37516c60eb69bed2a5f26b70e4ac46a0e3d76fb870e5d28a2490424d",
+        "Exodus 10:29": "00ca954d7bf748f73503a8413d64232a3c00d5dcad8b23744b769c0538042eeb",
+        "Exodus 10:3": "8a349838a9e8b673a513ed3291b80958fbbad047a0db5f2fd00fd321e0c9b98c",
+        "Exodus 10:4": "ce2ec26ada86567cea0dd02f61e06f767f479d95294c47020d718a275ab0a74d",
+        "Exodus 10:5": "8ab8242e2f66fa73782903a9592bb9b323315afdb386721231403d5915013fcd",
+        "Exodus 10:6": "f0eb5fda097874d141997385468a966b7571690dcf24abab4d663124546767b9",
+        "Exodus 10:7": "ffaaf8b6e2298df31dc3a34e988a7514ef2f39ac8a7fe13bb2a25b6f5cc0b5a3",
+        "Exodus 10:8": "55218a40383e067f8b054c38c0df3fd29d4ea4a86c7148dead0e4155996fc5ef",
+        "Exodus 10:9": "ffbb9e12b4e1ba8f6813f7ecd58c445341e1526418cc5da6a8bfb82c90b3d6f5",
+        "Exodus 8:1": "bddab900f49ef8e849acfc2e0dd48831c93cad9ef56c621f06a4ab3085d0b284",
+        "Exodus 8:10": "43c09a9acfd9f0817ae67e22674d5ff459fce17977dddd198a9973a9349607ce",
+        "Exodus 8:11": "86e79ae710cbf1d6c0f771864a193ef35ffff2242fcfa0c93033f9b07e4126a6",
+        "Exodus 8:12": "202f379a319d25e108c4d9e52faa9aa05c36181c7c82d9c7e529a17bf9878bbc",
+        "Exodus 8:13": "4174045cbed624f9530bfc9d3ebb446617b6f488200ecceae1ee08203c9a5485",
+        "Exodus 8:14": "b1a80365da64d4db72ea997fd84e88f60d8a4df67b00cdfbe2bb6111fcf64612",
+        "Exodus 8:15": "98d2ac2f5cfdc7c1aee25379139e6c0391bdc7c46d94d255463f7334471c4765",
+        "Exodus 8:16": "0ee731449428161d72de74af6fa0748f240da3517f0c8145c7e0dfa7eeb54a37",
+        "Exodus 8:17": "f6713276639683f1d22386fe06b77e0308d2b7f542b48202062fdd0f1c95081a",
+        "Exodus 8:18": "e1cd099bd1c03a946021ea7a301d6c3b5ab17d3e24e021bc6a7adcad8aa6a7df",
+        "Exodus 8:19": "61e2be5148ca8b403e85c3fe7b2d84ab45a85c73b64d364c578b7c0e5942f203",
+        "Exodus 8:2": "c731539435f6d1d275a86c9d4e5d4c07e9bbc924ecf1546d4105352d81af4266",
+        "Exodus 8:20": "ff1fa4e9445469b1085f12db48823973051be741e2d6e3ad310bd9733a11e652",
+        "Exodus 8:21": "323ea4541065c82a2847750b664acb99509185ab2842ebf8f933dc82c4b5966a",
+        "Exodus 8:22": "2020664ad4fc50eb8c8b36b8f870bca34c58d3eaa729a2fde159d98bc0af11b3",
+        "Exodus 8:23": "42fcb60cbf6da3046095d5e6c93f396d70156603b2198e3597f8c5a650da3e5c",
+        "Exodus 8:24": "106d479f08044981bd137f59d16a80b98952a41ab2250f6318284acecf3a0a89",
+        "Exodus 8:25": "4d7b0c0ea1ef01e533d88436ec79d0162b63a2b13f4b6c7ef2bae96b27ccd61a",
+        "Exodus 8:26": "c61717ce9a2725325cfb660c0dd184063f95a37638bad592be3b5a5d21b3bd61",
+        "Exodus 8:27": "34d7e199faf45a9135fa518b25bd37f8fd7dc6aa30f51390e7dd5c422be3f7e7",
+        "Exodus 8:28": "d75b62ae4e30d6dbd57b0d35f1bfd730adf40861927ce6ca6db48dae51d04693",
+        "Exodus 8:3": "5fa7a40c68b80f2d1543cccf9b749a4ca34e8331eb5b591c189b9471a5427e26",
+        "Exodus 8:4": "55d4ce1bdba048013e2cb20d61786e802a161c1ca9bc452b082f7fd1ee49857e",
+        "Exodus 8:5": "1cdd8a9d73b15a70bb221b14b3f7026a1c9722bff3f124a32b569c8fe3158600",
+        "Exodus 8:6": "09a755cb7db4b7256b6e13549c3178e91f1072f8c0583368c21c0d6c37c7c7c9",
+        "Exodus 8:7": "eb84a579dde092f0b66434e5a6173c7d00b2d9123da04a2c65d65de6f824f45e",
+        "Exodus 8:8": "2dc5b9cffea3c979a3be0e799ef4289698128c12fb2ae20827a301fe91aaecce",
+        "Exodus 8:9": "fe30df0944f36c9473169726f5f893502d6ce9683eef8f9b76f3f6375a1ce411",
+        "Exodus 9:1": "84c0c7af021aaf956af8ac395b69c4ab9949957bcc3ae7f0ea830d340aab6b51",
+        "Exodus 9:10": "d5446dbdb3a79d286b94ba145015a3b09524125299410185c37dcabde195c5f4",
+        "Exodus 9:11": "42e6d62a98dbfd082926c232f995ed29db920c87efd553790795521c5e2c897e",
+        "Exodus 9:12": "710191390d1acac48c5789f8e355dcf39bf2fc696c4b0b10a32e8ccdc5eaa713",
+        "Exodus 9:13": "bbb8ea11f44c06ec238f198030aec8f1ca3628bcf5847141e32d7cb9fa8a9ca3",
+        "Exodus 9:14": "eeeca9048e04e1b2f4d2fb43cb92c3e810136be8dff7c180ccfc0455a2ca7c46",
+        "Exodus 9:15": "7da23868da6d54e14a96042a2ba86a3c44dcbfa37132db8df1aecc185ba6d710",
+        "Exodus 9:16": "51262753c2947782c58e3c3ad98b787194998b9ab9cea028ad4ecdc54301a9b0",
+        "Exodus 9:17": "de0f40329e08e641cd26bee27136f68bf70c81b4e21c4791e0b6a394edbe8336",
+        "Exodus 9:18": "b7262b61e40924f3d5bfb3d57258ff6f424bd10215780423384ffa47da89ef9f",
+        "Exodus 9:19": "da5c4000446461b877f523f5e80393f8474e7c53fa1805152f73c46da4dd8516",
+        "Exodus 9:2": "81a1bb3691d81c67d79baf09c5152d76973fb7a9f4b62513a19bdc6f73e2b0c3",
+        "Exodus 9:20": "20a5b763891fc460df2ada4bc1386f06dfea576b0eee32008ee15f9744c142fd",
+        "Exodus 9:21": "6c4780f67cc8c24340237c1bdbf372d19b71fc599df4d15fb9b0d62853c2361b",
+        "Exodus 9:22": "6803daf6d78544b880f976500615ecc61885b039b96422c198c99885ac2857e7",
+        "Exodus 9:23": "8197e52bd0e6e118f3e60c682d7714da9a03836dda660b2ca4b6c4c00558ee8a",
+        "Exodus 9:24": "9683521db94d1f46edad61d069487583c07ae2568120d5589fca00b077fac2be",
+        "Exodus 9:25": "af120a835fe93c22ef8faba47550dbb5306d6f27bbf495fc3cbe22cf36bbc87f",
+        "Exodus 9:26": "2fb704f0390eabf58e50d6cddf5ed218ab53984c105fe84cc9b3044ab4f7be2a",
+        "Exodus 9:27": "6111a06e033c72105ecf8b7d46b496db984d271601b98f71d54d7b5643b4040a",
+        "Exodus 9:28": "be5df5af9b0ebb7021135d65d518b0c4227ada27319041804e4e6e81723bbee0",
+        "Exodus 9:29": "16162f4877e9aa0b269febb542fc4d69d303c4382110cd3be0f0e5918ddf95d8",
+        "Exodus 9:3": "8fc8d3aad0e73161d69123c3bba6cf61eda1d0b355d238e48fcf4de359453a01",
+        "Exodus 9:30": "178526e6f1e8ae2df10c9b5e0929ee7e9984c019c11b07e2144cfd4fdfedcdb7",
+        "Exodus 9:31": "5963fe9b9fa2e923a0ceb80f5a2b68014643e0a78c0d01516b073b03bd273b76",
+        "Exodus 9:32": "31fb326a2b794e1cd84e3788957a5bc56bd8b44bee4306f4377d3bd346c432f9",
+        "Exodus 9:33": "eb66bcb11f42dd7ba6e50a53373563640bfaec53f1eff4403cd0afc6619a1e0a",
+        "Exodus 9:34": "dab20a087e88804424833beb242dc846228c8183ed7798187542e43ef0377566",
+        "Exodus 9:35": "36a1e31682a8fe17bcc58e26aed0b2402966befe863c15dbaa639e56807b9b48",
+        "Exodus 9:4": "de8ebc9056d55a51fb01c030a084aae0f01eccfd77aa4c2872a60e64cfaf2ef3",
+        "Exodus 9:5": "cfe931d570f28aaca7f94ea3f6d9fa9c915a66e284d3ca1811a2dafe60e0d771",
+        "Exodus 9:6": "5e7d28a858a4b73ff9fe65722b702067f3907013953c4a625538280877334c5d",
+        "Exodus 9:7": "88a3ee7adba5afa649945bcdd2602a6f8336f433cfee500cc7d82d703c612e9a",
+        "Exodus 9:8": "0feb73b4676e2a103b86dc62264a86e401a250e1745a187c705d148be643ff84",
+        "Exodus 9:9": "54b4887cac2d9b5892a6f9b908f4cc36a861ccc6f953901e2c54de4f5e13b6b7"
+      },
+      "target_verse_sha256": {
+        "Deuteronomy 28:27": "a263f2a4ea623c101641d907b9679816426047bbf38062bc5a4d686c7c03f64e",
+        "Deuteronomy 4:34": "6f129e2ad7dffa5697264793cadc2e68e30acbb27c351241112dd21a95c93da4",
+        "Deuteronomy 4:35": "1be353663e598cc610ddfc1802b022a07b36cf2d1c416fd3e73c8064e8ef1f83",
+        "Deuteronomy 6:20": "d0ef166d5571ec7d644ab4d6e546a2f5bc4dce9a605e48ed71fadd4f560c4449",
+        "Deuteronomy 6:21": "2e06d7d18873b37a1523ea91c0386985a4d2892e672bc99eed0884b1f2d4026c",
+        "Deuteronomy 6:22": "5c6dfbaf37b381793d2c718efee118546ff3e5db712e3a55b249aebc05b22c46",
+        "Deuteronomy 6:23": "64ab93a54e9bde49b3d59fb9637c90761c79a5f7e041fe829d51c94f1eac6d71",
+        "Exodus 10:1": "03394ce805f6639a633ccb2e945afe13c4c5311012ad1907b68bed7d5869b528",
+        "Exodus 10:10": "aa45fb3e99a40ce9eac35b9c807b9b20b0aec63a741b9f1bd9bbc9c3609e40de",
+        "Exodus 10:11": "f8851a1035fe9b1a654fddc18433db3f3eeb7b469c27de9fe7ae8ebb8d7ef790",
+        "Exodus 10:12": "e6415942fd75ba7e72d122a55de76df3d75be0a1c015aa9406a386e4be74c427",
+        "Exodus 10:13": "793eadf47e6860348237ab3827cff17f2672b5e9ee8e582965b16c2b96f6ffbc",
+        "Exodus 10:14": "3bbc2e697efce979cb175947b6d4ff49fac071c4586efbb21c2b11e5c6c8477f",
+        "Exodus 10:15": "1fabca11daa23f1d897d9ce0887bb72cf9d40e8fdb2c3bc25c9fefec673ad6c2",
+        "Exodus 10:16": "89e68e415f8b13b22248acdabc22fc3fb2538d3aae64818d68c7593eda0b4c81",
+        "Exodus 10:17": "29eb4d863fbd491fc8f3ce8e110d603b14b1854bfcab43407cf3e39a54c712c6",
+        "Exodus 10:18": "c61717ce9a2725325cfb660c0dd184063f95a37638bad592be3b5a5d21b3bd61",
+        "Exodus 10:19": "e013708b517010796e62ee236f71d9bb3e6af822e349ff575ebfd21e59561652",
+        "Exodus 10:20": "086c1a144c73bc0bacb935e6d21db1041756c851f336019299fb7b61588c6562",
+        "Exodus 10:21": "c2c996c130869bd1c273aee85de8bd5d75626a6e790b128a125eb3415fa2aff9",
+        "Exodus 10:22": "58142b0aa13d3e520bbc8d4b29fd440456eac8f16e6e09046235e89956a5744d",
+        "Exodus 10:23": "94d686c820da59f3b2988b7a792033d3b476eca5faef750c56fa9232526a960e",
+        "Exodus 10:25": "f6c1ea4a3e0fc8a71a7beafe785b860c0ffc5462c0535d074be878c319109528",
+        "Exodus 10:26": "4d101d50aba811273576edb50854d7323de4835bd20cf04aba3474bc44579ce8",
+        "Exodus 10:28": "4dc1471c37516c60eb69bed2a5f26b70e4ac46a0e3d76fb870e5d28a2490424d",
+        "Exodus 10:29": "00ca954d7bf748f73503a8413d64232a3c00d5dcad8b23744b769c0538042eeb",
+        "Exodus 10:3": "8a349838a9e8b673a513ed3291b80958fbbad047a0db5f2fd00fd321e0c9b98c",
+        "Exodus 10:4": "ce2ec26ada86567cea0dd02f61e06f767f479d95294c47020d718a275ab0a74d",
+        "Exodus 10:5": "8ab8242e2f66fa73782903a9592bb9b323315afdb386721231403d5915013fcd",
+        "Exodus 10:6": "f0eb5fda097874d141997385468a966b7571690dcf24abab4d663124546767b9",
+        "Exodus 10:7": "ffaaf8b6e2298df31dc3a34e988a7514ef2f39ac8a7fe13bb2a25b6f5cc0b5a3",
+        "Exodus 10:8": "55218a40383e067f8b054c38c0df3fd29d4ea4a86c7148dead0e4155996fc5ef",
+        "Exodus 10:9": "ffbb9e12b4e1ba8f6813f7ecd58c445341e1526418cc5da6a8bfb82c90b3d6f5",
+        "Exodus 11:7": "3331997f8c92876226d4a602ba149ad0b825bbc38b24ad1693778eaaf57d8de7",
+        "Exodus 12:31": "15791b4b54b744f6c6283df24523b708c0fc13dea5a6cb015f68264976d6945a",
+        "Exodus 12:32": "773bfdcb7ca58f69927edd7726c967d1c4074e34467097ba9c0e640e6ce8f785",
+        "Exodus 12:37": "649ff9f0c354fd0b709279e2b0c6482591fa808c95eb75e2a7e8f61b6488e530",
+        "Exodus 12:38": "9b62c7955b23f846930b04c7cad02d82d3e731248db0b65822af9a5ae7d23371",
+        "Exodus 13:8": "afe25aeb201bbdeba029e0a31177c7947cd439ce63968057cdfe6e62201c1104",
+        "Exodus 13:9": "9320998097b88a13d2e48ba777a5fbe82ea7ee9ae903f732711c519d04370395",
+        "Exodus 14:17": "f57a76f0bb582563993cb5781fe89d5cbabe195bedb4a89f050216f603436be7",
+        "Exodus 14:18": "a96812c839634b53ecc0eeefc91c08b9f77c5e7af65855ede303d16aede602b0",
+        "Exodus 3:18": "b9b2d449c74e9b55f369d54ea6c8ef53187b6881b7639f89cfbf7e8d3ef3bfb7",
+        "Exodus 5:1": "78bcc95b766205268a0df87bfd562b5aa2bdc8c067f184065a11d290f4681a06",
+        "Exodus 5:3": "fc82a42d7deff7ff0437a7043d4e6b5de4e83e2bb0204522f280b6dec9b607f0",
+        "Exodus 7:15": "b93cd5829d844a1233ba01d26c704f15509a7fa1121896429bcf50c9349c083e",
+        "Exodus 7:16": "6fffa68c7f2199ae8761ff55cc5c4f9f3cca732e62a73dd1cef2ead031b77779",
+        "Exodus 7:21": "977a4414ea0590b607dee8d460c9e7433a9005f6bf319e74e684d7137c0fbe95",
+        "Exodus 7:22": "360461d250e6d2f8f0ce27885e7d4f6374430343ee4c2eb849cef0b617983f2f",
+        "Exodus 7:27": "986c6ec645bcf9ba8a882ba10b2605a37ad142057143ad9e606bb91b8648d2e1",
+        "Exodus 7:28": "55459d5eaa18f4a27fb6951fc69bad966c4c58d0bffc822b926529c810fad841",
+        "Exodus 7:29": "ba857ba2b8f9c283e47fc6288c938d141b19b9f2f8a59f276bdd130ffc17f129",
+        "Exodus 7:3": "a6cd6598ca463e1908a9da98e1cfde7326885f6d123f05b39f295cfb1627a339",
+        "Exodus 7:4": "a436cc34b9e7b9fca4b50df699165f30cd5b2043929b48a48838b6fb6a4debf9",
+        "Exodus 8:10": "43c09a9acfd9f0817ae67e22674d5ff459fce17977dddd198a9973a9349607ce",
+        "Exodus 8:11": "86e79ae710cbf1d6c0f771864a193ef35ffff2242fcfa0c93033f9b07e4126a6",
+        "Exodus 8:12": "202f379a319d25e108c4d9e52faa9aa05c36181c7c82d9c7e529a17bf9878bbc",
+        "Exodus 8:13": "4174045cbed624f9530bfc9d3ebb446617b6f488200ecceae1ee08203c9a5485",
+        "Exodus 8:14": "b1a80365da64d4db72ea997fd84e88f60d8a4df67b00cdfbe2bb6111fcf64612",
+        "Exodus 8:15": "98d2ac2f5cfdc7c1aee25379139e6c0391bdc7c46d94d255463f7334471c4765",
+        "Exodus 8:16": "0ee731449428161d72de74af6fa0748f240da3517f0c8145c7e0dfa7eeb54a37",
+        "Exodus 8:17": "f6713276639683f1d22386fe06b77e0308d2b7f542b48202062fdd0f1c95081a",
+        "Exodus 8:18": "e1cd099bd1c03a946021ea7a301d6c3b5ab17d3e24e021bc6a7adcad8aa6a7df",
+        "Exodus 8:19": "61e2be5148ca8b403e85c3fe7b2d84ab45a85c73b64d364c578b7c0e5942f203",
+        "Exodus 8:2": "c731539435f6d1d275a86c9d4e5d4c07e9bbc924ecf1546d4105352d81af4266",
+        "Exodus 8:20": "ff1fa4e9445469b1085f12db48823973051be741e2d6e3ad310bd9733a11e652",
+        "Exodus 8:21": "323ea4541065c82a2847750b664acb99509185ab2842ebf8f933dc82c4b5966a",
+        "Exodus 8:22": "2020664ad4fc50eb8c8b36b8f870bca34c58d3eaa729a2fde159d98bc0af11b3",
+        "Exodus 8:23": "42fcb60cbf6da3046095d5e6c93f396d70156603b2198e3597f8c5a650da3e5c",
+        "Exodus 8:24": "106d479f08044981bd137f59d16a80b98952a41ab2250f6318284acecf3a0a89",
+        "Exodus 8:25": "4d7b0c0ea1ef01e533d88436ec79d0162b63a2b13f4b6c7ef2bae96b27ccd61a",
+        "Exodus 8:26": "c61717ce9a2725325cfb660c0dd184063f95a37638bad592be3b5a5d21b3bd61",
+        "Exodus 8:27": "34d7e199faf45a9135fa518b25bd37f8fd7dc6aa30f51390e7dd5c422be3f7e7",
+        "Exodus 8:28": "d75b62ae4e30d6dbd57b0d35f1bfd730adf40861927ce6ca6db48dae51d04693",
+        "Exodus 8:3": "5fa7a40c68b80f2d1543cccf9b749a4ca34e8331eb5b591c189b9471a5427e26",
+        "Exodus 8:4": "55d4ce1bdba048013e2cb20d61786e802a161c1ca9bc452b082f7fd1ee49857e",
+        "Exodus 8:5": "1cdd8a9d73b15a70bb221b14b3f7026a1c9722bff3f124a32b569c8fe3158600",
+        "Exodus 8:6": "09a755cb7db4b7256b6e13549c3178e91f1072f8c0583368c21c0d6c37c7c7c9",
+        "Exodus 8:7": "eb84a579dde092f0b66434e5a6173c7d00b2d9123da04a2c65d65de6f824f45e",
+        "Exodus 8:8": "2dc5b9cffea3c979a3be0e799ef4289698128c12fb2ae20827a301fe91aaecce",
+        "Exodus 8:9": "fe30df0944f36c9473169726f5f893502d6ce9683eef8f9b76f3f6375a1ce411",
+        "Exodus 9:1": "84c0c7af021aaf956af8ac395b69c4ab9949957bcc3ae7f0ea830d340aab6b51",
+        "Exodus 9:10": "d5446dbdb3a79d286b94ba145015a3b09524125299410185c37dcabde195c5f4",
+        "Exodus 9:11": "42e6d62a98dbfd082926c232f995ed29db920c87efd553790795521c5e2c897e",
+        "Exodus 9:13": "bbb8ea11f44c06ec238f198030aec8f1ca3628bcf5847141e32d7cb9fa8a9ca3",
+        "Exodus 9:16": "51262753c2947782c58e3c3ad98b787194998b9ab9cea028ad4ecdc54301a9b0",
+        "Exodus 9:17": "de0f40329e08e641cd26bee27136f68bf70c81b4e21c4791e0b6a394edbe8336",
+        "Exodus 9:18": "b7262b61e40924f3d5bfb3d57258ff6f424bd10215780423384ffa47da89ef9f",
+        "Exodus 9:19": "da5c4000446461b877f523f5e80393f8474e7c53fa1805152f73c46da4dd8516",
+        "Exodus 9:2": "81a1bb3691d81c67d79baf09c5152d76973fb7a9f4b62513a19bdc6f73e2b0c3",
+        "Exodus 9:20": "20a5b763891fc460df2ada4bc1386f06dfea576b0eee32008ee15f9744c142fd",
+        "Exodus 9:21": "6c4780f67cc8c24340237c1bdbf372d19b71fc599df4d15fb9b0d62853c2361b",
+        "Exodus 9:22": "6803daf6d78544b880f976500615ecc61885b039b96422c198c99885ac2857e7",
+        "Exodus 9:23": "8197e52bd0e6e118f3e60c682d7714da9a03836dda660b2ca4b6c4c00558ee8a",
+        "Exodus 9:24": "9683521db94d1f46edad61d069487583c07ae2568120d5589fca00b077fac2be",
+        "Exodus 9:25": "af120a835fe93c22ef8faba47550dbb5306d6f27bbf495fc3cbe22cf36bbc87f",
+        "Exodus 9:26": "2fb704f0390eabf58e50d6cddf5ed218ab53984c105fe84cc9b3044ab4f7be2a",
+        "Exodus 9:27": "6111a06e033c72105ecf8b7d46b496db984d271601b98f71d54d7b5643b4040a",
+        "Exodus 9:28": "be5df5af9b0ebb7021135d65d518b0c4227ada27319041804e4e6e81723bbee0",
+        "Exodus 9:29": "16162f4877e9aa0b269febb542fc4d69d303c4382110cd3be0f0e5918ddf95d8",
+        "Exodus 9:3": "8fc8d3aad0e73161d69123c3bba6cf61eda1d0b355d238e48fcf4de359453a01",
+        "Exodus 9:31": "5963fe9b9fa2e923a0ceb80f5a2b68014643e0a78c0d01516b073b03bd273b76",
+        "Exodus 9:32": "31fb326a2b794e1cd84e3788957a5bc56bd8b44bee4306f4377d3bd346c432f9",
+        "Exodus 9:33": "eb66bcb11f42dd7ba6e50a53373563640bfaec53f1eff4403cd0afc6619a1e0a",
+        "Exodus 9:34": "dab20a087e88804424833beb242dc846228c8183ed7798187542e43ef0377566",
+        "Exodus 9:35": "36a1e31682a8fe17bcc58e26aed0b2402966befe863c15dbaa639e56807b9b48",
+        "Exodus 9:4": "de8ebc9056d55a51fb01c030a084aae0f01eccfd77aa4c2872a60e64cfaf2ef3",
+        "Exodus 9:5": "cfe931d570f28aaca7f94ea3f6d9fa9c915a66e284d3ca1811a2dafe60e0d771",
+        "Exodus 9:6": "5e7d28a858a4b73ff9fe65722b702067f3907013953c4a625538280877334c5d",
+        "Exodus 9:7": "88a3ee7adba5afa649945bcdd2602a6f8336f433cfee500cc7d82d703c612e9a",
+        "Exodus 9:8": "0feb73b4676e2a103b86dc62264a86e401a250e1745a187c705d148be643ff84",
+        "Exodus 9:9": "54b4887cac2d9b5892a6f9b908f4cc36a861ccc6f953901e2c54de4f5e13b6b7",
+        "Luke 11:20": "c5ad92e98103da674ab679690c814d453f56b8d9bdb0852572807acb8eeebefe",
+        "Psalms 104:28": "cbd4ae250c074dfa63626a10587bf27708b6642295022cb23e292a43e9d41aba",
+        "Psalms 104:30": "9bb8b73e56fb3b645aa91b10c3d7f91d0be634a205bfee8edd369a86e34b1115",
+        "Psalms 104:31": "7be043e9b5331a5158d12089643594c29b3ed5be417426041c0a683ac8181238",
+        "Psalms 104:32": "e770be02ced34d43e8da3df519eb1768eefb957e5c3194c68791af739d0c5e5a",
+        "Psalms 104:33": "6ccdd2a40eba2af14bd0d9bf68c634c9a11ec8bc02f67019356a9d9ce41d786a",
+        "Psalms 104:34": "e1b54d73853829f3c2965625a13fa51419117c55cf49ad555a0cd11aaa994a39",
+        "Psalms 104:35": "9322a8411a75de3967ca9da25f02cd549dababdba2719d632d61a0fcd094d35b",
+        "Psalms 23:1": "5581a7955af270c251196c95e017c947279ba9a41161167026a736e4bac3b7f5",
+        "Psalms 77:45": "b5d056ef2defa638898544784ab9b63e8734184150109d56fef9f9b9e0cce0be",
+        "Psalms 77:48": "1b26b393c400868832a3f2fa1674a081143a301aceb10ed580ec5edf1565f039",
+        "Psalms 77:50": "e20930e5476522c1420e0c4fea3058e4810d011efc8941fbf8243015ee63c579",
+        "Romans 9:17": "c357e2b3fb478cc7349aead0525739cc36f0f87d3ad3bf9cebcc5c7e5a0598fc",
+        "Romans 9:18": "659637c6785658d0c7fd80d9e378317a1f0376dd1a08f6a3c081d5efccfe5392",
+        "Wisdom of Solomon 16:16": "79b1666ee5bc785852608687180dd0c92958ed686b89a4b578e850ba896369fa",
+        "Wisdom of Solomon 16:17": "36719f87abff2faf5e4abca004f73cfb6e11bb5bb97b1e0aec1771ca12f63ce9",
+        "Wisdom of Solomon 16:18": "9a09e28f4d7001b8f4711f6040fabc225b27c0352defaae0a53a1ae5d2e8f6d7",
+        "Wisdom of Solomon 16:19": "1ecfac90fe3f0ed651e8f5f00ac1000ae9ad58436d489fd87861d1807b33d895",
+        "Wisdom of Solomon 17:15": "04437368b1ebb96d386204fb3f171cf437d37430361025b3d137745dbb9b5214",
+        "Wisdom of Solomon 17:16": "4fca84ee71b6f9a6223a34186f839a4107ddf3e644f94feb1de11292d860cd20",
+        "Wisdom of Solomon 17:2": "34aa62c34d7023b43f946e1fbee13f547ea16b75b48bbb0d26dbd65c89e54ea9",
+        "Wisdom of Solomon 18:1": "e8856d8873b0f2df19716304125c429b6ac8cc7883a765d0fe076e05b5a48605"
+      },
+      "pending": [
+        "Independent human/specialist review",
+        "Original-language and critical-apparatus comparison",
+        "Live destination-anchor/display review"
+      ],
+      "final_input_sha256": "8771e9fc6e147a0f309c3b820984a0b0aa42b001b3f70be0d37ceb675e065042",
+      "post_review_corrections": []
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T12:59:33.923486+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        11,
+        12
+      ],
+      "source_verses": 61,
+      "completed_pairs": 126,
+      "chapter_counts": {
+        "11": {
+          "source_verses": 10,
+          "pairs": 20
+        },
+        "12": {
+          "source_verses": 51,
+          "pairs": 106
+        }
+      },
+      "source_review_status": "complete initial curated pass for all actual source units; no exhaustive discovery claim",
+      "distinct_target_verse_units": 130,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_target_context_read": true,
+      "second_editorial_pass": "completed: reread every one of the 130 retained target verse texts and all 126 explanations against actual source wording and necessary context. Final four-row change adds number spacing/commas only; no source/target/pair-count change.",
+      "review_method": "Read complete actual source chapters and all proposed retained target passages with context. Distinguish explicit narrative recollection, repeated law, same-chapter explanation, qualified later allusion and later Christian theological application. Keep reported speeches, narrative agency, differing date/count/preparation statements and eligibility categories visible. No per-verse quota; no completion credit for inventories, reused technical checks or excluded unread targets.",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "1 Peter",
+          "records": "1-peter/verses.json",
+          "blob_sha": "24498c091c777535f4a4069f62d6844c31fccc53"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "John",
+          "records": "john/verses.json",
+          "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Luke",
+          "records": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "additional_sources": [],
+      "inventory_basis": {
+        "file": "../hourly-2026-10-29-0739/exodus-inventory.json",
+        "sha256": "2515e3e20beefb023019857dcf881489136950b623792918b6cb1c9f06dc7336",
+        "matched_source_units": 61,
+        "source_blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+        "check": "all actual scope references, anchors and text hashes match the previously completed pinned Exodus inventory"
+      },
+      "context_passages_read": [
+        "Genesis 15:13-18",
+        "Genesis 17:10-14",
+        "Exodus 3:19-22",
+        "Exodus 4:21-23",
+        "Exodus 5:1-3",
+        "Exodus 6:6-8",
+        "Exodus 7:3-5",
+        "Exodus 8:16-19",
+        "Exodus 9:4-7",
+        "Exodus 9:12",
+        "Exodus 10:7",
+        "Exodus 10:24-29",
+        "Exodus 13:3-5",
+        "Exodus 13:14-16",
+        "Leviticus 22:18-21",
+        "Leviticus 23:5-8",
+        "Leviticus 24:17-22",
+        "Numbers 1:1-3",
+        "Numbers 1:44-46",
+        "Numbers 9:1-14",
+        "Numbers 11:4-6",
+        "Numbers 28:16-25",
+        "Numbers 33:1-5",
+        "Deuteronomy 6:20-25",
+        "Deuteronomy 16:1-8",
+        "Joshua 5:10-12",
+        "Psalms 33:20-21",
+        "Psalms 134:8",
+        "Luke 22:7-20",
+        "John 19:28-37",
+        "1 Corinthians 5:6-8",
+        "1 Peter 1:18-21",
+        "Galatians 3:15-18",
+        "Hebrews 11:23-29"
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Exodus 11:1-10",
+          "note": "Retain one further plague, secretly spoken request instructions, lending, and Moses' standing before Egyptians, Pharaoh and attendants. Do not use favour to invent Pharaoh's completed repentance. The midnight entrance and firstborn warning remain the Lord's words within Moses' speech. Servants' predicted bowing is not separately narrated in the departure account and is not declared independently witnessed."
+        },
+        {
+          "reference": "Exodus 11:5-7 / Exodus 12:29-30",
+          "note": "The earlier female slave beside the mill and later captive woman in the pit remain distinct supplied descriptions, alongside the firstborn livestock. The great-cry and dog-growling expressions are not converted into independently verified demographic or zoological studies. Earlier Goshen dog-flies and livestock protections are labelled distinct prior judgments, not the same event."
+        },
+        {
+          "reference": "Exodus 12:1-6,14-18 / Leviticus 23:5-8 / Numbers 9:1-14",
+          "note": "Keep the first-month framework, tenth-day household selection, fourteenth-day slaughter toward evening, evening-to-evening unleavened bounds and first/seventh assemblies. The later first-month/fifteenth-day calendar expressions and delayed second-month observance retain their actual conditions. No modern date, hour calculation or independent calendrical harmonization is claimed."
+        },
+        {
+          "reference": "Exodus 12:3-10,46 / Deuteronomy 16:7",
+          "note": "Household sheep, neighbour sharing, counted portions, male year-old unblemished animals from lambs/young goats, fire roasting and whole-animal details remain intact. The source already includes no-bone-breaking at12:10 as well as12:46. Deuteronomy's boil-and-roast wording remains alongside Exodus's exclusion of boiling in water; the parallel identifies actual related Passover instructions rather than a new lexical solution."
+        },
+        {
+          "reference": "Exodus 12:5,8,10,14-15,27,46 / 1 Peter 1:18-19 / Luke 22:15-20 / John 19:33-36 / 1 Corinthians 5:6-8",
+          "note": "Peter's Christ-lamb imagery is labelled later redemption imagery, not an exact quotation of every Passover specification. Luke expressly frames Jesus' meal as Passover; its bread/cup interpretation and remembrance command are later uses with their own commemorated event, not substituted details of the Egyptian meal. Paul explicitly applies Passover and unleavened imagery to Christ and the community. John explicitly cites Scripture about the unbroken bone, but no exclusive identification of its only Old Testament background is claimed; Psalm 33:21 was also read."
+        },
+        {
+          "reference": "Exodus 12:7,12-13,21-23,29 / Hebrews 11:28",
+          "note": "Preserve doorway blood, hyssop, blood beside the door and the no-exit rule; no basin wording is inserted. The Lord announces and performs the Egyptian judgment, sees the blood and does not permit the destroyer into the protected houses. The Lord and destroyer are not independently collapsed into one identified figure or replaced with an unquoted angel designation. Hebrews' faith interpretation and blood-sprinkling account remain a later summary with its own agency wording."
+        },
+        {
+          "reference": "Exodus 12:11,17,24-27,34,39,42",
+          "note": "Girded loins, sandals, staffs, haste and the night vigil retain their specific forms. Dough and kneaded batches in garments are not silently changed into a different object list. Moses' prospective family-explanation instruction uses remembered deliverance language; it is not used to relocate the later narrated judgment earlier. The child-question parallels distinguish Passover, firstborn redemption and general-law teaching contexts."
+        },
+        {
+          "reference": "Exodus 12:29-38",
+          "note": "The narrator attributes the firstborn judgment to the Lord, the release order to Pharaoh and expulsion pressure to Egyptians. Do not invent an individually narrated blessing of Pharaoh after his request. The livestock permission reverses the earlier restriction; the mixed multitude is not assigned a new exhaustive ethnic roster or universal responsibility for later complaints. Gifts retain favour, lending and plundering wording without modern legal adjudication."
+        },
+        {
+          "reference": "Exodus 12:37-41 / Numbers 1:45-46 / Numbers 33:3-5 / Galatians 3:17 / Genesis 15:13-16",
+          "note": "Preserve about 600,000 footmen apart from the household company, distinct from the later 603,550 military enrolment with its age criterion. Keep Rameses-to-Succoth and the station list's stated departure date. The 430 years concern residence in both Egypt and Canaan in this source; Paul's covenant-to-law 430 and Genesis's foreign-affliction 400 are compared without equating all chronological scopes or silently removing Canaan."
+        },
+        {
+          "reference": "Exodus 12:43-49 / Genesis 17:10-14 / Numbers 9:14 / Leviticus 24:22",
+          "note": "The foreigner, household slave, purchased slave, sojourner, hired worker and resident-foreigner categories retain their supplied labels. Circumcision of every male belonging to the Passover-seeking resident foreigner and subsequent participation as a native remain explicit. No new lexical theory collapses every status, no universal exemption is invented, and one-law parity is not used to erase the stated eligibility requirements. No modern civil-policy recommendation or approval of slavery is inferred."
+        },
+        {
+          "reference": "Exodus 12:28,50-51",
+          "note": "The repeated obedience notices explicitly name Moses and Aaron. The departure summaries retain the host and day wording; no additional same-day phrase or independent timetable is inserted. Later Sinai observance is distinguished from the first Egyptian instruction."
+        },
+        {
+          "reference": "Canonical scope and unread targets",
+          "note": "Every retained target belongs to Saints70 and has actual pinned readable evidence. Revelation remains in that canon; no Revelation passage was read or retained here and the existing missing-pinned-record candidate gap is not declared resolved."
+        }
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Exodus 12:22",
+          "target": "John 19:29 as an explicit Passover-hyssop quotation",
+          "reason": "The full John context was read. The shared hyssop detail alone was not counted as proof of an explicit Passover quotation; the separately explicit bone-preservation citation was retained with appropriate limits."
+        },
+        {
+          "source_reference": "Exodus 12:12,23",
+          "target": "A newly resolved identity equation of the Lord, destroyer and an angel",
+          "reason": "The actual source speeches and narration are retained without independently identifying every agent as one person."
+        },
+        {
+          "source_reference": "Exodus 12:40",
+          "target": "An independently proven identical 430/400-year calculation",
+          "reason": "The actual passages name different figures and chronological scopes; a new specialist chronological reconciliation was not counted."
+        }
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "validation": {
+        "source_coverage": 61,
+        "unique_pairs": 126,
+        "distinct_target_units": 130,
+        "duplicate_pairs": 0,
+        "self_containing_targets": 0,
+        "missing_retained_target_units": 0,
+        "all_target_books_in_saints70": true,
+        "all_intrachapter_categories_prefixed": true,
+        "source_inventory_reference_anchor_hashes": "all 61 match",
+        "technical_check_completion_credit": 0
+      },
+      "source_verse_sha256": {
+        "Exodus 11:1": "926da19144847ea277268bee329b3a1ae4b94d6746e11fbacfc1b67eb382ed1e",
+        "Exodus 11:10": "e76a3753558beb375795761af95e92fbe0c11e4ff5cbc978ead5d0e29da2517d",
+        "Exodus 11:2": "317189aae5bbbba585ab014c7a2fc31f945a1ac53df789f548df2414640de067",
+        "Exodus 11:3": "405787e082c8a32b016fc89dedb2e52f05b8812b37094c0aa4230902aea397ec",
+        "Exodus 11:4": "a88ea6bfe3cf283f06ccdddbfa76d85dbb97858db57f1e3f2465e04f4678d770",
+        "Exodus 11:5": "ea4a3e644a5963fb6c2316d029caeb6251716095117a9b05288c4673aeea2b90",
+        "Exodus 11:6": "6f7d44aa43ae02f987d859ccc3fcea18e5eaa8cb51d7b0cd5e0b3a78676b9028",
+        "Exodus 11:7": "3331997f8c92876226d4a602ba149ad0b825bbc38b24ad1693778eaaf57d8de7",
+        "Exodus 11:8": "a743e490447018b0a4c8a0264ceb64fae8ff8c44952dea1e5f59d51b407fd282",
+        "Exodus 11:9": "e9d168c68774aba90b1f89a16706537f86f11f59b3d370a7d6d1f20ccec270f7",
+        "Exodus 12:1": "60768ab5eb9b6c92cf31d2acc907cac28b702482334bb0822993f5688e44107a",
+        "Exodus 12:10": "e13161b7faf20f7b198c5f1858b1ae1979ebf4a3d9fcd11cb382cc16138864ea",
+        "Exodus 12:11": "27697c88694d70db42836c271dbe215323b106c46cb46d68e45c46fe22484943",
+        "Exodus 12:12": "12555b05e4996c22090839222eaf75c2b2558fe2647cfdee66a84959172b0fdf",
+        "Exodus 12:13": "d6dbbf0b8088cf44e75462d81333c8f2aeda536bc014cccb34af667768645498",
+        "Exodus 12:14": "1f97f4f40ad5c7dc2aa3c6fd39831cabe3f1f82ed8995d23b36af39954f65122",
+        "Exodus 12:15": "d0cf75a7d9c74ac0987cc2e13f43afaf342a4f0edc578351ee2c210f1674582f",
+        "Exodus 12:16": "5a835cff33c8436b1c73df48f44e0b09b767cb6b63a46969c924f5250be03911",
+        "Exodus 12:17": "3c900346cba5779fbda038339980deea7d23c574a5da0c255ce815a907f07480",
+        "Exodus 12:18": "2c780a7d3df331292a6c3f2d3d10cc7bf0aef1b7c16e1a6c0d1aa7ece9c79bb1",
+        "Exodus 12:19": "ec01bd123dbc8047c4b8536bf744b1021c043a402d4e6580727f5c19e4815ca6",
+        "Exodus 12:2": "f76ddbbb0eb3136cd23d71cc24706e277ae7b8c4ee8ed1ebf601a293c9b2c6d1",
+        "Exodus 12:20": "424023844d569eb3c68523a72a17da9a93d036836349be42fd1d09eb3d620f4d",
+        "Exodus 12:21": "24c112590839b59f3941a90f7035768165f661243b147ce4de7b7477f3f58684",
+        "Exodus 12:22": "4534a3883fd2cfe43e7051f58428fc2049ccb3a36f997a1c03451fc9cfe074ac",
+        "Exodus 12:23": "e5e13e76f446c25da04b8e9aa7294a760ad2f84ec8a06b1ae5106c4a661e6610",
+        "Exodus 12:24": "dec3f588f25e1d208682d1cb98ca1e9ad27d8e27808c0546ccc31a3057569d85",
+        "Exodus 12:25": "5c78735eb80a6ad9a415d645c5ae96984fe030e91dce669867fdd4fd67f8dc34",
+        "Exodus 12:26": "66eb25c185541913e6c80adc5ed4caa22783b1ebb9b4ccbb04ac5658cd772cf0",
+        "Exodus 12:27": "d093e4d46a23f643637783eaaa7ef720d5ad2e514087c99c77d294932c5108d2",
+        "Exodus 12:28": "dba9290b1abccf08773b77938b917104ace0d6a199e2478ad7b2e2e62edc5462",
+        "Exodus 12:29": "203aefa1547a1f9c393e4bc7e0a5f5edc0962289cb0b0792b6b59211c522f5e0",
+        "Exodus 12:3": "e6945797aecae7f61a7e5fb007302ee8e21a7df83006e288f204896576235bdf",
+        "Exodus 12:30": "4783ce3a4301db7e5297c418483b07a636d27e99a640b2c4b5f6d9594e5d4dcf",
+        "Exodus 12:31": "15791b4b54b744f6c6283df24523b708c0fc13dea5a6cb015f68264976d6945a",
+        "Exodus 12:32": "773bfdcb7ca58f69927edd7726c967d1c4074e34467097ba9c0e640e6ce8f785",
+        "Exodus 12:33": "1dc044bd3f17767b9ca2aafb0a37b277d0442341bdc54fb76a75ada76b8218b0",
+        "Exodus 12:34": "5ad6f4c620b0caa155d7d9e8eed166bdf177411c20f097597befdd31eb3dfba4",
+        "Exodus 12:35": "084c63a8d008c12b1dc2383df30a150ad9e9e0bb1658c631a23dadc86eeb62f5",
+        "Exodus 12:36": "0bf3e0ac465e8b69bfb31f306c3afd4cd6b38b003e97ecf2b4d2fdfa88018c03",
+        "Exodus 12:37": "649ff9f0c354fd0b709279e2b0c6482591fa808c95eb75e2a7e8f61b6488e530",
+        "Exodus 12:38": "9b62c7955b23f846930b04c7cad02d82d3e731248db0b65822af9a5ae7d23371",
+        "Exodus 12:39": "eaa1734490fdab48fcf48b02d749401fdf052eb2288e8573e3bba61ecf28e5e8",
+        "Exodus 12:4": "dc919d0dd69a885cd801cf87aa8c67fbee785bfcfaedf7e9db1a26026e9626ce",
+        "Exodus 12:40": "683577541ef1ab3a89acc6e587f211021d82c08dc6925a0c2bb09b2b331c85a3",
+        "Exodus 12:41": "170354869db79e911a5940b728257b76b12942bc37c2a6d220b41c93a719552c",
+        "Exodus 12:42": "87dc714c90d33c94fcbf9fb2ab49eba04192bf6e8911f8d189a4c9c4867d56b6",
+        "Exodus 12:43": "aa8cc62b3b4447d1866b521a114d7dfc38c755d901d23f7456e9fd0db2ffa366",
+        "Exodus 12:44": "f79eea8dd23b97c3ccc5356a693b7b45729581a9ea440e7b59e9a13ae8272d63",
+        "Exodus 12:45": "b6387950112ca479175b9fc2d9fc30766e192c17438b22a53286cac3b354e8bd",
+        "Exodus 12:46": "b7fbe421bd144944ee4d90510fcefc0bec50a89e48c5610d4b8d72c5c80d3809",
+        "Exodus 12:47": "e6a0bc32d4bba71fd21ecdbacccd7a7b2249bdc3bb51e66dd9a8167d94dd9959",
+        "Exodus 12:48": "07e180cc69afe2c9499ea38004bdeb83f4afc479c48875fd2b9b7dd39e9f0e37",
+        "Exodus 12:49": "6cf69b37626305804ff82befefc0da4f9ee60310bf425c87039830ad2ba3bf85",
+        "Exodus 12:5": "2961fbf65c2545d1d99562d743875f113d337db634a8f530e6c422a412b98e9d",
+        "Exodus 12:50": "394662af5460fa0ca2c4851f2c7d9a0825e8d1d274b7f8d0c3608b5262f8805d",
+        "Exodus 12:51": "ff6fc53268a0f755abf17b91b6e60c703cbb0757a38e9636fb9d95d48f88b47a",
+        "Exodus 12:6": "784193fbe7583044093661745717c92560defe6d8c8dfba5704adc8d103876d6",
+        "Exodus 12:7": "c9b9b5e91f58b5198ca98168d93ec958c3efc7cb92b7b57c34425bc9c3260c33",
+        "Exodus 12:8": "fe2090630fdac6f976171a951232507bb2728cbc2f166342cc98b09183190260",
+        "Exodus 12:9": "28f4acaa2727f707546c9c1ddea1ecf0c2b1b6c309d9353bb673d2f32bea6998"
+      },
+      "target_verse_sha256": {
+        "1 Corinthians 5:6": "f85b7cef0bbaf10eb36b5bdf5f6b848e33bfb499f91a02b7e6627e9ad4b1f73d",
+        "1 Corinthians 5:7": "b3f5dc679393753c81237a8078839a323d25ec65f92ed6db4ad496edb294b569",
+        "1 Corinthians 5:8": "51a8397c316bb41e48525ea8dbd244933383fd0799dcd04da9fd834389dc8296",
+        "1 Peter 1:18": "102354ec1bd332edee140ce276150c1d12957bc8f87eb15e9a79804ad334b8fd",
+        "1 Peter 1:19": "e80eb491229feaa08a2a30adde39404a6adf0075a81b3a2d19da06b079c4458c",
+        "Deuteronomy 16:1": "89548e97f200fe5b344f6c21d2236f26707b252f33b1f0a2723d0283216eef13",
+        "Deuteronomy 16:3": "588f1ae24d68325cb1d2ba63467fbc74b8ed55559e27282c2582caa7b8d0dad2",
+        "Deuteronomy 16:7": "ef604c8551a873d214e4bbf73a8d79dcc876b0aadbb26694dc9c99e392638f59",
+        "Deuteronomy 6:20": "d0ef166d5571ec7d644ab4d6e546a2f5bc4dce9a605e48ed71fadd4f560c4449",
+        "Deuteronomy 6:21": "2e06d7d18873b37a1523ea91c0386985a4d2892e672bc99eed0884b1f2d4026c",
+        "Deuteronomy 6:22": "5c6dfbaf37b381793d2c718efee118546ff3e5db712e3a55b249aebc05b22c46",
+        "Deuteronomy 6:23": "64ab93a54e9bde49b3d59fb9637c90761c79a5f7e041fe829d51c94f1eac6d71",
+        "Deuteronomy 6:24": "936285421b0373cf0c5341f858ec7f6045ff438cdbe102af678fcec1c3e86d16",
+        "Deuteronomy 6:25": "279c6b4a89a8840a6805f9f4090c92049951e8ac053ca995b09412ab66aef0a9",
+        "Exodus 10:24": "5acd1bdcdc7dbd388a07c95d338021d1a28e881fb06324e4d7f35b1fd3931e61",
+        "Exodus 10:25": "f6c1ea4a3e0fc8a71a7beafe785b860c0ffc5462c0535d074be878c319109528",
+        "Exodus 10:26": "4d101d50aba811273576edb50854d7323de4835bd20cf04aba3474bc44579ce8",
+        "Exodus 10:7": "ffaaf8b6e2298df31dc3a34e988a7514ef2f39ac8a7fe13bb2a25b6f5cc0b5a3",
+        "Exodus 11:1": "926da19144847ea277268bee329b3a1ae4b94d6746e11fbacfc1b67eb382ed1e",
+        "Exodus 11:10": "e76a3753558beb375795761af95e92fbe0c11e4ff5cbc978ead5d0e29da2517d",
+        "Exodus 11:2": "317189aae5bbbba585ab014c7a2fc31f945a1ac53df789f548df2414640de067",
+        "Exodus 11:4": "a88ea6bfe3cf283f06ccdddbfa76d85dbb97858db57f1e3f2465e04f4678d770",
+        "Exodus 11:5": "ea4a3e644a5963fb6c2316d029caeb6251716095117a9b05288c4673aeea2b90",
+        "Exodus 11:6": "6f7d44aa43ae02f987d859ccc3fcea18e5eaa8cb51d7b0cd5e0b3a78676b9028",
+        "Exodus 12:10": "e13161b7faf20f7b198c5f1858b1ae1979ebf4a3d9fcd11cb382cc16138864ea",
+        "Exodus 12:13": "d6dbbf0b8088cf44e75462d81333c8f2aeda536bc014cccb34af667768645498",
+        "Exodus 12:14": "1f97f4f40ad5c7dc2aa3c6fd39831cabe3f1f82ed8995d23b36af39954f65122",
+        "Exodus 12:15": "d0cf75a7d9c74ac0987cc2e13f43afaf342a4f0edc578351ee2c210f1674582f",
+        "Exodus 12:21": "24c112590839b59f3941a90f7035768165f661243b147ce4de7b7477f3f58684",
+        "Exodus 12:22": "4534a3883fd2cfe43e7051f58428fc2049ccb3a36f997a1c03451fc9cfe074ac",
+        "Exodus 12:23": "e5e13e76f446c25da04b8e9aa7294a760ad2f84ec8a06b1ae5106c4a661e6610",
+        "Exodus 12:24": "dec3f588f25e1d208682d1cb98ca1e9ad27d8e27808c0546ccc31a3057569d85",
+        "Exodus 12:28": "dba9290b1abccf08773b77938b917104ace0d6a199e2478ad7b2e2e62edc5462",
+        "Exodus 12:29": "203aefa1547a1f9c393e4bc7e0a5f5edc0962289cb0b0792b6b59211c522f5e0",
+        "Exodus 12:3": "e6945797aecae7f61a7e5fb007302ee8e21a7df83006e288f204896576235bdf",
+        "Exodus 12:30": "4783ce3a4301db7e5297c418483b07a636d27e99a640b2c4b5f6d9594e5d4dcf",
+        "Exodus 12:31": "15791b4b54b744f6c6283df24523b708c0fc13dea5a6cb015f68264976d6945a",
+        "Exodus 12:32": "773bfdcb7ca58f69927edd7726c967d1c4074e34467097ba9c0e640e6ce8f785",
+        "Exodus 12:33": "1dc044bd3f17767b9ca2aafb0a37b277d0442341bdc54fb76a75ada76b8218b0",
+        "Exodus 12:34": "5ad6f4c620b0caa155d7d9e8eed166bdf177411c20f097597befdd31eb3dfba4",
+        "Exodus 12:35": "084c63a8d008c12b1dc2383df30a150ad9e9e0bb1658c631a23dadc86eeb62f5",
+        "Exodus 12:36": "0bf3e0ac465e8b69bfb31f306c3afd4cd6b38b003e97ecf2b4d2fdfa88018c03",
+        "Exodus 12:38": "9b62c7955b23f846930b04c7cad02d82d3e731248db0b65822af9a5ae7d23371",
+        "Exodus 12:39": "eaa1734490fdab48fcf48b02d749401fdf052eb2288e8573e3bba61ecf28e5e8",
+        "Exodus 12:41": "170354869db79e911a5940b728257b76b12942bc37c2a6d220b41c93a719552c",
+        "Exodus 12:44": "f79eea8dd23b97c3ccc5356a693b7b45729581a9ea440e7b59e9a13ae8272d63",
+        "Exodus 12:46": "b7fbe421bd144944ee4d90510fcefc0bec50a89e48c5610d4b8d72c5c80d3809",
+        "Exodus 12:48": "07e180cc69afe2c9499ea38004bdeb83f4afc479c48875fd2b9b7dd39e9f0e37",
+        "Exodus 12:49": "6cf69b37626305804ff82befefc0da4f9ee60310bf425c87039830ad2ba3bf85",
+        "Exodus 12:50": "394662af5460fa0ca2c4851f2c7d9a0825e8d1d274b7f8d0c3608b5262f8805d",
+        "Exodus 12:51": "ff6fc53268a0f755abf17b91b6e60c703cbb0757a38e9636fb9d95d48f88b47a",
+        "Exodus 12:7": "c9b9b5e91f58b5198ca98168d93ec958c3efc7cb92b7b57c34425bc9c3260c33",
+        "Exodus 12:8": "fe2090630fdac6f976171a951232507bb2728cbc2f166342cc98b09183190260",
+        "Exodus 13:14": "37a447ccbe21122a5915293d687f14f32bb2e4e1de7fa003c0099855c55e7f78",
+        "Exodus 13:15": "01ef10f8d38bac0544fbfaed4390f77255d4cdff6841e17afb97230629570ec7",
+        "Exodus 13:5": "6d843628be2d521188457c6738d3a992bf2795da9c57b4c2fbf6c5b1421bcd43",
+        "Exodus 3:20": "ca371563c90668e76b387359f2153149c21367f869bfcf9a36f23b80dceb126b",
+        "Exodus 3:21": "2303aecd2c6428f3cd5481d383c63f003c7e92f9fbd3156534867d77ce08424d",
+        "Exodus 3:22": "e5768a068b357cf0cc46dd93c7d8a6fd24ba431fa464022340e0af098239fa97",
+        "Exodus 4:23": "79cc6c35c3767196c8ad83d4c5c0ae4af2b8d5dad53a06e9bf93294818628dea",
+        "Exodus 5:1": "78bcc95b766205268a0df87bfd562b5aa2bdc8c067f184065a11d290f4681a06",
+        "Exodus 5:2": "fb669c7c90799e62d33c7cbed3132800ca253047330be8c9603046d6a68f9441",
+        "Exodus 6:6": "0f702baa11a8cfb474f941bc01a1b4f59893fbf9f283178b32a41098c23b91f4",
+        "Exodus 7:3": "a6cd6598ca463e1908a9da98e1cfde7326885f6d123f05b39f295cfb1627a339",
+        "Exodus 7:4": "a436cc34b9e7b9fca4b50df699165f30cd5b2043929b48a48838b6fb6a4debf9",
+        "Exodus 7:5": "55a96919b3a8e60328393f2f76f0b4d2d586a667fe032bf58b603df26342119d",
+        "Exodus 8:18": "e1cd099bd1c03a946021ea7a301d6c3b5ab17d3e24e021bc6a7adcad8aa6a7df",
+        "Exodus 8:19": "61e2be5148ca8b403e85c3fe7b2d84ab45a85c73b64d364c578b7c0e5942f203",
+        "Exodus 9:12": "710191390d1acac48c5789f8e355dcf39bf2fc696c4b0b10a32e8ccdc5eaa713",
+        "Exodus 9:4": "de8ebc9056d55a51fb01c030a084aae0f01eccfd77aa4c2872a60e64cfaf2ef3",
+        "Exodus 9:5": "cfe931d570f28aaca7f94ea3f6d9fa9c915a66e284d3ca1811a2dafe60e0d771",
+        "Exodus 9:6": "5e7d28a858a4b73ff9fe65722b702067f3907013953c4a625538280877334c5d",
+        "Exodus 9:7": "88a3ee7adba5afa649945bcdd2602a6f8336f433cfee500cc7d82d703c612e9a",
+        "Galatians 3:17": "a226a6a658ed0fedb7e349c4b1a6f5bca2ddf66a935da5984055e1e036201294",
+        "Genesis 15:13": "d1faa1cb4581720ab7659858f082af2257feb5ba60f73a2711b7a8bb84bca9c6",
+        "Genesis 15:14": "f3b9ed25abe0523d1cbd3ce99657349dc03de0a22f205c6c6b72c367a41b5b4c",
+        "Genesis 15:15": "8089c39821e4927a4f6833bd20c0f9ae644408066e6316d9ff170c05432160b7",
+        "Genesis 15:16": "043c372688bec541f1677fc511ed9ce18abfd00ae31fc631c0a3091d151e7f54",
+        "Genesis 17:10": "7e217fbf5826ccb2116cd592815d92d2658093f58662ba17597bc8379b0fa25f",
+        "Genesis 17:11": "af5172136041429fc1ff520a110b418b3749e13b6a1fbaa0b38dbec03dc280db",
+        "Genesis 17:12": "cbce8c76d4920331a6e694088e49b9b83a62608c00b079cbc97ffd3868abc6a0",
+        "Genesis 17:13": "d9f663dddc588d3d4c58783414883633a4294b08b2766cec9d571533ff5ed142",
+        "Genesis 17:14": "093dcd1d34d695e28c52617333144a04234224ea5ae5c3f287f00f49130944f2",
+        "Hebrews 11:28": "748f6756a1d5e75b27435ba844a19ac18de4b4861afdee202bb0917c39266c2c",
+        "John 19:33": "0bbd23c44f88dd07c611f7e32e307f18e562f7daa40ec3d3f038390eb9132711",
+        "John 19:34": "86658604e0a208d036babc262c77683aee6ba35527089072cd2872311d03c92a",
+        "John 19:35": "e18c87aaae3e1564bdeabc7719a239402e7c948d89d81158a678be03d7bd73fa",
+        "John 19:36": "2233f3e26b198b337f859664666eb53ac3df23147faa097840897e0e09ecf734",
+        "Joshua 5:10": "616746d27df90d5084058598ff4a566523e835b9cc65cca96702720f93498194",
+        "Joshua 5:11": "008235342f9ee3e4c51e600fa7e01b27f87bcf694e39b3cdc04091af252b672d",
+        "Joshua 5:12": "21b962c21af3bf0ea0c38f1b5e164e5088a9372fc95e2ad6c2a874dce23fc182",
+        "Leviticus 22:19": "1be239c96426fad715e13259ab7a3b32f215527e0f785496dd1532412fd34b1d",
+        "Leviticus 22:20": "b9d457f64538b501f0157eabf320357a3c4ab7ea284ca8966c6866245717e132",
+        "Leviticus 22:21": "e1f821550b7be6035a01df299e1beefe13989a6ed3cbb2c9cb8356c965cf0690",
+        "Leviticus 23:5": "ccff1e144e56acd551363b2105ac7673cc40dea3fd8fc1af96982dcd95ba2306",
+        "Leviticus 23:6": "207815c502d68457e813a0294b6e608182c15356c04b6952c479ae8fa4566612",
+        "Leviticus 23:7": "f3f95fc1b0e0400061c5bb4acbde957e2384f394c67547058aea297f1e34caa4",
+        "Leviticus 23:8": "5429f456a525f119e7e7c70053e6928f4eb544c96ed5d61e51b006abf70279dd",
+        "Leviticus 24:22": "68fbf5cf800ba6280189f481e5801ea03a7e0f3527323d0f76cb6de9eb767452",
+        "Luke 22:15": "1dc673e6ca8f5fead8f545f99ceae80b3e5db2d961f0a1ce3a2a96d40320ccef",
+        "Luke 22:16": "47b34f289fac7edba1ceccf5246dc369f80f54dcefed90952dd2f898487d83c2",
+        "Luke 22:17": "e779ab4a2c1dd609e94fe9fa7e3f8f7cfbc4fd412025a3e7f49e37efb41790de",
+        "Luke 22:18": "5fb4bfde886d37a09359b158d528ef636e8e34aea853b877273f44b4444b5f52",
+        "Luke 22:19": "0806c0399d779ae9149d6f5071511918a1d0e474f8f974cd45202e7237b5ad8b",
+        "Luke 22:20": "d6491c7c411957edfc27fef6bdabf4b01f040db9de813c4baca3219b94670a86",
+        "Numbers 11:4": "3eb10b125003a1cbe6402572bda7b71a1843a6957e6656ddf4d40b40454681cb",
+        "Numbers 1:45": "8e134aaa8f0d406bc357843f6adba8c66346e0b543c84b0b4287324e17fc6430",
+        "Numbers 1:46": "30e4e34f5d1605dfa22cae4cfd36c24b87f2b8db5c7350af30cf681c898dfa6e",
+        "Numbers 28:16": "4ff1875e4db6bf49419de0451c7bd16dc1433ad2cd2f549f2f10db89e1163a32",
+        "Numbers 28:17": "5476cd4e7cf13749abd0cabfcbaf40da3787883ef0565e7c93921d289b8ad1cc",
+        "Numbers 28:18": "5d1aa9fae335ffbcca4a3ca66a6dbee58a853a33588206d44026bda343de4337",
+        "Numbers 28:19": "cb8cbc703fd6a75e3d6c257a3670ba22bf811adf2c7a248f0aa38cba7be02ba8",
+        "Numbers 28:20": "e99ba809a96c6a1a556049f853b1cfebe8915135eb9e97df652ec616adba453f",
+        "Numbers 28:21": "a3b566799c2a97dd30b9cbcff82d3c3c49ed250b15e5966b4b9d64fb217641c8",
+        "Numbers 28:22": "d42f9a668f2c13fb63f53231dd68c934764156fe26d40fdab7a6a02f56499a71",
+        "Numbers 28:23": "a8d701668ac87a3b1f1b6859e45e24384b8afd0d8de02296caac75df2bc60422",
+        "Numbers 28:24": "37de93e5a926d31c070591ad6ef807803ba504f782e0ff0c41bb29a2809ce1cf",
+        "Numbers 28:25": "41ed4a5a7ac6607a2aac50bb772ff032f08d85d182293d2c636ac9d000c179cd",
+        "Numbers 33:3": "c46d750dd3bb75e2b490fed28d767f01b25bd1a4a96a6109b5135f7859c63134",
+        "Numbers 33:4": "693b8184029cf4ca327ad2fa0ca589d3c14207b3be07d3cf52f94c53a11d3a71",
+        "Numbers 33:5": "9d4c60e3223f8babc21c5d0efd1ed00bb16b8dbd84b9268e5b7c07336bb59884",
+        "Numbers 9:1": "2522d5013ec83b4bc0ebaad4ce40bd9cbf816dda659eb76581425c862cab8a76",
+        "Numbers 9:11": "d4576b2952165061f9c297c564d12f8ec7b65bc372b41c0a8c325534e3799d86",
+        "Numbers 9:12": "fcf0c448cb3514d412f8756a5bf66b8ae44f20b0453ae458cdd8b013cd75e040",
+        "Numbers 9:14": "8085f8a95ab5283cc2c63dd99ff2ba8e9b6dd2aadffba838c325175f903e738e",
+        "Numbers 9:2": "fcf3b9c9927684cb8e7fabcccb10d1a3e9008290b3be0aabd531134d7064eb66",
+        "Numbers 9:3": "8684337485a17cfba7578c37b401cd9f6f545e86e6854e154decffcf6f812aa3",
+        "Numbers 9:4": "cba91f798d47a3c269f542989a489c3950f608da002e749cd9fc0775975a6578",
+        "Numbers 9:5": "cbdc3d72aabe8f20ab79a47eee893812f8da0ea7bbf23573fcdae22ad1c21315",
+        "Psalms 134:8": "3e739fb1ead22b97384fd61e1c4f694da2d9ff6ace0b484954c67082a4155491"
+      },
+      "input_file": "exodus-11-12.tsv",
+      "tsv_sha256": "4d2c6427801600ada262595e1e1d69823dbc5e4f6686ad52f09fa09bbff6f63d",
+      "pending": [
+        "Independent human/specialist review",
+        "Original-language and critical-apparatus comparison",
+        "Live destination-anchor/display review",
+        "Existing canonical Revelation source gap remains outside this completed retained set"
+      ],
+      "final_input_sha256": "4d2c6427801600ada262595e1e1d69823dbc5e4f6686ad52f09fa09bbff6f63d",
+      "post_review_corrections": []
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root (AI-assisted English-passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T12:48:07.934559+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        13,
+        14
+      ],
+      "source_verses": 53,
+      "completed_pairs": 107,
+      "chapter_pair_counts": {
+        "13": 45,
+        "14": 62
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "distinct_target_verse_units": 120,
+      "review_method": "Read every actual source verse, each complete retained target passage and needed memorial, firstborn, itinerary, oath, cloud and sea context. Retain particular connections with explicit categories. All intrachapter categories are labelled. No forced per-verse quota or specialist language verification.",
+      "second_editorial_pass": "Independent reread of every explanation against source and target is recorded in exodus-13-14-peer-review.json; all actionable findings must be applied before integration.",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Luke",
+          "records": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "input_file": "exodus-13-14.tsv",
+      "input_sha256": "a6b57ca46a9935456588d25d36ca4a21176ceb82f9ece7f5d7b2676cda1e378b",
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Exodus 13:13",
+          "proposed_claim": "A donkey-neck-breaking instruction in this verse",
+          "reason": "The declared edition says exchange for a sheep and, if not exchanged, redeem it. No familiar alternative is supplied."
+        },
+        {
+          "source_reference": "Exodus 14:20",
+          "proposed_claim": "Light for one camp explicitly contrasted with darkness for the other in this verse",
+          "reason": "The supplied unit describes darkness, gloom and separation. A different lighting clause is not inserted."
+        },
+        {
+          "source_reference": "Exodus 14:28",
+          "proposed_claim": "Independent determination of Pharaoh's personal death",
+          "reason": "The retained links concern the force that entered the sea; no separate historical conclusion is inferred from the listed participants."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Exodus 13:4-7",
+          "note": "The supplied month is new grain. Verse6 has six days and the seventh-day feast; verse7 and other festival provisions state seven days. Both formulations are quoted intact, alongside Deuteronomy16:8 and Leviticus23:6-8."
+        },
+        {
+          "reference": "Exodus 13:13 / Exodus 34:20",
+          "note": "Preserve exchange and redemption wording in13:13 and giving the animal's value in34:20; do not import a neck-breaking direction from another edition."
+        },
+        {
+          "reference": "Exodus 13:18 / Genesis 15:16",
+          "note": "Retain fifth generation in the departure account and fourth generation in the earlier land-return promise. The comparison is not a new chronology or a harmonized generation count."
+        },
+        {
+          "reference": "Exodus 13:20 / Numbers 33:6-7",
+          "note": "Etham and Bouthan, and settlement versus Eiroth forms, remain as supplied. Shared route sequence and named landmarks are compared without a new linguistic derivation or modern location claim."
+        },
+        {
+          "reference": "Exodus 13:21-22 / 1 Corinthians 10:1-2",
+          "note": "Paul's baptism-into-Moses reading is explicitly a later theological recollection. It is not inserted as a ritual statement in the literal Exodus cloud account."
+        },
+        {
+          "reference": "Exodus 14:3-12",
+          "note": "Pharaoh's anticipated interpretation, his reversal after release and Israel's fearful preference for service remain attributed. The earlier foremen's complaint is not presented as a verbatim occurrence of the later leave-us statement."
+        },
+        {
+          "reference": "Exodus 14:19-25",
+          "note": "Retain angel of God, cloud movement, darkness and gloom, violent south wind, and bound axles as supplied. Do not replace the wind direction, add a one-sided illumination clause, or substitute removed wheels."
+        },
+        {
+          "reference": "Exodus 14:28-31 / Psalms 105:9-12",
+          "note": "The none-remained statement concerns the force that entered the sea. Keep the edition's Psalm105 numbering. Rescue, belief and praise parallels are distinguished from an independent reconstruction of every Egyptian participant's fate."
+        }
+      ],
+      "final_input_sha256": "a6b57ca46a9935456588d25d36ca4a21176ceb82f9ece7f5d7b2676cda1e378b",
+      "post_review_corrections": []
+    }
+  ],
+  "peer_review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root (independent AI-assisted English-passage QA)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T13:03:50.830594+00:00",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "exodus-5-7.tsv",
+      "input_sha256": "2b85e56215bee444d659b39da300a35149df7c5c2d39f335a68ff1f467a455b2",
+      "source_verses_read": 82,
+      "pairs_reviewed": 154,
+      "distinct_target_verse_units_read": 159,
+      "decision": "approved; no actionable semantic findings",
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "findings": [],
+      "completion_credit": 0,
+      "read_scope": "Read all actual Exodus 5-7 source units. Read every relationship and rationale in two bounded output sections. Of 159 target verse texts, 48 were in those complete source chapters and 111 other target units were printed and read separately in two bounded sections. Read additional Acts 6:8-15, 7:1-3/31-36; 2 Timothy 3:1-13; Numbers 25:1-6, 26:1-4/9-11; 1 Chronicles 6:1-10; and Exodus 8:4-9 context.",
+      "confirmed_distinctions": [
+        "Pharaoh's idleness accusation remains attributed to him; the workers' petition, Moses' complaint, and the narrated labour policy are distinguished.",
+        "Same-chapter links identify particular repeated commands, dialogue content, petitions and answers, enforced labour terms, genealogy framing, or announced sign outcomes; they are explicitly labelled.",
+        "The name Lord and I-am-your-God formulations, your-covenant wording, discouraged reception and called-upon language are preserved without imported titles, diagnoses or dwelling wording.",
+        "Genealogy comparisons retain differing names, Phoenician/Canaanite wording, lists versus descent chains, and distinct ancestry clauses without newly reconstructed identities or harmonized generations.",
+        "The particular divine, Pharaoh, or unspecified agency in heart notices is preserved; Romans is a later theological discussion, not a purported verbatim quotation of Exodus7:3.",
+        "Aaron's dragon and Moses' serpent signs remain distinct. The river-strike account's singular he is retained without independently fixing its referent.",
+        "Stephen's forty-plus-forty account and Aaron's separate age notices are compared without a newly derived date for every event.",
+        "Jannes and Jambres belong to the later letter's allusion and are not inserted as independently verified names for every Egyptian enchanter.",
+        "The enchanters' reported counteractions and later failure remain distinct; the seven-day notice does not itself declare that the blood condition ended after seven days.",
+        "The source's frog announcement in7:26-29 and actions in8:1 onward, and its Psalm77/104 references, retain their actual numbering."
+      ],
+      "remaining_review": [
+        "Independent human specialist review",
+        "Original-language and critical-apparatus comparison",
+        "Live destination-anchor and display verification"
+      ],
+      "final_correction_verification": {
+        "reviewer": "Codex root (AI-assisted editorial integration)",
+        "reviewed": "2026-10-29",
+        "checked_at_utc": "2026-10-29T13:12:54.522132+00:00",
+        "final_input_sha256": "2b85e56215bee444d659b39da300a35149df7c5c2d39f335a68ff1f467a455b2",
+        "applied_corrections": [],
+        "new_pairs_credited": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex independent peer subagent (AI-assisted English-passage editorial QA)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T13:11:52.127637+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "audited_file": "exodus-8-10.tsv",
+      "audited_file_sha256": "8771e9fc6e147a0f309c3b820984a0b0aa42b001b3f70be0d37ceb675e065042",
+      "source_chapters": [
+        8,
+        9,
+        10
+      ],
+      "source_verses_read": 92,
+      "pairs_reviewed": 184,
+      "distinct_target_verse_units_read": 134,
+      "same_chapter_pairs_reviewed": 105,
+      "source_books": [
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Luke",
+          "records": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        },
+        {
+          "book": "Wisdom of Solomon",
+          "records": "wisdom-of-solomon/verses.json",
+          "blob_sha": "468127efad884589c0e3009ffb16ab7d1ad2fe10"
+        }
+      ],
+      "actual_read_scope": {
+        "complete_source_verse_units": [
+          "Exodus 8:1",
+          "Exodus 8:2",
+          "Exodus 8:3",
+          "Exodus 8:4",
+          "Exodus 8:5",
+          "Exodus 8:6",
+          "Exodus 8:7",
+          "Exodus 8:8",
+          "Exodus 8:9",
+          "Exodus 8:10",
+          "Exodus 8:11",
+          "Exodus 8:12",
+          "Exodus 8:13",
+          "Exodus 8:14",
+          "Exodus 8:15",
+          "Exodus 8:16",
+          "Exodus 8:17",
+          "Exodus 8:18",
+          "Exodus 8:19",
+          "Exodus 8:20",
+          "Exodus 8:21",
+          "Exodus 8:22",
+          "Exodus 8:23",
+          "Exodus 8:24",
+          "Exodus 8:25",
+          "Exodus 8:26",
+          "Exodus 8:27",
+          "Exodus 8:28",
+          "Exodus 9:1",
+          "Exodus 9:2",
+          "Exodus 9:3",
+          "Exodus 9:4",
+          "Exodus 9:5",
+          "Exodus 9:6",
+          "Exodus 9:7",
+          "Exodus 9:8",
+          "Exodus 9:9",
+          "Exodus 9:10",
+          "Exodus 9:11",
+          "Exodus 9:12",
+          "Exodus 9:13",
+          "Exodus 9:14",
+          "Exodus 9:15",
+          "Exodus 9:16",
+          "Exodus 9:17",
+          "Exodus 9:18",
+          "Exodus 9:19",
+          "Exodus 9:20",
+          "Exodus 9:21",
+          "Exodus 9:22",
+          "Exodus 9:23",
+          "Exodus 9:24",
+          "Exodus 9:25",
+          "Exodus 9:26",
+          "Exodus 9:27",
+          "Exodus 9:28",
+          "Exodus 9:29",
+          "Exodus 9:30",
+          "Exodus 9:31",
+          "Exodus 9:32",
+          "Exodus 9:33",
+          "Exodus 9:34",
+          "Exodus 9:35",
+          "Exodus 10:1",
+          "Exodus 10:2",
+          "Exodus 10:3",
+          "Exodus 10:4",
+          "Exodus 10:5",
+          "Exodus 10:6",
+          "Exodus 10:7",
+          "Exodus 10:8",
+          "Exodus 10:9",
+          "Exodus 10:10",
+          "Exodus 10:11",
+          "Exodus 10:12",
+          "Exodus 10:13",
+          "Exodus 10:14",
+          "Exodus 10:15",
+          "Exodus 10:16",
+          "Exodus 10:17",
+          "Exodus 10:18",
+          "Exodus 10:19",
+          "Exodus 10:20",
+          "Exodus 10:21",
+          "Exodus 10:22",
+          "Exodus 10:23",
+          "Exodus 10:24",
+          "Exodus 10:25",
+          "Exodus 10:26",
+          "Exodus 10:27",
+          "Exodus 10:28",
+          "Exodus 10:29"
+        ],
+        "complete_target_verse_units": [
+          "Exodus 7:27",
+          "Exodus 7:28",
+          "Exodus 7:29",
+          "Exodus 8:2",
+          "Psalms 104:30",
+          "Exodus 7:22",
+          "Exodus 8:14",
+          "Exodus 8:8",
+          "Exodus 8:9",
+          "Exodus 8:11",
+          "Exodus 8:6",
+          "Exodus 8:7",
+          "Deuteronomy 4:34",
+          "Deuteronomy 4:35",
+          "Exodus 8:4",
+          "Exodus 8:5",
+          "Exodus 8:10",
+          "Exodus 7:21",
+          "Exodus 7:3",
+          "Exodus 7:4",
+          "Exodus 9:34",
+          "Exodus 9:35",
+          "Exodus 8:13",
+          "Psalms 104:31",
+          "Exodus 8:12",
+          "Exodus 8:15",
+          "Exodus 8:3",
+          "Exodus 9:11",
+          "Luke 11:20",
+          "Exodus 7:15",
+          "Exodus 7:16",
+          "Exodus 9:13",
+          "Exodus 8:20",
+          "Psalms 77:45",
+          "Exodus 9:26",
+          "Exodus 11:7",
+          "Exodus 9:4",
+          "Exodus 8:17",
+          "Exodus 5:1",
+          "Exodus 8:22",
+          "Exodus 8:23",
+          "Exodus 8:21",
+          "Exodus 3:18",
+          "Exodus 5:3",
+          "Exodus 8:25",
+          "Exodus 8:26",
+          "Exodus 8:27",
+          "Exodus 8:28",
+          "Exodus 10:19",
+          "Exodus 8:24",
+          "Exodus 9:3",
+          "Exodus 9:6",
+          "Psalms 77:50",
+          "Exodus 9:7",
+          "Exodus 8:18",
+          "Exodus 8:19",
+          "Exodus 9:5",
+          "Exodus 9:10",
+          "Exodus 9:9",
+          "Deuteronomy 28:27",
+          "Exodus 9:8",
+          "Romans 9:17",
+          "Romans 9:18",
+          "Exodus 8:16",
+          "Exodus 9:1",
+          "Exodus 9:16",
+          "Exodus 14:17",
+          "Exodus 14:18",
+          "Exodus 9:2",
+          "Exodus 10:3",
+          "Exodus 9:23",
+          "Exodus 9:24",
+          "Psalms 104:32",
+          "Exodus 9:20",
+          "Exodus 9:21",
+          "Exodus 9:25",
+          "Exodus 9:19",
+          "Exodus 9:22",
+          "Exodus 9:18",
+          "Psalms 77:48",
+          "Wisdom of Solomon 16:16",
+          "Wisdom of Solomon 16:17",
+          "Wisdom of Solomon 16:18",
+          "Wisdom of Solomon 16:19",
+          "Exodus 9:31",
+          "Exodus 9:32",
+          "Psalms 104:33",
+          "Exodus 10:16",
+          "Exodus 9:33",
+          "Psalms 23:1",
+          "Exodus 10:5",
+          "Exodus 9:29",
+          "Exodus 9:28",
+          "Exodus 9:27",
+          "Exodus 10:1",
+          "Exodus 13:8",
+          "Exodus 13:9",
+          "Deuteronomy 6:20",
+          "Deuteronomy 6:21",
+          "Deuteronomy 6:22",
+          "Deuteronomy 6:23",
+          "Exodus 9:17",
+          "Exodus 10:12",
+          "Exodus 10:13",
+          "Exodus 10:14",
+          "Psalms 104:34",
+          "Exodus 10:15",
+          "Exodus 10:7",
+          "Exodus 10:8",
+          "Exodus 10:4",
+          "Exodus 10:6",
+          "Exodus 10:9",
+          "Exodus 10:10",
+          "Exodus 10:11",
+          "Exodus 12:37",
+          "Exodus 12:38",
+          "Psalms 104:35",
+          "Exodus 10:20",
+          "Exodus 10:18",
+          "Exodus 10:17",
+          "Exodus 10:22",
+          "Exodus 10:23",
+          "Psalms 104:28",
+          "Exodus 10:21",
+          "Wisdom of Solomon 17:2",
+          "Wisdom of Solomon 17:15",
+          "Wisdom of Solomon 17:16",
+          "Wisdom of Solomon 18:1",
+          "Exodus 10:25",
+          "Exodus 10:26",
+          "Exodus 12:31",
+          "Exodus 12:32",
+          "Exodus 10:29",
+          "Exodus 10:28"
+        ],
+        "all_actual_source_and_target_texts_read": true,
+        "all_final_input_rationales_reread_against_both_passages": true,
+        "additional_context_passages_read": [
+          "Wisdom of Solomon 16:15-20",
+          "Wisdom of Solomon 17:1-20",
+          "Wisdom of Solomon 18:1-4",
+          "Luke 11:14-22",
+          "Deuteronomy 4:32-36",
+          "Deuteronomy 28:25-29",
+          "Psalms 77:43-51",
+          "Psalms 104:28-36"
+        ],
+        "method": "Read all92 actual source units and all134 distinct target texts, including the complete relevant Wisdom darkness context. Independently assessed every184 retained connection and reread all final-input explanations against both passages after the final author hash was fixed."
+      },
+      "review_outcome": "Approved. No required rationale corrections, pair removals, source-identity errors or missing same-chapter labels found.",
+      "findings": [],
+      "required_rationale_corrections": [],
+      "required_pair_removals": [],
+      "confirmed_distinctions": [
+        "The source chapter boundary is preserved: the frog threat is in7:27-29, and Aaron's instruction and outbreak begin8:1-2. No common-edition renumbering is substituted.",
+        "The commanded and performed frog/gnat actions preserve Aaron as actor. The enchanters' reported frog success, later failure with gnats and later physical incapacity from boils are distinguished without a new explanation of sorcery.",
+        "The Tomorrow appointment, the Lord's acting as Moses said, deaths in inhabited settings and the separate river-frog exception remain distinct. The gathering and stench are not made an independently diagnosed medical event.",
+        "Gnats and dog-flies retain the supplied creature terms; no lice substitution, new species identification or new chronology from the psalm's grouping is introduced.",
+        "The enchanters' finger-of-God statement and Luke11:20's use of that expression are compared as distinct contexts. The Luke reference is not labelled an explicit Exodus quotation and does not equate demons with gnats.",
+        "Pharaoh's requests for prayer and promises of release remain speech. Subsequent refusals are not treated as fulfilled permission or the earlier confessions as proof of lasting conversion.",
+        "The Goshen, livestock and firstborn distinctions are each tied to their own warnings or narrated results; they are not made a blanket assertion that every earlier plague left every Israelite unaffected.",
+        "Moses' objection to sacrifice before Egyptians preserves the feared stoning as his stated reason, not a narrated stoning. The object of the abomination and the Egyptian cult are not independently reconstructed.",
+        "The livestock warning retains in-the-plains wording and the outcome retains all. Later livestock in the hail warning is not supplied with an invented replacement-herd or imported-survivor account.",
+        "The Egyptian-ulcer comparison in Deuteronomy is a later Egypt-linked affliction reference, not a modern diagnosis or a claim that every curse detail is narrated in the Exodus plague.",
+        "The I-will-strike death statement in9:15 remains future wording rather than a substituted could-have-struck conditional. The preserved wording of9:16 remains beside Romans' raised-you-up wording, explicitly distinguished within the later scriptural use.",
+        "The extraordinary-hail comparisons retain the warning's created-Egypt wording and narrator's nation-origin wording. No new historical weather date or independently verified meteorological maximum is claimed.",
+        "The shelter warning, attendants gathering livestock and others leaving them exposed remain distinct responses. No roster of sheltered people, death count or universal statement about every attendant's belief is invented.",
+        "The broad vegetation damage is read with the explicit flax/barley versus wheat/spelt qualification. Later locust consumption concerns hail-spared vegetation without a new list of every survivor or a fixed harvest month.",
+        "The psalms' hail/fire and named plants remain their own poetic descriptions. Wisdom16:16-19 is attributed as later theological reflection on the extraordinary fire-and-water combination rather than an independent scientific mechanism.",
+        "God's sending thunder and hail, Moses' stretched hand and prayer, and the stated lists of ceased elements are distinguished. The later cessation notice is not made a separately enumerated repetition of every earlier fire/thunder/rain item.",
+        "Moses' statement that Pharaoh and attendants have not yet feared the Lord remains his spoken assessment and does not erase the narrator's earlier attendant who feared the word and sheltered livestock.",
+        "Explicit divine hardening, Pharaoh's making hearts heavy, passive hardening notices and agency-unspecified became-heavy clauses retain their different wording and attribution. Romans is a later theological interpretation, not a new resolution of every agency expression.",
+        "The command to transmit the signs to descendants is compared with later household teaching that expressly recounts Egyptian slavery, signs and deliverance; the links are particular to that narrative memory.",
+        "The attendants' destruction warning, Pharaoh's party-size question, men-only restriction and later household-but-no-livestock offer remain separate speech stages. His Lord-be-with-you wording is not made the narrator's statement of conversion.",
+        "The locust arrival retains the Lord's south wind and raised staff, beside the command's hand-over-land wording. Removal retains the strong wind from the sea and Red Sea destination; no east/west replacement is imposed.",
+        "The narrative's before-and-after unprecedented-locust claim and the psalm's innumerable larvae remain supplied forms without a modern population maximum or an added larval stage in Exodus.",
+        "Pharaoh's request to remove this death is his description of the affliction, not a report that Pharaoh is already dead. No unquoted prayer formula is inserted.",
+        "The source darkness includes gloom, a tempest, three days and inability to rise from bed; Israel has light everywhere it lives. These details remain beside Wisdom's later roofs, farmers, shepherds, wilderness workers and figurative imprisonment rather than being silently merged.",
+        "Wisdom18:1 supplies an explicit contrast of light for holy ones and others unable to see their forms, supporting the later light/darkness reflection without importing every Wisdom episode into the Exodus narrator.",
+        "The psalm's provoked-His-words clause is not assigned a newly chosen antecedent. Moses' demand that Pharaoh give offerings remains its supplied wording, not an unreported provision arrangement; the later livestock departure is not claimed to list each offering Pharaoh furnished.",
+        "The threatened face-to-face ban, Moses' response and later summons remain distinct statements. The links do not invent another court visit, an execution, or an independently resolved physical arrangement for every later scene."
+      ],
+      "unresolved_retained_relationships": [],
+      "unresolved_cases": [],
+      "validation": {
+        "all_actual_source_units_covered": true,
+        "all_target_units_present_and_read": true,
+        "all_same_chapter_relationships_explicitly_labelled": true,
+        "duplicate_pairs": 0,
+        "self_containing_target_ranges": 0,
+        "all_used_books_within_saints70": true
+      },
+      "completion_credit": 0,
+      "repository_or_tsv_edited": false,
+      "limits": "AI-assisted English-passage peer QA only. No new original-language/apparatus verification, independent human-specialist approval or exhaustive cross-reference-discovery claim.",
+      "final_correction_verification": {
+        "reviewer": "Codex root (AI-assisted editorial integration)",
+        "reviewed": "2026-10-29",
+        "checked_at_utc": "2026-10-29T13:12:54.525109+00:00",
+        "final_input_sha256": "8771e9fc6e147a0f309c3b820984a0b0aa42b001b3f70be0d37ceb675e065042",
+        "applied_corrections": [],
+        "new_pairs_credited": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root (independent AI-assisted English-passage QA)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T12:57:24.089601+00:00",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "exodus-11-12.tsv",
+      "input_sha256": "4d2c6427801600ada262595e1e1d69823dbc5e4f6686ad52f09fa09bbff6f63d",
+      "source_verses_read": 61,
+      "pairs_reviewed": 126,
+      "distinct_target_verse_units_read": 130,
+      "decision": "approved; no actionable semantic findings",
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "findings": [],
+      "completion_credit": 0,
+      "read_scope": "Read all actual Exodus 11-12 source units and every rationale. All 130 target verse texts were read: targets within Exodus 11-14 in the complete source/context passages, and 92 other target units printed separately. The output section spanning Exodus 12:28-41 was reread separately after display truncation. Additional John 19:31-37, Luke 22:7-14 and Numbers 9:6-14 context was read.",
+      "confirmed_distinctions": [
+        "Egyptian favour, lending and Moses' standing preserve the source's own stated audience, not a new claim that Pharaoh abandoned resistance.",
+        "The female-slave-at-the-mill warning and captive-woman-in-the-pit outcome retain their different descriptions.",
+        "The Lord's action and the destroyer's prevented entry are distinguished; Hebrews is a later faith interpretation.",
+        "The source has bone prohibition in both 12:10 and12:46. John's Scripture citation is linked without declaring this its sole possible Old Testament background.",
+        "Deuteronomy16:7 says boil and roast while Exodus12:9 excludes water boiling; no independent lexical harmonization is claimed.",
+        "The second-month Numbers9 meal is distinguished from the original Egyptian Passover and second-year Sinai instructions.",
+        "The later Christian Passover/leaven and unblemished-lamb imagery are explicit later applications, not inserted into Exodus's literal ritual instructions.",
+        "The roughly600000 departure group and603550 later military enrolment are not declared identical censuses. The400/430-year statements retain their own scopes, including Canaan in Exodus12:40.",
+        "Foreigner, sojourner, hired worker, purchased slave and circumcised resident conditions remain distinct rather than being flattened into one eligibility category."
+      ],
+      "remaining_review": [
+        "Independent human specialist review",
+        "Original-language and critical-apparatus comparison",
+        "Live destination-anchor and display verification"
+      ],
+      "final_correction_verification": {
+        "reviewer": "Codex root (AI-assisted editorial integration)",
+        "reviewed": "2026-10-29",
+        "checked_at_utc": "2026-10-29T13:12:54.527073+00:00",
+        "final_input_sha256": "4d2c6427801600ada262595e1e1d69823dbc5e4f6686ad52f09fa09bbff6f63d",
+        "applied_corrections": [],
+        "new_pairs_credited": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex independent peer agent (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T13:07:30.886077+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Luke",
+          "records": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "input_file": "exodus-13-14.tsv",
+      "input_sha256": "a6b57ca46a9935456588d25d36ca4a21176ceb82f9ece7f5d7b2676cda1e378b",
+      "author_receipt": "exodus-13-14-review.json",
+      "author_receipt_sha256": "7ffd56478f740cd3ba83004eb2e0cf2fc86f171285f8f297d2733209221726c2",
+      "read_counts": {
+        "actual_source_units": 53,
+        "distinct_target_verse_units": 120,
+        "pair_rationales": 107,
+        "distinct_source_or_target_units": 142,
+        "additional_context_units": 25
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_rationales_read": true,
+      "additional_context_passages_read": [
+        "Luke 2:21-24",
+        "Exodus 5:15-21",
+        "Psalms 105:7-13",
+        "1 Corinthians 10:1-5",
+        "Numbers 18:1",
+        "Numbers 18:8",
+        "Numbers 18:14-19",
+        "Joshua 24:1-7"
+      ],
+      "method": "Independently read every actual source verse, all 120 retained target verse texts, all 107 rationale and necessary law, memorial, complaint, presentation, journey, sea, song and apostolic context. Check particular correspondence, reported speech and narration, source wording, eligibility and valuation statements, time/count differences, place names, agency and later interpretive labels. Verify final TSV hash, all source-unit coverage, target resolution, pinned identities for all ten books, canon membership, exact Same-chapter labels and absence of duplicate/self-containing pairs.",
+      "outcome": "approved",
+      "approved_pairs": 107,
+      "required_corrections": [],
+      "required_removals": [],
+      "editorial_findings": [
+        {
+          "reference": "Exodus 13:2,12-15 / Luke 2:21-24 / Numbers 8:16-18 / Numbers 18:14-19 / Exodus 34:19-20",
+          "finding": "The later Lord-law citation and consecration/redemption rules actually concern womb-opening firstborn. The current donkey exchange and redeem alternative and the later animal-value wording remain supplied, without importing neck breaking. The Numbers priestly allocation context distinguishes presentation, redemption and holy livestock; no new unquoted monetary detail is placed in Exodus13."
+        },
+        {
+          "reference": "Exodus 13:3-16",
+          "finding": "The new-grain month, six days at13:6, seven days at13:7 and the related Deuteronomy/Leviticus provisions remain distinct. Memorials, child teaching and hand/eyes reminders are compared on their actual repeated features without changing the firstborn or unleavened contexts into an identical legal paragraph."
+        },
+        {
+          "reference": "Exodus 13:17-20 / Genesis 15:16 / Numbers 33:3,5-8",
+          "finding": "The route rationale and later fear/return-to-Egypt examples are qualified as different crises. Fifth generation is retained alongside the earlier fourth-generation land-return promise without a specialist reconciliation. Etham, Bouthan, settlement, Eiroth, Migdol and Baal-zephon forms remain visible; no independent site equivalence or modern border map is asserted. The Joseph-bones instruction has directly read earlier oath and later burial evidence."
+        },
+        {
+          "reference": "Exodus 13:21-22 / Exodus 14:19-20 / Numbers 9:15-17 / Exodus 40:36-38",
+          "finding": "Cloud/fire guidance and continued accompaniment are grounded in the actual passages. The angel-of-God and pillar movements retain their stated agency and positions. The dark barrier at14:20 is not silently supplemented with another edition's one-sided lighting clause; Psalm104:39's actual night-light statement remains in its own context."
+        },
+        {
+          "reference": "Exodus 14:3-12 / Exodus 5:15-21 / Numbers 14:2-4",
+          "finding": "Pharaoh's anticipated interpretation, later regret and pursuit, and Israel's fear/preference are attributed to their speakers. The earlier Israelite officials' actual complaint is not treated as a verbatim source for the later leave-us report. The war and return parallels do not turn all episodes or generations into one identical crisis."
+        },
+        {
+          "reference": "Exodus 14:13-18,24-28",
+          "finding": "Moses' salvation/combat assurances and the announced pursuit are tied to particular narrative outcomes. The Egyptians later themselves say the Lord fights for Israel. The Lord's intervention, Moses' commanded hand action, confused force, bound axles and returning waters are preserved without a new physical mechanism or removed-wheels substitution."
+        },
+        {
+          "reference": "Exodus 14:20-29 / Exodus 15:1,4-5,8-10,19 / Joshua 24:1-7 / Psalms 105:7-13",
+          "finding": "The source explicitly has darkness and gloom, a violent south wind and water walls. The later song, Joshua-address history and Psalm recollection contain actual cloud, darkness, sea-drying, covering, rescue and praise correspondences. Poetic wind language is not used to overwrite the south direction, and no independent claim about Pharaoh's personal death is made beyond the stated entering force."
+        },
+        {
+          "reference": "Exodus 13:21 / Exodus 14:13,22-23,29 / 1 Corinthians 10:1-5 / Hebrews 11:29",
+          "finding": "Paul's baptism-into-Moses interpretation and Hebrews' faith/crossing interpretation are expressly later theological readings of the identified cloud/sea event. They are not inserted as a literal baptism ritual in Exodus, nor made into an unsupported assertion that every later member remained faithful."
+        },
+        {
+          "reference": "Exodus 14:30-31 / Psalms 105:9-13",
+          "finding": "The narrated rescue and belief correspond to the Psalm's rescue, belief and praise sequence. The Psalm's following forgetfulness was also read; no permanent-perfect-faith conclusion is added to the initial response. Moses remains the supplied attendant rather than an independently elevated divine identity."
+        },
+        {
+          "reference": "All 107 retained pairs",
+          "finding": "Each retained rationale names a specific legal, memorial, narrative, quoted or explicitly interpretive connection. Intrachapter links concern repeated formulas, commands and outcomes, particular actors, locations, physical actions or narrated transitions. No link requires removal for unread evidence or a forced specific allusion."
+        }
+      ],
+      "validation": {
+        "source_coverage": 53,
+        "retained_pairs": 107,
+        "distinct_target_units": 120,
+        "missing_retained_targets": 0,
+        "duplicate_pairs": 0,
+        "self_containing_targets": 0,
+        "source_identities": "all ten match pinned source checks",
+        "saints70_membership": "passed",
+        "same_chapter_prefixes": "all correct",
+        "author_target_hashes": "not supplied separately; actual retained texts read against pinned source identities"
+      },
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "qa_completed_pairs": 0,
+      "limits": [
+        "Peer review creates zero new completed pairs",
+        "No author TSV or repository edits",
+        "No human or original-language/apparatus specialist verification claimed",
+        "No excluded unread Revelation gap resolved by this audit"
+      ],
+      "final_correction_verification": {
+        "reviewer": "Codex root (AI-assisted editorial integration)",
+        "reviewed": "2026-10-29",
+        "checked_at_utc": "2026-10-29T13:12:54.529071+00:00",
+        "final_input_sha256": "a6b57ca46a9935456588d25d36ca4a21176ceb82f9ece7f5d7b2676cda1e378b",
+        "applied_corrections": [],
+        "new_pairs_credited": 0
+      }
+    }
+  ],
+  "applied_peer_corrections": [],
+  "unresolved_candidates": [],
+  "known_pending_target_candidates": [
+    {
+      "source_reference": "Genesis 49:9",
+      "target": "Revelation 5:5",
+      "reason": "Saints70 retains this canonical book, but its exact target text is not present in the pinned Saints-Translation records. Missing source identity/content must be supplied before review.",
+      "status": "pending pinned target evidence"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "source_reference": "Exodus 5:3",
+      "candidate_target": "Exodus 4:23",
+      "reason": "Did not equate the warning of death or slaughter meeting us in the petition with the earlier warning to kill Pharaoh's firstborn; the targets retain the actual three-day request instead."
+    },
+    {
+      "source_reference": "Exodus 6:3",
+      "candidate": "An Almighty title or an independently harmonized divine-name history",
+      "reason": "The supplied English title and name-disclosure statements are retained without another edition's replacement."
+    },
+    {
+      "source_reference": "Exodus 6:20",
+      "candidate": "A reconstructed genealogy making the stated wife an aunt rather than the father's brother's daughter",
+      "reason": "Both actual ancestry records are read and their distinct wording remains."
+    },
+    {
+      "source_reference": "Exodus 6:24",
+      "candidate": "Flattened sibling/descent-chain identities",
+      "reason": "The parallel records have different supplied structures; no new resolved identity table is credited."
+    },
+    {
+      "source_reference": "Exodus 7:11",
+      "candidate": "Assigning Jannes and Jambres as independently established identities of every unnamed Egyptian practitioner",
+      "reason": "The letter is retained only as its own later allusion and comparison."
+    },
+    {
+      "source_reference": "Exodus 7:20",
+      "candidate": "An independently resolved singular he or human/divine agency conflation",
+      "reason": "The actual pronoun and each instruction/narration layer are preserved; the retained relationships do not depend on resolving the singular actor."
+    },
+    {
+      "source_reference": "Exodus 7:25",
+      "candidate": "Declaring a separately stated end of the blood condition after seven days",
+      "reason": "The verse gives elapsed time after the strike, not that additional ending statement."
+    },
+    {
+      "source_reference": "Exodus 8:14",
+      "target": "Wisdom of Solomon 17:7-8",
+      "reason": "Not retained as a direct recollection of the gnat failure: the read Wisdom critique occurs in darkness/fear context, while more particular practitioner comparisons exist in the Exodus narrative."
+    },
+    {
+      "source_reference": "Exodus 9:6",
+      "target": "Exodus 9:19",
+      "reason": "Not retained as proof of a specific repopulation/import/survivor explanation for the later livestock warning; the supplied passages do not independently establish that reconstruction."
+    },
+    {
+      "source_reference": "Exodus 10:29",
+      "target": "Exodus 12:31",
+      "reason": "Not retained as proof that Moses personally appeared and broke his reply: the later verse reports a summons and words, without independently specifying the physical arrangement. The changed royal command is retained only under10:28."
+    },
+    {
+      "source_reference": "Exodus 12:22",
+      "target": "John 19:29 as an explicit Passover-hyssop quotation",
+      "reason": "The full John context was read. The shared hyssop detail alone was not counted as proof of an explicit Passover quotation; the separately explicit bone-preservation citation was retained with appropriate limits."
+    },
+    {
+      "source_reference": "Exodus 12:12,23",
+      "target": "A newly resolved identity equation of the Lord, destroyer and an angel",
+      "reason": "The actual source speeches and narration are retained without independently identifying every agent as one person."
+    },
+    {
+      "source_reference": "Exodus 12:40",
+      "target": "An independently proven identical 430/400-year calculation",
+      "reason": "The actual passages name different figures and chronological scopes; a new specialist chronological reconciliation was not counted."
+    },
+    {
+      "source_reference": "Exodus 13:13",
+      "proposed_claim": "A donkey-neck-breaking instruction in this verse",
+      "reason": "The declared edition says exchange for a sheep and, if not exchanged, redeem it. No familiar alternative is supplied."
+    },
+    {
+      "source_reference": "Exodus 14:20",
+      "proposed_claim": "Light for one camp explicitly contrasted with darkness for the other in this verse",
+      "reason": "The supplied unit describes darkness, gloom and separation. A different lighting clause is not inserted."
+    },
+    {
+      "source_reference": "Exodus 14:28",
+      "proposed_claim": "Independent determination of Pharaoh's personal death",
+      "reason": "The retained links concern the force that entered the sea; no separate historical conclusion is inferred from the listed participants."
+    }
+  ],
+  "remaining_checks": [
+    "Independent human specialist review",
+    "Original-language and critical-apparatus comparison",
+    "Live destination-anchor and display verification"
+  ],
+  "book": "Exodus",
+  "overall_review_record": "../../review-batches/2026-10-29T123710Z.json"
+}

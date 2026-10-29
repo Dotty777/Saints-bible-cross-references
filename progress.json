@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T12:16:10.763113+00:00",
+  "updated_at_utc": "2026-10-29T13:12:55.085544+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 1,
   "pending_book_records": 42,
-  "completed_chapters": 54,
-  "completed_source_verses": 1631,
-  "completed_cross_references": 3547,
+  "completed_chapters": 64,
+  "completed_source_verses": 1919,
+  "completed_cross_references": 4118,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
     "book": "Exodus",
-    "chapter": 5,
-    "reference": "Exodus 5:1",
-    "source_id": "v5-1"
+    "chapter": 15,
+    "reference": "Exodus 15:1",
+    "source_id": "v15-1"
   },
   "books": [
     {
@@ -152,8 +152,8 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 100,
-      "completed_cross_references": 206,
+      "completed_source_verses": 388,
+      "completed_cross_references": 777,
       "order": 2,
       "division": "Law",
       "division_slug": "law",
@@ -165,14 +165,34 @@
         1,
         2,
         3,
-        4
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
-      "next_reference": "Exodus 5:1",
+      "next_reference": "Exodus 15:1",
       "completed_verse_ranges": [
         "Exodus 1:1-22",
         "Exodus 2:1-25",
         "Exodus 3:1-22",
-        "Exodus 4:1-31"
+        "Exodus 4:1-31",
+        "Exodus 5:1-23",
+        "Exodus 6:1-30",
+        "Exodus 7:1-29",
+        "Exodus 8:1-28",
+        "Exodus 9:1-35",
+        "Exodus 10:1-29",
+        "Exodus 11:1-10",
+        "Exodus 12:1-51",
+        "Exodus 13:1-22",
+        "Exodus 14:1-31"
       ]
     },
     {
@@ -974,6 +994,44 @@
       "unresolved_candidate_count": 1,
       "review_record": "review-batches/2026-10-29T113940Z.json",
       "next_reference": "Exodus 5:1"
+    },
+    {
+      "run_id": "2026-10-29T123710Z",
+      "date": "2026-10-29",
+      "source_range": "Exodus 5:1-14:31",
+      "distinct_source_verses": 288,
+      "new_completed_pairs": 571,
+      "book_results": [
+        {
+          "book": "Exodus",
+          "source_range": "Exodus 5:1-14:31",
+          "distinct_source_verses": 288,
+          "new_completed_pairs": 571,
+          "completed_chapters": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "Exodus 15:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 71,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 0,
+      "known_pending_target_candidate_count": 1,
+      "review_record": "review-batches/2026-10-29T123710Z.json",
+      "next_reference": "Exodus 15:1"
     }
   ],
   "canon_manifest": "canon.json",
