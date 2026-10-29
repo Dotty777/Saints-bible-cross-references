@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T15:19:56.800504+00:00",
+  "updated_at_utc": "2026-10-29T16:12:38.818192+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -9,18 +9,18 @@
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "target_per_hour": 500,
   "target_unit": "distinct completed source-verse/target-passage pairs",
-  "completed_book_records": 1,
-  "pending_book_records": 42,
-  "completed_chapters": 84,
-  "completed_source_verses": 2523,
-  "completed_cross_references": 5285,
+  "completed_book_records": 2,
+  "pending_book_records": 41,
+  "completed_chapters": 95,
+  "completed_source_verses": 2807,
+  "completed_cross_references": 5808,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
-    "book": "Exodus",
-    "chapter": 35,
-    "reference": "Exodus 35:1",
-    "source_id": "v35-1"
+    "book": "Leviticus",
+    "chapter": 6,
+    "reference": "Leviticus 6:1",
+    "source_id": "v6-1"
   },
   "books": [
     {
@@ -150,10 +150,10 @@
       "records": "exodus/",
       "source_records": "exodus/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "in progress",
+      "status": "completed",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 992,
-      "completed_cross_references": 1944,
+      "completed_source_verses": 1165,
+      "completed_cross_references": 2259,
       "order": 2,
       "division": "Law",
       "division_slug": "law",
@@ -195,9 +195,15 @@
         31,
         32,
         33,
-        34
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ],
-      "next_reference": "Exodus 35:1",
+      "next_reference": null,
       "completed_verse_ranges": [
         "Exodus 1:1-22",
         "Exodus 2:1-25",
@@ -232,7 +238,13 @@
         "Exodus 31:1-18",
         "Exodus 32:1-35",
         "Exodus 33:1-23",
-        "Exodus 34:1-35"
+        "Exodus 34:1-35",
+        "Exodus 35:1-35",
+        "Exodus 36:1-38",
+        "Exodus 37:1-21",
+        "Exodus 38:1-27",
+        "Exodus 39:1-23",
+        "Exodus 40:1-38"
       ]
     },
     {
@@ -240,15 +252,32 @@
       "records": "leviticus/",
       "source_records": "leviticus/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
-      "inventory_status": "not yet inventoried",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "status": "in progress",
+      "inventory_status": "complete for pinned source",
+      "completed_source_verses": 111,
+      "completed_cross_references": 208,
       "order": 3,
       "division": "Law",
       "division_slug": "law",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/law/leviticus/"
+      "source_staging_path": "/bible/law/leviticus/",
+      "total_source_verse_units": 859,
+      "total_chapters": 27,
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "next_reference": "Leviticus 6:1",
+      "completed_verse_ranges": [
+        "Leviticus 1:1-17",
+        "Leviticus 2:1-16",
+        "Leviticus 3:1-17",
+        "Leviticus 4:1-35",
+        "Leviticus 5:1-26"
+      ]
     },
     {
       "book": "Numbers",
@@ -1148,6 +1177,55 @@
       "known_pending_target_candidate_count": 2,
       "review_record": "review-batches/2026-10-29T144512Z.json",
       "next_reference": "Exodus 35:1"
+    },
+    {
+      "run_id": "2026-10-29T154713Z",
+      "date": "2026-10-29",
+      "source_range": "Exodus 35:1-40:38; Leviticus 1:1-5:26",
+      "distinct_source_verses": 284,
+      "new_completed_pairs": 523,
+      "book_results": [
+        {
+          "book": "Exodus",
+          "source_range": "Exodus 35:1-40:38",
+          "distinct_source_verses": 173,
+          "new_completed_pairs": 315,
+          "completed_chapters": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "book_initial_curated_pass_complete": true,
+          "next_reference": null
+        },
+        {
+          "book": "Leviticus",
+          "source_range": "Leviticus 1:1-5:26",
+          "distinct_source_verses": 111,
+          "new_completed_pairs": 208,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "Leviticus 6:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 23,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 0,
+      "known_pending_target_candidate_count": 2,
+      "review_record": "review-batches/2026-10-29T154713Z.json",
+      "next_reference": "Leviticus 6:1"
     }
   ],
   "canon_manifest": "canon.json",

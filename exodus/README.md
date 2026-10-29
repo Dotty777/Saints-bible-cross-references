@@ -1,6 +1,6 @@
 # Exodus — Saints Bible cross-references
 
-Exodus has **992 completed source verses and 1944 distinct source/target-passage pairs**. Latest completed unit: **Exodus 34:35**. Fully completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34. Next: Exodus 35:1. Later source verses remain pending.
+Exodus 1–40 is complete at the initial curated cross-reference stage: **1165 source verses and 2259 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: Leviticus 6:1.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,7 +19,7 @@ The declared source is the [pinned Saints-Translation Exodus record](https://git
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and start at **Exodus 35:1**. Review source verses in the edition's order. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **Leviticus 6:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
@@ -31,3 +31,4 @@ Pending target evidence: 1 candidate(s), excluded from completed counts. See [so
 - [2026-10-29T123710Z](review-batches/2026-10-29T123710Z.json): 571 newly completed pairs across 288 source verses.
 - [2026-10-29T134142Z](review-batches/2026-10-29T134142Z.json): 550 newly completed pairs across 275 source verses.
 - [2026-10-29T144512Z](review-batches/2026-10-29T144512Z.json): 617 newly completed pairs across 329 source verses.
+- [2026-10-29T154713Z](review-batches/2026-10-29T154713Z.json): 315 newly completed pairs across 173 source verses.
