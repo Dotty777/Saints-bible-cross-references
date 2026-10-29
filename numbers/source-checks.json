@@ -34,6 +34,13 @@
       "new_source_verses": 351,
       "new_pairs": 520,
       "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-29T204846Z",
+      "records": "review-batches/2026-10-29T204846Z.json",
+      "new_source_verses": 517,
+      "new_pairs": 606,
+      "unresolved_retained_cases": 0
     }
   ],
   "canon_manifest": "../canon.json",
@@ -80,6 +87,13 @@
       "path": "2-kings/verses.json",
       "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-peter/verses.json",
+      "blob_sha": "4f2eb3a0b1cf30ce38641beba7e29ef2747f24e1",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-peter/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -154,6 +168,13 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "hosea/verses.json",
+      "blob_sha": "c7b17f6519ad7ae6908d75a6d4230b02fbf7f278",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hosea/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "john/verses.json",
       "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json"
@@ -206,6 +227,13 @@
       "path": "matthew/verses.json",
       "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "micah/verses.json",
+      "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/micah/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -347,21 +375,134 @@
           "text_sha256": "bc20b5af87860716e774f6027c76517e5f784201078278ae0f94004177739207"
         }
       ]
+    },
+    {
+      "source_reference": "Numbers 24:24",
+      "target": "Daniel 11:30",
+      "status": "pending historical/name equivalence; not retained",
+      "reason": "The actual Numbers text names Kitians, while Daniel’s actual record names Romans. Both passages were read but no equivalence or shared unique event was independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 24:24",
+        "id": "v24-24",
+        "text": "And one shall come forth from the hand of the Kitians, and they shall afflict Asshur and the Hebrews; they themselves shall perish together.",
+        "text_sha256": "37cd9c3d4d4a05a6c7ed0b8b050e6bb505a93b0a1e3df7d391042a66c2ade60f"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "daniel/verses.json",
+        "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Daniel 11:30",
+          "id": "v11-30",
+          "text": "Romans will come, drive him out, and rebuke him. He will return, become angry against the holy covenant, act, and return. He will consider them because they abandoned the holy covenant.",
+          "text_sha256": "0c1afa31bd9b3adae16b035b39db213560d12b2a2c0e2d4d058455ecf5edc4fc"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 25:6",
+      "target": "Numbers 25:14",
+      "status": "pending male-referent identification; not retained as an identity pair",
+      "reason": "The arrival verse mentions a man and his brother; the later name identifies the slain Israelite man as Zimri without independently resolving which of those two males is intended. The retained episode-response relation makes no such identification.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 25:6",
+        "id": "v25-6",
+        "text": "And an Israelite man came and brought his brother to the Midianite woman before Moses and the whole congregation of the sons of Israel, while they were weeping at the entrance of the Tent of Testimony.",
+        "text_sha256": "f89c827c9a56e2074287bd66eb99e955e3c00732bb472ed9a19bad950322e1b7"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 25:14",
+          "id": "v25-14",
+          "text": "The name of the Israelite man struck down with the Midianite woman was Zimri son of Salu, a ruler of an ancestral house of Simeon.",
+          "text_sha256": "f71932deed34969f4304bf81e73a35bf273516ab33fb25bcec805f63967d76a4"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 25:15",
+      "target": "Numbers 31:8",
+      "status": "pending Zur identity; not retained",
+      "reason": "The passages name Cozbi’s ruler father Zur and a Midianite king Zur respectively. Both actual passages were read, but shared name and region alone do not receive independent identity approval.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 25:15",
+        "id": "v25-15",
+        "text": "And the name of the Midianite woman who was struck down was Cozbi daughter of Zur, a ruler of the nation of Ommoth, an ancestral house of Midian.",
+        "text_sha256": "dbcf1dfd01f0c4a69da7698cdc267b48f2932c2e95ea00d8cc17b1290a95a678"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 31:8",
+          "id": "v31-8",
+          "text": "And they killed the kings of Midian together with their slain: Evi, Zur, Rekem, Hur, and Robok, the five kings of Midian. They also killed Balaam son of Beor with the sword together with their slain.",
+          "text_sha256": "8deee0a9f17a242ca56e35229630be97b9110c9c6408a77721d347b421065fda"
+        }
+      ]
     }
   ],
   "checked_scope": {
-    "source_passage": "Numbers 1:1-21:35",
-    "source_verse_units": 770,
-    "retained_pairs": 1247,
-    "distinct_target_verse_units": 1228
+    "source_passage": "Numbers 1:1-36:13",
+    "source_verse_units": 1287,
+    "retained_pairs": 1853,
+    "distinct_target_verse_units": 1738
   },
   "pending": [
-    "Numbers 22-36 cross-reference pass",
     "Remaining Old Testament book inventories and review",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Target evidence pending: Numbers 10:29 / Judges 4:11",
     "Target evidence pending: Numbers 12:1 / Exodus 2:21",
-    "Target evidence pending: Numbers 13:22 / Joshua 15:14"
+    "Target evidence pending: Numbers 13:22 / Joshua 15:14",
+    "Target evidence pending: Numbers 24:24 / Daniel 11:30",
+    "Target evidence pending: Numbers 25:6 / Numbers 25:14",
+    "Target evidence pending: Numbers 25:15 / Numbers 31:8"
   ]
 }

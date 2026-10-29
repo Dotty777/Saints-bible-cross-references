@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T20:04:23.582465+00:00",
+  "updated_at_utc": "2026-10-29T21:14:14.270679+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -9,18 +9,18 @@
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "target_per_hour": 500,
   "target_unit": "distinct completed source-verse/target-passage pairs",
-  "completed_book_records": 3,
-  "pending_book_records": 40,
-  "completed_chapters": 138,
-  "completed_source_verses": 4325,
-  "completed_cross_references": 8208,
+  "completed_book_records": 4,
+  "pending_book_records": 39,
+  "completed_chapters": 153,
+  "completed_source_verses": 4842,
+  "completed_cross_references": 8814,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
-    "book": "Numbers",
-    "chapter": 22,
-    "reference": "Numbers 22:1",
-    "source_id": "v22-1"
+    "book": "Deuteronomy",
+    "chapter": 1,
+    "reference": "Deuteronomy 1:1",
+    "source_id": "v1-1"
   },
   "books": [
     {
@@ -328,10 +328,10 @@
       "records": "numbers/",
       "source_records": "numbers/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "in progress",
+      "status": "completed",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 770,
-      "completed_cross_references": 1247,
+      "completed_source_verses": 1287,
+      "completed_cross_references": 1853,
       "order": 4,
       "division": "Law",
       "division_slug": "law",
@@ -360,9 +360,24 @@
         18,
         19,
         20,
-        21
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
       ],
-      "next_reference": "Numbers 22:1",
+      "next_reference": null,
       "completed_verse_ranges": [
         "Numbers 1:1-54",
         "Numbers 2:1-34",
@@ -384,7 +399,22 @@
         "Numbers 18:1-32",
         "Numbers 19:1-22",
         "Numbers 20:1-29",
-        "Numbers 21:1-35"
+        "Numbers 21:1-35",
+        "Numbers 22:1-41",
+        "Numbers 23:1-30",
+        "Numbers 24:1-25",
+        "Numbers 25:1-18",
+        "Numbers 26:1-65",
+        "Numbers 27:1-23",
+        "Numbers 28:1-31",
+        "Numbers 29:1-39",
+        "Numbers 30:1-17",
+        "Numbers 31:1-54",
+        "Numbers 32:1-42",
+        "Numbers 33:1-56",
+        "Numbers 34:1-29",
+        "Numbers 35:1-34",
+        "Numbers 36:1-13"
       ]
     },
     {
@@ -393,14 +423,19 @@
       "source_records": "deuteronomy/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
       "status": "pending",
-      "inventory_status": "not yet inventoried",
+      "inventory_status": "complete for pinned source",
       "completed_source_verses": 0,
       "completed_cross_references": 0,
       "order": 5,
       "division": "Law",
       "division_slug": "law",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/law/deuteronomy/"
+      "source_staging_path": "/bible/law/deuteronomy/",
+      "total_source_verse_units": 959,
+      "total_chapters": 34,
+      "completed_chapters": [],
+      "completed_verse_ranges": [],
+      "next_reference": "Deuteronomy 1:1"
     },
     {
       "book": "Joshua",
@@ -1484,6 +1519,59 @@
       "known_pending_target_candidate_count": 5,
       "review_record": "review-batches/2026-10-29T194416Z.json",
       "next_reference": "Numbers 22:1"
+    },
+    {
+      "run_id": "2026-10-29T204846Z",
+      "date": "2026-10-29",
+      "source_range": "Numbers 22:1-36:13",
+      "distinct_source_verses": 517,
+      "new_completed_pairs": 606,
+      "book_results": [
+        {
+          "book": "Numbers",
+          "source_range": "Numbers 22:1-36:13",
+          "distinct_source_verses": 517,
+          "new_completed_pairs": 606,
+          "completed_chapters": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "book_initial_curated_pass_complete": true,
+          "next_reference": null
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 106,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 3,
+      "known_pending_target_candidate_count": 8,
+      "review_record": "review-batches/2026-10-29T204846Z.json",
+      "next_reference": "Deuteronomy 1:1",
+      "inventories_added": [
+        {
+          "book": "Deuteronomy",
+          "source_units": 959,
+          "chapters": 34,
+          "record": "deuteronomy/inventory.json",
+          "completed_source_verses": 0,
+          "completed_pairs": 0
+        }
+      ]
     }
   ],
   "canon_manifest": "canon.json",
