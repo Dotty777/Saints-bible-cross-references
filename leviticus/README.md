@@ -1,6 +1,6 @@
 # Leviticus — Saints Bible cross-references
 
-Leviticus has **490 completed source verses and 783 distinct source/target-passage pairs**. Latest completed unit: **Leviticus 16:34**. Fully completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Next: Leviticus 17:1. Later source verses remain pending.
+Leviticus 1–27 is complete at the initial curated cross-reference stage: **859 source verses and 1361 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: Numbers 1:1.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,7 +19,7 @@ The declared source is the [pinned Saints-Translation Leviticus record](https://
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and start at **Leviticus 17:1**. Review source verses in the edition's order. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **Numbers 1:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
@@ -27,3 +27,4 @@ Same-chapter relationships are labelled explicitly. This is an initial curated p
 
 - [2026-10-29T154713Z](review-batches/2026-10-29T154713Z.json): 208 newly completed pairs across 111 source verses.
 - [2026-10-29T164514Z](review-batches/2026-10-29T164514Z.json): 575 newly completed pairs across 379 source verses.
+- [2026-10-29T174214Z](review-batches/2026-10-29T174214Z.json): 578 newly completed pairs across 369 source verses.

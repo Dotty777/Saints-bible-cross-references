@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T17:09:38.064221+00:00",
+  "updated_at_utc": "2026-10-29T18:05:11.622058+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -9,18 +9,18 @@
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "target_per_hour": 500,
   "target_unit": "distinct completed source-verse/target-passage pairs",
-  "completed_book_records": 2,
-  "pending_book_records": 41,
-  "completed_chapters": 106,
-  "completed_source_verses": 3186,
-  "completed_cross_references": 6383,
+  "completed_book_records": 3,
+  "pending_book_records": 40,
+  "completed_chapters": 117,
+  "completed_source_verses": 3555,
+  "completed_cross_references": 6961,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
-    "book": "Leviticus",
-    "chapter": 17,
-    "reference": "Leviticus 17:1",
-    "source_id": "v17-1"
+    "book": "Numbers",
+    "chapter": 1,
+    "reference": "Numbers 1:1",
+    "source_id": "v1-1"
   },
   "books": [
     {
@@ -252,10 +252,10 @@
       "records": "leviticus/",
       "source_records": "leviticus/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "in progress",
+      "status": "completed",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 490,
-      "completed_cross_references": 783,
+      "completed_source_verses": 859,
+      "completed_cross_references": 1361,
       "order": 3,
       "division": "Law",
       "division_slug": "law",
@@ -279,9 +279,20 @@
         13,
         14,
         15,
-        16
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
       ],
-      "next_reference": "Leviticus 17:1",
+      "next_reference": null,
       "completed_verse_ranges": [
         "Leviticus 1:1-17",
         "Leviticus 2:1-16",
@@ -298,7 +309,18 @@
         "Leviticus 13:1-59",
         "Leviticus 14:1-57",
         "Leviticus 15:1-33",
-        "Leviticus 16:1-34"
+        "Leviticus 16:1-34",
+        "Leviticus 17:1-16",
+        "Leviticus 18:1-30",
+        "Leviticus 19:1-37",
+        "Leviticus 20:1-27",
+        "Leviticus 21:1-24",
+        "Leviticus 22:1-33",
+        "Leviticus 23:1-44",
+        "Leviticus 24:1-23",
+        "Leviticus 25:1-55",
+        "Leviticus 26:1-46",
+        "Leviticus 27:1-34"
       ]
     },
     {
@@ -307,14 +329,19 @@
       "source_records": "numbers/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
       "status": "pending",
-      "inventory_status": "not yet inventoried",
+      "inventory_status": "complete for pinned source",
       "completed_source_verses": 0,
       "completed_cross_references": 0,
       "order": 4,
       "division": "Law",
       "division_slug": "law",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/law/numbers/"
+      "source_staging_path": "/bible/law/numbers/",
+      "total_source_verse_units": 1287,
+      "total_chapters": 36,
+      "completed_chapters": [],
+      "next_reference": "Numbers 1:1",
+      "completed_verse_ranges": []
     },
     {
       "book": "Deuteronomy",
@@ -1287,6 +1314,55 @@
       "known_pending_target_candidate_count": 2,
       "review_record": "review-batches/2026-10-29T164514Z.json",
       "next_reference": "Leviticus 17:1"
+    },
+    {
+      "run_id": "2026-10-29T174214Z",
+      "date": "2026-10-29",
+      "source_range": "Leviticus 17:1-27:34",
+      "distinct_source_verses": 369,
+      "new_completed_pairs": 578,
+      "book_results": [
+        {
+          "book": "Leviticus",
+          "source_range": "Leviticus 17:1-27:34",
+          "distinct_source_verses": 369,
+          "new_completed_pairs": 578,
+          "completed_chapters": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "book_initial_curated_pass_complete": true,
+          "next_reference": null
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 78,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 0,
+      "known_pending_target_candidate_count": 2,
+      "review_record": "review-batches/2026-10-29T174214Z.json",
+      "next_reference": "Numbers 1:1",
+      "inventories_added": [
+        {
+          "book": "Numbers",
+          "source_units": 1287,
+          "chapters": 36,
+          "record": "numbers/inventory.json",
+          "completed_source_verses": 0,
+          "completed_pairs": 0
+        }
+      ]
     }
   ],
   "canon_manifest": "canon.json",
