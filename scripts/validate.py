@@ -34,8 +34,21 @@ def validate(write_receipts=False):
     seen_pairs=set()
     names=[b['book'] for b in progress['books']]
     require(len(names)==len(set(names)),'Duplicate book records')
-    required={'Tobit','Judith','Baruch','1 Maccabees','2 Maccabees','Wisdom of Solomon','Sirach'}
-    require(required.issubset(names),'Missing deuterocanonical book records')
+    canon=load(ROOT/progress['canon_manifest'])
+    canonical=canon['books'];allowed={b['book'] for b in canonical}
+    require(len(canonical)==canon['book_count']==70,'Saints canon must contain exactly 70 books')
+    require(len(allowed)==70,'Duplicate canonical book names')
+    require([b['order'] for b in canonical]==list(range(1,71)),'Canonical order is not contiguous')
+    source_books=[b for b in canonical if b['testament']=='Old Testament']
+    require(len(source_books)==canon['old_testament_book_count']==43,'Old Testament canon count mismatch')
+    require(len(canonical)-len(source_books)==canon['new_testament_book_count']==27,'New Testament canon count mismatch')
+    require(names==[b['book'] for b in source_books],'Source plan differs from Saints Old Testament order')
+    for actual,expected in zip(progress['books'],source_books):
+        require(actual['order']==expected['order'] and actual['division']==expected['division'],'Source order or division mismatch')
+    for division in canon['divisions']:
+        members=[b for b in canonical if b['division']==division['division']]
+        require(len(members)==division['book_count'],'Division count mismatch')
+        require([b['order'] for b in members]==list(range(division['first_book_order'],division['last_book_order']+1)),'Division order mismatch')
     first_unfinished=None
     for b in progress['books']:
         file=ROOT/b['records']/'verses.json'
@@ -70,6 +83,7 @@ def validate(write_receipts=False):
                     m=re.fullmatch(r'(.+) (\d+):(\d+)(?:-(\d+))?',e['target'])
                     require(m is not None,'Unsupported target-range identity')
                     book,c,a,z=m.groups()
+                    require(book in allowed,'Target book is outside Saints 70: '+book)
                     expected=[f'{book} {c}:{n}' for n in range(int(a),int(z or a)+1)]
                     require(v['reference'] not in expected,'Target contains its own source verse')
                     require(expected==[x['reference'] for x in e['target_verses']],'Missing or misordered target evidence')
@@ -95,6 +109,7 @@ def validate(write_receipts=False):
         for v in complete:
             require(v['reference']+'\n'+v['text']+'\n' in text,'Plain-text source verse missing or changed')
         report={'schema_version':1,'book':b['book'],'checked_at_utc':datetime.now(timezone.utc).isoformat(),
+            'canon_book_count':len(canonical),'source_book_order_and_divisions':'passed','target_book_membership':'passed',
             'inventory_source_units':len(source_refs),'completed_source_verses':len(complete),
             'completed_chapters':complete_chapters,'completed_cross_references':len(edges),
             'unique_pair_ids':len(edges),'target_passage_identity_and_hash_checks':'passed',
@@ -113,7 +128,7 @@ def validate(write_receipts=False):
     require(total_chapters==progress['completed_chapters'],'Root chapter total mismatch')
     require(total_books==progress['completed_book_records'],'Root completed-book total mismatch')
     require(first_unfinished==progress['next']['reference'],'Continuation skips an unfinished source verse')
-    print(json.dumps({'result':'passed','books_in_plan':len(names),'completed_source_verses':total_verses,
+    print(json.dumps({'result':'passed','canon_books':len(canonical),'books_in_plan':len(names),'completed_source_verses':total_verses,
         'completed_pairs':total_pairs,'completed_chapters':total_chapters,'next':first_unfinished}))
     return reports
 if __name__=='__main__':

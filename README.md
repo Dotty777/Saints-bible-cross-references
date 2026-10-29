@@ -8,9 +8,19 @@ Book-by-book Old Testament cross-references, matching passage evidence and revie
 
 ## Coverage
 
-Work begins at Genesis and follows the reference edition's relative Old Testament order. The scope includes all 43 Old Testament books in the Saints-Translation working edition, its Greek Esther/Daniel material and Psalm 151. It also explicitly reserves Tobit, Judith and Baruch, which are absent from that selected edition, for source selection and verse-numbering inventory before review. The resulting plan contains 46 book records. Their absence from the reference repository is not treated as completed coverage.
+Use exclusively the **Saints Holy Bible 70-book edition**, with its exact book order and divisions recorded in [canon.json](canon.json). The current task reviews its **43 Old Testament source books** in order; matching passages may come from any of the 70 books when the actual text is available.
 
-The deuterocanonical scope includes 1–2 Maccabees, Wisdom of Solomon, Sirach, Tobit, Judith, Baruch and the expanded Esther/Daniel readings. Tobit and Judith are inserted after Nehemiah; Baruch is inserted after Jeremiah. Other books retain their relative order in Saints-Translation.
+| Testament | Division | Book orders | Books |
+| --- | --- | --- | ---: |
+| Old Testament | Law | 1–5 | 5 |
+| Old Testament | Judgement | 6–20 | 15 |
+| Old Testament | Wisdom | 21–27 | 7 |
+| Old Testament | Providence | 28–43 | 16 |
+| New Testament | Salvation | 44–47 | 4 |
+| New Testament | Discipleship | 48–69 | 22 |
+| New Testament | Glory | 70 | 1 |
+
+The book plan follows the Saints edition directly. Its 1–2 Maccabees, Wisdom of Solomon, Sirach, expanded Esther/Daniel material and Psalm 151 remain within that edition. Tobit, Judith and Baruch are excluded because they are outside its 70-book list. The New Testament canon listing defines eligible target books; it does not add New Testament source-review work to this Old Testament task.
 
 Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis currently has 1,531 inventoried source units, of which 728 are completed.
 
