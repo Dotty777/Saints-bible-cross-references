@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "Genesis",
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -115,6 +115,13 @@
       "path": "colossians/verses.json",
       "blob_sha": "5e135d4d842ec8c19239abac374b1cbb547e0844",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/colossians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -335,10 +342,10 @@
     }
   ],
   "checked_scope": {
-    "source_passage": "Genesis 1:1-35:29",
-    "source_verse_units": 1039,
-    "retained_pairs": 2399,
-    "distinct_target_verse_units": 1578
+    "source_passage": "Genesis 1:1-44:34",
+    "source_verse_units": 1357,
+    "retained_pairs": 3005,
+    "distinct_target_verse_units": 1891
   },
   "numbering": "Exact Saints-Translation labels are retained. In particular Psalms 18, 32, 73, 94, 103 and 135 use the reference edition's Greek numbering. Do not substitute common Hebrew/English Psalm numbers.",
   "method": "Select passage-grounded connections; read the actual source and target English text; write an individual explanation; reread explanations against both passages. Save exact target text and hashes. Count a range as one pair, even when it contains several verses.",
@@ -350,7 +357,7 @@
   ],
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "pending": [
-    "Genesis 36-50 cross-reference pass",
+    "Genesis 45-50 cross-reference pass",
     "Remaining Old Testament book inventories and review",
     "Independent specialist review",
     "Live destination anchors and reader display checks"
@@ -382,6 +389,13 @@
       "records": "review-batches/2026-10-29T013621Z.json",
       "new_source_verses": 311,
       "new_pairs": 639,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-29T104409Z",
+      "records": "review-batches/2026-10-29T104409Z.json",
+      "new_source_verses": 318,
+      "new_pairs": 606,
       "unresolved_retained_cases": 0
     }
   ],
