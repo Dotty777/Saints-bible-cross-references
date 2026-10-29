@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T16:12:38.818192+00:00",
+  "updated_at_utc": "2026-10-29T17:09:38.064221+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 2,
   "pending_book_records": 41,
-  "completed_chapters": 95,
-  "completed_source_verses": 2807,
-  "completed_cross_references": 5808,
+  "completed_chapters": 106,
+  "completed_source_verses": 3186,
+  "completed_cross_references": 6383,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
     "book": "Leviticus",
-    "chapter": 6,
-    "reference": "Leviticus 6:1",
-    "source_id": "v6-1"
+    "chapter": 17,
+    "reference": "Leviticus 17:1",
+    "source_id": "v17-1"
   },
   "books": [
     {
@@ -254,8 +254,8 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 111,
-      "completed_cross_references": 208,
+      "completed_source_verses": 490,
+      "completed_cross_references": 783,
       "order": 3,
       "division": "Law",
       "division_slug": "law",
@@ -268,15 +268,37 @@
         2,
         3,
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
       ],
-      "next_reference": "Leviticus 6:1",
+      "next_reference": "Leviticus 17:1",
       "completed_verse_ranges": [
         "Leviticus 1:1-17",
         "Leviticus 2:1-16",
         "Leviticus 3:1-17",
         "Leviticus 4:1-35",
-        "Leviticus 5:1-26"
+        "Leviticus 5:1-26",
+        "Leviticus 6:1-23",
+        "Leviticus 7:1-38",
+        "Leviticus 8:1-36",
+        "Leviticus 9:1-24",
+        "Leviticus 10:1-20",
+        "Leviticus 11:1-47",
+        "Leviticus 12:1-8",
+        "Leviticus 13:1-59",
+        "Leviticus 14:1-57",
+        "Leviticus 15:1-33",
+        "Leviticus 16:1-34"
       ]
     },
     {
@@ -1226,6 +1248,45 @@
       "known_pending_target_candidate_count": 2,
       "review_record": "review-batches/2026-10-29T154713Z.json",
       "next_reference": "Leviticus 6:1"
+    },
+    {
+      "run_id": "2026-10-29T164514Z",
+      "date": "2026-10-29",
+      "source_range": "Leviticus 6:1-16:34",
+      "distinct_source_verses": 379,
+      "new_completed_pairs": 575,
+      "book_results": [
+        {
+          "book": "Leviticus",
+          "source_range": "Leviticus 6:1-16:34",
+          "distinct_source_verses": 379,
+          "new_completed_pairs": 575,
+          "completed_chapters": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "Leviticus 17:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 75,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 0,
+      "known_pending_target_candidate_count": 2,
+      "review_record": "review-batches/2026-10-29T164514Z.json",
+      "next_reference": "Leviticus 17:1"
     }
   ],
   "canon_manifest": "canon.json",

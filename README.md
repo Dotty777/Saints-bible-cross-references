@@ -4,9 +4,9 @@ Book-by-book Old Testament cross-references, matching passage evidence and revie
 
 - [Genesis — 50 chapters](genesis/README.md): initial curated pass complete for all chapters; **1531 source verses, 3341 matching cross-reference pairs**.
 - [Exodus — 40 chapters](exodus/README.md): initial curated pass complete for all chapters; **1165 source verses, 2259 matching cross-reference pairs**.
-- [Leviticus — 27 chapters](leviticus/README.md): initial curated pass in progress; latest completed unit Leviticus 5:26; **111 source verses, 208 matching cross-reference pairs**.
+- [Leviticus — 27 chapters](leviticus/README.md): initial curated pass in progress; latest completed unit Leviticus 16:34; **490 source verses, 783 matching cross-reference pairs**.
 
-[progress.json](progress.json) records the complete book plan, actual completed verses and pairs, each book's status and the exact continuation. **Next: Leviticus 6:1.** 2 Old Testament books have complete initial curated passes.
+[progress.json](progress.json) records the complete book plan, actual completed verses and pairs, each book's status and the exact continuation. **Next: Leviticus 17:1.** 2 Old Testament books have complete initial curated passes.
 
 ## Coverage
 
@@ -24,7 +24,7 @@ Use exclusively the **Saints Holy Bible 70-book edition**, with its exact book o
 
 The book plan follows the Saints edition directly. Its 1–2 Maccabees, Wisdom of Solomon, Sirach, expanded Esther/Daniel material and Psalm 151 remain within that edition. Tobit, Judith and Baruch are excluded because they are outside its 70-book list. The New Testament canon listing defines eligible target books; it does not add New Testament source-review work to this Old Testament task.
 
-Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis has 1,531 inventoried source units, of which 1,531 are completed. Exodus has 1,165 inventoried source units, of which 1,165 are completed. Leviticus has 859 inventoried source units, of which 111 are completed.
+Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis has 1,531 inventoried source units, of which 1,531 are completed. Exodus has 1,165 inventoried source units, of which 1,165 are completed. Leviticus has 859 inventoried source units, of which 490 are completed.
 
 ## What completed means
 
@@ -46,4 +46,4 @@ Run `python scripts/validate.py` to check the saved data, counts, unique pair ID
 
 After updating structured records and progress, run `python scripts/render_books.py` to refresh all inventoried books and README counts, then `python scripts/validate.py --write-verification`. The existing `render_genesis.py` entry point runs the same multi-book renderer.
 
-Latest saved review: 2026-10-29, **523 new pairs across 284 source verses**. Hourly target: 500; shortfall: 0. [Review record](review-batches/2026-10-29T154713Z.json).
+Latest saved review: 2026-10-29, **575 new pairs across 379 source verses**. Hourly target: 500; shortfall: 0. [Review record](review-batches/2026-10-29T164514Z.json).
