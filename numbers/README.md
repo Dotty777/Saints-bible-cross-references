@@ -1,6 +1,6 @@
 # Numbers — Saints Bible cross-references
 
-Numbers has a complete source inventory; the initial curated pass has not started. **0 source verses and 0 completed pairs**. Next: Numbers 1:1. Later source verses remain pending.
+Numbers has **419 completed source verses and 727 distinct source/target-passage pairs**. Latest completed unit: **Numbers 10:36**. Fully completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Next: Numbers 11:1. Later source verses remain pending.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,8 +19,12 @@ The declared source is the [pinned Saints-Translation Numbers record](https://gi
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and start at **Numbers 1:1**. Review source verses in the edition's order. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+Read the current [overall tracker](../progress.json), preserve completed records, and start at **Numbers 11:1**. Review source verses in the edition's order. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
+Pending target evidence: 1 candidate(s), excluded from completed counts. See [source-checks.json](source-checks.json).
+
 ## Review batches
+
+- [2026-10-29T184045Z](review-batches/2026-10-29T184045Z.json): 727 newly completed pairs across 419 source verses.

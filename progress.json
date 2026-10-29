@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-29T18:05:11.622058+00:00",
+  "updated_at_utc": "2026-10-29T19:05:28.883412+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 3,
   "pending_book_records": 40,
-  "completed_chapters": 117,
-  "completed_source_verses": 3555,
-  "completed_cross_references": 6961,
+  "completed_chapters": 127,
+  "completed_source_verses": 3974,
+  "completed_cross_references": 7688,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
     "book": "Numbers",
-    "chapter": 1,
-    "reference": "Numbers 1:1",
-    "source_id": "v1-1"
+    "chapter": 11,
+    "reference": "Numbers 11:1",
+    "source_id": "v11-1"
   },
   "books": [
     {
@@ -328,10 +328,10 @@
       "records": "numbers/",
       "source_records": "numbers/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
+      "status": "in progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "completed_source_verses": 419,
+      "completed_cross_references": 727,
       "order": 4,
       "division": "Law",
       "division_slug": "law",
@@ -339,9 +339,31 @@
       "source_staging_path": "/bible/law/numbers/",
       "total_source_verse_units": 1287,
       "total_chapters": 36,
-      "completed_chapters": [],
-      "next_reference": "Numbers 1:1",
-      "completed_verse_ranges": []
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "next_reference": "Numbers 11:1",
+      "completed_verse_ranges": [
+        "Numbers 1:1-54",
+        "Numbers 2:1-34",
+        "Numbers 3:1-51",
+        "Numbers 4:1-49",
+        "Numbers 5:1-31",
+        "Numbers 6:1-26",
+        "Numbers 7:1-89",
+        "Numbers 8:1-26",
+        "Numbers 9:1-23",
+        "Numbers 10:1-36"
+      ]
     },
     {
       "book": "Deuteronomy",
@@ -1363,6 +1385,44 @@
           "completed_pairs": 0
         }
       ]
+    },
+    {
+      "run_id": "2026-10-29T184045Z",
+      "date": "2026-10-29",
+      "source_range": "Numbers 1:1-10:36",
+      "distinct_source_verses": 419,
+      "new_completed_pairs": 727,
+      "book_results": [
+        {
+          "book": "Numbers",
+          "source_range": "Numbers 1:1-10:36",
+          "distinct_source_verses": 419,
+          "new_completed_pairs": 727,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "Numbers 11:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 227,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 1,
+      "known_pending_target_candidate_count": 3,
+      "review_record": "review-batches/2026-10-29T184045Z.json",
+      "next_reference": "Numbers 11:1"
     }
   ],
   "canon_manifest": "canon.json",

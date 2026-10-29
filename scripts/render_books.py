@@ -18,7 +18,7 @@ def render_book(record,progress,style):
     text=[name+' — Saints Bible cross-references','Completed: '+scope+'. '+continuation,
           f'{count} completed source verses; {pairs} completed cross-reference pairs.',data['completion_definition'],
           'Reference edition: '+data['source_edition']+'. Greek-based source numbering is retained.','']
-    if waiting:text.insert(4,f'{len(waiting)} target candidate(s) await pinned evidence and are excluded from completed pair totals; see source-checks.json.')
+    if waiting:text.insert(4,f'{len(waiting)} target candidate(s) await source evidence or identity review and are excluded from completed pair totals; see source-checks.json.')
     sections=[]
     for v in verses:
         text.extend([v['reference'],v['text']]);items=[]
@@ -31,7 +31,7 @@ def render_book(record,progress,style):
     nav=' · '.join('<a href="#'+e(c['verses'][0]['id'])+'">'+e(name)+' '+str(c['chapter'])+'</a>' for c in data['chapters'] if c['status']=='completed')
     summary=f'{scope} · {count} completed verses · {pairs} completed pairs'
     page='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(name)+' cross-references</title><style>'+style+'</style></head><body><header><h1>'+e(name)+' cross-references</h1><p>'+e(summary)+'</p><p class="note">Initial curated pass. '+e(continuation)+' Greek-based Saints-Translation numbering is retained.</p><p class="note">'+e(data['completion_definition'])+'</p><nav>'+nav+'</nav><nav><a href="README.md">Book record</a> · <a href="'+e(data['readable_text'])+'">Plain text</a> · <a href="verses.json">Structured verse tracker</a> · <a href="../progress.json">Overall progress</a></nav></header>'+''.join(sections)+'<footer><p class="note">Latest review '+e(data['date'])+' by Codex (AI-assisted editorial review). Source: <a href="'+e(data['source_snapshot']['url'])+'">pinned Saints-Translation record</a>. Source-edition limitations continue to apply. Independent specialist and live-anchor review remain pending.</p></footer></body></html>'
-    if waiting:page=page.replace('</header>','<p class="note">'+str(len(waiting))+' target candidate(s) await pinned evidence and are excluded from completed totals. <a href="source-checks.json">Pending evidence</a>.</p></header>',1)
+    if waiting:page=page.replace('</header>','<p class="note">'+str(len(waiting))+' target candidate(s) await source evidence or identity review and are excluded from completed totals. <a href="source-checks.json">Pending evidence</a>.</p></header>',1)
     write(folder/data['readable_html'],page)
     readme=(folder/'README.md').read_text(encoding='utf-8')
     last=data['completed_chapters'][-1] if data['completed_chapters'] else None

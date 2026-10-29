@@ -1,0 +1,1326 @@
+{
+  "run_id": "2026-10-29T184045Z",
+  "date": "2026-10-29",
+  "source_range": "Numbers 1:1-10:36",
+  "distinct_source_verses": 419,
+  "new_completed_pairs": 727,
+  "book_results": [
+    {
+      "book": "Numbers",
+      "source_range": "Numbers 1:1-10:36",
+      "distinct_source_verses": 419,
+      "new_completed_pairs": 727,
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "book_initial_curated_pass_complete": false,
+      "next_reference": "Numbers 11:1"
+    }
+  ],
+  "hourly_target": 500,
+  "target_met": true,
+  "target_shortfall": 0,
+  "target_excess": 227,
+  "unresolved_retained_cases": [],
+  "new_unresolved_candidate_count": 1,
+  "known_pending_target_candidate_count": 3,
+  "review_record": "review-batches/2026-10-29T184045Z.json",
+  "next_reference": "Numbers 11:1",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-29",
+  "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
+  "inputs": [
+    {
+      "file": "numbers-1-3.tsv",
+      "sha256": "e34fa9e1d677b78ad7abb1f41eee171f6280d041c9c594b87735cc3d787d8c17",
+      "pairs": 238
+    },
+    {
+      "file": "numbers-4-5.tsv",
+      "sha256": "453939e0ef66779facaf1340009a5f345d2ab379e1ca43bc07ffee51882e6109",
+      "pairs": 142
+    },
+    {
+      "file": "numbers-6-8.tsv",
+      "sha256": "91d934ed3670f02b71d5a4e442e9724ce65f82fd8289ae7cb2e2ca437ffab0ac",
+      "pairs": 269
+    },
+    {
+      "file": "numbers-9-10.tsv",
+      "sha256": "f4ce99906c117519b88d638d42e822321ed2b4bea932834c20b6d45831577c49",
+      "pairs": 78
+    }
+  ],
+  "chapter_pair_counts": {
+    "1": 102,
+    "2": 52,
+    "3": 84,
+    "4": 87,
+    "5": 55,
+    "6": 51,
+    "7": 168,
+    "8": 50,
+    "9": 31,
+    "10": 47
+  },
+  "review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_1_3 author (AI-assisted English-passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T18:50:24.429692+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        1,
+        2,
+        3
+      ],
+      "source_verses": 139,
+      "completed_source_verses": 139,
+      "completed_pairs": 238,
+      "distinct_target_verse_units": 247,
+      "chapter_pair_counts": {
+        "1": 102,
+        "2": 52,
+        "3": 84
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_read": true,
+      "review_method": "Read all 139 complete actual Numbers 1–3 source units and all complete retained targets with necessary context. Additional complete contexts included Numbers 4:1–49, 7:1–83, 8:5–26, 10:11–28, 18:1–21, 26:1–65; Exodus 6:14–27, 13:1–16, 30:11–16, 39:1–23, 40:1–38 in their actual source divisions; Leviticus 8:1–36 and 10:1–20. Retained particular named-person continuity, specific census criteria and figures, later contrasting counts, camp order, custodial assignments, firstborn substitution and redemption, and explicit same-chapter command, list, heading, rule, result, or summary relations. No fixed quota, generic obedience padding, self-match, assumed spelling equivalence, or inferred census harmonization. Source and target passages were actually read in supplied English. No Greek, Hebrew, apparatus, independent human specialist, current legal or medical verification is claimed.",
+      "author_reread": "After drafting, separately displayed and reread all 238 complete source–target–relationship–rationale triples in five packets: pairs 1–40, 41–90, 91–140, 141–190, and 191–238. Clarified Numbers 3:10→18:7 to preserve source touches versus target approaches; separately displayed and reread the complete corrected triple. Technical validation and pin checks supply no completion credit.",
+      "source_books": [
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "verse_units": 1287
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "verse_units": 1165
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "verse_units": 859
+        }
+      ],
+      "input_file": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-29-1440\\numbers-1-3.tsv",
+      "input_sha256": "e34fa9e1d677b78ad7abb1f41eee171f6280d041c9c594b87735cc3d787d8c17",
+      "pinned_source_verification": {
+        "receipt": "numbers-1-3-pins.json",
+        "fetched_commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "method": "Fetched each of the three exact raw pinned book records, verified its Git blob SHA against existing source registries, and compared parsed JSON with the cache. All parsed records equal the pinned originals. Cache bytes differ: Numbers and Leviticus add one trailing LF; Exodus converts CRLF to LF and adds one trailing LF. Byte equality is not claimed.",
+        "all_pins_match": true,
+        "all_parsed_cache_records_match": true
+      },
+      "editorial_notes": [
+        "Every one of the 139 source units has at least one retained supported pair; a target range counts as one pair.",
+        "Numbers 1:18 states first day of the month of the second year without the month number stated in 1:1; its source text remains unchanged.",
+        "The actual edition places the earlier 603,550 census figure at Exodus 39:3; the target key is not silently renumbered.",
+        "The edition gives Merari 6,050 at Numbers 3:34, Kohath 8,600 at 3:28, Gershon 7,500 at 3:22, and total Levi 22,000 at 3:39. The clan figures sum to 22,150; no reconciliation, emendation, or unsupported explanation is asserted. The excess-firstborn relation uses the explicitly stated 22,000 total, 22,273 firstborn, and 273 excess.",
+        "Numbers 4 service eligibility is twenty-five through fifty in these actual English records, distinguished from Numbers 3 population counts beginning at one month and Numbers 1 military counts beginning at twenty years.",
+        "Eliasaph son of Reuel (Gad) and Eliasaph son of Lael (Gershon) are not conflated; chief Elizaphan son of Uzziel is retained only with the explicit local Kohathite constituency, avoiding assumed identity across differing Elzaphan spellings.",
+        "Camp and departure parallels preserve the source orientation southwest, toward the sea, north, and east; the transport comparison preserves distinct Gershon/Merari and Kohath movements rather than harmonizing them into one asserted sequence.",
+        "All targets are confined to the authorized Saints canon; no Revelation text or excluded book is used."
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Numbers 3:30",
+          "candidate_targets": [
+            "Exodus 6:22",
+            "Leviticus 10:4"
+          ],
+          "reason": "Do not assume Numbers Elizaphan and Exodus/Leviticus Elzaphan are identical solely from similar spelling and Uzziel patronymic; retained local explicit Kohathite context instead."
+        },
+        {
+          "source_reference": "Numbers 3:39",
+          "candidate_target": "Numbers 3:22-34",
+          "reason": "Excluded a proposed equal-sum claim because the supplied clan counts sum to 22,150 rather than the stated 22,000 total."
+        }
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "completion_credit": {
+        "new_curated_source_verses": 139,
+        "new_curated_pairs": 238,
+        "import": 0,
+        "technical_checks": 0,
+        "peer_review": 0
+      },
+      "final_input_sha256": "e34fa9e1d677b78ad7abb1f41eee171f6280d041c9c594b87735cc3d787d8c17"
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_4_5 (AI-assisted English-passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T18:57:45.298085+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        4,
+        5
+      ],
+      "source_verses": 80,
+      "completed_source_verses": 80,
+      "completed_pairs": 142,
+      "chapter_pair_counts": {
+        "4": 87,
+        "5": 55
+      },
+      "distinct_target_verse_units": 175,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "review_method": "Read all 80 complete actual Numbers 4-5 source units and every retained actual target with context. Context included complete Numbers 3, Numbers 1:47-54, 7:1-9, 8:5-26, 12:10-15, 18:1-19, 19:11-22; Exodus 25:10-40, 26:1-37, 27:1-21, 29:38-42, 30:1-10, 30:17-38 and 40:18-33; Leviticus 2:1-3, 5:1-16, 5:20-26, 7:6-14, 13:45-46, 15:1-18, 20:10, 22:1-7 and 24:5-9; Deuteronomy 19:15-21 and 23:9-15; 1 Chronicles 15:1-15; and 2 Samuel 6:1-8. Exact original reference keys, chapter divisions and record order preserved. No quota or unsupported shared-formula relations.",
+      "author_reread": "Separately reread every source-target-category-rationale triple in the initial 143-row draft, displayed in three complete batches with source and target text. Removed the indirect Numbers 4:28 to Numbers 7:7-8 candidate on reread; all 142 retained triples were reread. Reread transcript retained as numbers-4-5-reread.txt. Following independent peer audit, reread the complete corrected Numbers 4:5 to Exodus 40:21 and Numbers 4:15 to Numbers 18:3 source-target-category-rationale triples. The first now names Aaron and his sons; the second distinguishes permitted entry to carry without touching from the later prohibition on approach. Added an explicit Same-chapter prefix to all 77 intrachapter category labels; their rationales and pair membership are unchanged. Exact original and revised rows and hashes retained in numbers-4-5-revision-history.json.",
+      "source_books": [
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "1 Chronicles",
+          "records": "1-chronicles/verses.json",
+          "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+        },
+        {
+          "book": "2 Samuel",
+          "records": "2-samuel/verses.json",
+          "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+        }
+      ],
+      "cache_pin_verification": {
+        "method": "Fetched the six exact raw files at the registered commit; recomputed Git blob SHA-1 from raw bytes and compared all parsed JSON records against the cache. Technical verification adds zero completion credit.",
+        "details_file": "numbers-4-5-pin-verification.json",
+        "all_pinned_blob_hashes_verified": true,
+        "all_parsed_records_equal": true,
+        "byte_equality_scope": "2 Samuel cache is byte-identical. Numbers, Leviticus, Deuteronomy and 1 Chronicles caches have one extra terminal LF. Exodus cache differs by CRLF/LF serialization and terminal newline; parsed equality and normalized-byte equality hold. No assertion of byte equality for these five files."
+      },
+      "input_file": "numbers-4-5.tsv",
+      "input_sha256": "453939e0ef66779facaf1340009a5f345d2ab379e1ca43bc07ffee51882e6109",
+      "inventory_completion_credit": 0,
+      "import_completion_credit": 0,
+      "technical_completion_credit": 0,
+      "peer_completion_credit": 0,
+      "editorial_notes": [
+        "Initial English-passage cross-reference pass; no claim of independent human specialist or Greek/Hebrew apparatus review.",
+        "Actual service age is twenty-five through fifty throughout Numbers 4; no familiar-edition thirty-year substitution.",
+        "Covering colours, items, carrying poles, shoulders, priestly supervision, non-touching and viewing precautions follow the actual English records, including the basin clause in Numbers 4:14.",
+        "Same-chapter entries deliberately identify command/fulfilment, specific introduction/content, summary/case, sequence, census population/count or component/total relations. They are labelled as such.",
+        "The jealousy law distinguishes concealed defilement, absent witnesses, jealous suspicion even where undefiled, conditional curses, and an unharmed clean outcome. No modern medical mechanism or current legal recommendation is inferred.",
+        "A subset of candidate passages was read for context but was not retained; reading and verification alone create no completion credit.",
+        "All 77 intrachapter relationship labels explicitly begin Same-chapter after peer audit. Final row counts remain 80 completed sources, 142 retained pairs and 175 distinct target units."
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Numbers 4:28",
+          "target": "Numbers 7:7-8",
+          "reason": "Removed an indirect wagon-allocation and supervisory comparison; the direct shared-Ithamar relationship to Numbers 4:33 is retained."
+        },
+        {
+          "source_reference": "Numbers 5:13-28",
+          "proposed_claim": "The water necessarily causes a named modern medical outcome or proves guilt from jealousy alone",
+          "reason": "Neither inference is established by the supplied English wording; retained explanations preserve the law's conditional defilement and clean outcomes."
+        },
+        {
+          "source_reference": "Numbers 4:3-47",
+          "proposed_claim": "Service begins at thirty years because another edition uses that age",
+          "reason": "The actual supplied records consistently say twenty-five; alternative-edition substitution excluded."
+        }
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "revision_history_file": "numbers-4-5-revision-history.json",
+      "original_input_sha256": "20b221bfafba92f1bc9114b6efb35be44c42c262ff5b87e0d3f9d40515ba6e4f",
+      "final_input_sha256": "453939e0ef66779facaf1340009a5f345d2ab379e1ca43bc07ffee51882e6109"
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex Numbers6-8 curator (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T18:51:30.631629+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        6,
+        7,
+        8
+      ],
+      "source_verses": 141,
+      "completed_source_verses": 141,
+      "completed_pairs": 269,
+      "distinct_target_verse_units": 301,
+      "distinct_target_passages": 147,
+      "chapter_pair_counts": {
+        "6": 51,
+        "7": 168,
+        "8": 50
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "input_file": "numbers-6-8.tsv",
+      "input_sha256": "91d934ed3670f02b71d5a4e442e9724ce65f82fd8289ae7cb2e2ca437ffab0ac",
+      "source_books": [
+        {
+          "book": "1 Chronicles",
+          "records": "1-chronicles/verses.json",
+          "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+        },
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Amos",
+          "records": "amos/verses.json",
+          "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Ecclesiastes",
+          "records": "ecclesiastes/verses.json",
+          "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "John",
+          "records": "john/verses.json",
+          "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee"
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Luke",
+          "records": "luke/verses.json",
+          "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "review_method": "Read all 141 actual ordered source units and every complete retained target passage, including needed vow, corpse purity, priestly blessing, tribal leadership, sanctuary dedication, lamp construction, Levitical firstborn substitution and service context. Assess each particular material, quantity, procedure, name, day, role, aggregate and legal scope. Ranges count as one pair. Same-chapter relationships are labelled. No fixed target quota or exhaustive-discovery claim.",
+      "second_editorial_reread": "After drafting, reread all actual source and retained target units in separate complete displays and reread all 269 source/target/category/rationale entries against those texts. A truncated middle block of Numbers7 explanations was separately displayed in full for 7:43-50. Corrected repeated singular/plural grammar and removed an inference about comparatively heavier Merari burdens. Following a peer precision note, separately reread the complete corrected triples at 8:23 and 8:26 and retained the actual brother subject and prohibition of work rather than importing a different edition's retirement formulation. No pairs removed; counts unchanged.",
+      "pin_verification": "Independently downloaded all 13 used book files at the pinned commit; each raw Git blob hash matches its registry. Every full parsed cache equals its raw pinned record. Twelve caches differ by one appended LF; Exodus cache has LF serialization plus an appended terminal LF while the pinned Exodus blob has CRLF. Parsed equality is distinguished from byte equality; no cache is reported byte-identical. Detailed checks: numbers-6-8-pin-checks.json.",
+      "editorial_notes": [
+        "Preserved the actual chapter6 ending at verse26, with the divine-name statement within verse23; no customary verse27 was created.",
+        "Retained Numbers7 repetitions by linking each exact gift to its corresponding aggregate and later donors once to the first matching gift. Did not generate all pairwise combinations among twelve equivalent presentations.",
+        "The repeated donations preserve every donor, day, material, weight, animal category, sex, age and quantity. Aggregate links explain 2400 silver, 120 gold, twelve animals by category, twenty-four heifers and sixty of each deliverance group.",
+        "Preserved the actual twenty-five-year service threshold in Numbers4 and Numbers8, contrasting it with the twenty-year Chronicles arrangement.",
+        "Numbers8:26 is read according to its actual English subject, his brother, without importing a familiar alternative edition's wording.",
+        "Speech-introduction pairs identify the particular instruction and literary function of each speech, rather than merely comparing a generic revelation formula."
+      ],
+      "candidate_exclusions": [
+        "Did not retain a 2 Thessalonians3:16 candidate because its actual target text was not present under that exact key in the available passage index.",
+        "Did not retain an Ezra6:16-17 candidate because no actual passage existed under that key; no numbering or book-title substitution was invented.",
+        "No Revelation target: actual text was unavailable.",
+        "Did not equate John's wine abstinence with an explicit Nazirite identification or claim Acts18:18 narrates the complete Numbers6 rite."
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "inventory_import_technical_completion_credit": 0,
+      "independent_peer_completion_credit": 0,
+      "limitations": "Supplied English passage review only. No new Greek, Hebrew, apparatus, translation or human specialist verification is claimed. Initial curation does not exhaust possible connections.",
+      "final_input_sha256": "91d934ed3670f02b71d5a4e442e9724ce65f82fd8289ae7cb2e2ca437ffab0ac"
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root (AI-assisted English-passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T19:02:35.227212+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        9,
+        10
+      ],
+      "source_verses": 59,
+      "completed_source_verses": 59,
+      "completed_pairs": 78,
+      "chapter_pair_counts": {
+        "9": 31,
+        "10": 47
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "distinct_target_verse_units": 149,
+      "review_method": "Read all59 complete actual source units and every complete retained target, with Passover, corpse-purification, delayed-observance, trumpet, census/camp, carrying, ark-travel and psalm contexts. Read Exodus12/13/40 contexts, Leviticus23 calendar, Numbers1/2/3/4/15/19/31,2Chronicles5/13/30,John19,Joshua3,Deuteronomy1 and actual Greek-numbered Psalms67/80/131. No fixed per-verse quota or inferred identity completion.",
+      "author_reread": "Separately reread all78 final explanations against complete actual sources and the previously read full target passages and contexts. Corrected an inaccurate Same-chapter category on9:17→10:11-12, used the actual10:35 invocation without an inserted among, and accepted/reread the peer's9:8 observed wood-gatherer wording. Target and pair counts unchanged.",
+      "source_books": [
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "John",
+          "records": "john/verses.json",
+          "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "input_file": "numbers-9-10.tsv",
+      "input_sha256": "f4ce99906c117519b88d638d42e822321ed2b4bea932834c20b6d45831577c49",
+      "source_inventory": "numbers/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [
+        {
+          "source_reference": "Numbers 10:29",
+          "target": "Judges 4:11",
+          "status": "pending identity review",
+          "reason": "The actual pinned Numbers text names Hobab son of Reuel, a Midianite and Moses' kinsman by marriage. The actual pinned Judges text names sons of Jobab, Moses' in-law. Both texts were read, but the possible identity or name equivalence has not been independently resolved. This candidate is not a completed pair.",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "judges/verses.json",
+            "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+          },
+          "target_verses": [
+            {
+              "reference": "Judges 4:11",
+              "id": "v4-11",
+              "text": "The neighbours of the Kenite had separated from the sons of Jobab, Moses’ in-law. He pitched his tent near the Oak of the Resters, near Kedesh.",
+              "text_sha256": "e012b3baa6d1a8ea58b3c92a4bdc06a6aa25ce3587af16dbb31dc6d6f213ca56"
+            }
+          ],
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        }
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Numbers 9:1,3,11 / Numbers 10:11",
+          "proposed_claim": "Every second-year or fourteenth-day notice has the same date",
+          "reason": "The actual source distinguishes first and second months and first, fourteenth and twentieth days; exception observance and departure dates remain distinct."
+        },
+        {
+          "source_reference": "Numbers 9:12",
+          "proposed_claim": "John19 explicitly identifies Numbers9 as its uniquely named unbroken-bone quotation source",
+          "reason": "John cites Scripture without naming this particular book/verse. The retained relation compares the actual unbroken-bone wording without selecting a unique quotation origin."
+        },
+        {
+          "source_reference": "Numbers 10:6,31,34-36",
+          "proposed_claim": "Replace the source with a familiar shorter trumpet rule, eyes role or different final verse order",
+          "reason": "The supplied text has four directional signals, the proposed elder role, and prayer/rest/cloud at34/35/36. Those readings and anchors remain intact."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Numbers 9:1-14",
+          "note": "Preserve the first-month anniversary and second-month exception, observed corpse impurity versus unexcused failure conditions, native/sojourner scope, meal and bone rules, and Moses' particular consultation. The later Chronicle postponement and impurity narrative retain their own circumstances and voices."
+        },
+        {
+          "reference": "Numbers 9:15-23 / Numbers 10:11-13,36",
+          "note": "Cloud and fire, camping and departure, many days, a number of days, evening/morning/day/night and a month remain the source's stated cases. No new harmonized timetable or identical-date assumption is supplied."
+        },
+        {
+          "reference": "Numbers 10:1-10",
+          "note": "Preserve two hammered silver trumpets, one-trumpet ruler summons, assembly versus departure signalling, all four actual directional signals, priestly association, war-in-the-land wording and calendar/offerings memorial. Later military and temple occasions are related examples, not silently identical legal settings."
+        },
+        {
+          "reference": "Numbers 10:14-28",
+          "note": "Leader names/patronymics and the earlier camp formations are matched in their actual English. Gershon/Merari tent duties and Kohath holy-object carrying retain their distinct materials and conditions. The Tent-before-arrival pronoun wording is retained without independently assigning its unstated subject."
+        },
+        {
+          "reference": "Numbers 10:29-36",
+          "note": "Preserve Hobab/Reuel, the refusal and renewed invitation, elder rather than an imported eyes wording, the ark's rest-search role, and actual34 prayer/35 rest/36 cloud order. Psalms67/80/131 keep Greek-edition references. The possible Hobab/Jobab identity in Judges4:11 is recorded pending and excluded from completed pairs."
+        }
+      ],
+      "final_input_sha256": "f4ce99906c117519b88d638d42e822321ed2b4bea932834c20b6d45831577c49"
+    }
+  ],
+  "peer_review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex Numbers6-8 curator independently auditing Numbers1-3 (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T18:53:36.566269+00:00",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "numbers-1-3.tsv",
+      "input_sha256": "e34fa9e1d677b78ad7abb1f41eee171f6280d041c9c594b87735cc3d787d8c17",
+      "final_input_sha256": "e34fa9e1d677b78ad7abb1f41eee171f6280d041c9c594b87735cc3d787d8c17",
+      "author_receipt": "numbers-1-3-review.json",
+      "author_receipt_sha256": "10aa46d75f0810d4f024b6ae19daa609f7a6ea65783a9c4a7d6930d31e96db48",
+      "source_chapters": [
+        1,
+        2,
+        3
+      ],
+      "source_verses": 139,
+      "source_verses_read": 139,
+      "completed_source_verses_audited": 139,
+      "retained_pairs": 238,
+      "completed_pairs_audited": 238,
+      "complete_pair_triples_read": 238,
+      "distinct_target_verse_units": 247,
+      "distinct_target_passages": 197,
+      "source_and_target_distinct_units": 292,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Independently read all 139 actual Numbers1-3 source units in full. Independently read all complete retained target passages: target units already among those source units plus all remaining Numbers, Exodus and Leviticus units in a separate complete display. Then read every source/target/category/rationale entry in three untruncated packets of 80, 80 and 78 rows, checking each claim against those complete actual texts and relevant surrounding context. Checked exact identities, figures, ancestral houses, sex and age criteria, side and departure order, custody and transport duties, firstborn substitution and redemption amounts. No original-language or human specialist approval is implied.",
+      "additional_context_passages_read": [
+        "Numbers 26:1-4",
+        "Numbers 26:63-65",
+        "Exodus 39:1-23",
+        "Exodus 40:12-19",
+        "Numbers 18:14-18",
+        "Numbers 4:21-49"
+      ],
+      "source_integrity_checks": [
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "raw_pinned_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "serialization_note": "Cache appends one LF."
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "raw_pinned_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "serialization_note": "Cache normalizes pinned CRLF to LF and appends one LF."
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "raw_pinned_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "serialization_note": "Cache appends one LF."
+        }
+      ],
+      "pin_verification_method": "Used the three raw pinned files independently fetched and Git-blob verified by this reviewer during the separate Numbers6-8 assignment; rehashed each raw blob for this review and independently compared full parsed records with the cache. The hashes match the author registry and the author pin receipt. Parsed equality is distinguished from byte equality.",
+      "editorial_notes": [
+        "The named tribal representatives match across census, camp, dedication and march lists without a mismatched patronymic or tribe.",
+        "Earlier and later census figures are reported as differences, without unsupported demographic causes. The tent silver census figure is preserved at the actual Exodus39:3 key.",
+        "The four camp subtotals exactly match their three stated constituent armies; departure explanations preserve the distinct placements of Tent bearers and Kohath carriers.",
+        "The one-month population, twenty-year military and twenty-five-through-fifty service groups remain distinguished.",
+        "The actual Merari population is 6050 and the actual total Levi population is 22000; the author neither changes those figures nor asserts that the three listed clan counts sum to the stated total.",
+        "The 273 excess firstborn and five-shekel assessment support the collected 1365 shekels. Numbers3:49 remains an actual source unit with its supplied wording, interpreted only through the explicit surrounding ransom instruction.",
+        "The Elizaphan/Elzaphan spelling issue is excluded from assumed identity links. Eliasaph son of Reuel is distinguished from Eliasaph son of Lael.",
+        "Numbers3:10 to Numbers18:7 explicitly distinguishes touching from approaching while comparing the priestly boundary and death sanction.",
+        "Same-chapter speech, heading, rule, execution and subtotal links identify concrete literary or legal relationships rather than generic formula similarity."
+      ],
+      "required_issues": [],
+      "required_changes": [],
+      "removals": [],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "result": "All 238 retained pairs supported for this initial supplied-English curated pass; no required correction or removal.",
+      "completion_credit": {
+        "peer_review": 0,
+        "technical_checks": 0,
+        "inventory_import": 0,
+        "new_source_verses": 0,
+        "new_pairs": 0
+      },
+      "limitations": "AI-assisted supplied-English passage review. No new Greek, Hebrew, apparatus, translation or independent human specialist verification is claimed; review does not imply exhaustive discovery.",
+      "original_author_receipt_sha256": "46d17d043db442209dd85bbe7571834bb7c92d14fb81b688a74a036283f2dd59",
+      "historical_author_receipt_sha256": [
+        "46d17d043db442209dd85bbe7571834bb7c92d14fb81b688a74a036283f2dd59"
+      ],
+      "author_receipt_metadata_confirmation": {
+        "checked_at_utc": "2026-10-29T19:14:08.291175+00:00",
+        "reviewed": "2026-10-29",
+        "review_timezone": "America/New_York",
+        "previous_author_receipt_sha256": "46d17d043db442209dd85bbe7571834bb7c92d14fb81b688a74a036283f2dd59",
+        "current_author_receipt_sha256": "10aa46d75f0810d4f024b6ae19daa609f7a6ea65783a9c4a7d6930d31e96db48",
+        "previous_peer_receipt_sha256": "5ee4ba2afc9ac822be29f58b32044d1142edd0a5c6c1ae5db97a0dd33e142ec7",
+        "method": "Read the complete current normalized author receipt and verified its counts and input hashes against the unchanged reviewed TSV and existing peer scope. Removing only the appended final_input_sha256 metadata field and serializing with the original CRLF line endings exactly reproduces the historical author receipt SHA. Thus the normalization adds final-input metadata only; the stated counts, review prose, source pins and reviewed passages are unchanged.",
+        "normalized_fields": [
+          "final_input_sha256"
+        ],
+        "counts_confirmed": {
+          "completed_source_verses": 139,
+          "completed_pairs": 238,
+          "distinct_target_verse_units": 247
+        },
+        "unchanged_final_tsv_sha256": "e34fa9e1d677b78ad7abb1f41eee171f6280d041c9c594b87735cc3d787d8c17",
+        "passage_review_changed": false,
+        "new_source_verse_credit": 0,
+        "new_pair_credit": 0,
+        "peer_review_credit": 0,
+        "technical_credit": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex Numbers6-8 curator independently auditing Numbers4-5 (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T18:58:36.047920+00:00",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "numbers-4-5.tsv",
+      "input_sha256": "453939e0ef66779facaf1340009a5f345d2ab379e1ca43bc07ffee51882e6109",
+      "final_input_sha256": "453939e0ef66779facaf1340009a5f345d2ab379e1ca43bc07ffee51882e6109",
+      "original_audited_input_sha256": "20b221bfafba92f1bc9114b6efb35be44c42c262ff5b87e0d3f9d40515ba6e4f",
+      "author_receipt": "numbers-4-5-review.json",
+      "author_receipt_sha256": "184d0f997a99dcf8894878360ccbbc0be566c9fa994ac4be213421354ed9096e",
+      "source_chapters": [
+        4,
+        5
+      ],
+      "source_verses": 80,
+      "source_verses_read": 80,
+      "completed_source_verses_audited": 80,
+      "completed_pairs_audited": 142,
+      "retained_pairs": 142,
+      "complete_pair_triples_read": 142,
+      "distinct_target_verse_units": 175,
+      "distinct_target_passages": 116,
+      "source_and_target_distinct_units": 197,
+      "same_chapter_pairs": 77,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Independently read all 80 complete actual Numbers4-5 source units and every retained complete target passage. Target units within Numbers4-5 were read with the full source chapters, and all other retained units were read in a complete separate display. Read all 142 source/target/category/rationale entries in two untruncated packets of 70 and 72, checking each against the actual complete texts and context. Checked actors, service ages, covers and colours, furniture, poles, shoulders, appointed burdens, census figures, impurity types, punishment conditions, confession and restitution recipients and amounts, barley offering, oath branches, concealed defilement, absence of witnesses, ritual stages and alternative clean outcome.",
+      "additional_context_passages_read": [
+        "2 Samuel 6:1-8",
+        "Deuteronomy 23:9-15",
+        "Numbers 12:10-15",
+        "Numbers 19:11-22",
+        "Leviticus 5:1-16",
+        "Leviticus 5:20-26",
+        "Exodus 30:1-10",
+        "Exodus 26:31-37"
+      ],
+      "source_integrity_checks": [
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cached_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+          "cached_sha256": "95ba0338ebc4ba896ea6db2032a2f6f85589ba2a68b851fc2d4b2cf481288abe"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cached_extra_LF_only": false,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+          "cached_sha256": "a4a8c0bcbd03b8eed39a895984b81a3b358a8238726dd9ddcce9038636f80cd9"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cached_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+          "cached_sha256": "4d61e443f9cf28a656d19dd02bd541a1b2c2eed10f6ab5dc5ee2113812bbc8da"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cached_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+          "cached_sha256": "84614034a7758711be4066c02f328b0c41865db940acaf62195a5d119157d2a9"
+        },
+        {
+          "book": "1 Chronicles",
+          "records": "1-chronicles/verses.json",
+          "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+          "raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cached_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "2f3b41f3542698e2808137f822d03f704f8fc1dff5d4ced8cee815289c2ef730",
+          "cached_sha256": "8da3756e4de450daa92432e39a668de4806986c2ad890e71781de51323bf7fc1"
+        },
+        {
+          "book": "2 Samuel",
+          "records": "2-samuel/verses.json",
+          "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+          "raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": true,
+          "cached_extra_LF_only": false,
+          "cache_equals_LF_normalized_pin_plus_LF": false,
+          "pinned_sha256": "2bad7ab804a4d19978d9973b070f85343705c6476264bbec7dd72f5ae8023cc0",
+          "cached_sha256": "2bad7ab804a4d19978d9973b070f85343705c6476264bbec7dd72f5ae8023cc0"
+        }
+      ],
+      "pin_verification_method": "Independently fetched all six exact raw book files at the pinned commit for this peer audit and recomputed their raw Git blob hashes against the registered expected hashes. Compared each complete parsed record with the cache. Numbers, Leviticus, Deuteronomy and 1 Chronicles caches append one LF; Exodus cache additionally normalizes CRLF to LF; 2 Samuel cache is byte-identical. Parsed equality is distinguished from byte equality. Evidence: numbers-4-5-peer-pins.json and pins-4-5-peer/.",
+      "resolved_precision_corrections": [
+        {
+          "source_reference": "Numbers 4:5",
+          "target": "Exodus 40:21",
+          "original_rationale": "Moses places the veil to screen the installed ark; Aaron removes that veil to cover the travelling ark.",
+          "final_rationale": "Moses places the veil to screen the installed ark; Aaron and his sons remove that veil to cover the travelling ark."
+        },
+        {
+          "source_reference": "Numbers 4:15",
+          "target": "Numbers 18:3",
+          "original_rationale": "Both laws distinguish Levite service from approaching holy vessels, warning that improper approach can bring death.",
+          "final_rationale": "Both laws restrict Levitical access to holy vessels with death warnings: this source permits entry to carry but forbids touching, whereas the later law forbids approach."
+        }
+      ],
+      "resolved_label_correction": "All 77 intrachapter category labels now explicitly begin Same-chapter. Independently displayed and read all 77 category changes; source and target keys and rationales otherwise unchanged except the two identified corrections.",
+      "final_correction_reread": "Independently displayed and reread the complete final source, target, category and rationale triples for Numbers4:5 to Exodus40:21 and Numbers4:15 to Numbers18:3. The former now retains Aaron and his sons; the latter distinguishes permitted entry/carrying and forbidden touching from the later no-approach rule. Verified that the final file differs from the original audited file only by those two rationales and the 77 explicit category prefixes.",
+      "editorial_notes": [
+        "The actual twenty-five-to-fifty service range remains unchanged and is consistently distinguished from the earlier one-month population counts.",
+        "Covering and transport links follow actual cloth colours, blue leather, lampstand/table/altar equipment, and the basin clause in Numbers4:14; no alternative-edition hide material was substituted.",
+        "Kohath carries after Aaron and his sons cover the holy things. Priest, division and individual assignment roles remain distinguished.",
+        "The three service division counts 2750, 2630 and 3200 support the total 8580; component, population and fulfilment links are particular and explicitly labelled.",
+        "Corpse contact, remaining unpurified, and defiling the holy things are distinguished in the retained Numbers19 connections; punishment is not asserted for contact alone.",
+        "Jealous suspicion is not treated as proof of defilement. The law and rationales preserve concealed defilement, lack of witnesses, conditional adverse effects and the clean woman's unharmed outcome.",
+        "No modern medical mechanism or present-day legal prescription is inferred from the jealousy ritual.",
+        "No required pair removals resulted from the review."
+      ],
+      "required_issues": [],
+      "required_corrections": [],
+      "required_changes": [],
+      "removals": [],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "result": "All 142 final retained pairs supported for the initial supplied-English curated pass after the two precision corrections and explicit same-chapter labels.",
+      "completion_credit": {
+        "peer_review": 0,
+        "technical_checks": 0,
+        "inventory_import": 0,
+        "new_source_verses": 0,
+        "new_pairs": 0
+      },
+      "limitations": "AI-assisted supplied-English passage review. No new Greek, Hebrew, apparatus, translation or independent human specialist verification is claimed. Review does not imply exhaustive discovery.",
+      "original_author_receipt_sha256": "fb96aee7bdc2f775b17e0fb115de1a52d3aaf1a6907ecaf22f62548e1d58d6e1",
+      "historical_author_receipt_sha256": [
+        "fb96aee7bdc2f775b17e0fb115de1a52d3aaf1a6907ecaf22f62548e1d58d6e1"
+      ],
+      "author_receipt_metadata_confirmation": {
+        "checked_at_utc": "2026-10-29T19:14:08.298448+00:00",
+        "reviewed": "2026-10-29",
+        "review_timezone": "America/New_York",
+        "previous_author_receipt_sha256": "fb96aee7bdc2f775b17e0fb115de1a52d3aaf1a6907ecaf22f62548e1d58d6e1",
+        "current_author_receipt_sha256": "184d0f997a99dcf8894878360ccbbc0be566c9fa994ac4be213421354ed9096e",
+        "previous_peer_receipt_sha256": "4f1c97240d55e1aa88c543064f5e6c7fd906ab45766aa3e2718d5a0f34aeda81",
+        "method": "Read the complete current normalized author receipt and verified its counts and input hashes against the unchanged reviewed TSV and existing peer scope. Removing only the appended final_input_sha256 metadata field and serializing with the original CRLF line endings exactly reproduces the historical author receipt SHA. Thus the normalization adds final-input metadata only; the stated counts, review prose, source pins and reviewed passages are unchanged.",
+        "normalized_fields": [
+          "final_input_sha256"
+        ],
+        "counts_confirmed": {
+          "completed_source_verses": 80,
+          "completed_pairs": 142,
+          "distinct_target_verse_units": 175
+        },
+        "unchanged_final_tsv_sha256": "453939e0ef66779facaf1340009a5f345d2ab379e1ca43bc07ffee51882e6109",
+        "passage_review_changed": false,
+        "new_source_verse_credit": 0,
+        "new_pair_credit": 0,
+        "peer_review_credit": 0,
+        "technical_credit": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_4_5, independent AI-assisted English-passage peer reviewer",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T18:52:48.998167+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "numbers-6-8.tsv",
+      "input_sha256": "91d934ed3670f02b71d5a4e442e9724ce65f82fd8289ae7cb2e2ca437ffab0ac",
+      "author_review_file": "numbers-6-8-review.json",
+      "author_review_sha256": "6e41b98dd285285894aba4664e63dee8544bc0fe4eeb7ce76b70270300859dd3",
+      "source_chapters": [
+        6,
+        7,
+        8
+      ],
+      "source_verses": 141,
+      "completed_source_verses": 141,
+      "reviewed_pairs": 269,
+      "distinct_target_verse_units": 301,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_rationales_read": true,
+      "review_method": "Independently read every complete actual source unit in Numbers 6 (26), 7 (89), and 8 (26), including all twelve complete daily offerings rather than a repeated-row sample. Read every complete retained actual target (301 distinct verse units across 147 distinct target passages) and all 269 category/rationale rows. Reused complete source reading where a retained target is within Numbers 6-8, and read all external target texts explicitly in two complete displays. Read necessary additional context for Judges 13:1-15 and 16:15-22; Luke 1:13-17; Acts 21:17-27 and 18:18-22; Amos 2:9-16; Leviticus 21:10-12, 8:22-28, and 14:8-23; full Psalms 120, 66 and 28, Psalms 30:15-18 and 79:1-8; John 14:23-31; 1 Kings 8:54-66; 1 Chronicles 23:24-32; Deuteronomy 21:1-9 and 10:6-9. Earlier complete actual contextual reads in this same assignment included Numbers 3-4, 18:1-19 and 19:11-22; Exodus 25-30 sanctuary instructions; Leviticus 2:1-3, 5:1-16 and 7:6-14. Then reread complete final corrected source-target-category-rationale triples for all four substantive changes and all twenty-four singular-grammar corrections, verifying the final frozen hash. This is English-passage review, not Greek/Hebrew apparatus or independent human specialist approval.",
+      "particular_quality_findings": [
+        "The twelve donors match actual names, fathers, tribes, days and census/camp identities. Gad retains Eliasaph son of Reuel as supplied.",
+        "Repeated daily gifts are linked to Nahshon's corresponding first-day specimen and to the explicitly stated final aggregate, with actual vessel materials, weights, contents, animal types, sex and quantities identified. No unrestricted all-to-all donor combinations are retained.",
+        "Silver arithmetic is 12 times (130 plus 70) = 2400; incense gold is 12 times 10 = 120; animal components agree with actual totals of 12, 24 and 60 as applicable.",
+        "Vow comparisons preserve limited and lifelong consecration distinctions, maternal restrictions in Judges, and the absence of an explicit Nazirite label for John or a complete rite in Acts 18.",
+        "Age twenty-five and withdrawal at fifty are preserved; the final Numbers 8:26 explanations retain the actual brother subject and no-work restriction without substituting a familiar rendering.",
+        "Same-chapter speech/content, command/fulfilment, donor/specimen, component/aggregate and restriction/release entries are expressly identified; no generic shared-speech formula is used to pair unrelated speeches."
+      ],
+      "resolved_corrections": [
+        {
+          "rows": [
+            262,
+            268,
+            269
+          ],
+          "issue": "Draft rationales assumed the retired Levite continues assisting brothers and keeping charges.",
+          "resolution": "Final rationales retain the actual Numbers 8:26 wording, which names his brother ministering and keeping charges alongside the no-work prohibition. Complete corrected triples reread."
+        },
+        {
+          "rows": [
+            62
+          ],
+          "issue": "Draft called Merari's structural duties heavier, although the actual source does not make that comparison.",
+          "resolution": "Removed heavier; final rationale states structural duties and names Ithamar."
+        },
+        {
+          "rows": [
+            73,
+            76,
+            84,
+            88,
+            96,
+            100,
+            108,
+            112,
+            120,
+            124,
+            132,
+            136,
+            144,
+            148,
+            156,
+            160,
+            168,
+            172,
+            180,
+            184,
+            192,
+            196,
+            204,
+            208
+          ],
+          "issue": "Repeated singular gift phrases used an incorrect plural determiner.",
+          "resolution": "Corrected to presents a gold incense vessel or presents a sin offering goat; all corrected triples reread."
+        }
+      ],
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "unpairedrefs": [],
+      "peer_completion_credit": 0,
+      "technical_completion_credit": 0,
+      "inventory_completion_credit": 0,
+      "import_completion_credit": 0,
+      "repository_mutations": 0,
+      "tsv_mutations_by_peer": 0,
+      "disposition": "Accept final frozen 269-pair file after author corrections.",
+      "author_review_sha256_at_passage_review": "3e7340970762dbbe8797fdd552cf08ff80a7b0a9fd7446aaaf02f71e3bcedcf5",
+      "historical_author_review_file": "numbers-6-8-author-receipt-before-normalization.json",
+      "normalized_author_review_confirmation": {
+        "checked_at_utc": "2026-10-29T19:09:43.323609+00:00",
+        "method": "Read the complete final normalized author receipt. Reconstructing the previous receipt by removing only final_input_sha256 and retaining its original CRLF serialization yields the exact historical SHA recorded during the full passage review. This confirms unchanged counts, editorial method, source pins, reading declarations, exclusions and explanations; the added field merely repeats the frozen TSV input fingerprint. The current author_review_sha256 binds the current author receipt, while author_review_sha256_at_passage_review preserves the historical version.",
+        "added_fields": [
+          "final_input_sha256"
+        ],
+        "historical_receipt_sha256": "3e7340970762dbbe8797fdd552cf08ff80a7b0a9fd7446aaaf02f71e3bcedcf5",
+        "current_receipt_sha256": "6e41b98dd285285894aba4664e63dee8544bc0fe4eeb7ce76b70270300859dd3",
+        "changed_pair_count": 0,
+        "new_completion_credit": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_1_3 peer (independent AI-assisted English-passage review of another author’s Numbers 9–10 packet)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T19:01:46.580689+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-29-1440\\numbers-9-10.tsv",
+      "input_sha256": "f4ce99906c117519b88d638d42e822321ed2b4bea932834c20b6d45831577c49",
+      "author_review_file": "numbers-9-10-review.json",
+      "reviewed_source_chapters": [
+        9,
+        10
+      ],
+      "source_verses": 59,
+      "source_verses_read": 59,
+      "retained_pairs_reviewed": 78,
+      "distinct_target_verse_units": 149,
+      "chapter_pair_counts": {
+        "9": 31,
+        "10": 47
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_read": true,
+      "review_method": "Independently read all 59 complete actual Numbers 9–10 source units, all complete retained target units, every category and rationale, and necessary contexts. Then displayed and read every complete actual source–target–category–rationale triple in two packets (pairs 1–39 and 40–78) from the intermediate author-corrected hash 5750436dc19d704cb9c33ccf6e3b4d1318fd63fb29411635e2e4dda07162bd10. Requested the specific 9:8 wording correction, which the author accepted. After final freeze f4ce99906c117519b88d638d42e822321ed2b4bea932834c20b6d45831577c49, separately displayed and reread the complete final triples at 9:8→15:32–36, 9:17→10:11–12, and 10:35→Psalms 131:8, covering all three author-declared changes from the initial draft. The 9:17 category and 10:35 wording already appeared corrected in the intermediate full-triple reading. No other retained correction or removal is required. No original-language, apparatus, or independent human-specialist review is performed or claimed.",
+      "necessary_contexts_read": [
+        "Numbers 1–4 actual retained source/target context; full Numbers 9–10; Numbers 15:14–16 and 15:32–36; Numbers 19:11–22; Numbers 27:1–11; Numbers 31:1–8.",
+        "Exodus 6:1–9; complete Exodus 12; Exodus 13:17–22; Exodus 40:1–38 in its actual retained source divisions. Leviticus 23:4–8 and 23:23–25.",
+        "2 Chronicles 5:1–14, 13:1–20, and 30:1–20; John 19:31–37; Joshua 3:1–17; Deuteronomy 1:19–33; Psalms 67:1–5, 80:1–6, and 131:1–10."
+      ],
+      "resolved_corrections": [
+        {
+          "source_reference": "Numbers 9:8",
+          "target": "Numbers 15:32-36",
+          "correction": "Changed places a suspected offender in custody to places the man found gathering wood on the Sabbath in custody, preserving the target’s explicitly observed act and its uncertainty about the ruling.",
+          "status": "Author accepted; complete corrected source, five-unit target, category, and rationale reread against final hash."
+        },
+        {
+          "source_reference": "Numbers 9:17",
+          "target": "Numbers 10:11-12",
+          "correction": "Author corrected the initial Same-chapter category to Later recorded cloud-rise departure counterpart.",
+          "status": "Corrected category present during full independent peer-triple pass and separately reread after final freeze."
+        },
+        {
+          "source_reference": "Numbers 10:35",
+          "target": "Psalms 131:8",
+          "correction": "Author removed inserted among and preserved the actual Turn back, O Lord, the thousands and myriads in Israel wording; rationale retains the different directives in the shared ark/rest setting.",
+          "status": "Corrected rationale present during full peer-triple reading and separately reread after final freeze."
+        }
+      ],
+      "particular_checks": [
+        "Numbers 9:1 first-month speech remains distinct from Numbers 1:1 second-month-first-day census and Numbers 10:11 second-month-twentieth-day cloud rise.",
+        "Passover exception is corpse uncleanness or distant journey, with second-month-fourteenth-day evening observance; the clean non-travelling omission condition is not assigned an unstated mental motive.",
+        "2 Chronicles 30 prayer and purification irregularities remain distinct from Numbers 9’s prescribed exception; John’s bone statement is not claimed to uniquely quote Numbers.",
+        "Numbers 10:6 preserves second southwest, third toward the sea, and fourth north signals; no external blast-length interpretation is imposed.",
+        "Named tribal leaders, their exact patronymics including Reuel, directional camp assignments, and the earlier counts are preserved; the march notice is not said to repeat census figures.",
+        "Numbers 10:31 is an elder promise, not substituted familiar-edition eyes language. The ark invocation at 10:34, rest invocation at 10:35, and cloud at 10:36 retain exact source order.",
+        "The ark-before-people and sanctuary transport comparisons preserve their stated agents, duties, and distinct settings without importing a harmonized chronology."
+      ],
+      "source_books": [
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+          "verse_units": 833,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "verse_units": 959,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "verse_units": 1165,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": false,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "John",
+          "records": "john/verses.json",
+          "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+          "verse_units": 878,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+          "verse_units": 659,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "verse_units": 859,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "verse_units": 1287,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "verse_units": 2534,
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        }
+      ],
+      "pin_verification": "Independently fetched the eight exact retained-source book records at the stated commit, verified their raw Git blob identities against existing source registries, and compared complete parsed JSON with local caches. All eight match in parsed data and pinned raw Git blob SHA. Cache byte equality is false: each adds one trailing LF, and Exodus additionally normalizes CRLF to LF. Receipt numbers-9-10-peer-pins.json.",
+      "required_issues": [],
+      "required_removals": [],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "author_uncounted_candidate_note": "The author separately reports Numbers 10:29→Judges 4:11 as an uncounted, unresolved Hobab/Jobab identity candidate. It is absent from the retained 78-pair TSV; no peer approval, retained-pair credit, or independent identity resolution is claimed for it.",
+      "verdict": "accepted_after_precision_corrections",
+      "completion_credit": {
+        "new_source_verses": 0,
+        "new_pairs": 0,
+        "imports": 0,
+        "technical_checks": 0,
+        "peer_review": 0
+      },
+      "author_review_sha256": "a0851070326c544288e14228451392cdd350d8f1fec71ab362d1ac9e515938f9",
+      "final_input_sha256": "f4ce99906c117519b88d638d42e822321ed2b4bea932834c20b6d45831577c49",
+      "metadata_confirmation": {
+        "confirmed_at_utc": "2026-10-29T19:13:32.193688+00:00",
+        "reviewed": "2026-10-29",
+        "review_timezone": "America/New_York",
+        "author_review_file": "numbers-9-10-review.json",
+        "author_review_sha256": "a0851070326c544288e14228451392cdd350d8f1fec71ab362d1ac9e515938f9",
+        "prior_author_review_sha256": null,
+        "prior_peer_review_sha256": "ec301bc8fcd158857fa7539bcad39742c04e979ca2798688c8e6a7936f5a7254",
+        "method": "Read the complete current normalized author receipt. Confirmed its 59 source units, 78 completed pairs, 149 target units, chapter counts 31/47, source commit, eight source-book pins, unchanged final TSV fingerprint, review method and reread account. The finalizer added explicit counts and final input metadata only; no TSV, source passage, target passage, category or rationale changed. The pending Hobab/Jobab identity candidate remains explicitly uncounted and outside retained-pair approval. No prior author-receipt SHA was recorded in this peer receipt, so no historical author SHA is invented. The prior peer-receipt SHA is preserved for traceability.",
+        "unchanged_tsv_sha256": "f4ce99906c117519b88d638d42e822321ed2b4bea932834c20b6d45831577c49",
+        "new_source_verse_credit": 0,
+        "new_pair_credit": 0,
+        "technical_credit": 0,
+        "peer_credit": 0
+      }
+    }
+  ],
+  "applied_peer_corrections": [
+    {
+      "file": "numbers-9-10.tsv",
+      "source_reference": "Numbers 9:8",
+      "target": "Numbers 15:32-36",
+      "kind": "Peer-requested observed-action precision",
+      "previous_phrase": "places a suspected offender in custody",
+      "corrected_phrase": "places the man found gathering wood on the Sabbath in custody",
+      "reason": "The passage reports the observed action and uncertainty over what to do, rather than labelling the action merely suspected.",
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "numbers-9-10.tsv",
+      "source_reference": "Numbers 9:17",
+      "target": "Numbers 10:11-12",
+      "kind": "Correct cross-chapter category",
+      "correction": "Removed incorrect Same-chapter label from a chapter9-to10 relation; target and explanation unchanged.",
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "numbers-9-10.tsv",
+      "source_reference": "Numbers 10:35",
+      "target": "Psalms 131:8",
+      "kind": "Retain actual invocation wording",
+      "correction": "Use the supplied Turn back, O Lord, the thousands and myriads in Israel wording, without inserting among.",
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Numbers 10:29",
+      "target": "Judges 4:11",
+      "status": "pending identity review",
+      "reason": "The actual pinned Numbers text names Hobab son of Reuel, a Midianite and Moses' kinsman by marriage. The actual pinned Judges text names sons of Jobab, Moses' in-law. Both texts were read, but the possible identity or name equivalence has not been independently resolved. This candidate is not a completed pair.",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "judges/verses.json",
+        "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+      },
+      "target_verses": [
+        {
+          "reference": "Judges 4:11",
+          "id": "v4-11",
+          "text": "The neighbours of the Kenite had separated from the sons of Jobab, Moses’ in-law. He pitched his tent near the Oak of the Resters, near Kedesh.",
+          "text_sha256": "e012b3baa6d1a8ea58b3c92a4bdc06a6aa25ce3587af16dbb31dc6d6f213ca56"
+        }
+      ],
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "known_pending_target_candidates": [
+    {
+      "source_reference": "Numbers 10:29",
+      "target": "Judges 4:11",
+      "status": "pending identity review",
+      "reason": "The actual pinned Numbers text names Hobab son of Reuel, a Midianite and Moses' kinsman by marriage. The actual pinned Judges text names sons of Jobab, Moses' in-law. Both texts were read, but the possible identity or name equivalence has not been independently resolved. This candidate is not a completed pair.",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "judges/verses.json",
+        "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+      },
+      "target_verses": [
+        {
+          "reference": "Judges 4:11",
+          "id": "v4-11",
+          "text": "The neighbours of the Kenite had separated from the sons of Jobab, Moses’ in-law. He pitched his tent near the Oak of the Resters, near Kedesh.",
+          "text_sha256": "e012b3baa6d1a8ea58b3c92a4bdc06a6aa25ce3587af16dbb31dc6d6f213ca56"
+        }
+      ],
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Genesis 49:9",
+      "target": "Revelation 5:5",
+      "reason": "Saints70 retains this canonical book, but its exact target text is not present in the pinned Saints-Translation records. Missing source identity/content must be supplied before review.",
+      "status": "pending pinned target evidence"
+    },
+    {
+      "source_reference": "Exodus 15:1",
+      "target": "Revelation 15:3",
+      "status": "pending pinned target evidence",
+      "reason": "Candidate for later review only. The pinned Saints-Translation records provide no actual Revelation target text; this passage has not been read or verified in the selected edition and is not included in completed pairs."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "source_reference": "Numbers 3:30",
+      "candidate_targets": [
+        "Exodus 6:22",
+        "Leviticus 10:4"
+      ],
+      "reason": "Do not assume Numbers Elizaphan and Exodus/Leviticus Elzaphan are identical solely from similar spelling and Uzziel patronymic; retained local explicit Kohathite context instead."
+    },
+    {
+      "source_reference": "Numbers 3:39",
+      "candidate_target": "Numbers 3:22-34",
+      "reason": "Excluded a proposed equal-sum claim because the supplied clan counts sum to 22,150 rather than the stated 22,000 total."
+    },
+    {
+      "source_reference": "Numbers 4:28",
+      "target": "Numbers 7:7-8",
+      "reason": "Removed an indirect wagon-allocation and supervisory comparison; the direct shared-Ithamar relationship to Numbers 4:33 is retained."
+    },
+    {
+      "source_reference": "Numbers 5:13-28",
+      "proposed_claim": "The water necessarily causes a named modern medical outcome or proves guilt from jealousy alone",
+      "reason": "Neither inference is established by the supplied English wording; retained explanations preserve the law's conditional defilement and clean outcomes."
+    },
+    {
+      "source_reference": "Numbers 4:3-47",
+      "proposed_claim": "Service begins at thirty years because another edition uses that age",
+      "reason": "The actual supplied records consistently say twenty-five; alternative-edition substitution excluded."
+    },
+    "Did not retain a 2 Thessalonians3:16 candidate because its actual target text was not present under that exact key in the available passage index.",
+    "Did not retain an Ezra6:16-17 candidate because no actual passage existed under that key; no numbering or book-title substitution was invented.",
+    "No Revelation target: actual text was unavailable.",
+    "Did not equate John's wine abstinence with an explicit Nazirite identification or claim Acts18:18 narrates the complete Numbers6 rite.",
+    {
+      "source_reference": "Numbers 9:1,3,11 / Numbers 10:11",
+      "proposed_claim": "Every second-year or fourteenth-day notice has the same date",
+      "reason": "The actual source distinguishes first and second months and first, fourteenth and twentieth days; exception observance and departure dates remain distinct."
+    },
+    {
+      "source_reference": "Numbers 9:12",
+      "proposed_claim": "John19 explicitly identifies Numbers9 as its uniquely named unbroken-bone quotation source",
+      "reason": "John cites Scripture without naming this particular book/verse. The retained relation compares the actual unbroken-bone wording without selecting a unique quotation origin."
+    },
+    {
+      "source_reference": "Numbers 10:6,31,34-36",
+      "proposed_claim": "Replace the source with a familiar shorter trumpet rule, eyes role or different final verse order",
+      "reason": "The supplied text has four directional signals, the proposed elder role, and prayer/rest/cloud at34/35/36. Those readings and anchors remain intact."
+    }
+  ],
+  "remaining_checks": [
+    "Independent human specialist review",
+    "Original-language and critical-apparatus comparison",
+    "Live destination-anchor and display verification"
+  ],
+  "target_identity_preflight": {
+    "checked_at_utc": "2026-10-29T19:14:54.181422+00:00",
+    "source_units": 419,
+    "retained_pairs": 727,
+    "reference_resolution": "passed in actual source order",
+    "canonical_target_membership": "passed",
+    "no_duplicate_self_pairs": "passed",
+    "same_chapter_labels": "passed",
+    "final_peer_hash_bindings": "passed",
+    "new_unresolved_identity_candidates_excluded": 1,
+    "completion_credit": 0
+  },
+  "receipt_metadata_confirmation": {
+    "checked_at_utc": "2026-10-29T19:14:54.280044+00:00",
+    "reason": "Author receipts gained a final_input_sha256 field during finalization, after passage reviews. Peers subsequently read the final author receipts and bound their exact current fingerprints; historical fingerprints remain identified as historical. Reviewed TSVs, passages, explanations and completed counts did not change.",
+    "embedded_author_receipt_serialization": {
+      "encoding": "UTF-8 without BOM",
+      "json_indent": 2,
+      "ensure_ascii": false,
+      "newline": "CRLF",
+      "final_newline": true
+    },
+    "fingerprints": [
+      {
+        "author_file": "numbers-1-3-review.json",
+        "author_sha256": "10aa46d75f0810d4f024b6ae19daa609f7a6ea65783a9c4a7d6930d31e96db48",
+        "peer_file": "numbers-1-3-peer-review.json",
+        "peer_sha256": "2f33f498e727bdcc40ce60dd04e14bcfc294d8eaa9f3cf1977983a6ec488e48f"
+      },
+      {
+        "author_file": "numbers-4-5-review.json",
+        "author_sha256": "184d0f997a99dcf8894878360ccbbc0be566c9fa994ac4be213421354ed9096e",
+        "peer_file": "numbers-4-5-peer-review.json",
+        "peer_sha256": "a37f3a728448f39715c24a0c897cf5b4fa3b5093d3ebe2bc394c56a54d043819"
+      },
+      {
+        "author_file": "numbers-6-8-review.json",
+        "author_sha256": "6e41b98dd285285894aba4664e63dee8544bc0fe4eeb7ce76b70270300859dd3",
+        "peer_file": "numbers-6-8-peer-review.json",
+        "peer_sha256": "c4b845b323ffa6a08eabd3b6aae259e65c1631e338da88102919dd7a199662d3"
+      },
+      {
+        "author_file": "numbers-9-10-review.json",
+        "author_sha256": "a0851070326c544288e14228451392cdd350d8f1fec71ab362d1ac9e515938f9",
+        "peer_file": "numbers-9-10-peer-review.json",
+        "peer_sha256": "4d5939da62152f7bd24ef313bbd11bbf89ac5c73896ff5d02565ce6c09eeb32a"
+      }
+    ],
+    "new_source_verses_credited": 0,
+    "new_pairs_credited": 0,
+    "technical_confirmation_credit": 0
+  }
+}
