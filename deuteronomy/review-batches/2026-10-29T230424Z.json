@@ -1,0 +1,2660 @@
+{
+  "run_id": "2026-10-29T230424Z",
+  "date": "2026-10-29",
+  "source_range": "Deuteronomy 17:1-34:12",
+  "distinct_source_verses": 487,
+  "new_completed_pairs": 535,
+  "book_results": [
+    {
+      "book": "Deuteronomy",
+      "source_range": "Deuteronomy 17:1-34:12",
+      "distinct_source_verses": 487,
+      "new_completed_pairs": 535,
+      "completed_chapters": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "book_initial_curated_pass_complete": true,
+      "next_reference": null
+    }
+  ],
+  "hourly_target": 500,
+  "target_met": true,
+  "target_shortfall": 0,
+  "target_excess": 35,
+  "unresolved_retained_cases": [],
+  "new_unresolved_candidate_count": 0,
+  "known_pending_target_candidate_count": 8,
+  "review_record": "review-batches/2026-10-29T230424Z.json",
+  "next_reference": "Joshua 1:1",
+  "inventories_added": [
+    {
+      "book": "Joshua",
+      "source_units": 659,
+      "chapters": 24,
+      "record": "joshua/inventory.json",
+      "completed_source_verses": 0,
+      "completed_pairs": 0
+    }
+  ],
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-29",
+  "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
+  "inputs": [
+    {
+      "file": "deuteronomy-17-21.tsv",
+      "sha256": "9416e70622091702af6f80d764134794f14581cc6b182742f47034cde4e04a2c",
+      "pairs": 113
+    },
+    {
+      "file": "deuteronomy-22-26.tsv",
+      "sha256": "b99926b18b262b41d198e716056d87a216d48dc269ea068fadf40f114f6e16cf",
+      "pairs": 121
+    },
+    {
+      "file": "deuteronomy-27-30.tsv",
+      "sha256": "2b2dad5473b9adc77f2a39939c9aaa102346ea98ec2805f5209f99f84706312d",
+      "pairs": 157
+    },
+    {
+      "file": "deuteronomy-31-34.tsv",
+      "sha256": "fed27d7d544ed88d9f8f2c8aafaf7258b0752a7deb2e797a987c2a2f295058b3",
+      "pairs": 144
+    }
+  ],
+  "chapter_pair_counts": {
+    "17": 22,
+    "18": 23,
+    "19": 23,
+    "20": 20,
+    "21": 25,
+    "22": 29,
+    "23": 29,
+    "24": 23,
+    "25": 21,
+    "26": 19,
+    "27": 30,
+    "28": 75,
+    "29": 30,
+    "30": 22,
+    "31": 34,
+    "32": 61,
+    "33": 31,
+    "34": 18
+  },
+  "review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_1_3 (AI-assisted supplied-English passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:18:40.546836+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "source_verses": 106,
+      "completed_source_verses": 106,
+      "completed_pairs": 113,
+      "distinct_target_verse_units": 154,
+      "chapter_pair_counts": {
+        "17": 22,
+        "18": 23,
+        "19": 23,
+        "20": 20,
+        "21": 25
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all106 complete actual source units in Deuteronomy17–21, every retained target passage and necessary surrounding context in Deuteronomy1/2/4/5/7/10/12/13/24/27/28/31, Exodus14/18/20/21/23, Leviticus7/18/19/22/24, Numbers18/19/35, 1Samuel8/10, 1Kings10/11, Genesis29/49, Joshua1/10, Judges7, Matthew18/27, Acts3/6/7 and Galatians3. Separately displayed and read all113 complete source/target/category/rationale triples in three untruncated groups; separately reread the two corrected final triples. Retain actual priestly cuts and beneficiary distinctions, purification-by-fire wording, prophetic tests, accident versus hostile killing, city categories, heifer sinew-cutting, captive-woman provisions, hated-wife firstborn entitlement and body-disposal instruction. The particular local question/answer, condition/consequence, contrast and repeated-list dependencies are explicitly Same-chapter, rather than counted as independent historical fulfillment. Ancient legal textual comparisons do not assert a present-day prescription. After independent peer review reread all three complete peer-corrected triples and both earlier author-corrected triples; preserved the frozen original TSV/author receipt and exact three peer old/new rows without extra completion credit.",
+      "pin_method": "Freshly fetched all12 complete raw source-book files at fixed commit, rehashed every Git blob against existing source registries and verified complete parsed equality with caches. Rehashed saved raw files and their SHA256 receipts. Cache newline and terminal-LF differences are distinguished from parsed equality.",
+      "source_books": [
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        }
+      ],
+      "pin_receipt": "deuteronomy-17-21-pins.json",
+      "input_file": "deuteronomy-17-21.tsv",
+      "input_sha256": "9416e70622091702af6f80d764134794f14581cc6b182742f47034cde4e04a2c",
+      "final_input_sha256": "9416e70622091702af6f80d764134794f14581cc6b182742f47034cde4e04a2c",
+      "source_inventory": "deuteronomy/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "author_corrections": {
+        "original_input_file": "deuteronomy-17-21-initial.tsv",
+        "original_input_sha256": "69af0fefdccb88250cbcf2a37042f08736ec192124041850321510ff3f73c2aa",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 17:16",
+            "old_row": {
+              "source_reference": "Deuteronomy 17:16",
+              "target": "1 Kings 10:28-29",
+              "relationship": "Egyptian horse acquisition contrasted with royal restriction",
+              "rationale": "The ruler must not multiply horses by returning the people to Egypt; Kings records Solomon's horses and chariot trade from Egypt, without saying this account explicitly narrates a return of the people."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 17:16",
+              "target": "1 Kings 10:28-29",
+              "relationship": "Egyptian horse acquisition contrasted with royal restriction",
+              "rationale": "The ruler must not multiply horses and must not return the people to Egypt to acquire them; Kings records Solomon's Egyptian horse and chariot trade, without explicitly narrating a return of the people."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 21:17",
+            "old_row": {
+              "source_reference": "Deuteronomy 21:17",
+              "target": "Genesis 49:3",
+              "relationship": "Firstborn described as beginning of the children",
+              "rationale": "Both describe the firstborn as the beginning of the father's children; Deuteronomy additionally prescribes his double portion and forbids displacing him through preference for his mother."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 21:17",
+              "target": "Genesis 49:3",
+              "relationship": "Firstborn described as beginning of the children",
+              "rationale": "Both describe the firstborn as the beginning of the father's children; Deuteronomy additionally prescribes his double portion and forbids displacing the hated wife's firstborn through preference for the loved wife's son."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Keep the two horse restrictions distinct and correct the maternal-preference referent in the firstborn explanation; no targets or counts changed.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      },
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Use Jeremiah28:7-9 as the familiar fulfilled-prophecy peace test.",
+          "reason": "Actual pinned Jeremiah28:7-9 concerns Babylon, not that prophecy test. The imported numbering is not retained and adds no pair credit."
+        },
+        {
+          "proposed_claim": "Retain 1Kings11:1-4 as a complete ordinary four-unit range or1Kings10:26-29 without its continuation unit.",
+          "reason": "The actual first range lacks11:3, while the second contains10:26a. Retained evidence uses11:4,10:27 and10:28-29 with exact complete units; no alternate numbering is substituted."
+        },
+        {
+          "proposed_claim": "Identify Pilate as innocent, equate his washing with the heifer ritual, infer Og-era sites or modern animal-body parts beyond the supplied wording.",
+          "reason": "The retained comparisons distinguish claims, procedures and specified text; no independent historical, linguistic, geographical or ritual equivalence verification is claimed."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Deuteronomy17",
+          "note": "Preserve the capital witness rule, difficult-case authorities, chosen Israelite ruler, separate horse/Egypt restrictions, royal wives and wealth warnings, and the ruler-written second law. 1Kings evidence keeps actual gaps and continuation numbering without importing an absent11:3."
+        },
+        {
+          "reference": "Deuteronomy18",
+          "note": "Preserve foreleg/cheeks/stomach versus Leviticus breast/right-foreleg portions, Aaron/Levite addressee differences, ancestral-sale qualification, purification-by-fire and divination wording, and the different prophetic tests. Acts quotations retain their speakers and differing judgment formulation."
+        },
+        {
+          "reference": "Deuteronomy19-20",
+          "note": "Preserve conditional refuge expansion, nonhostile accidents versus intentional ambush, inherited boundaries, multiple witnesses and the false-witness penalty; Exodus pregnancy wording remains as supplied. Keep far cities distinct from inherited nations, distinct new-house/vineyard/marriage/fear exemptions, actual Judges7 place names, and food-tree versus nonfood-tree siege rules."
+        },
+        {
+          "reference": "Deuteronomy21",
+          "note": "The heifer has its sinews cut in the rough unworked ravine; do not substitute neck-breaking. Handwashing parallels do not endorse Pilate innocence. Preserve the full mourning month, no-sale restriction, the hated-wife firstborn double portion, persistent rebellious-son conditions, and hanging after death with same-day removal. Galatians is explicitly a later Christological quotation/application."
+        }
+      ],
+      "peer_revisions": {
+        "original_input_file": "deuteronomy-17-21-before-peer.tsv",
+        "original_input_sha256": "0ec0252e95158f6ea7f9b53062a6c40c1055c6f5e705f3c4873a034e71864bb0",
+        "original_author_receipt": "deuteronomy-17-21-before-peer-review.json",
+        "original_author_receipt_sha256": "19aa8545e4f5eaf54100994ed52f8002cbf505e95418ec2f7b3283c6876bcf21",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 17:14",
+            "old_row": {
+              "source_reference": "Deuteronomy 17:14",
+              "target": "1 Samuel 8:4-7",
+              "relationship": "Anticipated ruler request and later request like the nations",
+              "rationale": "Deuteronomy anticipates requesting a ruler like surrounding nations; the elders later request a king like the nations, and the narrative additionally records Samuel's and the Lord's responses."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 17:14",
+              "target": "1 Samuel 8:4-7",
+              "relationship": "Anticipated ruler request and later request like the nations",
+              "rationale": "Deuteronomy anticipates requesting a ruler like surrounding nations; the men of Israel later request a king like the nations, and the narrative additionally records Samuel's and the Lord's responses."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 18:5",
+            "old_row": {
+              "source_reference": "Deuteronomy 18:5",
+              "target": "Deuteronomy 10:8",
+              "relationship": "Levi's chosen ministry and blessing in the Lord's name",
+              "rationale": "Both describe Levi's appointment to stand before the Lord, minister and bless in His name; chapter10 additionally names bearing the ark, while this verse mentions the sons' continuing service."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 18:5",
+              "target": "Deuteronomy 10:8",
+              "relationship": "Chosen priest's ministry and Levi's assigned roles",
+              "rationale": "The chosen priest and his sons receive standing, ministering and blessing roles here; chapter10 assigns those roles to the tribe of Levi and additionally names bearing the ark, preserving the different scopes."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 19:10",
+            "old_row": {
+              "source_reference": "Deuteronomy 19:10",
+              "target": "Numbers 35:33-34",
+              "relationship": "Protection of the land from blood guilt",
+              "rationale": "Both address bloodshed as a defilement of the inhabited land; Deuteronomy states the preventive purpose of refuge provision, while Numbers discusses murder and its stated expiation."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 19:10",
+              "target": "Numbers 35:33-34",
+              "relationship": "Protection of the land from blood guilt",
+              "rationale": "Deuteronomy gives prevention of innocent bloodshed and blood guilt as the purpose of refuge provision; Numbers describes land stained by murder and its stated expiation, preserving the different formulations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Use actual Israel men in1Samuel8, distinguish the chosen priest and sons from the whole tribe in the shared ministry comparison, and distinguish preventing bloodguilt from explicit land-defilement wording. Earlier author correction of21:17 remains unchanged and receives no repeated credit.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_4_6 (AI-assisted supplied-English curation for Deuteronomy22–26)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:17:49.374472+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_verses": 115,
+      "completed_source_verses": 115,
+      "completed_pairs": 121,
+      "distinct_target_verse_units": 175,
+      "chapter_pair_counts": {
+        "22": 29,
+        "23": 29,
+        "24": 23,
+        "25": 21,
+        "26": 19
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all115 actual source units in full, every complete retained target and necessary Exodus1/2/17/19/21/22/23, Leviticus5/13/15/18/19/20/21/22/25, Numbers5/12/15/23/30, Deuteronomy2/4/6/7/10/12/14/15/16/17/19/20, Genesis38, Ruth4, 1Samuel15, 2Kings14, Nehemiah13, Isaiah56, Matthew12/19/22, Mark10, 1Corinthians9/11, 2Corinthians11 and 1Timothy5 contexts. Separately displayed and reread all121 complete source/target/category/rationale triples in five untruncated slices. Before freeze refined two wording precisions, and separately displayed and reread both complete final corrected triples. Legal case continuations connect their particular allegations, evidence, conditions, participants and consequences; they are explicit same-chapter relations rather than independent external attestations. This is an initial curated English-text review without exhaustive discovery or specialist-language verification. After independent peer feedback separately displayed and reread the complete final23:25-to23:26 triple with both relationship and rationale narrowed to limited use, distinguishing hand-gathering grain from eating grapes. Original frozen TSV and author receipt plus exact old/new row delta preserved, with zero completion credit.",
+      "pin_method": "Independently fresh-fetched all16 retained source-book rawJSON at the fixed commit; exact Gitblob rehash against existing registries and complete parsed equality to caches. Recorded cache byte differences separately from parsed equality.",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+        },
+        {
+          "book": "1 Timothy",
+          "records": "1-timothy/verses.json",
+          "blob_sha": "02e0778c9eed12dfc0a8ca4552efbd5537e5a20b"
+        },
+        {
+          "book": "2 Corinthians",
+          "records": "2-corinthians/verses.json",
+          "blob_sha": "2b83f1dc75d862ddb0a0a9fdbdbd63fc2682c346"
+        },
+        {
+          "book": "2 Kings",
+          "records": "2-kings/verses.json",
+          "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Isaiah",
+          "records": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Mark",
+          "records": "mark/verses.json",
+          "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Ruth",
+          "records": "ruth/verses.json",
+          "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18"
+        }
+      ],
+      "pin_receipt": "deuteronomy-22-26-pins.json",
+      "input_file": "deuteronomy-22-26.tsv",
+      "input_sha256": "b99926b18b262b41d198e716056d87a216d48dc269ea068fadf40f114f6e16cf",
+      "final_input_sha256": "b99926b18b262b41d198e716056d87a216d48dc269ea068fadf40f114f6e16cf",
+      "source_inventory": "deuteronomy/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "author_refinements_before_freeze": [
+        {
+          "source_reference": "Deuteronomy 26:8",
+          "old_row": {
+            "source_reference": "Deuteronomy 26:8",
+            "target": "Deuteronomy 4:34",
+            "relationship": "Repeated deliverance recital of hand, arm, visions and signs",
+            "rationale": "Both recount Egypt's deliverance through mighty hand, uplifted arm, great visions, signs and wonders, preserving the explicit features of the Lord's action named in each recital."
+          },
+          "new_row": {
+            "source_reference": "Deuteronomy 26:8",
+            "target": "Deuteronomy 4:34",
+            "relationship": "Repeated deliverance recital of hand, arm, visions and signs",
+            "rationale": "Both recount deliverance from Egypt through mighty hand, uplifted arm, great visions, signs and wonders, preserving the explicit features of the Lord's action named in each recital."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Deuteronomy 26:17",
+          "old_row": {
+            "source_reference": "Deuteronomy 26:17",
+            "target": "Joshua 24:21-24",
+            "relationship": "Choosing the Lord and pledging to hear His voice",
+            "rationale": "Both describe the people choosing the Lord and committing to obey His voice; Joshua records the people's spoken pledge and the removal of foreign gods, while Deuteronomy enumerates walking and keeping ordinances."
+          },
+          "new_row": {
+            "source_reference": "Deuteronomy 26:17",
+            "target": "Joshua 24:21-24",
+            "relationship": "Choosing the Lord and pledging to hear His voice",
+            "rationale": "Both describe the people choosing the Lord and committing to obey His voice; Joshua records their spoken pledge and commands removal of foreign gods, while Deuteronomy enumerates walking and keeping ordinances."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        }
+      ],
+      "author_draft_file": "deuteronomy-22-26-author-draft.tsv",
+      "author_draft_sha256": "8f620083eb3461519e3068791954c37f95266579b916338004da7db171196c5e",
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Use conventional chapter/verse numbers for lost property, abduction, an unbetrothed virgin, the father-wife rule or grain/vineyard order.",
+          "reason": "Retained actual Leviticus5:22-24, Exodus21:17, Exodus22:15-16, Deuteronomy23:1 and23:25-26 instead. The familiar Leviticus6:1-7 and Exodus21:16 passages were read and did not contain the proposed matches."
+        },
+        {
+          "proposed_claim": "Use a self-inclusive23:22-24 range for source23:23.",
+          "reason": "Removed the self-inclusive proposed range before review completion; retained23:22 alone with a narrower particular nonvowing-versus-vowing contrast. No discarded proposal credited."
+        },
+        {
+          "proposed_claim": "Equate bodily categories or treat Isaiah56 as an explicit abrogation of Deuteronomy23:2, treat all sex-distinguished clothing instructions as the same rule, or harmonize Ruth sandal procedures with Deuteronomy25.",
+          "reason": "The retained comparisons explicitly preserve different categories, settings, roles and actions and make no specialist identity or doctrinal resolution."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Deuteronomy22",
+          "note": "Keep equipment/robe wording; unlike animal pairing instructions differ between ploughing and breeding. Preserve bird mother/young versus same-day livestock slaughter distinction, calf/donkey forms, vineyard consecration, wool/linen, gate evidentiary procedure, city/field differences, explicit absence of capital guilt for the forced field victim, forces versus Exodus deception, and fifty silver didrachmas without revising Scripture."
+        },
+        {
+          "reference": "Deuteronomy23",
+          "note": "Keep father-wife rule at23:1; specific assembly categories, Ammonite/Ammanite forms, third-generation Edomite/Egyptian admission, nighttime discharge and sunset reentry, peg waste burial, fugitive residence, initiation rites, literal dog-price wording, brother/foreigner interest distinction, voluntary but binding vows, and grain23:25 before vineyard23:26. Isaiah and Pauline comparisons retain their distinct settings."
+        },
+        {
+          "reference": "Deuteronomy24",
+          "note": "The divorce instruction is a conditional case ending in a former-husband remarriage prohibition; Matthew and Mark speakers remain distinguished. Keep newlywed one-year versus betrothed exemptions, pledge rules and mercy wording, actual abduction reference, priestly skin-affliction roles, Miriam memory, same-day/sunset versus overnight wage wording, individualized judgment and harvest provisions for named groups."
+        },
+        {
+          "reference": "Deuteronomy25",
+          "note": "Preserve forty stripes versus Paul forty-less-one, the unmuzzled-ox citations, brother-widow rules versus Boaz kinship transaction, different sandal removers and absence of spitting in Ruth, case-specific hand penalty, actual chous/weights terms and Amalek remembrance without adding historical or modern application claims."
+        },
+        {
+          "reference": "Deuteronomy26",
+          "note": "Preserve father-forsook-Syria, few ancestors versus seventy in10:22, basket/priest/giver roles, explicit great visions, third-year second tithe versus14:28all tithe, sacred-food purity roles, heavenly holy house and chosen-God/chosen-people statements exactly as supplied."
+        }
+      ],
+      "peer_revisions": {
+        "original_input_file": "deuteronomy-22-26-before-peer.tsv",
+        "original_input_sha256": "aff8543f4ce84e08d367ccb6f30c4323025f73db27de73e00f24cb28ecdad431",
+        "original_author_receipt": "deuteronomy-22-26-before-peer-review.json",
+        "original_author_receipt_sha256": "0a0cc912882ed0de67ccc5230b9498b72ab339e254ba6ab3a421efbd93755942",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 23:25",
+            "old_row": {
+              "source_reference": "Deuteronomy 23:25",
+              "target": "Deuteronomy 23:26",
+              "relationship": "Same-chapter bounded eating from a neighbour's produce",
+              "rationale": "Both allow immediate consumption of a neighbour's produce while limiting collection: grain may be hand-plucked without a sickle, and grapes eaten without filling a vessel."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 23:25",
+              "target": "Deuteronomy 23:26",
+              "relationship": "Same-chapter bounded use of a neighbour's produce",
+              "rationale": "Both permit limited use of the neighbour's produce: grain may be hand-gathered without a sickle, and grapes eaten without filling a vessel, preserving the different stated acts."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Distinguish explicit hand-gathering of grain from explicit eating of grapes rather than calling both permissions immediate consumption.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_7_10 (AI-assisted supplied-English curation for Deuteronomy27–30)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:16:01.843527+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "source_verses": 143,
+      "completed_source_verses": 143,
+      "completed_pairs": 157,
+      "distinct_target_verse_units": 164,
+      "chapter_pair_counts": {
+        "27": 30,
+        "28": 75,
+        "29": 30,
+        "30": 22
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all143 complete actual source units, all retained complete targets and necessary contexts. Separately displayed and reread every157 complete source/target/category/rationale triple in five untruncated portions (27with30, three28slices,29). Read the complete Leviticus26 covenant chapter and18sexual-prohibition context; actual Joshua9:2a–2f continuations and1law exhortation; Exodus20/21/23; Deuteronomy2/3/4/5/6/7/8/10/11/12/13/15/17/19/20/24/26; Galatians3:10–14, Hebrews12:14–17, Romans10:4–13, Isaiah59:9–11, Jeremiah5:14–19and7:30–34, Micah6:9–16, 2Chronicles36:14–21andGenesis19:23–29. Before first freeze preserved the draft and exact nine old/new row refinements, then separately displayed and reread all nine complete corrected triples. Same-chapter links identify particular inverse blessings/curses, repeated exact formulas, dependent case details, list introductions, stated individual scope and questions with their answers; they are not claimed as independent outside attestations. This is initial English-text curation, not exhaustive discovery or independent Greek/Hebrew, apparatus or human-specialist verification.",
+      "pin_method": "Fresh independent raw fetch of all12 retained source books at the fixed commit; rehashed Gitblob identities against registries and verified complete parsed cache equality. Recorded raw/cache byte equality separately; only Micah is byte-identical.",
+      "source_books": [
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Isaiah",
+          "records": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df"
+        },
+        {
+          "book": "Jeremiah",
+          "records": "jeremiah/verses.json",
+          "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Micah",
+          "records": "micah/verses.json",
+          "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        }
+      ],
+      "pin_receipt": "deuteronomy-27-30-pins.json",
+      "input_file": "deuteronomy-27-30.tsv",
+      "input_sha256": "2b2dad5473b9adc77f2a39939c9aaa102346ea98ec2805f5209f99f84706312d",
+      "final_input_sha256": "2b2dad5473b9adc77f2a39939c9aaa102346ea98ec2805f5209f99f84706312d",
+      "source_inventory": "deuteronomy/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "author_corrections": {
+        "original_input_sha256": "3cc7cb44552d3e1e29bf7aee7445483dea68d31e5c29e4b928a10b48df56b444",
+        "original_input_file": "deuteronomy-27-30-before-refinement.tsv",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 27:4",
+            "old_row": {
+              "source_reference": "Deuteronomy 27:4",
+              "target": "Joshua 9:2a",
+              "relationship": "Ebal construction command and narrated altar location",
+              "rationale": "The stones are to be set up upon Mount Ebal; Joshua's actual continuation locates his altar on Mount Ebal, retaining the different objects described in these units."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 27:4",
+              "target": "Deuteronomy 27:2",
+              "relationship": "Same-chapter repeated stone-and-plaster command with named destination",
+              "rationale": "The instruction to set up and plaster these stones on Mount Ebal repeats the earlier stone-and-plaster command for the Jordan crossing, now specifying the mountain destination."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:7",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:7",
+              "target": "Leviticus 26:7-8",
+              "relationship": "Related promises of enemy defeat and disproportionate pursuit",
+              "rationale": "Both promise enemies falling before Israel and describe disproportionate flight or pursuit; Deuteronomy gives one approach and seven escape routes, while Leviticus gives different pursuer ratios."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:7",
+              "target": "Leviticus 26:7-8",
+              "relationship": "Enemy-defeat promises with different numerical descriptions",
+              "rationale": "Both promise enemy defeat; Deuteronomy describes one approach route and seven escape routes, whereas Leviticus gives five pursuing a hundred and a hundred pursuing tens of thousands, without equating routes and combatant ratios."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:9",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:9",
+              "target": "Deuteronomy 26:18-19",
+              "relationship": "Holy peoplehood and keeping the chosen people's commands",
+              "rationale": "Both describe Israel established or chosen as the Lord's holy people in connection with keeping His commandments, with the earlier passage also naming renown among nations."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:9",
+              "target": "Deuteronomy 26:18-19",
+              "relationship": "Holy peoplehood and covenant command keeping",
+              "rationale": "Both describe Israel established or chosen as the Lord's holy people in connection with keeping His commandments, with the earlier passage also naming renown among nations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:21",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:21",
+              "target": "Leviticus 26:25",
+              "relationship": "Death included among covenant afflictions",
+              "rationale": "Both announce death coming upon the people within covenant judgment; Leviticus places it amid sword, city flight and enemy delivery, while Deuteronomy says it cleaves until land removal."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:21",
+              "target": "Leviticus 26:25",
+              "relationship": "Death included among covenant afflictions",
+              "rationale": "Both announce death coming upon the people within covenant judgment; Leviticus places it amid sword, city flight and enemy delivery, while Deuteronomy says death cleaves until the people are consumed from the land."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:22",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:22",
+              "target": "Leviticus 26:16",
+              "relationship": "Related illness-and-wasting judgment lists with distinct terms",
+              "rationale": "Both list bodily afflictions within covenant warnings, but the particular fevers, chills, inflammation and other terms here differ from Leviticus' distress, scab and jaundice."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:22",
+              "target": "Leviticus 26:16",
+              "relationship": "Related illness-and-wasting judgment lists with distinct terms",
+              "rationale": "Both include illness within covenant warnings, but the particular fevers, chills, inflammation and other terms here differ from Leviticus' distress, scab and jaundice."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:55",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:55",
+              "target": "Leviticus 26:29",
+              "relationship": "Child-flesh threat developed through siege scarcity",
+              "rationale": "The man's secretive withholding of children's flesh develops the same threatened eating of sons and daughters stated concisely in Leviticus, adding the siege and lack of other food."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:55",
+              "target": "Leviticus 26:29",
+              "relationship": "Child-flesh threat developed through siege scarcity",
+              "rationale": "The man's grudging withholding of children's flesh develops the same threatened eating of sons and daughters stated concisely in Leviticus, adding the siege and lack of other food."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:57",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:57",
+              "target": "Deuteronomy 28:53",
+              "relationship": "Same-chapter particular maternal case within the siege warning",
+              "rationale": "The detailed case of afterbirth and a newborn consumed secretly elaborates the earlier general warning that parents will eat their children under an enemy's desperate siege."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:57",
+              "target": "Deuteronomy 28:53",
+              "relationship": "Same-chapter particular maternal case within the siege warning",
+              "rationale": "The detailed case of afterbirth and the child she bears consumed secretly elaborates the earlier general warning that parents will eat their children under an enemy's desperate siege."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:64",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:64",
+              "target": "Deuteronomy 4:27-28",
+              "relationship": "Repeated dispersion and wooden-and-stone-god service",
+              "rationale": "Both describe scattering among nations and service to other gods made of wood and stone; chapter4 additionally emphasizes those gods' inability to perceive or act."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:64",
+              "target": "Deuteronomy 4:27-28",
+              "relationship": "Repeated dispersion and wooden-and-stone-god service",
+              "rationale": "Both describe scattering among nations and service to other gods made of wood and stone; chapter4 additionally emphasizes those gods' inability to see, hear, eat or smell."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 29:5",
+            "old_row": {
+              "source_reference": "Deuteronomy 29:5",
+              "target": "Deuteronomy 8:3",
+              "relationship": "Wilderness food and learning dependence upon God",
+              "rationale": "The absence of ordinary bread, wine and strong drink is stated as a means to know the Lord; chapter8 describes unfamiliar manna and learning that life depends on God's word."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 29:5",
+              "target": "Deuteronomy 8:3",
+              "relationship": "Wilderness food and learning dependence upon God",
+              "rationale": "This verse states that no bread, wine or strong drink was consumed in order to know the Lord; chapter8 describes unfamiliar manna and learning dependence upon God's word, preserving the different food descriptions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "new_source_verses_credited": 0
+      },
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Replace actual chapter divisions or continuation anchors with familiar alternate references.",
+          "reason": "Retain Joshua9:2a–2f single atoms, Deuteronomy27:23combined two curses,28:69Moab covenant heading and29:28hidden-things unit. No outside numbering imported."
+        },
+        {
+          "proposed_claim": "Treat Romans10:7abyss descent as an exact quotation of Deuteronomy30:13sea crossing.",
+          "reason": "Retain30:13only with its explicit parallel30:12; the Romans ascent and near-word passages are compared at30:12and30:14 with their stated Christ/faith interpretations."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Deuteronomy27",
+          "note": "Preserve Gerizim/Ebal tribe lists, separate elder/priest/Levite speaker roles, actual Joshua9letter-continuation units, whole-stone/no-iron instructions and differing deliverance/well-being offering names. At27:23the source unit includes mother-in-law and wife's-sister curses; the retained Leviticus18:18comparison concerns the second clause only."
+        },
+        {
+          "reference": "Deuteronomy28",
+          "note": "Preserve storehouses/reserves, one-and-seven battlefield routes distinct from Leviticus pursuit ratios, exchanged bronze/iron assignments, mixed illness terms, buttocks/knees/legs ulcer details, plural rulers, riddle/parable/tale, iron collar, differing invasion fates, both siege cases, ships/none-to-buy wording and the actual69thverse. Exact blessing reversals and particular target details ground the comparisons; no particular invasion is asserted as an exclusive fulfillment."
+        },
+        {
+          "reference": "Deuteronomy29–30",
+          "note": "Preserve no-bread statement alongside the distinct manna account, sandals versus uncalloused feet, absent-covenant-party wording without assigning every identity, individual false self-blessing and judgment, Sodom/Gomorrah versus additional Admah/Zeboiim names, hidden/revealed distinction, thoroughly-cleanse versus circumcise-heart wording and different agency, heaven/earth extent language, and hands in30:14versus their absence fromRomans10:8."
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root (AI-assisted supplied-English passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:15:58.048497+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "source_verses": 123,
+      "completed_source_verses": 123,
+      "completed_pairs": 144,
+      "distinct_target_verse_units": 233,
+      "chapter_pair_counts": {
+        "31": 34,
+        "32": 61,
+        "33": 31,
+        "34": 18
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all123 actual complete sources and every retained target with necessary context from Deuteronomy1/3/4/6/7/8/9/15/16/17/28/30, Genesis12/26/35/48/49, Exodus3/7/13/14/19/28/30/32/33/34, Leviticus10/26, Numbers12/14/20/27/32, Joshua1/9, Judges2/10, Psalms16/17/67/77/80/89/91/95/105/113/134, Isaiah55, 1Samuel2, Acts17, Romans10/12/15, 1Corinthians10, Philippians2, Hebrews1/10/13 and Jude1. Separately displayed and reread all144 complete source/target/category/rationale triples in four untruncated groups, then separately reread four clarified triples. Poetic correspondences retain particular shared language, contrasting tribal oracle contents, specified local imagery or literary dependency. No exhaustive discovery, independent human specialist or original-language verification is claimed.",
+      "pin_method": "Independently fetched all16 retained source-book raw files at fixed commit, verified exact Git blob hashes against existing registries and complete parsed equality with caches; byte-normalization differences reported separately.",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Isaiah",
+          "records": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Jude",
+          "records": "jude/verses.json",
+          "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb"
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Philippians",
+          "records": "philippians/verses.json",
+          "blob_sha": "857ac6ac373fe776be75108013ca105fc5bd7d7f"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        }
+      ],
+      "pin_receipt": "deuteronomy-31-34-pins.json",
+      "input_file": "deuteronomy-31-34.tsv",
+      "input_sha256": "fed27d7d544ed88d9f8f2c8aafaf7258b0752a7deb2e797a987c2a2f295058b3",
+      "final_input_sha256": "fed27d7d544ed88d9f8f2c8aafaf7258b0752a7deb2e797a987c2a2f295058b3",
+      "source_inventory": "deuteronomy/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "author_corrections": {
+        "original_input_sha256": "ee54021c038c79c9f3afe3ee91551cd482b484aba32bc5d37e7f5e61302b5037",
+        "changes": [
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 31:29",
+              "target": "Judges 2:10-15",
+              "relationship": "Forecast apostasy and a later narrated foreign-god turn",
+              "rationale": "Moses forecasts future lawlessness, foreign works and resulting evils; Judges narrates a later generation forsaking the Lord for surrounding gods and suffering enemies, without making the death notices simultaneous."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 31:29",
+              "target": "Judges 2:10-15",
+              "relationship": "Forecast apostasy and a later narrated foreign-god turn",
+              "rationale": "Moses forecasts future lawlessness, doing evil and resulting afflictions; Judges narrates a later generation forsaking the Lord for surrounding gods and suffering enemies, without making the death notices simultaneous."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 32:26",
+              "target": "Deuteronomy 28:64",
+              "relationship": "Scattering as a covenant judgment",
+              "rationale": "The song's threat to scatter the people corresponds to the later curse's explicit scattering among nations; the song adds threatened loss of remembrance, while the curse names foreign-god service."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 32:26",
+              "target": "Deuteronomy 28:64",
+              "relationship": "Scattering as a covenant judgment",
+              "rationale": "The song's threat to scatter the people corresponds to the earlier curse's explicit scattering among nations; the song adds threatened loss of remembrance, while the curse names foreign-god service."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 32:40",
+              "target": "Numbers 14:28",
+              "relationship": "Divine living declaration accompanying an oath or judgment",
+              "rationale": "The Lord declares His eternal life while lifting His hand and swearing; Numbers likewise introduces a sworn judgment with the declaration that He lives, without importing the hand gesture there."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 32:40",
+              "target": "Numbers 14:28",
+              "relationship": "Divine living declaration accompanying an oath or judgment",
+              "rationale": "The Lord declares His eternal life while lifting His hand and swearing; Numbers likewise introduces a judgment with the declaration that He lives, without importing the hand gesture there."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 33:12",
+              "target": "Deuteronomy 33:27",
+              "relationship": "Same-chapter protective bodily imagery in confident dwelling",
+              "rationale": "Benjamin's confident dwelling beneath divine overshadowing and between shoulders corresponds to the closing shelter beneath everlasting arms, preserving the distinct shoulder and arm images rather than identifying a sanctuary site."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 33:12",
+              "target": "Deuteronomy 33:27",
+              "relationship": "Same-chapter protective bodily imagery in confident dwelling",
+              "rationale": "The Benjamin oracle joins confident dwelling, God's overshadowing and rest between shoulders; the closing shelter beneath everlasting arms supplies a related protective bodily image without identifying a sanctuary site or resolving the shoulder pronoun."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0
+      },
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Use Lamentations1:20 or Habakkuk3:3 as reviewed targets without accessible pinned actual text in this run.",
+          "reason": "These texts are absent from the selected cache, so neither candidate is retained or counted. Retained sword and Sinai comparisons instead use fully read Leviticus26 and Exodus19."
+        },
+        {
+          "proposed_claim": "Identify the unnamed33:5 ruler, tested33:8holy man,33:12shoulder pronoun/sanctuary or34:6burial agents independently.",
+          "reason": "The particular literary and ministry links preserve those unresolved textual descriptions without making such identity claims. Jude1:9 names a dispute over Moses body but does not locate the unknown grave."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Deuteronomy31-32",
+          "note": "Preserve Moses as31:23 speaker, law book beside rather than inside ark,32:2 snow,32:8 angels of God,32:24 birds/backward-bending spasms,32:43 extended heavenly/national calls with sons of God worship and angels giving strength. Hebrews1:6 comparison preserves different agents; Romans and Hebrews citations retain their actual wording."
+        },
+        {
+          "reference": "Deuteronomy33-34",
+          "note": "Retain myriads of Kadesh/angels, Reuben many, manifestations/truth, incense in wrath, one-horned animal, sea-and-south Naphtali blessing, sandal iron/bronze, and all actual tribal images. Genesis49:21 has a spreading tree;49:26 has everlasting dunes and a differing crown phrase. Preserve they buried in Gai, unknown grave,120years and unwasted cheeks. No modern site, line-of-sight, taxonomy or unsupported individual identity is certified."
+        }
+      ]
+    }
+  ],
+  "peer_review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root independent AI-assisted supplied-English passage reviewer",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:19:29.776762+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "source_verses": 106,
+      "pairs_reviewed": 113,
+      "distinct_target_verse_units": 154,
+      "input_file": "deuteronomy-17-21.tsv",
+      "input_sha256": "9416e70622091702af6f80d764134794f14581cc6b182742f47034cde4e04a2c",
+      "final_input_sha256": "9416e70622091702af6f80d764134794f14581cc6b182742f47034cde4e04a2c",
+      "author_receipt": "deuteronomy-17-21-review.json",
+      "author_receipt_sha256": "996b3fc12fedb2ee78166faa6d6c052e5b91a2bf1c15a763af6f7bbd99b4fe58",
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Personally read all113 complete initial source/target/category/rationale triples in three untruncated groups, covering all106 actual source units and154 distinct target units. Read additional Acts3:12-21,6:8-15,7:1-3, Matthew18:15-17, Exodus21:22, Numbers18:8-11,19:1-4, Judges7:1-2,1Samuel8:1-3 and Joshua10:22-25 context. Requested three narrow wording refinements: actual men of Israel, chosen priest versus whole tribe of Levi, and distinct innocent-blood-guilt versus land-defilement descriptions. Two other author refinements already preceded freeze: Egyptian horse trade wording and protection of the hated wife firstborn. Independently reread all five complete final changed triples and verified all other108 initial rows unchanged. Rehashed all12 saved raw source-book Git blobs and verified full parsed equality against caches. Final input and author bytes are bound here; no technical or peer completion credit.",
+      "source_integrity_checks": [
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+          "raw_file": "deuteronomy-17-21-pin-1-kings.json",
+          "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+          "raw_file": "deuteronomy-17-21-pin-1-samuel.json",
+          "raw_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+          "raw_file": "deuteronomy-17-21-pin-acts.json",
+          "raw_sha256": "73d11416650576a1e20be7d286e5053236f0668e559eedb4fece9ab44b6ee257",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "raw_file": "deuteronomy-17-21-pin-deuteronomy.json",
+          "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "raw_file": "deuteronomy-17-21-pin-exodus.json",
+          "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": false,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5",
+          "raw_file": "deuteronomy-17-21-pin-galatians.json",
+          "raw_sha256": "94cc20c0ce9a41fff544b85ccdc183bb7f710f3e0691d6f7d59397ac597c3c65",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+          "raw_file": "deuteronomy-17-21-pin-genesis.json",
+          "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": false,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+          "raw_file": "deuteronomy-17-21-pin-joshua.json",
+          "raw_sha256": "eb93d63cea7acf7f4e4b28b1c35436ad11acd02a5be7d25ce5c95d737ea54040",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+          "raw_file": "deuteronomy-17-21-pin-judges.json",
+          "raw_sha256": "bc00ee37a3b832eeac7929234102b393ec34ac10158ec548249b0ef187306eec",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "raw_file": "deuteronomy-17-21-pin-leviticus.json",
+          "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+          "raw_file": "deuteronomy-17-21-pin-matthew.json",
+          "raw_sha256": "ea0d2221e8189bf0afe5b6e607de8534a62138e8e1a5b71350a8ef2e7a400d90",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "raw_file": "deuteronomy-17-21-pin-numbers.json",
+          "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        }
+      ],
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "resolved_peer_findings": [
+        "17:14 preserves1Samuel8:4 men rather than importing elders.",
+        "18:5 identifies the chosen priest and sons distinctly from10:8 whole tribe while retaining shared standing/ministry/blessing.",
+        "19:10 distinguishes prevented innocent blood guilt from Numbers land stained by murder.",
+        "Prior21:17 refinement correctly protects the hated wife firstborn against preference for the loved wife son; no duplicate correction or completion credit."
+      ],
+      "accepted_for_integration": true,
+      "new_completed_source_verses": 0,
+      "new_completed_pairs": 0,
+      "peer_completion_credit": 0,
+      "technical_completion_credit": 0
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_7_10 (independent AI-assisted supplied-English peer pass for Deuteronomy22–26)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:18:30.735438+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "deuteronomy-22-26.tsv",
+      "input_sha256": "b99926b18b262b41d198e716056d87a216d48dc269ea068fadf40f114f6e16cf",
+      "author_receipt": "deuteronomy-22-26-review.json",
+      "author_receipt_sha256": "d28d35dd2c541cfe63531f1383708e22dd00264118a0c35952d119bc504a0c2a",
+      "source_chapters": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_verses": 115,
+      "reviewed_source_verses": 115,
+      "reviewed_pairs": 121,
+      "retained_pairs": 121,
+      "distinct_target_verse_units": 175,
+      "chapter_pair_counts": {
+        "22": 29,
+        "23": 29,
+        "24": 23,
+        "25": 21,
+        "26": 19
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "accepted_for_integration": true,
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "review_method": "Independently displayed and read all121 complete source/target/category/rationale triples in five untruncated chapter portions, covering115 actual source units and175 target units. Read additional context in Deuteronomy19:1–10and15:12–15,1Corinthians9:1–14and11:2–16,Genesis38:6–10,Ruth4:1–10,Leviticus22:1–3and5:20–26,Isaiah56:1–8,Numbers5:1–4and23:7–12,Nehemiah13:1–3,Mark10:1–12,Matthew19:3–9and22:23–33and12:1–8. Checked actual verse numbering, different animals/owners in restoration laws, specified equipment/robe versus different head-covering instructions, different animal mixing and mother/young restrictions, evidentiary case continuations, forced field victim innocence, deception versus force distinction, actual23:1father-wife placement and extended23:18, no doctrinal resolution of eunuch categories, proper third-generation referents, nighttime discharge, no dog-price identity inference, grain/vineyard ordering, different divorce speakers, wage deadlines, mercy wording, forty versus forty-less-one, different Ruth kinship and sandal roles, father-forsook-Syria and tithe designation. Requested one precision distinguishing grain hand-gathering from grape eating; separately displayed and reread the full final corrected triple and verified exactly one frozen-packet delta with preserved original receipt.",
+      "technical_checks": "All115 actual inventory references covered; all121 directed pairs unique and non-self-inclusive; all175 target units resolve in source order within Saints70 canon; every same-chapter relation explicitly labelled; final TSV and author receipt hash bindings verified. Preserved original packet/receipt and one exact peer correction; original author refinements were also read in the complete final triples.",
+      "pin_method": "Independent fresh raw fetches of all16 retained source books at the fixed commit; exact Gitblob rehash against registries, byte comparison with author raw files and complete parsed reference-cache equality. Cache byte differences not misrepresented as data mismatch.",
+      "pin_receipt": "deuteronomy-22-26-peer-pins.json",
+      "pin_receipt_sha256": "b944d7eb8f026b5c829873c98d4e67618f29bd613381833ab5794e02b75afb97",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+        },
+        {
+          "book": "1 Timothy",
+          "records": "1-timothy/verses.json",
+          "blob_sha": "02e0778c9eed12dfc0a8ca4552efbd5537e5a20b"
+        },
+        {
+          "book": "2 Corinthians",
+          "records": "2-corinthians/verses.json",
+          "blob_sha": "2b83f1dc75d862ddb0a0a9fdbdbd63fc2682c346"
+        },
+        {
+          "book": "2 Kings",
+          "records": "2-kings/verses.json",
+          "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Isaiah",
+          "records": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Mark",
+          "records": "mark/verses.json",
+          "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Ruth",
+          "records": "ruth/verses.json",
+          "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18"
+        }
+      ],
+      "resolved_peer_findings": [
+        {
+          "reference": "Deuteronomy23:25",
+          "resolution": "Distinguished explicit hand-gathering of grain from explicit eating of grapes in the paired produce permissions.",
+          "completion_credit": 0
+        }
+      ],
+      "new_source_verses_credited": 0,
+      "new_pairs_credited": 0,
+      "independent_human_or_language_verification": false
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_4_6 (independent AI-assisted supplied-English peer pass for Deuteronomy27–30)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:16:59.409937+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "deuteronomy-27-30.tsv",
+      "input_sha256": "2b2dad5473b9adc77f2a39939c9aaa102346ea98ec2805f5209f99f84706312d",
+      "author_receipt": "deuteronomy-27-30-review.json",
+      "author_receipt_sha256": "88bd678664904e60720b058b2a9134b0248a0dc853723dab43f6900b01afd17e",
+      "source_chapters": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "source_verses": 143,
+      "reviewed_source_verses": 143,
+      "reviewed_pairs": 157,
+      "retained_pairs": 157,
+      "distinct_target_verse_units": 164,
+      "chapter_pair_counts": {
+        "27": 30,
+        "28": 75,
+        "29": 30,
+        "30": 22
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "accepted_for_integration": true,
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "review_method": "Read all143 actual source units in full, then separately displayed all157 complete source/target/category/rationale combinations in six untruncated slices. Read necessary full Leviticus26 context, Exodus20:22-26, actual Joshua9:2a-2f continuation units, Isaiah59:9-15, Jeremiah5:14-19 and7:30-34, Micah6:13-16, 2Chronicles36:14-21, Romans10:5-10, Deuteronomy11:2-7, Galatians3:6-14 and Hebrews12:14-17, together with the other retained actual passages. Sent precision findings about route counts versus combatant ratios, secretive wording, explicit idol senses and the no-bread statement; author also supplied narrower stone-command and other wording refinements. Separately displayed and reread all9 final corrected full triples and verified exact old/new delta history and original input hash. Preserved actual continuation anchors and source chapter divisions, compared different plague and metal assignments, maintained singular offender scope and distinct food/heart/agency descriptions, and distinguished NT interpretive reuse. No independent human or original-language verification is claimed.",
+      "technical_checks": "All143 inventory source units covered; all157 directed pairs unique and not self-inclusive; all164 target units resolve in actual source order within Saints70 canon; every same-chapter relation explicitly labelled. Final TSV and author-receipt bindings, exact9-row history and zero correction credit verified.",
+      "pin_method": "Independent fresh fetch of all12 retained source-book raw files; rehashed their exact Git blobs against existing registries and author pins, compared fresh bytes with author saved raw files, and checked complete parsed cache equality without claiming normalized cache byte equality.",
+      "pin_receipt": "deuteronomy-27-30-peer-pins.json",
+      "pin_receipt_sha256": "f11cf2e26f963e465b0bac1eb2468289c5ce456a927c0739e9f6f9b8494e4adc",
+      "source_books": [
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Galatians",
+          "records": "galatians/verses.json",
+          "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Isaiah",
+          "records": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df"
+        },
+        {
+          "book": "Jeremiah",
+          "records": "jeremiah/verses.json",
+          "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Micah",
+          "records": "micah/verses.json",
+          "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        }
+      ],
+      "resolved_pre_freeze_findings": {
+        "original_input_sha256": "3cc7cb44552d3e1e29bf7aee7445483dea68d31e5c29e4b928a10b48df56b444",
+        "original_input_file": "deuteronomy-27-30-before-refinement.tsv",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 27:4",
+            "old_row": {
+              "source_reference": "Deuteronomy 27:4",
+              "target": "Joshua 9:2a",
+              "relationship": "Ebal construction command and narrated altar location",
+              "rationale": "The stones are to be set up upon Mount Ebal; Joshua's actual continuation locates his altar on Mount Ebal, retaining the different objects described in these units."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 27:4",
+              "target": "Deuteronomy 27:2",
+              "relationship": "Same-chapter repeated stone-and-plaster command with named destination",
+              "rationale": "The instruction to set up and plaster these stones on Mount Ebal repeats the earlier stone-and-plaster command for the Jordan crossing, now specifying the mountain destination."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:7",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:7",
+              "target": "Leviticus 26:7-8",
+              "relationship": "Related promises of enemy defeat and disproportionate pursuit",
+              "rationale": "Both promise enemies falling before Israel and describe disproportionate flight or pursuit; Deuteronomy gives one approach and seven escape routes, while Leviticus gives different pursuer ratios."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:7",
+              "target": "Leviticus 26:7-8",
+              "relationship": "Enemy-defeat promises with different numerical descriptions",
+              "rationale": "Both promise enemy defeat; Deuteronomy describes one approach route and seven escape routes, whereas Leviticus gives five pursuing a hundred and a hundred pursuing tens of thousands, without equating routes and combatant ratios."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:9",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:9",
+              "target": "Deuteronomy 26:18-19",
+              "relationship": "Holy peoplehood and keeping the chosen people's commands",
+              "rationale": "Both describe Israel established or chosen as the Lord's holy people in connection with keeping His commandments, with the earlier passage also naming renown among nations."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:9",
+              "target": "Deuteronomy 26:18-19",
+              "relationship": "Holy peoplehood and covenant command keeping",
+              "rationale": "Both describe Israel established or chosen as the Lord's holy people in connection with keeping His commandments, with the earlier passage also naming renown among nations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:21",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:21",
+              "target": "Leviticus 26:25",
+              "relationship": "Death included among covenant afflictions",
+              "rationale": "Both announce death coming upon the people within covenant judgment; Leviticus places it amid sword, city flight and enemy delivery, while Deuteronomy says it cleaves until land removal."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:21",
+              "target": "Leviticus 26:25",
+              "relationship": "Death included among covenant afflictions",
+              "rationale": "Both announce death coming upon the people within covenant judgment; Leviticus places it amid sword, city flight and enemy delivery, while Deuteronomy says death cleaves until the people are consumed from the land."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:22",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:22",
+              "target": "Leviticus 26:16",
+              "relationship": "Related illness-and-wasting judgment lists with distinct terms",
+              "rationale": "Both list bodily afflictions within covenant warnings, but the particular fevers, chills, inflammation and other terms here differ from Leviticus' distress, scab and jaundice."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:22",
+              "target": "Leviticus 26:16",
+              "relationship": "Related illness-and-wasting judgment lists with distinct terms",
+              "rationale": "Both include illness within covenant warnings, but the particular fevers, chills, inflammation and other terms here differ from Leviticus' distress, scab and jaundice."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:55",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:55",
+              "target": "Leviticus 26:29",
+              "relationship": "Child-flesh threat developed through siege scarcity",
+              "rationale": "The man's secretive withholding of children's flesh develops the same threatened eating of sons and daughters stated concisely in Leviticus, adding the siege and lack of other food."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:55",
+              "target": "Leviticus 26:29",
+              "relationship": "Child-flesh threat developed through siege scarcity",
+              "rationale": "The man's grudging withholding of children's flesh develops the same threatened eating of sons and daughters stated concisely in Leviticus, adding the siege and lack of other food."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:57",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:57",
+              "target": "Deuteronomy 28:53",
+              "relationship": "Same-chapter particular maternal case within the siege warning",
+              "rationale": "The detailed case of afterbirth and a newborn consumed secretly elaborates the earlier general warning that parents will eat their children under an enemy's desperate siege."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:57",
+              "target": "Deuteronomy 28:53",
+              "relationship": "Same-chapter particular maternal case within the siege warning",
+              "rationale": "The detailed case of afterbirth and the child she bears consumed secretly elaborates the earlier general warning that parents will eat their children under an enemy's desperate siege."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:64",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:64",
+              "target": "Deuteronomy 4:27-28",
+              "relationship": "Repeated dispersion and wooden-and-stone-god service",
+              "rationale": "Both describe scattering among nations and service to other gods made of wood and stone; chapter4 additionally emphasizes those gods' inability to perceive or act."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:64",
+              "target": "Deuteronomy 4:27-28",
+              "relationship": "Repeated dispersion and wooden-and-stone-god service",
+              "rationale": "Both describe scattering among nations and service to other gods made of wood and stone; chapter4 additionally emphasizes those gods' inability to see, hear, eat or smell."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 29:5",
+            "old_row": {
+              "source_reference": "Deuteronomy 29:5",
+              "target": "Deuteronomy 8:3",
+              "relationship": "Wilderness food and learning dependence upon God",
+              "rationale": "The absence of ordinary bread, wine and strong drink is stated as a means to know the Lord; chapter8 describes unfamiliar manna and learning that life depends on God's word."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 29:5",
+              "target": "Deuteronomy 8:3",
+              "relationship": "Wilderness food and learning dependence upon God",
+              "rationale": "This verse states that no bread, wine or strong drink was consumed in order to know the Lord; chapter8 describes unfamiliar manna and learning dependence upon God's word, preserving the different food descriptions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "new_source_verses_credited": 0
+      },
+      "new_source_verses_credited": 0,
+      "new_pairs_credited": 0,
+      "independent_human_or_language_verification": false
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex independent AI-assisted supplied-English passage reviewer (/root/deut_1_3)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T23:19:43.874647+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "source_verses": 123,
+      "source_verses_read": 123,
+      "completed_source_verses_audited": 123,
+      "retained_pairs": 144,
+      "completed_pairs_audited": 144,
+      "complete_pair_triples_read": 144,
+      "distinct_target_verse_units": 233,
+      "same_chapter_pairs": 28,
+      "input_file": "deuteronomy-31-34.tsv",
+      "input_sha256": "fed27d7d544ed88d9f8f2c8aafaf7258b0752a7deb2e797a987c2a2f295058b3",
+      "final_input_sha256": "fed27d7d544ed88d9f8f2c8aafaf7258b0752a7deb2e797a987c2a2f295058b3",
+      "author_receipt": "deuteronomy-31-34-review.json",
+      "author_receipt_sha256": "779d54930167a4d3fd31a85245bf4a051a380b5282ddf97a3c37df24d1a86ec5",
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Independently read all123 complete actual source units in Deuteronomy31–34 before peer review, then separately displayed and read every complete FINAL source/target/category/rationale triple in four untruncated batches, covering all233distinct target units. Read necessary Moses succession and covenant, original tribal-blessing, Hannah, Joshua eastern-tribe, Numbers32, divine-appearance, Gentile-welcome, judgment-warning and sacrificial-meal contexts. Read the final author receipt and its four pre-freeze rationale refinements; the peer display used the final TSV, not the initial saved reread. Independently rehashed all16 saved raw Git blobs against existing source registries and compared complete parsed data with caches, alongside coverage, no-self, unique-directed-pair, exact range order, canon and Same-chapter checks. Tribal oracle comparisons identify corresponding named blessings and their particular differing contents, images or roles rather than treating a common personal name as independent identity evidence. The Gad portion comparison is read with Numbers32:1–5 and28–33, preserving the poem’s divine agency and leaving individual poetic phrases unresolved. No substantive retained defect remains. Neither mechanical checks nor this independent AI-assisted peer review add completion credit.",
+      "additional_context_passages_read": [
+        "Numbers 32:1-5",
+        "Numbers 32:28-33",
+        "Hebrews 10:26-31",
+        "Acts 17:22-31",
+        "1 Samuel 2:1-6",
+        "1 Corinthians 10:14-22",
+        "Romans 15:7-12",
+        "Genesis 48:13-20",
+        "Genesis 49:1-2",
+        "Genesis 49:27-33",
+        "1 Samuel 1:19-28",
+        "Hebrews 1:1-7",
+        "Psalms 17:10-12",
+        "Joshua 1:12-17",
+        "Deuteronomy 3:1-3",
+        "Deuteronomy 3:8",
+        "Judges 10:10-16"
+      ],
+      "source_integrity_checks": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Isaiah",
+          "records": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Jude",
+          "records": "jude/verses.json",
+          "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Philippians",
+          "records": "philippians/verses.json",
+          "blob_sha": "857ac6ac373fe776be75108013ca105fc5bd7d7f",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+          "raw_git_blob_rehashed": true,
+          "full_parsed_cache_equal": true,
+          "cache_byte_equal": false
+        }
+      ],
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "peer_completion_credit": 0,
+      "new_source_verses_credited": 0,
+      "new_pairs_credited": 0,
+      "limitations": [
+        "AI-assisted supplied-English comparison only; no independent human specialist, original-language, critical apparatus, modern geographical or taxonomic verification.",
+        "Initial curated review does not assert every possible cross-reference has been discovered."
+      ]
+    }
+  ],
+  "applied_peer_corrections": [
+    {
+      "file": "deuteronomy-17-21.tsv",
+      "field": "peer_revisions",
+      "details": {
+        "original_input_file": "deuteronomy-17-21-before-peer.tsv",
+        "original_input_sha256": "0ec0252e95158f6ea7f9b53062a6c40c1055c6f5e705f3c4873a034e71864bb0",
+        "original_author_receipt": "deuteronomy-17-21-before-peer-review.json",
+        "original_author_receipt_sha256": "19aa8545e4f5eaf54100994ed52f8002cbf505e95418ec2f7b3283c6876bcf21",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 17:14",
+            "old_row": {
+              "source_reference": "Deuteronomy 17:14",
+              "target": "1 Samuel 8:4-7",
+              "relationship": "Anticipated ruler request and later request like the nations",
+              "rationale": "Deuteronomy anticipates requesting a ruler like surrounding nations; the elders later request a king like the nations, and the narrative additionally records Samuel's and the Lord's responses."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 17:14",
+              "target": "1 Samuel 8:4-7",
+              "relationship": "Anticipated ruler request and later request like the nations",
+              "rationale": "Deuteronomy anticipates requesting a ruler like surrounding nations; the men of Israel later request a king like the nations, and the narrative additionally records Samuel's and the Lord's responses."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 18:5",
+            "old_row": {
+              "source_reference": "Deuteronomy 18:5",
+              "target": "Deuteronomy 10:8",
+              "relationship": "Levi's chosen ministry and blessing in the Lord's name",
+              "rationale": "Both describe Levi's appointment to stand before the Lord, minister and bless in His name; chapter10 additionally names bearing the ark, while this verse mentions the sons' continuing service."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 18:5",
+              "target": "Deuteronomy 10:8",
+              "relationship": "Chosen priest's ministry and Levi's assigned roles",
+              "rationale": "The chosen priest and his sons receive standing, ministering and blessing roles here; chapter10 assigns those roles to the tribe of Levi and additionally names bearing the ark, preserving the different scopes."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 19:10",
+            "old_row": {
+              "source_reference": "Deuteronomy 19:10",
+              "target": "Numbers 35:33-34",
+              "relationship": "Protection of the land from blood guilt",
+              "rationale": "Both address bloodshed as a defilement of the inhabited land; Deuteronomy states the preventive purpose of refuge provision, while Numbers discusses murder and its stated expiation."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 19:10",
+              "target": "Numbers 35:33-34",
+              "relationship": "Protection of the land from blood guilt",
+              "rationale": "Deuteronomy gives prevention of innocent bloodshed and blood guilt as the purpose of refuge provision; Numbers describes land stained by murder and its stated expiation, preserving the different formulations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Use actual Israel men in1Samuel8, distinguish the chosen priest and sons from the whole tribe in the shared ministry comparison, and distinguish preventing bloodguilt from explicit land-defilement wording. Earlier author correction of21:17 remains unchanged and receives no repeated credit.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      },
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "deuteronomy-17-21.tsv",
+      "field": "author_corrections",
+      "details": {
+        "original_input_file": "deuteronomy-17-21-initial.tsv",
+        "original_input_sha256": "69af0fefdccb88250cbcf2a37042f08736ec192124041850321510ff3f73c2aa",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 17:16",
+            "old_row": {
+              "source_reference": "Deuteronomy 17:16",
+              "target": "1 Kings 10:28-29",
+              "relationship": "Egyptian horse acquisition contrasted with royal restriction",
+              "rationale": "The ruler must not multiply horses by returning the people to Egypt; Kings records Solomon's horses and chariot trade from Egypt, without saying this account explicitly narrates a return of the people."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 17:16",
+              "target": "1 Kings 10:28-29",
+              "relationship": "Egyptian horse acquisition contrasted with royal restriction",
+              "rationale": "The ruler must not multiply horses and must not return the people to Egypt to acquire them; Kings records Solomon's Egyptian horse and chariot trade, without explicitly narrating a return of the people."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 21:17",
+            "old_row": {
+              "source_reference": "Deuteronomy 21:17",
+              "target": "Genesis 49:3",
+              "relationship": "Firstborn described as beginning of the children",
+              "rationale": "Both describe the firstborn as the beginning of the father's children; Deuteronomy additionally prescribes his double portion and forbids displacing him through preference for his mother."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 21:17",
+              "target": "Genesis 49:3",
+              "relationship": "Firstborn described as beginning of the children",
+              "rationale": "Both describe the firstborn as the beginning of the father's children; Deuteronomy additionally prescribes his double portion and forbids displacing the hated wife's firstborn through preference for the loved wife's son."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Keep the two horse restrictions distinct and correct the maternal-preference referent in the firstborn explanation; no targets or counts changed.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      },
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "deuteronomy-22-26.tsv",
+      "field": "peer_revisions",
+      "details": {
+        "original_input_file": "deuteronomy-22-26-before-peer.tsv",
+        "original_input_sha256": "aff8543f4ce84e08d367ccb6f30c4323025f73db27de73e00f24cb28ecdad431",
+        "original_author_receipt": "deuteronomy-22-26-before-peer-review.json",
+        "original_author_receipt_sha256": "0a0cc912882ed0de67ccc5230b9498b72ab339e254ba6ab3a421efbd93755942",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 23:25",
+            "old_row": {
+              "source_reference": "Deuteronomy 23:25",
+              "target": "Deuteronomy 23:26",
+              "relationship": "Same-chapter bounded eating from a neighbour's produce",
+              "rationale": "Both allow immediate consumption of a neighbour's produce while limiting collection: grain may be hand-plucked without a sickle, and grapes eaten without filling a vessel."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 23:25",
+              "target": "Deuteronomy 23:26",
+              "relationship": "Same-chapter bounded use of a neighbour's produce",
+              "rationale": "Both permit limited use of the neighbour's produce: grain may be hand-gathered without a sickle, and grapes eaten without filling a vessel, preserving the different stated acts."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Distinguish explicit hand-gathering of grain from explicit eating of grapes rather than calling both permissions immediate consumption.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      },
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "deuteronomy-22-26.tsv",
+      "field": "author_refinements_before_freeze",
+      "details": [
+        {
+          "source_reference": "Deuteronomy 26:8",
+          "old_row": {
+            "source_reference": "Deuteronomy 26:8",
+            "target": "Deuteronomy 4:34",
+            "relationship": "Repeated deliverance recital of hand, arm, visions and signs",
+            "rationale": "Both recount Egypt's deliverance through mighty hand, uplifted arm, great visions, signs and wonders, preserving the explicit features of the Lord's action named in each recital."
+          },
+          "new_row": {
+            "source_reference": "Deuteronomy 26:8",
+            "target": "Deuteronomy 4:34",
+            "relationship": "Repeated deliverance recital of hand, arm, visions and signs",
+            "rationale": "Both recount deliverance from Egypt through mighty hand, uplifted arm, great visions, signs and wonders, preserving the explicit features of the Lord's action named in each recital."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Deuteronomy 26:17",
+          "old_row": {
+            "source_reference": "Deuteronomy 26:17",
+            "target": "Joshua 24:21-24",
+            "relationship": "Choosing the Lord and pledging to hear His voice",
+            "rationale": "Both describe the people choosing the Lord and committing to obey His voice; Joshua records the people's spoken pledge and the removal of foreign gods, while Deuteronomy enumerates walking and keeping ordinances."
+          },
+          "new_row": {
+            "source_reference": "Deuteronomy 26:17",
+            "target": "Joshua 24:21-24",
+            "relationship": "Choosing the Lord and pledging to hear His voice",
+            "rationale": "Both describe the people choosing the Lord and committing to obey His voice; Joshua records their spoken pledge and commands removal of foreign gods, while Deuteronomy enumerates walking and keeping ordinances."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        }
+      ],
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "deuteronomy-27-30.tsv",
+      "field": "author_corrections",
+      "details": {
+        "original_input_sha256": "3cc7cb44552d3e1e29bf7aee7445483dea68d31e5c29e4b928a10b48df56b444",
+        "original_input_file": "deuteronomy-27-30-before-refinement.tsv",
+        "changes": [
+          {
+            "source_reference": "Deuteronomy 27:4",
+            "old_row": {
+              "source_reference": "Deuteronomy 27:4",
+              "target": "Joshua 9:2a",
+              "relationship": "Ebal construction command and narrated altar location",
+              "rationale": "The stones are to be set up upon Mount Ebal; Joshua's actual continuation locates his altar on Mount Ebal, retaining the different objects described in these units."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 27:4",
+              "target": "Deuteronomy 27:2",
+              "relationship": "Same-chapter repeated stone-and-plaster command with named destination",
+              "rationale": "The instruction to set up and plaster these stones on Mount Ebal repeats the earlier stone-and-plaster command for the Jordan crossing, now specifying the mountain destination."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:7",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:7",
+              "target": "Leviticus 26:7-8",
+              "relationship": "Related promises of enemy defeat and disproportionate pursuit",
+              "rationale": "Both promise enemies falling before Israel and describe disproportionate flight or pursuit; Deuteronomy gives one approach and seven escape routes, while Leviticus gives different pursuer ratios."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:7",
+              "target": "Leviticus 26:7-8",
+              "relationship": "Enemy-defeat promises with different numerical descriptions",
+              "rationale": "Both promise enemy defeat; Deuteronomy describes one approach route and seven escape routes, whereas Leviticus gives five pursuing a hundred and a hundred pursuing tens of thousands, without equating routes and combatant ratios."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:9",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:9",
+              "target": "Deuteronomy 26:18-19",
+              "relationship": "Holy peoplehood and keeping the chosen people's commands",
+              "rationale": "Both describe Israel established or chosen as the Lord's holy people in connection with keeping His commandments, with the earlier passage also naming renown among nations."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:9",
+              "target": "Deuteronomy 26:18-19",
+              "relationship": "Holy peoplehood and covenant command keeping",
+              "rationale": "Both describe Israel established or chosen as the Lord's holy people in connection with keeping His commandments, with the earlier passage also naming renown among nations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:21",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:21",
+              "target": "Leviticus 26:25",
+              "relationship": "Death included among covenant afflictions",
+              "rationale": "Both announce death coming upon the people within covenant judgment; Leviticus places it amid sword, city flight and enemy delivery, while Deuteronomy says it cleaves until land removal."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:21",
+              "target": "Leviticus 26:25",
+              "relationship": "Death included among covenant afflictions",
+              "rationale": "Both announce death coming upon the people within covenant judgment; Leviticus places it amid sword, city flight and enemy delivery, while Deuteronomy says death cleaves until the people are consumed from the land."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:22",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:22",
+              "target": "Leviticus 26:16",
+              "relationship": "Related illness-and-wasting judgment lists with distinct terms",
+              "rationale": "Both list bodily afflictions within covenant warnings, but the particular fevers, chills, inflammation and other terms here differ from Leviticus' distress, scab and jaundice."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:22",
+              "target": "Leviticus 26:16",
+              "relationship": "Related illness-and-wasting judgment lists with distinct terms",
+              "rationale": "Both include illness within covenant warnings, but the particular fevers, chills, inflammation and other terms here differ from Leviticus' distress, scab and jaundice."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:55",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:55",
+              "target": "Leviticus 26:29",
+              "relationship": "Child-flesh threat developed through siege scarcity",
+              "rationale": "The man's secretive withholding of children's flesh develops the same threatened eating of sons and daughters stated concisely in Leviticus, adding the siege and lack of other food."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:55",
+              "target": "Leviticus 26:29",
+              "relationship": "Child-flesh threat developed through siege scarcity",
+              "rationale": "The man's grudging withholding of children's flesh develops the same threatened eating of sons and daughters stated concisely in Leviticus, adding the siege and lack of other food."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:57",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:57",
+              "target": "Deuteronomy 28:53",
+              "relationship": "Same-chapter particular maternal case within the siege warning",
+              "rationale": "The detailed case of afterbirth and a newborn consumed secretly elaborates the earlier general warning that parents will eat their children under an enemy's desperate siege."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:57",
+              "target": "Deuteronomy 28:53",
+              "relationship": "Same-chapter particular maternal case within the siege warning",
+              "rationale": "The detailed case of afterbirth and the child she bears consumed secretly elaborates the earlier general warning that parents will eat their children under an enemy's desperate siege."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 28:64",
+            "old_row": {
+              "source_reference": "Deuteronomy 28:64",
+              "target": "Deuteronomy 4:27-28",
+              "relationship": "Repeated dispersion and wooden-and-stone-god service",
+              "rationale": "Both describe scattering among nations and service to other gods made of wood and stone; chapter4 additionally emphasizes those gods' inability to perceive or act."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 28:64",
+              "target": "Deuteronomy 4:27-28",
+              "relationship": "Repeated dispersion and wooden-and-stone-god service",
+              "rationale": "Both describe scattering among nations and service to other gods made of wood and stone; chapter4 additionally emphasizes those gods' inability to see, hear, eat or smell."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Deuteronomy 29:5",
+            "old_row": {
+              "source_reference": "Deuteronomy 29:5",
+              "target": "Deuteronomy 8:3",
+              "relationship": "Wilderness food and learning dependence upon God",
+              "rationale": "The absence of ordinary bread, wine and strong drink is stated as a means to know the Lord; chapter8 describes unfamiliar manna and learning that life depends on God's word."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 29:5",
+              "target": "Deuteronomy 8:3",
+              "relationship": "Wilderness food and learning dependence upon God",
+              "rationale": "This verse states that no bread, wine or strong drink was consumed in order to know the Lord; chapter8 describes unfamiliar manna and learning dependence upon God's word, preserving the different food descriptions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "new_source_verses_credited": 0
+      },
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "deuteronomy-31-34.tsv",
+      "field": "author_corrections",
+      "details": {
+        "original_input_sha256": "ee54021c038c79c9f3afe3ee91551cd482b484aba32bc5d37e7f5e61302b5037",
+        "changes": [
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 31:29",
+              "target": "Judges 2:10-15",
+              "relationship": "Forecast apostasy and a later narrated foreign-god turn",
+              "rationale": "Moses forecasts future lawlessness, foreign works and resulting evils; Judges narrates a later generation forsaking the Lord for surrounding gods and suffering enemies, without making the death notices simultaneous."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 31:29",
+              "target": "Judges 2:10-15",
+              "relationship": "Forecast apostasy and a later narrated foreign-god turn",
+              "rationale": "Moses forecasts future lawlessness, doing evil and resulting afflictions; Judges narrates a later generation forsaking the Lord for surrounding gods and suffering enemies, without making the death notices simultaneous."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 32:26",
+              "target": "Deuteronomy 28:64",
+              "relationship": "Scattering as a covenant judgment",
+              "rationale": "The song's threat to scatter the people corresponds to the later curse's explicit scattering among nations; the song adds threatened loss of remembrance, while the curse names foreign-god service."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 32:26",
+              "target": "Deuteronomy 28:64",
+              "relationship": "Scattering as a covenant judgment",
+              "rationale": "The song's threat to scatter the people corresponds to the earlier curse's explicit scattering among nations; the song adds threatened loss of remembrance, while the curse names foreign-god service."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 32:40",
+              "target": "Numbers 14:28",
+              "relationship": "Divine living declaration accompanying an oath or judgment",
+              "rationale": "The Lord declares His eternal life while lifting His hand and swearing; Numbers likewise introduces a sworn judgment with the declaration that He lives, without importing the hand gesture there."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 32:40",
+              "target": "Numbers 14:28",
+              "relationship": "Divine living declaration accompanying an oath or judgment",
+              "rationale": "The Lord declares His eternal life while lifting His hand and swearing; Numbers likewise introduces a judgment with the declaration that He lives, without importing the hand gesture there."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Deuteronomy 33:12",
+              "target": "Deuteronomy 33:27",
+              "relationship": "Same-chapter protective bodily imagery in confident dwelling",
+              "rationale": "Benjamin's confident dwelling beneath divine overshadowing and between shoulders corresponds to the closing shelter beneath everlasting arms, preserving the distinct shoulder and arm images rather than identifying a sanctuary site."
+            },
+            "new_row": {
+              "source_reference": "Deuteronomy 33:12",
+              "target": "Deuteronomy 33:27",
+              "relationship": "Same-chapter protective bodily imagery in confident dwelling",
+              "rationale": "The Benjamin oracle joins confident dwelling, God's overshadowing and rest between shoulders; the closing shelter beneath everlasting arms supplies a related protective bodily image without identifying a sanctuary site or resolving the shoulder pronoun."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0
+      },
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_candidates": [],
+  "known_pending_target_candidates": [
+    {
+      "source_reference": "Genesis 49:9",
+      "target": "Revelation 5:5",
+      "reason": "Saints70 retains this canonical book, but its exact target text is not present in the pinned Saints-Translation records. Missing source identity/content must be supplied before review.",
+      "status": "pending pinned target evidence"
+    },
+    {
+      "source_reference": "Exodus 15:1",
+      "target": "Revelation 15:3",
+      "status": "pending pinned target evidence",
+      "reason": "Candidate for later review only. The pinned Saints-Translation records provide no actual Revelation target text; this passage has not been read or verified in the selected edition and is not included in completed pairs."
+    },
+    {
+      "source_reference": "Numbers 10:29",
+      "target": "Judges 4:11",
+      "status": "pending identity review",
+      "reason": "The actual pinned Numbers text names Hobab son of Reuel, a Midianite and Moses' kinsman by marriage. The actual pinned Judges text names sons of Jobab, Moses' in-law. Both texts were read, but the possible identity or name equivalence has not been independently resolved. This candidate is not a completed pair.",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "judges/verses.json",
+        "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+      },
+      "target_verses": [
+        {
+          "reference": "Judges 4:11",
+          "id": "v4-11",
+          "text": "The neighbours of the Kenite had separated from the sons of Jobab, Moses’ in-law. He pitched his tent near the Oak of the Resters, near Kedesh.",
+          "text_sha256": "e012b3baa6d1a8ea58b3c92a4bdc06a6aa25ce3587af16dbb31dc6d6f213ca56"
+        }
+      ],
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Numbers 12:1",
+      "target": "Exodus 2:21",
+      "status": "pending identity review; not retained",
+      "reason": "Numbers describes an Ethiopian wife without naming her; Exodus names Zipporah within the Midian marriage account. Both complete contexts were read, but their identity has not been independently resolved and is not asserted in a completed pair.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 12:1",
+        "id": "v12-1",
+        "text": "And Miriam and Aaron spoke against Moses because of the Ethiopian woman Moses had married, for he had married an Ethiopian woman.",
+        "text_sha256": "61844021f6d3e8bb91eb95c1ef6e531421ecd2f00daef93c33550fda97cfba9c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "exodus/verses.json",
+        "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Exodus 2:21",
+          "id": "v2-21",
+          "text": "Moses settled with the man, who gave him his daughter Zipporah as his wife.",
+          "text_sha256": "bd6b8b4b762c8ccc6ee5d09fc6800af49a947c12e75010a5d1b4082d31c90c4f"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 13:22",
+      "target": "Joshua 15:14",
+      "status": "pending individual-name equivalence; not retained",
+      "reason": "The actual lists include Ahiman, Sheshai, Talmai versus Sousi, Talmai, Achima. Both actual passages were read; equivalence of the differently rendered individual names is not independently resolved or counted.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 13:22",
+        "id": "v13-22",
+        "text": "And they went up through the wilderness and came as far as Hebron, where Ahiman, Sheshai, and Talmai, families of Anak, were. Hebron had been built seven years before Tanis in Egypt.",
+        "text_sha256": "228bc2afa422b3035b2b538b47aedea1e287ca4b9b3b1122e21155cff6831ebd"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Joshua 15:14",
+          "id": "v15-14",
+          "text": "Caleb son of Jephunneh destroyed from there the three sons of Anak: Sousi, Talmai, and Achima.",
+          "text_sha256": "bc20b5af87860716e774f6027c76517e5f784201078278ae0f94004177739207"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 24:24",
+      "target": "Daniel 11:30",
+      "status": "pending historical/name equivalence; not retained",
+      "reason": "The actual Numbers text names Kitians, while Daniel’s actual record names Romans. Both passages were read but no equivalence or shared unique event was independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 24:24",
+        "id": "v24-24",
+        "text": "And one shall come forth from the hand of the Kitians, and they shall afflict Asshur and the Hebrews; they themselves shall perish together.",
+        "text_sha256": "37cd9c3d4d4a05a6c7ed0b8b050e6bb505a93b0a1e3df7d391042a66c2ade60f"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "daniel/verses.json",
+        "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Daniel 11:30",
+          "id": "v11-30",
+          "text": "Romans will come, drive him out, and rebuke him. He will return, become angry against the holy covenant, act, and return. He will consider them because they abandoned the holy covenant.",
+          "text_sha256": "0c1afa31bd9b3adae16b035b39db213560d12b2a2c0e2d4d058455ecf5edc4fc"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 25:6",
+      "target": "Numbers 25:14",
+      "status": "pending male-referent identification; not retained as an identity pair",
+      "reason": "The arrival verse mentions a man and his brother; the later name identifies the slain Israelite man as Zimri without independently resolving which of those two males is intended. The retained episode-response relation makes no such identification.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 25:6",
+        "id": "v25-6",
+        "text": "And an Israelite man came and brought his brother to the Midianite woman before Moses and the whole congregation of the sons of Israel, while they were weeping at the entrance of the Tent of Testimony.",
+        "text_sha256": "f89c827c9a56e2074287bd66eb99e955e3c00732bb472ed9a19bad950322e1b7"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 25:14",
+          "id": "v25-14",
+          "text": "The name of the Israelite man struck down with the Midianite woman was Zimri son of Salu, a ruler of an ancestral house of Simeon.",
+          "text_sha256": "f71932deed34969f4304bf81e73a35bf273516ab33fb25bcec805f63967d76a4"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 25:15",
+      "target": "Numbers 31:8",
+      "status": "pending Zur identity; not retained",
+      "reason": "The passages name Cozbi’s ruler father Zur and a Midianite king Zur respectively. Both actual passages were read, but shared name and region alone do not receive independent identity approval.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 25:15",
+        "id": "v25-15",
+        "text": "And the name of the Midianite woman who was struck down was Cozbi daughter of Zur, a ruler of the nation of Ommoth, an ancestral house of Midian.",
+        "text_sha256": "dbcf1dfd01f0c4a69da7698cdc267b48f2932c2e95ea00d8cc17b1290a95a678"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 31:8",
+          "id": "v31-8",
+          "text": "And they killed the kings of Midian together with their slain: Evi, Zur, Rekem, Hur, and Robok, the five kings of Midian. They also killed Balaam son of Beor with the sword together with their slain.",
+          "text_sha256": "8deee0a9f17a242ca56e35229630be97b9110c9c6408a77721d347b421065fda"
+        }
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "proposed_claim": "Use Jeremiah28:7-9 as the familiar fulfilled-prophecy peace test.",
+      "reason": "Actual pinned Jeremiah28:7-9 concerns Babylon, not that prophecy test. The imported numbering is not retained and adds no pair credit."
+    },
+    {
+      "proposed_claim": "Retain 1Kings11:1-4 as a complete ordinary four-unit range or1Kings10:26-29 without its continuation unit.",
+      "reason": "The actual first range lacks11:3, while the second contains10:26a. Retained evidence uses11:4,10:27 and10:28-29 with exact complete units; no alternate numbering is substituted."
+    },
+    {
+      "proposed_claim": "Identify Pilate as innocent, equate his washing with the heifer ritual, infer Og-era sites or modern animal-body parts beyond the supplied wording.",
+      "reason": "The retained comparisons distinguish claims, procedures and specified text; no independent historical, linguistic, geographical or ritual equivalence verification is claimed."
+    },
+    {
+      "proposed_claim": "Use conventional chapter/verse numbers for lost property, abduction, an unbetrothed virgin, the father-wife rule or grain/vineyard order.",
+      "reason": "Retained actual Leviticus5:22-24, Exodus21:17, Exodus22:15-16, Deuteronomy23:1 and23:25-26 instead. The familiar Leviticus6:1-7 and Exodus21:16 passages were read and did not contain the proposed matches."
+    },
+    {
+      "proposed_claim": "Use a self-inclusive23:22-24 range for source23:23.",
+      "reason": "Removed the self-inclusive proposed range before review completion; retained23:22 alone with a narrower particular nonvowing-versus-vowing contrast. No discarded proposal credited."
+    },
+    {
+      "proposed_claim": "Equate bodily categories or treat Isaiah56 as an explicit abrogation of Deuteronomy23:2, treat all sex-distinguished clothing instructions as the same rule, or harmonize Ruth sandal procedures with Deuteronomy25.",
+      "reason": "The retained comparisons explicitly preserve different categories, settings, roles and actions and make no specialist identity or doctrinal resolution."
+    },
+    {
+      "proposed_claim": "Replace actual chapter divisions or continuation anchors with familiar alternate references.",
+      "reason": "Retain Joshua9:2a–2f single atoms, Deuteronomy27:23combined two curses,28:69Moab covenant heading and29:28hidden-things unit. No outside numbering imported."
+    },
+    {
+      "proposed_claim": "Treat Romans10:7abyss descent as an exact quotation of Deuteronomy30:13sea crossing.",
+      "reason": "Retain30:13only with its explicit parallel30:12; the Romans ascent and near-word passages are compared at30:12and30:14 with their stated Christ/faith interpretations."
+    },
+    {
+      "proposed_claim": "Use Lamentations1:20 or Habakkuk3:3 as reviewed targets without accessible pinned actual text in this run.",
+      "reason": "These texts are absent from the selected cache, so neither candidate is retained or counted. Retained sword and Sinai comparisons instead use fully read Leviticus26 and Exodus19."
+    },
+    {
+      "proposed_claim": "Identify the unnamed33:5 ruler, tested33:8holy man,33:12shoulder pronoun/sanctuary or34:6burial agents independently.",
+      "reason": "The particular literary and ministry links preserve those unresolved textual descriptions without making such identity claims. Jude1:9 names a dispute over Moses body but does not locate the unknown grave."
+    }
+  ],
+  "remaining_checks": [
+    "Independent human specialist review",
+    "Original-language and critical-apparatus comparison",
+    "Live destination-anchor and display verification"
+  ],
+  "target_identity_preflight": {
+    "checked_at_utc": "2026-10-29T23:21:18.814799+00:00",
+    "source_units": 487,
+    "retained_pairs": 535,
+    "reference_resolution": "passed in actual source order",
+    "canonical_target_membership": "passed",
+    "no_duplicate_self_pairs": "passed",
+    "same_chapter_labels": "passed",
+    "final_peer_input_and_author_receipt_hash_bindings": "passed",
+    "new_unresolved_identity_candidates_excluded": 0,
+    "completion_credit": 0
+  },
+  "frozen_receipt_fingerprints": [
+    {
+      "author_file": "deuteronomy-17-21-review.json",
+      "author_sha256": "996b3fc12fedb2ee78166faa6d6c052e5b91a2bf1c15a763af6f7bbd99b4fe58",
+      "peer_file": "deuteronomy-17-21-peer-review.json",
+      "peer_sha256": "5c30feea459535635e1d7ce664c914dc65cccd4df01b0e08b4cc5487b028689a",
+      "tsv_file": "deuteronomy-17-21.tsv",
+      "tsv_sha256": "9416e70622091702af6f80d764134794f14581cc6b182742f47034cde4e04a2c"
+    },
+    {
+      "author_file": "deuteronomy-22-26-review.json",
+      "author_sha256": "d28d35dd2c541cfe63531f1383708e22dd00264118a0c35952d119bc504a0c2a",
+      "peer_file": "deuteronomy-22-26-peer-review.json",
+      "peer_sha256": "1a3cdfe8ac0964744e6baf17b0ba5e2a789342a398ed6a109cb6cf8c59fb7a28",
+      "tsv_file": "deuteronomy-22-26.tsv",
+      "tsv_sha256": "b99926b18b262b41d198e716056d87a216d48dc269ea068fadf40f114f6e16cf"
+    },
+    {
+      "author_file": "deuteronomy-27-30-review.json",
+      "author_sha256": "88bd678664904e60720b058b2a9134b0248a0dc853723dab43f6900b01afd17e",
+      "peer_file": "deuteronomy-27-30-peer-review.json",
+      "peer_sha256": "30817c87902016b0dab4a8b18fec6beef628f707df82ec158478ffd5d28d78dc",
+      "tsv_file": "deuteronomy-27-30.tsv",
+      "tsv_sha256": "2b2dad5473b9adc77f2a39939c9aaa102346ea98ec2805f5209f99f84706312d"
+    },
+    {
+      "author_file": "deuteronomy-31-34-review.json",
+      "author_sha256": "779d54930167a4d3fd31a85245bf4a051a380b5282ddf97a3c37df24d1a86ec5",
+      "peer_file": "deuteronomy-31-34-peer-review.json",
+      "peer_sha256": "561d4bf88cd51a27f2a2310dde25a1c47b2173bcc3696f612b7c3fec9af4ef98",
+      "tsv_file": "deuteronomy-31-34.tsv",
+      "tsv_sha256": "fed27d7d544ed88d9f8f2c8aafaf7258b0752a7deb2e797a987c2a2f295058b3"
+    }
+  ],
+  "input_archive": "deuteronomy/review-batches/2026-10-29T230424Z/",
+  "archived_input_files": [
+    {
+      "file": "deuteronomy-17-21-before-peer.tsv",
+      "sha256": "0ec0252e95158f6ea7f9b53062a6c40c1055c6f5e705f3c4873a034e71864bb0",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-17-21-initial.tsv",
+      "sha256": "69af0fefdccb88250cbcf2a37042f08736ec192124041850321510ff3f73c2aa",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-17-21.tsv",
+      "sha256": "9416e70622091702af6f80d764134794f14581cc6b182742f47034cde4e04a2c",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-17-21-before-peer-review.json",
+      "sha256": "19aa8545e4f5eaf54100994ed52f8002cbf505e95418ec2f7b3283c6876bcf21",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-22-26-author-draft.tsv",
+      "sha256": "8f620083eb3461519e3068791954c37f95266579b916338004da7db171196c5e",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-22-26-before-peer.tsv",
+      "sha256": "aff8543f4ce84e08d367ccb6f30c4323025f73db27de73e00f24cb28ecdad431",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-22-26.tsv",
+      "sha256": "b99926b18b262b41d198e716056d87a216d48dc269ea068fadf40f114f6e16cf",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-22-26-before-peer-review.json",
+      "sha256": "0a0cc912882ed0de67ccc5230b9498b72ab339e254ba6ab3a421efbd93755942",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-27-30-before-refinement.tsv",
+      "sha256": "3cc7cb44552d3e1e29bf7aee7445483dea68d31e5c29e4b928a10b48df56b444",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-27-30.tsv",
+      "sha256": "2b2dad5473b9adc77f2a39939c9aaa102346ea98ec2805f5209f99f84706312d",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-31-34-initial.tsv",
+      "sha256": "ee54021c038c79c9f3afe3ee91551cd482b484aba32bc5d37e7f5e61302b5037",
+      "completion_credit": 0
+    },
+    {
+      "file": "deuteronomy-31-34.tsv",
+      "sha256": "fed27d7d544ed88d9f8f2c8aafaf7258b0752a7deb2e797a987c2a2f295058b3",
+      "completion_credit": 0
+    }
+  ],
+  "book": "Deuteronomy",
+  "overall_review_record": "../../review-batches/2026-10-29T230424Z.json"
+}
