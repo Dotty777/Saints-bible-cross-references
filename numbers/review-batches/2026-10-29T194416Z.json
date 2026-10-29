@@ -1,0 +1,1946 @@
+{
+  "run_id": "2026-10-29T194416Z",
+  "date": "2026-10-29",
+  "source_range": "Numbers 11:1-21:35",
+  "distinct_source_verses": 351,
+  "new_completed_pairs": 520,
+  "book_results": [
+    {
+      "book": "Numbers",
+      "source_range": "Numbers 11:1-21:35",
+      "distinct_source_verses": 351,
+      "new_completed_pairs": 520,
+      "completed_chapters": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "book_initial_curated_pass_complete": false,
+      "next_reference": "Numbers 22:1"
+    }
+  ],
+  "hourly_target": 500,
+  "target_met": true,
+  "target_shortfall": 0,
+  "target_excess": 20,
+  "unresolved_retained_cases": [],
+  "new_unresolved_candidate_count": 2,
+  "known_pending_target_candidate_count": 5,
+  "review_record": "review-batches/2026-10-29T194416Z.json",
+  "next_reference": "Numbers 22:1",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-29",
+  "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
+  "inputs": [
+    {
+      "file": "numbers-11-13.tsv",
+      "sha256": "9c59eb7d38d6a481721fe172decbdc4e1de3468cc69650704e6fc19d51f3165b",
+      "pairs": 113
+    },
+    {
+      "file": "numbers-14-16.tsv",
+      "sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92",
+      "pairs": 163
+    },
+    {
+      "file": "numbers-17-19.tsv",
+      "sha256": "7e9981f6eb698c1c9656148c6f41cf6c3f4b361138a035cb99421ccd0e7f75c2",
+      "pairs": 148
+    },
+    {
+      "file": "numbers-20-21.tsv",
+      "sha256": "d3f25e5f0b465bf01647b5416b6dbc8d6215b6009082f4839c90b3db1d488ba2",
+      "pairs": 96
+    }
+  ],
+  "chapter_pair_counts": {
+    "11": 46,
+    "12": 23,
+    "13": 44,
+    "14": 63,
+    "15": 54,
+    "16": 46,
+    "17": 47,
+    "18": 59,
+    "19": 42,
+    "20": 44,
+    "21": 52
+  },
+  "review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_1_3 author (AI-assisted English-passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T19:54:30.354341+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        11,
+        12,
+        13
+      ],
+      "source_verses": 84,
+      "completed_source_verses": 84,
+      "completed_pairs": 113,
+      "distinct_target_verse_units": 144,
+      "chapter_pair_counts": {
+        "11": 46,
+        "12": 23,
+        "13": 44
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_read": true,
+      "review_method": "Read every complete actual Numbers11–13 source unit and every complete retained target passage, plus all necessary contexts recorded in numbers-11-13-reading-receipt.json. Retained particular complaint, provision, prayer, named-person commission, Spirit and prophecy, speech, affliction, exclusion, itinerary, inspection, report, and retrospective relations. Every same-chapter category is explicitly labelled. No fixed quota, generic formula padding, self-match, duplicate pair, inferred spelling equivalence, silent chapter renumbering, or unexamined identity receives completion credit. Source and target evidence is the supplied pinned English only; no Greek, Hebrew, critical-apparatus, or independent human-specialist verification is claimed.",
+      "author_reread": "Read all114 draft complete triples separately in four packets (1–30,31–60,61–90,91–114). Removed13:20→Deuteronomy8:8 as weaker than the direct fruit-command fulfillment and retained113 pairs. Tightened labels at11:12,11:21,11:26 and wording at11:30 and11:34. Separately displayed and reread all five complete revised triples and the remaining13:20→13:23 pair.",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Mark",
+          "records": "mark/verses.json",
+          "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "input_file": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-29-1544\\numbers-11-13.tsv",
+      "input_sha256": "9c59eb7d38d6a481721fe172decbdc4e1de3468cc69650704e6fc19d51f3165b",
+      "final_input_sha256": "9c59eb7d38d6a481721fe172decbdc4e1de3468cc69650704e6fc19d51f3165b",
+      "pinned_source_verification": {
+        "receipt": "numbers-11-13-pins.json",
+        "method": "Independently fetched all twelve exact raw retained-source book files at the source commit. Verified raw Git blob SHAs against existing registered pins and complete parsed JSON equality with cached records. Saved every raw file and SHA256 in this scratch folder. Local bytes differ by one trailing LF; Genesis and Exodus also normalize CRLF to LF. Neither cache byte equality nor newly verified original languages is claimed.",
+        "all_raw_blob_pins_verified": true,
+        "all_parsed_cache_records_equal": true
+      },
+      "reading_receipt": "numbers-11-13-reading-receipt.json",
+      "reading_receipt_sha256": "d135780620540c6c639e5a6b501c17439f950693984010e238289b5462f8ed8d",
+      "editorial_notes": [
+        "All84 source units have supported retained pairs, totaling113 pairs; each target range counts as one pair. No source is marked complete merely for import, inventory, pins, or technical validation.",
+        "Numbers11:25 explicitly says the elders prophesied and did not do so again; no alternative familiar rendering replaces it. Eldad and Medad remain enrolled men prophesying in camp without a new arithmetic reconciliation of the seventy.",
+        "Numbers11:32 preserves ten kors and cooled them in cooling places; no different unit, drying procedure, or supposed preservation method is supplied. Manna remains crystal in11:7 and oil-cake taste in11:8, distinct from Exodus16’s white and honey-cake description.",
+        "The broad Spirit/prophesy comparison with Acts2 does not identify Acts as quoting Moses, and the1Corinthians10 desire comparison does not select Numbers11 as its uniquely named example.",
+        "Numbers12 retains the Ethiopian wife and the reported family criticism, meekness, direct speech/glory, snow-like leprosy, confession, prayer, and seven-day exclusion. The12:3→12:13 relation is explicitly a character description read beside a particular narrative response, not an original-language or psychological proof. Exodus4 is not supplied a leprosy diagnosis absent from that actual text.",
+        "Scout names are preserved: Salamiel/Zaccur; Shaphat/Souri; Hoshea/Nun; Palti/Raphu; Gaddiel/Sodi for Zebulun; Gaddi/Susi for Manasseh; Ammiel/Gemalli; Sethur/Michael; Nahbi/Iabi; Gaddiel/Machi for Gad. Explicit13:16 renaming, rather than spelling conjecture, establishes Hoshea/Joshua.",
+        "Numbers13:20 remains days of spring, forerunners of grape harvest. Numbers13:21 remains Sin, Raab, Ephaath. Numbers13:22 retains Ahiman, Sheshai, Talmai and Hebron seven years before Tanis; no alternate sites or names replace them.",
+        "Graves of Craving/Graves of Desire and Ravine/Valley of the Cluster retain their actual differing English renderings. The former relation is labelled a particular verbal/narrative parallel without an independently asserted place-name equivalence. Numbers33’s Rithmah and12:16’s Paran are not silently harmonized.",
+        "Numbers13 and Deuteronomy1 retain their respective divine commissioning and the people’s request without reconstructing an unstated single sequence. The geographic inhabitants list in13:29 and Deuteronomy7’s seven nations are explicitly nonidentical."
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Numbers 13:20",
+          "target": "Deuteronomy 8:8",
+          "reason": "Removed the optional general fruit-command to later produce-list link as weaker than13:20→13:23, which directly records carrying the commanded fruit. The specific fruit inventory link remains only at13:23."
+        },
+        {
+          "source_reference": "Numbers 11:25",
+          "proposed_claim": "Replace did not do so again with an alternative familiar translation",
+          "reason": "The actual pinned English wording is retained without independent original-language adjudication."
+        },
+        {
+          "source_reference": "Numbers 13:22",
+          "target": "Joshua 15:14",
+          "reason": "Did not retain a claim that Ahiman/Sheshai and Achima/Sousi are verified equivalent individual names; the supported Hebron/Anak setting comparison instead uses Joshua14:12–14."
+        }
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [
+        {
+          "source_reference": "Numbers 12:1",
+          "target": "Exodus 2:21",
+          "status": "pending identity review; not retained",
+          "reason": "Numbers describes an Ethiopian wife without naming her; Exodus names Zipporah within the Midian marriage account. Both complete contexts were read, but their identity has not been independently resolved and is not asserted in a completed pair.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        },
+        {
+          "source_reference": "Numbers 13:22",
+          "target": "Joshua 15:14",
+          "status": "pending individual-name equivalence; not retained",
+          "reason": "The actual lists include Ahiman, Sheshai, Talmai versus Sousi, Talmai, Achima. Both actual passages were read; equivalence of the differently rendered individual names is not independently resolved or counted.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        }
+      ],
+      "unpairedrefs": [],
+      "completion_credit": {
+        "new_curated_source_verses": 84,
+        "new_curated_pairs": 113,
+        "imports": 0,
+        "technical_checks": 0,
+        "reading_receipts": 0,
+        "peer_review": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_4_5 author (AI-assisted English-passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T19:58:08.082293+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        14,
+        15,
+        16
+      ],
+      "source_verses": 121,
+      "completed_source_verses": 121,
+      "completed_pairs": 163,
+      "chapter_pair_counts": {
+        "14": 63,
+        "15": 54,
+        "16": 46
+      },
+      "distinct_target_verse_units": 203,
+      "distinct_target_passages": 145,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "input_file": "numbers-14-16.tsv",
+      "input_sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92",
+      "final_input_sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+        },
+        {
+          "book": "2 Timothy",
+          "records": "2-timothy/verses.json",
+          "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Ezekiel",
+          "records": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Jude",
+          "records": "jude/verses.json",
+          "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+        }
+      ],
+      "review_method": "Read all 121 actual ordered Numbers 14-16 units (45, 41 and 35 respectively), all 203 complete retained target units and every rationale against both passages. Target ranges count as one pair. Needed context included complete actual Numbers 13 and 17, 26:9-11 and 26:63-65, 27:15-17, 28:3-14, 18:1-7, 1:2-3 and 3:6-10; Deuteronomy 1:19-46, 9:22-29, 11:2-7 and 6:6-9; the actual Exodus 32 array including its missing 32:9, 34:5-9, 33:1-3, 13:21-22, 31:12-17, 6:18-24 and 29:38-42; Leviticus 4:13-21, 4:27-31, 24:10-23, 23:12-13 and 23:17-20, 22:18-21, 19:1-2 and 11:44-45; Joshua 14:6-14; Nehemiah 9:16-21; Ezekiel 44:28-31; 1 Samuel 12:3-5; Psalms 94:7-11, 105:6-24 and 71:18-19; Hebrews 3:7-19, 4:1-11 and 10:26-29; 1 Corinthians 10:1-12; Romans 11:13-18; Matthew 23:1-7; 2 Timothy 2:14-22; and Jude 1:8-13. Actual Deuteronomy 22:12 garment rule was read. No fixed per-source quota, invented numbering or identity harmonization.",
+      "author_reread": "Separately reread all 163 complete source-target-category-rationale triples in three complete displayed batches: rows 1-55, 56-110 and 111-163. On reread narrowed the shared great-nation wording at 14:12 to avoid attributing Numbers' comparative to Exodus, and restored the precise not-touch warning at 16:26. Both complete corrected triples were separately displayed and reread. All same-chapter relations explicitly labelled; no self-pair or duplicate retained. After independent peer review, corrected row125 Numbers16:5 to17:20-23 to say the staff sign in which Aaron’s staff for Levi sprouts. Separately displayed and reread the complete corrected source-target-category-rationale triple against the actual staff-for-Levi wording. No target, category, source count or pair count changed.",
+      "pin_verification": "Independently fetched all 15 used book files at the exact pinned commit, checked raw Git blob SHA-1 against the existing registered source identities, and compared complete parsed records with cache. All parsed records match. Only 2 Timothy is byte-identical; the other fourteen caches differ in terminal LF and/or CRLF serialization, with newline-and-terminal-LF-normalized equality. No source registry additions were needed. Technical verification adds no completion credit.",
+      "pin_review_file": "numbers-14-16-pin-review.json",
+      "read_review_file": "numbers-14-16-read-review.json",
+      "reread_file": "numbers-14-16-reread.txt",
+      "editorial_notes": [
+        "Numbers 16 has 35 actual source units; bronze fire-pan memorials and subsequent congregation and staff material are actual Numbers 17, not silently imported into chapter16.",
+        "Preserved twenty-year registration threshold, Joshua/Caleb exceptions, children inheritance, forty exploration days and forty judgment years, and the actual herders and whoredom wording.",
+        "Number14:45 says Erman and names Amalek/Canaanites; Deuteronomy1:44 names Amorites and its own route ending Hormah. Parallel explanations preserve the distinct particulars.",
+        "Preserved each flour, oil and wine amount by lamb, ram and calf; Numbers28:7 says strong drink, whereas the Numbers15 lamb instruction says wine.",
+        "Unintentional communal and individual cases, prescribed animals, native/sojourner scope and presumptuous-hand destruction remain distinguished. Different Leviticus4 offerings are explicitly identified rather than harmonized.",
+        "The wood gatherer's observed act and custody awaiting determination are preserved; no claim that his act was merely suspected. All penalties are described as passage content, without current legal recommendations.",
+        "Numbers16:14 retains its actual Even if conditional and eye-gouging accusation, rather than a familiar-edition negative statement. Numbers16:15 says desirable possession, not a substituted donkey.",
+        "Numbers26:11 expressly says Korah's sons did not die; no claim of universal descendant destruction is made. The possible source of 2Timothy2:19 wording is expressed as a particular parallel without exclusive quotation-source identification.",
+        "All retained relationships are initial English-passage curation. No independent human specialist, Greek, Hebrew or apparatus approval is claimed."
+      ],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Numbers 16:1-35",
+          "proposed_claim": "Move familiar later chapter16 verse numbers into the actual source chapter",
+          "reason": "The supplied chapter ends at35 and chapter17 holds the fire-pan memorial and later events; actual references are retained."
+        },
+        {
+          "source_reference": "Numbers 16:32-33",
+          "proposed_claim": "Every descendant of Korah died in the judgment",
+          "reason": "Actual Numbers26:11 expressly preserves his sons; the exception is retained as a supported target."
+        },
+        {
+          "source_reference": "Numbers 14:45",
+          "proposed_claim": "Silently replace Erman or the named attackers with familiar parallel-account details",
+          "reason": "The actual Numbers and Deuteronomy particulars are reported separately."
+        }
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "inventory_completion_credit": 0,
+      "import_completion_credit": 0,
+      "technical_completion_credit": 0,
+      "peer_completion_credit": 0,
+      "repository_mutations": 0,
+      "revision_history": [
+        {
+          "reviewed": "2026-10-29",
+          "review_timezone": "America/New_York",
+          "original_input_sha256": "ddef9c78a27b2aff0c3ffbfef86769f9e99fa0da4a8a1eabe510bf9abf8553bf",
+          "final_input_sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92",
+          "original_author_review_sha256": "5d2c10b55c94a029f153ea567dd6503b7a5f502e76b1dec65f0cc42e332be556",
+          "original_input_file": "numbers-14-16-original-frozen.tsv",
+          "original_author_review_file": "numbers-14-16-original-author-review.json",
+          "reason": "Independent peer precision correction: actual Numbers17:23 identifies Aaron's staff for the house of Levi, rather than Aaron's house.",
+          "corrected_complete_triple_reread": true,
+          "changes": [
+            {
+              "row": 125,
+              "old": {
+                "source_reference": "Numbers 16:5",
+                "target": "Numbers 17:20-23",
+                "relationship": "Chosen servant disclosed by a sign",
+                "rationale": "The promise that God identifies His chosen holy servant is followed in the staff narrative by a specified sign selecting Aaron's house."
+              },
+              "new": {
+                "source_reference": "Numbers 16:5",
+                "target": "Numbers 17:20-23",
+                "relationship": "Chosen servant disclosed by a sign",
+                "rationale": "The promise that God identifies His chosen holy servant is followed by the staff sign in which Aaron’s staff for Levi sprouts."
+              }
+            }
+          ],
+          "new_source_credit": 0,
+          "new_pair_credit": 0,
+          "counts_unchanged": {
+            "source_verses": 121,
+            "completed_pairs": 163,
+            "distinct_target_verse_units": 203
+          }
+        }
+      ],
+      "revision_history_file": "numbers-14-16-revision-history.json"
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex Numbers17-19 curator (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T20:02:04.282941+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        17,
+        18,
+        19
+      ],
+      "source_verses": 82,
+      "completed_source_verses": 82,
+      "completed_pairs": 148,
+      "source_chapter_unit_counts": {
+        "17": 28,
+        "18": 32,
+        "19": 22
+      },
+      "chapter_pair_counts": {
+        "17": 47,
+        "18": 59,
+        "19": 42
+      },
+      "distinct_target_verse_units": 178,
+      "distinct_target_passages": 125,
+      "source_and_target_distinct_units": 208,
+      "same_chapter_pairs": 54,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "input_file": "numbers-17-19.tsv",
+      "input_sha256": "7e9981f6eb698c1c9656148c6f41cf6c3f4b361138a035cb99421ccd0e7f75c2",
+      "final_input_sha256": "7e9981f6eb698c1c9656148c6f41cf6c3f4b361138a035cb99421ccd0e7f75c2",
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Jude",
+          "records": "jude/verses.json",
+          "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Sirach",
+          "records": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+        },
+        {
+          "book": "Wisdom of Solomon",
+          "records": "wisdom-of-solomon/verses.json",
+          "blob_sha": "468127efad884589c0e3009ffb16ab7d1ad2fe10"
+        }
+      ],
+      "review_method": "Read all 82 complete actual ordered source units in Numbers17-19, all complete retained targets and necessary rebellion, incense, priestly portion, firstborn, tithe, holy-food, heifer and corpse-purification context. Assess particular identities, actors, materials, quantities, durations, conditions, recipients, procedures and literary relations. Same-chapter relationships are explicitly labelled. No fixed per-verse quota, generic formula similarity, imported facts or exhaustive-discovery claim.",
+      "author_reread": "After drafting, separately reread all 208 distinct actual source and target units in two complete displays, followed by all 148 source/target/category/rationale entries in two untruncated 74-row packets. Compared every explanation against both actual passages and context. Corrected Eleazar versus plural application of the fire pans, avoided assuming geographically separate clean places, distinguished secondary object contact from touching a discharge sufferer, clarified Aaron and his sons, preserved Numbers18:10 most-holy-place wording versus Leviticus's court wording, and narrowed the firstborn exchange explanation to each passage's actual language. Separately displayed and reread the eight complete corrected triples; counts unchanged. Following independent peer review, reread both complete Numbers18:27 to18:30 and reverse source-target-category-rationale triples. Narrowed rows97 and101 to the explicit threshing-floor/winepress reckoning and the condition after firstfruits are taken, without assigning an unstated pronoun referent or treating the separation action as produce. Reread the final complete corrected triples. Exactly two rationale fields changed; source/target membership, categories, counts and pins are unchanged.",
+      "context_passages_read": [
+        "Numbers 16:1-35",
+        "Wisdom of Solomon 18:20-25",
+        "Sirach 45:6-22",
+        "Hebrews 9:1-5",
+        "Hebrews 5:1-4",
+        "2 Chronicles 26:16-21",
+        "Exodus 25:21-22",
+        "Exodus 40:34-35",
+        "Leviticus 16:12-13",
+        "Exodus 28:36-38",
+        "Leviticus 10:16-18",
+        "Deuteronomy 18:1-5",
+        "Leviticus 2:1-3",
+        "Leviticus 6:7-11",
+        "Leviticus 6:17-23",
+        "Leviticus 7:6-10",
+        "Leviticus 7:31-34",
+        "Leviticus 22:1-16",
+        "Exodus 13:11-15",
+        "Leviticus 27:28-34",
+        "2 Chronicles 13:4-5",
+        "Deuteronomy 10:8-9",
+        "Deuteronomy 14:27-29",
+        "Nehemiah 10:35-40",
+        "Hebrews 7:5-9",
+        "1 Corinthians 9:13-14",
+        "Deuteronomy 21:1-9",
+        "Hebrews 9:11-14",
+        "Hebrews 13:11-13",
+        "Leviticus 4:4-7",
+        "Leviticus 4:11-12",
+        "Leviticus 16:26-28",
+        "Leviticus 14:4-9",
+        "Leviticus 14:49-53",
+        "Leviticus 11:24-40",
+        "Numbers 6:6-12",
+        "Numbers 5:2-4",
+        "Matthew 23:27-28",
+        "Leviticus 15:5-8",
+        "Numbers 3:6-13",
+        "Numbers 3:40-41",
+        "Numbers 3:46-51",
+        "Numbers 4:15-20",
+        "Numbers 8:11-19",
+        "Numbers 1:50-53"
+      ],
+      "source_pin_verification": {
+        "method": "Independently fetched all twelve exact raw book files at the pinned commit, recomputed each Git blob SHA from raw bytes against the existing registered pin, and compared every complete parsed cache with the corresponding pinned record. No missing registry pins were required.",
+        "details_file": "numbers-17-19-pin-checks.json",
+        "raw_files_directory": "pins-17-19",
+        "all_raw_git_blob_hashes_match": true,
+        "all_complete_parsed_cache_records_equal": true,
+        "byte_equality_scope": "No cache is byte-identical to its raw pinned file. Eleven caches append one terminal LF; Exodus also converts the pinned CRLF serialization to LF. These serialization differences do not change parsed records, and parsed equality is not described as byte equality."
+      },
+      "editorial_notes": [
+        "Preserved every actual chapter17 unit in its 28-unit order: bronze fire-pan memorial, renewed grumbling and outbreak, then the named-staff test and Israel's fear. No familiar-edition chapter17 numbering was substituted.",
+        "Chapter17 staff results say nuts; no unprovided species or flowering detail was added. The text specifies preservation before the testimonies, while Hebrews9:4 is described according to its own wording without harmonizing the placement formulations.",
+        "Distinguished Eleazar taking the fire pans from the plural application to the altar; in chapter19 the animal is slaughtered before Eleazar and other handlers have distinct tasks.",
+        "Maintained touch versus approach restrictions and their actual actors; Israel's fearful statement is distinguished from the specific outsider and Levitical/priestly access rules.",
+        "Priestly male-only most-holy portions, clean-household portions including daughters, and Levitical wages eaten anywhere are distinguished. Numbers18:10 location wording is not silently replaced by the court wording of Leviticus.",
+        "Firstborn human and unclean-livestock redemption, nonredeemable firstborn cattle/flock, five-shekel valuation, twenty-obol standard, and one-month age are preserved.",
+        "Tithe receipts, tithe of the tithe, priestly recipient, agricultural reckoning, and household wage remain distinct; no later administrative detail is imported into the earlier instruction.",
+        "Corpse contact causes seven-day uncleanness; continued failure to receive purification is the specified condition of the sanctuary-defilement sanction. Contact alone is not described as automatically incurring that sanction.",
+        "Preserved third/seventh-day sprinkling, seventh-day washing/bathing, remaining evening uncleanness, and different requirements for priest, burner, ash collector, sprinkler and water toucher.",
+        "No modern medical mechanism, independent historical proof, or present-day legal prescription is inferred.",
+        "After peer precision review, the reciprocal Numbers18:27 and18:30 links preserve the agricultural reckoning language and the after-firstfruits condition without resolving the pronoun beyond the supplied text."
+      ],
+      "candidate_exclusions": [
+        {
+          "candidate_target": "Haggai 2:11-14",
+          "reason": "No actual passage was available under that exact key in the cache; no title or numbering substitution was invented, and no unread target was retained."
+        },
+        {
+          "source_reference": "Numbers 18:32",
+          "candidate_target": "Leviticus 22:6-7",
+          "reason": "Replaced the looser food-access comparison with the specific Leviticus22:9 conjunction of sin, profanation and death."
+        },
+        {
+          "source_reference": "Numbers 19:5",
+          "candidate_target": "Hebrews 13:11-13",
+          "reason": "Read but did not retain as the principal burning parallel: Hebrews specifies sin-offering blood brought inside, while Numbers19 sprinkles toward the Tent front. Direct Leviticus remains-burning parallels were preferred."
+        },
+        {
+          "candidate_target": "Revelation",
+          "reason": "No actual target text was available; no Revelation passage was retained."
+        }
+      ],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "completion_credit": {
+        "new_curated_source_verses": 82,
+        "new_curated_pairs": 148,
+        "inventory": 0,
+        "import": 0,
+        "technical_checks": 0,
+        "peer_review": 0
+      },
+      "limitations": "Initial AI-assisted supplied-English curation only. No new Greek, Hebrew, critical-apparatus, translation or independent human specialist verification is claimed.",
+      "original_input_sha256": "7fb4542695310c31b814e20c861683f61955776d6fbc5a7452ff53a33a8e1786",
+      "original_author_receipt_sha256": "0ed3e9603efee61d53be79b9512b85f9d26a5c6cbf97745254d0a38eb5f13b7b",
+      "revision_history_file": "numbers-17-19-revision-history.json",
+      "refinement_completion_credit": {
+        "new_source_verses": 0,
+        "new_pairs": 0,
+        "peer_review": 0,
+        "technical_checks": 0
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root (AI-assisted supplied-English passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T20:01:13.411908+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        20,
+        21
+      ],
+      "source_verses": 64,
+      "completed_source_verses": 64,
+      "completed_pairs": 96,
+      "distinct_target_verse_units": 129,
+      "chapter_pair_counts": {
+        "20": 44,
+        "21": 52
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all64 complete actual source units and every complete retained target unit with context. Read the Egyptian deliverance and descent accounts, earlier water complaints and priestly succession rule, Numbers11/13/14/17/27/33 context, Deuteronomy2/3/8/10/32/34, Jephthah recollection, Joshua12, John3 dialogue, 1Corinthians10 warnings, 2Kings18 reform, and the actual Greek-numbered Psalms77/105/134/135 contexts. Separately displayed and reread all96 completed explanations against the complete source and target passages already read.",
+      "author_refinements_before_freeze": [
+        "Describe the application of Aaron’s exclusion while recalling the water event, rather than locating the mountain command at the water.",
+        "Limit20:27 to public ascent preparing the ordered garment transfer.",
+        "Correct21:4 to sons of Esau rather than Esau’s brothers.",
+        "Retain city rather than an extra capital claim at21:27.",
+        "Retain the women’s further burning in21:30 rather than a generic poem-continuation description."
+      ],
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "2 Kings",
+          "records": "2-kings/verses.json",
+          "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "John",
+          "records": "john/verses.json",
+          "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "pin_receipt": "numbers-20-21-pins.json",
+      "input_file": "numbers-20-21.tsv",
+      "input_sha256": "d3f25e5f0b465bf01647b5416b6dbc8d6215b6009082f4839c90b3db1d488ba2",
+      "final_input_sha256": "d3f25e5f0b465bf01647b5416b6dbc8d6215b6009082f4839c90b3db1d488ba2",
+      "source_inventory": "numbers/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "candidate_exclusions": [
+        {
+          "source_reference": "Numbers20:3,9,16",
+          "proposed_claim": "Identify the unnamed destroyed brothers, the ownership of the staff, or the angel beyond the actual wording.",
+          "reason": "The retained comparisons do not resolve those unspecified identities."
+        },
+        {
+          "source_reference": "Numbers20:28 / Numbers21:11-15",
+          "proposed_claim": "Silently equate Hor with Misadai, Achel-gai with Gai, or Er with another familiar place-name; supply a formal title absent from21:14.",
+          "reason": "The geographical forms remain distinct. The Oboth parallel compares the explicitly shared departure point and Moab-side camp role without asserting independent geographical name equivalence."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Numbers20:1-13",
+          "note": "Preserve Zin/Kadesh, Miriam’s death, the command to speak versus two narrated strokes, the stated unbelief/sanctification judgment and actual water names. Psalms105:33 says issued a command with his lips, not an imported rashly phrase; the staff’s individual ownership and angel identity are not newly resolved."
+        },
+        {
+          "reference": "Numbers20:14-29",
+          "note": "Preserve diplomatic terms, the offered water payment, Edom’s refusal and detour, Hor and Eleazar’s garment succession, and thirty-day mourning. Deuteronomy10:6 names Misadai; the cross-reference compares Aaron’s death/succession without identifying that place with Hor. The fortieth-year date is explicitly supplied by Numbers33, not invented in20:1."
+        },
+        {
+          "reference": "Numbers21:1-20",
+          "note": "Preserve Atharim, the devotion place-name, deadly serpents and bronze standard, the stated source’s Achel-gai/Gai forms, Zered and Arnon, Zoob and Er in the book citation, and the rulers/kings digging the well. Do not import a formal book title, place-name equivalence or familiar nobles-with-staves wording."
+        },
+        {
+          "reference": "Numbers21:21-35",
+          "note": "Preserve distinct Edom/Sihon embassies, water terms, Jahaz, Arnon/Jabbok/Ammon limits, Heshbon’s prior Moabite war, the poem’s women-and-fire wording, Jazer and Og at Edrei. Greek-numbered Psalms134/135 and explicit later New Testament interpretations keep their actual source references."
+        }
+      ],
+      "peer_revisions": {
+        "original_input_sha256": "a9c93a5039085a5f91dea49c962628aac488ac5b0a8b9052e3234f1670be9912",
+        "original_author_receipt_sha256": "01210d2923f0de3cec45dec97680f0ec18a0799a191fe3647d30f9249d4d4501",
+        "changes": [
+          {
+            "source_reference": "Numbers 21:20",
+            "target": "Numbers 21:19",
+            "old_rationale": "The previous stage ends at Bamoth; this verse starts from Bamoth and places the next stage in a Moabite valley beneath the overlooking height.",
+            "new_rationale": "The previous stage ends at Bamoth; this verse resumes there and describes a valley in Moab's plain and a summit overlooking the wilderness.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Numbers 21:21",
+            "target": "Deuteronomy 2:26",
+            "old_rationale": "Both name Moses sending messengers with words of peace to Sihon king of Heshbon, while Deuteronomy additionally names their departure from Kedemoth.",
+            "new_rationale": "Both record Moses sending peace envoys to Sihon; Numbers calls him king of the Amorites, while Deuteronomy names Heshbon and the departure from Kedemoth.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Numbers 21:30",
+            "target": "Numbers 21:28-29",
+            "old_rationale": "The line carries Heshbon's ruin imagery toward Dibon and attributes further burning against Moab to women, following the preceding flame and captive notices.",
+            "new_rationale": "The line describes seed perishing from Heshbon to Dibon and women burning against Moab, continuing the preceding poem's fire, ruin and captivity.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "method": "After the full initial author reread and the independent peer full-triple reading, separately displayed and reread all three revised complete source/target/category/rationale triples. Only these three explanations changed; all96 final explanations are covered by the initial full reread plus this exact-delta reread.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      }
+    }
+  ],
+  "peer_review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_4_5 independent peer (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T19:57:16.867551+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "numbers-11-13.tsv",
+      "input_sha256": "9c59eb7d38d6a481721fe172decbdc4e1de3468cc69650704e6fc19d51f3165b",
+      "final_input_sha256": "9c59eb7d38d6a481721fe172decbdc4e1de3468cc69650704e6fc19d51f3165b",
+      "author_review_file": "numbers-11-13-review.json",
+      "author_review_sha256": "aacce1c4f25083351344a3461d17b9bd72f95e6dc86d2060054446e3f95195ba",
+      "source_chapters": [
+        11,
+        12,
+        13
+      ],
+      "source_verses": 84,
+      "completed_source_verses_reviewed": 84,
+      "reviewed_pairs": 113,
+      "distinct_target_verse_units": 144,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Independently read all 84 complete actual source units, then all 113 complete source-target-category-rationale triples and every retained target unit. The initial display of rows1-57 truncated part of rows27-29; those three complete triples were separately displayed and read, followed by full rows58-85 and86-113. Needed additional contexts read included 1Kings19:1-8, Mark9:33-41, Acts2:1-21, Psalms77:17-33, Hebrews3:1-6, Genesis12:1-9, complete actual Exodus16:1-35, Exodus18:13-27,33:7-23 and12:37-39, Numbers24:1-9 and33:16-18, Deuteronomy7:1-6 and8:7-10. Current-run complete actual Numbers14 and Deuteronomy1:19-46 and9:22-29 had also been read for the adjacent author packet. Read candidate contexts Exodus2:16-22 and Joshua15:13-14 to confirm the stated uncertainty and exclusion, without resolving either identity. Compared actual supplied names, local constituency, materials, periods, quantities, narrative order, speech and legal scope rather than substituting familiar-edition wording.",
+      "particular_quality_findings": [
+        "Manna descriptions retain crystal and oil-cake taste versus Exodus white and honey-cake details. Quail collection retains ten kors and cooling places; no preservation or medical mechanism is invented.",
+        "Seventy elders, Eldad and Medad, tent/camp distinction and did not do so again remain exactly stated. No new arithmetic reconciliation or unqualified prophetic continuity is asserted.",
+        "The six-hundred-thousand foot-company comparison uses Exodus12:37, which actually gives approximately that number, rather than forcing equality with a different detailed census.",
+        "Spirit-and-prophecy, outside-group restraint, wilderness desire, nursing imagery and requests for death retain their particular shared features and distinct agents, occasions and outcomes.",
+        "Miriam remains an unnamed Ethiopian wife's critic alongside Aaron; Exodus4 supplies snow-like hand alteration without an imported leprosy diagnosis. The character-description/particular-healing-petition comparison is explicitly limited to narrative reading.",
+        "All twelve scout names, fathers and tribes match the actual source. The governing commission directly explains the individual list entries; Hoshea/Joshua identity is established only by the explicit13:16 renaming.",
+        "Spring and grape-harvest wording, Sin/Raab/Ephaath, Hebron/Tanis chronology, all actual inhabitant lists and the different Rithmah/Paran itinerary notices are preserved.",
+        "All meaningful same-chapter pairs are explicitly labelled; no generic unrelated divine-speech formula, forced all-to-all scout list or duplicate/self-pair is retained."
+      ],
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+        },
+        {
+          "book": "Acts",
+          "records": "acts/verses.json",
+          "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Mark",
+          "records": "mark/verses.json",
+          "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "pin_review_file": "numbers-11-13-peer-pin-review.json",
+      "pin_verification": "Independently fetched all twelve used raw book files at the declared commit, rehashed the raw Git blobs against existing registry entries, and compared every full parsed cache with its fresh pinned JSON. All matched. None of the twelve caches is byte-identical; newline and terminal-LF normalized equality holds. Technical verification has zero completion credit.",
+      "uncredited_identity_candidates_observed": [
+        {
+          "source_reference": "Numbers 12:1",
+          "target": "Exodus 2:21",
+          "author_status": "pending identity review; not retained",
+          "identity_resolved_by_peer": false,
+          "completed_pair_credit": 0
+        },
+        {
+          "source_reference": "Numbers 13:22",
+          "target": "Joshua 15:14",
+          "author_status": "pending individual-name equivalence; not retained",
+          "identity_resolved_by_peer": false,
+          "completed_pair_credit": 0
+        }
+      ],
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "unpairedrefs": [],
+      "peer_completion_credit": 0,
+      "technical_completion_credit": 0,
+      "inventory_completion_credit": 0,
+      "import_completion_credit": 0,
+      "repository_mutations": 0,
+      "tsv_mutations_by_peer": 0,
+      "limitations": "Supplied English passage review only; no independent human specialist, Greek/Hebrew or apparatus verification, and no identity resolution for the two excluded candidates.",
+      "disposition": "Accept the exact frozen 113-pair TSV and author receipt, with both identity candidates remaining pending and uncounted."
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex Numbers17-19 curator independently auditing Numbers14-16 (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T19:59:07.205688+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        14,
+        15,
+        16
+      ],
+      "source_verses": 121,
+      "source_verses_read": 121,
+      "completed_source_verses_audited": 121,
+      "retained_pairs": 163,
+      "completed_pairs_audited": 163,
+      "complete_pair_triples_read": 163,
+      "distinct_target_verse_units": 203,
+      "distinct_target_passages": 145,
+      "source_and_target_distinct_units": 256,
+      "same_chapter_pairs": 58,
+      "input_file": "numbers-14-16.tsv",
+      "input_sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92",
+      "final_input_sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92",
+      "original_audited_input_sha256": "ddef9c78a27b2aff0c3ffbfef86769f9e99fa0da4a8a1eabe510bf9abf8553bf",
+      "author_receipt": "numbers-14-16-review.json",
+      "author_receipt_sha256": "9d5b81ff10c598d234f679e16a5a960adc7cfb86c32a4c71f9f21270c2d69ff9",
+      "original_author_receipt_sha256": "5d2c10b55c94a029f153ea567dd6503b7a5f502e76b1dec65f0cc42e332be556",
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Independently read all 121 complete actual source units in Numbers14-16, all complete retained target passages, and necessary explorer-report, intercession, wilderness-judgment, offering, wrongdoing, Sabbath, fringe, rebellion and staff context. Target units within the full source chapters were read with those chapters; all remaining actual retained targets were read in a complete separate display. Then independently read every source/target/category/rationale entry in three untruncated packets of 55,55,53 rows against those complete texts. Checked actual source divisions, actors, named people, troop-age threshold, exception cases, timing, flour/oil/wine amounts, animal offering assignments, native/sojourner scope, intention and liability conditions, deliberate-act custody, garment details, sanctuary roles and warning/sanction wording.",
+      "additional_context_passages_read": [
+        "Deuteronomy 1:19-46",
+        "Numbers 13:26-33",
+        "Numbers 26:63-65",
+        "Joshua 14:6-14",
+        "Numbers 28:3-14",
+        "Deuteronomy 9:22-29",
+        "Exodus 32:7-14",
+        "Exodus 34:5-9",
+        "Leviticus 4:13-21",
+        "Leviticus 4:27-31",
+        "Leviticus 24:10-23",
+        "Hebrews 3:7-19",
+        "Hebrews 10:26-29",
+        "Numbers 26:9-11",
+        "Romans 11:13-18",
+        "Matthew 23:1-7",
+        "2 Timothy 2:14-22",
+        "Numbers 17:1-28",
+        "Numbers 18:1-7"
+      ],
+      "source_integrity_checks": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "0137d56de15cae418bd683e86957dae74075a08822426646364cba9d7e84e66e",
+          "cached_sha256": "8f2d41cf3019c22eefa75f7f09afc919955d0cea39eebd60a924e6c00386b23a"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+          "cached_sha256": "f9b949daff9d5ecb2d4105fecc53dd7549554ab145b733735589b2d5f239b87a"
+        },
+        {
+          "book": "2 Timothy",
+          "records": "2-timothy/verses.json",
+          "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": true,
+          "cache_extra_LF_only": false,
+          "cache_equals_LF_normalized_pin_plus_LF": false,
+          "pinned_sha256": "fe8503b48ef11eed599982e862be9fa79a9106c22724a77618bbbfa30ece373f",
+          "cached_sha256": "fe8503b48ef11eed599982e862be9fa79a9106c22724a77618bbbfa30ece373f"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+          "cached_sha256": "84614034a7758711be4066c02f328b0c41865db940acaf62195a5d119157d2a9"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": false,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+          "cached_sha256": "a4a8c0bcbd03b8eed39a895984b81a3b358a8238726dd9ddcce9038636f80cd9"
+        },
+        {
+          "book": "Ezekiel",
+          "records": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "31729286e293686282312c3f4fc3209e3795d00948b39f60cf52bfa5595ab35c",
+          "cached_sha256": "291a1888b5208ba7fb2942123709ba414d1ea9309e1651b8fbf4d1fe4eb4a57c"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "6550dc6926a500969383062d551581541d87ece393bf8445bf843962572382c8",
+          "cached_sha256": "7640a20bfb2fc9390451acd330e955e0695aa03dbf58bded9f7a3b96d32c2e7a"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "eb93d63cea7acf7f4e4b28b1c35436ad11acd02a5be7d25ce5c95d737ea54040",
+          "cached_sha256": "af288551fda316529db6334268ec51693a0859081d5ac9e3d814aaa6f76b9f43"
+        },
+        {
+          "book": "Jude",
+          "records": "jude/verses.json",
+          "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "22ac5b2aca87f16c93f18402ce0dc3147660bbc6edda75139bc412fbd562d89a",
+          "cached_sha256": "e860b94d9bd9161b1169174ad72970fec7f1ee36435972c81474d5a15fb9b06a"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+          "cached_sha256": "4d61e443f9cf28a656d19dd02bd541a1b2c2eed10f6ab5dc5ee2113812bbc8da"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "ea0d2221e8189bf0afe5b6e607de8534a62138e8e1a5b71350a8ef2e7a400d90",
+          "cached_sha256": "72add85ec597d15e89b5b3b0087f1896332221166b69d506b91a6910db9dc998"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "90cd08204d8e2f9ec82c69c69a64202bc1f765e59ccb202270881819be776da1",
+          "cached_sha256": "1fd9bc3da4abde7d71cadd0659db71008ecdb7f29096b4970df4f8234ad0953d"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+          "cached_sha256": "95ba0338ebc4ba896ea6db2032a2f6f85589ba2a68b851fc2d4b2cf481288abe"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+          "cached_sha256": "f9746e73b82fd6d27db89ce00c2ed99d95deadc03ec30cf9301c506fda0796d9"
+        },
+        {
+          "book": "Romans",
+          "records": "romans/verses.json",
+          "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+          "registered_raw_git_blob_sha_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_extra_LF_only": true,
+          "cache_equals_LF_normalized_pin_plus_LF": true,
+          "pinned_sha256": "73fb294d9f62d20a7f06bd8b453846223c91519cd6126982ec2421efedcf295f",
+          "cached_sha256": "37fa171b91a74d7fbcf63321ea267b921da057d9f76378e03f4fb675541dd114"
+        }
+      ],
+      "pin_verification_method": "For this peer review independently fetched all fifteen exact raw book files at the pinned commit, rehashed raw Git blobs against both author-listed hashes and the existing source registries, and compared complete parsed records with the cache. All raw pins and parsed records match. Only 2Timothy is byte-identical; thirteen caches append a terminal LF and Exodus also normalizes CRLF to LF. Parsed equality is distinguished from byte equality. Evidence: numbers-14-16-peer-pins.json and pins-14-16-peer/.",
+      "resolved_precision_corrections": [
+        {
+          "row": 125,
+          "source_reference": "Numbers 16:5",
+          "target": "Numbers 17:20-23",
+          "changed_fields": {
+            "rationale": {
+              "original": "The promise that God identifies His chosen holy servant is followed in the staff narrative by a specified sign selecting Aaron's house.",
+              "final": "The promise that God identifies His chosen holy servant is followed by the staff sign in which Aaron’s staff for Levi sprouts."
+            }
+          }
+        }
+      ],
+      "final_correction_reread": "Independently displayed and reread the complete final Numbers16:5 to Numbers17:20-23 source/target/category/rationale triple. The explanation now identifies Aaron's staff for Levi rather than selecting Aaron's house. Verified by complete row comparison that this is the sole TSV change from the originally audited file; pair membership, categories and counts are unchanged. Verified current author input and final-input fingerprints before freezing this peer receipt.",
+      "editorial_notes": [
+        "The source chapters retain 45,41,35 actual units. Bronze fire-pan memorial, later outbreak and staff material remain in actual chapter17.",
+        "Land entry, registered adults twenty years upward, Joshua/Caleb exceptions, children, forty exploration days and forty judgment years are distinguished without inferred demographic or chronological harmonization.",
+        "Actual Erman/Amalek/Canaanite and Deuteronomy's own Amorite/Hormah route particulars are kept separate.",
+        "Lamb, ram and calf flour/oil/wine amounts were checked against the actual later schedule, and the wine-versus-strong-drink wording difference remains acknowledged.",
+        "The unintentional congregational burnt calf plus sin goat is not replaced by Leviticus's calf-for-sin assignment. Individual female-goat cases, shared native/sojourner scope and presumptuous action remain distinct.",
+        "Sabbath wood gathering is an observed act followed by custody and determination, not an allegation described as proven by suspicion.",
+        "The actual desirable-possession wording and Even if conditional are preserved; no familiar-edition donkey or negative condition is imported.",
+        "Korah's sons' survival is explicitly preserved through Numbers26:11. Incense-presenter count, fire pans, priesthood, Levite ministry, non-touch warning and its objects remain distinct.",
+        "The 2Timothy recognition wording is treated as a particular parallel without asserting one exclusive quotation source.",
+        "Same-chapter links identify concrete speech/content, command/performance, specified case, result, contrast or warning relations and are explicitly labelled."
+      ],
+      "required_issues": [],
+      "required_corrections": [],
+      "required_changes": [],
+      "removals": [],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "result": "All 163 final retained pairs supported for the initial supplied-English curated pass after the single staff-identification precision correction.",
+      "completion_credit": {
+        "new_source_verses": 0,
+        "new_pairs": 0,
+        "peer_review": 0,
+        "technical_checks": 0,
+        "inventory_import": 0
+      },
+      "limitations": "AI-assisted supplied-English review only. No new Greek, Hebrew, critical-apparatus, translation or independent human specialist verification is claimed. Review does not exhaust possible connections."
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_4_5 independent peer (AI-assisted English-passage review)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T20:03:28.535236+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "numbers-17-19.tsv",
+      "input_sha256": "7e9981f6eb698c1c9656148c6f41cf6c3f4b361138a035cb99421ccd0e7f75c2",
+      "final_input_sha256": "7e9981f6eb698c1c9656148c6f41cf6c3f4b361138a035cb99421ccd0e7f75c2",
+      "author_review_file": "numbers-17-19-review.json",
+      "author_review_sha256": "0d415140e59a5f86e6bfff5944aee45500b8a3ae07abc56c6e8cf5192e92fa9d",
+      "original_audited_input_sha256": "7fb4542695310c31b814e20c861683f61955776d6fbc5a7452ff53a33a8e1786",
+      "original_audited_author_review_sha256": "0ed3e9603efee61d53be79b9512b85f9d26a5c6cbf97745254d0a38eb5f13b7b",
+      "source_chapters": [
+        17,
+        18,
+        19
+      ],
+      "source_chapter_units": {
+        "17": 28,
+        "18": 32,
+        "19": 22
+      },
+      "source_verses": 82,
+      "reviewed_source_verses": 82,
+      "reviewed_pairs": 148,
+      "distinct_target_verse_units": 178,
+      "distinct_target_passages": 125,
+      "same_chapter_pairs": 54,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Read every complete actual source unit and all148 complete source-target-category-rationale triples in four complete displayed packets, rows1-37,38-74,75-111,112-148. Read every retained target and the necessary context. Separately read Wisdom of Solomon18:20-25, Sirach45:6-22, Hebrews9:1-14 and5:1-4,2Chronicles26:16-21, Exodus28:36-38, Leviticus10:16-18,6:7-23,22:1-16,7:1-10 and7:28-34,27:28-34,11:24-40,15:2-8,14:1-9 and14:49-53,16:11-13 and16:26-28; Nehemiah10:35-40;1Corinthians9:13-14; Matthew23:27-28; Deuteronomy18:1-5 and14:27-29;2Chronicles13:4-5. Current-run prior full readings included Numbers16, Numbers3/4/8 relevant service contexts, Exodus13 firstborn instructions, and Deuteronomy21:1-9. Assessed exact actors, materials, quantities, cases, duration, legal conditions, literary function, quoted wording and related later interpretations. After author refinement, separately reread both complete corrected triples at rows97/101, read all updated author-receipt fields and exact revision history, and verified only those two rationales differ from the original frozen TSV.",
+      "particular_quality_findings": [
+        "Actual chapter17 has28 units: fire-pan memorial1-5, renewed complaint/outbreak6-15, staff test16-26, and fear27-28. No familiar-edition chapter division is substituted.",
+        "Eleazar takes the fire pans while plural actors apply the covering. Aaron's staff is for Levi, produces nuts, and is preserved before the testimonies; Hebrews9:4 has its own ark wording, which the explanations do not harmonize.",
+        "Wisdom18 relations are grounded in urgent incense/prayer against wilderness wrath and the distinctive standing between dead and living; Sirach45 explicitly names Aaron, rebels and firstfruit/priestly inheritance. Hebrews9 explicitly mentions the sprouted rod and heifer ashes. These are particular retrospective or theological connections.",
+        "Touch, approach and sudden viewing restrictions retain their actors and scope. Israel's fearful general statement is distinguished from the governing outsider, Levite and priestly rules.",
+        "Holy-food male/household/daughter distinctions and location differences are explicit, including Numbers18:10 most-holy-place versus Leviticus court wording and18:31 household wages eaten anywhere.",
+        "Firstborn human/unclean-livestock redemption, nonredeemable firstborn cattle/flock, five-shekel valuation, twenty-obol standard and one-month threshold are preserved without importing different exchange consequences.",
+        "Tithe grant, tithe-of-tithe separation, priestly recipient, agricultural reckoning after separation and household wages remain distinct. Corrected reciprocal comparisons avoid an unstated pronoun referent or treating an action as produce.",
+        "Heifer slaughter is before Eleazar; sevenfold blood sprinkling faces the Tent front. Burning, cedar/hyssop/scarlet, priest/burner/collector/sprinkler/water-toucher tasks and their washing, bathing and evening conditions remain distinct.",
+        "Corpse contact produces seven-day uncleanness, while failure to purify is the condition of the sanctuary-defilement sanction. Third/seventh-day sprinkling and seventh-day washing/bathing with evening uncleanness are explicitly preserved.",
+        "All meaningful same-chapter relations are labelled. No duplicate/self-pair, inferred unresolved identity, unavailable Revelation text or modern legal/medical mechanism is counted."
+      ],
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545"
+        },
+        {
+          "book": "2 Chronicles",
+          "records": "2-chronicles/verses.json",
+          "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "Jude",
+          "records": "jude/verses.json",
+          "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb"
+        },
+        {
+          "book": "Leviticus",
+          "records": "leviticus/verses.json",
+          "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+        },
+        {
+          "book": "Matthew",
+          "records": "matthew/verses.json",
+          "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+        },
+        {
+          "book": "Nehemiah",
+          "records": "nehemiah/verses.json",
+          "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Sirach",
+          "records": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+        },
+        {
+          "book": "Wisdom of Solomon",
+          "records": "wisdom-of-solomon/verses.json",
+          "blob_sha": "468127efad884589c0e3009ffb16ab7d1ad2fe10"
+        }
+      ],
+      "pin_review_file": "numbers-17-19-peer-pin-review.json",
+      "pin_verification": "Independently downloaded all twelve raw book files at the exact pinned commit, recomputed Git blob SHA-1 against existing registered identities, and compared each full parsed cache to fresh pinned JSON. All match. None of these caches is byte-identical; newline/terminal-LF-normalized equality holds. Technical verification adds no completed-pair credit.",
+      "resolved_corrections": [
+        {
+          "rows": [
+            97,
+            101
+          ],
+          "pairs": [
+            "Numbers18:27 -> Numbers18:30",
+            "Numbers18:30 -> Numbers18:27"
+          ],
+          "issue": "Draft wording assigned18:30 reckoning to the separated portion and described taking firstfruits as itself reckoned produce.",
+          "resolution": "Final rationales preserve the explicit agricultural reckoning comparison and after-firstfruits condition without guessing the pronoun or treating the act as the produce. Both complete final triples separately reread; exact two-rationale-only delta verified.",
+          "revision_history_file": "numbers-17-19-revision-history.json"
+        }
+      ],
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "unpairedrefs": [],
+      "peer_completion_credit": 0,
+      "technical_completion_credit": 0,
+      "inventory_completion_credit": 0,
+      "import_completion_credit": 0,
+      "repository_mutations": 0,
+      "tsv_mutations_by_peer": 0,
+      "limitations": "Initial AI-assisted English passage review; no new original-language, critical apparatus, independent human specialist or historical identity approval is claimed.",
+      "disposition": "Accept final frozen148-pair TSV after the two precision refinements."
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex numbers_1_3 peer (independent AI-assisted English-passage review of another author’s Numbers20–21 packet)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-29T20:02:47.045791+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-29-1544\\numbers-20-21.tsv",
+      "input_sha256": "d3f25e5f0b465bf01647b5416b6dbc8d6215b6009082f4839c90b3db1d488ba2",
+      "final_input_sha256": "d3f25e5f0b465bf01647b5416b6dbc8d6215b6009082f4839c90b3db1d488ba2",
+      "author_review_file": "numbers-20-21-review.json",
+      "author_review_sha256": "5e08c1c52e2b2c4659c4dd0ad87b21c5befa29d5ef056b521fc9702e84c805e4",
+      "historical_input_sha256": "a9c93a5039085a5f91dea49c962628aac488ac5b0a8b9052e3234f1670be9912",
+      "historical_author_review_sha256": "01210d2923f0de3cec45dec97680f0ec18a0799a191fe3647d30f9249d4d4501",
+      "reviewed_source_chapters": [
+        20,
+        21
+      ],
+      "source_verses": 64,
+      "source_verses_read": 64,
+      "retained_pairs_reviewed": 96,
+      "distinct_target_verse_units": 129,
+      "chapter_pair_counts": {
+        "20": 44,
+        "21": 52
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_categories_read": true,
+      "all_retained_rationales_read": true,
+      "all_final_explanations_reviewed": true,
+      "review_method": "Independently read all64 complete actual Numbers20–21 sources and all96 complete source–target–category–rationale triples in three packets, with all129 complete retained target units and the necessary contexts recorded below. Requested three precise rationale refinements at21:20,21:21 and21:30. After the author accepted them, separately displayed and reread all three final complete triples and the entire final author receipt, including its old/new revision record. Independently compared the preserved initial/final TSVs: exactly these three rationales changed, and all source keys, target keys, categories, row order, and96 pairs remained unchanged. No other correction or removal is required. This is supplied-English editorial review; no Greek, Hebrew, critical-apparatus, or independent human-specialist review is claimed.",
+      "necessary_contexts_read": [
+        "Complete Numbers20–21 and all retained target units in full initial triples.",
+        "Numbers11:1–35,13:1–33,14:1–38 (read in this hourly run); Numbers27:12–23; Numbers33:37–44.",
+        "Exodus15:19–21,17:1–7,3:1–10,29:27–35; Genesis35:9–12,36:6–8,46:1–7.",
+        "Deuteronomy2:1–37,3:1–7,8:11–20,10:1–8,32:48–52,34:1–9.",
+        "Judges11:12–28; Joshua12:1–6; John3:1–21;2Kings18:1–6;1Corinthians10:1–11.",
+        "Psalms105:28–33,134:8–12,135:16–22 in the supplied source’s actual numbering."
+      ],
+      "resolved_corrections": [
+        {
+          "source_reference": "Numbers 21:20",
+          "target": "Numbers 21:19",
+          "old_rationale": "The previous stage ends at Bamoth; this verse starts from Bamoth and places the next stage in a Moabite valley beneath the overlooking height.",
+          "new_rationale": "The previous stage ends at Bamoth; this verse resumes there and describes a valley in Moab's plain and a summit overlooking the wilderness.",
+          "status": "Author accepted; independent peer displayed and reread complete final source–target–category–rationale triple.",
+          "new_source_verse_credit": 0,
+          "new_pair_credit": 0
+        },
+        {
+          "source_reference": "Numbers 21:21",
+          "target": "Deuteronomy 2:26",
+          "old_rationale": "Both name Moses sending messengers with words of peace to Sihon king of Heshbon, while Deuteronomy additionally names their departure from Kedemoth.",
+          "new_rationale": "Both record Moses sending peace envoys to Sihon; Numbers calls him king of the Amorites, while Deuteronomy names Heshbon and the departure from Kedemoth.",
+          "status": "Author accepted; independent peer displayed and reread complete final source–target–category–rationale triple.",
+          "new_source_verse_credit": 0,
+          "new_pair_credit": 0
+        },
+        {
+          "source_reference": "Numbers 21:30",
+          "target": "Numbers 21:28-29",
+          "old_rationale": "The line carries Heshbon's ruin imagery toward Dibon and attributes further burning against Moab to women, following the preceding flame and captive notices.",
+          "new_rationale": "The line describes seed perishing from Heshbon to Dibon and women burning against Moab, continuing the preceding poem's fire, ruin and captivity.",
+          "status": "Author accepted; independent peer displayed and reread complete final source–target–category–rationale triple.",
+          "new_source_verse_credit": 0,
+          "new_pair_credit": 0
+        }
+      ],
+      "particular_checks": [
+        "Numbers20:1 does not acquire an unstated year; Numbers33:38–39 supplies Aaron’s own fortieth-year date, fifth-month day and age.",
+        "The Water of Dispute comparisons retain the commanded speech, narrated two strokes, stated unbelief and failure to sanctify, and the brothers’ exclusion without identifying the staff’s individual owner.",
+        "Psalms105:33 remains issued a command with his lips; no imported rashly wording is attributed to the actual source.",
+        "Aaron’s death and Eleazar’s succession are explicit common content at20:28 and Deuteronomy10:6; Hor and Misadai remain different stated locations, with no equivalence or geographical reconciliation approved.",
+        "Numbers21:11→33:44 is supported by their explicit shared departure from Oboth and subsequent camp on Moab’s side; Achel-gai/Gai is neither asserted identical nor approved as a resolved place-name identity.",
+        "The itinerary and quoted geography preserve Atharim, Zoob, Er, Arnon, Zered, Manthanain, Nahaliel, Bamoth and Hewn Height; no formal book title or familiar substituted geography is supplied.",
+        "The well song keeps rulers digging and kings of nations hewing it; the Heshbon poem keeps seed perishing and women kindling further fire against Moab.",
+        "Edom and Sihon remain distinct diplomatic recipients; payment/no-water wording differs explicitly where compared. Sihon’s stated titles Amorites and Heshbon are preserved by the corrected rationale.",
+        "The conquest comparisons retain Jahaz, Arnon/Jabbok/Ammon limits, Jazer, Heshbon’s earlier Moabite war and Og’s Edrei setting without treating nonidentical source descriptions as identical inventories.",
+        "John3 explicitly compares the raised serpent and eternal life in the continuing dialogue;2Kings18 explicitly identifies Moses’ bronze serpent and subsequent destruction.1Corinthians10’s rock interpretation is not assigned uniquely to this one water episode."
+      ],
+      "source_books": [
+        {
+          "book": "1 Corinthians",
+          "records": "1-corinthians/verses.json",
+          "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545",
+          "raw_file": "numbers-20-21-peer-pin-1-corinthians.json",
+          "raw_sha256": "0137d56de15cae418bd683e86957dae74075a08822426646364cba9d7e84e66e",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "2 Kings",
+          "records": "2-kings/verses.json",
+          "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+          "raw_file": "numbers-20-21-peer-pin-2-kings.json",
+          "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "raw_file": "numbers-20-21-peer-pin-deuteronomy.json",
+          "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "raw_file": "numbers-20-21-peer-pin-exodus.json",
+          "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": false,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+          "raw_file": "numbers-20-21-peer-pin-genesis.json",
+          "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": false,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "John",
+          "records": "john/verses.json",
+          "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+          "raw_file": "numbers-20-21-peer-pin-john.json",
+          "raw_sha256": "44504ae87e2e2a48a4702d0ff3d4db3a3074a2f7c7421251d6f67cd490665486",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+          "raw_file": "numbers-20-21-peer-pin-joshua.json",
+          "raw_sha256": "eb93d63cea7acf7f4e4b28b1c35436ad11acd02a5be7d25ce5c95d737ea54040",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+          "raw_file": "numbers-20-21-peer-pin-judges.json",
+          "raw_sha256": "bc00ee37a3b832eeac7929234102b393ec34ac10158ec548249b0ef187306eec",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "raw_file": "numbers-20-21-peer-pin-numbers.json",
+          "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "raw_file": "numbers-20-21-peer-pin-psalms.json",
+          "raw_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        }
+      ],
+      "pin_verification": "Independently fetched all ten exact raw retained-source book records at the stated source commit, verified each raw Git blob SHA against existing registered source pins, compared complete parsed JSON with local caches, and saved every raw file. All pins and parsed comparisons match. Cache byte equality is false: each adds one trailing LF, and Genesis/Exodus additionally normalize CRLF to LF. Receipt numbers-20-21-peer-pins.json.",
+      "reading_receipt_file": "numbers-20-21-peer-reading-receipt.json",
+      "reading_receipt_sha256": "de161a29a0cd1da37002f121834caaf0cf13d9736dd137eb3993a252453d6226",
+      "required_issues": [],
+      "required_removals": [],
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "unpairedrefs": [],
+      "identity_approval_scope": "No identity approval is supplied for Hor/Misadai, Achel-gai/Gai, unnamed destroyed brothers, the individual staff, the reported angel, or Er versus another place-name. The retained comparisons depend only on explicit common content and preserve differences.",
+      "verdict": "accepted_after_three_precision_refinements",
+      "completion_credit": {
+        "new_source_verses": 0,
+        "new_pairs": 0,
+        "imports": 0,
+        "technical_checks": 0,
+        "peer_review": 0
+      }
+    }
+  ],
+  "applied_peer_corrections": [
+    {
+      "file": "numbers-14-16.tsv",
+      "field": "revision_history",
+      "details": [
+        {
+          "reviewed": "2026-10-29",
+          "review_timezone": "America/New_York",
+          "original_input_sha256": "ddef9c78a27b2aff0c3ffbfef86769f9e99fa0da4a8a1eabe510bf9abf8553bf",
+          "final_input_sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92",
+          "original_author_review_sha256": "5d2c10b55c94a029f153ea567dd6503b7a5f502e76b1dec65f0cc42e332be556",
+          "original_input_file": "numbers-14-16-original-frozen.tsv",
+          "original_author_review_file": "numbers-14-16-original-author-review.json",
+          "reason": "Independent peer precision correction: actual Numbers17:23 identifies Aaron's staff for the house of Levi, rather than Aaron's house.",
+          "corrected_complete_triple_reread": true,
+          "changes": [
+            {
+              "row": 125,
+              "old": {
+                "source_reference": "Numbers 16:5",
+                "target": "Numbers 17:20-23",
+                "relationship": "Chosen servant disclosed by a sign",
+                "rationale": "The promise that God identifies His chosen holy servant is followed in the staff narrative by a specified sign selecting Aaron's house."
+              },
+              "new": {
+                "source_reference": "Numbers 16:5",
+                "target": "Numbers 17:20-23",
+                "relationship": "Chosen servant disclosed by a sign",
+                "rationale": "The promise that God identifies His chosen holy servant is followed by the staff sign in which Aaron’s staff for Levi sprouts."
+              }
+            }
+          ],
+          "new_source_credit": 0,
+          "new_pair_credit": 0,
+          "counts_unchanged": {
+            "source_verses": 121,
+            "completed_pairs": 163,
+            "distinct_target_verse_units": 203
+          }
+        }
+      ],
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "numbers-20-21.tsv",
+      "field": "peer_revisions",
+      "details": {
+        "original_input_sha256": "a9c93a5039085a5f91dea49c962628aac488ac5b0a8b9052e3234f1670be9912",
+        "original_author_receipt_sha256": "01210d2923f0de3cec45dec97680f0ec18a0799a191fe3647d30f9249d4d4501",
+        "changes": [
+          {
+            "source_reference": "Numbers 21:20",
+            "target": "Numbers 21:19",
+            "old_rationale": "The previous stage ends at Bamoth; this verse starts from Bamoth and places the next stage in a Moabite valley beneath the overlooking height.",
+            "new_rationale": "The previous stage ends at Bamoth; this verse resumes there and describes a valley in Moab's plain and a summit overlooking the wilderness.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Numbers 21:21",
+            "target": "Deuteronomy 2:26",
+            "old_rationale": "Both name Moses sending messengers with words of peace to Sihon king of Heshbon, while Deuteronomy additionally names their departure from Kedemoth.",
+            "new_rationale": "Both record Moses sending peace envoys to Sihon; Numbers calls him king of the Amorites, while Deuteronomy names Heshbon and the departure from Kedemoth.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Numbers 21:30",
+            "target": "Numbers 21:28-29",
+            "old_rationale": "The line carries Heshbon's ruin imagery toward Dibon and attributes further burning against Moab to women, following the preceding flame and captive notices.",
+            "new_rationale": "The line describes seed perishing from Heshbon to Dibon and women burning against Moab, continuing the preceding poem's fire, ruin and captivity.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "method": "After the full initial author reread and the independent peer full-triple reading, separately displayed and reread all three revised complete source/target/category/rationale triples. Only these three explanations changed; all96 final explanations are covered by the initial full reread plus this exact-delta reread.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      },
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Numbers 12:1",
+      "target": "Exodus 2:21",
+      "status": "pending identity review; not retained",
+      "reason": "Numbers describes an Ethiopian wife without naming her; Exodus names Zipporah within the Midian marriage account. Both complete contexts were read, but their identity has not been independently resolved and is not asserted in a completed pair.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 12:1",
+        "id": "v12-1",
+        "text": "And Miriam and Aaron spoke against Moses because of the Ethiopian woman Moses had married, for he had married an Ethiopian woman.",
+        "text_sha256": "61844021f6d3e8bb91eb95c1ef6e531421ecd2f00daef93c33550fda97cfba9c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "exodus/verses.json",
+        "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Exodus 2:21",
+          "id": "v2-21",
+          "text": "Moses settled with the man, who gave him his daughter Zipporah as his wife.",
+          "text_sha256": "bd6b8b4b762c8ccc6ee5d09fc6800af49a947c12e75010a5d1b4082d31c90c4f"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 13:22",
+      "target": "Joshua 15:14",
+      "status": "pending individual-name equivalence; not retained",
+      "reason": "The actual lists include Ahiman, Sheshai, Talmai versus Sousi, Talmai, Achima. Both actual passages were read; equivalence of the differently rendered individual names is not independently resolved or counted.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 13:22",
+        "id": "v13-22",
+        "text": "And they went up through the wilderness and came as far as Hebron, where Ahiman, Sheshai, and Talmai, families of Anak, were. Hebron had been built seven years before Tanis in Egypt.",
+        "text_sha256": "228bc2afa422b3035b2b538b47aedea1e287ca4b9b3b1122e21155cff6831ebd"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Joshua 15:14",
+          "id": "v15-14",
+          "text": "Caleb son of Jephunneh destroyed from there the three sons of Anak: Sousi, Talmai, and Achima.",
+          "text_sha256": "bc20b5af87860716e774f6027c76517e5f784201078278ae0f94004177739207"
+        }
+      ]
+    }
+  ],
+  "known_pending_target_candidates": [
+    {
+      "source_reference": "Numbers 10:29",
+      "target": "Judges 4:11",
+      "status": "pending identity review",
+      "reason": "The actual pinned Numbers text names Hobab son of Reuel, a Midianite and Moses' kinsman by marriage. The actual pinned Judges text names sons of Jobab, Moses' in-law. Both texts were read, but the possible identity or name equivalence has not been independently resolved. This candidate is not a completed pair.",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "judges/verses.json",
+        "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+      },
+      "target_verses": [
+        {
+          "reference": "Judges 4:11",
+          "id": "v4-11",
+          "text": "The neighbours of the Kenite had separated from the sons of Jobab, Moses’ in-law. He pitched his tent near the Oak of the Resters, near Kedesh.",
+          "text_sha256": "e012b3baa6d1a8ea58b3c92a4bdc06a6aa25ce3587af16dbb31dc6d6f213ca56"
+        }
+      ],
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Numbers 12:1",
+      "target": "Exodus 2:21",
+      "status": "pending identity review; not retained",
+      "reason": "Numbers describes an Ethiopian wife without naming her; Exodus names Zipporah within the Midian marriage account. Both complete contexts were read, but their identity has not been independently resolved and is not asserted in a completed pair.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 12:1",
+        "id": "v12-1",
+        "text": "And Miriam and Aaron spoke against Moses because of the Ethiopian woman Moses had married, for he had married an Ethiopian woman.",
+        "text_sha256": "61844021f6d3e8bb91eb95c1ef6e531421ecd2f00daef93c33550fda97cfba9c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "exodus/verses.json",
+        "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Exodus 2:21",
+          "id": "v2-21",
+          "text": "Moses settled with the man, who gave him his daughter Zipporah as his wife.",
+          "text_sha256": "bd6b8b4b762c8ccc6ee5d09fc6800af49a947c12e75010a5d1b4082d31c90c4f"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 13:22",
+      "target": "Joshua 15:14",
+      "status": "pending individual-name equivalence; not retained",
+      "reason": "The actual lists include Ahiman, Sheshai, Talmai versus Sousi, Talmai, Achima. Both actual passages were read; equivalence of the differently rendered individual names is not independently resolved or counted.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 13:22",
+        "id": "v13-22",
+        "text": "And they went up through the wilderness and came as far as Hebron, where Ahiman, Sheshai, and Talmai, families of Anak, were. Hebron had been built seven years before Tanis in Egypt.",
+        "text_sha256": "228bc2afa422b3035b2b538b47aedea1e287ca4b9b3b1122e21155cff6831ebd"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Joshua 15:14",
+          "id": "v15-14",
+          "text": "Caleb son of Jephunneh destroyed from there the three sons of Anak: Sousi, Talmai, and Achima.",
+          "text_sha256": "bc20b5af87860716e774f6027c76517e5f784201078278ae0f94004177739207"
+        }
+      ]
+    },
+    {
+      "source_reference": "Genesis 49:9",
+      "target": "Revelation 5:5",
+      "reason": "Saints70 retains this canonical book, but its exact target text is not present in the pinned Saints-Translation records. Missing source identity/content must be supplied before review.",
+      "status": "pending pinned target evidence"
+    },
+    {
+      "source_reference": "Exodus 15:1",
+      "target": "Revelation 15:3",
+      "status": "pending pinned target evidence",
+      "reason": "Candidate for later review only. The pinned Saints-Translation records provide no actual Revelation target text; this passage has not been read or verified in the selected edition and is not included in completed pairs."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "source_reference": "Numbers 13:20",
+      "target": "Deuteronomy 8:8",
+      "reason": "Removed the optional general fruit-command to later produce-list link as weaker than13:20→13:23, which directly records carrying the commanded fruit. The specific fruit inventory link remains only at13:23."
+    },
+    {
+      "source_reference": "Numbers 11:25",
+      "proposed_claim": "Replace did not do so again with an alternative familiar translation",
+      "reason": "The actual pinned English wording is retained without independent original-language adjudication."
+    },
+    {
+      "source_reference": "Numbers 13:22",
+      "target": "Joshua 15:14",
+      "reason": "Did not retain a claim that Ahiman/Sheshai and Achima/Sousi are verified equivalent individual names; the supported Hebron/Anak setting comparison instead uses Joshua14:12–14."
+    },
+    {
+      "source_reference": "Numbers 16:1-35",
+      "proposed_claim": "Move familiar later chapter16 verse numbers into the actual source chapter",
+      "reason": "The supplied chapter ends at35 and chapter17 holds the fire-pan memorial and later events; actual references are retained."
+    },
+    {
+      "source_reference": "Numbers 16:32-33",
+      "proposed_claim": "Every descendant of Korah died in the judgment",
+      "reason": "Actual Numbers26:11 expressly preserves his sons; the exception is retained as a supported target."
+    },
+    {
+      "source_reference": "Numbers 14:45",
+      "proposed_claim": "Silently replace Erman or the named attackers with familiar parallel-account details",
+      "reason": "The actual Numbers and Deuteronomy particulars are reported separately."
+    },
+    {
+      "candidate_target": "Haggai 2:11-14",
+      "reason": "No actual passage was available under that exact key in the cache; no title or numbering substitution was invented, and no unread target was retained."
+    },
+    {
+      "source_reference": "Numbers 18:32",
+      "candidate_target": "Leviticus 22:6-7",
+      "reason": "Replaced the looser food-access comparison with the specific Leviticus22:9 conjunction of sin, profanation and death."
+    },
+    {
+      "source_reference": "Numbers 19:5",
+      "candidate_target": "Hebrews 13:11-13",
+      "reason": "Read but did not retain as the principal burning parallel: Hebrews specifies sin-offering blood brought inside, while Numbers19 sprinkles toward the Tent front. Direct Leviticus remains-burning parallels were preferred."
+    },
+    {
+      "candidate_target": "Revelation",
+      "reason": "No actual target text was available; no Revelation passage was retained."
+    },
+    {
+      "source_reference": "Numbers20:3,9,16",
+      "proposed_claim": "Identify the unnamed destroyed brothers, the ownership of the staff, or the angel beyond the actual wording.",
+      "reason": "The retained comparisons do not resolve those unspecified identities."
+    },
+    {
+      "source_reference": "Numbers20:28 / Numbers21:11-15",
+      "proposed_claim": "Silently equate Hor with Misadai, Achel-gai with Gai, or Er with another familiar place-name; supply a formal title absent from21:14.",
+      "reason": "The geographical forms remain distinct. The Oboth parallel compares the explicitly shared departure point and Moab-side camp role without asserting independent geographical name equivalence."
+    }
+  ],
+  "remaining_checks": [
+    "Independent human specialist review",
+    "Original-language and critical-apparatus comparison",
+    "Live destination-anchor and display verification"
+  ],
+  "target_identity_preflight": {
+    "checked_at_utc": "2026-10-29T20:04:21.499234+00:00",
+    "source_units": 351,
+    "retained_pairs": 520,
+    "reference_resolution": "passed in actual source order",
+    "canonical_target_membership": "passed",
+    "no_duplicate_self_pairs": "passed",
+    "same_chapter_labels": "passed",
+    "final_peer_input_and_author_receipt_hash_bindings": "passed",
+    "new_unresolved_identity_candidates_excluded": 2,
+    "completion_credit": 0
+  },
+  "frozen_receipt_fingerprints": [
+    {
+      "author_file": "numbers-11-13-review.json",
+      "author_sha256": "aacce1c4f25083351344a3461d17b9bd72f95e6dc86d2060054446e3f95195ba",
+      "peer_file": "numbers-11-13-peer-review.json",
+      "peer_sha256": "40f8fe6cb8d83cf89db349e723d34ef4b6a56574381364cd150517a5bd8bc066",
+      "tsv_file": "numbers-11-13.tsv",
+      "tsv_sha256": "9c59eb7d38d6a481721fe172decbdc4e1de3468cc69650704e6fc19d51f3165b"
+    },
+    {
+      "author_file": "numbers-14-16-review.json",
+      "author_sha256": "9d5b81ff10c598d234f679e16a5a960adc7cfb86c32a4c71f9f21270c2d69ff9",
+      "peer_file": "numbers-14-16-peer-review.json",
+      "peer_sha256": "11adf8041f83d965fd5837850dbf72ca11f1a9c21bf7e50decd15a1b1c80f47c",
+      "tsv_file": "numbers-14-16.tsv",
+      "tsv_sha256": "cd6975ecf10be5aa3f1a019454bc3b79bb139a782bc8bbaa013ad4da66ce3a92"
+    },
+    {
+      "author_file": "numbers-17-19-review.json",
+      "author_sha256": "0d415140e59a5f86e6bfff5944aee45500b8a3ae07abc56c6e8cf5192e92fa9d",
+      "peer_file": "numbers-17-19-peer-review.json",
+      "peer_sha256": "7097be8b65c36369304dd3d2839016cb28096780749dea7e6130f165a00a22b6",
+      "tsv_file": "numbers-17-19.tsv",
+      "tsv_sha256": "7e9981f6eb698c1c9656148c6f41cf6c3f4b361138a035cb99421ccd0e7f75c2"
+    },
+    {
+      "author_file": "numbers-20-21-review.json",
+      "author_sha256": "5e08c1c52e2b2c4659c4dd0ad87b21c5befa29d5ef056b521fc9702e84c805e4",
+      "peer_file": "numbers-20-21-peer-review.json",
+      "peer_sha256": "39a54d2c72f08d438030e874782bf2343edef16327231502394aacc090d9b5f0",
+      "tsv_file": "numbers-20-21.tsv",
+      "tsv_sha256": "d3f25e5f0b465bf01647b5416b6dbc8d6215b6009082f4839c90b3db1d488ba2"
+    }
+  ],
+  "book": "Numbers",
+  "overall_review_record": "../../review-batches/2026-10-29T194416Z.json"
+}
