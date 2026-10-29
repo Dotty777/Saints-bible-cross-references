@@ -2,9 +2,9 @@
 
 Book-by-book Old Testament cross-references, matching passage evidence and review status. The folder structure follows [Saints-Translation](https://github.com/Dotty777/Saints-Translation).
 
-- [Genesis — 50 chapters](genesis/README.md): initial curated pass complete for chapters 1–19; **496 source verses, 1244 matching cross-reference pairs**. Later chapters remain pending.
+- [Genesis — 50 chapters](genesis/README.md): initial curated pass complete for chapters 1–26; **728 source verses, 1760 matching cross-reference pairs**. Later chapters remain pending.
 
-[progress.json](progress.json) records the complete book plan, actual completed verses and pairs, each book's status and the exact continuation. **Next: Genesis 20:1.** No complete Old Testament book is claimed yet.
+[progress.json](progress.json) records the complete book plan, actual completed verses and pairs, each book's status and the exact continuation. **Next: Genesis 27:1.** No complete Old Testament book is claimed yet.
 
 ## Coverage
 
@@ -12,7 +12,7 @@ Work begins at Genesis and follows the reference edition's relative Old Testamen
 
 The deuterocanonical scope includes 1–2 Maccabees, Wisdom of Solomon, Sirach, Tobit, Judith, Baruch and the expanded Esther/Daniel readings. Tobit and Judith are inserted after Nehemiah; Baruch is inserted after Jeremiah. Other books retain their relative order in Saints-Translation.
 
-Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis currently has 1,531 inventoried source units, of which 496 are completed.
+Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis currently has 1,531 inventoried source units, of which 728 are completed.
 
 ## What completed means
 
@@ -34,4 +34,4 @@ Run `python scripts/validate.py` to check the saved data, counts, unique pair ID
 
 After updating the structured records and progress, run `python scripts/render_genesis.py` to refresh the Genesis HTML/text views and current README counts, then validate again.
 
-Latest saved review: 2026-10-28, **610 new pairs across 261 source verses**. Hourly target: 500; shortfall: 0. [Review record](genesis/review-batches/2026-10-28T233950Z.json).
+Latest saved review: 2026-10-28, **516 new pairs across 232 source verses**. Hourly target: 500; shortfall: 0. [Review record](genesis/review-batches/2026-10-29T003621Z.json).
