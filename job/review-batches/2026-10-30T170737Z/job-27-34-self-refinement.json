@@ -1,0 +1,71 @@
+{
+  "reviewer": "Codex AI author /root/macc9_12_peer",
+  "run_id": "2026-10-30T170737Z",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "before_file": "job-27-34-original-draft.tsv",
+  "before_sha256": "0926ce28a30d94efb3db4835ec4c2d67ba4b939c071eeeab00b00da9c2587e6c",
+  "after_file": "job-27-34.tsv",
+  "after_sha256": "ab5b8e5c7f5e3b15e99ff8bbb1bee8b66e30ca8ba7a95d7e6092638b9d4d8817",
+  "changes": [
+    {
+      "action": "remove",
+      "old_row": {
+        "source_reference": "Job 31:25",
+        "target": "1 Timothy 6:17",
+        "relationship": "Restraint regarding abundant wealth",
+        "rationale": "Job's oath rejects rejoicing because much wealth came to him; the instruction to the rich warns against arrogance and resting hope in uncertain wealth. The comparison concerns the attitude toward riches, not a denial of all enjoyment."
+      },
+      "new_row": null,
+      "reason": "Job's oath about rejoicing in wealth is not the same particular instruction as the warning against arrogance and hope in uncertain riches. After comparing the complete texts and context, the remaining shared subject of attitudes toward wealth is too broad for this retained link. The source remains pending."
+    },
+    {
+      "action": "refine",
+      "old_row": {
+        "source_reference": "Job 32:19",
+        "target": "Matthew 9:17",
+        "relationship": "New wine bursting a wineskin",
+        "rationale": "Elihu uses fermenting wine in a tied wineskin as an image of his pressure to speak; Jesus' saying describes new wine bursting old wineskins. The different uses and the additional bellows image are retained."
+      },
+      "new_row": {
+        "source_reference": "Job 32:19",
+        "target": "Matthew 9:17",
+        "relationship": "New wine in wineskins",
+        "rationale": "Elihu's tied wineskin contains fermenting new wine as an image of his pressure to speak, and his separate bellows image explicitly bursts; Jesus describes new wine bursting old wineskins. The vessels and uses are kept distinct."
+      },
+      "reason": "The bellows are explicitly burst in Job, while Jesus explicitly describes bursting old wineskins. The category and rationale must not imply that both texts expressly describe a bursting wineskin."
+    }
+  ],
+  "new_source_deferrals": [
+    {
+      "source_reference": "Job 31:25",
+      "target": null,
+      "reason": "Job's oath about rejoicing in wealth is not the same particular instruction as the warning against arrogance and hope in uncertain riches. After comparing the complete texts and context, the remaining shared subject of attitudes toward wealth is too broad for this retained link. The source remains pending.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "original_cases_file": "job-27-34-original-review-cases.json",
+  "original_cases_sha256": "70a6e99a1e2df4c887c5358c9b39cffddc782e5e239569c367f4d33aed2c297b",
+  "changed_before_file": "job-27-34-changed-before.tsv",
+  "changed_before_sha256": "55c137e4738137353454eb6a999697f2f9b20095e6796cefcfe9afc5323b558e",
+  "changed_after_file": "job-27-34-changed-after.tsv",
+  "changed_after_sha256": "845c671303e4dfd7b916d8abfbfbcfc321ed416fec92891fe8938133f91f4739",
+  "completed_pair_credit": 0,
+  "cases_before_final_reread_file": "job-27-34-cases-before-final-reread.json",
+  "cases_before_final_reread_sha256": "471074ef39f149650376f1eadab52bbfb06d97735c339b4c8628ea2da01ecaf8",
+  "final_cases_file": "job-27-34-review-cases.json",
+  "final_cases_sha256": "d83981f0903aa90bfebf350695cef26d3c5790562c536ed131b01d236a131b1f",
+  "case_reason_changes": [
+    {
+      "source_reference": "Job 30:2",
+      "old_reason": "The lost strength and completion of the mockers' fathers are not assigned an age, illness or social identity absent from the text.",
+      "new_reason": "The lost strength and completion of the people being described are not assigned an age, illness or settled antecedent beyond the supplied pronouns.",
+      "reason": "Do not settle the pronoun antecedent as the mockers fathers."
+    }
+  ],
+  "all_five_candidate_complete_triples_personally_reread": true,
+  "removed_and_changed_before_complete_triples_personally_reread": true,
+  "corrected_complete_triple_personally_reread": true
+}

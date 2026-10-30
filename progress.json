@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-30",
-  "updated_at_utc": "2026-10-30T16:55:10.370806+00:00",
+  "updated_at_utc": "2026-10-30T18:08:36.033185+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -12,8 +12,8 @@
   "completed_book_records": 12,
   "pending_book_records": 31,
   "completed_chapters": 393,
-  "completed_source_verses": 13778,
-  "completed_cross_references": 18374,
+  "completed_source_verses": 14396,
+  "completed_cross_references": 19026,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before source review. Uninventoried pending books retain unknown verse and chapter counts. Fully inventoried pending books have known source totals and zero review credit until their initial curated review. Preserve nonstandard anchors, continuation units and original composite references.",
   "next": {
@@ -1233,8 +1233,8 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in_progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 143,
-      "completed_cross_references": 162,
+      "completed_source_verses": 761,
+      "completed_cross_references": 814,
       "order": 20,
       "division": "Judgement",
       "division_slug": "judgement",
@@ -1247,7 +1247,7 @@
         2
       ],
       "next_reference": "Job 3:2",
-      "next_unreviewed_reference": "Job 9:1",
+      "next_unreviewed_reference": null,
       "completed_verse_ranges": [
         "Job 1:1-22",
         "Job 2:1-13"
@@ -3644,6 +3644,63 @@
           "completion_credit": 0
         }
       ]
+    },
+    {
+      "run_id": "2026-10-30T170737Z",
+      "date": "2026-10-30",
+      "synchronized": "2026-10-30",
+      "reviewed_dates": [
+        "2026-10-30"
+      ],
+      "source_range": "Job 9:1-42:17e; previously read source revisit: Job 3:18",
+      "source_range_is_review_scope": true,
+      "source_units_read": 897,
+      "first_reviewed_source_units": 896,
+      "revisited_source_units_read": 1,
+      "new_completed_revisited_sources": 1,
+      "resolved_source_deferrals_count": 1,
+      "distinct_source_verses": 618,
+      "new_completed_pairs": 652,
+      "new_deferred_source_units_count": 279,
+      "total_deferred_source_units_count": 1024,
+      "book_results": [
+        {
+          "book": "Job",
+          "source_range": "Job 9:1-42:17e; previously read source revisit: Job 3:18",
+          "source_range_is_review_scope": true,
+          "source_units_read": 897,
+          "first_reviewed_source_units": 896,
+          "revisited_source_units_read": 1,
+          "new_completed_revisited_sources": 1,
+          "distinct_source_verses": 618,
+          "new_completed_pairs": 652,
+          "new_deferred_source_units_count": 279,
+          "total_deferred_source_units_count": 322,
+          "completed_chapters": [
+            1,
+            2
+          ],
+          "new_completed_chapters": [],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": true,
+          "next_reference": "Job 3:2",
+          "next_unreviewed_reference": null
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 152,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 22,
+      "known_pending_target_candidate_count": 206,
+      "review_record": "review-batches/2026-10-30T170737Z.json",
+      "next_reference": "1 Chronicles 1:24",
+      "next_unreviewed_reference": "Psalms 1:1",
+      "inventories_added": []
     }
   ],
   "canon_manifest": "canon.json",
@@ -3665,9 +3722,9 @@
     }
   ],
   "next_unreviewed": {
-    "book": "Job",
-    "chapter": 9,
-    "reference": "Job 9:1",
-    "source_id": "v9-1"
+    "book": "Psalms",
+    "chapter": 1,
+    "reference": "Psalms 1:1",
+    "source_id": "v1-1"
   }
 }

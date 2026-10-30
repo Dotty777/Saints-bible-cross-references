@@ -1,0 +1,47 @@
+{
+  "reviewer": "Codex AI author /root/macc13_16_author",
+  "run_id": "2026-10-30T170737Z",
+  "base_commit": "766566a23e0af4d3f370399535c8f82ae2ba8c9f",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "before_file": "job-9-17-before-peer.tsv",
+  "before_sha256": "5d29347fc9cd13fc00ee6db4100e72c94067adfe3a17246206e0613b08d23706",
+  "after_file": "job-9-17.tsv",
+  "after_sha256": "fc03db55917ea4cf9d6fbc8399e5262ab99bd6fd8d16181a6bc1bd6cfa3c31a9",
+  "changes": [
+    {
+      "action": "remove",
+      "old_row": {
+        "source_reference": "Job 10:3",
+        "target": "Psalms 137:8",
+        "relationship": "Appeal concerning the maker's handiwork",
+        "rationale": "Job protests that he might disown the works of God's hands while God attends to ungodly counsel. The psalm pleads that the Lord not neglect the works of His hands. The link concerns the appeal to created handiwork, preserving the different subjects of disowning and neglecting."
+      },
+      "new_row": null,
+      "reason": "After preserving Job's actual first-person I disown, the connection with a plea that God not neglect His handiwork rests on the shared handiwork phrase. Job questions his own wrongdoing and disowning while the psalm asks God to preserve His works; these distinct actions do not establish a sufficiently particular retained relationship."
+    },
+    {
+      "action": "refine",
+      "old_row": {
+        "source_reference": "Job 15:18",
+        "target": "Job 8:8-10",
+        "relationship": "Wisdom warranted by the ancestors",
+        "rationale": "Eliphaz appeals to what wise people report from their fathers. Bildad likewise directed Job to the former generation and the fathers for teaching. Both present ancestral testimony as authority within the dispute."
+      },
+      "new_row": {
+        "source_reference": "Job 15:18",
+        "target": "Job 8:8-10",
+        "relationship": "Fathers invoked alongside wisdom",
+        "rationale": "Eliphaz introduces what wise people will say and says they did not conceal their fathers. Bildad explicitly directs inquiry to the former generation and the fathers for teaching. The speeches invoke fathers alongside wisdom, but Job 15:18 does not expressly say the wise received their report from those fathers."
+      },
+      "reason": "Do not turn did not conceal their fathers into an express statement of receiving reports from those fathers."
+    }
+  ],
+  "changed_before_file": "job-9-17-peer-changed-before.tsv",
+  "changed_before_sha256": "7ddfe5a14033bfee5ac68a8f86d1c2c3139670b50639e027aa978c72f61e8873",
+  "changed_after_file": "job-9-17-peer-changed-after.tsv",
+  "changed_after_sha256": "ef9e41689ff4d0627933e6a509e4315e429f85ac4c73c2efc220dfc96233fe16",
+  "preserved_author_review_file": "job-9-17-review-before-peer.json",
+  "preserved_author_review_sha256": "a3cb49e51441db84fc394405ae7297a9bf77a2973ed153642588801c9c86bb5b",
+  "peer_findings_file": "job-9-17-peer-original-findings.json",
+  "peer_findings_sha256": "10f9ed55eaf4b954f04fdb182985b72b224f19b424422cfbf70ba95d45eb50c1"
+}
