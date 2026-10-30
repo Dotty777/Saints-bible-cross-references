@@ -11,6 +11,8 @@ import re
 ROOT=Path(__file__).resolve().parents[1]
 def digest(text):
     return hashlib.sha256(text.encode('utf-8')).hexdigest()
+def blob_digest(raw):
+    return hashlib.sha1(b'blob '+str(len(raw)).encode('ascii')+b'\0'+raw).hexdigest()
 def load(path):
     return json.loads(path.read_text(encoding='utf-8'))
 def require(condition,message):
@@ -19,6 +21,62 @@ def complete_text(unit):
     paragraphs=unit.get('continuation_paragraphs',[])
     require(isinstance(paragraphs,list) and all(isinstance(p,str) for p in paragraphs),'Invalid original continuation paragraphs: '+unit['reference'])
     return '\n'.join([unit['text']]+paragraphs)
+def repository_path(relative):
+    path=(ROOT/relative).resolve()
+    require(path.is_relative_to(ROOT.resolve()),'Archived target source path escapes repository')
+    return path
+def archived_target_book(edge,book,cache):
+    """Read ordered original units from a declared, byte-verified full-book snapshot."""
+    batch=edge.get('review_batch')
+    if not batch:return None
+    require(re.fullmatch(r'[A-Za-z0-9_.-]+',batch) is not None,'Invalid target review batch')
+    target=edge['target_source'];key=(batch,target['commit'],target['blob_sha'])
+    if key in cache:return cache[key]
+    if batch not in cache:
+        manifest_path=repository_path('review-batches/'+batch+'.json')
+        manifest=load(manifest_path) if manifest_path.exists() else {}
+        archive=manifest.get('input_archive');declared=manifest.get('archived_input_files',[])
+        blobs={};books=set()
+        if archive and declared:
+            require(manifest.get('source_commit')==target['commit'],'Archived target source commit mismatch')
+            for item in declared:
+                path=repository_path(str(Path(archive)/item['file']))
+                if path.suffix!='.json':continue
+                raw=path.read_bytes()
+                require(hashlib.sha256(raw).hexdigest()==item['sha256'],'Archived target source SHA256 mismatch: '+item['file'])
+                blobs[blob_digest(raw)]=(path,item['sha256'])
+                document=json.loads(raw)
+                if isinstance(document,dict) and isinstance(document.get('chapters'),list):books.add(document.get('book'))
+        cache[batch]=(manifest.get('source_commit'),blobs,books)
+    commit,blobs,books=cache[batch]
+    require(commit in {None,target['commit']},'Archived target source commit mismatch')
+    archived=blobs.get(target['blob_sha'])
+    if archived is None:
+        require(book not in books,'Pinned target blob differs from archived original source')
+        cache[key]=None;return None
+    path,sha256=archived;raw=path.read_bytes()
+    require(hashlib.sha256(raw).hexdigest()==sha256 and blob_digest(raw)==target['blob_sha'],'Archived target source bytes changed')
+    original=json.loads(raw)
+    require(isinstance(original,dict) and original.get('book')==book and isinstance(original.get('chapters'),list),'Archived target is not the expected full book')
+    chapters={};units={}
+    for chapter in original['chapters']:
+        number=str(chapter['chapter'])
+        require(number not in chapters and isinstance(chapter.get('verses'),list),'Invalid archived target chapters')
+        ordered=[]
+        for unit in chapter['verses']:
+            ref=unit.get('reference',unit.get('ref'))
+            require(isinstance(ref,str) and ref.startswith(book+' ') and ref not in units,'Invalid archived target unit reference')
+            require(isinstance(unit.get('id'),str) and isinstance(unit.get('text'),str),'Invalid archived target unit body')
+            normalized=dict(unit,reference=ref);complete_text(normalized)
+            ordered.append(ref);units[ref]=normalized
+        chapters[number]=ordered
+    cache[key]=(chapters,units)
+    return cache[key]
+def ordered_range(ordered,start,end):
+    require(start in ordered and end in ordered,'Target endpoint absent from pinned source units')
+    first,last=ordered.index(start),ordered.index(end)
+    require(first<=last,'Reversed target range')
+    return ordered[first:last+1]
 class Anchors(HTMLParser):
     def __init__(self):
         super().__init__();self.ids=[];self.details=0;self.scripture=[];self.in_scripture=False;self.current=[];self.target_scripture=[];self.in_target_scripture=False;self.target_current=[]
@@ -59,7 +117,7 @@ def validate(write_receipts=False):
         require([b['order'] for b in members]==list(range(division['first_book_order'],division['last_book_order']+1)),'Division order mismatch')
     first_unfinished=None
     missing_earlier=[]
-    inventories={};saved_units={}
+    inventories={};saved_units={};archived_targets={}
     for record in progress['books']:
         path=ROOT/record['records']/'verses.json'
         if path.exists():
@@ -111,6 +169,7 @@ def validate(write_receipts=False):
                     require(re.fullmatch(r'[a-f0-9]{40}',target['commit']) is not None,'Unpinned source commit')
                     require(re.fullmatch(r'[a-f0-9]{40}',target['blob_sha']) is not None,'Missing source blob identity')
                     require('/blob/'+target['commit']+'/' in target['url'],'Source URL not pinned')
+                    archived_units={}
                     if e['target'] in saved_units:
                         # An exact declared unit may have an original composite label.
                         book=e['target'].rsplit(' ',1)[0];expected=[e['target']]
@@ -121,13 +180,16 @@ def validate(write_receipts=False):
                         if z and book in inventories:
                             ordered=inventories[book][c]
                             start,end=f'{book} {c}:{a}',f'{book} {c}:{z}'
-                            require(start in ordered and end in ordered,'Target endpoint absent from source inventory')
-                            first,last=ordered.index(start),ordered.index(end)
-                            require(first<=last,'Reversed target range')
-                            expected=ordered[first:last+1]
+                            expected=ordered_range(ordered,start,end)
                         elif z:
-                            require(a.isdigit() and z.isdigit(),'A continuation range requires its source inventory')
-                            expected=[f'{book} {c}:{n}' for n in range(int(a),int(z)+1)]
+                            archived=archived_target_book(e,book,archived_targets)
+                            if archived:
+                                chapters,archived_units=archived
+                                expected=ordered_range(chapters.get(c,[]),f'{book} {c}:{a}',f'{book} {c}:{z}')
+                            else:
+                                require(a.isdigit() and z.isdigit(),'A continuation range requires pinned original source units')
+                                require(int(a)<=int(z),'Reversed target range')
+                                expected=[f'{book} {c}:{n}' for n in range(int(a),int(z)+1)]
                         else:expected=[f'{book} {c}:{a}']
                     require(book in allowed,'Target book is outside Saints 70: '+book)
                     require(v['reference'] not in expected,'Target contains its own source verse')
@@ -135,7 +197,9 @@ def validate(write_receipts=False):
                     for x in e['target_verses']:
                         require(bool(x['text'].strip()),'Empty target evidence')
                         require(x['text_sha256']==digest(x['text']),'Target evidence hash mismatch')
-                        original=saved_units.get(x['reference'])
+                        original=archived_units.get(x['reference']) or saved_units.get(x['reference'])
+                        if x['reference'] in archived_units:
+                            require(x.get('id')==original['id'] and x['text']==original['text'],'Target evidence differs from pinned original unit')
                         if original and ('continuation_paragraphs' in original or 'continuation_paragraphs' in x):
                             require(x.get('continuation_paragraphs',[])==original.get('continuation_paragraphs',[]),'Original target continuation paragraphs missing or changed')
                         if 'continuation_paragraphs' in x or 'complete_text_sha256' in x:

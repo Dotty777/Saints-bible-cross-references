@@ -1,6 +1,6 @@
 # Ruth — Saints Bible cross-references
 
-Ruth 1–4 is complete at the initial curated cross-reference stage: **85 source verses and 90 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: 2 Kings 9:1.
+Ruth 1–4 is complete at the initial curated cross-reference stage: **85 source verses and 90 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: 1 Chronicles 1:1.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,7 +19,7 @@ The counts were derived from the complete [pinned Saints-Translation record](htt
 
 ## Continuation
 
-This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **2 Kings 9:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **1 Chronicles 1:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
