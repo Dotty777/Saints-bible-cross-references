@@ -1,0 +1,117 @@
+"""Exercise byte-verified full-book archives and Daniel's original section labels."""
+import copy
+import hashlib
+import json
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+
+import validate
+
+
+class ArchivedDanielTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary=tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root=Path(self.temporary.name)
+        self.root_patch=patch.object(validate,'ROOT',self.root)
+        self.root_patch.start()
+        self.addCleanup(self.root_patch.stop)
+        self.document={'book':'Daniel','chapters':[
+            {'chapter':n,'section':n,'title':f'Daniel {n}',
+             'verses':[{'reference':f'Daniel {n}:1','id':f'v{n}-1','text':f'Chapter {n} original body.'}]}
+            for n in range(1,13)]}
+        self.document['chapters'] += [
+            {'chapter':13,'section':13,'title':'Daniel — Susanna','verses':[
+                {'reference':'Susanna 1:7–8','id':'s7-8','text':'Composite original body.',
+                 'continuation_paragraphs':['Original continuation.']},
+                {'reference':'Susanna 1:35a','id':'s35a','text':'Original lettered unit.'}]},
+            {'chapter':14,'section':14,'title':'Daniel — Bel and the Dragon','verses':[
+                {'reference':'Bel and Dragon 1:15–17','id':'b15-17','text':'Original composite body.'}]}]
+
+    def archive(self,document=None):
+        document=self.document if document is None else document
+        raw=(json.dumps(document,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
+        path=self.root/'inputs'/'daniel.json'
+        path.parent.mkdir(exist_ok=True)
+        path.write_bytes(raw)
+        manifest={'source_commit':'a'*40,'input_archive':'inputs',
+                  'archived_input_files':[{'file':'daniel.json','sha256':hashlib.sha256(raw).hexdigest()}]}
+        folder=self.root/'review-batches'
+        folder.mkdir(exist_ok=True)
+        (folder/'test.json').write_text(json.dumps(manifest),encoding='utf-8')
+        edge={'target':'Daniel 3:1','review_batch':'test',
+              'target_source':{'commit':'a'*40,'blob_sha':validate.blob_digest(raw)}}
+        return edge,path
+
+    def test_authenticated_full_book_preserves_embedded_units_and_canonical_identity(self):
+        edge,path=self.archive()
+        raw=path.read_bytes()
+        chapters,units=validate.archived_target_book(edge,'Daniel',{})
+        expected=[v for c in self.document['chapters'] for v in c['verses']]
+        self.assertEqual(list(units),[v['reference'] for v in expected])
+        self.assertEqual(list(units.values()),expected)
+        self.assertEqual(chapters['13'],['Susanna 1:7–8','Susanna 1:35a'])
+        self.assertEqual(chapters['14'],['Bel and Dragon 1:15–17'])
+        self.assertEqual(validate.ordered_range(chapters['3'],'Daniel 3:1','Daniel 3:1'),['Daniel 3:1'])
+        self.assertEqual(edge['target'].rsplit(' ',1)[0],'Daniel')
+        self.assertEqual(path.read_bytes(),raw)
+        with self.assertRaisesRegex(ValueError,'expected full book'):
+            validate.archived_target_book(edge,'Susanna',{})
+
+    def test_alias_requires_correct_canonical_book_chapter_section_and_title(self):
+        for chapter_index in [12,13]:
+            for field,value in [('chapter',15),('section',15),('title','Unrelated section')]:
+                with self.subTest(chapter_index=chapter_index,field=field):
+                    document=copy.deepcopy(self.document)
+                    document['chapters'][chapter_index][field]=value
+                    edge,_=self.archive(document)
+                    with self.assertRaisesRegex(ValueError,'unit reference'):
+                        validate.archived_target_book(edge,'Daniel',{})
+        document=copy.deepcopy(self.document)
+        document['book']='Ezekiel'
+        for chapter in document['chapters'][:12]:
+            chapter['verses'][0]['reference']=chapter['verses'][0]['reference'].replace('Daniel','Ezekiel')
+        edge,_=self.archive(document)
+        with self.assertRaisesRegex(ValueError,'unit reference'):
+            validate.archived_target_book(edge,'Ezekiel',{})
+
+    def test_foreign_empty_wrong_section_and_duplicate_references_rejected(self):
+        for reference in ['',None,'Judith 1:1','Susanna 2:1','Bel and Dragon 1:1','Susanna 1:','Susanna 1:7–8']:
+            with self.subTest(reference=reference):
+                document=copy.deepcopy(self.document)
+                document['chapters'][12]['verses'][1]['reference']=reference
+                edge,_=self.archive(document)
+                with self.assertRaisesRegex(ValueError,'unit reference'):
+                    validate.archived_target_book(edge,'Daniel',{})
+        document=copy.deepcopy(self.document)
+        document['chapters'][0]['verses'][0]['reference']='Susanna 1:6'
+        edge,_=self.archive(document)
+        with self.assertRaisesRegex(ValueError,'unit reference'):
+            validate.archived_target_book(edge,'Daniel',{})
+
+    def test_modified_raw_bytes_bad_blob_and_commit_are_rejected(self):
+        edge,path=self.archive()
+        path.write_bytes(path.read_bytes()+b' ')
+        with self.assertRaisesRegex(ValueError,'SHA256 mismatch'):
+            validate.archived_target_book(edge,'Daniel',{})
+        edge,_=self.archive()
+        edge['target_source']['blob_sha']='b'*40
+        with self.assertRaisesRegex(ValueError,'Pinned target blob differs'):
+            validate.archived_target_book(edge,'Daniel',{})
+        edge,_=self.archive()
+        edge['target_source']['commit']='b'*40
+        with self.assertRaisesRegex(ValueError,'commit mismatch'):
+            validate.archived_target_book(edge,'Daniel',{})
+        edge,path=self.archive()
+        cache={}
+        validate.archived_target_book(edge,'Daniel',cache)
+        del cache[('test',edge['target_source']['commit'],edge['target_source']['blob_sha'])]
+        path.write_bytes(path.read_bytes()+b' ')
+        with self.assertRaisesRegex(ValueError,'bytes changed'):
+            validate.archived_target_book(edge,'Daniel',cache)
+
+
+if __name__=='__main__':
+    unittest.main()

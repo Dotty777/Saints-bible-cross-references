@@ -61,6 +61,7 @@ def render_book(record,progress,style):
     start=readme.index('## Continuation');end=readme.find('## Review batches',start)
     if end<0:end=len(readme)
     follow=('This book\'s initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **'+str(global_next)+'**.') if finished else ('Read the current [overall tracker](../progress.json), preserve completed records, and start at **'+str(next_ref)+'**. Review source verses in the edition\'s order.')
+    if deferred and not finished:follow='Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **'+str(next_ref)+'**. Continue never-reviewed source units in the edition\'s order.'
     if deferred:follow+=' '+deferred_note+' Revisit these deferred units substantively before marking them complete; continue never-reviewed sources separately.'
     readme=readme[:start]+'## Continuation\n\n'+follow+' Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.\n\nSame-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.\n\n'+readme[end:]
     if waiting:

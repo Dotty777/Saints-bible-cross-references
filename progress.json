@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-30",
-  "updated_at_utc": "2026-10-30T11:54:12.660766+00:00",
+  "updated_at_utc": "2026-10-30T13:08:41.580686+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,9 +11,9 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 12,
   "pending_book_records": 31,
-  "completed_chapters": 384,
-  "completed_source_verses": 11646,
-  "completed_cross_references": 16007,
+  "completed_chapters": 387,
+  "completed_source_verses": 12120,
+  "completed_cross_references": 16564,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before source review. Uninventoried pending books retain unknown verse and chapter counts. Fully inventoried pending books have known source totals and zero review credit until their initial curated review. Preserve nonstandard anchors, continuation units and original composite references.",
   "next": {
@@ -1041,8 +1041,8 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in_progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 552,
-      "completed_cross_references": 596,
+      "completed_source_verses": 813,
+      "completed_cross_references": 922,
       "order": 14,
       "division": "Judgement",
       "division_slug": "judgement",
@@ -1072,10 +1072,13 @@
         21,
         22,
         23,
-        25
+        25,
+        30,
+        34,
+        36
       ],
       "next_reference": "2 Chronicles 8:3",
-      "next_unreviewed_reference": "2 Chronicles 27:1",
+      "next_unreviewed_reference": null,
       "completed_verse_ranges": [
         "2 Chronicles 1:1-18",
         "2 Chronicles 2:1-17",
@@ -1098,7 +1101,10 @@
         "2 Chronicles 21:1-20",
         "2 Chronicles 22:1-12",
         "2 Chronicles 23:1-21",
-        "2 Chronicles 25:1-28"
+        "2 Chronicles 25:1-28",
+        "2 Chronicles 30:1-27",
+        "2 Chronicles 34:1-33",
+        "2 Chronicles 36:1-23"
       ]
     },
     {
@@ -1106,15 +1112,21 @@
       "records": "1-maccabees/",
       "source_records": "1-maccabees/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
-      "inventory_status": "not yet inventoried",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "status": "in_progress",
+      "inventory_status": "complete for pinned source",
+      "completed_source_verses": 213,
+      "completed_cross_references": 231,
       "order": 15,
       "division": "Judgement",
       "division_slug": "judgement",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/judgement/1-maccabees/"
+      "source_staging_path": "/bible/judgement/1-maccabees/",
+      "total_source_verse_units": 924,
+      "total_chapters": 16,
+      "completed_chapters": [],
+      "next_reference": "1 Maccabees 1:2",
+      "next_unreviewed_reference": "1 Maccabees 5:1",
+      "completed_verse_ranges": []
     },
     {
       "book": "2 Maccabees",
@@ -3160,6 +3172,113 @@
       "next_reference": "1 Chronicles 1:24",
       "next_unreviewed_reference": "2 Chronicles 27:1",
       "inventories_added": []
+    },
+    {
+      "run_id": "2026-10-30T123534Z",
+      "date": "2026-10-30",
+      "synchronized": "2026-10-30",
+      "reviewed_dates": [
+        "2026-10-30"
+      ],
+      "source_range": "2 Chronicles 27:1-36:23; 1 Maccabees 1:1-4:61",
+      "source_range_is_review_scope": true,
+      "source_units_read": 527,
+      "distinct_source_verses": 474,
+      "new_completed_pairs": 557,
+      "new_deferred_source_units_count": 53,
+      "total_deferred_source_units_count": 75,
+      "book_results": [
+        {
+          "book": "2 Chronicles",
+          "source_range": "2 Chronicles 27:1-36:23",
+          "source_range_is_review_scope": true,
+          "source_units_read": 272,
+          "distinct_source_verses": 261,
+          "new_completed_pairs": 326,
+          "new_deferred_source_units_count": 11,
+          "total_deferred_source_units_count": 20,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23,
+            25,
+            30,
+            34,
+            36
+          ],
+          "new_completed_chapters": [
+            30,
+            34,
+            36
+          ],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": true,
+          "next_reference": "2 Chronicles 8:3",
+          "next_unreviewed_reference": null
+        },
+        {
+          "book": "1 Maccabees",
+          "source_range": "1 Maccabees 1:1-4:61",
+          "source_range_is_review_scope": true,
+          "source_units_read": 255,
+          "distinct_source_verses": 213,
+          "new_completed_pairs": 231,
+          "new_deferred_source_units_count": 42,
+          "total_deferred_source_units_count": 42,
+          "completed_chapters": [],
+          "new_completed_chapters": [],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": false,
+          "next_reference": "1 Maccabees 1:2",
+          "next_unreviewed_reference": "1 Maccabees 5:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 57,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 8,
+      "known_pending_target_candidate_count": 124,
+      "review_record": "review-batches/2026-10-30T123534Z.json",
+      "next_reference": "1 Chronicles 1:24",
+      "next_unreviewed_reference": "1 Maccabees 5:1",
+      "inventories_added": [
+        {
+          "book": "1 Maccabees",
+          "source_units": 924,
+          "chapters": 16,
+          "first_reference": "1 Maccabees 1:1",
+          "source_blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+          "completed_source_verses": 0,
+          "completed_pairs": 0,
+          "completion_credit": 0
+        }
+      ]
     }
   ],
   "canon_manifest": "canon.json",
@@ -3181,9 +3300,9 @@
     }
   ],
   "next_unreviewed": {
-    "book": "2 Chronicles",
-    "chapter": 27,
-    "reference": "2 Chronicles 27:1",
-    "source_id": "v27-1"
+    "book": "1 Maccabees",
+    "chapter": 5,
+    "reference": "1 Maccabees 5:1",
+    "source_id": "v5-1"
   }
 }

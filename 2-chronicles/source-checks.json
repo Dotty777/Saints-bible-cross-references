@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 833 units in 36 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Complete actual source and retained target passages with necessary context were read and every retained explanation separately reread in the recorded batches. Unsupported source units and ambiguous proposals remain pending with zero completion credit. Earlier completed objects and unresolved evidence are preserved. No exhaustive discovery or independent specialist verification is claimed.",
+  "method": "Complete actual source and retained target passages with necessary context were read and every retained explanation separately reread in the recorded batches. Unsupported source units remain pending with zero completion credit. Earlier completed objects and all unresolved evidence are preserved. Inventory alone earns no review credit. No exhaustive discovery or independent specialist verification is claimed.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -37,6 +37,15 @@
       "new_pairs": 544,
       "source_units_read": 509,
       "deferred_source_units": 9,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-30T123534Z",
+      "records": "review-batches/2026-10-30T123534Z.json",
+      "new_source_verses": 261,
+      "new_pairs": 326,
+      "source_units_read": 272,
+      "deferred_source_units": 11,
       "unresolved_retained_cases": 0
     }
   ],
@@ -88,6 +97,13 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "deuteronomy/verses.json",
       "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
@@ -102,9 +118,37 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "ezekiel/verses.json",
+      "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "ezra/verses.json",
+      "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "genesis/verses.json",
       "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "isaiah/verses.json",
+      "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -520,16 +564,175 @@
       "reviewed": "2026-10-30",
       "review_timezone": "America/New_York",
       "review_batch": "2026-10-30T113033Z"
+    },
+    {
+      "source_reference": "2 Chronicles 36:5d",
+      "target": "2 Kings 24:4",
+      "relationship": "Proposed narrative and attribution connection — unresolved",
+      "reason": "Chronicles explicitly attributes innocent blood to Jehoiakim and says the Lord did not wish to destroy them. Kings places the pronoun after Manasseh's sins and says the Lord was unwilling to be propitiated. This proposed direct parallel remains unretained because the perpetrator attribution and judgment wording are not harmonized.",
+      "source_context_read": "2 Chronicles 36:5-6",
+      "target_context_read": "2 Kings 24:1-6",
+      "source_unit_read": true,
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 36:5d",
+        "id": "v36-5d",
+        "text": "and because of the innocent blood that Jehoiakim shed, filling Jerusalem with innocent blood; yet the Lord did not wish to destroy them.",
+        "text_sha256": "95b9419cd093cb01426e380c32c6a2920ed9f42eff2f93a0abf70de982adb8d0"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-kings/verses.json",
+        "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Kings 24:4",
+          "id": "v24-4",
+          "text": "He also shed innocent blood and filled Jerusalem with innocent blood, and the Lord was unwilling to be propitiated.",
+          "text_sha256": "3072123e5b642436863d79f5c6d55e84e22a95fa6aa5eba6b740db2c4c4bb95c"
+        }
+      ],
+      "reviewer": "Codex AI author agent /root/chr32_36_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 36:9",
+      "target": "2 Kings 24:8-9",
+      "relationship": "Proposed regnal identity connection — unresolved",
+      "reason": "The age, approximate reign length, and evil assessment closely correspond, but Chronicles names Jechonias and adds ten days, while the supplied Kings record calls both father and successor Joakim. The personal-name issue is not resolved by this pass and this target is unretained.",
+      "source_context_read": "2 Chronicles 36:8-10",
+      "target_context_read": "2 Kings 24:5-9",
+      "source_unit_read": true,
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 36:9",
+        "id": "v36-9",
+        "text": "Jechonias was eighteen years old when he began to reign, and he reigned three months and ten days in Jerusalem. He did what was evil before the Lord.",
+        "text_sha256": "b55be98c5f6504384e470217a129f8a9090e23f54de8900480cac333ec8c2ec9"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-kings/verses.json",
+        "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Kings 24:8",
+          "id": "v24-8",
+          "text": "Joakim was eighteen years old when he became king, and he reigned three months in Jerusalem. His mother’s name was Nestha daughter of Ellanathan, from Jerusalem.",
+          "text_sha256": "af734058e8ebede18e3f54ce8d4e6889cf3f78bb137a1e0502c7c82014ef60c2"
+        },
+        {
+          "reference": "2 Kings 24:9",
+          "id": "v24-9",
+          "text": "He did what was evil in the Lord’s eyes, according to everything his father had done.",
+          "text_sha256": "e27688c16b517bfa2db5056536d890eee875d4c3c7294bf69cb3b192b05f564e"
+        }
+      ],
+      "reviewer": "Codex AI author agent /root/chr32_36_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 36:10",
+      "target": "2 Kings 24:17",
+      "relationship": "Proposed succession and kinship connection — unresolved",
+      "reason": "Both narratives concern installation of Zedekiah/Sedekias by Babylon's king, but Chronicles calls him the preceding king's father's brother and Kings calls Maththanias his son. This direct identity-and-kinship proposal is unretained rather than harmonizing the supplied relationship.",
+      "source_context_read": "2 Chronicles 36:8-11",
+      "target_context_read": "2 Kings 24:15-18",
+      "source_unit_read": true,
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 36:10",
+        "id": "v36-10",
+        "text": "At the turn of the year King Nebuchadnezzar sent and brought him into Babylon with the desirable vessels of the Lord’s house. He made Zedekiah, his father’s brother, king over Judah and Jerusalem.",
+        "text_sha256": "0497b4a0127fd09dc1bf40d5aeeb3b3b55ceff4969c898edf3390eb150037c20"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-kings/verses.json",
+        "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Kings 24:17",
+          "id": "v24-17",
+          "text": "The king of Babylon made Maththanias, his son, king in his place and gave him the name Sedekias.",
+          "text_sha256": "565ca09e854679d7d9897ecf3440807eea0eb63a395fb0578888d5989306c868"
+        }
+      ],
+      "reviewer": "Codex AI author agent /root/chr32_36_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
     }
   ],
   "checked_scope": {
-    "source_passage": "2 Chronicles 1:1-26:23",
+    "source_passage": "2 Chronicles 1:1-36:23",
     "source_passage_is_review_scope": true,
-    "source_units_read": 561,
-    "source_verse_units": 552,
-    "deferred_source_units": 9,
-    "retained_pairs": 596,
-    "distinct_target_verse_units": 685
+    "source_units_read": 833,
+    "source_verse_units": 813,
+    "deferred_source_units": 20,
+    "retained_pairs": 922,
+    "distinct_target_verse_units": 1144
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -551,9 +754,9 @@
   },
   "pending": [
     "First pending source unit: 2 Chronicles 8:3",
-    "Only the 561 actual source units in chapters 1–26 have been read; the remaining 272 inventoried units are unread.",
-    "Next never-reviewed source: 2 Chronicles 27:1.",
-    "Read but deferred source units: 2 Chronicles 8:3, 2 Chronicles 20:13, 2 Chronicles 20:16, 2 Chronicles 24:3, 2 Chronicles 26:10, 2 Chronicles 26:11, 2 Chronicles 26:12, 2 Chronicles 26:13, 2 Chronicles 26:14",
+    "All 833 original 2 Chronicles units have been read; the deferred source units remain incomplete.",
+    "Next never-reviewed source: 1 Maccabees 5:1.",
+    "Read but deferred source units: 2 Chronicles 8:3, 2 Chronicles 20:13, 2 Chronicles 20:16, 2 Chronicles 24:3, 2 Chronicles 26:10, 2 Chronicles 26:11, 2 Chronicles 26:12, 2 Chronicles 26:13, 2 Chronicles 26:14, 2 Chronicles 27:5, 2 Chronicles 28:7, 2 Chronicles 29:20, 2 Chronicles 29:33, 2 Chronicles 31:7, 2 Chronicles 31:13, 2 Chronicles 31:16, 2 Chronicles 32:23, 2 Chronicles 32:28, 2 Chronicles 33:14, 2 Chronicles 35:26",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Target evidence pending: 2 Chronicles 1:5 / Exodus 31:2-5",
@@ -563,7 +766,10 @@
     "Target evidence pending: 2 Chronicles 15:8 / 2 Chronicles 15:1",
     "Target evidence pending: 2 Chronicles 15:16 / 1 Kings 15:10",
     "Target evidence pending: 2 Chronicles 24:21 / Matthew 23:35",
-    "Target evidence pending: 2 Chronicles 24:21 / Luke 11:51"
+    "Target evidence pending: 2 Chronicles 24:21 / Luke 11:51",
+    "Target evidence pending: 2 Chronicles 36:5d / 2 Kings 24:4",
+    "Target evidence pending: 2 Chronicles 36:9 / 2 Kings 24:8-9",
+    "Target evidence pending: 2 Chronicles 36:10 / 2 Kings 24:17"
   ],
   "deferred_source_units": [
     {
@@ -829,7 +1035,337 @@
       "review_batch": "2026-10-30T113033Z",
       "source_unit_read": true,
       "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 27:5",
+      "reason": "No independently verified passage in this pass matches Jotham's war with Ammon and the specified three-year tribute. The gifts to Uzziah from the Minaeans were not equated with this Ammonite payment, and generic tribute passages were not retained.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 27:5",
+        "id": "v27-5",
+        "text": "He fought the king of the sons of Ammon and prevailed over him. The sons of Ammon gave him yearly one hundred talents of silver, ten thousand kors of wheat, and ten thousand of barley. The king of Ammon brought him these each year, in the first, second, and third years.",
+        "text_sha256": "309f4d38ef15170d911a00c0b3ef513c4f7dd9ce67e65ef11d039b36c8196cb8"
+      },
+      "reviewer": "Codex AI author agent /root/chr27_31_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 28:7",
+      "reason": "The three named royal victims and their killer have no verified matching identities or independent account in the inspected material. A general battle reference would not explain this particular list.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 28:7",
+        "id": "v28-7",
+        "text": "Ezekri, the mighty man of Ephraim, killed Maasaias the king’s son, Esdrikam the ruler of his house, and Elkana, the king’s deputy.",
+        "text_sha256": "795edd492b5e5c3a9149d45aa3bba8cd0b0d86ed39e65d884491b144ab5f41f4"
+      },
+      "reviewer": "Codex AI author agent /root/chr27_31_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 29:20",
+      "reason": "The king rising early and assembling the city rulers is a brief transition into the restoration sacrifice. This pass found no sufficiently particular independent connection for those details beyond the immediate sequence; generic royal assemblies were not added.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 29:20",
+        "id": "v29-20",
+        "text": "King Hezekiah rose early, gathered the city’s rulers, and went up to the Lord’s house.",
+        "text_sha256": "d8b5069f97c4d56b1e7dda4c3e01450047901736e1e02f9eded5191142a0ea77"
+      },
+      "reviewer": "Codex AI author agent /root/chr27_31_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 29:33",
+      "reason": "The six hundred consecrated calves and three thousand sheep have no matching count in the inspected passages. The verse does not explicitly classify these as salvation offerings, so that ritual classification was not imposed to create a link.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 29:33",
+        "id": "v29-33",
+        "text": "The consecrated animals were six hundred calves and three thousand sheep.",
+        "text_sha256": "7b85125dd4e547ac948b614cc4b137e7d925c4e04e7a3573702486db6dc61708"
+      },
+      "reviewer": "Codex AI author agent /root/chr27_31_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 31:7",
+      "reason": "The accumulation of heaps from the third month through the seventh has no verified matching timetable in the inspected material. A specific harvest or festival alignment was not inferred from generic firstfruits laws.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 31:7",
+        "id": "v31-7",
+        "text": "In the third month the heaps began to be laid, and in the seventh month they were completed.",
+        "text_sha256": "f3243cc25a0d49b5e9b8b6a1ffc3747b77e3f3f76d8e455cc2385ecb97983bf8"
+      },
+      "reviewer": "Codex AI author agent /root/chr27_31_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 31:13",
+      "reason": "The named subordinate overseers have no verified independent personal identifications in the inspected lists. A broad treasury-administration parallel would not clarify this particular personnel record.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 31:13",
+        "id": "v31-13",
+        "text": "Iiel, Ozazias, Naeth, Asael, Jerimoth, Jozabath, Eliel, Samachia, Maath, Banaias, and his sons were appointed through Chonenias and his brother Semei, as King Hezekiah and Azarias, the leader of the Lord’s house, commanded.",
+        "text_sha256": "fdc9f9c429195bc6b5ffa0f567561deae2391ed0cff7c61140f3de53b2bfd6b5"
+      },
+      "reviewer": "Codex AI author agent /root/chr27_31_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 31:16",
+      "reason": "The enrollment or distribution provision beginning at three years old lacks a verified matching rule in the inspected passages. It was not harmonized with the distinct twenty-year Levitical service threshold in verse 17.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 31:16",
+        "id": "v31-16",
+        "text": "apart from the male offspring from three years old and upward, for everyone entering the Lord’s house for the daily account, for ministry in their appointed divisions.",
+        "text_sha256": "f5744d5caf9a8ae8ba9d72dc95568f3a5e9b3419ee2e5b5fadcc3d73a228b201"
+      },
+      "reviewer": "Codex AI author agent /root/chr27_31_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 32:23",
+      "reason": "The particular post-deliverance gifts to the Lord and presents honoring Hezekiah have no sufficiently specific independently established target in this pass; generic royal wealth or honor parallels were not retained.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 32:23",
+        "id": "v32-23",
+        "text": "Many brought gifts to the Lord at Jerusalem and presents to Hezekiah king of Judah, and afterward he was highly exalted in the eyes of all the nations.",
+        "text_sha256": "9aa1c53025c939854b43ac84b94394f012a8983ee4c90c7fc814440ac31cb2fa"
+      },
+      "reviewer": "Codex AI author agent /root/chr32_36_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 32:28",
+      "reason": "The particular grain, oil, wine, animal-manger, and flock-storage arrangements have no sufficiently specific target established in this pass; generic prosperity or unrelated storehouse references were not retained.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 32:28",
+        "id": "v32-28",
+        "text": "and cities for the produce of grain, oil, and wine, mangers for every animal, and folds for the flocks,",
+        "text_sha256": "4a177e1c21d250a5fbb446554c508cc59621bfefe89dbfd8fdde055646652a9b"
+      },
+      "reviewer": "Codex AI author agent /root/chr32_36_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 33:14",
+      "reason": "The exact route and extent of Manasseh's wall from Gihon toward Ophla and its gate have no securely established geographical counterpart in the inspected material; construction in Jerusalem alone is insufficient.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 33:14",
+        "id": "v33-14",
+        "text": "After these things he built a wall outside the City of David, from the southwest opposite Gihon in the winter stream, and where people go out through the surrounding gate, and toward Ophla, and raised it very high. He stationed commanders of the force in all Judah’s walled cities.",
+        "text_sha256": "68f10ea9b8090c072e4add326a051224845f88f22549e540b92c3e4937096ea4"
+      },
+      "reviewer": "Codex AI author agent /root/chr32_36_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
+    },
+    {
+      "source_reference": "2 Chronicles 35:26",
+      "reason": "The supplied wording says Josiah's deeds and hope were written in the Lord's law. Rereading did not establish the intended particular law passage or record; the generic same-chapter law assessment was removed rather than substituting another translation or inferring a lost document identity.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 35:26",
+        "id": "v35-26",
+        "text": "Josiah’s deeds and his hope were written in the Lord’s law;",
+        "text_sha256": "1270f7354c4521d7f53537b081172472b252d01c8106e209aabfb97da0a61469"
+      },
+      "reviewer": "Codex AI author agent /root/chr32_36_author (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T123534Z"
     }
   ],
-  "next_unreviewed_reference": "2 Chronicles 27:1"
+  "next_unreviewed_reference": null
 }

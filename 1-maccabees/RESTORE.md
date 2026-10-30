@@ -1,0 +1,13 @@
+# 1 Maccabees record recovery
+
+Read ../canon.json, ../progress.json, verses.json and inventory.json first. Fetch current remote main and preserve every completed object and review batch. Never run an initial bootstrap builder over this tracker.
+
+Recover the source from the exact commit and blob in source-checks.json. Preserve all original nested book/chapter metadata, ordered verse objects, references, anchors and words. Tracker status is separate from earlier source-edition status. Use the actual inventory for counts, continuation units and gaps; do not replace supplied names or numbering with another edition.
+
+Recover through Git history in a new commit. Recompute counts and the first unfinished source unit. Inventory/import, duplicates, unresolved evidence and technical checks add no review credit. Run python scripts/render_books.py and then python scripts/validate.py --write-verification from the repository root. WordPress and Saints-Translation are separate from this tracker.
+
+## Pending source review recovery
+
+All 924 actual 1 Maccabees source units in 16 chapters were inventoried before source review. The 255 actual units in chapters 1–4 have been read: 213 source units and 231 retained pairs are completed. The remaining 669 inventoried units have not been reviewed. Read but deferred sources earn zero completion credit: 1 Maccabees 1:2, 1 Maccabees 1:3, 1 Maccabees 1:4, 1 Maccabees 1:5, 1 Maccabees 1:6, 1 Maccabees 1:7, 1 Maccabees 1:8, 1 Maccabees 1:9, 1 Maccabees 1:17, 1 Maccabees 1:18, 1 Maccabees 1:19, 1 Maccabees 1:26, 1 Maccabees 1:27, 1 Maccabees 1:28, 1 Maccabees 1:55, 1 Maccabees 1:56, 1 Maccabees 1:58, 1 Maccabees 2:1, 1 Maccabees 2:2, 1 Maccabees 2:13, 1 Maccabees 2:16, 1 Maccabees 2:17, 1 Maccabees 2:39, 1 Maccabees 2:68, 1 Maccabees 3:7, 1 Maccabees 3:10, 1 Maccabees 3:11, 1 Maccabees 3:15, 1 Maccabees 3:16, 1 Maccabees 3:23, 1 Maccabees 3:24, 1 Maccabees 3:25, 1 Maccabees 3:28, 1 Maccabees 3:30, 1 Maccabees 3:60, 1 Maccabees 4:2, 1 Maccabees 4:4, 1 Maccabees 4:12, 1 Maccabees 4:19, 1 Maccabees 4:20, 1 Maccabees 4:21, 1 Maccabees 4:42. The first unfinished 1 Maccabees source is **1 Maccabees 1:2** and the next never-reviewed source is **1 Maccabees 5:1**.
+
+The next new source review is **1 Maccabees 5:1**. Root progress.json keeps its earliest-pending next at **1 Chronicles 1:24** and its separate next_unreviewed at **1 Maccabees 5:1**. Read those fields separately and recompute both positions from actual ordered source objects after every update. Preserve every earlier completed object, original source field, anchor, continuation body, pending case and review batch. Inventory, unresolved evidence and rereading add no completion credit.

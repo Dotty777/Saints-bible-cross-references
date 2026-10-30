@@ -62,10 +62,15 @@ def archived_target_book(edge,book,cache):
     for chapter in original['chapters']:
         number=str(chapter['chapter'])
         require(number not in chapters and isinstance(chapter.get('verses'),list),'Invalid archived target chapters')
+        # The pinned full Daniel book keeps its original embedded-section labels.
+        embedded_prefix={
+            ('13',13,'Daniel — Susanna'):'Susanna 1:',
+            ('14',14,'Daniel — Bel and the Dragon'):'Bel and Dragon 1:',
+        }.get((number,chapter.get('section'),chapter.get('title'))) if book=='Daniel' else None
         ordered=[]
         for unit in chapter['verses']:
             ref=unit.get('reference',unit.get('ref'))
-            require(isinstance(ref,str) and ref.startswith(book+' ') and ref not in units,'Invalid archived target unit reference')
+            require(isinstance(ref,str) and bool(ref.strip()) and (ref.startswith(book+' ') or (embedded_prefix is not None and re.fullmatch(re.escape(embedded_prefix)+r'\d+[a-z]*(?:[–-]\d+[a-z]*)?',ref) is not None)) and ref not in units,'Invalid archived target unit reference')
             require(isinstance(unit.get('id'),str) and isinstance(unit.get('text'),str),'Invalid archived target unit body')
             normalized=dict(unit,reference=ref);complete_text(normalized)
             ordered.append(ref);units[ref]=normalized
