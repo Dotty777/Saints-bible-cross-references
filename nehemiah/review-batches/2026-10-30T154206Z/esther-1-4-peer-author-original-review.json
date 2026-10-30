@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Esther 1-4 packet",
+  "reviewer_role": "Personally read the complete 246-unit Esther book in actual order after the verified inventory, including both composite units and all six continuation paragraphs; this author packet covers 124 actual units in chapters 1-4. Authored and separately reread all 95 complete source-target-category-rationale triples, then personally reread both complete self-refined triples. Personally read all 31 complete source-only deferrals with reasons, both complete unresolved candidate triples and necessary context. Independently fetched and verified seven own full raw books and HTTP headers. Inventory, contextual reading and checks add no completion credit. Independent peer review is pending.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T16:15:18.870093+00:00",
+  "run_id": "2026-10-30T154206Z",
+  "base_commit": "c6cafc30400e8c0836b6b9f6cb37a41180f29bab",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "Esther",
+  "source_chapters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_units_read": 124,
+  "source_inventory_units_in_scope": 124,
+  "source_verses": 93,
+  "completed_source_verses": 93,
+  "completed_pairs": 95,
+  "distinct_target_verse_units": 89,
+  "chapter_inventory_counts": {
+    "1": 39,
+    "2": 23,
+    "3": 22,
+    "4": 40
+  },
+  "chapter_source_counts": {
+    "1": 21,
+    "2": 19,
+    "3": 22,
+    "4": 31
+  },
+  "chapter_pair_counts": {
+    "1": 21,
+    "2": 19,
+    "3": 22,
+    "4": 33
+  },
+  "input_file": "esther-1-4.tsv",
+  "input_sha256": "89897c4039aa10b371c254ab2a9628cc7e28435b577ea74587256a486bd85872",
+  "final_input_sha256": "89897c4039aa10b371c254ab2a9628cc7e28435b577ea74587256a486bd85872",
+  "original_draft_file": "esther-1-4-original-draft.tsv",
+  "original_draft_sha256": "83e12b9faeca589baced7bef06a538e63073df7cb10ed284b50e7f8d5f4abd40",
+  "refinement_file": "esther-1-4-refinement-1.json",
+  "refinement_sha256": "dbc02f6529ae91a77645744b94defd522f5bb13b25bb5cecd8b136566cd60e82",
+  "candidate_file": "esther-1-4-unresolved-candidates.tsv",
+  "candidate_sha256": "f20f469e322afb23f7730c50ea7583f70f78f662471d781e0a31566a2b4cf402",
+  "deferral_file": "esther-1-4-source-deferrals.json",
+  "deferral_sha256": "5262aebf9b25015e36adb09e03521dd0abc1d41aade5936407ee1b9f870413bb",
+  "cases_file": "esther-1-4-review-cases.json",
+  "cases_sha256": "4ddeae7f5e8e8acabc45b1bf5e7f44cc2436ecd8fb4c485b09cb168ebc591bcb",
+  "pin_receipt": "esther-1-4-author-pins.json",
+  "pin_receipt_sha256": "6d4846f30030b9ab0c03bf0f6507b55f43b71c3f31b51c46f17361029761e22a",
+  "source_books": [
+    {
+      "book": "2 Chronicles",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "raw_file": "esther-1-4-author-pin-2-chronicles.json",
+      "raw_sha256": "c542a941d64759eb96e168688b7e0881bbcd7f35966fa9dde289b9436995368e",
+      "headers_file": "esther-1-4-author-pin-2-chronicles-headers.json",
+      "headers_sha256": "1f987d158643d463a482297b78bd305247b6e965634fcb664121a2bdb846ac5a",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "raw_file": "esther-1-4-author-pin-2-kings.json",
+      "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7",
+      "headers_file": "esther-1-4-author-pin-2-kings-headers.json",
+      "headers_sha256": "fc655784f356a0515703a5cf5c79af858794477d0f971ac4932cab4b3c0ba13d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Daniel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "raw_file": "esther-1-4-author-pin-daniel.json",
+      "raw_sha256": "41fe27c56d5c0a23e4e970d7beb9376fdb8a55c16721aea1a1cc1b6ac23fe3f8",
+      "headers_file": "esther-1-4-author-pin-daniel-headers.json",
+      "headers_sha256": "b2925119d6d4647ed4a598ac14801819a1c976fa4ce42fa5baac25758c7e88da",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "esther-1-4-author-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "headers_file": "esther-1-4-author-pin-deuteronomy-headers.json",
+      "headers_sha256": "f182a91e3a9cdff44a732058b436acc5148acb09eb4e7027c3c021556b3defb8",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Esther",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "esther/verses.json",
+      "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+      "raw_file": "esther-1-4-author-pin-esther.json",
+      "raw_sha256": "f56aa793cef88543fce4ea36fba02f7e1cbae0ba250dd261ea27f50213823590",
+      "headers_file": "esther-1-4-author-pin-esther-headers.json",
+      "headers_sha256": "8cc300d17c3f8301996b071a8cd9ca1a4dc77a3f3fbab0447fe027bc2d774f18",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Jeremiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+      "raw_file": "esther-1-4-author-pin-jeremiah.json",
+      "raw_sha256": "34b7b32e065476f8a314b2b95eb0dd452e25c64cc4c19112aa5098d3b63b97bf",
+      "headers_file": "esther-1-4-author-pin-jeremiah-headers.json",
+      "headers_sha256": "8fd9b4d5b924b8ffc8c48a575bda04be6b34c6db107dafec238a00e583659d16",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Nehemiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "raw_file": "esther-1-4-author-pin-nehemiah.json",
+      "raw_sha256": "90cd08204d8e2f9ec82c69c69a64202bc1f765e59ccb202270881819be776da1",
+      "headers_file": "esther-1-4-author-pin-nehemiah-headers.json",
+      "headers_sha256": "cd4061a48a17bcbf50bc16ddac7950853c6027cb11a318902333817d21803fb9",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    }
+  ],
+  "source_reading_file": "esther-1-4-author-source-reading.json",
+  "source_reading_sha256": "07fc13144c5b7fa05c76d9070537b49586f033080da8372a2068e776bedb8b87",
+  "source_inventory_first": {
+    "book_inventory_units": 246,
+    "book_inventory_chapters": 10,
+    "source_blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+    "inventory_complete_before_source_review": true,
+    "inventory_credit": 0,
+    "inventory_file": "esther-inventory.json",
+    "inventory_sha256": "c93d7fb2e7d9ac9da8de98aeb7b4f43ba9627842365a2d210a7b46709ebf539d",
+    "inventory_receipt_file": "inventory-esther-receipt.json",
+    "inventory_receipt_sha256": "519fa762235039ac52a7efbddb1e7e1f0bc818c3c805fbbbc6dd349e50114349",
+    "whole_book_read_claimed": true,
+    "whole_book_source_units_read": 246,
+    "whole_book_completed_curated_review_claimed": false
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_separately_reread": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_deferred_source_units_and_reasons_reread": true,
+  "separate_complete_triple_read_groups": [
+    {
+      "input_file": "esther-1-4-original-draft.tsv",
+      "input_sha256": "83e12b9faeca589baced7bef06a538e63073df7cb10ed284b50e7f8d5f4abd40",
+      "first_pair": 1,
+      "last_pair": 25,
+      "count": 25
+    },
+    {
+      "input_file": "esther-1-4-original-draft.tsv",
+      "input_sha256": "83e12b9faeca589baced7bef06a538e63073df7cb10ed284b50e7f8d5f4abd40",
+      "first_pair": 26,
+      "last_pair": 50,
+      "count": 25
+    },
+    {
+      "input_file": "esther-1-4-original-draft.tsv",
+      "input_sha256": "83e12b9faeca589baced7bef06a538e63073df7cb10ed284b50e7f8d5f4abd40",
+      "first_pair": 51,
+      "last_pair": 75,
+      "count": 25
+    },
+    {
+      "input_file": "esther-1-4-original-draft.tsv",
+      "input_sha256": "83e12b9faeca589baced7bef06a538e63073df7cb10ed284b50e7f8d5f4abd40",
+      "first_pair": 76,
+      "last_pair": 95,
+      "count": 20
+    }
+  ],
+  "corrected_complete_triple_read": {
+    "input_file": "esther-1-4-changed-after.tsv",
+    "input_sha256": "f352afe891aaa7a7e9bb3ef52bd3da5139686957652620da433d6135a26b7b01",
+    "complete_triples_read": 2,
+    "all_complete_triples_reread": true
+  },
+  "read_binding_note": "All 95 original complete triples were separately reread. One timing rationale and one category were then refined, with both complete final triples personally reread and exact stage snapshots preserved. Counts and target references did not change.",
+  "additional_context_passages_read": [
+    "Esther 5:1–1c",
+    "Esther 5:1d–1f; 5:2",
+    "Esther 5:2a-14",
+    "Esther 6:1-14",
+    "Esther 7:1-10",
+    "Esther 8:1-17",
+    "Esther 9:1-32",
+    "Esther 10:1-3l",
+    "2 Kings 24:10-17",
+    "Jeremiah 24:1-7",
+    "2 Chronicles 20:3-12",
+    "Nehemiah 9:5-8",
+    "Deuteronomy 9:25-29",
+    "Deuteronomy 7:6-11",
+    "Daniel 9:5-14",
+    "Daniel 1:5-16"
+  ],
+  "truncated_read_recovery": "All source, original-triple, corrected-triple, candidate, deferral and context displays used for this author receipt were complete and untruncated. One refinement-helper launch failed before execution because of a wrong working-directory path; the corrected launch succeeded and the resulting corrected triples were displayed and personally read. The failed invocation adds no credit.",
+  "same_chapter_policy": "Every retained same-chapter link explicitly labels its category and identifies a particular command and response, proposed policy and action, argument and stated consequence, or a distinctive relation between the two prayers. Mere repeated court status and generic messenger introductions are deferred.",
+  "same_chapter_pairs_explicitly_labelled": 15,
+  "textual_precision_notes": [
+    "All original suffix labels, numbering gaps and exact composite target references are retained. No standalone Esther 5:1 or 5:2 unit is invented; all continuation paragraphs were read.",
+    "The first lot and destruction order say fourteenth Adar, while the counter-order and initial action say thirteenth; these differences are not reconciled.",
+    "The opening gifts and later statement of no reward remain an unresolved chronology candidate, with zero credit for that proposed equation.",
+    "The Haman in the eunuch list is not equated with Haman son of Hammedatha from the shared name alone.",
+    "The source says Mordecai raised Esther for himself as a wife; it is not replaced with daughter. Her later prayer and the public marriage narrative retain their distinct statements.",
+    "Astin, Artaxerxes, Aminadab, the Bougaean/Macedonian labels, and the first-month counter-letter date are not replaced from other editions.",
+    "Esther 2:15 says she disregarded none of the guardian's instructions; it does not expressly say she requested nothing.",
+    "The corrected third-day wording does not imply three days elapsed after prayer; the approach occurs on the third day when prayer has ceased.",
+    "Opening and later eunuch reports are compared by their supplied statements without harmonizing every identity, document or reward detail.",
+    "The two royal letters' claims about peace, fairness and Haman's character remain attributed claims, not narrator-endorsed moral assessments."
+  ],
+  "structural_checks": {
+    "source_target_overlap_absent": true,
+    "duplicate_actual_pairs_absent": true,
+    "same_chapter_labels_exact": true,
+    "source_supported_deferral_partition_exact": true,
+    "all_candidate_credits_zero": true,
+    "exact_refinement_verified": true
+  },
+  "deferred_source_count": 31,
+  "deferred_source_units": [
+    {
+      "source_reference": "Esther 1:1b",
+      "target": null,
+      "reason": "The introductory court residence and high standing do not establish a distinct particular connection beyond the same recurring character; no generic court-service link is retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:1d",
+      "target": null,
+      "reason": "The dream's voices, tumult, thunder and earthquake are not matched to a separately narrated literal earthquake or an unrelated cosmic-judgment text.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:1g",
+      "target": null,
+      "reason": "The dream's darkness and distress are preserved; a generic darkness or tribulation analogy would not establish a particular additional target for this unit.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:1m",
+      "target": null,
+      "reason": "The court companions are named Gabatha and Tharra, but the later eunuch notices do not supply those names. No individual equation is retained solely from their court role.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:1q",
+      "target": null,
+      "reason": "The opening explicitly gives Mordecai court service and gifts, whereas the later reward inquiry reports none. Their precise reward chronology is unresolved; no invented harmonization is retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:2",
+      "target": null,
+      "reason": "Susa as the royal seat is a setting notice; no separate event or location identity beyond the same narrative setting supplies a sufficiently particular connection here.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:3",
+      "target": null,
+      "reason": "The third-year reception and its invited groups are not equated with another royal banquet or an external Artaxerxes chronology.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:4",
+      "target": null,
+      "reason": "The 180-day display of wealth is not merged with another feast's duration or treated as a verified date interval for later events.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:5",
+      "target": null,
+      "reason": "The six-day drinking feast after wedding days is not identified with Esther's later seven-day marriage feast; the particular wedding is not supplied beyond this source.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:6",
+      "target": null,
+      "reason": "The detailed textiles, stones, couches and flowers are not made identical to furnishings in another royal or sanctuary scene merely by similar materials.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:7",
+      "target": null,
+      "reason": "The precious vessels, garnet cup and abundant wine do not securely identify vessels or a numbered treasury value elsewhere; generic royal drinking is insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:8",
+      "target": null,
+      "reason": "The absence of an established law for this feast is a particular administrative detail, not a statement that every later royal procedure lacks law.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:9",
+      "target": null,
+      "reason": "Astin's women's feast is not given an independently established motive for her refusal or identified with Esther's later receptions.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:10",
+      "target": null,
+      "reason": "The Haman in the seven-eunuch list lacks the patronymic and Bougaean designation of Haman son of Hammedatha; the shared name alone does not establish personal identity.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:14",
+      "target": null,
+      "reason": "The three named nearby Persian and Median rulers are not identified with a different king's counselors or a seven-member council from another account.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:15",
+      "target": null,
+      "reason": "This summary of deliberation over Astin's refusal does not provide a distinct verified legal counterpart beyond the surrounding proposal and decision.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:17",
+      "target": null,
+      "reason": "The parenthetical recounting of Astin's words remains in its local argument; no additional speaker identity or unreported wording is supplied.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:21",
+      "target": null,
+      "reason": "The king's acceptance of Muchaeus's proposal is a brief local response; no additional independent royal decision is equated with it.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 2:11",
+      "target": null,
+      "reason": "Mordecai's daily watching in the women's court is a particular care notice without an independently matched daily action elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 2:13",
+      "target": null,
+      "reason": "The general allowance to request items is not converted into a claim that Esther later asked for nothing; the supplied 2:15 says she disregarded none of the guardian's instructions.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 2:16",
+      "target": null,
+      "reason": "The twelfth month Adar in the seventh year is retained without replacing it with another edition's month or calculating an unsupported regnal chronology.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 2:19",
+      "target": null,
+      "reason": "The brief court-service notice repeats Mordecai's setting without a sufficiently meaningful additional relationship beyond identification.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:2",
+      "target": null,
+      "reason": "The ban on entering the royal court in sackcloth and ashes is not equated with a sanctuary-access law or a different royal entry restriction.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:9",
+      "target": null,
+      "reason": "The messenger's delivery of the preceding words is preserved without a generic message-delivery cross-reference.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:10",
+      "target": null,
+      "reason": "The introduction to Esther's reply does not independently supply a substantive connection beyond the following complete speech.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:12",
+      "target": null,
+      "reason": "The messenger's report of Esther's words is a local communication step; no unrelated messenger or court is equated with it.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:15",
+      "target": null,
+      "reason": "The return-message introduction is preserved without deriving a separate connection from generic communication.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:17",
+      "target": null,
+      "reason": "Mordecai's carrying out the command is not expanded into additional details about how every participant fasted or assembled.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:17a",
+      "target": null,
+      "reason": "The prayer introduction remembers the Lord's works without specifying an individual work in this unit; generic prayer or remembrance parallels are not retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:17p",
+      "target": null,
+      "reason": "The feared praise of worthless things and admiration of a mortal king are not equated with another ruler's particular idol or decree.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 4:17t",
+      "target": null,
+      "reason": "The repeated appeal for the Lord's hand and help is preserved without making repetition of a prayer formula alone an additional completed connection.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Esther 1:1q",
+      "target": "Esther 6:3",
+      "relationship": "Unresolved personal identity or reward chronology; not retained",
+      "rationale": "The opening explicitly reports court service and gifts, while the later reward inquiry says nothing was done for Mordecai. The relationship of the reward notices remains unresolved; no second reward, later payment or harmonized chronology is invented.",
+      "reason": "The opening explicitly reports court service and gifts, while the later reward inquiry says nothing was done for Mordecai. The relationship of the reward notices remains unresolved; no second reward, later payment or harmonized chronology is invented.",
+      "necessary_context": [
+        "Esther 1:1m-1r",
+        "Esther 2:19-23",
+        "Esther 6:1-4"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Esther 1:10",
+      "target": "Esther 3:1",
+      "relationship": "Unresolved personal identity or reward chronology; not retained",
+      "rationale": "The Haman in the seven-eunuch list has neither the patronymic nor the Bougaean designation of the later Haman son of Hammedatha. The common name alone does not securely identify them as one person.",
+      "reason": "The Haman in the seven-eunuch list has neither the patronymic nor the Bougaean designation of the later Haman son of Hammedatha. The common name alone does not securely identify them as one person.",
+      "necessary_context": [
+        "Esther 1:9-15",
+        "Esther 1:1r",
+        "Esther 3:1-6"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "additional_completion_credit_from_reading_inventory_checks": 0,
+  "awaiting_independent_peer_review": true,
+  "completion_definition": "Initial curated supported pass for 93 of the 124 actual source units in Esther 1-4, with 95 retained pairs, 31 source-only deferrals and two unresolved zero-credit target candidates. Each target range, including an exact composite source object, counts once. Reading chapters 5-10 for context and ordered progression adds no completion credit to this packet. No exhaustive, whole-book completed, original-language or specialist review claim is made."
+}

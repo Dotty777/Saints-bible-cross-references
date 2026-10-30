@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI independent peer agent /root/macc9_12_peer (GPT-6)",
+  "run_id": "2026-10-30T154206Z",
+  "checked_at_utc": "2026-10-30T16:23:54.137907+00:00",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "baseline_commit": "c6cafc30400e8c0836b6b9f6cb37a41180f29bab",
+  "input_file": "job-1-3-peer-input.tsv",
+  "input_sha256": "f1e42b76490c29a2ab09dfada44b4bd2df9c04c72ac933f58cb939365436772c",
+  "author_receipt_file": "job-1-3-peer-author-original-review.json",
+  "author_receipt_sha256": "a83012c41da3fdbe98f394e47194a51bab08d24142ef439bb934aafe58d65b14",
+  "source_units_personally_read": 66,
+  "complete_triples_personally_read": 83,
+  "accepted_for_integration": false,
+  "required_changes": [
+    {
+      "action": "remove",
+      "old_row": {
+        "source_reference": "Job 1:15",
+        "target": "1 Samuel 30:1-3",
+        "relationship": "Raid comparison with explicit difference",
+        "rationale": "Both narratives describe a raid that removes a household's possessions or people. Job's servants are killed, whereas the Ziklag account expressly says the captives were not killed; the episodes must not be merged."
+      },
+      "new_row": null,
+      "reason": "The correspondence consists of the broad event category of a raid removing people or possessions. The different victims and outcomes do not establish a more particular textual or narrative connection. The same source retains its detailed internal report parallel with Job 1:17, so this removal creates no source-only deferral."
+    },
+    {
+      "action": "remove",
+      "old_row": {
+        "source_reference": "Job 3:18",
+        "target": "Ecclesiastes 4:1-2",
+        "relationship": "Death and oppressive demands",
+        "rationale": "Job imagines the age-old dead no longer hearing a tax collector's voice. Ecclesiastes surveys extortion and its victims' tears before praising the dead above the living; both passages connect death with escape from oppressive demands."
+      },
+      "new_row": null,
+      "reason": "The supplied unit names age-old ones who no longer hear a tax collector's voice. Ecclesiastes 4:1-2 explicitly describes extortion and prefers the dead to the living, but it does not establish that Job's tax collector is an extortioner. Without that unsupported equation, the shared preference for relief in death is too broad for a retained particular connection; this source remains pending."
+    }
+  ],
+  "expected_final_counts": {
+    "completed_pairs": 81,
+    "completed_source_verses": 63,
+    "distinct_target_verse_units": 114,
+    "deferred_source_count": 3,
+    "unresolved_candidate_count": 2
+  },
+  "review_credit_added": 0,
+  "supersedes_findings_file": "job-1-3-peer-original-findings.json",
+  "supersedes_findings_sha256": "00028f8013cc717734bf9b05088683a62eeeed414738aaeee74dfba64df1d829",
+  "disposition_note": "The author proposed stricter removal of the tax-collector/extortion comparison instead of the initially suggested narrower rationale. The independent peer agrees: without that unsupported equation, the remaining death-and-burdens theme is too broad. Original findings remain preserved unchanged.",
+  "required_new_source_deferrals": [
+    {
+      "source_reference": "Job 3:18",
+      "target": null,
+      "reason": "The supplied unit names age-old ones who no longer hear a tax collector's voice. Ecclesiastes 4:1-2 explicitly describes extortion and prefers the dead to the living, but it does not establish that Job's tax collector is an extortioner. Without that unsupported equation, the shared preference for relief in death is too broad for a retained particular connection; this source remains pending.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ]
+}

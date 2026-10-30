@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI independent peer agent /root/macc9_12_peer (GPT-6)",
+  "reviewer_role": "Personally and independently read all 122 complete actual scoped source units afresh, all 125 final complete source-target-category-rationale triples, all 18 deferred source bodies and reasons, both complete unresolved candidate triples and necessary context. All 246 Esther units had already been personally read in actual source order in this run; the earlier 124 units also formed the separately authored first packet and serve here as context only. Independently checked every final connection without assuming the author correct. Both before and after full triples for the two author self-refinements were separately read. No original-language or specialist review is claimed.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T16:40:06.068725+00:00",
+  "run_id": "2026-10-30T154206Z",
+  "baseline_commit": "c6cafc30400e8c0836b6b9f6cb37a41180f29bab",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "Esther",
+  "source_chapters": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source_units_read": 122,
+  "source_inventory_units_in_scope": 122,
+  "source_verses": 104,
+  "completed_source_verses": 104,
+  "completed_pairs": 125,
+  "distinct_target_verse_units": 146,
+  "chapter_inventory_counts": {
+    "5": 16,
+    "6": 14,
+    "7": 10,
+    "8": 38,
+    "9": 30,
+    "10": 14
+  },
+  "chapter_source_counts": {
+    "5": 13,
+    "6": 12,
+    "7": 9,
+    "8": 34,
+    "9": 25,
+    "10": 11
+  },
+  "chapter_pair_counts": {
+    "5": 16,
+    "6": 12,
+    "7": 11,
+    "8": 41,
+    "9": 30,
+    "10": 15
+  },
+  "input_file": "esther-5-10.tsv",
+  "input_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+  "final_input_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+  "author_receipt_file": "esther-5-10-review.json",
+  "author_receipt_sha256": "ea46b9da7568780ef34cfc3b1ea598e9fec2bdacac0e23dd5151efcc5897af0f",
+  "original_draft_file": "esther-5-10-original-draft.tsv",
+  "original_draft_sha256": "0e241997d0c4b954734b47b63aa78193d778a3fd3fed4bb490bb9d0ba285c389",
+  "author_refinement_file": "esther-5-10-refinement.json",
+  "author_refinement_sha256": "39f8258f011f1db6d9e4e962d0da07eb1ed3e5755910daa33ae8403f4af47647",
+  "changed_before_file": "esther-5-10-changed-before.tsv",
+  "changed_before_sha256": "4e5229ed6028f91362283c85266228ed0bd2f595c12cdbf8376585944e1f850d",
+  "changed_after_file": "esther-5-10-changed-after.tsv",
+  "changed_after_sha256": "62bb1ed65b3480083853ced470dd0812b0840d08fc1cd17a677ad0db5005c160",
+  "candidate_file": "esther-5-10-unresolved-candidates.tsv",
+  "candidate_sha256": "c5a9a88dfc6f8a7ed93f8f684e40993cad4cf1cf4af00903e5d6c63c15cb9d87",
+  "review_cases_file": "esther-5-10-review-cases.json",
+  "review_cases_sha256": "e8dfe2290c7dd0b6caff85c216d76a7eada62d57fe9abdc5e44666f3dab37785",
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_independently_read": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_deferred_source_units_and_reasons_reread": true,
+  "all_candidate_complete_triples_independently_read": true,
+  "source_read_groups": [
+    {
+      "chapters": [
+        5,
+        6,
+        7
+      ],
+      "complete_source_units": 40,
+      "all_continuation_paragraphs_read": true
+    },
+    {
+      "chapters": [
+        8,
+        9,
+        10
+      ],
+      "complete_source_units": 82
+    }
+  ],
+  "complete_triple_read_groups": [
+    {
+      "input_file": "esther-5-10.tsv",
+      "input_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+      "first_pair": 1,
+      "last_pair": 23,
+      "count": 23,
+      "truncated": false
+    },
+    {
+      "input_file": "esther-5-10.tsv",
+      "input_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+      "first_pair": 24,
+      "last_pair": 50,
+      "count": 27,
+      "truncated": false
+    },
+    {
+      "input_file": "esther-5-10.tsv",
+      "input_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+      "first_pair": 51,
+      "last_pair": 75,
+      "count": 25,
+      "truncated": false
+    },
+    {
+      "input_file": "esther-5-10.tsv",
+      "input_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+      "first_pair": 76,
+      "last_pair": 100,
+      "count": 25,
+      "truncated": false
+    },
+    {
+      "input_file": "esther-5-10.tsv",
+      "input_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+      "first_pair": 101,
+      "last_pair": 125,
+      "count": 25,
+      "truncated": false
+    }
+  ],
+  "corrected_complete_triples_reread": {
+    "original_pair_numbers": [
+      1,
+      32
+    ],
+    "changed_before_file": "esther-5-10-changed-before.tsv",
+    "changed_before_sha256": "4e5229ed6028f91362283c85266228ed0bd2f595c12cdbf8376585944e1f850d",
+    "changed_after_file": "esther-5-10-changed-after.tsv",
+    "changed_after_sha256": "62bb1ed65b3480083853ced470dd0812b0840d08fc1cd17a677ad0db5005c160",
+    "both_complete_triples_before_and_after_personally_read": true
+  },
+  "additional_context_passages_read": [
+    "Proverbs 21:1-31",
+    "Proverbs 26:1-28",
+    "Daniel 6:1-29",
+    "2 Samuel 14:15-21",
+    "Mark 6:19-29",
+    "Genesis 41:37-45",
+    "2 Maccabees 15:34-39",
+    "Nehemiah 8:1-12",
+    "Esther 1:1m-1q",
+    "Esther 2:21-23",
+    "Esther 4:15-17",
+    "Esther 7:7-10",
+    "Esther 9:29-32"
+  ],
+  "whole_book_context_personally_read": true,
+  "whole_book_context_unit_count": 246,
+  "earlier_chapters_context_units": 124,
+  "earlier_chapters_context_credit": 0,
+  "context_reading_note": "All 246 Esther units were personally read completely after the full exact inventory, before ordered work moved beyond Esther. Chapters 1-4 were also personally read as the separate first author packet; their retained target units and relevant candidate contexts were displayed again here. Chapters 5-10 were freshly reread for this peer review. External context listed here was freshly displayed and read.",
+  "truncated_read_recovery": "A combined tool return cut the end of the attempted 1-25 triple display. Complete pairs 1-23 were visible, and pairs 24-50 were then displayed and personally read in a complete untruncated return; the subsequent groups were also complete. An attempted Proverbs 21:1-5 context range failed because 21:5 is absent; no text from that failed call was counted, and the whole actual Proverbs 21 chapter was then displayed and read. No standalone missing reference was invented.",
+  "composite_source_units_preserved": [
+    "Esther 5:1–1c",
+    "Esther 5:1d–1f; 5:2"
+  ],
+  "all_continuation_paragraphs_read": true,
+  "composite_continuation_paragraph_count": 6,
+  "pin_receipt": "esther-5-10-peer-independent-pins.json",
+  "pin_receipt_sha256": "9c5e1ff6bec6cfd5d9c118a6a887b69f829932e85aa88df0fe28d2a2f9f3dd36",
+  "source_books": [
+    {
+      "book": "2 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "raw_file": "esther-5-10-peer-independent-pin-2-maccabees.json",
+      "raw_sha256": "4748eb2422bf0bcdbf16d1292dd94f486c21ff54ae7590fdd2c98590f87fbc1d",
+      "headers_file": "esther-5-10-peer-independent-pin-2-maccabees-headers.json",
+      "headers_sha256": "990cf92e2a163653a1f02bf2b7cc034e999ec6d3e76765ae565beb4b372a433e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Samuel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "raw_file": "esther-5-10-peer-independent-pin-2-samuel.json",
+      "raw_sha256": "2bad7ab804a4d19978d9973b070f85343705c6476264bbec7dd72f5ae8023cc0",
+      "headers_file": "esther-5-10-peer-independent-pin-2-samuel-headers.json",
+      "headers_sha256": "c746ca1ea3311e2f1a375c9c94dd649ffdf8045b0ec1056b180ae0c655021aea",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Daniel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "raw_file": "esther-5-10-peer-independent-pin-daniel.json",
+      "raw_sha256": "41fe27c56d5c0a23e4e970d7beb9376fdb8a55c16721aea1a1cc1b6ac23fe3f8",
+      "headers_file": "esther-5-10-peer-independent-pin-daniel-headers.json",
+      "headers_sha256": "aa8e2142310667027a315c9dce5f366c7895eefc238a44e275ddf074bbce26c4",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Esther",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "esther/verses.json",
+      "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+      "raw_file": "esther-5-10-peer-independent-pin-esther.json",
+      "raw_sha256": "f56aa793cef88543fce4ea36fba02f7e1cbae0ba250dd261ea27f50213823590",
+      "headers_file": "esther-5-10-peer-independent-pin-esther-headers.json",
+      "headers_sha256": "4e834e13e299f14ac86135fbdd2dbc99a3d03bfcd5c81bd7ff6c4684035882dc",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Genesis",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+      "raw_file": "esther-5-10-peer-independent-pin-genesis.json",
+      "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+      "headers_file": "esther-5-10-peer-independent-pin-genesis-headers.json",
+      "headers_sha256": "76fa36dc05f7855586f691804fbd21f9eecf8c25780c51a1cceeb49b03f8cc48",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Mark",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "mark/verses.json",
+      "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+      "raw_file": "esther-5-10-peer-independent-pin-mark.json",
+      "raw_sha256": "54d809f3d67b1c0dc45f0c1cd2d7b0278d02746a788a31d0d7dfa9a7fa6caa2e",
+      "headers_file": "esther-5-10-peer-independent-pin-mark-headers.json",
+      "headers_sha256": "27a0fc9479565840e37825652b37150fbd6fc171cb64d1cde9b44bedd0bfff8b",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Nehemiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "raw_file": "esther-5-10-peer-independent-pin-nehemiah.json",
+      "raw_sha256": "90cd08204d8e2f9ec82c69c69a64202bc1f765e59ccb202270881819be776da1",
+      "headers_file": "esther-5-10-peer-independent-pin-nehemiah-headers.json",
+      "headers_sha256": "b2fd13d833e808a4bd8394e49fda8333ef5b8c244b219708656f84e84aa99297",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Proverbs",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "proverbs/verses.json",
+      "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+      "raw_file": "esther-5-10-peer-independent-pin-proverbs.json",
+      "raw_sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c",
+      "headers_file": "esther-5-10-peer-independent-pin-proverbs-headers.json",
+      "headers_sha256": "9ef5672e0b76b1b4e6cc5edca6fbd76c6df1e7e2f381f25f20b5c154d1e369e4",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    }
+  ],
+  "independent_pin_verification": "Eight fresh peer-owned full raw Git blobs and separate HTTP header records independently matched expected pinned blob identities and complete parsed reference caches. No author raw fetch was reused as independent checking.",
+  "review_findings": {
+    "retained_connections": "Each retained connection has a particular narrated, verbal, legal, symbolic or commemorative basis. Same-chapter links concern instructions and fulfillment, reversal, explanation or explicit recap, and all 22 are labelled.",
+    "composite_units": "Both chapter-5 composites remain exact single units with all three continuation paragraphs each. There is no invented standalone 5:1 or 5:2.",
+    "dates_and_source_wording": "Nisa remains the first month; the thirteenth/fourteenth Adar differences remain visible. Slavery in 7:4 is not inserted into earlier letters. Bougaean and Macedonian, Artaxerxes, Aminadab, Zosara, fifteen thousand, Phrourai and against-health wording are preserved.",
+    "textual_tensions": "The reward notices, household-versus-sons sequence and distinct plunder accounts are compared without a fabricated harmonization. The 6:3-to-1:1q connection is an explicit textual contrast only; it does not resolve the separate zero-credit reward-chronology candidate in the Esther 1-4 packet.",
+    "speaker_and_identity_limits": "The royal letters' claims about the king's innocence and Haman's wider scheme remain attributed allegations. The narrator's Haman-entreaty description is kept distinct from the king's assault accusation. Bougathan/Gabatha and the possible 9:31 fasting connection remain unresolved and zero credit.",
+    "external_comparisons": "Courtly angel language, the half-kingdom offer, royal regalia and delegated authority are compared without conflating rulers or offices. The Daniel decree is not expanded to wording absent from its target. The seventh-month observance in Nehemiah and the distinct Adar commemorations are not merged.",
+    "self_refinements": "Exact history establishes only two rationale refinements: the third-day phrasing and the distinction concerning slavery. All 123 other original tuples are unchanged, and both corrected full triples were personally reread. No peer correction is required."
+  },
+  "required_changes": [],
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": 0,
+  "deferred_source_count": 18,
+  "deferred_source_units": [
+    {
+      "source_reference": "Esther 5:2b",
+      "target": null,
+      "reason": "The renewed faintness and comfort by the attendants belong to the complete approach scene, but no additional particular independent connection is selected for this repeated physical reaction.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 5:5",
+      "target": null,
+      "reason": "The arrival of the invited king and Haman is already the concrete target for the invitation link; no additional substantive comparison is selected for this transitional fulfillment unit.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 5:7",
+      "target": null,
+      "reason": "The introductory words my request and my petition are completed in the following unit; the fragment alone supplies no additional particular target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 6:5",
+      "target": null,
+      "reason": "The attendants identify Haman in the court and the king summons him; this transition has no additional distinctive connection beyond the execution-request scene already retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 6:7",
+      "target": null,
+      "reason": "The unfinished introduction to the honored man is completed in the following proposal; no independent target is selected for the introductory fragment.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 7:5",
+      "target": null,
+      "reason": "The question asking who dared the deed introduces the identification of Haman; the question alone does not supply a further substantive comparison.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 8:12a",
+      "target": null,
+      "reason": "This unit only introduces the copy of the letter; the letter heading and particular provisions are reviewed in their own actual source units.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 8:12d",
+      "target": null,
+      "reason": "The general reflection on ingratitude and imagined escape from divine justice has no separately selected particular target beyond generic moral resemblance.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 8:12o",
+      "target": null,
+      "reason": "The accusation that Haman intended to transfer Persian rule to Macedonians is the letter's particular allegation; no independent narrative confirmation or external identity is established for it.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 8:12x",
+      "target": null,
+      "reason": "The precise sanction of spear, fire and permanent desolation for noncomplying regions is not linked to unrelated destruction or curse passages merely because their imagery overlaps.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 9:7",
+      "target": null,
+      "reason": "Pharsannestain, Delphon and Phasga are preserved as names in the sons list; no individually distinguishing cross-text identities have been established.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 9:8",
+      "target": null,
+      "reason": "Phardatha, Barea and Sarbacha are preserved as actual names in the sons list; no independent person-level comparison has been established.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 9:9",
+      "target": null,
+      "reason": "Marmasima, Arouphaion, Arsaion and Zabouthaithan are not equated with other names or reconstructed forms without distinguishing evidence.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 9:11",
+      "target": null,
+      "reason": "The delivery of the Susa casualty report is necessary context for the retained tally links; no additional substantive target is selected for the administrative transition itself.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 9:31",
+      "target": null,
+      "reason": "The actual wording about establishing things against themselves and setting their plan against their own health is not silently replaced by a familiar fasting formulation; the separately read fasting proposal remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 10:1",
+      "target": null,
+      "reason": "The land-and-sea tax notice supplies no specific amount, purpose or matched levy; a generic link to imperial taxation is insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 10:2",
+      "target": null,
+      "reason": "The reference to the Persian and Median kings' memorial book does not identify a separately available passage in that record; generic royal wealth or annals formulas are insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Esther 10:3l",
+      "target": null,
+      "reason": "The colophon's Dositheus, his son Ptolemy, translator Lysimachus and Ptolemy-Cleopatra dating are not assigned identities from common names or an unverified regnal reconstruction.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Esther 7:9",
+      "target": "Esther 1:1m-1o",
+      "relationship": "Unresolved eunuch identity; not retained",
+      "rationale": "Bougathan is the helpful eunuch identifying Haman's tree, while Gabatha is named among the guards in the detected plot against the king. Name resemblance does not establish the same person across these different roles.",
+      "necessary_context": [
+        "Esther 7:7-10",
+        "Esther 1:1m-1q",
+        "Esther 2:21-23"
+      ],
+      "reason": "Bougathan is the helpful eunuch identifying Haman's tree, while Gabatha is named among the guards in the detected plot against the king. Name resemblance does not establish the same person across these different roles.",
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved; not retained and awarded zero additional source or pair credit."
+    },
+    {
+      "source_reference": "Esther 9:31",
+      "target": "Esther 4:16",
+      "relationship": "Unresolved possible fasting connection; not retained",
+      "rationale": "The bodily implications of setting a plan against their own health might suggest the earlier fast, but this source unit does not expressly name fasting. The proposed connection is not retained by importing a familiar alternative wording.",
+      "necessary_context": [
+        "Esther 9:29-32",
+        "Esther 4:15-17"
+      ],
+      "reason": "The bodily implications of setting a plan against their own health might suggest the earlier fast, but this source unit does not expressly name fasting. The proposed connection is not retained by importing a familiar alternative wording.",
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved; not retained and awarded zero additional source or pair credit."
+    }
+  ],
+  "same_chapter_pairs_explicitly_labelled": 22,
+  "structural_checks": {
+    "source_target_overlap_absent": true,
+    "duplicate_actual_pairs_absent": true,
+    "same_chapter_labels_exact": true,
+    "source_supported_deferral_partition_exact": true,
+    "all_candidate_credits_zero": true,
+    "final_hash_bindings_exact": true,
+    "exact_author_refinement_verified": true,
+    "complete_composite_bodies_preserved": true
+  },
+  "accepted_for_integration": true,
+  "acceptance": {
+    "accepted": true,
+    "binding_tsv_sha256": "fa9841f8e2d43de7617a4aa3648da8ff3339c0526015f466fe79af345d43278d",
+    "binding_author_receipt_sha256": "ea46b9da7568780ef34cfc3b1ea598e9fec2bdacac0e23dd5151efcc5897af0f",
+    "required_changes": [],
+    "unresolved_retained_cases": 0
+  },
+  "completion_definition": "Initial curated supported pass for 104 of 122 actual Esther 5-10 source units, with 125 retained pairs, 18 source-only deferrals and two unresolved zero-credit candidates. Each target range counts once. Reading, context, full-book inventory, provenance checks and pending proposals add no completion credit. No exhaustive, source-language or specialist verification is claimed.",
+  "review_credit_added": 0,
+  "pin_and_inventory_credit": 0
+}

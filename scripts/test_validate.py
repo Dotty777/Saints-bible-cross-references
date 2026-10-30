@@ -200,5 +200,24 @@ class ArchivedRepeatedChapterTests(unittest.TestCase):
         self.assertEqual(list(units.values()),[v for c in document['chapters'] for v in c['verses']])
 
 
+class SavedCompositeTargetTests(unittest.TestCase):
+    def test_esther_composite_targets_keep_their_declared_book(self):
+        path=validate.ROOT/'esther'/'verses.json'
+        original=path.read_bytes()
+        document=json.loads(original)
+        labels={'Esther 5:1–1c','Esther 5:1d–1f; 5:2'}
+        units=[v for ch in document['chapters'] for v in ch['verses']]
+        targets={e['target'] for v in units for e in v['cross_references']}
+        self.assertTrue(labels<=targets)
+        self.assertEqual(sum(len(v.get('continuation_paragraphs',[]))
+                             for v in units if v['reference'] in labels),6)
+        with patch('builtins.print'):
+            reports=validate.validate(write_receipts=False)
+        report=next(r for r in reports if r['book']=='Esther')
+        self.assertEqual(report['target_book_membership'],'passed')
+        self.assertEqual(report['complete_source_and_target_continuation_bodies'],'passed')
+        self.assertEqual(path.read_bytes(),original)
+
+
 if __name__=='__main__':
     unittest.main()

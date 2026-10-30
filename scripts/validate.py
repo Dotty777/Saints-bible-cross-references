@@ -132,13 +132,14 @@ def validate(write_receipts=False):
         require([b['order'] for b in members]==list(range(division['first_book_order'],division['last_book_order']+1)),'Division order mismatch')
     first_unfinished=None
     missing_earlier=[]
-    inventories={};saved_units={};archived_targets={}
+    inventories={};saved_units={};saved_unit_books={};archived_targets={}
     for record in progress['books']:
         path=ROOT/record['records']/'verses.json'
         if path.exists():
             saved=load(path)
             inventories[saved['book']]={str(ch['chapter']):[v['reference'] for v in ch['verses']] for ch in saved['chapters']}
             saved_units.update({v['reference']:v for ch in saved['chapters'] for v in ch['verses']})
+            saved_unit_books.update({v['reference']:saved['book'] for ch in saved['chapters'] for v in ch['verses']})
     for b in progress['books']:
         file=ROOT/b['records']/'verses.json'
         if not file.exists():
@@ -188,7 +189,7 @@ def validate(write_receipts=False):
                     archived_units={}
                     if e['target'] in saved_units:
                         # An exact declared unit may have an original composite label.
-                        book=e['target'].rsplit(' ',1)[0];expected=[e['target']]
+                        book=saved_unit_books[e['target']];expected=[e['target']]
                     else:
                         m=re.fullmatch(r'(.+) (\d+):(\d+[a-z]*)(?:-(\d+[a-z]*))?',e['target'])
                         require(m is not None,'Unsupported target-range identity')
