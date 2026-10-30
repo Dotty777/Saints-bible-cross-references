@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/deut_7_10 (AI-assisted supplied-English curation for 1 Samuel 28-31)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T04:01:52.870586+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "source_verses": 81,
+  "completed_source_verses": 81,
+  "completed_pairs": 87,
+  "distinct_target_verse_units": 93,
+  "chapter_pair_counts": {
+    "28": 27,
+    "29": 12,
+    "30": 33,
+    "31": 15
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "review_method": "Used the already completed 773-unit pinned source inventory before reviewing these 81 actual units, including the separate 30:28a continuation. Read every complete actual source and all retained targets. Supplementary actual contexts included all of 1 Chronicles 10; 2 Samuel 1:1-16 and 2:4-7; Leviticus 19:31; Deuteronomy 18:9-14; Numbers 31:25-31; and the existing units of 1 Samuel 11:5-11, 14:49, 15:17-29, 16:13-14, 18:6-9, 21:10-13, 23:6-17, 25:1, 25:39-44 and 27:1-12. Separately displayed and reread all 87 complete source/target/category/rationale triples in eight untruncated slices. Preserved the original draft and eighteen exact wording refinements, then separately displayed and reread all eighteen complete final changed triples before this freeze. Local links concern actual requests and answers, speech and performance, distinct fear occasions, named family loss and recovery, troop partition and reunification, spoils decisions and the named recipient groups under the express gift-distribution preface. Cross-book links identify explicit laws, repeated announcements, named narrative recollections, actual parallel death reports, or the precisely shared quoted refrain. The name-equivalence claim below remains uncredited; the retained death-report comparison rests on the explicit common Saul/sons/Jonathan language and does not resolve the other individuals. No exhaustive discovery, new source-language, apparatus, historical harmonization, modern place identity or independent specialist verification is claimed. After independent peer, narrowed three complete death-report comparisons to the sword or a sword, without assigning its ownership. All three corrected full source/target/category/rationale triples were separately displayed and reread on the final America/New_York review date. The previous frozen TSV and author receipt, whose review date was October 29, remain preserved unchanged; targets and counts are unchanged and the corrections add zero credit.",
+  "pin_method": "Fresh raw fixed-commit fetches of all six retained source/target books. Recomputed complete Git blob SHA1 and raw SHA256, and verified complete parsed raw/cache equality. Cache newline differences are recorded separately from raw byte equality. Pin checks, inventory and refinements earn zero additional completion credit.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Leviticus",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    }
+  ],
+  "pin_receipt": "1-samuel-28-31-pins.json",
+  "pin_receipt_sha256": "4b877b0882282e9d6035da103388bd08adf0ef7e7848d1b4c78f5f0cd1bf4a77",
+  "input_file": "1-samuel-28-31.tsv",
+  "input_sha256": "2a307f0d927210abf7a3d28398fd19014e42c60543df54f93e27cb4797d69a57",
+  "final_input_sha256": "2a307f0d927210abf7a3d28398fd19014e42c60543df54f93e27cb4797d69a57",
+  "source_inventory": "1-samuel/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-samuel-28-31-author-draft.tsv",
+  "author_draft_sha256": "90f5975a58fcd9f38aa45c875eb007fba303a5c90793a8fd384631dddd9b92ac",
+  "author_refinements_before_freeze": [
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 28:14",
+        "target": "1 Samuel 15:27",
+        "relationship": "Samuel-associated double-cloak descriptions in the two encounters",
+        "rationale": "The woman describes a double cloak before Saul recognises Samuel; the earlier departure scene has Saul seize and tear the edge of Samuel's double cloak, matching the specific garment description without identifying the physical cloak as the same object."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 28:14",
+        "target": "1 Samuel 15:27",
+        "relationship": "Double-cloak descriptions in the two Saul-and-Samuel encounters",
+        "rationale": "The woman describes a double cloak before Saul recognises Samuel; the earlier encounter describes Saul seizing and tearing a double-cloak edge after Samuel turns to leave, matching the specific garment description without independently settling the earlier possessive or identifying the physical cloak as the same object."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Samuel 15:28",
+        "relationship": "The kingdom-tearing announcement expressly recalls Samuel's earlier word",
+        "rationale": "Samuel now says the Lord acts as He spoke through him and will give the kingdom to the neighbour David; the earlier oracle names the kingdom torn from Saul's hand and given to a better neighbour, whose name is supplied in the later speech."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Samuel 15:28",
+        "relationship": "The kingdom-tearing announcement expressly recalls Samuel's earlier word",
+        "rationale": "Samuel now says the Lord acts as He spoke through him and will give the kingdom to the neighbour David; the earlier oracle says the kingdom has been torn from Saul's hand and will be given to a better neighbour, whose name is supplied in the later speech."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Chronicles 10:14",
+        "relationship": "The kingdom's transfer to David in speech and retrospective assessment",
+        "rationale": "Samuel announces the kingdom being taken from Saul and given to David; Chronicles says the Lord turned the kingdom over to David son of Jesse, matching that named transfer while retaining its additional judgment explanation."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Chronicles 10:14",
+        "relationship": "The kingdom's transfer to David in speech and retrospective assessment",
+        "rationale": "Samuel announces that the kingdom will be taken from Saul and given to David; Chronicles says the Lord turned the kingdom over to David son of Jesse, matching that named transfer while retaining its additional judgment explanation."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 29:1",
+        "target": "1 Samuel 29:11",
+        "relationship": "Same-chapter the foreign muster and the chapter's separated departures",
+        "rationale": "The opening places the foreigners' gathered camps opposite Israel; the ending sends the foreigners to war against Israel while David's company leaves to guard the foreigners' land, showing the particular separation produced by the intervening objection."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 29:1",
+        "target": "1 Samuel 29:11",
+        "relationship": "Same-chapter the foreign muster and the chapter's separated departures",
+        "rationale": "The opening names the foreigners' gathered camps and Israel's camp; the ending sends the foreigners to war against Israel while David's company leaves to guard the foreigners' land, showing the particular separation produced by the intervening objection."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 30:4",
+        "target": "1 Samuel 30:6",
+        "relationship": "Same-chapter exhausted grief and David's later stated strengthening",
+        "rationale": "The company weeps until it has no strength; the later anguish over sons and daughters includes threats against David and the statement that he was strengthened in the Lord, preserving the particular weakness-and-strength contrast without claiming grief vanished."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 30:4",
+        "target": "1 Samuel 30:6",
+        "relationship": "Same-chapter exhausted grief and David's later stated strengthening",
+        "rationale": "The company weeps until it has no strength to weep; the later anguish over sons and daughters includes threats against David and the statement that he was strengthened in the Lord, preserving the particular weakness-and-strength contrast without claiming grief vanished."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 30:16",
+        "target": "1 Samuel 30:3-4",
+        "relationship": "Same-chapter raiders' celebration contrasted with the bereaved company's grief",
+        "rationale": "The raiders eat, drink and celebrate over great spoils; David's earlier company finds its families captive and weeps until strength is gone, giving the particular contrasting reactions within the same raid-and-recovery account."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 30:16",
+        "target": "1 Samuel 30:3-4",
+        "relationship": "Same-chapter raiders' celebration contrasted with the company's grief",
+        "rationale": "The raiders eat, drink and celebrate over great spoils; David's earlier company finds its families captive and weeps until it has no strength to weep, giving the particular contrasting reactions within the same raid-and-recovery account."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:2",
+        "target": "1 Chronicles 10:2",
+        "relationship": "Parallel Saul-son death reports with the supplied name forms retained",
+        "rationale": "Both report foreigners striking Saul's sons and explicitly name Jonathan; Samuel supplies Aminadab and Melchisa, while Chronicles supplies Amminadab and Melchisoue, retaining those differences without certifying the proposed individual-name equivalences."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:2",
+        "target": "1 Chronicles 10:2",
+        "relationship": "Parallel Saul-son death reports with the supplied name forms retained",
+        "rationale": "Both report foreigners striking Saul's sons and explicitly name Jonathan; 1 Samuel supplies Aminadab and Melchisa, while Chronicles supplies Amminadab and Melchisoue, retaining those differences without certifying the proposed individual-name equivalences."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:3",
+        "target": "1 Chronicles 10:3",
+        "relationship": "Parallel heavy battle and archers finding Saul",
+        "rationale": "Both describe the battle growing heavy against Saul and archers finding him; Samuel specifically places his wound beneath the ribs, whereas Chronicles describes suffering from the bows, keeping each account's injury wording."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:3",
+        "target": "1 Chronicles 10:3",
+        "relationship": "Parallel heavy battle and archers finding Saul",
+        "rationale": "Both describe the battle growing heavy against Saul and archers finding him; 1 Samuel specifically places his wound beneath the ribs, whereas Chronicles describes suffering from the bows, keeping each account's injury wording."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "1 Chronicles 10:4",
+        "relationship": "Parallel sword request, frightened equipment carrier and Saul's sword fall",
+        "rationale": "Both record Saul asking his equipment carrier to pierce him, the carrier refusing from fear and Saul falling on his own sword; the additional piercing threat in Samuel and the shared fear of mockery remain distinct supplied details."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "1 Chronicles 10:4",
+        "relationship": "Parallel sword request, frightened equipment carrier and Saul's sword fall",
+        "rationale": "Both record Saul asking his equipment carrier to pierce him, the carrier refusing from fear and Saul falling on his own sword; the additional piercing threat in 1 Samuel and the shared fear of mockery remain distinct supplied details."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "2 Samuel 1:6-10",
+        "relationship": "Narrated sword fall compared with the Amalekite visitor's different account",
+        "rationale": "Samuel narrates the armour-bearer's refusal and Saul falling on his sword; the later visitor says Saul requested death and claims he himself killed him, preserving that reporting perspective without independently settling how the accounts relate."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "2 Samuel 1:6-10",
+        "relationship": "Narrated sword fall compared with the Amalekite visitor's different account",
+        "rationale": "The 1 Samuel account narrates the armour-bearer's refusal and Saul falling on his sword; the later visitor says Saul requested death and claims he himself killed him, preserving that reporting perspective without independently settling how the accounts relate."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:6",
+        "target": "1 Chronicles 10:6",
+        "relationship": "Parallel death summaries with different additional scope",
+        "rationale": "Both summaries state Saul and his three sons die; Samuel additionally names the armour-bearer and Chronicles says all his house died together, keeping those scopes distinct rather than asserting every biological descendant was killed."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:6",
+        "target": "1 Chronicles 10:6",
+        "relationship": "Parallel death summaries with different additional scope",
+        "rationale": "Both summaries state Saul and his three sons die; 1 Samuel additionally names the armour-bearer and Chronicles says all his house died together, keeping those scopes distinct rather than asserting every biological descendant was killed."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:7",
+        "target": "1 Chronicles 10:7",
+        "relationship": "Parallel abandoned cities and foreign settlement after the defeat",
+        "rationale": "Both connect Israel's flight and the deaths of Saul and his sons with abandoned cities that the foreigners inhabit; Samuel names the regions beyond the valley and Jordan, while Chronicles names those in the valley, retaining the different geographical scope."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:7",
+        "target": "1 Chronicles 10:7",
+        "relationship": "Parallel abandoned cities and foreign settlement after the defeat",
+        "rationale": "Both connect Israel's flight and the deaths of Saul and his sons with abandoned cities that the foreigners inhabit; 1 Samuel names the regions beyond the valley and Jordan, while Chronicles names those in the valley, retaining the different geographical scope."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:8",
+        "target": "1 Chronicles 10:8",
+        "relationship": "Parallel following-day discovery of Saul and his sons on Gelboue",
+        "rationale": "Both accounts place the discovery of fallen Saul and his sons on Gelboue on the following day; Samuel describes stripping the dead and Chronicles plundering the wounded, preserving the actual objects of the looting description."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:8",
+        "target": "1 Chronicles 10:8",
+        "relationship": "Parallel following-day discovery of Saul and his sons on Gelboue",
+        "rationale": "Both accounts place the discovery of fallen Saul and his sons on Gelboue on the following day; 1 Samuel describes stripping the dead and Chronicles plundering the wounded, preserving the actual objects of the looting description."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:9",
+        "target": "1 Chronicles 10:9",
+        "relationship": "Parallel stripped equipment and announcements to idols and people",
+        "rationale": "Both strip Saul's equipment and describe news announced through the foreigners' land to idols and people; Chronicles also explicitly mentions taking his head, a detail not added to Samuel's wording here."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:9",
+        "target": "1 Chronicles 10:9",
+        "relationship": "Parallel stripped equipment and announcements to idols and people",
+        "rationale": "Both strip Saul's equipment and describe news announced through the foreigners' land to idols and people; Chronicles also explicitly mentions taking his head, a detail not added to the 1 Samuel unit."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:10",
+        "target": "1 Chronicles 10:10",
+        "relationship": "Different stated displays of Saul's equipment and remains",
+        "rationale": "Samuel places the equipment in Astarte's temple and the body on Beth-shan's wall; Chronicles places equipment in their god's house and the head in Dagon's house, preserving the different objects and venues without supplying an unreported transfer."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:10",
+        "target": "1 Chronicles 10:10",
+        "relationship": "Different stated displays of Saul's equipment and remains",
+        "rationale": "1 Samuel places the equipment in Astarte's temple and the body on Beth-shan's wall; Chronicles places equipment in their god's house and the head in Dagon's house, preserving the different objects and venues without supplying an unreported transfer."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Parallel retrieval reports with differing bodies and treatment details",
+        "rationale": "Samuel's mighty men retrieve Saul and Jonathan from Beth-shan and burn them at Jabesh; Chronicles has mighty men from Galaad bring Saul and his sons to Jabis and bury their bones, keeping the different supplied extent, forms and burning detail."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Parallel retrieval reports with differing bodies and treatment details",
+        "rationale": "In 1 Samuel, the mighty men retrieve Saul and Jonathan from Beth-shan and burn them at Jabesh; Chronicles has mighty men from Galaad bring Saul and his sons to Jabis and bury their bones, keeping the different supplied extent, forms and burning detail."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "2 Samuel 2:4-6",
+        "relationship": "David's later blessing explicitly acknowledges Saul and Jonathan's burial",
+        "rationale": "Samuel reports Jabesh's men retrieving Saul and Jonathan and taking them to Jabesh; David later blesses Jabesh's leaders for mercy shown by burying Saul and Jonathan, expressly recalling the named community's treatment of the two men."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "2 Samuel 2:4-6",
+        "relationship": "David's later blessing explicitly acknowledges Saul and Jonathan's burial",
+        "rationale": "The 1 Samuel account reports Jabesh's men retrieving Saul and Jonathan and taking them to Jabesh; David later blesses Jabesh's leaders for mercy shown by burying Saul and Jonathan, expressly recalling the named community's treatment of the two men."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:13",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Bones burial and seven-day fasting with distinct supplied burial descriptions",
+        "rationale": "Both accounts describe burying the bones and fasting seven days; Samuel specifies cultivated ground at Jabesh, whereas Chronicles specifies an oak at Jabis, retaining the different descriptions without independently resolving the place forms."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:13",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Bones burial and seven-day fasting with distinct supplied burial descriptions",
+        "rationale": "Both accounts describe burying the bones and fasting seven days; 1 Samuel specifies cultivated ground at Jabesh, whereas Chronicles specifies an oak at Jabis, retaining the different descriptions without independently resolving the place forms."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "author_corrections": [
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 28:14",
+        "target": "1 Samuel 15:27",
+        "relationship": "Samuel-associated double-cloak descriptions in the two encounters",
+        "rationale": "The woman describes a double cloak before Saul recognises Samuel; the earlier departure scene has Saul seize and tear the edge of Samuel's double cloak, matching the specific garment description without identifying the physical cloak as the same object."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 28:14",
+        "target": "1 Samuel 15:27",
+        "relationship": "Double-cloak descriptions in the two Saul-and-Samuel encounters",
+        "rationale": "The woman describes a double cloak before Saul recognises Samuel; the earlier encounter describes Saul seizing and tearing a double-cloak edge after Samuel turns to leave, matching the specific garment description without independently settling the earlier possessive or identifying the physical cloak as the same object."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Samuel 15:28",
+        "relationship": "The kingdom-tearing announcement expressly recalls Samuel's earlier word",
+        "rationale": "Samuel now says the Lord acts as He spoke through him and will give the kingdom to the neighbour David; the earlier oracle names the kingdom torn from Saul's hand and given to a better neighbour, whose name is supplied in the later speech."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Samuel 15:28",
+        "relationship": "The kingdom-tearing announcement expressly recalls Samuel's earlier word",
+        "rationale": "Samuel now says the Lord acts as He spoke through him and will give the kingdom to the neighbour David; the earlier oracle says the kingdom has been torn from Saul's hand and will be given to a better neighbour, whose name is supplied in the later speech."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Chronicles 10:14",
+        "relationship": "The kingdom's transfer to David in speech and retrospective assessment",
+        "rationale": "Samuel announces the kingdom being taken from Saul and given to David; Chronicles says the Lord turned the kingdom over to David son of Jesse, matching that named transfer while retaining its additional judgment explanation."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 28:17",
+        "target": "1 Chronicles 10:14",
+        "relationship": "The kingdom's transfer to David in speech and retrospective assessment",
+        "rationale": "Samuel announces that the kingdom will be taken from Saul and given to David; Chronicles says the Lord turned the kingdom over to David son of Jesse, matching that named transfer while retaining its additional judgment explanation."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 29:1",
+        "target": "1 Samuel 29:11",
+        "relationship": "Same-chapter the foreign muster and the chapter's separated departures",
+        "rationale": "The opening places the foreigners' gathered camps opposite Israel; the ending sends the foreigners to war against Israel while David's company leaves to guard the foreigners' land, showing the particular separation produced by the intervening objection."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 29:1",
+        "target": "1 Samuel 29:11",
+        "relationship": "Same-chapter the foreign muster and the chapter's separated departures",
+        "rationale": "The opening names the foreigners' gathered camps and Israel's camp; the ending sends the foreigners to war against Israel while David's company leaves to guard the foreigners' land, showing the particular separation produced by the intervening objection."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 30:4",
+        "target": "1 Samuel 30:6",
+        "relationship": "Same-chapter exhausted grief and David's later stated strengthening",
+        "rationale": "The company weeps until it has no strength; the later anguish over sons and daughters includes threats against David and the statement that he was strengthened in the Lord, preserving the particular weakness-and-strength contrast without claiming grief vanished."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 30:4",
+        "target": "1 Samuel 30:6",
+        "relationship": "Same-chapter exhausted grief and David's later stated strengthening",
+        "rationale": "The company weeps until it has no strength to weep; the later anguish over sons and daughters includes threats against David and the statement that he was strengthened in the Lord, preserving the particular weakness-and-strength contrast without claiming grief vanished."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 30:16",
+        "target": "1 Samuel 30:3-4",
+        "relationship": "Same-chapter raiders' celebration contrasted with the bereaved company's grief",
+        "rationale": "The raiders eat, drink and celebrate over great spoils; David's earlier company finds its families captive and weeps until strength is gone, giving the particular contrasting reactions within the same raid-and-recovery account."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 30:16",
+        "target": "1 Samuel 30:3-4",
+        "relationship": "Same-chapter raiders' celebration contrasted with the company's grief",
+        "rationale": "The raiders eat, drink and celebrate over great spoils; David's earlier company finds its families captive and weeps until it has no strength to weep, giving the particular contrasting reactions within the same raid-and-recovery account."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:2",
+        "target": "1 Chronicles 10:2",
+        "relationship": "Parallel Saul-son death reports with the supplied name forms retained",
+        "rationale": "Both report foreigners striking Saul's sons and explicitly name Jonathan; Samuel supplies Aminadab and Melchisa, while Chronicles supplies Amminadab and Melchisoue, retaining those differences without certifying the proposed individual-name equivalences."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:2",
+        "target": "1 Chronicles 10:2",
+        "relationship": "Parallel Saul-son death reports with the supplied name forms retained",
+        "rationale": "Both report foreigners striking Saul's sons and explicitly name Jonathan; 1 Samuel supplies Aminadab and Melchisa, while Chronicles supplies Amminadab and Melchisoue, retaining those differences without certifying the proposed individual-name equivalences."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:3",
+        "target": "1 Chronicles 10:3",
+        "relationship": "Parallel heavy battle and archers finding Saul",
+        "rationale": "Both describe the battle growing heavy against Saul and archers finding him; Samuel specifically places his wound beneath the ribs, whereas Chronicles describes suffering from the bows, keeping each account's injury wording."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:3",
+        "target": "1 Chronicles 10:3",
+        "relationship": "Parallel heavy battle and archers finding Saul",
+        "rationale": "Both describe the battle growing heavy against Saul and archers finding him; 1 Samuel specifically places his wound beneath the ribs, whereas Chronicles describes suffering from the bows, keeping each account's injury wording."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "1 Chronicles 10:4",
+        "relationship": "Parallel sword request, frightened equipment carrier and Saul's sword fall",
+        "rationale": "Both record Saul asking his equipment carrier to pierce him, the carrier refusing from fear and Saul falling on his own sword; the additional piercing threat in Samuel and the shared fear of mockery remain distinct supplied details."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "1 Chronicles 10:4",
+        "relationship": "Parallel sword request, frightened equipment carrier and Saul's sword fall",
+        "rationale": "Both record Saul asking his equipment carrier to pierce him, the carrier refusing from fear and Saul falling on his own sword; the additional piercing threat in 1 Samuel and the shared fear of mockery remain distinct supplied details."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "2 Samuel 1:6-10",
+        "relationship": "Narrated sword fall compared with the Amalekite visitor's different account",
+        "rationale": "Samuel narrates the armour-bearer's refusal and Saul falling on his sword; the later visitor says Saul requested death and claims he himself killed him, preserving that reporting perspective without independently settling how the accounts relate."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:4",
+        "target": "2 Samuel 1:6-10",
+        "relationship": "Narrated sword fall compared with the Amalekite visitor's different account",
+        "rationale": "The 1 Samuel account narrates the armour-bearer's refusal and Saul falling on his sword; the later visitor says Saul requested death and claims he himself killed him, preserving that reporting perspective without independently settling how the accounts relate."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:6",
+        "target": "1 Chronicles 10:6",
+        "relationship": "Parallel death summaries with different additional scope",
+        "rationale": "Both summaries state Saul and his three sons die; Samuel additionally names the armour-bearer and Chronicles says all his house died together, keeping those scopes distinct rather than asserting every biological descendant was killed."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:6",
+        "target": "1 Chronicles 10:6",
+        "relationship": "Parallel death summaries with different additional scope",
+        "rationale": "Both summaries state Saul and his three sons die; 1 Samuel additionally names the armour-bearer and Chronicles says all his house died together, keeping those scopes distinct rather than asserting every biological descendant was killed."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:7",
+        "target": "1 Chronicles 10:7",
+        "relationship": "Parallel abandoned cities and foreign settlement after the defeat",
+        "rationale": "Both connect Israel's flight and the deaths of Saul and his sons with abandoned cities that the foreigners inhabit; Samuel names the regions beyond the valley and Jordan, while Chronicles names those in the valley, retaining the different geographical scope."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:7",
+        "target": "1 Chronicles 10:7",
+        "relationship": "Parallel abandoned cities and foreign settlement after the defeat",
+        "rationale": "Both connect Israel's flight and the deaths of Saul and his sons with abandoned cities that the foreigners inhabit; 1 Samuel names the regions beyond the valley and Jordan, while Chronicles names those in the valley, retaining the different geographical scope."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:8",
+        "target": "1 Chronicles 10:8",
+        "relationship": "Parallel following-day discovery of Saul and his sons on Gelboue",
+        "rationale": "Both accounts place the discovery of fallen Saul and his sons on Gelboue on the following day; Samuel describes stripping the dead and Chronicles plundering the wounded, preserving the actual objects of the looting description."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:8",
+        "target": "1 Chronicles 10:8",
+        "relationship": "Parallel following-day discovery of Saul and his sons on Gelboue",
+        "rationale": "Both accounts place the discovery of fallen Saul and his sons on Gelboue on the following day; 1 Samuel describes stripping the dead and Chronicles plundering the wounded, preserving the actual objects of the looting description."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:9",
+        "target": "1 Chronicles 10:9",
+        "relationship": "Parallel stripped equipment and announcements to idols and people",
+        "rationale": "Both strip Saul's equipment and describe news announced through the foreigners' land to idols and people; Chronicles also explicitly mentions taking his head, a detail not added to Samuel's wording here."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:9",
+        "target": "1 Chronicles 10:9",
+        "relationship": "Parallel stripped equipment and announcements to idols and people",
+        "rationale": "Both strip Saul's equipment and describe news announced through the foreigners' land to idols and people; Chronicles also explicitly mentions taking his head, a detail not added to the 1 Samuel unit."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:10",
+        "target": "1 Chronicles 10:10",
+        "relationship": "Different stated displays of Saul's equipment and remains",
+        "rationale": "Samuel places the equipment in Astarte's temple and the body on Beth-shan's wall; Chronicles places equipment in their god's house and the head in Dagon's house, preserving the different objects and venues without supplying an unreported transfer."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:10",
+        "target": "1 Chronicles 10:10",
+        "relationship": "Different stated displays of Saul's equipment and remains",
+        "rationale": "1 Samuel places the equipment in Astarte's temple and the body on Beth-shan's wall; Chronicles places equipment in their god's house and the head in Dagon's house, preserving the different objects and venues without supplying an unreported transfer."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Parallel retrieval reports with differing bodies and treatment details",
+        "rationale": "Samuel's mighty men retrieve Saul and Jonathan from Beth-shan and burn them at Jabesh; Chronicles has mighty men from Galaad bring Saul and his sons to Jabis and bury their bones, keeping the different supplied extent, forms and burning detail."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Parallel retrieval reports with differing bodies and treatment details",
+        "rationale": "In 1 Samuel, the mighty men retrieve Saul and Jonathan from Beth-shan and burn them at Jabesh; Chronicles has mighty men from Galaad bring Saul and his sons to Jabis and bury their bones, keeping the different supplied extent, forms and burning detail."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "2 Samuel 2:4-6",
+        "relationship": "David's later blessing explicitly acknowledges Saul and Jonathan's burial",
+        "rationale": "Samuel reports Jabesh's men retrieving Saul and Jonathan and taking them to Jabesh; David later blesses Jabesh's leaders for mercy shown by burying Saul and Jonathan, expressly recalling the named community's treatment of the two men."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:12",
+        "target": "2 Samuel 2:4-6",
+        "relationship": "David's later blessing explicitly acknowledges Saul and Jonathan's burial",
+        "rationale": "The 1 Samuel account reports Jabesh's men retrieving Saul and Jonathan and taking them to Jabesh; David later blesses Jabesh's leaders for mercy shown by burying Saul and Jonathan, expressly recalling the named community's treatment of the two men."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Samuel 31:13",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Bones burial and seven-day fasting with distinct supplied burial descriptions",
+        "rationale": "Both accounts describe burying the bones and fasting seven days; Samuel specifies cultivated ground at Jabesh, whereas Chronicles specifies an oak at Jabis, retaining the different descriptions without independently resolving the place forms."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 31:13",
+        "target": "1 Chronicles 10:12",
+        "relationship": "Bones burial and seven-day fasting with distinct supplied burial descriptions",
+        "rationale": "Both accounts describe burying the bones and fasting seven days; 1 Samuel specifies cultivated ground at Jabesh, whereas Chronicles specifies an oak at Jabis, retaining the different descriptions without independently resolving the place forms."
+      },
+      "reason": "Narrow the claim to the actual supplied wording, preserve stated scope or tense, or distinguish the book account from Samuel the person.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "refinements_file": "1-samuel-28-31-refinements.json",
+  "refinements_sha256": "40dc0bee526ebe50003dc20f9a5fafe62f3df64c53fa08af72fb7042b4f55d95",
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Samuel 31:2",
+      "target": "1 Chronicles 10:2",
+      "status": "pending proposed individual-name equivalences in the parallel Saul-son rosters; not credited as identity verification",
+      "reason": "The actual death rosters have Aminadab and Melchisa versus Amminadab and Melchisoue. Both complete passages and their contexts were read, but these individual-name equivalences were not independently established. The retained source/target connection concerns the explicitly shared Saul-son death report and the common Jonathan name; it does not assert that the differently supplied individual forms have been resolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Replace supplied names, numbers, place forms or actors with familiar readings or silently identify every similar form.",
+      "reason": "Preserve Soman, Gilboa/Gelboue, Aendor, clear signs, gods, double cloak, four months versus second year, guard the foreigners land, geddour, Bosor, the six-hundred/four-hundred/two-hundred partition, the separate 28a unit and all gift-recipient forms. The 30:27-31 catalogue is linked only to its actual gift preface; no external town equivalence is claimed."
+    },
+    {
+      "proposed_claim": "Certify the apparition mechanism, invent the basis of the womans recognition, resolve every royal or possessive pronoun, or add an unreported oath from David to the Egyptian.",
+      "reason": "Keep the supplied narrative and reported perceptions, plural gods and singular man, clear actor statements and question/answer scope. The cloak comparison does not independently settle the earlier possessive or certify one identical physical object."
+    },
+    {
+      "proposed_claim": "Harmonize the narrated sword fall with the visitors death claim, or collapse all parallel bodily, household, burial and cult-display descriptions into one identical account.",
+      "reason": "Retain the visitor-report perspective, Samuel/Chronicles name and injury forms, dead/wounded wording, armour-bearer versus house scope, body versus head and Astarte versus Dagon, Jonathan versus sons, burning, cultivated ground versus oak, and Jabesh versus Jabis. No claim that every descendant died or that every supplied location form is independently equated is made."
+    },
+    {
+      "proposed_claim": "Treat all spoils laws as an identical allocation formula or classify captive families as dead.",
+      "reason": "The Numbers congregation/warrior division and Davids warrior/equipment-keeper rule retain distinct scopes. The Egyptian receives the stated bread, water and fruit cake; the company has no strength to weep, not an unreported universal incapacity. The families remain captive and are recovered, and no medical or financial calculation is invented."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "1 Samuel 28",
+      "note": "Retain Samuel death and Armathaim burial, Saul removal and the womans destruction wording, Soman/Gilboa, dreams/clear signs/prophets, disguise and nighttime journey, the oath, gods/man/double-cloak and stated perceivers, the departure and kingdom-tearing tenses, Amalek rebuke and tomorrow forecast, fall/no bread, the grazing heifer and actual meal. Neither the apparition nor an unseen recognition mechanism is independently explained."
+    },
+    {
+      "reference": "1 Samuel 29",
+      "note": "Retain Aphek/Aendor/Jezreel, the rear position with Achish, the quoted second-year statement alongside the source four-month notice, separate Achish and general assessments, the exact thousands refrain, unresolved royal/master referents, early departure and the actual guard-the-foreigners-land wording. No battle participation by David against Israel is asserted."
+    },
+    {
+      "reference": "1 Samuel 30",
+      "note": "Retain the third-day return, no killed captives and comprehensive recovery, both named wives, threatened stoning and strengthening, Abiathar/ephoud/geddour, Bosor and exact troop partition, the Egyptians three-day/three-night deprivation and third-day illness account, Cholthi/Cheloub, the conditional guide offer without an added oath, battle duration and four hundred camel escapees, full rescue, spoil attributions, equal-share rule and every separate original gift-list unit including 28a."
+    },
+    {
+      "reference": "1 Samuel 31",
+      "note": "Retain Aminadab/Melchisa, wound beneath ribs, frightened armour-bearer and sword deaths, three sons without an all-descendants claim, beyond-valley/Jordan scope, following-day stripping and actual equipment/news wording, Astarte temple and Beth-shan body, Jabesh/Gilead and the night retrieval of Saul and Jonathan, burning, cultivated-ground burial and seven-day fast. Parallel names, injuries, remains and burial descriptions and the later Amalekite claim remain distinct."
+    }
+  ],
+  "checks": {
+    "all_81_actual_source_units_in_inventory_order": true,
+    "preserved_continuation_units": [
+      "1 Samuel 30:28a"
+    ],
+    "same_chapter_pairs": 50,
+    "same_chapter_labels_exact": true,
+    "normalized_duplicate_directed_pairs": 0,
+    "self_inclusive_targets": 0,
+    "fresh_raw_books_verified": 6,
+    "technical_completion_credit": 0
+  },
+  "independent_human_or_language_verification": false,
+  "peer_revisions": {
+    "original_input_file": "1-samuel-28-31-before-peer.tsv",
+    "original_input_sha256": "75e1cc71b11807f381a6829bc1656bea52e72c51e98326eaf941501dc209225a",
+    "original_author_receipt": "1-samuel-28-31-review-before-peer.json",
+    "original_author_receipt_sha256": "20558128b6dc276127f473ef40419397ea4ce55fcd450e33f0ad86a2027e21b4",
+    "changes": [
+      {
+        "old_row": {
+          "source_reference": "1 Samuel 31:4",
+          "target": "1 Chronicles 10:4",
+          "relationship": "Parallel sword request, frightened equipment carrier and Saul's sword fall",
+          "rationale": "Both record Saul asking his equipment carrier to pierce him, the carrier refusing from fear and Saul falling on his own sword; the additional piercing threat in 1 Samuel and the shared fear of mockery remain distinct supplied details."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 31:4",
+          "target": "1 Chronicles 10:4",
+          "relationship": "Parallel sword request, frightened equipment carrier and Saul's sword fall",
+          "rationale": "Both record Saul asking his equipment carrier to pierce him, the carrier refusing from fear and Saul falling on the sword; the additional piercing threat in 1 Samuel and the shared fear of mockery remain distinct supplied details."
+        },
+        "reason": "Preserve the sword action without independently asserting ownership of the sword or resolving the later possessive.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "old_row": {
+          "source_reference": "1 Samuel 31:4",
+          "target": "2 Samuel 1:6-10",
+          "relationship": "Narrated sword fall compared with the Amalekite visitor's different account",
+          "rationale": "The 1 Samuel account narrates the armour-bearer's refusal and Saul falling on his sword; the later visitor says Saul requested death and claims he himself killed him, preserving that reporting perspective without independently settling how the accounts relate."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 31:4",
+          "target": "2 Samuel 1:6-10",
+          "relationship": "Narrated sword fall compared with the Amalekite visitor's different account",
+          "rationale": "The 1 Samuel account narrates the armour-bearer's refusal and Saul falling on the sword; the later visitor says Saul requested death and claims he himself killed him, preserving that reporting perspective without independently settling how the accounts relate."
+        },
+        "reason": "Preserve the sword action without independently asserting ownership of the sword or resolving the later possessive.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "old_row": {
+          "source_reference": "1 Samuel 31:5",
+          "target": "1 Chronicles 10:5",
+          "relationship": "Parallel equipment carrier's death after seeing Saul dead",
+          "rationale": "Both accounts explicitly say the equipment carrier sees that Saul is dead and then falls on his own sword and dies, preserving the stated observation and action rather than inferring it from the earlier request alone."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 31:5",
+          "target": "1 Chronicles 10:5",
+          "relationship": "Parallel equipment carrier's death after seeing Saul dead",
+          "rationale": "Both accounts explicitly say the equipment carrier sees that Saul is dead and then falls on a sword and dies, preserving the stated observation and action rather than inferring it from the earlier request alone."
+        },
+        "reason": "Preserve the sword action without independently asserting ownership of the sword or resolving the later possessive.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "refinements_file": "1-samuel-28-31-peer-refinements.json",
+    "refinements_sha256": "d618904aefe639f036a0b4dccd50c2be8a4421bd9622dd2afa25bb523a28069d",
+    "new_pairs_credited": 0
+  }
+}

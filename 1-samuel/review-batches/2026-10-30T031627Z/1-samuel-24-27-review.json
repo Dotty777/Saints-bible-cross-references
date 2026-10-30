@@ -1,0 +1,678 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_4_6 (AI-assisted supplied-English curation for 1 Samuel24–27)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T03:53:04.130764+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "source_verses": 104,
+  "completed_source_verses": 104,
+  "completed_pairs": 104,
+  "distinct_target_verse_units": 111,
+  "chapter_pair_counts": {
+    "24": 23,
+    "25": 44,
+    "26": 25,
+    "27": 12
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read all104 complete actual source units, every retained target and necessary context. Separately displayed and reread all104 complete source/target/category/rationale triples in four untruncated26-row slices, then all15 final changed complete triples after preserving the initial draft and exact deltas. Necessary wider context included1Samuel17:48–51 in its actual order with50 absent,20:12–17,21:11–16,23:18–28,28:3,29:3–9,30:1–10 and31:1–6;2Samuel2:18,3:13–16,5:1–3 and7:8–17;Romans12:17–21;Luke6:27–36;Deuteronomy13:7–11. Curated particular repeated words, requests and responses, direct evidence, paired spared-life episodes, contrasting speakers and characters, stated genealogical relationships, royal-house expectations and later narrative reception. Same-chapter literary connections identify their concrete shared elements. Preserve David’s May-the-Lord-forbid appeal as his speech, the supplied animal and sling images, stated agents, household report by one speaker, differing group numbers and four-month duration. The clear Michal-wife connection does not resolve Palti/Paltiel or their fathers; no chronology harmonization is added. This is an initial supplied-English curated pass, with no exhaustive-discovery or independent specialist/original-language claim.",
+  "pin_method": "Freshly fetched all five source/retained-target books at the pinned commit; rehashed each complete raw Git blob against existing registries, saved the raw bytes, and compared the entire parsed cache with the pinned source. The same source-book pins cover both uncredited proposals. Separate fresh GitHub connector blob identity, raw rehash and complete cache equality also established the all-book2Samuel inventory before any2Samuel source review; inventory contributes zero review credit.",
+  "source_books": [
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Luke",
+      "records": "luke/verses.json",
+      "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd"
+    },
+    {
+      "book": "Romans",
+      "records": "romans/verses.json",
+      "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55"
+    }
+  ],
+  "pin_receipt": "1-samuel-24-27-pins.json",
+  "pin_receipt_sha256": "78485e34a3c415309b22fa8b4c17ce03dad0e8518fe779ec3c85893218e3eab4",
+  "input_file": "1-samuel-24-27.tsv",
+  "input_sha256": "3971ffd50396a858170ed7a0e1e8741010472672dac9f2a7874a66caf47b251a",
+  "final_input_sha256": "3971ffd50396a858170ed7a0e1e8741010472672dac9f2a7874a66caf47b251a",
+  "source_inventory": "before-1-samuel.json plus the existing773-unit pinned inventory; all104 actual chapter24–27 units in source order",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-samuel-24-27-author-draft.tsv",
+  "author_draft_sha256": "2e9c0e90e7ab64f4a3644786072a8a6919a0971858fa51837d28fb39cb85a89b",
+  "author_refinements_before_freeze": [
+    {
+      "source_reference": "1 Samuel 24:3",
+      "old_row": {
+        "source_reference": "1 Samuel 24:3",
+        "target": "1 Samuel 26:2",
+        "relationship": "Repeated royal search with three thousand chosen men",
+        "rationale": "Both episodes describe Saul taking three thousand chosen Israelites to seek David. The first search is directed toward Sadaiem and the second toward Ziph, preserving the separate locations while repeating the force and purpose."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 24:3",
+        "target": "1 Samuel 26:2",
+        "relationship": "Repeated royal search with three thousand chosen men",
+        "rationale": "Both episodes describe Saul taking three thousand chosen Israelites to seek David. The first search is in front of Sadaiem and the second is in Ziph, preserving the separate locations while repeating the force and purpose."
+      },
+      "reason": "Keep the actual first location rather than approximate its direction.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 24:6",
+      "old_row": {
+        "source_reference": "1 Samuel 24:6",
+        "target": "1 Samuel 24:7",
+        "relationship": "Same-chapter conscience and the explanation for restraint",
+        "rationale": "David's heart strikes him after cutting the cloak, and he then declares that the Lord forbids his raising a hand against the Lord's anointed. The conscience report and ensuing speech jointly frame his restraint toward Saul."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 24:6",
+        "target": "1 Samuel 24:7",
+        "relationship": "Same-chapter conscience and the explanation for restraint",
+        "rationale": "David's heart strikes him after cutting the cloak, and he then expresses his refusal with the appeal May the Lord forbid, identifying Saul as the Lord's anointed. The conscience report and his ensuing speech jointly frame his restraint toward Saul."
+      },
+      "reason": "Preserve David’s appeal and refusal rather than treating it as a separately reported divine command; author and peer independently flagged this precision.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 24:9",
+      "old_row": {
+        "source_reference": "1 Samuel 24:9",
+        "target": "1 Samuel 26:17",
+        "relationship": "Respectful royal address after sparing Saul",
+        "rationale": "David bows and addresses Saul as lord king after leaving the cave. In the later encounter he answers Saul as Your servant, lord king, retaining deference to the king despite having reached him unharmed."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 24:9",
+        "target": "1 Samuel 26:17",
+        "relationship": "Respectful royal address after sparing Saul",
+        "rationale": "David bows and addresses Saul as lord king after leaving the cave. In the later encounter he answers Saul as Your servant, lord king; both show respectful address after David has left Saul alive."
+      },
+      "reason": "Remove the ambiguous pronoun in reached him unharmed.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 24:20",
+      "old_row": {
+        "source_reference": "1 Samuel 24:20",
+        "target": "Luke 6:35",
+        "relationship": "Kindness to an enemy and promised reward",
+        "rationale": "Saul says that releasing an enemy on a good road merits the Lord's repayment with good things. Jesus likewise commands kindness to enemies and promises a great reward, connecting treatment of hostile people with divine recompense."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 24:20",
+        "target": "Luke 6:35",
+        "relationship": "Kindness to an enemy and promised reward",
+        "rationale": "Saul says that releasing an enemy on a good road will bring the Lord's repayment with good things. Jesus likewise commands kindness to enemies and promises a great reward, connecting treatment of hostile people with divine recompense."
+      },
+      "reason": "Use the stated promised repayment without adding a merit formulation.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 24:23",
+      "old_row": {
+        "source_reference": "1 Samuel 24:23",
+        "target": "1 Samuel 26:25",
+        "relationship": "Matched separate departures ending the two encounters",
+        "rationale": "After David swears, Saul goes to his place and David's company returns to narrow Messara. The later encounter likewise ends with David going on his way and Saul returning to his place, closing the two spared-life accounts with separate departures."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 24:23",
+        "target": "1 Samuel 26:25",
+        "relationship": "Matched separate departures ending the two encounters",
+        "rationale": "After David swears, Saul goes to his place and David's company goes up to narrow Messara. The later encounter likewise ends with David going on his way and Saul returning to his place, closing the two spared-life accounts with separate departures."
+      },
+      "reason": "Keep goes up from the actual verse rather than adding a return claim.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 25:7",
+      "old_row": {
+        "source_reference": "1 Samuel 25:7",
+        "target": "1 Samuel 25:15-16",
+        "relationship": "Same-chapter the shepherds confirm David's treatment",
+        "rationale": "David says his men neither hindered Nabal's shepherds nor imposed orders on them. A household young man confirms that treatment and adds that they were a protective wall by night and day while tending the flock."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 25:7",
+        "target": "1 Samuel 25:15-16",
+        "relationship": "Same-chapter the household report confirms David's treatment",
+        "rationale": "David says his men neither hindered Nabal's shepherds nor imposed orders on them. A household young man confirms that treatment and adds that they were a protective wall by night and day while tending the flock."
+      },
+      "reason": "One household young man reports collective experience; do not imply multiple separately speaking witnesses.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 25:13",
+      "old_row": {
+        "source_reference": "1 Samuel 25:13",
+        "target": "1 Samuel 30:9-10",
+        "relationship": "Repeated division into four hundred and two hundred men",
+        "rationale": "David's movement against Nabal takes about four hundred while two hundred remain with equipment. The later pursuit from the Bosor torrent likewise proceeds with four hundred while two hundred remain there, repeating the division with a different stopping place."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 25:13",
+        "target": "1 Samuel 30:9-10",
+        "relationship": "Repeated division into four hundred and two hundred men",
+        "rationale": "David's movement against Nabal takes about four hundred while two hundred remain with equipment. The later pursuit proceeds with four hundred while two hundred remain at the Bosor torrent, repeating the division with the later stopping place explicitly named."
+      },
+      "reason": "The earlier verse does not name the equipment party’s stopping place.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 25:26",
+      "old_row": {
+        "source_reference": "1 Samuel 25:26",
+        "target": "1 Samuel 24:13",
+        "relationship": "Restraint of personal vengeance attributed to the Lord",
+        "rationale": "Abigail says the Lord has restrained David from innocent blood and saving his own hand. David's earlier appeal leaves vengeance to the Lord while expressly excluding his own hand against Saul, sharing the contrast between divine redress and personal retaliation."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 25:26",
+        "target": "1 Samuel 24:13",
+        "relationship": "Divine redress and restraint of personal vengeance",
+        "rationale": "Abigail says the Lord has restrained David from innocent blood and saving his own hand. David's earlier appeal leaves vengeance to the Lord while expressly excluding his own hand against Saul, sharing the contrast between divine redress and personal retaliation."
+      },
+      "reason": "The cave speech entrusts vengeance to the Lord but does not explicitly attribute David’s restraint to divine action.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 25:29",
+      "old_row": {
+        "source_reference": "1 Samuel 25:29",
+        "target": "1 Samuel 17:49",
+        "relationship": "The sling image and David's earlier weapon",
+        "rationale": "Abigail contrasts David's life kept beside God with enemies' souls cast from a sling. David's earlier battle records a stone slung into the foreigner's forehead; the shared sling image connects her figurative description of enemy defeat with his familiar weapon."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 25:29",
+        "target": "1 Samuel 17:49",
+        "relationship": "The sling image and David's earlier weapon",
+        "rationale": "Abigail contrasts David's life kept beside God with slinging his enemies' soul in the midst of the sling. David's earlier battle records a stone slung into the foreigner's forehead; the shared sling image connects her figurative description with his earlier weapon."
+      },
+      "reason": "Preserve the unusual in-the-midst wording instead of changing it to from the sling.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 26:15",
+      "old_row": {
+        "source_reference": "1 Samuel 26:15",
+        "target": "1 Samuel 26:5",
+        "relationship": "Same-chapter the rebuke draws on Abner's stated role",
+        "rationale": "David challenges Abner over the king's protection. The preceding camp description has named him Saul's chief commander and placed him beside the sleeping king, supplying the role and proximity underlying David's accusation."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 26:15",
+        "target": "1 Samuel 26:5",
+        "relationship": "Same-chapter the rebuke draws on Abner's stated role",
+        "rationale": "David challenges Abner over the king's protection. The preceding camp description has named him Saul's chief commander and placed him at Saul's sleeping place, supplying the role and proximity underlying David's accusation."
+      },
+      "reason": "Do not make beside imply a more precise sleeping position than the actual earlier verse.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 26:19",
+      "old_row": {
+        "source_reference": "1 Samuel 26:19",
+        "target": "Deuteronomy 13:7-9",
+        "relationship": "Other-god service presented as a danger to covenant allegiance",
+        "rationale": "David portrays expulsion from the Lord's inheritance as the demand Go, serve other gods. Deuteronomy warns against the invitation to go and serve other gods; the shared language presents alien worship as a danger across a complaint of expulsion and a law against secret enticement."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 26:19",
+        "target": "Deuteronomy 13:7-9",
+        "relationship": "Serving other gods as a danger to covenant allegiance",
+        "rationale": "David portrays expulsion from the Lord's inheritance as the demand Go, serve other gods. Deuteronomy warns against the invitation to go and serve other gods; the shared language presents alien worship as a danger across a complaint of expulsion and a law against secret enticement."
+      },
+      "reason": "Use a clear category naming the actual shared invitation.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 26:22",
+      "old_row": {
+        "source_reference": "1 Samuel 26:22",
+        "target": "1 Samuel 26:11",
+        "relationship": "Same-chapter the spared king's spear is offered for return",
+        "rationale": "David's earlier instruction takes the spear while excluding an attack on Saul. He now identifies it as the king's spear and directs that a young man cross to retrieve it, continuing the handling of the object taken in place of violence."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 26:22",
+        "target": "1 Samuel 26:11",
+        "relationship": "Same-chapter the spared king's spear is offered for return",
+        "rationale": "David earlier instructs that the spear be taken while excluding an attack on Saul. He now identifies it as the king's spear and directs that a young man cross to retrieve it, continuing the handling of the object taken in place of violence."
+      },
+      "reason": "Keep David as the speaker giving the instruction instead of making an instruction the actor taking a spear.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 26:24",
+      "old_row": {
+        "source_reference": "1 Samuel 26:24",
+        "target": "1 Samuel 24:16",
+        "relationship": "Petitions for the Lord's rescue following restraint",
+        "rationale": "David asks that the Lord value his soul and rescue him from every affliction after he valued Saul's soul. His earlier appeal likewise asks the Lord to see, judge his case and give judgment from Saul's hand."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 26:24",
+        "target": "1 Samuel 24:16",
+        "relationship": "Petition and confidence in the Lord's deliverance following restraint",
+        "rationale": "After valuing Saul's soul, David asks that his own soul be magnified before the Lord, seeks shelter and expresses confidence in rescue from every affliction. His earlier appeal likewise asks the Lord to see, judge his case and give judgment from Saul's hand."
+      },
+      "reason": "Distinguish petition from the following statement that the Lord will rescue him. Preserve the difference between requests and declared confidence.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 27:7",
+      "old_row": {
+        "source_reference": "1 Samuel 27:7",
+        "target": "1 Samuel 27:11",
+        "relationship": "Same-chapter the stay's duration and the practice maintained during it",
+        "rationale": "The narrator counts David's stay in the foreigners' country as four months. The later account explicitly calls his removal of potential reporters an established practice throughout his days there, linking the stated period with the repeated conduct."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 27:7",
+        "target": "1 Samuel 27:11",
+        "relationship": "Same-chapter the stay's duration and the practice maintained during it",
+        "rationale": "The narrator counts David's stay in the foreigners' country as four months. The later account describes leaving no potential reporters alive as an established practice throughout his days there, linking the stated period with the repeated conduct."
+      },
+      "reason": "Describe the stated lack of survivors directly instead of using removal ambiguously.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 27:11",
+      "old_row": {
+        "source_reference": "1 Samuel 27:11",
+        "target": "1 Samuel 27:12",
+        "relationship": "Same-chapter control of reports beside Achish's confidence",
+        "rationale": "David leaves no surviving man or woman to report his practice at Gath. Achish expresses great trust and believes David has become shamed among Israel and will always serve him, juxtaposing controlled testimony with the king's confident reading of his loyalty."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 27:11",
+        "target": "1 Samuel 27:12",
+        "relationship": "Same-chapter control of reports beside Achish's confidence",
+        "rationale": "David leaves no surviving man or woman to report his practice to Gath. Achish expresses great trust and believes David has become shamed among Israel and will always serve him, juxtaposing controlled testimony with the king's confident reading of his loyalty."
+      },
+      "reason": "Keep Gath as the reporting destination rather than possibly locating the raids there.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "refinements_file": "1-samuel-24-27-refinements.json",
+  "refinements_sha256": "6c03c117a2034a0b26f1d268ddf34e79e791d8e6d80a698da4d9a0dd017ac8bf",
+  "author_corrections": {
+    "original_input_file": "1-samuel-24-27-author-draft.tsv",
+    "original_input_sha256": "2e9c0e90e7ab64f4a3644786072a8a6919a0971858fa51837d28fb39cb85a89b",
+    "final_input_file": "1-samuel-24-27.tsv",
+    "final_input_sha256": "3971ffd50396a858170ed7a0e1e8741010472672dac9f2a7874a66caf47b251a",
+    "changes": [
+      {
+        "source_reference": "1 Samuel 24:3",
+        "old_row": {
+          "source_reference": "1 Samuel 24:3",
+          "target": "1 Samuel 26:2",
+          "relationship": "Repeated royal search with three thousand chosen men",
+          "rationale": "Both episodes describe Saul taking three thousand chosen Israelites to seek David. The first search is directed toward Sadaiem and the second toward Ziph, preserving the separate locations while repeating the force and purpose."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 24:3",
+          "target": "1 Samuel 26:2",
+          "relationship": "Repeated royal search with three thousand chosen men",
+          "rationale": "Both episodes describe Saul taking three thousand chosen Israelites to seek David. The first search is in front of Sadaiem and the second is in Ziph, preserving the separate locations while repeating the force and purpose."
+        },
+        "reason": "Keep the actual first location rather than approximate its direction.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 24:6",
+        "old_row": {
+          "source_reference": "1 Samuel 24:6",
+          "target": "1 Samuel 24:7",
+          "relationship": "Same-chapter conscience and the explanation for restraint",
+          "rationale": "David's heart strikes him after cutting the cloak, and he then declares that the Lord forbids his raising a hand against the Lord's anointed. The conscience report and ensuing speech jointly frame his restraint toward Saul."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 24:6",
+          "target": "1 Samuel 24:7",
+          "relationship": "Same-chapter conscience and the explanation for restraint",
+          "rationale": "David's heart strikes him after cutting the cloak, and he then expresses his refusal with the appeal May the Lord forbid, identifying Saul as the Lord's anointed. The conscience report and his ensuing speech jointly frame his restraint toward Saul."
+        },
+        "reason": "Preserve David’s appeal and refusal rather than treating it as a separately reported divine command; author and peer independently flagged this precision.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 24:9",
+        "old_row": {
+          "source_reference": "1 Samuel 24:9",
+          "target": "1 Samuel 26:17",
+          "relationship": "Respectful royal address after sparing Saul",
+          "rationale": "David bows and addresses Saul as lord king after leaving the cave. In the later encounter he answers Saul as Your servant, lord king, retaining deference to the king despite having reached him unharmed."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 24:9",
+          "target": "1 Samuel 26:17",
+          "relationship": "Respectful royal address after sparing Saul",
+          "rationale": "David bows and addresses Saul as lord king after leaving the cave. In the later encounter he answers Saul as Your servant, lord king; both show respectful address after David has left Saul alive."
+        },
+        "reason": "Remove the ambiguous pronoun in reached him unharmed.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 24:20",
+        "old_row": {
+          "source_reference": "1 Samuel 24:20",
+          "target": "Luke 6:35",
+          "relationship": "Kindness to an enemy and promised reward",
+          "rationale": "Saul says that releasing an enemy on a good road merits the Lord's repayment with good things. Jesus likewise commands kindness to enemies and promises a great reward, connecting treatment of hostile people with divine recompense."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 24:20",
+          "target": "Luke 6:35",
+          "relationship": "Kindness to an enemy and promised reward",
+          "rationale": "Saul says that releasing an enemy on a good road will bring the Lord's repayment with good things. Jesus likewise commands kindness to enemies and promises a great reward, connecting treatment of hostile people with divine recompense."
+        },
+        "reason": "Use the stated promised repayment without adding a merit formulation.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 24:23",
+        "old_row": {
+          "source_reference": "1 Samuel 24:23",
+          "target": "1 Samuel 26:25",
+          "relationship": "Matched separate departures ending the two encounters",
+          "rationale": "After David swears, Saul goes to his place and David's company returns to narrow Messara. The later encounter likewise ends with David going on his way and Saul returning to his place, closing the two spared-life accounts with separate departures."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 24:23",
+          "target": "1 Samuel 26:25",
+          "relationship": "Matched separate departures ending the two encounters",
+          "rationale": "After David swears, Saul goes to his place and David's company goes up to narrow Messara. The later encounter likewise ends with David going on his way and Saul returning to his place, closing the two spared-life accounts with separate departures."
+        },
+        "reason": "Keep goes up from the actual verse rather than adding a return claim.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 25:7",
+        "old_row": {
+          "source_reference": "1 Samuel 25:7",
+          "target": "1 Samuel 25:15-16",
+          "relationship": "Same-chapter the shepherds confirm David's treatment",
+          "rationale": "David says his men neither hindered Nabal's shepherds nor imposed orders on them. A household young man confirms that treatment and adds that they were a protective wall by night and day while tending the flock."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 25:7",
+          "target": "1 Samuel 25:15-16",
+          "relationship": "Same-chapter the household report confirms David's treatment",
+          "rationale": "David says his men neither hindered Nabal's shepherds nor imposed orders on them. A household young man confirms that treatment and adds that they were a protective wall by night and day while tending the flock."
+        },
+        "reason": "One household young man reports collective experience; do not imply multiple separately speaking witnesses.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 25:13",
+        "old_row": {
+          "source_reference": "1 Samuel 25:13",
+          "target": "1 Samuel 30:9-10",
+          "relationship": "Repeated division into four hundred and two hundred men",
+          "rationale": "David's movement against Nabal takes about four hundred while two hundred remain with equipment. The later pursuit from the Bosor torrent likewise proceeds with four hundred while two hundred remain there, repeating the division with a different stopping place."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 25:13",
+          "target": "1 Samuel 30:9-10",
+          "relationship": "Repeated division into four hundred and two hundred men",
+          "rationale": "David's movement against Nabal takes about four hundred while two hundred remain with equipment. The later pursuit proceeds with four hundred while two hundred remain at the Bosor torrent, repeating the division with the later stopping place explicitly named."
+        },
+        "reason": "The earlier verse does not name the equipment party’s stopping place.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 25:26",
+        "old_row": {
+          "source_reference": "1 Samuel 25:26",
+          "target": "1 Samuel 24:13",
+          "relationship": "Restraint of personal vengeance attributed to the Lord",
+          "rationale": "Abigail says the Lord has restrained David from innocent blood and saving his own hand. David's earlier appeal leaves vengeance to the Lord while expressly excluding his own hand against Saul, sharing the contrast between divine redress and personal retaliation."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 25:26",
+          "target": "1 Samuel 24:13",
+          "relationship": "Divine redress and restraint of personal vengeance",
+          "rationale": "Abigail says the Lord has restrained David from innocent blood and saving his own hand. David's earlier appeal leaves vengeance to the Lord while expressly excluding his own hand against Saul, sharing the contrast between divine redress and personal retaliation."
+        },
+        "reason": "The cave speech entrusts vengeance to the Lord but does not explicitly attribute David’s restraint to divine action.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 25:29",
+        "old_row": {
+          "source_reference": "1 Samuel 25:29",
+          "target": "1 Samuel 17:49",
+          "relationship": "The sling image and David's earlier weapon",
+          "rationale": "Abigail contrasts David's life kept beside God with enemies' souls cast from a sling. David's earlier battle records a stone slung into the foreigner's forehead; the shared sling image connects her figurative description of enemy defeat with his familiar weapon."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 25:29",
+          "target": "1 Samuel 17:49",
+          "relationship": "The sling image and David's earlier weapon",
+          "rationale": "Abigail contrasts David's life kept beside God with slinging his enemies' soul in the midst of the sling. David's earlier battle records a stone slung into the foreigner's forehead; the shared sling image connects her figurative description with his earlier weapon."
+        },
+        "reason": "Preserve the unusual in-the-midst wording instead of changing it to from the sling.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 26:15",
+        "old_row": {
+          "source_reference": "1 Samuel 26:15",
+          "target": "1 Samuel 26:5",
+          "relationship": "Same-chapter the rebuke draws on Abner's stated role",
+          "rationale": "David challenges Abner over the king's protection. The preceding camp description has named him Saul's chief commander and placed him beside the sleeping king, supplying the role and proximity underlying David's accusation."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 26:15",
+          "target": "1 Samuel 26:5",
+          "relationship": "Same-chapter the rebuke draws on Abner's stated role",
+          "rationale": "David challenges Abner over the king's protection. The preceding camp description has named him Saul's chief commander and placed him at Saul's sleeping place, supplying the role and proximity underlying David's accusation."
+        },
+        "reason": "Do not make beside imply a more precise sleeping position than the actual earlier verse.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 26:19",
+        "old_row": {
+          "source_reference": "1 Samuel 26:19",
+          "target": "Deuteronomy 13:7-9",
+          "relationship": "Other-god service presented as a danger to covenant allegiance",
+          "rationale": "David portrays expulsion from the Lord's inheritance as the demand Go, serve other gods. Deuteronomy warns against the invitation to go and serve other gods; the shared language presents alien worship as a danger across a complaint of expulsion and a law against secret enticement."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 26:19",
+          "target": "Deuteronomy 13:7-9",
+          "relationship": "Serving other gods as a danger to covenant allegiance",
+          "rationale": "David portrays expulsion from the Lord's inheritance as the demand Go, serve other gods. Deuteronomy warns against the invitation to go and serve other gods; the shared language presents alien worship as a danger across a complaint of expulsion and a law against secret enticement."
+        },
+        "reason": "Use a clear category naming the actual shared invitation.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 26:22",
+        "old_row": {
+          "source_reference": "1 Samuel 26:22",
+          "target": "1 Samuel 26:11",
+          "relationship": "Same-chapter the spared king's spear is offered for return",
+          "rationale": "David's earlier instruction takes the spear while excluding an attack on Saul. He now identifies it as the king's spear and directs that a young man cross to retrieve it, continuing the handling of the object taken in place of violence."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 26:22",
+          "target": "1 Samuel 26:11",
+          "relationship": "Same-chapter the spared king's spear is offered for return",
+          "rationale": "David earlier instructs that the spear be taken while excluding an attack on Saul. He now identifies it as the king's spear and directs that a young man cross to retrieve it, continuing the handling of the object taken in place of violence."
+        },
+        "reason": "Keep David as the speaker giving the instruction instead of making an instruction the actor taking a spear.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 26:24",
+        "old_row": {
+          "source_reference": "1 Samuel 26:24",
+          "target": "1 Samuel 24:16",
+          "relationship": "Petitions for the Lord's rescue following restraint",
+          "rationale": "David asks that the Lord value his soul and rescue him from every affliction after he valued Saul's soul. His earlier appeal likewise asks the Lord to see, judge his case and give judgment from Saul's hand."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 26:24",
+          "target": "1 Samuel 24:16",
+          "relationship": "Petition and confidence in the Lord's deliverance following restraint",
+          "rationale": "After valuing Saul's soul, David asks that his own soul be magnified before the Lord, seeks shelter and expresses confidence in rescue from every affliction. His earlier appeal likewise asks the Lord to see, judge his case and give judgment from Saul's hand."
+        },
+        "reason": "Distinguish petition from the following statement that the Lord will rescue him. Preserve the difference between requests and declared confidence.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 27:7",
+        "old_row": {
+          "source_reference": "1 Samuel 27:7",
+          "target": "1 Samuel 27:11",
+          "relationship": "Same-chapter the stay's duration and the practice maintained during it",
+          "rationale": "The narrator counts David's stay in the foreigners' country as four months. The later account explicitly calls his removal of potential reporters an established practice throughout his days there, linking the stated period with the repeated conduct."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 27:7",
+          "target": "1 Samuel 27:11",
+          "relationship": "Same-chapter the stay's duration and the practice maintained during it",
+          "rationale": "The narrator counts David's stay in the foreigners' country as four months. The later account describes leaving no potential reporters alive as an established practice throughout his days there, linking the stated period with the repeated conduct."
+        },
+        "reason": "Describe the stated lack of survivors directly instead of using removal ambiguously.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Samuel 27:11",
+        "old_row": {
+          "source_reference": "1 Samuel 27:11",
+          "target": "1 Samuel 27:12",
+          "relationship": "Same-chapter control of reports beside Achish's confidence",
+          "rationale": "David leaves no surviving man or woman to report his practice at Gath. Achish expresses great trust and believes David has become shamed among Israel and will always serve him, juxtaposing controlled testimony with the king's confident reading of his loyalty."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 27:11",
+          "target": "1 Samuel 27:12",
+          "relationship": "Same-chapter control of reports beside Achish's confidence",
+          "rationale": "David leaves no surviving man or woman to report his practice to Gath. Achish expresses great trust and believes David has become shamed among Israel and will always serve him, juxtaposing controlled testimony with the king's confident reading of his loyalty."
+        },
+        "reason": "Keep Gath as the reporting destination rather than possibly locating the raids there.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "new_pairs_credited": 0
+  },
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Samuel 25:44",
+      "target": "2 Samuel 3:15",
+      "status": "pending proposed husband-name equivalence; not retained as an identity match",
+      "reason": "The first source names Palti son of Laish from Romma, while the later verse names Paltiel son of Selles. Both complete passages and the3:13–16 context were read. Their personal-name and parentage equivalence has not been independently resolved or asserted. The retained25:44-to3:14 pair uses only Michal’s explicit identification as David’s wife and the request for her return.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Samuel 27:7",
+      "target": "1 Samuel 29:3",
+      "status": "pending tenure-scope chronology; no harmonized duration retained",
+      "reason": "The narrator counts four months in the foreigners’ country; Achish later says David has been with us for days, this being the second year. Both actual texts and their complete immediate context were read. No extra year is inserted into the four-month source, and equivalence of these differently worded periods has not been established. The retained27:7-to27:11 pair concerns the stated stay and conduct during its days.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "source_reference": "1 Samuel 25:44",
+      "target": "2 Samuel 3:15",
+      "status": "pending proposed husband-name equivalence; not retained as an identity match",
+      "reason": "The first source names Palti son of Laish from Romma, while the later verse names Paltiel son of Selles. Both complete passages and the3:13–16 context were read. Their personal-name and parentage equivalence has not been independently resolved or asserted. The retained25:44-to3:14 pair uses only Michal’s explicit identification as David’s wife and the request for her return.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Samuel 27:7",
+      "target": "1 Samuel 29:3",
+      "status": "pending tenure-scope chronology; no harmonized duration retained",
+      "reason": "The narrator counts four months in the foreigners’ country; Achish later says David has been with us for days, this being the second year. Both actual texts and their complete immediate context were read. No extra year is inserted into the four-month source, and equivalence of these differently worded periods has not been established. The retained27:7-to27:11 pair concerns the stated stay and conduct during its days.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "1 Samuel24–27",
+      "note": "Initial curated pass over the actual supplied English source, preserving original references, id, text and display_text without revision. Keep Sadaiem, En-gedi and narrow Messara; doglike Nabal; the heart-and-stone description without medical diagnosis; souls slung in the midst of the sling; covered carriage and night-raven; four hundred men at27:2 and four months at27:7; Judea, Jesmega and Kenezi. Narrative speakers’ claims remain their claims. Every local literary parallel is explicitly labelled Same-chapter."
+    },
+    {
+      "reference": "1 Samuel25:44 /2Samuel3:14–15",
+      "note": "The retained pair uses Michal explicitly called David’s wife in both texts. Palti son of Laish and Paltiel son of Selles remain an uncredited proposed equivalence. Preserve Mephibosheth son of Saul in3:14."
+    },
+    {
+      "reference": "1 Samuel27:7 /29:3",
+      "note": "Preserve four months in the narrator’s account and Achish’s separate second-year statement. Their period equivalence remains uncredited and unresolved."
+    },
+    {
+      "reference": "1 Samuel25:28 /2Samuel7:12–16",
+      "note": "The royal-house comparison uses the seed, kingdom and house statements in7:12–16. Preserve7:11’s actual statement that David will build Him a house; do not replace it with another edition’s wording."
+    }
+  ]
+}

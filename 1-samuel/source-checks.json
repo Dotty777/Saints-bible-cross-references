@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "1 Samuel",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -27,11 +27,25 @@
       "new_source_verses": 456,
       "new_pairs": 469,
       "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-30T031627Z",
+      "records": "review-batches/2026-10-30T031627Z.json",
+      "new_source_verses": 317,
+      "new_pairs": 328,
+      "unresolved_retained_cases": 0
     }
   ],
   "canon_manifest": "../canon.json",
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "sources": [
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+    },
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -147,6 +161,13 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "numbers/verses.json",
       "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
@@ -157,6 +178,20 @@
       "path": "psalms/verses.json",
       "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "romans/verses.json",
+      "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/romans/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "ruth/verses.json",
+      "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ruth/verses.json"
     }
   ],
   "unresolved_candidates": [
@@ -240,13 +275,198 @@
           "text_sha256": "76255b8e55c23866a4eebff2d37a7102199c0924e8207848817b1a7d7c613eae"
         }
       ]
+    },
+    {
+      "source_reference": "1 Samuel 21:14",
+      "target": "Psalms 33:1",
+      "status": "pending proposed identity of the differently named royal setting; not retained",
+      "reason": "The court context names Achish, king of Gath, while the psalm heading names Abimelech. The shared altered-face description does not independently reconcile these names or establish the precise episode. The retained local comparison follows Achish's reported response without equating the two names.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-samuel/verses.json",
+        "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Samuel 21:14",
+        "id": "v21-14",
+        "text": "He altered his face before him and pretended that day. He drummed on the city’s doors, was carried about in his hands, and fell against the gate’s doors. His saliva ran down onto his beard.",
+        "text_sha256": "20d872e38f135da1abc9b9f8ee99428c5a3bd561207fb9fa136a1e050f25f270"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "psalms/verses.json",
+        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Psalms 33:1",
+          "id": "v33-1",
+          "text": "Of David, when he altered his face before Abimelech, who dismissed him, and he went away.",
+          "text_sha256": "1f326739d57e1bf66c4536291d775163d0b89b67397c6d2391f4b6d95844df9f"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Samuel 22:9",
+      "target": "Psalms 51:2",
+      "status": "pending individual identification across differing ethnonyms; not retained",
+      "reason": "The narrative identifies Doeg the Syrian reporting David's visit, while the psalm heading calls Doeg the Idumean and reports David at Abimelech's house. The close report parallel is noted, but no independent reconciliation of the differing ethnonyms is made. Internal links retain the narrative's explicit Syrian designation and mule office.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-samuel/verses.json",
+        "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Samuel 22:9",
+        "id": "v22-9",
+        "text": "Doeg the Syrian, who was appointed over Saul’s mules, answered and said, “I saw Jesse’s son arriving at Nomba, to Abimelech son of Ahitub the priest.",
+        "text_sha256": "989969a370eb86ef6f633c8da602a594a0d4acd56764c7e1fce05f41ac35eff9"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "psalms/verses.json",
+        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Psalms 51:2",
+          "id": "v51-2",
+          "text": "when Doeg the Idumean came and reported to Saul, and said to him, “David came to Abimelech’s house.”",
+          "text_sha256": "e6e0611ed5873185bf4ea7669d7b07882e682cd635437b0be1fc9ef7c001cc4b"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Samuel 25:44",
+      "target": "2 Samuel 3:15",
+      "status": "pending proposed husband-name equivalence; not retained as an identity match",
+      "reason": "The first source names Palti son of Laish from Romma, while the later verse names Paltiel son of Selles. Both complete passages and the3:13–16 context were read. Their personal-name and parentage equivalence has not been independently resolved or asserted. The retained25:44-to3:14 pair uses only Michal’s explicit identification as David’s wife and the request for her return.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-samuel/verses.json",
+        "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Samuel 25:44",
+        "id": "v25-44",
+        "text": "Saul gave his daughter Michal, David’s wife, to Palti son of Laish, who was from Romma.",
+        "text_sha256": "7e558b33f11154690ff84a6973cf162f7430eded96797bf7c9dd9356aa77dd8f"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-samuel/verses.json",
+        "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Samuel 3:15",
+          "id": "v3-15",
+          "text": "Mephibosheth sent and took her from her husband, from Paltiel son of Selles.",
+          "text_sha256": "13fc063bab5c51f5017c64184578caff92cbbae39aaccc87e338744f063b8d82"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Samuel 27:7",
+      "target": "1 Samuel 29:3",
+      "status": "pending tenure-scope chronology; no harmonized duration retained",
+      "reason": "The narrator counts four months in the foreigners’ country; Achish later says David has been with us for days, this being the second year. Both actual texts and their complete immediate context were read. No extra year is inserted into the four-month source, and equivalence of these differently worded periods has not been established. The retained27:7-to27:11 pair concerns the stated stay and conduct during its days.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-samuel/verses.json",
+        "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Samuel 27:7",
+        "id": "v27-7",
+        "text": "The number of days David stayed in the foreigners’ country was four months.",
+        "text_sha256": "4044cb19a240784cae5012096b70dc337674912aeea7fcd3cb9be553e545704c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-samuel/verses.json",
+        "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Samuel 29:3",
+          "id": "v29-3",
+          "text": "The foreigners’ satraps said, “Who are these men passing through?” Achish said to the foreigners’ generals, “Is this not David, the servant of Saul king of Israel? He has been with us for days, this being the second year, and I have found nothing against him from the day he came over to me until this day.”",
+          "text_sha256": "ab76d5bf25e874c82c6f58082d75a29bd1b133f8520742f82a4cc4086f200d3c"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Samuel 31:2",
+      "target": "1 Chronicles 10:2",
+      "status": "pending proposed individual-name equivalences in the parallel Saul-son rosters; not credited as identity verification",
+      "reason": "The actual death rosters have Aminadab and Melchisa versus Amminadab and Melchisoue. Both complete passages and their contexts were read, but these individual-name equivalences were not independently established. The retained source/target connection concerns the explicitly shared Saul-son death report and the common Jonathan name; it does not assert that the differently supplied individual forms have been resolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-samuel/verses.json",
+        "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Samuel 31:2",
+        "id": "v31-2",
+        "text": "The foreigners closed in on Saul and his sons. The foreigners struck down Jonathan, Aminadab and Melchisa, Saul’s sons.",
+        "text_sha256": "e23a658317de30151f5b01b18cd1325dcf85ac0779189ccec7c98fc84fc5a3bb"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 10:2",
+          "id": "v10-2",
+          "text": "The foreigners pursued Saul and his sons, and the foreigners struck Jonathan, Amminadab, and Melchisoue, Saul’s sons.",
+          "text_sha256": "9868f526dbb88aed1e84491fb8132cb8154efd33c53b802d71cde519c9c1bdce"
+        }
+      ]
     }
   ],
   "checked_scope": {
-    "source_passage": "1 Samuel 1:1-18:29",
-    "source_verse_units": 456,
-    "retained_pairs": 469,
-    "distinct_target_verse_units": 443
+    "source_passage": "1 Samuel 1:1-31:13",
+    "source_verse_units": 773,
+    "retained_pairs": 797,
+    "distinct_target_verse_units": 703
   },
   "inventory_evidence": {
     "fresh_raw_git_blob_verified": true,
@@ -256,11 +476,15 @@
     "completed_review_credit": 0
   },
   "pending": [
-    "Initial curated review from 1 Samuel 19:1",
     "Remaining Old Testament inventories and review",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Target evidence pending: 1 Samuel 6:21 / 2 Samuel 6:3",
-    "Target evidence pending: 1 Samuel 10:2 / Genesis 35:19-20"
+    "Target evidence pending: 1 Samuel 10:2 / Genesis 35:19-20",
+    "Target evidence pending: 1 Samuel 21:14 / Psalms 33:1",
+    "Target evidence pending: 1 Samuel 22:9 / Psalms 51:2",
+    "Target evidence pending: 1 Samuel 25:44 / 2 Samuel 3:15",
+    "Target evidence pending: 1 Samuel 27:7 / 1 Samuel 29:3",
+    "Target evidence pending: 1 Samuel 31:2 / 1 Chronicles 10:2"
   ]
 }

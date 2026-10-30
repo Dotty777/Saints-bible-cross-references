@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex root (AI-assisted supplied-English curation for 2 Samuel 1–7)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T03:56:29.070722+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "source_verses": 188,
+  "completed_source_verses": 188,
+  "completed_pairs": 196,
+  "distinct_target_verse_units": 194,
+  "chapter_pair_counts": {
+    "1": 27,
+    "2": 33,
+    "3": 41,
+    "4": 12,
+    "5": 26,
+    "6": 23,
+    "7": 34
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read every complete actual source unit, each complete retained target and necessary context after the full696-unit inventory. Reread all196 complete source/target/category/rationale triples in bounded segments, explicitly recovering five rows omitted by an earlier truncated display. Preserved the original draft and seventeen exact explanatory refinements, including one stronger target replacement, and separately reread every final changed complete triple. Retained concrete shared wording, family clauses, reported-versus-narrated contrasts, specified objects, commands/responses and meaningful labelled local literary relationships; do not infer independent corroboration, every individual name equivalence, a solved chronology or modern sites. This is initial supplied-English curation, not exhaustive discovery, original-language/apparatus verification or independent human specialist approval.",
+  "pin_method": "Fresh raw fetches of all eight retained source books at the fixed commit; exact Git blob rehash against saved fixed-commit registries and full parsed cache equality. Raw and normalized cache byte differences are separately recorded.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Hebrews",
+      "records": "hebrews/verses.json",
+      "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    },
+    {
+      "book": "Psalms",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+    }
+  ],
+  "pin_receipt": "2-samuel-1-7-pins.json",
+  "pin_receipt_sha256": "92583660681b2f6023038dfd1abaad9bee3256a99468f54717e32aead0ef84b8",
+  "input_file": "2-samuel-1-7.tsv",
+  "input_sha256": "141228ddd01e45f73a569f73f409c41b5a16a421beba43cd1eb71cf27ca31732",
+  "final_input_sha256": "141228ddd01e45f73a569f73f409c41b5a16a421beba43cd1eb71cf27ca31732",
+  "source_inventory": "2-samuel/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "2-samuel-1-7-author-draft.tsv",
+  "author_draft_sha256": "4b06148229a7e8aa54e34556f7172d86d482dbf0b36479ff184bf4f88ef18120",
+  "author_refinements_before_freeze": [
+    {
+      "source_reference": "2 Samuel 1:15",
+      "old_row": {
+        "source_reference": "2 Samuel 1:15",
+        "target": "2 Samuel 1:16",
+        "relationship": "Same-chapter execution order and David's stated basis for it",
+        "rationale": "David orders the young man struck and he dies; the next speech places blood on his head because of his own killing claim, retaining David's declared judgment rather than independently approving the execution."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 1:15",
+        "target": "2 Samuel 1:16",
+        "relationship": "Same-chapter execution order and David's stated basis for it",
+        "rationale": "David orders one of his young men to strike the reporting young man, who dies; the next speech places blood on the reporter's head because of his own killing claim, retaining David's declared judgment rather than independently approving the execution."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 1:20",
+      "old_row": {
+        "source_reference": "2 Samuel 1:20",
+        "target": "1 Samuel 31:9-10",
+        "relationship": "Poetic refusal of enemy celebration beside the narrated foreign announcement",
+        "rationale": "David's lament asks that the deaths not be announced in Gath and Ashkelon's exits lest foreign daughters rejoice; the battle narrative reports the foreigners announcing news to idols and people and displaying Saul's equipment and body, without making the lament a successful news prohibition."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 1:20",
+        "target": "1 Samuel 31:9-10",
+        "relationship": "Feared enemy rejoicing beside the preceding foreign announcement",
+        "rationale": "David's lament asks that the deaths not be announced in Gath and Ashkelon's exits lest foreign daughters rejoice; the battle narrative reports the foreigners announcing news to idols and people and displaying Saul's equipment and body, without making the lament a successful news prohibition."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 2:11",
+      "old_row": {
+        "source_reference": "2 Samuel 2:11",
+        "target": "2 Samuel 5:5",
+        "relationship": "The Hebron reign duration repeated in the later royal summary",
+        "rationale": "Both notices give David seven years and six months over Judah at Hebron; the later summary also gives thirty-three years at Jerusalem, without this comparison recalculating the adjacent rounded total."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 2:11",
+        "target": "2 Samuel 5:5",
+        "relationship": "The Hebron reign duration repeated in the later royal summary",
+        "rationale": "Both notices give David seven years and six months over Judah at Hebron; the later summary also gives thirty-three years at Jerusalem, without this comparison recalculating the adjacent stated forty-year total."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 2:20",
+      "old_row": {
+        "source_reference": "2 Samuel 2:20",
+        "target": "2 Samuel 2:18",
+        "relationship": "Same-chapter the pursued man's identity exchange names the introduced Asahel",
+        "rationale": "Abner asks whether his pursuer is Asahel and receives It is I; the earlier family notice identifies Asahel and his swift feet, without assigning an unreported age or office."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 2:20",
+        "target": "2 Samuel 2:18",
+        "relationship": "Same-chapter Abner's question identifies the introduced Asahel",
+        "rationale": "Abner asks whether his pursuer is Asahel and receives It is I; the earlier family notice identifies Asahel and his swift feet, without assigning an unreported age or office."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 2:25",
+      "old_row": {
+        "source_reference": "2 Samuel 2:25",
+        "target": "2 Samuel 2:26",
+        "relationship": "Same-chapter gathered Benjamin force and Abner's appeal to halt pursuit",
+        "rationale": "Benjamin gathers as one company behind Abner on the hill; Abner then calls to Joab about the sword and pursuing brothers, identifying the particular military pause behind the appeal."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 2:25",
+        "target": "2 Samuel 2:26",
+        "relationship": "Same-chapter gathered Benjamin force and Abner's appeal to halt pursuit",
+        "rationale": "Benjamin gathers as one company behind Abner on the hill; Abner then calls to Joab about the sword and pursuing brothers, identifying the particular gathered force and setting of his appeal without adding an unreported pause."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 3:19",
+      "old_row": {
+        "source_reference": "2 Samuel 3:19",
+        "target": "2 Samuel 3:20",
+        "relationship": "Same-chapter consultation proceeds to the narrated Hebron visit",
+        "rationale": "Abner speaks to Benjamin and goes to tell David what pleases Israel and Benjamin; the next unit places his twenty-man party with David at Hebron, without assigning agreement to unmentioned individuals."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 3:19",
+        "target": "2 Samuel 3:20",
+        "relationship": "Same-chapter consultation proceeds to the narrated Hebron visit",
+        "rationale": "Abner speaks to Benjamin and goes to tell David what pleases Israel and Benjamin; the next unit places Abner with twenty men at Hebron, without assigning agreement to unmentioned individuals."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 3:20",
+      "old_row": {
+        "source_reference": "2 Samuel 3:20",
+        "target": "2 Samuel 3:21",
+        "relationship": "Same-chapter feast audience followed by Abner's pledge and peaceful departure",
+        "rationale": "David makes a drinking feast for Abner's twenty-man party; Abner then pledges to gather Israel and is sent away in peace, connecting that particular reception and departure without declaring the future gathering completed."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 3:20",
+        "target": "2 Samuel 3:21",
+        "relationship": "Same-chapter feast audience followed by Abner's pledge and peaceful departure",
+        "rationale": "David makes a drinking feast for Abner and the twenty men with him; Abner then pledges to gather Israel and is sent away in peace, connecting that particular reception and departure without declaring the future gathering completed."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 3:23",
+      "old_row": {
+        "source_reference": "2 Samuel 3:23",
+        "target": "2 Samuel 3:22",
+        "relationship": "Same-chapter Joab's report corresponds to the narrated absence",
+        "rationale": "Joab is told Abner came and left in peace; the preceding narrator notice says Abner was absent because David had sent him, distinguishing the reported news from an added accusation of wrongdoing."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 3:23",
+        "target": "2 Samuel 3:22",
+        "relationship": "Same-chapter report to Joab corresponds to the narrated absence",
+        "rationale": "Joab is told Abner came and left in peace; the preceding narrator notice says Abner was absent because David had sent him, distinguishing the reported news from an added accusation of wrongdoing."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 3:35",
+      "old_row": {
+        "source_reference": "2 Samuel 3:35",
+        "target": "2 Samuel 1:12",
+        "relationship": "David's mourning fasts with explicitly different time limits",
+        "rationale": "David refuses bread or anything until sunset at Abner's funeral; the earlier company mourned and fasted until evening for Saul and Jonathan, preserving different deaths, speakers and stated limits rather than inventing an additional vow."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 3:35",
+        "target": "2 Samuel 1:12",
+        "relationship": "David's mourning fasts with their stated time limits",
+        "rationale": "David refuses bread or anything until sunset at Abner's funeral; the earlier company mourned and fasted until evening for Saul and Jonathan, preserving the distinct occasions and actual sunset/evening wording rather than assuming different limits or inventing an additional vow."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 4:1",
+      "old_row": {
+        "source_reference": "2 Samuel 4:1",
+        "target": "2 Samuel 3:6",
+        "relationship": "Mephibosheth's fear after the death of Saul-house powerholder Abner",
+        "rationale": "The account says Mephibosheth son of Saul and Israel lose heart on hearing Abner died; the previous chapter described Abner holding power over Saul's house, without replacing Mephibosheth with Ish-bosheth."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 4:1",
+        "target": "2 Samuel 3:6",
+        "relationship": "Mephibosheth's weakened hands after Abner's death",
+        "rationale": "The account says Mephibosheth's hands weakened and Israel's men lost heart when Abner's death was heard; the preceding chapter described Abner holding power over Saul's house, without replacing Mephibosheth with Ish-bosheth."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 4:2",
+      "old_row": {
+        "source_reference": "2 Samuel 4:2",
+        "target": "2 Samuel 4:5",
+        "relationship": "Same-chapter named Rimmon sons introduced before their house entry",
+        "rationale": "The introduction names Rechab and Baanah as Rimmon's sons and band leaders; their later entry repeats those names and their father's Beerothite designation, distinguishing them from the unrelated Jonathan-son notice."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 4:2",
+        "target": "2 Samuel 4:5",
+        "relationship": "Same-chapter named Rimmon sons introduced before their house entry",
+        "rationale": "The introduction names Rechab and Baanah as Rimmon's sons and band leaders; their later entry repeats those names and their father's Beerothite designation, distinguishing them from the separate Jonathan-son notice."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 5:4",
+      "old_row": {
+        "source_reference": "2 Samuel 5:4",
+        "target": "2 Samuel 5:5",
+        "relationship": "Same-chapter age-and-total summary beside the separately stated reign intervals",
+        "rationale": "The source gives age thirty and a forty-year reign; the next unit gives Hebron's seven years six months and Jerusalem's thirty-three years, retaining the stated figures without resolving their rounding by a new calculation."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 5:4",
+        "target": "2 Samuel 5:5",
+        "relationship": "Same-chapter age-and-total summary beside the separately stated reign intervals",
+        "rationale": "The source gives age thirty and a forty-year reign; the next unit gives Hebron's seven years six months and Jerusalem's thirty-three years, retaining the stated figures without independently resolving their arithmetic relation."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 6:16",
+      "old_row": {
+        "source_reference": "2 Samuel 6:16",
+        "target": "2 Samuel 6:20",
+        "relationship": "Same-chapter Michal's heart response and later exposure question",
+        "rationale": "Michal despises David in her heart after seeing his dancing and playing; her later encounter is called a blessing and contains the public-uncovering question, preserving both actual descriptions rather than rewriting either as an unreported curse."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 6:16",
+        "target": "2 Samuel 6:20",
+        "relationship": "Same-chapter Michal's heart response and later exposure remark",
+        "rationale": "Michal despises David in her heart after seeing his dancing and playing; her later encounter is called a blessing and contains the public-uncovering remark, preserving both actual descriptions rather than rewriting either as an unreported curse."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 6:20",
+      "old_row": {
+        "source_reference": "2 Samuel 6:20",
+        "target": "2 Samuel 6:21-22",
+        "relationship": "Same-chapter Michal's public-uncovering question and David's particular reply",
+        "rationale": "Michal questions David's display before servant women; he answers with the Lord's choice above her father's house and his intention to dance, preserving the preceding blessed-him wording and the actual subjects of honour and worthlessness."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 6:20",
+        "target": "2 Samuel 6:21-22",
+        "relationship": "Same-chapter Michal's public-uncovering remark and David's particular reply",
+        "rationale": "Michal's speech describes David's display before servant women; he answers with the Lord's choice above her father's house and his intention to dance, preserving the preceding blessed-him wording and the actual subjects of honour and worthlessness."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 6:22",
+      "old_row": {
+        "source_reference": "2 Samuel 6:22",
+        "target": "2 Samuel 6:20",
+        "relationship": "Same-chapter servant-women language repeated in David's response",
+        "rationale": "David's reply repeats the servant women named in Michal's exposure question and speaks of being worthless in her eyes; the actual honour wording is kept without importing a different humility formulation."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 6:22",
+        "target": "2 Samuel 6:20",
+        "relationship": "Same-chapter servant-women language repeated in David's response",
+        "rationale": "David's reply repeats the servant women named in Michal's exposure speech and speaks of being worthless in her eyes; the actual honour wording is kept without importing a different humility formulation."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 7:23",
+      "old_row": {
+        "source_reference": "2 Samuel 7:23",
+        "target": "1 Chronicles 17:21",
+        "relationship": "Israel's Egyptian redemption and a great manifest name",
+        "rationale": "Both prayers distinguish Israel through God's redemption from Egypt, making a great name and driving out nations; Samuel's dwellings wording is retained rather than silently replaced with another object."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 7:23",
+        "target": "1 Chronicles 17:21",
+        "relationship": "Israel's Egyptian redemption and the divine-name language",
+        "rationale": "Both prayers distinguish Israel through God's redemption from Egypt, making a name and driving out nations; Samuel's separate greatness, manifestation and dwellings wording is retained rather than silently merged into Chronicles' great-and-manifest-name formulation."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 7:26",
+      "old_row": {
+        "source_reference": "2 Samuel 7:26",
+        "target": "1 Chronicles 17:24",
+        "relationship": "Prayer for the divine name beside the household-establishment petition",
+        "rationale": "Samuel's short request that Thy name be magnified for ever corresponds to Chronicles' Lord-Almighty naming and David-house establishment in the same prayer sequence, without supplying Chronicles' longer clauses to the short source unit."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 7:26",
+        "target": "2 Samuel 7:22",
+        "relationship": "Same-chapter repeated request for divine magnification",
+        "rationale": "The short petition that God's name be magnified for ever returns to the earlier prayer that He may be magnified because there is none like Him; the particular magnification clauses are compared without adding a longer parallel unit to the source."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "2 Samuel 2:10",
+      "target": "2 Samuel 3:7",
+      "status": "pending proposed individual Ish-bosheth/Mephibosheth son-of-Saul equivalence; no identity credit",
+      "reason": "The complete actual source calls the Israelite king Ish-bosheth son of Saul, whereas the later Abner dialogue calls its speaker Mephibosheth son of Saul. Both passages and their contexts were read, but the differing individual-name forms are not independently resolved or silently substituted. The retained2:10 connection concerns the explicit competing Judah constituency, while the separate Jonathan-son Mephibosheth is identified by his own stated father.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "source_reference": "2 Samuel 1:18",
+      "target": "Joshua 10:13",
+      "reason": "Read the complete Joshua10:12–14 context: the supplied10:13 lacks the Book of the Upright citation, so the familiar proposed book-citation connection was not retained.",
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Samuel 1:22",
+      "target": "1 Samuel 18:4",
+      "reason": "This proposed bow-gift locator is absent from the actual inventoried source edition. It was not read as an existing passage and received no retained pair or review credit.",
+      "completed_pair_credit": 0
+    },
+    {
+      "proposed_claim": "Certify every differing personal/place form in parallel genealogies and narratives, harmonize 7:5/11/27 or 7:16 pronouns, reconstruct Saul death accounts, infer Michal childlessness as a diagnosed punishment, or add unsupplied common readings.",
+      "reason": "Comparisons state the exact supported shared clauses or contrasts; the original forms, figures, direction, pronouns, reported-speech status and continuation5:16a remain intact. No completion credit is assigned to those excluded identity or harmonization claims."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "2 Samuel 1–7",
+      "note": "The first188 actual source units include the distinct5:16a continuation. Parallel texts are compared without replacing the source wording: preserve Mephibosheth son of Saul alongside the earlier Ish-bosheth forms, the different genealogy lists, seventy thousand in6:1, seven dancing companies in6:13, distinctive robe in6:14, the bread distribution and Michal blessed-him wording, and the differently directed7:5/11/27 house statements. The initial curated pass does not solve every identity or chronology."
+    }
+  ]
+}
