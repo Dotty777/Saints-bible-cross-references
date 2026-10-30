@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 833 units in 36 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Complete actual source and retained target passages with necessary context were read and every retained explanation reread in the recorded batches. Unsupported source units remain pending with zero completion credit. Earlier completed objects and all unresolved evidence are preserved. Inventory alone earns no review credit. No exhaustive discovery or independent specialist verification is claimed.",
+  "method": "Complete actual source and retained target passages with necessary context were read and every retained explanation separately reread in the recorded batches. Unsupported source units and ambiguous proposals remain pending with zero completion credit. Earlier completed objects and unresolved evidence are preserved. No exhaustive discovery or independent specialist verification is claimed.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -28,6 +28,15 @@
       "new_pairs": 52,
       "source_units_read": 52,
       "deferred_source_units": 0,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-30T113033Z",
+      "records": "review-batches/2026-10-30T113033Z.json",
+      "new_source_verses": 500,
+      "new_pairs": 544,
+      "source_units_read": 509,
+      "deferred_source_units": 9,
       "unresolved_retained_cases": 0
     }
   ],
@@ -51,9 +60,37 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "2-chronicles/verses.json",
       "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -65,9 +102,58 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/leviticus/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "luke/verses.json",
+      "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "numbers/verses.json",
       "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "zechariah/verses.json",
+      "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
     }
   ],
   "unresolved_candidates": [
@@ -172,16 +258,278 @@
       ],
       "reviewer": "Codex root (AI author)",
       "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "2 Chronicles 8:3",
+      "target": "1 Chronicles 18:3",
+      "reason": "The source describes Solomon at Aimath Soba; the candidate describes David striking Adraazar king of Souba, Hemath. Their different campaigns and unestablished place-name equation prevent a retained specific connection. The full target and its 18:3-10 context were read, but the candidate remains uncredited.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 8:3",
+        "id": "v8-3",
+        "text": "Solomon came to Aimath Soba and prevailed over it.",
+        "text_sha256": "6dd16cd23c5ee9f6f8623547c7a110a202c68d175be4fddde48a4b0deee66e63"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 18:3",
+          "id": "v18-3",
+          "text": "David struck Adraazar king of Souba, Hemath, as he went to establish his hand upon the River Euphrates.",
+          "text_sha256": "82ec9a0e5980602e0b97cbe0bfaaba27c61364ec32ecc6f4ee6b56b45d44780f"
+        }
+      ],
+      "reviewer": "Codex AI author (/root/twochr_4_10)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z"
+    },
+    {
+      "source_reference": "2 Chronicles 13:2",
+      "target": "2 Chronicles 11:20",
+      "reason": "The proposed identity of Maacah daughter of Ouriel from Gabaon with Maacah daughter of Absalom is not established by these supplied-English units, despite the shared maternal connection to Abijah. The conflicting father descriptions remain unresolved. The retained regnal-summary comparison with 1 Kings 15:2 does not resolve this identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 13:2",
+        "id": "v13-2",
+        "text": "He reigned three years in Jerusalem. His mother’s name was Maacah daughter of Ouriel from Gabaon. There was war between Abijah and Jeroboam.",
+        "text_sha256": "a4530ba4135df5ac57923de3dbfe8d5288cd6cdae1e9797f45d484042f21624e"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Chronicles 11:20",
+          "id": "v11-20",
+          "text": "After these things he took Maacah daughter of Absalom, and she bore him Abijah, Jetthi, Ziza, and Emmoth.",
+          "text_sha256": "75c900061b32d1c3c006c6d6c1b241872ff5743de4b329024eecd67e8cc1c476"
+        }
+      ],
+      "reviewer": "Codex AI author /root/twochr_11_18",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z"
+    },
+    {
+      "source_reference": "2 Chronicles 15:8",
+      "target": "2 Chronicles 15:1",
+      "reason": "The prophecy is attributed to Adad in the source, whereas the chapter opens with the Spirit upon Azarias son of Oded. This review does not identify Adad with either Azarias or Oded or repair the attribution. The retained reform comparison does not depend on resolving the prophet's identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 15:8",
+        "id": "v15-8",
+        "text": "When he heard these words and the prophecy of Adad the prophet, he grew strong. He expelled the abominations from all Judah’s and Benjamin’s land and from the cities he had seized in Ephraim’s hill country, and renewed the Lord’s altar before the Lord’s sanctuary.",
+        "text_sha256": "75b65720c0ad5f736a79654f452c7eb94130c3e78183fee925bfe741131b5a23"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Chronicles 15:1",
+          "id": "v15-1",
+          "text": "The Spirit of the Lord came upon Azarias son of Oded,",
+          "text_sha256": "2fe78b3c428f8d3f72ef70bbe95a396afbbc26473f1392aa24bc3b87ad728a84"
+        }
+      ],
+      "reviewer": "Codex AI author /root/twochr_11_18",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z"
+    },
+    {
+      "source_reference": "2 Chronicles 15:16",
+      "target": "1 Kings 15:10",
+      "reason": "The source calls Asa's mother Maacah; Kings' regnal notice calls his mother Ana daughter of Absalom. Their personal identity is not resolved here. The retained comparison with the cult-removal narrative in 1 Kings 15:13 preserves its named woman, role, and objects without identifying the women independently.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 15:16",
+        "id": "v15-16",
+        "text": "He also removed Maacah his mother from ministering to Astarte, cut down the idol, and burned it in the Kedron torrent.",
+        "text_sha256": "8c8b06fac56844e8179e23b17bd58e3e555d41fb2e470aa910dd6096f42ac383"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Kings 15:10",
+          "id": "v15-10",
+          "text": "He reigned forty-one years in Jerusalem. His mother’s name was Ana daughter of Absalom.",
+          "text_sha256": "20de07f050d594411d86f079bc136121a7c7d47866d42942c42a7ca9b534d3a4"
+        }
+      ],
+      "reviewer": "Codex AI author /root/twochr_11_18",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z"
+    },
+    {
+      "source_reference": "2 Chronicles 24:21",
+      "target": "Matthew 23:35",
+      "relationship": "Proposed identity connection — unresolved",
+      "reason": "Chronicles 24:20 names Azarias son of Jehoiada, while Matthew names Zechariah son of Berechiah. The sanctuary murder resemblance does not resolve the different name and parentage; an identity or direct citation is not retained.",
+      "source_context_read": "2 Chronicles 24:20-22",
+      "target_context_read": "Matthew 23:34-36",
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 24:21",
+        "id": "v24-21",
+        "text": "They attacked him and stoned him by the command of King Joash in the courtyard of the Lord’s house.",
+        "text_sha256": "274ec7c20c43f0028caf10cc67f94ea7bb3d0c73a0189c9cf98543141f36aed3"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "matthew/verses.json",
+        "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Matthew 23:35",
+          "id": "v23-35",
+          "text": "so that upon you may come all righteous blood poured out upon earth, from the blood of righteous Abel to the blood of Zechariah son of Berechiah, whom you murdered between the sanctuary and the altar.",
+          "text_sha256": "9706e117bd0fcd51a8e2fec166f1f1809e8c1b5dbb4aa8f814efbeae87d63d85"
+        }
+      ],
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z"
+    },
+    {
+      "source_reference": "2 Chronicles 24:21",
+      "target": "Luke 11:51",
+      "relationship": "Proposed identity connection — unresolved",
+      "reason": "Chronicles 24:20 names the victim Azarias son of Jehoiada, while Luke names Zechariah without that parentage. Similar temple killing locations do not establish identity in these supplied records; the proposed identity link remains unretained.",
+      "source_context_read": "2 Chronicles 24:20-22",
+      "target_context_read": "Luke 11:49-51",
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 24:21",
+        "id": "v24-21",
+        "text": "They attacked him and stoned him by the command of King Joash in the courtyard of the Lord’s house.",
+        "text_sha256": "274ec7c20c43f0028caf10cc67f94ea7bb3d0c73a0189c9cf98543141f36aed3"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "luke/verses.json",
+        "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Luke 11:51",
+          "id": "v11-51",
+          "text": "from the blood of Abel to the blood of Zechariah, who perished between the altar and the house. Yes, I tell you, it will be required of this generation.",
+          "text_sha256": "6269269fac2cdcb2ededd6fceec304e8a8f50432215b84785ded28b04cb2067b"
+        }
+      ],
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z"
     }
   ],
   "checked_scope": {
-    "source_passage": "2 Chronicles 1:1-3:17",
+    "source_passage": "2 Chronicles 1:1-26:23",
     "source_passage_is_review_scope": true,
-    "source_units_read": 52,
-    "source_verse_units": 52,
-    "deferred_source_units": 0,
-    "retained_pairs": 52,
-    "distinct_target_verse_units": 71
+    "source_units_read": 561,
+    "source_verse_units": 552,
+    "deferred_source_units": 9,
+    "retained_pairs": 596,
+    "distinct_target_verse_units": 685
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -202,15 +550,286 @@
     "completed_review_credit": 0
   },
   "pending": [
-    "First pending source unit: 2 Chronicles 4:1",
-    "Only the 52 actual source units in chapters 1–3 have been reviewed; the remaining 781 inventoried units are unread.",
-    "Next never-reviewed source: 2 Chronicles 4:1.",
-    "Read but deferred source units: none",
+    "First pending source unit: 2 Chronicles 8:3",
+    "Only the 561 actual source units in chapters 1–26 have been read; the remaining 272 inventoried units are unread.",
+    "Next never-reviewed source: 2 Chronicles 27:1.",
+    "Read but deferred source units: 2 Chronicles 8:3, 2 Chronicles 20:13, 2 Chronicles 20:16, 2 Chronicles 24:3, 2 Chronicles 26:10, 2 Chronicles 26:11, 2 Chronicles 26:12, 2 Chronicles 26:13, 2 Chronicles 26:14",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Target evidence pending: 2 Chronicles 1:5 / Exodus 31:2-5",
-    "Target evidence pending: 2 Chronicles 2:13 / 1 Kings 7:1-2"
+    "Target evidence pending: 2 Chronicles 2:13 / 1 Kings 7:1-2",
+    "Target evidence pending: 2 Chronicles 8:3 / 1 Chronicles 18:3",
+    "Target evidence pending: 2 Chronicles 13:2 / 2 Chronicles 11:20",
+    "Target evidence pending: 2 Chronicles 15:8 / 2 Chronicles 15:1",
+    "Target evidence pending: 2 Chronicles 15:16 / 1 Kings 15:10",
+    "Target evidence pending: 2 Chronicles 24:21 / Matthew 23:35",
+    "Target evidence pending: 2 Chronicles 24:21 / Luke 11:51"
   ],
-  "deferred_source_units": [],
-  "next_unreviewed_reference": "2 Chronicles 4:1"
+  "deferred_source_units": [
+    {
+      "source_reference": "2 Chronicles 8:3",
+      "reason": "The source reports Solomon prevailing over Aimath Soba. No specific supported cross-reference was retained: the examined 1 Chronicles 18:3 concerns David striking Adraazar king of Souba, Hemath, a different ruler and campaign, and the necessary geographic equation or narrative continuation has not been established. General conquest language alone is insufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 8:3",
+        "id": "v8-3",
+        "text": "Solomon came to Aimath Soba and prevailed over it.",
+        "text_sha256": "6dd16cd23c5ee9f6f8623547c7a110a202c68d175be4fddde48a4b0deee66e63"
+      },
+      "reviewer": "Codex AI author (/root/twochr_4_10)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z"
+    },
+    {
+      "source_reference": "2 Chronicles 20:13",
+      "reason": "The complete source specifies children and women standing with Judah; this pass found no sufficiently particular independent connection for that family composition beyond nearby assembly narration. No generic gathering reference was retained.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 20:13",
+        "id": "v20-13",
+        "text": "All Judah stood before the Lord, with their children and the women.",
+        "text_sha256": "7ca02c05c8c94aa17753206c517fbb84ade343a8cdaf215bf89159be3a2fba6d"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 20:16",
+      "reason": "The exact route through the ascent of Asas and wilderness of Jeriel lacks a securely established matching geographical passage in the inspected material; no location identity was inferred.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 20:16",
+        "id": "v20-16",
+        "text": "Tomorrow go down against them. Behold, they are coming up by the ascent of Asas. You will find them at the edge of the river of the wilderness of Jeriel.",
+        "text_sha256": "6cbfb2bf9c3290c9b81bc0c1d8dd642030fbb9748c0992cbb765871253c413d7"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 24:3",
+      "reason": "Jehoiada arranging two wives and Joash begetting children has no established direct parallel in the inspected account; generic royal marriage comparisons would not explain this particular action.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 24:3",
+        "id": "v24-3",
+        "text": "Jehoiada took two wives for him, and he begot sons and daughters.",
+        "text_sha256": "191112d77de13083c5b255d1f5c1a6856d1fafd87836d3df501ec0bc6f0a0845"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 26:10",
+      "reason": "Uzziah's agricultural works, cisterns, herds, and love of farming have no sufficiently particular matching target in this pass; unrelated royal construction was not used as filler.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 26:10",
+        "id": "v26-10",
+        "text": "He built towers in the wilderness and hewed many cisterns, because he had many herds in Sephela and the plain, and vinedressers in the hill country and Carmel, for he loved farming.",
+        "text_sha256": "c5aca963a539d65b7d9b6128bc4ba4d7e60000da4c3924288b2db4455c4f3a80"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 26:11",
+      "reason": "The named military recording officials and deputy have no verified matching identities or direct parallel in the inspected passages; generic military organization is insufficient.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 26:11",
+        "id": "v26-11",
+        "text": "Uzziah had forces that waged war and went out to battle array by number. Their number was recorded by Iiel the scribe and Maasaias the judge under Ananias, the king’s deputy.",
+        "text_sha256": "4d0afa9a26c25d13ea5833390dc13057db7f8f0d5a51ac6cca9182a3fe663511"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 26:12",
+      "reason": "The particular total of 2,600 ancestral military leaders has no verified counterpart in this pass; no numerical or personal identity was forced.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 26:12",
+        "id": "v26-12",
+        "text": "The total number of ancestral rulers mighty for war was two thousand six hundred.",
+        "text_sha256": "68134ea66672fce48b087963aeee418c06d52d175da83b9b2e31ab7a8c08bdde"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 26:13",
+      "reason": "The general connection of military strength with later pride was removed on rereading because it did not sufficiently illuminate the distinct force of 307,500 or its organization; this source remains pending.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 26:13",
+        "id": "v26-13",
+        "text": "With them was a fighting force of three hundred seven thousand five hundred, waging war with mighty strength to help the king against his adversaries.",
+        "text_sha256": "0831d0b180a54301136a91303d9eb5cacbc33ec94c55f7822247e0cd9c9089d3"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "2 Chronicles 26:14",
+      "reason": "The list of shields, spears, helmets, breastplates, bows, and stone slings lacks a sufficiently particular matching connection in this pass; other weapon lists were not treated as substantive parallels.",
+      "source_text_read": true,
+      "source_and_necessary_context_read": true,
+      "completion_credit": 0,
+      "source_verse_credit": 0,
+      "pair_credit": 0,
+      "completed_source_verse_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "2 Chronicles 26:14",
+        "id": "v26-14",
+        "text": "Uzziah prepared for them, for the whole force, large shields, spears, helmets, breastplates, bows, and slings for stones.",
+        "text_sha256": "c42e9dafb7f867f326d62c52e70d73fc477bb3c1a2df6175a6bcf63dca6c5244"
+      },
+      "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T113033Z",
+      "source_unit_read": true,
+      "completed_source_credit": 0
+    }
+  ],
+  "next_unreviewed_reference": "2 Chronicles 27:1"
 }

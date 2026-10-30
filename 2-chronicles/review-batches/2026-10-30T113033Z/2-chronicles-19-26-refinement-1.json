@@ -1,0 +1,109 @@
+{
+  "stage": "author-refinement-1",
+  "changes": [
+    {
+      "original_pair_number": 15,
+      "operation": "replace",
+      "before": {
+        "source_reference": "2 Chronicles 20:1",
+        "target": "2 Chronicles 20:10-11",
+        "relationship": "Same-chapter literary connection",
+        "rationale": "Jehoshaphat's prayer identifies the invading peoples as the neighbors Israel had spared and describes their assault on Israel's inheritance."
+      },
+      "after": {
+        "source_reference": "2 Chronicles 20:1",
+        "target": "2 Chronicles 20:10-11",
+        "relationship": "Same-chapter literary connection",
+        "rationale": "For Moab and Ammon, named in both passages, Jehoshaphat's prayer recalls Israel's earlier restraint and describes their assault on its inheritance; no identity between Minaeans and Mount Seir is asserted."
+      },
+      "reason": "Narrowed the shared peoples to Moab and Ammon instead of potentially equating Minaeans with Mount Seir."
+    },
+    {
+      "original_pair_number": 32,
+      "operation": "replace",
+      "before": {
+        "source_reference": "2 Chronicles 20:17",
+        "target": "Exodus 14:13-14",
+        "relationship": "Narrative connection",
+        "rationale": "The command to stand and see the Lord's salvation without fighting directly recalls Israel's deliverance at the sea."
+      },
+      "after": {
+        "source_reference": "2 Chronicles 20:17",
+        "target": "Exodus 14:13-14",
+        "relationship": "Narrative connection",
+        "rationale": "The promise that Judah will see the Lord's salvation without fighting recalls Moses' instruction to see God's salvation while the Lord fights."
+      },
+      "reason": "Removed the word stand from the description of the Chronicles command because the supplied source says Understand these things."
+    },
+    {
+      "original_pair_number": 113,
+      "operation": "replace",
+      "before": {
+        "source_reference": "2 Chronicles 23:20",
+        "target": "2 Kings 11:19",
+        "relationship": "Parallel account",
+        "rationale": "Both describe the people's leaders escorting the king from the temple complex to the palace throne; the gate descriptions differ."
+      },
+      "after": {
+        "source_reference": "2 Chronicles 23:20",
+        "target": "2 Kings 11:19",
+        "relationship": "Parallel account",
+        "rationale": "Both end the royal escort at the palace throne. Chronicles says the king was brought up into the Lord's house, while Kings says down from it; the gate descriptions also differ."
+      },
+      "reason": "Made the differing directions in the preserved procession accounts explicit."
+    },
+    {
+      "original_pair_number": 130,
+      "operation": "remove",
+      "before": {
+        "source_reference": "2 Chronicles 24:16",
+        "target": "2 Chronicles 22:11-12",
+        "relationship": "Narrative connection",
+        "rationale": "The preservation of Joash in Jehoiada's household and God's house is a concrete instance of the good for which the priest receives royal burial honors."
+      },
+      "after": null,
+      "reason": "Removed attribution of the household rescue to Jehoiada personally; the separately retained covenant and temple restoration passage directly supports his good deeds."
+    },
+    {
+      "original_pair_number": 184,
+      "operation": "remove",
+      "before": {
+        "source_reference": "2 Chronicles 26:13",
+        "target": "2 Chronicles 26:16",
+        "relationship": "Same-chapter literary connection",
+        "rationale": "The mighty force helping Uzziah describes the strength whose growth becomes the setting for his proud entry into the sanctuary."
+      },
+      "after": null,
+      "reason": "Removed the general army-strength-to-pride link because it did not sufficiently illuminate the distinct troop number or military organization in this source unit."
+    },
+    {
+      "original_pair_number": 188,
+      "operation": "replace",
+      "before": {
+        "source_reference": "2 Chronicles 26:17",
+        "target": "2 Chronicles 26:18",
+        "relationship": "Same-chapter literary connection",
+        "rationale": "The eighty priests' entry prepares their explicit opposition to the king's usurpation of Aaronic incense service."
+      },
+      "after": {
+        "source_reference": "2 Chronicles 26:17",
+        "target": "Numbers 18:1-5",
+        "relationship": "Law and practice",
+        "rationale": "The priests who follow Uzziah into the sanctuary act within the Aaronic responsibility to guard the holy things and altar against incursions that bring guilt and wrath."
+      },
+      "reason": "Replaced a mere adjacent action-to-speech link with the specific legal responsibility explaining the priests intervention."
+    }
+  ],
+  "before_tsv": "2-chronicles-19-26-refinement-1-before.tsv",
+  "before_sha256": "1c33278d95c3aea72ffdbbd5eaa5ed2745207c30297177903c2d40f89036c9cf",
+  "after_tsv": "2-chronicles-19-26-refinement-1-after.tsv",
+  "after_sha256": "d3fea4597f3a5b5774c487b671cbff1d2367fc1caea03d45668675b5529bcd50",
+  "pairs_before": 195,
+  "pairs_after": 193,
+  "separate_complete_triple_reread_pending": false,
+  "all_changed_before_triples_reread": true,
+  "all_changed_after_triples_reread": true,
+  "changed_after_triples_reread_count": 4,
+  "reviewer": "Codex AI author agent /root/twochr_19_26 (GPT-6)",
+  "checked_at_utc": "2026-10-30T11:45:58.404421+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "stage": "root-adoption-of-independent-peer-precision-correction",
+  "reviewer": "Codex /root (AI reviser)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "before_file": "2-chronicles-11-18-before-peer.tsv",
+  "before_sha256": "cda9878dbce008a21d49cb958df6accd3d0388bc08e8f004f448f801429b9725",
+  "after_file": "2-chronicles-11-18.tsv",
+  "after_sha256": "a2d9291521e704ed0e5a34aadab6ada55c99e9165335eaf02e82209672f6b50b",
+  "before_author_receipt": "2-chronicles-11-18-review-before-peer.json",
+  "before_author_receipt_sha256": "212995a582e92109b79097794e8d80ea0d3cdd3ed3794d495fce5b580befe6fe",
+  "changes": [
+    {
+      "old_row": {
+        "source_reference": "2 Chronicles 16:13",
+        "target": "1 Kings 15:24",
+        "relationship": "Death-notice parallel",
+        "rationale": "Both report Asa sleeping with his fathers. Chronicles here specifies death in his thirty-ninth year; the target does not date it, and that date is not harmonized with other regnal summaries."
+      },
+      "new_row": {
+        "source_reference": "2 Chronicles 16:13",
+        "target": "1 Kings 15:24",
+        "relationship": "Death-notice parallel",
+        "rationale": "Both report Asa's death using sleep language. Chronicles specifies death in his thirty-ninth year; Kings records burial with his fathers in David's city and Jehoshaphat's succession without dating the death. The date is not harmonized with other regnal summaries."
+      },
+      "reason": "Kings says Asa slept and was buried with his fathers; the original rationale wrongly attaches 'with his fathers' to the target's sleeping statement. Preserve the distinct sleep and burial wording.",
+      "complete_corrected_triple_reread": true
+    }
+  ],
+  "necessary_context_read": [
+    "2 Chronicles 16:12-14",
+    "1 Kings 15:23-24"
+  ],
+  "new_pairs_credited": 0,
+  "scope": "ROOT personally read the complete original and corrected source/target/category/rationale triple and surrounding passages. The other 171 final triples are unchanged from the frozen author reread; ROOT does not claim to have personally reread those 171."
+}
