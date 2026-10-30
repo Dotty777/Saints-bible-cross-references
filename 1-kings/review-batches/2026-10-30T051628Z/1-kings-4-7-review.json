@@ -1,0 +1,701 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_1_3 (AI-assisted supplied-English curation for 1 Kings 4–7)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T05:46:17.937025+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "source_verses": 134,
+  "completed_source_verses": 134,
+  "completed_pairs": 134,
+  "distinct_target_verse_units": 129,
+  "chapter_pair_counts": {
+    "4": 19,
+    "5": 29,
+    "6": 36,
+    "7": 50
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "review_method": "Read all134 complete actual source units:48 units in4–5,36 in6 and50 in7, preserving all original continuation units and reordered source divisions. Read every retained complete target passage and necessary context, including the whole actual2Chronicles2–4, Ezekiel41 and the relevant surrounding1Chronicles22,2Samuel5/7/20,Deuteronomy3/27,Numbers32,Exodus27,Proverbs1,2Kings25 and1Kings3/8/10 passages. Then separately reread all134 complete source/target/category/rationale triples in four untruncated groups1–34,35–68,69–102,103–134. Preserved the original draft and fifteen exact explanation/category refinements, including two additional independent peer narrowings; separately reread all fifteen complete corrected triples. District-list links use the explicit monthly-provision heading as a meaningful literary dependency, without counting or normalizing the named entries into a new roster. Building connections preserve each component, actual measurement, speaking/narrating agency, transliterated label and contrasting account. This is an initial curated supplied-English pass, not exhaustive discovery, new Greek/Hebrew/apparatus work, specialist approval, modern geography, name certification or a reconstructed ancient technical plan.",
+  "pin_method": "Fresh fixed-commit raw fetches of all10 retained source/target books, exact Git blob rehash against pinned registry, and complete parsed-cache equality. Raw/cache normalization distinctions recorded separately. These checks add zero review credit.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "2 Chronicles",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+    },
+    {
+      "book": "2 Kings",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Ezekiel",
+      "records": "ezekiel/verses.json",
+      "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    },
+    {
+      "book": "Proverbs",
+      "records": "proverbs/verses.json",
+      "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b"
+    }
+  ],
+  "pin_receipt": "1-kings-4-7-pins.json",
+  "pin_receipt_sha256": "c8d49cf50970e12a49c416a71ed32f6cfca684203a8c0152441f576050187f0c",
+  "input_file": "1-kings-4-7.tsv",
+  "input_sha256": "01f08f3944d5019ce1b2146933d26fb9380f99d43e6b252b75c6f379466a9938",
+  "final_input_sha256": "01f08f3944d5019ce1b2146933d26fb9380f99d43e6b252b75c6f379466a9938",
+  "source_inventory": "1-kings/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-kings-4-7-author-draft.tsv",
+  "author_draft_sha256": "b32e4d38b6f22b99540abc9ae5c32d477b425ff42c74ffa312fafec6be7b1f0e",
+  "author_corrections": {
+    "original_input_file": "1-kings-4-7-author-draft.tsv",
+    "original_input_sha256": "b32e4d38b6f22b99540abc9ae5c32d477b425ff42c74ffa312fafec6be7b1f0e",
+    "final_input_file": "1-kings-4-7.tsv",
+    "final_input_sha256": "01f08f3944d5019ce1b2146933d26fb9380f99d43e6b252b75c6f379466a9938",
+    "changes": [
+      {
+        "source_reference": "1 Kings 4:8",
+        "target": "1 Kings 4:7",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 4:8",
+          "target": "1 Kings 4:7",
+          "relationship": "Same-chapter Benor in Ephraim’s hill country",
+          "rationale": "The Benor entry assigns Ephraim's hill country; the list heading supplies the appointed officers' purpose of monthly provision for the king and household. No new tribal ancestry or altered personal name is inferred."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 4:8",
+          "target": "1 Kings 4:7",
+          "relationship": "Same-chapter Benor's district entry receives the list's monthly-provision function",
+          "rationale": "The Benor entry assigns Ephraim's hill country; the list heading supplies the appointed officers' purpose of monthly provision for the king and household. No new tribal ancestry or altered personal name is inferred."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 4:9",
+        "target": "1 Kings 4:7",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 4:9",
+          "target": "1 Kings 4:7",
+          "relationship": "Same-chapter The son of Rechab and his named district",
+          "rationale": "The son of Rechab is assigned the actual Machemas-to-Beth-hanan district; the heading explains the roster's monthly provisioning function. Its place forms remain unchanged rather than being replaced with familiar equivalents."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 4:9",
+          "target": "1 Kings 4:7",
+          "relationship": "Same-chapter Rechab-son district entry belongs to the monthly-provision roster",
+          "rationale": "The son of Rechab is assigned the actual Machemas-to-Beth-hanan district; the heading explains the roster's monthly provisioning function. Its place forms remain unchanged rather than being replaced with familiar equivalents."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 4:10",
+        "target": "1 Kings 4:7",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 4:10",
+          "target": "1 Kings 4:7",
+          "relationship": "Same-chapter The son of Esoth and the district assignment",
+          "rationale": "The son of Esoth is listed with Berbethnema, Lousamencha and Rhesphara; the heading defines the listed office through provision for the royal household. The connection is list membership and function, not independently solved geography."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 4:10",
+          "target": "1 Kings 4:7",
+          "relationship": "Same-chapter Esoth-son district entry is governed by the provisioning heading",
+          "rationale": "The son of Esoth is listed with Berbethnema, Lousamencha and Rhesphara; the heading defines the listed office through provision for the royal household. The connection is list membership and function, not independently solved geography."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 4:13",
+        "target": "Deuteronomy 3:4-5",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 4:13",
+          "target": "Deuteronomy 3:4-5",
+          "relationship": "Sixty fortified cities associated with Bashan in different accounts",
+          "rationale": "Kings assigns Geber's son Eregaba's Bashan district with sixty great walled cities and bronze bars; Deuteronomy reports sixty cities of Og's Bashan kingdom with walls, gates and bars. The Eregaba/Argob forms and bronze detail are not independently harmonized."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 4:13",
+          "target": "Deuteronomy 3:4-5",
+          "relationship": "Sixty fortified cities associated with Bashan in different accounts",
+          "rationale": "Kings places Geber's son in charge of Eregaba's Bashan district with sixty great walled cities and bronze bars; Deuteronomy reports sixty cities of Og's Bashan kingdom with walls, gates and bars. The Eregaba/Argob forms and bronze detail are not independently harmonized."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 5:14b",
+        "target": "1 Kings 5:14a",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 5:14b",
+          "target": "1 Kings 5:14a",
+          "relationship": "Same-chapter The Pharaoh-daughter gift expands the preceding marriage notice",
+          "rationale": "Pharaoh gives the captured places as gifts to his daughter, Solomon's wife; the preceding original continuation says Solomon took Pharaoh's daughter as wife. Gezer and Mergab remain the supplied forms without an independently solved site equation."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 5:14b",
+          "target": "1 Kings 5:14a",
+          "relationship": "Same-chapter The Pharaoh-daughter gift expands the preceding marriage notice",
+          "rationale": "Pharaoh gives them as parting gifts to his daughter, Solomon's wife; the preceding original continuation says Solomon took Pharaoh's daughter as wife. The gift pronoun and Gezer/Mergab forms are retained without a newly assigned referent or independently solved site equation."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 6:7",
+        "target": "Deuteronomy 27:5-6",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 6:7",
+          "target": "Deuteronomy 27:5-6",
+          "relationship": "Stone construction has differently scoped iron restrictions",
+          "rationale": "Kings says no hammer, axe or iron implement was heard during the house construction; Deuteronomy forbids laying iron on altar stones. Temple hearing and altar tool-use restrictions remain distinct, and sharply cut unworked is not rewritten."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 6:7",
+          "target": "Deuteronomy 27:5-6",
+          "relationship": "Narrated silent stonework and commanded no-iron altar work",
+          "rationale": "Kings says no hammer, axe or iron implement was heard during the house construction; Deuteronomy commands that no iron be laid on altar stones. The narrated absence of tool sound and the commanded altar practice remain distinct, and sharply cut unworked is not rewritten."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 6:29",
+        "target": "Ezekiel 41:18-20",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 6:29",
+          "target": "Ezekiel 41:18-20",
+          "relationship": "Cherubim and palms are carved on the house walls",
+          "rationale": "Kings engraves cherubim and palms on the inner and outer walls; Ezekiel's temple vision also carves cherubim and palms from floor to ceiling. The vision's two-faced figures are not added to Solomon's account."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 6:29",
+          "target": "Ezekiel 41:18-20",
+          "relationship": "Carved cherubim and interior palms in the house descriptions",
+          "rationale": "Kings engraves cherubim on the walls and describes palms in the inner and outer rooms; Ezekiel's temple vision carves cherubim and palms from floor to ceiling. The vision's carving scope and two-faced figures are not added to Solomon's unit."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:2",
+        "target": "2 Chronicles 2:12-13",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:2",
+          "target": "2 Chronicles 2:12-13",
+          "relationship": "Tyrian father and metalworking skill occur with differing maternal notices",
+          "rationale": "Kings' craftsman has a Tyrian father, bronze skill and a Naphtali notice; Chronicles' Chiram has a Tyrian father, broad craft skills and a mother from Dan's daughters. The Naphtali and Dan clauses are not independently harmonized."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:2",
+          "target": "2 Chronicles 2:12-13",
+          "relationship": "Tyrian parentage and craftwork with different tribal notices",
+          "rationale": "Kings describes the widow's son with Naphtali, a Tyrian father and bronze-working language; Chronicles names Chiram with a Tyrian father, broad craft skills and a mother from Dan's daughters. The different tribal clauses and the original sentence and pronoun scope are not independently harmonized."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:6",
+        "target": "2 Chronicles 4:13",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:6",
+          "target": "2 Chronicles 4:13",
+          "relationship": "Pomegranates are arranged in two rows or groups on the networks",
+          "rationale": "Kings describes two rows of bronze pomegranates in hanging net work; Chronicles gives two pomegranate groups on each network. Its four hundred golden bells are not silently changed into Kings' differently counted pomegranates."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:6",
+          "target": "2 Chronicles 4:13",
+          "relationship": "Pomegranates are arranged in two rows or groups on the networks",
+          "rationale": "Kings describes two rows of bronze pomegranates in hanging net work; Chronicles gives two pomegranate groups on each network. Its four hundred golden bells remain distinct from its pomegranate groups and from Kings' bronze-pomegranate wording."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:8",
+        "target": "1 Kings 7:12",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:8",
+          "target": "1 Kings 7:12",
+          "relationship": "Same-chapter Lily-form decoration occurs on different bronze furnishings",
+          "rationale": "Lily-work is placed atop the pillars, while the Sea's cup-like brim is likened to a lily shoot. The recurring named flower form has different positions; the pillar's four-cubit notice is not assigned to the basin rim."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:8",
+          "target": "1 Kings 7:12",
+          "relationship": "Same-chapter Lily-form decoration occurs on different bronze furnishings",
+          "rationale": "Lily-work is placed atop the pillars, while the Sea's cup-like brim is likened to a lily shoot. The recurring named flower form has different positions; this unit's four-cubit notice is not assigned to the basin rim."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:28",
+        "target": "2 Chronicles 4:13",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:28",
+          "target": "2 Chronicles 4:13",
+          "relationship": "Network pomegranate arrangements preserve a different four-hundred object label",
+          "rationale": "Kings counts four hundred pomegranates on two nets in two rows; Chronicles counts four hundred golden bells and separately gives pomegranate groups. The shared net decoration does not turn golden bells into pomegranates or certify an object-name equation."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:28",
+          "target": "2 Chronicles 4:13",
+          "relationship": "Network pomegranate arrangements preserve a different four-hundred object label",
+          "rationale": "Kings counts four hundred pomegranates for two nets, with two rows for each net; Chronicles counts four hundred golden bells and separately gives pomegranate groups. The shared net decoration does not turn golden bells into pomegranates or certify an object-name equation."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:34",
+        "target": "2 Chronicles 4:19",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:34",
+          "target": "2 Chronicles 4:19",
+          "relationship": "The gold altar and bread-bearing table inventory corresponds",
+          "rationale": "Both list the golden altar and bread-bearing gold table or tables among the Lord-house furnishings. Kings' singular table and Chronicles' plural tables remain their actual wording rather than an imposed common count."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:34",
+          "target": "2 Chronicles 4:19",
+          "relationship": "The gold altar and bread-bearing table inventory corresponds",
+          "rationale": "Both list the golden altar and bread-bearing table or tables among the Lord-house furnishings. Kings explicitly calls its singular table gold; Chronicles here uses plural tables. Their wording is preserved without imposing a common count or supplying an absent material label."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:36",
+        "target": "2 Chronicles 4:21-22",
+        "origin": "author separate full-triple reread precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:36",
+          "target": "2 Chronicles 4:21-22",
+          "relationship": "Gold implements and inner holy-room doors appear in both inventories",
+          "rationale": "Both inventories include gold implements and gold doors for the Holy of Holies and temple house. The different utensil lists are not collapsed into new name equations or made an identical exhaustive inventory."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:36",
+          "target": "2 Chronicles 4:21-22",
+          "relationship": "Gold implements and inner holy-room entry components in both inventories",
+          "rationale": "Both inventories name gold implements and the Holy-of-Holies entrance alongside golden temple-house doors. Kings' inner doorframes and Chronicles' inner door retain their component labels; the different utensil lists are not declared identical or exhaustive."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:37",
+        "target": "2 Chronicles 5:1",
+        "origin": "independent peer precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:37",
+          "target": "2 Chronicles 5:1",
+          "relationship": "Completed Lord-house work and David’s consecrated treasure are recorded",
+          "rationale": "Both conclude the Lord-house work and place David's silver, gold and vessels in its treasury. Kings additionally names Solomon's consecrated things; that added clause is not silently attributed to Chronicles."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:37",
+          "target": "2 Chronicles 5:1",
+          "relationship": "Completed Lord-house work and David’s consecrated treasure are recorded",
+          "rationale": "Both conclude the Lord-house work and place consecrated silver, gold and vessels in its treasury, with David named in both and Solomon additionally in Kings. Kings' combined list is not wholly reassigned to David or silently reduced to Chronicles' wording."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 7:48",
+        "target": "1 Kings 7:46-47",
+        "origin": "independent peer precision",
+        "old_row": {
+          "source_reference": "1 Kings 7:48",
+          "target": "1 Kings 7:46-47",
+          "relationship": "Same-chapter The upper stone-and-cedar notice follows the foundation-course description",
+          "rationale": "The source adds costly measured unhewn stones and cedars above the preceding foundation-stone account. Its upper work is not automatically given the earlier ten- and eight-cubit foundation measurements."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 7:48",
+          "target": "1 Kings 7:46-47",
+          "relationship": "Same-chapter The upper stone-and-cedar notice follows the foundation-course description",
+          "rationale": "The source adds costly stones according to the measure of unhewn stones, and cedars, above the preceding foundation-stone account. That comparison is not changed into a direct unhewn label for these stones, nor are the earlier ten- and eight-cubit measurements assigned to the upper work."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "technical_completion_credit": 0
+  },
+  "author_refinements_before_freeze": [
+    {
+      "source_reference": "1 Kings 4:8",
+      "target": "1 Kings 4:7",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 4:8",
+        "target": "1 Kings 4:7",
+        "relationship": "Same-chapter Benor in Ephraim’s hill country",
+        "rationale": "The Benor entry assigns Ephraim's hill country; the list heading supplies the appointed officers' purpose of monthly provision for the king and household. No new tribal ancestry or altered personal name is inferred."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 4:8",
+        "target": "1 Kings 4:7",
+        "relationship": "Same-chapter Benor's district entry receives the list's monthly-provision function",
+        "rationale": "The Benor entry assigns Ephraim's hill country; the list heading supplies the appointed officers' purpose of monthly provision for the king and household. No new tribal ancestry or altered personal name is inferred."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 4:9",
+      "target": "1 Kings 4:7",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 4:9",
+        "target": "1 Kings 4:7",
+        "relationship": "Same-chapter The son of Rechab and his named district",
+        "rationale": "The son of Rechab is assigned the actual Machemas-to-Beth-hanan district; the heading explains the roster's monthly provisioning function. Its place forms remain unchanged rather than being replaced with familiar equivalents."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 4:9",
+        "target": "1 Kings 4:7",
+        "relationship": "Same-chapter Rechab-son district entry belongs to the monthly-provision roster",
+        "rationale": "The son of Rechab is assigned the actual Machemas-to-Beth-hanan district; the heading explains the roster's monthly provisioning function. Its place forms remain unchanged rather than being replaced with familiar equivalents."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 4:10",
+      "target": "1 Kings 4:7",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 4:10",
+        "target": "1 Kings 4:7",
+        "relationship": "Same-chapter The son of Esoth and the district assignment",
+        "rationale": "The son of Esoth is listed with Berbethnema, Lousamencha and Rhesphara; the heading defines the listed office through provision for the royal household. The connection is list membership and function, not independently solved geography."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 4:10",
+        "target": "1 Kings 4:7",
+        "relationship": "Same-chapter Esoth-son district entry is governed by the provisioning heading",
+        "rationale": "The son of Esoth is listed with Berbethnema, Lousamencha and Rhesphara; the heading defines the listed office through provision for the royal household. The connection is list membership and function, not independently solved geography."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 4:13",
+      "target": "Deuteronomy 3:4-5",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 4:13",
+        "target": "Deuteronomy 3:4-5",
+        "relationship": "Sixty fortified cities associated with Bashan in different accounts",
+        "rationale": "Kings assigns Geber's son Eregaba's Bashan district with sixty great walled cities and bronze bars; Deuteronomy reports sixty cities of Og's Bashan kingdom with walls, gates and bars. The Eregaba/Argob forms and bronze detail are not independently harmonized."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 4:13",
+        "target": "Deuteronomy 3:4-5",
+        "relationship": "Sixty fortified cities associated with Bashan in different accounts",
+        "rationale": "Kings places Geber's son in charge of Eregaba's Bashan district with sixty great walled cities and bronze bars; Deuteronomy reports sixty cities of Og's Bashan kingdom with walls, gates and bars. The Eregaba/Argob forms and bronze detail are not independently harmonized."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 5:14b",
+      "target": "1 Kings 5:14a",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 5:14b",
+        "target": "1 Kings 5:14a",
+        "relationship": "Same-chapter The Pharaoh-daughter gift expands the preceding marriage notice",
+        "rationale": "Pharaoh gives the captured places as gifts to his daughter, Solomon's wife; the preceding original continuation says Solomon took Pharaoh's daughter as wife. Gezer and Mergab remain the supplied forms without an independently solved site equation."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 5:14b",
+        "target": "1 Kings 5:14a",
+        "relationship": "Same-chapter The Pharaoh-daughter gift expands the preceding marriage notice",
+        "rationale": "Pharaoh gives them as parting gifts to his daughter, Solomon's wife; the preceding original continuation says Solomon took Pharaoh's daughter as wife. The gift pronoun and Gezer/Mergab forms are retained without a newly assigned referent or independently solved site equation."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 6:7",
+      "target": "Deuteronomy 27:5-6",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 6:7",
+        "target": "Deuteronomy 27:5-6",
+        "relationship": "Stone construction has differently scoped iron restrictions",
+        "rationale": "Kings says no hammer, axe or iron implement was heard during the house construction; Deuteronomy forbids laying iron on altar stones. Temple hearing and altar tool-use restrictions remain distinct, and sharply cut unworked is not rewritten."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 6:7",
+        "target": "Deuteronomy 27:5-6",
+        "relationship": "Narrated silent stonework and commanded no-iron altar work",
+        "rationale": "Kings says no hammer, axe or iron implement was heard during the house construction; Deuteronomy commands that no iron be laid on altar stones. The narrated absence of tool sound and the commanded altar practice remain distinct, and sharply cut unworked is not rewritten."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 6:29",
+      "target": "Ezekiel 41:18-20",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 6:29",
+        "target": "Ezekiel 41:18-20",
+        "relationship": "Cherubim and palms are carved on the house walls",
+        "rationale": "Kings engraves cherubim and palms on the inner and outer walls; Ezekiel's temple vision also carves cherubim and palms from floor to ceiling. The vision's two-faced figures are not added to Solomon's account."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 6:29",
+        "target": "Ezekiel 41:18-20",
+        "relationship": "Carved cherubim and interior palms in the house descriptions",
+        "rationale": "Kings engraves cherubim on the walls and describes palms in the inner and outer rooms; Ezekiel's temple vision carves cherubim and palms from floor to ceiling. The vision's carving scope and two-faced figures are not added to Solomon's unit."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:2",
+      "target": "2 Chronicles 2:12-13",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:2",
+        "target": "2 Chronicles 2:12-13",
+        "relationship": "Tyrian father and metalworking skill occur with differing maternal notices",
+        "rationale": "Kings' craftsman has a Tyrian father, bronze skill and a Naphtali notice; Chronicles' Chiram has a Tyrian father, broad craft skills and a mother from Dan's daughters. The Naphtali and Dan clauses are not independently harmonized."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:2",
+        "target": "2 Chronicles 2:12-13",
+        "relationship": "Tyrian parentage and craftwork with different tribal notices",
+        "rationale": "Kings describes the widow's son with Naphtali, a Tyrian father and bronze-working language; Chronicles names Chiram with a Tyrian father, broad craft skills and a mother from Dan's daughters. The different tribal clauses and the original sentence and pronoun scope are not independently harmonized."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:6",
+      "target": "2 Chronicles 4:13",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:6",
+        "target": "2 Chronicles 4:13",
+        "relationship": "Pomegranates are arranged in two rows or groups on the networks",
+        "rationale": "Kings describes two rows of bronze pomegranates in hanging net work; Chronicles gives two pomegranate groups on each network. Its four hundred golden bells are not silently changed into Kings' differently counted pomegranates."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:6",
+        "target": "2 Chronicles 4:13",
+        "relationship": "Pomegranates are arranged in two rows or groups on the networks",
+        "rationale": "Kings describes two rows of bronze pomegranates in hanging net work; Chronicles gives two pomegranate groups on each network. Its four hundred golden bells remain distinct from its pomegranate groups and from Kings' bronze-pomegranate wording."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:8",
+      "target": "1 Kings 7:12",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:8",
+        "target": "1 Kings 7:12",
+        "relationship": "Same-chapter Lily-form decoration occurs on different bronze furnishings",
+        "rationale": "Lily-work is placed atop the pillars, while the Sea's cup-like brim is likened to a lily shoot. The recurring named flower form has different positions; the pillar's four-cubit notice is not assigned to the basin rim."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:8",
+        "target": "1 Kings 7:12",
+        "relationship": "Same-chapter Lily-form decoration occurs on different bronze furnishings",
+        "rationale": "Lily-work is placed atop the pillars, while the Sea's cup-like brim is likened to a lily shoot. The recurring named flower form has different positions; this unit's four-cubit notice is not assigned to the basin rim."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:28",
+      "target": "2 Chronicles 4:13",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:28",
+        "target": "2 Chronicles 4:13",
+        "relationship": "Network pomegranate arrangements preserve a different four-hundred object label",
+        "rationale": "Kings counts four hundred pomegranates on two nets in two rows; Chronicles counts four hundred golden bells and separately gives pomegranate groups. The shared net decoration does not turn golden bells into pomegranates or certify an object-name equation."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:28",
+        "target": "2 Chronicles 4:13",
+        "relationship": "Network pomegranate arrangements preserve a different four-hundred object label",
+        "rationale": "Kings counts four hundred pomegranates for two nets, with two rows for each net; Chronicles counts four hundred golden bells and separately gives pomegranate groups. The shared net decoration does not turn golden bells into pomegranates or certify an object-name equation."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:34",
+      "target": "2 Chronicles 4:19",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:34",
+        "target": "2 Chronicles 4:19",
+        "relationship": "The gold altar and bread-bearing table inventory corresponds",
+        "rationale": "Both list the golden altar and bread-bearing gold table or tables among the Lord-house furnishings. Kings' singular table and Chronicles' plural tables remain their actual wording rather than an imposed common count."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:34",
+        "target": "2 Chronicles 4:19",
+        "relationship": "The gold altar and bread-bearing table inventory corresponds",
+        "rationale": "Both list the golden altar and bread-bearing table or tables among the Lord-house furnishings. Kings explicitly calls its singular table gold; Chronicles here uses plural tables. Their wording is preserved without imposing a common count or supplying an absent material label."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:36",
+      "target": "2 Chronicles 4:21-22",
+      "origin": "author separate full-triple reread precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:36",
+        "target": "2 Chronicles 4:21-22",
+        "relationship": "Gold implements and inner holy-room doors appear in both inventories",
+        "rationale": "Both inventories include gold implements and gold doors for the Holy of Holies and temple house. The different utensil lists are not collapsed into new name equations or made an identical exhaustive inventory."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:36",
+        "target": "2 Chronicles 4:21-22",
+        "relationship": "Gold implements and inner holy-room entry components in both inventories",
+        "rationale": "Both inventories name gold implements and the Holy-of-Holies entrance alongside golden temple-house doors. Kings' inner doorframes and Chronicles' inner door retain their component labels; the different utensil lists are not declared identical or exhaustive."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:37",
+      "target": "2 Chronicles 5:1",
+      "origin": "independent peer precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:37",
+        "target": "2 Chronicles 5:1",
+        "relationship": "Completed Lord-house work and David’s consecrated treasure are recorded",
+        "rationale": "Both conclude the Lord-house work and place David's silver, gold and vessels in its treasury. Kings additionally names Solomon's consecrated things; that added clause is not silently attributed to Chronicles."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:37",
+        "target": "2 Chronicles 5:1",
+        "relationship": "Completed Lord-house work and David’s consecrated treasure are recorded",
+        "rationale": "Both conclude the Lord-house work and place consecrated silver, gold and vessels in its treasury, with David named in both and Solomon additionally in Kings. Kings' combined list is not wholly reassigned to David or silently reduced to Chronicles' wording."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 7:48",
+      "target": "1 Kings 7:46-47",
+      "origin": "independent peer precision",
+      "old_row": {
+        "source_reference": "1 Kings 7:48",
+        "target": "1 Kings 7:46-47",
+        "relationship": "Same-chapter The upper stone-and-cedar notice follows the foundation-course description",
+        "rationale": "The source adds costly measured unhewn stones and cedars above the preceding foundation-stone account. Its upper work is not automatically given the earlier ten- and eight-cubit foundation measurements."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 7:48",
+        "target": "1 Kings 7:46-47",
+        "relationship": "Same-chapter The upper stone-and-cedar notice follows the foundation-course description",
+        "rationale": "The source adds costly stones according to the measure of unhewn stones, and cedars, above the preceding foundation-stone account. That comparison is not changed into a direct unhewn label for these stones, nor are the earlier ten- and eight-cubit measurements assigned to the upper work."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "refinements_file": "1-kings-4-7-refinements.json",
+  "refinements_sha256": "b97670a28c04ba432880e698d04dad5404d284221038a0d8d4b979c3c5ff386e",
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Kings 7:2",
+      "target": "2 Chronicles 2:12-13",
+      "status": "pending proposed artisan tribal/parentage harmonization; no identity credit",
+      "reason": "Kings describes the widow's son with he-from-Naphtali wording, a Tyrian father and bronze-working language. Chronicles names Chiram, my father, gives his mother from Dan's daughters and a Tyrian father, and lists broad crafts. The complete passages and context were read. The different tribal clauses, maternal attribution and sentence/pronoun scope are not independently harmonized. The retained parallel credits only the actual Tyrian-parentage and craft-service descriptions, not a solved Naphtali-Dan or other personal-name identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Tyrian-parentage and craft-service comparison only; tribal and parentage harmonization excluded"
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Force familiar personal/place identities, harmonize construction measurements or duration, translate remaining technical labels, equate bells with pomegranates, reassign ambiguous pronouns, add maternal tribal attribution, or infer absent materials and tool commands.",
+      "reason": "Retained explanations use bounded actual clauses, explicit comparisons and meaningful source-list dependencies. Read but unretained speculative equations and technical checks receive no completion credit.",
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "1 Kings 4–7",
+      "note": "Preserve the original list names and monthly duties; five thousand songs; three preparation years;440-year exodus dating;Niso/Baal;40×20×25 house measurements;18-cubit pillars with14-cubit circumference;33-cubit Sea circumference;5×4×6 stands;forty choes;48-pillar notice;actual door woods and component labels;thirteen-year own-house notice;and every original continuation. Chronicles' different heights, circumference, tribal clause, technical labels, object names, counts and material wording remain explicit. No artifact or unsupported identity has been counted as a completed review."
+    }
+  ]
+}

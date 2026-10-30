@@ -4,6 +4,11 @@ import html,json,re
 ROOT=Path(__file__).resolve().parents[1]
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
 def write(p,s):p.write_text(s.rstrip()+'\n',encoding='utf-8')
+def complete_text(unit):
+    paragraphs=unit.get('continuation_paragraphs',[])
+    if not isinstance(paragraphs,list) or not all(isinstance(p,str) for p in paragraphs):
+        raise ValueError('Invalid original continuation paragraphs: '+unit['reference'])
+    return '\n'.join([unit['text']]+paragraphs)
 
 def render_book(record,progress,style):
     folder=ROOT/record['records'];data=load(folder/'verses.json');name=data['book']
@@ -21,12 +26,12 @@ def render_book(record,progress,style):
     if waiting:text.insert(4,f'{len(waiting)} target candidate(s) await source evidence or identity review and are excluded from completed pair totals; see source-checks.json.')
     sections=[]
     for v in verses:
-        text.extend([v['reference'],v['text']]);items=[]
+        text.extend([v['reference'],complete_text(v)]);items=[]
         for edge in v['cross_references']:
             text.append('  '+edge['target']+' — '+edge['relationship']+': '+edge['rationale'])
-            quoted=''.join('<p><b>'+e(t['reference'])+'</b> '+e(t['text'])+'</p>' for t in edge['target_verses'])
+            quoted=''.join('<p class="target-scripture"'+(' style="white-space:pre-line"' if t.get('continuation_paragraphs') else '')+'><b>'+e(t['reference'])+'</b> '+e(complete_text(t))+'</p>' for t in edge['target_verses'])
             items.append('<li><strong>'+e(edge['target'])+'</strong> <span class="kind">'+e(edge['relationship'])+'</span><p>'+e(edge['rationale'])+'</p><details><summary>Read matching passage</summary>'+quoted+'<p><a href="'+e(edge['target_source']['url'])+'">Pinned source record</a></p></details></li>')
-        text.append('');sections.append('<section id="'+e(v['id'])+'"><h2>'+e(v['reference'])+'</h2><p class="scripture">'+e(v['text'])+'</p><ol>'+''.join(items)+'</ol></section>')
+        text.append('');sections.append('<section id="'+e(v['id'])+'"><h2>'+e(v['reference'])+'</h2><p class="scripture"'+(' style="white-space:pre-line"' if v.get('continuation_paragraphs') else '')+'>'+e(complete_text(v))+'</p><ol>'+''.join(items)+'</ol></section>')
     write(folder/data['readable_text'],'\n'.join(text))
     nav=' · '.join('<a href="#'+e(c['verses'][0]['id'])+'">'+e(name)+' '+str(c['chapter'])+'</a>' for c in data['chapters'] if c['status']=='completed')
     summary=f'{scope} · {count} completed verses · {pairs} completed pairs'

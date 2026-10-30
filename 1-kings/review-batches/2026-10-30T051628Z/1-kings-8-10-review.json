@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_4_6 (AI-assisted supplied-English curation for 1 Kings8–10)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T06:02:31.209424+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    8,
+    9,
+    10
+  ],
+  "source_verses": 116,
+  "completed_source_verses": 116,
+  "completed_pairs": 126,
+  "distinct_target_verse_units": 141,
+  "chapter_pair_counts": {
+    "8": 71,
+    "9": 19,
+    "10": 36
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "all_original_continuation_paragraphs_read": true,
+  "necessary_context_read": true,
+  "review_method": "Read all116 complete actual source units in8:1–34,8:35–66,9:1–28 and10:1–29, including all six lettered units and the full original8:53a continuation paragraph. Read complete2Chronicles5–9, the retained external passages and necessary contexts including Deuteronomy10:1–5,4:20,4:35,7:6,17:14–17,31:6; Exodus40:34–38;2Samuel7:12–13;1Kings2:1–4,3:4–5,3:11–12; Acts7:47–50; Psalms105:44–46,118:36; Jeremiah17:9–10; Matthew12:15–16,12:25,12:38–42; Joshua21:43–45;2Chronicles1:16–17. Separately reread all126 complete actual source/target/category/rationale triples in six untruncated groups0–22,22–44,44–66,66–88,88–108,108–126, using complete_text including original continuation paragraphs. Preserved the initial draft and eight exact author precisions, then separately displayed and reread all eight corrected complete triples before final freeze. Connections use particular parallel events, prayer petitions and responses, covenant descriptions, specified numbers, material inventories and explicit later recollection. No exhaustive discovery, modern mapping, price or unit conversion, new original-language or apparatus comparison, or independent specialist verification is claimed. After independent peer feedback, preserved the first frozen TSV and author receipt, applied six exact wording precisions in one coherent delta, and separately displayed and reread all six corrected complete source/target/category/rationale triples before refreezing. No source identity, target, pin, count or unresolved-claim credit changed. Also narrowed the8:43 category to the same distinct knowledge-of-name and fear-of-God objects as its corrected rationale; preserved the interim frozen TSV/receipt and separately reread that final complete triple. The final delta still contains six unique source/target rows.",
+  "pin_method": "Fresh raw fixed-commit fetch of all10 retained source/target books; exact Git blob rehash and whole parsed-cache equality. Source continuation fields participate in whole-object equality. Raw-byte/cache normalization distinctions remain documented separately; technical checks and corrections earn zero new pair credit.",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "2 Chronicles",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Acts",
+      "records": "acts/verses.json",
+      "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Jeremiah",
+      "records": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Matthew",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+    },
+    {
+      "book": "Psalms",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+    }
+  ],
+  "pin_receipt": "1-kings-8-10-pins.json",
+  "pin_receipt_sha256": "ecbba335bc767913e8dd4409790200e7af89f3a595385bd403b6ff1f99b9fa36",
+  "input_file": "1-kings-8-10.tsv",
+  "input_sha256": "285c8bed2e980e1484a18af89bcc1b01a80786a0d41ee68c6a79fe9e7222b9ee",
+  "final_input_sha256": "285c8bed2e980e1484a18af89bcc1b01a80786a0d41ee68c6a79fe9e7222b9ee",
+  "source_inventory": "1-kings/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-kings-8-10-initial.tsv",
+  "author_draft_sha256": "80ea47857aa82ff4e30fdf7da376853255f546e4e3785397b805196e6b59a28c",
+  "author_corrections": [
+    {
+      "source_reference": "1 Kings 8:5",
+      "target": "2 Chronicles 5:6",
+      "old_row": {
+        "source_reference": "1 Kings 8:5",
+        "target": "2 Chronicles 5:6",
+        "relationship": "Uncountable animal sacrifices before the ark",
+        "rationale": "The king and Israel stand before the ark sacrificing sheep and cattle beyond numbering; Chronicles likewise describes Solomon and the gathered congregation with calves and sheep too numerous to reckon."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:5",
+        "target": "2 Chronicles 5:6",
+        "relationship": "Uncountable animal sacrifices before the ark",
+        "rationale": "The king and Israel are before the ark sacrificing sheep and cattle beyond numbering; Chronicles likewise describes Solomon and the gathered congregation with calves and sheep too numerous to reckon."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 8:48",
+      "target": "2 Chronicles 6:38",
+      "old_row": {
+        "source_reference": "1 Kings 8:48",
+        "target": "2 Chronicles 6:38",
+        "relationship": "Wholehearted return and prayer toward land, city, and house",
+        "rationale": "Both require return with all heart and soul in captivity and prayer directed toward the ancestral land, chosen city, and house for the Lord's name. The threefold direction is explicitly shared."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:48",
+        "target": "2 Chronicles 6:38",
+        "relationship": "Wholehearted return and prayer toward land, city, and house",
+        "rationale": "Both describe return with all heart and soul in captivity and prayer directed toward the ancestral land, chosen city, and house for the Lord's name. The threefold direction is explicitly shared."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 8:50",
+      "target": "Psalms 105:44-46",
+      "old_row": {
+        "source_reference": "1 Kings 8:50",
+        "target": "Psalms 105:44-46",
+        "relationship": "Compassion before captors is requested and separately remembered",
+        "rationale": "Solomon asks forgiveness and compassion from those holding the people captive. The psalm recalls God hearing distress, remembering His covenant, and granting compassion before captors, without identifying the prayer with one independently dated captivity."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:50",
+        "target": "Psalms 105:44-46",
+        "relationship": "Compassion before captors is requested and separately remembered",
+        "rationale": "Solomon asks God to show mercy concerning the people's sins and grant compassion before their captors. The psalm recalls God hearing distress, remembering His covenant, and granting compassion before captors, without identifying the prayer with one independently dated captivity."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 8:65",
+      "target": "2 Chronicles 7:8",
+      "old_row": {
+        "source_reference": "1 Kings 8:65",
+        "target": "2 Chronicles 7:8",
+        "relationship": "Seven-day feast and the broadly gathered Israelite assembly",
+        "rationale": "Both describe Solomon's seven-day feast with a great Israelite assembly extending from the northern entrance to Egypt's water boundary. Hamath and Aimath, and River and torrent, remain the supplied geographical descriptions without a new modern map."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:65",
+        "target": "2 Chronicles 7:8",
+        "relationship": "Seven-day feast and the broadly gathered Israelite assembly",
+        "rationale": "Both describe Solomon's seven-day feast with a great Israelite assembly extending from the entrance of Hamath or Aimath to Egypt's water boundary. River and torrent remain the supplied boundary descriptions without a new modern map."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 9:9",
+      "target": "2 Chronicles 7:22",
+      "old_row": {
+        "source_reference": "1 Kings 9:9",
+        "target": "2 Chronicles 7:22",
+        "relationship": "Abandonment of the exodus God explains the warned calamity",
+        "rationale": "Both answers attribute the calamity to abandoning the God who brought the fathers from Egypt and taking up service of other gods. Kings also recalls the house of slavery, preserving its expanded exodus description."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 9:9",
+        "target": "2 Chronicles 7:22",
+        "relationship": "Abandonment of the exodus God explains the warned calamity",
+        "rationale": "Both answers attribute the calamity to abandoning the God of the exodus from Egypt and taking up service of other gods. Kings also recalls the house of slavery, preserving its expanded exodus description."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 9:26",
+      "target": "2 Chronicles 8:17",
+      "old_row": {
+        "source_reference": "1 Kings 9:26",
+        "target": "2 Chronicles 8:17",
+        "relationship": "The southern maritime site is identified with its neighboring place",
+        "rationale": "Kings places ship work at Ezion-geber near Elath on Edom's seacoast; Chronicles has Solomon go to Gasion-gaber and coastal Ailath in Idumean land. The paired place descriptions are compared without modern site reconstruction."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 9:26",
+        "target": "2 Chronicles 8:17",
+        "relationship": "Parallel maritime travel notices name paired coastal sites",
+        "rationale": "Kings places ship work at Ezion-geber near Elath on Edom's seacoast; Chronicles has Solomon go to Gasion-gaber and coastal Ailath in Idumean land. The paired place descriptions are compared without modern site reconstruction."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 10:26",
+      "target": "2 Chronicles 9:25",
+      "old_row": {
+        "source_reference": "1 Kings 10:26",
+        "target": "2 Chronicles 9:25",
+        "relationship": "Matching mare and horseman totals in the same deployment pattern",
+        "rationale": "Both give four thousand mares for chariots and twelve thousand horsemen, placed in the chariot cities and with the king in Jerusalem. The stated totals are retained without replacing mares with a familiar alternative inventory term."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 10:26",
+        "target": "2 Chronicles 9:25",
+        "relationship": "Matching mare and horseman totals in the same deployment pattern",
+        "rationale": "Both give four thousand mares for chariots and twelve thousand horsemen, and mention chariot cities and the king in Jerusalem. Kings explicitly names the mares as those placed; Chronicles says them."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 10:29",
+      "target": "2 Chronicles 1:17",
+      "old_row": {
+        "source_reference": "1 Kings 10:29",
+        "target": "2 Chronicles 1:17",
+        "relationship": "Egyptian chariot and horse trade with different stated prices",
+        "rationale": "Both describe Egyptian chariot and horse exports and mention Hittite or Chettite and Syrian kings. Kings gives one hundred and fifty pieces respectively, while Chronicles gives six hundred and one hundred fifty; no price conversion, route harmonization, or rewritten amount is asserted."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 10:29",
+        "target": "2 Chronicles 1:17",
+        "relationship": "Egyptian chariot and horse trade with different stated prices",
+        "rationale": "Both describe Egyptian chariot and horse exports and mention Hittite or Chettite and Syrian kings. Kings gives one hundred silver pieces per chariot and fifty per horse; Chronicles gives six hundred in silver per chariot and a hundred fifty per horse. Neither prices nor routes are independently harmonized."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "author_refinements_before_freeze": [
+    {
+      "source_reference": "1 Kings 8:5",
+      "target": "2 Chronicles 5:6",
+      "old_row": {
+        "source_reference": "1 Kings 8:5",
+        "target": "2 Chronicles 5:6",
+        "relationship": "Uncountable animal sacrifices before the ark",
+        "rationale": "The king and Israel stand before the ark sacrificing sheep and cattle beyond numbering; Chronicles likewise describes Solomon and the gathered congregation with calves and sheep too numerous to reckon."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:5",
+        "target": "2 Chronicles 5:6",
+        "relationship": "Uncountable animal sacrifices before the ark",
+        "rationale": "The king and Israel are before the ark sacrificing sheep and cattle beyond numbering; Chronicles likewise describes Solomon and the gathered congregation with calves and sheep too numerous to reckon."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 8:48",
+      "target": "2 Chronicles 6:38",
+      "old_row": {
+        "source_reference": "1 Kings 8:48",
+        "target": "2 Chronicles 6:38",
+        "relationship": "Wholehearted return and prayer toward land, city, and house",
+        "rationale": "Both require return with all heart and soul in captivity and prayer directed toward the ancestral land, chosen city, and house for the Lord's name. The threefold direction is explicitly shared."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:48",
+        "target": "2 Chronicles 6:38",
+        "relationship": "Wholehearted return and prayer toward land, city, and house",
+        "rationale": "Both describe return with all heart and soul in captivity and prayer directed toward the ancestral land, chosen city, and house for the Lord's name. The threefold direction is explicitly shared."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 8:50",
+      "target": "Psalms 105:44-46",
+      "old_row": {
+        "source_reference": "1 Kings 8:50",
+        "target": "Psalms 105:44-46",
+        "relationship": "Compassion before captors is requested and separately remembered",
+        "rationale": "Solomon asks forgiveness and compassion from those holding the people captive. The psalm recalls God hearing distress, remembering His covenant, and granting compassion before captors, without identifying the prayer with one independently dated captivity."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:50",
+        "target": "Psalms 105:44-46",
+        "relationship": "Compassion before captors is requested and separately remembered",
+        "rationale": "Solomon asks God to show mercy concerning the people's sins and grant compassion before their captors. The psalm recalls God hearing distress, remembering His covenant, and granting compassion before captors, without identifying the prayer with one independently dated captivity."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 8:65",
+      "target": "2 Chronicles 7:8",
+      "old_row": {
+        "source_reference": "1 Kings 8:65",
+        "target": "2 Chronicles 7:8",
+        "relationship": "Seven-day feast and the broadly gathered Israelite assembly",
+        "rationale": "Both describe Solomon's seven-day feast with a great Israelite assembly extending from the northern entrance to Egypt's water boundary. Hamath and Aimath, and River and torrent, remain the supplied geographical descriptions without a new modern map."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:65",
+        "target": "2 Chronicles 7:8",
+        "relationship": "Seven-day feast and the broadly gathered Israelite assembly",
+        "rationale": "Both describe Solomon's seven-day feast with a great Israelite assembly extending from the entrance of Hamath or Aimath to Egypt's water boundary. River and torrent remain the supplied boundary descriptions without a new modern map."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 9:9",
+      "target": "2 Chronicles 7:22",
+      "old_row": {
+        "source_reference": "1 Kings 9:9",
+        "target": "2 Chronicles 7:22",
+        "relationship": "Abandonment of the exodus God explains the warned calamity",
+        "rationale": "Both answers attribute the calamity to abandoning the God who brought the fathers from Egypt and taking up service of other gods. Kings also recalls the house of slavery, preserving its expanded exodus description."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 9:9",
+        "target": "2 Chronicles 7:22",
+        "relationship": "Abandonment of the exodus God explains the warned calamity",
+        "rationale": "Both answers attribute the calamity to abandoning the God of the exodus from Egypt and taking up service of other gods. Kings also recalls the house of slavery, preserving its expanded exodus description."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 9:26",
+      "target": "2 Chronicles 8:17",
+      "old_row": {
+        "source_reference": "1 Kings 9:26",
+        "target": "2 Chronicles 8:17",
+        "relationship": "The southern maritime site is identified with its neighboring place",
+        "rationale": "Kings places ship work at Ezion-geber near Elath on Edom's seacoast; Chronicles has Solomon go to Gasion-gaber and coastal Ailath in Idumean land. The paired place descriptions are compared without modern site reconstruction."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 9:26",
+        "target": "2 Chronicles 8:17",
+        "relationship": "Parallel maritime travel notices name paired coastal sites",
+        "rationale": "Kings places ship work at Ezion-geber near Elath on Edom's seacoast; Chronicles has Solomon go to Gasion-gaber and coastal Ailath in Idumean land. The paired place descriptions are compared without modern site reconstruction."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 10:26",
+      "target": "2 Chronicles 9:25",
+      "old_row": {
+        "source_reference": "1 Kings 10:26",
+        "target": "2 Chronicles 9:25",
+        "relationship": "Matching mare and horseman totals in the same deployment pattern",
+        "rationale": "Both give four thousand mares for chariots and twelve thousand horsemen, placed in the chariot cities and with the king in Jerusalem. The stated totals are retained without replacing mares with a familiar alternative inventory term."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 10:26",
+        "target": "2 Chronicles 9:25",
+        "relationship": "Matching mare and horseman totals in the same deployment pattern",
+        "rationale": "Both give four thousand mares for chariots and twelve thousand horsemen, and mention chariot cities and the king in Jerusalem. Kings explicitly names the mares as those placed; Chronicles says them."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Kings 10:29",
+      "target": "2 Chronicles 1:17",
+      "old_row": {
+        "source_reference": "1 Kings 10:29",
+        "target": "2 Chronicles 1:17",
+        "relationship": "Egyptian chariot and horse trade with different stated prices",
+        "rationale": "Both describe Egyptian chariot and horse exports and mention Hittite or Chettite and Syrian kings. Kings gives one hundred and fifty pieces respectively, while Chronicles gives six hundred and one hundred fifty; no price conversion, route harmonization, or rewritten amount is asserted."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 10:29",
+        "target": "2 Chronicles 1:17",
+        "relationship": "Egyptian chariot and horse trade with different stated prices",
+        "rationale": "Both describe Egyptian chariot and horse exports and mention Hittite or Chettite and Syrian kings. Kings gives one hundred silver pieces per chariot and fifty per horse; Chronicles gives six hundred in silver per chariot and a hundred fifty per horse. Neither prices nor routes are independently harmonized."
+      },
+      "origin": "author full-triple reread precision",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "refinements_file": "1-kings-8-10-refinements.json",
+  "refinements_sha256": "7845883dcb725ac28beda0194ac188346ea84a2e7f5bb11e28110805cbcf3e79",
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Kings 8:8",
+      "target": "2 Chronicles 5:9",
+      "status": "pending independent identification of consecrated things with carrying poles",
+      "reason": "Both complete passages share projection and restricted visibility, which is the retained supported comparison. Kings names consecrated things and Chronicles carrying poles. No independent object-label equation, source-language correction, or replacement of the supplied wording has been established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Projection and ends visible before the inner sanctuary but not outside; object-label identity unresolved."
+    },
+    {
+      "source_reference": "1 Kings 9:28",
+      "target": "2 Chronicles 8:18",
+      "status": "pending independent reconciliation of the stated gold quantities",
+      "reason": "Both passages describe going to Sophira and bringing gold to Solomon, which is the retained supported connection. Kings gives120talents and Chronicles450; no conversion, missing shipment, scribal reconstruction, or corrected amount is independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Voyage to Sophira and gold brought to Solomon; quantity reconciliation excluded."
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Equate the different consecrated-object labels, reconcile120and450talents, substitute common alternative Scripture wording or numbering, identify unhewn wood as a tree species, convert minas/pieces or export prices, insert animals into the Kings cargo list, or reconstruct a modern location.",
+      "reason": "Retained comparisons preserve the supplied text and expressly bounded shared facts. No unsupported identity, conversion, reconstructed reading or added standalone pair is credited.",
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "1 Kings 8:53a",
+      "note": "The original continuation_paragraphs array is part of the complete source unit and was read in full. It retains the gloom, splendid-house and Book of Song clauses after the .text sun clause. All original fields and numbering are preserved; missing8:12–13 are not invented or inserted."
+    },
+    {
+      "reference": "1 Kings 8–10",
+      "note": "Preserved Athanin, consecrated things, the original prayer forms and conditional cases, Boundary, Sophira/Souphir, unhewn wood, women, calf foreparts, engraved and hewn stones, Thekoue, all original gold/horse/weapon totals and measures, and10:29by-sea wording. Differently supplied names, lists, pronouns, prices, cargoes and building details are compared only within explicitly supported scope."
+    }
+  ],
+  "complete_source_unit_checks": [
+    {
+      "reference": "1 Kings 8:53a",
+      "text_sha256": "090940e287f4c89ab09a020884115798477e338be2f92ddbfbf8cedb6b12c5a9",
+      "continuation_paragraphs": [
+        "He spoke of dwelling in gloom: ‘Build My house, a splendid house for yourself, to dwell in newness.’ Is this not written in the Book of Song?”"
+      ],
+      "complete_text_sha256": "69175cf1782ecc0f51a25cae03add7437c0c99222c8ef8fbd02dcd528ff21043",
+      "completion_credit": 0
+    }
+  ],
+  "peer_revisions": {
+    "original_input_file": "1-kings-8-10-before-peer.tsv",
+    "original_input_sha256": "2ff331a6b79f2c9e347ddee0e1137fb98a48bbe134905838e54dc0e85200e090",
+    "original_author_receipt": "1-kings-8-10-before-peer-review.json",
+    "original_author_receipt_sha256": "341981e209a9b89797838dee5cfeba73d9ee6369ad164ada43f110a4873fb821",
+    "final_input_sha256": "285c8bed2e980e1484a18af89bcc1b01a80786a0d41ee68c6a79fe9e7222b9ee",
+    "changes": [
+      {
+        "source_reference": "1 Kings 8:15",
+        "target": "2 Chronicles 6:4",
+        "old_row": {
+          "source_reference": "1 Kings 8:15",
+          "target": "2 Chronicles 6:4",
+          "relationship": "The Lord's spoken promise and action praised together",
+          "rationale": "Solomon blesses Israel's God for speaking to David with His mouth and fulfilling with His hands. Chronicles repeats the same paired speech-and-fulfillment description before recounting the promise."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 8:15",
+          "target": "2 Chronicles 6:4",
+          "relationship": "The Lord's spoken promise and action praised together",
+          "rationale": "Solomon blesses Israel's God for speaking with His mouth and fulfilling with His hands. Kings says He spoke concerning David, whereas Chronicles says to David; the shared mouth-and-hands praise preserves that difference."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 8:25",
+        "target": "2 Chronicles 6:16",
+        "old_row": {
+          "source_reference": "1 Kings 8:25",
+          "target": "2 Chronicles 6:16",
+          "relationship": "The requested continuing throne promise retains its condition",
+          "rationale": "Both prayers ask the Lord to keep David's promise of a man on Israel's throne, expressly conditioned on the sons guarding their way and walking before Him. The condition is not omitted from the continuing-dynasty request."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 8:25",
+          "target": "2 Chronicles 6:16",
+          "relationship": "The requested continuing throne promise retains its condition",
+          "rationale": "Both prayers ask the Lord to keep David's continuing-throne promise, expressly conditioned on the sons guarding their way. Kings says walking before Me, while Chronicles says walking in My law as David walked before Me; these conditions retain their separately supplied wording."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 8:33",
+        "target": "2 Chronicles 6:24",
+        "old_row": {
+          "source_reference": "1 Kings 8:33",
+          "target": "2 Chronicles 6:24",
+          "relationship": "Defeat followed by return and prayer in the house",
+          "rationale": "Both envision Israel falling before an enemy because of sin, then returning, acknowledging the Lord's name, and praying in the house. The relationship retains the stated sin-and-return conditions."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 8:33",
+          "target": "2 Chronicles 6:24",
+          "relationship": "Defeat followed by return and prayer in the house",
+          "rationale": "Both envisage Israel defeated before enemies and sinning, followed by return, acknowledgement of the Lord's name, and prayer in the house. Kings expressly says because they sinned; Chronicles says if they sin, preserving its conditional formulation."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 8:36",
+        "target": "2 Chronicles 6:27",
+        "old_row": {
+          "source_reference": "1 Kings 8:36",
+          "target": "2 Chronicles 6:27",
+          "relationship": "Rain and the good way accompany the requested mercy",
+          "rationale": "Both ask God to hear, show mercy concerning sin, teach the good way of walking, and give rain on the inherited land. Those linked requests provide a specific counterpart to the preceding drought scenario."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 8:36",
+          "target": "2 Chronicles 6:27",
+          "relationship": "Rain and the good way accompany the requested mercy",
+          "rationale": "Both ask God to hear, show mercy concerning sin, and give rain on the inherited land. Between those requests they state that He will show or make known the good way of walking; that future statement is not recast as another imperative."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 8:43",
+        "target": "2 Chronicles 6:33",
+        "old_row": {
+          "source_reference": "1 Kings 8:43",
+          "target": "2 Chronicles 6:33",
+          "relationship": "Hearing the foreigner serves worldwide knowledge and fear of the name",
+          "rationale": "Both ask heavenly hearing and the foreigner's requested response so all earth's peoples know and fear the Lord's name and recognize His name over the house. The universal purpose is expressly included in both prayers."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 8:43",
+          "target": "2 Chronicles 6:33",
+          "relationship": "Hearing the foreigner serves worldwide knowledge of the name and fear of God",
+          "rationale": "Both ask heavenly hearing and the foreigner's requested response so all earth's peoples know the Lord's name and fear Him, and recognize His name over the house. The distinct objects of knowing and fearing are preserved in the shared universal purpose."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "1 Kings 9:26",
+        "target": "2 Chronicles 8:17",
+        "old_row": {
+          "source_reference": "1 Kings 9:26",
+          "target": "2 Chronicles 8:17",
+          "relationship": "Parallel maritime travel notices name paired coastal sites",
+          "rationale": "Kings places ship work at Ezion-geber near Elath on Edom's seacoast; Chronicles has Solomon go to Gasion-gaber and coastal Ailath in Idumean land. The paired place descriptions are compared without modern site reconstruction."
+        },
+        "new_row": {
+          "source_reference": "1 Kings 9:26",
+          "target": "2 Chronicles 8:17",
+          "relationship": "Ship work and a royal visit at paired coastal sites",
+          "rationale": "Kings places ship work at Ezion-geber near Elath on Edom's seacoast; Chronicles has Solomon go to Gasion-gaber and coastal Ailath in Idumean land. The paired place descriptions are compared without modern site reconstruction."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "intermediate_freeze": {
+      "input_file": "1-kings-8-10-interim-peer.tsv",
+      "input_sha256": "159436abe50c339c8955d781e26dbc2befdc340433bf41efc0dd7eae728d3156",
+      "author_receipt_file": "1-kings-8-10-interim-peer-review.json",
+      "author_receipt_sha256": "3dd0f5ffb18772139db96014c4728a57e81738bf2e1f5256adfd938d8af76ce9",
+      "old_row": {
+        "source_reference": "1 Kings 8:43",
+        "target": "2 Chronicles 6:33",
+        "relationship": "Hearing the foreigner serves worldwide knowledge and fear of the name",
+        "rationale": "Both ask heavenly hearing and the foreigner's requested response so all earth's peoples know the Lord's name and fear Him, and recognize His name over the house. The distinct objects of knowing and fearing are preserved in the shared universal purpose."
+      },
+      "new_row": {
+        "source_reference": "1 Kings 8:43",
+        "target": "2 Chronicles 6:33",
+        "relationship": "Hearing the foreigner serves worldwide knowledge of the name and fear of God",
+        "rationale": "Both ask heavenly hearing and the foreigner's requested response so all earth's peoples know the Lord's name and fear Him, and recognize His name over the house. The distinct objects of knowing and fearing are preserved in the shared universal purpose."
+      },
+      "reason": "Make the category preserve the same distinct knowing/fearing objects as the corrected rationale.",
+      "completed_pair_credit": 0,
+      "complete_corrected_triple_reread": true
+    }
+  },
+  "peer_refinements_file": "1-kings-8-10-peer-refinements.json",
+  "peer_refinements_sha256": "f51ae69c1bc83482d5a213c9138a4b26bdee61bd496d04280d7ba30feb308f0b"
+}

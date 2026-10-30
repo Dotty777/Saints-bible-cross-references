@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 822 units in 22 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Read complete actual source and retained target passages with necessary context and reread each particular explanation before completing a source pass. This inventory performs no source review.",
+  "method": "Read complete actual source and retained target passages with necessary context; reread every particular explanation before completing its initial curated pass. The full source inventory preceded review and earned zero review credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -20,24 +20,561 @@
     "Unread candidates",
     "Technical checks"
   ],
-  "review_batches": [],
+  "review_batches": [
+    {
+      "run_id": "2026-10-30T051628Z",
+      "records": "review-batches/2026-10-30T051628Z.json",
+      "new_source_verses": 524,
+      "new_pairs": 543,
+      "unresolved_retained_cases": 0
+    }
+  ],
   "canon_manifest": "../canon.json",
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "sources": [
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "1-kings/verses.json",
       "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "acts/verses.json",
+      "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "ezekiel/verses.json",
+      "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "james/verses.json",
+      "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/james/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/leviticus/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "micah/verses.json",
+      "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/micah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "proverbs/verses.json",
+      "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
     }
   ],
-  "unresolved_candidates": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Kings 2:35c",
+      "target": "1 Kings 7:38",
+      "status": "pending proposed construction-duration harmonization; no reconciliation credit",
+      "reason": "The complete actual continuation speaks of finishing his house, the Lords house and wall and completing them in seven years;7:38 states that Solomon built his own house in thirteen years. Both actual units and contexts were read, but no independent project-scope or chronological harmonization has been established. The retained2:35c/5:14a comparison concerns the explicit Pharaoh-daughter move and the until-completion list, leaving the seven-year clause unmerged.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 2:35c",
+        "id": "v2-35c",
+        "text": "He took Pharaoh’s daughter and brought her into the City of David until he had first finished his own house, the Lord’s house, and Jerusalem’s surrounding wall. He built and completed them in seven years.",
+        "text_sha256": "f82d029994694b3b7d2316a4e6b06f7b7bc334f8142e3dd39c99c876dbaa0896"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Kings 7:38",
+          "id": "v7-38",
+          "text": "Solomon built his own house in thirteen years.",
+          "text_sha256": "571bbbc41b20ec598699ef3c70eaa287353c13c1c7a12b26694a775e4934745e"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 2:35l",
+      "target": "1 Kings 2:8",
+      "status": "pending proposed place-descriptor equivalence; no location identity credit",
+      "reason": "Both full actual charges identify Shimei son of Gera with Benjaminite wording. The earlier2:8 says from Bahurim and35l says from Hebron. The retained limited comparison uses the explicit name, father and tribe wording while preserving the different place descriptors; their geographical equivalence is not independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 2:35l",
+        "id": "v2-35l",
+        "text": "While David was still alive, he commanded Solomon: “Behold, with you is Shimei son of Gera, a descendant of the Benjaminite, from Hebron.",
+        "text_sha256": "21cc953850559b02b5dc89a797f16f8413c2e3d75e8fb72223e8c1f87a35ef53"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Kings 2:8",
+          "id": "v2-8",
+          "text": "Behold, with you is Shimei son of Gera, a son of the Benjaminite from Bahurim. He cursed me with a painful curse on the day I went to Camps. He came down to meet me at the Jordan, and I swore to him by the Lord, ‘I will not put you to death with the sword.’",
+          "text_sha256": "aad456046ebd2d31034faf7094d812155c8dab6a007d38ee0ad20e118a121360"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 2:46d",
+      "target": "2 Chronicles 8:4",
+      "status": "pending proposed wilderness-city identity; no site-equivalence credit",
+      "reason": "The actual Kings continuation says he built Thermai in the wilderness; Chronicles says he built Thedmor in the wilderness. Both full actual units and the named Solomon-building contexts were read. The retained limited comparison concerns the particular wilderness-city construction clauses while preserving both names, not an independently verified ancient or modern city identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 2:46d",
+        "id": "v2-46d",
+        "text": "and he built Thermai in the wilderness.",
+        "text_sha256": "92939ca0ab0444577ed651bd623b49763e245488ca9979ee2eea1279afd2c2b8"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Chronicles 8:4",
+          "id": "v8-4",
+          "text": "He built Thedmor in the wilderness and all the fortified cities that he built in Emath.",
+          "text_sha256": "ac3aa17f96a720d6c69d18fbc84d32120aea4e204e8052146758d4585dbd0e50"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 7:2",
+      "target": "2 Chronicles 2:12-13",
+      "status": "pending proposed artisan tribal/parentage harmonization; no identity credit",
+      "reason": "Kings describes the widow's son with he-from-Naphtali wording, a Tyrian father and bronze-working language. Chronicles names Chiram, my father, gives his mother from Dan's daughters and a Tyrian father, and lists broad crafts. The complete passages and context were read. The different tribal clauses, maternal attribution and sentence/pronoun scope are not independently harmonized. The retained parallel credits only the actual Tyrian-parentage and craft-service descriptions, not a solved Naphtali-Dan or other personal-name identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Tyrian-parentage and craft-service comparison only; tribal and parentage harmonization excluded",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 7:2",
+        "id": "v7-2",
+        "text": "a widow’s son, and he was from the tribe of Naphtali. His father was a Tyrian man, a bronze craftsman, filled with skill, understanding, and knowledge for doing every work in bronze. He was brought to King Solomon and did all the works.",
+        "text_sha256": "e7d3354322e43f68ed1901f55540e19cd63ab5347c1fc9e5159fa28bc0577262"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Chronicles 2:12",
+          "id": "v2-12",
+          "text": "Now I have sent you a wise man, possessing understanding: Chiram, my father,",
+          "text_sha256": "cefbe1f837b8c7d2525e6b69544d17cf14f63d87de9b365e98565ed09e2f28dc"
+        },
+        {
+          "reference": "2 Chronicles 2:13",
+          "id": "v2-13",
+          "text": "his mother is from Dan’s daughters, and his father is a Tyrian man. He knows how to work in gold, silver, bronze, iron, stone, and timber; to weave in purple, hyacinth blue, fine linen, and scarlet; to engrave engravings and devise every design, whatever you give him, with your skilled men and the skilled men of David my lord, your father.",
+          "text_sha256": "be2003da6fc6d0359b1753c48f8b9d09039154166f447bfa8ff67cb67f9ad52d"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 8:8",
+      "target": "2 Chronicles 5:9",
+      "status": "pending independent identification of consecrated things with carrying poles",
+      "reason": "Both complete passages share projection and restricted visibility, which is the retained supported comparison. Kings names consecrated things and Chronicles carrying poles. No independent object-label equation, source-language correction, or replacement of the supplied wording has been established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Projection and ends visible before the inner sanctuary but not outside; object-label identity unresolved.",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 8:8",
+        "id": "v8-8",
+        "text": "The consecrated things projected, and the ends of the consecrated things could be seen from the holy places in front of the inner sanctuary, but they could not be seen outside.",
+        "text_sha256": "e9cff6f3d1343942446dea7037a1f8bf9449122ca70ff7e9491ab1c5b73f169f"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Chronicles 5:9",
+          "id": "v5-9",
+          "text": "The carrying poles projected, and their ends could be seen from the holy places in front of the dabir, but they could not be seen outside. They have been there to this day.",
+          "text_sha256": "8293d40a449a9facfdf56b8955832259829703504249107706c43a7c018b9757"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 9:28",
+      "target": "2 Chronicles 8:18",
+      "status": "pending independent reconciliation of the stated gold quantities",
+      "reason": "Both passages describe going to Sophira and bringing gold to Solomon, which is the retained supported connection. Kings gives120talents and Chronicles450; no conversion, missing shipment, scribal reconstruction, or corrected amount is independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Voyage to Sophira and gold brought to Solomon; quantity reconciliation excluded.",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 9:28",
+        "id": "v9-28",
+        "text": "They went to Sophira, took a hundred twenty talents of gold from there, and brought it to King Solomon.",
+        "text_sha256": "049abd1212dbc438b3e9ab023b498ea20842a901ce20d1abe7dd4fadd40a4c4b"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-chronicles/verses.json",
+        "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Chronicles 8:18",
+          "id": "v8-18",
+          "text": "Chiram sent ships and servants who knew the sea through his servants’ hands. They went with Solomon’s servants to Sophira, took four hundred and fifty talents of gold from there, and came to King Solomon.",
+          "text_sha256": "8351f7054d7088841a956f5b6a094b2f0637b020b73c74dc2594cb711e68b716"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 11:13",
+      "target": "1 Kings 11:36",
+      "status": "pending proposed one-versus-two scepter reconciliation; no numerical identity credit",
+      "reason": "The first reservation for Solomon's son gives one scepter, while the later David-and-Jerusalem reservation gives two. Both complete statements and the surrounding promise were read; no unrecorded convention, tribe-inclusive equation or corrected numeral is supplied. The retained comparison reports the common reservation reasons and the actual different numbers.",
+      "retained_pair_scope": "Actual reservation statements and David/chosen-Jerusalem reasons, with one and two preserved; no numerical harmonization.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 11:13",
+        "id": "v11-13",
+        "text": "But I will certainly not take the whole kingdom. I will give your son one scepter, because of David My servant and because of Jerusalem, the city I have chosen.”",
+        "text_sha256": "c6397dc009a7e0853caee8c775442e19bb4f366dd9163452100ad92e1efa45aa"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Kings 11:36",
+          "id": "v11-36",
+          "text": "I will give his son the two scepters, so that My servant David may have a place before Me always in Jerusalem, the city I chose for Myself to place My name there.",
+          "text_sha256": "2d02238b49d2a0a2aa1bd4e736dee3cc788abe8c11829a21208a0b39a5c79951"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 11:27",
+      "target": "1 Kings 12:24b",
+      "status": "pending proposed builder-pronoun attribution; no independent actor-resolution credit",
+      "reason": "The first revolt introduction gives a builder pronoun and the City of David his-father wording; the expanded introduction surrounds its building notices with Jeroboam's work for Solomon, Joseph/Ephraim burdens and the rise against the kingdom. Both actual units and context were read, but no independently recovered builder identity or reordered construction history is asserted. The retained connection follows the express citadel and city-enclosure language.",
+      "retained_pair_scope": "Express citadel/City-of-David enclosure wording within the revolt notices, without assigning the first unit builder pronoun to an independently certified person.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 11:27",
+        "id": "v11-27",
+        "text": "This was the matter concerning how he raised his hands against King Solomon: he built the citadel and closed the enclosure of the City of David his father.",
+        "text_sha256": "6675ac106fdfa83ae59f7616d32468356f5a6c3f920b2c3f2ab553116d1fe346"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Kings 12:24b",
+          "id": "v12-24b",
+          "text": "There was a man from Ephraim’s hill country, Solomon’s servant, whose name was Jeroboam. His mother’s name was Sarira, a prostitute. Solomon made him a ruler of the staff over the burdens of Joseph’s house. He built Sarira in Ephraim’s hill country for Solomon, and he had three hundred horse-drawn chariots. He built the citadel through the burdens of Ephraim’s house; he enclosed the City of David and was rising up against the kingdom.",
+          "text_sha256": "ba3c0db4f3b253bb6cab09ab3deba6b9b07f3bf4a26b56b34bedb054595b80fd"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 12:24a",
+      "target": "1 Kings 14:21",
+      "status": "pending proposed regnal-figure and mother-name harmonization; no identity credit",
+      "reason": "The expanded unit gives Rehoboam sixteen years at accession, twelve years of reign and Naanan daughter of Anan as mother; the later regnal notice gives forty-one, seventeen and Naamah the Ammonite. Both complete units and their contexts were read. No corrected age, co-regency, date conversion or Naanan-Naamah equation is established. The retained common Rehoboam-son-of-Solomon and Jerusalem framework does not credit those unresolved equations.",
+      "retained_pair_scope": "Common named Rehoboam/Solomon/Jerusalem regnal framework and exact different age/reign/maternal statements; no figure or mother-identity reconciliation.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 12:24a",
+        "id": "v12-24a",
+        "text": "King Solomon slept with his fathers and was buried with his fathers in the City of David. Rehoboam his son reigned in his place in Jerusalem. He was sixteen years old when he became king, and reigned twelve years in Jerusalem. His mother’s name was Naanan, daughter of Anan son of Nahash, king of the sons of Ammon. He did evil before the Lord and did not walk in the way of David his father.",
+        "text_sha256": "a3525a8777b67b52777f7042dff39ddf10d9c15c66c41675867309411419acea"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Kings 14:21",
+          "id": "v14-21",
+          "text": "Rehoboam son of Solomon reigned over Judah. Rehoboam was forty-one years old when he became king, and he reigned seventeen years in Jerusalem, the city the Lord chose from all Israel’s tribes to place His name there. His mother’s name was Naamah the Ammonite.",
+          "text_sha256": "429b6b2e013203c48cd488d2e81d86ca17a72413302696e0f8e5322251cfc0ef"
+        }
+      ]
+    },
+    {
+      "source_reference": "1 Kings 12:24o",
+      "target": "1 Kings 11:29-31",
+      "status": "pending proposed garment-sign prophet and chronology equivalence; no identity credit",
+      "reason": "The expanded Shechem notice names Shemaiah the Elamite for the new-garment/twelve-piece/ten-piece sign. The road account names Ahijah the Shilonite for its new-garment division and ten-piece interpretation. Both complete accounts were read. No independent equation of the named prophets, replacement of their descriptors or single reconstructed delivery date is asserted; the retained comparison is the particular sign and its supplied distinctions.",
+      "retained_pair_scope": "Particular new-garment/twelve-part/ten-piece-to-Jeroboam literary parallel, preserving the different named prophets and settings.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Kings 12:24o",
+        "id": "v12-24o",
+        "text": "Jeroboam went to Shechem in Ephraim’s hill country and gathered Israel’s tribes there. Rehoboam son of Solomon went up there. The Lord’s word came to Shemaiah the Elamite, saying, “Take a new garment which has not entered water, tear it into twelve pieces, give it to Jeroboam, and say to him, ‘Thus says the Lord: Take ten pieces for yourself, to clothe yourself.’” Jeroboam took them. Shemaiah said, “Thus says the Lord concerning Israel’s ten tribes.”",
+        "text_sha256": "166f9a7ff62a0c2fd05da3b8a33b5006fe78d4103975deef82647e0a09b9f5bd"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-kings/verses.json",
+        "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Kings 11:29",
+          "id": "v11-29",
+          "text": "At that time Jeroboam went out from Jerusalem, and the prophet Ahijah the Shilonite found him on the road and took him aside from the road. Ahijah was clothed in a new garment, and both were in the plain.",
+          "text_sha256": "ec05d20891cc2358726d1040080a347f299870534328ae15b5b072eaabdb5f2e"
+        },
+        {
+          "reference": "1 Kings 11:30",
+          "id": "v11-30",
+          "text": "Ahijah took hold of his new garment which he was wearing and tore it into twelve pieces.",
+          "text_sha256": "48a55be61559163b7e968798c07f8793899b2da661f3a2c5eef3c0466daaff24"
+        },
+        {
+          "reference": "1 Kings 11:31",
+          "id": "v11-31",
+          "text": "He said to Jeroboam, “Take ten pieces for yourself, because thus says the Lord, the God of Israel: ‘Behold, I am tearing the kingdom from Solomon’s hand and will give you ten scepters.",
+          "text_sha256": "ddacdd49500915f98df32c5ad392f12debd26f7e02a23be93e534345f888e97c"
+        }
+      ]
+    }
+  ],
   "checked_scope": {
-    "source_passage": null,
-    "source_verse_units": 0,
-    "retained_pairs": 0,
-    "distinct_target_verse_units": 0
+    "source_passage": "1 Kings 1:1-13:34",
+    "source_verse_units": 524,
+    "retained_pairs": 543,
+    "distinct_target_verse_units": 517
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -59,11 +596,20 @@
     "completed_review_credit": 0
   },
   "pending": [
-    "1 Kings 1–22 initial curated cross-reference pass",
-    "Remaining Old Testament source inventories and review",
+    "Initial curated review from 1 Kings 14:21",
+    "Remaining Old Testament inventories and review",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
-    "Preserve the composite source reference as one original unit without rewriting its separator or creating extra verses: 1 Kings 11:5–8"
+    "Target evidence pending: 1 Kings 2:35c / 1 Kings 7:38",
+    "Target evidence pending: 1 Kings 2:35l / 1 Kings 2:8",
+    "Target evidence pending: 1 Kings 2:46d / 2 Chronicles 8:4",
+    "Target evidence pending: 1 Kings 7:2 / 2 Chronicles 2:12-13",
+    "Target evidence pending: 1 Kings 8:8 / 2 Chronicles 5:9",
+    "Target evidence pending: 1 Kings 9:28 / 2 Chronicles 8:18",
+    "Target evidence pending: 1 Kings 11:13 / 1 Kings 11:36",
+    "Target evidence pending: 1 Kings 11:27 / 1 Kings 12:24b",
+    "Target evidence pending: 1 Kings 12:24a / 1 Kings 14:21",
+    "Target evidence pending: 1 Kings 12:24o / 1 Kings 11:29-31"
   ],
   "composite_reference_units": [
     {

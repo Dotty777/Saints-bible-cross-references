@@ -1,0 +1,1807 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex root (AI-assisted supplied-English curation for 1 Kings 1–3)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T05:46:14.706537+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    1,
+    2,
+    3
+  ],
+  "source_verses": 151,
+  "completed_source_verses": 151,
+  "completed_pairs": 159,
+  "distinct_target_verse_units": 165,
+  "chapter_pair_counts": {
+    "1": 55,
+    "2": 75,
+    "3": 29
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "review_method": "Read every complete actual source unit, every retained target and necessary context from the pinned Saints English records after verifying the existing full822-unit inventory. Read all71 chapter2units, including every actual35a–o and46a–l continuation (j absent), and all27 actual chapter3units starting3:2. Separately reread all159 complete candidate source/target/category/rationale triples in five bounded groups, explicitly redisplaying112–113 after a small middle-output truncation. The first coherent stage preserved the original draft and corrected possessive punctuation and one narrator-versus-speaker attribution; all159 stage-one triples were reread. The second coherent precision preserved the prior TSV and corrected26 rows, including grammar, procession participation, unassigned throne-placement agency, object-material wording, prospective versus completed move, later rather than next chapter, exact third-day language, spoken order rather than inferred test, and commanded rather than narrated child handover. Separately reread all26 complete corrected triples in two untruncated groups before this author freeze. Concrete family identifications, particular objects/actions, direct narrative recaps, command/response relationships, stated contrasts and meaningful labelled local literary connections are retained. Different wording, roles, figures, chronology and speaker status remain supplied. This is an initial supplied-English curated pass, not exhaustive discovery, new original-language/apparatus work, independent human specialist approval, medical diagnosis, modern site mapping or solved legal/historical harmonization.",
+  "pin_method": "Fresh raw fixed-commit fetches of all eleven retained source/target books, exact Git blob rehash against saved fixed-commit registries, raw SHA256 and whole parsed-cache equality. Cache newline differences recorded separately. These technical checks earn zero review credit.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Chronicles",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "James",
+      "records": "james/verses.json",
+      "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Micah",
+      "records": "micah/verses.json",
+      "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5"
+    },
+    {
+      "book": "Psalms",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+    }
+  ],
+  "pin_receipt": "1-kings-1-3-pins.json",
+  "pin_receipt_sha256": "b654d180b7cb1e0f6a2e4d5312f59017b827105a5a9c57ab59b5ee5d41082a04",
+  "input_file": "1-kings-1-3.tsv",
+  "input_sha256": "7981d2690a11743fa9cab5ea7d84b86e352d65f4a2696a0ca950b93050951e18",
+  "final_input_sha256": "7981d2690a11743fa9cab5ea7d84b86e352d65f4a2696a0ca950b93050951e18",
+  "source_inventory": "1-kings/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-kings-1-3-author-draft.tsv",
+  "author_draft_sha256": "43a09c242c024135afa6f77cfc1b56014754604c4294f52e48310b401f7dcacc",
+  "author_refinements_before_freeze": [
+    {
+      "file": "1-kings-1-3-refinements.json",
+      "sha256": "d659f277819eaae67b7cbb3838444842d80c29c61ff28025b63132cfd6cf7386",
+      "changes": [
+        {
+          "source_reference": "1 Kings 1:9",
+          "target": "1 Kings 1:25",
+          "old_row": {
+            "source_reference": "1 Kings 1:9",
+            "target": "1 Kings 1:25",
+            "relationship": "Same-chapter Adonijahs sacrificial feast is repeated in Nathans report",
+            "rationale": "The narrator records Adonijah sacrificing animals and inviting royal brothers and Judah's attendants; Nathan reports the abundant sacrifice and gathering, retaining his additional acclamation rather than inserting it into the opening notice."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:9",
+            "target": "1 Kings 1:25",
+            "relationship": "Same-chapter Adonijah's sacrificial feast is repeated in Nathan's report",
+            "rationale": "The narrator records Adonijah sacrificing animals and inviting royal brothers and Judah's attendants; Nathan reports the abundant sacrifice and gathering, retaining his additional acclamation rather than inserting it into the opening notice."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:10",
+          "target": "1 Kings 1:26",
+          "old_row": {
+            "source_reference": "1 Kings 1:10",
+            "target": "1 Kings 1:26",
+            "relationship": "Same-chapter the excluded guests recur in Nathans own complaint",
+            "rationale": "The narrator says Nathan, Benaiah, the mighty men and Solomon were not invited; Nathan's later complaint likewise names himself, Benaiah and Solomon, with Zadok additionally named and the actual lists kept distinct."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:10",
+            "target": "1 Kings 1:26",
+            "relationship": "Same-chapter the excluded guests recur in Nathan's own complaint",
+            "rationale": "The narrator says Nathan, Benaiah, the mighty men and Solomon were not invited; Nathan's later complaint likewise names himself, Benaiah and Solomon, with Zadok additionally named and the actual lists kept distinct."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:11",
+          "target": "2 Samuel 12:24",
+          "old_row": {
+            "source_reference": "1 Kings 1:11",
+            "target": "2 Samuel 12:24",
+            "relationship": "Bathsheba explicitly identified as Solomons mother",
+            "rationale": "Nathan addresses Bathsheba as Solomon's mother; the birth account names Bathsheba and the son Solomon, supplying the particular maternal relationship without adding a different parentage or dating the present conversation."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:11",
+            "target": "2 Samuel 12:24",
+            "relationship": "Bathsheba explicitly identified as Solomon's mother",
+            "rationale": "The narrative identifies Nathan's addressee Bathsheba as Solomon's mother; the birth account names Bathsheba and the son Solomon, supplying the particular maternal relationship without adding a different parentage or dating the present conversation."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:11",
+          "target": "1 Kings 1:18",
+          "old_row": {
+            "source_reference": "1 Kings 1:11",
+            "target": "1 Kings 1:18",
+            "relationship": "Same-chapter the news of Adonijahs kingship and Davids unawareness is repeated",
+            "rationale": "Nathan tells Bathsheba that Adonijah has become king without David knowing; Bathsheba later tells David those same two facts as her report, without treating either report as David's authorization."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:11",
+            "target": "1 Kings 1:18",
+            "relationship": "Same-chapter the news of Adonijah's kingship and David's unawareness is repeated",
+            "rationale": "Nathan tells Bathsheba that Adonijah has become king without David knowing; Bathsheba later tells David those same two facts as her report, without treating either report as David's authorization."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:12",
+          "target": "1 Kings 1:21",
+          "old_row": {
+            "source_reference": "1 Kings 1:12",
+            "target": "1 Kings 1:21",
+            "relationship": "Same-chapter the life-rescue counsel beside Bathshebas stated succession fear",
+            "rationale": "Nathan offers counsel to rescue Bathsheba's and Solomon's lives; her later speech anticipates their becoming sinners after David's death, linking the particular feared succession danger without inventing an already issued execution order."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:12",
+            "target": "1 Kings 1:21",
+            "relationship": "Same-chapter the life-rescue counsel beside Bathsheba's stated succession fear",
+            "rationale": "Nathan offers counsel to rescue Bathsheba's and Solomon's lives; her later speech anticipates their becoming sinners after David's death, linking the particular feared succession danger without inventing an already issued execution order."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:13",
+          "target": "1 Kings 1:17",
+          "old_row": {
+            "source_reference": "1 Kings 1:13",
+            "target": "1 Kings 1:17",
+            "relationship": "Same-chapter Nathans proposed oath reminder and Bathshebas actual reminder",
+            "rationale": "Nathan advises Bathsheba to recall David's oath that Solomon would reign and occupy his throne; her later speech does recall that oath, distinguishing the proposed words from their subsequent delivery."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:13",
+            "target": "1 Kings 1:17",
+            "relationship": "Same-chapter Nathan's proposed oath reminder and Bathsheba's actual reminder",
+            "rationale": "Nathan advises Bathsheba to recall David's oath that Solomon would reign and occupy his throne; her later speech does recall that oath, distinguishing the proposed words from their subsequent delivery."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:14",
+          "target": "1 Kings 1:22",
+          "old_row": {
+            "source_reference": "1 Kings 1:14",
+            "target": "1 Kings 1:22",
+            "relationship": "Same-chapter Nathans promised entrance while Bathsheba speaks occurs",
+            "rationale": "Nathan promises to enter while Bathsheba is still speaking; the later notice expressly says he arrives while she is speaking with the king, matching that specific planned timing without inventing the conversation's duration."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:14",
+            "target": "1 Kings 1:22",
+            "relationship": "Same-chapter Nathan's promised entrance while Bathsheba speaks occurs",
+            "rationale": "Nathan promises to enter while Bathsheba is still speaking; the later notice expressly says he arrives while she is speaking with the king, matching that specific planned timing without inventing the conversation's duration."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:15",
+          "target": "1 Kings 1:3-4",
+          "old_row": {
+            "source_reference": "1 Kings 1:15",
+            "target": "1 Kings 1:3-4",
+            "relationship": "Same-chapter Abishags chamber ministry follows her earlier introduction",
+            "rationale": "Bathsheba enters the chamber where the aged king is attended by Abishag the Shunammite; the earlier introduction names that woman and her service, preserving the named household setting without adding a new marriage relation."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:15",
+            "target": "1 Kings 1:3-4",
+            "relationship": "Same-chapter Abishag's chamber ministry follows her earlier introduction",
+            "rationale": "Bathsheba enters the chamber where the aged king is attended by Abishag the Shunammite; the earlier introduction names that woman and her service, preserving the named household setting without adding a new marriage relation."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:16",
+          "target": "1 Kings 1:17",
+          "old_row": {
+            "source_reference": "1 Kings 1:16",
+            "target": "1 Kings 1:17",
+            "relationship": "Same-chapter the kings concern question is followed by the oath reminder",
+            "rationale": "Bathsheba bows and David asks her concern; her following answer recalls the Solomon-throne oath, giving the particular response to that audience question rather than an invented additional petition."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:16",
+            "target": "1 Kings 1:17",
+            "relationship": "Same-chapter the king's concern question is followed by the oath reminder",
+            "rationale": "Bathsheba bows and David asks her concern; her following answer recalls the Solomon-throne oath, giving the particular response to that audience question rather than an invented additional petition."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:18",
+          "target": "1 Kings 1:5",
+          "old_row": {
+            "source_reference": "1 Kings 1:18",
+            "target": "1 Kings 1:5",
+            "relationship": "Same-chapter Bathshebas Adonijah report beside the narrated self-exaltation",
+            "rationale": "Bathsheba reports that Adonijah has become king without David knowing; the earlier narrator describes Adonijah exalting himself with I will reign, distinguishing that action from a prior royal appointment."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:18",
+            "target": "1 Kings 1:5",
+            "relationship": "Same-chapter Bathsheba's Adonijah report beside the narrated self-exaltation",
+            "rationale": "Bathsheba reports that Adonijah has become king without David knowing; the earlier narrator describes Adonijah exalting himself with I will reign, distinguishing that action from a prior royal appointment."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:19",
+          "target": "1 Kings 1:9-10",
+          "old_row": {
+            "source_reference": "1 Kings 1:19",
+            "target": "1 Kings 1:9-10",
+            "relationship": "Same-chapter Bathshebas feast report and the narrated invitations",
+            "rationale": "Bathsheba reports the abundant sacrifices, invited royal sons, Abiathar and Joab, and excluded Solomon; the narrator's feast notice supplies the invitation and exclusion setting, without silently making the two complete guest lists identical."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:19",
+            "target": "1 Kings 1:9-10",
+            "relationship": "Same-chapter Bathsheba's feast report and the narrated invitations",
+            "rationale": "Bathsheba reports the abundant sacrifices, invited royal sons, Abiathar and Joab, and excluded Solomon; the narrator's feast notice supplies the invitation and exclusion setting, without silently making the two complete guest lists identical."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:20",
+          "target": "1 Kings 1:35",
+          "old_row": {
+            "source_reference": "1 Kings 1:20",
+            "target": "1 Kings 1:35",
+            "relationship": "Same-chapter the requested succession declaration and Davids stated decision",
+            "rationale": "Bathsheba asks David to identify who will occupy his throne; his later instructions say Solomon will sit there and reign in his place, providing the particular answer without claiming every Israelite personally attended the audience."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:20",
+            "target": "1 Kings 1:35",
+            "relationship": "Same-chapter the requested succession declaration and David's stated decision",
+            "rationale": "Bathsheba asks David to identify who will occupy his throne; his later instructions say Solomon will sit there and reign in his place, providing the particular answer without claiming every Israelite personally attended the audience."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:21",
+          "target": "1 Kings 1:12",
+          "old_row": {
+            "source_reference": "1 Kings 1:21",
+            "target": "1 Kings 1:12",
+            "relationship": "Same-chapter the feared status after Davids death and the two-life rescue counsel",
+            "rationale": "Bathsheba fears that she and Solomon will be sinners when David lies with his fathers; Nathan's earlier counsel concerned rescuing those two lives, retaining her stated fear without supplying an unspoken verdict or certain sentence."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:21",
+            "target": "1 Kings 1:12",
+            "relationship": "Same-chapter the feared status after David's death and the two-life rescue counsel",
+            "rationale": "Bathsheba fears that she and Solomon will be sinners when David lies with his fathers; Nathan's earlier counsel concerned rescuing those two lives, retaining her stated fear without supplying an unspoken verdict or certain sentence."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:22",
+          "target": "1 Kings 1:14",
+          "old_row": {
+            "source_reference": "1 Kings 1:22",
+            "target": "1 Kings 1:14",
+            "relationship": "Same-chapter Nathans arrival matches his stated entrance plan",
+            "rationale": "The narrator places Nathan's arrival while Bathsheba still speaks; Nathan had specifically promised to enter during her speech, linking that particular timing rather than a generic sequence of visitors."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:22",
+            "target": "1 Kings 1:14",
+            "relationship": "Same-chapter Nathan's arrival matches his stated entrance plan",
+            "rationale": "The narrator places Nathan's arrival while Bathsheba still speaks; Nathan had specifically promised to enter during her speech, linking that particular timing rather than a generic sequence of visitors."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:23",
+          "target": "1 Kings 1:24",
+          "old_row": {
+            "source_reference": "1 Kings 1:23",
+            "target": "1 Kings 1:24",
+            "relationship": "Same-chapter Nathans announced audience leads into his actual address",
+            "rationale": "Nathan is announced and enters bowing before David; the next unit gives his address to the king, preserving the named audience and its particular succession statement without inventing a private reply."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:23",
+            "target": "1 Kings 1:24",
+            "relationship": "Same-chapter Nathan's announced audience leads into his actual address",
+            "rationale": "Nathan is announced and enters bowing before David; the next unit gives his address to the king, preserving the named audience and its particular succession statement without inventing a private reply."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:24",
+          "target": "1 Kings 1:27",
+          "old_row": {
+            "source_reference": "1 Kings 1:24",
+            "target": "1 Kings 1:27",
+            "relationship": "Same-chapter Nathans succession assertion followed by his authorization question",
+            "rationale": "Nathan says David said Adonijah would reign, then asks whether the matter came through David without informing his servant; the initial assertion is not silently recast as a question or accepted as the narrator's independent confirmation."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:24",
+            "target": "1 Kings 1:27",
+            "relationship": "Same-chapter Nathan's succession assertion followed by his authorization question",
+            "rationale": "Nathan says David said Adonijah would reign, then asks whether the matter came through David without informing his servant; the initial assertion is not silently recast as a question or accepted as the narrator's independent confirmation."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:25",
+          "target": "1 Kings 1:9",
+          "old_row": {
+            "source_reference": "1 Kings 1:25",
+            "target": "1 Kings 1:9",
+            "relationship": "Same-chapter Nathans sacrificial-feast report recalls the narrated gathering",
+            "rationale": "Nathan reports the sacrifices, invitees and Long live King Adonijah acclamation; the earlier gathering names Adonijah's sacrifices and invitations, preserving the distinction between the narrator's account and the report's added details."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:25",
+            "target": "1 Kings 1:9",
+            "relationship": "Same-chapter Nathan's sacrificial-feast report recalls the narrated gathering",
+            "rationale": "Nathan reports the sacrifices, invitees and Long live King Adonijah acclamation; the earlier gathering names Adonijah's sacrifices and invitations, preserving the distinction between the narrator's account and the report's added details."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:27",
+          "target": "1 Kings 1:30",
+          "old_row": {
+            "source_reference": "1 Kings 1:27",
+            "target": "1 Kings 1:30",
+            "relationship": "Same-chapter the authorization question followed by Davids explicit Solomon undertaking",
+            "rationale": "Nathan asks if David authorized the matter without identifying his successor; David's later oath explicitly undertakes to install Solomon that day, retaining the question and ensuing decision as different utterances."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:27",
+            "target": "1 Kings 1:30",
+            "relationship": "Same-chapter the authorization question followed by David's explicit Solomon undertaking",
+            "rationale": "Nathan asks if David authorized the matter without identifying his successor; David's later oath explicitly undertakes to install Solomon that day, retaining the question and ensuing decision as different utterances."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:31",
+          "target": "1 Kings 1:16",
+          "old_row": {
+            "source_reference": "1 Kings 1:31",
+            "target": "1 Kings 1:16",
+            "relationship": "Same-chapter Bathshebas repeated bowing at distinct points of the audience",
+            "rationale": "Bathsheba bows after the oath and wishes David long life; she had earlier bowed when presenting her concern, comparing her repeated stated court action without turning live for ever into a narrated prediction of literal immortality."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:31",
+            "target": "1 Kings 1:16",
+            "relationship": "Same-chapter Bathsheba's repeated bowing at distinct points of the audience",
+            "rationale": "Bathsheba bows after the oath and wishes David long life; she had earlier bowed when presenting her concern, comparing her repeated stated court action without turning live for ever into a narrated prediction of literal immortality."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:36",
+          "target": "1 Kings 1:35",
+          "old_row": {
+            "source_reference": "1 Kings 1:36",
+            "target": "1 Kings 1:35",
+            "relationship": "Same-chapter Benaiahs assent responds to the specified Solomon appointment",
+            "rationale": "Benaiah answers So be it and asks the Lord to confirm the king's word after David's explicit Solomon-throne declaration, attaching his assent to that particular instruction rather than an unprovided separate oracle."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:36",
+            "target": "1 Kings 1:35",
+            "relationship": "Same-chapter Benaiah's assent responds to the specified Solomon appointment",
+            "rationale": "Benaiah answers So be it and asks the Lord to confirm the king's word after David's explicit Solomon-throne declaration, attaching his assent to that particular instruction rather than an unprovided separate oracle."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:39",
+          "target": "1 Kings 1:34",
+          "old_row": {
+            "source_reference": "1 Kings 1:39",
+            "target": "1 Kings 1:34",
+            "relationship": "Same-chapter Zadoks anointing and the acclamation answer Davids command",
+            "rationale": "Zadok takes the oil horn and anoints Solomon, a horn sounds and the people acclaim him; David's earlier command specified anointing and acclamation, without treating the oil vessel and sounded horn as a proved single object."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:39",
+            "target": "1 Kings 1:34",
+            "relationship": "Same-chapter Zadok's anointing and the acclamation answer David's command",
+            "rationale": "Zadok takes the oil horn and anoints Solomon, a horn sounds and the people acclaim him; David's earlier command specified anointing and acclamation, without treating the oil vessel and sounded horn as a proved single object."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:40",
+          "target": "1 Kings 1:45",
+          "old_row": {
+            "source_reference": "1 Kings 1:40",
+            "target": "1 Kings 1:45",
+            "relationship": "Same-chapter the citys rejoicing sound is explicitly explained to the feast guests",
+            "rationale": "The people rejoice with a sound that bursts the earth; Jonathan later explains that the joyful ascent and echoing city are the sound heard at the feast, linking that particular report without a newly measured noise or earthquake claim."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:40",
+            "target": "1 Kings 1:45",
+            "relationship": "Same-chapter the city's rejoicing sound is explicitly explained to the feast guests",
+            "rationale": "The people rejoice with a sound that bursts the earth; Jonathan later explains that the joyful ascent and echoing city are the sound heard at the feast, linking that particular report without a newly measured noise or earthquake claim."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:41",
+          "target": "1 Kings 1:45",
+          "old_row": {
+            "source_reference": "1 Kings 1:41",
+            "target": "1 Kings 1:45",
+            "relationship": "Same-chapter Joabs sound question receives Jonathans stated explanation",
+            "rationale": "Joab hears the horn and asks about the echoing city; Jonathan's later account identifies the Gihon anointing and joyful return as that sound, preserving his answer rather than making Joab already know its cause."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:41",
+            "target": "1 Kings 1:45",
+            "relationship": "Same-chapter Joab's sound question receives Jonathans stated explanation",
+            "rationale": "Joab hears the horn and asks about the echoing city; Jonathan's later account identifies the Gihon anointing and joyful return as that sound, preserving his answer rather than making Joab already know its cause."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:46",
+          "target": "1 Chronicles 29:23",
+          "old_row": {
+            "source_reference": "1 Kings 1:46",
+            "target": "1 Chronicles 29:23",
+            "relationship": "Solomon sitting on Davids royal throne in succession summaries",
+            "rationale": "Jonathan says Solomon has sat on the royal throne; Chronicles expressly names his sitting on David his father's throne, comparing that stated succession position without claiming the two summaries date every action identically."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:46",
+            "target": "1 Chronicles 29:23",
+            "relationship": "Solomon sitting on David's royal throne in succession summaries",
+            "rationale": "Jonathan says Solomon has sat on the royal throne; Chronicles expressly names his sitting on David his father's throne, comparing that stated succession position without claiming the two summaries date every action identically."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:47",
+          "target": "1 Kings 1:37",
+          "old_row": {
+            "source_reference": "1 Kings 1:47",
+            "target": "1 Kings 1:37",
+            "relationship": "Same-chapter the servants blessing repeats Benaiahs greater-throne wish",
+            "rationale": "The servants wish Solomon a better name and greater throne than David; Benaiah's earlier wish specifically asks a greater throne, retaining the additional name clause and the reported character of both blessings."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:47",
+            "target": "1 Kings 1:37",
+            "relationship": "Same-chapter the servants blessing repeats Benaiah's greater-throne wish",
+            "rationale": "The servants wish Solomon a better name and greater throne than David; Benaiah's earlier wish specifically asks a greater throne, retaining the additional name clause and the reported character of both blessings."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:48",
+          "target": "1 Chronicles 28:5",
+          "old_row": {
+            "source_reference": "1 Kings 1:48",
+            "target": "1 Chronicles 28:5",
+            "relationship": "Davids offspring on the throne attributed to divine choice or gift",
+            "rationale": "David blesses God for an offspring seated on his throne while he sees it; his assembly speech names Solomon chosen from his sons for the royal throne, comparing those stated divine-gift claims without changing either temporal wording."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:48",
+            "target": "1 Chronicles 28:5",
+            "relationship": "David's offspring on the throne attributed to divine choice or gift",
+            "rationale": "David blesses God for an offspring seated on his throne while he sees it; his assembly speech names Solomon chosen from his sons for the royal throne, comparing those stated divine-gift claims without changing either temporal wording."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:50",
+          "target": "1 Kings 2:28",
+          "old_row": {
+            "source_reference": "1 Kings 1:50",
+            "target": "1 Kings 2:28",
+            "relationship": "Adonijah and Joab seeking the altars horns in distinct royal crises",
+            "rationale": "Adonijah fears Solomon and takes the altar's horns; Joab later flees and holds the horns after the report reaches him, comparing that specific refuge action without claiming identical legal status or the same eventual outcome."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:50",
+            "target": "1 Kings 2:28",
+            "relationship": "Adonijah and Joab seeking the altar's horns in distinct royal crises",
+            "rationale": "Adonijah fears Solomon and takes the altar's horns; Joab later flees and holds the horns after the report reaches him, comparing that specific refuge action without claiming identical legal status or the same eventual outcome."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:51",
+          "target": "1 Kings 1:50",
+          "old_row": {
+            "source_reference": "1 Kings 1:51",
+            "target": "1 Kings 1:50",
+            "relationship": "Same-chapter the reported altar refuge restates Adonijahs narrated action",
+            "rationale": "The report says Adonijah fears Solomon and holds the altar's horns, as the preceding narrator states; it additionally quotes his requested sword-death assurance, without treating that request as an oath Solomon already swore."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:51",
+            "target": "1 Kings 1:50",
+            "relationship": "Same-chapter the reported altar refuge restates Adonijah's narrated action",
+            "rationale": "The report says Adonijah fears Solomon and holds the altar's horns, as the preceding narrator states; it additionally quotes his requested sword-death assurance, without treating that request as an oath Solomon already swore."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:53",
+          "target": "1 Kings 1:52",
+          "old_row": {
+            "source_reference": "1 Kings 1:53",
+            "target": "1 Kings 1:52",
+            "relationship": "Same-chapter the immediate release follows Solomons qualified answer",
+            "rationale": "Solomon has Adonijah brought down and sends him home after stating the ability-versus-wickedness conditions, without interpreting the release as an unconditional lifetime immunity from the separately stated warning."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:53",
+            "target": "1 Kings 1:52",
+            "relationship": "Same-chapter the immediate release follows Solomon's qualified answer",
+            "rationale": "Solomon has Adonijah brought down and sends him home after stating the ability-versus-wickedness conditions, without interpreting the release as an unconditional lifetime immunity from the separately stated warning."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:2",
+          "target": "1 Chronicles 22:13",
+          "old_row": {
+            "source_reference": "1 Kings 2:2",
+            "target": "1 Chronicles 22:13",
+            "relationship": "Davids strength exhortations to Solomon",
+            "rationale": "David tells Solomon to be strong and be a man; the other Davidic charge tells him to act courageously and be strong while observing Moses' ordinances, preserving the different accompanying phrases rather than importing one into the other."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:2",
+            "target": "1 Chronicles 22:13",
+            "relationship": "David's strength exhortations to Solomon",
+            "rationale": "David tells Solomon to be strong and be a man; the other Davidic charge tells him to act courageously and be strong while observing Moses' ordinances, preserving the different accompanying phrases rather than importing one into the other."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:5",
+          "target": "2 Samuel 3:26-28",
+          "old_row": {
+            "source_reference": "1 Kings 2:5",
+            "target": "2 Samuel 3:26-28",
+            "relationship": "The Abner killing named in Davids Joab charge",
+            "rationale": "David names Joab killing Abner son of Ner among his accusations; Samuel narrates Joab bringing Abner aside and striking him and David denying bloodguilt, preserving the reported charge and earlier event without a new judicial reconstruction."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:5",
+            "target": "2 Samuel 3:26-28",
+            "relationship": "The Abner killing named in David's Joab charge",
+            "rationale": "David names Joab killing Abner son of Ner among his accusations; Samuel narrates Joab bringing Abner aside and striking him and David denying bloodguilt, preserving the reported charge and earlier event without a new judicial reconstruction."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:5",
+          "target": "2 Samuel 20:9-10",
+          "old_row": {
+            "source_reference": "1 Kings 2:5",
+            "target": "2 Samuel 20:9-10",
+            "relationship": "The Amasa killing separately named in Davids Joab charge",
+            "rationale": "David's charge also names Amasa among Joab's victims; Samuel narrates Joab addressing Amasa, holding his beard and striking him fatally, grounding that particular recalled killing without inventing a separately conducted trial."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:5",
+            "target": "2 Samuel 20:9-10",
+            "relationship": "The Amasa killing separately named in David's Joab charge",
+            "rationale": "David's charge also names Amasa among Joab's victims; Samuel narrates Joab addressing Amasa, holding his beard and striking him fatally, grounding that particular recalled killing without inventing a separately conducted trial."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:8",
+          "target": "2 Samuel 19:24",
+          "old_row": {
+            "source_reference": "1 Kings 2:8",
+            "target": "2 Samuel 19:24",
+            "relationship": "Davids recalled nondeath oath beside the earlier oath to Shimei",
+            "rationale": "David recalls swearing not to put Shimei to death with the sword; the earlier encounter expressly says the king swore You will certainly not die, preserving the fuller sword wording only in the recollection and not independently resolving its later application."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:8",
+            "target": "2 Samuel 19:24",
+            "relationship": "David's recalled nondeath oath beside the earlier oath to Shimei",
+            "rationale": "David recalls swearing not to put Shimei to death with the sword; the earlier encounter expressly says the king swore You will certainly not die, preserving the fuller sword wording only in the recollection and not independently resolving its later application."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:10",
+          "target": "1 Chronicles 29:28",
+          "old_row": {
+            "source_reference": "1 Kings 2:10",
+            "target": "1 Chronicles 29:28",
+            "relationship": "David dying and Solomons succession in the two summaries",
+            "rationale": "Kings says David lay with his fathers and was buried in his city; Chronicles reports death in old age and Solomon reigning in his place, comparing the named death summary without adding the burial detail to Chronicles."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:10",
+            "target": "1 Chronicles 29:28",
+            "relationship": "David dying and Solomon's succession in the two summaries",
+            "rationale": "Kings says David lay with his fathers and was buried in his city; Chronicles reports death in old age and Solomon reigning in his place, comparing the named death summary without adding the burial detail to Chronicles."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:13",
+          "target": "1 Kings 2:17",
+          "old_row": {
+            "source_reference": "1 Kings 2:13",
+            "target": "1 Kings 2:17",
+            "relationship": "Same-chapter Adonijahs peaceful-arrival claim leads to his stated request",
+            "rationale": "Adonijah comes to Bathsheba claiming a peaceful coming; his ensuing request asks her to obtain Abishag as a wife, preserving his claim without independently certifying or denying his private political motives."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:13",
+            "target": "1 Kings 2:17",
+            "relationship": "Same-chapter Adonijah's peaceful-arrival claim leads to his stated request",
+            "rationale": "Adonijah comes to Bathsheba claiming a peaceful coming; his ensuing request asks her to obtain Abishag as a wife, preserving his claim without independently certifying or denying his private political motives."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:15",
+          "target": "1 Kings 1:5",
+          "old_row": {
+            "source_reference": "1 Kings 2:15",
+            "target": "1 Kings 1:5",
+            "relationship": "Adonijahs retrospective kingdom claim beside his earlier self-exaltation",
+            "rationale": "Adonijah now says the kingdom had been his but became his brother's from the Lord; the earlier narrator states his I will reign self-exaltation, preserving the difference between his claim and a narrated lawful appointment."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:15",
+            "target": "1 Kings 1:5",
+            "relationship": "Adonijah's retrospective kingdom claim beside his earlier self-exaltation",
+            "rationale": "Adonijah now says the kingdom had been his but became his brother's from the Lord; the earlier narrator states his I will reign self-exaltation, preserving the difference between his claim and a narrated lawful appointment."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:17",
+          "target": "1 Kings 2:21",
+          "old_row": {
+            "source_reference": "1 Kings 2:17",
+            "target": "1 Kings 2:21",
+            "relationship": "Same-chapter Adonijahs Abishag petition is delivered by Bathsheba",
+            "rationale": "Adonijah asks Bathsheba to request Abishag the Shunammite as his wife; she later makes that named request to Solomon, distinguishing its transmission from an actual marriage or royal agreement."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:17",
+            "target": "1 Kings 2:21",
+            "relationship": "Same-chapter Adonijah's Abishag petition is delivered by Bathsheba",
+            "rationale": "Adonijah asks Bathsheba to request Abishag the Shunammite as his wife; she later makes that named request to Solomon, distinguishing its transmission from an actual marriage or royal agreement."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:18",
+          "target": "1 Kings 2:19-21",
+          "old_row": {
+            "source_reference": "1 Kings 2:18",
+            "target": "1 Kings 2:19-21",
+            "relationship": "Same-chapter Bathshebas promise to speak is followed by her audience and petition",
+            "rationale": "Bathsheba says she will speak to the king; the following account places her before Solomon and quotes the Abishag request, matching the promised advocacy without claiming he grants it."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:18",
+            "target": "1 Kings 2:19-21",
+            "relationship": "Same-chapter Bathsheba's promise to speak is followed by her audience and petition",
+            "rationale": "Bathsheba says she will speak to the king; the following account places her before Solomon and quotes the Abishag request, matching the promised advocacy without claiming he grants it."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:21",
+          "target": "1 Kings 2:22",
+          "old_row": {
+            "source_reference": "1 Kings 2:21",
+            "target": "1 Kings 2:22",
+            "relationship": "Same-chapter the marriage petition receives Solomons explicit kingdom interpretation",
+            "rationale": "Bathsheba asks Abishag for Adonijah; Solomon replies by asking why she does not ask the kingdom too and names the elder brother's associates, preserving his interpretation without independently proving a rule about possession of royal women."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:21",
+            "target": "1 Kings 2:22",
+            "relationship": "Same-chapter the marriage petition receives Solomon's explicit kingdom interpretation",
+            "rationale": "Bathsheba asks Abishag for Adonijah; Solomon replies by asking why she does not ask the kingdom too and names the elder brother's associates, preserving his interpretation without independently proving a rule about possession of royal women."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:23",
+          "target": "1 Kings 2:24-25",
+          "old_row": {
+            "source_reference": "1 Kings 2:23",
+            "target": "1 Kings 2:24-25",
+            "relationship": "Same-chapter the oath against Adonijahs life and the stated sentence and death",
+            "rationale": "Solomon swears Adonijah spoke against his own life; he then declares death that day and the narrator reports it, keeping the king's assessment and narrated outcome distinct rather than independently approving the sentence."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:23",
+            "target": "1 Kings 2:24-25",
+            "relationship": "Same-chapter the oath against Adonijah's life and the stated sentence and death",
+            "rationale": "Solomon swears Adonijah spoke against his own life; he then declares death that day and the narrator reports it, keeping the king's assessment and narrated outcome distinct rather than independently approving the sentence."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:25",
+          "target": "1 Kings 2:24",
+          "old_row": {
+            "source_reference": "1 Kings 2:25",
+            "target": "1 Kings 2:24",
+            "relationship": "Same-chapter Adonijahs reported death answers Solomons particular declaration",
+            "rationale": "The king has Adonijah killed through Benaiah and the death occurs that day, matching Solomon's preceding this-day declaration without changing it into an unreported battlefield encounter."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:25",
+            "target": "1 Kings 2:24",
+            "relationship": "Same-chapter Adonijah's reported death answers Solomon's particular declaration",
+            "rationale": "The king has Adonijah killed through Benaiah and the death occurs that day, matching Solomon's preceding this-day declaration without changing it into an unreported battlefield encounter."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:28",
+          "target": "1 Kings 1:7",
+          "old_row": {
+            "source_reference": "1 Kings 2:28",
+            "target": "1 Kings 1:7",
+            "relationship": "Joabs stated Adonijah allegiance in the plot and refuge notices",
+            "rationale": "The refuge notice says Joab followed Adonijah and not Solomon; the earlier account explicitly says he helped Adonijah by following him, preserving not Solomon rather than importing another edition's different negative comparison."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:28",
+            "target": "1 Kings 1:7",
+            "relationship": "Joab's stated Adonijah allegiance in the plot and refuge notices",
+            "rationale": "The refuge notice says Joab followed Adonijah and not Solomon; the earlier account explicitly says he helped Adonijah by following him, preserving not Solomon rather than importing another edition's different negative comparison."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:29",
+          "target": "1 Kings 2:30",
+          "old_row": {
+            "source_reference": "1 Kings 2:29",
+            "target": "1 Kings 2:30",
+            "relationship": "Same-chapter the royal altar inquiry and Benaiahs ensuing exchange with Joab",
+            "rationale": "Solomon learns of Joab's altar refuge, asks its reason and sends Benaiah to kill and bury him; the next unit gives Benaiah's come-out message and Joab's refusal, without silently making the different quoted instructions identical."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:29",
+            "target": "1 Kings 2:30",
+            "relationship": "Same-chapter the royal altar inquiry and Benaiah's ensuing exchange with Joab",
+            "rationale": "Solomon learns of Joab's altar refuge, asks its reason and sends Benaiah to kill and bury him; the next unit gives Benaiah's come-out message and Joab's refusal, without silently making the different quoted instructions identical."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:30",
+          "target": "1 Kings 2:31",
+          "old_row": {
+            "source_reference": "1 Kings 2:30",
+            "target": "1 Kings 2:31",
+            "relationship": "Same-chapter Joabs refusal to leave is reported and receives a royal response",
+            "rationale": "Joab says he will die there and Benaiah relays his answer; Solomon next tells Benaiah to do as Joab said, kill and bury him, preserving the message sequence without inventing a separate release or negotiation."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:30",
+            "target": "1 Kings 2:31",
+            "relationship": "Same-chapter Joab's refusal to leave is reported and receives a royal response",
+            "rationale": "Joab says he will die there and Benaiah relays his answer; Solomon next tells Benaiah to do as Joab said, kill and bury him, preserving the message sequence without inventing a separate release or negotiation."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:32",
+          "target": "2 Samuel 3:26-28",
+          "old_row": {
+            "source_reference": "1 Kings 2:32",
+            "target": "2 Samuel 3:26-28",
+            "relationship": "The Abner charge includes the earlier stated lack of Davids knowledge",
+            "rationale": "Solomon says Joab killed Abner without David knowing; Samuel expressly says David did not know of Abner's recall and then reports Joab's fatal strike and David's denial of bloodguilt, preserving each actual knowledge statement."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:32",
+            "target": "2 Samuel 3:26-28",
+            "relationship": "The Abner charge includes the earlier stated lack of David's knowledge",
+            "rationale": "Solomon says Joab killed Abner without David knowing; Samuel expressly says David did not know of Abner's recall and then reports Joab's fatal strike and David's denial of bloodguilt, preserving each actual knowledge statement."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35",
+          "target": "1 Kings 2:27",
+          "old_row": {
+            "source_reference": "1 Kings 2:35",
+            "target": "1 Kings 2:27",
+            "relationship": "Same-chapter Zadoks replacement appointment follows Abiathars expulsion",
+            "rationale": "Solomon appoints Zadok first priest in Abiathar's place after the notice expelling Abiathar from priesthood; the unit's separate Benaiah army appointment remains intact without converting it to the different office in another list."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35",
+            "target": "1 Kings 2:27",
+            "relationship": "Same-chapter Zadok's replacement appointment follows Abiathars expulsion",
+            "rationale": "Solomon appoints Zadok first priest in Abiathar's place after the notice expelling Abiathar from priesthood; the unit's separate Benaiah army appointment remains intact without converting it to the different office in another list."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35b",
+          "target": "1 Kings 5:10",
+          "old_row": {
+            "source_reference": "1 Kings 2:35b",
+            "target": "1 Kings 5:10",
+            "relationship": "Solomons discernment surpassing ancient and Egyptian wise people",
+            "rationale": "The continuation compares Solomon's discernment with the sons of old and Egypt's discerning people; the later summary makes the same ancient-and-Egyptian comparison, without replacing sons of old with an independently reconstructed school of wisdom."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35b",
+            "target": "1 Kings 5:10",
+            "relationship": "Solomon's discernment surpassing ancient and Egyptian wise people",
+            "rationale": "The continuation compares Solomon's discernment with the sons of old and Egypt's discerning people; the later summary makes the same ancient-and-Egyptian comparison, without replacing sons of old with an independently reconstructed school of wisdom."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35e",
+          "target": "2 Chronicles 4:2-6",
+          "old_row": {
+            "source_reference": "1 Kings 2:35e",
+            "target": "2 Chronicles 4:2-6",
+            "relationship": "The sea and washing-basin objects in Solomons construction accounts",
+            "rationale": "The continuation lists the sea, supports, washbasins, pillars and other bronze objects; Chronicles describes the cast sea and washing basins, connecting those particular objects without treating the entire lists, counts or descriptions as identical."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35e",
+            "target": "2 Chronicles 4:2-6",
+            "relationship": "The sea and washing-basin objects in Solomon's construction accounts",
+            "rationale": "The continuation lists the sea, supports, washbasins, pillars and other bronze objects; Chronicles describes the cast sea and washing basins, connecting those particular objects without treating the entire lists, counts or descriptions as identical."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35f",
+          "target": "2 Chronicles 8:11",
+          "old_row": {
+            "source_reference": "1 Kings 2:35f",
+            "target": "2 Chronicles 8:11",
+            "relationship": "Pharaohs daughter moved from Davids city to a built house",
+            "rationale": "The continuation connects the daughter's move to the house built for her with citadel work; Chronicles likewise describes her move from David's city to her built house and supplies a holiness explanation, without inserting that explanation or harmonizing every house pronoun."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35f",
+            "target": "2 Chronicles 8:11",
+            "relationship": "Pharaohs daughter moved from David's city to a built house",
+            "rationale": "The continuation connects the daughter's move to the house built for her with citadel work; Chronicles likewise describes her move from David's city to her built house and supplies a holiness explanation, without inserting that explanation or harmonizing every house pronoun."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35g",
+          "target": "2 Chronicles 8:12-13",
+          "old_row": {
+            "source_reference": "1 Kings 2:35g",
+            "target": "2 Chronicles 8:12-13",
+            "relationship": "Solomons altar offerings and the three-season annual schedule",
+            "rationale": "The continuation says Solomon offered three whole burnt offerings and peace offerings in the year and incense; Chronicles specifies altar offerings and three yearly festival seasons, preserving its schedule without equating each offering category or assuming three individual animals."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35g",
+            "target": "2 Chronicles 8:12-13",
+            "relationship": "Solomon's altar offerings and the three-season annual schedule",
+            "rationale": "The continuation says Solomon offered three whole burnt offerings and peace offerings in the year and incense; Chronicles specifies altar offerings and three yearly festival seasons, preserving its schedule without equating each offering category or assuming three individual animals."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35i",
+          "target": "2 Chronicles 8:5-6",
+          "old_row": {
+            "source_reference": "1 Kings 2:35i",
+            "target": "2 Chronicles 8:5-6",
+            "relationship": "Upper Beth-horon and Baalath among Solomons named building projects",
+            "rationale": "The source lists Upper Beth-horon and Baalath with Assour, Megiddo and Gezer; Chronicles lists Upper Baithoron, Lower Baithoron and Baalath. The named building parallels retain the different forms and additional cities without a new site-equivalence claim."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35i",
+            "target": "2 Chronicles 8:5-6",
+            "relationship": "Upper Beth-horon and Baalath among Solomon's named building projects",
+            "rationale": "The source lists Upper Beth-horon and Baalath with Assour, Megiddo and Gezer; Chronicles lists Upper Baithoron, Lower Baithoron and Baalath. The named building parallels retain the different forms and additional cities without a new site-equivalence claim."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:39",
+          "target": "1 Kings 2:40",
+          "old_row": {
+            "source_reference": "1 Kings 2:39",
+            "target": "1 Kings 2:40",
+            "relationship": "Same-chapter the Gath slave report is followed by Shimeis stated retrieval journey",
+            "rationale": "Two slaves flee to Achish at Gath and Shimei is told; the next account says he travels to Achish at Gath and brings his slaves back, linking the named destination and retrieval without assigning an unreported route."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:39",
+            "target": "1 Kings 2:40",
+            "relationship": "Same-chapter the Gath slave report is followed by Shimei's stated retrieval journey",
+            "rationale": "Two slaves flee to Achish at Gath and Shimei is told; the next account says he travels to Achish at Gath and brings his slaves back, linking the named destination and retrieval without assigning an unreported route."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:40",
+          "target": "1 Kings 2:41",
+          "old_row": {
+            "source_reference": "1 Kings 2:40",
+            "target": "1 Kings 2:41",
+            "relationship": "Same-chapter the narrated Gath journey becomes Solomons received report",
+            "rationale": "Shimei goes to Gath and brings back his slaves; the next report tells Solomon those same journey and retrieval facts, preserving the difference between narrated action and the king's received information."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:40",
+            "target": "1 Kings 2:41",
+            "relationship": "Same-chapter the narrated Gath journey becomes Solomon's received report",
+            "rationale": "Shimei goes to Gath and brings back his slaves; the next report tells Solomon those same journey and retrieval facts, preserving the difference between narrated action and the king's received information."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:43",
+          "target": "1 Kings 2:38",
+          "old_row": {
+            "source_reference": "1 Kings 2:43",
+            "target": "1 Kings 2:38",
+            "relationship": "Same-chapter the oath-and-command question beside Shimeis earlier acceptance",
+            "rationale": "Solomon asks why Shimei did not keep the Lord's oath and royal command; Shimei had said the king's word was good and his servant would obey, comparing the accusation and explicit earlier pledge without a new ruling on every legal condition."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:43",
+            "target": "1 Kings 2:38",
+            "relationship": "Same-chapter the oath-and-command question beside Shimei's earlier acceptance",
+            "rationale": "Solomon asks why Shimei did not keep the Lord's oath and royal command; Shimei had said the king's word was good and his servant would obey, comparing the accusation and explicit earlier pledge without a new ruling on every legal condition."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:46",
+          "target": "1 Kings 2:44-45",
+          "old_row": {
+            "source_reference": "1 Kings 2:46",
+            "target": "1 Kings 2:44-45",
+            "relationship": "Same-chapter the Shimei death follows the kings stated repayment-and-throne speech",
+            "rationale": "The king commands Benaiah, who kills Shimei; the preceding speech names Shimei's wrongs and contrasts repayment with Solomon's blessing and David's throne, preserving that stated rationale without inventing an additional weapon or trial."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:46",
+            "target": "1 Kings 2:44-45",
+            "relationship": "Same-chapter the Shimei death follows the king's stated repayment-and-throne speech",
+            "rationale": "The king commands Benaiah, who kills Shimei; the preceding speech names Shimei's wrongs and contrasts repayment with Solomon's blessing and David's throne, preserving that stated rationale without inventing an additional weapon or trial."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:46a",
+          "target": "1 Kings 2:35a",
+          "old_row": {
+            "source_reference": "1 Kings 2:46a",
+            "target": "1 Kings 2:35a",
+            "relationship": "Same-chapter Solomons wisdom and the repeated sand simile with different referents",
+            "rationale": "The later continuation calls Solomon discerning and wise and compares Judah-Israel's multitude to seashore sand; the earlier continuation gives wisdom and compares his breadth of heart to sand, retaining people versus heart as different referents."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:46a",
+            "target": "1 Kings 2:35a",
+            "relationship": "Same-chapter Solomon's wisdom and the repeated sand simile with different referents",
+            "rationale": "The later continuation calls Solomon discerning and wise and compares Judah-Israel's multitude to seashore sand; the earlier continuation gives wisdom and compares his breadth of heart to sand, retaining people versus heart as different referents."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:46l",
+          "target": "1 Kings 4:1",
+          "old_row": {
+            "source_reference": "1 Kings 2:46l",
+            "target": "1 Kings 4:1",
+            "relationship": "Solomons named reign in the continuation and ensuing royal heading",
+            "rationale": "The continuation says Solomon son of David reigned over Israel and Judah in Jerusalem; the next chapter's heading says King Solomon reigned over Israel, preserving the continuation's fuller family, people and city wording."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:46l",
+            "target": "1 Kings 4:1",
+            "relationship": "Solomon's named reign in the continuation and ensuing royal heading",
+            "rationale": "The continuation says Solomon son of David reigned over Israel and Judah in Jerusalem; the next chapter's heading says King Solomon reigned over Israel, preserving the continuation's fuller family, people and city wording."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:3",
+          "target": "1 Kings 2:3",
+          "old_row": {
+            "source_reference": "1 Kings 3:3",
+            "target": "1 Kings 2:3",
+            "relationship": "Solomons stated Davidic obedience beside Davids charge",
+            "rationale": "The narrator says Solomon loved the Lord and walked in David's ordinances, while also noting high-place sacrifice; David's earlier charge required walking in God's ways and Mosaic commands, preserving the narrator's qualification without claiming flawless observance."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:3",
+            "target": "1 Kings 2:3",
+            "relationship": "Solomon's stated Davidic obedience beside David's charge",
+            "rationale": "The narrator says Solomon loved the Lord and walked in David's ordinances, while also noting high-place sacrifice; David's earlier charge required walking in God's ways and Mosaic commands, preserving the narrator's qualification without claiming flawless observance."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:8",
+          "target": "2 Chronicles 1:9",
+          "old_row": {
+            "source_reference": "1 Kings 3:8",
+            "target": "2 Chronicles 1:9",
+            "relationship": "The unnumberable or dust-like royal people in Solomons prayer",
+            "rationale": "Kings describes God's chosen people as numerous beyond numbering; Chronicles describes the people over whom Solomon rules as numerous as earth's dust, preserving the actual magnitude descriptions rather than inventing a census total."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:8",
+            "target": "2 Chronicles 1:9",
+            "relationship": "The unnumberable or dust-like royal people in Solomon's prayer",
+            "rationale": "Kings describes God's chosen people as numerous beyond numbering; Chronicles describes the people over whom Solomon rules as numerous as earth's dust, preserving the actual magnitude descriptions rather than inventing a census total."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:16",
+          "target": "1 Kings 3:23",
+          "old_row": {
+            "source_reference": "1 Kings 3:16",
+            "target": "1 Kings 3:23",
+            "relationship": "Same-chapter the two womens appearance leads to the kings stated competing claims",
+            "rationale": "Two women appear before the king; the later speech restates each living-son and dead-son claim, connecting the particular disputants and case without using their occupation as an independently inferred credibility judgment."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:16",
+            "target": "1 Kings 3:23",
+            "relationship": "Same-chapter the two womens appearance leads to the king's stated competing claims",
+            "rationale": "Two women appear before the king; the later speech restates each living-son and dead-son claim, connecting the particular disputants and case without using their occupation as an independently inferred credibility judgment."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:21",
+          "target": "1 Kings 3:22-23",
+          "old_row": {
+            "source_reference": "1 Kings 3:21",
+            "target": "1 Kings 3:22-23",
+            "relationship": "Same-chapter the mothers identification claim is contested and restated",
+            "rationale": "The first woman says the dead child is not the son she bore; the other denies her claim and the king restates both competing positions, without adding an unreported recognition test or independent eyewitness."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:21",
+            "target": "1 Kings 3:22-23",
+            "relationship": "Same-chapter the mother's identification claim is contested and restated",
+            "rationale": "The first woman says the dead child is not the son she bore; the other denies her claim and the king restates both competing positions, without adding an unreported recognition test or independent eyewitness."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:27",
+          "target": "1 Kings 3:26",
+          "old_row": {
+            "source_reference": "1 Kings 3:27",
+            "target": "1 Kings 3:26",
+            "relationship": "Same-chapter the kings mother-identification follows the actual contrasting pleas",
+            "rationale": "The king identifies the mother by the Give it to her plea and forbids killing; the preceding unit explicitly contrasts that plea with the other woman's Divide him, without replacing the narrative's stated basis with a new biological test."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:27",
+            "target": "1 Kings 3:26",
+            "relationship": "Same-chapter the king's mother-identification follows the actual contrasting pleas",
+            "rationale": "The king identifies the mother by the Give it to her plea and forbids killing; the preceding unit explicitly contrasts that plea with the other woman's Divide him, without replacing the narrative's stated basis with a new biological test."
+          },
+          "reason": "Explanatory possessive punctuation; the one1:11rationale also distinguishes the narrator maternal identification from Nathans actual quoted address. No source or target wording changed.",
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        }
+      ],
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "1-kings-1-3-author-precision-refinements.json",
+      "sha256": "e9b48903e746205af73d1e0255cdd43e9dddd50df5bfd4d8d751b364c341a6ba",
+      "changes": [
+        {
+          "source_reference": "1 Kings 1:32",
+          "target": "1 Kings 1:38",
+          "old_row": {
+            "source_reference": "1 Kings 1:32",
+            "target": "1 Kings 1:38",
+            "relationship": "Same-chapter the three summoned officials lead the instructed procession",
+            "rationale": "David summons Zadok, Nathan and Benaiah; the later procession names those three with the Cherethites and Pelethites, matching the particular officials while preserving the additional participants in the action account."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:32",
+            "target": "1 Kings 1:38",
+            "relationship": "Same-chapter the three summoned officials participate in the instructed procession",
+            "rationale": "David summons Zadok, Nathan and Benaiah; the later procession names those three with the Cherethites and Pelethites, matching the particular officials while preserving the additional participants in the action account."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:37",
+          "target": "1 Kings 1:47",
+          "old_row": {
+            "source_reference": "1 Kings 1:37",
+            "target": "1 Kings 1:47",
+            "relationship": "Same-chapter the greater-throne wish is repeated in the servants blessing",
+            "rationale": "Benaiah wishes God to make Solomon's throne greater than David's; the later servants' blessing repeats the greater-throne wish and adds a better name, keeping both as stated blessings rather than an independently measured comparison."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:37",
+            "target": "1 Kings 1:47",
+            "relationship": "Same-chapter the greater-throne wish is repeated in the servants' blessing",
+            "rationale": "Benaiah wishes God to make Solomon's throne greater than David's; the later servants' blessing repeats the greater-throne wish and adds a better name, keeping both as stated blessings rather than an independently measured comparison."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:41",
+          "target": "1 Kings 1:45",
+          "old_row": {
+            "source_reference": "1 Kings 1:41",
+            "target": "1 Kings 1:45",
+            "relationship": "Same-chapter Joab's sound question receives Jonathans stated explanation",
+            "rationale": "Joab hears the horn and asks about the echoing city; Jonathan's later account identifies the Gihon anointing and joyful return as that sound, preserving his answer rather than making Joab already know its cause."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:41",
+            "target": "1 Kings 1:45",
+            "relationship": "Same-chapter Joab's sound question receives Jonathan's stated explanation",
+            "rationale": "Joab hears the horn and asks about the echoing city; Jonathan's later account identifies the Gihon anointing and joyful return as that sound, preserving his answer rather than making Joab already know its cause."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:42",
+          "target": "2 Samuel 15:27",
+          "old_row": {
+            "source_reference": "1 Kings 1:42",
+            "target": "2 Samuel 15:27",
+            "relationship": "Jonathan explicitly identified as Abiathars son in two royal-message contexts",
+            "rationale": "The arrival names Jonathan son of Abiathar the priest; David's earlier ark-return instructions likewise name Jonathan son of Abiathar, supplying the particular family designation without equating him with other men named Jonathan."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:42",
+            "target": "2 Samuel 15:27",
+            "relationship": "Jonathan explicitly identified as Abiathar's son in two royal-message contexts",
+            "rationale": "The arrival names Jonathan son of Abiathar the priest; David's earlier ark-return instructions likewise name Jonathan son of Abiathar, supplying the particular family designation without equating him with other men named Jonathan."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:43",
+          "target": "1 Kings 1:30",
+          "old_row": {
+            "source_reference": "1 Kings 1:43",
+            "target": "1 Kings 1:30",
+            "relationship": "Same-chapter Jonathans David-made-Solomon-king report and the royal undertaking",
+            "rationale": "Jonathan reports that David has made Solomon king; David's earlier oath had expressly undertaken Solomon's installation that day, connecting the report with the named king's own stated decision."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:43",
+            "target": "1 Kings 1:30",
+            "relationship": "Same-chapter Jonathan's David-made-Solomon-king report and the royal undertaking",
+            "rationale": "Jonathan reports that David has made Solomon king; David's earlier oath had expressly undertaken Solomon's installation that day, connecting the report with the named king's own stated decision."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:44",
+          "target": "1 Kings 1:38",
+          "old_row": {
+            "source_reference": "1 Kings 1:44",
+            "target": "1 Kings 1:38",
+            "relationship": "Same-chapter Jonathans procession account repeats the narrated participants",
+            "rationale": "Jonathan names Zadok, Nathan, Benaiah, the Cherethites and Pelethites with the king's mule; the action notice names that group and mule, grounding his specific report without adding an unreported eyewitness claim."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:44",
+            "target": "1 Kings 1:38",
+            "relationship": "Same-chapter Jonathan's procession account repeats the narrated participants",
+            "rationale": "Jonathan names Zadok, Nathan, Benaiah, the Cherethites and Pelethites with the king's mule; the action notice names that group and mule, grounding his specific report without adding an unreported eyewitness claim."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 1:47",
+          "target": "1 Kings 1:37",
+          "old_row": {
+            "source_reference": "1 Kings 1:47",
+            "target": "1 Kings 1:37",
+            "relationship": "Same-chapter the servants blessing repeats Benaiah's greater-throne wish",
+            "rationale": "The servants wish Solomon a better name and greater throne than David; Benaiah's earlier wish specifically asks a greater throne, retaining the additional name clause and the reported character of both blessings."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 1:47",
+            "target": "1 Kings 1:37",
+            "relationship": "Same-chapter the servants' blessing repeats Benaiah's greater-throne wish",
+            "rationale": "The servants wish Solomon a better name and greater throne than David; Benaiah's earlier wish specifically asks a greater throne, retaining the additional name clause and the reported character of both blessings."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:2",
+          "target": "Joshua 23:14",
+          "old_row": {
+            "source_reference": "1 Kings 2:2",
+            "target": "Joshua 23:14",
+            "relationship": "The way-of-all-the-earth departure formula in leaders addresses",
+            "rationale": "David says he is going the way of all the earth; Joshua likewise says he is departing the way of all on earth, comparing the particular departure formula without treating their later instructions as identical."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:2",
+            "target": "Joshua 23:14",
+            "relationship": "The way-of-all-the-earth departure formula in leaders' addresses",
+            "rationale": "David says he is going the way of all the earth; Joshua likewise says he is departing the way of all on earth, comparing the particular departure formula without treating their later instructions as identical."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:3",
+          "target": "Deuteronomy 17:18-20",
+          "old_row": {
+            "source_reference": "1 Kings 2:3",
+            "target": "Deuteronomy 17:18-20",
+            "relationship": "The royal charge to keep Moses law beside the law for a ruler",
+            "rationale": "David directs Solomon to keep the Lord's written Mosaic commandments, statutes and judgments; Deuteronomy directs the ruler to possess and read the law and keep its commands, without claiming Kings reports him making the commanded scroll."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:3",
+            "target": "Deuteronomy 17:18-20",
+            "relationship": "The royal charge to keep Moses' law beside the law for a ruler",
+            "rationale": "David directs Solomon to keep the Lord's written Mosaic commandments, statutes and judgments; Deuteronomy directs the ruler to possess and read the law and keep its commands, without claiming Kings reports him making the commanded scroll."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:12",
+          "target": "1 Chronicles 29:23",
+          "old_row": {
+            "source_reference": "1 Kings 2:12",
+            "target": "1 Chronicles 29:23",
+            "relationship": "Solomon seated on his fathers throne with the supplied age retained",
+            "rationale": "Kings seats Solomon on David's throne and explicitly says he was twelve years old; Chronicles likewise seats him on David his father's throne but gives no age there, so twelve is not removed or independently dated."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:12",
+            "target": "1 Chronicles 29:23",
+            "relationship": "Solomon seated on his father's throne with the supplied age retained",
+            "rationale": "Kings seats Solomon on David's throne and explicitly says he was twelve years old; Chronicles likewise seats him on David his father's throne but gives no age there, so twelve is not removed or independently dated."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:19",
+          "target": "1 Kings 1:15-16",
+          "old_row": {
+            "source_reference": "1 Kings 2:19",
+            "target": "1 Kings 1:15-16",
+            "relationship": "Bathsheba approaching the two named kings in differently described audiences",
+            "rationale": "Bathsheba formerly entered David's chamber and bowed; she now approaches Solomon, who rises, kisses her and provides the mother's throne at his right, preserving the particular changed court treatment without adding an unreported office."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:19",
+            "target": "1 Kings 1:15-16",
+            "relationship": "Bathsheba approaching the two named kings in differently described audiences",
+            "rationale": "Bathsheba formerly entered David's chamber and bowed; she now approaches Solomon, who rises and kisses her, and a throne is placed for his mother at his right, preserving the changed court treatment without assigning the placement to an unreported actor or adding an office."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:26",
+          "target": "2 Samuel 15:24-29",
+          "old_row": {
+            "source_reference": "1 Kings 2:26",
+            "target": "2 Samuel 15:24-29",
+            "relationship": "Abiathars ark-associated service in the recalled hardship and flight narratives",
+            "rationale": "Solomon cites Abiathar's ark service and shared hardships as reasons not to kill him; Samuel places Abiathar in David's flight and says he and Zadok returned the ark, without assigning him every Levite's physical carrying task."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:26",
+            "target": "2 Samuel 15:24-29",
+            "relationship": "Abiathar's ark-associated service in the recalled hardship and flight narratives",
+            "rationale": "Solomon cites Abiathar's ark service and shared hardships as reasons not to kill him; Samuel places Abiathar in David's flight and says he and Zadok returned the ark, without assigning him every Levite's physical carrying task."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35",
+          "target": "1 Kings 2:27",
+          "old_row": {
+            "source_reference": "1 Kings 2:35",
+            "target": "1 Kings 2:27",
+            "relationship": "Same-chapter Zadok's replacement appointment follows Abiathars expulsion",
+            "rationale": "Solomon appoints Zadok first priest in Abiathar's place after the notice expelling Abiathar from priesthood; the unit's separate Benaiah army appointment remains intact without converting it to the different office in another list."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35",
+            "target": "1 Kings 2:27",
+            "relationship": "Same-chapter Zadok's replacement appointment follows Abiathar's expulsion",
+            "rationale": "Solomon appoints Zadok first priest in Abiathar's place after the notice expelling Abiathar from priesthood; the unit's separate Benaiah army appointment remains intact without converting it to the different office in another list."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35e",
+          "target": "2 Chronicles 4:2-6",
+          "old_row": {
+            "source_reference": "1 Kings 2:35e",
+            "target": "2 Chronicles 4:2-6",
+            "relationship": "The sea and washing-basin objects in Solomon's construction accounts",
+            "rationale": "The continuation lists the sea, supports, washbasins, pillars and other bronze objects; Chronicles describes the cast sea and washing basins, connecting those particular objects without treating the entire lists, counts or descriptions as identical."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35e",
+            "target": "2 Chronicles 4:2-6",
+            "relationship": "The sea and washing-basin objects in Solomon's construction accounts",
+            "rationale": "The continuation lists the sea, supports, washbasins, pillars, courtyard fountain and bronze sea; Chronicles describes the cast sea and washing basins, connecting those particular objects without treating the entire lists, counts, materials or descriptions as identical."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:35f",
+          "target": "2 Chronicles 8:11",
+          "old_row": {
+            "source_reference": "1 Kings 2:35f",
+            "target": "2 Chronicles 8:11",
+            "relationship": "Pharaohs daughter moved from David's city to a built house",
+            "rationale": "The continuation connects the daughter's move to the house built for her with citadel work; Chronicles likewise describes her move from David's city to her built house and supplies a holiness explanation, without inserting that explanation or harmonizing every house pronoun."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:35f",
+            "target": "2 Chronicles 8:11",
+            "relationship": "Pharaoh's daughter's proposed and reported move from David's city",
+            "rationale": "The continuation says Pharaoh's daughter would go up from David's city to her built house amid citadel notices; Chronicles reports Solomon bringing her to that house and gives a holiness explanation, preserving prospective versus completed wording without harmonizing the chronology or importing the explanation."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:45",
+          "target": "Psalms 131:11-12",
+          "old_row": {
+            "source_reference": "1 Kings 2:45",
+            "target": "Psalms 131:11-12",
+            "relationship": "The enduring Davidic-throne declaration beside the psalms conditional promise",
+            "rationale": "Solomon's speech declares David's throne prepared before the Lord for ever; the psalm gives the sworn Davidic throne promise and its explicit sons-keeping-covenant condition, without deleting that condition or treating the royal declaration as an independently verified future history."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:45",
+            "target": "Psalms 131:11-12",
+            "relationship": "The enduring Davidic-throne declaration beside the psalm's conditional promise",
+            "rationale": "Solomon's speech declares David's throne prepared before the Lord for ever; the psalm gives the sworn Davidic throne promise and its explicit sons-keeping-covenant condition, without deleting that condition or treating the royal declaration as an independently verified future history."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:46k",
+          "target": "2 Chronicles 9:26",
+          "old_row": {
+            "source_reference": "1 Kings 2:46k",
+            "target": "2 Chronicles 9:26",
+            "relationship": "Rule from the River to foreigners land and Egypts border",
+            "rationale": "Both describe Solomon's rule among the kings from the River to the foreigners' land and Egypt's border, matching the actual boundary formula without supplying a newly measured territory or independently verifying every ruler's allegiance."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:46k",
+            "target": "2 Chronicles 9:26",
+            "relationship": "Rule from the River to foreigners' land and Egypt's border",
+            "rationale": "Both describe Solomon's rule among the kings from the River to the foreigners' land and Egypt's border, matching the actual boundary formula without supplying a newly measured territory or independently verifying every ruler's allegiance."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 2:46l",
+          "target": "1 Kings 4:1",
+          "old_row": {
+            "source_reference": "1 Kings 2:46l",
+            "target": "1 Kings 4:1",
+            "relationship": "Solomon's named reign in the continuation and ensuing royal heading",
+            "rationale": "The continuation says Solomon son of David reigned over Israel and Judah in Jerusalem; the next chapter's heading says King Solomon reigned over Israel, preserving the continuation's fuller family, people and city wording."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 2:46l",
+            "target": "1 Kings 4:1",
+            "relationship": "Solomon's named reign in the continuation and ensuing royal heading",
+            "rationale": "The continuation says Solomon son of David reigned over Israel and Judah in Jerusalem; the later chapter's royal heading says King Solomon reigned over Israel, preserving the continuation's fuller family, people and city wording."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:9",
+          "target": "2 Chronicles 1:10",
+          "old_row": {
+            "source_reference": "1 Kings 3:9",
+            "target": "2 Chronicles 1:10",
+            "relationship": "The specific request for understanding to judge Gods people",
+            "rationale": "Solomon asks a hearing heart to judge God's weighty people and discern good and evil; Chronicles asks wisdom and understanding because who can judge this great people, preserving the shared royal judging request and distinct wording."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:9",
+            "target": "2 Chronicles 1:10",
+            "relationship": "The specific request for understanding to judge God's people",
+            "rationale": "Solomon asks a hearing heart to judge God's weighty people and discern good and evil; Chronicles asks wisdom and understanding because who can judge this great people, preserving the shared royal judging request and distinct wording."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:10",
+          "target": "1 Kings 3:11",
+          "old_row": {
+            "source_reference": "1 Kings 3:10",
+            "target": "1 Kings 3:11",
+            "relationship": "Same-chapter the pleasing request receives Gods stated explanation",
+            "rationale": "The narrator says Solomon's request pleased the Lord; the next divine speech explains that he asked for hearing judgment rather than long life, wealth or enemies' lives, preserving the specific reason instead of a generic claim about every request."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:10",
+            "target": "1 Kings 3:11",
+            "relationship": "Same-chapter the pleasing request receives God's stated explanation",
+            "rationale": "The narrator says Solomon's request pleased the Lord; the next divine speech explains that he asked for hearing judgment rather than long life, wealth or enemies' lives, preserving the specific reason instead of a generic claim about every request."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:11",
+          "target": "2 Chronicles 1:11",
+          "old_row": {
+            "source_reference": "1 Kings 3:11",
+            "target": "2 Chronicles 1:11",
+            "relationship": "Wisdom for judgment preferred to wealth, long life and enemies lives",
+            "rationale": "Both divine replies list requests Solomon did not make and contrast wisdom or understanding for judging the people; the different wealth, glory and opponent descriptions remain supplied rather than reduced to an identical list."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:11",
+            "target": "2 Chronicles 1:11",
+            "relationship": "Wisdom for judgment preferred to wealth, long life and enemies' lives",
+            "rationale": "Both divine replies list requests Solomon did not make and contrast wisdom or understanding for judging the people; the different wealth, glory and opponent descriptions remain supplied rather than reduced to an identical list."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:12",
+          "target": "2 Chronicles 1:12",
+          "old_row": {
+            "source_reference": "1 Kings 3:12",
+            "target": "2 Chronicles 1:12",
+            "relationship": "The granted wisdom with the unparalleled-king language retained in its own scope",
+            "rationale": "Kings grants a discerning wise heart unparalleled before or after; Chronicles grants wisdom and understanding and uses its unparalleled-kings clause with wealth, possessions and glory, preserving those different scopes instead of silently moving the comparison."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:12",
+            "target": "2 Chronicles 1:12",
+            "relationship": "Wisdom granted with differently scoped unparalleled comparisons",
+            "rationale": "Kings grants a discerning wise heart unparalleled before or after; Chronicles grants wisdom and understanding and uses its unparalleled-kings clause with wealth, possessions and glory, preserving those different scopes instead of silently moving the comparison."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:16",
+          "target": "1 Kings 3:23",
+          "old_row": {
+            "source_reference": "1 Kings 3:16",
+            "target": "1 Kings 3:23",
+            "relationship": "Same-chapter the two womens appearance leads to the king's stated competing claims",
+            "rationale": "Two women appear before the king; the later speech restates each living-son and dead-son claim, connecting the particular disputants and case without using their occupation as an independently inferred credibility judgment."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:16",
+            "target": "1 Kings 3:23",
+            "relationship": "Same-chapter the two women's appearance leads to the king's stated competing claims",
+            "rationale": "Two women appear before the king; the later speech restates each living-son and dead-son claim, connecting the particular disputants and case without using their occupation as an independently inferred credibility judgment."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:17",
+          "target": "1 Kings 3:18",
+          "old_row": {
+            "source_reference": "1 Kings 3:17",
+            "target": "1 Kings 3:18",
+            "relationship": "Same-chapter the shared-house claim continues with the claimed birth timing",
+            "rationale": "One woman says both lived and gave birth in one house; her continuation places the births three days apart and says only the two were there, retaining this as her testimony rather than an independently established witness census."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:17",
+            "target": "1 Kings 3:18",
+            "relationship": "Same-chapter the shared-house claim continues with the claimed birth timing",
+            "rationale": "One woman says both lived and gave birth in one house; her continuation puts the other birth on the third day after hers and says only the two were there, retaining her testimony without reconstructing an independently measured interval or witness census."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:24",
+          "target": "1 Kings 3:25",
+          "old_row": {
+            "source_reference": "1 Kings 3:24",
+            "target": "1 Kings 3:25",
+            "relationship": "Same-chapter the requested sword is followed by the actual division order",
+            "rationale": "The king calls for a sword and it is brought; the next unit quotes his order to divide the living child, preserving that spoken test and not inventing a reported execution of the order."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:24",
+            "target": "1 Kings 3:25",
+            "relationship": "Same-chapter the requested sword is followed by the actual division order",
+            "rationale": "The king calls for a sword and it is brought; the next unit quotes his order to divide the living child, preserving that spoken order and not inventing a reported execution or an independently supplied account of his private plan."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Kings 3:26",
+          "target": "1 Kings 3:27",
+          "old_row": {
+            "source_reference": "1 Kings 3:26",
+            "target": "1 Kings 3:27",
+            "relationship": "Same-chapter the life-preserving plea is explicitly used to identify the mother",
+            "rationale": "The narrator names the living child's mother and quotes her plea to give him away rather than kill him; the king then gives the child to the woman who said Give it to her, preserving his explicit identification and the rival's distinct response."
+          },
+          "new_row": {
+            "source_reference": "1 Kings 3:26",
+            "target": "1 Kings 3:27",
+            "relationship": "Same-chapter the life-preserving plea is explicitly used to identify the mother",
+            "rationale": "The narrator identifies the living child's mother and quotes her plea to give him away rather than kill him; the king then directs that the child be given to the woman who said Give it to her, preserving the command and identification without inventing a narrated handover."
+          },
+          "new_pairs_credited": 0,
+          "complete_corrected_triple_reread": true
+        }
+      ],
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Kings 2:35c",
+      "target": "1 Kings 7:38",
+      "status": "pending proposed construction-duration harmonization; no reconciliation credit",
+      "reason": "The complete actual continuation speaks of finishing his house, the Lords house and wall and completing them in seven years;7:38 states that Solomon built his own house in thirteen years. Both actual units and contexts were read, but no independent project-scope or chronological harmonization has been established. The retained2:35c/5:14a comparison concerns the explicit Pharaoh-daughter move and the until-completion list, leaving the seven-year clause unmerged.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Kings 2:35l",
+      "target": "1 Kings 2:8",
+      "status": "pending proposed place-descriptor equivalence; no location identity credit",
+      "reason": "Both full actual charges identify Shimei son of Gera with Benjaminite wording. The earlier2:8 says from Bahurim and35l says from Hebron. The retained limited comparison uses the explicit name, father and tribe wording while preserving the different place descriptors; their geographical equivalence is not independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Kings 2:46d",
+      "target": "2 Chronicles 8:4",
+      "status": "pending proposed wilderness-city identity; no site-equivalence credit",
+      "reason": "The actual Kings continuation says he built Thermai in the wilderness; Chronicles says he built Thedmor in the wilderness. Both full actual units and the named Solomon-building contexts were read. The retained limited comparison concerns the particular wilderness-city construction clauses while preserving both names, not an independently verified ancient or modern city identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "source_reference": "1 Kings 2:35d",
+      "target": "2 Chronicles 2:16-18",
+      "reason": "The familiar proposed range has no actual2:18 endpoint in the declared source. The actual2:1 and2:16–17 workforce notices were read; the retained edge uses the actual2:1. The absent locator and failed range display earn no credit.",
+      "completed_pair_credit": 0
+    },
+    {
+      "proposed_claim": "Assign an unreported sexual/legal status to Abishag, independently certify every name/place/office equation, make Nathan the narrated1:39 anointer, supply the missing3:1 or continuation j units, harmonize seven/thirteen years or40,000/4,000mares, reconstruct a Kidron crossing, or turn testimony and royal orders into independently established events.",
+      "reason": "Only the explicitly supported actual clauses are retained; source wording, original units and the scope of reports, commands and comparisons remain visible.",
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "1 Kings 1–3",
+      "note": "Preserve the full53/71/27 actual units, including chapter2continuations and chapter3beginning3:2. Keep Solomon twelve in2:12, Joab not-following-Solomon in2:28, seven-year35c versus thirteen-year7:38 statements, Shimei Bahurim/Hebron descriptors, the literal35n oath form, administrative roles and names, and forty-thousand broodmares versus Chronicles four-thousand mares. Thermai/Thedmor remains an unverified place equivalence. The narrator reports Zadok alone anointing at1:39 while Jonathans1:45report names Zadok and Nathan. Womens allegations, God-given wisdom assertions and the commanded child preservation retain their actual speaker and narrative status. Original source replacement glyphs are preserved, not silently repaired."
+    }
+  ]
+}

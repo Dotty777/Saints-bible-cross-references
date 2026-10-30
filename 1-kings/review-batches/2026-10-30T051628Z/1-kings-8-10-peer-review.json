@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/deut_7_10, independent AI peer of /root/deut_4_6 supplied-English curation",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T06:03:39.417248+00:00",
+  "input_file": "1-kings-8-10.tsv",
+  "input_sha256": "285c8bed2e980e1484a18af89bcc1b01a80786a0d41ee68c6a79fe9e7222b9ee",
+  "author_receipt": "1-kings-8-10-review.json",
+  "author_receipt_sha256": "c47676ae57b03a442a761b7ea6511b87ef331ecf0a1ff14123c5610d3222dd14",
+  "accepted_for_integration": true,
+  "source_verses": 116,
+  "completed_pairs": 126,
+  "distinct_target_verse_units": 141,
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_retained_rationales_independently_reread": true,
+  "all_full_triples_independently_reread": true,
+  "necessary_context_read": true,
+  "required_corrections": [],
+  "required_removals": [],
+  "removals": [],
+  "unresolved_retained_cases": [],
+  "known_excluded_candidates_verified": [
+    {
+      "source_reference": "1 Kings 8:8",
+      "target": "2 Chronicles 5:9",
+      "status": "pending independent identification of consecrated things with carrying poles",
+      "reason": "Both complete passages share projection and restricted visibility, which is the retained supported comparison. Kings names consecrated things and Chronicles carrying poles. No independent object-label equation, source-language correction, or replacement of the supplied wording has been established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Projection and ends visible before the inner sanctuary but not outside; object-label identity unresolved."
+    },
+    {
+      "source_reference": "1 Kings 9:28",
+      "target": "2 Chronicles 8:18",
+      "status": "pending independent reconciliation of the stated gold quantities",
+      "reason": "Both passages describe going to Sophira and bringing gold to Solomon, which is the retained supported connection. Kings gives120talents and Chronicles450; no conversion, missing shipment, scribal reconstruction, or corrected amount is independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "retained_pair_scope": "Voyage to Sophira and gold brought to Solomon; quantity reconciliation excluded."
+    }
+  ],
+  "review_method": "Independently displayed and read all 126 complete source/target/category/rationale triples in six untruncated slices, covering all 116 actual source units in declared-source order. The complete actual 8:53a original continuation paragraph was displayed and read with its initial sun clause, gloom/house command, newness and Book-of-Song question; it remains one source unit, without manufacturing absent 8:12-13. Compared every rationale/category with both full passages and read the necessary external contexts in 2 Chronicles 5:3-4, 6:40-42, 7:1-3, all of 8, 9:15 and 1:14-17; Psalms 105:39-48 and 118:33-40; Jeremiah 17:5-10; Matthew 12:14-16, 12:25 and 12:38-42; Acts 7:44-50; Exodus 40:33-38; Joshua 21:43-45; and Deuteronomy 31:1-8, 4:15-20, 4:32-40 and 7:1-6, in addition to complete earlier target contexts already present in the triples and the actual complete 1 Kings 11-13 source reading. Independently verified initial draft, eight exact author-stage changes, first frozen TSV/receipt and six exact peer-stage changed rows. Separately displayed and reread the eight author-stage corrected full triples and six final peer-stage corrected full triples; historical 9:26 intermediate category is superseded by the accepted final ship-work/visit category. Also separately reread the final category refinement for 8:43 so knowing the name and fearing God remain distinct. The two excluded proposals preserve consecrated-things versus carrying-poles labels and 120-versus-450 gold quantities with zero independent identity/reconciliation credit. No unresolved retained claim, pair removal, human specialist or original-language/apparatus certification is asserted.",
+  "pin_method": "Fresh independent fixed-commit raw Git fetches for all ten retained source/target books; recomputed exact Git blob SHA1 and raw SHA256 and checked complete parsed cache equality. Independently rehashed all saved fresh raw files before this peer freeze. The two excluded proposals use those same freshly verified books. Raw newline/cache differences do not become wording changes or completion credit.",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "2 Chronicles",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Acts",
+      "records": "acts/verses.json",
+      "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Jeremiah",
+      "records": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Matthew",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+    },
+    {
+      "book": "Psalms",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+    }
+  ],
+  "pin_receipt": "1-kings-8-10-peer-pins.json",
+  "pin_receipt_sha256": "0a20e7e7964aaceafda68cb461185560f2ebc8446dd9b3e27b050fe90343ac23",
+  "special_complete_source_units": [
+    {
+      "reference": "1 Kings 8:53a",
+      "id": "v8-53a",
+      "text_sha256": "090940e287f4c89ab09a020884115798477e338be2f92ddbfbf8cedb6b12c5a9",
+      "continuation_paragraphs": [
+        "He spoke of dwelling in gloom: ‘Build My house, a splendid house for yourself, to dwell in newness.’ Is this not written in the Book of Song?”"
+      ],
+      "source_complete_text_sha256": "69175cf1782ecc0f51a25cae03add7437c0c99222c8ef8fbd02dcd528ff21043",
+      "source_unit_count": 1
+    }
+  ],
+  "checks": {
+    "actual_source_units": 116,
+    "directed_pairs": 126,
+    "target_units": 141,
+    "normalized_duplicate_pairs": 0,
+    "self_inclusive_targets": 0,
+    "same_chapter_pairs": 7,
+    "same_chapter_labels_exact": true,
+    "fresh_raw_books_verified": 10,
+    "author_stage_changes_verified": 8,
+    "peer_stage_changed_rows_verified": 6,
+    "complete_8_53a_original_paragraph_read": true
+  },
+  "peer_review_completed_pair_credit": 0,
+  "technical_completed_pair_credit": 0
+}

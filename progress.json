@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-30",
-  "updated_at_utc": "2026-10-30T05:07:20.082188+00:00",
+  "updated_at_utc": "2026-10-30T06:05:34.566309+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 10,
   "pending_book_records": 33,
-  "completed_chapters": 291,
-  "completed_source_verses": 8632,
-  "completed_cross_references": 12821,
+  "completed_chapters": 304,
+  "completed_source_verses": 9156,
+  "completed_cross_references": 13364,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before source review. Uninventoried pending books retain unknown verse and chapter counts. Fully inventoried pending books have known source totals and zero review credit until their initial curated review. Preserve nonstandard anchors, continuation units and original composite references.",
   "next": {
     "book": "1 Kings",
-    "chapter": 1,
-    "reference": "1 Kings 1:1",
-    "source_id": "v1-1"
+    "chapter": 14,
+    "reference": "1 Kings 14:21",
+    "source_id": "v14-21"
   },
   "books": [
     {
@@ -830,10 +830,10 @@
       "records": "1-kings/",
       "source_records": "1-kings/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
+      "status": "in_progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "completed_source_verses": 524,
+      "completed_cross_references": 543,
       "order": 11,
       "division": "Judgement",
       "division_slug": "judgement",
@@ -841,9 +841,37 @@
       "source_staging_path": "/bible/judgement/1-kings/",
       "total_source_verse_units": 822,
       "total_chapters": 22,
-      "completed_chapters": [],
-      "next_reference": "1 Kings 1:1",
-      "completed_verse_ranges": []
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "next_reference": "1 Kings 14:21",
+      "completed_verse_ranges": [
+        "1 Kings 1:1-53",
+        "1 Kings 2:1-46l",
+        "1 Kings 3:2-28",
+        "1 Kings 4:1-19",
+        "1 Kings 5:1-32",
+        "1 Kings 6:1-36a",
+        "1 Kings 7:1-50",
+        "1 Kings 8:1-66",
+        "1 Kings 9:1-28",
+        "1 Kings 10:1-29",
+        "1 Kings 11:1-43",
+        "1 Kings 12:1-33",
+        "1 Kings 13:1-34"
+      ]
     },
     {
       "book": "2 Kings",
@@ -2397,6 +2425,70 @@
           "inventory_check_sha256": "4df5e53fa8602c3b22955716645eaac60cb7f03bb041104f46037cf9388e2c8f"
         }
       ]
+    },
+    {
+      "run_id": "2026-10-30T051628Z",
+      "date": "2026-10-30",
+      "synchronized": "2026-10-30",
+      "reviewed_dates": [
+        "2026-10-30"
+      ],
+      "source_range": "1 Kings 1:1-13:34",
+      "distinct_source_verses": 524,
+      "new_completed_pairs": 543,
+      "book_results": [
+        {
+          "book": "1 Kings",
+          "source_range": "1 Kings 1:1-13:34",
+          "distinct_source_verses": 524,
+          "new_completed_pairs": 543,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "new_completed_chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "1 Kings 14:21"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 43,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 10,
+      "known_pending_target_candidate_count": 42,
+      "review_record": "review-batches/2026-10-30T051628Z.json",
+      "next_reference": "1 Kings 14:21",
+      "inventories_added": []
     }
   ],
   "canon_manifest": "canon.json",
