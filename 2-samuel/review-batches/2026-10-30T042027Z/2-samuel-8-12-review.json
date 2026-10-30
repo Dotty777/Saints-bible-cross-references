@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex root (AI-assisted supplied-English curation for 2 Samuel 8–12)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T04:57:43.055804+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_verses": 108,
+  "completed_source_verses": 108,
+  "completed_pairs": 114,
+  "distinct_target_verse_units": 111,
+  "chapter_pair_counts": {
+    "8": 19,
+    "9": 14,
+    "10": 19,
+    "11": 28,
+    "12": 34
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "review_method": "Read every complete actual source unit and every retained target and necessary context from the pinned Saints English texts. Independently reread all 114 complete source/target/category/rationale triples in four untruncated slices (1–29,30–58,59–87,88–114); the first slice was explicitly redisplayed after an earlier output was lost to context truncation. Preserved the original draft and fifteen exact explanation/category refinements, and separately reread all fifteen corrected complete triples. Comparisons use concrete shared clauses, stated people/objects/counts, particular commands and responses, narrative contrasts and meaningful labelled local literary relationships. Differing names, parentage, roles, numbers, object labels, agency and speech-versus-event status are preserved. This is an initial curated supplied-English pass, not exhaustive discovery, new Greek/Hebrew/apparatus work, independent human specialist review, medical diagnosis, modern site mapping or solved historical harmonization. Independent English peer then proposed four further precisions: grant statements rather than commands, tents versus open field, the person receiving the nondeath assurance, and the servants question about changed eating. Preserved the preceding frozen TSV and author receipt, applied exactly those four changes and reread all four corrected complete triples; pair and source counts remain unchanged.",
+  "pin_method": "Fresh fixed-commit raw fetches of all eight retained source/target books, exact Git blob rehash against the saved fixed-commit registry and complete parsed cache equality. Raw and normalized-cache byte differences recorded separately; technical checks add no review credit.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Judges",
+      "records": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+    },
+    {
+      "book": "Proverbs",
+      "records": "proverbs/verses.json",
+      "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b"
+    },
+    {
+      "book": "Psalms",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+    }
+  ],
+  "pin_receipt": "2-samuel-8-12-pins.json",
+  "pin_receipt_sha256": "51ce8c3ea0ea53ed842fcd32e72a3681179c176a86cfb17459c8b70190d899ba",
+  "input_file": "2-samuel-8-12.tsv",
+  "input_sha256": "3573d29c827d8354e2ae9b13fc4ef5c37f19d7e4d4f6bc8ed40cc79257a9d1de",
+  "final_input_sha256": "3573d29c827d8354e2ae9b13fc4ef5c37f19d7e4d4f6bc8ed40cc79257a9d1de",
+  "source_inventory": "2-samuel/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "2-samuel-8-12-author-draft.tsv",
+  "author_draft_sha256": "7d0bcaf3a95686775cc52420dcba6e0ba3794e089e0c8d6fa4c0ec2724cd6b59",
+  "author_refinements_before_freeze": [
+    {
+      "source_reference": "2 Samuel 8:2",
+      "old_row": {
+        "source_reference": "2 Samuel 8:2",
+        "target": "1 Chronicles 18:2",
+        "relationship": "Moab's defeat and gift-bearing service in parallel summaries",
+        "rationale": "Both state that David struck Moab and Moab became his servants bringing gifts; Samuel additionally gives two measured lengths killed and two kept alive, which are not replaced with a different ratio."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 8:2",
+        "target": "1 Chronicles 18:2",
+        "relationship": "Moab's defeat and gift-bearing service in parallel summaries",
+        "rationale": "Both state that David struck Moab and Moab became his servants bringing gifts; Samuel additionally assigns two measured lengths to death and keeps two measured lengths alive, which are not replaced with a different ratio."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 8:3",
+      "old_row": {
+        "source_reference": "2 Samuel 8:3",
+        "target": "1 Chronicles 18:3",
+        "relationship": "David's northern victory and the Euphrates-control clause in parallel accounts",
+        "rationale": "Both summaries describe David striking a northern king and mention establishing control at the Euphrates; Hadadezer son of Raab, Zobah and Adraazar, Souba, Hemath remain as supplied, without assigning the final he to a newly resolved actor."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 8:3",
+        "target": "1 Chronicles 18:3",
+        "relationship": "David's victory and the Euphrates-control clause in parallel accounts",
+        "rationale": "Both summaries describe David striking a king and mention establishing control at the Euphrates; Hadadezer son of Raab, Zobah and Adraazar, Souba, Hemath remain as supplied, without assigning the final he to a newly resolved actor."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 8:8",
+      "old_row": {
+        "source_reference": "2 Samuel 8:8",
+        "target": "1 Chronicles 18:8",
+        "relationship": "David's bronze spoil explicitly linked with Solomon's temple objects",
+        "rationale": "Both link David's large bronze haul with Solomon's bronze sea, pillars and vessels; Samuel's additional basins and Masbak and Chronicles' Metabechas remain intact, without independently equating the town forms or every listed object."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 8:8",
+        "target": "1 Chronicles 18:8",
+        "relationship": "David's bronze spoil explicitly linked with Solomon's bronze objects",
+        "rationale": "Both link David's large bronze haul with Solomon's bronze sea, pillars and vessels; Samuel's additional basins and Masbak and Chronicles' Metabechas remain intact, without independently equating the town forms or every listed object."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 9:2",
+      "old_row": {
+        "source_reference": "2 Samuel 9:2",
+        "target": "2 Samuel 9:3",
+        "relationship": "Same-chapter identification of Ziba prepares his particular family answer",
+        "rationale": "David confirms the Saul-house servant's name Ziba; the next exchange has Ziba answer the question about a surviving member by naming Jonathan's injured son, rather than a newly inferred claimant."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 9:2",
+        "target": "2 Samuel 9:3",
+        "relationship": "Same-chapter identification of Ziba prepares his particular family answer",
+        "rationale": "The Saul-house servant is named Ziba and called before David; the next exchange has Ziba identify Jonathan's surviving son by parentage and injured feet, without giving that son's personal name in this exchange."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 9:9",
+      "old_row": {
+        "source_reference": "2 Samuel 9:9",
+        "target": "2 Samuel 9:7",
+        "relationship": "Same-chapter Ziba receives the implementation of the land-restoration promise",
+        "rationale": "David tells Ziba he has given Saul-house property to his master's son after promising restoration of Saul's land to Mephibosheth; the actual commands are compared without an independently reconstructed legal title history."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 9:9",
+        "target": "2 Samuel 9:7",
+        "relationship": "Same-chapter Ziba receives directions concerning the land-restoration promise",
+        "rationale": "David tells Ziba he has given Saul-house property to his master's son after promising restoration of Saul's land to Mephibosheth; the actual commands are compared without an independently reconstructed legal title history."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 10:14",
+      "old_row": {
+        "source_reference": "2 Samuel 10:14",
+        "target": "1 Chronicles 19:15",
+        "relationship": "Ammon's retreat after Syrian flight with distinct named pursuing actors",
+        "rationale": "Both have Ammon see Syrian flight, enter the city and Joab return to Jerusalem; Samuel says they flee before Abishai, whereas Chronicles names Joab and Abessa, keeping those actual actor clauses intact."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 10:14",
+        "target": "1 Chronicles 19:15",
+        "relationship": "Ammon's retreat after Syrian flight with distinct opposing-actor clauses",
+        "rationale": "Both report Ammon entering the city after seeing Syria flee and a return to Jerusalem; Samuel says they flee before Abishai, whereas Chronicles names Joab and Abessa, keeping those actual actor clauses intact."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:1",
+      "old_row": {
+        "source_reference": "2 Samuel 11:1",
+        "target": "1 Chronicles 20:1",
+        "relationship": "Spring campaign, Rabbah siege and David remaining in Jerusalem",
+        "rationale": "Both put Joab's army campaigning against Ammon and besieging Rabbah while David remains in Jerusalem; Chronicles adds Joab striking and razing Rabba, without supplying that final outcome to Samuel's opening notice."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:1",
+        "target": "1 Chronicles 20:1",
+        "relationship": "Royal campaign, Rabbah siege and David remaining in Jerusalem",
+        "rationale": "Both put Joab's army campaigning against Ammon and besieging Rabbah while David remains in Jerusalem; Chronicles adds Joab striking and razing Rabba, without supplying that final outcome to Samuel's opening notice."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:6",
+      "old_row": {
+        "source_reference": "2 Samuel 11:6",
+        "target": "2 Samuel 11:7",
+        "relationship": "Same-chapter Joab sends the requested Uriah and the audience occurs",
+        "rationale": "David requests Uriah from Joab and Joab sends him; the next unit places Uriah with David answering questions about Joab, the people and the war, recording that particular request and arrival."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:6",
+        "target": "2 Samuel 11:7",
+        "relationship": "Same-chapter Joab sends the requested Uriah and the audience occurs",
+        "rationale": "David requests Uriah from Joab and Joab sends him; the next unit says Uriah arrives and David asks about Joab, the people and the war, recording that particular summons and arrival without inventing Uriah's answers."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:11",
+      "old_row": {
+        "source_reference": "2 Samuel 11:11",
+        "target": "2 Samuel 11:13",
+        "relationship": "Same-chapter declared abstention continues after the king makes Uriah drunk",
+        "rationale": "Uriah declares he will not go home to eat, drink and lie with his wife while the force camps; after David makes him drunk he again sleeps with the servants instead of going home, preserving both his speech and the later narrated action."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:11",
+        "target": "2 Samuel 11:13",
+        "relationship": "Same-chapter refusal to go home repeated after the royal meal",
+        "rationale": "Uriah declares he will not go home to eat, drink and lie with his wife while the force camps; after David makes him drunk he again sleeps with the servants instead of going home, preserving both his speech and the later narrated action."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:15",
+      "old_row": {
+        "source_reference": "2 Samuel 11:15",
+        "target": "2 Samuel 11:16-17",
+        "relationship": "Same-chapter lethal battle instruction beside the reported placement and death",
+        "rationale": "The letter orders Uriah placed in fierce fighting and withdrawal behind him; Joab's action places him among powerful defenders and the account reports his death, without adding an unreported description of every withdrawal manoeuvre."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:15",
+        "target": "2 Samuel 11:16-17",
+        "relationship": "Same-chapter lethal battle instruction beside the reported placement and death",
+        "rationale": "The letter orders Uriah placed in fierce fighting and withdrawal behind him; Joab places him where he knows there are powerful men, and the account reports his death, without adding an unreported description of every withdrawal manoeuvre."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:16",
+      "old_row": {
+        "source_reference": "2 Samuel 11:16",
+        "target": "2 Samuel 11:17",
+        "relationship": "Same-chapter placement among powerful defenders followed by the city's attack",
+        "rationale": "Joab puts Uriah where he knows powerful men are; the next unit has city men attack, David's servants fall and Uriah die, linking the particular placement and outcome without inferring every fighter's intent."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:16",
+        "target": "2 Samuel 11:17",
+        "relationship": "Same-chapter stated placement followed by the city's attack",
+        "rationale": "Joab puts Uriah where he knows powerful men are; the next unit has city men attack, David's servants fall and Uriah die, linking the particular placement and outcome without inferring every fighter's intent."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:22",
+      "old_row": {
+        "source_reference": "2 Samuel 11:22",
+        "target": "2 Samuel 11:20-21",
+        "relationship": "Same-chapter actual royal speech corresponds to Joab's conditional instructions",
+        "rationale": "David becomes angry and cites the wall danger and Abimelech after Joab prepared the messenger for those questions, preserving the actual Greek-edition response rather than omitting its repeated speech."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:22",
+        "target": "2 Samuel 11:20-21",
+        "relationship": "Same-chapter actual royal speech corresponds to Joab's conditional instructions",
+        "rationale": "David becomes angry and cites the wall danger and Abimelech after Joab prepared the messenger for those questions, preserving the actual source-edition response rather than omitting its repeated speech."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:25",
+      "old_row": {
+        "source_reference": "2 Samuel 11:25",
+        "target": "2 Samuel 11:27",
+        "relationship": "Same-chapter David's not-evil instruction contrasted with the Lord's evil assessment",
+        "rationale": "David tells Joab not to regard the matter as evil and attributes varied losses to the sword; the chapter closes by saying David's act was evil in the Lord's eyes, preserving the explicit contrast between those evaluations."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:25",
+        "target": "2 Samuel 11:27",
+        "relationship": "Same-chapter David's not-evil instruction contrasted with the Lord's evil assessment",
+        "rationale": "David tells Joab not to regard the reported battle matter as evil and attributes varied losses to the sword; the chapter closes by calling what David had done evil in the Lord's eyes, contrasting the evil wording while retaining the broader scope of the concluding judgment."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 12:13",
+      "old_row": {
+        "source_reference": "2 Samuel 12:13",
+        "target": "Psalms 50:6",
+        "relationship": "Davidic confession directly addressed to God in narrative and psalm",
+        "rationale": "David says he sinned against the Lord, and the Davidic psalm says Against Thee alone I sinned and did evil before Thee; Nathan's sin-put-away and nondeath reply remains part of the narrative without being inserted into the psalm verse."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 12:13",
+        "target": "Psalms 50:6",
+        "relationship": "David's sin-against-God confession in narrative and psalm",
+        "rationale": "David says he sinned against the Lord, and the Davidic psalm says Against Thee alone I sinned and did evil before Thee; Nathan's sin-put-away and nondeath reply remains part of the narrative without being inserted into the psalm verse."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 12:13",
+      "old_row": {
+        "source_reference": "2 Samuel 12:13",
+        "target": "2 Samuel 24:10",
+        "relationship": "David's repeated explicit sin confession in distinct royal crises",
+        "rationale": "David confesses sin to Nathan's Lord-message; after the later census he tells the Lord he has sinned greatly and asks removal of lawlessness, preserving the different occasions and the distinct responses that follow."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 12:13",
+        "target": "2 Samuel 24:10",
+        "relationship": "David's repeated explicit sin confession in distinct royal crises",
+        "rationale": "David tells Nathan he has sinned against the Lord; after the later census he tells the Lord he has sinned greatly and asks removal of lawlessness, preserving the different addressees, occasions and responses that follow."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "2 Samuel 8:17",
+      "target": "1 Samuel 30:7",
+      "status": "pending proposed priest-family parentage equivalence; no identity credit",
+      "reason": "The complete actual 8:17 lists Ahimelech son of Abiathar as priest, while 1 Samuel30:7 identifies Abiathar the priest as son of Ahimelech. Both passages and their contexts were read; the parentage is not independently reversed, silently substituted or declared a textual mistake. The retained8:17 link compares only the explicit Zadok-priest role with2 Samuel20:25.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Independently certify every differing personal/place/object name in parallel accounts, harmonize figures or actors, supply half-beard wording, fourfold restitution, omitted speech, a newly resolved pronoun, or a reconstructed forced-labour/execution method for Samuel12:31.",
+      "reason": "Only bounded actual shared clauses and explicit contrasts are retained; original wording and the different accounts remain visible. No completion credit is assigned to excluded equivalence or harmonization claims.",
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "2 Samuel 8–12",
+      "note": "Preserve the actual two measured lengths for death and two alive in8:2; armlets, collars and spears/shields as distinct object descriptions; David versus Abessa and Gaimale versus Valley of Salts in8:13; Benaiah counselor and palace officials in8:18; the Jonathan-son Mephibosheth; Chalamak/Ailam and distinct Syrian troop figures; Eliab parentage, full repeated11:22 speech, sevenfold12:6, Idedi and unassigned pronouns, repeated first-capture language and Melchol their king. Partial parallels do not resolve every genealogy, site, chronology or treatment method."
+    }
+  ],
+  "pre_peer_frozen_input_file": "2-samuel-8-12-before-peer.tsv",
+  "pre_peer_frozen_input_sha256": "7ad4f4c126592eb2aca2826b45f943b0161e9480fc3cde5256acb71a288e5f8c",
+  "pre_peer_author_receipt": "2-samuel-8-12-review-before-peer.json",
+  "pre_peer_author_receipt_sha256": "8bc48160392c71282f27ca82a27c0020ca503244eb208828b889adab8dec8b30",
+  "peer_requested_refinements": [
+    {
+      "source_reference": "2 Samuel 9:9",
+      "target": "2 Samuel 9:7",
+      "old_row": {
+        "source_reference": "2 Samuel 9:9",
+        "target": "2 Samuel 9:7",
+        "relationship": "Same-chapter Ziba receives directions concerning the land-restoration promise",
+        "rationale": "David tells Ziba he has given Saul-house property to his master's son after promising restoration of Saul's land to Mephibosheth; the actual commands are compared without an independently reconstructed legal title history."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 9:9",
+        "target": "2 Samuel 9:7",
+        "relationship": "Same-chapter declaration to Ziba recalls the land-restoration promise",
+        "rationale": "David tells Ziba he has given Saul-house property to his master's son after promising restoration of Saul's land to Mephibosheth; the actual statements are compared without an independently reconstructed legal title history."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 11:9",
+      "target": "2 Samuel 11:11",
+      "old_row": {
+        "source_reference": "2 Samuel 11:9",
+        "target": "2 Samuel 11:11",
+        "relationship": "Same-chapter refusal to go home receives Uriah's stated reason",
+        "rationale": "Uriah sleeps with the servants at the king's door instead of going home; his later reply names the ark, troops and Joab in tents and refuses domestic eating, drinking and intercourse, preserving his stated solidarity rationale."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 11:9",
+        "target": "2 Samuel 11:11",
+        "relationship": "Same-chapter refusal to go home receives Uriah's stated reason",
+        "rationale": "Uriah sleeps with the servants at the king's door instead of going home; his later reply places the ark, Israel and Judah in tents and Joab and the servants in the open field, and refuses going home to eat, drink and lie with his wife, preserving his stated reason."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 12:14",
+      "target": "2 Samuel 12:18",
+      "old_row": {
+        "source_reference": "2 Samuel 12:14",
+        "target": "2 Samuel 12:18",
+        "relationship": "Same-chapter stated child-death announcement followed by the reported death",
+        "rationale": "Nathan says the born son will die despite David's nondeath assurance; the later notice explicitly reports the child's death on the seventh day, without independently defining every detail of the provoked-enemies clause."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 12:14",
+        "target": "2 Samuel 12:18",
+        "relationship": "Same-chapter stated child-death announcement followed by the reported death",
+        "rationale": "Nathan says the born son will die despite the assurance that David will not die; the later notice explicitly reports the child's death on the seventh day, without independently defining every detail of the provoked-enemies clause."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 12:20",
+      "target": "2 Samuel 12:21",
+      "old_row": {
+        "source_reference": "2 Samuel 12:20",
+        "target": "2 Samuel 12:21",
+        "relationship": "Same-chapter changed eating and washing conduct prompts the servants' question",
+        "rationale": "David rises, washes, anoints, worships and eats after the death; his servants explicitly ask about the contrast with his earlier fasting, preserving their reported question without adding a ceremonial timetable."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 12:20",
+        "target": "2 Samuel 12:21",
+        "relationship": "Same-chapter changed eating conduct prompts the servants' question",
+        "rationale": "David rises, washes, anoints, worships and eats after the death; his servants explicitly ask about the contrast with his earlier fasting, preserving their reported question without adding a ceremonial timetable."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "book": "1 Kings",
+  "date": "2026-10-30",
+  "source_snapshot": {
+    "repository": "Dotty777/Saints-Translation",
+    "commit": "328967336f32958587835c921fea3b96a5bf6494",
+    "path": "1-kings/verses.json",
+    "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+    "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+  },
+  "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
+  "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 822 units in 22 chapters; continuation units and numeric gaps are recorded in inventory.json.",
+  "method": "Read complete actual source and retained target passages with necessary context and reread each particular explanation before completing a source pass. This inventory performs no source review.",
+  "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
+  "excluded_from_completion": [
+    "Imports",
+    "Duplicate pairs",
+    "Unresolved identities",
+    "Unread candidates",
+    "Technical checks"
+  ],
+  "review_batches": [],
+  "canon_manifest": "../canon.json",
+  "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
+  "sources": [
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+    }
+  ],
+  "unresolved_candidates": [],
+  "checked_scope": {
+    "source_passage": null,
+    "source_verse_units": 0,
+    "retained_pairs": 0,
+    "distinct_target_verse_units": 0
+  },
+  "inventory_evidence": {
+    "fresh_mcp_blob_identity_verified": true,
+    "fresh_mcp_identity": {
+      "repository": "Dotty777/Saints-Translation",
+      "ref": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-kings/verses.json",
+      "sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "encoding": "utf-8",
+      "returned_content_characters": 353307,
+      "display_url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json",
+      "fetched_at_utc": "2026-10-30 04:23:46 UTC",
+      "method": "Fresh GitHub connector lookup at the exact source commit; exact raw Git rehash and whole parsed-cache equality are checked by the inventory builder."
+    },
+    "fresh_raw_git_blob_verified": true,
+    "complete_parsed_cache_equal": true,
+    "source_raw_url": "https://raw.githubusercontent.com/Dotty777/Saints-Translation/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json",
+    "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+    "completed_review_credit": 0
+  },
+  "pending": [
+    "1 Kings 1–22 initial curated cross-reference pass",
+    "Remaining Old Testament source inventories and review",
+    "Independent specialist review",
+    "Live destination anchors and reader display checks",
+    "Preserve the composite source reference as one original unit without rewriting its separator or creating extra verses: 1 Kings 11:5–8"
+  ],
+  "composite_reference_units": [
+    {
+      "reference": "1 Kings 11:5–8",
+      "id": "v11-5-8",
+      "label_unicode_escape": "1 Kings 11:5\\u20138",
+      "source_unit_count": 1,
+      "status": "original composite range retained as one source unit"
+    }
+  ],
+  "numbering_gaps_scope": "Numeric labels not represented by an actual standalone unit or the numeric coverage of an explicitly labelled composite range. Each composite remains one original source unit; no additional verse unit or textual omission is inferred."
+}

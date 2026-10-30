@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_4_6 (AI-assisted supplied-English curation for2Samuel17–20)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T04:54:56.268211+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "source_verses": 131,
+  "completed_source_verses": 131,
+  "completed_pairs": 134,
+  "distinct_target_verse_units": 140,
+  "chapter_pair_counts": {
+    "17": 29,
+    "18": 33,
+    "19": 44,
+    "20": 28
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read every complete actual source unit and retained target/context. Then separately displayed and reread all134 complete source/target/category/rationale triples in five untruncated slices0–27,27–54,54–81,81–108 and108–134. Preserved the initial draft and exact eight precision changes, then separately displayed and reread all eight complete final corrected triples before freeze. Wider actual context included2Samuel15:12/16–37,16:1–12/20–23,14:12–20/25–28,5:1–2,8:16–18,9:7–13,12:18–23,4:4 and2:18;1Samuel8:11–14;1Kings2:5–9/35,4:3–6 and12:16–20 in actual source order with17 absent;Matthew27:3–5;Joshua2:4–7 and7:24–26;Ecclesiastes12:1–5. Read all17–20 sources in complete local narrative order. Connections use particular competing counsel, prayer and narrator statements, messenger channels, concealed couriers, explicit repeated reports, strategic decisions, stated commands and replies, public grief, named kinship and provision, Shimei’s oath and later direct recollection, differing property decrees, the exact no-share slogan, the concubines’ identified house duty, the pursuit and negotiation, and named administrative offices. Source18 ends at32 and the lament is19:1; no18:33 is imported. Other-book target readings, including1Kings, add no source-review credit to those books. No new translation, apparatus, original-language, medical, site or independent human verification is claimed.",
+  "pin_method": "Fresh complete raw fetches for six source/retained-target books at the fixed Saints-Translation commit; exact Git blob rehash against existing registries, raw originals saved, and whole parsed-cache equality verified. The same2Samuel pin covers the uncredited family-history proposal. The separate full1Kings inventory used fresh GitHub connector identity, raw Git rehash and complete cache equality before any1Kings source review and earns zero review credit.",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Ecclesiastes",
+      "records": "ecclesiastes/verses.json",
+      "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Matthew",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+    }
+  ],
+  "pin_receipt": "2-samuel-17-20-pins.json",
+  "pin_receipt_sha256": "e3b543ea0333732bde6fe7ff238c5c0548e0996c45f5d575decb2cfd0735a59a",
+  "input_file": "2-samuel-17-20.tsv",
+  "input_sha256": "2c921ff7ab535af77aa5b5691cb53c6e1cd4327aeb9d5e73c32a12f03bf56660",
+  "final_input_sha256": "2c921ff7ab535af77aa5b5691cb53c6e1cd4327aeb9d5e73c32a12f03bf56660",
+  "source_inventory": "before-2-samuel.json, the existing696-unit pinned inventory; actual chapters17–20 contain29/32/44/26 units",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "2-samuel-17-20-author-draft.tsv",
+  "author_draft_sha256": "26c12dad1c26e79fd6daec94b28bfb7a7049e7beee92d88457be491f9c1cedaf",
+  "author_refinements_before_freeze": [
+    {
+      "source_reference": "2 Samuel 17:23",
+      "old_row": {
+        "source_reference": "2 Samuel 17:23",
+        "target": "Matthew 27:3-5",
+        "relationship": "Two narrated deaths by self-hanging after a disastrous reversal",
+        "rationale": "Ahithophel sees that his counsel is not carried out, returns home and hangs himself. Judas, after seeing Jesus condemned and returning the money, likewise goes away and hangs himself; the shared action occurs in distinct narrated circumstances."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 17:23",
+        "target": "Matthew 27:3-5",
+        "relationship": "Two narrated deaths by self-hanging",
+        "rationale": "Ahithophel sees that his counsel is not carried out, returns home and hangs himself. Judas, after seeing Jesus condemned and returning the money, likewise goes away and hangs himself; the shared action occurs in distinct narrated circumstances."
+      },
+      "reason": "Do not imply that Judas’s prior expectation is independently known by describing both cases as reversals.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 17:25",
+      "old_row": {
+        "source_reference": "2 Samuel 17:25",
+        "target": "2 Samuel 19:14",
+        "relationship": "Amasa is named in two proposals to replace Joab",
+        "rationale": "Absalom appoints Amasa over the army in Joab's place. David later offers Amasa command before himself in Joab's place, repeating the replacement language with a different royal sponsor."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 17:25",
+        "target": "2 Samuel 19:14",
+        "relationship": "Amasa's appointment by Absalom and David's later pledge",
+        "rationale": "Absalom appoints Amasa over the army in Joab's place. David later offers Amasa command before himself in Joab's place, repeating the replacement language with a different royal sponsor."
+      },
+      "reason": "Distinguish the narrated appointment from the later promised appointment rather than calling both proposals.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 17:26",
+      "old_row": {
+        "source_reference": "2 Samuel 17:26",
+        "target": "2 Samuel 17:24",
+        "relationship": "Same-chapter the Gilead camp follows Absalom's Jordan crossing",
+        "rationale": "The camp notice names Absalom and all Israel in Gilead. The preceding movement notice has those same participants cross the Jordan after David reaches Mahanaim, linking the stated movement and subsequent camp."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 17:26",
+        "target": "2 Samuel 17:24",
+        "relationship": "Same-chapter the Gilead camp follows Absalom's Jordan crossing",
+        "rationale": "The camp notice names Absalom and all Israel in Gilead. The preceding movement notice describes David at Mahanaim and Absalom's company crossing the Jordan, connecting the army's stated movement with its named camp without adding a timetable."
+      },
+      "reason": "Avoid adding a precise temporal order between David’s arrival and Absalom’s crossing.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 18:3",
+      "old_row": {
+        "source_reference": "2 Samuel 18:3",
+        "target": "2 Samuel 17:2",
+        "relationship": "The king is treated as a distinctive strategic objective",
+        "rationale": "David's people value him above ten thousand and urge him to remain in the city. Ahithophel's rival plan had concentrated on killing the king alone to scatter his company; both calculations distinguish the king from the accompanying force."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 18:3",
+        "target": "2 Samuel 17:2",
+        "relationship": "The king is treated as a distinctive strategic objective",
+        "rationale": "David's people call him worth ten thousand and urge him to remain in the city. Ahithophel's rival plan had concentrated on killing the king alone to scatter his company; both calculations distinguish the king from the accompanying force."
+      },
+      "reason": "Keep worth ten thousand rather than above ten thousand.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 19:12",
+      "old_row": {
+        "source_reference": "2 Samuel 19:12",
+        "target": "2 Samuel 15:35-36",
+        "relationship": "The same priests serve as royal communication intermediaries",
+        "rationale": "David sends a return appeal through Zadok and Abiathar to Judah's elders. During his flight he had also used those named priests and their sons to convey information, repeating the personal channel for a different purpose."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 19:12",
+        "target": "2 Samuel 15:35-36",
+        "relationship": "The same priests serve as royal communication intermediaries",
+        "rationale": "David sends a return appeal through Zadok and Abiathar to Judah's elders. During his flight he had likewise designated those named priests and their sons as an information channel, repeating the personal channel for a different purpose."
+      },
+      "reason": "Describe the earlier instructions as the designated plan rather than make that passage alone report its execution.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 19:16",
+      "old_row": {
+        "source_reference": "2 Samuel 19:16",
+        "target": "2 Samuel 19:40-41",
+        "relationship": "Same-chapter the Jordan reception is followed by the reported crossing",
+        "rationale": "Judah comes to meet David and bring him over the Jordan at the Gilgal reception. The later notices record the people's and king's crossing and his movement on to Gilgal, preserving the named stages of that return."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 19:16",
+        "target": "2 Samuel 19:40-41",
+        "relationship": "Same-chapter the Jordan reception is followed by the reported crossing",
+        "rationale": "The men of Judah come to Gilgal to meet the king and bring him across the Jordan. The later notices record the people's and king's crossing and his movement on to Gilgal, preserving the stated stages without locating the river crossing itself at the town."
+      },
+      "reason": "Do not merge Gilgal’s reception destination with the actual river-crossing location.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 19:36",
+      "old_row": {
+        "source_reference": "2 Samuel 19:36",
+        "target": "Ecclesiastes 12:1-4",
+        "relationship": "Old age and diminished enjoyment expressed through sensory images",
+        "rationale": "Barzillai questions taste and hearing singers at eighty. Ecclesiastes anticipates years with no desire and describes weakened grinding and the daughters of song brought low; the shared concern is declining enjoyment in age, with different literary images."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 19:36",
+        "target": "Ecclesiastes 12:1-4",
+        "relationship": "Old age and diminished enjoyment expressed through sensory images",
+        "rationale": "Barzillai questions taste and hearing singers at eighty. Ecclesiastes anticipates years with no desire, describes grinding women becoming few and the daughters of song brought low, and uses different images for age's changing enjoyment."
+      },
+      "reason": "Keep the supplied grinding-women and song images rather than call the grinding itself weakened.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "2 Samuel 19:37",
+      "old_row": {
+        "source_reference": "2 Samuel 19:37",
+        "target": "1 Kings 2:7",
+        "relationship": "Barzillai's question about repayment relates to David's later provision for his sons",
+        "rationale": "Barzillai asks why the king should repay him for his escort. David's later instruction calls for mercy and a royal-table place for Barzillai's sons because of assistance during the flight from Absalom, explicitly connecting provision with past help."
+      },
+      "new_row": {
+        "source_reference": "2 Samuel 19:37",
+        "target": "1 Kings 2:7",
+        "relationship": "Barzillai's question about repayment relates to David's later provision for his sons",
+        "rationale": "Barzillai asks why the king should repay him after proposing only a short escort. David's later instruction calls for mercy and a royal-table place for Barzillai's sons because of assistance during the flight from Absalom, explicitly connecting provision with past help."
+      },
+      "reason": "Do not assign the repayment’s motive specifically to the current escort instead of the earlier assistance.",
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "author_corrections": {
+    "original_input_file": "2-samuel-17-20-author-draft.tsv",
+    "original_input_sha256": "26c12dad1c26e79fd6daec94b28bfb7a7049e7beee92d88457be491f9c1cedaf",
+    "final_input_file": "2-samuel-17-20.tsv",
+    "final_input_sha256": "2c921ff7ab535af77aa5b5691cb53c6e1cd4327aeb9d5e73c32a12f03bf56660",
+    "changes": [
+      {
+        "source_reference": "2 Samuel 17:23",
+        "old_row": {
+          "source_reference": "2 Samuel 17:23",
+          "target": "Matthew 27:3-5",
+          "relationship": "Two narrated deaths by self-hanging after a disastrous reversal",
+          "rationale": "Ahithophel sees that his counsel is not carried out, returns home and hangs himself. Judas, after seeing Jesus condemned and returning the money, likewise goes away and hangs himself; the shared action occurs in distinct narrated circumstances."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 17:23",
+          "target": "Matthew 27:3-5",
+          "relationship": "Two narrated deaths by self-hanging",
+          "rationale": "Ahithophel sees that his counsel is not carried out, returns home and hangs himself. Judas, after seeing Jesus condemned and returning the money, likewise goes away and hangs himself; the shared action occurs in distinct narrated circumstances."
+        },
+        "reason": "Do not imply that Judas’s prior expectation is independently known by describing both cases as reversals.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "2 Samuel 17:25",
+        "old_row": {
+          "source_reference": "2 Samuel 17:25",
+          "target": "2 Samuel 19:14",
+          "relationship": "Amasa is named in two proposals to replace Joab",
+          "rationale": "Absalom appoints Amasa over the army in Joab's place. David later offers Amasa command before himself in Joab's place, repeating the replacement language with a different royal sponsor."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 17:25",
+          "target": "2 Samuel 19:14",
+          "relationship": "Amasa's appointment by Absalom and David's later pledge",
+          "rationale": "Absalom appoints Amasa over the army in Joab's place. David later offers Amasa command before himself in Joab's place, repeating the replacement language with a different royal sponsor."
+        },
+        "reason": "Distinguish the narrated appointment from the later promised appointment rather than calling both proposals.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "2 Samuel 17:26",
+        "old_row": {
+          "source_reference": "2 Samuel 17:26",
+          "target": "2 Samuel 17:24",
+          "relationship": "Same-chapter the Gilead camp follows Absalom's Jordan crossing",
+          "rationale": "The camp notice names Absalom and all Israel in Gilead. The preceding movement notice has those same participants cross the Jordan after David reaches Mahanaim, linking the stated movement and subsequent camp."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 17:26",
+          "target": "2 Samuel 17:24",
+          "relationship": "Same-chapter the Gilead camp follows Absalom's Jordan crossing",
+          "rationale": "The camp notice names Absalom and all Israel in Gilead. The preceding movement notice describes David at Mahanaim and Absalom's company crossing the Jordan, connecting the army's stated movement with its named camp without adding a timetable."
+        },
+        "reason": "Avoid adding a precise temporal order between David’s arrival and Absalom’s crossing.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "2 Samuel 18:3",
+        "old_row": {
+          "source_reference": "2 Samuel 18:3",
+          "target": "2 Samuel 17:2",
+          "relationship": "The king is treated as a distinctive strategic objective",
+          "rationale": "David's people value him above ten thousand and urge him to remain in the city. Ahithophel's rival plan had concentrated on killing the king alone to scatter his company; both calculations distinguish the king from the accompanying force."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 18:3",
+          "target": "2 Samuel 17:2",
+          "relationship": "The king is treated as a distinctive strategic objective",
+          "rationale": "David's people call him worth ten thousand and urge him to remain in the city. Ahithophel's rival plan had concentrated on killing the king alone to scatter his company; both calculations distinguish the king from the accompanying force."
+        },
+        "reason": "Keep worth ten thousand rather than above ten thousand.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "2 Samuel 19:12",
+        "old_row": {
+          "source_reference": "2 Samuel 19:12",
+          "target": "2 Samuel 15:35-36",
+          "relationship": "The same priests serve as royal communication intermediaries",
+          "rationale": "David sends a return appeal through Zadok and Abiathar to Judah's elders. During his flight he had also used those named priests and their sons to convey information, repeating the personal channel for a different purpose."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 19:12",
+          "target": "2 Samuel 15:35-36",
+          "relationship": "The same priests serve as royal communication intermediaries",
+          "rationale": "David sends a return appeal through Zadok and Abiathar to Judah's elders. During his flight he had likewise designated those named priests and their sons as an information channel, repeating the personal channel for a different purpose."
+        },
+        "reason": "Describe the earlier instructions as the designated plan rather than make that passage alone report its execution.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "2 Samuel 19:16",
+        "old_row": {
+          "source_reference": "2 Samuel 19:16",
+          "target": "2 Samuel 19:40-41",
+          "relationship": "Same-chapter the Jordan reception is followed by the reported crossing",
+          "rationale": "Judah comes to meet David and bring him over the Jordan at the Gilgal reception. The later notices record the people's and king's crossing and his movement on to Gilgal, preserving the named stages of that return."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 19:16",
+          "target": "2 Samuel 19:40-41",
+          "relationship": "Same-chapter the Jordan reception is followed by the reported crossing",
+          "rationale": "The men of Judah come to Gilgal to meet the king and bring him across the Jordan. The later notices record the people's and king's crossing and his movement on to Gilgal, preserving the stated stages without locating the river crossing itself at the town."
+        },
+        "reason": "Do not merge Gilgal’s reception destination with the actual river-crossing location.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "2 Samuel 19:36",
+        "old_row": {
+          "source_reference": "2 Samuel 19:36",
+          "target": "Ecclesiastes 12:1-4",
+          "relationship": "Old age and diminished enjoyment expressed through sensory images",
+          "rationale": "Barzillai questions taste and hearing singers at eighty. Ecclesiastes anticipates years with no desire and describes weakened grinding and the daughters of song brought low; the shared concern is declining enjoyment in age, with different literary images."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 19:36",
+          "target": "Ecclesiastes 12:1-4",
+          "relationship": "Old age and diminished enjoyment expressed through sensory images",
+          "rationale": "Barzillai questions taste and hearing singers at eighty. Ecclesiastes anticipates years with no desire, describes grinding women becoming few and the daughters of song brought low, and uses different images for age's changing enjoyment."
+        },
+        "reason": "Keep the supplied grinding-women and song images rather than call the grinding itself weakened.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "2 Samuel 19:37",
+        "old_row": {
+          "source_reference": "2 Samuel 19:37",
+          "target": "1 Kings 2:7",
+          "relationship": "Barzillai's question about repayment relates to David's later provision for his sons",
+          "rationale": "Barzillai asks why the king should repay him for his escort. David's later instruction calls for mercy and a royal-table place for Barzillai's sons because of assistance during the flight from Absalom, explicitly connecting provision with past help."
+        },
+        "new_row": {
+          "source_reference": "2 Samuel 19:37",
+          "target": "1 Kings 2:7",
+          "relationship": "Barzillai's question about repayment relates to David's later provision for his sons",
+          "rationale": "Barzillai asks why the king should repay him after proposing only a short escort. David's later instruction calls for mercy and a royal-table place for Barzillai's sons because of assistance during the flight from Absalom, explicitly connecting provision with past help."
+        },
+        "reason": "Do not assign the repayment’s motive specifically to the current escort instead of the earlier assistance.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "new_pairs_credited": 0
+  },
+  "refinements_file": "2-samuel-17-20-refinements.json",
+  "refinements_sha256": "c35e80500c2a544f6eee024de29758cafc4b998a14a987cf334d199d6a9d4e0b",
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "2 Samuel 18:18",
+      "target": "2 Samuel 14:27",
+      "status": "pending family-history reconciliation; no chronology equivalence retained",
+      "reason": "The earlier notice records three sons and a daughter born to Absalom; the pillar notice reports his stated reason that he had no son to keep his name in remembrance. Both actual passages and14:25–28 context were read. No intervening deaths, dates, survival of heirs or alternative genealogy are supplied or claimed. The retained18:18-to18:17 pair compares the named pillar with the narrated pit burial and does not resolve that family-history question.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "source_reference": "2 Samuel 18:18",
+      "target": "2 Samuel 14:27",
+      "status": "pending family-history reconciliation; no chronology equivalence retained",
+      "reason": "The earlier notice records three sons and a daughter born to Absalom; the pillar notice reports his stated reason that he had no son to keep his name in remembrance. Both actual passages and14:25–28 context were read. No intervening deaths, dates, survival of heirs or alternative genealogy are supplied or claimed. The retained18:18-to18:17 pair compares the named pillar with the narrated pit burial and does not resolve that family-history question.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "2 Samuel17–20",
+      "note": "Initial curated supplied-English pass, not exhaustive discovery. Preserve all original reference/id/text/display_text fields and exact chapter boundaries:18ends32,19beginswiththelamentandends44. Retain fierce sow, ten beds and ten cauldrons, Ouesbi, Jethro the Israelite, head hanging in the oak without adding hair as its cause, Joab’s three darts followed by ten men’s final killing, Cushi, the pillar’s supplied in-which-he-was-taken phrase, and the distinct messenger claims. Every local literary relation is explicitly labelled Same-chapter."
+    },
+    {
+      "reference": "2 Samuel19–20",
+      "note": "Keep David’s I do not know whether I reign wording in19:23, the ferry description, all household counts, the separate accounts about Mephibosheth, Barzillai’s sensory questions rather than a diagnosis, unspecified Chimham parentage, the third-person movement in20:14, the full Abel-and-Dan saying, and the woman herself as the stated head-cutting/throwing actor. Do not assign a sword hand or intentional drop that is not stated. Preserve Sousa, Adoniram, Ahilud and Ira the Jairite as written."
+    },
+    {
+      "reference": "2 Samuel18:18 /14:27",
+      "note": "The report of three sons and the later stated no-son rationale are retained without an invented intervening family history. Their reconciliation is an uncredited pending proposal. The curated link instead compares the named pillar with the pit burial."
+    },
+    {
+      "reference": "1 Kings target evidence",
+      "note": "Read relevant1Kings passages only as matching targets. The full822-unit1Kings inventory remains wholly pending with zero completed source verses or pairs. Preserve its original Greek divisions,69 continuation units and the single composite11:5–8 object; no1Kings source pass starts in this run."
+    }
+  ]
+}

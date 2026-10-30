@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/deut_7_10, independent AI peer of /root/deut_4_6 supplied-English curation",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T05:01:14.707548+00:00",
+  "input_file": "2-samuel-17-20.tsv",
+  "input_sha256": "10f139d004ba65aa18cf788748b4d74759b9e86661f90bf255ad5ac9f6e4c149",
+  "author_receipt": "2-samuel-17-20-review.json",
+  "author_receipt_sha256": "ca38fbb60dce1ef125532fbed5738738c26284e4100f87817207e01af4770fac",
+  "accepted_for_integration": true,
+  "source_verses": 131,
+  "completed_pairs": 134,
+  "distinct_target_verse_units": 140,
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_independently_reread": true,
+  "all_full_triples_independently_reread": true,
+  "necessary_context_read": true,
+  "required_corrections": [],
+  "removals": [],
+  "unresolved_retained_cases": [],
+  "known_excluded_candidates_verified": [
+    {
+      "source_reference": "2 Samuel 18:18",
+      "target": "2 Samuel 14:27",
+      "status": "pending family-history reconciliation; no chronology equivalence retained",
+      "reason": "The earlier notice records three sons and a daughter born to Absalom; the pillar notice reports his stated reason that he had no son to keep his name in remembrance. Both actual passages and14:25–28 context were read. No intervening deaths, dates, survival of heirs or alternative genealogy are supplied or claimed. The retained18:18-to18:17 pair compares the named pillar with the narrated pit burial and does not resolve that family-history question.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "review_method": "Independently read all 134 complete source/target/category/rationale triples in six slices, covering every one of the 131 actual source units in inventory order; separately recovered and reread the one short row 104 omitted by an output truncation. Every proposed retained target was shown in full. Compared each complete explanation with both actual passages. Read necessary external contexts in Matthew 27:1-10; Joshua 2:1-7 and 7:24-26; Ecclesiastes 12:1-7; 1 Samuel 8:10-18; 1 Kings 2:1-12, 4:1-7 and 12:1-19; 2 Samuel 14:15-20 and 14:25-28, 15:31-37; with the other earlier supplied target contexts present in the full triples. All four source chapters were fully read as ordered source evidence across the complete-triple slices. Independently checked the original draft, eight exact author changes, before-peer TSV and frozen receipt, and one exact peer change. Then separately displayed and reread all nine complete final changed source/target/category/rationale triples. Confirmed the among-flax correction and the author independent refinements removing extra Mahanaim timing, above-ten-thousand valuation, an inferred repayment motive and an imprecise grinding image. Preserved the actual head entanglement, Joabs darts versus ten mens killing, supplied 19:1 grief boundary, Shimei no-knowledge-of-reigning clause, distinct oath formulations, the woman's cutting and throwing action and literal Ira priest title. The 18:18 family-history proposal remains excluded and has zero identity, chronology or harmonization credit; its retained edge compares only pillar with pit burial. No human specialist, independent original-language/apparatus, medical or new historical chronology certification is claimed.",
+  "pin_method": "Fresh independently fetched fixed-commit raw Git blobs for all six retained source/target books, recomputed Git SHA1 and raw SHA256, and verified complete parsed-cache equality. Independently rehashed the resulting raw files again before freezing this peer receipt. The excluded 2 Samuel family notice is in the same freshly verified source book.",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Ecclesiastes",
+      "records": "ecclesiastes/verses.json",
+      "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Matthew",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+    }
+  ],
+  "pin_receipt": "2-samuel-17-20-peer-pins.json",
+  "pin_receipt_sha256": "86a0c77b847f7f55c02901e1ae7088548d6b927d4a4800d780428ee47c85cc81",
+  "checks": {
+    "sources": 131,
+    "pairs": 134,
+    "target_units": 140,
+    "same_chapter_pairs": 81,
+    "same_chapter_labels_exact": true,
+    "self_inclusive_targets": 0,
+    "normalized_duplicate_pairs": 0,
+    "author_changes_verified": 8,
+    "peer_changes_verified": 1,
+    "fresh_raw_books_verified": 6
+  },
+  "peer_review_completed_pair_credit": 0,
+  "technical_completed_pair_credit": 0
+}

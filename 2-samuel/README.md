@@ -1,6 +1,6 @@
 # 2 Samuel — Saints Bible cross-references
 
-2 Samuel has **188 completed source verses and 196 distinct source/target-passage pairs**. Latest completed unit: **2 Samuel 7:29**. Fully completed chapters: 1, 2, 3, 4, 5, 6, 7. Next: 2 Samuel 8:1. Later source verses remain pending.
+2 Samuel 1–24 is complete at the initial curated cross-reference stage: **696 source verses and 719 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: 1 Kings 1:1.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,12 +19,13 @@ The counts were derived from the complete [pinned Saints-Translation record](htt
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and start at **2 Samuel 8:1**. Review source verses in the edition's order. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **1 Kings 1:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
-Pending target evidence: 1 candidate(s), excluded from completed counts. See [source-checks.json](source-checks.json).
+Pending target evidence: 9 candidate(s), excluded from completed counts. See [source-checks.json](source-checks.json).
 
 ## Review batches
 
 - [2026-10-30T031627Z](review-batches/2026-10-30T031627Z.json): 196 newly completed pairs across 188 source verses.
+- [2026-10-30T042027Z](review-batches/2026-10-30T042027Z.json): 523 newly completed pairs across 508 source verses.
