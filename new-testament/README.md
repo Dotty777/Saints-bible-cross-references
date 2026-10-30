@@ -1,0 +1,43 @@
+# Saints Holy Bible — separate New Testament cross-reference tracker
+
+195 completed source verses; 226 retained pairs; 3 completed chapters; 6 reviewed units deferred.
+
+First unfinished: **Matthew 1:14**. Next new source review: **Matthew 8:1**.
+
+This hourly task begins at Matthew and follows the exact Saints Holy Bible 70-book order and divisions in [../canon.json](../canon.json): Salvation (44–47), Discipleship (48–69), Glory (70). Targets may use any of those 70 books when actual pinned passage evidence is available. [Progress](progress.json) and review counts here are separate from the [Old Testament tracker](../README.md). Pending books have no invented verse inventories.
+
+Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.
+
+The source texts remain the supplied English edition; this is not new critical-text or original-language verification. Original Greek-based Saints numbering is retained, including OT targets. Each pair stores the complete target passage, rationale, relationship, source pin and evidence hashes. The readable files show retained pairs and disclose deferred units. Full original inputs and their Git blob identities are archived in [source-snapshots/manifest.json](source-snapshots/manifest.json). No numerical hourly quota was specified for this separate task.
+
+| Order | Division | Book | Status | Completed verses | Pairs |
+| ---: | --- | --- | --- | ---: | ---: |
+| 44 | Salvation | [Matthew](matthew/README.md) | in_progress | 195 | 226 |
+| 45 | Salvation | Mark | pending | 0 | 0 |
+| 46 | Salvation | Luke | pending | 0 | 0 |
+| 47 | Salvation | John | pending | 0 | 0 |
+| 48 | Discipleship | Acts | pending | 0 | 0 |
+| 49 | Discipleship | Romans | pending | 0 | 0 |
+| 50 | Discipleship | 1 Corinthians | pending | 0 | 0 |
+| 51 | Discipleship | 2 Corinthians | pending | 0 | 0 |
+| 52 | Discipleship | Galatians | pending | 0 | 0 |
+| 53 | Discipleship | Ephesians | pending | 0 | 0 |
+| 54 | Discipleship | Philippians | pending | 0 | 0 |
+| 55 | Discipleship | Colossians | pending | 0 | 0 |
+| 56 | Discipleship | 1 Thessalonians | pending | 0 | 0 |
+| 57 | Discipleship | 2 Thessalonians | pending | 0 | 0 |
+| 58 | Discipleship | 1 Timothy | pending | 0 | 0 |
+| 59 | Discipleship | 2 Timothy | pending | 0 | 0 |
+| 60 | Discipleship | Titus | pending | 0 | 0 |
+| 61 | Discipleship | Philemon | pending | 0 | 0 |
+| 62 | Discipleship | Hebrews | pending | 0 | 0 |
+| 63 | Discipleship | James | pending | 0 | 0 |
+| 64 | Discipleship | 1 Peter | pending | 0 | 0 |
+| 65 | Discipleship | 2 Peter | pending | 0 | 0 |
+| 66 | Discipleship | 1 John | pending | 0 | 0 |
+| 67 | Discipleship | 2 John | pending | 0 | 0 |
+| 68 | Discipleship | 3 John | pending | 0 | 0 |
+| 69 | Discipleship | Jude | pending | 0 | 0 |
+| 70 | Glory | Revelation | pending | 0 | 0 |
+
+Run `python scripts/render_new_testament.py` and `python scripts/validate_new_testament.py --write-verification` from the repository root after updating records. Follow the book’s recovery guidance. Independent specialist and live destination-anchor/display checks remain pending.

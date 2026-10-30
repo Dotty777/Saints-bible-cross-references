@@ -1,5 +1,9 @@
 # Saints Bible cross-reference records
 
+## Separate New Testament tracker
+
+The hourly [New Testament tracker](new-testament/README.md) begins with Matthew, in the exact Salvation → Discipleship → Glory order from [canon.json](canon.json). Its counts, review batches and continuation are saved separately in [new-testament/progress.json](new-testament/progress.json). The Old Testament totals and continuation below belong to the existing Old Testament task.
+
 Book-by-book Old Testament cross-references, matching passage evidence and review status. The folder structure follows [Saints-Translation](https://github.com/Dotty777/Saints-Translation).
 
 - [Genesis — 50 chapters](genesis/README.md): initial curated pass complete for all chapters; **1531 source verses, 3341 matching cross-reference pairs**.
@@ -41,7 +45,7 @@ Use exclusively the **Saints Holy Bible 70-book edition**, with its exact book o
 | New Testament | Discipleship | 48–69 | 22 |
 | New Testament | Glory | 70 | 1 |
 
-The book plan follows the Saints edition directly. Its 1–2 Maccabees, Wisdom of Solomon, Sirach, expanded Esther/Daniel material and Psalm 151 remain within that edition. Tobit, Judith and Baruch are excluded because they are outside its 70-book list. The New Testament canon listing defines eligible target books; it does not add New Testament source-review work to this Old Testament task.
+The book plan follows the Saints edition directly. Its 1–2 Maccabees, Wisdom of Solomon, Sirach, expanded Esther/Daniel material and Psalm 151 remain within that edition. Tobit, Judith and Baruch are excluded because they are outside its 70-book list. The separate [New Testament source-review tracker](new-testament/README.md) uses orders 44–70 with its own counts and continuation.
 
 Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis has 1,531 inventoried source units, of which 1,531 are completed. Exodus has 1,165 inventoried source units, of which 1,165 are completed. Leviticus has 859 inventoried source units, of which 859 are completed. Numbers has 1,287 inventoried source units, of which 1,287 are completed. Deuteronomy has 959 inventoried source units, of which 959 are completed. Joshua has 659 inventoried source units, of which 659 are completed. Judges has 618 inventoried source units, of which 618 are completed. Ruth has 85 inventoried source units, of which 85 are completed. 1 Samuel has 773 inventoried source units, of which 773 are completed. 2 Samuel has 696 inventoried source units, of which 696 are completed. 1 Kings has 822 inventoried source units, of which 822 are completed. 2 Kings has 723 inventoried source units, of which 723 are completed. 1 Chronicles has 930 inventoried source units, of which 917 are completed. 2 Chronicles has 833 inventoried source units, of which 813 are completed. 1 Maccabees has 924 inventoried source units, of which 662 are completed. 2 Maccabees has 555 inventoried source units, of which 340 are completed. Ezra has 280 inventoried source units, of which 230 are completed. Nehemiah has 392 inventoried source units, of which 299 are completed. Esther has 246 inventoried source units, of which 197 are completed. Job has 1,083 inventoried source units, of which 761 are completed. Psalms has 2,534 inventoried source units, of which 1,733 are completed.
 

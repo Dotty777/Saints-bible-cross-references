@@ -1,0 +1,51 @@
+"""Render separate NT records. Does not add pairs or award completion credit."""
+from pathlib import Path
+import html,json
+ROOT=Path(__file__).resolve().parents[1];NT=ROOT/'new-testament'
+def load(p):return json.loads(p.read_text(encoding='utf-8'))
+def full(v):return '\n'.join([v['text']]+v.get('continuation_paragraphs',[]))
+def write(p,s):p.write_text(s.rstrip()+'\n',encoding='utf-8')
+def render():
+ progress=load(NT/'progress.json');e=html.escape
+ for b in progress['books']:
+  folder=NT/b['records']
+  if not (folder/'verses.json').exists():continue
+  d=load(folder/'verses.json');checks=load(folder/'source-checks.json')
+  done=[v for c in d['chapters'] for v in c['verses'] if v['status']=='completed']
+  count=len(done);pairs=sum(len(v['cross_references']) for v in done);name=d['book']
+  nextref=d.get('next_reference');newref=d.get('next_unreviewed_reference')
+  summary=f'{count} completed source verses; {pairs} retained pairs; {d["reviewed_source_units"]} source units read; {len(checks["deferred_source_units"])} deferred units.'
+  follow=f'First unfinished: {nextref or "none"}. Next new source review: {newref or "none"}.'
+  text=[name+' — Saints Holy Bible cross-references',summary,follow,d['completion_definition'],'Original Saints numbering is retained.','']
+  sections=[];nav=[]
+  for c in d['chapters']:
+   reviewed=[v for v in c['verses'] if v['status']=='completed']
+   if reviewed:nav.append(f'<a href="#{e(reviewed[0]["id"])}">{e(name)} {c["chapter"]}</a>')
+   for v in reviewed:
+    text.extend([v['reference'],full(v)]);items=[]
+    for edge in v['cross_references']:
+     text.append('  '+edge['target']+' — '+edge['relationship']+': '+edge['rationale'])
+     text.extend('    '+t['reference']+' '+full(t).replace('\n','\n    ') for t in edge['target_verses'])
+     target=''.join('<p class="target-scripture">'+e(t['reference']+' '+full(t))+'</p>' for t in edge['target_verses'])
+     items.append('<li data-pair-id="'+e(edge['id'])+'"><strong>'+e(edge['target'])+'</strong> <span class="kind">'+e(edge['relationship'])+'</span><p>'+e(edge['rationale'])+'</p><details><summary>Read matching passage</summary>'+target+'<p><a href="'+e(edge['target_source']['url'])+'">Pinned target record</a></p></details></li>')
+    text.append('');sections.append('<section id="'+e(v['id'])+'"><h2>'+e(v['reference'])+'</h2><p class="scripture">'+e(full(v))+'</p><ol>'+''.join(items)+'</ol></section>')
+  deferred=checks['deferred_source_units']
+  deferred_html='<aside><h2>Reviewed units still unfinished</h2><ul>'+''.join('<li>'+e(x['source_reference'])+': '+e(x['reason'])+'</li>' for x in deferred)+'</ul></aside>' if deferred else ''
+  if deferred:text.extend(['Reviewed units still unfinished']+[x['source_reference']+': '+x['reason'] for x in deferred]+[''])
+  style='body{max-width:860px;margin:36px auto;padding:0 22px;font:18px/1.6 Georgia,serif;color:#202d35;background:#faf9f5}h1,h2,nav,summary,.kind{font-family:system-ui,sans-serif}h1{line-height:1.2}section{border-top:1px solid #ccd4d4;margin-top:30px;padding-top:12px}a{color:#1d5e79}nav a{display:inline-block;margin-right:12px}.scripture,.target-scripture{white-space:pre-line}.scripture{font-size:1.13em}.kind{font-size:.8em;color:#52656c}details{padding:8px 14px;border-left:3px solid #98b6bb;background:#f0f3f1}summary{cursor:pointer}li{margin-bottom:15px}aside{border:1px solid #d9c8a5;padding:16px;margin-top:26px}footer{margin-top:40px;font-size:.85em}'
+  page='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(name)+' cross-references</title><style>'+style+'</style></head><body><header><h1>'+e(name)+' cross-references</h1><p>'+e(summary)+'</p><p>'+e(follow)+'</p><p>'+e(d['completion_definition'])+'</p><nav><a href="README.md">Book record</a><a href="'+e(d['readable_text'])+'">Plain text</a><a href="verses.json">Structured records</a><a href="../progress.json">New Testament progress</a></nav><nav>'+''.join(nav)+'</nav></header>'+''.join(sections)+deferred_html+'<footer><p>Review date '+e(d['date'])+'. AI-assisted comparison of supplied English records. <a href="'+e(d['source_snapshot']['url'])+'">Pinned source edition</a>. Independent specialist review and live destination checks remain pending.</p></footer></body></html>'
+  write(folder/d['readable_html'],page);write(folder/d['readable_text'],'\n'.join(text))
+  readme=f'# {name} cross-reference records\n\n{summary}\n\n{follow}\n\nCompleted chapters: '+(', '.join(map(str,d['completed_chapters'])) or 'none')+f'. Reviewed chapters: '+', '.join(map(str,d['reviewed_chapters']))+f'. Complete inventory: {d["total_source_verse_units"]} original source units in {len(d["chapters"])} chapters. Deferred units receive no completion credit.\n\n'+f'[Readable HTML]({d["readable_html"]}) · [Plain text]({d["readable_text"]}) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)\n\n'+d['completion_definition']+'\n\nSource and target passages use the supplied Saints-Translation English records at commit `'+progress['reference_snapshot_commit']+'`. Original source wording, verse identities, sections and continuation paragraphs are retained. The source edition’s provisional NA28 and outstanding UBS6/ECM and specialist-review limitations still apply.\n\n## Continuation\n\nRead [New Testament progress](../progress.json). Reconsider the first unfinished source substantively, then continue never-reviewed sources in order; keep these two positions separate while deferrals remain. Complete the current book’s initial pass before reviewing sources in the next book in the saved canon order. A range is one pair; duplicate pairs, imports and unresolved suggestions earn no credit.\n\n## Review batches\n\n'
+  readme+='\n'.join('- ['+x['run_id']+']('+x['records']+'): '+str(x['new_source_verses'])+' completed source verses and '+str(x['new_pairs'])+' retained pairs.' for x in checks['review_batches'])
+  write(folder/'README.md',readme)
+  recovery=f'# Recover {name} cross-reference records\n\nThe authoritative tracker is [verses.json](verses.json), with the complete original inventory in [inventory.json](inventory.json), decisions in [source-checks.json](source-checks.json), and review history in [../review-batches/](../review-batches/). Pin identities and full original source/target files are in [../source-snapshots/](../source-snapshots/).\n\n1. Recover these files and [../progress.json](../progress.json) from the same repository commit. Preserve the existing Old Testament records.\n2. From the repository root run `python scripts/render_new_testament.py`, then `python scripts/validate_new_testament.py --write-verification`.\n3. The validator checks the original snapshot bytes against Git blob SHAs, every original source unit and retained target body, ordering, hashes, counts, unique pairs, readable content and both continuation positions. It does not create new review decisions.\n4. Resume at the saved first unfinished position and the separate next new source position. Read and assess actual passages before changing status; technical repair earns zero review credit.\n5. Commit records, notes, review history, readable files and progress together. Verify the remote main commit and published file identities after uploading.\n\n'+follow+'\n\nDo not reconstruct Greek Psalm numbering or named figures from another edition. Do not silently replace source text. Independent specialist review and live destination checks are pending.\n'
+  write(folder/'RESTORE.md',recovery)
+ rows=['| Order | Division | Book | Status | Completed verses | Pairs |','| ---: | --- | --- | --- | ---: | ---: |']
+ for b in progress['books']:
+  name='['+b['book']+']('+b['records']+'README.md)' if (NT/b['records']/'verses.json').exists() else b['book']
+  rows.append(f'| {b["order"]} | {b["division"]} | {name} | {b["status"]} | {b["completed_source_verses"]} | {b["completed_cross_references"]} |')
+ intro=f'# Saints Holy Bible — separate New Testament cross-reference tracker\n\n{progress["completed_source_verses"]} completed source verses; {progress["completed_cross_references"]} retained pairs; {progress["completed_chapters"]} completed chapters; {progress["deferred_source_units_count"]} reviewed units deferred.\n\nFirst unfinished: **{(progress.get("next") or {}).get("reference","none")}**. Next new source review: **{(progress.get("next_unreviewed") or {}).get("reference","none")}**.\n\n'
+ intro+='This hourly task begins at Matthew and follows the exact Saints Holy Bible 70-book order and divisions in [../canon.json](../canon.json): Salvation (44–47), Discipleship (48–69), Glory (70). Targets may use any of those 70 books when actual pinned passage evidence is available. [Progress](progress.json) and review counts here are separate from the [Old Testament tracker](../README.md). Pending books have no invented verse inventories.\n\n'+progress['completion_definition']+'\n\nThe source texts remain the supplied English edition; this is not new critical-text or original-language verification. Original Greek-based Saints numbering is retained, including OT targets. Each pair stores the complete target passage, rationale, relationship, source pin and evidence hashes. The readable files show retained pairs and disclose deferred units. Full original inputs and their Git blob identities are archived in [source-snapshots/manifest.json](source-snapshots/manifest.json). No numerical hourly quota was specified for this separate task.\n\n'+ '\n'.join(rows)+'\n\nRun `python scripts/render_new_testament.py` and `python scripts/validate_new_testament.py --write-verification` from the repository root after updating records. Follow the book’s recovery guidance. Independent specialist and live destination-anchor/display checks remain pending.\n'
+ write(NT/'README.md',intro)
+ print(json.dumps({'rendered':'New Testament readable records','completed_source_verses':progress['completed_source_verses'],'completed_pairs':progress['completed_cross_references']}))
+if __name__=='__main__':render()
