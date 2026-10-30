@@ -265,7 +265,12 @@
   ],
   "peer_review_resolution": "All 226 retained pairs received a second AI-assisted English passage review. Two Matthew 5–7 rationales and one Matthew 1:16 grammatical clarification were refined; all peer findings are resolved. This is not independent human specialist approval.",
   "input_manifest": "../source-snapshots/manifest.json",
-  "target_per_hour": null,
-  "target_policy": "No numerical hourly quota was specified for the separate New Testament task; the Old Testament tracker quota is not inherited.",
-  "review_scope": "Initial AI-assisted English passage review; independent specialist and live anchor checks remain pending."
+  "target_per_hour": 500,
+  "target_policy": "User-specified hourly target: 500 newly completed distinct source verses with passage-supported cross-references. A source verse counts once irrespective of its number of retained target passages. Deferred and previously completed source verses earn zero new-source completion credit; pair totals are separate.",
+  "review_scope": "Initial AI-assisted English passage review; independent specialist and live anchor checks remain pending.",
+  "target_unit": "newly_completed_distinct_source_verses",
+  "target_count": 195,
+  "target_met": false,
+  "target_shortfall": 305,
+  "target_excess": 0
 }

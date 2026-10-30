@@ -13,12 +13,12 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Three parallel chapter reviews read Matthew 1–7 and actual proposed target text with context. Retained pairs have individual explanations. Complete original source/target snapshots are stored and checked against Git blob identities.",
+  "method": "The initial Matthew 1–7 review and the Matthew 8–22 continuation read complete supplied English source units and actual retained target passages with necessary context. Each retained pair has an individual explanation and a second AI-assisted passage comparison. Full original source/target snapshots are verified against pinned Git blob identities. Target credit counts distinct newly completed source verses once; pair totals are separate.",
   "checked_scope": {
-    "source_range": "Matthew 1:1–7:29",
-    "source_units_read": 201,
-    "completed_source_verses": 195,
-    "retained_pairs": 226
+    "source_range": "Matthew 1:1–22:46",
+    "source_units_read": 772,
+    "completed_source_verses": 743,
+    "retained_pairs": 774
   },
   "review_batches": [
     {
@@ -26,6 +26,12 @@
       "records": "../review-batches/2026-10-30T224159Z.json",
       "new_source_verses": 195,
       "new_pairs": 226
+    },
+    {
+      "run_id": "2026-10-30T231801Z",
+      "records": "../review-batches/2026-10-30T231801Z.json",
+      "new_source_verses": 548,
+      "new_pairs": 548
     }
   ],
   "deferred_source_units": [
@@ -76,6 +82,190 @@
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 8:1",
+      "source_id": "v8-1",
+      "reason": "The mountain-descent and crowd-following transition was read. No sufficiently specific independently supported counterpart to this transition was retained; generic crowd notices were not used to create a completed pair.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 9:26",
+      "source_id": "v9-26",
+      "reason": "The report of the girl-healing spreading throughout the region was read. The parallel Mark ending describes astonishment and restricted disclosure, not the same report-spreading notice; no precise counterpart was retained in this batch.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 11:1",
+      "source_id": "v11-1",
+      "reason": "The transition from directing the Twelve to Jesus teaching and proclaiming in their cities was read. General ministry summaries were considered but no sufficiently close counterpart to this specific transition was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 13:29",
+      "source_id": "v13-29",
+      "reason": "The instruction not to uproot wheat while gathering darnel was read. The later parable explanation identifies the plants and final harvest but does not closely restate this particular warning about premature removal; no separate passage was retained for it in this batch.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 13:52",
+      "source_id": "v13-52",
+      "reason": "The scribe-householder bringing new and old treasures was read. No sufficiently close independent target was established for this distinctive comparison; general references to scribes, wisdom, or treasure would not adequately explain its particular claim.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 13:53",
+      "source_id": "v13-53",
+      "reason": "The departure notice after the parables was read. Similar travel transitions were considered too general to count as a supported cross-reference for this source unit.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 14:18",
+      "source_id": "v14-18",
+      "reason": "Jesus' command to bring the five loaves and two fish to Him was read. The other feeding accounts describe the food's availability and Jesus taking it but do not closely reproduce this distinctive command; no retained target was established for this unit.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 14:28",
+      "source_id": "v14-28",
+      "reason": "Peter's conditional request for Jesus to command him onto the water was read. Mark and John's sea-walking accounts do not include Peter's request, and a separate sufficiently specific target was not established.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 14:29",
+      "source_id": "v14-29",
+      "reason": "Peter's stepping from the boat and walking toward Jesus at His command was read. The other sea-walking accounts do not include this action; generic references to following Jesus or walking through water were not counted.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 15:12",
+      "source_id": "v15-12",
+      "reason": "The disciples' report that the Pharisees took offense at the defilement saying was read. Mark's parallel discourse does not include this report, and unrelated offense passages were not retained merely for shared vocabulary.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 15:23",
+      "source_id": "v15-23",
+      "reason": "Jesus' initial silence and the disciples' request to dismiss the crying woman were read. Mark's account does not reproduce these features; no sufficiently specific alternative passage was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 17:24",
+      "source_id": "v17-24",
+      "reason": "The collectors' question about the didrachmas was read. Exodus 30:13–15 was examined, but its supplied wording specifies a half-didrachma census contribution and does not establish the identity or amount of this collection. The levy identification and source wording need further substantive review before retaining that candidate.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 17:25",
+      "source_id": "v17-25",
+      "reason": "Peter's reply and Jesus' question about whether earthly kings collect from sons or strangers were read. No sufficiently close independent target was established for this distinctive fiscal analogy.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 17:26",
+      "source_id": "v17-26",
+      "reason": "The conclusion that the sons are free was read in its tax-discussion context. General sayings about spiritual freedom were not counted as equivalent to this particular argument about royal taxation.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 18:31",
+      "source_id": "v18-31",
+      "reason": "The fellow slaves' grief and report to the master were read. No sufficiently distinctive external counterpart was retained; general grief or reporting passages were not used merely to manufacture completion.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 19:10",
+      "source_id": "v19-10",
+      "reason": "The disciples' inference that it would be better not to marry was read. General single-life teaching was considered, but no precise counterpart to this reaction to the divorce instruction was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 20:3",
+      "source_id": "v20-3",
+      "reason": "The third-hour marketplace hiring detail was read; no sufficiently precise independent counterpart was retained for this particular hiring round.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 20:5",
+      "source_id": "v20-5",
+      "reason": "The sixth- and ninth-hour hiring rounds were read. Merely repeating adjacent narrative would not supply a sufficient counterpart for the distinctive details.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 20:6",
+      "source_id": "v20-6",
+      "reason": "The eleventh-hour question about standing idle all day was read; no sufficiently precise counterpart to the time and question was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 20:7",
+      "source_id": "v20-7",
+      "reason": "The workers' explanation that nobody hired them and the resulting invitation were read; no precise external counterpart was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 22:11",
+      "source_id": "v22-11",
+      "reason": "The king's inspection and discovery of a guest without a wedding garment were read. General clothing imagery was not made into an unsupported identification of this garment.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 22:12",
+      "source_id": "v22-12",
+      "reason": "The wedding-garment question and the guest's silence were read. No precise counterpart was retained, and no unsupported allegorical identification was supplied.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 22:14",
+      "source_id": "v22-14",
+      "reason": "Many called but few chosen was read. General many/few sayings were considered imprecise for a retained pair. This sentence is not invented at Matthew20:16, where the pinned text does not contain it.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
     }
   ],
   "unresolved_candidates": [],
@@ -115,6 +305,14 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-samuel.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "2-kings/verses.json",
       "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json",
@@ -135,6 +333,22 @@
       "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "colossians/verses.json",
+      "blob_sha": "5e135d4d842ec8c19239abac374b1cbb547e0844",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/colossians/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/colossians.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/daniel.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -175,6 +389,14 @@
       "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/genesis.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "hebrews/verses.json",
+      "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hebrews/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/hebrews.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -227,6 +449,14 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "jonah/verses.json",
+      "blob_sha": "b2f33077a19167cd7c2c8cdb48562b942ce91380",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jonah/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jonah.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "leviticus/verses.json",
       "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/leviticus/verses.json",
@@ -239,6 +469,14 @@
       "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "malachi/verses.json",
+      "blob_sha": "a7fd092b220b6da8c5525e04c56db3a59786782e",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/malachi/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/malachi.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -311,10 +549,26 @@
       "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ruth/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ruth.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "sirach/verses.json",
+      "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/sirach.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "zechariah/verses.json",
+      "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/zechariah.json"
     }
   ],
   "pending": [
-    "Matthew 8–28 source review",
+    "Matthew 23–28 source review",
     "Substantive reconsideration of deferred source units",
     "Independent specialist review",
     "Live destination anchors and display checks"

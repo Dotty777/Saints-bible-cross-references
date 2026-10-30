@@ -1,10 +1,10 @@
 # Matthew cross-reference records
 
-195 completed source verses; 226 retained pairs; 201 source units read; 6 deferred units.
+743 completed source verses; 774 retained pairs; 772 source units read; 29 deferred units.
 
-First unfinished: Matthew 1:14. Next new source review: Matthew 8:1.
+First unfinished: Matthew 1:14. Next new source review: Matthew 23:1.
 
-Completed chapters: 2, 4, 7. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7. Complete inventory: 1068 original source units in 28 chapters. Deferred units receive no completion credit.
+Completed chapters: 2, 4, 7, 10, 12, 16, 21. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22. Complete inventory: 1068 original source units in 28 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Matthew.html) · [Plain text](Matthew.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -14,8 +14,9 @@ Source and target passages use the supplied Saints-Translation English records a
 
 ## Continuation
 
-Read [New Testament progress](../progress.json). Reconsider the first unfinished source substantively, then continue never-reviewed sources in order; keep these two positions separate while deferrals remain. Complete the current book’s initial pass before reviewing sources in the next book in the saved canon order. A range is one pair; duplicate pairs, imports and unresolved suggestions earn no credit.
+Read [New Testament progress](../progress.json). Reconsider the first unfinished source substantively, then continue never-reviewed sources in order; keep these two positions separate while deferrals remain. Read every original source unit in the current book before reviewing sources in the next book in the saved canon order; preserve any unresolved deferrals without completion credit. A range is one pair; duplicate pairs, imports and unresolved suggestions earn no credit.
 
 ## Review batches
 
 - [2026-10-30T224159Z](../review-batches/2026-10-30T224159Z.json): 195 completed source verses and 226 retained pairs.
+- [2026-10-30T231801Z](../review-batches/2026-10-30T231801Z.json): 548 completed source verses and 548 retained pairs.

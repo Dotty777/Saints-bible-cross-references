@@ -1,0 +1,35 @@
+{
+  "source_units_read": 190,
+  "pairs_read": 181,
+  "deferred_units_read": 9,
+  "status": "passed; both precision clarifications applied",
+  "findings": [
+    {
+      "source_id": "v21-15",
+      "target_book": "Luke",
+      "target_ids": [
+        "v19-39",
+        "v19-40"
+      ],
+      "fix": "Preserve the pair but label it thematic parallel and explicitly identify the different settings: Matthew's chief priests and scribes object to children in the temple after the cleansing, while Luke's Pharisees object to disciples during the approach to Jerusalem. Suggested rationale: Both passages portray religious opponents objecting to praise of Jesus. Matthew describes chief priests and scribes indignant at children in the temple; Luke has Pharisees ask Jesus to rebuke disciples during the entry. This compares separate praise controversies without identifying them as the same exchange.",
+      "resolution": "Applied in the final proposal and retained pair; completion counts unchanged."
+    },
+    {
+      "source_id": "v21-17",
+      "target_book": "Mark",
+      "target_ids": [
+        "v11-11"
+      ],
+      "fix": "Preserve the departure-to-Bethany comparison, adding that the temple events occur in a different narrated sequence: Mark places this departure before his account of the temple cleansing, while Matthew places it after the cleansing and temple discussion. The existing shared travel details are supported; this addition prevents implying identical immediate chronology.",
+      "resolution": "Applied in the final proposal and retained pair; completion counts unchanged."
+    }
+  ],
+  "review_notes": [
+    "Every source verse in Matthew18–22, every proposed target passage, and every rationale was read in the exact Saints snapshots, including the original flat Deuteronomy text with in-memory full-reference labels only.",
+    "All181 pairs have existing target IDs, complete contiguous original target ranges, no duplicate source/target pairs, and no self-target. The181 paired source IDs plus9 deferred IDs cover all190 original source units exactly once.",
+    "Greek-based Psalms8:3 and109:1 references were checked directly. Mark9:43–45 contains the original units43 and45; absent44 was not introduced.",
+    "Explicit same-chapter mirrored petitions, debt/payment contrasts, and callbacks were treated as internal literary links, not independent narrative attestation.",
+    "Divorce qualifications, mother versus sons requesting seats, two blind men versus one named blind man, mount counts, immediate versus later-discovered withering, killing/casting-out order, and placement of the closing no-more-questions statement remain qualified in the saved rationales.",
+    "The two findings are precision clarifications; neither requires rejecting a source completion or changing pair counts. No proposal or deliverable was edited."
+  ]
+}

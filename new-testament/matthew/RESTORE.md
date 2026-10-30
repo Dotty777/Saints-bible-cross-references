@@ -8,6 +8,8 @@ The authoritative tracker is [verses.json](verses.json), with the complete origi
 4. Resume at the saved first unfinished position and the separate next new source position. Read and assess actual passages before changing status; technical repair earns zero review credit.
 5. Commit records, notes, review history, readable files and progress together. Verify the remote main commit and published file identities after uploading.
 
-First unfinished: Matthew 1:14. Next new source review: Matthew 8:1.
+First unfinished: Matthew 1:14. Next new source review: Matthew 23:1.
 
 Do not reconstruct Greek Psalm numbering or named figures from another edition. Do not silently replace source text. Independent specialist review and live destination checks are pending.
+
+Hourly target: 500 newly completed distinct source verses. Count a source verse once regardless of its number of target passages. Save each run’s actual source-verse count, pair count, target result, shortfall and exact continuation.
