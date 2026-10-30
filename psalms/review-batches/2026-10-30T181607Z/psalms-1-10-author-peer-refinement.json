@@ -1,0 +1,64 @@
+{
+  "reviewer": "Codex AI author /root/macc13_16_author",
+  "run_id": "2026-10-30T181607Z",
+  "base_commit": "b24361e4b3b068c7a37a65c6a3575ee0b2a2b04e",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "before_file": "psalms-1-10-author-before-peer.tsv",
+  "before_sha256": "b2ee29273442e818d04e13d1340caa4ff36b7603e4d8cc7d5e5b2123a45da251",
+  "after_file": "psalms-1-10.tsv",
+  "after_sha256": "afaf133aa9d62a2a260dd03785b40a14328bbaefb737be5b0ca554e30836bc57",
+  "before_author_receipt": "psalms-1-10-review-before-peer.json",
+  "before_author_receipt_sha256": "cf132ddbbd2f728c5dccaf405ea4cab01cb83c1c8acc514f35c73160bc1fa2b0",
+  "findings_file": "psalms-1-10-peer-original-findings.json",
+  "findings_sha256": "752d78bb2a8a438e09a4c82fa2b3f7d5cf8aadd91592a0a8cd2224104f8c38e3",
+  "changed_before_file": "psalms-1-10-peer-changed-before.tsv",
+  "changed_before_sha256": "0ffbc5c02ed14a7ad11fc3662db154ea76f15f7349dba1a80d7fc61d99e1603a",
+  "changed_after_file": "psalms-1-10-peer-changed-after.tsv",
+  "changed_after_sha256": "8c7d952bba7111c8b1d9d49bcedb7c4b9109ad77edc0eb3a4111c50baf631851",
+  "changes": [
+    {
+      "action": "refine",
+      "input_pair": 56,
+      "old_row": {
+        "source_reference": "Psalms 7:5",
+        "target": "1 Samuel 24:18-20",
+        "relationship": "Refusal to repay an enemy's evil in kind",
+        "rationale": "Psalm 7 makes repayment of evil to those who repay evil a condition of its self-curse. Saul acknowledges that David repaid his evil with good by sparing him. The narrative gives a concrete nonretaliation comparison while leaving the psalm's occasion unidentified."
+      },
+      "new_row": {
+        "source_reference": "Psalms 7:5",
+        "target": "1 Samuel 24:18-20",
+        "relationship": "Repayment to an enemy: conditional oath and narrative",
+        "rationale": "The psalm puts repaying those who repay the speaker evils under its conditional self-curse. The Saul narrative explicitly distinguishes David's repayment with good things from Saul's evil repayment. The comparison concerns reciprocal response without adding an object to the psalm's first repaid."
+      },
+      "reason": "The supplied source does not explicitly name evil as the object of the speaker's repayment; the current rationale supplies that object and the category settles the resulting nonretaliation interpretation."
+    },
+    {
+      "action": "refine",
+      "input_pair": 87,
+      "old_row": {
+        "source_reference": "Psalms 9:15",
+        "target": "Isaiah 38:19-20",
+        "relationship": "Rescued life devoted to praise at God's dwelling",
+        "rationale": "Following rescue from death's gates, the psalmist seeks to proclaim praise at daughter Zion's gates. Hezekiah contrasts living praise with Hades and promises continual blessing before God's house. Both connect preservation of life with renewed public worship at the holy place."
+      },
+      "new_row": {
+        "source_reference": "Psalms 9:15",
+        "target": "Isaiah 38:19-20",
+        "relationship": "Preserved life and praise at God's dwelling",
+        "rationale": "The psalm asks for mercy from the Lord who raises from death's gates so the speaker may praise at daughter Zion's gates. Hezekiah contrasts living praise with Hades and promises continual blessing before God's house. Both connect life preserved from death with worship at the holy place."
+      },
+      "reason": "Preserve the psalm's petition and purpose instead of implying that its rescue is already a completed narrated event."
+    }
+  ],
+  "all_two_old_and_two_corrected_complete_triples_personally_reread": true,
+  "context_personally_reread": [
+    "Psalms 7:4-6",
+    "1 Samuel 24:17-23",
+    "Psalms 9:14-15",
+    "Isaiah 38:17-20"
+  ],
+  "counts_and_cases_unchanged": true,
+  "completed_source_credit": 0,
+  "completed_pair_credit": 0
+}

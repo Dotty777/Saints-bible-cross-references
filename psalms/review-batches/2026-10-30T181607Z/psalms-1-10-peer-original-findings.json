@@ -1,0 +1,79 @@
+{
+  "reviewer": "Codex independent peer /root/macc9_12_peer",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T18:58:23.199469+00:00",
+  "run_id": "2026-10-30T181607Z",
+  "base_commit": "b24361e4b3b068c7a37a65c6a3575ee0b2a2b04e",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "Psalms",
+  "source_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source_units_read": 134,
+  "completed_source_verses": 105,
+  "completed_pairs": 109,
+  "distinct_target_verse_units": 194,
+  "all_complete_source_units_personally_read": true,
+  "all109_complete_final_triples_personally_read": true,
+  "all29_source_cases_personally_read": true,
+  "all3_candidate_complete_triples_personally_read": true,
+  "all93_author_declared_context_ranges_personally_read": true,
+  "all11_author_changed_before_complete_triples_personally_read": true,
+  "own_fresh_pin_receipt": "psalms-1-10-peer-independent-pins.json",
+  "own_fresh_pin_receipt_sha256": "bd247a5361211a3ef478119e662c247d1c6aa014dc46281c1c4095b89e6a6be5",
+  "input_file": "psalms-1-10-peer-input.tsv",
+  "input_sha256": "b2ee29273442e818d04e13d1340caa4ff36b7603e4d8cc7d5e5b2123a45da251",
+  "author_receipt_file": "psalms-1-10-peer-author-input.json",
+  "author_receipt_sha256": "cf132ddbbd2f728c5dccaf405ea4cab01cb83c1c8acc514f35c73160bc1fa2b0",
+  "accepted_for_integration": false,
+  "required_changes": [
+    {
+      "action": "refine",
+      "input_pair": 56,
+      "old_row": {
+        "source_reference": "Psalms 7:5",
+        "target": "1 Samuel 24:18-20",
+        "relationship": "Refusal to repay an enemy's evil in kind",
+        "rationale": "Psalm 7 makes repayment of evil to those who repay evil a condition of its self-curse. Saul acknowledges that David repaid his evil with good by sparing him. The narrative gives a concrete nonretaliation comparison while leaving the psalm's occasion unidentified."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 7:5",
+        "target": "1 Samuel 24:18-20",
+        "relationship": "Repayment to an enemy: conditional oath and narrative",
+        "rationale": "The psalm puts repaying those who repay the speaker evils under its conditional self-curse. The Saul narrative explicitly distinguishes David's repayment with good things from Saul's evil repayment. The comparison concerns reciprocal response without adding an object to the psalm's first repaid."
+      },
+      "reason": "The supplied source does not explicitly name evil as the object of the speaker's repayment; the current rationale supplies that object and the category settles the resulting nonretaliation interpretation."
+    },
+    {
+      "action": "refine",
+      "input_pair": 87,
+      "old_row": {
+        "source_reference": "Psalms 9:15",
+        "target": "Isaiah 38:19-20",
+        "relationship": "Rescued life devoted to praise at God's dwelling",
+        "rationale": "Following rescue from death's gates, the psalmist seeks to proclaim praise at daughter Zion's gates. Hezekiah contrasts living praise with Hades and promises continual blessing before God's house. Both connect preservation of life with renewed public worship at the holy place."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 9:15",
+        "target": "Isaiah 38:19-20",
+        "relationship": "Preserved life and praise at God's dwelling",
+        "rationale": "The psalm asks for mercy from the Lord who raises from death's gates so the speaker may praise at daughter Zion's gates. Hezekiah contrasts living praise with Hades and promises continual blessing before God's house. Both connect life preserved from death with worship at the holy place."
+      },
+      "reason": "Preserve the psalm's petition and purpose instead of implying that its rescue is already a completed narrated event."
+    }
+  ],
+  "required_removals": [],
+  "new_deferrals": [],
+  "counts_unchanged_after_requested_refinements": true,
+  "completion_credit": 0
+}
