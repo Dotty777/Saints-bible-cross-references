@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_7_10 (independent AI-assisted supplied-English peer pass for Joshua7–12)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T00:26:37.464224+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "input_file": "joshua-7-12.tsv",
+  "input_sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+  "final_input_sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+  "author_receipt": "joshua-7-12-review.json",
+  "author_receipt_sha256": "2de3f05606f20ce97f527d7ce263470c3fa51df661490e1120d5311af48275c6",
+  "source_chapters": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_verses": 174,
+  "reviewed_source_verses": 174,
+  "reviewed_pairs": 174,
+  "retained_pairs": 174,
+  "distinct_target_verse_units": 186,
+  "chapter_pair_counts": {
+    "7": 26,
+    "8": 27,
+    "9": 33,
+    "10": 41,
+    "11": 23,
+    "12": 24
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "accepted_for_integration": true,
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": [],
+  "review_method": "Independently displayed and read all174 complete actual source/target/relationship/rationale triples in six untruncated chapter files. Also read necessary Joshua1/2/6/13/15/21/22 contexts (other retained targets supply their immediate chapter contexts), Numbers14:11–19,21:1–3,27:15–23,30:1–4, Exodus23:20–33, Deuteronomy27:1–14,31:9–13 and the complete relevant Deuteronomy2/3/7/11/20/21 targets, plus Sirach46:1–6 to establish Joshua as the named subject. All six initial author refinements were already included in this full final-triple pass; the two subsequently requested narrowings were independently redisplayed as complete corrected triples and reread after refreeze. Actual lettered ceremony units, missing numbered units, differing personal/geographical forms, royal-list total29, allegation versus narrator statement, instruction versus narrated outcome and distinct covenant/war summaries are retained. No familiar-edition replacement, astronomical mechanism or unsupported place/person equivalence was supplied. This initial supplied-English pass does not claim exhaustive discovery, Greek/Hebrew or apparatus checks, archaeology or independent human specialist verification.",
+  "technical_checks": {
+    "source_inventory": "before-joshua.json",
+    "all_174_actual_source_units_present_in_inventory_order": true,
+    "all_targets_resolve_to_actual_nonempty_units": true,
+    "self_inclusive_targets": 0,
+    "duplicate_normalized_directed_pairs": 0,
+    "same_chapter_pairs": 114,
+    "same_chapter_labels_exact_and_complete": true,
+    "all_books_in_exclusive_70_book_canon": true,
+    "author_read_and_reread_flags_true": true,
+    "final_counts_and_hashes_match_author_receipt": true,
+    "preserved_initial_frozen_tsv_sha256": "e8e871f5052210ba265ca6b18258bf077c566aeb693dbeb41d3e9fba8c97f8a7",
+    "preserved_initial_author_receipt_sha256": "6459a6e9d8c97296b5e29bfa20069463ec15f80b006af24a46a116b588222f18",
+    "exact_changed_rows": 2,
+    "only_changes_are_9_13_and_10_24_explanatory_narrowings": true
+  },
+  "peer_corrections_verified": [
+    {
+      "old_row": {
+        "source_reference": "Joshua 9:13",
+        "target": "Joshua 9:4-5",
+        "relationship": "Same-chapter long-journey explanation contrasted with deliberate old equipment",
+        "rationale": "The claimed wearing out of new skins, clothing and sandals contrasts with the narrator's account that old, torn and patched equipment had been selected for the ruse."
+      },
+      "new_row": {
+        "source_reference": "Joshua 9:13",
+        "target": "Joshua 9:4-5",
+        "relationship": "Same-chapter long-journey explanation contrasted with deliberate old equipment",
+        "rationale": "The claim that the skins were new when filled and that clothing and sandals wore out on a long journey contrasts with the narrator's account of deliberately selected old, torn and patched equipment."
+      },
+      "complete_corrected_triple_independently_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "old_row": {
+        "source_reference": "Joshua 10:24",
+        "target": "Joshua 10:25",
+        "relationship": "Same-chapter neck-foot gesture and Joshua's stated interpretation",
+        "rationale": "The commanders place their feet on the kings' necks, and Joshua immediately interprets this as encouragement about what the Lord will do to the enemies they fight."
+      },
+      "new_row": {
+        "source_reference": "Joshua 10:24",
+        "target": "Joshua 10:25",
+        "relationship": "Same-chapter neck-foot gesture and Joshua's stated interpretation",
+        "rationale": "The neck-foot gesture is immediately followed by Joshua's encouragement that the Lord will act likewise against the enemies they fight."
+      },
+      "complete_corrected_triple_independently_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "pin_method": "Fresh independent raw fetch of all5 retained source books at the fixed commit; exact Gitblob SHA1 and raw SHA256 rehashed, full parsed equality with cache verified, raw bytes independently compared to the author raw files. Normalized cache bytes are explicitly distinguished from raw Gitblob bytes.",
+  "pin_receipt": "joshua-7-12-peer-pins.json",
+  "pin_receipt_sha256": "57f418ba4edb32aea9987e39189e62c04b1ab149abe63ac9a773567df392ede2",
+  "source_books": [
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    },
+    {
+      "book": "Sirach",
+      "records": "sirach/verses.json",
+      "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+    }
+  ],
+  "excluded_unresolved_candidates": [
+    {
+      "source_reference": "Joshua 12:14",
+      "target": "Numbers 21:3",
+      "status": "pending place-name equivalence; not retained as an identity match",
+      "reason": "Joshua names Hormah beside Arad; Numbers names the devoted place Devotion to Destruction. Both complete texts and context were read, but equivalence of Hormah and that supplied name is not independently resolved or asserted. The separate retained12:14-to21:1-3 comparison concerns only the explicitly shared Arad royal title, with no claim that the two kings are the same person.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_candidate_identity_resolution_claimed": false,
+  "new_source_verses_credited": 0,
+  "new_pairs_credited": 0,
+  "independent_human_or_language_verification": false
+}

@@ -1,0 +1,2910 @@
+{
+  "run_id": "2026-10-30T000554Z",
+  "date": "2026-10-29",
+  "source_range": "Joshua 1:1-24:33b",
+  "distinct_source_verses": 659,
+  "new_completed_pairs": 677,
+  "book_results": [
+    {
+      "book": "Joshua",
+      "source_range": "Joshua 1:1-24:33b",
+      "distinct_source_verses": 659,
+      "new_completed_pairs": 677,
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "book_initial_curated_pass_complete": true,
+      "next_reference": null
+    }
+  ],
+  "hourly_target": 500,
+  "target_met": true,
+  "target_shortfall": 0,
+  "target_excess": 177,
+  "unresolved_retained_cases": [],
+  "new_unresolved_candidate_count": 4,
+  "known_pending_target_candidate_count": 12,
+  "review_record": "review-batches/2026-10-30T000554Z.json",
+  "next_reference": "Judges 1:1",
+  "inventories_added": [
+    {
+      "book": "Judges",
+      "source_units": 618,
+      "chapters": 21,
+      "record": "judges/inventory.json",
+      "completed_source_verses": 0,
+      "completed_pairs": 0
+    }
+  ],
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-29",
+  "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
+  "inputs": [
+    {
+      "file": "joshua-1-6.tsv",
+      "sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+      "pairs": 129
+    },
+    {
+      "file": "joshua-7-12.tsv",
+      "sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+      "pairs": 174
+    },
+    {
+      "file": "joshua-13-18.tsv",
+      "sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+      "pairs": 173
+    },
+    {
+      "file": "joshua-19-24.tsv",
+      "sha256": "0096945114ebe47f3fc3e9fd31cc4c9968c8842abbee458f7582c348629f8153",
+      "pairs": 201
+    }
+  ],
+  "chapter_pair_counts": {
+    "1": 20,
+    "2": 27,
+    "3": 17,
+    "4": 24,
+    "5": 15,
+    "6": 26,
+    "7": 26,
+    "8": 27,
+    "9": 33,
+    "10": 41,
+    "11": 23,
+    "12": 24,
+    "13": 33,
+    "14": 18,
+    "15": 64,
+    "16": 11,
+    "17": 18,
+    "18": 29,
+    "19": 55,
+    "20": 6,
+    "21": 49,
+    "22": 34,
+    "23": 16,
+    "24": 41
+  },
+  "review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_1_3 (AI-assisted supplied-English passage curation for Joshua1–6)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:17:29.363609+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_verses": 124,
+      "completed_source_verses": 124,
+      "completed_pairs": 129,
+      "distinct_target_verse_units": 149,
+      "chapter_pair_counts": {
+        "1": 20,
+        "2": 27,
+        "3": 17,
+        "4": 24,
+        "5": 15,
+        "6": 26
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all124 complete actual Joshua1–6 source units in full, using actual chapter5:1–15 and chapter6 keys with no6:4. Read every complete retained target and necessary context in Deuteronomy1/3/4/5/7/11/17/20/31/34, Exodus3/4/12/14/16/19/33, Numbers14/21/25/32, Genesis17, Psalms1, Hebrews11, James2 and1Kings16. Separately displayed and reread all129 full source/target/category/rationale triples in three untruncated groups; separately reread the four clarified final triples before freeze. Same-chapter cases identify particular speech/response, command/execution, repeated formula, contrasting location or narrative dependency. No independent source discovery is credited for those local relations. Preserve actual speakers, differing recipients, numbers, geographical forms, chronology, priestly positions and stated ritual actions. The1Kings16:34 edge rests on its explicit Joshua-word citation and detailed rebuilding correspondences, not an independent equivalence of Ozan/Hiel names.",
+      "pin_method": "Freshly fetched all9 retained raw source-book files at the fixed commit, rehashed every Git blob against existing registries including Joshua, and verified full parsed equality with caches. Rehashed the saved raw files and SHA256 receipts; cache newline differences remain distinguished from byte equality.",
+      "source_books": [
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+        },
+        {
+          "book": "James",
+          "records": "james/verses.json",
+          "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+        }
+      ],
+      "pin_receipt": "joshua-1-6-pins.json",
+      "input_file": "joshua-1-6.tsv",
+      "input_sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+      "final_input_sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+      "source_inventory": "joshua/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "author_corrections": {
+        "original_input_file": "joshua-1-6-initial.tsv",
+        "original_input_sha256": "38adfa9ecb2a5d806737aa0d99d0151943aaf3086d1c3c763eba7aa80120f6ac",
+        "changes": [
+          {
+            "source_reference": "Joshua 1:14",
+            "old_row": {
+              "source_reference": "Joshua 1:14",
+              "target": "Deuteronomy 3:18-19",
+              "relationship": "Eastern households remain while equipped men cross",
+              "rationale": "Both distinguish wives, children and livestock remaining in the given towns from able men crossing armed before their brothers, retaining the particular household and military arrangement."
+            },
+            "new_row": {
+              "source_reference": "Joshua 1:14",
+              "target": "Deuteronomy 3:18-19",
+              "relationship": "Eastern households remain while equipped men cross",
+              "rationale": "Both distinguish wives, children and livestock remaining in the given possession from able men crossing armed before their brothers; Deuteronomy specifically names their cities, while Joshua says the given land."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 2:17",
+            "old_row": {
+              "source_reference": "Joshua 2:17",
+              "target": "Joshua 2:18-20",
+              "relationship": "Same-chapter oath-release declaration and following conditions",
+              "rationale": "The declaration of freedom from the oath is followed by scarlet-window and household arrangements and the disclosure condition; the actual formulations are retained without recasting the oath as already canceled."
+            },
+            "new_row": {
+              "source_reference": "Joshua 2:17",
+              "target": "Joshua 2:18-20",
+              "relationship": "Same-chapter oath-release declaration and following conditions",
+              "rationale": "The declaration of freedom from the oath is followed by the scarlet-window sign and gathered-household protection, with oath freedom repeated for departure from the house or disclosure."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 6:9",
+            "old_row": {
+              "source_reference": "Joshua 6:9",
+              "target": "Joshua 6:7-8",
+              "relationship": "Same-chapter front and rear roles develop the preceding orders",
+              "rationale": "The fighting-men front and priestly rear-guard instruction develops the preceding directions about armed men, seven trumpet priests and the ark; distinct positions are not collapsed into a single priestly group."
+            },
+            "new_row": {
+              "source_reference": "Joshua 6:9",
+              "target": "Joshua 6:7-8",
+              "relationship": "Same-chapter front and rear roles develop the preceding orders",
+              "rationale": "Fighting men in front and priests behind the ark are specified after directions naming armed men, seven trumpet priests and the ark; the descriptions of position are retained separately."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 6:15",
+            "old_row": {
+              "source_reference": "Joshua 6:15",
+              "target": "Joshua 6:16",
+              "relationship": "Same-chapter sixth circuit notice followed by seventh-circuit signal",
+              "rationale": "The seventh-day dawn notice says they went around six times; the following unit places trumpet sound and Joshua's shout command on the seventh circuit, retaining both statements."
+            },
+            "new_row": {
+              "source_reference": "Joshua 6:15",
+              "target": "Joshua 6:16",
+              "relationship": "Same-chapter six circuits followed by seventh-circuit signal",
+              "rationale": "The seventh-day dawn notice says they went around six times; the following unit places trumpet sound and Joshua's shout command on the seventh circuit, retaining both statements."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Distinguish Joshua given land from Deuteronomy cities, narrow the oath-clause relation, retain procession position descriptions separately, and state six circuits rather than a sixth-circuit notice. No target or count changes.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      },
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Equate Ozan of Bethel with Hiel the Bethelite independently or insert the name Segub into Joshua6:26.",
+          "reason": "The retained textual cross-reference records Kings explicit Joshua-word attribution and the shared Jericho, Abiram, foundation and gates particulars, while preserving the different supplied personal names and youngest-son description. Independent name equivalence is not claimed or counted."
+        },
+        {
+          "proposed_claim": "Import Joshua5:16, Joshua6:4, familiar Adam/Zarethan water geography, a house-in-city-wall clause, standard forty-year/circumcision readings or seven circuits directly into6:15.",
+          "reason": "Only the supplied actual units and wording are retained; none of these imported substitutions receives completion credit."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Joshua1-2",
+          "note": "Keep the eastern-tribe respondents distinct from all Israel and preserve the two-versus-twelve scouting missions. At2:14 the men give the life pledge and Rahab speaks the subsequent mercy-and-faithfulness words. At2:15 the complete supplied unit is only the lowering through a window;2:21 does not itself narrate tying the scarlet cord. The oath clauses are retained as written, with no inserted actor for anyone at2:20."
+        },
+        {
+          "reference": "Joshua3-4",
+          "note": "Preserve two thousand cubits, Kiriath-jearim at3:16, stones before them at4:11, the separate twelve stones in Jordan and those at Gilgal, forty thousand equipped men without importing a census, and the first-month tenth-day arrival. No modern map, precise sightline, calendar synchronization or physical explanation is independently verified."
+        },
+        {
+          "reference": "Joshua5",
+          "note": "The actual chapter ends at5:15. Preserve forty-two years in Madbaritis and the stated uncircumcised populations, Phoenician-country harvest and manna endpoint, and the drawn-sword figure identified only by his supplied chief-captain title."
+        },
+        {
+          "reference": "Joshua6",
+          "note": "No6:4 source unit exists. Preserve the second-day wording6:12, different procession positions, six circuits at6:15 followed by the seventh circuit6:16, the metals exception, Rahab household rescue, Achar at7:1, and the Ozan/unnamed-youngest form in6:26 versus Hiel/Segub in the explicit Kings citation. Do not silently repair differences or infer independent personal-name equivalence."
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_4_6 (AI-assisted supplied-English curation for Joshua7–12)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:25:22.630890+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_verses": 174,
+      "completed_source_verses": 174,
+      "completed_pairs": 174,
+      "distinct_target_verse_units": 186,
+      "chapter_pair_counts": {
+        "7": 26,
+        "8": 27,
+        "9": 33,
+        "10": 41,
+        "11": 23,
+        "12": 24
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all174 actual source units in full, every complete retained target and necessary Joshua1/2/6/13/14/15/21/22/23/24, Deuteronomy2/3/7/9/11/20/21/27/31, Exodus23, Numbers14/21/27/30 and Sirach46 contexts. Then separately displayed and reread all174 complete source/target/category/rationale triples in six untruncated chapter slices. Before initial freeze preserved the original author draft and exact six wording refinements; all six final complete changed triples were then separately displayed and reread. Same-chapter comparisons concern particular instructions and performance, claims and contradictory evidence, questions and answers, named expedition stages, explicit comparisons between captured cities, stated king-list membership or named summary extents. They are not independent external corroboration or modern site identifications. The royal entries retain29as the explicit total; no31replacement or invented missing numbered unit is used. This is initial English-text curation, not exhaustive discovery or original-language/apparatus/human-specialist verification. Independent peer review requested two wording precisions: only the wineskins are explicitly said to begin new at9:13, and10:24 does not assign the neck-foot gesture exclusively to commanders. Preserved the original frozen TSV and author receipt, recorded exact old/new rows, separately displayed and reread both complete corrected source/target/category/rationale triples, then refroze this receipt. These corrections add zero source-verse or pair credit. The six original pre-freeze refinements remain unchanged in their earlier history.",
+      "pin_method": "Fresh independent raw fetch of all5 retained source books at the fixed commit; rehashed exact Gitblob identities against existing registries and verified complete parsed equality to local caches while recording byte normalization differences separately.",
+      "source_books": [
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Sirach",
+          "records": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+        }
+      ],
+      "pin_receipt": "joshua-7-12-pins.json",
+      "input_file": "joshua-7-12.tsv",
+      "input_sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+      "final_input_sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+      "source_inventory": "joshua/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [
+        {
+          "source_reference": "Joshua 12:14",
+          "target": "Numbers 21:3",
+          "status": "pending place-name equivalence; not retained as an identity match",
+          "reason": "Joshua names Hormah beside Arad; Numbers names the devoted place Devotion to Destruction. Both complete texts and context were read, but equivalence of Hormah and that supplied name is not independently resolved or asserted. The separate retained12:14-to21:1-3 comparison concerns only the explicitly shared Arad royal title, with no claim that the two kings are the same person.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        }
+      ],
+      "author_refinements_before_freeze": [
+        {
+          "source_reference": "Joshua 7:3",
+          "old_row": {
+            "source_reference": "Joshua 7:3",
+            "target": "Joshua 7:4-5",
+            "relationship": "Same-chapter recommendation and adverse outcome",
+            "rationale": "The recommendation to send about two or three thousand is followed by about three thousand going, fleeing and suffering the stated thirty-six deaths, contrasting expectation with outcome."
+          },
+          "new_row": {
+            "source_reference": "Joshua 7:3",
+            "target": "Joshua 7:4-5",
+            "relationship": "Same-chapter recommendation and adverse outcome",
+            "rationale": "The recommendation to send about two or three thousand is followed by about three thousand going, fleeing and suffering about thirty-six deaths, contrasting expectation with outcome."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 7:10",
+          "old_row": {
+            "source_reference": "Joshua 7:10",
+            "target": "Joshua 7:11-13",
+            "relationship": "Same-chapter command to rise followed by the offense and remedy",
+            "rationale": "The Lord interrupts Joshua's fallen posture by declaring the devoted-property offense and directing consecration and its removal, shifting the response toward the stated cause of defeat."
+          },
+          "new_row": {
+            "source_reference": "Joshua 7:10",
+            "target": "Joshua 7:11-13",
+            "relationship": "Same-chapter command to rise followed by the offense and remedy",
+            "rationale": "The Lord responds to Joshua's fallen posture by declaring the devoted-property offense and directing consecration and its removal, shifting the response toward the stated cause of defeat."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 7:14",
+          "old_row": {
+            "source_reference": "Joshua 7:14",
+            "target": "Joshua 7:16-18",
+            "relationship": "Same-chapter staged identification commanded and performed",
+            "rationale": "The command to present tribes, clans, households and individuals is followed by Judah, the Zerahite clan and Achar being indicated, preserving the actual abbreviated genealogical wording."
+          },
+          "new_row": {
+            "source_reference": "Joshua 7:14",
+            "target": "Joshua 7:16-18",
+            "relationship": "Same-chapter staged identification commanded and performed",
+            "rationale": "The command to present tribes, clans, households and individuals is followed by Judah, the Zerahite clan and Achar being indicated, preserving the account's actual varying genealogical wording."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 10:33",
+          "old_row": {
+            "source_reference": "Joshua 10:33",
+            "target": "Joshua 12:12",
+            "relationship": "Gezer king's defeat recalled in the later royal list",
+            "rationale": "The king of Gezer comes to aid Lachish and is defeated with his people; the later list names a king of Gezer, without equating the neighboring Ailam entry with a city absent from this narrative unit."
+          },
+          "new_row": {
+            "source_reference": "Joshua 10:33",
+            "target": "Joshua 12:12",
+            "relationship": "Gezer king's defeat recalled in the later royal list",
+            "rationale": "The king of Gezer comes to aid Lachish and is defeated with his people; the later list names a king of Gezer, while its separate Ailam royal entry is not identified with this ruler's personal name."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 11:17",
+          "old_row": {
+            "source_reference": "Joshua 11:17",
+            "target": "Joshua 12:7",
+            "relationship": "Related western extent summaries with different mountain forms",
+            "rationale": "Both extend the western campaign summary from the Seir ascent area toward Baal-gad and Lebanon; Achel and Chelcha remain the actual differing forms rather than an asserted modern identification."
+          },
+          "new_row": {
+            "source_reference": "Joshua 11:17",
+            "target": "Joshua 12:7",
+            "relationship": "Related western extent summaries with different mountain forms",
+            "rationale": "Both western campaign summaries connect the Seir ascent area with Baal-gad and Lebanon; Achel and Chelcha remain the actual differing forms rather than an asserted modern identification."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 12:2",
+          "old_row": {
+            "source_reference": "Joshua 12:2",
+            "target": "Deuteronomy 2:36-37",
+            "relationship": "Sihon's realm compared with the eastern campaign limits",
+            "rationale": "Both name Aroer, Arnon, Gilead and the Jabbok-Ammon boundary area; Joshua describes Sihon's rule, while Deuteronomy distinguishes conquered territory from Ammonite territory not approached."
+          },
+          "new_row": {
+            "source_reference": "Joshua 12:2",
+            "target": "Deuteronomy 2:36-37",
+            "relationship": "Sihon's realm compared with the eastern campaign limits",
+            "rationale": "Both name Aroer, Gilead and the Jabbok-Ammon boundary area; Joshua describes Sihon's rule, while Deuteronomy distinguishes conquered territory from Ammonite territory not approached."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        }
+      ],
+      "author_draft_file": "joshua-7-12-author-draft.tsv",
+      "author_draft_sha256": "36458feed93e753fa332ca7e26a423c27117f1a399f2bf9150f4d8c49aa7241b",
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Infer every household member was burned or stoned in Joshua7, silently reconcile the varying patronymics, or import a Babylonian robe description.",
+          "reason": "The source states burning as the command and reports Achar stoned with a heap over him, while bringing his household and goods to the ravine. Their individual fates are not supplied. Actual carpet, didrachm weights and patronymic forms remain unchanged."
+        },
+        {
+          "proposed_claim": "Supply absent Joshua8:13/26or10:15/43, move the9:2a–2fceremony, substitute northern approach or a second troop count, or infer an astronomical mechanism.",
+          "reason": "Only actual source units and directions are retained; the east/west, thirty-thousand, javelin, full-day and Sirach differing day-language are preserved."
+        },
+        {
+          "proposed_claim": "Equate Horite with a replacement ethnonym, Ailam the royal-list entry with Ailam the ruler, Arad kings as the same person, Achel/Chelcha as independently identified mountains, or other similarly named places/persons.",
+          "reason": "Retained comparisons use explicit narrative roles and shared landmarks while preserving different forms and excluding unsupported identities. Hormah/Devotion to Destruction is separately logged unresolved."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Joshua7",
+          "note": "Preserve Achar sonofCarmi/Zambri/Zerah variations, about3000andabout36, patternedcarpet, didrachmweights, silverunderneath, Achor/Emek-achor, and the distinction between commanded fire and narrated stoning. No unstated lot mechanism or family-member fate is supplied."
+        },
+        {
+          "reference": "Joshua8",
+          "note": "Preserve actual27units, missing13/26, eastapproach/westambush, thirtythousand, no additional troopnumber, javelin, capturedkingalive beforelaterhanging,12000total andlivestock/spoilpermissiondistinctfromJericho. Same-day body removal compares withDeut21withoutaddingunstateddetails."
+        },
+        {
+          "reference": "Joshua9",
+          "note": "Preserve9:2a–2ffullactualanchors, altar/stone-law/mountainassembly/publicreading distinctions, deliverance versuswell-beingofferingnames, release-yearlawreadingcomparedwithoutclaimingthatdateforJoshua, Horite, delegatesfalseclaimsversusnarratorfacts, oathandnoninquiryandservice roles."
+        },
+        {
+          "reference": "Joshua10",
+          "note": "Preserve Adoni-bezek, Ailam/Pheidon/Jephtha/Debir, Adullam, Jebusite/Amoritespeechforms, Horonin, Aijalon, hail/swordcomparison andSirachrecollection, absent15/43, caveprocedure, escapedpeopleinfortifiedcities, actualsecond-dayLachishversussame-dayAdullam, Gosom andAsedoth. Ailamcityentrynotconflatedwithpersonalname."
+        },
+        {
+          "reference": "Joshua11",
+          "note": "Preserve Marron/Symoon/Aziph/Maseron/Massoch, hamstringing/chariotburning, Hazoraloneburnedamongstatedcities, differentdestruction/spoilaccounts, Achel/Chelchaforms, manydays, unqualified11:19summaryalongsideGibeoncovenantwithoutinsertinganexception, Joshua/CalebagentsandremainingAnakimterritory."
+        },
+        {
+          "reference": "Joshua12",
+          "note": "Preserve eastern/westernheadings, Asimoth/Thaiman/AsedothPhasga/Machanarethforms, allcompoundroyalunits, allplacequalifiers, explicit29total. Heading/listrelationsidentifythetextsstatedroleofotherwiseunnarratedentrieswithoutinventedbattleorplaceidentifications. The12:14AradcomparisondoesnotresolveHormah."
+        }
+      ],
+      "peer_corrections": {
+        "original_input_file": "joshua-7-12-before-peer.tsv",
+        "original_input_sha256": "e8e871f5052210ba265ca6b18258bf077c566aeb693dbeb41d3e9fba8c97f8a7",
+        "original_author_receipt": "joshua-7-12-review-before-peer.json",
+        "original_author_receipt_sha256": "6459a6e9d8c97296b5e29bfa20069463ec15f80b006af24a46a116b588222f18",
+        "changes": [
+          {
+            "source_reference": "Joshua 9:13",
+            "old_row": {
+              "source_reference": "Joshua 9:13",
+              "target": "Joshua 9:4-5",
+              "relationship": "Same-chapter long-journey explanation contrasted with deliberate old equipment",
+              "rationale": "The claimed wearing out of new skins, clothing and sandals contrasts with the narrator's account that old, torn and patched equipment had been selected for the ruse."
+            },
+            "new_row": {
+              "source_reference": "Joshua 9:13",
+              "target": "Joshua 9:4-5",
+              "relationship": "Same-chapter long-journey explanation contrasted with deliberate old equipment",
+              "rationale": "The claim that the skins were new when filled and that clothing and sandals wore out on a long journey contrasts with the narrator's account of deliberately selected old, torn and patched equipment."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 10:24",
+            "old_row": {
+              "source_reference": "Joshua 10:24",
+              "target": "Joshua 10:25",
+              "relationship": "Same-chapter neck-foot gesture and Joshua's stated interpretation",
+              "rationale": "The commanders place their feet on the kings' necks, and Joshua immediately interprets this as encouragement about what the Lord will do to the enemies they fight."
+            },
+            "new_row": {
+              "source_reference": "Joshua 10:24",
+              "target": "Joshua 10:25",
+              "relationship": "Same-chapter neck-foot gesture and Joshua's stated interpretation",
+              "rationale": "The neck-foot gesture is immediately followed by Joshua's encouragement that the Lord will act likewise against the enemies they fight."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ]
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root (AI-assisted supplied-English passage curation)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:22:35.462632+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "source_verses": 167,
+      "completed_source_verses": 167,
+      "completed_pairs": 173,
+      "distinct_target_verse_units": 173,
+      "chapter_pair_counts": {
+        "13": 33,
+        "14": 18,
+        "15": 64,
+        "16": 11,
+        "17": 18,
+        "18": 29
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all167 complete actual source units, every retained complete target and necessary Numbers13/14/18/21/26/27/31/32/33/34/35, Deuteronomy1/3, Genesis23/28/35/48, Judges1/3, 1Samuel4/17, 1Kings5 and Joshua1/6/9/10/11/12/19/23 contexts. Separately displayed and reread all173 complete source/target/category/rationale triples in four untruncated groups, then reread four narrowed triples before freeze. Named town-group links explain the actual delimited catalog block or its tribal heading and supplied closing total, not merely arbitrary verse adjacency or independent geographic validation. Shared names, explicit textual aliases, particular border features, prior inheritance commands and repeated outcomes are retained without claiming uncertain name equivalences or recalculating supplied city totals. After independent peer feedback, reread one complete corrected16:4/Genesis48:5 triple narrowing Joseph heirs to Joseph sons receiving inheritance; exact prior frozen input and author receipt preserved, with zero extra credit.",
+      "pin_method": "Independently fetched all7 retained source-book raw files at fixed commit, verified exact Git blob hashes against current registries and complete parsed equality with caches; raw/cache byte differences distinguished.",
+      "source_books": [
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        }
+      ],
+      "pin_receipt": "joshua-13-18-pins.json",
+      "input_file": "joshua-13-18.tsv",
+      "input_sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+      "final_input_sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+      "source_inventory": "joshua/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [
+        {
+          "source_reference": "Joshua 13:21",
+          "target": "Numbers 31:8",
+          "status": "pending fifth Midian ruler name equivalence; not retained",
+          "reason": "The actual rosters share Evi, Rekem, Zur and Hur but have Reba versus Robok and distinct ruler descriptions. Full proposed roster identity, especially the fifth individual, is not independently resolved. The retained source connection concerns Sihon towns instead.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        },
+        {
+          "source_reference": "Joshua 15:14",
+          "target": "Judges 1:10",
+          "status": "pending individual Anakite name equivalences; not retained",
+          "reason": "Joshua names Sousi, Talmai and Achima, while Judges names Sheshai, Ahiman and Talmai and attributes the attack to Judah. The distinct individual names and actors are not harmonized; the retained connection identifies the preceding explicit Hebron allotment instead.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        },
+        {
+          "source_reference": "Joshua 17:3",
+          "target": "Numbers 27:1",
+          "status": "pending Egla-Hoglah individual name equivalence; not retained",
+          "reason": "The daughter lists have Egla versus Hoglah. Their common named father and inheritance case are clear, but the differing individual name is not independently resolved or counted; the retained connection uses the no-son inheritance petition rather than claiming a complete identical roster.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        }
+      ],
+      "author_corrections": {
+        "original_input_sha256": "17239c7b89b6a11422321d2654a827b27ae660bd9dc3182445ee0867e508a87f",
+        "changes": [
+          {
+            "old_row": {
+              "source_reference": "Joshua 13:7",
+              "target": "Numbers 34:13",
+              "relationship": "Nine-and-a-half-tribe allotment command",
+              "rationale": "Both specify inheritance by lot for nine tribes and half Manasseh; Joshua additionally defines Jordan and the Great Sea limits, while Numbers attributes the prescription to Moses."
+            },
+            "new_row": {
+              "source_reference": "Joshua 13:7",
+              "target": "Numbers 34:13",
+              "relationship": "Nine-and-a-half-tribe allotment command",
+              "rationale": "Both specify inheritance for nine tribes and half Manasseh; Numbers explicitly names the lot, while Joshua's preceding command supplies that lot setting and this unit additionally defines Jordan and Great Sea limits."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Joshua 15:1",
+              "target": "Numbers 34:3-4",
+              "relationship": "Southwestern wilderness and Kadesh boundary descriptions",
+              "rationale": "Both describe a southwestern boundary adjoining Edom and the wilderness and approaching Kadesh-barnea; Joshua's Zin and Idumea forms remain distinct from Numbers' Sin and Edom wording."
+            },
+            "new_row": {
+              "source_reference": "Joshua 15:1",
+              "target": "Numbers 34:3-4",
+              "relationship": "Southwestern wilderness and Kadesh boundary descriptions",
+              "rationale": "Both describe a southwestern boundary adjoining an Edom form and the wilderness, with a Kadesh form; Joshua's Zin, Idumea and Kadesh remain distinct from Numbers' Sin, Edom and Kadesh-barnea wording."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Joshua 17:6",
+              "target": "Numbers 27:7",
+              "relationship": "Daughters inheriting among their father's brothers",
+              "rationale": "Both explicitly grant Zelophehad's daughters an inheritance among the father's brothers; Joshua additionally distinguishes the Gilead portion of the remaining Manasseh descendants."
+            },
+            "new_row": {
+              "source_reference": "Joshua 17:6",
+              "target": "Numbers 27:7",
+              "relationship": "Daughters inheriting among their father's brothers",
+              "rationale": "Joshua describes Manasseh's daughters inheriting among their brothers in the preceding Zelophehad case; Numbers expressly grants Zelophehad's daughters their father's allotment among his brothers, while Joshua additionally distinguishes remaining Gilead."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Joshua 17:8",
+              "target": "Joshua 16:9",
+              "relationship": "Particular Ephraim holding within the general enclave notice",
+              "rationale": "The statement that Thapheth on Manasseh's border belongs to Ephraim corresponds to the earlier notice of Ephraim cities within Manasseh's inheritance, without renaming the stated location."
+            },
+            "new_row": {
+              "source_reference": "Joshua 17:8",
+              "target": "Joshua 16:9",
+              "relationship": "Ephraim ownership alongside Manasseh in related allotment notices",
+              "rationale": "Thapheth on Manasseh's border expressly belongs to Ephraim; the earlier summary describes Ephraim cities amid Manasseh, supplying related cross-tribal ownership language without claiming this border town is a fully surrounded enclave."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "original_input_file": "joshua-13-18-initial.tsv"
+      },
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Import1Kings9:15-17 for the Gezer notice or equate every variant boundary/town name.",
+          "reason": "That familiar Kings range is absent; retained actual5:14b independently pinned and read. Keep Baal/Jearim/Chesalon, Onom/Onnam/Gaienna, Raphain/Emekraphain, Socoh/Soccoth, Moladah/Koladam, Thekoum/Tekoa and Ephrathah occurrences in their stated contexts without unprovided mappings."
+        },
+        {
+          "proposed_claim": "Restore a familiar ten-share Manasseh formula, iron-chariot phrase or wilderness heading at15:61.",
+          "reason": "Preserve17:5Anassa/Labek,17:9terebinth,17:16choicecavalryandiron and the actual unheaded15:61 list. Town-group totals, including18:24twelve and18:28thirteen, remain supplied wording without arithmetic normalization."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Joshua13-14",
+          "note": "Preserve remaining-land versus allotment distinctions,13:25halfAmmon,14:2throughJoshua,14:3beyondJordanfragment,14:7reportaccordingtohismind,14:13sonofKenaz and45th-year/85-yearage claims without turning them into45wildernessyears. Midian fifth-name and Anakite roster identities remain uncounted."
+        },
+        {
+          "reference": "Joshua15-18",
+          "note": "Preserve all supplied town names/counts and15:59acontinuation. The same-chapter links identify particular named catalog groups, tribe headings or explicit boundary continuations; no modern site identity or recalculated city total is certified. Keep Golathmaim, Pharaoh expansion, actual1Kings5:14b, Anassa/Labek, terebinth, cavalry-and-iron, and Benjamin/Judah Jerusalem distinctions. Egla/Hoglah identity remains unresolved."
+        }
+      ],
+      "peer_revisions": {
+        "original_input_file": "joshua-13-18-before-peer.tsv",
+        "original_input_sha256": "f421de816639419e0f40a1196be293d3f57b5bb446bc2ce66c59744cb48d6dd2",
+        "original_author_receipt": "joshua-13-18-before-peer-review.json",
+        "changes": [
+          {
+            "old_row": {
+              "source_reference": "Joshua 16:4",
+              "target": "Genesis 48:5",
+              "relationship": "Joseph's two sons receiving distinct inherited standing",
+              "rationale": "The allotment notice names Ephraim and Manasseh as Joseph's heirs; Jacob had explicitly taken those two as his own like Reuben and Simeon, supplying their particular tribal-family standing."
+            },
+            "new_row": {
+              "source_reference": "Joshua 16:4",
+              "target": "Genesis 48:5",
+              "relationship": "Joseph's two sons receiving distinct inherited standing",
+              "rationale": "The allotment notice names Joseph's sons Ephraim and Manasseh receiving inheritance; Jacob had explicitly taken those two as his own like Reuben and Simeon, supplying their particular tribal-family standing."
+            },
+            "reason": "Name the sons receiving land inheritance without implying inheritance from Joseph estate.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "original_author_receipt_sha256": "64afcfa6117e0aa7f40158dd5ab012232ca106620b9c05cb315856ae20034808"
+      }
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_7_10 (AI-assisted supplied-English curation for Joshua19–24)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:22:17.890285+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "source_verses": 194,
+      "completed_source_verses": 194,
+      "completed_pairs": 201,
+      "distinct_target_verse_units": 253,
+      "chapter_pair_counts": {
+        "19": 55,
+        "20": 6,
+        "21": 49,
+        "22": 34,
+        "23": 16,
+        "24": 41
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Read all194 complete actual source units, all retained complete targets and necessary contexts. Separately displayed and reread all201 complete source/target/category/rationale triples in chapter portions; after a combined22/23display truncated the middle, separately displayed all22:22–24triples in full. Preserved the original draft and exact nine old/new scope refinements; separately displayed and reread every final corrected triple before first freeze. Read actual Joshua5circumcision,7Achar,10Gibeon,13remaining-land,14distribution/Caleb,15Judahcatalogue,18lots/Shiloh,19–24full;Numbers22Balak,25Peor/Phinehas,31spoil and35refuge/Leviticaltowncontexts;Deuteronomy2/3/4/6/7/8/10/11/12/23/26/28/31/32;Genesis11/12/17/21/25/33/35/46/50;Exodus1/12/13/14/20/23/24;Judges1/2/3. Same-chapter catalogue links identify particular named tribal membership, specified route direction, paired city groups, clan totals and arithmetic subtotals; they do not claim independent external attestations or generic adjacency as evidence. Narrative links distinguish allegations, conditional replies, stated findings and final response. Initial curated supplied-English pass, not exhaustive discovery or independent Greek/Hebrew, apparatus, archaeological or human-specialist verification.",
+      "pin_method": "Independent fresh raw fetches of all6 retained source-book JSON files at the fixed commit; Gitblob rehash against existing registries and complete parsed cache equality. Raw/cache byte differences recorded separately from complete parsed agreement.",
+      "source_books": [
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        }
+      ],
+      "pin_receipt": "joshua-19-24-pins.json",
+      "input_file": "joshua-19-24.tsv",
+      "input_sha256": "0096945114ebe47f3fc3e9fd31cc4c9968c8842abbee458f7582c348629f8153",
+      "final_input_sha256": "0096945114ebe47f3fc3e9fd31cc4c9968c8842abbee458f7582c348629f8153",
+      "source_inventory": "joshua/inventory.json",
+      "inventory_completion_credit": 0,
+      "unresolved_cases": [],
+      "unresolved_candidates": [],
+      "author_corrections": {
+        "original_input_file": "joshua-19-24-author-draft.tsv",
+        "original_input_sha256": "7b0c28133b47c2aea4be5942fecf2f5c6a551363e2e19872ea4f47ef3fd2f6ef",
+        "changes": [
+          {
+            "source_reference": "Joshua 19:11",
+            "old_row": {
+              "source_reference": "Joshua 19:11",
+              "target": "Joshua 19:16",
+              "relationship": "Same-chapter specified boundary segment within Zebulun's allocation",
+              "rationale": "Gola, the sea-side Maragella boundary and the ravine facing Jekman belong to the border account closed as Zebulun's city-and-village inheritance."
+            },
+            "new_row": {
+              "source_reference": "Joshua 19:11",
+              "target": "Joshua 19:16",
+              "relationship": "Same-chapter specified boundary segment within Zebulun's allocation",
+              "rationale": "Gola, the sea and Maragella borders, and the ravine facing Jekman belong to the account closed as Zebulun's city-and-village inheritance, without assigning Maragella a modern coastal identity."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 19:36",
+            "old_row": {
+              "source_reference": "Joshua 19:36",
+              "target": "Joshua 19:39",
+              "relationship": "Same-chapter named hill-country city group and tribal closure",
+              "rationale": "Armaith, Arael and Hazor occur within the city sequence closed as Naphtali's inheritance, without identifying them with similarly named towns in other allotments."
+            },
+            "new_row": {
+              "source_reference": "Joshua 19:36",
+              "target": "Joshua 19:39",
+              "relationship": "Same-chapter named city group and tribal closure",
+              "rationale": "Armaith, Arael and Hazor occur within the city sequence closed as Naphtali's inheritance, without identifying them with similarly named towns in other allotments."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 21:2",
+            "old_row": {
+              "source_reference": "Joshua 21:2",
+              "target": "Numbers 35:2-3",
+              "relationship": "Levitical petition cites the town-and-pasture command",
+              "rationale": "The Levites request dwelling cities and surrounding lands for cattle through Moses' command; Numbers expressly directs Israel to supply towns and livestock lands from their possessions."
+            },
+            "new_row": {
+              "source_reference": "Joshua 21:2",
+              "target": "Numbers 35:2-3",
+              "relationship": "Levitical petition cites the town-and-pasture command",
+              "rationale": "The Levites request dwelling cities and surrounding lands for livestock through Moses' command; Numbers expressly directs Israel to supply towns and livestock lands from their possessions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:8",
+            "old_row": {
+              "source_reference": "Joshua 22:8",
+              "target": "Numbers 31:27",
+              "relationship": "Different campaigns sharing spoil beyond the fighting group",
+              "rationale": "Both describe sharing enemy spoil with the wider brothers or congregation; Numbers explicitly divides between warriors and the congregation, without specifying Joshua's later distribution proportions."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:8",
+              "target": "Numbers 31:27",
+              "relationship": "Related enemy-spoil distributions with distinct recipient descriptions",
+              "rationale": "Both describe enemy spoil being shared; Numbers specifies warriors and the whole congregation, while Joshua says the eastern tribes divided it with their brothers and gives no distribution proportions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:20",
+            "old_row": {
+              "source_reference": "Joshua 22:20",
+              "target": "Joshua 7:1-5",
+              "relationship": "Achar's devoted-property offense and collective losses",
+              "rationale": "The recital connects Achar's offense with communal wrath and deaths; Joshua7 names the Zerah-line ancestry more fully and narrates Israel's defeat with about thirty-six killed."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:20",
+              "target": "Joshua 7:1-5",
+              "relationship": "Achar's devoted-property offense and collective losses",
+              "rationale": "Both link Achar's devoted-property offense with communal wrath; Joshua7 narrates about thirty-six killed and gives Carmi and Zambri between Achar and Zerah, preserving the differing ancestry formulations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:31",
+            "old_row": {
+              "source_reference": "Joshua 22:31",
+              "target": "Joshua 22:26-29",
+              "relationship": "Same-chapter no-offense verdict after the stated testimonial defense",
+              "rationale": "Phinehas' favorable verdict follows the explicit non-sacrificial testimony explanation and denial of an altar apart from the Lord's tent, without turning the initial allegation into a finding."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:31",
+              "target": "Joshua 22:26-29",
+              "relationship": "Same-chapter no-offense verdict after the stated testimonial defense",
+              "rationale": "Phinehas' favorable verdict follows the explicit non-sacrificial testimony explanation and rejection of offering apart from the Lord's altar before His tent, without turning the initial allegation into a finding."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 23:10",
+            "old_row": {
+              "source_reference": "Joshua 23:10",
+              "target": "Deuteronomy 32:30",
+              "relationship": "One pursuing a thousand under different descriptions of divine agency",
+              "rationale": "Both use one pursuing a thousand; Joshua credits the Lord fighting for Israel, whereas Deuteronomy asks how such pursuit occurs unless God sells and hands over those pursued."
+            },
+            "new_row": {
+              "source_reference": "Joshua 23:10",
+              "target": "Deuteronomy 32:30",
+              "relationship": "One pursuing a thousand under different descriptions of divine agency",
+              "rationale": "Both use one pursuing a thousand; Joshua credits the Lord fighting for Israel, whereas Deuteronomy's rhetorical question uses God's selling and handing-over language without assigning its pronouns a new referent."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 24:10",
+            "old_row": {
+              "source_reference": "Joshua 24:10",
+              "target": "Deuteronomy 23:6",
+              "relationship": "Divine refusal of destruction and curse reversed into blessing",
+              "rationale": "Both describe the Lord preserving Israel and blessing despite Balaam's intended curse; Deuteronomy expressly says He refused Balaam and changed the curse because of His love."
+            },
+            "new_row": {
+              "source_reference": "Joshua 24:10",
+              "target": "Deuteronomy 23:6",
+              "relationship": "Divine refusal of destruction and curse reversed into blessing",
+              "rationale": "Both describe the Lord preserving Israel and blessing despite the curse sought through Balaam; Deuteronomy expressly says He refused Balaam and changed the curse because of His love."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 24:33b",
+            "old_row": {
+              "source_reference": "Joshua 24:33b",
+              "target": "Judges 2:13-14",
+              "relationship": "Other-god service followed by delivery to enemies",
+              "rationale": "Both connect service to Astarte-related gods with the Lord handing Israel to enemies; Joshua's continuation specifically names Moab's Eglom, while Judges2 gives the broader pattern."
+            },
+            "new_row": {
+              "source_reference": "Joshua 24:33b",
+              "target": "Judges 2:13-14",
+              "relationship": "Other-god service followed by delivery to enemies",
+              "rationale": "Both connect serving other gods with the Lord handing Israel to enemies; Joshua names Astarte, Ashtaroth and Eglom, while Judges names Baal and Astartes with a broader enemy description."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "new_source_verses_credited": 0
+      },
+      "candidate_exclusions": [
+        {
+          "proposed_claim": "Map unusual catalogue names to modern sites or silently replace supplied names and tribal attributions with another Bible edition.",
+          "reason": "Retain every town name, including19:15Jericho withinZebulun,19:35TyrianwalledcitieswithinNaphtali,19:48Judah/Lachish/Lasendak,distinctBosora/Bosor,Aremoth/Ramoth,Kedeshtribalcontexts,andboth21Jazerentries. Exact shared names and explicit allocation/refuge contexts support retained links; modern identities are not resolved."
+        },
+        {
+          "proposed_claim": "Import familiar missingJoshua20:4–6or treat continuation units as optional duplicates.",
+          "reason": "All actual20units1–3and7–9are read; preserve19:47a/48a,21:42a–d,24:31a/33a/33bwithoriginalanchorsand no extra completion credit for technical handling."
+        },
+        {
+          "proposed_claim": "ReplaceShilohwithShechemat24assembly,replacewasps/twelvekingswithalternateforms,reconcileallgenealogiesorinterpretallbootybrothersasnoncombatants.",
+          "reason": "PreserveactualShiloh24:1/25,waspsand12Amoritekings,morethanoneancestryformforAchar,statedspoilrecipients,anddistinctarmy/route/pronounlanguage. No undocumented identity or recipient claim retained."
+        }
+      ],
+      "editorial_notes": [
+        {
+          "reference": "Joshua19–21",
+          "note": "Catalogue membership and numerical subgroup links are explicit same-chapter literary relations. Preserve the exact second-through-seventh lots, Simeon withinJudah,Tyrians wording,Judah/Lachish/Lasendak,Amoritepressure/tributecontinuations,all48Leviticalcityentriesandtheir13/10/13/12clantotals,nine-plus-fourAaronicsubtotals,four-four-twootherKohathsubtotals,andZebulun/Reuben/GadMeraritefours. Do notdeduplicateJazeroridentifydifferentKedeshentries. The source full-land/rest assurances coexist unchanged with its incomplete-occupation notices."
+        },
+        {
+          "reference": "Joshua22",
+          "note": "Retainmind/soulversusDeuteronomyheart/soul,Galgala/Gileadreportforms,to-small-landrelocationcondition,salamin-sacrificeswording,Phinehaslineage,Peor/Acharrecitals,allegation-versusverdict distinction,conditionalfuturechildrenvoices,physicalaltarwithdeniedseparatesacrificialpurpose,andJoshuaasnaming/declaringspeakerwithoutaddingtheunprovidedEdname."
+        },
+        {
+          "reference": "Joshua23–24",
+          "note": "Keepwildbeastsas23:5agent,one-to-thousandversusDeuteronomy32selling/handingover,Shilohforboth24assembly/covenant,Abraham/AbramverifiedagainstGenesis17:5,wasps/twelveAmoritekings,narrativespeakersandservicewarnings,24:29serviceperiodbefore24:30death,age110,Thamnasarach/Thamnathasachara/Timnath-heresformswithoutmodernidentityclaim,stone-knifecity/tombnotices,Josephbones/fieldpriceandsellerwording,Eleazar/Phinehasdeathnotices,andAstarte/Ashtaroth/Eglom18yearswithdifferentJudgesformsandnarrativeplacement."
+        }
+      ]
+    }
+  ],
+  "peer_review_receipts": [
+    {
+      "schema_version": 1,
+      "reviewer": "Codex root independent AI-assisted supplied-English passage reviewer",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:24:11.641123+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_verses": 124,
+      "pairs_reviewed": 129,
+      "distinct_target_verse_units": 149,
+      "input_file": "joshua-1-6.tsv",
+      "input_sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+      "final_input_sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+      "author_receipt": "joshua-1-6-review.json",
+      "author_receipt_sha256": "dbaea9aa3528fa4170b5f617d5c6efeb723d46b3e98944408de7d29d445c3416",
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_relationships_and_explanations_read": true,
+      "review_method": "Personally read all129 complete final source/target/category/rationale triples in three untruncated displays, covering every actual124 source unit and149 target units. Read additional complete1Kings16:29-34, Exodus3:1-6, Numbers32:25-27, Hebrews11:29-32 and James2:23-26 contexts. Accepted explicit textual correspondence of Joshua6:26 and1Kings16:34 because Kings names Joshua and repeats the Jericho/Abiram/foundation/gates features; the Ozan-Hiel and unnamed-youngest-Segub differences remain stated, with no independent personal-name identity claim. Checked differing addressees, forty-two years, actual priestly positions, stones at4:11, six circuits followed by seventh circuit, metals exception, absent6:4 and no5:16. Local links identify a particular speech/response, command/execution, repeated formula, contrasted action or actual narrative dependency. No corrections or removals required. Independently rehashed all9 saved raw source-book Git blobs and raw SHA256 values and checked complete parsed cache equality. No independent human, original-language or technical completion credit.",
+      "source_integrity_checks": [
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+          "raw_file": "joshua-1-6-pin-1-kings.json",
+          "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "raw_file": "joshua-1-6-pin-deuteronomy.json",
+          "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+          "raw_file": "joshua-1-6-pin-exodus.json",
+          "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": false,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+          "raw_file": "joshua-1-6-pin-genesis.json",
+          "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": false,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Hebrews",
+          "records": "hebrews/verses.json",
+          "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+          "raw_file": "joshua-1-6-pin-hebrews.json",
+          "raw_sha256": "6550dc6926a500969383062d551581541d87ece393bf8445bf843962572382c8",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "James",
+          "records": "james/verses.json",
+          "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02",
+          "raw_file": "joshua-1-6-pin-james.json",
+          "raw_sha256": "129c4faba06f92c1e92f02f60da683971a06c093469f0d7a4fb3fe275a676052",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+          "raw_file": "joshua-1-6-pin-joshua.json",
+          "raw_sha256": "eb93d63cea7acf7f4e4b28b1c35436ad11acd02a5be7d25ce5c95d737ea54040",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "raw_file": "joshua-1-6-pin-numbers.json",
+          "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        },
+        {
+          "book": "Psalms",
+          "records": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "raw_file": "joshua-1-6-pin-psalms.json",
+          "raw_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+          "raw_git_blob_verified": true,
+          "parsed_cache_equals_pinned": true,
+          "byte_cache_equals_pinned": false,
+          "cache_equals_raw_plus_lf": true,
+          "cache_equals_crlf_normalized_raw_plus_lf": true
+        }
+      ],
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "review_limitations": [
+        "AI-assisted supplied-English review only",
+        "No independent specialist or original-language verification",
+        "No live destination anchors checked"
+      ],
+      "new_source_verses_credited": 0,
+      "new_pairs_credited": 0
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_7_10 (independent AI-assisted supplied-English peer pass for Joshua7–12)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:26:37.464224+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "joshua-7-12.tsv",
+      "input_sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+      "final_input_sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+      "author_receipt": "joshua-7-12-review.json",
+      "author_receipt_sha256": "2de3f05606f20ce97f527d7ce263470c3fa51df661490e1120d5311af48275c6",
+      "source_chapters": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "source_verses": 174,
+      "reviewed_source_verses": 174,
+      "reviewed_pairs": 174,
+      "retained_pairs": 174,
+      "distinct_target_verse_units": 186,
+      "chapter_pair_counts": {
+        "7": 26,
+        "8": 27,
+        "9": 33,
+        "10": 41,
+        "11": 23,
+        "12": 24
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "accepted_for_integration": true,
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "review_method": "Independently displayed and read all174 complete actual source/target/relationship/rationale triples in six untruncated chapter files. Also read necessary Joshua1/2/6/13/15/21/22 contexts (other retained targets supply their immediate chapter contexts), Numbers14:11–19,21:1–3,27:15–23,30:1–4, Exodus23:20–33, Deuteronomy27:1–14,31:9–13 and the complete relevant Deuteronomy2/3/7/11/20/21 targets, plus Sirach46:1–6 to establish Joshua as the named subject. All six initial author refinements were already included in this full final-triple pass; the two subsequently requested narrowings were independently redisplayed as complete corrected triples and reread after refreeze. Actual lettered ceremony units, missing numbered units, differing personal/geographical forms, royal-list total29, allegation versus narrator statement, instruction versus narrated outcome and distinct covenant/war summaries are retained. No familiar-edition replacement, astronomical mechanism or unsupported place/person equivalence was supplied. This initial supplied-English pass does not claim exhaustive discovery, Greek/Hebrew or apparatus checks, archaeology or independent human specialist verification.",
+      "technical_checks": {
+        "source_inventory": "before-joshua.json",
+        "all_174_actual_source_units_present_in_inventory_order": true,
+        "all_targets_resolve_to_actual_nonempty_units": true,
+        "self_inclusive_targets": 0,
+        "duplicate_normalized_directed_pairs": 0,
+        "same_chapter_pairs": 114,
+        "same_chapter_labels_exact_and_complete": true,
+        "all_books_in_exclusive_70_book_canon": true,
+        "author_read_and_reread_flags_true": true,
+        "final_counts_and_hashes_match_author_receipt": true,
+        "preserved_initial_frozen_tsv_sha256": "e8e871f5052210ba265ca6b18258bf077c566aeb693dbeb41d3e9fba8c97f8a7",
+        "preserved_initial_author_receipt_sha256": "6459a6e9d8c97296b5e29bfa20069463ec15f80b006af24a46a116b588222f18",
+        "exact_changed_rows": 2,
+        "only_changes_are_9_13_and_10_24_explanatory_narrowings": true
+      },
+      "peer_corrections_verified": [
+        {
+          "old_row": {
+            "source_reference": "Joshua 9:13",
+            "target": "Joshua 9:4-5",
+            "relationship": "Same-chapter long-journey explanation contrasted with deliberate old equipment",
+            "rationale": "The claimed wearing out of new skins, clothing and sandals contrasts with the narrator's account that old, torn and patched equipment had been selected for the ruse."
+          },
+          "new_row": {
+            "source_reference": "Joshua 9:13",
+            "target": "Joshua 9:4-5",
+            "relationship": "Same-chapter long-journey explanation contrasted with deliberate old equipment",
+            "rationale": "The claim that the skins were new when filled and that clothing and sandals wore out on a long journey contrasts with the narrator's account of deliberately selected old, torn and patched equipment."
+          },
+          "complete_corrected_triple_independently_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "old_row": {
+            "source_reference": "Joshua 10:24",
+            "target": "Joshua 10:25",
+            "relationship": "Same-chapter neck-foot gesture and Joshua's stated interpretation",
+            "rationale": "The commanders place their feet on the kings' necks, and Joshua immediately interprets this as encouragement about what the Lord will do to the enemies they fight."
+          },
+          "new_row": {
+            "source_reference": "Joshua 10:24",
+            "target": "Joshua 10:25",
+            "relationship": "Same-chapter neck-foot gesture and Joshua's stated interpretation",
+            "rationale": "The neck-foot gesture is immediately followed by Joshua's encouragement that the Lord will act likewise against the enemies they fight."
+          },
+          "complete_corrected_triple_independently_reread": true,
+          "new_pairs_credited": 0
+        }
+      ],
+      "pin_method": "Fresh independent raw fetch of all5 retained source books at the fixed commit; exact Gitblob SHA1 and raw SHA256 rehashed, full parsed equality with cache verified, raw bytes independently compared to the author raw files. Normalized cache bytes are explicitly distinguished from raw Gitblob bytes.",
+      "pin_receipt": "joshua-7-12-peer-pins.json",
+      "pin_receipt_sha256": "57f418ba4edb32aea9987e39189e62c04b1ab149abe63ac9a773567df392ede2",
+      "source_books": [
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        },
+        {
+          "book": "Sirach",
+          "records": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+        }
+      ],
+      "excluded_unresolved_candidates": [
+        {
+          "source_reference": "Joshua 12:14",
+          "target": "Numbers 21:3",
+          "status": "pending place-name equivalence; not retained as an identity match",
+          "reason": "Joshua names Hormah beside Arad; Numbers names the devoted place Devotion to Destruction. Both complete texts and context were read, but equivalence of Hormah and that supplied name is not independently resolved or asserted. The separate retained12:14-to21:1-3 comparison concerns only the explicitly shared Arad royal title, with no claim that the two kings are the same person.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        }
+      ],
+      "unresolved_candidate_identity_resolution_claimed": false,
+      "new_source_verses_credited": 0,
+      "new_pairs_credited": 0,
+      "independent_human_or_language_verification": false
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex independent supplied-English peer (/root/deut_1_3)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:26:54.588771+00:00",
+      "input_file": "joshua-13-18.tsv",
+      "input_sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+      "final_input_sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+      "author_receipt": "joshua-13-18-review.json",
+      "author_receipt_sha256": "01d7a42b7756a552ca84f6a8b0122b96e6cbe8660ef9b426f455e4d73eb09325",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_verses": 167,
+      "completed_source_verses": 167,
+      "completed_pairs": 173,
+      "distinct_target_verse_units": 173,
+      "same_chapter_pairs": 68,
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "review_method": "Independently read every complete actual Joshua13–18 unit, including15:59a, then read all173 complete final source/target/category/rationale triples in sequential displays. A combined last display cut a middle segment; independently redisplayed17:8–18:13 and full18:12–16 triples without cuts to close that display gap. Read necessary named-catalog headings/closing units and additional Judges1:9–15, Numbers27:1–7/31:7–8, Joshua9:15–18/19:1–9, Genesis48:1–6, 1Kings5:12–15 and Numbers13:1–6 contexts. Read all four author-corrected final triples. Reread the final16:4 precision revision against full source and Genesis48:5, if present. Particular town-block memberships, tribal attribution and supplied totals are supported; no modern geography, harmonized city arithmetic, variant-name equivalence, source-language or specialist verification is claimed.",
+      "independent_pin_method": "Rehashed every one of seven author-fetched complete raw Git blobs against current fixed-commit source registries, checked raw SHA256 and full parsed cache equality. No cache-byte equivalence inferred.",
+      "pin_checks": [
+        {
+          "book": "1 Kings",
+          "records": "1-kings/verses.json",
+          "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+          "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+          "independently_rehashed_saved_fresh_raw_git_blob": true,
+          "complete_parsed_cache_equal": true
+        },
+        {
+          "book": "1 Samuel",
+          "records": "1-samuel/verses.json",
+          "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+          "raw_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+          "independently_rehashed_saved_fresh_raw_git_blob": true,
+          "complete_parsed_cache_equal": true
+        },
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+          "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+          "independently_rehashed_saved_fresh_raw_git_blob": true,
+          "complete_parsed_cache_equal": true
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+          "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+          "independently_rehashed_saved_fresh_raw_git_blob": true,
+          "complete_parsed_cache_equal": true
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+          "raw_sha256": "eb93d63cea7acf7f4e4b28b1c35436ad11acd02a5be7d25ce5c95d737ea54040",
+          "independently_rehashed_saved_fresh_raw_git_blob": true,
+          "complete_parsed_cache_equal": true
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+          "raw_sha256": "bc00ee37a3b832eeac7929234102b393ec34ac10158ec548249b0ef187306eec",
+          "independently_rehashed_saved_fresh_raw_git_blob": true,
+          "complete_parsed_cache_equal": true
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+          "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+          "independently_rehashed_saved_fresh_raw_git_blob": true,
+          "complete_parsed_cache_equal": true
+        }
+      ],
+      "correction_history_checks": [
+        {
+          "stage": "author_corrections",
+          "changed_rows": 4,
+          "exact_old_new_delta_verified": true,
+          "completion_credit": 0
+        },
+        {
+          "stage": "peer_revisions",
+          "changed_rows": 1,
+          "exact_old_new_delta_verified": true,
+          "completion_credit": 0
+        }
+      ],
+      "retained_case_assessment": "All final retained links supported in the actual supplied texts and necessary context, with explicit same-chapter labels where applicable; unique directed pairs, no self-inclusive targets and exact167-source coverage independently verified.",
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "unresolved_candidates_reviewed": [
+        {
+          "source_reference": "Joshua 13:21",
+          "target": "Numbers 31:8",
+          "status": "pending fifth Midian ruler name equivalence; not retained",
+          "reason": "The actual rosters share Evi, Rekem, Zur and Hur but have Reba versus Robok and distinct ruler descriptions. Full proposed roster identity, especially the fifth individual, is not independently resolved. The retained source connection concerns Sihon towns instead.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        },
+        {
+          "source_reference": "Joshua 15:14",
+          "target": "Judges 1:10",
+          "status": "pending individual Anakite name equivalences; not retained",
+          "reason": "Joshua names Sousi, Talmai and Achima, while Judges names Sheshai, Ahiman and Talmai and attributes the attack to Judah. The distinct individual names and actors are not harmonized; the retained connection identifies the preceding explicit Hebron allotment instead.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        },
+        {
+          "source_reference": "Joshua 17:3",
+          "target": "Numbers 27:1",
+          "status": "pending Egla-Hoglah individual name equivalence; not retained",
+          "reason": "The daughter lists have Egla versus Hoglah. Their common named father and inheritance case are clear, but the differing individual name is not independently resolved or counted; the retained connection uses the no-son inheritance petition rather than claiming a complete identical roster.",
+          "source_and_target_text_read": true,
+          "identity_resolved": false,
+          "completed_pair_credit": 0
+        }
+      ],
+      "new_pairs_credited": 0,
+      "completion_credit": 0,
+      "result": "accepted"
+    },
+    {
+      "schema_version": 1,
+      "reviewer": "Codex deut_4_6 (independent AI-assisted supplied-English peer pass for Joshua19–24)",
+      "reviewed": "2026-10-29",
+      "review_timezone": "America/New_York",
+      "checked_at_utc": "2026-10-30T00:23:19.864020+00:00",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "input_file": "joshua-19-24.tsv",
+      "input_sha256": "0096945114ebe47f3fc3e9fd31cc4c9968c8842abbee458f7582c348629f8153",
+      "author_receipt": "joshua-19-24-review.json",
+      "author_receipt_sha256": "802fbe77dff96e7f4d536bf308f07b21e67ae8b55736e41e33ef5f277e240a67",
+      "source_chapters": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "source_verses": 194,
+      "reviewed_source_verses": 194,
+      "reviewed_pairs": 201,
+      "retained_pairs": 201,
+      "distinct_target_verse_units": 253,
+      "chapter_pair_counts": {
+        "19": 55,
+        "20": 6,
+        "21": 49,
+        "22": 34,
+        "23": 16,
+        "24": 41
+      },
+      "all_source_verses_read": true,
+      "all_target_passages_read": true,
+      "all_retained_rationales_reread": true,
+      "accepted_for_integration": true,
+      "required_corrections": [],
+      "required_removals": [],
+      "unresolved_retained_cases": [],
+      "review_method": "Read all194 complete actual source units, then separately displayed and read all201 complete source/target/category/rationale combinations in seven untruncated slices. Read necessary full Genesis33:18-20 and35:1-4, Numbers35:1-15,31:25-31,25:10-13, Deuteronomy32:28-33, Judges2:6-14 and3:12-14, Joshua5:2-9,1:12-18 and21:27-33, together with retained actual target passages and the complete Joshua19-24 narrative. Sent precision findings on livestock scope, explicit brothers rather than noncombatants, separate sacrificial purpose rather than physical altar denial, and the curse sought through Balaam. Author also refined unsupported coastal/hill labels, ancestry, deity-name forms and Deuteronomy pronouns. Separately displayed and reread all9 final corrected full triples, accepted them, and verified their exact old/new delta history and preserved original draft. Preserved continuation units19:47a/48a,21:42a-42d,24:31a/33a/33b; absent20:4-6; source allotment names and tribe placements; Judah-Lachish wording19:48; Shiloh assembly24:1; twelve kings24:12; and differing names, burial notices and chronology without harmonization. No human, archaeological, apparatus or original-language verification is claimed.",
+      "technical_checks": "All194 inventory source units covered; all201 directed pairs unique and not self-inclusive; all253 target units resolve in actual source order within Saints70 canon; every same-chapter relation explicitly labelled. Final TSV and author-receipt bindings, exact9-row history and zero correction credit verified.",
+      "pin_method": "Independent fresh fetch of all6 retained source-book raw files; rehashed exact Git blobs against existing registries and author pins, compared fresh bytes with author saved raw files, and checked complete parsed cache equality without claiming normalized cache byte equality.",
+      "pin_receipt": "joshua-19-24-peer-pins.json",
+      "pin_receipt_sha256": "7e34546f3504325cbf52cd5d287dda1866e426866088ae8c8fd74477e5c95d4f",
+      "source_books": [
+        {
+          "book": "Deuteronomy",
+          "records": "deuteronomy/verses.json",
+          "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+        },
+        {
+          "book": "Exodus",
+          "records": "exodus/verses.json",
+          "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+        },
+        {
+          "book": "Genesis",
+          "records": "genesis/verses.json",
+          "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+        },
+        {
+          "book": "Joshua",
+          "records": "joshua/verses.json",
+          "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+        },
+        {
+          "book": "Judges",
+          "records": "judges/verses.json",
+          "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+        },
+        {
+          "book": "Numbers",
+          "records": "numbers/verses.json",
+          "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+        }
+      ],
+      "resolved_pre_freeze_findings": {
+        "original_input_file": "joshua-19-24-author-draft.tsv",
+        "original_input_sha256": "7b0c28133b47c2aea4be5942fecf2f5c6a551363e2e19872ea4f47ef3fd2f6ef",
+        "changes": [
+          {
+            "source_reference": "Joshua 19:11",
+            "old_row": {
+              "source_reference": "Joshua 19:11",
+              "target": "Joshua 19:16",
+              "relationship": "Same-chapter specified boundary segment within Zebulun's allocation",
+              "rationale": "Gola, the sea-side Maragella boundary and the ravine facing Jekman belong to the border account closed as Zebulun's city-and-village inheritance."
+            },
+            "new_row": {
+              "source_reference": "Joshua 19:11",
+              "target": "Joshua 19:16",
+              "relationship": "Same-chapter specified boundary segment within Zebulun's allocation",
+              "rationale": "Gola, the sea and Maragella borders, and the ravine facing Jekman belong to the account closed as Zebulun's city-and-village inheritance, without assigning Maragella a modern coastal identity."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 19:36",
+            "old_row": {
+              "source_reference": "Joshua 19:36",
+              "target": "Joshua 19:39",
+              "relationship": "Same-chapter named hill-country city group and tribal closure",
+              "rationale": "Armaith, Arael and Hazor occur within the city sequence closed as Naphtali's inheritance, without identifying them with similarly named towns in other allotments."
+            },
+            "new_row": {
+              "source_reference": "Joshua 19:36",
+              "target": "Joshua 19:39",
+              "relationship": "Same-chapter named city group and tribal closure",
+              "rationale": "Armaith, Arael and Hazor occur within the city sequence closed as Naphtali's inheritance, without identifying them with similarly named towns in other allotments."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 21:2",
+            "old_row": {
+              "source_reference": "Joshua 21:2",
+              "target": "Numbers 35:2-3",
+              "relationship": "Levitical petition cites the town-and-pasture command",
+              "rationale": "The Levites request dwelling cities and surrounding lands for cattle through Moses' command; Numbers expressly directs Israel to supply towns and livestock lands from their possessions."
+            },
+            "new_row": {
+              "source_reference": "Joshua 21:2",
+              "target": "Numbers 35:2-3",
+              "relationship": "Levitical petition cites the town-and-pasture command",
+              "rationale": "The Levites request dwelling cities and surrounding lands for livestock through Moses' command; Numbers expressly directs Israel to supply towns and livestock lands from their possessions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:8",
+            "old_row": {
+              "source_reference": "Joshua 22:8",
+              "target": "Numbers 31:27",
+              "relationship": "Different campaigns sharing spoil beyond the fighting group",
+              "rationale": "Both describe sharing enemy spoil with the wider brothers or congregation; Numbers explicitly divides between warriors and the congregation, without specifying Joshua's later distribution proportions."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:8",
+              "target": "Numbers 31:27",
+              "relationship": "Related enemy-spoil distributions with distinct recipient descriptions",
+              "rationale": "Both describe enemy spoil being shared; Numbers specifies warriors and the whole congregation, while Joshua says the eastern tribes divided it with their brothers and gives no distribution proportions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:20",
+            "old_row": {
+              "source_reference": "Joshua 22:20",
+              "target": "Joshua 7:1-5",
+              "relationship": "Achar's devoted-property offense and collective losses",
+              "rationale": "The recital connects Achar's offense with communal wrath and deaths; Joshua7 names the Zerah-line ancestry more fully and narrates Israel's defeat with about thirty-six killed."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:20",
+              "target": "Joshua 7:1-5",
+              "relationship": "Achar's devoted-property offense and collective losses",
+              "rationale": "Both link Achar's devoted-property offense with communal wrath; Joshua7 narrates about thirty-six killed and gives Carmi and Zambri between Achar and Zerah, preserving the differing ancestry formulations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:31",
+            "old_row": {
+              "source_reference": "Joshua 22:31",
+              "target": "Joshua 22:26-29",
+              "relationship": "Same-chapter no-offense verdict after the stated testimonial defense",
+              "rationale": "Phinehas' favorable verdict follows the explicit non-sacrificial testimony explanation and denial of an altar apart from the Lord's tent, without turning the initial allegation into a finding."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:31",
+              "target": "Joshua 22:26-29",
+              "relationship": "Same-chapter no-offense verdict after the stated testimonial defense",
+              "rationale": "Phinehas' favorable verdict follows the explicit non-sacrificial testimony explanation and rejection of offering apart from the Lord's altar before His tent, without turning the initial allegation into a finding."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 23:10",
+            "old_row": {
+              "source_reference": "Joshua 23:10",
+              "target": "Deuteronomy 32:30",
+              "relationship": "One pursuing a thousand under different descriptions of divine agency",
+              "rationale": "Both use one pursuing a thousand; Joshua credits the Lord fighting for Israel, whereas Deuteronomy asks how such pursuit occurs unless God sells and hands over those pursued."
+            },
+            "new_row": {
+              "source_reference": "Joshua 23:10",
+              "target": "Deuteronomy 32:30",
+              "relationship": "One pursuing a thousand under different descriptions of divine agency",
+              "rationale": "Both use one pursuing a thousand; Joshua credits the Lord fighting for Israel, whereas Deuteronomy's rhetorical question uses God's selling and handing-over language without assigning its pronouns a new referent."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 24:10",
+            "old_row": {
+              "source_reference": "Joshua 24:10",
+              "target": "Deuteronomy 23:6",
+              "relationship": "Divine refusal of destruction and curse reversed into blessing",
+              "rationale": "Both describe the Lord preserving Israel and blessing despite Balaam's intended curse; Deuteronomy expressly says He refused Balaam and changed the curse because of His love."
+            },
+            "new_row": {
+              "source_reference": "Joshua 24:10",
+              "target": "Deuteronomy 23:6",
+              "relationship": "Divine refusal of destruction and curse reversed into blessing",
+              "rationale": "Both describe the Lord preserving Israel and blessing despite the curse sought through Balaam; Deuteronomy expressly says He refused Balaam and changed the curse because of His love."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 24:33b",
+            "old_row": {
+              "source_reference": "Joshua 24:33b",
+              "target": "Judges 2:13-14",
+              "relationship": "Other-god service followed by delivery to enemies",
+              "rationale": "Both connect service to Astarte-related gods with the Lord handing Israel to enemies; Joshua's continuation specifically names Moab's Eglom, while Judges2 gives the broader pattern."
+            },
+            "new_row": {
+              "source_reference": "Joshua 24:33b",
+              "target": "Judges 2:13-14",
+              "relationship": "Other-god service followed by delivery to enemies",
+              "rationale": "Both connect serving other gods with the Lord handing Israel to enemies; Joshua names Astarte, Ashtaroth and Eglom, while Judges names Baal and Astartes with a broader enemy description."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "new_source_verses_credited": 0
+      },
+      "new_source_verses_credited": 0,
+      "new_pairs_credited": 0,
+      "independent_human_or_language_verification": false
+    }
+  ],
+  "applied_peer_corrections": [
+    {
+      "file": "joshua-1-6.tsv",
+      "field": "author_corrections",
+      "details": {
+        "original_input_file": "joshua-1-6-initial.tsv",
+        "original_input_sha256": "38adfa9ecb2a5d806737aa0d99d0151943aaf3086d1c3c763eba7aa80120f6ac",
+        "changes": [
+          {
+            "source_reference": "Joshua 1:14",
+            "old_row": {
+              "source_reference": "Joshua 1:14",
+              "target": "Deuteronomy 3:18-19",
+              "relationship": "Eastern households remain while equipped men cross",
+              "rationale": "Both distinguish wives, children and livestock remaining in the given towns from able men crossing armed before their brothers, retaining the particular household and military arrangement."
+            },
+            "new_row": {
+              "source_reference": "Joshua 1:14",
+              "target": "Deuteronomy 3:18-19",
+              "relationship": "Eastern households remain while equipped men cross",
+              "rationale": "Both distinguish wives, children and livestock remaining in the given possession from able men crossing armed before their brothers; Deuteronomy specifically names their cities, while Joshua says the given land."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 2:17",
+            "old_row": {
+              "source_reference": "Joshua 2:17",
+              "target": "Joshua 2:18-20",
+              "relationship": "Same-chapter oath-release declaration and following conditions",
+              "rationale": "The declaration of freedom from the oath is followed by scarlet-window and household arrangements and the disclosure condition; the actual formulations are retained without recasting the oath as already canceled."
+            },
+            "new_row": {
+              "source_reference": "Joshua 2:17",
+              "target": "Joshua 2:18-20",
+              "relationship": "Same-chapter oath-release declaration and following conditions",
+              "rationale": "The declaration of freedom from the oath is followed by the scarlet-window sign and gathered-household protection, with oath freedom repeated for departure from the house or disclosure."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 6:9",
+            "old_row": {
+              "source_reference": "Joshua 6:9",
+              "target": "Joshua 6:7-8",
+              "relationship": "Same-chapter front and rear roles develop the preceding orders",
+              "rationale": "The fighting-men front and priestly rear-guard instruction develops the preceding directions about armed men, seven trumpet priests and the ark; distinct positions are not collapsed into a single priestly group."
+            },
+            "new_row": {
+              "source_reference": "Joshua 6:9",
+              "target": "Joshua 6:7-8",
+              "relationship": "Same-chapter front and rear roles develop the preceding orders",
+              "rationale": "Fighting men in front and priests behind the ark are specified after directions naming armed men, seven trumpet priests and the ark; the descriptions of position are retained separately."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 6:15",
+            "old_row": {
+              "source_reference": "Joshua 6:15",
+              "target": "Joshua 6:16",
+              "relationship": "Same-chapter sixth circuit notice followed by seventh-circuit signal",
+              "rationale": "The seventh-day dawn notice says they went around six times; the following unit places trumpet sound and Joshua's shout command on the seventh circuit, retaining both statements."
+            },
+            "new_row": {
+              "source_reference": "Joshua 6:15",
+              "target": "Joshua 6:16",
+              "relationship": "Same-chapter six circuits followed by seventh-circuit signal",
+              "rationale": "The seventh-day dawn notice says they went around six times; the following unit places trumpet sound and Joshua's shout command on the seventh circuit, retaining both statements."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "reason": "Distinguish Joshua given land from Deuteronomy cities, narrow the oath-clause relation, retain procession position descriptions separately, and state six circuits rather than a sixth-circuit notice. No target or count changes.",
+        "new_source_verses_credited": 0,
+        "new_pairs_credited": 0
+      },
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "joshua-7-12.tsv",
+      "field": "author_refinements_before_freeze",
+      "details": [
+        {
+          "source_reference": "Joshua 7:3",
+          "old_row": {
+            "source_reference": "Joshua 7:3",
+            "target": "Joshua 7:4-5",
+            "relationship": "Same-chapter recommendation and adverse outcome",
+            "rationale": "The recommendation to send about two or three thousand is followed by about three thousand going, fleeing and suffering the stated thirty-six deaths, contrasting expectation with outcome."
+          },
+          "new_row": {
+            "source_reference": "Joshua 7:3",
+            "target": "Joshua 7:4-5",
+            "relationship": "Same-chapter recommendation and adverse outcome",
+            "rationale": "The recommendation to send about two or three thousand is followed by about three thousand going, fleeing and suffering about thirty-six deaths, contrasting expectation with outcome."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 7:10",
+          "old_row": {
+            "source_reference": "Joshua 7:10",
+            "target": "Joshua 7:11-13",
+            "relationship": "Same-chapter command to rise followed by the offense and remedy",
+            "rationale": "The Lord interrupts Joshua's fallen posture by declaring the devoted-property offense and directing consecration and its removal, shifting the response toward the stated cause of defeat."
+          },
+          "new_row": {
+            "source_reference": "Joshua 7:10",
+            "target": "Joshua 7:11-13",
+            "relationship": "Same-chapter command to rise followed by the offense and remedy",
+            "rationale": "The Lord responds to Joshua's fallen posture by declaring the devoted-property offense and directing consecration and its removal, shifting the response toward the stated cause of defeat."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 7:14",
+          "old_row": {
+            "source_reference": "Joshua 7:14",
+            "target": "Joshua 7:16-18",
+            "relationship": "Same-chapter staged identification commanded and performed",
+            "rationale": "The command to present tribes, clans, households and individuals is followed by Judah, the Zerahite clan and Achar being indicated, preserving the actual abbreviated genealogical wording."
+          },
+          "new_row": {
+            "source_reference": "Joshua 7:14",
+            "target": "Joshua 7:16-18",
+            "relationship": "Same-chapter staged identification commanded and performed",
+            "rationale": "The command to present tribes, clans, households and individuals is followed by Judah, the Zerahite clan and Achar being indicated, preserving the account's actual varying genealogical wording."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 10:33",
+          "old_row": {
+            "source_reference": "Joshua 10:33",
+            "target": "Joshua 12:12",
+            "relationship": "Gezer king's defeat recalled in the later royal list",
+            "rationale": "The king of Gezer comes to aid Lachish and is defeated with his people; the later list names a king of Gezer, without equating the neighboring Ailam entry with a city absent from this narrative unit."
+          },
+          "new_row": {
+            "source_reference": "Joshua 10:33",
+            "target": "Joshua 12:12",
+            "relationship": "Gezer king's defeat recalled in the later royal list",
+            "rationale": "The king of Gezer comes to aid Lachish and is defeated with his people; the later list names a king of Gezer, while its separate Ailam royal entry is not identified with this ruler's personal name."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 11:17",
+          "old_row": {
+            "source_reference": "Joshua 11:17",
+            "target": "Joshua 12:7",
+            "relationship": "Related western extent summaries with different mountain forms",
+            "rationale": "Both extend the western campaign summary from the Seir ascent area toward Baal-gad and Lebanon; Achel and Chelcha remain the actual differing forms rather than an asserted modern identification."
+          },
+          "new_row": {
+            "source_reference": "Joshua 11:17",
+            "target": "Joshua 12:7",
+            "relationship": "Related western extent summaries with different mountain forms",
+            "rationale": "Both western campaign summaries connect the Seir ascent area with Baal-gad and Lebanon; Achel and Chelcha remain the actual differing forms rather than an asserted modern identification."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        },
+        {
+          "source_reference": "Joshua 12:2",
+          "old_row": {
+            "source_reference": "Joshua 12:2",
+            "target": "Deuteronomy 2:36-37",
+            "relationship": "Sihon's realm compared with the eastern campaign limits",
+            "rationale": "Both name Aroer, Arnon, Gilead and the Jabbok-Ammon boundary area; Joshua describes Sihon's rule, while Deuteronomy distinguishes conquered territory from Ammonite territory not approached."
+          },
+          "new_row": {
+            "source_reference": "Joshua 12:2",
+            "target": "Deuteronomy 2:36-37",
+            "relationship": "Sihon's realm compared with the eastern campaign limits",
+            "rationale": "Both name Aroer, Gilead and the Jabbok-Ammon boundary area; Joshua describes Sihon's rule, while Deuteronomy distinguishes conquered territory from Ammonite territory not approached."
+          },
+          "complete_corrected_triple_reread": true,
+          "new_pairs_credited": 0
+        }
+      ],
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "joshua-13-18.tsv",
+      "field": "peer_revisions",
+      "details": {
+        "original_input_file": "joshua-13-18-before-peer.tsv",
+        "original_input_sha256": "f421de816639419e0f40a1196be293d3f57b5bb446bc2ce66c59744cb48d6dd2",
+        "original_author_receipt": "joshua-13-18-before-peer-review.json",
+        "changes": [
+          {
+            "old_row": {
+              "source_reference": "Joshua 16:4",
+              "target": "Genesis 48:5",
+              "relationship": "Joseph's two sons receiving distinct inherited standing",
+              "rationale": "The allotment notice names Ephraim and Manasseh as Joseph's heirs; Jacob had explicitly taken those two as his own like Reuben and Simeon, supplying their particular tribal-family standing."
+            },
+            "new_row": {
+              "source_reference": "Joshua 16:4",
+              "target": "Genesis 48:5",
+              "relationship": "Joseph's two sons receiving distinct inherited standing",
+              "rationale": "The allotment notice names Joseph's sons Ephraim and Manasseh receiving inheritance; Jacob had explicitly taken those two as his own like Reuben and Simeon, supplying their particular tribal-family standing."
+            },
+            "reason": "Name the sons receiving land inheritance without implying inheritance from Joseph estate.",
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "original_author_receipt_sha256": "64afcfa6117e0aa7f40158dd5ab012232ca106620b9c05cb315856ae20034808"
+      },
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "joshua-13-18.tsv",
+      "field": "author_corrections",
+      "details": {
+        "original_input_sha256": "17239c7b89b6a11422321d2654a827b27ae660bd9dc3182445ee0867e508a87f",
+        "changes": [
+          {
+            "old_row": {
+              "source_reference": "Joshua 13:7",
+              "target": "Numbers 34:13",
+              "relationship": "Nine-and-a-half-tribe allotment command",
+              "rationale": "Both specify inheritance by lot for nine tribes and half Manasseh; Joshua additionally defines Jordan and the Great Sea limits, while Numbers attributes the prescription to Moses."
+            },
+            "new_row": {
+              "source_reference": "Joshua 13:7",
+              "target": "Numbers 34:13",
+              "relationship": "Nine-and-a-half-tribe allotment command",
+              "rationale": "Both specify inheritance for nine tribes and half Manasseh; Numbers explicitly names the lot, while Joshua's preceding command supplies that lot setting and this unit additionally defines Jordan and Great Sea limits."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Joshua 15:1",
+              "target": "Numbers 34:3-4",
+              "relationship": "Southwestern wilderness and Kadesh boundary descriptions",
+              "rationale": "Both describe a southwestern boundary adjoining Edom and the wilderness and approaching Kadesh-barnea; Joshua's Zin and Idumea forms remain distinct from Numbers' Sin and Edom wording."
+            },
+            "new_row": {
+              "source_reference": "Joshua 15:1",
+              "target": "Numbers 34:3-4",
+              "relationship": "Southwestern wilderness and Kadesh boundary descriptions",
+              "rationale": "Both describe a southwestern boundary adjoining an Edom form and the wilderness, with a Kadesh form; Joshua's Zin, Idumea and Kadesh remain distinct from Numbers' Sin, Edom and Kadesh-barnea wording."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Joshua 17:6",
+              "target": "Numbers 27:7",
+              "relationship": "Daughters inheriting among their father's brothers",
+              "rationale": "Both explicitly grant Zelophehad's daughters an inheritance among the father's brothers; Joshua additionally distinguishes the Gilead portion of the remaining Manasseh descendants."
+            },
+            "new_row": {
+              "source_reference": "Joshua 17:6",
+              "target": "Numbers 27:7",
+              "relationship": "Daughters inheriting among their father's brothers",
+              "rationale": "Joshua describes Manasseh's daughters inheriting among their brothers in the preceding Zelophehad case; Numbers expressly grants Zelophehad's daughters their father's allotment among his brothers, while Joshua additionally distinguishes remaining Gilead."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "old_row": {
+              "source_reference": "Joshua 17:8",
+              "target": "Joshua 16:9",
+              "relationship": "Particular Ephraim holding within the general enclave notice",
+              "rationale": "The statement that Thapheth on Manasseh's border belongs to Ephraim corresponds to the earlier notice of Ephraim cities within Manasseh's inheritance, without renaming the stated location."
+            },
+            "new_row": {
+              "source_reference": "Joshua 17:8",
+              "target": "Joshua 16:9",
+              "relationship": "Ephraim ownership alongside Manasseh in related allotment notices",
+              "rationale": "Thapheth on Manasseh's border expressly belongs to Ephraim; the earlier summary describes Ephraim cities amid Manasseh, supplying related cross-tribal ownership language without claiming this border town is a fully surrounded enclave."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "original_input_file": "joshua-13-18-initial.tsv"
+      },
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "joshua-19-24.tsv",
+      "field": "author_corrections",
+      "details": {
+        "original_input_file": "joshua-19-24-author-draft.tsv",
+        "original_input_sha256": "7b0c28133b47c2aea4be5942fecf2f5c6a551363e2e19872ea4f47ef3fd2f6ef",
+        "changes": [
+          {
+            "source_reference": "Joshua 19:11",
+            "old_row": {
+              "source_reference": "Joshua 19:11",
+              "target": "Joshua 19:16",
+              "relationship": "Same-chapter specified boundary segment within Zebulun's allocation",
+              "rationale": "Gola, the sea-side Maragella boundary and the ravine facing Jekman belong to the border account closed as Zebulun's city-and-village inheritance."
+            },
+            "new_row": {
+              "source_reference": "Joshua 19:11",
+              "target": "Joshua 19:16",
+              "relationship": "Same-chapter specified boundary segment within Zebulun's allocation",
+              "rationale": "Gola, the sea and Maragella borders, and the ravine facing Jekman belong to the account closed as Zebulun's city-and-village inheritance, without assigning Maragella a modern coastal identity."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 19:36",
+            "old_row": {
+              "source_reference": "Joshua 19:36",
+              "target": "Joshua 19:39",
+              "relationship": "Same-chapter named hill-country city group and tribal closure",
+              "rationale": "Armaith, Arael and Hazor occur within the city sequence closed as Naphtali's inheritance, without identifying them with similarly named towns in other allotments."
+            },
+            "new_row": {
+              "source_reference": "Joshua 19:36",
+              "target": "Joshua 19:39",
+              "relationship": "Same-chapter named city group and tribal closure",
+              "rationale": "Armaith, Arael and Hazor occur within the city sequence closed as Naphtali's inheritance, without identifying them with similarly named towns in other allotments."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 21:2",
+            "old_row": {
+              "source_reference": "Joshua 21:2",
+              "target": "Numbers 35:2-3",
+              "relationship": "Levitical petition cites the town-and-pasture command",
+              "rationale": "The Levites request dwelling cities and surrounding lands for cattle through Moses' command; Numbers expressly directs Israel to supply towns and livestock lands from their possessions."
+            },
+            "new_row": {
+              "source_reference": "Joshua 21:2",
+              "target": "Numbers 35:2-3",
+              "relationship": "Levitical petition cites the town-and-pasture command",
+              "rationale": "The Levites request dwelling cities and surrounding lands for livestock through Moses' command; Numbers expressly directs Israel to supply towns and livestock lands from their possessions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:8",
+            "old_row": {
+              "source_reference": "Joshua 22:8",
+              "target": "Numbers 31:27",
+              "relationship": "Different campaigns sharing spoil beyond the fighting group",
+              "rationale": "Both describe sharing enemy spoil with the wider brothers or congregation; Numbers explicitly divides between warriors and the congregation, without specifying Joshua's later distribution proportions."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:8",
+              "target": "Numbers 31:27",
+              "relationship": "Related enemy-spoil distributions with distinct recipient descriptions",
+              "rationale": "Both describe enemy spoil being shared; Numbers specifies warriors and the whole congregation, while Joshua says the eastern tribes divided it with their brothers and gives no distribution proportions."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:20",
+            "old_row": {
+              "source_reference": "Joshua 22:20",
+              "target": "Joshua 7:1-5",
+              "relationship": "Achar's devoted-property offense and collective losses",
+              "rationale": "The recital connects Achar's offense with communal wrath and deaths; Joshua7 names the Zerah-line ancestry more fully and narrates Israel's defeat with about thirty-six killed."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:20",
+              "target": "Joshua 7:1-5",
+              "relationship": "Achar's devoted-property offense and collective losses",
+              "rationale": "Both link Achar's devoted-property offense with communal wrath; Joshua7 narrates about thirty-six killed and gives Carmi and Zambri between Achar and Zerah, preserving the differing ancestry formulations."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 22:31",
+            "old_row": {
+              "source_reference": "Joshua 22:31",
+              "target": "Joshua 22:26-29",
+              "relationship": "Same-chapter no-offense verdict after the stated testimonial defense",
+              "rationale": "Phinehas' favorable verdict follows the explicit non-sacrificial testimony explanation and denial of an altar apart from the Lord's tent, without turning the initial allegation into a finding."
+            },
+            "new_row": {
+              "source_reference": "Joshua 22:31",
+              "target": "Joshua 22:26-29",
+              "relationship": "Same-chapter no-offense verdict after the stated testimonial defense",
+              "rationale": "Phinehas' favorable verdict follows the explicit non-sacrificial testimony explanation and rejection of offering apart from the Lord's altar before His tent, without turning the initial allegation into a finding."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 23:10",
+            "old_row": {
+              "source_reference": "Joshua 23:10",
+              "target": "Deuteronomy 32:30",
+              "relationship": "One pursuing a thousand under different descriptions of divine agency",
+              "rationale": "Both use one pursuing a thousand; Joshua credits the Lord fighting for Israel, whereas Deuteronomy asks how such pursuit occurs unless God sells and hands over those pursued."
+            },
+            "new_row": {
+              "source_reference": "Joshua 23:10",
+              "target": "Deuteronomy 32:30",
+              "relationship": "One pursuing a thousand under different descriptions of divine agency",
+              "rationale": "Both use one pursuing a thousand; Joshua credits the Lord fighting for Israel, whereas Deuteronomy's rhetorical question uses God's selling and handing-over language without assigning its pronouns a new referent."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 24:10",
+            "old_row": {
+              "source_reference": "Joshua 24:10",
+              "target": "Deuteronomy 23:6",
+              "relationship": "Divine refusal of destruction and curse reversed into blessing",
+              "rationale": "Both describe the Lord preserving Israel and blessing despite Balaam's intended curse; Deuteronomy expressly says He refused Balaam and changed the curse because of His love."
+            },
+            "new_row": {
+              "source_reference": "Joshua 24:10",
+              "target": "Deuteronomy 23:6",
+              "relationship": "Divine refusal of destruction and curse reversed into blessing",
+              "rationale": "Both describe the Lord preserving Israel and blessing despite the curse sought through Balaam; Deuteronomy expressly says He refused Balaam and changed the curse because of His love."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          },
+          {
+            "source_reference": "Joshua 24:33b",
+            "old_row": {
+              "source_reference": "Joshua 24:33b",
+              "target": "Judges 2:13-14",
+              "relationship": "Other-god service followed by delivery to enemies",
+              "rationale": "Both connect service to Astarte-related gods with the Lord handing Israel to enemies; Joshua's continuation specifically names Moab's Eglom, while Judges2 gives the broader pattern."
+            },
+            "new_row": {
+              "source_reference": "Joshua 24:33b",
+              "target": "Judges 2:13-14",
+              "relationship": "Other-god service followed by delivery to enemies",
+              "rationale": "Both connect serving other gods with the Lord handing Israel to enemies; Joshua names Astarte, Ashtaroth and Eglom, while Judges names Baal and Astartes with a broader enemy description."
+            },
+            "complete_corrected_triple_reread": true,
+            "new_pairs_credited": 0
+          }
+        ],
+        "new_pairs_credited": 0,
+        "new_source_verses_credited": 0
+      },
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Joshua 12:14",
+      "target": "Numbers 21:3",
+      "status": "pending place-name equivalence; not retained as an identity match",
+      "reason": "Joshua names Hormah beside Arad; Numbers names the devoted place Devotion to Destruction. Both complete texts and context were read, but equivalence of Hormah and that supplied name is not independently resolved or asserted. The separate retained12:14-to21:1-3 comparison concerns only the explicitly shared Arad royal title, with no claim that the two kings are the same person.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 12:14",
+        "id": "v12-14",
+        "text": "the king of Hormah; the king of Arad;",
+        "text_sha256": "3bd485c32f328cd3a9766fe72f13485eb67ef9e4b8dffcc9a05a8eaa7c336af6"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 21:3",
+          "id": "v21-3",
+          "text": "And the Lord heard Israel's voice and handed the Canaanite over into his power. Israel devoted him and his towns to destruction, and they called that place Devotion to Destruction.",
+          "text_sha256": "1bdf616f1fa1df8c1a7b77bde122d8ccc5157f640196ac266f0d3f1cf92f62d1"
+        }
+      ]
+    },
+    {
+      "source_reference": "Joshua 13:21",
+      "target": "Numbers 31:8",
+      "status": "pending fifth Midian ruler name equivalence; not retained",
+      "reason": "The actual rosters share Evi, Rekem, Zur and Hur but have Reba versus Robok and distinct ruler descriptions. Full proposed roster identity, especially the fifth individual, is not independently resolved. The retained source connection concerns Sihon towns instead.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 13:21",
+        "id": "v13-21",
+        "text": "all the cities of the Misor and all the kingdom of Sihon king of the Amorites, whom Moses struck, together with the leaders of Midian—Evi, Rekem, Zur, Hur, and Reba—rulers under Sihon, and those who lived in the land.",
+        "text_sha256": "a786a18901a59750b84f03632e1c63e536290d5a432de5ac0cce1e7f97932920"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 31:8",
+          "id": "v31-8",
+          "text": "And they killed the kings of Midian together with their slain: Evi, Zur, Rekem, Hur, and Robok, the five kings of Midian. They also killed Balaam son of Beor with the sword together with their slain.",
+          "text_sha256": "8deee0a9f17a242ca56e35229630be97b9110c9c6408a77721d347b421065fda"
+        }
+      ]
+    },
+    {
+      "source_reference": "Joshua 15:14",
+      "target": "Judges 1:10",
+      "status": "pending individual Anakite name equivalences; not retained",
+      "reason": "Joshua names Sousi, Talmai and Achima, while Judges names Sheshai, Ahiman and Talmai and attributes the attack to Judah. The distinct individual names and actors are not harmonized; the retained connection identifies the preceding explicit Hebron allotment instead.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 15:14",
+        "id": "v15-14",
+        "text": "Caleb son of Jephunneh destroyed from there the three sons of Anak: Sousi, Talmai, and Achima.",
+        "text_sha256": "bc20b5af87860716e774f6027c76517e5f784201078278ae0f94004177739207"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "judges/verses.json",
+        "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Judges 1:10",
+          "id": "v1-10",
+          "text": "Judah went against the Canaanites dwelling in Hebron, and Hebron came out against him. Hebron’s former name was Kariatharboksepher. He struck Sheshai, Ahiman, and Talmai, descendants of Anak.",
+          "text_sha256": "e37785cd77f5a8f34e9df600333630c8680c0446e4d2727225419b634683a6c3"
+        }
+      ]
+    },
+    {
+      "source_reference": "Joshua 17:3",
+      "target": "Numbers 27:1",
+      "status": "pending Egla-Hoglah individual name equivalence; not retained",
+      "reason": "The daughter lists have Egla versus Hoglah. Their common named father and inheritance case are clear, but the differing individual name is not independently resolved or counted; the retained connection uses the no-son inheritance petition rather than claiming a complete identical roster.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 17:3",
+        "id": "v17-3",
+        "text": "Zelophehad son of Hepher had no sons, only daughters. These were the names of Zelophehad’s daughters: Mahlah, Noah, Egla, Milcah, and Tirzah.",
+        "text_sha256": "70c2cb5d3a02d3f77e5249f87ccebabba57442c8cbfff0be6be842c55dceaa60"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 27:1",
+          "id": "v27-1",
+          "text": "And the daughters of Zelophehad son of Hepher, son of Gilead, son of Machir, of the clan of Manasseh among the sons of Joseph, came forward. Their names were Mahlah, Noah, Hoglah, Milcah, and Tirzah.",
+          "text_sha256": "de2d182535f319231725e127741c11ddfb2e0900b341cfd840ae2ca911407a35"
+        }
+      ]
+    }
+  ],
+  "known_pending_target_candidates": [
+    {
+      "source_reference": "Joshua 12:14",
+      "target": "Numbers 21:3",
+      "status": "pending place-name equivalence; not retained as an identity match",
+      "reason": "Joshua names Hormah beside Arad; Numbers names the devoted place Devotion to Destruction. Both complete texts and context were read, but equivalence of Hormah and that supplied name is not independently resolved or asserted. The separate retained12:14-to21:1-3 comparison concerns only the explicitly shared Arad royal title, with no claim that the two kings are the same person.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 12:14",
+        "id": "v12-14",
+        "text": "the king of Hormah; the king of Arad;",
+        "text_sha256": "3bd485c32f328cd3a9766fe72f13485eb67ef9e4b8dffcc9a05a8eaa7c336af6"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 21:3",
+          "id": "v21-3",
+          "text": "And the Lord heard Israel's voice and handed the Canaanite over into his power. Israel devoted him and his towns to destruction, and they called that place Devotion to Destruction.",
+          "text_sha256": "1bdf616f1fa1df8c1a7b77bde122d8ccc5157f640196ac266f0d3f1cf92f62d1"
+        }
+      ]
+    },
+    {
+      "source_reference": "Joshua 13:21",
+      "target": "Numbers 31:8",
+      "status": "pending fifth Midian ruler name equivalence; not retained",
+      "reason": "The actual rosters share Evi, Rekem, Zur and Hur but have Reba versus Robok and distinct ruler descriptions. Full proposed roster identity, especially the fifth individual, is not independently resolved. The retained source connection concerns Sihon towns instead.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 13:21",
+        "id": "v13-21",
+        "text": "all the cities of the Misor and all the kingdom of Sihon king of the Amorites, whom Moses struck, together with the leaders of Midian—Evi, Rekem, Zur, Hur, and Reba—rulers under Sihon, and those who lived in the land.",
+        "text_sha256": "a786a18901a59750b84f03632e1c63e536290d5a432de5ac0cce1e7f97932920"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 31:8",
+          "id": "v31-8",
+          "text": "And they killed the kings of Midian together with their slain: Evi, Zur, Rekem, Hur, and Robok, the five kings of Midian. They also killed Balaam son of Beor with the sword together with their slain.",
+          "text_sha256": "8deee0a9f17a242ca56e35229630be97b9110c9c6408a77721d347b421065fda"
+        }
+      ]
+    },
+    {
+      "source_reference": "Joshua 15:14",
+      "target": "Judges 1:10",
+      "status": "pending individual Anakite name equivalences; not retained",
+      "reason": "Joshua names Sousi, Talmai and Achima, while Judges names Sheshai, Ahiman and Talmai and attributes the attack to Judah. The distinct individual names and actors are not harmonized; the retained connection identifies the preceding explicit Hebron allotment instead.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 15:14",
+        "id": "v15-14",
+        "text": "Caleb son of Jephunneh destroyed from there the three sons of Anak: Sousi, Talmai, and Achima.",
+        "text_sha256": "bc20b5af87860716e774f6027c76517e5f784201078278ae0f94004177739207"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "judges/verses.json",
+        "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Judges 1:10",
+          "id": "v1-10",
+          "text": "Judah went against the Canaanites dwelling in Hebron, and Hebron came out against him. Hebron’s former name was Kariatharboksepher. He struck Sheshai, Ahiman, and Talmai, descendants of Anak.",
+          "text_sha256": "e37785cd77f5a8f34e9df600333630c8680c0446e4d2727225419b634683a6c3"
+        }
+      ]
+    },
+    {
+      "source_reference": "Joshua 17:3",
+      "target": "Numbers 27:1",
+      "status": "pending Egla-Hoglah individual name equivalence; not retained",
+      "reason": "The daughter lists have Egla versus Hoglah. Their common named father and inheritance case are clear, but the differing individual name is not independently resolved or counted; the retained connection uses the no-son inheritance petition rather than claiming a complete identical roster.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "source_verse": {
+        "reference": "Joshua 17:3",
+        "id": "v17-3",
+        "text": "Zelophehad son of Hepher had no sons, only daughters. These were the names of Zelophehad’s daughters: Mahlah, Noah, Egla, Milcah, and Tirzah.",
+        "text_sha256": "70c2cb5d3a02d3f77e5249f87ccebabba57442c8cbfff0be6be842c55dceaa60"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 27:1",
+          "id": "v27-1",
+          "text": "And the daughters of Zelophehad son of Hepher, son of Gilead, son of Machir, of the clan of Manasseh among the sons of Joseph, came forward. Their names were Mahlah, Noah, Hoglah, Milcah, and Tirzah.",
+          "text_sha256": "de2d182535f319231725e127741c11ddfb2e0900b341cfd840ae2ca911407a35"
+        }
+      ]
+    },
+    {
+      "source_reference": "Genesis 49:9",
+      "target": "Revelation 5:5",
+      "reason": "Saints70 retains this canonical book, but its exact target text is not present in the pinned Saints-Translation records. Missing source identity/content must be supplied before review.",
+      "status": "pending pinned target evidence"
+    },
+    {
+      "source_reference": "Exodus 15:1",
+      "target": "Revelation 15:3",
+      "status": "pending pinned target evidence",
+      "reason": "Candidate for later review only. The pinned Saints-Translation records provide no actual Revelation target text; this passage has not been read or verified in the selected edition and is not included in completed pairs."
+    },
+    {
+      "source_reference": "Numbers 10:29",
+      "target": "Judges 4:11",
+      "status": "pending identity review",
+      "reason": "The actual pinned Numbers text names Hobab son of Reuel, a Midianite and Moses' kinsman by marriage. The actual pinned Judges text names sons of Jobab, Moses' in-law. Both texts were read, but the possible identity or name equivalence has not been independently resolved. This candidate is not a completed pair.",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "judges/verses.json",
+        "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+      },
+      "target_verses": [
+        {
+          "reference": "Judges 4:11",
+          "id": "v4-11",
+          "text": "The neighbours of the Kenite had separated from the sons of Jobab, Moses’ in-law. He pitched his tent near the Oak of the Resters, near Kedesh.",
+          "text_sha256": "e012b3baa6d1a8ea58b3c92a4bdc06a6aa25ce3587af16dbb31dc6d6f213ca56"
+        }
+      ],
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Numbers 12:1",
+      "target": "Exodus 2:21",
+      "status": "pending identity review; not retained",
+      "reason": "Numbers describes an Ethiopian wife without naming her; Exodus names Zipporah within the Midian marriage account. Both complete contexts were read, but their identity has not been independently resolved and is not asserted in a completed pair.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 12:1",
+        "id": "v12-1",
+        "text": "And Miriam and Aaron spoke against Moses because of the Ethiopian woman Moses had married, for he had married an Ethiopian woman.",
+        "text_sha256": "61844021f6d3e8bb91eb95c1ef6e531421ecd2f00daef93c33550fda97cfba9c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "exodus/verses.json",
+        "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Exodus 2:21",
+          "id": "v2-21",
+          "text": "Moses settled with the man, who gave him his daughter Zipporah as his wife.",
+          "text_sha256": "bd6b8b4b762c8ccc6ee5d09fc6800af49a947c12e75010a5d1b4082d31c90c4f"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 13:22",
+      "target": "Joshua 15:14",
+      "status": "pending individual-name equivalence; not retained",
+      "reason": "The actual lists include Ahiman, Sheshai, Talmai versus Sousi, Talmai, Achima. Both actual passages were read; equivalence of the differently rendered individual names is not independently resolved or counted.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 13:22",
+        "id": "v13-22",
+        "text": "And they went up through the wilderness and came as far as Hebron, where Ahiman, Sheshai, and Talmai, families of Anak, were. Hebron had been built seven years before Tanis in Egypt.",
+        "text_sha256": "228bc2afa422b3035b2b538b47aedea1e287ca4b9b3b1122e21155cff6831ebd"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Joshua 15:14",
+          "id": "v15-14",
+          "text": "Caleb son of Jephunneh destroyed from there the three sons of Anak: Sousi, Talmai, and Achima.",
+          "text_sha256": "bc20b5af87860716e774f6027c76517e5f784201078278ae0f94004177739207"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 24:24",
+      "target": "Daniel 11:30",
+      "status": "pending historical/name equivalence; not retained",
+      "reason": "The actual Numbers text names Kitians, while Daniel’s actual record names Romans. Both passages were read but no equivalence or shared unique event was independently established.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 24:24",
+        "id": "v24-24",
+        "text": "And one shall come forth from the hand of the Kitians, and they shall afflict Asshur and the Hebrews; they themselves shall perish together.",
+        "text_sha256": "37cd9c3d4d4a05a6c7ed0b8b050e6bb505a93b0a1e3df7d391042a66c2ade60f"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "daniel/verses.json",
+        "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Daniel 11:30",
+          "id": "v11-30",
+          "text": "Romans will come, drive him out, and rebuke him. He will return, become angry against the holy covenant, act, and return. He will consider them because they abandoned the holy covenant.",
+          "text_sha256": "0c1afa31bd9b3adae16b035b39db213560d12b2a2c0e2d4d058455ecf5edc4fc"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 25:6",
+      "target": "Numbers 25:14",
+      "status": "pending male-referent identification; not retained as an identity pair",
+      "reason": "The arrival verse mentions a man and his brother; the later name identifies the slain Israelite man as Zimri without independently resolving which of those two males is intended. The retained episode-response relation makes no such identification.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 25:6",
+        "id": "v25-6",
+        "text": "And an Israelite man came and brought his brother to the Midianite woman before Moses and the whole congregation of the sons of Israel, while they were weeping at the entrance of the Tent of Testimony.",
+        "text_sha256": "f89c827c9a56e2074287bd66eb99e955e3c00732bb472ed9a19bad950322e1b7"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 25:14",
+          "id": "v25-14",
+          "text": "The name of the Israelite man struck down with the Midianite woman was Zimri son of Salu, a ruler of an ancestral house of Simeon.",
+          "text_sha256": "f71932deed34969f4304bf81e73a35bf273516ab33fb25bcec805f63967d76a4"
+        }
+      ]
+    },
+    {
+      "source_reference": "Numbers 25:15",
+      "target": "Numbers 31:8",
+      "status": "pending Zur identity; not retained",
+      "reason": "The passages name Cozbi’s ruler father Zur and a Midianite king Zur respectively. Both actual passages were read, but shared name and region alone do not receive independent identity approval.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "source_verse": {
+        "reference": "Numbers 25:15",
+        "id": "v25-15",
+        "text": "And the name of the Midianite woman who was struck down was Cozbi daughter of Zur, a ruler of the nation of Ommoth, an ancestral house of Midian.",
+        "text_sha256": "dbcf1dfd01f0c4a69da7698cdc267b48f2932c2e95ea00d8cc17b1290a95a678"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "numbers/verses.json",
+        "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Numbers 31:8",
+          "id": "v31-8",
+          "text": "And they killed the kings of Midian together with their slain: Evi, Zur, Rekem, Hur, and Robok, the five kings of Midian. They also killed Balaam son of Beor with the sword together with their slain.",
+          "text_sha256": "8deee0a9f17a242ca56e35229630be97b9110c9c6408a77721d347b421065fda"
+        }
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "proposed_claim": "Equate Ozan of Bethel with Hiel the Bethelite independently or insert the name Segub into Joshua6:26.",
+      "reason": "The retained textual cross-reference records Kings explicit Joshua-word attribution and the shared Jericho, Abiram, foundation and gates particulars, while preserving the different supplied personal names and youngest-son description. Independent name equivalence is not claimed or counted."
+    },
+    {
+      "proposed_claim": "Import Joshua5:16, Joshua6:4, familiar Adam/Zarethan water geography, a house-in-city-wall clause, standard forty-year/circumcision readings or seven circuits directly into6:15.",
+      "reason": "Only the supplied actual units and wording are retained; none of these imported substitutions receives completion credit."
+    },
+    {
+      "proposed_claim": "Infer every household member was burned or stoned in Joshua7, silently reconcile the varying patronymics, or import a Babylonian robe description.",
+      "reason": "The source states burning as the command and reports Achar stoned with a heap over him, while bringing his household and goods to the ravine. Their individual fates are not supplied. Actual carpet, didrachm weights and patronymic forms remain unchanged."
+    },
+    {
+      "proposed_claim": "Supply absent Joshua8:13/26or10:15/43, move the9:2a–2fceremony, substitute northern approach or a second troop count, or infer an astronomical mechanism.",
+      "reason": "Only actual source units and directions are retained; the east/west, thirty-thousand, javelin, full-day and Sirach differing day-language are preserved."
+    },
+    {
+      "proposed_claim": "Equate Horite with a replacement ethnonym, Ailam the royal-list entry with Ailam the ruler, Arad kings as the same person, Achel/Chelcha as independently identified mountains, or other similarly named places/persons.",
+      "reason": "Retained comparisons use explicit narrative roles and shared landmarks while preserving different forms and excluding unsupported identities. Hormah/Devotion to Destruction is separately logged unresolved."
+    },
+    {
+      "proposed_claim": "Import1Kings9:15-17 for the Gezer notice or equate every variant boundary/town name.",
+      "reason": "That familiar Kings range is absent; retained actual5:14b independently pinned and read. Keep Baal/Jearim/Chesalon, Onom/Onnam/Gaienna, Raphain/Emekraphain, Socoh/Soccoth, Moladah/Koladam, Thekoum/Tekoa and Ephrathah occurrences in their stated contexts without unprovided mappings."
+    },
+    {
+      "proposed_claim": "Restore a familiar ten-share Manasseh formula, iron-chariot phrase or wilderness heading at15:61.",
+      "reason": "Preserve17:5Anassa/Labek,17:9terebinth,17:16choicecavalryandiron and the actual unheaded15:61 list. Town-group totals, including18:24twelve and18:28thirteen, remain supplied wording without arithmetic normalization."
+    },
+    {
+      "proposed_claim": "Map unusual catalogue names to modern sites or silently replace supplied names and tribal attributions with another Bible edition.",
+      "reason": "Retain every town name, including19:15Jericho withinZebulun,19:35TyrianwalledcitieswithinNaphtali,19:48Judah/Lachish/Lasendak,distinctBosora/Bosor,Aremoth/Ramoth,Kedeshtribalcontexts,andboth21Jazerentries. Exact shared names and explicit allocation/refuge contexts support retained links; modern identities are not resolved."
+    },
+    {
+      "proposed_claim": "Import familiar missingJoshua20:4–6or treat continuation units as optional duplicates.",
+      "reason": "All actual20units1–3and7–9are read; preserve19:47a/48a,21:42a–d,24:31a/33a/33bwithoriginalanchorsand no extra completion credit for technical handling."
+    },
+    {
+      "proposed_claim": "ReplaceShilohwithShechemat24assembly,replacewasps/twelvekingswithalternateforms,reconcileallgenealogiesorinterpretallbootybrothersasnoncombatants.",
+      "reason": "PreserveactualShiloh24:1/25,waspsand12Amoritekings,morethanoneancestryformforAchar,statedspoilrecipients,anddistinctarmy/route/pronounlanguage. No undocumented identity or recipient claim retained."
+    }
+  ],
+  "remaining_checks": [
+    "Independent human specialist review",
+    "Original-language and critical-apparatus comparison",
+    "Live destination-anchor and display verification"
+  ],
+  "target_identity_preflight": {
+    "checked_at_utc": "2026-10-30T00:27:49.825123+00:00",
+    "source_units": 659,
+    "retained_pairs": 677,
+    "reference_resolution": "passed in actual source order",
+    "canonical_target_membership": "passed",
+    "no_duplicate_self_pairs": "passed",
+    "same_chapter_labels": "passed",
+    "final_peer_input_and_author_receipt_hash_bindings": "passed",
+    "new_unresolved_identity_candidates_excluded": 4,
+    "completion_credit": 0
+  },
+  "frozen_receipt_fingerprints": [
+    {
+      "author_file": "joshua-1-6-review.json",
+      "author_sha256": "dbaea9aa3528fa4170b5f617d5c6efeb723d46b3e98944408de7d29d445c3416",
+      "peer_file": "joshua-1-6-peer-review.json",
+      "peer_sha256": "1f2709b9e60008f3f2718300a12c0e718c101ca24472264866bd076750be4612",
+      "tsv_file": "joshua-1-6.tsv",
+      "tsv_sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66"
+    },
+    {
+      "author_file": "joshua-7-12-review.json",
+      "author_sha256": "2de3f05606f20ce97f527d7ce263470c3fa51df661490e1120d5311af48275c6",
+      "peer_file": "joshua-7-12-peer-review.json",
+      "peer_sha256": "9cbe9a9aebf6b0074c7bb9c8b83a95ab6e29353fe2552a5a6ebc91f8d241903d",
+      "tsv_file": "joshua-7-12.tsv",
+      "tsv_sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a"
+    },
+    {
+      "author_file": "joshua-13-18-review.json",
+      "author_sha256": "01d7a42b7756a552ca84f6a8b0122b96e6cbe8660ef9b426f455e4d73eb09325",
+      "peer_file": "joshua-13-18-peer-review.json",
+      "peer_sha256": "5f0da182fe263a91f2aea60cc3babe474c313641baa8aa7111f2efe78bd785e9",
+      "tsv_file": "joshua-13-18.tsv",
+      "tsv_sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda"
+    },
+    {
+      "author_file": "joshua-19-24-review.json",
+      "author_sha256": "802fbe77dff96e7f4d536bf308f07b21e67ae8b55736e41e33ef5f277e240a67",
+      "peer_file": "joshua-19-24-peer-review.json",
+      "peer_sha256": "0bb7d3cb735c56ada1552a78d65976584fcbb92691bb5df532a95828118e28bc",
+      "tsv_file": "joshua-19-24.tsv",
+      "tsv_sha256": "0096945114ebe47f3fc3e9fd31cc4c9968c8842abbee458f7582c348629f8153"
+    }
+  ],
+  "input_archive": "joshua/review-batches/2026-10-30T000554Z/",
+  "archived_input_files": [
+    {
+      "file": "joshua-1-6-initial.tsv",
+      "sha256": "38adfa9ecb2a5d806737aa0d99d0151943aaf3086d1c3c763eba7aa80120f6ac",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-1-6.tsv",
+      "sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-1-6-peer-review.json",
+      "sha256": "1f2709b9e60008f3f2718300a12c0e718c101ca24472264866bd076750be4612",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-1-6-review.json",
+      "sha256": "dbaea9aa3528fa4170b5f617d5c6efeb723d46b3e98944408de7d29d445c3416",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-7-12-author-draft.tsv",
+      "sha256": "36458feed93e753fa332ca7e26a423c27117f1a399f2bf9150f4d8c49aa7241b",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-7-12-before-peer.tsv",
+      "sha256": "e8e871f5052210ba265ca6b18258bf077c566aeb693dbeb41d3e9fba8c97f8a7",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-7-12.tsv",
+      "sha256": "91ca8e977f8f93f9e5123d885e0b3bb58c8138603442fd2de49dbd427abb205a",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-7-12-peer-review.json",
+      "sha256": "9cbe9a9aebf6b0074c7bb9c8b83a95ab6e29353fe2552a5a6ebc91f8d241903d",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-7-12-review-before-peer.json",
+      "sha256": "6459a6e9d8c97296b5e29bfa20069463ec15f80b006af24a46a116b588222f18",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-7-12-review.json",
+      "sha256": "2de3f05606f20ce97f527d7ce263470c3fa51df661490e1120d5311af48275c6",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-13-18-before-peer.tsv",
+      "sha256": "f421de816639419e0f40a1196be293d3f57b5bb446bc2ce66c59744cb48d6dd2",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-13-18-initial.tsv",
+      "sha256": "17239c7b89b6a11422321d2654a827b27ae660bd9dc3182445ee0867e508a87f",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-13-18.tsv",
+      "sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-13-18-before-peer-review.json",
+      "sha256": "64afcfa6117e0aa7f40158dd5ab012232ca106620b9c05cb315856ae20034808",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-13-18-peer-review.json",
+      "sha256": "5f0da182fe263a91f2aea60cc3babe474c313641baa8aa7111f2efe78bd785e9",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-13-18-review.json",
+      "sha256": "01d7a42b7756a552ca84f6a8b0122b96e6cbe8660ef9b426f455e4d73eb09325",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-19-24-author-draft.tsv",
+      "sha256": "7b0c28133b47c2aea4be5942fecf2f5c6a551363e2e19872ea4f47ef3fd2f6ef",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-19-24.tsv",
+      "sha256": "0096945114ebe47f3fc3e9fd31cc4c9968c8842abbee458f7582c348629f8153",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-19-24-peer-review.json",
+      "sha256": "0bb7d3cb735c56ada1552a78d65976584fcbb92691bb5df532a95828118e28bc",
+      "completion_credit": 0
+    },
+    {
+      "file": "joshua-19-24-review.json",
+      "sha256": "802fbe77dff96e7f4d536bf308f07b21e67ae8b55736e41e33ef5f277e240a67",
+      "completion_credit": 0
+    }
+  ],
+  "book": "Joshua",
+  "overall_review_record": "../../review-batches/2026-10-30T000554Z.json"
+}

@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_4_6 (AI-assisted supplied-English curation for Joshua7–12)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T00:18:00.396137+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_verses": 174,
+  "completed_source_verses": 174,
+  "completed_pairs": 174,
+  "distinct_target_verse_units": 186,
+  "chapter_pair_counts": {
+    "7": 26,
+    "8": 27,
+    "9": 33,
+    "10": 41,
+    "11": 23,
+    "12": 24
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read all174 actual source units in full, every complete retained target and necessary Joshua1/2/6/13/14/15/21/22/23/24, Deuteronomy2/3/7/9/11/20/21/27/31, Exodus23, Numbers14/21/27/30 and Sirach46 contexts. Then separately displayed and reread all174 complete source/target/category/rationale triples in six untruncated chapter slices. Before initial freeze preserved the original author draft and exact six wording refinements; all six final complete changed triples were then separately displayed and reread. Same-chapter comparisons concern particular instructions and performance, claims and contradictory evidence, questions and answers, named expedition stages, explicit comparisons between captured cities, stated king-list membership or named summary extents. They are not independent external corroboration or modern site identifications. The royal entries retain29as the explicit total; no31replacement or invented missing numbered unit is used. This is initial English-text curation, not exhaustive discovery or original-language/apparatus/human-specialist verification.",
+  "pin_method": "Fresh independent raw fetch of all5 retained source books at the fixed commit; rehashed exact Gitblob identities against existing registries and verified complete parsed equality to local caches while recording byte normalization differences separately.",
+  "source_books": [
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    },
+    {
+      "book": "Sirach",
+      "records": "sirach/verses.json",
+      "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb"
+    }
+  ],
+  "pin_receipt": "joshua-7-12-pins.json",
+  "input_file": "joshua-7-12.tsv",
+  "input_sha256": "e8e871f5052210ba265ca6b18258bf077c566aeb693dbeb41d3e9fba8c97f8a7",
+  "final_input_sha256": "e8e871f5052210ba265ca6b18258bf077c566aeb693dbeb41d3e9fba8c97f8a7",
+  "source_inventory": "joshua/inventory.json",
+  "inventory_completion_credit": 0,
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Joshua 12:14",
+      "target": "Numbers 21:3",
+      "status": "pending place-name equivalence; not retained as an identity match",
+      "reason": "Joshua names Hormah beside Arad; Numbers names the devoted place Devotion to Destruction. Both complete texts and context were read, but equivalence of Hormah and that supplied name is not independently resolved or asserted. The separate retained12:14-to21:1-3 comparison concerns only the explicitly shared Arad royal title, with no claim that the two kings are the same person.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "author_refinements_before_freeze": [
+    {
+      "source_reference": "Joshua 7:3",
+      "old_row": {
+        "source_reference": "Joshua 7:3",
+        "target": "Joshua 7:4-5",
+        "relationship": "Same-chapter recommendation and adverse outcome",
+        "rationale": "The recommendation to send about two or three thousand is followed by about three thousand going, fleeing and suffering the stated thirty-six deaths, contrasting expectation with outcome."
+      },
+      "new_row": {
+        "source_reference": "Joshua 7:3",
+        "target": "Joshua 7:4-5",
+        "relationship": "Same-chapter recommendation and adverse outcome",
+        "rationale": "The recommendation to send about two or three thousand is followed by about three thousand going, fleeing and suffering about thirty-six deaths, contrasting expectation with outcome."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Joshua 7:10",
+      "old_row": {
+        "source_reference": "Joshua 7:10",
+        "target": "Joshua 7:11-13",
+        "relationship": "Same-chapter command to rise followed by the offense and remedy",
+        "rationale": "The Lord interrupts Joshua's fallen posture by declaring the devoted-property offense and directing consecration and its removal, shifting the response toward the stated cause of defeat."
+      },
+      "new_row": {
+        "source_reference": "Joshua 7:10",
+        "target": "Joshua 7:11-13",
+        "relationship": "Same-chapter command to rise followed by the offense and remedy",
+        "rationale": "The Lord responds to Joshua's fallen posture by declaring the devoted-property offense and directing consecration and its removal, shifting the response toward the stated cause of defeat."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Joshua 7:14",
+      "old_row": {
+        "source_reference": "Joshua 7:14",
+        "target": "Joshua 7:16-18",
+        "relationship": "Same-chapter staged identification commanded and performed",
+        "rationale": "The command to present tribes, clans, households and individuals is followed by Judah, the Zerahite clan and Achar being indicated, preserving the actual abbreviated genealogical wording."
+      },
+      "new_row": {
+        "source_reference": "Joshua 7:14",
+        "target": "Joshua 7:16-18",
+        "relationship": "Same-chapter staged identification commanded and performed",
+        "rationale": "The command to present tribes, clans, households and individuals is followed by Judah, the Zerahite clan and Achar being indicated, preserving the account's actual varying genealogical wording."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Joshua 10:33",
+      "old_row": {
+        "source_reference": "Joshua 10:33",
+        "target": "Joshua 12:12",
+        "relationship": "Gezer king's defeat recalled in the later royal list",
+        "rationale": "The king of Gezer comes to aid Lachish and is defeated with his people; the later list names a king of Gezer, without equating the neighboring Ailam entry with a city absent from this narrative unit."
+      },
+      "new_row": {
+        "source_reference": "Joshua 10:33",
+        "target": "Joshua 12:12",
+        "relationship": "Gezer king's defeat recalled in the later royal list",
+        "rationale": "The king of Gezer comes to aid Lachish and is defeated with his people; the later list names a king of Gezer, while its separate Ailam royal entry is not identified with this ruler's personal name."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Joshua 11:17",
+      "old_row": {
+        "source_reference": "Joshua 11:17",
+        "target": "Joshua 12:7",
+        "relationship": "Related western extent summaries with different mountain forms",
+        "rationale": "Both extend the western campaign summary from the Seir ascent area toward Baal-gad and Lebanon; Achel and Chelcha remain the actual differing forms rather than an asserted modern identification."
+      },
+      "new_row": {
+        "source_reference": "Joshua 11:17",
+        "target": "Joshua 12:7",
+        "relationship": "Related western extent summaries with different mountain forms",
+        "rationale": "Both western campaign summaries connect the Seir ascent area with Baal-gad and Lebanon; Achel and Chelcha remain the actual differing forms rather than an asserted modern identification."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Joshua 12:2",
+      "old_row": {
+        "source_reference": "Joshua 12:2",
+        "target": "Deuteronomy 2:36-37",
+        "relationship": "Sihon's realm compared with the eastern campaign limits",
+        "rationale": "Both name Aroer, Arnon, Gilead and the Jabbok-Ammon boundary area; Joshua describes Sihon's rule, while Deuteronomy distinguishes conquered territory from Ammonite territory not approached."
+      },
+      "new_row": {
+        "source_reference": "Joshua 12:2",
+        "target": "Deuteronomy 2:36-37",
+        "relationship": "Sihon's realm compared with the eastern campaign limits",
+        "rationale": "Both name Aroer, Gilead and the Jabbok-Ammon boundary area; Joshua describes Sihon's rule, while Deuteronomy distinguishes conquered territory from Ammonite territory not approached."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "author_draft_file": "joshua-7-12-author-draft.tsv",
+  "author_draft_sha256": "36458feed93e753fa332ca7e26a423c27117f1a399f2bf9150f4d8c49aa7241b",
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Infer every household member was burned or stoned in Joshua7, silently reconcile the varying patronymics, or import a Babylonian robe description.",
+      "reason": "The source states burning as the command and reports Achar stoned with a heap over him, while bringing his household and goods to the ravine. Their individual fates are not supplied. Actual carpet, didrachm weights and patronymic forms remain unchanged."
+    },
+    {
+      "proposed_claim": "Supply absent Joshua8:13/26or10:15/43, move the9:2a–2fceremony, substitute northern approach or a second troop count, or infer an astronomical mechanism.",
+      "reason": "Only actual source units and directions are retained; the east/west, thirty-thousand, javelin, full-day and Sirach differing day-language are preserved."
+    },
+    {
+      "proposed_claim": "Equate Horite with a replacement ethnonym, Ailam the royal-list entry with Ailam the ruler, Arad kings as the same person, Achel/Chelcha as independently identified mountains, or other similarly named places/persons.",
+      "reason": "Retained comparisons use explicit narrative roles and shared landmarks while preserving different forms and excluding unsupported identities. Hormah/Devotion to Destruction is separately logged unresolved."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "Joshua7",
+      "note": "Preserve Achar sonofCarmi/Zambri/Zerah variations, about3000andabout36, patternedcarpet, didrachmweights, silverunderneath, Achor/Emek-achor, and the distinction between commanded fire and narrated stoning. No unstated lot mechanism or family-member fate is supplied."
+    },
+    {
+      "reference": "Joshua8",
+      "note": "Preserve actual27units, missing13/26, eastapproach/westambush, thirtythousand, no additional troopnumber, javelin, capturedkingalive beforelaterhanging,12000total andlivestock/spoilpermissiondistinctfromJericho. Same-day body removal compares withDeut21withoutaddingunstateddetails."
+    },
+    {
+      "reference": "Joshua9",
+      "note": "Preserve9:2a–2ffullactualanchors, altar/stone-law/mountainassembly/publicreading distinctions, deliverance versuswell-beingofferingnames, release-yearlawreadingcomparedwithoutclaimingthatdateforJoshua, Horite, delegatesfalseclaimsversusnarratorfacts, oathandnoninquiryandservice roles."
+    },
+    {
+      "reference": "Joshua10",
+      "note": "Preserve Adoni-bezek, Ailam/Pheidon/Jephtha/Debir, Adullam, Jebusite/Amoritespeechforms, Horonin, Aijalon, hail/swordcomparison andSirachrecollection, absent15/43, caveprocedure, escapedpeopleinfortifiedcities, actualsecond-dayLachishversussame-dayAdullam, Gosom andAsedoth. Ailamcityentrynotconflatedwithpersonalname."
+    },
+    {
+      "reference": "Joshua11",
+      "note": "Preserve Marron/Symoon/Aziph/Maseron/Massoch, hamstringing/chariotburning, Hazoraloneburnedamongstatedcities, differentdestruction/spoilaccounts, Achel/Chelchaforms, manydays, unqualified11:19summaryalongsideGibeoncovenantwithoutinsertinganexception, Joshua/CalebagentsandremainingAnakimterritory."
+    },
+    {
+      "reference": "Joshua12",
+      "note": "Preserve eastern/westernheadings, Asimoth/Thaiman/AsedothPhasga/Machanarethforms, allcompoundroyalunits, allplacequalifiers, explicit29total. Heading/listrelationsidentifythetextsstatedroleofotherwiseunnarratedentrieswithoutinventedbattleorplaceidentifications. The12:14AradcomparisondoesnotresolveHormah."
+    }
+  ]
+}

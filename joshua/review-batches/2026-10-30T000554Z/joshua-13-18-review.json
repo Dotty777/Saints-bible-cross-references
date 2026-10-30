@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex root (AI-assisted supplied-English passage curation)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T00:22:35.462632+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "source_verses": 167,
+  "completed_source_verses": 167,
+  "completed_pairs": 173,
+  "distinct_target_verse_units": 173,
+  "chapter_pair_counts": {
+    "13": 33,
+    "14": 18,
+    "15": 64,
+    "16": 11,
+    "17": 18,
+    "18": 29
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read all167 complete actual source units, every retained complete target and necessary Numbers13/14/18/21/26/27/31/32/33/34/35, Deuteronomy1/3, Genesis23/28/35/48, Judges1/3, 1Samuel4/17, 1Kings5 and Joshua1/6/9/10/11/12/19/23 contexts. Separately displayed and reread all173 complete source/target/category/rationale triples in four untruncated groups, then reread four narrowed triples before freeze. Named town-group links explain the actual delimited catalog block or its tribal heading and supplied closing total, not merely arbitrary verse adjacency or independent geographic validation. Shared names, explicit textual aliases, particular border features, prior inheritance commands and repeated outcomes are retained without claiming uncertain name equivalences or recalculating supplied city totals. After independent peer feedback, reread one complete corrected16:4/Genesis48:5 triple narrowing Joseph heirs to Joseph sons receiving inheritance; exact prior frozen input and author receipt preserved, with zero extra credit.",
+  "pin_method": "Independently fetched all7 retained source-book raw files at fixed commit, verified exact Git blob hashes against current registries and complete parsed equality with caches; raw/cache byte differences distinguished.",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Genesis",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Judges",
+      "records": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    }
+  ],
+  "pin_receipt": "joshua-13-18-pins.json",
+  "input_file": "joshua-13-18.tsv",
+  "input_sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+  "final_input_sha256": "fd3e13ac5c70fa1209b41e4248f8ec3c9b87ee38be7bda1eb4e447656a44ceda",
+  "source_inventory": "joshua/inventory.json",
+  "inventory_completion_credit": 0,
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Joshua 13:21",
+      "target": "Numbers 31:8",
+      "status": "pending fifth Midian ruler name equivalence; not retained",
+      "reason": "The actual rosters share Evi, Rekem, Zur and Hur but have Reba versus Robok and distinct ruler descriptions. Full proposed roster identity, especially the fifth individual, is not independently resolved. The retained source connection concerns Sihon towns instead.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Joshua 15:14",
+      "target": "Judges 1:10",
+      "status": "pending individual Anakite name equivalences; not retained",
+      "reason": "Joshua names Sousi, Talmai and Achima, while Judges names Sheshai, Ahiman and Talmai and attributes the attack to Judah. The distinct individual names and actors are not harmonized; the retained connection identifies the preceding explicit Hebron allotment instead.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Joshua 17:3",
+      "target": "Numbers 27:1",
+      "status": "pending Egla-Hoglah individual name equivalence; not retained",
+      "reason": "The daughter lists have Egla versus Hoglah. Their common named father and inheritance case are clear, but the differing individual name is not independently resolved or counted; the retained connection uses the no-son inheritance petition rather than claiming a complete identical roster.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "author_corrections": {
+    "original_input_sha256": "17239c7b89b6a11422321d2654a827b27ae660bd9dc3182445ee0867e508a87f",
+    "changes": [
+      {
+        "old_row": {
+          "source_reference": "Joshua 13:7",
+          "target": "Numbers 34:13",
+          "relationship": "Nine-and-a-half-tribe allotment command",
+          "rationale": "Both specify inheritance by lot for nine tribes and half Manasseh; Joshua additionally defines Jordan and the Great Sea limits, while Numbers attributes the prescription to Moses."
+        },
+        "new_row": {
+          "source_reference": "Joshua 13:7",
+          "target": "Numbers 34:13",
+          "relationship": "Nine-and-a-half-tribe allotment command",
+          "rationale": "Both specify inheritance for nine tribes and half Manasseh; Numbers explicitly names the lot, while Joshua's preceding command supplies that lot setting and this unit additionally defines Jordan and Great Sea limits."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "old_row": {
+          "source_reference": "Joshua 15:1",
+          "target": "Numbers 34:3-4",
+          "relationship": "Southwestern wilderness and Kadesh boundary descriptions",
+          "rationale": "Both describe a southwestern boundary adjoining Edom and the wilderness and approaching Kadesh-barnea; Joshua's Zin and Idumea forms remain distinct from Numbers' Sin and Edom wording."
+        },
+        "new_row": {
+          "source_reference": "Joshua 15:1",
+          "target": "Numbers 34:3-4",
+          "relationship": "Southwestern wilderness and Kadesh boundary descriptions",
+          "rationale": "Both describe a southwestern boundary adjoining an Edom form and the wilderness, with a Kadesh form; Joshua's Zin, Idumea and Kadesh remain distinct from Numbers' Sin, Edom and Kadesh-barnea wording."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "old_row": {
+          "source_reference": "Joshua 17:6",
+          "target": "Numbers 27:7",
+          "relationship": "Daughters inheriting among their father's brothers",
+          "rationale": "Both explicitly grant Zelophehad's daughters an inheritance among the father's brothers; Joshua additionally distinguishes the Gilead portion of the remaining Manasseh descendants."
+        },
+        "new_row": {
+          "source_reference": "Joshua 17:6",
+          "target": "Numbers 27:7",
+          "relationship": "Daughters inheriting among their father's brothers",
+          "rationale": "Joshua describes Manasseh's daughters inheriting among their brothers in the preceding Zelophehad case; Numbers expressly grants Zelophehad's daughters their father's allotment among his brothers, while Joshua additionally distinguishes remaining Gilead."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "old_row": {
+          "source_reference": "Joshua 17:8",
+          "target": "Joshua 16:9",
+          "relationship": "Particular Ephraim holding within the general enclave notice",
+          "rationale": "The statement that Thapheth on Manasseh's border belongs to Ephraim corresponds to the earlier notice of Ephraim cities within Manasseh's inheritance, without renaming the stated location."
+        },
+        "new_row": {
+          "source_reference": "Joshua 17:8",
+          "target": "Joshua 16:9",
+          "relationship": "Ephraim ownership alongside Manasseh in related allotment notices",
+          "rationale": "Thapheth on Manasseh's border expressly belongs to Ephraim; the earlier summary describes Ephraim cities amid Manasseh, supplying related cross-tribal ownership language without claiming this border town is a fully surrounded enclave."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "new_pairs_credited": 0,
+    "original_input_file": "joshua-13-18-initial.tsv"
+  },
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Import1Kings9:15-17 for the Gezer notice or equate every variant boundary/town name.",
+      "reason": "That familiar Kings range is absent; retained actual5:14b independently pinned and read. Keep Baal/Jearim/Chesalon, Onom/Onnam/Gaienna, Raphain/Emekraphain, Socoh/Soccoth, Moladah/Koladam, Thekoum/Tekoa and Ephrathah occurrences in their stated contexts without unprovided mappings."
+    },
+    {
+      "proposed_claim": "Restore a familiar ten-share Manasseh formula, iron-chariot phrase or wilderness heading at15:61.",
+      "reason": "Preserve17:5Anassa/Labek,17:9terebinth,17:16choicecavalryandiron and the actual unheaded15:61 list. Town-group totals, including18:24twelve and18:28thirteen, remain supplied wording without arithmetic normalization."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "Joshua13-14",
+      "note": "Preserve remaining-land versus allotment distinctions,13:25halfAmmon,14:2throughJoshua,14:3beyondJordanfragment,14:7reportaccordingtohismind,14:13sonofKenaz and45th-year/85-yearage claims without turning them into45wildernessyears. Midian fifth-name and Anakite roster identities remain uncounted."
+    },
+    {
+      "reference": "Joshua15-18",
+      "note": "Preserve all supplied town names/counts and15:59acontinuation. The same-chapter links identify particular named catalog groups, tribe headings or explicit boundary continuations; no modern site identity or recalculated city total is certified. Keep Golathmaim, Pharaoh expansion, actual1Kings5:14b, Anassa/Labek, terebinth, cavalry-and-iron, and Benjamin/Judah Jerusalem distinctions. Egla/Hoglah identity remains unresolved."
+    }
+  ],
+  "peer_revisions": {
+    "original_input_file": "joshua-13-18-before-peer.tsv",
+    "original_input_sha256": "f421de816639419e0f40a1196be293d3f57b5bb446bc2ce66c59744cb48d6dd2",
+    "original_author_receipt": "joshua-13-18-before-peer-review.json",
+    "changes": [
+      {
+        "old_row": {
+          "source_reference": "Joshua 16:4",
+          "target": "Genesis 48:5",
+          "relationship": "Joseph's two sons receiving distinct inherited standing",
+          "rationale": "The allotment notice names Ephraim and Manasseh as Joseph's heirs; Jacob had explicitly taken those two as his own like Reuben and Simeon, supplying their particular tribal-family standing."
+        },
+        "new_row": {
+          "source_reference": "Joshua 16:4",
+          "target": "Genesis 48:5",
+          "relationship": "Joseph's two sons receiving distinct inherited standing",
+          "rationale": "The allotment notice names Joseph's sons Ephraim and Manasseh receiving inheritance; Jacob had explicitly taken those two as his own like Reuben and Simeon, supplying their particular tribal-family standing."
+        },
+        "reason": "Name the sons receiving land inheritance without implying inheritance from Joseph estate.",
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "new_pairs_credited": 0,
+    "original_author_receipt_sha256": "64afcfa6117e0aa7f40158dd5ab012232ca106620b9c05cb315856ae20034808"
+  }
+}

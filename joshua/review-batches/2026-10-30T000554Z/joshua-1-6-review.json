@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_1_3 (AI-assisted supplied-English passage curation for Joshua1–6)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T00:17:29.363609+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_verses": 124,
+  "completed_source_verses": 124,
+  "completed_pairs": 129,
+  "distinct_target_verse_units": 149,
+  "chapter_pair_counts": {
+    "1": 20,
+    "2": 27,
+    "3": 17,
+    "4": 24,
+    "5": 15,
+    "6": 26
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read all124 complete actual Joshua1–6 source units in full, using actual chapter5:1–15 and chapter6 keys with no6:4. Read every complete retained target and necessary context in Deuteronomy1/3/4/5/7/11/17/20/31/34, Exodus3/4/12/14/16/19/33, Numbers14/21/25/32, Genesis17, Psalms1, Hebrews11, James2 and1Kings16. Separately displayed and reread all129 full source/target/category/rationale triples in three untruncated groups; separately reread the four clarified final triples before freeze. Same-chapter cases identify particular speech/response, command/execution, repeated formula, contrasting location or narrative dependency. No independent source discovery is credited for those local relations. Preserve actual speakers, differing recipients, numbers, geographical forms, chronology, priestly positions and stated ritual actions. The1Kings16:34 edge rests on its explicit Joshua-word citation and detailed rebuilding correspondences, not an independent equivalence of Ozan/Hiel names.",
+  "pin_method": "Freshly fetched all9 retained raw source-book files at the fixed commit, rehashed every Git blob against existing registries including Joshua, and verified full parsed equality with caches. Rehashed the saved raw files and SHA256 receipts; cache newline differences remain distinguished from byte equality.",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Genesis",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+    },
+    {
+      "book": "Hebrews",
+      "records": "hebrews/verses.json",
+      "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6"
+    },
+    {
+      "book": "James",
+      "records": "james/verses.json",
+      "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    },
+    {
+      "book": "Psalms",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+    }
+  ],
+  "pin_receipt": "joshua-1-6-pins.json",
+  "input_file": "joshua-1-6.tsv",
+  "input_sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+  "final_input_sha256": "4b93a8d80515130cddb028b6bc6958a2d9bc1bc188c37693be579487796fcf66",
+  "source_inventory": "joshua/inventory.json",
+  "inventory_completion_credit": 0,
+  "unresolved_cases": [],
+  "unresolved_candidates": [],
+  "author_corrections": {
+    "original_input_file": "joshua-1-6-initial.tsv",
+    "original_input_sha256": "38adfa9ecb2a5d806737aa0d99d0151943aaf3086d1c3c763eba7aa80120f6ac",
+    "changes": [
+      {
+        "source_reference": "Joshua 1:14",
+        "old_row": {
+          "source_reference": "Joshua 1:14",
+          "target": "Deuteronomy 3:18-19",
+          "relationship": "Eastern households remain while equipped men cross",
+          "rationale": "Both distinguish wives, children and livestock remaining in the given towns from able men crossing armed before their brothers, retaining the particular household and military arrangement."
+        },
+        "new_row": {
+          "source_reference": "Joshua 1:14",
+          "target": "Deuteronomy 3:18-19",
+          "relationship": "Eastern households remain while equipped men cross",
+          "rationale": "Both distinguish wives, children and livestock remaining in the given possession from able men crossing armed before their brothers; Deuteronomy specifically names their cities, while Joshua says the given land."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "Joshua 2:17",
+        "old_row": {
+          "source_reference": "Joshua 2:17",
+          "target": "Joshua 2:18-20",
+          "relationship": "Same-chapter oath-release declaration and following conditions",
+          "rationale": "The declaration of freedom from the oath is followed by scarlet-window and household arrangements and the disclosure condition; the actual formulations are retained without recasting the oath as already canceled."
+        },
+        "new_row": {
+          "source_reference": "Joshua 2:17",
+          "target": "Joshua 2:18-20",
+          "relationship": "Same-chapter oath-release declaration and following conditions",
+          "rationale": "The declaration of freedom from the oath is followed by the scarlet-window sign and gathered-household protection, with oath freedom repeated for departure from the house or disclosure."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "Joshua 6:9",
+        "old_row": {
+          "source_reference": "Joshua 6:9",
+          "target": "Joshua 6:7-8",
+          "relationship": "Same-chapter front and rear roles develop the preceding orders",
+          "rationale": "The fighting-men front and priestly rear-guard instruction develops the preceding directions about armed men, seven trumpet priests and the ark; distinct positions are not collapsed into a single priestly group."
+        },
+        "new_row": {
+          "source_reference": "Joshua 6:9",
+          "target": "Joshua 6:7-8",
+          "relationship": "Same-chapter front and rear roles develop the preceding orders",
+          "rationale": "Fighting men in front and priests behind the ark are specified after directions naming armed men, seven trumpet priests and the ark; the descriptions of position are retained separately."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "Joshua 6:15",
+        "old_row": {
+          "source_reference": "Joshua 6:15",
+          "target": "Joshua 6:16",
+          "relationship": "Same-chapter sixth circuit notice followed by seventh-circuit signal",
+          "rationale": "The seventh-day dawn notice says they went around six times; the following unit places trumpet sound and Joshua's shout command on the seventh circuit, retaining both statements."
+        },
+        "new_row": {
+          "source_reference": "Joshua 6:15",
+          "target": "Joshua 6:16",
+          "relationship": "Same-chapter six circuits followed by seventh-circuit signal",
+          "rationale": "The seventh-day dawn notice says they went around six times; the following unit places trumpet sound and Joshua's shout command on the seventh circuit, retaining both statements."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "reason": "Distinguish Joshua given land from Deuteronomy cities, narrow the oath-clause relation, retain procession position descriptions separately, and state six circuits rather than a sixth-circuit notice. No target or count changes.",
+    "new_source_verses_credited": 0,
+    "new_pairs_credited": 0
+  },
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Equate Ozan of Bethel with Hiel the Bethelite independently or insert the name Segub into Joshua6:26.",
+      "reason": "The retained textual cross-reference records Kings explicit Joshua-word attribution and the shared Jericho, Abiram, foundation and gates particulars, while preserving the different supplied personal names and youngest-son description. Independent name equivalence is not claimed or counted."
+    },
+    {
+      "proposed_claim": "Import Joshua5:16, Joshua6:4, familiar Adam/Zarethan water geography, a house-in-city-wall clause, standard forty-year/circumcision readings or seven circuits directly into6:15.",
+      "reason": "Only the supplied actual units and wording are retained; none of these imported substitutions receives completion credit."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "Joshua1-2",
+      "note": "Keep the eastern-tribe respondents distinct from all Israel and preserve the two-versus-twelve scouting missions. At2:14 the men give the life pledge and Rahab speaks the subsequent mercy-and-faithfulness words. At2:15 the complete supplied unit is only the lowering through a window;2:21 does not itself narrate tying the scarlet cord. The oath clauses are retained as written, with no inserted actor for anyone at2:20."
+    },
+    {
+      "reference": "Joshua3-4",
+      "note": "Preserve two thousand cubits, Kiriath-jearim at3:16, stones before them at4:11, the separate twelve stones in Jordan and those at Gilgal, forty thousand equipped men without importing a census, and the first-month tenth-day arrival. No modern map, precise sightline, calendar synchronization or physical explanation is independently verified."
+    },
+    {
+      "reference": "Joshua5",
+      "note": "The actual chapter ends at5:15. Preserve forty-two years in Madbaritis and the stated uncircumcised populations, Phoenician-country harvest and manna endpoint, and the drawn-sword figure identified only by his supplied chief-captain title."
+    },
+    {
+      "reference": "Joshua6",
+      "note": "No6:4 source unit exists. Preserve the second-day wording6:12, different procession positions, six circuits at6:15 followed by the seventh circuit6:16, the metals exception, Rahab household rescue, Achar at7:1, and the Ozan/unnamed-youngest form in6:26 versus Hiel/Segub in the explicit Kings citation. Do not silently repair differences or infer independent personal-name equivalence."
+    }
+  ]
+}
