@@ -1,0 +1,62 @@
+{
+  "reviewer": "Independent Codex AI peer /root/macc13_16_author",
+  "reviewed": "2026-10-30",
+  "run_id": "2026-10-30T205609Z",
+  "base_commit": "afc2c02e1dbb1976771f3c61ced221eb6033b7f5",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "input_file": "psalms-89-101-peer-input.tsv",
+  "input_sha256": "debd885edd1d6ad4c9e935202cb3ffd480f51ac21d06fdf62a92f37f789e532c",
+  "author_receipt_file": "psalms-89-101-peer-author-input.json",
+  "author_receipt_sha256": "c22dd06d3cf910abead36c68cb601e6cb34e3f3db99e01bce2e324abcfdbf974",
+  "reading_receipt_file": "psalms-89-101-peer-provisional-reading.json",
+  "reading_receipt_sha256": "a27b7ff83c4ba4a4c28961f24bc13465bb26ea114183065d1be2098d6adb6e42",
+  "accepted_for_integration": false,
+  "findings": [
+    {
+      "pair_number": 108,
+      "old_row": {
+        "source_reference": "Psalms 98:1",
+        "target": "1 Samuel 4:4",
+        "relationship": "The Lord seated upon the cherubim",
+        "rationale": "Psalm 98 describes the reigning Lord seated upon the cherubim. Samuel uses the same throne description when the Lord's ark is carried from Shiloh. The shared divine title does not identify the psalm with that battle or endorse the Israelites' expectation that bringing the ark guarantees victory."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 98:1",
+        "target": "1 Samuel 4:4",
+        "relationship": "The Lord seated upon the cherubim",
+        "rationale": "Psalm 98 describes the reigning Lord seated upon the cherubim. The account in 1 Samuel uses the same throne description when the Lord's ark is carried from Shiloh. The shared divine title does not identify the psalm with that battle or endorse the Israelites' expectation that bringing the ark guarantees victory."
+      },
+      "reason": "Bare Samuel uses can attribute the narrative to the person Samuel. Explicitly name the account in 1 Samuel. The divine cherubim-throne comparison itself is supported."
+    }
+  ],
+  "retained_pair_removals_requested": 0,
+  "source_deferral_changes_requested": 0,
+  "candidate_changes_requested": 0,
+  "expected_final_counts": {
+    "pairs": 153,
+    "supported_sources": 148,
+    "source_units_read": 173,
+    "distinct_retained_target_units": 224,
+    "source_deferrals": 25,
+    "read_candidates": 9
+  },
+  "limited_image_match_assessed": {
+    "source": "Psalms 101:7",
+    "target": "Isaiah 34:10-11",
+    "conclusion": "Supported as the stated bird and wilderness or deserted-land image comparison. Neither exact species nor historical identity is asserted; the source house site is not equated with the target deserted land."
+  },
+  "history_checks": {
+    "exact_retained_stage": true,
+    "exact_ten_case_changes": true,
+    "frozen_author_file_bindings": true,
+    "author_and_29_own_peer_pins": true,
+    "source_partition": true
+  },
+  "unavailable_reference_hints": {
+    "count": 3,
+    "actual_target_bodies_read": false,
+    "completion_credit": 0,
+    "read_candidate_credit": 0,
+    "transitively_bound_in_author_attestation": true
+  }
+}

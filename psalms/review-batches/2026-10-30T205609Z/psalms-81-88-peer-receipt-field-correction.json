@@ -1,0 +1,35 @@
+{
+  "run_id": "2026-10-30T205609Z",
+  "base_commit": "afc2c02e1dbb1976771f3c61ced221eb6033b7f5",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex technical adapter /root/macc13_16_author, authorized by ROOT",
+  "completion_credit": 0,
+  "reason": "The completion attestation is a dictionary, not a pin-list document. Rename only its two binding keys; all semantic receipt content and source/target counts are unchanged.",
+  "renamed_fields": [
+    {
+      "old_key": "pin_completion_file",
+      "new_key": "acquisition_completion_attestation_file"
+    },
+    {
+      "old_key": "pin_completion_sha256",
+      "new_key": "acquisition_completion_attestation_sha256"
+    }
+  ],
+  "historical_field_views": [
+    {
+      "before_file": "psalms-81-88-peer-review-before-attestation-field-rename.json",
+      "before_sha256": "0238018f7186ac32da4c7714fbed10f112ab5cc914f4abd466f9ca70f242b1cd",
+      "after_file": "psalms-81-88-peer-review.json",
+      "after_sha256": "10ea25abf82608245b34551e3b6f5845654a3ff9a1e6d4c2c157b380ef667d2e",
+      "current_receipt_changed": true
+    },
+    {
+      "before_file": "psalms-81-88-root-peer-provisional-review.json",
+      "before_sha256": "56f85f93c299cd5b4d1e743607614bd487d538126b6a6885c85962a82925bc24",
+      "after_file": "psalms-81-88-root-peer-provisional-attestation-field-view.json",
+      "after_sha256": "926bca6fada9c9eba21323a2a3ba541a41f897821c6a8d30f40c1d394522ded4",
+      "current_receipt_changed": false
+    }
+  ],
+  "pin_validator_unchanged": true
+}

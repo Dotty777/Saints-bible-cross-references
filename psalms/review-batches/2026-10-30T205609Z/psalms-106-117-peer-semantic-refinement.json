@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI author /root",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "run_id": "2026-10-30T205609Z",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "new_completion_credit": 0,
+  "requires_separate_final_triple_reread": false,
+  "all_changed_complete_triples_reread": true,
+  "before_file": "psalms-106-117-peer-input.tsv",
+  "before_sha256": "6dbd43687428bf18ba803f9c5634aad0ed9b773b453308bc4440eb5bc9c0cba8",
+  "after_file": "psalms-106-117-post-peer-semantics.tsv",
+  "after_sha256": "3235ef2a1ea71db2ad914fb7ca6595a524d0d02104052d8397e8d1b36e35be95",
+  "changes": [
+    {
+      "original_pair": 32,
+      "old_row": {
+        "source_reference": "Psalms 106:31",
+        "target": "Psalms 104:1-2",
+        "relationship": "Public thanksgiving for God's wonders",
+        "rationale": "Both call people to thank the Lord and tell His wonders. The psalm's final sea-rescue refrain corresponds to Psalm104's explicit summons to announce God's works among nations and recount His wonders."
+      },
+      "new_row": {
+        "source_reference": "Psalms 106:31",
+        "target": "Psalms 104:1-2",
+        "relationship": "Thanksgiving for God's wonders",
+        "rationale": "The psalm calls for acknowledgment to the Lord of His mercies and His wonders to human beings. Psalm 104 joins thanksgiving with announcing God's works among nations and recounting His wonders. The shared connection is thanksgiving and wonders; the source is not rewritten as an express command to tell them."
+      },
+      "reason": "Acknowledgment of wonders is not expanded into an express command to tell them."
+    },
+    {
+      "original_pair": 42,
+      "old_row": {
+        "source_reference": "Psalms 106:41",
+        "target": "Ezekiel 36:37-38",
+        "relationship": "Human families multiplied like sheep",
+        "rationale": "The psalm pictures families as sheep after help for the poor. Ezekiel uses the human-flock image explicitly for multiplication and the filling of deserted cities, supplying a particular parallel to the pastoral image without inserting the verb multiply into the source unit."
+      },
+      "new_row": {
+        "source_reference": "Psalms 106:41",
+        "target": "Ezekiel 36:37-38",
+        "relationship": "Human families pictured as sheep",
+        "rationale": "The psalm pictures families as sheep after help for the poor. Ezekiel uses the human-flock image explicitly for multiplication and the filling of deserted cities, supplying a particular parallel to the pastoral image without inserting the verb multiply into the source unit."
+      },
+      "reason": "The category must preserve the source without inserting multiplication."
+    },
+    {
+      "original_pair": 43,
+      "old_row": {
+        "source_reference": "Psalms 106:42",
+        "target": "Job 22:19",
+        "relationship": "The righteous see judgment and rejoice",
+        "rationale": "The upright see and rejoice in the psalm. Eliphaz describes the righteous seeing and laughing at the overthrow of the unjust; the resemblance concerns their response, and his speech is not treated as a new divine pronouncement about Job."
+      },
+      "new_row": {
+        "source_reference": "Psalms 106:42",
+        "target": "Job 22:19",
+        "relationship": "The righteous see and rejoice or laugh",
+        "rationale": "The upright see and rejoice in the psalm. Eliphaz describes the righteous seeing and laughing at the overthrow of the unjust; the resemblance concerns their response, and his speech is not treated as a new divine pronouncement about Job."
+      },
+      "reason": "The source does not expressly identify what the upright see as judgment, following the help for the poor in verse 41."
+    },
+    {
+      "original_pair": 100,
+      "old_row": {
+        "source_reference": "Psalms 109:5",
+        "target": "Psalms 2:10-12",
+        "relationship": "Kings confronted by the Lord's anger",
+        "rationale": "The crushing of kings on the day of anger corresponds to Psalm2's warning that kings should learn and serve the Lord lest His anger bring their destruction. The warning and the described judgment retain their distinct forms."
+      },
+      "new_row": {
+        "source_reference": "Psalms 109:5",
+        "target": "Psalms 2:10-12",
+        "relationship": "Kings confronted by the Lord's anger",
+        "rationale": "The crushing of kings on the day of anger corresponds to Psalm 2's instruction to kings to learn and serve the Lord, lest He become angry and they perish from a righteous way. The shared kings-and-divine-anger connection preserves that target wording alongside the source's explicit crushing of kings."
+      },
+      "reason": "Preserve Psalm 2's particular perish-from-a-righteous-way expression instead of replacing it with an unqualified destruction paraphrase."
+    },
+    {
+      "original_pair": 64,
+      "old_row": {
+        "source_reference": "Psalms 108:7",
+        "target": "Psalms 65:18",
+        "relationship": "Prayer and wrongdoing",
+        "rationale": "The imprecation asks that the judged person's prayer become sin. Psalm65 conditionally asks that the Lord not hear if the speaker regards injustice in his heart; both connect a negative outcome for prayer with wrongdoing, while retaining their different speakers and forms of petition."
+      },
+      "reason": "The source asks that the judged person's prayer become sin. Psalm 65:18 conditionally asks that the Lord not hear if the speaker was regarding injustice in his heart. These different relationships between wrongdoing and prayer leave only a broad association, not a sufficiently particular supported comparison.",
+      "new_row": null
+    }
+  ],
+  "pairs_before": 216,
+  "pairs_after": 215,
+  "all_rationales_reread_against_both_passages": true,
+  "checked_at_utc": "2026-10-30T22:00:23.548852+00:00"
+}
