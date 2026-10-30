@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex independent AI passage reviewer /root/macc13_16_author (GPT-6)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T20:23:46.224556+00:00",
+  "run_id": "2026-10-30T193838Z",
+  "base_commit": "387a4a7e805ef0b9170f8dee32ce75aa7479fa63",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_units_independently_read": 155,
+  "complete_frozen_triples_independently_read": 118,
+  "source_reason_cases_independently_read": 38,
+  "candidate_complete_triples_independently_read": 8,
+  "original_author_changed_before_triples_independently_read": 26,
+  "initial_external_context_units_independently_read": 614,
+  "additional_complete_chapter_read": "Psalms 7",
+  "input_file": "psalms-51-62-peer-provisional-input.tsv",
+  "input_sha256": "b99dc7e153a3f4cee595ddcae14e1caf5e3dfe6f65af96d4ba1091bb66274c69",
+  "author_receipt_file": "psalms-51-62-peer-author-original-review.json",
+  "author_receipt_sha256": "87c99fb1f40a5e293d457d32ea0a5227049134591498971386a4a3621e9b3474",
+  "cases_file": "psalms-51-62-peer-provisional-cases.json",
+  "cases_sha256": "88f2c00f915090d0152a49e50c753fcc78770ab7c1444b72a2c8f620560664f0",
+  "required_changes": [
+    {
+      "pair_number": 69,
+      "old_row": {
+        "source_reference": "Psalms 58:4",
+        "target": "Psalms 7:4-6",
+        "relationship": "Innocence and pursuit of the soul",
+        "rationale": "The source protests that the pursuit of his soul is not for his lawlessness or sin. Psalm 7 conditionally submits to enemy pursuit of the soul if injustice or wrongful repayment is found in him. Both relate the justice of pursuit to the speaker's conduct, without making the conditional oath an unconditional confession."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 58:4",
+        "target": "Psalms 7:4-6",
+        "relationship": "Innocence and pursuit of the soul",
+        "rationale": "The source protests that the pursuit of his soul is not for his lawlessness or sin. Psalm 7 places injustice in the speaker's hands and repayment to those who repay him evils within a conditional oath leading to enemy pursuit of his soul. Both relate pursuit to the speaker's conduct; Psalm 7:5 does not expressly supply the object of his repayment."
+      },
+      "reason": "Preserve the target's conditional repayment clause and its unexpressed object rather than adding the characterization wrongful repayment.",
+      "complete_source_target_and_context_independently_read": true
+    },
+    {
+      "pair_number": 113,
+      "old_row": {
+        "source_reference": "Psalms 62:7",
+        "target": "Psalms 118:148",
+        "relationship": "Early meditation following remembrance on the bed",
+        "rationale": "The source conditionally speaks of remembrance on the bed and meditation on God at dawn. Psalm 118 describes eyes awake before dawn to meditate on His sayings. The connection preserves the condition, the different timing and the distinction between God and His sayings as meditation's object."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 62:7",
+        "target": "Psalms 118:148",
+        "relationship": "Remembrance on the bed and dawn meditation",
+        "rationale": "The source conditionally speaks of remembrance on the bed and meditation on God at dawn. Psalm 118 describes eyes awake before dawn to meditate on His sayings. The connection preserves the condition, the different timing and the distinction between God and His sayings as meditation's object."
+      },
+      "reason": "The category's following adds a sequence not expressly established by the conditional source wording. The existing rationale already preserves the condition and distinct timing accurately.",
+      "complete_source_target_and_context_independently_read": true
+    }
+  ],
+  "retained_membership_changes": [],
+  "source_case_changes": [],
+  "candidate_changes": [],
+  "case_disposition": "All38 precise source-only deferrals and all8 unresolved candidate triples are supported as zero-credit pending cases.",
+  "accepted_for_integration": false,
+  "completed_source_credit_added_by_peer": 0,
+  "completed_pair_credit_added_by_peer": 0
+}

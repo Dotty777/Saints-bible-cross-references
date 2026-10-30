@@ -1,0 +1,157 @@
+{
+  "reviewer": "Independent Codex AI peer /root/macc9_12_peer; author is /root",
+  "run_id": "2026-10-30T193838Z",
+  "base_commit": "387a4a7e805ef0b9170f8dee32ce75aa7479fa63",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "source_book": "Psalms",
+  "source_chapters": [
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "original_input_file": "psalms-72-80-peer-provisional-input.tsv",
+  "original_input_sha256": "71dd2b393c140f3f30a0aecc73a0507924ad39d063c51f91d03aa3ca33394470",
+  "original_case_file": "psalms-72-80-peer-provisional-cases.json",
+  "original_case_sha256": "b91b341cbfa787ff0b1272d855f81d353172e9a0cdaa9ea346dafd0d4b0d4d29",
+  "source_units_personally_read": 218,
+  "original_complete_triples_personally_read": 207,
+  "original_source_deferrals_personally_read": 23,
+  "original_target_candidates_personally_read": 7,
+  "own_fresh_raw_header_books_verified": 33,
+  "peer_pin_receipt": "psalms-72-80-peer-pins.json",
+  "peer_pin_receipt_sha256": "4912a6a86366d901c34fe0739936ce293c03b760370549fe6198448c30050b01",
+  "required_additional_changes": [
+    {
+      "action": "refine",
+      "reason": "Formerly does not state first.",
+      "old_row": {
+        "source_reference": "Psalms 77:60",
+        "target": "Jeremiah 7:12",
+        "relationship": "Abandonment of Shiloh",
+        "rationale": "The rejection of the tent at Shiloh corresponds to God's instruction to consider what He did to Shiloh, where His name had first dwelt, because of Israel's evil."
+      },
+      "new_row": {
+        "source_reference": "Psalms 77:60",
+        "target": "Jeremiah 7:12",
+        "relationship": "Abandonment of Shiloh",
+        "rationale": "The rejection of the tent at Shiloh corresponds to God's instruction to consider what He did to Shiloh, where His name had formerly dwelt, because of Israel's evil."
+      }
+    },
+    {
+      "action": "refine",
+      "reason": "Do not place departure from Egypt after expulsion of nations.",
+      "old_row": {
+        "source_reference": "Psalms 79:9",
+        "target": "Psalms 43:3",
+        "relationship": "Nations displaced and a people planted",
+        "rationale": "The vine transplanted from Egypt after nations are cast out corresponds to Psalm43's statement that God's hand destroyed nations and planted the ancestors. The planting metaphor carries the people's settlement in both."
+      },
+      "new_row": {
+        "source_reference": "Psalms 79:9",
+        "target": "Psalms 43:3",
+        "relationship": "Nations displaced and a people planted",
+        "rationale": "Both combine God casting out nations with planting His people: Psalm79 pictures a vine transplanted from Egypt, while Psalm43 names the ancestors. The planting metaphor describes the people's settlement without inserting an extra chronology between the acts."
+      }
+    },
+    {
+      "action": "refine",
+      "reason": "For Asaph does not by itself establish authorship.",
+      "old_row": {
+        "source_reference": "Psalms 80:1",
+        "target": "Psalms 8:1",
+        "relationship": "Specific winepress heading",
+        "rationale": "Both headings give the direction For the end, concerning the winepresses. Their named authors differ, and the heading's musical or historical meaning is not inferred."
+      },
+      "new_row": {
+        "source_reference": "Psalms 80:1",
+        "target": "Psalms 8:1",
+        "relationship": "Specific winepress heading",
+        "rationale": "Both headings give the direction For the end, concerning the winepresses. One names Asaph with for, and the other names David with of. The correspondence does not decide authorship from for Asaph or infer the heading's musical or historical meaning."
+      }
+    },
+    {
+      "action": "remove",
+      "old_row": {
+        "source_reference": "Psalms 74:5",
+        "target": "1 Samuel 2:3",
+        "relationship": "Warning against boastful elevation",
+        "rationale": "The warning against lawlessness and raising a horn corresponds to Hannah's warning not to boast or speak loftily. Each opposes self-exaltation in the setting of God's power to reverse human standing."
+      },
+      "new_row": null,
+      "reason": "The source prohibits lawlessness and raising a horn, while the proposed target prohibits boastful or lofty speech. After reading Psalms74 and1Samuel2:1-10 in full, the shared general opposition to self-exaltation is not sufficiently particular for this unit. Psalms74:6 has the distinct explicit speech comparison; it does not confer credit on74:5.",
+      "proposed_source_deferral": {
+        "source_reference": "Psalms 74:5",
+        "target": null,
+        "reason": "The source prohibits lawlessness and raising a horn, while the proposed target prohibits boastful or lofty speech. After reading Psalms74 and1Samuel2:1-10 in full, the shared general opposition to self-exaltation is not sufficiently particular for this unit. Psalms74:6 has the distinct explicit speech comparison; it does not confer credit on74:5.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0
+      },
+      "proposed_target_candidate": {
+        "source_reference": "Psalms 74:5",
+        "target": "1 Samuel 2:3",
+        "reason": "The source prohibits lawlessness and raising a horn, while the proposed target prohibits boastful or lofty speech. After reading Psalms74 and1Samuel2:1-10 in full, the shared general opposition to self-exaltation is not sufficiently particular for this unit. Psalms74:6 has the distinct explicit speech comparison; it does not confer credit on74:5.",
+        "source_and_target_text_read": true,
+        "necessary_context_read": true,
+        "retained": false,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0
+      }
+    }
+  ],
+  "additional_supported_match_proposal": {
+    "action": "supported_addition_proposal",
+    "old_row": null,
+    "new_row": {
+      "source_reference": "Psalms 80:16",
+      "target": "Psalms 65:3",
+      "relationship": "Enemies lying to God",
+      "rationale": "Both explicitly describe the Lord's enemies lying to Him. Psalm65 addresses God directly and associates the lying with His abundant power; Psalm80 states it in the third person. The source's appointed-time clause remains distinct and is not interpreted through this comparison."
+    },
+    "source_and_target_complete_units_personally_read": true,
+    "necessary_context_personally_read": [
+      "Psalms 65",
+      "Psalms 80"
+    ],
+    "reason": "The same explicit enemy-lying-to-God formulation supplies a particular relationship without replacing lying with a conventional cringing paraphrase or resolving appointed time.",
+    "prior_current_packet_deferral": {
+      "source_reference": "Psalms 80:16",
+      "target": null,
+      "reason": "The enemies lied to the Lord and their appointed time is for ever. A conventional cringing-enemies rendering is not substituted, and the duration and referents remain unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  },
+  "earlier_findings_transmitted_to_author": [
+    "72:8 height cannot be identified as Most High; remove into pending cases.",
+    "Malachi3:15 outsiders called blessed differs from lawbreakers built up.",
+    "76:1 concerning Jeduthun does not establish a recipient role.",
+    "77:1 my law and my mouth do not establish God as direct speaker.",
+    "77:4 is a declaration of transmission/present announcement, not expressly a promise.",
+    "77:18 food for souls must not be silently rewritten as food for cravings.",
+    "2Kings7:2 should not acquire an absent even-if conditional.",
+    "Numbers11:32 gathered and cooled differs from spread.",
+    "77:36 deceived, not love;77:39 spirit preserved and102:14 imperative Remember.",
+    "77:64 widows not wept for differs from unweeping widows.",
+    "77:71 ewes giving birth differs from nursing;2Sam7:8 has no following-the-flock clause.",
+    "78:2/Macc7:17 quotation pours out flesh;78:11 category must retain sons of those put to death.",
+    "79:1/59:1 different for/concerning and yet heading wording.",
+    "79:5 servant singular;79:6 tears by measure, not abundant;79:19/84:7 affirmations, not questions.",
+    "Jeremiah7:13 does not itself say repeatedly."
+  ],
+  "accepted_for_integration": false,
+  "remaining_peer_work": "Complete additional target-context review; independently reread every final corrected/added complete triple, all changed cases and exact preserved history; bind final author and TSV hashes only afterward.",
+  "snapshot_note": "A concurrent intermediate-snapshot attempt encountered author mutation and stopped before writing this findings document. The findings bind only the immutable original207-row peer snapshot and its case bundle, not the intermediate mutable state.",
+  "completion_credit": 0
+}
