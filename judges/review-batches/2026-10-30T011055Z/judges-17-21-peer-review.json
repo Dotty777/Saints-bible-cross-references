@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_4_6 (independent AI-assisted supplied-English peer for Judges17–21)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T01:44:38.926676+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "input_file": "judges-17-21.tsv",
+  "input_sha256": "f153e03a5250f64e8b488de199085b98a44b00bd79be1d322bd9464532351f30",
+  "author_receipt": "judges-17-21-review.json",
+  "author_receipt_sha256": "2140c42673759112e111a19df6aacf9e1748050a79ffec12687f07c5062a5e71",
+  "source_chapters": [
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "source_verses": 147,
+  "reviewed_source_verses": 147,
+  "reviewed_pairs": 151,
+  "retained_pairs": 151,
+  "distinct_target_verse_units": 152,
+  "chapter_pair_counts": {
+    "17": 14,
+    "18": 32,
+    "19": 31,
+    "20": 49,
+    "21": 25
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "accepted_for_integration": true,
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": [],
+  "review_method": "Read all147 actual source units in full, then read all151 complete source/target/category/rationale triples in five untruncated slices. Read necessary full Genesis19:1-11;Deuteronomy12:1-11,17:2-7,22:23-27 and27:11-16;1Samuel11:1-8;Numbers31:13-18;Exodus2:21-22 and18:1-5;Joshua8:1-22 and19:40-48a, with all other retained actual passages. Checked named actors, distinct image and priest appointments, Dan inheritance statements, Moses/Gershom genealogy, angry separation rather than imported adultery, the narrator versus Levite testimony, explicit death before cutting, both-handed slingers, three battle days, separate casualty totals, completed versus attempted acts, two offering wordings, oaths and proposals versus divine speech, four hundred women and six hundred survivors without an unstated shortage calculation, and supplied Lebanon/Lebona forms. Requested three refinements to distinguish weeping during and after the conflict and to say building cities rather than identifying rebuilt sites. Separately displayed and reread all three final changed triples; verified the original frozen TSV/receipt, exact three-row peer delta and thirteen original pre-freeze refinements. The Laish/Dan versus Joshua19:48 episode-identity candidate remains excluded with zero credit. No independent human, original-language, apparatus, map or archaeological verification is claimed.",
+  "technical_checks": "All147 actual inventory source units covered. All151 directed pairs unique, within the Saints70 canon and not self-inclusive. All152 target units resolve in source order. Every same-chapter relation has an explicit label. Final TSV and author-receipt hashes, original snapshots and exact thirteen-plus-three correction history verified.",
+  "pin_method": "Independent fresh fetch of all eight retained source-book raw records at the pinned commit. Rehashed exact Git blobs against existing registries and author metadata, compared complete raw bytes with author snapshots, and verified complete parsed cache equality.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Genesis",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Judges",
+      "records": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    }
+  ],
+  "pin_receipt": "judges-17-21-peer-pins.json",
+  "pin_receipt_sha256": "c2aafdea39d61106e75ae20035316fb4c12bdd7c13fe270540559cc04c08dc82",
+  "resolved_author_refinements": [
+    {
+      "source_reference": "Judges 17:5",
+      "old_row": {
+        "source_reference": "Judges 17:5",
+        "target": "Judges 8:27",
+        "relationship": "Household ephods in related accounts with different assessments",
+        "rationale": "Micah's sanctuary contains an ephod and teraphim and has his son as priest; the earlier Gideon account expressly calls its ephod a stumbling block to Gideon and his household. The two ephods are not identified as one object."
+      },
+      "new_row": {
+        "source_reference": "Judges 17:5",
+        "target": "Judges 8:27",
+        "relationship": "Ephods and household consequences in related accounts",
+        "rationale": "Micah's sanctuary contains an ephod and teraphim and has his son as priest; the earlier Gideon account expressly calls its ephod a stumbling block to Gideon and his household. The two ephods are not identified as one object."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 18:20",
+      "old_row": {
+        "source_reference": "Judges 18:20",
+        "target": "Judges 18:19",
+        "relationship": "Same-chapter pleased response and departure follow the tribal offer",
+        "rationale": "After the invitation to become the tribe's father and priest, the priest is glad, takes the listed objects and joins the people, narrating his response without declaring the choice righteous."
+      },
+      "new_row": {
+        "source_reference": "Judges 18:20",
+        "target": "Judges 18:19",
+        "relationship": "Same-chapter pleased response and joining the people follow the tribal offer",
+        "rationale": "After the invitation to become the tribe's father and priest, the priest is glad, takes the listed objects and joins the people, narrating his response without declaring the choice righteous."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 19:10",
+      "old_row": {
+        "source_reference": "Judges 19:10",
+        "target": "Joshua 15:63",
+        "relationship": "Jebus-Jerusalem and the recorded Jebusite residence",
+        "rationale": "The traveler reaches Jebus, expressly identified as Jerusalem; Joshua describes Jebusites living in Jerusalem whom Judah could not destroy. The related residence notice is retained without supplying an unrecorded conquest chronology."
+      },
+      "new_row": {
+        "source_reference": "Judges 19:10",
+        "target": "Joshua 15:63",
+        "relationship": "Jebus-Jerusalem and the recorded Jebusite residence",
+        "rationale": "The traveler comes opposite Jebus, expressly identified as Jerusalem; Joshua describes Jebusites living in Jerusalem whom Judah could not destroy. The related residence notice is retained without supplying an unrecorded conquest chronology."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 19:11",
+      "old_row": {
+        "source_reference": "Judges 19:11",
+        "target": "Judges 19:12",
+        "relationship": "Same-chapter suggested Jebusite lodging rejected by the master",
+        "rationale": "The servant proposes lodging in the Jebusite city because it is late; the master refuses a foreigner's city outside Israel and proposes Gibeah instead."
+      },
+      "new_row": {
+        "source_reference": "Judges 19:11",
+        "target": "Judges 19:12",
+        "relationship": "Same-chapter suggested Jebusite lodging rejected by the master",
+        "rationale": "The servant proposes lodging in the Jebusite city because it is late; the master refuses a foreigner's city that does not belong to the sons of Israel and proposes Gibeah instead."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 19:13",
+      "old_row": {
+        "source_reference": "Judges 19:13",
+        "target": "Judges 19:14",
+        "relationship": "Same-chapter proposed Gibeah-or-Ramah lodging and arrival at Gibeah",
+        "rationale": "The master offers Gibeah or Ramah as places to lodge; the journey then reaches Benjamin's Gibeah as the sun sets, identifying which proposed destination is reached."
+      },
+      "new_row": {
+        "source_reference": "Judges 19:13",
+        "target": "Judges 19:14",
+        "relationship": "Same-chapter proposed Gibeah-or-Ramah lodging and approach to Gibeah",
+        "rationale": "The master offers Gibeah or Ramah for lodging; the following notice places sunset near Benjamin's Gibeah, identifying the party's approach to one proposed destination."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 19:14",
+      "old_row": {
+        "source_reference": "Judges 19:14",
+        "target": "Judges 19:15",
+        "relationship": "Same-chapter sunset arrival and unsuccessful initial search for lodging",
+        "rationale": "The party passes to Gibeah at sunset and turns into that city to lodge, but its initial wait in the square brings no invitation into a house."
+      },
+      "new_row": {
+        "source_reference": "Judges 19:14",
+        "target": "Judges 19:15",
+        "relationship": "Same-chapter sunset approach and unsuccessful initial lodging search",
+        "rationale": "The party comes near Gibeah at sunset and then turns into that city to lodge; its initial wait in the square brings no invitation into a house."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 19:19",
+      "old_row": {
+        "source_reference": "Judges 19:19",
+        "target": "Judges 19:21",
+        "relationship": "Same-chapter available provisions and the host's subsequent hospitality",
+        "rationale": "The traveler says they have fodder, bread and wine and lack nothing; the old man nevertheless brings him inside, feeds the pack animals and shares washing, eating and drinking. No exhaustion of the travelers' provisions is asserted."
+      },
+      "new_row": {
+        "source_reference": "Judges 19:19",
+        "target": "Judges 19:21",
+        "relationship": "Same-chapter available provisions and the host's subsequent hospitality",
+        "rationale": "The traveler says they have fodder, bread and wine and lack nothing; the old man nevertheless brings him inside and supplies fodder, followed by washing, eating and drinking. No exhaustion of the travelers' provisions or additional meal participant is asserted."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 20:11",
+      "old_row": {
+        "source_reference": "Judges 20:11",
+        "target": "Judges 20:1",
+        "relationship": "Same-chapter renewed unity formula recalls the initial assembly",
+        "rationale": "The later gathering as one man repeats the initial congregation's as-one-man description at Mizpah, linking the city's assembled men with the narrated national mobilization."
+      },
+      "new_row": {
+        "source_reference": "Judges 20:11",
+        "target": "Judges 20:1",
+        "relationship": "Same-chapter renewed unity formula recalls the initial assembly",
+        "rationale": "The later gathering as one man repeats the initial congregation's as-one-man description at Mizpah, linking the men gathered from the cities with the narrated national mobilization."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 20:34",
+      "old_row": {
+        "source_reference": "Judges 20:34",
+        "target": "Judges 20:41",
+        "relationship": "Same-chapter unrecognized disaster later expressly perceived by Benjamin",
+        "rationale": "The earlier account says disaster had arrived without being known; the later account expressly names Benjamin seeing that disaster had reached them. The earlier unnamed pronoun is not independently assigned a new speaker."
+      },
+      "new_row": {
+        "source_reference": "Judges 20:34",
+        "target": "Judges 20:41",
+        "relationship": "Same-chapter unrecognized disaster later expressly perceived by Benjamin",
+        "rationale": "The earlier account says disaster had arrived without being known; the later account expressly names Benjamin seeing that disaster had reached them. The earlier unnamed pronoun is not independently assigned a new named subject."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 20:36",
+      "old_row": {
+        "source_reference": "Judges 20:36",
+        "target": "Judges 20:32",
+        "relationship": "Same-chapter retrospective explanation of the deliberate giving of ground",
+        "rationale": "The narrative explains that Israel gave ground because it trusted its ambush, corresponding to its earlier stated plan to flee and draw Benjamin out. The explanation is not treated as a genuine initial rout."
+      },
+      "new_row": {
+        "source_reference": "Judges 20:36",
+        "target": "Judges 20:32",
+        "relationship": "Same-chapter retrospective explanation of the deliberate giving of ground",
+        "rationale": "The narrative explains that Israel gave ground because it trusted its ambush, corresponding to its earlier plan to flee and draw Benjamin out. This concerns the deliberate third-day movement, preserving the earlier days' defeats."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 21:11",
+      "old_row": {
+        "source_reference": "Judges 21:11",
+        "target": "Numbers 31:17-18",
+        "relationship": "Different campaigns distinguish women by the stated male-bed criterion",
+        "rationale": "Both instructions name every male and women who have known a male's bed, while the following preservation concerns those who have not. The Midian campaign and Jabesh-gilead expedition, speakers and circumstances remain distinct."
+      },
+      "new_row": {
+        "source_reference": "Judges 21:11",
+        "target": "Numbers 31:17-18",
+        "relationship": "Different campaigns distinguish women by the stated male-bed criterion",
+        "rationale": "Both give the male-bed criterion for women; Judges says every male, while Numbers specifies males among the dependents. The next preserved females in each account have not known a male's bed. The campaigns and speakers remain distinct."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 21:12",
+      "old_row": {
+        "source_reference": "Judges 21:12",
+        "target": "Judges 21:14",
+        "relationship": "Same-chapter four hundred recovered women are later given to Benjamin",
+        "rationale": "The four hundred young virgins found at Jabesh-gilead are brought to Shiloh; the later account says Benjamin receives women from Jabesh-gilead and is pleased. No missing-wife figure or additional shortage clause is inserted."
+      },
+      "new_row": {
+        "source_reference": "Judges 21:12",
+        "target": "Judges 21:14",
+        "relationship": "Same-chapter four hundred identified women are later given to Benjamin",
+        "rationale": "The four hundred young virgins found at Jabesh-gilead are brought to Shiloh; the later account records giving women from Jabesh-gilead to Benjamin and says this pleased them. No missing-wife figure or specific referent for that final pronoun is supplied."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "Judges 21:17",
+      "old_row": {
+        "source_reference": "Judges 21:17",
+        "target": "Judges 21:23",
+        "relationship": "Same-chapter declaration of preserved inheritance followed by resettlement",
+        "rationale": "The people insist Benjamin's inheritance be preserved and the tribe not blotted out; the later account records return to that inheritance and rebuilding cities, alongside its report of wives being seized."
+      },
+      "new_row": {
+        "source_reference": "Judges 21:17",
+        "target": "Judges 21:23",
+        "relationship": "Same-chapter declaration of preserved inheritance followed by resettlement",
+        "rationale": "The people say an inheritance is preserved for Benjamin and the tribe shall not be blotted out; the later account records return to that inheritance and rebuilding cities, alongside its report of wives being seized."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "resolved_peer_findings": {
+    "original_input_file": "judges-17-21-before-peer.tsv",
+    "original_input_sha256": "2efae18a38feea8e7a68141924d2d04605ac9a0842b73858970b557070644546",
+    "original_author_receipt": "judges-17-21-review-before-peer.json",
+    "original_author_receipt_sha256": "f4732573698eb84143996f1596884926332afa6f0e933a199f9b2f82f45f1459",
+    "changes": [
+      {
+        "source_reference": "Judges 21:2",
+        "old_row": {
+          "source_reference": "Judges 21:2",
+          "target": "Judges 20:26",
+          "relationship": "Repeated corporate weeping before God in the war's aftermath",
+          "rationale": "Both describe the people gathering and weeping before the Lord or God; the earlier notice locates them at Bethel, while the later one names Mizpah and Bethel. These supplied location descriptions remain distinct."
+        },
+        "new_row": {
+          "source_reference": "Judges 21:2",
+          "target": "Judges 20:26",
+          "relationship": "Repeated corporate weeping during and after the conflict",
+          "rationale": "Both describe the people gathering and weeping before the Lord or God; the earlier notice locates them at Bethel, while the later one names Mizpah and Bethel. These supplied location descriptions remain distinct."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "Judges 21:17",
+        "old_row": {
+          "source_reference": "Judges 21:17",
+          "target": "Judges 21:23",
+          "relationship": "Same-chapter declaration of preserved inheritance followed by resettlement",
+          "rationale": "The people say an inheritance is preserved for Benjamin and the tribe shall not be blotted out; the later account records return to that inheritance and rebuilding cities, alongside its report of wives being seized."
+        },
+        "new_row": {
+          "source_reference": "Judges 21:17",
+          "target": "Judges 21:23",
+          "relationship": "Same-chapter declaration of preserved inheritance followed by resettlement",
+          "rationale": "The people say an inheritance is preserved for Benjamin and the tribe shall not be blotted out; the later account records return to that inheritance and building cities, alongside its report of wives being seized."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      },
+      {
+        "source_reference": "Judges 21:23",
+        "old_row": {
+          "source_reference": "Judges 21:23",
+          "target": "Judges 21:20-21",
+          "relationship": "Same-chapter the men act on the vineyard and dancer instructions",
+          "rationale": "The men take wives from dancers as instructed after the vineyard ambush plan. Their return and rebuilding are reported without removing the account's explicit snatching of women."
+        },
+        "new_row": {
+          "source_reference": "Judges 21:23",
+          "target": "Judges 21:20-21",
+          "relationship": "Same-chapter the men act on the vineyard and dancer instructions",
+          "rationale": "The men take wives from dancers as instructed after the vineyard ambush plan. Their return and building cities are reported without removing the account's explicit snatching of women."
+        },
+        "complete_corrected_triple_reread": true,
+        "new_pairs_credited": 0
+      }
+    ],
+    "new_source_verses_credited": 0,
+    "new_pairs_credited": 0
+  },
+  "new_source_verses_credited": 0,
+  "new_pairs_credited": 0,
+  "independent_human_or_language_verification": false
+}
