@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex root (AI-assisted supplied-English curation for 2 Kings8)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T06:46:30.900713+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    8
+  ],
+  "source_verses": 29,
+  "completed_source_verses": 29,
+  "completed_pairs": 29,
+  "distinct_target_verse_units": 38,
+  "chapter_pair_counts": {
+    "8": 29
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "review_method": "Inventory first: the complete pinned2Kings book was inventoried as723 actual units in25 chapters, including1:18a–d, before any new-book source review. Read all103 complete actual units across the separately frozen1–3 and8 packets, every proposed retained target and necessary surrounding context. Separately reread all79 and29 complete source/target/category/rationale triples in bounded displays. A combined middle display clipped79 tokens of1–3pair52; its complete triple was explicitly redisplayed and reread. A coherent author stage preserved the original draft, polished possessive punctuation and preserved the explicit fallen-upon-Elisha phrase in2:13; all stage-one complete triples were reread. A second preserved stage corrected seven complete triples across the two packets: two remaining possessives in1–3 and one in8, the action-only wall-and-slinger ending, causal restraint for the red-water appearance, and unambiguous reporting of Hazael’s succession without reassigning source face pronouns. All seven corrected full triples were separately reread before freeze. Connections retain particular persons, royal notices, repeated words, prophecies with stated outcomes, narrative recaps, meaningful labelled local literary parallels and explicit contrasts. The initial curated pass is not exhaustive discovery, original-language or apparatus work, independent human specialist approval, or a numerical/geographical/legal harmonization.",
+  "pin_method": "Fresh raw fetches of every retained source/target book at the fixed commit, exact Git blob rehash against saved immutable registries, raw SHA256 and complete parsed-cache equality. Recorded byte-newline differences do not change parsed source content. Inventory and technical checks add zero completed reviews.",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "2 Chronicles",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f"
+    },
+    {
+      "book": "2 Kings",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55"
+    }
+  ],
+  "pin_receipt": "2-kings-8-pins.json",
+  "pin_receipt_sha256": "0f3636990777d30498fa6e6ceced5d0448c8073a8c600aafbb8e6747ddea7e90",
+  "input_file": "2-kings-8.tsv",
+  "input_sha256": "8e912a11a7d864fc5359a79e089db10be5ba6710a74ffd277ca254f0baf12ee4",
+  "final_input_sha256": "8e912a11a7d864fc5359a79e089db10be5ba6710a74ffd277ca254f0baf12ee4",
+  "source_inventory": "2-kings/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "2-kings-8-author-draft.tsv",
+  "author_draft_sha256": "e710a5b6c652171ca2e68c29b8ba3f7927496b84232a6d88e67f728b022b356c",
+  "author_refinements_before_freeze": [
+    {
+      "file": "2-kings-8-author-refinements.json",
+      "sha256": "63e7b17a48e1f895e59e09cedfb687d6687b96b823eff7c7d5ad37c8d6f9e916",
+      "changes": [
+        {
+          "pair_number": 9,
+          "source_reference": "2 Kings 8:9",
+          "target": "2 Kings 8:8",
+          "before": {
+            "source_reference": "2 Kings 8:9",
+            "target": "2 Kings 8:8",
+            "relationship": "Same-chapter instruction and reported execution: Hazaels recovery inquiry",
+            "rationale": "Hazael brings the king’s recovery question to Elisha after being directed to inquire through the man of God; his reported load of Damascus goods and forty camels remains additional to the original manaa instruction."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:9",
+            "target": "2 Kings 8:8",
+            "relationship": "Same-chapter instruction and reported execution: Hazael’s recovery inquiry",
+            "rationale": "Hazael brings the king’s recovery question to Elisha after being directed to inquire through the man of God; his reported load of Damascus goods and forty camels remains additional to the original manaa instruction."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 13,
+          "source_reference": "2 Kings 8:13",
+          "target": "1 Kings 19:15",
+          "before": {
+            "source_reference": "2 Kings 8:13",
+            "target": "1 Kings 19:15",
+            "relationship": "Prophetic succession connection: Hazael named for Syrias kingship",
+            "rationale": "Elisha tells Hazael that the Lord has shown him reigning over Syria; the earlier word to Elijah directs the anointing of Hazael as Syria’s king. This links the named kingship without claiming an anointing ceremony is narrated here."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:13",
+            "target": "1 Kings 19:15",
+            "relationship": "Prophetic succession connection: Hazael named for Syria’s kingship",
+            "rationale": "Elisha tells Hazael that the Lord has shown him reigning over Syria; the earlier word to Elijah directs the anointing of Hazael as Syria’s king. This links the named kingship without claiming an anointing ceremony is narrated here."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 17,
+          "source_reference": "2 Kings 8:17",
+          "target": "2 Chronicles 21:5",
+          "before": {
+            "source_reference": "2 Kings 8:17",
+            "target": "2 Chronicles 21:5",
+            "relationship": "Regnal narrative parallel: Jorams accession age and reign length",
+            "rationale": "Both give Joram an accession age of thirty-two and eight years reigning in Jerusalem, matching the stated figures and city rather than importing an additional chronology."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:17",
+            "target": "2 Chronicles 21:5",
+            "relationship": "Regnal narrative parallel: Joram’s accession age and reign length",
+            "rationale": "Both give Joram an accession age of thirty-two and eight years reigning in Jerusalem, matching the stated figures and city rather than importing an additional chronology."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 18,
+          "source_reference": "2 Kings 8:18",
+          "target": "2 Chronicles 21:6",
+          "before": {
+            "source_reference": "2 Kings 8:18",
+            "target": "2 Chronicles 21:6",
+            "relationship": "Regnal narrative parallel: Ahabs daughter and Jorams conduct",
+            "rationale": "Both connect Joram’s marriage to Ahab’s daughter with walking in the way of Israel’s kings and Ahab’s house and doing evil before the Lord; neither passage is changed into an additional maternal genealogy."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:18",
+            "target": "2 Chronicles 21:6",
+            "relationship": "Regnal narrative parallel: Ahab’s daughter and Joram’s conduct",
+            "rationale": "Both connect Joram’s marriage to Ahab’s daughter with walking in the way of Israel’s kings and Ahab’s house and doing evil before the Lord; neither passage is changed into an additional maternal genealogy."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 22,
+          "source_reference": "2 Kings 8:22",
+          "target": "2 Chronicles 21:10",
+          "before": {
+            "source_reference": "2 Kings 8:22",
+            "target": "2 Chronicles 21:10",
+            "relationship": "Historical narrative parallel with preserved place forms: Edoms continuing separation",
+            "rationale": "Both state Edom remains separated from Judah and name an additional rebellion at that time. Kings has Lobena, Chronicles Lomna and an added abandonment-of-the-Lord explanation; the distinct forms and additional explanation remain visible."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:22",
+            "target": "2 Chronicles 21:10",
+            "relationship": "Historical narrative parallel with preserved place forms: Edom’s continuing separation",
+            "rationale": "Both state Edom remains separated from Judah and name an additional rebellion at that time. Kings has Lobena, Chronicles Lomna and an added abandonment-of-the-Lord explanation; the distinct forms and additional explanation remain visible."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 27,
+          "source_reference": "2 Kings 8:27",
+          "target": "2 Chronicles 22:3-4",
+          "before": {
+            "source_reference": "2 Kings 8:27",
+            "target": "2 Chronicles 22:3-4",
+            "relationship": "Regnal assessment parallel: Ahaziahs conduct follows Ahabs house",
+            "rationale": "Kings says Ahaziah walks in Ahab’s house’s way and does evil as that house did; Chronicles repeats that pattern while adding his mother’s and other counselors’ influence, retaining those added explanations in Chronicles."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:27",
+            "target": "2 Chronicles 22:3-4",
+            "relationship": "Regnal assessment parallel: Ahaziah’s conduct follows Ahab’s house",
+            "rationale": "Kings says Ahaziah walks in Ahab’s house’s way and does evil as that house did; Chronicles repeats that pattern while adding his mother’s and other counselors’ influence, retaining those added explanations in Chronicles."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 28,
+          "source_reference": "2 Kings 8:28",
+          "target": "2 Chronicles 22:5",
+          "before": {
+            "source_reference": "2 Kings 8:28",
+            "target": "2 Chronicles 22:5",
+            "relationship": "Historical narrative parallel: allied war against Hazael and Jorams wounds",
+            "rationale": "Both describe Ahaziah joining Joram son of Ahab against Hazael and Joram being struck; Kings names Remmoth-gilead and Syrians, while Chronicles has Rama-galaad and archers. The forms and different actor descriptions remain preserved."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:28",
+            "target": "2 Chronicles 22:5",
+            "relationship": "Historical narrative parallel: allied war against Hazael and Joram’s wounds",
+            "rationale": "Both describe Ahaziah joining Joram son of Ahab against Hazael and Joram being struck; Kings names Remmoth-gilead and Syrians, while Chronicles has Rama-galaad and archers. The forms and different actor descriptions remain preserved."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 29,
+          "source_reference": "2 Kings 8:29",
+          "target": "2 Chronicles 22:6",
+          "before": {
+            "source_reference": "2 Kings 8:29",
+            "target": "2 Chronicles 22:6",
+            "relationship": "Historical narrative parallel: Jorams treatment and Ahaziahs visit",
+            "rationale": "Both place wounded Joram’s return for treatment at Jezreel or Jezrael and Ahaziah son of Joram’s visit because he is ill, retaining the distinct place forms and the two Joram parentages rather than merging the kings."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:29",
+            "target": "2 Chronicles 22:6",
+            "relationship": "Historical narrative parallel: Joram’s treatment and Ahaziah’s visit",
+            "rationale": "Both place wounded Joram’s return for treatment at Jezreel or Jezrael and Ahaziah son of Joram’s visit because he is ill, retaining the distinct place forms and the two Joram parentages rather than merging the kings."
+          },
+          "reason": "Polish possessive punctuation in descriptive labels; at2:13 preserve the explicit fallen-upon-Elisha wording instead of adding fallen-from agency. No pair addition or source alteration.",
+          "complete_corrected_triple_reread": true
+        }
+      ],
+      "new_pairs_credited": 0
+    },
+    {
+      "file": "2-kings-8-author-precision-refinements.json",
+      "sha256": "1ea0275b6096f6de0610e4c140fd9860e70d4ce11c7ae8fcf131b0d64ac8f60d",
+      "changes": [
+        {
+          "pair_number": 10,
+          "source_reference": "2 Kings 8:10",
+          "target": "2 Kings 8:14-15",
+          "before": {
+            "source_reference": "2 Kings 8:10",
+            "target": "2 Kings 8:14-15",
+            "relationship": "Same-chapter oracle report and subsequent death: both clauses remain visible",
+            "rationale": "Elisha gives the You will surely live message and says the Lord has shown certain death; Hazael reports the live clause, while the next-day account ends in death and his succession. The two oracle clauses are not silently harmonized."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:10",
+            "target": "2 Kings 8:14-15",
+            "relationship": "Same-chapter oracle report and subsequent death: both clauses remain visible",
+            "rationale": "Elisha gives the You will surely live message and says the Lord has shown certain death; Hazael reports the live clause, while the next-day account reports death and Hazael becoming king. The two oracle clauses are not silently harmonized."
+          },
+          "reason": "Finish possessive punctuation; distinguish the action-only wall-and-slinger ending, avoid assigning a physical cause to the red-water appearance, and clarify the reported Hazael succession without changing source pronouns. No new pairs.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 15,
+          "source_reference": "2 Kings 8:15",
+          "target": "2 Kings 8:13",
+          "before": {
+            "source_reference": "2 Kings 8:15",
+            "target": "2 Kings 8:13",
+            "relationship": "Same-chapter prediction and royal succession: Hazael becomes king",
+            "rationale": "The next-day wet-machma-and-death notice ends with Hazael becoming king in his place; Elisha had expressly announced seeing Hazael reigning over Syria. The object and face pronouns are preserved rather than independently translated or reassigned."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:15",
+            "target": "2 Kings 8:13",
+            "relationship": "Same-chapter prediction and royal succession: Hazael becomes king",
+            "rationale": "The next-day account reports the machma dipped in water, the death and Hazael becoming king in his place; Elisha had expressly announced seeing Hazael reigning over Syria. The object and face pronouns are preserved rather than independently translated or reassigned."
+          },
+          "reason": "Finish possessive punctuation; distinguish the action-only wall-and-slinger ending, avoid assigning a physical cause to the red-water appearance, and clarify the reported Hazael succession without changing source pronouns. No new pairs.",
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 23,
+          "source_reference": "2 Kings 8:23",
+          "target": "1 Kings 22:46",
+          "before": {
+            "source_reference": "2 Kings 8:23",
+            "target": "1 Kings 22:46",
+            "relationship": "Literary regnal formula: the remaining acts in Judahs royal records",
+            "rationale": "Joram’s closing formula refers his remaining acts to Judah’s royal daily records; Jehoshaphat’s closing formula similarly directs the reader to Judah’s royal annals. These are different kings’ notices, and the unavailable annals are not claimed as read."
+          },
+          "after": {
+            "source_reference": "2 Kings 8:23",
+            "target": "1 Kings 22:46",
+            "relationship": "Literary regnal formula: the remaining acts in Judah’s royal records",
+            "rationale": "Joram’s closing formula refers his remaining acts to Judah’s royal daily records; Jehoshaphat’s closing formula similarly directs the reader to Judah’s royal annals. These are different kings’ notices, and the unavailable annals are not claimed as read."
+          },
+          "reason": "Finish possessive punctuation; distinguish the action-only wall-and-slinger ending, avoid assigning a physical cause to the red-water appearance, and clarify the reported Hazael succession without changing source pronouns. No new pairs.",
+          "complete_corrected_triple_reread": true
+        }
+      ],
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "2 Kings 8:25",
+      "target": "2 Kings 9:29",
+      "status": "pending proposed accession-synchronism harmonization; no chronology credit",
+      "reason": "Both complete actual notices identify Ahaziah becoming king in Judah during Joram of Israel’s reign, but8:25 states the twelfth year and9:29 the eleventh. The retained pair matches only the explicit named succession while retaining both year statements; no independent regnal-calendar or coregency solution is claimed.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Kings 8:26",
+      "target": "2 Chronicles 22:2",
+      "status": "pending proposed accession-age harmonization; no numerical reconciliation credit",
+      "reason": "The complete actual Kings notice says twenty-two years old, while the pinned Saints Chronicles notice says twenty years old, not the forty-two found in other editions. The retained partial pair concerns the explicit one-year Jerusalem reign and mother Athaliah daughter of Omri. The age difference remains unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Infer legal adoption or a numerical miracle quota from double portion; make Luke explicitly name Elijah or narrate the rejected fire; supply a chariot-riding action to Kings; independently translate Appho, noqed, at the rising, manaa or machma; rewrite had reigned as a future heir or great regret as a different emotion; assign ambiguous face pronouns; verify every Hazael atrocity from a general oppression notice; harmonize twenty-two/twenty, twelfth/eleventh or brothers/father; or claim missing royal annals were read.",
+      "reason": "The actual supplied wording and explicit supported connections remain bounded. Such unestablished interpretations and unavailable texts receive no completion credit.",
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "2 Kings1–3;8",
+      "note": "Preserve all723 original units and metadata, including four1:18a–d continuations, and all original anchors. Retain the first failed strike and Appho at2:14, the two-bear/forty-two-small-children wording, repeated but distinct kings,100000 lambs and100000 rams in their fleeces without an annual gloss, made pits versus reported arrival of water, Moab’s mistaken speech rather than actual blood, the firstborn who had reigned and great regret at3:27, the child’s seven bendings rather than imported sneezes in4:35 targets, commanded rather than narrated estate restitution, the dual live/die clauses, unassigned face pronouns and machma, Judah versus David’s house, both place forms and Joram parentages, and the literal three uncredited textual/regnal differences. Source wording is not revised."
+    }
+  ]
+}

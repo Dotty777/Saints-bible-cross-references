@@ -1,6 +1,6 @@
 # Judges — Saints Bible cross-references
 
-Judges 1–21 is complete at the initial curated cross-reference stage: **618 source verses and 634 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: 1 Kings 14:21.
+Judges 1–21 is complete at the initial curated cross-reference stage: **618 source verses and 634 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: 2 Kings 9:1.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,7 +19,7 @@ All 21 chapters and 618 actual units were inventoried from the [pinned Saints-Tr
 
 ## Continuation
 
-This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **1 Kings 14:21**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **2 Kings 9:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
