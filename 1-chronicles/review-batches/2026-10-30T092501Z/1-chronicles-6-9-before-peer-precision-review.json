@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/chron_6_9 (AI author reviewer)",
+  "reviewer_role": "Author personally read all 190 complete actual source units, all proposed retained target passages and necessary context before curation, then separately reread each of the 188 full source/target/category/rationale triples. Inherited metadata reading is not claimed as passage review.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T09:42:54.629761+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "source_verses": 188,
+  "completed_source_verses": 188,
+  "source_units_read": 190,
+  "source_inventory_units_in_scope": 190,
+  "completed_pairs": 188,
+  "chapter_source_counts": {
+    "6": 66,
+    "7": 40,
+    "8": 40,
+    "9": 44
+  },
+  "chapter_completed_source_counts": {
+    "6": 66,
+    "7": 38,
+    "8": 40,
+    "9": 44
+  },
+  "chapter_pair_counts": {
+    "6": 66,
+    "7": 38,
+    "8": 40,
+    "9": 44
+  },
+  "completed_source_chapters": [
+    6,
+    8,
+    9
+  ],
+  "partially_completed_source_chapters": [
+    7
+  ],
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Chronicles 7:12",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source reads Sapphin and Apphin, Raom's sons, and his son Aer. Exact-name searches found these forms only in this unit; no actual-text parent/clan bridge or substantiated equivalence was established. The neighboring Jadiel and Naphtali entries do not establish their identities.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 7:19",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source lists Semira's sons Jaaim, Sychem, Lakei, and Aniam. No explicit parent/clan bridge for Semira was established in the actual pinned texts. Location within a genealogy alone was not used to manufacture a parentage equation or credited parallel.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "distinct_target_verse_units": 159,
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "all_corrected_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "review_method": "Read all complete actual source units in chapters 6\u20139 (66/40/40/44) through passages.py complete_text and INDEX. Read all proposed retained targets and necessary surrounding context before choosing the pairs. Then used show-triples.py for separate full source/target/category/rationale rereads in bounded, unclipped groups of 30, 36, 38, 40, and 44 (188 total). Seven rationale refinements were preserved with coherent before/after files and full deltas, and each corrected complete triple was separately reread before freeze. Context targets use actual grammatical continuations, named father/offspring branches, clan-specific city grants or explicit headed-and-closed enumerations. They are not credited merely because lists contain people. Range targets count as one pair. This is an initial supplied-English curated pass, not exhaustive discovery, original-language or apparatus work, identity harmonization, numerical reconciliation, or independent human specialist approval. Two unsupported source units remain pending with zero completion credit.",
+  "pin_method": "Freshly fetched all five used source/target books at the fixed Saints-Translation commit using the source-check registries from the thirteen already-inventoried books, saved exact raw bytes and SHA256, rehashed their full Git blob SHA1 identities and asserted complete parsed-cache equality. Rechecked the saved raw identities and parsed equality before freeze. Newline normalization and a cache trailing LF are recorded separately; no byte-equality claim is made. No new target book identity was needed outside those existing verified registries. Technical verification adds zero completion credit.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "2 Kings",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Leviticus",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+    }
+  ],
+  "pin_receipt": "1-chronicles-6-9-pins.json",
+  "pin_receipt_sha256": "0f154008688a3333cbe773000a0cdba5252f29fe7a5ca62a31e6b576da1913f3",
+  "input_file": "1-chronicles-6-9.tsv",
+  "input_sha256": "0303808a0ecc18f56d0020e7030b4186485625bb3ae9f78b616334a624c8950a",
+  "final_input_sha256": "0303808a0ecc18f56d0020e7030b4186485625bb3ae9f78b616334a624c8950a",
+  "source_inventory": "1-chronicles/inventory.json",
+  "source_inventory_snapshot": "before-inventory.json",
+  "source_inventory_snapshot_sha256": "649f5af93f2bbacee7682beeb436bbc12e03a710216e8bc720c342059c2bc80d",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-chronicles-6-9-immutable-author-draft.tsv",
+  "author_draft_sha256": "d26589236543cd059a0474b0e5a1863eae4888934e9588733ecb79d4922240d4",
+  "author_refinements_before_freeze": [
+    {
+      "file": "1-chronicles-6-9-refinement.json",
+      "sha256": "dadbd30e7b42ee08a0b4886e2af1574047ed1674e8b87d33f8bafae7899b9bd8",
+      "before_tsv": "1-chronicles-6-9-refinement-before.tsv",
+      "before_sha256": "d26589236543cd059a0474b0e5a1863eae4888934e9588733ecb79d4922240d4",
+      "after_tsv": "1-chronicles-6-9-refinement-after.tsv",
+      "after_sha256": "0303808a0ecc18f56d0020e7030b4186485625bb3ae9f78b616334a624c8950a",
+      "changed_triples": 7,
+      "corrected_triples_separately_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "unresolved_cases": [
+    {
+      "source_reference": "1 Chronicles 7:12",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source reads Sapphin and Apphin, Raom's sons, and his son Aer. Exact-name searches found these forms only in this unit; no actual-text parent/clan bridge or substantiated equivalence was established. The neighboring Jadiel and Naphtali entries do not establish their identities.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 7:19",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source lists Semira's sons Jaaim, Sychem, Lakei, and Aniam. No explicit parent/clan bridge for Semira was established in the actual pinned texts. Location within a genealogy alone was not used to manufacture a parentage equation or credited parallel.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Chronicles 7:12",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source reads Sapphin and Apphin, Raom's sons, and his son Aer. Exact-name searches found these forms only in this unit; no actual-text parent/clan bridge or substantiated equivalence was established. The neighboring Jadiel and Naphtali entries do not establish their identities.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 7:19",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source lists Semira's sons Jaaim, Sychem, Lakei, and Aniam. No explicit parent/clan bridge for Semira was established in the actual pinned texts. Location within a genealogy alone was not used to manufacture a parentage equation or credited parallel.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "1 Chronicles 6",
+      "note": "Preserve the actual Greek chapter division: this chapter has 66 units, not the familiar 81-unit Christian chapter division. Names and successive-son wording are retained exactly; no different editions supply missing entries or alter the clan allocations. Manasseh and half-Manasseh are distinguished in 6:47/56."
+    },
+    {
+      "reference": "1 Chronicles 6:13,18",
+      "note": "The retained bounded father-role connection preserves Samuel's sons Sani and Abia in 6:13 and Joel son of Samuel in 6:18. No Sani=Joel or Abia=Abijah identity equation is credited."
+    },
+    {
+      "reference": "1 Chronicles 7:15-18,24-25; 8:6-7,13-14; 9:16",
+      "note": "Moocha's sister and wife roles remain as supplied; Malecheth's 'his sister', the son-chain antecedents, Ozan/Seera wording, the resettlement pronouns, Sosek's brother phrase and the Netophati residence antecedent are not independently resolved. Retained local context links explain actual grammatical continuity without establishing a new parentage, gender, agent or identity."
+    },
+    {
+      "reference": "1 Chronicles 8:33,38-39; 9:39,44",
+      "note": "The Ner-Kish-Saul parallels are bounded to the exact shared genealogy and Jonathan/Melchisoue/Amminadab names; Asabal and Isbaal are not equated. Esel/Asel, six-son figures and actual printed name lists are preserved without supplying a missing name or harmonizing another list."
+    },
+    {
+      "reference": "1 Chronicles 6\u20139",
+      "note": "Only supported retained source-target pairs receive completion credit. 7:12 and 7:19 remain empty/pending with zero credit. Full-book inventory, inherited metadata and technical pin checks are not newly completed review. Independent AI peer review is pending after this author freeze."
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Independent equations among differently supplied names, particular resolutions of ambiguous kinship/residence/resettlement pronouns, missing-name restoration or figure reconciliation.",
+      "reason": "The retained pairs establish only their stated bounded actual-text connections; these additional claims remain unestablished.",
+      "completed_pair_credit": 0
+    }
+  ],
+  "independent_peer_review_complete": false,
+  "frozen_author_packet": true
+}

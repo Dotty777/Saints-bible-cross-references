@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-30",
-  "updated_at_utc": "2026-10-30T08:25:18.800686+00:00",
+  "updated_at_utc": "2026-10-30T10:21:11.111729+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,16 +11,16 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 12,
   "pending_book_records": 31,
-  "completed_chapters": 338,
-  "completed_source_verses": 10177,
-  "completed_cross_references": 14411,
+  "completed_chapters": 348,
+  "completed_source_verses": 10693,
+  "completed_cross_references": 14927,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before source review. Uninventoried pending books retain unknown verse and chapter counts. Fully inventoried pending books have known source totals and zero review credit until their initial curated review. Preserve nonstandard anchors, continuation units and original composite references.",
   "next": {
     "book": "1 Chronicles",
     "chapter": 1,
-    "reference": "1 Chronicles 1:1",
-    "source_id": "v1-1"
+    "reference": "1 Chronicles 1:24",
+    "source_id": "v1-24"
   },
   "books": [
     {
@@ -968,10 +968,10 @@
       "records": "1-chronicles/",
       "source_records": "1-chronicles/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
+      "status": "in_progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "completed_source_verses": 516,
+      "completed_cross_references": 516,
       "order": 13,
       "division": "Judgement",
       "division_slug": "judgement",
@@ -979,9 +979,32 @@
       "source_staging_path": "/bible/judgement/1-chronicles/",
       "total_source_verse_units": 930,
       "total_chapters": 29,
-      "completed_chapters": [],
-      "next_reference": "1 Chronicles 1:1",
-      "completed_verse_ranges": []
+      "completed_chapters": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "next_reference": "1 Chronicles 1:24",
+      "completed_verse_ranges": [
+        "1 Chronicles 3:1-24",
+        "1 Chronicles 5:1-41",
+        "1 Chronicles 6:1-66",
+        "1 Chronicles 8:1-40",
+        "1 Chronicles 9:1-44",
+        "1 Chronicles 10:1-14",
+        "1 Chronicles 11:1-47",
+        "1 Chronicles 12:1-41",
+        "1 Chronicles 13:1-14",
+        "1 Chronicles 14:1-17"
+      ],
+      "next_unreviewed_reference": "1 Chronicles 15:1"
     },
     {
       "book": "2 Chronicles",
@@ -2776,6 +2799,72 @@
           "inventory_check_sha256": "451f3fe0c439d7556a0cff96430df31698bec8c6040018b5d52741c14bf027bf"
         }
       ]
+    },
+    {
+      "run_id": "2026-10-30T092501Z",
+      "date": "2026-10-30",
+      "synchronized": "2026-10-30",
+      "reviewed_dates": [
+        "2026-10-30"
+      ],
+      "source_range": "1 Chronicles 1:1-14:17",
+      "source_range_is_review_scope": true,
+      "source_units_read": 528,
+      "distinct_source_verses": 516,
+      "new_completed_pairs": 516,
+      "deferred_source_units_count": 12,
+      "book_results": [
+        {
+          "book": "1 Chronicles",
+          "source_range": "1 Chronicles 1:1-14:17",
+          "source_range_is_review_scope": true,
+          "source_units_read": 528,
+          "distinct_source_verses": 516,
+          "new_completed_pairs": 516,
+          "deferred_source_units_count": 12,
+          "completed_chapters": [
+            3,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "new_completed_chapters": [
+            3,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "1 Chronicles 1:24",
+          "next_unreviewed_reference": "1 Chronicles 15:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 16,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 40,
+      "known_pending_target_candidate_count": 103,
+      "review_record": "review-batches/2026-10-30T092501Z.json",
+      "next_reference": "1 Chronicles 1:24",
+      "next_unreviewed_reference": "1 Chronicles 15:1",
+      "inventories_added": []
     }
   ],
   "canon_manifest": "canon.json",

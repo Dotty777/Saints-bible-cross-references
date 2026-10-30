@@ -1,0 +1,925 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T09:45:48.424815+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_verses": 195,
+  "completed_source_verses": 195,
+  "source_scope_units": 205,
+  "source_units_read": 205,
+  "completed_pairs": 195,
+  "distinct_target_verse_units": 242,
+  "chapter_inventory_counts": {
+    "1": 42,
+    "2": 55,
+    "3": 24,
+    "4": 43,
+    "5": 41
+  },
+  "chapter_source_counts": {
+    "5": 41,
+    "1": 40,
+    "4": 36,
+    "3": 24,
+    "2": 54
+  },
+  "chapter_pair_counts": {
+    "1": 40,
+    "2": 54,
+    "3": 24,
+    "4": 36,
+    "5": 41
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "review_method": "I read all 205 complete actual supplied-English source units in 1 Chronicles 1–5, with actual chapter counts 42/55/24/43/41, then each proposed retained target passage and necessary local context. The initial immutable TSV had 197 proposed pairs. I separately read all 197 complete source/target/category/rationale triples in seven bounded groups of 25 and one of 22, without clipped output. A fourteen-change author precision stage removed weak 2:47 and ambiguous 4:17/18 wife-pronoun links, added exact Caleb-son-of-Jephonne 4:15→6:41 after reading 6:39–41, and refined ten wording or target scopes. I separately reread all eleven retained corrected complete triples. A second two-row precision stage restricted 1:41/42 to their unique Deson/Osar branches rather than equating repeated Ana/Daison names; I separately reread both complete corrected triples. Final retained coverage is 195 distinct supported source units and 195 pairs; ten read source units remain deferred with zero credit. Same-chapter links require an actual named family branch, explicit grammatical continuation or referent, particular royal succession, named-group action, or continuous campaign. This is an initial curated supplied-English pass, not exhaustive discovery, original-language or apparatus verification, independent human specialist approval, or certification of differing person, family, place, number, or transliteration identities.",
+  "pin_method": "Fresh raw fixed-commit fetches for every retained source/target book. Each Git blob SHA1 was recomputed against the existing immutable source identity registry, complete parsed-cache equality was checked, and raw SHA256 values were saved. All nine saved raw blobs and full parsed-cache equality were checked again at freeze. Newline byte differences are separately recorded. All identities were already present in the thirteen-book source-check registry; no new target-book metadata identity was needed. Technical and inventory checks earn zero source or pair credit.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Genesis",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Matthew",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    },
+    {
+      "book": "Ruth",
+      "records": "ruth/verses.json",
+      "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18"
+    }
+  ],
+  "pin_receipt": "1-chronicles-1-5-pins.json",
+  "pin_receipt_sha256": "4450bd3028dc804a15b5de0b2d626d60b3361b5ab757429531b692de400b579d",
+  "input_file": "1-chronicles-1-5.tsv",
+  "input_sha256": "83a1b0d5b3de34d4b4900997e0dc6e2bf202c20c799c6984b060addc273c1357",
+  "final_input_sha256": "83a1b0d5b3de34d4b4900997e0dc6e2bf202c20c799c6984b060addc273c1357",
+  "source_inventory": "1-chronicles/inventory.json",
+  "source_inventory_snapshot_sha256": "649f5af93f2bbacee7682beeb436bbc12e03a710216e8bc720c342059c2bc80d",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-chronicles-1-5-immutable-author-draft.tsv",
+  "author_draft_sha256": "56f86290f39827346f17ef486915a4b86e92376b0272e34c23baaa4a1e8a4241",
+  "author_refinements_before_freeze": [
+    {
+      "file": "1-chronicles-1-5-author-refinements.json",
+      "sha256": "ae1c24e2d4bb478b68b0686507f91097cac84adf2def0d95c4738eb43bab3d6f",
+      "changes": [
+        {
+          "source_reference": "1 Chronicles 2:3",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 2:3",
+            "target": "Genesis 38:2-7",
+            "relationship": "bounded genealogical and narrative parallel",
+            "rationale": "Both record Judah's children by Shua's Canaanite daughter, name Er and Onan, and say the Lord killed the evil firstborn Er; Shelon/Shelah is not equated."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 2:3",
+            "target": "Genesis 38:2-7",
+            "relationship": "bounded genealogical and narrative parallel",
+            "rationale": "Both record Judah's children in a Canaanite marriage, name Er and Onan, and say the evil firstborn Er was put to death by God. The target's wording of Shua's relationship and Shelon/Shelah remain distinct."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 2:18",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 2:18",
+            "target": "1 Chronicles 2:9",
+            "relationship": "same-chapter genealogy",
+            "rationale": "Both explicitly locate Caleb as Eseron's son; the source then gives his wives and children rather than equating this Caleb with other Calebs."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 2:18",
+            "target": "1 Chronicles 2:9",
+            "relationship": "same-chapter genealogy",
+            "rationale": "Both explicitly locate Caleb as Eseron's son; the source's additional Gazouba, Jerioth, and offspring wording is retained without changing its relationships or identifying this Caleb with other Calebs."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 2:47",
+          "action": "remove",
+          "old_row": {
+            "source_reference": "1 Chronicles 2:47",
+            "target": "1 Chronicles 2:46",
+            "relationship": "same-chapter family-list context",
+            "rationale": "The source lists Jadai's children within the Caleb family enumeration that the target continues through Caleb's concubine; no identity is asserted between Gaipha the concubine and Gaipha in Jadai's list."
+          },
+          "new_row": null,
+          "reason": "Jadai's sons have no explicit genealogical link to the adjacent Caleb-concubine account. Repeated Gaipha or Sagaph names cannot establish identity, and mere inclusion in a family list is insufficient.",
+          "completed_pair_credit": 0,
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": false
+        },
+        {
+          "source_reference": "1 Chronicles 2:55",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 2:55",
+            "target": "1 Chronicles 2:54",
+            "relationship": "same-chapter genealogy continuation",
+            "rationale": "The scribal families dwelling at Jabes continue the target's unfinished named family list after Solomon's sons; their Kinaire origin and Rechab-house statement remain the source's own particulars."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 2:55",
+            "target": "1 Chronicles 2:54",
+            "relationship": "same-chapter genealogy continuation",
+            "rationale": "The scribal families dwelling at Jabes continue the target's unfinished named family list after Solomon's sons; their Kinaians origin and Rechab-house statement remain the source's own particulars."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 3:8",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 3:8",
+            "target": "1 Chronicles 3:5",
+            "relationship": "same-chapter genealogy continuation",
+            "rationale": "These names complete the Jerusalem sons list introduced in the target, with the source's own nine-person total retained; repeated names elsewhere in the list are not merged."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 3:8",
+            "target": "1 Chronicles 3:5",
+            "relationship": "same-chapter genealogy continuation",
+            "rationale": "These names close the additional Jerusalem sons after the target's four by Bersabee. The source's own 'nine' applies to this continuation; repeated names are not merged."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 4:17",
+          "action": "remove",
+          "old_row": {
+            "source_reference": "1 Chronicles 4:17",
+            "target": "1 Chronicles 4:18",
+            "relationship": "same-chapter genealogy continuation",
+            "rationale": "The target continues the source's Jether offspring sentence with 'His wife' and additional births; Adia, Gelia, and Mored retain their distinct actual wording without name harmonization."
+          },
+          "new_row": null,
+          "reason": "The next unit's 'His wife' has an uncertain named antecedent in the supplied wording, especially alongside Jether, Morad, and Mored. Do not assign the wife or children to a particular man through an independent harmonization.",
+          "completed_pair_credit": 0,
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": false
+        },
+        {
+          "source_reference": "1 Chronicles 4:18",
+          "action": "remove",
+          "old_row": {
+            "source_reference": "1 Chronicles 4:18",
+            "target": "1 Chronicles 4:17",
+            "relationship": "same-chapter genealogy continuation",
+            "rationale": "The opening 'His wife' continues the preceding named Jether family sentence in the target; no identity is inferred between Mored and Morad or between the women named here."
+          },
+          "new_row": null,
+          "reason": "The opening 'His wife' and closing Gelia/Mored wording do not supply an independently secure named husband across the adjacent unit. Adia/Gelia and Morad/Mored identities remain unresolved.",
+          "completed_pair_credit": 0,
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": false
+        },
+        {
+          "source_reference": "1 Chronicles 4:21",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 4:21",
+            "target": "1 Chronicles 4:22-23",
+            "relationship": "same-chapter family and occupation context",
+            "rationale": "The target continues the source's unfinished named family enumeration and then explicitly describes that group as potters serving with the king."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 4:21",
+            "target": "1 Chronicles 4:22-23",
+            "relationship": "same-chapter family and occupation context",
+            "rationale": "The target continues the source's unfinished named family enumeration and then explicitly describes that group as potters who grew strong with the king in his kingdom."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 4:40",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 4:40",
+            "target": "1 Chronicles 4:39-41",
+            "relationship": "same-chapter settlement narrative",
+            "rationale": "The discovery of peaceful rich pastures lies between the explicitly stated pasture search and the subsequent conquest and settlement because of those pastures."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 4:40",
+            "target": "1 Chronicles 4:39",
+            "relationship": "same-chapter settlement narrative",
+            "rationale": "The source's discovery of rich, good pasture answers the target's explicit journey to seek pasture for the same particular group's livestock; the source adds the former inhabitants and peaceful condition."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 5:9",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 5:9",
+            "target": "Numbers 32:1-5",
+            "relationship": "bounded tribal settlement parallel",
+            "rationale": "Both connect Reubenite settlement east of Jordan with abundant livestock and land suitable for them; Galaad/Gilead and particular boundary names are not independently harmonized."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 5:9",
+            "target": "Numbers 32:1-5",
+            "relationship": "bounded tribal settlement parallel",
+            "rationale": "Both connect Reubenite territorial dwelling with abundant livestock: the target requests land nourishing livestock, and the source explains eastward dwelling by numerous livestock. Their particular place names are retained without independently mapping them."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 5:17",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 5:17",
+            "target": "1 Chronicles 5:12-16",
+            "relationship": "same-chapter explicit enrollment subjects",
+            "rationale": "The source's 'Their enrollment, all of them' dates the target's particular named Gadite rulers, seven brethren, ancestry, and settlements."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 5:17",
+            "target": "1 Chronicles 5:12-16",
+            "relationship": "same-chapter explicit enrollment subjects",
+            "rationale": "The source's 'Their enrollment, all of them' dates the target's particular named Gadite men, seven brethren, ancestry, and settlements; it does not assign every named man a ruler's office."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 5:23",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 5:23",
+            "target": "Numbers 32:33",
+            "relationship": "bounded tribal territorial parallel",
+            "rationale": "Both explicitly describe half Manasseh's tribe holding eastern territory; the source's particular Basan-to-mountain limits and the target's named royal grant are preserved separately."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 5:23",
+            "target": "1 Chronicles 5:24",
+            "relationship": "same-chapter explicit tribal leaders",
+            "rationale": "The source names the particular half-Manasseh settlement and its growth; the target's 'These were the chiefs of their ancestral houses' supplies that group's seven named leaders without mapping differently spelled places to another book."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 5:36",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 5:36",
+            "target": "1 Chronicles 6:17",
+            "relationship": "temple context",
+            "rationale": "Both explicitly refer to Solomon building the Lord's house in Jerusalem; the source locates Azariah's priestly service there, while the target describes the singers' service until its construction."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 5:36",
+            "target": "1 Chronicles 6:17",
+            "relationship": "temple context",
+            "rationale": "Both refer to Solomon building the house in Jerusalem. The source locates Azariah's priestly service there; the target calls it the Lord's house and describes the singers' ministry until its construction."
+          },
+          "reason": "Separate complete-triple author reread: preserve exact wording, scope, grammatical roles, and only the particular supported connection.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 4:15",
+          "action": "add",
+          "old_row": null,
+          "new_row": {
+            "source_reference": "1 Chronicles 4:15",
+            "target": "1 Chronicles 6:41",
+            "relationship": "bounded genealogical context",
+            "rationale": "Both explicitly identify Caleb as son of Jephonne. The source lists his descendants; the target records the city's plains and villages given to him. This does not identify him with other Caleb families."
+          },
+          "reason": "Read the exact target and its full local context; the same particular father-son identification Caleb son of Jephonne is explicit in both units.",
+          "complete_original_triple_separately_reread": false,
+          "complete_corrected_triple_separately_reread": true
+        }
+      ]
+    },
+    {
+      "file": "1-chronicles-1-5-author-refinements-stage2.json",
+      "sha256": "c48013eb61818ff1b1a8081a81b6b14ec63707739c1d1e9ef66e161613cfc937",
+      "changes": [
+        {
+          "source_reference": "1 Chronicles 1:41",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 1:41",
+            "target": "1 Chronicles 1:38",
+            "relationship": "same-chapter genealogy",
+            "rationale": "Ana and Deson, whose offspring are given in the source, are separately named as Seir's sons in the target."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 1:41",
+            "target": "1 Chronicles 1:38",
+            "relationship": "same-chapter genealogy",
+            "rationale": "Deson, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not decide whether the repeated Ana and Daison names across adjacent units denote the same people."
+          },
+          "reason": "Retain only the unique named Deson or Osar parent branch; do not independently equate repeated Ana or Daison names with different stated generational roles.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 1:42",
+          "action": "refine",
+          "old_row": {
+            "source_reference": "1 Chronicles 1:42",
+            "target": "1 Chronicles 1:38",
+            "relationship": "same-chapter genealogy",
+            "rationale": "Osar and Daison, whose sons are given here, are separately named among Seir's sons in the target."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 1:42",
+            "target": "1 Chronicles 1:38",
+            "relationship": "same-chapter genealogy",
+            "rationale": "Osar, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not identify the source's Daison with either occurrence in the neighboring units."
+          },
+          "reason": "Retain only the unique named Deson or Osar parent branch; do not independently equate repeated Ana or Daison names with different stated generational roles.",
+          "complete_original_triple_separately_reread": true,
+          "complete_corrected_triple_separately_reread": true
+        }
+      ]
+    }
+  ],
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Chronicles 1:24",
+      "reason": "The actual source unit is only Sala. Its proposed comparison with Shelah or a differently placed Sala would require an unverified identity; the neighboring bare list alone is insufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 1:52",
+      "reason": "Elibamas, Elas, and Phinon have no exact read parallel establishing their particular chief identities; the differently written Genesis names are not independently equated and a generic chiefs-list link is insufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 2:47",
+      "reason": "Jadai's sons have no explicit genealogical link to the adjacent Caleb-concubine account. Repeated Gaipha or Sagaph names cannot establish identity, and mere inclusion in a family list is insufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 4:3",
+      "reason": "Aitam's sons Jezrael, Ragma, and Jabas and their sister Eselebbōn lack a sufficiently specific secure read counterpart; an Aitam place-name occurrence does not identify this parent.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 4:8",
+      "reason": "Kos, Enob, Sabeba, and the brother of Rechab son of Jarim lack a secure read counterpart; a different Rechab-house mention does not establish identity.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 4:16",
+      "reason": "The supplied 'His son' followed by five names has an uncertain antecedent and relationship structure after the preceding Ala/Kenaz branch; no forced father assignment is credited.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 4:17",
+      "reason": "The next unit's 'His wife' has an uncertain named antecedent in the supplied wording, especially alongside Jether, Morad, and Mored. Do not assign the wife or children to a particular man through an independent harmonization.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 4:18",
+      "reason": "The opening 'His wife' and closing Gelia/Mored wording do not supply an independently secure named husband across the adjacent unit. Adia/Gelia and Morad/Mored identities remain unresolved.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 4:19",
+      "reason": "The supplied Idouia/Nachem and Naem family and Keila/Esthemoe Machathi wording lacks a secure particular read counterpart; geographic or phonetic similarities are not sufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    },
+    {
+      "source_reference": "1 Chronicles 4:20",
+      "reason": "Semion's and Isei's named family branches lack a secure read counterpart; other Amnon, Anan, or differently written Jesi occurrences do not establish identities.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review"
+    }
+  ],
+  "deferred_source_count": 10,
+  "first_unfinished_source_unit": "1 Chronicles 1:24",
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Chronicles 1:2",
+      "target": "Genesis 5:15",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "The shared named link is Mahalalel followed by Jared; this pair does not identify Kenan with Cainan.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:7",
+      "target": "Genesis 10:4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Elishah and the Rhodians among Javan's descendants; the other differing forms are retained without an identity decision.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:25",
+      "target": "Genesis 11:16-18",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place Eber before Peleg in the ancestral line; this does not identify Ragau with Reu.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:29",
+      "target": "Genesis 25:12-13",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both list Kedar and Nabdeel as sons of Ishmael; firstborn Nabaioth/Nebaioth and the other differing forms are not equated here.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:30",
+      "target": "Genesis 25:13-15",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "In each Ishmael genealogy Choddad is explicitly a named son; the other differing names in this unit are not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:32",
+      "target": "Genesis 25:1-2",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Keturah as bearing children to Abraham and name Midian among them; wife/concubine wording and the differing child names remain distinct.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:33",
+      "target": "Genesis 25:4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify the listed family as Midian's sons and explicitly place it among Keturah's sons; the individual child-name differences are unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:35",
+      "target": "Genesis 36:4-5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Eliphaz as Esau's son; the remaining differently written names are not equated.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:36",
+      "target": "Genesis 36:11-12",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Teman, Omar, Sophar, and Kenaz as Eliphaz's sons and connect Timna with his son Amalek; Gootham/Gatam is left unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:41",
+      "target": "1 Chronicles 1:38",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Deson, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not decide whether the repeated Ana and Daison names across adjacent units denote the same people.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:42",
+      "target": "1 Chronicles 1:38",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Osar, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not identify the source's Daison with either occurrence in the neighboring units.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:44",
+      "target": "Genesis 36:33",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both say Balak died and Jobab became king in his place; Zara/Zerah and Bosorra/Bozrah are retained as differing forms.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:45",
+      "target": "Genesis 36:34",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both say Jobab died and Asom became king in his place; the differing descriptions of Asom's homeland are not equated.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:46",
+      "target": "Genesis 36:35",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both describe Asom's successor as a son of Barad who struck Midian in Moab's plain and whose city was Geththaim; Adad/Hadad is unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:50",
+      "target": "Genesis 36:39",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place a son of Barad at Phogor in this royal succession; the king and predecessor names differ and are not harmonized by this pair.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:53",
+      "target": "Genesis 36:42",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly name Kenaz and Teman as chiefs in Edom's list; Mabsar/Mazar is not equated.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 1:54",
+      "target": "Genesis 36:43",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Megediel among Edom's chiefs; Heram and Zaphoim remain distinct readings.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 2:3",
+      "target": "Genesis 38:2-7",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both record Judah's children in a Canaanite marriage, name Er and Onan, and say the evil firstborn Er was put to death by God. The target's wording of Shua's relationship and Shelon/Shelah remain distinct.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 2:4",
+      "target": "Genesis 38:24-30",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both describe Tamar, Judah's daughter-in-law, bearing his twin sons; Phares/Perez and Zara/Zerah remain differing names rather than independently resolved identities.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 2:7",
+      "target": "Joshua 7:1",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify Achar as the offender who took what was devoted to the ban and brought trouble upon Israel; Charmi/Carmi is not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 2:11",
+      "target": "Matthew 1:5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly say Salmon begot Boaz; this pair does not identify Naasson with Nahshon.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 2:13",
+      "target": "1 Samuel 16:1-10",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify Jesse's sons and explicitly name Eliab among them; the source's Amminadab and Samaa are not equated with other forms in Samuel.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 2:15",
+      "target": "Ruth 4:22",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify David as Jesse's son; the source's seventh-place count is not supplied by the target.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 2:16",
+      "target": "2 Samuel 2:18",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Joab and Asahel among Zeruiah's three sons; Abessa/Abishai is unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:1",
+      "target": "2 Samuel 3:2-3",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place David's sons in Hebron, identify the firstborn Amnon by Ahinoam the Jezreelite, and name Abigail the Carmelite as the second son's mother; Daniel/Daluia is unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:2",
+      "target": "2 Samuel 3:3-4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Absalom as David's third son in the Hebron list; mother, maternal grandfather, and fourth-son name differences are not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:3",
+      "target": "2 Samuel 3:4-5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place a son by Abital fifth and a son by David's wife sixth in the Hebron list; the differing child and sixth-wife names are unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:5",
+      "target": "1 Chronicles 14:3-4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Samaa, Nathan, and Solomon among David's sons born in Jerusalem; Sobab/Isobaam and maternal details are not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:6",
+      "target": "1 Chronicles 14:5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Ibaar and Eliphalet in David's Jerusalem family; Elisama/Elisae remains unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:7",
+      "target": "1 Chronicles 14:6",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Nage and Naphag in David's Jerusalem family; Janoue/Janouou remains unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:8",
+      "target": "1 Chronicles 3:5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "These names close the additional Jerusalem sons after the target's four by Bersabee. The source's own 'nine' applies to this continuation; repeated names are not merged.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 3:10",
+      "target": "Matthew 1:7",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly trace Solomon to Rehoboam; Abia/Abijah and Asa/Asaph remain differing forms.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 4:1",
+      "target": "1 Chronicles 2:4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly name Phares as Judah's son; this does not flatten the other names in the source into immediate sons or identify Arson with another form.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 4:4",
+      "target": "1 Chronicles 2:50",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly call Or Ephratha's firstborn; their separate father-of-place statements are retained without equating the places or their roles.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 4:11",
+      "target": "1 Chronicles 2:49",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Caleb as Ascha's father; this pair does not identify his other children with differently named Caleb families.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 4:13",
+      "target": "Joshua 15:17",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Othniel as Kenaz's son; the source's Saraia and Athath are not supplied by the target.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 4:14",
+      "target": "1 Chronicles 4:13",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Saraia, named as Joab's father in the source, is explicitly among Kenaz's sons in the target; this Joab is not equated with Zeruiah's son.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 4:15",
+      "target": "1 Chronicles 6:41",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Caleb as son of Jephonne. The source lists his descendants; the target records the city's plains and villages given to him. This does not identify him with other Caleb families.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 4:24",
+      "target": "Genesis 46:10",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly name Jamin as Simeon's son; the remaining differing child names are unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 5:29",
+      "target": "Exodus 6:20-23",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Aaron and Moses in the same family and identify Nadab, Eleazar, and Ithamar as Aaron's sons; Ambram/Amram, Mariam/Miriam, and Abioud/Abihu remain unresolved forms.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Equate differently written genealogical people, chiefs, royal names, parents, clan names, places, priestly repetitions, numerical scopes, or the wife antecedents at 4:17–18 solely from familiar parallel passages or phonetic resemblance.",
+      "reason": "Only explicit particular shared facts are retained. Differing wording and uncertain identities remain unresolved with zero separate identity-reconciliation credit.",
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "1 Chronicles 1",
+      "note": "Keep actual missing units 11–16 and 18–23 absent; unit 24 remains only Sala. Preserve every supplied name and relationship, including eight Japheth sons and differences from Genesis. Do not infer repeated Ana or Daison identities across different stated roles. Units 24 and 52 remain pending."
+    },
+    {
+      "reference": "1 Chronicles 2",
+      "note": "Preserve Arson/Jemouel, Zara and Charmi/Achar forms, Jirameel/Aram and Jeremeel, Gazouba-a-wife wording, twenty-three versus sixty cities, Eseron death and Abia birth order, childless Salad and Jether, Sosan daughters and Jochel marriage, and the actual father-of-place relationships. Jadai’s independent branch at 47 remains pending."
+    },
+    {
+      "reference": "1 Chronicles 3",
+      "note": "Preserve David’s differing Hebron child/mother names, six Hebron sons, seven years six months and thirty-three years, four by Bersabee and the following nine, repeated Jerusalem names, Themar, all royal generations and differing Matthew forms, Jechonia-asir, Salathiel, and all supplied descendant counts."
+    },
+    {
+      "reference": "1 Chronicles 4",
+      "note": "Preserve actual Sarathi, Aitam, Saour/Aoda/Thoada, Igabes’s naming and knowledge prayer, craftsman Joab without equating him with Zeruiah’s son, Caleb son of Jephonne, uncertain His son and His wife wording, ephrath abak and abedirin athoukiin without glosses, sixteen sons and three daughters, half of Sosim, the supplied five-city count with four named entries, named Hezekiah-era settlers, and five hundred Simeonites led by Jesi’s four sons. Units 3,8,16,17,18,19,20 remain pending."
+    },
+    {
+      "reference": "1 Chronicles 5",
+      "note": "Keep the actual chapter through unit 41: the Levite and priestly material at 27–41 belongs here. Preserve the firstborn-blessing distinction, all named ancestry, actual place forms, Joatham/Jeroboam enrollment, 44,760 warriors, 5,000 camels, 250,000 sheep, 2,000 donkeys, 100,000 human lives, Phaloch/Thaglathphalnasar, Joanan/Joanas, repeated priestly names, and Josadak’s deportation wording. No familiar twenty-six-unit division is substituted."
+    }
+  ]
+}

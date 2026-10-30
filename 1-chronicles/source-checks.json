@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 930 units in 29 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Read complete actual source and retained target passages with necessary context and reread each particular explanation before completing a source pass. This inventory performs no source review.",
+  "method": "Read every complete actual source unit in the declared scope and every retained complete target passage with necessary context, then reread each retained complete triple. Source units without a supported retained pair stay pending with zero completion credit; their complete pinned evidence and reason are recorded separately from target candidates. The full source inventory preceded review and earns no completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -20,7 +20,17 @@
     "Unread candidates",
     "Technical checks"
   ],
-  "review_batches": [],
+  "review_batches": [
+    {
+      "run_id": "2026-10-30T092501Z",
+      "records": "review-batches/2026-10-30T092501Z.json",
+      "new_source_verses": 516,
+      "new_pairs": 516,
+      "source_units_read": 528,
+      "deferred_source_units": 12,
+      "unresolved_retained_cases": 0
+    }
+  ],
   "canon_manifest": "../canon.json",
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "sources": [
@@ -30,14 +40,1905 @@
       "path": "1-chronicles/verses.json",
       "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/leviticus/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "ruth/verses.json",
+      "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ruth/verses.json"
     }
   ],
-  "unresolved_candidates": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Chronicles 1:2",
+      "target": "Genesis 5:15",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "The shared named link is Mahalalel followed by Jared; this pair does not identify Kenan with Cainan.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:2",
+        "id": "v1-2",
+        "text": "Kenan, Mahalalel, Jared,",
+        "text_sha256": "bbd46d8214fb57aab458fe02879936f456e61a9fce67b73b2f45cac97ae32682"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 5:15",
+          "id": "v5-15",
+          "text": "And Mahalalel lived one hundred and sixty-five years, and begot Jared.",
+          "text_sha256": "12350719cc7c6e66af139611d114fb8ae11bc19cab7b24e10f9b7fbaff46b534"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:7",
+      "target": "Genesis 10:4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Elishah and the Rhodians among Javan's descendants; the other differing forms are retained without an identity decision.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:7",
+        "id": "v1-7",
+        "text": "Javan’s sons: Elishah, Tharsis, the Kitians, and the Rhodians.",
+        "text_sha256": "93fd8a33b8359ce5eca7da0f8d87bac1268e56de045dcff58d8dc462c92848be"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 10:4",
+          "id": "v10-4",
+          "text": "And the sons of Javan were Elishah and Tarshish, the Kittians and the Rhodians.",
+          "text_sha256": "baec15fc7bc0ce8217c96997f586654b694bcc8c6059737a313cfafcbf84917a"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:25",
+      "target": "Genesis 11:16-18",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place Eber before Peleg in the ancestral line; this does not identify Ragau with Reu.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:25",
+        "id": "v1-25",
+        "text": "Eber, Peleg, Ragau,",
+        "text_sha256": "47770e324795a2fa1c28acde45ac64ae657870ed69b5d62203ac394c85d1fc3b"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 11:16",
+          "id": "v11-16",
+          "text": "And Eber lived one hundred and thirty-four years, and begot Peleg.",
+          "text_sha256": "26609a8bd18661ca447c67c20f7800015e424007860110164b3465a4cb5135f1"
+        },
+        {
+          "reference": "Genesis 11:17",
+          "id": "v11-17",
+          "text": "And Eber lived three hundred and seventy years after he begot Peleg, and begot sons and daughters, and died.",
+          "text_sha256": "3154c44beb4231cd3a98659d423935470e63df7809868c8fe3b567dfa7ced3a7"
+        },
+        {
+          "reference": "Genesis 11:18",
+          "id": "v11-18",
+          "text": "And Peleg lived one hundred and thirty years, and begot Reu.",
+          "text_sha256": "2e622a4f86ca91e42dbd91cf33b7ef536f2a83bb967d62562462c3b248d1075c"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:29",
+      "target": "Genesis 25:12-13",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both list Kedar and Nabdeel as sons of Ishmael; firstborn Nabaioth/Nebaioth and the other differing forms are not equated here.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:29",
+        "id": "v1-29",
+        "text": "These are the generations of Ishmael’s firstborn: Nabaioth, Kedar, Nabdeel, Mabsan,",
+        "text_sha256": "dc97915f302307517696cf1c5954876b3a1a8221cc8c13320120178db1fce724"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 25:12",
+          "id": "v25-12",
+          "text": "And these are the generations of Ishmael, Abraham’s son, whom Hagar the slave woman of Sarah bore to Abraham.",
+          "text_sha256": "9383a61f480e54b4caa880400cf11da110cffc4b0d5d3583502ec90d910808eb"
+        },
+        {
+          "reference": "Genesis 25:13",
+          "id": "v25-13",
+          "text": "And these are the names of the sons of Ishmael, by the names of their generations: Ishmael’s firstborn Nebaioth, and Kedar, Nabdeel, and Massam,",
+          "text_sha256": "da7c56bcb6753385f4b9fe8ed9a2a6a0084ddcf21e4fc0e9fa07f117e35afda2"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:30",
+      "target": "Genesis 25:13-15",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "In each Ishmael genealogy Choddad is explicitly a named son; the other differing names in this unit are not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:30",
+        "id": "v1-30",
+        "text": "Masma, Idouma, Masse, Choddad, Thaiman,",
+        "text_sha256": "30935262c624ffe077fdf88e000309b77084d6d0663d4a77c2f191ece0e94cb6"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 25:13",
+          "id": "v25-13",
+          "text": "And these are the names of the sons of Ishmael, by the names of their generations: Ishmael’s firstborn Nebaioth, and Kedar, Nabdeel, and Massam,",
+          "text_sha256": "da7c56bcb6753385f4b9fe8ed9a2a6a0084ddcf21e4fc0e9fa07f117e35afda2"
+        },
+        {
+          "reference": "Genesis 25:14",
+          "id": "v25-14",
+          "text": "and Mishma, Iduma, and Massa,",
+          "text_sha256": "47689806a8c4d00f722d62ef30b506835940411db9800799c4bf94bdec3b82d9"
+        },
+        {
+          "reference": "Genesis 25:15",
+          "id": "v25-15",
+          "text": "and Choddad, Teman, Jetur, Naphish, and Kedemah.",
+          "text_sha256": "78e660e84fc6bcd3dc9f7c63b7d608866611acf13ca2052a2ea785a078a73bc5"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:32",
+      "target": "Genesis 25:1-2",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Keturah as bearing children to Abraham and name Midian among them; wife/concubine wording and the differing child names remain distinct.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:32",
+        "id": "v1-32",
+        "text": "The sons of Keturah, Abraham’s concubine: she bore him Zembran, Jexan, Madan, Midian, Sobak, and Soe. Jexan’s sons: Saba and Daidan.",
+        "text_sha256": "c362df242b4ae1bf608f738de2e79cbe2fbdd0de1cf1ee143b07e07e39858070"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 25:1",
+          "id": "v25-1",
+          "text": "And Abraham took another wife, whose name was Keturah.",
+          "text_sha256": "216dcdb3deb0cd47a560cf08463bf9271a9a45debcd9a7277559b22103891e69"
+        },
+        {
+          "reference": "Genesis 25:2",
+          "id": "v25-2",
+          "text": "And she bore him Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah.",
+          "text_sha256": "e9540871ef79cdd2b44c063242ec58e3dfc940e45ae78a3738234459370e5b1a"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:33",
+      "target": "Genesis 25:4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify the listed family as Midian's sons and explicitly place it among Keturah's sons; the individual child-name differences are unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:33",
+        "id": "v1-33",
+        "text": "Midian’s sons: Gaipha, Opher, Enoch, Abida, and Eldaa. All these were Keturah’s sons.",
+        "text_sha256": "2ef967e86a7845d0a4d076c5d88a888e88ecbfbb99e028dd0174ecd9d296502e"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 25:4",
+          "id": "v25-4",
+          "text": "And the sons of Midian were Ephah, Epher, Hanoch, Abira, and Elraga. All these were the sons of Keturah.",
+          "text_sha256": "e7ca09b41c7f015a802ba0729a4a5d78f0530c523c977bd4e9d41362c5d25e20"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:35",
+      "target": "Genesis 36:4-5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Eliphaz as Esau's son; the remaining differently written names are not equated.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:35",
+        "id": "v1-35",
+        "text": "Esau’s sons: Eliphaz, Ragouel, Jeoul, Jeglom, and Kore.",
+        "text_sha256": "870d0d43fe355c81181b73ddfbe41f2782c879648c2a1a36381ac910deb7191c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:4",
+          "id": "v36-4",
+          "text": "And Adah bore Eliphaz to Esau, and Basemath bore Reuel.",
+          "text_sha256": "f67724e81eac705af3f47beb5fec780e4b94c2601a52d51ba380ac05cb1ca1c7"
+        },
+        {
+          "reference": "Genesis 36:5",
+          "id": "v36-5",
+          "text": "And Oholibamah bore Jeush and Jalam and Korah. These are Esau’s sons who were born to him in the land of Canaan.",
+          "text_sha256": "f10b7d854e952420499854ffe93afe33646e173654dabd88b1271642adeaf3a5"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:36",
+      "target": "Genesis 36:11-12",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Teman, Omar, Sophar, and Kenaz as Eliphaz's sons and connect Timna with his son Amalek; Gootham/Gatam is left unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:36",
+        "id": "v1-36",
+        "text": "Eliphaz’s sons: Teman, Omar, Sophar, Gootham, Kenaz, and, from Timna, Amalek.",
+        "text_sha256": "81b0649cef4519bc0048ebcfd8179f9b3b87e4c9fd81fd1d354be72e7531e4af"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:11",
+          "id": "v36-11",
+          "text": "And the sons of Eliphaz were Teman, Omar, Sophar, Gatam, and Kenaz.",
+          "text_sha256": "cf9f24fd01079b29621f92153729cf46a21c2d1e0684978fa228b84d1c5e27a7"
+        },
+        {
+          "reference": "Genesis 36:12",
+          "id": "v36-12",
+          "text": "And Timna was the concubine of Eliphaz, Esau’s son, and bore Amalek to Eliphaz. These are the sons of Adah, Esau’s wife.",
+          "text_sha256": "59a63345caf30a20a4c09c0dc28dcaf4bc27a4c12ed939a03a4fda9548bd4af2"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:41",
+      "target": "1 Chronicles 1:38",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Deson, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not decide whether the repeated Ana and Daison names across adjacent units denote the same people.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:41",
+        "id": "v1-41",
+        "text": "Ana’s sons: Daison. Deson’s sons: Emeron, Eseban, Jethran, and Charran.",
+        "text_sha256": "063c08970c5e5c7c2f9f87ea7ee3acb2d349afbf113a46a51315105c000334c9"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 1:38",
+          "id": "v1-38",
+          "text": "Seir’s sons: Lotan, Sobal, Sebegon, Ana, Deson, Osar, and Daison.",
+          "text_sha256": "5280ff566c99a7ffd5f6a8405d1dc7fa03ab6110cedf66c29b00356831cf180f"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:42",
+      "target": "1 Chronicles 1:38",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Osar, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not identify the source's Daison with either occurrence in the neighboring units.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:42",
+        "id": "v1-42",
+        "text": "Osar’s sons: Balaan, Zoukan, and Jokan. Daison’s sons: Os and Arran.",
+        "text_sha256": "c7c712bbf284feb017dcfaabc45253512adb8d797e0a60e784a727287986e870"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 1:38",
+          "id": "v1-38",
+          "text": "Seir’s sons: Lotan, Sobal, Sebegon, Ana, Deson, Osar, and Daison.",
+          "text_sha256": "5280ff566c99a7ffd5f6a8405d1dc7fa03ab6110cedf66c29b00356831cf180f"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:44",
+      "target": "Genesis 36:33",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both say Balak died and Jobab became king in his place; Zara/Zerah and Bosorra/Bozrah are retained as differing forms.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:44",
+        "id": "v1-44",
+        "text": "Balak died, and Jobab son of Zara from Bosorra became king in his place.",
+        "text_sha256": "88de2a5059de001751e747320a16e66a76d819b4b287f13fa1b49fd4952108b7"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:33",
+          "id": "v36-33",
+          "text": "And Balak died, and Jobab the son of Zerah from Bozrah reigned in his place.",
+          "text_sha256": "cb4d4d26b7c4b9c9a428d1863676898feb6ab5f1aa3587d1acc7d00e86d25a1d"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:45",
+      "target": "Genesis 36:34",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both say Jobab died and Asom became king in his place; the differing descriptions of Asom's homeland are not equated.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:45",
+        "id": "v1-45",
+        "text": "Jobab died, and Asom from the land of the Thaimans became king in his place.",
+        "text_sha256": "197b1670979d2956081eab14d5ed4e0923d2694a74fedaf871fafdfbfa992ed9"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:34",
+          "id": "v36-34",
+          "text": "And Jobab died, and Asom from the land of the Temanites reigned in his place.",
+          "text_sha256": "d96ef0b18f98ed3d13f62e148e54dce5dd5cbc78a9a84a6df2c973eb7e900efe"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:46",
+      "target": "Genesis 36:35",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both describe Asom's successor as a son of Barad who struck Midian in Moab's plain and whose city was Geththaim; Adad/Hadad is unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:46",
+        "id": "v1-46",
+        "text": "Asom died, and Adad son of Barad, who struck Midian in Moab’s plain, became king in his place. His city was named Geththaim.",
+        "text_sha256": "f3b68da65b04eb9736e093ead2de601958e4e95548c94931e05d3a3caf16da1d"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:35",
+          "id": "v36-35",
+          "text": "And Asom died, and Hadad the son of Barad, who struck down Midian in the plain of Moab, reigned in his place; and the name of his city was Geththaim.",
+          "text_sha256": "0cd9a6b41a334da9f4eef9df8883a57e3319481507558c7294a8973cc79f3d6a"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:50",
+      "target": "Genesis 36:39",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place a son of Barad at Phogor in this royal succession; the king and predecessor names differ and are not harmonized by this pair.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:50",
+        "id": "v1-50",
+        "text": "Balaennon son of Achobor died, and Adad son of Barad became king in his place. His city was named Phogor.",
+        "text_sha256": "5725cea663d2f192022178a2f7313a67a837e08918933f8a217a60489ce005f3"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:39",
+          "id": "v36-39",
+          "text": "And Baal-hanan the son of Achbor died, and Arad the son of Barad reigned in his place; and the name of his city was Phogor, and his wife’s name was Mehetabel, the daughter of Matred the son of Me-zahab.",
+          "text_sha256": "657ce828ee8e450e40b3f3e39b34b8b51c8efcf1522aa29cad19eeacce187616"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:53",
+      "target": "Genesis 36:42",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly name Kenaz and Teman as chiefs in Edom's list; Mabsar/Mazar is not equated.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:53",
+        "id": "v1-53",
+        "text": "Chief Kenaz, Chief Teman, Chief Mabsar,",
+        "text_sha256": "1dd992b9a06c81fe30ced8bb9443ed5780a06c9f85d5e972a45b358ddda40cee"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:42",
+          "id": "v36-42",
+          "text": "chief Kenaz, chief Teman, chief Mazar,",
+          "text_sha256": "f6264489884e55cfd3b544f690b97c2b0e9c39f34210bfaa747f46be9786a672"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 1:54",
+      "target": "Genesis 36:43",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Megediel among Edom's chiefs; Heram and Zaphoim remain distinct readings.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:54",
+        "id": "v1-54",
+        "text": "Chief Megediel, Chief Heram. These were Edom’s chiefs.",
+        "text_sha256": "4ad933ceb47f81659a242d7b91b9dfa6218541d2e253bc3d2abdeaa3d174388f"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 36:43",
+          "id": "v36-43",
+          "text": "chief Megediel, chief Zaphoim. These are the chiefs of Edom according to their settlements in the land of their possession. This is Esau, the father of Edom.",
+          "text_sha256": "c927f7ba891bb613991342427a4290ac5f7c139f4ce88a7509ee035138fcaff3"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 2:3",
+      "target": "Genesis 38:2-7",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both record Judah's children in a Canaanite marriage, name Er and Onan, and say the evil firstborn Er was put to death by God. The target's wording of Shua's relationship and Shelon/Shelah remain distinct.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:3",
+        "id": "v2-3",
+        "text": "Judah’s sons: Er, Onan, Shelon, three. They were born to him by Shua’s daughter, the Canaanite woman. Er, Judah’s firstborn, was evil before the Lord, and He killed him.",
+        "text_sha256": "c613c614977dfcb52ceb872e075238d04a0d6f7773e94217ec6cf0d4ab9c1d9b"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 38:2",
+          "id": "v38-2",
+          "text": "And Judah saw there a Canaanite man’s daughter named Shua; and he took her, and went in to her.",
+          "text_sha256": "2c890b2e89fe2cbb75ea5bf0fff5829090f06c59ce83834ad16a3367883cc5b7"
+        },
+        {
+          "reference": "Genesis 38:3",
+          "id": "v38-3",
+          "text": "And she conceived and bore a son, and called his name Er.",
+          "text_sha256": "4436fd96fb55556ccd513d9d548c907a78ae4a4a7ff96a2f0971452ce258c482"
+        },
+        {
+          "reference": "Genesis 38:4",
+          "id": "v38-4",
+          "text": "And she conceived again and bore a son, and called his name Onan.",
+          "text_sha256": "10c451bda0b2c6f1390a0117bd00337bb26e3559b18ba01e0405714c9388c8b1"
+        },
+        {
+          "reference": "Genesis 38:5",
+          "id": "v38-5",
+          "text": "And she bore another son, and called his name Shelah. And she was in Chasbi when she bore them.",
+          "text_sha256": "8a8472fd6cf485024920257bb91c9b7f3ee12e53104e9477d81fd865b5408d64"
+        },
+        {
+          "reference": "Genesis 38:6",
+          "id": "v38-6",
+          "text": "And Judah took a wife for Er his firstborn, whose name was Tamar.",
+          "text_sha256": "109940db7c5c076a68fb89381c9470801bfa0c97405bec02753ee819d9df345a"
+        },
+        {
+          "reference": "Genesis 38:7",
+          "id": "v38-7",
+          "text": "And Er, Judah’s firstborn, was evil before the Lord, and God put him to death.",
+          "text_sha256": "1607f4467e887ec40d5a24156f18229f4652e063a054be08b19ed65dac6b420c"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 2:4",
+      "target": "Genesis 38:24-30",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both describe Tamar, Judah's daughter-in-law, bearing his twin sons; Phares/Perez and Zara/Zerah remain differing names rather than independently resolved identities.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:4",
+        "id": "v2-4",
+        "text": "Tamar his daughter-in-law bore him Phares and Zara. Judah’s sons were five in all.",
+        "text_sha256": "12ff8d438aba91385da58bd429cc965aee4c334159647e1be84fa9752c296f77"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 38:24",
+          "id": "v38-24",
+          "text": "And after three months Judah was told, “Tamar your daughter-in-law has acted as a prostitute, and behold, she is with child through her prostitution.” And Judah said, “Bring her out, and let her be burned.”",
+          "text_sha256": "116f715ebbf272daacabec91dc75585ec9bfd36b1157a6b21f2d55c82a92cc40"
+        },
+        {
+          "reference": "Genesis 38:25",
+          "id": "v38-25",
+          "text": "And as she was being brought out, she sent to her father-in-law, saying, “I am with child by the man to whom these belong.” And she said, “See to whom this ring, and this necklace, and this staff belong.”",
+          "text_sha256": "71207136ef71f0052ffe92b52547d6588c0d88956870491f8d5cf8edb1ccadf3"
+        },
+        {
+          "reference": "Genesis 38:26",
+          "id": "v38-26",
+          "text": "And Judah recognized them, and said, “Tamar is more in the right than I, because I did not give her to Shelah my son.” And he knew her no more.",
+          "text_sha256": "7bc5e4297247d2610e8ef02cc5782fbc85b28822a067c163d3cda123f37dd980"
+        },
+        {
+          "reference": "Genesis 38:27",
+          "id": "v38-27",
+          "text": "And when she gave birth, behold, there were twins in her womb.",
+          "text_sha256": "d1695476b06e00aa48d8e363c5f0651b8dab8e9b0a33aab531b21db9847efa28"
+        },
+        {
+          "reference": "Genesis 38:28",
+          "id": "v38-28",
+          "text": "And as she was giving birth, one put out his hand; and the midwife took it and bound a scarlet thread upon his hand, saying, “This one shall come out first.”",
+          "text_sha256": "02cb8ce6d701e06dc0186e77c01c28e2f94ed3971e50e947d6b15182d40fe79d"
+        },
+        {
+          "reference": "Genesis 38:29",
+          "id": "v38-29",
+          "text": "But as he drew back his hand, immediately his brother came out; and she said, “Why has a barrier been broken through because of you?” And his name was called Perez.",
+          "text_sha256": "9eae289d72c61923946419d33d0b7a90cee7ba4c75bb70cc47511234300a16df"
+        },
+        {
+          "reference": "Genesis 38:30",
+          "id": "v38-30",
+          "text": "And afterward his brother came out, upon whose hand was the scarlet thread; and his name was called Zerah.",
+          "text_sha256": "1eea7939d6b1b894c1cc6137402260e0e7d171d4e0c1c21c3e7ce4c2708b7511"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 2:7",
+      "target": "Joshua 7:1",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify Achar as the offender who took what was devoted to the ban and brought trouble upon Israel; Charmi/Carmi is not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:7",
+        "id": "v2-7",
+        "text": "Charmi’s sons: Achar, Israel’s obstructer, who broke faith concerning the devoted thing.",
+        "text_sha256": "79bbd6f699c15bc81de6eb757ce872d2b402771ce8c2205a681d14c2f87dc0be"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Joshua 7:1",
+          "id": "v7-1",
+          "text": "The sons of Israel committed a great offence and misappropriated what was under the ban. Achar son of Carmi, son of Zambri, son of Zerah, of the tribe of Judah, took some of it, and the Lord became angry with the sons of Israel.",
+          "text_sha256": "832fd91358a6cafab1b2bdf4dc5b0e74c7154375e38a3e124f178d5ac0c20bf1"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 2:11",
+      "target": "Matthew 1:5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly say Salmon begot Boaz; this pair does not identify Naasson with Nahshon.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:11",
+        "id": "v2-11",
+        "text": "Naasson begot Salmon, and Salmon begot Boaz,",
+        "text_sha256": "7a8bc3ed7a8eb63595b013b8d398f1cf3e415ebeb36c28c75fb832e9b810053c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "matthew/verses.json",
+        "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Matthew 1:5",
+          "id": "v1-5",
+          "text": "Salmon begot Boaz by Rahab; Boaz begot Obed by Ruth; Obed begot Jesse;",
+          "text_sha256": "1fb35fde671ce19fea4910999cc2e1fffd18785effdcc6ed0e49df1d7cd80151"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 2:13",
+      "target": "1 Samuel 16:1-10",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify Jesse's sons and explicitly name Eliab among them; the source's Amminadab and Samaa are not equated with other forms in Samuel.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:13",
+        "id": "v2-13",
+        "text": "and Jesse begot his firstborn Eliab; Amminadab was the second, Samaa the third,",
+        "text_sha256": "8221778dda8f9c36903a13368405410467cfa27d1ffb9a33a7458ff044f39f5c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-samuel/verses.json",
+        "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Samuel 16:1",
+          "id": "v16-1",
+          "text": "The Lord said to Samuel, “How long will you mourn over Saul, when I have treated him as nothing so that he should not reign over Israel? Fill your horn with oil and come. I will send you to Jesse, to Bethlehem, for I have seen one among his sons to reign for Me.”",
+          "text_sha256": "04ae9bd7ed012c6e7631a239f35f0276759cd1b3f2b37eb5d67635ad498c34c0"
+        },
+        {
+          "reference": "1 Samuel 16:2",
+          "id": "v16-2",
+          "text": "Samuel said, “How can I go? Saul will hear and kill me.” The Lord said, “Take a heifer in your hand and say, ‘I have come to sacrifice to the Lord.’",
+          "text_sha256": "44cb6b92d0b57dc1848c8299dc100d588d0f1962cc2bd75fb865e2316c07881c"
+        },
+        {
+          "reference": "1 Samuel 16:3",
+          "id": "v16-3",
+          "text": "Invite Jesse to the sacrifice. I will make known to you what you must do, and you shall anoint the one I name to you.”",
+          "text_sha256": "ede504167f54f57777a53a8db52a5875cc652cb67b63ed1811d9aff61903d601"
+        },
+        {
+          "reference": "1 Samuel 16:4",
+          "id": "v16-4",
+          "text": "Samuel did everything the Lord had spoken to him and came to Bethlehem. The city’s elders were terrified at meeting him and said, “Do you enter in peace, seer?”",
+          "text_sha256": "423070a3ce23009fc40f7de734998ec846ec01cbafd26529956df2400aa42469"
+        },
+        {
+          "reference": "1 Samuel 16:5",
+          "id": "v16-5",
+          "text": "He said, “In peace. I have come to sacrifice to the Lord. Consecrate yourselves and rejoice with me today.” He consecrated Jesse and his sons and invited them to the sacrifice.",
+          "text_sha256": "0666f9695bd36bcbd0d4c36a389079f5baa09e5db57603cd7e7b3d9e19e342bd"
+        },
+        {
+          "reference": "1 Samuel 16:6",
+          "id": "v16-6",
+          "text": "When they came in, he saw Eliab and said, “Surely His anointed is before the Lord.”",
+          "text_sha256": "1e09c590f0a388aef49ac0ad759cdb7bdf8c1d05560ac4ecf3fa503f1a3913f0"
+        },
+        {
+          "reference": "1 Samuel 16:7",
+          "id": "v16-7",
+          "text": "The Lord said to Samuel, “Do not look at his appearance or the bearing of his height, for I have treated him as nothing. God does not see as a human looks: a human looks at the face, but God looks at the heart.”",
+          "text_sha256": "bb6e5d830e760f5652b63505a788b840ad902d1c5662602a519b6caaebcc0614"
+        },
+        {
+          "reference": "1 Samuel 16:8",
+          "id": "v16-8",
+          "text": "Jesse called Aminadab, and he passed before Samuel. He said, “The Lord has not chosen this one either.”",
+          "text_sha256": "c5c5d65ed8118b204ba9efc638d09781d87d46a87355194ce82a1ebb77e83ee9"
+        },
+        {
+          "reference": "1 Samuel 16:9",
+          "id": "v16-9",
+          "text": "Jesse made Shammah pass by. He said, “The Lord has not chosen this one either.”",
+          "text_sha256": "9292b97aa8a087f73b39248a31865956e7a0e306ca01bdff3e2637456fef4913"
+        },
+        {
+          "reference": "1 Samuel 16:10",
+          "id": "v16-10",
+          "text": "Jesse made his seven sons pass before Samuel. Samuel said, “The Lord has not chosen among these.”",
+          "text_sha256": "4a14e4cae38991d2f12a99bbcfcc54cf67c747d1e900617f305980d0d6ff9d6b"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 2:15",
+      "target": "Ruth 4:22",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both identify David as Jesse's son; the source's seventh-place count is not supplied by the target.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:15",
+        "id": "v2-15",
+        "text": "Asom the sixth, David the seventh.",
+        "text_sha256": "cb2103d6e2fcef6d024289594f78c6906d1235312b0bb5f784e4d275eedf3324"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "ruth/verses.json",
+        "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ruth/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Ruth 4:22",
+          "id": "v4-22",
+          "text": "and Obed begot Jesse, and Jesse begot David.",
+          "text_sha256": "2422fc231a68d7b69ddcf501c0931804fb2a9225497156d90d141127fd8154ae"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 2:16",
+      "target": "2 Samuel 2:18",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Joab and Asahel among Zeruiah's three sons; Abessa/Abishai is unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:16",
+        "id": "v2-16",
+        "text": "Their sister: Zeruiah and Abigail. Zeruiah’s sons were Abessa, Joab, and Asahel, three.",
+        "text_sha256": "843dcccd4535f2ee98cf7d47c229f3e187f8b560b183bf94b50b468cbf5dfbbd"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-samuel/verses.json",
+        "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Samuel 2:18",
+          "id": "v2-18",
+          "text": "The three sons of Zeruiah were there: Joab, Abishai, and Asahel. Asahel was light on his feet, like a gazelle in the field.",
+          "text_sha256": "9f44f9f36edeb80429c98fe57bf05367049009aa5c259fac282671ab692833d8"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:1",
+      "target": "2 Samuel 3:2-3",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place David's sons in Hebron, identify the firstborn Amnon by Ahinoam the Jezreelite, and name Abigail the Carmelite as the second son's mother; Daniel/Daluia is unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:1",
+        "id": "v3-1",
+        "text": "These were David’s sons born to him in Hebron: the firstborn, Amnon, by Ahinoam the Jezreelite; the second, Daniel, by Abigail the Carmelite;",
+        "text_sha256": "f63fda21cddb800ec4ac0db1604481cea5a9a53ef1d6984cb3e1c8ce92dbdd25"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-samuel/verses.json",
+        "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Samuel 3:2",
+          "id": "v3-2",
+          "text": "Sons were born to David in Hebron. His firstborn was Amnon, by Ahinoam the Jezreelite;",
+          "text_sha256": "5b0840cade86a1e728fcb76076369861705cccfc916b0d7626c040ef503200f4"
+        },
+        {
+          "reference": "2 Samuel 3:3",
+          "id": "v3-3",
+          "text": "his second was Daluia, by Abigail the Carmelite; and the third was Absalom son of Maacah, daughter of Talmai king of Geshur;",
+          "text_sha256": "ec8d914dd49e1bebc32a3c4dfb48e0c0f3886e143ddcc86a8e7c5c46e8d6949c"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:2",
+      "target": "2 Samuel 3:3-4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Absalom as David's third son in the Hebron list; mother, maternal grandfather, and fourth-son name differences are not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:2",
+        "id": "v3-2",
+        "text": "the third, Absalom son of Mocha daughter of Tholmai king of Gedsour; the fourth, Adonijah son of Aggith;",
+        "text_sha256": "2f092ea3f8f116e90c6ad39adf59eb9d7182aa3a6542c72c0c4677f93ccb6384"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-samuel/verses.json",
+        "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Samuel 3:3",
+          "id": "v3-3",
+          "text": "his second was Daluia, by Abigail the Carmelite; and the third was Absalom son of Maacah, daughter of Talmai king of Geshur;",
+          "text_sha256": "ec8d914dd49e1bebc32a3c4dfb48e0c0f3886e143ddcc86a8e7c5c46e8d6949c"
+        },
+        {
+          "reference": "2 Samuel 3:4",
+          "id": "v3-4",
+          "text": "the fourth was Ornia son of Phengith; and the fifth was Sabatia, by Abital;",
+          "text_sha256": "26b72491c64448abaf77aca38938ffe431f467aa7893b93455aaa3346d0f98f4"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:3",
+      "target": "2 Samuel 3:4-5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both place a son by Abital fifth and a son by David's wife sixth in the Hebron list; the differing child and sixth-wife names are unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:3",
+        "id": "v3-3",
+        "text": "the fifth, Saphatias, by Abital; the sixth, Jethraam, by his wife Agla.",
+        "text_sha256": "4c3b57bd5979b1f1aaf47822622bdb9e5c72d0c8610b2cd33bcc016b43a5883a"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "2-samuel/verses.json",
+        "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "2 Samuel 3:4",
+          "id": "v3-4",
+          "text": "the fourth was Ornia son of Phengith; and the fifth was Sabatia, by Abital;",
+          "text_sha256": "26b72491c64448abaf77aca38938ffe431f467aa7893b93455aaa3346d0f98f4"
+        },
+        {
+          "reference": "2 Samuel 3:5",
+          "id": "v3-5",
+          "text": "and the sixth was Ithream, by Eglah, David’s wife. These were born to David in Hebron.",
+          "text_sha256": "114ae1ebdabc15a554ddf17154dcea734f1d227843201be901781c93d7793dcc"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:5",
+      "target": "1 Chronicles 14:3-4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Samaa, Nathan, and Solomon among David's sons born in Jerusalem; Sobab/Isobaam and maternal details are not harmonized.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:5",
+        "id": "v3-5",
+        "text": "These were born to him in Jerusalem: Samaa, Sobab, Nathan, and Solomon, four by Bersabee daughter of Amiel,",
+        "text_sha256": "443236de30f7bcb25f99cc83849423cc04857349e76b373829a17a820e31b36c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 14:3",
+          "id": "v14-3",
+          "text": "David took more wives in Jerusalem, and more sons and daughters were born to David.",
+          "text_sha256": "368848ef6f45826031e17331e46c22e6c879cc6ea2a579d7cba9e91fec418adf"
+        },
+        {
+          "reference": "1 Chronicles 14:4",
+          "id": "v14-4",
+          "text": "These were the names of those born to him in Jerusalem: Samaa, Isobaam, Nathan, Solomon,",
+          "text_sha256": "0d0edafe1ab9ed898691c7daab296f8a1cefe88ab429b76524f4c3250c9446ba"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:6",
+      "target": "1 Chronicles 14:5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Ibaar and Eliphalet in David's Jerusalem family; Elisama/Elisae remains unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:6",
+        "id": "v3-6",
+        "text": "and Ibaar, Elisama, and Eliphalet,",
+        "text_sha256": "627653c4861cd02622ce9980fc0198af0b285a6dab6701a0288c634f98a35ca5"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 14:5",
+          "id": "v14-5",
+          "text": "Ibaar, Elisae, and Eliphalet,",
+          "text_sha256": "1833ae3a27b68d1de5328e844d7eeae7fa5240e9fa5fe8a0fcbaad350ecb5ad8"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:7",
+      "target": "1 Chronicles 14:6",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Nage and Naphag in David's Jerusalem family; Janoue/Janouou remains unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:7",
+        "id": "v3-7",
+        "text": "Nage, Naphag, and Janoue,",
+        "text_sha256": "5f0d5ef7083e179f6ee48c525636fb1dbd650da89e3f59c2951129736d363545"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 14:6",
+          "id": "v14-6",
+          "text": "Nage, Naphag, and Janouou,",
+          "text_sha256": "b1012cebbf6dc778458f80009ed60504bab9098122e5f7e1dc4cb2074d20a0d5"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:8",
+      "target": "1 Chronicles 3:5",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "These names close the additional Jerusalem sons after the target's four by Bersabee. The source's own 'nine' applies to this continuation; repeated names are not merged.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:8",
+        "id": "v3-8",
+        "text": "Elisama, Eliada, and Eliphalet, nine.",
+        "text_sha256": "d01101ff23132cb28781be91ed7567988c53b0b9e9814bdf31835341a9978615"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 3:5",
+          "id": "v3-5",
+          "text": "These were born to him in Jerusalem: Samaa, Sobab, Nathan, and Solomon, four by Bersabee daughter of Amiel,",
+          "text_sha256": "443236de30f7bcb25f99cc83849423cc04857349e76b373829a17a820e31b36c"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 3:10",
+      "target": "Matthew 1:7",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly trace Solomon to Rehoboam; Abia/Abijah and Asa/Asaph remain differing forms.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 3:10",
+        "id": "v3-10",
+        "text": "Solomon’s sons: Rehoboam; Abia his son, Asa his son, Jehoshaphat his son,",
+        "text_sha256": "85c1cb4dc3048d7b12d72f4debdf7309da91af47609d0e8f1aec42fd9f42403e"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "matthew/verses.json",
+        "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Matthew 1:7",
+          "id": "v1-7",
+          "text": "Solomon begot Rehoboam; Rehoboam begot Abijah; Abijah begot Asaph;",
+          "text_sha256": "5cfee0030c5c1e39832239496d4384464d4e5f1b153c759263066f5ebd7e4cc3"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 4:1",
+      "target": "1 Chronicles 2:4",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly name Phares as Judah's son; this does not flatten the other names in the source into immediate sons or identify Arson with another form.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:1",
+        "id": "v4-1",
+        "text": "Judah’s sons: Phares, Arson, Charmi, Or, Soubal,",
+        "text_sha256": "3f3bc4338f726f60c5efc9fbdc9b84519e43bf2521c0d37fe1efe19fbdcad04b"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 2:4",
+          "id": "v2-4",
+          "text": "Tamar his daughter-in-law bore him Phares and Zara. Judah’s sons were five in all.",
+          "text_sha256": "12ff8d438aba91385da58bd429cc965aee4c334159647e1be84fa9752c296f77"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 4:4",
+      "target": "1 Chronicles 2:50",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly call Or Ephratha's firstborn; their separate father-of-place statements are retained without equating the places or their roles.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:4",
+        "id": "v4-4",
+        "text": "Phanouel was Gedor’s father, and Azer was Osan’s father. These were the sons of Or, Ephratha’s firstborn, Bethlehem’s father.",
+        "text_sha256": "f07afc1f6dab84aedce4fb0e05a1dcf0a0523daadfccf325de5631200f56b30a"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 2:50",
+          "id": "v2-50",
+          "text": "These were Caleb’s sons. The sons of Or, Ephratha’s firstborn: Sobal, Kariathiarim’s father,",
+          "text_sha256": "3f50b90b48c4f73cf5d5bd8377201dc6edfda16aad3ed214845669fb292e43e3"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 4:11",
+      "target": "1 Chronicles 2:49",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Caleb as Ascha's father; this pair does not identify his other children with differently named Caleb families.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:11",
+        "id": "v4-11",
+        "text": "Caleb, Ascha’s father, begot Machir, who was Assathon’s father.",
+        "text_sha256": "b569e6ecde75805b982dc576de778a69e80ce0076f675e2d3cfc7208aa44b90d"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 2:49",
+          "id": "v2-49",
+          "text": "She bore Sagaph, Marmena’s father, and Saou, Machabena’s father and Gaibaa’s father. Caleb’s daughter was Ascha.",
+          "text_sha256": "19589842f50f6032e1e1e59db9c78052406b688a31d6ca73086f7f5fd6214b08"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 4:13",
+      "target": "Joshua 15:17",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Othniel as Kenaz's son; the source's Saraia and Athath are not supplied by the target.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:13",
+        "id": "v4-13",
+        "text": "Kenaz’s sons: Othniel and Saraia. Othniel’s sons: Athath.",
+        "text_sha256": "01fe98873846a141ee0523db909c37b6a3aaaae5813feadaf8e4176743e474ab"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "joshua/verses.json",
+        "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Joshua 15:17",
+          "id": "v15-17",
+          "text": "Othniel son of Kenaz, Caleb’s younger brother, took it, and he gave him his daughter Achsah as his wife.",
+          "text_sha256": "7fc106be0eeee14ee922ad68d36dc729250771cfd46123cf81470a44abccf5d6"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 4:14",
+      "target": "1 Chronicles 4:13",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Saraia, named as Joab's father in the source, is explicitly among Kenaz's sons in the target; this Joab is not equated with Zeruiah's son.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:14",
+        "id": "v4-14",
+        "text": "Manathi begot Gophera. Saraia begot Joab, father of Ageaddair, for they were craftsmen.",
+        "text_sha256": "4a87bf552540406e5f9922291ba23f2c009a6a4ecd6874da494e2ff5036715ff"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 4:13",
+          "id": "v4-13",
+          "text": "Kenaz’s sons: Othniel and Saraia. Othniel’s sons: Athath.",
+          "text_sha256": "01fe98873846a141ee0523db909c37b6a3aaaae5813feadaf8e4176743e474ab"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 4:15",
+      "target": "1 Chronicles 6:41",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly identify Caleb as son of Jephonne. The source lists his descendants; the target records the city's plains and villages given to him. This does not identify him with other Caleb families.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:15",
+        "id": "v4-15",
+        "text": "The sons of Caleb son of Jephonne: Hera, Ala, and Noom. Ala’s sons: Kenaz.",
+        "text_sha256": "42358a065e1c467e66ce077d45e23c0931772bdeddb583293b0c7a5b7c146a3c"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 6:41",
+          "id": "v6-41",
+          "text": "They gave the city’s plains and its villages to Caleb son of Jephonne.",
+          "text_sha256": "7eec0073c9206cc06976cca77f7eeda8d9eaf67f4cb0736d47367729d2b1e08e"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 4:24",
+      "target": "Genesis 46:10",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both explicitly name Jamin as Simeon's son; the remaining differing child names are unresolved.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:24",
+        "id": "v4-24",
+        "text": "Simeon’s sons: Namouel, Jamin, Jarib, Zare, and Saul,",
+        "text_sha256": "5e70f1de3dd04787bd046f99ca276461756b18946301918a6e94bdb4e5e7f9a7"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "genesis/verses.json",
+        "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Genesis 46:10",
+          "id": "v46-10",
+          "text": "And Simeon’s sons: Jemuel, Jamin, Aod, Jachin, Saar, and Shaul the son of the Canaanite woman.",
+          "text_sha256": "c48218823a141bc3aa92346b49db997444e305b32777dfec1f4cdaead811c594"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 5:29",
+      "target": "Exodus 6:20-23",
+      "status": "unresolved proposed name, role, count, or place equation; retained bounded facts only",
+      "reason": "Both name Aaron and Moses in the same family and identify Nadab, Eleazar, and Ithamar as Aaron's sons; Ambram/Amram, Mariam/Miriam, and Abioud/Abihu remain unresolved forms.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 5:29",
+        "id": "v5-29",
+        "text": "Ambram’s sons: Aaron, Moses, and Mariam. Aaron’s sons: Nadab, Abioud, Eleazar, and Ithamar.",
+        "text_sha256": "2d43847a2c59bf6e463b8bb189cb036b488b6aaf17751a55725cbeb9ba0c3c22"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "exodus/verses.json",
+        "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Exodus 6:20",
+          "id": "v6-20",
+          "text": "Amram took Jochebed, the daughter of his father’s brother, as his wife, and she bore him Aaron, Moses, and their sister Miriam. Amram lived one hundred and thirty-two years.",
+          "text_sha256": "3973827cdbaf6bb22f21ca42b10862d6d9c53d05f0ec00fbe89add8efb14762b"
+        },
+        {
+          "reference": "Exodus 6:21",
+          "id": "v6-21",
+          "text": "The sons of Izhar: Korah, Nepheg, and Zichri.",
+          "text_sha256": "30ecc9690a48783117b60f791819c5773e2a2a1c52a479efcf92c1fe208643f6"
+        },
+        {
+          "reference": "Exodus 6:22",
+          "id": "v6-22",
+          "text": "The sons of Uzziel: Elzaphan and Sithri.",
+          "text_sha256": "2fd3f2806934ea10517d7ab73460df006314156020619a514782ac92dce6122b"
+        },
+        {
+          "reference": "Exodus 6:23",
+          "id": "v6-23",
+          "text": "Aaron took Elisheba, daughter of Amminadab and sister of Nahshon, as his wife. She bore him Nadab, Abihu, Eleazar, and Ithamar.",
+          "text_sha256": "3bfc818a7910c39e82276e0b27621c09c9a65191115a33dd596c3446af19370d"
+        }
+      ],
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30"
+    }
+  ],
   "checked_scope": {
-    "source_passage": null,
-    "source_verse_units": 0,
-    "retained_pairs": 0,
-    "distinct_target_verse_units": 0
+    "source_passage": "1 Chronicles 1:1-14:17",
+    "source_passage_is_review_scope": true,
+    "source_units_read": 528,
+    "source_verse_units": 516,
+    "deferred_source_units": 12,
+    "retained_pairs": 516,
+    "distinct_target_verse_units": 503
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -59,9 +1960,360 @@
     "completed_review_credit": 0
   },
   "pending": [
-    "1 Chronicles 1–29 initial curated cross-reference pass",
-    "Remaining Old Testament source inventories and review",
+    "First pending source unit: 1 Chronicles 1:24",
+    "Never-reviewed source units start at 1 Chronicles 15:1",
+    "Read but deferred source units: 1 Chronicles 1:24, 1 Chronicles 1:52, 1 Chronicles 2:47, 1 Chronicles 4:3, 1 Chronicles 4:8, 1 Chronicles 4:16, 1 Chronicles 4:17, 1 Chronicles 4:18, 1 Chronicles 4:19, 1 Chronicles 4:20, 1 Chronicles 7:12, 1 Chronicles 7:19",
+    "Remaining Old Testament inventories and review",
     "Independent specialist review",
-    "Live destination anchors and reader display checks"
-  ]
+    "Live destination anchors and reader display checks",
+    "Target evidence pending: 1 Chronicles 1:2 / Genesis 5:15",
+    "Target evidence pending: 1 Chronicles 1:7 / Genesis 10:4",
+    "Target evidence pending: 1 Chronicles 1:25 / Genesis 11:16-18",
+    "Target evidence pending: 1 Chronicles 1:29 / Genesis 25:12-13",
+    "Target evidence pending: 1 Chronicles 1:30 / Genesis 25:13-15",
+    "Target evidence pending: 1 Chronicles 1:32 / Genesis 25:1-2",
+    "Target evidence pending: 1 Chronicles 1:33 / Genesis 25:4",
+    "Target evidence pending: 1 Chronicles 1:35 / Genesis 36:4-5",
+    "Target evidence pending: 1 Chronicles 1:36 / Genesis 36:11-12",
+    "Target evidence pending: 1 Chronicles 1:41 / 1 Chronicles 1:38",
+    "Target evidence pending: 1 Chronicles 1:42 / 1 Chronicles 1:38",
+    "Target evidence pending: 1 Chronicles 1:44 / Genesis 36:33",
+    "Target evidence pending: 1 Chronicles 1:45 / Genesis 36:34",
+    "Target evidence pending: 1 Chronicles 1:46 / Genesis 36:35",
+    "Target evidence pending: 1 Chronicles 1:50 / Genesis 36:39",
+    "Target evidence pending: 1 Chronicles 1:53 / Genesis 36:42",
+    "Target evidence pending: 1 Chronicles 1:54 / Genesis 36:43",
+    "Target evidence pending: 1 Chronicles 2:3 / Genesis 38:2-7",
+    "Target evidence pending: 1 Chronicles 2:4 / Genesis 38:24-30",
+    "Target evidence pending: 1 Chronicles 2:7 / Joshua 7:1",
+    "Target evidence pending: 1 Chronicles 2:11 / Matthew 1:5",
+    "Target evidence pending: 1 Chronicles 2:13 / 1 Samuel 16:1-10",
+    "Target evidence pending: 1 Chronicles 2:15 / Ruth 4:22",
+    "Target evidence pending: 1 Chronicles 2:16 / 2 Samuel 2:18",
+    "Target evidence pending: 1 Chronicles 3:1 / 2 Samuel 3:2-3",
+    "Target evidence pending: 1 Chronicles 3:2 / 2 Samuel 3:3-4",
+    "Target evidence pending: 1 Chronicles 3:3 / 2 Samuel 3:4-5",
+    "Target evidence pending: 1 Chronicles 3:5 / 1 Chronicles 14:3-4",
+    "Target evidence pending: 1 Chronicles 3:6 / 1 Chronicles 14:5",
+    "Target evidence pending: 1 Chronicles 3:7 / 1 Chronicles 14:6",
+    "Target evidence pending: 1 Chronicles 3:8 / 1 Chronicles 3:5",
+    "Target evidence pending: 1 Chronicles 3:10 / Matthew 1:7",
+    "Target evidence pending: 1 Chronicles 4:1 / 1 Chronicles 2:4",
+    "Target evidence pending: 1 Chronicles 4:4 / 1 Chronicles 2:50",
+    "Target evidence pending: 1 Chronicles 4:11 / 1 Chronicles 2:49",
+    "Target evidence pending: 1 Chronicles 4:13 / Joshua 15:17",
+    "Target evidence pending: 1 Chronicles 4:14 / 1 Chronicles 4:13",
+    "Target evidence pending: 1 Chronicles 4:15 / 1 Chronicles 6:41",
+    "Target evidence pending: 1 Chronicles 4:24 / Genesis 46:10",
+    "Target evidence pending: 1 Chronicles 5:29 / Exodus 6:20-23"
+  ],
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Chronicles 1:24",
+      "reason": "The actual source unit is only Sala. Its proposed comparison with Shelah or a differently placed Sala would require an unverified identity; the neighboring bare list alone is insufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:24",
+        "id": "v1-24",
+        "text": "Sala,",
+        "text_sha256": "d32d89183970cf658b212f130368f1b4b19cd2b5e0f408a99771dc0fbc8b8833"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 1:52",
+      "reason": "Elibamas, Elas, and Phinon have no exact read parallel establishing their particular chief identities; the differently written Genesis names are not independently equated and a generic chiefs-list link is insufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 1:52",
+        "id": "v1-52",
+        "text": "Chief Elibamas, Chief Elas, Chief Phinon,",
+        "text_sha256": "00e752741dca11288c7fe27db683da27d648ee17bc105667a59c5a9367dc5741"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 2:47",
+      "reason": "Jadai's sons have no explicit genealogical link to the adjacent Caleb-concubine account. Repeated Gaipha or Sagaph names cannot establish identity, and mere inclusion in a family list is insufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 2:47",
+        "id": "v2-47",
+        "text": "Jadai’s sons: Ragem, Jotham, Gersom, Phalet, Gaipha, and Sagaph.",
+        "text_sha256": "ed43250085361d15aaa7d7e3f8a1ed9f9374ccbcfde998acd964da3a57a9295e"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 4:3",
+      "reason": "Aitam's sons Jezrael, Ragma, and Jabas and their sister Eselebbōn lack a sufficiently specific secure read counterpart; an Aitam place-name occurrence does not identify this parent.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:3",
+        "id": "v4-3",
+        "text": "These were Aitam’s sons: Jezrael, Ragma, and Jabas. Their sister’s name was Eselebbōn.",
+        "text_sha256": "1c2706d35c946e2627c00025bef905ec9a727619aee15823ddcf0d6c27135224"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 4:8",
+      "reason": "Kos, Enob, Sabeba, and the brother of Rechab son of Jarim lack a secure read counterpart; a different Rechab-house mention does not establish identity.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:8",
+        "id": "v4-8",
+        "text": "Kos begot Enob and Sabeba, and the generations of the brother of Rechab son of Jarim.",
+        "text_sha256": "7a3c33e17126d77af16bc8371d53eddd15ef5e1d43093fb8f90729ab1ecad96b"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 4:16",
+      "reason": "The supplied 'His son' followed by five names has an uncertain antecedent and relationship structure after the preceding Ala/Kenaz branch; no forced father assignment is credited.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:16",
+        "id": "v4-16",
+        "text": "His son: Geseel, Ameachi, Zapha, Zaira, and Eserael.",
+        "text_sha256": "d68c3a9d4c5e74ed63f8fd34476b53f7f452ba45b8e6945ba24e5b61a718894d"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 4:17",
+      "reason": "The next unit's 'His wife' has an uncertain named antecedent in the supplied wording, especially alongside Jether, Morad, and Mored. Do not assign the wife or children to a particular man through an independent harmonization.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:17",
+        "id": "v4-17",
+        "text": "Esri’s sons: Jether, Morad, Apher, and Jalon. Jether begot Maron, Semai, and Mareth, Esthemon’s father.",
+        "text_sha256": "f7af95a608111684b7faf5511cb8efd214dd2d2bcebc95063b5f27951085cfad"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 4:18",
+      "reason": "The opening 'His wife' and closing Gelia/Mored wording do not supply an independently secure named husband across the adjacent unit. Adia/Gelia and Morad/Mored identities remain unresolved.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:18",
+        "id": "v4-18",
+        "text": "His wife—she was Adia—bore Jared, Gedor’s father, Aber, Sochon’s father, and Jekthiel, Zano’s father. These were the sons of Gelia daughter of Pharaoh, whom Mored took.",
+        "text_sha256": "01ef0b0a33d5c987a3cc94639dee1bee7bd73a4c62652e3c13a755f703b2f319"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 4:19",
+      "reason": "The supplied Idouia/Nachem and Naem family and Keila/Esthemoe Machathi wording lacks a secure particular read counterpart; geographic or phonetic similarities are not sufficient.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:19",
+        "id": "v4-19",
+        "text": "The sons of the woman Idouia, Nachem’s sister. Dalia was Keila’s father, and Semeion was Joman’s father. The sons of Naem, Keila’s father: Agarmi and Esthemoe Machathi.",
+        "text_sha256": "520318496c42634df3adaad15fbc745f5e2f4a4cdc0f833e3ae4928e1e7037cd"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 4:20",
+      "reason": "Semion's and Isei's named family branches lack a secure read counterpart; other Amnon, Anan, or differently written Jesi occurrences do not establish identities.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "status": "pending further substantive review",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 4:20",
+        "id": "v4-20",
+        "text": "Semion’s sons: Amnon and Rana, Anan’s son, and Thilon. Isei’s sons: Zoath and Zoath’s sons.",
+        "text_sha256": "705de0d8071274bfea0600e56463a3f97548d9fff9f68f43eb3656ba68d648cc"
+      },
+      "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z"
+    },
+    {
+      "source_reference": "1 Chronicles 7:12",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source reads: ‘Sapphin and Apphin, and Raom’s sons; his son Aer.’ Exact-name searches found these forms only in this unit; no actual-text parent/clan bridge or substantiated equivalence was established. The neighboring Jadiel and Naphtali entries do not establish their identities.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 7:12",
+        "id": "v7-12",
+        "text": "Sapphin and Apphin, and Raom’s sons; his son Aer.",
+        "text_sha256": "95664b6363ba24f76cd1832bd5899f8929fd5a5ff360c9399a12d4b31fcd98b7"
+      },
+      "reviewer": "Codex /root/chron_6_9 (AI author reviewer)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z",
+      "source_unit_read": true
+    },
+    {
+      "source_reference": "1 Chronicles 7:19",
+      "target": null,
+      "status": "pending initial curated cross-reference; no supported target retained",
+      "reason": "The complete source lists Semira's sons Jaaim, Sychem, Lakei, and Aniam. No explicit parent/clan bridge for Semira was established in the actual pinned texts. Location within a genealogy alone was not used to manufacture a parentage equation or credited parallel.",
+      "source_and_necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 7:19",
+        "id": "v7-19",
+        "text": "Semira’s sons were Jaaim, Sychem, Lakei, and Aniam.",
+        "text_sha256": "344e228ba4741e62442d0a7538c5a6563ec324cdd81e16e46e10d0c273418185"
+      },
+      "reviewer": "Codex /root/chron_6_9 (AI author reviewer)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T092501Z",
+      "source_unit_read": true
+    }
+  ],
+  "next_unreviewed_reference": "1 Chronicles 15:1"
 }

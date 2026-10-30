@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "reviewer": "Codex /root/chron_peer_6_9 (independent AI peer reviewer)",
+  "reviewer_role": "Independent AI peer personally read every retained complete source/target/category/rationale triple and both deferred source units, then independently reread the changed final complete triple and corrected deferred-source wording. Author read flags and inherited metadata were not used as substitutes for passage reading.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30 09:50:05 UTC",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "input_file": "1-chronicles-6-9.tsv",
+  "input_sha256": "a26f77b527d59c5ed12ed3c94ad19b8ee9e465478eccbc88344ea5cbb0b604c0",
+  "final_input_sha256": "a26f77b527d59c5ed12ed3c94ad19b8ee9e465478eccbc88344ea5cbb0b604c0",
+  "author_receipt_file": "1-chronicles-6-9-review.json",
+  "author_receipt_sha256": "eaf0e2ee8519309425299a15c90ee78fca29759807561642e781e2479b2b624d",
+  "final_author_receipt_snapshot": "1-chronicles-6-9-after-peer-precision-review.json",
+  "initial_reviewed_input_snapshot": "1-chronicles-6-9-before-peer-precision.tsv",
+  "initial_reviewed_input_sha256": "0303808a0ecc18f56d0020e7030b4186485625bb3ae9f78b616334a624c8950a",
+  "initial_author_receipt_snapshot": "1-chronicles-6-9-before-peer-precision-review.json",
+  "initial_author_receipt_sha256": "97b8d8ee09195a8fa8fba824952364fe93a9608395143bbd5d7a9597772157c3",
+  "pin_receipt": "1-chronicles-6-9-peer-independent-pins.json",
+  "pin_receipt_sha256": "a9419e09eac324a134c73cf1c523fd0c396391fdf70a8526f489cc08f7a912e7",
+  "own_pin_metadata_file": "1-chronicles-6-9-peer-independent-pins.json",
+  "own_pin_metadata_sha256": "a9419e09eac324a134c73cf1c523fd0c396391fdf70a8526f489cc08f7a912e7",
+  "source_chapters": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "source_verses": 188,
+  "completed_source_verses": 188,
+  "source_units_read": 190,
+  "source_inventory_units_in_scope": 190,
+  "completed_pairs": 188,
+  "distinct_target_verse_units": 159,
+  "distinct_target_passage_references": 143,
+  "chapter_source_counts": {
+    "6": 66,
+    "7": 40,
+    "8": 40,
+    "9": 44
+  },
+  "chapter_completed_source_counts": {
+    "6": 66,
+    "7": 38,
+    "8": 40,
+    "9": 44
+  },
+  "chapter_pair_counts": {
+    "6": 66,
+    "7": 38,
+    "8": 40,
+    "9": 44
+  },
+  "completed_source_chapters": [
+    6,
+    8,
+    9
+  ],
+  "partially_completed_source_chapters": [
+    7
+  ],
+  "all_source_units_in_scope_independently_read": true,
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_read": true,
+  "all_complete_triples_independently_read": true,
+  "all_corrected_complete_triples_independently_reread": true,
+  "necessary_context_read": true,
+  "reading_inherited_from_author": false,
+  "initial_unclipped_full_triple_read_groups": [
+    {
+      "first_pair": 1,
+      "last_pair": 30,
+      "count": 30
+    },
+    {
+      "first_pair": 31,
+      "last_pair": 66,
+      "count": 36
+    },
+    {
+      "first_pair": 67,
+      "last_pair": 104,
+      "count": 38
+    },
+    {
+      "first_pair": 105,
+      "last_pair": 144,
+      "count": 40
+    },
+    {
+      "first_pair": 145,
+      "last_pair": 188,
+      "count": 44
+    }
+  ],
+  "output_clipping_requiring_recovery": false,
+  "context_ranges_read": [
+    "1 Chronicles 7:10-20",
+    "1 Chronicles 23:24-32",
+    "Joshua 21:1-21",
+    "Exodus 30:22-38",
+    "Leviticus 6:12-16",
+    "Leviticus 24:1-9",
+    "2 Kings 24:10-17"
+  ],
+  "context_range_distinct_units_read": 80,
+  "extra_context_units_outside_sources_and_targets": 48,
+  "total_distinct_source_target_context_units_read": 269,
+  "review_method": "Read complete_text for every retained source and every unit expanded by each target reference through show-triples.py, in five bounded groups without truncation. This was independent actual passage reading, not an audit of inherited author flags. Also read both deferred units and their necessary neighboring context, and additional target context to identify Levite-service referents, the Hebron/Caleb grant, Aaron's city total, the Babylonian deportation, spice compounding, the anointed priest's griddle gift, Sabbath loaves, and recurring praise. Reviewed actual chapter-six boundaries (66 units), parent/offspring wording, clan headings and terminal list attributions, source-versus-target name lists, figures, gender, residence, Manasseh versus half-Manasseh, and unresolved pronouns. Retained same-chapter links rely on actual continuing grammar or named clan/household scope; they do not receive credit merely because lists contain people. Literal same-chapter category equivalence was independently checked with zero errors. After the two precision findings, reread the entire corrected final 7:15 source/target/category/rationale triple and the exact corrected 7:12 deferred reason. Independently compared preserved initial and final TSV records: the sole row change is the 7:15 rationale; every other row, target and category is unchanged. Counts were independently derived from actual retained records and expanded target units. Range targets count as one pair.",
+  "pin_method": "In this peer turn, freshly fetched all five used books from raw.githubusercontent.com at the fixed source commit into uniquely named peer-independent raw files, separately from the author pins. Computed each fetched raw SHA256 and full Git blob SHA1, matched the pinned source-check registry identity and asserted complete parsed-cache equality. Before accepting the final packet, independently reread those saved raw bytes and recomputed both hashes and full parsed-cache equality again. Raw-byte equality with the local caches is false; the recorded LF/CRLF normalization differences do not affect the verified full parsed equality. No author pin file or metadata was overwritten. Pin verification and extra context reading add zero completion credit.",
+  "independently_verified_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+      "raw_file": "1-chronicles-6-9-peer-independent-pin-1-chronicles.json",
+      "raw_sha256": "2f3b41f3542698e2808137f822d03f704f8fc1dff5d4ced8cee815289c2ef730"
+    },
+    {
+      "book": "2 Kings",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "raw_file": "1-chronicles-6-9-peer-independent-pin-2-kings.json",
+      "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "raw_file": "1-chronicles-6-9-peer-independent-pin-exodus.json",
+      "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+      "raw_file": "1-chronicles-6-9-peer-independent-pin-joshua.json",
+      "raw_sha256": "eb93d63cea7acf7f4e4b28b1c35436ad11acd02a5be7d25ce5c95d737ea54040"
+    },
+    {
+      "book": "Leviticus",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_file": "1-chronicles-6-9-peer-independent-pin-leviticus.json",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca"
+    }
+  ],
+  "independent_fresh_raw_pin_fetch_complete": true,
+  "all_five_raw_git_blob_hashes_verified": true,
+  "all_five_raw_sha256_hashes_verified": true,
+  "all_five_complete_parsed_caches_equal_pinned_raw": true,
+  "resolved_peer_findings": [
+    {
+      "source_reference": "1 Chronicles 7:15",
+      "resolution": "The final rationale quotes the 'His sister' phrase naming Moocha and explicitly leaves the sister pronoun's antecedent undecided. The complete final source/target/category/rationale triple was independently reread and accepted.",
+      "completed_pair_credit_added": 0
+    },
+    {
+      "source_reference": "1 Chronicles 7:12",
+      "resolution": "The final author receipt quotes the actual complete source: ‘Sapphin and Apphin, and Raom’s sons; his son Aer.’ The missing conjunction and altered punctuation were corrected without resolving parentage or supplying a target. Independently reread and accepted as zero-credit pending.",
+      "completed_pair_credit_added": 0
+    }
+  ],
+  "precision_stage_file": "1-chronicles-6-9-peer-precision-refinements.json",
+  "precision_stage_sha256": "af3f9beaa1f9f8bb8ee699c455b9eaab27020667e804620d35d52b8a44fbb078",
+  "required_corrections": [],
+  "required_removals": [],
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Chronicles 7:12",
+      "actual_complete_source": "Sapphin and Apphin, and Raom’s sons; his son Aer.",
+      "target": null,
+      "source_and_necessary_context_independently_read": true,
+      "reason": "No supported actual-text identity or parent/clan bridge was established. Exact-token checks found Sapphin, Apphin, Raom and Aer only in this source unit; neighboring Jadiel and Naphtali entries do not establish an identity.",
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 7:19",
+      "actual_complete_source": "Semira’s sons were Jaaim, Sychem, Lakei, and Aniam.",
+      "target": null,
+      "source_and_necessary_context_independently_read": true,
+      "reason": "No supported actual-text parent/clan bridge for Semira was established. Exact-token checks found Semira, Jaaim, Lakei and Aniam only in this source unit; the occurrence of Sychem elsewhere does not establish a personal identity or parentage.",
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "limitations": "Initial supplied-English AI curation and independent AI peer review only. No exhaustive discovery, original-language or apparatus review, independent human specialist review, phonetic identity equations, missing-name restoration, figure reconciliation or resolution of ambiguous kinship/resettlement/residence pronouns is claimed. Actual source wording, names, stated figures, roles and site wording remain distinct. Two source units remain genuinely uncompleted with zero credit.",
+  "inventory_completion_credit": 0,
+  "technical_checks_completion_credit": 0,
+  "additional_context_completion_credit": 0,
+  "repository_mutations_by_peer": false
+}

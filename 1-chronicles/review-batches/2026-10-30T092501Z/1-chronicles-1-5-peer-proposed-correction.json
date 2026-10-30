@@ -1,0 +1,41 @@
+{
+  "reviewer": "Codex /root/chron_peer_1_5_retry (independent AI peer reviewer)",
+  "reviewed": "2026-10-30",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "before_file": "1-chronicles-1-5-before-peer-precision.tsv",
+  "before_sha256": "83a1b0d5b3de34d4b4900997e0dc6e2bf202c20c799c6984b060addc273c1357",
+  "after_file": "1-chronicles-1-5-peer-proposed.tsv",
+  "after_sha256": "79add5d6eb7a171b391b4e9b1b977cd1765250726cfe899e8c96b8f270667339",
+  "author_receipt_file": "1-chronicles-1-5-before-peer-precision-review.json",
+  "author_receipt_sha256": "939224f5f9cbd9c4fa97f73a4315f8c5125c873cad5ba9d0e6a26f30349450b6",
+  "retained_pairs": 195,
+  "source_units_read": 205,
+  "deferred_source_count": 10,
+  "changes": [
+    {
+      "source_reference": "1 Chronicles 2:36",
+      "old_row": {
+        "source_reference": "1 Chronicles 2:36",
+        "target": "1 Chronicles 2:35",
+        "relationship": "same-chapter genealogy",
+        "rationale": "Eththi, whose descendants Nathan and Zabed are given here, is named as the child born from the Sosan-Jochel marriage in the target."
+      },
+      "new_row": {
+        "source_reference": "1 Chronicles 2:36",
+        "target": "1 Chronicles 2:35",
+        "relationship": "same-chapter genealogy",
+        "rationale": "Eththi, whose descendants Nathan and Zabed are given here, is named as the child born to Jochel and Sosan's daughter in the target."
+      },
+      "reason": "The target marries Sosan's daughter to Jochel. 'Sosan-Jochel marriage' can imply the wrong spouse; the correction names the actual parents of Eththi.",
+      "complete_original_triple_independently_read": true,
+      "complete_corrected_triple_independently_read": true,
+      "necessary_context_read": [
+        "1 Chronicles 2:34-36"
+      ],
+      "completed_pair_credit": 0,
+      "completed_source_credit": 0
+    }
+  ],
+  "pending_source_and_target_questions_preserved": true,
+  "no_other_tsv_bytes_changed": true
+}

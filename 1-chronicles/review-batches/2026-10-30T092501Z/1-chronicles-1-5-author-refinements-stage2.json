@@ -1,0 +1,49 @@
+{
+  "before_file": "1-chronicles-1-5-before-author-refinements-stage2.tsv",
+  "before_sha256": "f6f43db8dae7f1322d44d59fb1798eea5f04a5810455322dd28d0fe25380e5e9",
+  "after_file": "1-chronicles-1-5-after-author-refinements-stage2.tsv",
+  "after_sha256": "83a1b0d5b3de34d4b4900997e0dc6e2bf202c20c799c6984b060addc273c1357",
+  "changes": [
+    {
+      "source_reference": "1 Chronicles 1:41",
+      "action": "refine",
+      "old_row": {
+        "source_reference": "1 Chronicles 1:41",
+        "target": "1 Chronicles 1:38",
+        "relationship": "same-chapter genealogy",
+        "rationale": "Ana and Deson, whose offspring are given in the source, are separately named as Seir's sons in the target."
+      },
+      "new_row": {
+        "source_reference": "1 Chronicles 1:41",
+        "target": "1 Chronicles 1:38",
+        "relationship": "same-chapter genealogy",
+        "rationale": "Deson, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not decide whether the repeated Ana and Daison names across adjacent units denote the same people."
+      },
+      "reason": "Retain only the unique named Deson or Osar parent branch; do not independently equate repeated Ana or Daison names with different stated generational roles.",
+      "complete_original_triple_separately_reread": true,
+      "complete_corrected_triple_separately_reread": true
+    },
+    {
+      "source_reference": "1 Chronicles 1:42",
+      "action": "refine",
+      "old_row": {
+        "source_reference": "1 Chronicles 1:42",
+        "target": "1 Chronicles 1:38",
+        "relationship": "same-chapter genealogy",
+        "rationale": "Osar and Daison, whose sons are given here, are separately named among Seir's sons in the target."
+      },
+      "new_row": {
+        "source_reference": "1 Chronicles 1:42",
+        "target": "1 Chronicles 1:38",
+        "relationship": "same-chapter genealogy",
+        "rationale": "Osar, whose sons are named in the source, is explicitly among Seir's sons in the target. This bounded named branch does not identify the source's Daison with either occurrence in the neighboring units."
+      },
+      "reason": "Retain only the unique named Deson or Osar parent branch; do not independently equate repeated Ana or Daison names with different stated generational roles.",
+      "complete_original_triple_separately_reread": true,
+      "complete_corrected_triple_separately_reread": true
+    }
+  ],
+  "corrected_triples_file": "1-chronicles-1-5-corrected-triples-stage2.tsv",
+  "corrected_triples_sha256": "0bc3b3a5467d4887eb99cf06792a242a5ee8195ad9d211cc56144f90d1131bb2",
+  "corrected_triples_separately_reread": true
+}

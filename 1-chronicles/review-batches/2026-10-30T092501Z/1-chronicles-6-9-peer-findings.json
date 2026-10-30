@@ -1,0 +1,27 @@
+{
+  "reviewer": "Codex /root/chron_peer_6_9 (independent AI peer)",
+  "reviewed_date_america_new_york": "2026-10-30",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed_initial_tsv_sha256": "0303808a0ecc18f56d0020e7030b4186485625bb3ae9f78b616334a624c8950a",
+  "reviewed_initial_author_receipt_sha256": "97b8d8ee09195a8fa8fba824952364fe93a9608395143bbd5d7a9597772157c3",
+  "complete_retained_triples_independently_read": 188,
+  "all_source_units_independently_read": 190,
+  "pair_removals_required": [],
+  "precision_corrections_requested": [
+    {
+      "source_reference": "1 Chronicles 7:15",
+      "field": "rationale",
+      "old_value": "The source continues Machir's family account with his marriage arrangements, his sister Moocha, and Salpaad's daughters; the target identifies Machir as Galaad's father in Manasseh's family. No spouse or sister name is equated with another person's role.",
+      "reason": "The phrase 'his sister Moocha' after the Machir-family wording can implicitly assign the source's ambiguous sister pronoun to Machir. Preserve the exact phrase without choosing a brother.",
+      "suggested_value": "The source continues Machir's family account with the marriage arrangements, the phrase 'His sister' naming Moocha, and Salpaad's daughters; the target identifies Machir as Galaad's father in Manasseh's family. The sister pronoun's antecedent is not decided, and no spouse or sister name is equated with another person's role."
+    },
+    {
+      "source_reference": "1 Chronicles 7:12",
+      "field": "deferred-source reason in author receipt",
+      "old_opening": "The complete source reads Sapphin and Apphin, Raom's sons, and his son Aer.",
+      "actual_complete_source": "Sapphin and Apphin, and Raom’s sons; his son Aer.",
+      "reason": "Dropping the second 'and' and altering the punctuation can imply parentage absent from the supplied sentence. Quote the actual complete source, while retaining the genuine zero-credit deferral."
+    }
+  ],
+  "initial_decision": "Await preserved author correction/refreeze, followed by independent reread of the changed full triple and receipt wording."
+}
