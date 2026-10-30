@@ -1,0 +1,73 @@
+{
+  "run_id": "2026-10-30T143835Z",
+  "preserved_input_file": "2-maccabees-13-15-before-peer.tsv",
+  "preserved_input_sha256": "3089a0987b3fe3f1dbb10149c1d000685da28ea5046c1e10a067b7ff56ce668c",
+  "preserved_author_receipt_file": "2-maccabees-13-15-author-before-peer-review.json",
+  "preserved_author_receipt_sha256": "743ff294cb60f608f388ccafb455ae3ee3e4192616595a81c3b931b257a2f0d9",
+  "peer_findings_file": "2-maccabees-13-15-peer-original-findings.json",
+  "peer_findings_sha256": "066c4fc34d8b8f627e19c1f7b3bc3ac5176971c007b42c2c1d9a7d66ed39abc5",
+  "changed_before_file": "2-maccabees-13-15-peer-changed-before.tsv",
+  "changed_before_sha256": "92b287780ce7b09057319e53f39fedd24f44aa775be6fd14c7b4f9cb79da2d03",
+  "changed_after_file": "2-maccabees-13-15-peer-changed-after.tsv",
+  "changed_after_sha256": "95c4fef6faa9f79b03b11329532eedb6150121aa642f8a6f49faf123491e2563",
+  "final_input_file": "2-maccabees-13-15.tsv",
+  "final_input_sha256": "aaedb2424e37594ba5eb49fd3eb714ddee88fdcba49c52c5e6eb24f2ce2763e7",
+  "exact_changed_rows": [
+    {
+      "id": "M13-6-specific-burial-contrast",
+      "pair_number": 6,
+      "severity": "specificity",
+      "old_row": {
+        "source_reference": "2 Maccabees 13:7",
+        "target": "2 Maccabees 4:50",
+        "relationship": "Officeholder's eventual end",
+        "rationale": "The death of Menelaus brings to an end the career previously described as continuing in office through corruption and increasing wickedness."
+      },
+      "proposed_new_row": {
+        "source_reference": "2 Maccabees 13:7",
+        "target": "2 Maccabees 4:47-50",
+        "relationship": "Burial contrast after corrupt acquittal",
+        "rationale": "Menelaus dies without even a place in the earth, in contrast to the burial the Tyrians provided for the innocent representatives condemned while he was acquitted and retained office. The connection concerns their explicitly different final treatment, not merely the end of his career."
+      },
+      "issue": "The original rationale states only that the same man eventually dies after remaining in office, which does not explain a sufficiently particular textual connection. The adjacent target context supplies a concrete burial contrast and the corrupt acquittal.",
+      "required_action": "Use the proposed expanded target, specific category and burial-contrast rationale, or defer this source unit if the author does not retain that comparison.",
+      "context_personally_read": [
+        "2 Maccabees 4:45-50",
+        "2 Maccabees 13:3-8"
+      ],
+      "completed_pair_credit_change": 0
+    },
+    {
+      "id": "M13-58-altar-enclosure-distinction",
+      "pair_number": 58,
+      "severity": "precision",
+      "old_row": {
+        "source_reference": "2 Maccabees 15:18",
+        "target": "2 Maccabees 14:33",
+        "relationship": "Temple danger given priority",
+        "rationale": "The fighters' foremost fear for the temple responds to Nicanor's explicit threat to level its enclosure and replace its altar with a Dionysus temple."
+      },
+      "proposed_new_row": {
+        "source_reference": "2 Maccabees 15:18",
+        "target": "2 Maccabees 14:33",
+        "relationship": "Temple danger given priority",
+        "rationale": "The fighters' foremost fear for the temple responds to Nicanor's explicit threat to level its enclosure, tear down its altar, and erect a temple for Dionysus there."
+      },
+      "issue": "The original rationale compresses the threat into replacing the altar with a temple, whereas the target separately threatens levelling the enclosure, tearing down the altar, and erecting a Dionysus temple there.",
+      "required_action": "Use the exact three-part threat in the proposed rationale; retain source, target and category.",
+      "context_personally_read": [
+        "2 Maccabees 14:31-36",
+        "2 Maccabees 15:17-19"
+      ],
+      "completed_pair_credit_change": 0
+    }
+  ],
+  "author_personally_reread_both_corrected_complete_triples": true,
+  "necessary_context_reread": [
+    "2 Maccabees 13:4-8",
+    "2 Maccabees 4:43-50",
+    "2 Maccabees 15:15-19",
+    "2 Maccabees 14:30-36"
+  ],
+  "credit_change": 0
+}

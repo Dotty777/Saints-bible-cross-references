@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6)",
+  "reviewed": "2026-10-30",
+  "run_id": "2026-10-30T143835Z",
+  "before_file": "ezra-6-10-refinement-2-before.tsv",
+  "before_sha256": "5bf30649054e2e318e3686ce44dc9c80305bc3e7f24c6f5b0da0c43a67c06f04",
+  "after_file": "ezra-6-10-refinement-2-after.tsv",
+  "after_sha256": "c2a13effce9a7aeedbda53cace7bbff6cbea5297df46f3436780eaadc9b5336b",
+  "before_author_receipt": "ezra-6-10-review-before-refinement-2.json",
+  "before_author_receipt_sha256": "6af3f6cfbc29db363ce3dd77d797b625ac4686737e2bf0eacc5a72b7439f0e48",
+  "peer_findings_file": "ezra-6-10-peer-original-findings.json",
+  "peer_findings_sha256": "155ab8a29fe18b8093eb5965f37adf7d0e42a51c2cb7e10b488f38f88af5f9a7",
+  "changes": [
+    {
+      "old_row": {
+        "source_reference": "Ezra 7:12",
+        "target": "Ezra 7:21",
+        "relationship": "same-chapter identification in the decree",
+        "rationale": "The address names Ezra as scribe of the law of the God of heaven, and the decree later repeats that distinctive office while directing treasurers to supply his requests."
+      },
+      "new_row": null,
+      "reason": "This same-chapter proposal repeats the king's addressee and his office within the same decree. It does not supply a sufficiently meaningful specific relationship beyond that identification. The royal salutation should remain a source-only deferral in this pass."
+    },
+    {
+      "old_row": {
+        "source_reference": "Ezra 10:12",
+        "target": "Ezra 10:5",
+        "relationship": "same-chapter communal commitment",
+        "rationale": "The assembly's affirmative answer continues the community's earlier oath to act on the proposed reform."
+      },
+      "new_row": {
+        "source_reference": "Ezra 10:12",
+        "target": "Ezra 10:5",
+        "relationship": "same-chapter communal commitment",
+        "rationale": "The assembly calls Ezra's word a great thing for them to carry out, following the earlier oath to act; the ensuing verses request time and an organized procedure. The unusual response wording is preserved without expanding it into an explicit promise."
+      },
+      "reason": "The actual source says that Ezra's word is a great thing for the assembly to carry out, followed by requests about time and procedure. Preserve that wording without expanding it into an unqualified affirmative promise."
+    }
+  ],
+  "source_only_deferral_added": {
+    "source_reference": "Ezra 7:12",
+    "target": null,
+    "reason": "The royal salutation identifies Ezra as scribe of the law of the God of heaven. Repeating that office later within the same decree provides no sufficiently meaningful connection beyond identification; no stronger particular target is retained in this pass.",
+    "source_unit_read": true,
+    "source_and_necessary_context_read": true,
+    "completed_source_credit": 0,
+    "completed_pair_credit": 0
+  },
+  "net_pairs_removed": 1,
+  "completion_credit_added": 0
+}

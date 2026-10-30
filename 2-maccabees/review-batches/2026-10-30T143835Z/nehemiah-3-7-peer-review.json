@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI independent peer agent /root/macc9_12_peer (GPT-6)",
+  "reviewer_role": "Independent AI peer; personally read all 164 complete actual source units, every complete retained source-target-category-rationale triple, all 35 complete source-only deferrals and reasons, all six complete candidate triples, necessary context, both changed-before triples and the final corrected triple. No scholarly or original-language review is claimed.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T15:31:40.239689+00:00",
+  "run_id": "2026-10-30T143835Z",
+  "baseline_commit": "c638d52fb6f40fd432ea6df7ec1f0ebc2e59493a",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "Nehemiah",
+  "source_chapters": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "source_units_read": 164,
+  "source_inventory_units_in_scope": 164,
+  "source_verses": 129,
+  "completed_source_verses": 129,
+  "completed_pairs": 130,
+  "distinct_target_verse_units": 138,
+  "chapter_inventory_counts": {
+    "3": 36,
+    "4": 17,
+    "5": 19,
+    "6": 19,
+    "7": 73
+  },
+  "chapter_source_counts": {
+    "3": 16,
+    "4": 14,
+    "5": 15,
+    "6": 16,
+    "7": 68
+  },
+  "chapter_pair_counts": {
+    "3": 16,
+    "4": 14,
+    "5": 15,
+    "6": 16,
+    "7": 69
+  },
+  "input_file": "nehemiah-3-7.tsv",
+  "input_sha256": "0e376ce0267b662263a21f525b7af052daaf85151b66d7e4c2b5e31edf6c999d",
+  "final_input_sha256": "0e376ce0267b662263a21f525b7af052daaf85151b66d7e4c2b5e31edf6c999d",
+  "author_receipt_file": "nehemiah-3-7-review.json",
+  "author_receipt_sha256": "862e25dcd28a7dd45f4e4eedd500ed19e587e9c24797eab5cd3904144efed494",
+  "original_draft_file": "nehemiah-3-7-original-draft.tsv",
+  "original_draft_sha256": "b234b7efd81ced6a570d12e99e9dba6019e9bee4dc1e447217295fa3835abae1",
+  "author_refinement_file": "nehemiah-3-7-refinement.json",
+  "author_refinement_sha256": "8f3e038c8c4377d7c17903f5099211b074660ecb7008f523f09f770c36104271",
+  "candidate_file": "nehemiah-3-7-unresolved-candidates.tsv",
+  "candidate_sha256": "1b1eb24c2c21c3c6b9be19996c9491f27005575452f5243edd07d9949ba49e23",
+  "deferral_file": "nehemiah-3-7-source-deferrals.json",
+  "deferral_sha256": "4bbd8fe4dc3259747242c51abedeae5ef0fb72c6b0cabb19b31548dae312433b",
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_independently_read": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_original_changed_complete_triples_reread": true,
+  "all_deferred_source_units_and_reasons_reread": true,
+  "all_candidate_complete_triples_independently_read": true,
+  "source_read_groups": [
+    {
+      "chapter": 3,
+      "complete_source_units": 36
+    },
+    {
+      "chapter": 4,
+      "complete_source_units": 17
+    },
+    {
+      "chapter": 5,
+      "complete_source_units": 19
+    },
+    {
+      "chapter": 6,
+      "complete_source_units": 19
+    },
+    {
+      "chapter": 7,
+      "complete_source_units": 73
+    }
+  ],
+  "complete_triple_read_groups": [
+    {
+      "input_file": "nehemiah-3-7.tsv",
+      "input_sha256": "0e376ce0267b662263a21f525b7af052daaf85151b66d7e4c2b5e31edf6c999d",
+      "first_pair": 1,
+      "last_pair": 33,
+      "count": 33
+    },
+    {
+      "input_file": "nehemiah-3-7.tsv",
+      "input_sha256": "0e376ce0267b662263a21f525b7af052daaf85151b66d7e4c2b5e31edf6c999d",
+      "first_pair": 34,
+      "last_pair": 66,
+      "count": 33
+    },
+    {
+      "input_file": "nehemiah-3-7.tsv",
+      "input_sha256": "0e376ce0267b662263a21f525b7af052daaf85151b66d7e4c2b5e31edf6c999d",
+      "first_pair": 67,
+      "last_pair": 99,
+      "count": 33
+    },
+    {
+      "input_file": "nehemiah-3-7.tsv",
+      "input_sha256": "0e376ce0267b662263a21f525b7af052daaf85151b66d7e4c2b5e31edf6c999d",
+      "first_pair": 100,
+      "last_pair": 130,
+      "count": 31
+    }
+  ],
+  "changed_before_triple_read": {
+    "input_file": "nehemiah-3-7-changed-before.tsv",
+    "input_sha256": "b31e39756ddeb0cb6e3a04e09732664fde88035c5ff43ed0a314aad0723f6836",
+    "complete_triples_read": 2
+  },
+  "corrected_complete_triple_read": {
+    "input_file": "nehemiah-3-7-changed-after.tsv",
+    "input_sha256": "c0b7780f66107f244acfaa0f8a01865322da9a535b3eb361fe5b3270f928e177",
+    "complete_triples_read": 1
+  },
+  "additional_context_passages_read": [
+    "Nehemiah 1:1-11",
+    "Nehemiah 2:1-20",
+    "Nehemiah 8:1-8",
+    "Nehemiah 11:1-3",
+    "Nehemiah 12:27-43",
+    "Nehemiah 13:1-29",
+    "Ezra 2:1-70",
+    "Ezra 3:1-3",
+    "Ezra 4:1-23",
+    "1 Samuel 12:1-5",
+    "Acts 2:22-36",
+    "Deuteronomy 20:1-4",
+    "Deuteronomy 27:14-26",
+    "Exodus 22:20-26",
+    "Jeremiah 18:18-23",
+    "Jeremiah 23:16-22",
+    "Leviticus 25:35-55",
+    "Numbers 18:1-7",
+    "Psalms 78:8-13",
+    "Psalms 126:1-5"
+  ],
+  "truncated_read_recovery": "All displayed source groups, 130 final triples, 35 full source/reason deferrals, six full candidate triples, both changed-before triples, final corrected triple and context used for acceptance were complete and untruncated. One corrected-triple invocation failed before displaying text because of an executable-path typo; the corrected invocation then displayed the complete triple and it was personally read. The failed invocation adds no reading credit.",
+  "pin_receipt": "nehemiah-3-7-peer-independent-pins.json",
+  "pin_receipt_sha256": "63a87fe05793f5cdf4eb0cbd46adf5442d27c5a455748caf60146cdd20d858f8",
+  "source_books": [
+    {
+      "book": "1 Samuel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-1-samuel.json",
+      "raw_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-1-samuel-headers.json",
+      "headers_sha256": "bd856ca1b932145646d128a19ae7be112a97bec99c70cd076077d3dfe6a19871",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Acts",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "acts/verses.json",
+      "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-acts.json",
+      "raw_sha256": "73d11416650576a1e20be7d286e5053236f0668e559eedb4fece9ab44b6ee257",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-acts-headers.json",
+      "headers_sha256": "c25f447ddc436aad872c52009cbd1b6b7e7732280027ded7ab015f7ac7cad0d4",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-deuteronomy-headers.json",
+      "headers_sha256": "36b1178ae6cf2b71ae19bc55da9cede59a6b5857144dd673f3aedab460c57a84",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Exodus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-exodus.json",
+      "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-exodus-headers.json",
+      "headers_sha256": "d87e796f2b9b6f5039cd7e8b2628e98d652eaad626068d80ae08bebad4524918",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Ezra",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "ezra/verses.json",
+      "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-ezra.json",
+      "raw_sha256": "296ecf2cc7e86670eae99db1f718edf88ce13b117ac5aec5cb40f08220b53798",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-ezra-headers.json",
+      "headers_sha256": "6720eeb7fe8188bb4367a04b56dd694d30c8e6c9d99536b13234bb698f4b5c97",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Jeremiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-jeremiah.json",
+      "raw_sha256": "34b7b32e065476f8a314b2b95eb0dd452e25c64cc4c19112aa5098d3b63b97bf",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-jeremiah-headers.json",
+      "headers_sha256": "9275b1b21b8a86b4c10b1f0a9b6af514f8daa7f32ae0a0ab8c689fbd29de22a0",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Leviticus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-leviticus.json",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-leviticus-headers.json",
+      "headers_sha256": "4a97d7c63105c24ded299edb372b2015e0325e748f8a40b209b6c929d61fda16",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Nehemiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-nehemiah.json",
+      "raw_sha256": "90cd08204d8e2f9ec82c69c69a64202bc1f765e59ccb202270881819be776da1",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-nehemiah-headers.json",
+      "headers_sha256": "712b7a4b7d33968f12aa6206a920b8a3a03f55fea00ca30869b729fcb8f33b0f",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Numbers",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-numbers.json",
+      "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-numbers-headers.json",
+      "headers_sha256": "fa7ac2df70771ae0eade53f81645fbb2fbc866879bd453d33295a4a504de8967",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Psalms",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "raw_file": "nehemiah-3-7-peer-independent-pin-psalms.json",
+      "raw_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+      "headers_file": "nehemiah-3-7-peer-independent-pin-psalms-headers.json",
+      "headers_sha256": "becb389c13adc6908ebcb55804b5e1aea88df4a6831db5c0b991924bde8ba6d3",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    }
+  ],
+  "independent_pin_verification": "The peer freshly fetched and saved its own raw bytes and HTTP headers for all ten used source, retained-target and candidate-target books, including candidate-only Numbers. Each Git blob hash matched pinned metadata and every complete parsed raw book matched its reference cache. Author raw fetches were not reused as independent checks.",
+  "review_findings": {
+    "exact_source_units": "Nehemiah 3 contains 36 actual units, with 3:7 absent. Nehemiah 7:26 is one composite unit with Baithleem and Netopha; 7:73 includes both settlement and the seventh-month transition. Neither numbering nor boundaries were normalized.",
+    "source_specific_wording": "The unusual negative wall-work statement at 5:16 is preserved and deferred; 6:9 remains a declaration about strengthened hands. Neither omitted repetition counts nor expanded familiar sanctuary wording are imported.",
+    "hired_crowd": "The author correction is supported: 6:12 continues with a hired crowd in 6:13. Final pair 50 distinguishes the unsent prophecy, hired crowd and frightening prophets without asserting that the individual prophetic speaker was expressly hired.",
+    "register_comparisons": "Parallel register links preserve divergent names, ordering, totals, donor groups and units. The priestly and locality Eram entries remain distinct; individual identity and identical event claims are not added.",
+    "unresolved_candidates": "The four uncertain register identifications, sanctuary-law application and Pool of Fleeces/King's Pool identification remain unresolved with zero source and pair credit. The separately retained 3:15 link concerns the explicit steps of David's city.",
+    "exact_history": "The author stage contains exactly one category/rationale refinement and removal of a redundant narrow register edge; the full old rows, snapshots and final corrected triple are preserved and verified."
+  },
+  "required_changes": [],
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": 0,
+  "deferred_source_count": 35,
+  "deferred_source_units": [
+    {
+      "source_reference": "Nehemiah 3:2",
+      "target": null,
+      "reason": "The men of Jericho and Zakchour son of Amari are not equated with return-register households solely from a city or recurring name; no securely matching individual notice is retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:4",
+      "target": null,
+      "reason": "The supplied wording from Ramoth and the ancestry Ouria son of Akos resemble the later Meramoth notice, but the unusual wording is not silently converted into a standardized personal name or a certain individual identity.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:9",
+      "target": null,
+      "reason": "Raphaia's exact repair section and half-district office have no independently verified matching notice in the selected material.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:10",
+      "target": null,
+      "reason": "The individual repairers and location opposite a house do not establish a sufficiently precise cross-reference merely through shared names or the general practice of repairing nearby walls.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:12",
+      "target": null,
+      "reason": "Saloum and his daughters' repair work is a distinct participation notice without a verified particular matching passage; a generic family-work comparison is not retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:17",
+      "target": null,
+      "reason": "Raoum son of Bani and Asabia's district office are not identified with similarly named figures in other lists without firmer genealogical evidence.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:18",
+      "target": null,
+      "reason": "Beni son of Enadad and the half-district of Keila are not treated as the same person as Bani son of Enadad in another repair section simply by normalizing the names.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:19",
+      "target": null,
+      "reason": "Azour son of Iesous at Masphe is not linked to the high priest or other Iesous figures from a shared patronymic alone.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:20",
+      "target": null,
+      "reason": "The entrance of Bethelisoub and Barouch's section are not assigned an independently verified site or biographical counterpart beyond this repair account.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:21",
+      "target": null,
+      "reason": "Meramoth's genealogy is preserved, but the earlier from-Ramoth wording and other similarly named notices do not independently resolve every proposed individual identification.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:22",
+      "target": null,
+      "reason": "The priests called men of Achechar have no verified matching group in the passages selected for this review; the designation is not replaced from another edition.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:23",
+      "target": null,
+      "reason": "The adjacent households of Benjamin, Asoub and Azaria are particular boundary notices without a securely identified external counterpart.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:24",
+      "target": null,
+      "reason": "The Enadad patronymic and nearby Beni/Bani forms are insufficient by themselves to force an identical-person link; the Bethazaria boundary is not reconstructed beyond the text.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:25",
+      "target": null,
+      "reason": "The upper tower and court-of-guard boundary, together with the named workers, have no verified exact matching site or persons in the inspected target set.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:28",
+      "target": null,
+      "reason": "The Horse Gate notice and priests working opposite their houses have no established exact counterpart retained in this pass; no alternative gate is substituted.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:29",
+      "target": null,
+      "reason": "Saddouk son of Emmer and Samaia son of Sechenia are not attached to priestly or other return-register families merely from recurring names.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:30",
+      "target": null,
+      "reason": "The name forms, paternal chains and second-section notice are kept as printed; an exact identity with another Mesoulam or Anania is not established solely through resemblance.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:31",
+      "target": null,
+      "reason": "Melchia son of Saraphi, Bethanathinim and Maphekad are not given an unverified identity or mapped onto a differently named gate.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:34",
+      "target": null,
+      "reason": "The mocker's precise Somoron-strength taunt has no separately verified matching utterance beyond the surrounding mockery episode.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 3:35",
+      "target": null,
+      "reason": "The fox taunt and the comment about sacrificing and eating are particular insults; a generic weak-wall comparison does not establish a specific target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 4:4",
+      "target": null,
+      "reason": "The supplied text says the strength of the enemies has been crushed, rather than importing a familiar reading about exhausted builders; no sufficiently precise connection is retained for this unusual statement.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 4:7",
+      "target": null,
+      "reason": "The detailed placement in low and sheltered wall areas has no independently verified matching deployment; generic armament parallels are not retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 4:17",
+      "target": null,
+      "reason": "Not taking off clothes is a specific readiness practice here; an unrelated journey or garment instruction does not establish the same action or purpose.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 5:4",
+      "target": null,
+      "reason": "The royal-tax borrowing is not equated with the separate governor's coerced provisions, nor is a later abolition of the king's tax inferred.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 5:6",
+      "target": null,
+      "reason": "The narrator's deep grief introduces the response to the outcry, but a generic anger or grief reaction does not supply a particular independent target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 5:16",
+      "target": null,
+      "reason": "The source says I did not take charge of the work on their wall; no connection is retained that depends on replacing this with the familiar claim that he personally continued the wall work.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 5:17",
+      "target": null,
+      "reason": "The 150 guests and visitors from surrounding nations have no matching numbered company or independently described meal established here.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 6:4",
+      "target": null,
+      "reason": "The repeated message and reply have no additional independent target; the supplied unit is not expanded with a familiar number of repetitions absent from its wording.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 6:5",
+      "target": null,
+      "reason": "The open-letter delivery is a correspondence introduction; a generic written-message parallel would not provide a sufficiently particular connection.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 6:11",
+      "target": null,
+      "reason": "The short question about who could enter the house and live may invite comparison with sanctuary-access law, but the supplied wording does not establish the precise sacred area or priestly status needed to resolve that application; the candidate remains zero credit.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 7:2",
+      "target": null,
+      "reason": "The two officials both called Anania are kept distinct by the brother and bira-ruler descriptions; identifying either with a similarly named earlier figure is not assumed from name resemblance alone.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 7:22",
+      "target": null,
+      "reason": "Esam with 328 is not securely identified as Asem with 223 in the differently ordered Ezra register; the candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 7:23",
+      "target": null,
+      "reason": "Besi with 324 is not securely identified as Basou with 323 solely by register placement; the candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 7:24",
+      "target": null,
+      "reason": "Ariph with 112 is not securely identified as Iora with 112 solely by shared total and position; the candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    },
+    {
+      "source_reference": "Nehemiah 7:25",
+      "target": null,
+      "reason": "Gabaon with 95 is not securely identified as Gaber with 95 solely by shared total in this register section; the candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_reason_independently_read": true
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Nehemiah 7:22",
+      "target": "Ezra 2:19",
+      "relationship": "Unresolved particular identification or application; not retained",
+      "rationale": "Esam with 328 is not securely identified as Asem with 223 in the differently ordered Ezra register; the candidate remains unresolved.",
+      "reason": "Esam with 328 is not securely identified as Asem with 223 in the differently ordered Ezra register; the candidate remains unresolved.",
+      "necessary_context": [
+        "Nehemiah 7:20-29",
+        "Ezra 2:15-25"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved and excluded from retained pairs; zero additional source and pair credit."
+    },
+    {
+      "source_reference": "Nehemiah 7:23",
+      "target": "Ezra 2:17",
+      "relationship": "Unresolved particular identification or application; not retained",
+      "rationale": "Besi with 324 is not securely identified as Basou with 323 solely by register placement; the candidate remains unresolved.",
+      "reason": "Besi with 324 is not securely identified as Basou with 323 solely by register placement; the candidate remains unresolved.",
+      "necessary_context": [
+        "Nehemiah 7:20-29",
+        "Ezra 2:15-25"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved and excluded from retained pairs; zero additional source and pair credit."
+    },
+    {
+      "source_reference": "Nehemiah 7:24",
+      "target": "Ezra 2:18",
+      "relationship": "Unresolved particular identification or application; not retained",
+      "rationale": "Ariph with 112 is not securely identified as Iora with 112 solely by shared total and position; the candidate remains unresolved.",
+      "reason": "Ariph with 112 is not securely identified as Iora with 112 solely by shared total and position; the candidate remains unresolved.",
+      "necessary_context": [
+        "Nehemiah 7:20-29",
+        "Ezra 2:15-25"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved and excluded from retained pairs; zero additional source and pair credit."
+    },
+    {
+      "source_reference": "Nehemiah 7:25",
+      "target": "Ezra 2:20",
+      "relationship": "Unresolved particular identification or application; not retained",
+      "rationale": "Gabaon with 95 is not securely identified as Gaber with 95 solely by shared total in this register section; the candidate remains unresolved.",
+      "reason": "Gabaon with 95 is not securely identified as Gaber with 95 solely by shared total in this register section; the candidate remains unresolved.",
+      "necessary_context": [
+        "Nehemiah 7:20-29",
+        "Ezra 2:15-25"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved and excluded from retained pairs; zero additional source and pair credit."
+    },
+    {
+      "source_reference": "Nehemiah 6:11",
+      "target": "Numbers 18:7",
+      "relationship": "Unresolved particular identification or application; not retained",
+      "rationale": "The short question about who could enter the house and live may invite comparison with sanctuary-access law, but the supplied wording does not establish the precise sacred area or priestly status needed to resolve that application; the candidate remains zero credit.",
+      "reason": "The short question about who could enter the house and live may invite comparison with sanctuary-access law, but the supplied wording does not establish the precise sacred area or priestly status needed to resolve that application; the candidate remains zero credit.",
+      "necessary_context": [
+        "Nehemiah 6:10-14",
+        "Numbers 18:1-7"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved and excluded from retained pairs; zero additional source and pair credit."
+    },
+    {
+      "source_reference": "Nehemiah 3:15",
+      "target": "Nehemiah 2:14",
+      "relationship": "Unresolved pool identification; not retained",
+      "rationale": "The Pool of Fleeces for the king's shearing is not securely identified as the King's Pool solely from the royal association and neighbouring route. The retained comparison for this source concerns the expressly named City of David steps, not this unresolved pool identity.",
+      "reason": "The Pool of Fleeces for the king's shearing is not securely identified as the King's Pool solely from the royal association and neighbouring route. The retained comparison for this source concerns the expressly named City of David steps, not this unresolved pool identity.",
+      "necessary_context": [
+        "Nehemiah 3:13-16",
+        "Nehemiah 2:12-15",
+        "Nehemiah 12:37"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved and excluded from retained pairs; zero additional source and pair credit."
+    }
+  ],
+  "same_chapter_pairs_explicitly_labelled": 27,
+  "structural_checks": {
+    "source_target_overlap_absent": true,
+    "duplicate_actual_pairs_absent": true,
+    "same_chapter_labels_exact": true,
+    "source_supported_deferral_partition_exact": true,
+    "all_candidate_credits_zero": true,
+    "final_hash_bindings_exact": true,
+    "exact_author_refinement_verified": true
+  },
+  "accepted_for_integration": true,
+  "acceptance": {
+    "accepted": true,
+    "binding_tsv_sha256": "0e376ce0267b662263a21f525b7af052daaf85151b66d7e4c2b5e31edf6c999d",
+    "binding_author_receipt_sha256": "862e25dcd28a7dd45f4e4eedd500ed19e587e9c24797eab5cd3904144efed494",
+    "required_changes": [],
+    "unresolved_retained_cases": 0
+  },
+  "completion_definition": "Initial curated supported pass for 129 of the 164 actual source units in Nehemiah 3-7, with 130 retained pairs and 35 source-only deferrals. Six unresolved target candidates add zero source or pair credit, including the pool candidate for a source with a separate supported link. Every target range counts once. The 31 units in chapters 1-2 and all other contextual readings add no source completion credit to this packet. No exhaustive, whole-book, source-language or specialist verification claim is made.",
+  "review_credit_added": 0,
+  "pin_and_inventory_credit": 0
+}

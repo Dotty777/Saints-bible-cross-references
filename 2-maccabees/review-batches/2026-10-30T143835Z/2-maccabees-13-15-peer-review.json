@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex independent AI passage reviewer /root/macc13_16_author (GPT-6)",
+  "reviewer_role": "Independent of the packet author. Personally read all 111 complete source units and all 75 complete retained source-target-category-rationale triples in three untruncated groups, their necessary context, all 43 source deferrals and both uncertain candidate triples. Requested two concrete refinements, then personally reread both corrected full triples and context. Independently verified the final full TSV differs from the original only by the two exact proposed rows. Own fresh raw Git blobs, HTTP headers and whole-cache JSON checks cover all nine books. Technical checks and rereading add no new completion credit.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T15:08:03.208886+00:00",
+  "run_id": "2026-10-30T143835Z",
+  "base_commit": "c638d52fb6f40fd432ea6df7ec1f0ebc2e59493a",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "2 Maccabees",
+  "source_chapters": [
+    13,
+    14,
+    15
+  ],
+  "source_units_read": 111,
+  "source_verses": 68,
+  "completed_source_verses": 68,
+  "completed_pairs": 75,
+  "distinct_target_verse_units": 137,
+  "input_file": "2-maccabees-13-15.tsv",
+  "input_sha256": "aaedb2424e37594ba5eb49fd3eb714ddee88fdcba49c52c5e6eb24f2ce2763e7",
+  "final_input_sha256": "aaedb2424e37594ba5eb49fd3eb714ddee88fdcba49c52c5e6eb24f2ce2763e7",
+  "author_receipt_file": "2-maccabees-13-15-review.json",
+  "author_receipt_sha256": "c95899518d88b98f4c06887225f4c13b438909cf7156e920d72d7dd0fbf69d93",
+  "original_input_file": "2-maccabees-13-15-peer-input.tsv",
+  "original_input_sha256": "3089a0987b3fe3f1dbb10149c1d000685da28ea5046c1e10a067b7ff56ce668c",
+  "original_author_receipt_file": "2-maccabees-13-15-peer-author-review.json",
+  "original_author_receipt_sha256": "743ff294cb60f608f388ccafb455ae3ee3e4192616595a81c3b931b257a2f0d9",
+  "findings_file": "2-maccabees-13-15-peer-original-findings.json",
+  "findings_sha256": "066c4fc34d8b8f627e19c1f7b3bc3ac5176971c007b42c2c1d9a7d66ed39abc5",
+  "author_refinement_file": "2-maccabees-13-15-author-peer-refinement.json",
+  "author_refinement_sha256": "fe58c0ce1abe058ddf7d0987c2d307437ddfb1dc336b192469bc519b4d344fad",
+  "pin_receipt": "2-maccabees-13-15-peer-pins.json",
+  "pin_receipt_sha256": "b50c350b88b5f6ebf233079892540b956f73265572a0e5998c1175ebbc0df644",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "raw_file": "2-maccabees-13-15-peer-pin-1-kings.json",
+      "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+      "headers_file": "2-maccabees-13-15-peer-pin-1-kings-headers.json",
+      "headers_sha256": "669d2f4cdaa58048f5f3e2213dd79e818e67694019c668ade86589efdbc6e276",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "1 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "raw_file": "2-maccabees-13-15-peer-pin-1-maccabees.json",
+      "raw_sha256": "29c83bbc4b58b9eeeee0675768e1f40a0b0b7a0e01249a146d64ee573b42b8af",
+      "headers_file": "2-maccabees-13-15-peer-pin-1-maccabees-headers.json",
+      "headers_sha256": "57e862d2b1eb75347d05768b672d2f58003c753acf9136161679d846a7f9419e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "1 Samuel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "raw_file": "2-maccabees-13-15-peer-pin-1-samuel.json",
+      "raw_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+      "headers_file": "2-maccabees-13-15-peer-pin-1-samuel-headers.json",
+      "headers_sha256": "c75a26a3dd8a2cb887cd051736cad86f9bc232c8e0c50995f6d2d5adb55ba647",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "raw_file": "2-maccabees-13-15-peer-pin-2-kings.json",
+      "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7",
+      "headers_file": "2-maccabees-13-15-peer-pin-2-kings-headers.json",
+      "headers_sha256": "34b99237c0bcfa846408741fbef80c4c74ecb3f778f4cddb7771c9b86881f84d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "raw_file": "2-maccabees-13-15-peer-pin-2-maccabees.json",
+      "raw_sha256": "4748eb2422bf0bcdbf16d1292dd94f486c21ff54ae7590fdd2c98590f87fbc1d",
+      "headers_file": "2-maccabees-13-15-peer-pin-2-maccabees-headers.json",
+      "headers_sha256": "8c4fcb4d24e4852ae764e88e2209656a99bc5707dae145a1d22394551135eb1c",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Acts",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "acts/verses.json",
+      "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+      "raw_file": "2-maccabees-13-15-peer-pin-acts.json",
+      "raw_sha256": "73d11416650576a1e20be7d286e5053236f0668e559eedb4fece9ab44b6ee257",
+      "headers_file": "2-maccabees-13-15-peer-pin-acts-headers.json",
+      "headers_sha256": "c1ec27aef9c55cbce0e7bf1cac0031c6f532b14ee931302eb6b394ac09891182",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "2-maccabees-13-15-peer-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "headers_file": "2-maccabees-13-15-peer-pin-deuteronomy-headers.json",
+      "headers_sha256": "7796737604011e15df89d79b8aa400ad9c0b8aefb42f64c948b8c058c290c37f",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Exodus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "raw_file": "2-maccabees-13-15-peer-pin-exodus.json",
+      "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+      "headers_file": "2-maccabees-13-15-peer-pin-exodus-headers.json",
+      "headers_sha256": "b3d1aacb8f3bda197cf6ea1c5f4f634f15d2a2fdd173d57238bd383e07386296",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Jeremiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+      "raw_file": "2-maccabees-13-15-peer-pin-jeremiah.json",
+      "raw_sha256": "34b7b32e065476f8a314b2b95eb0dd452e25c64cc4c19112aa5098d3b63b97bf",
+      "headers_file": "2-maccabees-13-15-peer-pin-jeremiah-headers.json",
+      "headers_sha256": "5f1b0ef05cc86e7b16f00ffa8c0a9a932811f2848215c0f293c8062ce74b452e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    }
+  ],
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_independently_read": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_deferral_sources_and_reasons_independently_read": true,
+  "all_uncertain_target_candidates_and_context_independently_read": true,
+  "deferred_source_units": [
+    {
+      "source_reference": "2 Maccabees 13:5",
+      "target": null,
+      "reason": "The height, ash-filled tower, and revolving device at Beroea have no separately verified architectural counterpart.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:6",
+      "target": null,
+      "reason": "The local execution custom for temple robbers is not identified with a particular Torah penalty or another place's practice.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:13",
+      "target": null,
+      "reason": "The private military consultation and decision to intercept the king have no separately identified council narrative.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:15",
+      "target": null,
+      "reason": "The elephant-attack candidate differs in attacker, setting, method and outcome; the separately read comparison remains unresolved and earns no credit.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:16",
+      "target": null,
+      "reason": "The camp's confusion and successful withdrawal cannot securely be equated with the outcome of another night raid from these general features.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:17",
+      "target": null,
+      "reason": "The attribution of success to divine protection is too general for an additional specific link beyond the particular campaign connections retained.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:18",
+      "target": null,
+      "reason": "The king's turn to stratagem introduces the subsequent operations but provides no independently identified tactic.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:20",
+      "target": null,
+      "reason": "Judas's supply shipment is not identified as the same transaction as the companion account's reported shortage at Beth-zur.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:21",
+      "target": null,
+      "reason": "Rhodocus and his betrayal are not independently identified in another passage read; another traitor's name is not substituted.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:24",
+      "target": null,
+      "reason": "Hegemonides and the specified governorship have no verified counterpart in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:25",
+      "target": null,
+      "reason": "The opposition at Ptolemais to the settlement is not the same event as the later breach of an oath at Mount Zion in the companion account.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 13:26",
+      "target": null,
+      "reason": "Lysias's speech pacifying Ptolemais and departure are not independently narrated in the passages read; a generic persuasion parallel would be insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:4",
+      "target": null,
+      "reason": "The crown, palm and temple branches given to Demetrius lack a separately identified gift transaction; the common accession context does not verify these objects.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:5",
+      "target": null,
+      "reason": "The king's invitation to a council introduces Alcimus's speech without a distinct independently narrated consultation.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:9",
+      "target": null,
+      "reason": "Alcimus's appeal to royal humanity is ordinary petition language and does not establish a specific decree or literary quotation.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:11",
+      "target": null,
+      "reason": "The hostile royal friends are unnamed, preventing identification with particular accusers elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:14",
+      "target": null,
+      "reason": "The foreign crowds joining Nicanor are not individually identified with Alcimus's followers or another allied force.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:16",
+      "target": null,
+      "reason": "Dessau is not silently equated with Caphar-salama or another battlefield named in the companion narrative.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:17",
+      "target": null,
+      "reason": "Simon's temporary faltering and the opponents' silence have no separately verified battle counterpart.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:19",
+      "target": null,
+      "reason": "Posidonius, Theodotus and this Mattathias are not independently identified; the shared name Mattathias does not make this envoy Judas's father.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:20",
+      "target": null,
+      "reason": "The people's consent to the settlement is already the context of the retained agreement-annulment link; no reciprocal edge is added merely for coverage.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:21",
+      "target": null,
+      "reason": "The two chariots and arranged seats are specific meeting details not independently verified elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:22",
+      "target": null,
+      "reason": "The proposed identification with the companion peaceful meeting remains unresolved because that account describes an initially deceitful capture attempt, while this conference leads to goodwill.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:23",
+      "target": null,
+      "reason": "Nicanor's peaceful residence and dismissal of crowds are not equated with the companion account's initially deceitful approach.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:25",
+      "target": null,
+      "reason": "Judas's marriage and ordinary domestic life are not independently narrated in the passages read; no spouse or offspring is inferred.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:32",
+      "target": null,
+      "reason": "The priests' sworn ignorance of Judas's location is not separately stated in the companion temple-threat account.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:37",
+      "target": null,
+      "reason": "Razis is not securely identified with another elder or bearer of a similar name; the honorific father is not a literal genealogy.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:39",
+      "target": null,
+      "reason": "The more-than-five-hundred soldiers sent to arrest Razis are not equated with the approximately five hundred casualties in a different Nicanor engagement.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:40",
+      "target": null,
+      "reason": "The intention to injure the Jews by arresting Razis does not identify a separate hostage-taking episode.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:43",
+      "target": null,
+      "reason": "The failed sword wound and leap from the wall are not independently narrated elsewhere; other falls are not treated as the same event.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:44",
+      "target": null,
+      "reason": "The crowd's retreat and Razis's fall into the empty space are specific local actions without an independently verified parallel.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:45",
+      "target": null,
+      "reason": "Razis's movement to the projecting rock despite his wounds has no separately identified episode in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:3",
+      "target": null,
+      "reason": "Nicanor's question sets up the explicit Sabbath-command response retained at 15:4; the question alone identifies no additional divine command.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:7",
+      "target": null,
+      "reason": "The general notice of Judas's confidence supplies no further distinctive target beyond the specific divine-help and weapons contrasts retained later.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:11",
+      "target": null,
+      "reason": "The introduction to a trustworthy dream does not by itself identify another particular dream or its contents.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:13",
+      "target": null,
+      "reason": "The distinguished figure is identified as Jeremiah in the next verse; this appearance description alone does not warrant an additional identity link.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:15",
+      "target": null,
+      "reason": "The golden sword given in the dream is not identified with an extant physical sword or another hero's weapon.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:19",
+      "target": null,
+      "reason": "The anxiety of those inside the city is a broad response to danger and does not establish another particular crisis.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:20",
+      "target": null,
+      "reason": "The arrangement of cavalry and beasts is not sufficient to identify this formation with a different royal battle deployment.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:25",
+      "target": null,
+      "reason": "Trumpets and battle hymns are general military practices; no hymn text or distinctive signal is supplied for another reference.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:29",
+      "target": null,
+      "reason": "The thanksgiving in the ancestral language does not quote its words or identify a particular hymn.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:31",
+      "target": null,
+      "reason": "The summons of citizens, priests and citadel occupants is not independently described in the companion trophy account.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    },
+    {
+      "source_reference": "2 Maccabees 15:33",
+      "target": null,
+      "reason": "The severed tongue given to birds is a particular punishment not specified in the companion account; general enemy-carrion language is not treated as this event.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_necessary_context_independently_read": true
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "2 Maccabees 13:15",
+      "target": "1 Maccabees 6:43-46",
+      "relationship": "Unresolved elephant-attack identity; not retained",
+      "rationale": "Judas's night attack kills an elephant and the man in its tower before a successful withdrawal, whereas Eleazar kills a royal-looking elephant from underneath and dies beneath it during another narrated engagement. These details do not establish the same incident or attacker.",
+      "reason": "Judas's night attack kills an elephant and the man in its tower before a successful withdrawal, whereas Eleazar kills a royal-looking elephant from underneath and dies beneath it during another narrated engagement. These details do not establish the same incident or attacker.",
+      "necessary_context": [
+        "2 Maccabees 13:13-18",
+        "1 Maccabees 6:32-47"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "peer_source_and_target_text_read": true,
+      "peer_necessary_context_read": true,
+      "peer_concurs_zero_credit": true
+    },
+    {
+      "source_reference": "2 Maccabees 14:22",
+      "target": "1 Maccabees 7:27-30",
+      "relationship": "Unresolved meeting identity; not retained",
+      "rationale": "The guarded conference here is described as appropriate and followed by genuine goodwill, whereas the companion narrative describes an attempt to seize Judas during an initially deceitful peaceful approach. Their shared meeting motif does not establish that the same conference is narrated with the same intentions.",
+      "reason": "The guarded conference here is described as appropriate and followed by genuine goodwill, whereas the companion narrative describes an attempt to seize Judas during an initially deceitful peaceful approach. Their shared meeting motif does not establish that the same conference is narrated with the same intentions.",
+      "necessary_context": [
+        "2 Maccabees 14:18-30",
+        "1 Maccabees 7:25-32"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "peer_source_and_target_text_read": true,
+      "peer_necessary_context_read": true,
+      "peer_concurs_zero_credit": true
+    }
+  ],
+  "unresolved_cases": [],
+  "required_changes": [],
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": [],
+  "accepted_for_integration": true,
+  "acceptance": {
+    "accepted": true,
+    "binding_tsv_sha256": "aaedb2424e37594ba5eb49fd3eb714ddee88fdcba49c52c5e6eb24f2ce2763e7",
+    "binding_author_receipt_sha256": "c95899518d88b98f4c06887225f4c13b438909cf7156e920d72d7dd0fbf69d93",
+    "resolved_findings": [
+      "M13-6-specific-burial-contrast",
+      "M13-58-altar-enclosure-distinction"
+    ]
+  },
+  "independent_read_groups": [
+    {
+      "first_pair": 1,
+      "last_pair": 25
+    },
+    {
+      "first_pair": 26,
+      "last_pair": 50
+    },
+    {
+      "first_pair": 51,
+      "last_pair": 75
+    }
+  ],
+  "corrected_read_file": "2-maccabees-13-15-peer-changed-after.tsv",
+  "corrected_read_sha256": "95c4fef6faa9f79b03b11329532eedb6150121aa642f8a6f49faf123491e2563",
+  "context_read_notes": [
+    "All of 1 Maccabees 6 and 7; current-run full 1 Maccabees 3/4 passages relevant to the comparisons; 2 Maccabees 4:24-25,4:32,4:34-50;5:11-16,5:25-26;6:18-21;7:9-14,7:37;8:18;10:3-5,10:25-26;13-15 in full.",
+    "Jeremiah 49:1-6 in the actual Greek numbering; 1 Kings 8:22-30; Acts 17:22-31; 1 Samuel 31:1-6; all actual units of 1 Samuel 17; 2 Kings 19:32-37; Exodus 20:8-11 and 23:20-27; Deuteronomy 20:1-4; 2 Maccabees 2:23-32.",
+    "A requested conventional 1 Samuel 17:41-50 range failed because its boundary units are absent from this Greek source. The complete actual chapter was displayed and read, preserving its gaps and numbering; the retained 17:47 target is present."
+  ],
+  "additional_completion_credit": 0
+}

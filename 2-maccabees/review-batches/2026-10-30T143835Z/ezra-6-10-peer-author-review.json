@@ -1,0 +1,875 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), current Ezra 6-10 packet",
+  "reviewer_role": "Personally read all 145 complete source units after full Ezra inventory, read all retained target passages and necessary context, authored a draft, then separately read all 124 original complete source-target-category-rationale triples. Applied four exact author refinements and separately read all three changed or added retained full triples. Personally reread every complete deferred source with its reason and every unresolved candidate triple. No independent peer review is claimed.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T15:15:15.074239+00:00",
+  "run_id": "2026-10-30T143835Z",
+  "base_commit": "c638d52fb6f40fd432ea6df7ec1f0ebc2e59493a",
+  "baseline_commit": "c638d52fb6f40fd432ea6df7ec1f0ebc2e59493a",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "Ezra",
+  "source_chapters": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source_units_read": 145,
+  "source_inventory_units_in_scope": 145,
+  "source_verses": 118,
+  "completed_source_verses": 118,
+  "completed_pairs": 124,
+  "distinct_target_verse_units": 218,
+  "chapter_inventory_counts": {
+    "6": 22,
+    "7": 28,
+    "8": 36,
+    "9": 15,
+    "10": 44
+  },
+  "chapter_source_counts": {
+    "6": 21,
+    "7": 23,
+    "8": 31,
+    "10": 28,
+    "9": 15
+  },
+  "chapter_pair_counts": {
+    "6": 24,
+    "7": 23,
+    "8": 32,
+    "9": 17,
+    "10": 28
+  },
+  "input_file": "ezra-6-10.tsv",
+  "input_sha256": "5bf30649054e2e318e3686ce44dc9c80305bc3e7f24c6f5b0da0c43a67c06f04",
+  "final_input_sha256": "5bf30649054e2e318e3686ce44dc9c80305bc3e7f24c6f5b0da0c43a67c06f04",
+  "original_draft_file": "ezra-6-10-original-draft.tsv",
+  "original_draft_sha256": "bbb66e934e168d952641bad23e74ac5967998971f24dd6180c0551d36849cf9a",
+  "author_refinement_file": "ezra-6-10-refinement-1.json",
+  "author_refinement_sha256": "334c3558fbddb8988f8014e1ab35d0f2d7c00eb2c4a8ba2ae5764b673546e4df",
+  "pin_receipt": "ezra-6-10-author-pins.json",
+  "pin_receipt_sha256": "e7c9260afbf1935954164ee374589e0f22ba8dbf470bef9fb6a869c1c6bf08d6",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+      "raw_file": "ezra-6-10-author-pin-1-chronicles.json",
+      "raw_sha256": "2f3b41f3542698e2808137f822d03f704f8fc1dff5d4ced8cee815289c2ef730",
+      "headers_file": "ezra-6-10-author-pin-1-chronicles-headers.json",
+      "headers_sha256": "2903a79057da79985cd5fadf87bcc78b5b1045cbb524413aa298bd12ea40c0d6",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "1 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "raw_file": "ezra-6-10-author-pin-1-kings.json",
+      "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+      "headers_file": "ezra-6-10-author-pin-1-kings-headers.json",
+      "headers_sha256": "7ce78e322c13a3aae1b8e69c6c4869e248dec4b9420a70131021fb6d8c53f4bc",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "1 Timothy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-timothy/verses.json",
+      "blob_sha": "02e0778c9eed12dfc0a8ca4552efbd5537e5a20b",
+      "raw_file": "ezra-6-10-author-pin-1-timothy.json",
+      "raw_sha256": "9004d125ab3a7174350b77cbee990feb6a90d32c5372a58329a8b7eedb9c9ba4",
+      "headers_file": "ezra-6-10-author-pin-1-timothy-headers.json",
+      "headers_sha256": "59d27ee7d837bb8156f9343418aff69c12284cf4864283350dec7354b755a6ca",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Chronicles",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "raw_file": "ezra-6-10-author-pin-2-chronicles.json",
+      "raw_sha256": "c542a941d64759eb96e168688b7e0881bbcd7f35966fa9dde289b9436995368e",
+      "headers_file": "ezra-6-10-author-pin-2-chronicles-headers.json",
+      "headers_sha256": "d395d26a279d740553e26979b5264f4527f477f0be1c591d236abef4579316ce",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Daniel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "raw_file": "ezra-6-10-author-pin-daniel.json",
+      "raw_sha256": "41fe27c56d5c0a23e4e970d7beb9376fdb8a55c16721aea1a1cc1b6ac23fe3f8",
+      "headers_file": "ezra-6-10-author-pin-daniel-headers.json",
+      "headers_sha256": "b07e057f28879867c8e7aa269957f21342285f40f824e4bf489ed01d947badac",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "ezra-6-10-author-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "headers_file": "ezra-6-10-author-pin-deuteronomy-headers.json",
+      "headers_sha256": "55b9089ba9f30116efb9867dfaf9d03c4e8ed96decf889816532c4ecd1c2ebcd",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Exodus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "raw_file": "ezra-6-10-author-pin-exodus.json",
+      "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+      "headers_file": "ezra-6-10-author-pin-exodus-headers.json",
+      "headers_sha256": "c2b30f8fd6d18bd8d7091e568d25cc9dd4f15b09e9696b8772bd4469284f716f",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Ezra",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "ezra/verses.json",
+      "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+      "raw_file": "ezra-6-10-author-pin-ezra.json",
+      "raw_sha256": "296ecf2cc7e86670eae99db1f718edf88ce13b117ac5aec5cb40f08220b53798",
+      "headers_file": "ezra-6-10-author-pin-ezra-headers.json",
+      "headers_sha256": "492b5f49bdd9cb086a102899dd1247b21a96d2c9865ef6fae8c6631bbf84dc15",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Haggai",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "haggai/verses.json",
+      "blob_sha": "b9623d3c2c80b65db6366f940ccbb200a2c4ba5d",
+      "raw_file": "ezra-6-10-author-pin-haggai.json",
+      "raw_sha256": "7f6e5d534b9fe88ecc9efa48fa072a87dc1e7432a50fd42dfcb2e4644c0fc4c8",
+      "headers_file": "ezra-6-10-author-pin-haggai-headers.json",
+      "headers_sha256": "f78cb292e4a8c5178f18c7a2b7c2a815247b2e3e7edd424d00222a63e8b71f57",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true,
+      "metadata_file": "ezra-6-10-haggai-mcp-metadata.json",
+      "metadata_sha256": "342740bf26dd78ebc4544ab65c5618ce7036d87af2884d348ef3375da0ab6e86"
+    },
+    {
+      "book": "Isaiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "isaiah/verses.json",
+      "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+      "raw_file": "ezra-6-10-author-pin-isaiah.json",
+      "raw_sha256": "11c89cfbb50f986fca50889e79af063c51bb8926f5221e43c3faa13f17de0da8",
+      "headers_file": "ezra-6-10-author-pin-isaiah-headers.json",
+      "headers_sha256": "00240bb76b015d87beb75744849091c9be973c1048115805e6fbd73a6dd00117",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Jeremiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+      "raw_file": "ezra-6-10-author-pin-jeremiah.json",
+      "raw_sha256": "34b7b32e065476f8a314b2b95eb0dd452e25c64cc4c19112aa5098d3b63b97bf",
+      "headers_file": "ezra-6-10-author-pin-jeremiah-headers.json",
+      "headers_sha256": "3e1f466f599cb0f191dcad5d044d4165df729ebf4867adc675d77797d12804f9",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Leviticus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_file": "ezra-6-10-author-pin-leviticus.json",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "headers_file": "ezra-6-10-author-pin-leviticus-headers.json",
+      "headers_sha256": "d12d42e88ed1dca9758cdbdef7ec8e18474eca71d186924f85c7b78433b3e713",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Nehemiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "raw_file": "ezra-6-10-author-pin-nehemiah.json",
+      "raw_sha256": "90cd08204d8e2f9ec82c69c69a64202bc1f765e59ccb202270881819be776da1",
+      "headers_file": "ezra-6-10-author-pin-nehemiah-headers.json",
+      "headers_sha256": "c04bea97ce33f92152bb7f54a4842523af3a7aeea0e0e3e01fb06a5316a42588",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Numbers",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "raw_file": "ezra-6-10-author-pin-numbers.json",
+      "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+      "headers_file": "ezra-6-10-author-pin-numbers-headers.json",
+      "headers_sha256": "7f50a8480c95f2193d835340f6ac1f3cc7354a11d8be719bdad871d040847f7b",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Proverbs",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "proverbs/verses.json",
+      "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+      "raw_file": "ezra-6-10-author-pin-proverbs.json",
+      "raw_sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c",
+      "headers_file": "ezra-6-10-author-pin-proverbs-headers.json",
+      "headers_sha256": "d2990fae44a034f7bfa6dbc0a7231044f0cb3cd6fa29da686349590487014cfe",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Zechariah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "zechariah/verses.json",
+      "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+      "raw_file": "ezra-6-10-author-pin-zechariah.json",
+      "raw_sha256": "d57fdae9f1c79aff5b7eefd79e798681bb026d0634bee2f71623f587275d4aa3",
+      "headers_file": "ezra-6-10-author-pin-zechariah-headers.json",
+      "headers_sha256": "fe32d08ab1d10a1e43b0c56fc27f1ca7f46979382596461f06e32bf6a0f7641c",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    }
+  ],
+  "candidate_file": "ezra-6-10-unresolved-candidates.tsv",
+  "candidate_sha256": "bb9ff806cca7c79669e2931f4478177aabe9cbbc80da7f8b5e4eaea8ac057dc7",
+  "review_cases_file": "ezra-6-10-review-cases.json",
+  "review_cases_sha256": "8d062dd740ef8a7406d301113cee87a4ad96847e85df93933b260bc8dd5ace1a",
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_separately_reread": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_deferred_source_units_and_reasons_reread": true,
+  "all_candidate_complete_triples_reread": true,
+  "source_read_groups": [
+    {
+      "chapter": 6,
+      "complete_source_units": 22
+    },
+    {
+      "chapter": 7,
+      "complete_source_units": 28
+    },
+    {
+      "chapter": 8,
+      "complete_source_units": 36
+    },
+    {
+      "chapter": 9,
+      "complete_source_units": 15
+    },
+    {
+      "chapter": 10,
+      "complete_source_units": 44
+    }
+  ],
+  "separate_complete_triple_read_groups": [
+    {
+      "input_file": "ezra-6-10-original-draft.tsv",
+      "input_sha256": "bbb66e934e168d952641bad23e74ac5967998971f24dd6180c0551d36849cf9a",
+      "first_pair": 1,
+      "last_pair": 32,
+      "count": 32
+    },
+    {
+      "input_file": "ezra-6-10-original-draft.tsv",
+      "input_sha256": "bbb66e934e168d952641bad23e74ac5967998971f24dd6180c0551d36849cf9a",
+      "first_pair": 33,
+      "last_pair": 64,
+      "count": 32
+    },
+    {
+      "input_file": "ezra-6-10-original-draft.tsv",
+      "input_sha256": "bbb66e934e168d952641bad23e74ac5967998971f24dd6180c0551d36849cf9a",
+      "first_pair": 65,
+      "last_pair": 94,
+      "count": 30
+    },
+    {
+      "input_file": "ezra-6-10-original-draft.tsv",
+      "input_sha256": "bbb66e934e168d952641bad23e74ac5967998971f24dd6180c0551d36849cf9a",
+      "first_pair": 95,
+      "last_pair": 124,
+      "count": 30
+    }
+  ],
+  "corrected_complete_triple_read": {
+    "input_file": "ezra-6-10-refinement-1-changed-after.tsv",
+    "input_sha256": "3600a3a7848f05d3a0ccbef704ce1365f1a4f5e24dcbb7f317bc8c1f9bc93791",
+    "count": 3,
+    "all_complete_triples_reread": true
+  },
+  "candidate_complete_triple_read": {
+    "input_file": "ezra-6-10-unresolved-candidates.tsv",
+    "input_sha256": "bb9ff806cca7c79669e2931f4478177aabe9cbbc80da7f8b5e4eaea8ac057dc7",
+    "count": 11,
+    "all_complete_triples_reread": true
+  },
+  "additional_context_passages_read": [
+    "Ezra 1:1-11",
+    "Ezra 5:1-17",
+    "1 Chronicles 6:1-66",
+    "1 Chronicles 5:27-41",
+    "Numbers 3:5-10",
+    "Leviticus 23:5-8",
+    "2 Chronicles 30:15-18",
+    "Exodus 12:48-49",
+    "1 Timothy 2:1-4",
+    "Deuteronomy 12:5-7",
+    "Proverbs 21:1",
+    "Nehemiah 8:1-8",
+    "Ezra 2:1-43",
+    "Ezra 2:61-70",
+    "Deuteronomy 16:18-20",
+    "Deuteronomy 17:8-13",
+    "Numbers 15:3-12",
+    "Isaiah 52:11-12",
+    "2 Chronicles 15:1-4",
+    "Nehemiah 2:7-9",
+    "Deuteronomy 7:1-6",
+    "Deuteronomy 23:3-7",
+    "1 Kings 8:46-54",
+    "2 Chronicles 36:14-23",
+    "Daniel 9:4-19",
+    "Leviticus 18:24-30",
+    "Nehemiah 9:29-33",
+    "Nehemiah 10:29-32",
+    "Leviticus 5:14-19",
+    "Nehemiah 13:23-29",
+    "Ezra 3:1-3",
+    "Numbers 3:17-20",
+    "1 Chronicles 24:1-4",
+    "1 Kings 8:62-66",
+    "Numbers 7:84-89",
+    "Jeremiah 36:10-14",
+    "Nehemiah 9:1-3",
+    "Zechariah 1:1-17",
+    "Haggai 1:1-15",
+    "Haggai 2:1-23"
+  ],
+  "deferred_source_count": 27,
+  "deferred_source_units": [
+    {
+      "source_reference": "Ezra 6:11",
+      "target": null,
+      "reason": "The decree specifies a timber taken from the offender's house and his fastening upon it; no independently verified passage establishes this exact prescribed punishment. Generic royal penalties are insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 7:3",
+      "target": null,
+      "reason": "The compressed Samaria-Esria-Mareroth priestly ancestry has spelling and sequence differences from the separately read Chronicles comparison; exact person-by-person equivalence remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 7:4",
+      "target": null,
+      "reason": "The Zaraia-Saouia-Bokki sequence is not silently normalized to the separately read Zaraia-Ozi-Bokai line; the middle name and exact ancestral equivalences remain unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 7:14",
+      "target": null,
+      "reason": "The commission from the king and seven advisers is read in context, but no specific independent inspection mission or adviser identities are established.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 7:18",
+      "target": null,
+      "reason": "The discretionary use of remaining funds has no specific reported decision in the texts read. The initial custody-of-offerings link was removed because custody does not establish how the remainder was used.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 7:24",
+      "target": null,
+      "reason": "The exemption of temple service personnel from taxation and enslavement has no additional specifically verified counterpart selected in this pass; their shared occupational titles alone are insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:5",
+      "target": null,
+      "reason": "Zathoes is not silently equated with the sons of Zathoua in the separately read earlier list; the exact family-name correspondence remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:7",
+      "target": null,
+      "reason": "Elam is not automatically assigned to the earlier Ailam rather than Elam-ar entry; the separately read family-name candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:9",
+      "target": null,
+      "reason": "The sons of Ioab are not automatically identified with the Ioab subgroup within the earlier Phaathmoab entry; the precise relationship remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:10",
+      "target": null,
+      "reason": "Baani is not silently changed to Banoui to force a family identification with the earlier return list.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:14",
+      "target": null,
+      "reason": "Bago is not silently normalized to Bagoi in the earlier return list; the exact family correspondence remains an unresolved candidate.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:15",
+      "target": null,
+      "reason": "The source says the named men were with Ezra and that others helped them. It is not rewritten as opposition to the reform, and their personal identities are not inferred from names alone.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:21",
+      "target": null,
+      "reason": "The priestly sons of Eram are not silently equated with the earlier Erem entry or with the non-priestly Eram family; the separately read priestly-family comparison remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:23",
+      "target": null,
+      "reason": "The Levite Iozabad is not identified with Iozabad son of Iesous solely from name and office; the other names likewise lack independently established identities.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:24",
+      "target": null,
+      "reason": "The singer and gatekeeper names do not by themselves identify those individuals with ancestral service-family names in the earlier list.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:26",
+      "target": null,
+      "reason": "The sons of Elam are not assigned automatically to Ailam or Elam-ar in the earlier inventory; the individual listed men also lack established personal identifications.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:32",
+      "target": null,
+      "reason": "This continues the preceding family list with personal names; no individual identification follows from sharing those common names elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:33",
+      "target": null,
+      "reason": "The Esam family is not silently normalized to Asem in the earlier return list; the separately read family-name candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:34",
+      "target": null,
+      "reason": "The personal names under sons of Bani do not independently establish an earlier family or person identification; the list is preserved as written.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:35",
+      "target": null,
+      "reason": "This list continuation provides personal names without distinguishing ancestry or events sufficient to identify them with other bearers.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:36",
+      "target": null,
+      "reason": "These personal names in the continuing list do not securely identify the men with similarly named figures elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:37",
+      "target": null,
+      "reason": "The unusual ending \"and acted\" and the named list continuation are preserved; no emendation or identification is imposed to manufacture a link.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:38",
+      "target": null,
+      "reason": "The wording about sons of Banoui and sons of Semei follows the unusual preceding continuation; no reconstructed family boundary or personal equivalence is imposed.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:39",
+      "target": null,
+      "reason": "The continuing personal names lack independently verified distinguishing relationships, so common names are not treated as identities.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:40",
+      "target": null,
+      "reason": "The unusual names in this continuation are preserved without spelling normalization or speculative personal identifications.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:41",
+      "target": null,
+      "reason": "The personal names are not identified with other similarly named men without independently distinguishing family or narrative evidence.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:42",
+      "target": null,
+      "reason": "The closing personal names of this continuation do not by themselves establish specific earlier identities.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Ezra 7:3",
+      "target": "1 Chronicles 5:32-38",
+      "relationship": "Unresolved priestly ancestry",
+      "rationale": "The source names Samaria, Esria and Mareroth; the Chronicles sequence contains differing names and repeated Amariah/Azariah generations. Exact personal equivalences and omitted generations are not established by silently normalizing the names.",
+      "reason": "The source names Samaria, Esria and Mareroth; the Chronicles sequence contains differing names and repeated Amariah/Azariah generations. Exact personal equivalences and omitted generations are not established by silently normalizing the names.",
+      "necessary_context": [
+        "Ezra 7:1-5",
+        "1 Chronicles 5:29-41"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 7:4",
+      "target": "1 Chronicles 5:31-32",
+      "relationship": "Unresolved priestly ancestry",
+      "rationale": "The source names Zaraia, Saouia and Bokki; Chronicles has Bokai, Ozi and Zaraia. The comparable position in the Aaronic ancestry does not resolve the differing middle name into an exact sequence of personal identities.",
+      "reason": "The source names Zaraia, Saouia and Bokki; Chronicles has Bokai, Ozi and Zaraia. The comparable position in the Aaronic ancestry does not resolve the differing middle name into an exact sequence of personal identities.",
+      "necessary_context": [
+        "Ezra 7:1-5",
+        "1 Chronicles 5:29-41",
+        "1 Chronicles 6:35-38"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:5",
+      "target": "Ezra 2:8",
+      "relationship": "Unresolved family-name correspondence",
+      "rationale": "Zathoes in the later list is not silently substituted for Zathoua in the earlier list. The actual family-name forms and distinct group counts are preserved pending secure identification.",
+      "reason": "Zathoes in the later list is not silently substituted for Zathoua in the earlier list. The actual family-name forms and distinct group counts are preserved pending secure identification.",
+      "necessary_context": [
+        "Ezra 8:1-14",
+        "Ezra 2:3-15"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:7",
+      "target": "Ezra 2:7",
+      "relationship": "Unresolved family-name correspondence",
+      "rationale": "Elam in the later return is not automatically identified with Ailam rather than the additional Elam-ar entry at Ezra 2:31. Neither precise family equivalence nor individual identity is resolved.",
+      "reason": "Elam in the later return is not automatically identified with Ailam rather than the additional Elam-ar entry at Ezra 2:31. Neither precise family equivalence nor individual identity is resolved.",
+      "necessary_context": [
+        "Ezra 8:1-14",
+        "Ezra 2:3-15",
+        "Ezra 2:29-32"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:9",
+      "target": "Ezra 2:6",
+      "relationship": "Unresolved returnee subgroup relationship",
+      "rationale": "The later sons of Ioab are not automatically equated with the earlier sons of Ioab named inside the Phaathmoab group. The exact subgroup relationship and membership across returns remain unestablished.",
+      "reason": "The later sons of Ioab are not automatically equated with the earlier sons of Ioab named inside the Phaathmoab group. The exact subgroup relationship and membership across returns remain unestablished.",
+      "necessary_context": [
+        "Ezra 8:1-14",
+        "Ezra 2:3-15"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:10",
+      "target": "Ezra 2:10",
+      "relationship": "Unresolved family-name correspondence",
+      "rationale": "Baani in the later list is not silently normalized to Banoui in the earlier list; a secure family identity is not established by the similar names alone.",
+      "reason": "Baani in the later list is not silently normalized to Banoui in the earlier list; a secure family identity is not established by the similar names alone.",
+      "necessary_context": [
+        "Ezra 8:1-14",
+        "Ezra 2:3-15"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 8:14",
+      "target": "Ezra 2:14",
+      "relationship": "Unresolved family-name correspondence",
+      "rationale": "The source form Bago and the earlier Bagoi are preserved as written; this pass does not turn their resemblance into an independently established family identification.",
+      "reason": "The source form Bago and the earlier Bagoi are preserved as written; this pass does not turn their resemblance into an independently established family identification.",
+      "necessary_context": [
+        "Ezra 8:1-14",
+        "Ezra 2:3-15"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:21",
+      "target": "Ezra 2:39",
+      "relationship": "Unresolved priestly family correspondence",
+      "rationale": "The priestly Eram entry may invite comparison with the earlier priestly Erem, but the text also has a non-priestly Eram family. This pass preserves the spellings and does not resolve the priestly-family equation or identify its members.",
+      "reason": "The priestly Eram entry may invite comparison with the earlier priestly Erem, but the text also has a non-priestly Eram family. This pass preserves the spellings and does not resolve the priestly-family equation or identify its members.",
+      "necessary_context": [
+        "Ezra 10:18-25",
+        "Ezra 2:36-40",
+        "Ezra 2:32"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:23",
+      "target": "Ezra 8:33",
+      "relationship": "Unresolved Levite identity",
+      "rationale": "Both entries include a Levite named Iozabad, but only the earlier delivery notice gives the patronymic son of Iesous. Shared name and office do not establish that the offender is that individual.",
+      "reason": "Both entries include a Levite named Iozabad, but only the earlier delivery notice gives the patronymic son of Iesous. Shared name and office do not establish that the offender is that individual.",
+      "necessary_context": [
+        "Ezra 10:18-25",
+        "Ezra 8:30-35"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:26",
+      "target": "Ezra 2:7",
+      "relationship": "Unresolved family-name correspondence",
+      "rationale": "The sons of Elam are not automatically assigned to the earlier Ailam entry rather than Elam-ar at Ezra 2:31. The listed personal names do not resolve that family correspondence.",
+      "reason": "The sons of Elam are not automatically assigned to the earlier Ailam entry rather than Elam-ar at Ezra 2:31. The listed personal names do not resolve that family correspondence.",
+      "necessary_context": [
+        "Ezra 10:25-31",
+        "Ezra 2:3-15",
+        "Ezra 2:29-32"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ezra 10:33",
+      "target": "Ezra 2:19",
+      "relationship": "Unresolved family-name correspondence",
+      "rationale": "Esam is not silently normalized to Asem in the earlier inventory; neither exact family correspondence nor identities of the listed men are established from similar spelling.",
+      "reason": "Esam is not silently normalized to Asem in the earlier inventory; neither exact family correspondence nor identities of the listed men are established from similar spelling.",
+      "necessary_context": [
+        "Ezra 10:25-44",
+        "Ezra 2:17-20"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "source_inventory_first": {
+    "full_book_units": 280,
+    "chapters": 10,
+    "source_blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+    "complete_inventory_precedes_source_pass": true,
+    "inventory_receipt_file": "inventory-ezra-receipt.json",
+    "inventory_receipt_sha256": "ccae052a7e8401c61b35ab3b8cc86037bfaac1484d85b3b2858e58d8cfc8f6d2",
+    "inventory_only_credit": 0,
+    "whole_book_source_review_claimed": false
+  },
+  "author_refinements": {
+    "exact_stage_file": "ezra-6-10-refinement-1.json",
+    "exact_stage_sha256": "334c3558fbddb8988f8014e1ab35d0f2d7c00eb2c4a8ba2ae5764b673546e4df",
+    "changed_or_added_retained_triples": 3,
+    "removed_connections": 1,
+    "added_connections": 1,
+    "rationale_or_target_refinements": 2,
+    "net_pair_change": 0,
+    "description": "Narrowed Ezra 6:14 to Zechariah 1:16, removed an unnecessary planning-date interpretation at Ezra 7:8, removed the insufficient discretionary-funds/custody link at Ezra 7:18, and added the explicit Zathoua family connection at Ezra 10:27. Exact original and final rows and snapshots are preserved."
+  },
+  "same_chapter_pairs_explicitly_labelled": 26,
+  "truncated_read_recovery": "All source-chapter, full retained-triple, changed-triple, candidate-triple, deferral and context displays used for this author review were complete and untruncated. Initial queries using unavailable Haggai cache entries and an incorrect Jeremiah chapter range received no reading credit; full Haggai was fetched through fresh MCP and personally read, and the actual pinned Jeremiah 36:10-14 was separately read. The Haggai cache was then independently raw-verified before final artifact checks.",
+  "precision_notes": [
+    "Original source text, numbering, anchors and continuations were retained; no source-text correction or harmonization was performed.",
+    "Genealogical personal-name and uncertain family-name equivalences remain eleven explicit zero-credit target candidates. Retained family links distinguish named family continuity from identity of individual returnees.",
+    "Ezra 6:22 retains king of Assour; Ezra 8:17 retains the unusual silver-of-the-place wording; Ezra 10:15 is not rewritten as opposition; Ezra 10:37-38 is not reconstructed.",
+    "The intermarriage prohibition is distinguished from the narrative proposal to expel wives and children; the target law is not said to prescribe that proposal.",
+    "The final notice of foreign wives and children is not represented as a narrated completed dismissal of every household."
+  ],
+  "pin_verification": "Fresh raw files and HTTP headers were fetched independently for all sixteen used source, retained-target and candidate-target books. Every Git blob matches its pinned registry metadata and every complete parsed raw book equals the reading cache. Haggai additionally has this author's own fresh MCP metadata.",
+  "completion_definition": "Initial curated supported cross-reference pass covering 145 read source units; 118 have retained supported links, 27 source-only deferrals remain pending, and eleven candidate target links receive zero source and pair completion credit. Each retained target range is one pair. No exhaustive-discovery, whole-book-source-review, historical-genealogical verification or source-language-review claim is made.",
+  "pin_and_inventory_credit": 0
+}

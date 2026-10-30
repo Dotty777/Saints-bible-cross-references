@@ -1,0 +1,13 @@
+# Nehemiah record recovery
+
+Read ../canon.json, ../progress.json, verses.json and inventory.json first. Fetch current remote main and preserve every completed object and review batch. Never run an initial bootstrap builder over this tracker.
+
+Recover the source from the exact commit and blob in source-checks.json. Preserve all original nested book/chapter metadata, ordered verse objects, references, anchors and words. Tracker status is separate from earlier source-edition status. Use the actual inventory for counts, continuation units and gaps; do not replace supplied names or numbering with another edition.
+
+Recover through Git history in a new commit. Recompute counts and the first unfinished source unit. Inventory/import, duplicates, unresolved evidence and technical checks add no review credit. Run python scripts/render_books.py and then python scripts/validate.py --write-verification from the repository root. WordPress and Saints-Translation are separate from this tracker.
+
+## Pending source review recovery
+
+392 original Nehemiah source units in 13 chapters were inventoried before review. 195 units have been read: 160 completed source units and 169 retained pairs; 197 units are never reviewed. Read but deferred sources earn zero completion credit: Nehemiah 3:2, Nehemiah 3:4, Nehemiah 3:9, Nehemiah 3:10, Nehemiah 3:12, Nehemiah 3:17, Nehemiah 3:18, Nehemiah 3:19, Nehemiah 3:20, Nehemiah 3:21, Nehemiah 3:22, Nehemiah 3:23, Nehemiah 3:24, Nehemiah 3:25, Nehemiah 3:28, Nehemiah 3:29, Nehemiah 3:30, Nehemiah 3:31, Nehemiah 3:34, Nehemiah 3:35, Nehemiah 4:4, Nehemiah 4:7, Nehemiah 4:17, Nehemiah 5:4, Nehemiah 5:6, Nehemiah 5:16, Nehemiah 5:17, Nehemiah 6:4, Nehemiah 6:5, Nehemiah 6:11, Nehemiah 7:2, Nehemiah 7:22, Nehemiah 7:23, Nehemiah 7:24, Nehemiah 7:25. First unfinished source: **Nehemiah 3:2**. Next never-reviewed source in this book: **Nehemiah 8:1**. Keep this book incomplete while any source unit remains pending.
+
+The next new source review is **Nehemiah 8:1**. Root progress.json keeps its earliest-pending next at **1 Chronicles 1:24** and its separate next_unreviewed at **Nehemiah 8:1**. Recompute both positions from actual ordered source objects after every update. Preserve earlier completed objects, source fields, anchors, continuation bodies, pending cases and review batches. Inventory, unresolved evidence and rereading add no completion credit.

@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI independent peer agent /root/macc9_12_peer (GPT-6)",
+  "reviewer_role": "Independent AI peer; personally read all 31 complete source units, all 39 complete retained source-target-category-rationale triples, the one complete author-refined triple, the unresolved pool candidate and excluded wall-clause proposal with their full bodies and reasons, and necessary context. No scholarly or original-language review is claimed.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T15:22:19.257509+00:00",
+  "run_id": "2026-10-30T143835Z",
+  "baseline_commit": "c638d52fb6f40fd432ea6df7ec1f0ebc2e59493a",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "Nehemiah",
+  "source_chapters": [
+    1,
+    2
+  ],
+  "source_units_read": 31,
+  "source_inventory_units_in_scope": 31,
+  "source_verses": 31,
+  "completed_source_verses": 31,
+  "completed_pairs": 39,
+  "distinct_target_verse_units": 45,
+  "chapter_inventory_counts": {
+    "1": 11,
+    "2": 20
+  },
+  "chapter_source_counts": {
+    "1": 11,
+    "2": 20
+  },
+  "chapter_pair_counts": {
+    "1": 16,
+    "2": 23
+  },
+  "input_file": "nehemiah-1-2.tsv",
+  "input_sha256": "a7bdbbc7820f1773b06f352adf5b3be080f72f6f807ab5ee92748d88e15ebce2",
+  "final_input_sha256": "a7bdbbc7820f1773b06f352adf5b3be080f72f6f807ab5ee92748d88e15ebce2",
+  "author_receipt_file": "nehemiah-1-2-review.json",
+  "author_receipt_sha256": "53e27412e4449afd10db2d3e73de3ac4e4e067d5e0c4137bc3a089bb14e7bc9d",
+  "original_draft_file": "nehemiah-1-2-original-draft.tsv",
+  "original_draft_sha256": "83cb5e0191347dcf8cc46df4eda07c39471c0fbb388a1ad3d60504d265341101",
+  "author_refinement_file": "nehemiah-1-2-self-refinement.json",
+  "author_refinement_sha256": "b1c230a9c4b04c29af188e2307da92eccb5ff2ef46535480e421c87401af8e4e",
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_independently_read": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_candidate_complete_triples_independently_read": true,
+  "source_read_groups": [
+    {
+      "chapter": 1,
+      "complete_source_units": 11
+    },
+    {
+      "chapter": 2,
+      "complete_source_units": 20
+    }
+  ],
+  "complete_triple_read_groups": [
+    {
+      "input_file": "nehemiah-1-2-original-draft.tsv",
+      "input_sha256": "83cb5e0191347dcf8cc46df4eda07c39471c0fbb388a1ad3d60504d265341101",
+      "first_pair": 1,
+      "last_pair": 20,
+      "count": 20
+    },
+    {
+      "input_file": "nehemiah-1-2-original-draft.tsv",
+      "input_sha256": "83cb5e0191347dcf8cc46df4eda07c39471c0fbb388a1ad3d60504d265341101",
+      "first_pair": 21,
+      "last_pair": 39,
+      "count": 19
+    }
+  ],
+  "corrected_complete_triple_read": {
+    "input_file": "nehemiah-1-2.tsv",
+    "input_sha256": "a7bdbbc7820f1773b06f352adf5b3be080f72f6f807ab5ee92748d88e15ebce2",
+    "first_pair": 32,
+    "last_pair": 32,
+    "count": 1,
+    "all_complete_triples_reread": true
+  },
+  "read_binding_note": "The first complete display contained the original pair-32 rationale including its pool caveat; the subsequent hash sample occurred after the author refinement. The original-to-final exact delta was verified, and final pair 32 was separately redisplayed and personally reread before acceptance. The other 38 full triples are unchanged.",
+  "additional_context_passages_read": [
+    "Nehemiah 3:1-37",
+    "Nehemiah 4:1-17",
+    "Nehemiah 5:1-19",
+    "Nehemiah 6:1-19",
+    "Nehemiah 7:1-73",
+    "Nehemiah 12:27-43",
+    "Ezra 2:1-70",
+    "Ezra 4:1-23",
+    "Ezra 7:1-28",
+    "Ezra 8:1-36",
+    "Ezra 9:1-15",
+    "2 Kings 25:8-12",
+    "2 Chronicles 6:36-42",
+    "2 Chronicles 36:14-23",
+    "Daniel 9:1-19",
+    "Deuteronomy 7:6-11",
+    "Deuteronomy 9:18-29",
+    "Deuteronomy 12:5-7",
+    "Deuteronomy 28:15-20",
+    "Deuteronomy 28:63-68",
+    "Deuteronomy 30:1-10",
+    "Leviticus 26:14-17",
+    "Leviticus 26:31-45"
+  ],
+  "truncated_read_recovery": "All source, retained-triple, corrected-triple, candidate/exclusion and context displays used for this peer review were complete and untruncated.",
+  "pin_receipt": "nehemiah-1-2-peer-independent-pins.json",
+  "pin_receipt_sha256": "33404d94f81551b282f892586c6907744b44db0561264f31f6d9c03ed86f6401",
+  "source_books": [
+    {
+      "book": "2 Chronicles",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "raw_file": "nehemiah-1-2-peer-independent-pin-2-chronicles.json",
+      "raw_sha256": "c542a941d64759eb96e168688b7e0881bbcd7f35966fa9dde289b9436995368e",
+      "headers_file": "nehemiah-1-2-peer-independent-pin-2-chronicles-headers.json",
+      "headers_sha256": "3387221b0a94adc10d655a16402f2c4fe927c0e0f6bfae7580eaedf41b14d363",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "raw_file": "nehemiah-1-2-peer-independent-pin-2-kings.json",
+      "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7",
+      "headers_file": "nehemiah-1-2-peer-independent-pin-2-kings-headers.json",
+      "headers_sha256": "51aee2d4df1d1cef46517eeb907650376c5ecdf7ca809423e961838d64f33024",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Daniel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "raw_file": "nehemiah-1-2-peer-independent-pin-daniel.json",
+      "raw_sha256": "41fe27c56d5c0a23e4e970d7beb9376fdb8a55c16721aea1a1cc1b6ac23fe3f8",
+      "headers_file": "nehemiah-1-2-peer-independent-pin-daniel-headers.json",
+      "headers_sha256": "c04e3080ffe637bf8df4e89f8af1328d80ffe7ccf744658ec91b3f0244d6f322",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "nehemiah-1-2-peer-independent-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "headers_file": "nehemiah-1-2-peer-independent-pin-deuteronomy-headers.json",
+      "headers_sha256": "6f52a14c229febe2c7e06a3147b098e13f4f6365cd9236240c8170aa593aad13",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Ezra",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "ezra/verses.json",
+      "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+      "raw_file": "nehemiah-1-2-peer-independent-pin-ezra.json",
+      "raw_sha256": "296ecf2cc7e86670eae99db1f718edf88ce13b117ac5aec5cb40f08220b53798",
+      "headers_file": "nehemiah-1-2-peer-independent-pin-ezra-headers.json",
+      "headers_sha256": "6238582e09d9042179f8d704461d809378f2494e855b3ecb2f480664e5e1718b",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Leviticus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_file": "nehemiah-1-2-peer-independent-pin-leviticus.json",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "headers_file": "nehemiah-1-2-peer-independent-pin-leviticus-headers.json",
+      "headers_sha256": "41b80a1a4f1788038f5f4e862252be58416bccc96f3ef688a1ebefd401256b33",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Nehemiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "raw_file": "nehemiah-1-2-peer-independent-pin-nehemiah.json",
+      "raw_sha256": "90cd08204d8e2f9ec82c69c69a64202bc1f765e59ccb202270881819be776da1",
+      "headers_file": "nehemiah-1-2-peer-independent-pin-nehemiah-headers.json",
+      "headers_sha256": "d89046d6367e9da354c8f96e764e80afa829710cc1fc2f9c2258db42dc614f30",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    }
+  ],
+  "independent_pin_verification": "The peer freshly fetched and saved its own raw bytes and HTTP headers for seven books, including the excluded 2 Kings context; verified Git blob hashes against pinned metadata and full parsed-cache equality; and did not reuse author fetches as independent checks.",
+  "review_findings": {
+    "retained_gate_connection": "Nehemiah 2:14 to 12:37 is supported by the named Ain/ain gate in Jerusalem routes; it does not require the unresolved pool equation.",
+    "pool_candidate": "The King's Pool and Pool of Fleeces for royal shearing are not identified solely by their royal associations.",
+    "excluded_wall_candidate": "The supplied 2 Kings 25:9-10 has no wall-demolition clause. The exclusion is sound, and the retained 2 Chronicles 36:19 link contains the actual demolished-wall statement.",
+    "exact_history": "The author changed only the declared pair-32 rationale; the original draft and exact stage are preserved."
+  },
+  "required_changes": [],
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": 0,
+  "deferred_source_count": 0,
+  "deferred_source_units": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Nehemiah 2:14",
+      "target": "Nehemiah 3:15",
+      "relationship": "Unresolved pool identification",
+      "reason": "The source names the King's Pool, while the proposed target names the Pool of Fleeces for the king's shearing. Royal association alone does not establish that these differently named water features are identical. This source edition's 3:15 does not name the gate of Ain. The pool identity remains unresolved.",
+      "source_and_target_text_read": true,
+      "necessary_context_read": [
+        "Nehemiah 2:12-16",
+        "Nehemiah 3:13-16",
+        "Nehemiah 12:31-40"
+      ],
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "peer_disposition": "Unresolved; excluded from retained pairs and awarded zero additional source or pair credit."
+    }
+  ],
+  "candidate_exclusions": [
+    {
+      "source_reference": "Nehemiah 1:3",
+      "target": "2 Kings 25:9-10",
+      "reason": "The actual supplied target describes Jerusalem buildings burning and finishes the chief-cook clause; it does not contain a wall-demolition clause. No wording from another edition was imported. The retained link uses the explicit demolished-wall statement at 2 Chronicles 36:19 instead.",
+      "candidate_passage_read": true,
+      "retained": false,
+      "completed_pair_credit": 0,
+      "source_and_target_independently_read": true,
+      "necessary_context_independently_read": true,
+      "completed_source_credit": 0
+    }
+  ],
+  "same_chapter_pairs_explicitly_labelled": 2,
+  "structural_checks": {
+    "source_target_overlap_absent": true,
+    "duplicate_actual_pairs_absent": true,
+    "same_chapter_labels_exact": true,
+    "source_supported_deferral_partition_exact": true,
+    "all_candidate_credits_zero": true,
+    "final_hash_bindings_exact": true,
+    "exact_author_refinement_verified": true
+  },
+  "accepted_for_integration": true,
+  "acceptance": {
+    "accepted": true,
+    "binding_tsv_sha256": "a7bdbbc7820f1773b06f352adf5b3be080f72f6f807ab5ee92748d88e15ebce2",
+    "binding_author_receipt_sha256": "53e27412e4449afd10db2d3e73de3ac4e4e067d5e0c4137bc3a089bb14e7bc9d",
+    "required_changes": [],
+    "unresolved_retained_cases": 0
+  },
+  "completion_definition": "Initial curated supported pass for 31 source units in Nehemiah 1-2, with 39 retained pairs and no source-only deferrals. The separate pool candidate and excluded wall-clause proposal add zero source or pair credit. Each target range counts once. Other chapters read for context or the next packet do not add source credit to this packet. No exhaustive, whole-book, source-language or specialist verification claim is made.",
+  "review_credit_added": 0,
+  "pin_and_inventory_credit": 0
+}

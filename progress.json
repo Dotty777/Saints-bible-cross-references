@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-30",
-  "updated_at_utc": "2026-10-30T14:23:50.676713+00:00",
+  "updated_at_utc": "2026-10-30T15:33:22.474228+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,9 +11,9 @@
   "target_unit": "distinct completed source-verse/target-passage pairs",
   "completed_book_records": 12,
   "pending_book_records": 31,
-  "completed_chapters": 387,
-  "completed_source_verses": 12763,
-  "completed_cross_references": 17256,
+  "completed_chapters": 390,
+  "completed_source_verses": 13299,
+  "completed_cross_references": 17829,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before source review. Uninventoried pending books retain unknown verse and chapter counts. Fully inventoried pending books have known source totals and zero review credit until their initial curated review. Preserve nonstandard anchors, continuation units and original composite references.",
   "next": {
@@ -1135,8 +1135,8 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in_progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 194,
-      "completed_cross_references": 205,
+      "completed_source_verses": 340,
+      "completed_cross_references": 364,
       "order": 16,
       "division": "Judgement",
       "division_slug": "judgement",
@@ -1146,7 +1146,7 @@
       "total_chapters": 15,
       "completed_chapters": [],
       "next_reference": "2 Maccabees 1:1",
-      "next_unreviewed_reference": "2 Maccabees 9:1",
+      "next_unreviewed_reference": null,
       "completed_verse_ranges": []
     },
     {
@@ -1154,30 +1154,52 @@
       "records": "ezra/",
       "source_records": "ezra/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
-      "inventory_status": "not yet inventoried",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "status": "in_progress",
+      "inventory_status": "complete for pinned source",
+      "completed_source_verses": 230,
+      "completed_cross_references": 245,
       "order": 17,
       "division": "Judgement",
       "division_slug": "judgement",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/judgement/ezra/"
+      "source_staging_path": "/bible/judgement/ezra/",
+      "total_source_verse_units": 280,
+      "total_chapters": 10,
+      "completed_chapters": [
+        9
+      ],
+      "next_reference": "Ezra 1:9",
+      "next_unreviewed_reference": null,
+      "completed_verse_ranges": [
+        "Ezra 9:1-15"
+      ]
     },
     {
       "book": "Nehemiah",
       "records": "nehemiah/",
       "source_records": "nehemiah/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
-      "inventory_status": "not yet inventoried",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "status": "in_progress",
+      "inventory_status": "complete for pinned source",
+      "completed_source_verses": 160,
+      "completed_cross_references": 169,
       "order": 18,
       "division": "Judgement",
       "division_slug": "judgement",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/judgement/nehemiah/"
+      "source_staging_path": "/bible/judgement/nehemiah/",
+      "total_source_verse_units": 392,
+      "total_chapters": 13,
+      "completed_chapters": [
+        1,
+        2
+      ],
+      "next_reference": "Nehemiah 3:2",
+      "next_unreviewed_reference": "Nehemiah 8:1",
+      "completed_verse_ranges": [
+        "Nehemiah 1:1-11",
+        "Nehemiah 2:1-20"
+      ]
     },
     {
       "book": "Esther",
@@ -3365,6 +3387,122 @@
       "maintenance_records": [
         "review-batches/2026-10-30T133134Z-validator-maintenance.json"
       ]
+    },
+    {
+      "run_id": "2026-10-30T143835Z",
+      "date": "2026-10-30",
+      "synchronized": "2026-10-30",
+      "reviewed_dates": [
+        "2026-10-30"
+      ],
+      "source_range": "2 Maccabees 9:1-15:39; Ezra 1:1-10:44; Nehemiah 1:1-7:73",
+      "source_range_is_review_scope": true,
+      "source_units_read": 736,
+      "distinct_source_verses": 536,
+      "new_completed_pairs": 573,
+      "new_deferred_source_units_count": 200,
+      "total_deferred_source_units_count": 595,
+      "book_results": [
+        {
+          "book": "2 Maccabees",
+          "source_range": "2 Maccabees 9:1-15:39",
+          "source_range_is_review_scope": true,
+          "source_units_read": 261,
+          "distinct_source_verses": 146,
+          "new_completed_pairs": 159,
+          "new_deferred_source_units_count": 115,
+          "total_deferred_source_units_count": 215,
+          "completed_chapters": [],
+          "new_completed_chapters": [],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": true,
+          "next_reference": "2 Maccabees 1:1",
+          "next_unreviewed_reference": null
+        },
+        {
+          "book": "Ezra",
+          "source_range": "Ezra 1:1-10:44",
+          "source_range_is_review_scope": true,
+          "source_units_read": 280,
+          "distinct_source_verses": 230,
+          "new_completed_pairs": 245,
+          "new_deferred_source_units_count": 50,
+          "total_deferred_source_units_count": 50,
+          "completed_chapters": [
+            9
+          ],
+          "new_completed_chapters": [
+            9
+          ],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": true,
+          "next_reference": "Ezra 1:9",
+          "next_unreviewed_reference": null
+        },
+        {
+          "book": "Nehemiah",
+          "source_range": "Nehemiah 1:1-7:73",
+          "source_range_is_review_scope": true,
+          "source_units_read": 195,
+          "distinct_source_verses": 160,
+          "new_completed_pairs": 169,
+          "new_deferred_source_units_count": 35,
+          "total_deferred_source_units_count": 35,
+          "completed_chapters": [
+            1,
+            2
+          ],
+          "new_completed_chapters": [
+            1,
+            2
+          ],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": false,
+          "next_reference": "Nehemiah 3:2",
+          "next_unreviewed_reference": "Nehemiah 8:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 73,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 33,
+      "known_pending_target_candidate_count": 167,
+      "review_record": "review-batches/2026-10-30T143835Z.json",
+      "next_reference": "1 Chronicles 1:24",
+      "next_unreviewed_reference": "Nehemiah 8:1",
+      "inventories_added": [
+        {
+          "book": "Ezra",
+          "source_units": 280,
+          "chapters": 10,
+          "first_reference": "Ezra 1:1",
+          "source_blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+          "completed_source_verses": 0,
+          "completed_pairs": 0,
+          "completion_credit": 0
+        },
+        {
+          "book": "Nehemiah",
+          "source_units": 392,
+          "chapters": 13,
+          "first_reference": "Nehemiah 1:1",
+          "source_blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+          "completed_source_verses": 0,
+          "completed_pairs": 0,
+          "completion_credit": 0
+        }
+      ]
     }
   ],
   "canon_manifest": "canon.json",
@@ -3386,9 +3524,9 @@
     }
   ],
   "next_unreviewed": {
-    "book": "2 Maccabees",
-    "chapter": 9,
-    "reference": "2 Maccabees 9:1",
-    "source_id": "v9-1"
+    "book": "Nehemiah",
+    "chapter": 8,
+    "reference": "Nehemiah 8:1",
+    "source_id": "v8-1"
   }
 }
