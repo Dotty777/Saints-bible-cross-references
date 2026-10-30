@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "run": "2026-10-30T102602Z",
+  "reviewer": "Codex /root/chron_25_29 (AI author reviewer)",
+  "reviewer_role": "Author; personally read all complete actual source units, all chosen target passages and necessary context, and separately reread all complete source-target-category-rationale triples before freezing this receipt.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T10:41:58.338340+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "baseline_repository_commit": "596dd7f9245e7fabecacfdeff81c9a352ba449e7",
+  "source_chapters": [
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "source_verses": 147,
+  "completed_source_verses": 147,
+  "source_units_read": 148,
+  "source_scope_units": 148,
+  "source_inventory_units_in_scope": 148,
+  "completed_pairs": 174,
+  "distinct_target_verse_units": 184,
+  "deferred_source_count": 1,
+  "chapter_source_counts": {
+    "28": 21,
+    "25": 31,
+    "27": 33,
+    "26": 32,
+    "29": 30
+  },
+  "chapter_source_units_read": {
+    "28": 21,
+    "25": 31,
+    "27": 34,
+    "26": 32,
+    "29": 30
+  },
+  "chapter_pair_counts": {
+    "25": 33,
+    "26": 34,
+    "27": 37,
+    "28": 31,
+    "29": 39
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "necessary_context_read": true,
+  "all_changed_complete_triples_reread": true,
+  "review_method": "Read all 148 complete actual source units in chapters 25-29 (31/32/34/21/30). Read complete selected target passages and context using the actual source INDEX, keys, and complete_text. Separately reread all 175 original complete source/target/category/rationale triples in batches 1-30, 31-65, 66-100, 101-135, and 136-175 using show-triples.py; removed one unsupported family inference, then separately reread all seven changed retained complete triples. The final 174 rows comprise 167 unchanged reread rows and seven reread refinements. Source 27:32 remains pending despite having been read. All targets are from the canonical source collection, and target ranges count once per pair. This supplied-English curated pass does not claim exhaustive discovery, specialist review, original-language identity resolution, or numerical reconciliation.",
+  "pin_method": "Adapted check-pins-template.py for this packet; freshly fetched all eight used-book raw files at the immutable source commit, verified Git blob SHA1 against the existing source-check registries, saved separate packet raw files and SHA256 metadata, and compared every parsed source cache with the full fetched pinned file. Rehashed all saved raw files and rechecked full parsed-cache equality at freeze. The pending candidates use 1 Chronicles, already included in these pins. No unknown book blob was invented or required.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Genesis",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+    },
+    {
+      "book": "Leviticus",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+    }
+  ],
+  "pin_receipt": "1-chronicles-25-29-author-current-pins.json",
+  "pin_receipt_sha256": "23ad0875464dabcc8d168e050a974b9a9c85058721f8c36c4f7a275f76e8b0ba",
+  "input_file": "1-chronicles-25-29.tsv",
+  "input_sha256": "34f9ec63e9bf58d734fea9fcad8ad404b5d2df209b1b70a325b191c4b37803a5",
+  "final_input_sha256": "34f9ec63e9bf58d734fea9fcad8ad404b5d2df209b1b70a325b191c4b37803a5",
+  "source_inventory": "1-chronicles/inventory.json",
+  "inventory_completion_credit": 0,
+  "author_draft_file": "1-chronicles-25-29-author-draft.tsv",
+  "author_draft_sha256": "c60492bd57eea77e09fd396bad8c6009a7b903f94d2dba98d5e98413aec93f20",
+  "author_refinements_before_freeze": [
+    {
+      "file": "1-chronicles-25-29-author-refinements.json",
+      "sha256": "8936d22e9d223d1a4245d0fd164bdeb641795af9abfb35527e211d16383a01c4",
+      "changes": [
+        {
+          "source_reference": "1 Chronicles 25:4",
+          "old_row": {
+            "source_reference": "1 Chronicles 25:4",
+            "target": "1 Chronicles 25:5",
+            "relationship": "Same-chapter roster explanation",
+            "rationale": "The fourteen named sons of Aiman are the sons described immediately afterward as serving the king in God's words; the target also records three daughters without supplying their names."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 25:4",
+            "target": "1 Chronicles 25:5",
+            "relationship": "Same-chapter roster explanation",
+            "rationale": "The fourteen named sons of Aiman are gathered by the following all these family summary. That summary describes Aiman's playing for the king in God's words and also records three daughters without supplying their names."
+          },
+          "reason": "Precision after separate complete-triple reread",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 26:29",
+          "old_row": {
+            "source_reference": "1 Chronicles 26:29",
+            "target": "1 Chronicles 23:12",
+            "relationship": "Ancestral framework of the Issari assignment",
+            "rationale": "The scribal and judicial assignment is introduced as of the Issari; the earlier four-family genealogy names Issaar among Kaath's sons, furnishing the stated family framework rather than identifying Chonenia with another named official."
+          },
+          "new_row": null,
+          "reason": "The family connection between Issari and Issaar was inferred from name form without an explicit identity statement in the proposed target; removed from retained pairs and recorded as an unresolved candidate with zero credit.",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 28:6",
+          "old_row": {
+            "source_reference": "1 Chronicles 28:6",
+            "target": "1 Chronicles 22:10",
+            "relationship": "Repeated sonship and house-building promise",
+            "rationale": "Both passages name Solomon as builder of God's house and state the reciprocal son-and-Father relationship, linking the assembly speech with David's earlier instruction to his son."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 28:6",
+            "target": "1 Chronicles 22:9-10",
+            "relationship": "Repeated sonship and house-building promise",
+            "rationale": "Both passages name Solomon as builder of God's house and state the reciprocal son-and-Father relationship, linking the assembly speech with David's earlier instruction to his son."
+          },
+          "reason": "Precision after separate complete-triple reread",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 28:7",
+          "old_row": {
+            "source_reference": "1 Chronicles 28:7",
+            "target": "1 Kings 2:3-4",
+            "relationship": "Conditional continuation of the royal promise",
+            "rationale": "David conditions the kingdom's enduring establishment on keeping God's commandments and judgments; Kings' charge similarly joins obedience to the fulfillment of the promise concerning Israel's throne."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 28:7",
+            "target": "1 Kings 2:3-4",
+            "relationship": "Conditional continuation of the royal promise",
+            "rationale": "The divine promise reported by David conditions the kingdom's enduring establishment on keeping God's commandments and judgments; Kings' charge similarly joins obedience to fulfillment of the promise concerning Israel's throne."
+          },
+          "reason": "Precision after separate complete-triple reread",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 29:2",
+          "old_row": {
+            "source_reference": "1 Chronicles 29:2",
+            "target": "1 Chronicles 22:14",
+            "relationship": "David's accumulation of building materials",
+            "rationale": "Both accounts enumerate David's prepared gold, silver, bronze, iron, timber, and stone for the Lord's house; this source expands the kinds of stone while the target gives monetary quantities."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 29:2",
+            "target": "1 Chronicles 22:14",
+            "relationship": "David's accumulation of building materials",
+            "rationale": "Both accounts enumerate David's prepared gold, silver, bronze, iron, timber, and stone for the Lord's house; this source expands the kinds of stone while the target gives quantities of gold and silver."
+          },
+          "reason": "Precision after separate complete-triple reread",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 29:3",
+          "old_row": {
+            "source_reference": "1 Chronicles 29:3",
+            "target": "1 Chronicles 29:2",
+            "relationship": "Same-chapter distinction between public preparation and personal gift",
+            "rationale": "David's additional personally acquired gold and silver are explicitly distinguished from the building materials he has just listed as prepared with all his strength."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 29:3",
+            "target": "1 Chronicles 29:2",
+            "relationship": "Same-chapter distinction between prepared materials and personal gift",
+            "rationale": "David's additional personally acquired gold and silver are explicitly distinguished from the building materials he has just listed as prepared with all his strength."
+          },
+          "reason": "Precision after separate complete-triple reread",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 29:8",
+          "old_row": {
+            "source_reference": "1 Chronicles 29:8",
+            "target": "Exodus 35:27",
+            "relationship": "Stones contributed for sacred construction",
+            "rationale": "Chronicles records stone holders bringing their stones into the house storerooms; Exodus records leaders bringing stones for the shoulder-piece and oracle-piece. The shared act of supplying precious stones is tied to distinct stated sacred uses."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 29:8",
+            "target": "Exodus 35:27",
+            "relationship": "Stones contributed for sacred work",
+            "rationale": "Chronicles records stone holders bringing their stones into the house storerooms; Exodus records leaders bringing stones for the shoulder-piece and oracle-piece. The shared act of supplying precious stones is tied to distinct stated sacred uses."
+          },
+          "reason": "Precision after separate complete-triple reread",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "source_reference": "1 Chronicles 29:22",
+          "old_row": {
+            "source_reference": "1 Chronicles 29:22",
+            "target": "1 Chronicles 23:1",
+            "relationship": "Second royal appointment and earlier accession notice",
+            "rationale": "The source expressly says Solomon was made king a second time; the earlier notice already records David making him king in his place, providing a prior appointment without reconstructing the ceremonies' full chronology."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 29:22",
+            "target": "1 Chronicles 23:1",
+            "relationship": "Second royal appointment and earlier accession notice",
+            "rationale": "The earlier narrative introduces Solomon's appointment by David; this source adds a second time and anointing details. The link compares the accession notices without deciding whether the earlier notice summarizes a ceremony later narrated."
+          },
+          "reason": "Precision after separate complete-triple reread",
+          "completed_pair_credit": 0,
+          "original_complete_triple_separately_reread": true,
+          "complete_corrected_triple_reread": true
+        }
+      ],
+      "completed_pair_credit": 0
+    }
+  ],
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Chronicles 27:32",
+      "target": null,
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reason": "Read Jonathan as David's paternal uncle, counselor, understanding man, and scribe, and Jiiel son of Achamani with the king's sons, with the surrounding administration roster. No retained passage independently establishes their particular kinship or appointments. The adjacent counselors in 27:33-34 provide neighboring court offices but no explicit heading, summary, or antecedent that meaningfully resolves these two named roles. Left pending rather than identifying either man by a common name."
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Chronicles 26:5",
+      "target": "1 Chronicles 13:14",
+      "reason": "Read the complete source with 26:4 and the ark-household narrative at 13:12-14. Both mention divine blessing, but the source's father is Abdedom while the ark narrative names Abeddara/Abeddaram. These supplied texts do not independently resolve the personal identity; the blessing alone does not establish the equation.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 27:9",
+      "target": "1 Chronicles 11:28",
+      "reason": "Read the complete monthly division notice and the warrior roster in 11:22-28. Both use Ekkes the Thekoite, but the monthly commander is Odouias while the warrior is Orai. Their identity remains unresolved; the supported local monthly-service link does not assert it.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 26:29",
+      "target": "1 Chronicles 23:12",
+      "reason": "Read the complete scribal appointment and Kaath's four-son genealogy. The source calls the group Issari, while the target lists Issaar among Kaath's sons. The proposed family identity depended on name-form inference without an explicit connection in the cited unit, so the drafted pair was removed; the retained scribal-and-judicial assignment to 23:4 is independent of that inference.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "complete_source_read_ranges": [
+    "1 Chronicles 25:1-31",
+    "1 Chronicles 26:1-32",
+    "1 Chronicles 27:1-34",
+    "1 Chronicles 28:1-21",
+    "1 Chronicles 29:1-30"
+  ],
+  "additional_context_passages_read": [
+    "1 Chronicles 2:12-16",
+    "1 Chronicles 5:1-2",
+    "1 Chronicles 11:22-28",
+    "1 Chronicles 13:12-14",
+    "1 Chronicles 15:16-24",
+    "1 Chronicles 16:7-11",
+    "1 Chronicles 16:28-43",
+    "1 Chronicles 17:1-14",
+    "1 Chronicles 18:9-11",
+    "1 Chronicles 18:14-17",
+    "1 Chronicles 21:1-8",
+    "1 Chronicles 22:1-19",
+    "1 Chronicles 23:1-32",
+    "1 Chronicles 24:1-6",
+    "1 Chronicles 24:20-31",
+    "Genesis 15:1-6",
+    "Deuteronomy 4:1-10",
+    "Deuteronomy 4:25-31",
+    "Deuteronomy 10:12-22",
+    "Deuteronomy 31:6-8",
+    "Exodus 25:1-9",
+    "Exodus 25:17-40",
+    "Exodus 30:1-6",
+    "Exodus 35:20-29",
+    "Leviticus 25:18-28",
+    "1 Samuel 16:1-13",
+    "2 Samuel 5:3-5",
+    "2 Samuel 15:7-14",
+    "2 Samuel 15:32-37",
+    "2 Samuel 23:22-24",
+    "1 Kings 1:32-40",
+    "1 Kings 2:1-12",
+    "1 Kings 3:5-14",
+    "1 Kings 7:32-37"
+  ],
+  "additional_context_source_credit": 0,
+  "additional_context_pair_credit": 0,
+  "editorial_notes": [
+    "The 1 Chronicles inventory was already complete. This receipt claims review credit only for 147 source units with retained pairs and 174 pairs, not for inventory or all 148 read source units.",
+    "Dependent musician, gatekeeper, monthly-division, tribal-office, and royal-possessions entries use explicit same-chapter grammatical headings or summaries with named roles and actual figures. Those links do not identify bearers of common or similar names.",
+    "The unusual first/second lot wording at 25:9, Rosai wording at 26:6, divided Osa sentence at 26:10-11, directional and staffing continuations at 26:15-18, and difficult counselor wording at 27:34 are preserved rather than silently repaired.",
+    "Aiman is retained as the player described in 25:5; fourteen sons and three daughters are not conflated. Distinct larger service totals and family counts are not forced into numerical agreement.",
+    "Solomon accession notices are compared without assigning the summary at 23:1 to a distinct earlier ceremony. Chronicles second time and Sadok for priesthood remain explicit, while Kings describes Zadok anointing Solomon at Gihon.",
+    "Actual 1 Kings 7:34-37 numbering is used for the finished temple furnishings. Exodus 25:2-9 follows actual extant units and does not manufacture a missing verse 6.",
+    "David reign summaries preserve seven years in Chebron here and seven years six months in Samuel. Metal quantities, source names, gold/silver distinctions, architectural terms, and lists of vessels remain as supplied."
+  ]
+}

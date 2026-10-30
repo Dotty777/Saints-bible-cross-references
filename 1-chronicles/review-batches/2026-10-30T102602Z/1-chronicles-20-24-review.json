@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/chron_20_24 (AI author reviewer)",
+  "reviewer_role": "Author; personally read every complete actual source unit, every retained target passage and necessary context, then separately reread all 135 complete source-target-category-rationale triples and six corrected complete triples before freezing.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T10:51:29.316518+00:00",
+  "run_id": "2026-10-30T102602Z",
+  "baseline_commit": "596dd7f9245e7fabecacfdeff81c9a352ba449e7",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "source_units_read": 120,
+  "source_scope_units": 120,
+  "source_inventory_units_in_scope": 120,
+  "source_verses": 120,
+  "completed_source_verses": 120,
+  "completed_pairs": 135,
+  "distinct_target_verse_units": 199,
+  "chapter_source_counts": {
+    "20": 8,
+    "21": 30,
+    "22": 19,
+    "23": 32,
+    "24": 31
+  },
+  "chapter_pair_counts": {
+    "20": 10,
+    "21": 32,
+    "22": 24,
+    "23": 36,
+    "24": 33
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_retained_rationales_reread": true,
+  "all_complete_triples_separately_reread": true,
+  "all_changed_complete_triples_reread": true,
+  "complete_triple_reread_batches": [
+    [
+      1,
+      25
+    ],
+    [
+      26,
+      50
+    ],
+    [
+      51,
+      75
+    ],
+    [
+      76,
+      100
+    ],
+    [
+      101,
+      135
+    ]
+  ],
+  "corrected_complete_triples_separately_reread": [
+    1,
+    6,
+    7,
+    32,
+    41,
+    105
+  ],
+  "review_method": "Personally read the actual complete 120 source units (8/30/19/32/31) with complete_text, every selected target and the necessary narrative, genealogical, speech, and legal context. Then separately reread all 135 complete source-target-category-rationale triples in the recorded unclipped batches through show-triples.py. Six precision refinements preserve exact action, digits, name forms, withdrawal wording, and no-sons versus no-children; all six corrected complete triples were reread separately. Same-chapter links explicitly identify grammatical antecedents, named family branches, numbered allocations, or governing priestly/Levitical roster scope. This is a curated supplied-English reading, not exhaustive discovery, specialist approval, original-language analysis, apparatus review, numerical harmonization, or proof that differently named people or places are identical.",
+  "pin_method": "Freshly fetched all seven used book raw files from the immutable source commit, verified Git blob SHA1 against the source-check registry read from all thirteen existing source-book directories, preserved author-current raw files and SHA256 evidence, and compared each complete parsed raw book with the local reference cache. Revalidated every saved raw SHA256/Git blob and full parsed cache equality at freeze. Existing registry entries covered all used books; no new-book metadata lookup was needed. Both unresolved proposals concern 1 Chronicles and are covered by that same fresh full-book pin.",
+  "source_books": [
+    {
+      "book": "1 Chronicles",
+      "records": "1-chronicles/verses.json",
+      "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b"
+    },
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "2 Samuel",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Leviticus",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    }
+  ],
+  "pin_receipt": "1-chronicles-20-24-author-current-pins.json",
+  "pin_receipt_sha256": "975c497a986522475a3bc2753fb846c596a2c88900866f56b21af07bbe545515",
+  "input_file": "1-chronicles-20-24.tsv",
+  "input_sha256": "ab20945091c76a0bbfb5a5f976551860daa493018aa8b20bf35f2271ecb745ae",
+  "final_input_sha256": "ab20945091c76a0bbfb5a5f976551860daa493018aa8b20bf35f2271ecb745ae",
+  "author_draft_file": "1-chronicles-20-24-author-draft.tsv",
+  "author_draft_sha256": "6256c2ba3540c8b749b1801c6c514653ab7a9765efdc2b9b866da717b2798ae5",
+  "author_refinements_before_freeze": [
+    {
+      "file": "1-chronicles-20-24-author-refinements.json",
+      "sha256": "0da8bfe9538cdcbefb0a98519b45d5f101af4180b9c4eb84c8d31868ed2ae1d9",
+      "changes": [
+        {
+          "pair_number": 1,
+          "source_reference": "1 Chronicles 20:1",
+          "old_row": {
+            "source_reference": "1 Chronicles 20:1",
+            "target": "2 Samuel 11:1",
+            "relationship": "Campaign narrative parallel: Joab besieges Ammon while David stays home",
+            "rationale": "Both place Joab's campaign against Ammon at the return of the campaigning year and leave David in Jerusalem. Chronicles also compresses the taking and razing of Rabba into this notice; Samuel names the besieged city Rabbah."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 20:1",
+            "target": "2 Samuel 11:1",
+            "relationship": "Campaign narrative parallel: Joab besieges Ammon while David stays home",
+            "rationale": "Both place Joab's campaign against Ammon at the return of the campaigning year and leave David in Jerusalem. Chronicles also compresses the striking and razing of Rabba into this notice; Samuel names the besieged city Rabbah."
+          },
+          "reason": "Use the source's stated action rather than paraphrasing it as a taking.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 6,
+          "source_reference": "1 Chronicles 20:5",
+          "old_row": {
+            "source_reference": "1 Chronicles 20:5",
+            "target": "2 Samuel 21:19",
+            "relationship": "Battle-notice comparison with distinct victim and patronymic",
+            "rationale": "Both notices pair war with the foreigners and a warrior's killing with a spear shaft compared to a weaver's beam. Chronicles has Ellanan son of Jair strike Leemi, brother of Goliath; Samuel has Elhanan son of Ariorgim strike Goliath. Neither the victim nor the patronymic is harmonized."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 20:5",
+            "target": "2 Samuel 21:19",
+            "relationship": "Battle-notice comparison with distinct victim and patronymic",
+            "rationale": "Both notices record a warrior striking an opponent in war with the foreigners and include the distinctive comparison of a spear shaft to a weaver's beam. Chronicles has Ellanan son of Jair strike Leemi, brother of Goliath; Samuel has Elhanan son of Ariorgim strike Goliath. Neither the victim nor the patronymic is harmonized."
+          },
+          "reason": "Do not imply that the compared spear is the weapon used by the named striker or replace struck with killed.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 7,
+          "source_reference": "1 Chronicles 20:6",
+          "old_row": {
+            "source_reference": "1 Chronicles 20:6",
+            "target": "2 Samuel 21:20",
+            "relationship": "Giant-battle parallel: twenty-four digits",
+            "rationale": "Both describe a giant in renewed war with six digits on each extremity, twenty-four altogether. Chronicles leaves the man unnamed at Geth; Samuel calls him Madon at Gath and describes his descent from Rapha."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 20:6",
+            "target": "2 Samuel 21:20",
+            "relationship": "Giant-battle parallel: twenty-four digits",
+            "rationale": "Both describe a giant in renewed war with twenty-four digits. Chronicles says six and six and leaves the man unnamed at Geth; Samuel calls him Madon at Gath and explicitly describes six fingers on each hand and six toes on each foot. Each account's wording and descent description remain distinct."
+          },
+          "reason": "Preserve the source's six-and-six wording rather than importing the target's explicit hands and feet.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 32,
+          "source_reference": "1 Chronicles 21:21",
+          "old_row": {
+            "source_reference": "1 Chronicles 21:21",
+            "target": "2 Samuel 24:20",
+            "relationship": "Royal reception parallel: Orna bows face to the ground",
+            "rationale": "Both have Orna leave the threshing floor's setting to bow before the king with his face to the ground. Chronicles calls David's destination Ornan and then names the bowing man Orna, preserving the source's wording."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 21:21",
+            "target": "2 Samuel 24:20",
+            "relationship": "Royal reception parallel: Orna bows face to the ground",
+            "rationale": "Both have Orna come out to bow before the king with his face to the ground. Chronicles first says David came to Ornan and then names the bowing man Orna, preserving both forms within the source unit."
+          },
+          "reason": "Preserve Ornan as the person David approaches rather than calling the name a destination.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 41,
+          "source_reference": "1 Chronicles 21:30",
+          "old_row": {
+            "source_reference": "1 Chronicles 21:30",
+            "target": "1 Chronicles 21:16",
+            "relationship": "Same-chapter motive: fear of the angel's sword",
+            "rationale": "David's inability to seek God at the tent is explicitly related to the angel's sword. The earlier vision supplies the drawn sword over Jerusalem that explains this stated obstacle."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 21:30",
+            "target": "1 Chronicles 21:16",
+            "relationship": "Same-chapter motive: withdrawal from the angel's sword",
+            "rationale": "David's inability to seek God at the tent is explicitly related to the angel's sword. The earlier vision supplies the drawn sword over Jerusalem that explains this stated obstacle."
+          },
+          "reason": "The source explicitly states withdrawal; avoid adding an unstated emotion in the category.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 105,
+          "source_reference": "1 Chronicles 24:2",
+          "old_row": {
+            "source_reference": "1 Chronicles 24:2",
+            "target": "Numbers 3:4",
+            "relationship": "Priestly succession parallel: death without sons and surviving priests",
+            "rationale": "Both record the deaths of Nadab and the second named son, their lack of children, and Eleazar and Ithamar serving as priests. Chronicles names Abioud and says they died before their father; Numbers names Abihu and supplies the strange-fire setting before the Lord."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 24:2",
+            "target": "Numbers 3:4",
+            "relationship": "Priestly succession parallel: death without sons and surviving priests",
+            "rationale": "Both record the deaths of Nadab and the second named son, followed by Eleazar and Ithamar serving as priests. Chronicles names Abioud, says they died before their father, and reports no sons; Numbers names Abihu, supplies the strange-fire setting before the Lord, and reports no children."
+          },
+          "reason": "The source says no sons, whereas Numbers says no children; do not flatten that distinction.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        }
+      ]
+    }
+  ],
+  "source_inventory": "1-chronicles/inventory.json",
+  "inventory_completion_credit": 0,
+  "deferred_source_units": [],
+  "deferred_source_count": 0,
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Chronicles 23:19",
+      "target": "1 Chronicles 24:23",
+      "reason": "Both full units were read. The source heads its four-son list with Chebron and names Idoud, Amadia, Oziel, and Ikemias; the proposed target heads its list with Jediou and names Amadia, Jaziel, and Jokom in second through fourth places. Shared Amadia and ordinal structure do not by themselves resolve the different family heading and remaining names. No cross-list identity is credited; the retained local link to 23:12 independently supplies the source family heading.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Chronicles 24:22",
+      "target": "1 Chronicles 23:18",
+      "reason": "Both full units were read. Salomoth occurs in both, but the source calls the group Issari and adds Jath, whereas the proposed target calls Salomoth a ruler among Issaar's sons. The similarity was not converted into an independently resolved identity of the family forms. The retained local link to 24:20-21 instead gives the explicit remaining-Levites roster scope.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_candidate_count": 2,
+  "unresolved_candidate_completion_credit": 0,
+  "unresolved_retained_cases": [],
+  "extra_context_reading_completion_credit": 0,
+  "editorial_notes": [
+    "Actual source units and numbering are unchanged. 1 Kings 5:29-32 expands to actual units 29, 30, and 32; no verse 31 is invented.",
+    "Chapter 20 comparisons retain Molchol/Melchol, Gazer/Gath/Geth, every warrior and opponent name, differing patronymics, and the Leemi brother-of-Goliath versus Goliath victim distinction.",
+    "Chapter 21 retains the devil versus divine-incitement descriptions, different census totals, methachabin without a supplied meaning, Ornan/Orna within the actual source, gold 600 versus silver 50 purchase amounts, and fire versus restraint-of-devastation responses.",
+    "Chapter 22 links the specific temple commission, materials, rest, wisdom, and obedience without collapsing David's personal house into the temple or combining separate gold and silver inventories.",
+    "Chapters 23-24 retain Parosom, Edan/Semei ancestry wording, thirty and twenty thresholds, Jediou, different Mooli-family listings, and araab. Numbered priestly lots are linked to their explicit governing procedure, without attaching later bearers of similar names or assigning an unstated branch to an individual lot.",
+    "Two separately recorded target proposals remain identity-unresolved and receive zero source and pair credits. Their source units have independently supported local references, so no unsupported source unit is marked complete through those candidates."
+  ],
+  "retained_bounded_partial_connections": true,
+  "frozen": true,
+  "peer_requested_refinements": [
+    {
+      "file": "1-chronicles-20-24-peer-requested-refinements.json",
+      "sha256": "5a1f4a4b2fcd7171d0badbc41a42820bf0e231f2ea503dcd8102ed182661c6ba",
+      "changes": [
+        {
+          "pair_number": 18,
+          "source_reference": "1 Chronicles 21:8",
+          "old_row": {
+            "source_reference": "1 Chronicles 21:8",
+            "target": "2 Samuel 24:10",
+            "relationship": "Confession parallel: David admits foolishness after the census",
+            "rationale": "David confesses great sin, asks removal of his servant's wickedness or lawlessness, and acknowledges extreme folly in both accounts. Samuel explicitly places the confession after David's heart struck him following the count."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 21:8",
+            "target": "2 Samuel 24:10",
+            "relationship": "Confession parallel: David admits foolishness after the census",
+            "rationale": "David confesses great sin, asks God to take away his wickedness or lawlessness, and acknowledges extreme folly in both accounts. Samuel explicitly places the confession after David's heart struck him following the count."
+          },
+          "reason": "David asks concerning his own wickedness as God's servant; the former rationale could instead make David's servant the offender.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        },
+        {
+          "pair_number": 133,
+          "source_reference": "1 Chronicles 24:29",
+          "old_row": {
+            "source_reference": "1 Chronicles 24:29",
+            "target": "1 Chronicles 24:30-31",
+            "relationship": "Same-chapter roster purpose: Kis's son Iramael within Levitical allocation",
+            "rationale": "The source adds Iramael as Kis's son. The following summary identifies the continuing list as Levites by ancestral houses who received lots alongside Aaron's sons, explaining the function of this otherwise brief family entry."
+          },
+          "new_row": {
+            "source_reference": "1 Chronicles 24:29",
+            "target": "1 Chronicles 24:30-31",
+            "relationship": "Same-chapter roster purpose: Kis's son Iramael within Levitical allocation",
+            "rationale": "The source adds Iramael as Kis's son. The following summary identifies the continuing list as Levites by ancestral houses who also received lots, as Aaron's sons did, explaining the function of this otherwise brief family entry."
+          },
+          "reason": "The source compares the Levites' lots with Aaron's sons using as did; alongside could imply a joint allocation that the source does not explicitly state.",
+          "completed_pair_credit": 0,
+          "complete_corrected_triple_reread": true
+        }
+      ],
+      "new_pairs_credited": 0
+    }
+  ],
+  "supplemental_author_finalization": {
+    "reviewer": "Codex root (supplemental author finalization for two peer-requested rationale precisions)",
+    "scope": "Root personally read the complete actual 1 Chronicles 21:8 and 24:29 sources, their 2 Samuel 24:10 and 1 Chronicles 24:30-31 targets, and context 2 Samuel 24:9-10 and 1 Chronicles 24:28-31; then reread both corrected full triples. The other 133 rows retain original author reading proof and are not claimed as independently reread by root.",
+    "prior_author_receipt": "1-chronicles-20-24-review-before-peer.json",
+    "prior_author_receipt_sha256": "9598c042b7e538abf77bb238a5a0799b8c7535801474d8db24971140e4968f83",
+    "prior_tsv": "1-chronicles-20-24-before-peer-refinement.tsv",
+    "prior_tsv_sha256": "b46653d80ce0bb0cc04777ba3fcb5257638937c5245b151c3cc989f95895064a",
+    "corrected_complete_triples_reread": 2,
+    "all_other_rows_unchanged": 133,
+    "completed_pair_credit": 0
+  }
+}

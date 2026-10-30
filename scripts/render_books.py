@@ -21,6 +21,8 @@ def render_book(record,progress,style):
     deferred=[ref for ref in pending if ref in deferred_set]
     next_unreviewed=next((ref for ref in pending if ref not in deferred_set),None)
     deferred_note=(f'{len(deferred)} read source unit(s) remain deferred with zero completion credit: '+', '.join(deferred)+'. First pending source unit: '+str(next_ref)+'. '+('Never-reviewed source units start at '+next_unreviewed+'.' if next_unreviewed else 'No never-reviewed source units remain.')) if deferred else ''
+    global_unreviewed=(progress.get('next_unreviewed') or {}).get('reference')
+    if deferred and not next_unreviewed and global_unreviewed:deferred_note+=' Next new source review: '+global_unreviewed+'.'
     global_next=(progress.get('next') or {}).get('reference')
     continuation=('Book initial curated pass complete. Overall next: '+str(global_next)+'.') if finished else ('Next: '+str(next_ref)+'. Later source verses remain pending.')
     scope=(verses[0]['reference']+'–'+verses[-1]['reference'].removeprefix(name+' ')) if verses else 'No source verses reviewed yet'
@@ -85,6 +87,9 @@ def main():
     readme=readme[:start]+'\n'.join(lines)+'\n\n'+readme[end:]
     next_ref=(progress.get('next') or {}).get('reference')
     readme=re.sub(r'\*\*Next: [^\n]+?\.\*\*',f'**Next: {next_ref}.**',readme,count=1)
+    readme=re.sub(r'\n\*\*Next new source review: [^\n]+?\.\*\*','',readme)
+    next_unreviewed=(progress.get('next_unreviewed') or {}).get('reference')
+    if next_unreviewed:readme=readme.replace(f'**Next: {next_ref}.**',f'**Next: {next_ref}.**\n**Next new source review: {next_unreviewed}.**',1)
     n=progress['completed_book_records'];completion=f'{n} Old Testament '+('book has a complete initial curated pass.' if n==1 else 'books have complete initial curated passes.')
     readme=readme.replace('No complete Old Testament book is claimed yet.',completion)
     readme=re.sub(r'\d+ Old Testament books? (?:has|have) (?:a complete initial curated pass|complete initial curated passes)\.',lambda _:completion,readme)

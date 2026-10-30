@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 930 units in 29 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Read every complete actual source unit in the declared scope and every retained complete target passage with necessary context, then reread each retained complete triple. Source units without a supported retained pair stay pending with zero completion credit; their complete pinned evidence and reason are recorded separately from target candidates. The full source inventory preceded review and earns no completion credit.",
+  "method": "Complete actual source and retained target passages with necessary context were read and every retained explanation reread in the recorded batches. Unsupported source units remain pending with zero completion credit. Earlier completed objects and all unresolved evidence are preserved. Inventory alone earns no review credit. No exhaustive discovery or independent specialist verification is claimed.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -29,6 +29,15 @@
       "source_units_read": 528,
       "deferred_source_units": 12,
       "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-30T102602Z",
+      "records": "review-batches/2026-10-30T102602Z.json",
+      "new_source_verses": 401,
+      "new_pairs": 484,
+      "source_units_read": 402,
+      "deferred_source_units": 1,
+      "unresolved_retained_cases": 0
     }
   ],
   "canon_manifest": "../canon.json",
@@ -44,9 +53,23 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "1-samuel/verses.json",
       "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -61,6 +84,13 @@
       "path": "2-samuel/verses.json",
       "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "acts/verses.json",
+      "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -86,6 +116,13 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "hebrews/verses.json",
+      "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hebrews/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "joshua/verses.json",
       "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
@@ -100,6 +137,13 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "luke/verses.json",
+      "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "matthew/verses.json",
       "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
@@ -110,6 +154,13 @@
       "path": "numbers/verses.json",
       "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -1929,16 +1980,224 @@
       ],
       "reviewer": "Codex /root/chron_1_5 (AI-assisted supplied-English author review of 1 Chronicles 1–5)",
       "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 23:19",
+      "target": "1 Chronicles 24:23",
+      "reason": "Both full units were read. The source heads its four-son list with Chebron and names Idoud, Amadia, Oziel, and Ikemias; the proposed target heads its list with Jediou and names Amadia, Jaziel, and Jokom in second through fourth places. Shared Amadia and ordinal structure do not by themselves resolve the different family heading and remaining names. No cross-list identity is credited; the retained local link to 23:12 independently supplies the source family heading.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 23:19",
+        "id": "v23-19",
+        "text": "Chebron’s sons: Idoud the ruler, Amadia the second, Oziel the third, and Ikemias the fourth.",
+        "text_sha256": "f4b491a6e173cb2b7e50761a726ce6f5ff1de8b11144efc6ec66908acfa047cd"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 24:23",
+          "id": "v24-23",
+          "text": "The sons of Jediou: Amadia the second, Jaziel the third, Jokom the fourth.",
+          "text_sha256": "ddae881ad258d56e36ba7a8e2655cfe1efab807cd9eed7ecb238ed11fde029c8"
+        }
+      ],
+      "reviewer": "Codex /root/chron_20_24 (AI author reviewer)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 24:22",
+      "target": "1 Chronicles 23:18",
+      "reason": "Both full units were read. Salomoth occurs in both, but the source calls the group Issari and adds Jath, whereas the proposed target calls Salomoth a ruler among Issaar's sons. The similarity was not converted into an independently resolved identity of the family forms. The retained local link to 24:20-21 instead gives the explicit remaining-Levites roster scope.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 24:22",
+        "id": "v24-22",
+        "text": "Of the Issari, Salomoth; of Salomoth’s sons, Jath.",
+        "text_sha256": "0e9604c7aa9248839aca658b16d645894f694492919cebf61bee81018c9d34d9"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 23:18",
+          "id": "v23-18",
+          "text": "Issaar’s sons: Salomoth the ruler.",
+          "text_sha256": "17382ba021e740ab942ffd7d1a4a5111cbb96d05a9b595b7abfc3947fe6d0af0"
+        }
+      ],
+      "reviewer": "Codex /root/chron_20_24 (AI author reviewer)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 26:5",
+      "target": "1 Chronicles 13:14",
+      "reason": "Read the complete source with 26:4 and the ark-household narrative at 13:12-14. Both mention divine blessing, but the source's father is Abdedom while the ark narrative names Abeddara/Abeddaram. These supplied texts do not independently resolve the personal identity; the blessing alone does not establish the equation.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 26:5",
+        "id": "v26-5",
+        "text": "Amiel the sixth, Issachar the seventh, Phollathi the eighth, because God had blessed him.",
+        "text_sha256": "939a04f656261abb617aae8cb7e721b98b20f6d8a3ec456a37bf050d74df09d9"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 13:14",
+          "id": "v13-14",
+          "text": "God’s ark stayed in Abeddara’s house three months. God blessed Abeddaram and everything that was his.",
+          "text_sha256": "7bc889193bca3c8bedf35c478403c01d602bcbe4e2ef1c00f14bb3ea622e73ff"
+        }
+      ],
+      "reviewer": "Codex /root/chron_25_29 (AI author reviewer)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 27:9",
+      "target": "1 Chronicles 11:28",
+      "reason": "Read the complete monthly division notice and the warrior roster in 11:22-28. Both use Ekkes the Thekoite, but the monthly commander is Odouias while the warrior is Orai. Their identity remains unresolved; the supported local monthly-service link does not assert it.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 27:9",
+        "id": "v27-9",
+        "text": "The sixth, for the sixth month, was Odouias son of Ekkes the Thekoite. His division had twenty-four thousand.",
+        "text_sha256": "06bb9631032184f56aaff37d173572c8d84c8f47a407e32316e4b6215641ba9d"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 11:28",
+          "id": "v11-28",
+          "text": "Orai son of Ekkes the Thekoite; Abiezer the Anathothite;",
+          "text_sha256": "5ca8423e2123c604e2fd793b9bb8c42d0d8fbb979a2494d746b6b5a251892928"
+        }
+      ],
+      "reviewer": "Codex /root/chron_25_29 (AI author reviewer)",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "source_reference": "1 Chronicles 26:29",
+      "target": "1 Chronicles 23:12",
+      "reason": "Read the complete scribal appointment and Kaath's four-son genealogy. The source calls the group Issari, while the target lists Issaar among Kaath's sons. The proposed family identity depended on name-form inference without an explicit connection in the cited unit, so the drafted pair was removed; the retained scribal-and-judicial assignment to 23:4 is independent of that inference.",
+      "source_and_target_text_read": true,
+      "candidate_passage_read": true,
+      "necessary_context_read": true,
+      "identity_resolved": false,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 26:29",
+        "id": "v26-29",
+        "text": "Of the Issari, Chonenia and his sons were assigned the outside labor over Israel, to act as scribes and give judgments.",
+        "text_sha256": "974577befe4c81c19c0d3d2de628348d498dc2a6eb9f358b28deaba9232d83e4"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "1 Chronicles 23:12",
+          "id": "v23-12",
+          "text": "Kaath’s sons: Ambram, Issaar, Chebron, and Oziel—four.",
+          "text_sha256": "cada469828738a15f50dd093756074dbde09e66f0c633f311ea9c497bc9ee11a"
+        }
+      ],
+      "reviewer": "Codex /root/chron_25_29 (AI author reviewer)",
+      "reviewed": "2026-10-30"
     }
   ],
   "checked_scope": {
-    "source_passage": "1 Chronicles 1:1-14:17",
+    "source_passage": "1 Chronicles 1:1-29:30",
     "source_passage_is_review_scope": true,
-    "source_units_read": 528,
-    "source_verse_units": 516,
-    "deferred_source_units": 12,
-    "retained_pairs": 516,
-    "distinct_target_verse_units": 503
+    "source_units_read": 930,
+    "source_verse_units": 917,
+    "deferred_source_units": 13,
+    "retained_pairs": 1000,
+    "distinct_target_verse_units": 1055
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -1961,9 +2220,9 @@
   },
   "pending": [
     "First pending source unit: 1 Chronicles 1:24",
-    "Never-reviewed source units start at 1 Chronicles 15:1",
-    "Read but deferred source units: 1 Chronicles 1:24, 1 Chronicles 1:52, 1 Chronicles 2:47, 1 Chronicles 4:3, 1 Chronicles 4:8, 1 Chronicles 4:16, 1 Chronicles 4:17, 1 Chronicles 4:18, 1 Chronicles 4:19, 1 Chronicles 4:20, 1 Chronicles 7:12, 1 Chronicles 7:19",
-    "Remaining Old Testament inventories and review",
+    "All original 1 Chronicles units have been read; the deferred source units remain incomplete.",
+    "Next never-reviewed source: 2 Chronicles 4:1.",
+    "Read but deferred source units: 1 Chronicles 1:24, 1 Chronicles 1:52, 1 Chronicles 2:47, 1 Chronicles 4:3, 1 Chronicles 4:8, 1 Chronicles 4:16, 1 Chronicles 4:17, 1 Chronicles 4:18, 1 Chronicles 4:19, 1 Chronicles 4:20, 1 Chronicles 7:12, 1 Chronicles 7:19, 1 Chronicles 27:32",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Target evidence pending: 1 Chronicles 1:2 / Genesis 5:15",
@@ -2005,7 +2264,12 @@
     "Target evidence pending: 1 Chronicles 4:14 / 1 Chronicles 4:13",
     "Target evidence pending: 1 Chronicles 4:15 / 1 Chronicles 6:41",
     "Target evidence pending: 1 Chronicles 4:24 / Genesis 46:10",
-    "Target evidence pending: 1 Chronicles 5:29 / Exodus 6:20-23"
+    "Target evidence pending: 1 Chronicles 5:29 / Exodus 6:20-23",
+    "Target evidence pending: 1 Chronicles 23:19 / 1 Chronicles 24:23",
+    "Target evidence pending: 1 Chronicles 24:22 / 1 Chronicles 23:18",
+    "Target evidence pending: 1 Chronicles 26:5 / 1 Chronicles 13:14",
+    "Target evidence pending: 1 Chronicles 27:9 / 1 Chronicles 11:28",
+    "Target evidence pending: 1 Chronicles 26:29 / 1 Chronicles 23:12"
   ],
   "deferred_source_units": [
     {
@@ -2313,7 +2577,34 @@
       "review_timezone": "America/New_York",
       "review_batch": "2026-10-30T092501Z",
       "source_unit_read": true
+    },
+    {
+      "source_reference": "1 Chronicles 27:32",
+      "target": null,
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "status": "pending",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reason": "Read Jonathan as David's paternal uncle, counselor, understanding man, and scribe, and Jiiel son of Achamani with the king's sons, with the surrounding administration roster. No retained passage independently establishes their particular kinship or appointments. The adjacent counselors in 27:33-34 provide neighboring court offices but no explicit heading, summary, or antecedent that meaningfully resolves these two named roles. Left pending rather than identifying either man by a common name.",
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "1-chronicles/verses.json",
+        "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+      },
+      "source_verse": {
+        "reference": "1 Chronicles 27:32",
+        "id": "v27-32",
+        "text": "Jonathan, David’s paternal uncle, was a counselor, an understanding man and a scribe. Jiiel son of Achamani was with the king’s sons.",
+        "text_sha256": "bc3523a0e1036fa1ea22064b0bb160a1c50afc688c8bccd64a4ba09c18b3f525"
+      },
+      "reviewer": "Codex /root/chron_25_29 (AI author reviewer)",
+      "reviewed": "2026-10-30",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-30T102602Z"
     }
   ],
-  "next_unreviewed_reference": "1 Chronicles 15:1"
+  "next_unreviewed_reference": null
 }
