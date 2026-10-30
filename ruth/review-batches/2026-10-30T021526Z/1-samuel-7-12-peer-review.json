@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex deut_4_6 (independent AI-assisted supplied-English peer for1Samuel7–12)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T03:03:27.259786+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "input_file": "1-samuel-7-12.tsv",
+  "input_sha256": "2621ae78b694ca17997f868e047a1ed2f80ea9d06a66e31a1a3ad43c0912fbea",
+  "author_receipt": "1-samuel-7-12-review.json",
+  "author_receipt_sha256": "fea0c9f694aedc154decf991a6e402704f2d0b32dadc31291b689dfe8b68ac6b",
+  "source_chapters": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_verses": 133,
+  "reviewed_source_verses": 133,
+  "reviewed_pairs": 141,
+  "retained_pairs": 141,
+  "distinct_target_verse_units": 177,
+  "chapter_pair_counts": {
+    "7": 18,
+    "8": 23,
+    "9": 27,
+    "10": 28,
+    "11": 16,
+    "12": 29
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "accepted_for_integration": true,
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": [],
+  "review_method": "Read all133 complete actual source units, then all141 complete source/target/category/rationale triples in five untruncated slices. Read full necessary Jeremiah14:19-22/15:1,Numbers16:12-15,Leviticus27:30-33,Deuteronomy16:18-20 and17:14-20,1Kings20:1-2/11-19,1Samuel19:20-24 andGenesis35:16-20, alongside all retained actual passages. Verified private claims versus divine instructions and narrated events, both Samuel-day statements without external chronology, completion wording rather than an imported bribery motive, cattle/tithe objects and recipients, Ahab’s appropriation versus the instruction to Elijah, genealogy and height forms, seventy guests, bedding on the roof, found-donkey messages, plural Rachel tombs and Benjamin wording, Nasib and Bama forms, all-signs statements, the seven-day testimony wording, Mattari lot procedure, support versus dissent, Abiezek/Bama and600000/70000, different battle watches, Samuel’s repeated anointing, the four named deliverers without a replacement name, and the added warning without a destruction paraphrase. Requested one clarification locating Saul on the roof instead of implying Samuel’s location. Separately displayed and reread that final full corrected triple; verified preserved frozen TSV/receipt and exact eight-plus-one correction history. The Rachel tomb-site equivalence remains excluded with zero credit. No independent human, original-language, apparatus, geographic-site or archaeological verification is claimed.",
+  "technical_checks": "All133 actual inventory source units covered; all141 directed pairs unique and not self-inclusive; all177 retained target units resolve in source order within Saints70 canon; every local same-chapter relation explicitly labelled. Multiword-book chapter parsing uses rsplit on the final space. Final TSV and author-receipt bindings, preserved originals, eight initial changes and the one peer revision verified.",
+  "pin_method": "Independently fetched and rehashed all nine retained-book raw Git blobs against existing registries and author metadata, compared complete bytes with author snapshots, and checked complete parsed-cache equality. Separately freshly fetched the excluded Genesis candidate source and performed the same checks; that source contributes no retained pair or review credit.",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2"
+    },
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Exodus",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975"
+    },
+    {
+      "book": "Jeremiah",
+      "records": "jeremiah/verses.json",
+      "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947"
+    },
+    {
+      "book": "Joshua",
+      "records": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e"
+    },
+    {
+      "book": "Judges",
+      "records": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+    },
+    {
+      "book": "Leviticus",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    }
+  ],
+  "pin_receipt": "1-samuel-7-12-peer-pins.json",
+  "pin_receipt_sha256": "82267b0278bdcc642d11e4b92611131e1ca934b5511cd7fbd75f983b8109ae93",
+  "resolved_author_refinements": [
+    {
+      "source_reference": "1 Samuel 7:6",
+      "old_row": {
+        "source_reference": "1 Samuel 7:6",
+        "target": "1 Samuel 7:9",
+        "relationship": "Same-chapter confessed sin followed by Samuel's intercession",
+        "rationale": "The Mizpah assembly fasts and confesses sin before the Lord; Samuel's ensuing offering and cry for Israel are heard. The water-pouring, lamb and prayer remain distinct narrated actions."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 7:6",
+        "target": "1 Samuel 7:9",
+        "relationship": "Same-chapter confessed sin followed by Samuel's intercession",
+        "rationale": "The Mizpah assembly fasts and confesses sin before the Lord; Samuel then offers the lamb and cries for Israel, and the Lord hears him. The water-pouring, lamb and prayer remain distinct narrated actions."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 7:12",
+      "old_row": {
+        "source_reference": "1 Samuel 7:12",
+        "target": "1 Samuel 4:1-2",
+        "relationship": "Ebenezer designation in contrasting battle settings",
+        "rationale": "The earlier army camps beside Ebenezer and suffers four thousand dead; Samuel later names a stone Ebenezer, Stone of the Helper, after the Lord's help. The contrasted notices do not independently identify the stone and former camp as one object or site."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 7:12",
+        "target": "1 Samuel 4:1-2",
+        "relationship": "Ebenezer designation in contrasting battle settings",
+        "rationale": "The earlier army camps beside Ebenezer and suffers four thousand struck down; Samuel later names a stone Ebenezer, Stone of the Helper, after the Lord's help. The notices do not independently identify the stone and former camp as one object or site."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 8:14",
+      "old_row": {
+        "source_reference": "1 Samuel 8:14",
+        "target": "1 Kings 20:15-19",
+        "relationship": "Royal appropriation of vineyards in warning and in a later narrative",
+        "rationale": "Samuel warns that a king takes good land and gives it to servants; Ahab takes possession of Naboth's vineyard after his death and receives a rebuke for murder and possession. The recipients and judgment in the narratives are not made identical."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 8:14",
+        "target": "1 Kings 20:15-19",
+        "relationship": "Royal appropriation of vineyards in warning and in a later narrative",
+        "rationale": "Samuel warns that a king takes good land and gives it to servants; Ahab takes possession of Naboth's vineyard after his death, and the Lord instructs Elijah to rebuke him for murder and possession. The recipients and judgments are not made identical."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 9:8",
+      "old_row": {
+        "source_reference": "1 Samuel 9:8",
+        "target": "1 Samuel 9:7",
+        "relationship": "Same-chapter proposed silver responds to the stated lack of provisions",
+        "rationale": "The servant's quarter-shekel offers an alternative after Saul says the loaves are gone and they have nothing to bring. No completed transfer of that silver is asserted."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 9:8",
+        "target": "1 Samuel 9:7",
+        "relationship": "Same-chapter proposed silver responds to the stated lack of a gift",
+        "rationale": "The servant's quarter-shekel offers an alternative after Saul says the loaves are gone and they have nothing to bring. No completed transfer of that silver is asserted."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 10:2",
+      "old_row": {
+        "source_reference": "1 Samuel 10:2",
+        "target": "1 Samuel 9:5",
+        "relationship": "Paternal concern shifts away from the missing donkeys in different descriptions",
+        "rationale": "The predicted message says the father has left the donkey matter and spent lavishly on his son; Saul had earlier feared his father would leave the donkeys and worry about them. The two descriptions are not rewritten as identical wording."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 10:2",
+        "target": "1 Samuel 9:5",
+        "relationship": "Paternal concern shifts away from the missing donkeys in different descriptions",
+        "rationale": "The predicted message says the father has left the donkey matter and spent lavishly on his son's account; Saul had earlier feared his father would leave the donkeys and worry about them. The two descriptions are not rewritten as identical wording."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 10:5",
+      "old_row": {
+        "source_reference": "1 Samuel 10:5",
+        "target": "1 Samuel 10:10",
+        "relationship": "Same-chapter predicted prophetic chorus and the narrated encounter",
+        "rationale": "The sign describes a chorus of prophets encountered at God's hill after the Bama descent; the later account reports a chorus facing Saul at the hill and his inspired prophesying. No additional identity is assigned to Nasib the foreigner."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 10:5",
+        "target": "1 Samuel 10:10",
+        "relationship": "Same-chapter predicted prophetic chorus and the narrated encounter",
+        "rationale": "The sign describes prophets coming down from Bama and an encounter at God's hill; the later account reports a chorus facing Saul at the hill and his inspired prophesying. No additional identity is assigned to Nasib the foreigner."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 11:11",
+      "old_row": {
+        "source_reference": "1 Samuel 11:11",
+        "target": "Judges 7:16-20",
+        "relationship": "Three-company attacks at different watches in the two deliverance accounts",
+        "rationale": "Saul divides the people into three companies and enters during the morning watch; Gideon divides three hundred into three companies and begins at the middle watch with trumpets and jars. The numbers, watches and equipment remain distinct."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 11:11",
+        "target": "Judges 7:16-20",
+        "relationship": "Three-company attacks at different watches in the two deliverance accounts",
+        "rationale": "Saul divides the people into three companies, which enter during the morning watch; Gideon divides three hundred into three companies and begins at the middle watch with trumpets and jars. The numbers, watches and equipment remain distinct."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    },
+    {
+      "source_reference": "1 Samuel 12:23",
+      "old_row": {
+        "source_reference": "1 Samuel 12:23",
+        "target": "Jeremiah 15:1",
+        "relationship": "Samuel's commitment to prayer and his named intercessory role in Jeremiah",
+        "rationale": "Samuel commits to continue praying for Israel; Jeremiah names Moses and Samuel standing before the Lord after a plea for the people. Jeremiah's refusal and Samuel's continuing obligation are retained as different settings and responses."
+      },
+      "new_row": {
+        "source_reference": "1 Samuel 12:23",
+        "target": "Jeremiah 15:1",
+        "relationship": "Samuel's commitment to prayer and his named intercessory role in Jeremiah",
+        "rationale": "Samuel commits to continue praying for Israel; Jeremiah names Moses and Samuel standing before the Lord after a plea for the people. The Lord's refusal in Jeremiah and Samuel's continuing obligation are retained as different settings and responses."
+      },
+      "complete_corrected_triple_reread": true,
+      "new_pairs_credited": 0
+    }
+  ],
+  "resolved_peer_findings": {
+    "original_input_file": "1-samuel-7-12-before-peer.tsv",
+    "original_input_sha256": "b3c8ae79450ecbdcd29b99124d1a65d9d69101797ae1a0902b426ebe409fd29e",
+    "original_author_receipt": "1-samuel-7-12-review-before-peer.json",
+    "original_author_receipt_sha256": "55a8defa741c873e86c42c597c25301563e8d5a41343a548dd340c2f5673c2cd",
+    "changes": [
+      {
+        "old_row": {
+          "source_reference": "1 Samuel 9:19",
+          "target": "1 Samuel 9:26",
+          "relationship": "Same-chapter promised morning departure and the dawn summons",
+          "rationale": "Samuel promises to send Saul away in the morning; at dawn he calls Saul from the roof and says he will send him away. The recorded morning summons corresponds to the promised departure."
+        },
+        "new_row": {
+          "source_reference": "1 Samuel 9:19",
+          "target": "1 Samuel 9:26",
+          "relationship": "Same-chapter promised morning departure and the dawn summons",
+          "rationale": "Samuel promises to send Saul away in the morning; at dawn he calls to Saul on the roof and says he will send him away. The recorded morning summons corresponds to the promised departure."
+        },
+        "reason": "Locate Saul on the roof without assigning Samuel a roof location that the passage does not explicitly give.",
+        "new_pairs_credited": 0,
+        "complete_corrected_triple_reread": true
+      }
+    ],
+    "refinements_file": "1-samuel-7-12-peer-refinements.json",
+    "refinements_sha256": "35d2a30b238fceb29f9971433abad446a64dcee8ed6da16e36c986363c89d28e",
+    "new_pairs_credited": 0
+  },
+  "new_source_verses_credited": 0,
+  "new_pairs_credited": 0,
+  "independent_human_or_language_verification": false
+}

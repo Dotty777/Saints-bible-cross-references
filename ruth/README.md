@@ -1,6 +1,6 @@
 # Ruth — Saints Bible cross-references
 
-Ruth has a complete source inventory; the initial curated pass has not started. **0 source verses and 0 completed pairs**. Next: Ruth 1:1. Later source verses remain pending.
+Ruth 1–4 is complete at the initial curated cross-reference stage: **85 source verses and 90 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: 1 Samuel 19:1.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,8 +19,12 @@ The counts were derived from the complete [pinned Saints-Translation record](htt
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and start at **Ruth 1:1**. Review source verses in the edition's order. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **1 Samuel 19:1**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
+Pending target evidence: 2 candidate(s), excluded from completed counts. See [source-checks.json](source-checks.json).
+
 ## Review batches
+
+- [2026-10-30T021526Z](review-batches/2026-10-30T021526Z.json): 90 newly completed pairs across 85 source verses.

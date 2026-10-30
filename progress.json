@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-29",
-  "updated_at_utc": "2026-10-30T01:47:29.586765+00:00",
+  "updated_at_utc": "2026-10-30T03:03:53.258574+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -9,18 +9,18 @@
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "target_per_hour": 500,
   "target_unit": "distinct completed source-verse/target-passage pairs",
-  "completed_book_records": 7,
-  "pending_book_records": 36,
-  "completed_chapters": 232,
-  "completed_source_verses": 7078,
-  "completed_cross_references": 11215,
+  "completed_book_records": 8,
+  "pending_book_records": 35,
+  "completed_chapters": 254,
+  "completed_source_verses": 7619,
+  "completed_cross_references": 11774,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before reviewing it. Pending books have no asserted verse counts. Retain nonstandard anchors and continuation units.",
   "next": {
-    "book": "Ruth",
-    "chapter": 1,
-    "reference": "Ruth 1:1",
-    "source_id": "v1-1"
+    "book": "1 Samuel",
+    "chapter": 19,
+    "reference": "1 Samuel 19:1",
+    "source_id": "v19-1"
   },
   "books": [
     {
@@ -646,10 +646,10 @@
       "records": "ruth/",
       "source_records": "ruth/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
+      "status": "completed",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "completed_source_verses": 85,
+      "completed_cross_references": 90,
       "order": 8,
       "division": "Judgement",
       "division_slug": "judgement",
@@ -657,24 +657,77 @@
       "source_staging_path": "/bible/judgement/ruth/",
       "total_source_verse_units": 85,
       "total_chapters": 4,
-      "completed_chapters": [],
-      "completed_verse_ranges": [],
-      "next_reference": "Ruth 1:1"
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "completed_verse_ranges": [
+        "Ruth 1:1-22",
+        "Ruth 2:1-23",
+        "Ruth 3:1-18",
+        "Ruth 4:1-22"
+      ],
+      "next_reference": null
     },
     {
       "book": "1 Samuel",
       "records": "1-samuel/",
       "source_records": "1-samuel/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
-      "inventory_status": "not yet inventoried",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "status": "in_progress",
+      "inventory_status": "complete for pinned source",
+      "completed_source_verses": 456,
+      "completed_cross_references": 469,
       "order": 9,
       "division": "Judgement",
       "division_slug": "judgement",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/judgement/1-samuel/"
+      "source_staging_path": "/bible/judgement/1-samuel/",
+      "total_source_verse_units": 773,
+      "total_chapters": 31,
+      "completed_chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "next_reference": "1 Samuel 19:1",
+      "completed_verse_ranges": [
+        "1 Samuel 1:1-28",
+        "1 Samuel 2:1-36",
+        "1 Samuel 3:1-21",
+        "1 Samuel 4:1-22",
+        "1 Samuel 5:1-12",
+        "1 Samuel 6:1-21",
+        "1 Samuel 7:1-17",
+        "1 Samuel 8:1-22",
+        "1 Samuel 9:1-27",
+        "1 Samuel 10:1-27",
+        "1 Samuel 11:1-15",
+        "1 Samuel 12:1-25",
+        "1 Samuel 13:2-23",
+        "1 Samuel 14:1-52",
+        "1 Samuel 15:1-35",
+        "1 Samuel 16:1-23",
+        "1 Samuel 17:1-54",
+        "1 Samuel 18:6-29"
+      ]
     },
     {
       "book": "2 Samuel",
@@ -1970,6 +2023,77 @@
           "record": "ruth/inventory.json",
           "completed_source_verses": 0,
           "completed_pairs": 0
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-30T021526Z",
+      "date": "2026-10-29",
+      "source_range": "Ruth 1:1-4:22; 1 Samuel 1:1-18:29",
+      "distinct_source_verses": 541,
+      "new_completed_pairs": 559,
+      "book_results": [
+        {
+          "book": "Ruth",
+          "source_range": "Ruth 1:1-4:22",
+          "distinct_source_verses": 85,
+          "new_completed_pairs": 90,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "book_initial_curated_pass_complete": true,
+          "next_reference": null
+        },
+        {
+          "book": "1 Samuel",
+          "source_range": "1 Samuel 1:1-18:29",
+          "distinct_source_verses": 456,
+          "new_completed_pairs": 469,
+          "completed_chapters": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "book_initial_curated_pass_complete": false,
+          "next_reference": "1 Samuel 19:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 59,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 4,
+      "known_pending_target_candidate_count": 18,
+      "review_record": "review-batches/2026-10-30T021526Z.json",
+      "next_reference": "1 Samuel 19:1",
+      "inventories_added": [
+        {
+          "book": "1 Samuel",
+          "source_units": 773,
+          "chapters": 31,
+          "record": "1-samuel/inventory.json",
+          "completed_source_verses": 0,
+          "completed_pairs": 0,
+          "credit_scope": "Inventory only; subsequent source review counted separately in book_results."
         }
       ]
     }

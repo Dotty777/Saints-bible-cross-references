@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 85 units in 4 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Read complete actual source and retained target passages with necessary context and reread each particular explanation before completing a source pass. This inventory performs no source review.",
+  "method": "Read complete actual source and retained target passages with necessary context; reread every particular explanation before completing its initial curated pass. The full source inventory preceded review and earned zero review credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -20,10 +20,74 @@
     "Unread candidates",
     "Technical checks"
   ],
-  "review_batches": [],
+  "review_batches": [
+    {
+      "run_id": "2026-10-30T021526Z",
+      "records": "review-batches/2026-10-30T021526Z.json",
+      "new_source_verses": 85,
+      "new_pairs": 90,
+      "unresolved_retained_cases": 0
+    }
+  ],
   "canon_manifest": "../canon.json",
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "sources": [
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/leviticus/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+    },
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,12 +96,93 @@
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ruth/verses.json"
     }
   ],
-  "unresolved_candidates": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Ruth 4:19",
+      "target": "Matthew 1:3-4",
+      "status": "pending proposed individual Arran/Ram name equivalence; not retained as an identity match",
+      "reason": "The complete actual lineages have Hezron–Arran–Amminadab versus Hezron–Ram–Amminadab. Their similarly situated family links do not independently settle the differing individual name. The retained source connection follows the explicit Hezron link within Ruth rather than crediting an Arran/Ram identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "ruth/verses.json",
+        "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ruth/verses.json"
+      },
+      "source_verse": {
+        "reference": "Ruth 4:19",
+        "id": "v4-19",
+        "text": "and Hezron begot Arran, and Arran begot Amminadab,",
+        "text_sha256": "a81adfa49dce10d20e09b6843799bbe8e67342ec190373d80aa830a5aa70a1fa"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "matthew/verses.json",
+        "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Matthew 1:3",
+          "id": "v1-3",
+          "text": "Judah begot Perez and Zerah by Tamar; Perez begot Hezron; Hezron begot Ram;",
+          "text_sha256": "a4c9f996aa54768d055790e512697d25b3be441df9c4660429ff0d85189b3ece"
+        },
+        {
+          "reference": "Matthew 1:4",
+          "id": "v1-4",
+          "text": "Ram begot Amminadab; Amminadab begot Nahshon; Nahshon begot Salmon;",
+          "text_sha256": "dfda7a9f3ec28a15ec494a396eb5b48b90a9748e84781222a60075f7c7b8b28f"
+        }
+      ]
+    },
+    {
+      "source_reference": "Ruth 4:20",
+      "target": "Matthew 1:4",
+      "status": "pending proposed individual Salman/Salmon name equivalence; not retained as an identity match",
+      "reason": "Ruth gives Nahshon begetting Salman while Matthew gives Nahshon begetting Salmon. The differing individual form is not independently resolved. The retained4:20 link concerns the exact Amminadab–Nahshon relation in Numbers1:7; the separate4:21-to-Matthew1:5 pair concerns only the explicit Boaz–Obed relation and does not credit Salman/Salmon identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "ruth/verses.json",
+        "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ruth/verses.json"
+      },
+      "source_verse": {
+        "reference": "Ruth 4:20",
+        "id": "v4-20",
+        "text": "and Amminadab begot Nahshon, and Nahshon begot Salman,",
+        "text_sha256": "62232f069edc241e81b45f4aca621c633d72679fcd2def1515cc18b860ce0e23"
+      },
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "matthew/verses.json",
+        "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Matthew 1:4",
+          "id": "v1-4",
+          "text": "Ram begot Amminadab; Amminadab begot Nahshon; Nahshon begot Salmon;",
+          "text_sha256": "dfda7a9f3ec28a15ec494a396eb5b48b90a9748e84781222a60075f7c7b8b28f"
+        }
+      ]
+    }
+  ],
   "checked_scope": {
-    "source_passage": null,
-    "source_verse_units": 0,
-    "retained_pairs": 0,
-    "distinct_target_verse_units": 0
+    "source_passage": "Ruth 1:1-4:22",
+    "source_verse_units": 85,
+    "retained_pairs": 90,
+    "distinct_target_verse_units": 96
   },
   "inventory_evidence": {
     "fresh_raw_git_blob_verified": true,
@@ -47,9 +192,10 @@
     "completed_review_credit": 0
   },
   "pending": [
-    "Ruth 1–4 initial curated cross-reference pass",
-    "Remaining Old Testament source inventories and review",
+    "Remaining Old Testament inventories and review",
     "Independent specialist review",
-    "Live destination anchors and reader display checks"
+    "Live destination anchors and reader display checks",
+    "Target evidence pending: Ruth 4:19 / Matthew 1:3-4",
+    "Target evidence pending: Ruth 4:20 / Matthew 1:4"
   ]
 }

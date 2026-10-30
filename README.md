@@ -9,9 +9,10 @@ Book-by-book Old Testament cross-references, matching passage evidence and revie
 - [Deuteronomy — 34 chapters](deuteronomy/README.md): initial curated pass complete for all chapters; **959 source verses, 1090 matching cross-reference pairs**.
 - [Joshua — 24 chapters](joshua/README.md): initial curated pass complete for all chapters; **659 source verses, 677 matching cross-reference pairs**.
 - [Judges — 21 chapters](judges/README.md): initial curated pass complete for all chapters; **618 source verses, 634 matching cross-reference pairs**.
-- [Ruth — 4 chapters](ruth/README.md): source inventory complete; initial curated pass pending; **0 source verses, 0 matching cross-reference pairs**.
+- [Ruth — 4 chapters](ruth/README.md): initial curated pass complete for all chapters; **85 source verses, 90 matching cross-reference pairs**.
+- [1 Samuel — 31 chapters](1-samuel/README.md): initial curated pass in progress; latest completed unit 1 Samuel 18:29; **456 source verses, 469 matching cross-reference pairs**.
 
-[progress.json](progress.json) records the complete book plan, actual completed verses and pairs, each book's status and the exact continuation. **Next: Ruth 1:1.** 7 Old Testament books have complete initial curated passes.
+[progress.json](progress.json) records the complete book plan, actual completed verses and pairs, each book's status and the exact continuation. **Next: 1 Samuel 19:1.** 8 Old Testament books have complete initial curated passes.
 
 ## Coverage
 
@@ -29,7 +30,7 @@ Use exclusively the **Saints Holy Bible 70-book edition**, with its exact book o
 
 The book plan follows the Saints edition directly. Its 1–2 Maccabees, Wisdom of Solomon, Sirach, expanded Esther/Daniel material and Psalm 151 remain within that edition. Tobit, Judith and Baruch are excluded because they are outside its 70-book list. The New Testament canon listing defines eligible target books; it does not add New Testament source-review work to this Old Testament task.
 
-Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis has 1,531 inventoried source units, of which 1,531 are completed. Exodus has 1,165 inventoried source units, of which 1,165 are completed. Leviticus has 859 inventoried source units, of which 859 are completed. Numbers has 1,287 inventoried source units, of which 1,287 are completed. Deuteronomy has 959 inventoried source units, of which 959 are completed. Joshua has 659 inventoried source units, of which 659 are completed. Judges has 618 inventoried source units, of which 618 are completed. Ruth has 85 inventoried source units, of which 0 are completed.
+Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. Genesis has 1,531 inventoried source units, of which 1,531 are completed. Exodus has 1,165 inventoried source units, of which 1,165 are completed. Leviticus has 859 inventoried source units, of which 859 are completed. Numbers has 1,287 inventoried source units, of which 1,287 are completed. Deuteronomy has 959 inventoried source units, of which 959 are completed. Joshua has 659 inventoried source units, of which 659 are completed. Judges has 618 inventoried source units, of which 618 are completed. Ruth has 85 inventoried source units, of which 85 are completed. 1 Samuel has 773 inventoried source units, of which 456 are completed.
 
 ## What completed means
 
@@ -51,4 +52,4 @@ Run `python scripts/validate.py` to check the saved data, counts, unique pair ID
 
 After updating structured records and progress, run `python scripts/render_books.py` to refresh all inventoried books and README counts, then `python scripts/validate.py --write-verification`. The existing `render_genesis.py` entry point runs the same multi-book renderer.
 
-Latest saved review: 2026-10-29, **634 new pairs across 618 source verses**. Hourly target: 500; shortfall: 0. [Review record](review-batches/2026-10-30T011055Z.json).
+Latest saved review: 2026-10-29, **559 new pairs across 541 source verses**. Hourly target: 500; shortfall: 0. [Review record](review-batches/2026-10-30T021526Z.json).

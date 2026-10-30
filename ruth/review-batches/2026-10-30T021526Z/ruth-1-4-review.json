@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/deut_1_3 (AI-assisted supplied-English passage curation)",
+  "reviewed": "2026-10-29",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T02:46:36.682498+00:00",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_chapters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_verses": 85,
+  "completed_source_verses": 85,
+  "completed_pairs": 90,
+  "distinct_target_verse_units": 96,
+  "chapter_pair_counts": {
+    "1": 23,
+    "2": 25,
+    "3": 19,
+    "4": 23
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "all_retained_rationales_reread": true,
+  "review_method": "Read all85 complete actual Ruth source units in one full-book display and every complete retained target and necessary immediate context. Separately displayed and reread all90 complete source/target/category/rationale triples in four untruncated chapter groups, then reread all five complete author-narrowed triples before freeze. Additional contexts read include Genesis12:1–10/35:23–26/38:24–30/46:12, Judges2:16–18, Leviticus19:9–10/23:22/25:25, Deuteronomy24:19–22/25:5–10, Psalms90:1–4, Numbers1:1–7, Matthew1:3–6 and1Samuel3:16–18. Links concern particular request/response or instruction/performance pairs, repeated household-rest and emptiness themes, named family/property connections, explicit laws with retained scope differences, actual wing and strength imagery, speaker distinctions and supported genealogical clauses. Every same-chapter relation is explicitly labelled. No exhaustive discovery, source-language/apparatus, independent specialist, exact legal equivalence, modern site or unresolved individual-name identity verification is claimed. Before final peer binding, reread one further complete4:19/4:18 triple replacing another-edition wording with different supplied name form. This keeps the candidate comparison within the same Saints edition. Exact previous frozen input and author receipt preserved; all89 other rows unchanged and zero additional credit.",
+  "pin_method": "Fresh raw fetch of all nine retained source/target books at the fixed commit; complete Git blob bytes rehashed against current source registries and full parsed equality with caches verified, with cache newline differences distinguished from byte equality.",
+  "source_books": [
+    {
+      "book": "1 Samuel",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228"
+    },
+    {
+      "book": "Deuteronomy",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb"
+    },
+    {
+      "book": "Genesis",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886"
+    },
+    {
+      "book": "Judges",
+      "records": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f"
+    },
+    {
+      "book": "Leviticus",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4"
+    },
+    {
+      "book": "Matthew",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8"
+    },
+    {
+      "book": "Numbers",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca"
+    },
+    {
+      "book": "Psalms",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74"
+    },
+    {
+      "book": "Ruth",
+      "records": "ruth/verses.json",
+      "blob_sha": "25d7b5626a802494e87f0b5413aecb82b2428e18"
+    }
+  ],
+  "pin_receipt": "ruth-1-4-pins.json",
+  "input_file": "ruth-1-4.tsv",
+  "input_sha256": "67798a2b91903581eccfbae5fa0da0b6c10545288f843d8524dc82ce2386b11d",
+  "final_input_sha256": "67798a2b91903581eccfbae5fa0da0b6c10545288f843d8524dc82ce2386b11d",
+  "source_inventory": "ruth/inventory.json",
+  "inventory_completion_credit": 0,
+  "unresolved_cases": [],
+  "unresolved_candidates": [
+    {
+      "source_reference": "Ruth 4:19",
+      "target": "Matthew 1:3-4",
+      "status": "pending proposed individual Arran/Ram name equivalence; not retained as an identity match",
+      "reason": "The complete actual lineages have Hezron–Arran–Amminadab versus Hezron–Ram–Amminadab. Their similarly situated family links do not independently settle the differing individual name. The retained source connection follows the explicit Hezron link within Ruth rather than crediting an Arran/Ram identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Ruth 4:20",
+      "target": "Matthew 1:4",
+      "status": "pending proposed individual Salman/Salmon name equivalence; not retained as an identity match",
+      "reason": "Ruth gives Nahshon begetting Salman while Matthew gives Nahshon begetting Salmon. The differing individual form is not independently resolved. The retained4:20 link concerns the exact Amminadab–Nahshon relation in Numbers1:7; the separate4:21-to-Matthew1:5 pair concerns only the explicit Boaz–Obed relation and does not credit Salman/Salmon identity.",
+      "source_and_target_text_read": true,
+      "identity_resolved": false,
+      "completed_pair_credit": 0
+    }
+  ],
+  "author_corrections": {
+    "original_input_file": "ruth-1-4-initial.tsv",
+    "original_input_sha256": "0d481d2cf10073fa7f4f51f60d4fc86674259bf816e14bffd14e75a992659842",
+    "changes": [
+      {
+        "old_row": {
+          "source_reference": "Ruth 1:3",
+          "target": "Ruth 1:5",
+          "relationship": "Same-chapter two successive losses in Naomi's family",
+          "rationale": "Abimelech's death leaves Naomi with two sons; the subsequent death of both named sons leaves her bereft of husband and sons, developing the particular contrast between the two surviving-family notices."
+        },
+        "new_row": {
+          "source_reference": "Ruth 1:3",
+          "target": "Ruth 1:5",
+          "relationship": "Same-chapter successive losses in Naomi's family",
+          "rationale": "Abimelech's death leaves Naomi with two sons; the subsequent death of both named sons leaves her bereft of husband and sons, developing the particular contrast between the two surviving-family notices."
+        },
+        "reason": "Narrow the count label, distinguish the speech undertakings or preserve the exact family actors and speaker groups.",
+        "new_pairs_credited": 0,
+        "complete_corrected_triple_reread": true
+      },
+      {
+        "old_row": {
+          "source_reference": "Ruth 1:17",
+          "target": "1 Samuel 3:17",
+          "relationship": "Shared solemn imprecation formula in different undertakings",
+          "rationale": "Ruth invokes the Lord doing these things and adding these things within her death-and-burial pledge; Eli uses the corresponding God-do-and-add formula about concealing the revelation, preserving the different conditions and the actual death-shall-part wording here."
+        },
+        "new_row": {
+          "source_reference": "Ruth 1:17",
+          "target": "1 Samuel 3:17",
+          "relationship": "Shared solemn imprecation formula in different undertakings",
+          "rationale": "Ruth invokes the Lord doing these things and adding these things within her death-and-burial pledge; Eli uses the corresponding God-do-and-add formula about concealing the revelation, preserving the different undertakings and the actual death-shall-part wording here."
+        },
+        "reason": "Narrow the count label, distinguish the speech undertakings or preserve the exact family actors and speaker groups.",
+        "new_pairs_credited": 0,
+        "complete_corrected_triple_reread": true
+      },
+      {
+        "old_row": {
+          "source_reference": "Ruth 4:2",
+          "target": "Ruth 4:9-11",
+          "relationship": "Same-chapter assembled elders and their witness role",
+          "rationale": "Boaz seats ten city elders; his later acquisition declarations explicitly address the elders and people as witnesses, and they answer We are witnesses before giving the household blessing."
+        },
+        "new_row": {
+          "source_reference": "Ruth 4:2",
+          "target": "Ruth 4:9-11",
+          "relationship": "Same-chapter assembled elders and their witness role",
+          "rationale": "Boaz seats ten city elders; his later acquisition declarations address elders and people as witnesses, the people answer We are witnesses, and the elders give the household blessing, preserving the stated speaker groups."
+        },
+        "reason": "Narrow the count label, distinguish the speech undertakings or preserve the exact family actors and speaker groups.",
+        "new_pairs_credited": 0,
+        "complete_corrected_triple_reread": true
+      },
+      {
+        "old_row": {
+          "source_reference": "Ruth 4:3",
+          "target": "Ruth 1:2-5",
+          "relationship": "The property discussion recalls the named bereaved family",
+          "rationale": "The field portion belongs to Abimelech and has been given to returning Naomi; the opening account identifies their marriage, sons and deaths, supplying the particular family background without changing given-to into offered-for-sale."
+        },
+        "new_row": {
+          "source_reference": "Ruth 4:3",
+          "target": "Ruth 1:2-5",
+          "relationship": "The property discussion recalls the named bereaved family",
+          "rationale": "The field portion belongs to Abimelech and has been given to returning Naomi; the opening account identifies her husband and sons and records the men's deaths, supplying the family background without changing given-to into offered-for-sale."
+        },
+        "reason": "Narrow the count label, distinguish the speech undertakings or preserve the exact family actors and speaker groups.",
+        "new_pairs_credited": 0,
+        "complete_corrected_triple_reread": true
+      },
+      {
+        "old_row": {
+          "source_reference": "Ruth 4:17",
+          "target": "Ruth 4:21-22",
+          "relationship": "Same-chapter Obed's naming and the repeated Jesse-David lineage",
+          "rationale": "The neighbours name Obed and identify him as Jesse's father and David's grandfather; the closing genealogy restates Boaz, Obed, Jesse and David in its explicit father-son sequence."
+        },
+        "new_row": {
+          "source_reference": "Ruth 4:17",
+          "target": "Ruth 4:21-22",
+          "relationship": "Same-chapter Obed's naming and the repeated Jesse-David lineage",
+          "rationale": "The neighbours name Obed, and the narrator identifies him as Jesse's father and David's grandfather; the closing genealogy restates Boaz, Obed, Jesse and David in its explicit father-son sequence."
+        },
+        "reason": "Narrow the count label, distinguish the speech undertakings or preserve the exact family actors and speaker groups.",
+        "new_pairs_credited": 0,
+        "complete_corrected_triple_reread": true
+      }
+    ],
+    "new_pairs_credited": 0
+  },
+  "refinements_file": "ruth-1-4-refinements.json",
+  "refinements_sha256": "42ecb876201bad877a9baca4a9cbbfc25c6a8247b373f1d8a9a4cee1fea378f3",
+  "candidate_exclusions": [
+    {
+      "proposed_claim": "Import Elimelech, Mara, Ram or Salmon as replacements for the actual source forms; certify a complete identical external genealogy.",
+      "reason": "Preserve Abimelech, Bitter, Arran and Salman. Retained genealogical comparisons state precisely the identical parent-child clauses and distinguish unresolved individual forms, which receive0credit."
+    },
+    {
+      "proposed_claim": "Treat kinship land exchange and the Deuteronomy25 brother-widow rule as an identical legal case, impose punitive spitting or supply an inheritance-loss calculation.",
+      "reason": "Actual source subjects, the given field, acquiring Ruth, nearer-person priority, voluntary sandal transfer, and the statutory sibling conditions and different sandal actors remain distinct. No legal or historical mechanics beyond the passages are supplied."
+    },
+    {
+      "proposed_claim": "Rewrite2:7evening/rest wording, negate2:13, change3:15he to she, alter3:18assurance or4:14name pronouns, imply unreported sex, infertility or Naomi biological maternity, or assign every ambiguous pronoun.",
+      "reason": "All complete actual source texts remain exact. Explanations preserve the unusual wording and stated speakers, including the distinction between neighbour speech and the narrator genealogy in4:17."
+    }
+  ],
+  "editorial_notes": [
+    {
+      "reference": "Ruth1–2",
+      "note": "Preserve Abimelech, Moabite status, unnamed marriage assignments until4:10, Bitter/Sufficient One, death-shall-part oath wording, morning-until-evening/no-rest report, positive maidservant statement and about-an-oiphi amount. Naomi and Boaz blessings retain their speaker perspectives and actual mercy-pronoun wording."
+    },
+    {
+      "reference": "Ruth3–4",
+      "note": "Preserve uncovered-what-is-at-feet wording, no added sexual mechanics or intoxication, six unspecified measures, he-entered-city actor, Who-are-you question, matter-shall-not-fall-through assertion and the unnamed nearer kinsman. Keep field-given-to-Naomi wording, separate legal scopes/sandal actors, ten elders and distinct people/elder speeches, Ruth maternity versus Naomi nursing, actual4:14name language, and the Arran/Salman forms. Arran/Ram and Salman/Salmon identities remain uncounted pending candidates."
+    }
+  ],
+  "peer_revisions": {
+    "original_input_file": "ruth-1-4-before-peer.tsv",
+    "original_input_sha256": "860fe6def289e4cf15e7d8e3a8d3ad65fa34c0d2a74ff197ae9dcb7d4cc0caa0",
+    "original_author_receipt": "ruth-1-4-before-peer-review.json",
+    "original_author_receipt_sha256": "52cdcb3fbb902f7cf0ddabf4636b957938899ddbce9b8912433291f2b94267de",
+    "changes": [
+      {
+        "old_row": {
+          "source_reference": "Ruth 4:19",
+          "target": "Ruth 4:18",
+          "relationship": "Same-chapter Hezron bridges the opening Perez generations",
+          "rationale": "The opening genealogy gives Perez begetting Hezron; the next unit resumes Hezron as father of Arran and continues to Amminadab, preserving the explicit shared connecting person without equating Arran with another edition's form."
+        },
+        "new_row": {
+          "source_reference": "Ruth 4:19",
+          "target": "Ruth 4:18",
+          "relationship": "Same-chapter Hezron bridges the opening Perez generations",
+          "rationale": "The opening genealogy gives Perez begetting Hezron; the next unit resumes Hezron as father of Arran and continues to Amminadab, preserving the explicit shared connecting person without equating Arran with a different supplied name form."
+        },
+        "reason": "The different genealogical name forms occur within the selected Saints edition; avoid attributing the distinction to a separate edition.",
+        "new_pairs_credited": 0,
+        "complete_corrected_triple_reread": true
+      }
+    ],
+    "new_pairs_credited": 0
+  }
+}
