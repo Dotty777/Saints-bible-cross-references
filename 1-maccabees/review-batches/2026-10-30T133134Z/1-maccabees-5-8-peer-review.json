@@ -1,0 +1,2841 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI independent peer agent /root/macc5_8_peer (GPT-6)",
+  "reviewer_role": "Independent full textual peer review; every complete source unit, retained and candidate target passage, and complete source-target-category-rationale triple personally read. Pin verification and computed counts are separate checks, not substitutes for reading. No human or specialist review claimed.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "run_id": "2026-10-30T133134Z",
+  "baseline_commit": "19c3167e38c456eddd2ce216aeffabffbfb8191b",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "1 Maccabees",
+  "source_chapters": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "source_units_read": 213,
+  "source_inventory_units_in_scope": 213,
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_independently_read": true,
+  "all_candidate_complete_triples_independently_read": true,
+  "source_chapters_completely_read": [
+    "1 Maccabees 5",
+    "1 Maccabees 6",
+    "1 Maccabees 7",
+    "1 Maccabees 8"
+  ],
+  "additional_complete_context_chapters_read": [
+    "2 Maccabees 9",
+    "2 Maccabees 10",
+    "2 Maccabees 12",
+    "2 Maccabees 13",
+    "2 Maccabees 14",
+    "2 Maccabees 15"
+  ],
+  "additional_complete_context_ranges_read": [
+    "1 Maccabees 1:1-50",
+    "1 Maccabees 2:1-5",
+    "1 Maccabees 2:39-70",
+    "1 Maccabees 3:1-9",
+    "1 Maccabees 4:26-61",
+    "1 Maccabees 9:1-6",
+    "1 Maccabees 12:1-23",
+    "1 Maccabees 14:16-24",
+    "1 Maccabees 15:15-24",
+    "Numbers 21:21-35",
+    "Numbers 31:48-54",
+    "Numbers 14:39-45",
+    "Deuteronomy 2:24-37",
+    "Deuteronomy 7:1-6",
+    "Genesis 11:1-9",
+    "Judges 7:9-25",
+    "Leviticus 25:1-7",
+    "Leviticus 25:18-22",
+    "Exodus 23:10-17",
+    "John 15:9-17",
+    "Psalms 78:1-13",
+    "Ezra 6:6-12",
+    "1 Kings 8:22-30",
+    "Isaiah 56:1-8",
+    "2 Kings 19:14-37",
+    "Isaiah 37:14-38",
+    "2 Chronicles 32:9-23",
+    "1 Samuel 17:40-54"
+  ],
+  "peer_pins_file": "1-maccabees-5-8-peer-independent-pins.json",
+  "peer_pins_sha256": "7b94aa591e43aeac6dd89e9936fd41f174ebee8678402af50818bd088952c571",
+  "fresh_independent_pin_checks": true,
+  "pin_book_count": 16,
+  "source_pins": [
+    {
+      "book": "1 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-1-kings.json",
+      "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "1 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-1-maccabees.json",
+      "raw_sha256": "29c83bbc4b58b9eeeee0675768e1f40a0b0b7a0e01249a146d64ee573b42b8af",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true,
+      "cache_equals_raw_plus_lf": false,
+      "cache_equals_crlf_normalized_raw_plus_lf": false
+    },
+    {
+      "book": "1 Samuel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-1-samuel.json",
+      "raw_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "2 Chronicles",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-2-chronicles.json",
+      "raw_sha256": "c542a941d64759eb96e168688b7e0881bbcd7f35966fa9dde289b9436995368e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "2 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-2-kings.json",
+      "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "2 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-2-maccabees.json",
+      "raw_sha256": "4748eb2422bf0bcdbf16d1292dd94f486c21ff54ae7590fdd2c98590f87fbc1d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Exodus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-exodus.json",
+      "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": false,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Ezra",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "ezra/verses.json",
+      "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-ezra.json",
+      "raw_sha256": "296ecf2cc7e86670eae99db1f718edf88ce13b117ac5aec5cb40f08220b53798",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true,
+      "cache_equals_raw_plus_lf": false,
+      "cache_equals_crlf_normalized_raw_plus_lf": false
+    },
+    {
+      "book": "Genesis",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-genesis.json",
+      "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": false,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Isaiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "isaiah/verses.json",
+      "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-isaiah.json",
+      "raw_sha256": "11c89cfbb50f986fca50889e79af063c51bb8926f5221e43c3faa13f17de0da8",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "John",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "john/verses.json",
+      "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-john.json",
+      "raw_sha256": "44504ae87e2e2a48a4702d0ff3d4db3a3074a2f7c7421251d6f67cd490665486",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Judges",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-judges.json",
+      "raw_sha256": "bc00ee37a3b832eeac7929234102b393ec34ac10158ec548249b0ef187306eec",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Leviticus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-leviticus.json",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Numbers",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-numbers.json",
+      "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    },
+    {
+      "book": "Psalms",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "raw_file": "1-maccabees-5-8-peer-independent-pin-psalms.json",
+      "raw_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false,
+      "cache_equals_raw_plus_lf": true,
+      "cache_equals_crlf_normalized_raw_plus_lf": true
+    }
+  ],
+  "complete_triple_read_groups": [
+    {
+      "first_pair": 1,
+      "last_pair": 40,
+      "count": 40
+    },
+    {
+      "first_pair": 41,
+      "last_pair": 80,
+      "count": 40
+    },
+    {
+      "first_pair": 81,
+      "last_pair": 120,
+      "count": 40
+    },
+    {
+      "first_pair": 121,
+      "last_pair": 159,
+      "count": 39
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Maccabees 5:13",
+      "target": "2 Maccabees 12:17-19",
+      "reason": "Tobiah and Toubiani resemble one another, but the named communities and the reported fates are not established as identical by these texts.",
+      "source_context": "1 Maccabees 5:9-13",
+      "target_context": "2 Maccabees 12:17-25",
+      "identity_resolved": false,
+      "retained": false,
+      "source_and_target_text_read": true,
+      "necessary_context_independently_read": true,
+      "all_candidate_complete_triples_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:36",
+      "target": "2 Maccabees 12:13-16",
+      "reason": "Chaspho in the list of captured Gileadite towns is not explicitly identified with Caspin, whose fortifications and adjacent lake are described in the proposed target.",
+      "source_context": "1 Maccabees 5:26-36",
+      "target_context": "2 Maccabees 12:10-19",
+      "identity_resolved": false,
+      "retained": false,
+      "source_and_target_text_read": true,
+      "necessary_context_independently_read": true,
+      "all_candidate_complete_triples_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:37",
+      "target": "2 Maccabees 10:24-37",
+      "reason": "A renewed army under Timothy resembles the proposed target, but the death of Timothy in that target and the later Timothy campaign in 2 Maccabees 12 prevent an unqualified personal or episode identity.",
+      "source_context": "1 Maccabees 5:34-44",
+      "target_context": "2 Maccabees 12:18-25",
+      "identity_resolved": false,
+      "retained": false,
+      "source_and_target_text_read": true,
+      "necessary_context_independently_read": true,
+      "all_candidate_complete_triples_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:44",
+      "target": "2 Maccabees 12:26",
+      "reason": "The burning of the sacred precinct at Carnaim may be compared with the attack on Carnion and Atargatis, but exact place, sanctuary, and episode identity are not demonstrated by the texts alone.",
+      "source_context": "1 Maccabees 5:37-44",
+      "target_context": "2 Maccabees 12:20-28",
+      "identity_resolved": false,
+      "retained": false,
+      "source_and_target_text_read": true,
+      "necessary_context_independently_read": true,
+      "all_candidate_complete_triples_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "semantic_observations": [
+    "Explicit same-chapter labels correctly identify all within-chapter connections.",
+    "The four unresolved identity proposals remain unretained with zero credit. Limited comparisons involving Timothy or Carnaim/Carnion do not establish personal, geographical, or episode identity.",
+    "Elymais/Persepolis, Babylon/Ecbatana, Beth-zechariah/Modein, military totals, Eupator dates, Philip commissions and destinations, and Nicanor peace negotiations are not forcibly harmonized.",
+    "Greek Psalm 78 numbering is retained. The 1 Samuel 17 passage uses actual extant units and invents neither verse 41 nor verse 50.",
+    "The conquest comparisons concern specified narrative actions. The land Sabbath and royal sacrifice comparisons do not assert extra legal permissions.",
+    "The bronze tablet and Roman friendship comparisons were checked in their wider Roman and Spartan diplomatic context.",
+    "Both original peer findings are resolved. The full original review and exact original packet and author receipt are preserved, including the separate read-timing precision addendum. Final acceptance binds the corrected TSV and final author receipt."
+  ],
+  "checked_at_utc": "2026-10-30T13:58:31.878148+00:00",
+  "input_file": "1-maccabees-5-8.tsv",
+  "input_sha256": "81f833c29d89a9ea3264d57bd0572fa00d4d685a215e0e8367f6b3bc449772b6",
+  "final_input_sha256": "81f833c29d89a9ea3264d57bd0572fa00d4d685a215e0e8367f6b3bc449772b6",
+  "author_receipt_file": "1-maccabees-5-8-review.json",
+  "author_receipt_sha256": "3eafd9ce86fc26fbe8c4c4a5a441ca522ac00f01b7dfe59abc767edcbc6f293f",
+  "source_verses": 142,
+  "completed_source_verses": 142,
+  "reviewed_source_verses": 142,
+  "completed_pairs": 158,
+  "reviewed_pairs": 158,
+  "distinct_target_verse_units": 271,
+  "deferred_source_count": 71,
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Maccabees 5:4",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The sons of Baean's roadside ambushes have no specifically established counterpart in the inspected targets; a generic snare image would not identify or explain this group.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:7",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The summary of repeated battles with the Ammonite force supplies no particular episode or outcome beyond ordinary victory language sufficient for an additional link.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:13",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The slaughter in the region of Tobiah is not securely identified with the Toubiani setting in the separately recorded candidate; that candidate receives no completion credit.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:16",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The assembly's deliberation is contextual preparation for the rescue assignments; no independently meaningful additional target beyond the already linked appeal-and-response sequence was retained.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:20",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The allocation of three thousand and eight thousand soldiers is a specific administrative detail without a verified matching distribution in another passage.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:22",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The pursuit to Ptolemais and three thousand casualties have no independent matching account established here; the broader Galilean rescue is linked from other supported units.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:24",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Crossing the Jordan and traveling three days are insufficient by themselves to establish a particular exodus or conquest parallel, and no such identification was imposed.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:25",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The peaceful Nabatean encounter is not equated with the differently described Arab battle and agreement in 2 Maccabees 12:10-12.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:26",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The list of fortified towns is preserved without mapping similar names onto the other campaign narrative; particular identity questions remain separate candidates.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:27",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The planned one-day assault on the Gileadite strongholds has no specifically established corresponding decree or event in the inspected targets.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:29",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The night journey to the stronghold is a transition without a verified distinct matching journey; generic night-march parallels were not retained.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:31",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The city's cry, trumpets, and shout belong to this siege; resemblance to other cries for help alone did not establish a sufficiently specific additional link.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:35",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The capture and burning of Alema are not securely matched to another named capture in the inspected campaign accounts.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:36",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The capture list does not establish Chaspho as Caspin; that proposed identity is retained only as a zero-credit candidate with exact target context.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:37",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Timothy's renewed army at Raphon is not securely identical with the renewed Timothy army and death in 2 Maccabees 10; the identity proposal is a separate zero-credit candidate.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:39",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The hired Arabs beside the stream are not equated with the Arabs who first fight and then make peace with Judas in 2 Maccabees 12:10-12.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:44",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The identity of Carnaim's sacred precinct with Carnion and the sanctuary of Atargatis is not established; the exact proposal remains a separate zero-credit candidate.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:49",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The instruction for the company to camp where each stood is a tactical detail without a sufficiently specific external counterpart.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:52",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The crossing opposite Beth-shan is not converted into an asserted identity with the Scythopolis itinerary of 2 Maccabees 12:29-31 solely from geographical resemblance.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:53",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Judas's care for the stragglers is meaningful within the journey, but no particular additional target was established beyond general exhortations to assist the weak.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:55",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The summary of the brothers' simultaneous locations is a chronological transition rather than a distinct additional connection.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:64",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The public acclaim adds to the adjacent report of honour but supplies no specific independently supported target beyond generic praise of a leader.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 5:66",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The original Marisa link was removed after full-triple rereading: a common place name attached to different movements did not justify retaining the connection.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:10",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Antiochus's sleeplessness and anxiety have no specific verified counterpart; a general lament about insomnia would dilute the narrative rather than explain it.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:20",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The year and manufacture of siege engines are not given a matching cross-reference without a verified independent account of this exact citadel siege.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:22",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The petitioners' request for royal vengeance is not linked merely by shared judicial language to prayers or unrelated royal appeals.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:24",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The collaborators' report of killings and confiscated inheritances lacks a separately verified matching event in this pass.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:25",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The allegation that Judas attacked all the royal territories remains the petitioners' broad claim and is not expanded into an unsupported geographical identification.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:27",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The warning that the king will lose control is a conventional argument for intervention without a sufficiently specific independent target.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:33",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The early movement toward Beth-zechariah and battle trumpets are not equated with the night raid near Modein in the other account.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:34",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The use of grape and mulberry blood to prepare elephants has no verified matching canonical description in the inspected texts.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:35",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The distribution of armored infantry and cavalry beside each elephant is distinctive tactical information without a matching verified deployment.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:36",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The escorts' remaining with their assigned beast is a deployment detail that does not support an additional canonical connection.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:37",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The covered towers, four fighting men, and Indian drivers have no independently matching canonical description established in this pass.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:38",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The placement of cavalry on the wings is a general military arrangement, insufficient alone for an additional cross-reference.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:39",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Sunlight flashing from shields is not treated as prophetic fire imagery or identified with unrelated battlefield descriptions on verbal resemblance alone.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:40",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The orderly deployment on high and low ground has no verified specific parallel beyond ordinary descriptions of an advancing army.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:41",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Fear caused by the army's size and noise is too general by itself to support an additional particular connection.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:42",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The reported six hundred royal casualties are not equated with the different casualty counts in 2 Maccabees 13.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:45",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Eleazar's movement through the phalanx and killings on either side lack an independently described matching action; heroic charges alone are insufficient.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:47",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Judas's withdrawal before superior forces is not made identical with the successful departure after a night raid in 2 Maccabees 13:15-17.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:48",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The royal encampment against Jerusalem is part of this siege sequence, without a separately established matching encampment in the inspected target account.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:50",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The installation of a royal garrison in Beth-zur is not stated in the inspected parallel settlement at 2 Maccabees 13:22 and was not inferred from it.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:51",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The catalogue of artillery and missile engines is distinctive to this siege description and lacks a verified corresponding catalogue.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:52",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The defenders' counter-engines are not independently described in the inspected targets; generic siege resistance was not counted as a link.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 6:54",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The scattering caused by famine lacks a particular matching episode in the inspected texts; the sabbatical-year explanation is linked from the units that state it.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:3",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Demetrius's refusal to see Antiochus and Lysias is not separately preserved in the inspected companion accession account.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:11",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Judas's distrust of a large force is a contextual response to the preceding deceit, without a distinct additional target beyond general prudence.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:12",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The scribes' negotiation is not explicitly described in the inspected companion account, and scribes were not equated with an independently named faction.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:19",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The Beth-zaith slaughter into a pit lacks a verified matching episode; other pit killings would be only a generic resemblance.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:22",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The collaborators gathering to Alcimus and harming Judah is not assigned an additional link solely from general descriptions of internal betrayal.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:24",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Judas's campaign against deserters has no specifically matched independent episode in the inspected targets.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:31",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Caphar-salama is not equated with Dessau in 2 Maccabees 14:16 from proximity in the Nicanor narrative alone.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:32",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The five hundred dead and retreat into the city of David are not supplied by the companion Nicanor account and are not harmonized with its other engagements.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:39",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The Syrian reinforcement at Beth-horon lacks a specifically matching reinforcement in the inspected target account.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:45",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The pursuit from Adasa to Gazera with signal trumpets has no verified counterpart giving these places and this route.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:2",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The Roman wars against the Galatians and their tribute are not identified with a separately established canonical campaign or prophetic symbol.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:3",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The Roman acquisition of Spanish mines has no specific matching canonical narrative established in this pass.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:4",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The report of distant Roman victories and annual tribute is too general to justify a distinct link without identifying the campaigns.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:5",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Philip and Perseus's defeat by Rome is not matched to a verified canonical narrative elsewhere; the Kittian designation is preserved without a speculative prophetic identification.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:6",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The army of Antiochus the Great and its defeat by Rome are not assigned a prophetic identity or equated with the later Antiochus campaigns against Judea.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:8",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The territorial list and grant to Eumenes are preserved as this text gives them; no external historical correction or unsupported canonical counterpart was substituted.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:9",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The reported Greek plan against Rome lacks a verified independent canonical account of that specific plan.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:10",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The general's campaign and enslavement of Greece lack a specifically matching canonical description; ordinary conquest language was not used as a substitute.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:12",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Rome's mastery of near and distant kings and its fearful reputation alone do not establish a particular prophetic beast or empire identification.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:13",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Roman influence over royal appointments is a general characterization here and is not equated with divine appointment language in unrelated texts.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:16",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The account of annual rule by one man and absence of rivalry is preserved as reported; no unverified constitutional correction or canonical analogy was added.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:21",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: Roman acceptance of the proposal is a brief transition to the document and does not add a distinct connection beyond the linked establishment and renewals.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:28",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The clause about withholding supplies is retained in its exact wording without resolving its ambiguous reference to allies through an imposed harmonization with the preceding clause.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 8:30",
+      "target": null,
+      "reason": "Independent rereading concurs with the source deferral: The treaty's amendment provision has no specifically established matching canonical agreement clause in this pass.",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 7:23",
+      "target": null,
+      "reason": "The complete source and its Alcimus context describe injury to Israel, while the removed target describes earlier advocates of foreign customs. A general internal-betrayal theme does not establish a specific textual or narrative connection. This source remains deferred.",
+      "source_context_read": "1 Maccabees 7:20-25",
+      "source_and_necessary_context_independently_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "pair_reviews": [
+    {
+      "pair_number": 1,
+      "source_reference": "1 Maccabees 5:1",
+      "target": "1 Maccabees 4:47-56",
+      "relationship": "Narrative connection",
+      "rationale": "The anger of the surrounding nations follows the rebuilding of the altar and its joyful dedication described in the preceding chapter.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 2,
+      "source_reference": "1 Maccabees 5:2",
+      "target": "2 Maccabees 12:3-8",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe attacks on Jewish communities living among other peoples; the Joppa killings and Jamnia plot illustrate the same danger without identifying them with all the attacks summarized here.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 3,
+      "source_reference": "1 Maccabees 5:3",
+      "target": "2 Maccabees 10:15-17",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts present Judas attacking Idumeans who were oppressing Israel; the source names Akrabattene, while the target describes assaults on fortresses and gives a casualty total. The differing campaign settings remain distinct.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The corrected rationale assigns Akrabattene to the source and fortress assaults and casualties to the target. The common action against oppressive Idumeans is supported, and the campaign settings remain distinct.",
+      "complete_corrected_triple_reread": true
+    },
+    {
+      "pair_number": 4,
+      "source_reference": "1 Maccabees 5:5",
+      "target": "2 Maccabees 10:18-23",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe hostile groups sheltering in towers that Maccabeus captures with lethal force; the sons of Baean are not identified with the unnamed occupants of the two Idumean towers.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 5,
+      "source_reference": "1 Maccabees 5:6",
+      "target": "2 Maccabees 12:20",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts place a substantial army under a commander named Timothy opposite Judas; this compares the campaign narratives without resolving every occurrence of Timothy into one chronological biography.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 6,
+      "source_reference": "1 Maccabees 5:8",
+      "target": "Numbers 21:32",
+      "relationship": "Geographical and narrative comparison",
+      "rationale": "Moses's men previously captured Jazer and its dependent villages; Judas's seizure of Jazer and its daughter towns recalls conquest of the same named district in a later conflict.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 7,
+      "source_reference": "1 Maccabees 5:9",
+      "target": "1 Maccabees 5:30-34",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The Israelites' flight into the stronghold establishes the danger that Judas later interrupts when he finds the enemy attacking its defenders.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 8,
+      "source_reference": "1 Maccabees 5:10",
+      "target": "1 Maccabees 5:16-17",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The written appeal from endangered Jews leads to the assembly's decision to send Judas and Jonathan to Gilead and Simon to Galilee.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 9,
+      "source_reference": "1 Maccabees 5:11",
+      "target": "1 Maccabees 5:30-34",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The letter warns of Timothy's coming assault on the stronghold; Judas later arrives during that assault and routs Timothy's army.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 10,
+      "source_reference": "1 Maccabees 5:12",
+      "target": "1 Maccabees 5:32-34",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The petition to rescue the threatened brothers receives its narrative answer when Judas orders his men to fight for their brothers and drives the attackers away.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 11,
+      "source_reference": "1 Maccabees 5:14",
+      "target": "1 Maccabees 5:21-23",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The messengers' report of distress in Galilee leads to Simon's campaign and evacuation of the Galilean families into Judea.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 12,
+      "source_reference": "1 Maccabees 5:15",
+      "target": "1 Maccabees 5:21-23",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The threat from Ptolemais and the surrounding region is answered by Simon's pursuit to Ptolemais and removal of the endangered Galilean population.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 13,
+      "source_reference": "1 Maccabees 5:17",
+      "target": "1 Maccabees 5:21-24",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The division of the rescue mission is fulfilled by Simon's Galilean campaign and Judas and Jonathan's crossing of the Jordan.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 14,
+      "source_reference": "1 Maccabees 5:18",
+      "target": "1 Maccabees 5:55-61",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The two commanders entrusted with guarding Judea later leave that task to seek military fame, ending in the defeat attributed to their disobedience.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 15,
+      "source_reference": "1 Maccabees 5:19",
+      "target": "1 Maccabees 5:57-61",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "Judas's explicit prohibition on starting a battle explains why the later offensive and defeat of Joseph and Azariah are judged disobedient.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 16,
+      "source_reference": "1 Maccabees 5:21",
+      "target": "1 Maccabees 5:15-17",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "Simon's Galilean battles carry out the rescue assignment prompted by reports that the surrounding peoples intended to destroy the Jews there.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 17,
+      "source_reference": "1 Maccabees 5:23",
+      "target": "1 Maccabees 5:45",
+      "relationship": "Narrative comparison; same-chapter",
+      "rationale": "Simon's removal of the Galilean families and belongings to Judea parallels Judas's gathering of the Gileadite families and possessions for the same destination.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 18,
+      "source_reference": "1 Maccabees 5:28",
+      "target": "1 Maccabees 5:26-27",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The sudden turn toward Bosora responds to the report that Jews were confined in that named city and that the strongholds faced imminent destruction.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 19,
+      "source_reference": "1 Maccabees 5:30",
+      "target": "1 Maccabees 5:9-12",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The siege equipment and attack that Judas sees confirm the danger described in the earlier letter from those who had fled into the stronghold.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 20,
+      "source_reference": "1 Maccabees 5:32",
+      "target": "1 Maccabees 5:12",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The command to fight for their brothers directly answers those brothers' appeal for rescue from the enemy's hand.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 21,
+      "source_reference": "1 Maccabees 5:33",
+      "target": "Judges 7:16-22",
+      "relationship": "Narrative and military comparison",
+      "rationale": "Judas's three divisions, trumpets, and shouted appeal recall Gideon's three companies sounding trumpets before the enemy's flight; the circumstances and equipment are not identical.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 22,
+      "source_reference": "1 Maccabees 5:34",
+      "target": "2 Maccabees 12:22-23",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts portray Timothy's forces fleeing before Judas and suffering heavy losses; the reported totals differ and are not harmonized.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 23,
+      "source_reference": "1 Maccabees 5:38",
+      "target": "1 Maccabees 5:9-11",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The scouts' report that the surrounding nations have gathered under Timothy renews the coalition threat already described by the trapped Israelites.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 24,
+      "source_reference": "1 Maccabees 5:40",
+      "target": "1 Maccabees 5:42-43",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "Timothy predicts defeat if Judas crosses first; Judas then prevents delay, crosses first, and puts the opposing nations to flight.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 25,
+      "source_reference": "1 Maccabees 5:41",
+      "target": "1 Maccabees 5:42-43",
+      "relationship": "Narrative contrast; same-chapter",
+      "rationale": "Timothy hopes Judas will hesitate and camp beyond the water, but Judas forbids camping and takes the initiative by crossing immediately.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 26,
+      "source_reference": "1 Maccabees 5:42",
+      "target": "1 Maccabees 5:40-41",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "Judas's order not to encamp defeats the alternative on which Timothy based his hope of victory and leads to the first crossing Timothy feared.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 27,
+      "source_reference": "1 Maccabees 5:43",
+      "target": "2 Maccabees 12:21-23",
+      "relationship": "Historical comparison",
+      "rationale": "Both campaign accounts describe Timothy's army fleeing at Judas's advance in a setting involving a refuge named Carnaim here and Carnion there; the names and routes are preserved without asserting exact identity.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 28,
+      "source_reference": "1 Maccabees 5:45",
+      "target": "1 Maccabees 5:23",
+      "relationship": "Narrative comparison; same-chapter",
+      "rationale": "Judas's gathering of Gileadite families and possessions for Judah matches Simon's earlier evacuation of Galilean families and property into Judea.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 29,
+      "source_reference": "1 Maccabees 5:46",
+      "target": "2 Maccabees 12:27",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts identify Ephron as a fortified city encountered by Judas's forces; each supplies different details about its defenses and the surrounding campaign.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 30,
+      "source_reference": "1 Maccabees 5:47",
+      "target": "Numbers 21:21-24",
+      "relationship": "Narrative comparison",
+      "rationale": "Ephron's refusal of passage belongs to a sequence like Sihon's refusal of Israel's peaceful transit, which is followed in each narrative by armed conflict.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 31,
+      "source_reference": "1 Maccabees 5:48",
+      "target": "Deuteronomy 2:26-30",
+      "relationship": "Literary and narrative parallel",
+      "rationale": "Judas's peaceful request to pass on foot echoes Moses's peaceful proposal to Sihon to pass through his land without turning aside; both requests are refused.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 32,
+      "source_reference": "1 Maccabees 5:48",
+      "target": "Numbers 21:21-23",
+      "relationship": "Literary and narrative parallel",
+      "rationale": "Both passages join envoys or peaceful words, a request to pass through another territory, and the inhabitants' refusal of transit.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 33,
+      "source_reference": "1 Maccabees 5:50",
+      "target": "2 Maccabees 12:27-28",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe the capture of fortified Ephron by Judas's forces; this account specifies a day-and-night assault, while the other emphasizes prayer and gives a casualty figure.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 34,
+      "source_reference": "1 Maccabees 5:51",
+      "target": "Numbers 21:23-25",
+      "relationship": "Narrative comparison",
+      "rationale": "After passage is refused, Judas takes the obstructing city and passes through it; Israel likewise defeats Sihon and takes his towns after his refusal of passage.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 35,
+      "source_reference": "1 Maccabees 5:54",
+      "target": "Numbers 31:49-50",
+      "relationship": "Narrative and worship comparison",
+      "rationale": "Both armies respond with an offering after finding that none of their men is missing; Numbers describes a gift for atonement and this account describes joyful whole burnt offerings.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 36,
+      "source_reference": "1 Maccabees 5:56",
+      "target": "1 Maccabees 5:18-19",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "Joseph and Azariah's desire to imitate the brothers' exploits is set against their original assignment to guard the people and avoid battle until Judas returns.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 37,
+      "source_reference": "1 Maccabees 5:57",
+      "target": "Genesis 11:4",
+      "relationship": "Literary and thematic comparison",
+      "rationale": "The commanders' wish to make a name for themselves repeats the builders' ambition at Babel; in each narrative the self-promoting project ends in failure.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 38,
+      "source_reference": "1 Maccabees 5:58",
+      "target": "1 Maccabees 5:19",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The march against Jamnia directly violates Judas's earlier instruction not to engage the surrounding nations before his return.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 39,
+      "source_reference": "1 Maccabees 5:59",
+      "target": "2 Maccabees 12:32-35",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts depict Gorgias opposing Jewish forces, but the commanders, course of combat, and setting differ; this comparison does not merge the two battles.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 40,
+      "source_reference": "1 Maccabees 5:60",
+      "target": "Numbers 14:41-45",
+      "relationship": "Narrative comparison",
+      "rationale": "Joseph and Azariah's unauthorized attack ends in rout, as the Israelites' advance after Moses's warning ends in defeat; the comparison concerns disobedient initiative rather than identical battles.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 41,
+      "source_reference": "1 Maccabees 5:61",
+      "target": "Numbers 14:41-45",
+      "relationship": "Narrative and theological comparison",
+      "rationale": "Both narratives explain military defeat through disregard of the leader's warning against an unauthorized advance.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 42,
+      "source_reference": "1 Maccabees 5:62",
+      "target": "1 Maccabees 2:65-66",
+      "relationship": "Narrative connection",
+      "rationale": "Mattathias had assigned counsel to Simon and command against the nations to Judas, providing the earlier family commission behind the distinction drawn here between the brothers and the defeated commanders.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 43,
+      "source_reference": "1 Maccabees 5:63",
+      "target": "1 Maccabees 3:3-9",
+      "relationship": "Narrative connection",
+      "rationale": "The widespread honour of Judas and his brothers develops the earlier account of Judas extending his people's glory and becoming renowned to the ends of the earth.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 44,
+      "source_reference": "1 Maccabees 5:65",
+      "target": "2 Maccabees 10:15-17",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe Judas attacking Idumean defenses in response to conflict with the Jews; this verse names Hebron and its dependent towns, which the other account does not specify.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 45,
+      "source_reference": "1 Maccabees 5:67",
+      "target": "1 Maccabees 5:57-61",
+      "relationship": "Narrative comparison; same-chapter",
+      "rationale": "The priests' fatal venture to perform brave deeds without counsel repeats the chapter's warning through Joseph and Azariah's self-promoting, disobedient expedition.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 46,
+      "source_reference": "1 Maccabees 5:68",
+      "target": "Deuteronomy 7:5",
+      "relationship": "Law and practice",
+      "rationale": "Judas's demolition of pagan altars and burning of carved divine images correspond closely to the law's instructions to pull down such altars and burn such images.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 47,
+      "source_reference": "1 Maccabees 6:1",
+      "target": "2 Maccabees 9:1-2",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts place Antiochus in Persia before a failed attack on a temple-rich city; this text names Elymais and the other Persepolis, so the locations are not silently equated.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 48,
+      "source_reference": "1 Maccabees 6:2",
+      "target": "1 Maccabees 1:1",
+      "relationship": "Narrative identification",
+      "rationale": "The temple weapons are attributed to Alexander son of Philip, the Macedonian first ruler of the Greeks, identifying the conqueror introduced at the book's opening.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 49,
+      "source_reference": "1 Maccabees 6:3",
+      "target": "2 Maccabees 9:2",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe Antiochus attempting to plunder a city's temple and being resisted by its inhabitants; their city names differ.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 50,
+      "source_reference": "1 Maccabees 6:4",
+      "target": "2 Maccabees 9:2-3",
+      "relationship": "Historical comparison",
+      "rationale": "Both describe Antiochus's humiliating retreat after local resistance, but this account points toward Babylon and the other next locates him at Ecbatana.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 51,
+      "source_reference": "1 Maccabees 6:5",
+      "target": "2 Maccabees 9:3",
+      "relationship": "Historical comparison",
+      "rationale": "Both bring the king news of military reverses involving the Jews during his eastern retreat; the other account names Nicanor and Timothy, while the following verse here names Lysias.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 52,
+      "source_reference": "1 Maccabees 6:6",
+      "target": "1 Maccabees 4:28-35",
+      "relationship": "Narrative connection",
+      "rationale": "The report that Lysias's strong army was driven back recalls his defeat near Beth-zur and withdrawal to Antioch.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 53,
+      "source_reference": "1 Maccabees 6:7",
+      "target": "1 Maccabees 4:43-47",
+      "relationship": "Narrative connection",
+      "rationale": "The report that the profaning installation was removed recalls the cleansing of the sanctuary and dismantling of the defiled altar before its replacement.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 54,
+      "source_reference": "1 Maccabees 6:7",
+      "target": "1 Maccabees 4:60-61",
+      "relationship": "Narrative connection",
+      "rationale": "The report of high sanctuary walls and Beth-zur's fortification recalls the defensive works built after the dedication.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 55,
+      "source_reference": "1 Maccabees 6:8",
+      "target": "2 Maccabees 9:5-11",
+      "relationship": "Historical comparison",
+      "rationale": "Both portray Antiochus becoming gravely ill after his reverses, but this text stresses sorrow and frustrated plans while the other describes bodily affliction as divine judgment.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 56,
+      "source_reference": "1 Maccabees 6:9",
+      "target": "2 Maccabees 9:18",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts present the ailing Antiochus despairing of his condition; the other account additionally introduces his letter to the Jews.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 57,
+      "source_reference": "1 Maccabees 6:11",
+      "target": "2 Maccabees 9:26-27",
+      "relationship": "Historical comparison",
+      "rationale": "Antiochus's claim to have ruled kindly can be compared with his letter's claims of benefits, fairness, and humanity; these are the king's self-descriptions within narratives critical of his conduct.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 58,
+      "source_reference": "1 Maccabees 6:12",
+      "target": "1 Maccabees 1:21-24",
+      "relationship": "Narrative connection",
+      "rationale": "Antiochus's recollection of taking Jerusalem's silver and gold vessels points back to the narrated plundering of the sanctuary.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 59,
+      "source_reference": "1 Maccabees 6:12",
+      "target": "2 Maccabees 9:14-16",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts associate the dying king with his wrongs against Jerusalem and its temple; the other expresses this through vows to free the city and replace the plundered vessels.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 60,
+      "source_reference": "1 Maccabees 6:13",
+      "target": "2 Maccabees 9:28",
+      "relationship": "Historical comparison",
+      "rationale": "Both connect Antiochus's miserable death in a foreign land with the evils he inflicted; this verse gives his own acknowledgment, while the other supplies the narrator's judgment.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 61,
+      "source_reference": "1 Maccabees 6:14",
+      "target": "2 Maccabees 9:29",
+      "relationship": "Historical comparison",
+      "rationale": "Both associate Philip with the dying Antiochus, but his appointment over the kingdom here differs from the other account's description of transporting the body and fleeing to Egypt.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 62,
+      "source_reference": "1 Maccabees 6:15",
+      "target": "2 Maccabees 9:23-25",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe arrangements for Antiochus's son to succeed him; this verse entrusts Philip with royal insignia and guidance, while the letter announces the son's appointment.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 63,
+      "source_reference": "1 Maccabees 6:16",
+      "target": "2 Maccabees 9:28",
+      "relationship": "Historical comparison",
+      "rationale": "Both report Antiochus's death away from his homeland; the year supplied here is not inferred from the other account.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 64,
+      "source_reference": "1 Maccabees 6:17",
+      "target": "2 Maccabees 10:10-11",
+      "relationship": "Historical comparison",
+      "rationale": "Both identify Antiochus Eupator as successor and connect Lysias with the kingdom's administration, though the accounts emphasize different aspects of his role.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 65,
+      "source_reference": "1 Maccabees 6:18",
+      "target": "1 Maccabees 1:33-36",
+      "relationship": "Narrative connection",
+      "rationale": "The citadel's continuing threat to the holy places develops the earlier description of its lawless garrison as an ambush against the sanctuary.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 66,
+      "source_reference": "1 Maccabees 6:19",
+      "target": "1 Maccabees 4:41",
+      "relationship": "Narrative connection",
+      "rationale": "The plan to remove the citadel's occupants extends Judas's earlier order to fight them while the sanctuary was being cleansed.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 67,
+      "source_reference": "1 Maccabees 6:21",
+      "target": "1 Maccabees 1:34-36",
+      "relationship": "Narrative connection",
+      "rationale": "The alliance of citadel escapees and ungodly Israelites continues the hostility of the lawless garrison originally established against the sanctuary.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 68,
+      "source_reference": "1 Maccabees 6:23",
+      "target": "1 Maccabees 1:41-43",
+      "relationship": "Narrative connection",
+      "rationale": "The petitioners profess continuing loyalty to the father's decrees, recalling Antiochus's policy of abolishing separate customs and the Israelites who accepted it.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 69,
+      "source_reference": "1 Maccabees 6:26",
+      "target": "1 Maccabees 4:60-61",
+      "relationship": "Narrative connection",
+      "rationale": "The petition names the sanctuary and Beth-zur as fortified places, matching the two defensive projects undertaken after the dedication.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 70,
+      "source_reference": "1 Maccabees 6:28",
+      "target": "2 Maccabees 13:1-3",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts depict Antiochus Eupator and Lysias mobilizing against Judea with support from hostile instigators; the dates and specific instigators in their accounts remain distinct.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 71,
+      "source_reference": "1 Maccabees 6:29",
+      "target": "1 Maccabees 4:35",
+      "relationship": "Narrative connection",
+      "rationale": "The arrival of hired troops develops the earlier notice that Lysias recruited additional mercenaries after his defeat in Judea.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 72,
+      "source_reference": "1 Maccabees 6:30",
+      "target": "2 Maccabees 13:1-2",
+      "relationship": "Historical comparison",
+      "rationale": "Both enumerate Eupator's infantry, cavalry, and war elephants, but the totals and stated year differ and are preserved as separate accounts.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 73,
+      "source_reference": "1 Maccabees 6:31",
+      "target": "2 Maccabees 13:19-20",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe royal pressure on Beth-zur and vigorous Jewish resistance; the other also reports Judas sending provisions into the fortress.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 74,
+      "source_reference": "1 Maccabees 6:32",
+      "target": "2 Maccabees 13:13-14",
+      "relationship": "Historical comparison",
+      "rationale": "In both accounts Judas moves to confront the royal invasion, but his encampment is Beth-zechariah here and near Modein there; these locations are not harmonized.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 75,
+      "source_reference": "1 Maccabees 6:43",
+      "target": "1 Maccabees 2:5",
+      "relationship": "Narrative identification",
+      "rationale": "The Eleazar called Avaran who attacks the royal-looking elephant is the son of Mattathias introduced with that same byname.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 76,
+      "source_reference": "1 Maccabees 6:44",
+      "target": "1 Maccabees 2:50-51",
+      "relationship": "Narrative and thematic connection",
+      "rationale": "Eleazar's willingness to give himself for his people and gain an everlasting name recalls Mattathias's call to give their lives for the covenant and receive an everlasting name.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 77,
+      "source_reference": "1 Maccabees 6:44",
+      "target": "John 15:13",
+      "relationship": "Ethical comparison",
+      "rationale": "Eleazar's giving himself to save his people exemplifies the willingness to surrender one's life for others commended in Jesus's saying about laying down one's life for friends; no prediction or identity is asserted.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 78,
+      "source_reference": "1 Maccabees 6:46",
+      "target": "2 Maccabees 13:15",
+      "relationship": "Historical contrast",
+      "rationale": "Both invasion narratives include an elephant being stabbed, but here Eleazar dies beneath the fallen beast, while the other describes Judas's successful night raid; these are compared without treating them as one incident.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 79,
+      "source_reference": "1 Maccabees 6:49",
+      "target": "Leviticus 25:3-7",
+      "relationship": "Law and practice",
+      "rationale": "Beth-zur's shortage during the land's sabbath is situated within the law requiring the seventh year to be a rest from sowing, pruning, and ordinary harvest.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 80,
+      "source_reference": "1 Maccabees 6:49",
+      "target": "2 Maccabees 13:22",
+      "relationship": "Historical comparison",
+      "rationale": "Both describe a negotiated settlement at Beth-zur; this account explains the surrender through lack of provisions in the sabbatical year, whereas the other emphasizes exchanged pledges and withdrawal.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 81,
+      "source_reference": "1 Maccabees 6:53",
+      "target": "Exodus 23:10-11",
+      "relationship": "Law and practice",
+      "rationale": "The notice that it was the seventh year invokes the agricultural cycle in which the land is left to rest after six years of cultivation, helping explain the depleted stores.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 82,
+      "source_reference": "1 Maccabees 6:53",
+      "target": "1 Maccabees 5:23",
+      "relationship": "Narrative connection",
+      "rationale": "Simon's arrival in Judea with evacuated Galilean families provides an earlier example of the refugees from surrounding nations whose consumption of provisions is reported here.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 83,
+      "source_reference": "1 Maccabees 6:53",
+      "target": "1 Maccabees 5:45",
+      "relationship": "Narrative connection",
+      "rationale": "Judas's gathering of the Gileadite population for migration to Judah supplies another earlier influx behind the notice that refugees had consumed the remaining stores.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 84,
+      "source_reference": "1 Maccabees 6:55",
+      "target": "1 Maccabees 6:14-15",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The renewed mention of Philip's commission explicitly recalls the dying king's appointment of him to guide his son into royal rule.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 85,
+      "source_reference": "1 Maccabees 6:56",
+      "target": "2 Maccabees 13:23",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts make news about Philip's challenge at Antioch a reason for the royal side to seek accommodation with the Jews; their descriptions of his commission differ.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 86,
+      "source_reference": "1 Maccabees 6:57",
+      "target": "2 Maccabees 13:23",
+      "relationship": "Historical comparison",
+      "rationale": "The pressure of affairs elsewhere helps explain the royal decision to negotiate in both accounts, though this verse also stresses dwindling manpower, food, and the strength of the besieged place.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 87,
+      "source_reference": "1 Maccabees 6:58",
+      "target": "2 Maccabees 13:23",
+      "relationship": "Historical comparison",
+      "rationale": "The proposal of peace with the Jewish nation corresponds to the other account's settlement following the report about Philip; the terms and subsequent treatment of the sanctuary differ.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 88,
+      "source_reference": "1 Maccabees 6:59",
+      "target": "1 Maccabees 1:41-50",
+      "relationship": "Narrative reversal",
+      "rationale": "Restoration of the Jews' ancestral customs reverses Antiochus's earlier decrees forbidding their laws, sacrifices, Sabbaths, and circumcision, the very policy now acknowledged as the cause of revolt.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 89,
+      "source_reference": "1 Maccabees 6:60",
+      "target": "2 Maccabees 13:23",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts report the royal side accepting a settlement with the Jews after internal political pressure, while presenting its circumstances and aftermath differently.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 90,
+      "source_reference": "1 Maccabees 6:61",
+      "target": "2 Maccabees 13:23",
+      "relationship": "Historical comparison",
+      "rationale": "Both describe an oath accompanying the settlement; the following verse here records its violation, whereas the other narrative stresses honours shown to the temple.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 91,
+      "source_reference": "1 Maccabees 6:62",
+      "target": "2 Maccabees 13:23",
+      "relationship": "Historical contrast",
+      "rationale": "This account says the king broke his oath and demolished the sanctuary wall; the companion account describes sacrifice, temple honours, and kind treatment, a difference left explicit.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 92,
+      "source_reference": "1 Maccabees 6:63",
+      "target": "2 Maccabees 13:23-26",
+      "relationship": "Historical comparison",
+      "rationale": "Both conclude the expedition with the political problem involving Philip and a return toward Antioch; the battle to seize Antioch is stated here rather than supplied by the other account.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 93,
+      "source_reference": "1 Maccabees 7:1",
+      "target": "2 Maccabees 14:1-2",
+      "relationship": "Historical comparison",
+      "rationale": "Both introduce Demetrius son of Seleucus arriving by sea and gaining the kingdom; this account mentions departure from Rome with a few men, while the other names Tripolis and a strong force and fleet.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 94,
+      "source_reference": "1 Maccabees 7:2",
+      "target": "2 Maccabees 14:2",
+      "relationship": "Historical comparison",
+      "rationale": "The seizure of Antiochus and Lysias is part of the dynastic overthrow summarized in the other account as Demetrius doing away with Antiochus and his guardian.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 95,
+      "source_reference": "1 Maccabees 7:4",
+      "target": "2 Maccabees 14:2",
+      "relationship": "Historical parallel",
+      "rationale": "Both accounts connect Demetrius's accession with the elimination of Antiochus and Lysias; this text specifies that the troops killed them.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 96,
+      "source_reference": "1 Maccabees 7:5",
+      "target": "2 Maccabees 14:3-7",
+      "relationship": "Historical comparison",
+      "rationale": "Both portray Alcimus approaching Demetrius with an interest in the high priesthood; the other explicitly describes him as a former high priest seeking restoration.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 97,
+      "source_reference": "1 Maccabees 7:6",
+      "target": "2 Maccabees 14:6-10",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts make Alcimus's party accuse Judas of destabilizing royal rule and harming the country, although their reported speeches use different charges.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 98,
+      "source_reference": "1 Maccabees 7:7",
+      "target": "2 Maccabees 14:9-13",
+      "relationship": "Historical comparison",
+      "rationale": "The appeal for royal intervention corresponds to Alcimus's demand for action against Judas and the resulting punitive commission in the companion narrative; the envoys sent are described differently.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 99,
+      "source_reference": "1 Maccabees 7:8",
+      "target": "1 Maccabees 9:1",
+      "relationship": "Narrative connection",
+      "rationale": "Bacchides, selected here as a trusted royal agent, is sent again after Nicanor's defeat, establishing the continuity of his role in Demetrius's interventions.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 100,
+      "source_reference": "1 Maccabees 7:9",
+      "target": "2 Maccabees 14:12-13",
+      "relationship": "Historical comparison",
+      "rationale": "Both connect a royal military mission with imposing Alcimus as high priest; this commission is given to Bacchides, while the other passage gives it to Nicanor.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 101,
+      "source_reference": "1 Maccabees 7:10",
+      "target": "1 Maccabees 1:29-30",
+      "relationship": "Narrative comparison",
+      "rationale": "The new royal force's deceitful peaceful message repeats the earlier tribute collector's tactic of speaking peace before attacking Jerusalem.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 102,
+      "source_reference": "1 Maccabees 7:13",
+      "target": "1 Maccabees 2:42",
+      "relationship": "Narrative connection",
+      "rationale": "The Hasideans seeking peace here are the named group previously described as strong supporters of the law who joined Mattathias's resistance.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 103,
+      "source_reference": "1 Maccabees 7:14",
+      "target": "2 Maccabees 14:7",
+      "relationship": "Historical comparison",
+      "rationale": "The people's trust rests on Alcimus's Aaronic priesthood; in the other account Alcimus himself claims the high priesthood as his ancestral honour, without that claim guaranteeing his conduct.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 104,
+      "source_reference": "1 Maccabees 7:15",
+      "target": "1 Maccabees 7:16-18",
+      "relationship": "Narrative connection; same-chapter",
+      "rationale": "The assurance of safety and sworn promise are directly contradicted by the killing of sixty men and the people's subsequent charge of oath-breaking.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 105,
+      "source_reference": "1 Maccabees 7:16",
+      "target": "Psalms 78:2-3",
+      "relationship": "Explicit scriptural citation",
+      "rationale": "The killing is related to a written word, and the quotation that follows draws on the psalm's slaughtered holy ones and blood around Jerusalem; the target uses the source's Greek Psalm 78 numbering.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 106,
+      "source_reference": "1 Maccabees 7:17",
+      "target": "Psalms 78:2-3",
+      "relationship": "Explicit scriptural citation",
+      "rationale": "The quotation combines the psalm's flesh of God's holy ones with blood poured around Jerusalem and the absence of anyone to bury them, retaining Greek Psalm 78 numbering.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 107,
+      "source_reference": "1 Maccabees 7:18",
+      "target": "1 Maccabees 6:61-62",
+      "relationship": "Narrative comparison",
+      "rationale": "The people's judgment that a sworn agreement has been broken recalls the preceding king's oath followed by his demolition of the sanctuary wall.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 108,
+      "source_reference": "1 Maccabees 7:20",
+      "target": "1 Maccabees 9:1",
+      "relationship": "Narrative connection",
+      "rationale": "Bacchides's departure leaving Alcimus in charge is followed later by Demetrius sending both men into Judea again after Nicanor's destruction.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 109,
+      "source_reference": "1 Maccabees 7:21",
+      "target": "2 Maccabees 14:3-7",
+      "relationship": "Historical comparison",
+      "rationale": "Alcimus's struggle for the high priesthood corresponds to the other account's explanation that he approached Demetrius to regain his former ancestral office.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 110,
+      "source_reference": "1 Maccabees 7:25",
+      "target": "2 Maccabees 14:26-27",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe Alcimus returning to Demetrius with accusations that provoke action against Judas; the other places this complaint after Nicanor's friendly agreement with Judas.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 111,
+      "source_reference": "1 Maccabees 7:26",
+      "target": "2 Maccabees 14:12-13",
+      "relationship": "Historical parallel",
+      "rationale": "Both accounts report Demetrius selecting Nicanor and ordering military action against Judas and his followers.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 112,
+      "source_reference": "1 Maccabees 7:27",
+      "target": "2 Maccabees 14:19-24",
+      "relationship": "Historical contrast",
+      "rationale": "Both describe peace negotiations between Nicanor and Judas, but this account presents the overture as deceitful from the start, whereas the other describes a genuine period of goodwill.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 113,
+      "source_reference": "1 Maccabees 7:28",
+      "target": "2 Maccabees 14:21-22",
+      "relationship": "Historical comparison",
+      "rationale": "Both describe an arranged personal meeting between Judas and Nicanor with concern about possible treachery; their presentation of Nicanor's original intentions differs.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 114,
+      "source_reference": "1 Maccabees 7:29",
+      "target": "2 Maccabees 14:21-24",
+      "relationship": "Historical contrast",
+      "rationale": "This meeting conceals an attempt to seize Judas, whereas the other narrative describes a proper conference followed by Nicanor's attachment to him; the divergent portrayals remain explicit.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 115,
+      "source_reference": "1 Maccabees 7:30",
+      "target": "2 Maccabees 14:29-30",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts describe Judas discerning danger in Nicanor's conduct and avoiding him, though the other places the intended betrayal after a royal order to break their settlement.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 116,
+      "source_reference": "1 Maccabees 7:33",
+      "target": "Ezra 6:9-10",
+      "relationship": "Worship and political practice",
+      "rationale": "The priests' offering on behalf of the king has a precedent in the royal provision of sacrificial materials so that Jerusalem's priests could pray for the king and his sons.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 117,
+      "source_reference": "1 Maccabees 7:33",
+      "target": "2 Maccabees 14:31-32",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts bring Nicanor to the temple while priests are offering sacrifices, followed by his demand for Judas; this account additionally describes their peaceful welcome and royal offering.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 118,
+      "source_reference": "1 Maccabees 7:34",
+      "target": "2 Maccabees 14:33",
+      "relationship": "Historical comparison",
+      "rationale": "Nicanor's contemptuous, arrogant treatment of the priests corresponds to the other account's threat to destroy their sanctuary unless Judas is surrendered.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 119,
+      "source_reference": "1 Maccabees 7:35",
+      "target": "2 Maccabees 14:33",
+      "relationship": "Historical parallel",
+      "rationale": "Both preserve Nicanor's sworn threat to destroy the temple unless Judas is delivered to him; the companion account adds demolition of the altar and a proposed temple for Dionysus.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 120,
+      "source_reference": "1 Maccabees 7:36",
+      "target": "2 Maccabees 14:34-36",
+      "relationship": "Historical parallel",
+      "rationale": "Both describe the priests praying after Nicanor's threat, appealing to God to preserve the sanctuary He chose for His dwelling.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 121,
+      "source_reference": "1 Maccabees 7:37",
+      "target": "1 Kings 8:29-30",
+      "relationship": "Temple prayer connection",
+      "rationale": "The priests appeal to the house chosen for God's name and His people's petitions, the functions emphasized in Solomon's prayer that God hear Israel praying toward this house.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 122,
+      "source_reference": "1 Maccabees 7:37",
+      "target": "Isaiah 56:7",
+      "relationship": "Scriptural language",
+      "rationale": "Calling the temple a house of prayer echoes Isaiah's description of God's house of prayer; Isaiah extends the welcome to all nations, while this petition speaks of God's people.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 123,
+      "source_reference": "1 Maccabees 7:37",
+      "target": "2 Maccabees 14:35-36",
+      "relationship": "Historical parallel",
+      "rationale": "Both prayers after Nicanor's threat ground their plea in God's gracious choice to have a temple among His people and seek its preservation.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 124,
+      "source_reference": "1 Maccabees 7:38",
+      "target": "2 Maccabees 15:24",
+      "relationship": "Prayer comparison",
+      "rationale": "The priests ask for judgment on Nicanor's insults, while Judas's later prayer in the companion account asks that the army coming in blasphemy be struck with terror.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 125,
+      "source_reference": "1 Maccabees 7:40",
+      "target": "2 Maccabees 15:21-24",
+      "relationship": "Historical parallel",
+      "rationale": "Both accounts portray Judas praying before the decisive battle with Nicanor and appealing to the earlier deliverance from Sennacherib.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 126,
+      "source_reference": "1 Maccabees 7:41",
+      "target": "2 Kings 19:35",
+      "relationship": "Explicit historical allusion",
+      "rationale": "The angel's destruction of one hundred eighty-five thousand recalls the stated number and angelic action in the account of Sennacherib's defeated army.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 127,
+      "source_reference": "1 Maccabees 7:41",
+      "target": "Isaiah 37:36",
+      "relationship": "Explicit historical allusion",
+      "rationale": "Judas recalls the same angelic deliverance and casualty figure preserved in Isaiah's account of the Assyrian camp.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 128,
+      "source_reference": "1 Maccabees 7:41",
+      "target": "2 Chronicles 32:19-21",
+      "relationship": "Explicit historical allusion",
+      "rationale": "The remembered answer to royal blasphemy corresponds to the Assyrian reproach followed by prayer and an angel's destruction of the enemy commanders; Chronicles does not supply the number quoted here.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 129,
+      "source_reference": "1 Maccabees 7:41",
+      "target": "2 Maccabees 15:22",
+      "relationship": "Historical and prayer parallel",
+      "rationale": "Both versions of Judas's prayer recall the angel killing one hundred eighty-five thousand, with the companion account explicitly naming Hezekiah and Sennacherib.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 130,
+      "source_reference": "1 Maccabees 7:42",
+      "target": "2 Maccabees 15:23-24",
+      "relationship": "Historical and prayer parallel",
+      "rationale": "Both prayers ask for a present defeat of the enemy on the model of the former angelic deliverance and specifically identify the enemy's blasphemy.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 131,
+      "source_reference": "1 Maccabees 7:43",
+      "target": "2 Maccabees 15:27-28",
+      "relationship": "Historical parallel",
+      "rationale": "Both accounts report Nicanor's defeat and death in the decisive battle; this account says he fell first, while the other describes recognition of his body after the fighting.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 132,
+      "source_reference": "1 Maccabees 7:43",
+      "target": "2 Maccabees 15:36",
+      "relationship": "Historical and calendar parallel",
+      "rationale": "The thirteenth of Adar given as the battle date is the same date fixed for annual observance in the companion account.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 133,
+      "source_reference": "1 Maccabees 7:44",
+      "target": "1 Samuel 17:51-52",
+      "relationship": "Narrative comparison",
+      "rationale": "Nicanor's troops flee when they see their commander dead, as the foreigners flee after David kills and beheads their champion; both flights lead to pursuit.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 134,
+      "source_reference": "1 Maccabees 7:46",
+      "target": "Judges 7:22",
+      "relationship": "Military and narrative comparison",
+      "rationale": "The enemy turning against itself under pursuit recalls Gideon's victory, in which the Lord turns each enemy sword against its neighbour; the surrounding battle descriptions differ.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 135,
+      "source_reference": "1 Maccabees 7:47",
+      "target": "2 Maccabees 15:30-35",
+      "relationship": "Historical parallel",
+      "rationale": "Both accounts describe Nicanor's head and threatening hand being severed and displayed at Jerusalem as evidence of the defeat of his arrogant assault on the sanctuary.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 136,
+      "source_reference": "1 Maccabees 7:47",
+      "target": "1 Samuel 17:51-54",
+      "relationship": "Narrative comparison",
+      "rationale": "The defeated enemy leader's head is brought to Jerusalem, as David brings the foreign champion's head there; the additional severed hand is distinctive to Nicanor's story.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 137,
+      "source_reference": "1 Maccabees 7:48",
+      "target": "2 Maccabees 15:28-29",
+      "relationship": "Historical parallel",
+      "rationale": "The people's great rejoicing corresponds to the victorious army's joyful return, shouting, and blessing of God after Nicanor's fall.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 138,
+      "source_reference": "1 Maccabees 7:49",
+      "target": "2 Maccabees 15:36",
+      "relationship": "Historical and calendar parallel",
+      "rationale": "Both accounts establish annual observance of the victory on the thirteenth of Adar; the companion account also identifies its relation to Mordecai's day.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 139,
+      "source_reference": "1 Maccabees 7:50",
+      "target": "1 Maccabees 9:1-3",
+      "relationship": "Narrative connection",
+      "rationale": "The qualification that Judah's peace lasted only a few days anticipates Demetrius's renewed invasion after hearing of Nicanor's defeat.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 140,
+      "source_reference": "1 Maccabees 8:1",
+      "target": "1 Maccabees 12:1-3",
+      "relationship": "Narrative connection",
+      "rationale": "The reputation of Roman friendship that attracts Judas leads to the relationship Jonathan later sends envoys to renew explicitly as an existing friendship and alliance.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 141,
+      "source_reference": "1 Maccabees 8:7",
+      "target": "1 Maccabees 1:10",
+      "relationship": "Historical connection",
+      "rationale": "The account of Rome demanding hostages from Antiochus the Great's dynasty supplies background to the earlier identification of Antiochus Epiphanes as a former hostage in Rome; it does not add an unstated hostage date.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 142,
+      "source_reference": "1 Maccabees 8:11",
+      "target": "1 Maccabees 15:17-19",
+      "relationship": "Narrative connection",
+      "rationale": "Rome's reported fidelity to friends is illustrated later by its recognition of the Jews as friends and allies and its letters forbidding attacks on their country.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 143,
+      "source_reference": "1 Maccabees 8:14",
+      "target": "1 Maccabees 1:9",
+      "relationship": "Literary contrast",
+      "rationale": "The reported absence of Roman diadems contrasts with Alexander's successors putting on diadems, a marked difference in the book's presentation of imperial power.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 144,
+      "source_reference": "1 Maccabees 8:15",
+      "target": "1 Maccabees 12:3",
+      "relationship": "Narrative connection",
+      "rationale": "The Roman council chamber described here is the institution later entered by Jonathan's envoys to renew Jewish friendship and alliance.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 145,
+      "source_reference": "1 Maccabees 8:17",
+      "target": "1 Maccabees 12:1-3",
+      "relationship": "Narrative connection",
+      "rationale": "Judas's original embassy to establish Roman friendship and alliance precedes Jonathan's embassy expressly sent to renew that relationship.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 146,
+      "source_reference": "1 Maccabees 8:17",
+      "target": "1 Maccabees 14:18",
+      "relationship": "Narrative connection",
+      "rationale": "The later bronze tablets explicitly recall the friendship and alliance first established with Judas and then Jonathan, identifying this embassy's enduring diplomatic result.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 147,
+      "source_reference": "1 Maccabees 8:18",
+      "target": "1 Maccabees 1:41-50",
+      "relationship": "Narrative connection",
+      "rationale": "The aim of removing the Greek yoke responds to the earlier royal policy suppressing Israel's laws, worship, and covenantal practices.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 148,
+      "source_reference": "1 Maccabees 8:19",
+      "target": "1 Maccabees 12:3",
+      "relationship": "Narrative parallel",
+      "rationale": "Both the original envoys and Jonathan's later delegation enter Rome's council chamber and present an alliance proposal on behalf of the Jewish leadership and nation.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 149,
+      "source_reference": "1 Maccabees 8:20",
+      "target": "1 Maccabees 15:17",
+      "relationship": "Narrative connection",
+      "rationale": "The request to be enrolled as Roman allies and friends is reflected in the later Roman letter recognizing Jewish envoys as friends and allies renewing an existing agreement.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 150,
+      "source_reference": "1 Maccabees 8:22",
+      "target": "1 Maccabees 14:18",
+      "relationship": "Diplomatic and documentary connection",
+      "rationale": "The alliance memorial inscribed on bronze tablets is matched by later bronze tablets renewing the friendship established with Judas and Jonathan.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 151,
+      "source_reference": "1 Maccabees 8:23",
+      "target": "1 Maccabees 15:19",
+      "relationship": "Diplomatic connection",
+      "rationale": "The treaty's wish that sword and enemy remain far from the Jews takes practical form in the later Roman directive that rulers neither attack them nor support their enemies.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 152,
+      "source_reference": "1 Maccabees 8:24",
+      "target": "1 Maccabees 8:27",
+      "relationship": "Treaty comparison; same-chapter",
+      "rationale": "The clause covering war against Rome introduces a reciprocal defense obligation, balanced by the later clause covering war against the Jewish nation.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 153,
+      "source_reference": "1 Maccabees 8:25",
+      "target": "1 Maccabees 8:27",
+      "relationship": "Treaty comparison; same-chapter",
+      "rationale": "The Jews' obligation to fight wholeheartedly beside Rome is balanced by Rome's corresponding pledge to fight wholeheartedly beside the Jewish nation.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 154,
+      "source_reference": "1 Maccabees 8:26",
+      "target": "1 Maccabees 15:19",
+      "relationship": "Diplomatic connection",
+      "rationale": "The treaty forbids supplying Rome's enemies; the later Roman letter likewise prohibits other rulers from allying with those making war against the Jews, extending the logic of withholding enemy support.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 155,
+      "source_reference": "1 Maccabees 8:27",
+      "target": "1 Maccabees 15:19",
+      "relationship": "Diplomatic connection",
+      "rationale": "Rome's promise to support the Jews in war develops into a later circular directing kings and countries not to attack the Jews or assist their enemies.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 156,
+      "source_reference": "1 Maccabees 8:29",
+      "target": "1 Maccabees 12:16",
+      "relationship": "Narrative connection",
+      "rationale": "The agreement established here is the former friendship and alliance that Jonathan later commissions named envoys to renew.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 157,
+      "source_reference": "1 Maccabees 8:31",
+      "target": "1 Maccabees 7:6-9",
+      "relationship": "Narrative connection",
+      "rationale": "Rome's protest about Demetrius's heavy yoke responds to the king's earlier intervention against Judas and his supporters, including Bacchides's punitive mission.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    },
+    {
+      "pair_number": 158,
+      "source_reference": "1 Maccabees 8:32",
+      "target": "1 Maccabees 15:19",
+      "relationship": "Diplomatic comparison",
+      "rationale": "The threat to intervene if the Jews suffer further harm anticipates the later Roman warning to rulers not to attack their Jewish allies; the later directive does not report this threatened war as having occurred.",
+      "complete_source_and_target_read": true,
+      "complete_triple_independently_read": true,
+      "disposition": "supported",
+      "peer_note": "The stated connection is supported by the complete passages and their necessary context; no additional identity or episode harmonization is inferred."
+    }
+  ],
+  "same_chapter_pair_count": 26,
+  "all_corrected_complete_triples_reread": true,
+  "all_new_deferrals_independently_reread": true,
+  "original_review_file": "1-maccabees-5-8-peer-review-original.json",
+  "original_review_sha256": "af15b5bd3c9599dce6d41a3d65040e7e6895158813b4b16acb9dc0e6946cd93a",
+  "read_precision_addendum_file": "1-maccabees-5-8-peer-review-read-precision.json",
+  "read_precision_addendum_sha256": "efefd5a9e76335af187d2f8e17ad216da343bb6c91d1cf6b4be0adbf9c758082",
+  "author_correction_stage_file": "1-maccabees-5-8-refinement-2.json",
+  "author_correction_stage_sha256": "46bd0b44cfc962134dd3453239e7798c1428681506f3210d515b10d7d6337880",
+  "corrected_triple_reread": {
+    "row": {
+      "source_reference": "1 Maccabees 5:3",
+      "target": "2 Maccabees 10:15-17",
+      "relationship": "Historical comparison",
+      "rationale": "Both accounts present Judas attacking Idumeans who were oppressing Israel; the source names Akrabattene, while the target describes assaults on fortresses and gives a casualty total. The differing campaign settings remain distinct."
+    },
+    "source_verse": {
+      "reference": "1 Maccabees 5:3",
+      "id": "v5-3",
+      "text": "Judas fought against the sons of Esau in Idumea, in Akrabattene, because they were besieging Israel. He struck them a great blow, subdued them, and took their spoils.",
+      "text_sha256": "2182b0fb01735bdd3bcfb788d7fb640176c3f73af07028dc087831e446dfbba5"
+    },
+    "target_verses": [
+      {
+        "reference": "2 Maccabees 10:15",
+        "id": "v10-15",
+        "text": "Along with him, the Idumeans, who held strategic fortresses, harassed the Jews. Taking in those driven from Jerusalem, they attempted to maintain the war.",
+        "text_sha256": "45a4b8abc59f3445f5a720bc24e5d197df345f110fed51da509d6d5b6db46e72"
+      },
+      {
+        "reference": "2 Maccabees 10:16",
+        "id": "v10-16",
+        "text": "Maccabeus and his men offered an entreaty and asked God to become their ally; then they rushed against the Idumean fortresses.",
+        "text_sha256": "785363a83e66c6e72855e7d20c5781e20ef1057e6284c625c89b15329e5e95a5"
+      },
+      {
+        "reference": "2 Maccabees 10:17",
+        "id": "v10-17",
+        "text": "Attacking them vigorously, they gained control of the places, drove off all who fought on the wall, and slaughtered those they encountered. They killed no fewer than twenty thousand.",
+        "text_sha256": "e34f16c7612c522604a50a1ea756af6ba9bfdec9d4b5c7cf2a6701f494dedcb8"
+      }
+    ],
+    "source_context_read": "1 Maccabees 5:1-5",
+    "target_context_read": "2 Maccabees 10:10-17",
+    "complete_corrected_triple_independently_reread": true,
+    "supported": true
+  },
+  "removed_triple_reread": {
+    "row": {
+      "source_reference": "1 Maccabees 7:23",
+      "target": "1 Maccabees 1:11-15",
+      "relationship": "Narrative connection",
+      "rationale": "The judgment that Israelite collaborators inflicted exceptional harm develops the book's earlier account of lawless Israelites persuading their people to abandon the covenant for foreign customs."
+    },
+    "source_verse": {
+      "reference": "1 Maccabees 7:23",
+      "id": "v7-23",
+      "text": "Judas saw all the evil that Alcimus and those with him had committed among the sons of Israel, beyond that of the nations.",
+      "text_sha256": "0e13c372fad6e6211522f69b63fab4122a2932377810c0634af223a12311e12f"
+    },
+    "target_verses": [
+      {
+        "reference": "1 Maccabees 1:11",
+        "id": "v1-11",
+        "text": "In those days lawless sons came out of Israel and persuaded many, saying, “Let us go and make a covenant with the nations around us, because since we separated ourselves from them, many evils have overtaken us.”",
+        "text_sha256": "a989ef82eefebe2a069f53056d5d455363c1617c73a6960f8106c9ae3f82203e"
+      },
+      {
+        "reference": "1 Maccabees 1:12",
+        "id": "v1-12",
+        "text": "The proposal was good in their eyes.",
+        "text_sha256": "8b2d9f05bb66072dd0673f8a36f4fc10e22c659226a01d5a5b9ca80f738f7f21"
+      },
+      {
+        "reference": "1 Maccabees 1:13",
+        "id": "v1-13",
+        "text": "Some of the people eagerly went to the king, and he gave them authority to follow the ordinances of the nations.",
+        "text_sha256": "76ffabd940c1c63d209df6597b4f4effe272fe8feb58d042837165ad72c4fa78"
+      },
+      {
+        "reference": "1 Maccabees 1:14",
+        "id": "v1-14",
+        "text": "They built a gymnasium in Jerusalem according to the customs of the nations",
+        "text_sha256": "2a7722768909af0ca4c79336349bfff41783613b81a58493093b1b4dd9d77c81"
+      },
+      {
+        "reference": "1 Maccabees 1:15",
+        "id": "v1-15",
+        "text": "and made foreskins for themselves. They abandoned the holy covenant, yoked themselves to the nations, and sold themselves to do evil.",
+        "text_sha256": "21272a313b4cde49d951f9900c88854607355995f2c1a74e765891be3aaeac8e"
+      }
+    ],
+    "source_context_read": "1 Maccabees 7:20-25",
+    "complete_removed_triple_independently_reread": true,
+    "removal_verified": true,
+    "completed_source_credit": 0,
+    "completed_pair_credit": 0
+  },
+  "resolved_peer_findings": [
+    {
+      "source_reference": "1 Maccabees 5:3",
+      "target": "2 Maccabees 10:15-17",
+      "resolution": "Corrected rationale personally reread in its full triple and context; supported.",
+      "resolved": true
+    },
+    {
+      "source_reference": "1 Maccabees 7:23",
+      "target": "1 Maccabees 1:11-15",
+      "resolution": "Exact pair removal verified. Complete removed triple, source context, and new source-only deferral personally reread; no completion credit.",
+      "resolved": true
+    }
+  ],
+  "required_changes": [],
+  "required_corrections": [],
+  "required_removals": [],
+  "unresolved_retained_cases": [],
+  "unresolved_retained_pairs": [],
+  "accepted_for_integration": true,
+  "accepted": true,
+  "result": "accepted",
+  "acceptance": {
+    "accepted": true,
+    "binding_tsv_sha256": "81f833c29d89a9ea3264d57bd0572fa00d4d685a215e0e8367f6b3bc449772b6",
+    "binding_author_receipt_sha256": "3eafd9ce86fc26fbe8c4c4a5a441ca522ac00f01b7dfe59abc767edcbc6f293f",
+    "required_changes": [],
+    "unresolved_retained_pairs": []
+  },
+  "completion_definition": "Initial curated supported cross-reference pass, not exhaustive discovery. All 213 actual source units were personally read. The final 142 supported source units and 158 retained pairs receive completion credit; each retained range counts once. Seventy-one source-only deferrals and four unresolved identity candidates receive zero credit. Technical validation, pins, and rationale corrections create no additional completion credit."
+}

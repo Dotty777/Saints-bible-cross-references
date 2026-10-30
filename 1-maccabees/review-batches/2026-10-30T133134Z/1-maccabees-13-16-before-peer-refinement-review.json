@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI author agent /root/macc13_16_author (GPT-6)",
+  "reviewer_role": "AI author personally read all 167 complete actual source units, all retained target passages and necessary context; drafted particular rationales, then separately reread all 145 complete original source-target-category-rationale triples. Subsequently reread all three changed before triples and both retained changed after triples, plus all 36 complete deferred source units with their precise deferral notes. No independent peer or specialist review claimed. Inventory and pin checks earn zero textual-review credit. Two rejected identity candidates and their necessary context were also personally read and separately reread; both earn zero credit.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T13:47:38.671318+00:00",
+  "run_id": "2026-10-30T133134Z",
+  "base_commit": "19c3167e38c456eddd2ce216aeffabffbfb8191b",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "1 Maccabees",
+  "source_chapters": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "source_units_read": 167,
+  "source_inventory_units_in_scope": 167,
+  "source_verses": 131,
+  "completed_source_verses": 131,
+  "completed_pairs": 144,
+  "distinct_target_verse_units": 208,
+  "chapter_inventory_counts": {
+    "13": 53,
+    "14": 49,
+    "15": 41,
+    "16": 24
+  },
+  "chapter_source_counts": {
+    "13": 44,
+    "14": 41,
+    "15": 29,
+    "16": 17
+  },
+  "chapter_pair_counts": {
+    "13": 45,
+    "14": 50,
+    "15": 30,
+    "16": 19
+  },
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_separately_reread": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_deferred_source_units_and_reasons_reread": true,
+  "input_file": "1-maccabees-13-16.tsv",
+  "input_sha256": "503c73c1187aca2d6a963df76566dfca72534014286e5407e282ba32d1cceda1",
+  "final_input_sha256": "503c73c1187aca2d6a963df76566dfca72534014286e5407e282ba32d1cceda1",
+  "original_draft_file": "1-maccabees-13-16-original-draft.tsv",
+  "original_draft_sha256": "f61278d0feacd9f5f84ce9d1d594548421c9efbe9ced0c91214b5dfe8a427b32",
+  "pin_receipt": "1-maccabees-13-16-author-pins.json",
+  "pin_receipt_sha256": "b5cd2edb6f341faf96854bc08ada2c539d9292046a52beba4465f05ed859aa8b",
+  "source_books": [
+    {
+      "book": "1 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "raw_file": "1-maccabees-13-16-author-pin-1-kings.json",
+      "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "1 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "raw_file": "1-maccabees-13-16-author-pin-1-maccabees.json",
+      "raw_sha256": "29c83bbc4b58b9eeeee0675768e1f40a0b0b7a0e01249a146d64ee573b42b8af",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "2 Samuel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "raw_file": "1-maccabees-13-16-author-pin-2-samuel.json",
+      "raw_sha256": "2bad7ab804a4d19978d9973b070f85343705c6476264bbec7dd72f5ae8023cc0",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "1-maccabees-13-16-author-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Judges",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+      "raw_file": "1-maccabees-13-16-author-pin-judges.json",
+      "raw_sha256": "bc00ee37a3b832eeac7929234102b393ec34ac10158ec548249b0ef187306eec",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Leviticus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_file": "1-maccabees-13-16-author-pin-leviticus.json",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Micah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "micah/verses.json",
+      "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5",
+      "raw_file": "1-maccabees-13-16-author-pin-micah.json",
+      "raw_sha256": "7865b16d1dc1c4f8c6092298d6cd7ac22b15c3ddf6d51c29e3044f50f13d4672",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Numbers",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "numbers/verses.json",
+      "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "raw_file": "1-maccabees-13-16-author-pin-numbers.json",
+      "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Proverbs",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "proverbs/verses.json",
+      "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+      "raw_file": "1-maccabees-13-16-author-pin-proverbs.json",
+      "raw_sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Psalms",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "raw_file": "1-maccabees-13-16-author-pin-psalms.json",
+      "raw_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Zechariah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "zechariah/verses.json",
+      "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+      "raw_file": "1-maccabees-13-16-author-pin-zechariah.json",
+      "raw_sha256": "d57fdae9f1c79aff5b7eefd79e798681bb026d0634bee2f71623f587275d4aa3",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    }
+  ],
+  "refinement_file": "1-maccabees-13-16-refinement.json",
+  "refinement_sha256": "0dd847188789a40e8fb66ae8565283911c9f4a1fbdd408712d5623328f3ba69b",
+  "deferred_source_count": 36,
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Maccabees 13:7",
+      "target": null,
+      "reason": "The immediate recovery of courage after Simon's speech has no sufficiently particular independent target beyond the speech-response sequence itself.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:14",
+      "target": null,
+      "reason": "Tryphon's recognition of Simon's succession introduces the ransom negotiation; no separate substantive connection is retained merely for repeating the succession.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:15",
+      "target": null,
+      "reason": "Tryphon alleges a royal debt, but the read earlier tax negotiations do not establish that Jonathan actually owed this debt or validate the captor's pretext.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:17",
+      "target": null,
+      "reason": "Simon's reasoning about distrust and popular blame is particular to this ransom decision; a general parallel about deceit would not establish this motive elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:18",
+      "target": null,
+      "reason": "The imagined accusation against Simon explains his ransom decision, with no independently supported parallel to that specific accusation.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:22",
+      "target": null,
+      "reason": "The snow-stopped cavalry journey and diversion to Gilead have no verified particular cross-reference in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:24",
+      "target": null,
+      "reason": "Tryphon's return home is a short travel notice; a common departure formula does not supply a substantive cross-reference.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:35",
+      "target": null,
+      "reason": "This introduction to Demetrius's letter supplies no substantive term beyond those individually reviewed in the following verses.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 13:44",
+      "target": null,
+      "reason": "The siege-tower soldiers' entry and the city's commotion are specific tactical details not independently supplied by the later summary of Gazara's restoration.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:2",
+      "target": null,
+      "reason": "Arsaces's instruction to capture Demetrius alive has no independently verified parallel; shared royal names in the later recipient list are insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:3",
+      "target": null,
+      "reason": "The capture and imprisonment of Demetrius by Arsaces have no separately verified account in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:13",
+      "target": null,
+      "reason": "The panegyric's general claim that opposing kings were crushed does not identify a particular narrated defeat for a secure cross-reference.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:19",
+      "target": null,
+      "reason": "Public reading of these letters is a general documentary practice; no particular textual dependence on another public reading was established.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:25",
+      "target": null,
+      "reason": "The rhetorical question about thanks introduces the following tribute and has no sufficiently specific independent target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:28",
+      "target": null,
+      "reason": "The enumeration of assembly participants introduces the decree; a shared list of priests, people, and elders alone would be too general.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:45",
+      "target": null,
+      "reason": "The liability clause gives no particular penalty or law citation allowing a securely grounded external legal cross-reference.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 14:49",
+      "target": null,
+      "reason": "Archival copies for Simon and his sons are specified here; no separate passage establishes this precise custody arrangement.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:1",
+      "target": null,
+      "reason": "After full triple rereading, the proposed link to later arrival was removed: sending letters from islands and later landing is routine sequencing, weaker than the explicit campaign intention and fulfilment retained at 15:4.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:6",
+      "target": null,
+      "reason": "The grant of coinage rights has no verified counterpart in the passages read; later coins or modern historical evidence are not substituted for a canonical target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:10",
+      "target": null,
+      "reason": "The arrival and mass accession of troops are retained as context for an explicit earlier intention, but no additional independently useful source-side link was established for this dated notice.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:11",
+      "target": null,
+      "reason": "The pursuit and retreat to Dora are read as context for the campaign and subsequent escape; a second routine movement link is not added solely to cover this unit.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:13",
+      "target": null,
+      "reason": "The siege's army figures have no independently verified parallel; the later resumptive account does not independently support those figures.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:16",
+      "target": null,
+      "reason": "The Roman consul's greeting to King Ptolemy supplies no securely resolved identification with another named Ptolemy passage; a common royal name is not sufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:21",
+      "target": null,
+      "reason": "The extradition request names no individual fugitive or specific legal provision, so neither earlier accusers nor an unspecific punishment law is forced into a target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:22",
+      "target": null,
+      "reason": "The list of royal recipients does not itself establish substantive links to other episodes involving similarly named kings.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:23",
+      "target": null,
+      "reason": "The geographical recipient list supplies no specific narrated action in the named places to support an additional cross-reference.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:24",
+      "target": null,
+      "reason": "The copy sent to Simon is a brief documentary notice; no separate text identifies this exact copy beyond its surrounding letter.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:32",
+      "target": null,
+      "reason": "Athenobius sees Simon's display vessels, but the sanctuary vessels in the earlier praise are not identified as the same objects; no object identity is forced.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:36",
+      "target": null,
+      "reason": "The envoy's angry report and the king's anger continue the immediate negotiation, with no distinct substantive target beyond that local sequence.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 16:5",
+      "target": null,
+      "reason": "The armies' positions beside an unnamed stream do not establish identity with another river or battle scene.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 16:7",
+      "target": null,
+      "reason": "The placement of cavalry among infantry has no verified tactical counterpart; other cavalry battles do not establish this particular arrangement.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 16:11",
+      "target": null,
+      "reason": "Ptolemy son of Abubus's command at Jericho and wealth have no separately verified parallel; other men named Ptolemy are not identified with him.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 16:12",
+      "target": null,
+      "reason": "The relationship of Simon's son-in-law is not independently attested in the passages read; general hostile in-law narratives do not establish this genealogy.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 16:14",
+      "target": null,
+      "reason": "The dated visit to Jericho with Mattathias and Judas has no independently verified parallel; generic duties of government do not establish this particular journey.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 16:18",
+      "target": null,
+      "reason": "Ptolemy's request for royal military aid and transfer of the country has no verified independent outcome or parallel beyond his immediate coup narrative.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 16:20",
+      "target": null,
+      "reason": "The dispatch to seize Jerusalem and the temple mountain has no narrated outcome here; earlier residence on the mountain alone is insufficient for a separate connection.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "1 Maccabees 15:16",
+      "target": "1 Maccabees 10:57-58",
+      "relationship": "Unresolved named-person candidate; not retained",
+      "rationale": "The earlier Ptolemy is Cleopatra's father and is subsequently reported dead at 11:18; the Roman letter's unnamed ordinal does not securely identify its King Ptolemy with that individual. Shared royal naming is insufficient, and no identity is asserted.",
+      "reason": "The earlier Ptolemy is Cleopatra's father and is subsequently reported dead at 11:18; the Roman letter's unnamed ordinal does not securely identify its King Ptolemy with that individual. Shared royal naming is insufficient, and no identity is asserted.",
+      "necessary_context": [
+        "1 Maccabees 11:17-19",
+        "1 Maccabees 15:15-18"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "1 Maccabees 15:32",
+      "target": "1 Maccabees 14:15",
+      "relationship": "Unresolved object-identity candidate; not retained",
+      "rationale": "The earlier praise concerns vessels of the holy places, whereas Athenobius sees Simon's display of gold and silver vessels. The texts do not identify these as the same objects, so the proposed object connection is not retained.",
+      "reason": "The earlier praise concerns vessels of the holy places, whereas Athenobius sees Simon's display of gold and silver vessels. The texts do not identify these as the same objects, so the proposed object connection is not retained.",
+      "necessary_context": [
+        "1 Maccabees 14:14-16",
+        "1 Maccabees 15:31-36"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "same_chapter_policy": "Only particular promise/breach, plot/result, demand/counteroffer, and resumptive literary links retained; every such category explicitly includes same-chapter.",
+  "textual_precision_notes": [
+    "Greek source numbering retained: Solomon peace passage is 1 Kings 2:46g, and the mercy psalm is Psalms 102:10-11.",
+    "Distinct Demetrius offers, Antiochus claimants, military campaigns, feast assassinations, and commemorative dates are compared without forced identity.",
+    "The seven-pyramid statement is preserved without inventing a seventh named relative.",
+    "Simons speech about his brothers preserves its narrative placement before the later report of Jonathans killing."
+  ],
+  "source_inventory_first": {
+    "book_inventory_units": 924,
+    "book_inventory_chapters": 16,
+    "source_blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+    "inventory_complete_before_source_review": true,
+    "inventory_credit": 0,
+    "whole_book_read_claimed": false
+  },
+  "separate_complete_triple_read_groups": [
+    {
+      "input_file": "1-maccabees-13-16-original-draft.tsv",
+      "first_pair": 1,
+      "last_pair": 35,
+      "count": 35
+    },
+    {
+      "input_file": "1-maccabees-13-16-original-draft.tsv",
+      "first_pair": 36,
+      "last_pair": 70,
+      "count": 35
+    },
+    {
+      "input_file": "1-maccabees-13-16-original-draft.tsv",
+      "first_pair": 71,
+      "last_pair": 105,
+      "count": 35
+    },
+    {
+      "input_file": "1-maccabees-13-16-original-draft.tsv",
+      "first_pair": 106,
+      "last_pair": 145,
+      "count": 40
+    },
+    {
+      "input_file": "1-maccabees-13-16-changed-before.tsv",
+      "first_pair": 1,
+      "last_pair": 3,
+      "count": 3
+    },
+    {
+      "input_file": "1-maccabees-13-16-changed-after.tsv",
+      "first_pair": 1,
+      "last_pair": 2,
+      "count": 2
+    }
+  ],
+  "truncated_read_recovery": "Initial multi-chapter target/context output truncated inside 1 Maccabees 9:11-22; that complete range was separately reread. An attempted conventional 1 Kings 4:20-25 lookup failed; the actual Greek 1 Kings 2:46a-46i passage was located and completely read. All retained complete-triple reread groups and changed triples were displayed without truncation.",
+  "candidate_file": "1-maccabees-13-16-unresolved-candidates.tsv",
+  "candidate_sha256": "40569dbabaf8a0ab5e12b0e55bd38157074ac5a1d466f0e20621e4df6d2e1996"
+}

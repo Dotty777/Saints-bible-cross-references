@@ -1,0 +1,53 @@
+{
+  "stage": "author separate complete-triple reread refinement",
+  "before_file": "2-maccabees-1-8-original-draft.tsv",
+  "before_sha256": "5ccfd01fbc68e44959be9c10b3745c9709e6eedcef0c99b84e659c85dd252ec5",
+  "after_file": "2-maccabees-1-8.tsv",
+  "after_sha256": "f238818073fc192ecc0df714bd8804a70a85cb27217d21fcaf0efb00962841f9",
+  "changed_before_file": "2-maccabees-1-8-changed-before.tsv",
+  "changed_before_sha256": "15af50350df4055d9e7172c7da95a712f7d2a248a1d489a788ad7488c34d977b",
+  "changed_after_file": "2-maccabees-1-8-changed-after.tsv",
+  "changed_after_sha256": "a1c0ade4b0b19657793005345a8aa19b86e96fdbe6878bf85c0513e0434ed9bc",
+  "changes": [
+    {
+      "old_row": {
+        "source_reference": "2 Maccabees 1:31",
+        "target": "1 Kings 18:38",
+        "relationship": "Altar-fire detail compared",
+        "rationale": "Water poured over stones after the sacrifice recalls the unusual combination of water, stones, and altar fire in Elijah's offering; it does not establish a shared event or identical mechanism."
+      },
+      "new_row": null,
+      "reason": "Remove the weaker residual-water-on-stones comparison; the distinctive wet-offering and ignition comparisons remain at 1:21-22."
+    },
+    {
+      "old_row": {
+        "source_reference": "2 Maccabees 3:39",
+        "target": "1 Kings 8:44-49",
+        "relationship": "Heaven and temple",
+        "rationale": "The confession that God dwells in heaven yet protects this place resembles Solomon's repeated distinction between prayer toward the chosen house and God's hearing from His heavenly dwelling."
+      },
+      "new_row": {
+        "source_reference": "2 Maccabees 3:39",
+        "target": "1 Kings 8:44-45",
+        "relationship": "Heaven and temple",
+        "rationale": "The confession that God dwells in heaven yet protects this place resembles Solomon's repeated distinction between prayer toward the chosen house and God's hearing from His heavenly dwelling."
+      },
+      "reason": "Narrow the target to the complete prayer toward the chosen house and hearing from heaven; the extended exile section is unnecessary."
+    },
+    {
+      "old_row": {
+        "source_reference": "2 Maccabees 4:29",
+        "target": "2 Maccabees 4:39-42",
+        "relationship": "Deputy's abuse and downfall; same-chapter",
+        "rationale": "Lysimachus's appointment as Menelaus's deputy sets up his temple thefts, armed attack, and death beside the treasury under Menelaus's consent."
+      },
+      "new_row": {
+        "source_reference": "2 Maccabees 4:29",
+        "target": "2 Maccabees 4:39-42",
+        "relationship": "Deputy's abuse and downfall; same-chapter",
+        "rationale": "Lysimachus's appointment as deputy sets up the later account of thefts committed with Menelaus's consent and of Lysimachus's violent response and death; that consent is not attributed to his death."
+      },
+      "reason": "Restrict Menelaus consent to thefts, not the deputy death."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-30",
-  "updated_at_utc": "2026-10-30T13:08:41.580686+00:00",
+  "updated_at_utc": "2026-10-30T14:23:50.676713+00:00",
   "scope": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "reference_format_repository": "https://github.com/Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -12,8 +12,8 @@
   "completed_book_records": 12,
   "pending_book_records": 31,
   "completed_chapters": 387,
-  "completed_source_verses": 12120,
-  "completed_cross_references": 16564,
+  "completed_source_verses": 12763,
+  "completed_cross_references": 17256,
   "old_testament_complete": false,
   "verse_inventory_policy": "Fully inventory each book from its declared edition before source review. Uninventoried pending books retain unknown verse and chapter counts. Fully inventoried pending books have known source totals and zero review credit until their initial curated review. Preserve nonstandard anchors, continuation units and original composite references.",
   "next": {
@@ -1114,8 +1114,8 @@
       "source_repository": "Dotty777/Saints-Translation",
       "status": "in_progress",
       "inventory_status": "complete for pinned source",
-      "completed_source_verses": 213,
-      "completed_cross_references": 231,
+      "completed_source_verses": 662,
+      "completed_cross_references": 718,
       "order": 15,
       "division": "Judgement",
       "division_slug": "judgement",
@@ -1125,7 +1125,7 @@
       "total_chapters": 16,
       "completed_chapters": [],
       "next_reference": "1 Maccabees 1:2",
-      "next_unreviewed_reference": "1 Maccabees 5:1",
+      "next_unreviewed_reference": null,
       "completed_verse_ranges": []
     },
     {
@@ -1133,15 +1133,21 @@
       "records": "2-maccabees/",
       "source_records": "2-maccabees/verses.json",
       "source_repository": "Dotty777/Saints-Translation",
-      "status": "pending",
-      "inventory_status": "not yet inventoried",
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
+      "status": "in_progress",
+      "inventory_status": "complete for pinned source",
+      "completed_source_verses": 194,
+      "completed_cross_references": 205,
       "order": 16,
       "division": "Judgement",
       "division_slug": "judgement",
       "testament": "Old Testament",
-      "source_staging_path": "/bible/judgement/2-maccabees/"
+      "source_staging_path": "/bible/judgement/2-maccabees/",
+      "total_source_verse_units": 555,
+      "total_chapters": 15,
+      "completed_chapters": [],
+      "next_reference": "2 Maccabees 1:1",
+      "next_unreviewed_reference": "2 Maccabees 9:1",
+      "completed_verse_ranges": []
     },
     {
       "book": "Ezra",
@@ -3279,6 +3285,86 @@
           "completion_credit": 0
         }
       ]
+    },
+    {
+      "run_id": "2026-10-30T133134Z",
+      "date": "2026-10-30",
+      "synchronized": "2026-10-30",
+      "reviewed_dates": [
+        "2026-10-30"
+      ],
+      "source_range": "1 Maccabees 5:1-16:24; 2 Maccabees 1:1-8:36",
+      "source_range_is_review_scope": true,
+      "source_units_read": 963,
+      "distinct_source_verses": 643,
+      "new_completed_pairs": 692,
+      "new_deferred_source_units_count": 320,
+      "total_deferred_source_units_count": 395,
+      "book_results": [
+        {
+          "book": "1 Maccabees",
+          "source_range": "1 Maccabees 5:1-16:24",
+          "source_range_is_review_scope": true,
+          "source_units_read": 669,
+          "distinct_source_verses": 449,
+          "new_completed_pairs": 487,
+          "new_deferred_source_units_count": 220,
+          "total_deferred_source_units_count": 262,
+          "completed_chapters": [],
+          "new_completed_chapters": [],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": true,
+          "next_reference": "1 Maccabees 1:2",
+          "next_unreviewed_reference": null
+        },
+        {
+          "book": "2 Maccabees",
+          "source_range": "2 Maccabees 1:1-8:36",
+          "source_range_is_review_scope": true,
+          "source_units_read": 294,
+          "distinct_source_verses": 194,
+          "new_completed_pairs": 205,
+          "new_deferred_source_units_count": 100,
+          "total_deferred_source_units_count": 100,
+          "completed_chapters": [],
+          "new_completed_chapters": [],
+          "reviewed_dates": [
+            "2026-10-30"
+          ],
+          "book_initial_curated_pass_complete": false,
+          "all_original_source_units_read": false,
+          "next_reference": "2 Maccabees 1:1",
+          "next_unreviewed_reference": "2 Maccabees 9:1"
+        }
+      ],
+      "hourly_target": 500,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 192,
+      "unresolved_retained_cases": 0,
+      "new_unresolved_candidate_count": 10,
+      "known_pending_target_candidate_count": 134,
+      "review_record": "review-batches/2026-10-30T133134Z.json",
+      "next_reference": "1 Chronicles 1:24",
+      "next_unreviewed_reference": "2 Maccabees 9:1",
+      "inventories_added": [
+        {
+          "book": "2 Maccabees",
+          "source_units": 555,
+          "chapters": 15,
+          "first_reference": "2 Maccabees 1:1",
+          "source_blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+          "completed_source_verses": 0,
+          "completed_pairs": 0,
+          "completion_credit": 0
+        }
+      ],
+      "maintenance_records": [
+        "review-batches/2026-10-30T133134Z-validator-maintenance.json"
+      ]
     }
   ],
   "canon_manifest": "canon.json",
@@ -3300,9 +3386,9 @@
     }
   ],
   "next_unreviewed": {
-    "book": "1 Maccabees",
-    "chapter": 5,
-    "reference": "1 Maccabees 5:1",
-    "source_id": "v5-1"
+    "book": "2 Maccabees",
+    "chapter": 9,
+    "reference": "2 Maccabees 9:1",
+    "source_id": "v9-1"
   }
 }

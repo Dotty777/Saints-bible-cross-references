@@ -1,0 +1,1427 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI author agent /root/macc13_16_author (GPT-6), separate 2 Maccabees 1-8 packet",
+  "reviewer_role": "Personally read all 294 complete actual source units after the full 555-unit inventory, read all proposed target passages and necessary context, authored particular rationales, and separately reread all 206 original complete source-target-category-rationale triples. Then personally reread three changed before and two retained changed after triples, all four unresolved candidate triples with context, and all 100 complete deferred source units with precise reasons. No independent peer or specialist review claimed; inventory, pin retrieval, and counting earn zero textual-review credit. Subsequently preserved the complete frozen author receipt and TSV, adopted the independent peer chronology precision correction at 8:13, and personally reread its complete old and corrected source-target-category-rationale triples and full campaign context. All counts remain unchanged.",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T14:20:10.957889+00:00",
+  "run_id": "2026-10-30T133134Z",
+  "base_commit": "19c3167e38c456eddd2ce216aeffabffbfb8191b",
+  "source_repository": "Dotty777/Saints-Translation",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "source_book": "2 Maccabees",
+  "source_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "source_units_read": 294,
+  "source_inventory_units_in_scope": 294,
+  "source_verses": 194,
+  "completed_source_verses": 194,
+  "completed_pairs": 205,
+  "distinct_target_verse_units": 322,
+  "chapter_inventory_counts": {
+    "1": 36,
+    "2": 32,
+    "3": 40,
+    "4": 50,
+    "5": 27,
+    "6": 31,
+    "7": 42,
+    "8": 36
+  },
+  "chapter_source_counts": {
+    "1": 16,
+    "2": 20,
+    "3": 26,
+    "4": 26,
+    "5": 21,
+    "6": 26,
+    "7": 28,
+    "8": 31
+  },
+  "chapter_pair_counts": {
+    "1": 18,
+    "2": 22,
+    "3": 27,
+    "4": 26,
+    "5": 22,
+    "6": 26,
+    "7": 31,
+    "8": 33
+  },
+  "input_file": "2-maccabees-1-8.tsv",
+  "input_sha256": "a9afada4e147d6cf22e50d1ef26821150c98b5a840df721d954b4d2e5a6b4dd7",
+  "final_input_sha256": "a9afada4e147d6cf22e50d1ef26821150c98b5a840df721d954b4d2e5a6b4dd7",
+  "original_draft_file": "2-maccabees-1-8-original-draft.tsv",
+  "original_draft_sha256": "5ccfd01fbc68e44959be9c10b3745c9709e6eedcef0c99b84e659c85dd252ec5",
+  "refinement_file": "2-maccabees-1-8-refinement.json",
+  "refinement_sha256": "3e0e45987538e1aeef1e180de891877eadc81ec4ffc10bceefb3b6a3ceed5137",
+  "candidate_file": "2-maccabees-1-8-unresolved-candidates.tsv",
+  "candidate_sha256": "504322f036dbdbf2cd2808221cf1135035340aef58055032c32140a82a161ae4",
+  "pin_receipt": "2-maccabees-1-8-author-pins.json",
+  "pin_receipt_sha256": "7c5d8490db73ea4d329d1b7e296f288e69bd7401c6bd44665705491b4eac5e83",
+  "source_books": [
+    {
+      "book": "1 Corinthians",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-corinthians/verses.json",
+      "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545",
+      "raw_file": "2-maccabees-1-8-author-pin-1-corinthians.json",
+      "raw_sha256": "0137d56de15cae418bd683e86957dae74075a08822426646364cba9d7e84e66e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "1 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "raw_file": "2-maccabees-1-8-author-pin-1-kings.json",
+      "raw_sha256": "4507bb462ae060708641d3eba087a3ca39cb6b8ce0e460e38a8be4bb34f9498d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "1 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "raw_file": "2-maccabees-1-8-author-pin-1-maccabees.json",
+      "raw_sha256": "29c83bbc4b58b9eeeee0675768e1f40a0b0b7a0e01249a146d64ee573b42b8af",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "1 Samuel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "1-samuel/verses.json",
+      "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "raw_file": "2-maccabees-1-8-author-pin-1-samuel.json",
+      "raw_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Chronicles",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "raw_file": "2-maccabees-1-8-author-pin-2-chronicles.json",
+      "raw_sha256": "c542a941d64759eb96e168688b7e0881bbcd7f35966fa9dde289b9436995368e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Kings",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-kings/verses.json",
+      "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "raw_file": "2-maccabees-1-8-author-pin-2-kings.json",
+      "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Maccabees",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "raw_file": "2-maccabees-1-8-author-pin-2-maccabees.json",
+      "raw_sha256": "4748eb2422bf0bcdbf16d1292dd94f486c21ff54ae7590fdd2c98590f87fbc1d",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "2 Samuel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "raw_file": "2-maccabees-1-8-author-pin-2-samuel.json",
+      "raw_sha256": "2bad7ab804a4d19978d9973b070f85343705c6476264bbec7dd72f5ae8023cc0",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Acts",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "acts/verses.json",
+      "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+      "raw_file": "2-maccabees-1-8-author-pin-acts.json",
+      "raw_sha256": "73d11416650576a1e20be7d286e5053236f0668e559eedb4fece9ab44b6ee257",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Daniel",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "daniel/verses.json",
+      "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "raw_file": "2-maccabees-1-8-author-pin-daniel.json",
+      "raw_sha256": "41fe27c56d5c0a23e4e970d7beb9376fdb8a55c16721aea1a1cc1b6ac23fe3f8",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Deuteronomy",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "deuteronomy/verses.json",
+      "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_file": "2-maccabees-1-8-author-pin-deuteronomy.json",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Ecclesiastes",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "ecclesiastes/verses.json",
+      "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+      "raw_file": "2-maccabees-1-8-author-pin-ecclesiastes.json",
+      "raw_sha256": "ce7e9557345e71da9a5f5e95e31cc78453b9bbe917ff90ac0dee03d7a5ce6fd9",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Exodus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "exodus/verses.json",
+      "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "raw_file": "2-maccabees-1-8-author-pin-exodus.json",
+      "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Ezra",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "ezra/verses.json",
+      "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+      "raw_file": "2-maccabees-1-8-author-pin-ezra.json",
+      "raw_sha256": "296ecf2cc7e86670eae99db1f718edf88ce13b117ac5aec5cb40f08220b53798",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": true
+    },
+    {
+      "book": "Genesis",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "genesis/verses.json",
+      "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+      "raw_file": "2-maccabees-1-8-author-pin-genesis.json",
+      "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Hebrews",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "hebrews/verses.json",
+      "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+      "raw_file": "2-maccabees-1-8-author-pin-hebrews.json",
+      "raw_sha256": "6550dc6926a500969383062d551581541d87ece393bf8445bf843962572382c8",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "John",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "john/verses.json",
+      "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+      "raw_file": "2-maccabees-1-8-author-pin-john.json",
+      "raw_sha256": "44504ae87e2e2a48a4702d0ff3d4db3a3074a2f7c7421251d6f67cd490665486",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Leviticus",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "leviticus/verses.json",
+      "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_file": "2-maccabees-1-8-author-pin-leviticus.json",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Matthew",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "matthew/verses.json",
+      "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+      "raw_file": "2-maccabees-1-8-author-pin-matthew.json",
+      "raw_sha256": "ea0d2221e8189bf0afe5b6e607de8534a62138e8e1a5b71350a8ef2e7a400d90",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Nehemiah",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "raw_file": "2-maccabees-1-8-author-pin-nehemiah.json",
+      "raw_sha256": "90cd08204d8e2f9ec82c69c69a64202bc1f765e59ccb202270881819be776da1",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Proverbs",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "proverbs/verses.json",
+      "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+      "raw_file": "2-maccabees-1-8-author-pin-proverbs.json",
+      "raw_sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Psalms",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "psalms/verses.json",
+      "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "raw_file": "2-maccabees-1-8-author-pin-psalms.json",
+      "raw_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    },
+    {
+      "book": "Romans",
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "records": "romans/verses.json",
+      "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+      "raw_file": "2-maccabees-1-8-author-pin-romans.json",
+      "raw_sha256": "73fb294d9f62d20a7f06bd8b453846223c91519cd6126982ec2421efedcf295f",
+      "raw_git_blob_verified": true,
+      "parsed_cache_equals_pinned": true,
+      "byte_cache_equals_pinned": false
+    }
+  ],
+  "all_source_verses_read": true,
+  "all_target_passages_read": true,
+  "necessary_context_read": true,
+  "all_complete_triples_separately_reread": true,
+  "all_retained_rationales_reread": true,
+  "all_corrected_complete_triples_reread": true,
+  "all_deferred_source_units_and_reasons_reread": true,
+  "deferred_source_count": 100,
+  "deferred_source_units": [
+    {
+      "source_reference": "2 Maccabees 1:1",
+      "target": null,
+      "reason": "The greeting identifies the Egyptian Jewish recipients but gives no named person or particular journey warranting an additional target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:6",
+      "target": null,
+      "reason": "The notice of current prayer is too general to identify a distinct prayer occasion elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:10",
+      "target": null,
+      "reason": "Aristobulus and the unnamed-numbered Ptolemy are not securely identified with other people from the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:11",
+      "target": null,
+      "reason": "The great dangers and encounter with a king are not specified enough to select a particular military rescue without conjecture.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:12",
+      "target": null,
+      "reason": "The expulsion of opponents from the holy city is not given enough identifying detail to equate it with a specific later victory.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:13",
+      "target": null,
+      "reason": "The fatal Nanea-temple deception cannot safely be identified with the failed Elymais temple raid and retreat; the separately read candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:14",
+      "target": null,
+      "reason": "The proposed marriage to Nanea as a means of seizing a dowry has no verified counterpart in the eastern expedition accounts read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:15",
+      "target": null,
+      "reason": "The confinement of Antiochus inside Nanea's temple is not narrated in the other eastern plundering accounts, so their events are not equated.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:16",
+      "target": null,
+      "reason": "Stoning, dismemberment, and beheading differ materially from the later account of Antiochus's illness and death; the separately read death-account candidate earns no credit.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:17",
+      "target": null,
+      "reason": "The blessing for divine judgment is general and does not resolve the identity problems in the preceding death narrative.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:23",
+      "target": null,
+      "reason": "The Jonathan leading this liturgy is not identified with another priest named Jonathan merely from a shared name.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:24",
+      "target": null,
+      "reason": "The collection of divine titles is not sufficiently distinctive to establish a particular quoted prayer or hymn.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:25",
+      "target": null,
+      "reason": "The divine titles and chosen fathers are broad prayer language; no specific ancestral act or distinct quotation is identified here.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:28",
+      "target": null,
+      "reason": "The petition against arrogant oppressors names no particular oppressor or distinctive legal or literary source.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:30",
+      "target": null,
+      "reason": "Responsive hymn singing is reported without hymn words, preventing identification of a particular psalm.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:31",
+      "target": null,
+      "reason": "The residual-water-on-stones proposal was removed after full reread as weaker than the specific wet-offering and ignition parallels retained at 1:21-22.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:32",
+      "target": null,
+      "reason": "The interaction of the second flame with the altar's light has no verified counterpart in the other altar-fire narrative read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:34",
+      "target": null,
+      "reason": "The Persian king's enclosure and consecration of this place has no independently identified decree or location in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:35",
+      "target": null,
+      "reason": "The king's receipt and distribution of revenues is too unspecific to identify a particular grant elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:36",
+      "target": null,
+      "reason": "The Nephthar/Nephthai naming and interpretation have no independently verified lexical or narrative counterpart in the source corpus read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:5",
+      "target": null,
+      "reason": "Jeremiah's hiding of the tent, ark, and incense altar in a cave is not narrated in the other passages read; its location is not inferred from general ark traditions.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:6",
+      "target": null,
+      "reason": "The companions' failure to find the hidden cave supplies no independent location or event identification.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:13",
+      "target": null,
+      "reason": "The memoirs and library attributed to Nehemiah are not independently described in the Nehemiah passages read; shared book titles alone are insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:15",
+      "target": null,
+      "reason": "The offer to send copies of writings names no individual book or surviving correspondence that can be securely targeted.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:23",
+      "target": null,
+      "reason": "Jason of Cyrene's five-book history is named here, but no other passage read identifies that historian or separately verifies those five volumes.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:24",
+      "target": null,
+      "reason": "The editorial explanation of figures and abundant material is general writing commentary without a distinct textual target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:26",
+      "target": null,
+      "reason": "The abridger's labour and sleeplessness have no particular verified parallel beyond generic descriptions of difficult work.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:27",
+      "target": null,
+      "reason": "The banquet-preparation analogy concerns the writer's labour; a shared meal image elsewhere would not establish a sufficiently particular connection.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:28",
+      "target": null,
+      "reason": "The division of labour between historian and abridger is an editorial statement without an independently named work or event beyond this preface.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:29",
+      "target": null,
+      "reason": "The architecture and decoration analogy is not identified as a quotation or as a description of a particular building elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:30",
+      "target": null,
+      "reason": "The original historian's methods are described generally; no additional particular target was established for this methodological sentence.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 2:32",
+      "target": null,
+      "reason": "The transition from preface to history is an editorial boundary rather than a separate narrated event or identifiable quotation.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:5",
+      "target": null,
+      "reason": "Apollonius is son of Thraseas here but son of Menestheus at 4:4; the separately read candidate preserves the patronymic conflict without resolving identity.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:8",
+      "target": null,
+      "reason": "The inspection pretext and journey supply no separately verified expedition beyond this mission's local narrative.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:9",
+      "target": null,
+      "reason": "Heliodorus's reception and initial inquiry have no distinct external account; ordinary hospitality does not establish a parallel.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:13",
+      "target": null,
+      "reason": "His insistence on royal seizure repeats the immediate mission's demand; no distinct additional source-side link is retained solely for that repetition.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:16",
+      "target": null,
+      "reason": "Onias's changed face and appearance depict his anguish without an independently identifiable literary quotation or event parallel.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:17",
+      "target": null,
+      "reason": "The high priest's trembling and bodily dread are particular descriptions of this crisis, not sufficient to identify another episode.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:18",
+      "target": null,
+      "reason": "The crowd's rush from their homes for supplication gives no separately identified gathering or distinctive quotation.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:19",
+      "target": null,
+      "reason": "The sackcloth and women's positions are specific crowd details; generic mourning or window scenes do not establish an adequate connection.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:21",
+      "target": null,
+      "reason": "The combined prostration and anguish continue this immediate prayer scene without a distinct independent target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:23",
+      "target": null,
+      "reason": "The brief insistence that Heliodorus carried out his decision supplies no new identifying action beyond the local mission narrative.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:30",
+      "target": null,
+      "reason": "The joy after dread is accounted for by the retained 3:14-to-3:30 reversal; no additional independent passage is selected for this source unit, and a reciprocal edge is not added merely for coverage.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:35",
+      "target": null,
+      "reason": "Heliodorus's vows and offering are not recorded elsewhere in the passages read; general thanksgiving vows would be too broad.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:37",
+      "target": null,
+      "reason": "The king's question about a replacement envoy is an introduction to the following warning, without a separately identified later mission.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:40",
+      "target": null,
+      "reason": "This summary closure names the episode but adds no particular event or quotation beyond the detailed Heliodorus links retained elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:2",
+      "target": null,
+      "reason": "Simon's accusation against the benefactor is described without a distinct quotation or separately recorded charge beyond this dispute.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:3",
+      "target": null,
+      "reason": "The murders by Simon's supporter name neither victims nor an independently attested incident that could safely be identified elsewhere.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:4",
+      "target": null,
+      "reason": "The governor's patronymic Menestheus differs from Thraseas at 3:5; the separately read identity candidate is left unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:6",
+      "target": null,
+      "reason": "Onias's expectation of royal intervention continues his immediate petition; no later royal settlement of this particular rivalry is identified.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:14",
+      "target": null,
+      "reason": "The priests' voluntary neglect for athletics is not equated with the later royal ban on sacrifice, which is a different action and cause.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:15",
+      "target": null,
+      "reason": "Preference for Greek distinction is too general for an additional specific link beyond the gymnasium and covenant changes already retained in neighbouring units.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:18",
+      "target": null,
+      "reason": "The Tyrian games and king's presence have no separately verified date or festival account in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:19",
+      "target": null,
+      "reason": "The three-hundred-drachma gift for Heracles and bearers' objection have no independently verified counterpart; general idol-sacrifice passages omit this transaction.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:20",
+      "target": null,
+      "reason": "The redirection of the gift to triremes is a specific administrative outcome not separately attested in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:21",
+      "target": null,
+      "reason": "Apollonius's embassy for Philometor's accession and the resulting itinerary are not equated with Antiochus's distinct Egyptian invasions.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:23",
+      "target": null,
+      "reason": "The dispatch of Menelaus with money and memoranda has no independent account; identifying his brother Simon alone would not supply a substantive link.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:28",
+      "target": null,
+      "reason": "Sostratus's collection duty and the two summonses are not independently attested by another passage read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:30",
+      "target": null,
+      "reason": "The revolt of Tarsus and Mallus over their grant to Antiochis has no verified independent narrative target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:31",
+      "target": null,
+      "reason": "Andronicus's appointment while the king travels to settle the revolt is a local administrative step without a distinct counterpart.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:33",
+      "target": null,
+      "reason": "Onias's denunciation from Daphne has no independently verified asylum episode; another mention of his piety would be insufficient.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:35",
+      "target": null,
+      "reason": "The Jews' and others' indignation at Onias's murder is a reaction without a distinct independently grounded target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:36",
+      "target": null,
+      "reason": "The joint petition after the king's return is not identified as the same petition as Onias's earlier journey to court.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:37",
+      "target": null,
+      "reason": "Antiochus's tears and assessment of Onias do not establish a distinct event parallel merely from other favourable descriptions of Onias.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:40",
+      "target": null,
+      "reason": "Lysimachus's three-thousand-man attack and Auranus's command are not independently attested in another passage read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:41",
+      "target": null,
+      "reason": "The crowd's improvised stones, wood, and ashes are specific tactical details without a verified parallel.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:42",
+      "target": null,
+      "reason": "Lysimachus's death at the treasury is not independently narrated elsewhere; the detailed episode already supplies context for the retained deputy-to-downfall link.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:43",
+      "target": null,
+      "reason": "The trial notice introduces the proceedings but does not independently name charges or a law citation sufficient for another link.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:44",
+      "target": null,
+      "reason": "The three elders' representatives at Tyre are unnamed and not securely identified with a different embassy.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 4:49",
+      "target": null,
+      "reason": "The Tyrians' burial provision for the executed representatives has no separately verified counterpart.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 5:3",
+      "target": null,
+      "reason": "The detailed aerial formations and weapons do not identify a particular other vision beyond the cavalry comparison retained for 5:2.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 5:4",
+      "target": null,
+      "reason": "The witnesses themselves leave the omen's meaning uncertain; another vision's explicitly favourable outcome is not imposed on it.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 5:6",
+      "target": null,
+      "reason": "Jason's slaughter of fellow citizens is not independently specified by the broad letter reference to Jason's revolt, so no exact massacre identity is asserted.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 5:10",
+      "target": null,
+      "reason": "Jason's denial of mourning and ancestral burial has no independently verified account; general unburied-dead passages do not establish this fate.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 5:13",
+      "target": null,
+      "reason": "The age and sex categories killed are not independently detailed in the companion narrative's broad statement of royal bloodshed.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 5:14",
+      "target": null,
+      "reason": "The three-day total and division between killed and sold have no matching independently verified figures in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 6:3",
+      "target": null,
+      "reason": "The general description of grievous evil supplies no distinct event or quotation to target.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 6:15",
+      "target": null,
+      "reason": "This continuation explains Israel's prompt discipline; no additional target distinct from the full-measure-of-sin connection at 6:14 was selected.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 6:17",
+      "target": null,
+      "reason": "The editorial return to narrative is not a separately identifiable historical or literary reference.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 6:23",
+      "target": null,
+      "reason": "Eleazar's resolve and aged dignity have no independently attested biographical counterpart; the elderly scribe is not equated with a warrior sharing his name.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 6:27",
+      "target": null,
+      "reason": "The declaration of dying worthily in old age continues Eleazar's speech; no separate text establishes that particular age-based claim.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:3",
+      "target": null,
+      "reason": "The heating of pans and cauldrons is a specific torture order without a verified parallel.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:4",
+      "target": null,
+      "reason": "The tongue, scalp, and limb mutilations are specific to this martyr narrative; another account of suffering would be too general.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:5",
+      "target": null,
+      "reason": "The frying and family encouragement have no separately verified narrative counterpart; a generic martyrdom reference would not support these details.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:7",
+      "target": null,
+      "reason": "The second brother's scalping and interrogation are not independently attested in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:8",
+      "target": null,
+      "reason": "The ancestral-language refusal and repeated torture are local details without a distinct independently identified saying or episode.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:10",
+      "target": null,
+      "reason": "The third brother's offered tongue and hands are not independently narrated elsewhere; his resurrection claim is addressed at 7:11.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:12",
+      "target": null,
+      "reason": "The king's astonishment at the young man's endurance supplies no distinct independently verified parallel.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:13",
+      "target": null,
+      "reason": "The brief notice of the fourth brother's torture adds no particular target beyond the ongoing martyr scene.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:15",
+      "target": null,
+      "reason": "The fifth brother's introduction and torture are not independently attested; a generic suffering parallel is not added.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:21",
+      "target": null,
+      "reason": "The mother's ancestral-language exhortation and characterization do not securely identify a separate speaker or quoted text.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:25",
+      "target": null,
+      "reason": "The king's request that the mother persuade the boy is local plot preparation, without an independent target beyond the reversal retained at 7:26.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:27",
+      "target": null,
+      "reason": "The nine-month pregnancy, three-year nursing, and upbringing details have no separately verified counterpart identifying this mother or son.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:41",
+      "target": null,
+      "reason": "The mother's death after her sons has no independently named account in the passages read; the women in Hebrews are not identified as this mother.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 7:42",
+      "target": null,
+      "reason": "The narrator's closure of the torture account is an editorial notice, not an independently identifiable event.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 8:20",
+      "target": null,
+      "reason": "The battle against Galatians in Babylonia and its troop figures have no securely identified canonical counterpart in the passages read.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 8:22",
+      "target": null,
+      "reason": "Joseph in the division roster is not silently substituted for John in Mattathias's family list; the separately read roster candidate remains unresolved.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 8:28",
+      "target": null,
+      "reason": "The allocation after this Sabbath has no separately identified transaction; the distinct equal-sharing comparison is retained for the explicitly equal shares at 8:30.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 8:31",
+      "target": null,
+      "reason": "The weapon depots and transport of remaining spoils to Jerusalem lack an independently identified logistical parallel.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 8:32",
+      "target": null,
+      "reason": "The unnamed tribal commander cannot be identified with another officer simply because both belong to Timothy's forces.",
+      "source_unit_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_reference": "2 Maccabees 1:13",
+      "target": "1 Maccabees 6:1-4",
+      "relationship": "Unresolved eastern-temple episode; not retained",
+      "rationale": "The letter places the ruler's force in a fatal deception at Nanea's Persian temple, while the companion account describes a failed attempt at Elymais followed by retreat. Shared eastern temple plundering does not securely establish identical ruler-event details.",
+      "reason": "The letter places the ruler's force in a fatal deception at Nanea's Persian temple, while the companion account describes a failed attempt at Elymais followed by retreat. Shared eastern temple plundering does not securely establish identical ruler-event details.",
+      "necessary_context": [
+        "2 Maccabees 1:10-17",
+        "1 Maccabees 6:1-16"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 1:16",
+      "target": "2 Maccabees 9:5-9",
+      "relationship": "Unresolved death-account identity; not retained",
+      "rationale": "The letter has the ruler struck down by stones, dismembered, and beheaded, whereas the later narrative describes Antiochus's bodily plague and decay before death in a foreign land at 9:28. The accounts are not harmonized into a single death sequence.",
+      "reason": "The letter has the ruler struck down by stones, dismembered, and beheaded, whereas the later narrative describes Antiochus's bodily plague and decay before death in a foreign land at 9:28. The accounts are not harmonized into a single death sequence.",
+      "necessary_context": [
+        "2 Maccabees 1:13-17",
+        "2 Maccabees 9:1-29"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 3:5",
+      "target": "2 Maccabees 4:4",
+      "relationship": "Unresolved named-person identity; not retained",
+      "rationale": "The governor is Apollonius son of Thraseas in the source and Apollonius son of Menestheus in the target. The shared name, region, and involvement with Simon do not authorize silently replacing either patronymic or resolving the identity.",
+      "reason": "The governor is Apollonius son of Thraseas in the source and Apollonius son of Menestheus in the target. The shared name, region, and involvement with Simon do not authorize silently replacing either patronymic or resolving the identity.",
+      "necessary_context": [
+        "2 Maccabees 3:4-7",
+        "2 Maccabees 4:1-6"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "2 Maccabees 8:22",
+      "target": "1 Maccabees 2:1-5",
+      "relationship": "Unresolved sibling-roster identity; not retained",
+      "rationale": "The division leaders include Simon, Joseph, and Jonathan, while the family list names John, Simon, Judas, Eleazar, and Jonathan. Joseph is not silently changed to John or identified as another named son.",
+      "reason": "The division leaders include Simon, Joseph, and Jonathan, while the family list names John, Simon, Judas, Eleazar, and Jonathan. Joseph is not silently changed to John or identified as another named son.",
+      "necessary_context": [
+        "2 Maccabees 8:21-23",
+        "1 Maccabees 2:1-5"
+      ],
+      "source_and_target_text_read": true,
+      "necessary_context_read": true,
+      "complete_candidate_triple_reread": true,
+      "identity_resolved": false,
+      "retained": false,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "unresolved_cases": [],
+  "source_inventory_first": {
+    "book_inventory_units": 555,
+    "book_inventory_chapters": 15,
+    "source_blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+    "inventory_complete_before_source_review": true,
+    "previous_book_source_scope_read_before_new_pass": true,
+    "inventory_credit": 0,
+    "whole_book_read_claimed": false
+  },
+  "separate_complete_triple_read_groups": [
+    {
+      "input_file": "2-maccabees-1-8-original-draft.tsv",
+      "first_pair": 1,
+      "last_pair": 40,
+      "count": 40
+    },
+    {
+      "input_file": "2-maccabees-1-8-original-draft.tsv",
+      "first_pair": 41,
+      "last_pair": 80,
+      "count": 40
+    },
+    {
+      "input_file": "2-maccabees-1-8-original-draft.tsv",
+      "first_pair": 81,
+      "last_pair": 125,
+      "count": 45
+    },
+    {
+      "input_file": "2-maccabees-1-8-original-draft.tsv",
+      "first_pair": 126,
+      "last_pair": 165,
+      "count": 40
+    },
+    {
+      "input_file": "2-maccabees-1-8-original-draft.tsv",
+      "first_pair": 166,
+      "last_pair": 206,
+      "count": 41
+    },
+    {
+      "input_file": "2-maccabees-1-8-changed-before.tsv",
+      "first_pair": 1,
+      "last_pair": 3,
+      "count": 3
+    },
+    {
+      "input_file": "2-maccabees-1-8-changed-after.tsv",
+      "first_pair": 1,
+      "last_pair": 2,
+      "count": 2
+    },
+    {
+      "input_file": "2-maccabees-1-8-peer-changed-before.tsv",
+      "first_pair": 1,
+      "last_pair": 1,
+      "count": 1
+    },
+    {
+      "input_file": "2-maccabees-1-8-peer-changed-after.tsv",
+      "first_pair": 1,
+      "last_pair": 1,
+      "count": 1
+    }
+  ],
+  "same_chapter_policy": "All retained same-chapter relationships have exact same-chapter category markers and identify specific correction, reversal, command/result, appointment/abuse, or recap links.",
+  "textual_precision_notes": [
+    "The opening letters, their dates, festival invitations, and Nehemiah fire tradition are kept distinct from the main narrative.",
+    "Fatal Nanea attack, failed Elymais raid, and later bodily plague are not harmonized into a single death sequence.",
+    "Apollonius patronymics Thraseas/Menestheus and Joseph/John roster differences remain unresolved; each candidate has zero credit.",
+    "Companion campaign troop totals, casualties, commander titles, Egyptian expedition notices, and Sabbath details retain their differences.",
+    "New Testament comparisons express shared textual themes without identifying unnamed Hebrews martyrs as particular Maccabean persons.",
+    "Actual Greek references are preserved, including Leviticus 5:21-24, Exodus 22:6-8 and 22:21-23, and Psalms 19:8."
+  ],
+  "truncated_read_recovery": "All source read groups, all five original full-triple reread groups, all changed and candidate triple displays, and the two full-source deferral reread groups were displayed without truncation.",
+  "peer_refinement_file": "2-maccabees-1-8-author-peer-refinement.json",
+  "peer_refinement_sha256": "0c1f76c5ba8c217240f6c2f9b43918e4600e7a89b15c6f0a5317354b8acec2ab",
+  "before_peer_author_receipt_file": "2-maccabees-1-8-before-peer-refinement-review.json",
+  "before_peer_author_receipt_sha256": "7d4c8def0adf89d61d511f6b969ba88e3db5613b1e34243ab4ef27a3f55417d7",
+  "author_peer_correction_reread": {
+    "changed_before_file": "2-maccabees-1-8-peer-changed-before.tsv",
+    "changed_before_sha256": "dda1e12e27c94e77e336f7410b385b563177793315a17f94754e16f1e11265b4",
+    "changed_after_file": "2-maccabees-1-8-peer-changed-after.tsv",
+    "changed_after_sha256": "2dd6dbe04e8e70f038e515cd2eb3fe4164f09783e23af585a23b17934cb50365",
+    "all_complete_old_and_new_triples_personally_reread": true,
+    "necessary_context_personally_reread": [
+      "2 Maccabees 8:9-16",
+      "1 Maccabees 3:38-60",
+      "1 Maccabees 4:1-25"
+    ],
+    "source_target_category_rationale_all_read": true,
+    "changed_pairs": 1,
+    "new_completion_credit": 0
+  }
+}

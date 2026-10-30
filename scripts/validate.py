@@ -58,10 +58,18 @@ def archived_target_book(edge,book,cache):
     require(hashlib.sha256(raw).hexdigest()==sha256 and blob_digest(raw)==target['blob_sha'],'Archived target source bytes changed')
     original=json.loads(raw)
     require(isinstance(original,dict) and original.get('book')==book and isinstance(original.get('chapters'),list),'Archived target is not the expected full book')
-    chapters={};units={}
+    chapters={};units={};sections=set();chapter_sections={}
+    chapter_counts=Counter(str(chapter['chapter']) for chapter in original['chapters'])
     for chapter in original['chapters']:
         number=str(chapter['chapter'])
-        require(number not in chapters and isinstance(chapter.get('verses'),list),'Invalid archived target chapters')
+        require(isinstance(chapter.get('verses'),list),'Invalid archived target chapters')
+        section=chapter.get('section')
+        if 'section' in chapter:
+            require(type(section) is int and section>0 and section not in sections,'Invalid or duplicate archived target section')
+            sections.add(section)
+        require(number not in chapters or (section is not None and chapter_sections[number]),'Repeated archived target chapter requires distinct explicit sections')
+        chapter_sections.setdefault(number,section is not None)
+        prefix=book+' '+(number+':' if chapter_counts[number]>1 else '')
         # The pinned full Daniel book keeps its original embedded-section labels.
         embedded_prefix={
             ('13',13,'Daniel — Susanna'):'Susanna 1:',
@@ -70,11 +78,13 @@ def archived_target_book(edge,book,cache):
         ordered=[]
         for unit in chapter['verses']:
             ref=unit.get('reference',unit.get('ref'))
-            require(isinstance(ref,str) and bool(ref.strip()) and (ref.startswith(book+' ') or (embedded_prefix is not None and re.fullmatch(re.escape(embedded_prefix)+r'\d+[a-z]*(?:[–-]\d+[a-z]*)?',ref) is not None)) and ref not in units,'Invalid archived target unit reference')
+            require(isinstance(ref,str) and bool(ref.strip()) and (ref.startswith(prefix) or (embedded_prefix is not None and re.fullmatch(re.escape(embedded_prefix)+r'\d+[a-z]*(?:[–-]\d+[a-z]*)?',ref) is not None)) and ref not in units,'Invalid archived target unit reference')
             require(isinstance(unit.get('id'),str) and isinstance(unit.get('text'),str),'Invalid archived target unit body')
             normalized=dict(unit,reference=ref);complete_text(normalized)
             ordered.append(ref);units[ref]=normalized
-        chapters[number]=ordered
+        # A logical chapter may occupy disjoint, interleaved source sections.
+        # Keep both full-book insertion order and each chapter's source order.
+        chapters.setdefault(number,[]).extend(ordered)
     cache[key]=(chapters,units)
     return cache[key]
 def ordered_range(ordered,start,end):

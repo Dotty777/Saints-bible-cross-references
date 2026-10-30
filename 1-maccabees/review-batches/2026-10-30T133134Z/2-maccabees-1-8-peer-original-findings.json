@@ -1,0 +1,41 @@
+{
+  "reviewer": "Codex independent AI passage reviewer /root/macc2_1_8_peer (GPT-6)",
+  "reviewed": "2026-10-30",
+  "input_file": "2-maccabees-1-8-peer-original-input.tsv",
+  "input_sha256": "f238818073fc192ecc0df714bd8804a70a85cb27217d21fcaf0efb00962841f9",
+  "author_receipt_file": "2-maccabees-1-8-peer-original-author-review.json",
+  "author_receipt_sha256": "7d4c8def0adf89d61d511f6b969ba88e3db5613b1e34243ab4ef27a3f55417d7",
+  "all_205_complete_triples_personally_read": true,
+  "findings": [
+    {
+      "id": "M2-185-chronology",
+      "severity": "precision",
+      "pair_number": 185,
+      "source_reference": "2 Maccabees 8:13",
+      "target": "1 Maccabees 3:56",
+      "old_row": {
+        "source_reference": "2 Maccabees 8:13",
+        "target": "1 Maccabees 3:56",
+        "relationship": "Fearful men depart",
+        "rationale": "The departure of fearful men resembles Judas's earlier dismissal of the fearful according to the law, but this account characterizes their departure as distrust rather than repeating that legal procedure."
+      },
+      "proposed_new_row": {
+        "source_reference": "2 Maccabees 8:13",
+        "target": "1 Maccabees 3:56",
+        "relationship": "Fearful men depart",
+        "rationale": "The departure of fearful men resembles the companion account's dismissal of the fearful according to the law, but this account characterizes their departure as distrust rather than repeating that legal procedure."
+      },
+      "issue": "The word 'earlier' adds a chronological relation between the two narrated departures that neither passage establishes. Both passages occur in preparation for the Nicanor/Gorgias campaign; 1 Maccabees 3:56 is in the Emmaus preparation, not an explicitly earlier dismissal within 2 Maccabees' chronology.",
+      "required_action": "Replace 'Judas's earlier dismissal of the fearful according to the law' with 'the companion account's dismissal of the fearful according to the law'. Retain the target, relationship, and contrast between legal dismissal and distrust.",
+      "evidence_personally_read": [
+        "2 Maccabees 8:9-16",
+        "1 Maccabees 3:38-60",
+        "1 Maccabees 4:1-25"
+      ],
+      "pair_can_be_retained_after_precision_correction": true,
+      "new_completion_credit": 0
+    }
+  ],
+  "accepted_for_integration": false,
+  "additional_completion_credit": 0
+}

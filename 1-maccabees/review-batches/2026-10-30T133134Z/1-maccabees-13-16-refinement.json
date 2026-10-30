@@ -1,0 +1,53 @@
+{
+  "stage": "author separate complete-triple reread refinement",
+  "before_file": "1-maccabees-13-16-original-draft.tsv",
+  "before_sha256": "f61278d0feacd9f5f84ce9d1d594548421c9efbe9ced0c91214b5dfe8a427b32",
+  "after_file": "1-maccabees-13-16.tsv",
+  "after_sha256": "503c73c1187aca2d6a963df76566dfca72534014286e5407e282ba32d1cceda1",
+  "changed_before_file": "1-maccabees-13-16-changed-before.tsv",
+  "changed_before_sha256": "93987a7d31b6d96af74ab48a4a98c075f91fbbb9242ede77107148c438741a8a",
+  "changed_after_file": "1-maccabees-13-16-changed-after.tsv",
+  "changed_after_sha256": "ce1c28a5698defd07b80541b2dee8391b60f9d77005386bb4c9d6a8775b7a5e2",
+  "changes": [
+    {
+      "old_row": {
+        "source_reference": "1 Maccabees 15:1",
+        "target": "1 Maccabees 15:10",
+        "relationship": "Arrival anticipated; same-chapter",
+        "rationale": "Antiochus writes from the islands before the later notice that he has entered his ancestral land to claim the kingdom."
+      },
+      "new_row": null,
+      "reason": "Remove routine geographical sequencing: sending a letter from islands and later arriving is less specific than the retained explicit campaign intention-and-fulfilment link at 15:4."
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Maccabees 15:12",
+        "target": "1 Maccabees 11:38-55",
+        "relationship": "Military allegiance reversed",
+        "rationale": "Tryphon now loses his troops, contrasting with his earlier rise when the forces dismissed by Demetrius joined the young Antiochus he supported; the passages describe different changes of allegiance."
+      },
+      "new_row": {
+        "source_reference": "1 Maccabees 15:12",
+        "target": "1 Maccabees 11:54-55",
+        "relationship": "Military allegiance reversed",
+        "rationale": "Tryphon now loses his troops, contrasting with his earlier rise when the forces dismissed by Demetrius joined the young Antiochus he supported; the passages describe different changes of allegiance."
+      },
+      "reason": "Narrow target to the two complete verses containing Tryphon, young Antiochus, and the dismissed forces joining them; the intervening Antioch episode is unnecessary."
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Maccabees 15:37",
+        "target": "1 Maccabees 15:11-14",
+        "relationship": "Escape from siege; same-chapter",
+        "rationale": "Tryphon's flight by ship continues his earlier retreat to Dora and escape from the land-and-sea siege described there."
+      },
+      "new_row": {
+        "source_reference": "1 Maccabees 15:37",
+        "target": "1 Maccabees 15:11-14",
+        "relationship": "Escape from siege; same-chapter",
+        "rationale": "Tryphon's flight by ship escapes the land-and-sea blockade imposed after his earlier retreat to Dora; the target describes the confinement from which he now escapes."
+      },
+      "reason": "Clarify that the target narrates the siege, while the source narrates the subsequent escape."
+    }
+  ]
+}

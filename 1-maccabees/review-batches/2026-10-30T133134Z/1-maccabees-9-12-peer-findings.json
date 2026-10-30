@@ -1,0 +1,66 @@
+{
+  "reviewer": "Codex AI independent peer /root/macc9_12_peer (GPT-6)",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "checked_at_utc": "2026-10-30T13:52:47.978496+00:00",
+  "run_id": "2026-10-30T133134Z",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "baseline_commit": "19c3167e38c456eddd2ce216aeffabffbfb8191b",
+  "input_file": "1-maccabees-9-12.tsv",
+  "input_sha256": "ddbd1856fec321339594dca730b080927efab9809fdae204c2810827993fb8fa",
+  "author_receipt_file": "1-maccabees-9-12-review.json",
+  "author_receipt_sha256": "afdb7050ed1631fb372db5369258e2d5667c42794101d81b830ec2bfecaafdac",
+  "accepted_for_integration": false,
+  "all_source_verses_read": true,
+  "source_units_read": 289,
+  "all_target_passages_read": true,
+  "all_complete_triples_independently_read": true,
+  "completed_pairs_read": 185,
+  "supported_source_units_read": 176,
+  "distinct_target_units_read": 305,
+  "required_correction": "Retain the substantive diplomatic/personnel links, but distinguish the Spartan letter addressed to Simon from Jonathan's earlier request and instructions. 14:16-21 establishes a renewal with Simon, and 14:22 repeats the envoys' names and patronymics. These identify the two named men without unequivocally establishing one identical journey or that the later letter answers Jonathan's request. Replace definite reply/fulfilment formulations with diplomatic continuity, explicitly respecting the changed addressee.",
+  "context_read": [
+    "1 Maccabees 14:16-24",
+    "1 Maccabees 15:15-24"
+  ],
+  "flagged_rows": [
+    {
+      "source_reference": "1 Maccabees 12:2",
+      "target": "1 Maccabees 14:20-23",
+      "relationship": "Diplomatic continuity",
+      "rationale": "The later Spartan letter records reception of Jonathan's named envoys and their mission to renew friendship, corresponding to his initiative here."
+    },
+    {
+      "source_reference": "1 Maccabees 12:6",
+      "target": "1 Maccabees 14:20",
+      "relationship": "Epistolary correspondence",
+      "rationale": "The Spartan reply later addresses the high priest, elders, priests, and people as brothers, matching the corporate parties and fraternal address in Jonathan's letter."
+    },
+    {
+      "source_reference": "1 Maccabees 12:10",
+      "target": "1 Maccabees 14:22-23",
+      "relationship": "Diplomatic continuity",
+      "rationale": "The wish to renew friendship receives a documented response when Sparta records the mission of Numenius and Antipater to renew that friendship."
+    },
+    {
+      "source_reference": "1 Maccabees 12:16",
+      "target": "1 Maccabees 14:22",
+      "relationship": "Personal and diplomatic identification",
+      "rationale": "The later Spartan record repeats both envoys' names and fathers, Numenius son of Antiochus and Antipater son of Jason, confirming the personnel of the renewal mission."
+    },
+    {
+      "source_reference": "1 Maccabees 12:17",
+      "target": "1 Maccabees 14:22-23",
+      "relationship": "Diplomatic fulfilment",
+      "rationale": "The instruction that the envoys visit Sparta is reflected in Sparta's subsequent public record of their arrival and mission to renew friendship."
+    },
+    {
+      "source_reference": "1 Maccabees 12:18",
+      "target": "1 Maccabees 14:20-23",
+      "relationship": "Diplomatic response",
+      "rationale": "Jonathan's request for an answer is followed in the book by the Spartan letter reporting the reception of his envoys and preservation of their words."
+    }
+  ],
+  "credit_added": 0,
+  "other_findings": "No required removals or other defects found after full reading. Source-only deferrals remain zero-credit and do not assert absence of possible future links."
+}

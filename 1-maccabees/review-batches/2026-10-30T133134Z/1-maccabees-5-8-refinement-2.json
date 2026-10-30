@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex AI author /root/macc5_8_author",
+  "reviewed": "2026-10-30",
+  "run_id": "2026-10-30T133134Z",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "before_file": "1-maccabees-5-8-refinement-2-before.tsv",
+  "after_file": "1-maccabees-5-8-refinement-2-after.tsv",
+  "before_sha256": "a06ac0c0e7a6e794c98eb18b478512738a9b080c034460e96c0ae6932635d048",
+  "after_sha256": "81f833c29d89a9ea3264d57bd0572fa00d4d685a215e0e8367f6b3bc449772b6",
+  "changed_before_file": "1-maccabees-5-8-refinement-2-changed-before.tsv",
+  "changed_before_sha256": "7457e9742d1d34106d5d49a2234eba9adf41ae78d9c944f215c7cbdc196df758",
+  "changed_after_file": "1-maccabees-5-8-refinement-2-changed-after.tsv",
+  "changed_after_sha256": "f0713d09726430028a1cf49d87d25b72308b66527b66acac902cc693804d0e30",
+  "before_author_receipt": "1-maccabees-5-8-review-before-refinement-2.json",
+  "before_author_receipt_sha256": "cc39c0f4e14f540e40c4753a39d344050f4e512034f274326e5ce35976247441",
+  "peer_findings_file": "1-maccabees-5-8-peer-review-original.json",
+  "peer_findings_sha256": "af15b5bd3c9599dce6d41a3d65040e7e6895158813b4b16acb9dc0e6946cd93a",
+  "changes": [
+    {
+      "old_row": {
+        "source_reference": "1 Maccabees 5:3",
+        "target": "2 Maccabees 10:15-17",
+        "relationship": "Historical comparison",
+        "rationale": "Both accounts present Judas attacking Idumean strongholds because the Idumeans were harassing the Jews; the differing campaign settings and casualty details remain distinct."
+      },
+      "new_row": {
+        "source_reference": "1 Maccabees 5:3",
+        "target": "2 Maccabees 10:15-17",
+        "relationship": "Historical comparison",
+        "rationale": "Both accounts present Judas attacking Idumeans who were oppressing Israel; the source names Akrabattene, while the target describes assaults on fortresses and gives a casualty total. The differing campaign settings remain distinct."
+      },
+      "reason": "Do not attribute attacks on strongholds to 1 Maccabees 5:3; that detail belongs to the target account."
+    },
+    {
+      "old_row": {
+        "source_reference": "1 Maccabees 7:23",
+        "target": "1 Maccabees 1:11-15",
+        "relationship": "Narrative connection",
+        "rationale": "The judgment that Israelite collaborators inflicted exceptional harm develops the book's earlier account of lawless Israelites persuading their people to abandon the covenant for foreign customs."
+      },
+      "new_row": null,
+      "reason": "The comparison with 1 Maccabees 1:11-15 establishes only the broad theme of harm by Israelite collaborators. No shared named group, action, episode, or particular textual echo is established between Alcimus's party here and the earlier advocates of foreign customs; the original link was removed after complete-triple review."
+    }
+  ],
+  "new_source_deferrals": [
+    {
+      "source_reference": "1 Maccabees 7:23",
+      "target": null,
+      "reason": "The comparison with 1 Maccabees 1:11-15 establishes only the broad theme of harm by Israelite collaborators. No shared named group, action, episode, or particular textual echo is established between Alcimus's party here and the earlier advocates of foreign customs; the original link was removed after complete-triple review.",
+      "source_unit_read": true,
+      "source_text_read": true,
+      "actual_read": true,
+      "source_and_necessary_context_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "completed_source_credit_added": 0,
+  "completed_pair_credit_added": 0,
+  "all_changed_complete_triples_separately_reread": true,
+  "retained_changed_triples_reread": 1,
+  "removed_triples_separately_reread": 1,
+  "new_source_deferrals_separately_reread": true
+}

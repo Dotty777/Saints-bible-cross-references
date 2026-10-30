@@ -1,0 +1,45 @@
+{
+  "run_id": "2026-10-30T133134Z",
+  "baseline_commit": "19c3167e38c456eddd2ce216aeffabffbfb8191b",
+  "recorded_at_utc": "2026-10-30T14:32:05.031198+00:00",
+  "completion_credit": 0,
+  "reason": "The authenticated full Proverbs target source uses disjoint, interleaved sections of chapters 24, 30 and 31. The validator previously rejected every repeated chapter before checking the requested target range.",
+  "source_snapshot": {
+    "repository": "Dotty777/Saints-Translation",
+    "commit": "328967336f32958587835c921fea3b96a5bf6494",
+    "path": "proverbs/verses.json",
+    "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b"
+  },
+  "change": "Require distinct explicit section identities for repeated logical chapters; accumulate their disjoint references in source order. Preserve full-book unit insertion order, original references, anchors, continuations, byte identity checks and duplicate-reference rejection. Existing unique-chapter prologue labels and Daniel embedded-section labels remain supported.",
+  "files": {
+    "scripts/validate.py": {
+      "before_sha256": "337c948276b5f88a4854bf7226dbcfa0537c8b4eb720f327b76bd90a509dd4af",
+      "after_sha256": "e3ae18cbb8d2b25a0353fa6939ec833ba18ee4d176ccb5ef4822362126ff73e8"
+    },
+    "scripts/test_validate.py": {
+      "before_sha256": "e574abb341669f7fc0e65d58b3d1987293ab9f9c47de716faea16d272c70d439",
+      "after_sha256": "fbff52f0ca6c5a5e2596328822109ad632d8b0b228911acc6df9a415f690ffea"
+    }
+  },
+  "implemented_and_tested_by": "Codex /root/macc9_12_peer",
+  "independent_diff_review_by": "Codex /root",
+  "regression_test_status": "passed",
+  "regression_tests_passed": 9,
+  "regression_coverage": [
+    "Authenticated interleaved chapter sections and ranges across their boundaries",
+    "Exact unit fields, suffixes, composite references and continuation paragraphs",
+    "Reversed ranges, overlapping units, duplicate or missing section identities",
+    "Wrong logical-chapter prefixes in repeated sections",
+    "Altered SHA256 and Git blob identities",
+    "Existing Daniel embedded labels and unique Sirach prologue labels"
+  ],
+  "full_validation": {
+    "status": "passed",
+    "completed_source_verses": 12763,
+    "completed_cross_references": 17256,
+    "completed_chapters": 387,
+    "first_unfinished": "1 Chronicles 1:24",
+    "next_never_reviewed": "2 Maccabees 9:1"
+  },
+  "limits": "Technical archive parsing and regression checks only. No Scripture wording, source inventory, match explanation, completion count or historical review record was changed by this fix."
+}

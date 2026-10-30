@@ -1,4 +1,4 @@
-"""Exercise byte-verified full-book archives and Daniel's original section labels."""
+"""Exercise authenticated archives, embedded labels, and repeated source sections."""
 import copy
 import hashlib
 import json
@@ -111,6 +111,93 @@ class ArchivedDanielTests(unittest.TestCase):
         path.write_bytes(path.read_bytes()+b' ')
         with self.assertRaisesRegex(ValueError,'bytes changed'):
             validate.archived_target_book(edge,'Daniel',cache)
+
+
+class ArchivedRepeatedChapterTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary=tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root=Path(self.temporary.name)
+        self.root_patch=patch.object(validate,'ROOT',self.root)
+        self.root_patch.start()
+        self.addCleanup(self.root_patch.stop)
+        self.document={'book':'Proverbs','chapters':[
+            {'chapter':24,'section':1,'verses':[
+                {'reference':'Proverbs 24:22e','id':'p24-22e','text':'First section body.'},
+                {'reference':'Proverbs 24:22f','id':'p24-22f','text':'Lettered original body.',
+                 'continuation_paragraphs':['Unchanged continuation.']}]},
+            {'chapter':30,'section':2,'verses':[
+                {'reference':'Proverbs 30:14','id':'p30-14','text':'Interleaved chapter body.'}]},
+            {'chapter':24,'section':3,'verses':[
+                {'reference':'Proverbs 24:23','id':'p24-23','text':'Later section body.'}]},
+            {'chapter':30,'section':4,'verses':[
+                {'reference':'Proverbs 30:15–16','id':'p30-15-16','text':'Composite original body.'}]}]}
+
+    archive=ArchivedDanielTests.archive
+
+    def test_authenticated_interleaved_sections_preserve_units_and_cross_section_range(self):
+        edge,path=self.archive()
+        edge['target']='Proverbs 24:22e-23'
+        raw=path.read_bytes()
+        chapters,units=validate.archived_target_book(edge,'Proverbs',{})
+        expected=[v for c in self.document['chapters'] for v in c['verses']]
+        self.assertEqual(list(units),[v['reference'] for v in expected])
+        self.assertEqual(list(units.values()),expected)
+        self.assertEqual(chapters['24'],['Proverbs 24:22e','Proverbs 24:22f','Proverbs 24:23'])
+        self.assertEqual(chapters['30'],['Proverbs 30:14','Proverbs 30:15–16'])
+        self.assertEqual(validate.ordered_range(chapters['24'],'Proverbs 24:22e','Proverbs 24:23'),chapters['24'])
+        self.assertEqual(validate.complete_text(units['Proverbs 24:22f']),'Lettered original body.\nUnchanged continuation.')
+        self.assertEqual(path.read_bytes(),raw)
+        with self.assertRaisesRegex(ValueError,'Reversed target range'):
+            validate.ordered_range(chapters['24'],'Proverbs 24:23','Proverbs 24:22e')
+
+    def test_repeated_chapters_require_valid_distinct_explicit_sections(self):
+        for index,field,value in [(2,'section',1),(1,'section',1),(2,'section',True),
+                                  (2,'section',0),(2,'section',-1),(2,'section','3'),
+                                  (2,'section',None),(2,'verses',{})]:
+            with self.subTest(index=index,field=field,value=value):
+                document=copy.deepcopy(self.document)
+                document['chapters'][index][field]=value
+                edge,_=self.archive(document)
+                with self.assertRaisesRegex(ValueError,'section|chapters'):
+                    validate.archived_target_book(edge,'Proverbs',{})
+        for index in [0,2]:
+            with self.subTest(missing_section=index):
+                document=copy.deepcopy(self.document)
+                del document['chapters'][index]['section']
+                edge,_=self.archive(document)
+                with self.assertRaisesRegex(ValueError,'distinct explicit sections'):
+                    validate.archived_target_book(edge,'Proverbs',{})
+
+    def test_overlapping_units_and_wrong_logical_chapter_are_rejected(self):
+        for reference in ['Proverbs 24:22e','Proverbs 30:99']:
+            with self.subTest(reference=reference):
+                document=copy.deepcopy(self.document)
+                document['chapters'][2]['verses'][0]['reference']=reference
+                edge,_=self.archive(document)
+                with self.assertRaisesRegex(ValueError,'unit reference'):
+                    validate.archived_target_book(edge,'Proverbs',{})
+
+    def test_repeated_sections_do_not_bypass_archive_hash_checks(self):
+        edge,path=self.archive()
+        path.write_bytes(path.read_bytes()+b' ')
+        with self.assertRaisesRegex(ValueError,'SHA256 mismatch'):
+            validate.archived_target_book(edge,'Proverbs',{})
+        edge,_=self.archive()
+        edge['target_source']['blob_sha']='b'*40
+        with self.assertRaisesRegex(ValueError,'Pinned target blob differs'):
+            validate.archived_target_book(edge,'Proverbs',{})
+
+    def test_unique_sections_preserve_original_non_numeric_labels(self):
+        document={'book':'Sirach','chapters':[
+            {'chapter':0,'section':1,'verses':[
+                {'reference':'Sirach Prologue','id':'sirach-prologue','text':'Original prologue.'}]},
+            {'chapter':1,'section':2,'verses':[
+                {'reference':'Sirach 1:1','id':'sirach-1-1','text':'Original first chapter.'}]}]}
+        edge,_=self.archive(document)
+        chapters,units=validate.archived_target_book(edge,'Sirach',{})
+        self.assertEqual(chapters['0'],['Sirach Prologue'])
+        self.assertEqual(list(units.values()),[v for c in document['chapters'] for v in c['verses']])
 
 
 if __name__=='__main__':
