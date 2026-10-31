@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-10-31T062118Z",
+  "base_commit": "2cdde2e5000a1766b2341add9210f64bf6099950",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "helper_sha256": "20bcd8af79b85653da62b643de08188d68fa78ee178ab93ecbd8c3fca9480ad9",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "read_only_baseline_objects": 141,
+  "canonical_books": 70,
+  "prior_runs": 44,
+  "existing_books": 28,
+  "changed_functions": [
+    "baseline",
+    "reviewed_renderer",
+    "prepare",
+    "capture_maintenance",
+    "readback"
+  ],
+  "checks": {
+    "unchanged_transaction_receipt_publication_functions": true,
+    "complete_baseline_json_and_order": true,
+    "valid_gate_archived": true,
+    "stale_gate_hash_rejected": true,
+    "empty_absolute_drive_and_parent_paths_rejected": true,
+    "non_json_and_nested_gate_paths_rejected": true,
+    "exact_unchanged_renderer_accepted": true,
+    "one_byte_renderer_drift_rejected": true
+  }
+}

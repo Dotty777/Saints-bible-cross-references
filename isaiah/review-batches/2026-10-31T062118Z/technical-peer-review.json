@@ -1,0 +1,47 @@
+{
+  "run_id": "2026-10-31T062118Z",
+  "base_commit": "2cdde2e5000a1766b2341add9210f64bf6099950",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-31",
+  "review_timezone": "America/New_York",
+  "reviewer": "Codex independent technical peer /root/ecclesiastes_author",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "20bcd8af79b85653da62b643de08188d68fa78ee178ab93ecbd8c3fca9480ad9"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "p-32b6173c/result.json",
+      "sha256": "24c2b927092b8ac1e6d7338302384248dd9a093728e87f381c3f1c390235e32c"
+    },
+    {
+      "file": "p-1303c8ad/result.json",
+      "sha256": "65ec6062dd7c6c0d8028906071f547359266349344193a3f8023168a6f1533d0"
+    },
+    {
+      "file": "technical-peer-probe-3e77f690d1/result.json",
+      "sha256": "35bfed980d5394f7720b2cb290ec28fce910bd3ad5e04a83d25cb5fa1fdf1cfd"
+    },
+    {
+      "file": "revelation-unavailable.json",
+      "sha256": "5dc9e28c1e27bee71b8974fed420646ba44dcb26ac5c7cba304cfc31b398db0c"
+    }
+  ],
+  "scope": [
+    "Independent full delta review against previously accepted existing-book append helper; only baseline, renderer selection, preparation archival, maintenance capture and readback functions changed. Transaction, rollback, receipt, source-registry, native cohort and publication safeguards are AST-identical to the accepted helper.",
+    "Complete read-only baseline independently checked:141 JSON objects,70 canon books in exact order,28 existing reviewed books and44 prior runs; existing Isaiah1289-unit inventory remains unchanged and source metadata equals the pinned cache.",
+    "Reviewed removal of the already-applied renderer patch and obsolete historical wording exceptions: no production script output remains, the production snapshot must equal baseline bytes, and final readback binds those unchanged bytes.",
+    "Executed the actual new source-gate archival loop in isolated scratch: valid hash accepted; changed hash, empty/absolute/drive/parent paths, non-JSON files and nested paths rejected. Exact renderer accepted and one appended byte rejected. No repository file was modified.",
+    "Read both full/partial29-check isolated fixture reports, including465 prior completed Isaiah objects,44 deferrals, prior candidate and batch prefixes, all27 other books,44 historical runs, native inventory and all out-of-cohort units. Both actual28-book validation, maintenance capture and final readback passed. Fixtures expressly stub semantic receipt validation and contain synthetic zero-credit work; they provide no source or pair completion credit.",
+    "Fresh Revelation absence proof was inspected and archived for correctly unread hints only."
+  ]
+}
