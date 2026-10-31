@@ -1,0 +1,99 @@
+{
+  "run_id": "2026-10-31T103252Z",
+  "base_commit": "23751f1b5829c582551a90c4745d3186dd3856c2",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Independent technical peer /root/proverbs_end_author",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "helper_sha256": "d7922f6e4c47af8385b135c4b284178df30f822fb2ef8a2d53126d9be841f734",
+  "renderer_sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36",
+  "method": "Exact byte comparison with the accepted helper/renderer and focused current one-book partition/native-prefix checks. Original helper guards run with malformed data only in memory. No renderer, validator, apply, inventory reconstruction or publication was performed by this probe.",
+  "checks": {
+    "incremental.py_unchanged": {
+      "passed": true,
+      "sha256": "d7922f6e4c47af8385b135c4b284178df30f822fb2ef8a2d53126d9be841f734"
+    },
+    "production-render_books.py_unchanged": {
+      "passed": true,
+      "sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36"
+    },
+    "current_baseline_identities": {
+      "passed": true,
+      "protected_json_objects": 151,
+      "historical_runs": 48,
+      "existing_books": 30,
+      "completed_sources": 22179,
+      "completed_pairs": 27178
+    },
+    "existing_only_partition": {
+      "passed": true,
+      "native_units": 1267,
+      "sections": 48,
+      "previously_read": 359,
+      "never_reviewed": 908,
+      "prior_supported": 314,
+      "prior_deferrals": 45,
+      "prior_candidates": 14
+    },
+    "exact_current_cohorts_and_continuation": {
+      "passed": true,
+      "read_scope": 649,
+      "counts": [
+        258,
+        195,
+        196
+      ],
+      "next_unreviewed": "Ezekiel 40:1"
+    },
+    "known_native_gaps_preserved": {
+      "passed": true
+    },
+    "actual_native_prefix_guard_accepts_plan": {
+      "passed": true
+    },
+    "partial_final_packet_continuation": {
+      "passed": true,
+      "next_unreviewed": "Ezekiel 39:29"
+    },
+    "reordered_packets": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "reordered_native_units": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "omitted_earlier_boundary": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "duplicated_unit": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "historical_unit_revisited": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "invented_absent_unit": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "existing_book_seed_requested": {
+      "passed": true,
+      "message": "Seed requested outside this run"
+    },
+    "existing_book_reclassified_new": {
+      "passed": true,
+      "message": "Never bootstrap over historical book records"
+    },
+    "current_base_and_nt_preservation": {
+      "passed": true,
+      "head": "23751f1b5829c582551a90c4745d3186dd3856c2",
+      "nt_tree": "73a243ebbf10f82682ddf7e10015d63563f23bc5"
+    },
+    "no_repository_mutation": {
+      "passed": true
+    }
+  }
+}
