@@ -6,10 +6,11 @@ Recover the source from the exact commit and blob in source-checks.json. Preserv
 
 Recover through Git history in a new commit. Recompute counts and the first unfinished source unit. Inventory/import, duplicates, unresolved evidence and technical checks add no review credit. Run python scripts/render_books.py and then python scripts/validate.py --write-verification from the repository root. WordPress and Saints-Translation are separate from this tracker.
 
+
 ## Pending source review recovery
 
-All 833 original 2 Chronicles source units in 36 chapters have now been read in the recorded scopes. 813 source units and 922 retained pairs are completed; 20 source units remain pending with zero completion credit: 2 Chronicles 8:3, 2 Chronicles 20:13, 2 Chronicles 20:16, 2 Chronicles 24:3, 2 Chronicles 26:10, 2 Chronicles 26:11, 2 Chronicles 26:12, 2 Chronicles 26:13, 2 Chronicles 26:14, 2 Chronicles 27:5, 2 Chronicles 28:7, 2 Chronicles 29:20, 2 Chronicles 29:33, 2 Chronicles 31:7, 2 Chronicles 31:13, 2 Chronicles 31:16, 2 Chronicles 32:23, 2 Chronicles 32:28, 2 Chronicles 33:14, 2 Chronicles 35:26.
+833 original source units in 36 native chapters and 36 native source groups remain unchanged. 833 read; 818 supported sources; 928 pairs; 0 never reviewed. First pending within book: **2 Chronicles 8:3**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
-The first unfinished source is **2 Chronicles 8:3**. Preserve its status and all other uncertain sources until substantive supported evidence is checked. There are no never-reviewed 2 Chronicles units remaining. Do not mark 2 Chronicles complete while pending sources remain.
+Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **none; all OT source units read**.
 
-The next new source review is **none; all OT source units read**. Root progress.json keeps its earliest-pending next at **1 Chronicles 1:24** and its separate next_unreviewed at **none; all OT source units read**. Read those fields separately and recompute both positions from actual ordered source objects after every update. Preserve every earlier completed object, original source field, anchor, continuation body, pending case and review batch. Inventory, unresolved evidence and rereading add no completion credit.
+**Pending evidence continuation: Psalms 40:9.** Consideration and rereading alone earn no completion credit. Earliest unresolved source: **1 Chronicles 1:24**.

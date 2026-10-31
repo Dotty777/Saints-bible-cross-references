@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Psalms",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,7 +28,7 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_source_reading_complete_with_pending_evidence",
+  "review_status": "initial_curated_pass_in_progress",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
     1,
@@ -38,6 +38,7 @@
     14,
     17,
     22,
+    27,
     36,
     38,
     42,
@@ -76,8 +77,8 @@
     146,
     150
   ],
-  "completed_source_verses": 2165,
-  "completed_cross_references": 2278,
+  "completed_source_verses": 2175,
+  "completed_cross_references": 2288,
   "total_chapters": 151,
   "total_source_verse_units": 2534,
   "next_reference": "Psalms 4:1",
@@ -2699,8 +2700,60 @@
           "id": "v7-6",
           "text": "then may the enemy pursue my soul and overtake it, trample my life into the earth, and make my glory dwell in dust. Diapsalma.",
           "display_text": "then may the enemy pursue my soul and overtake it,\ntrample my life into the earth,\nand make my glory dwell in dust.\nDiapsalma.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-7-6__job-31-5-8",
+              "target": "Job 31:5-8",
+              "verdict": "supported",
+              "relationship": "conditional oath invoking loss if guilty",
+              "rationale": "The psalmist's preceding if-clauses deny injustice and wrongful repayment, then invoke pursuit, trampling and glory in dust if the condition is true. Job similarly tests his innocence and invokes loss of his harvest and rootedness if he has turned aside or touched gifts. Both speakers support a claim of innocence by calling down a concrete adverse consequence upon themselves if guilty, with different offenses and penalties.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "96a6a2279b48788d289054fbaae0db07d6ceea3a444e0953c226d045924de7dc",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 31:5",
+                  "id": "v31-5",
+                  "text": "If I had walked with mockers, and if my foot also hastened toward deceit,",
+                  "display_text": "If I had walked with mockers,\nand if my foot also hastened toward deceit,",
+                  "text_sha256": "b661491899eb05fbfc06bd4c7f7f9bbeef3ab09b893a7cbae9a5936a2f2a7646"
+                },
+                {
+                  "reference": "Job 31:6",
+                  "id": "v31-6",
+                  "text": "may He then set me in a righteous balance; the Lord knows my innocence.",
+                  "display_text": "may He then set me in a righteous balance;\nthe Lord knows my innocence.",
+                  "text_sha256": "18f5a188db413b3f05dc54abc3da8cb306dc254ec1f90699f35166e8b3f1111c"
+                },
+                {
+                  "reference": "Job 31:7",
+                  "id": "v31-7",
+                  "text": "If my foot turned from the road, if my heart followed my eye, or if I touched gifts with my hands,",
+                  "display_text": "If my foot turned from the road,\nif my heart followed my eye,\nor if I touched gifts with my hands,",
+                  "text_sha256": "af6526b0590035cab9ce493f3119efb034af0bc5efe7eb563550e86f716c9b73"
+                },
+                {
+                  "reference": "Job 31:8",
+                  "id": "v31-8",
+                  "text": "may I then sow and others eat, and may I become rootless upon the earth.",
+                  "display_text": "may I then sow and others eat,\nand may I become rootless upon the earth.",
+                  "text_sha256": "07cfe2f165396a643f2f71a54599bb305232f8038506e17a17b9184ec5c3914c"
+                }
+              ],
+              "target_passage_sha256": "ce064222d82763728385fa428e2c93caef48e536553d32e0be427762398e0dc9",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 7:7",
@@ -4877,8 +4930,39 @@
           "id": "v10-1",
           "text": "For the end. A psalm of David. In the Lord I have trusted. How will you say to my soul, “Move away to the mountains like a little bird”?",
           "display_text": "For the end. A psalm of David.\nIn the Lord I have trusted.\nHow will you say to my soul,\n“Move away to the mountains like a little bird”?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-10-1__1-samuel-26-20",
+              "target": "1 Samuel 26:20",
+              "verdict": "supported",
+              "relationship": "contrasting bird imagery in mountain flight and pursuit",
+              "rationale": "The psalm repeats advice to move to the mountains like a little bird amid the following threat from armed sinners. David describes the king seeking his soul as the night-raven pursues in the mountains. Both use a bird-and-mountains comparison within danger or pursuit, but the psalm's bird is told to flee and Samuel's night-raven pursues. This literary comparison neither identifies the birds nor establishes Saul's pursuit as the psalm's occasion.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "4fce8025741702ed21abee95b6fee5c56f2f9f09ab5e5fd0a04818afe302181f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-samuel/verses.json",
+                "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Samuel 26:20",
+                  "id": "v26-20",
+                  "text": "Now let my blood not fall to the ground opposite the Lord’s presence. Israel’s king has come out to seek my soul, as the night-raven pursues in the mountains.”",
+                  "display_text": "Now let my blood not fall to the ground opposite the Lord’s presence. Israel’s king has come out to seek my soul, as the night-raven pursues in the mountains.”",
+                  "text_sha256": "65fea7dd44423ff5ba3d347e32cd252664e20ef47f0515b492521edf7469f266"
+                }
+              ],
+              "target_passage_sha256": "1d9481376f4d918df5d51dbc57208888589c809cca6e197c8fe061034018334c",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 10:2",
@@ -6871,8 +6955,46 @@
           "id": "v16-15",
           "text": "But I, in righteousness, will appear before Thy face; I will be satisfied when Thy glory appears.",
           "display_text": "But I, in righteousness, will appear before Thy face;\nI will be satisfied when Thy glory appears.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-16-15__1-john-3-2-3",
+              "target": "1 John 3:2-3",
+              "verdict": "supported",
+              "relationship": "hope of divine appearance linked with moral conduct",
+              "rationale": "The psalmist anticipates appearing before God's face in righteousness and being satisfied when His glory appears. John joins the hope of seeing Him when manifested with purifying oneself. Both connect hoped-for encounter with the divine presence to moral conduct; John's likeness to Him and the psalm's satisfaction remain distinct, and resurrection or awakening is not added to the psalm's wording.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "86cf339d82d77305ac77a3ff8f84667745abf2e9e0da5ff99f4a3a0fed340b58",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-john/verses.json",
+                "blob_sha": "d5165122b8928b87c7fc9b31f9e9d1249e6b44c7",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-john/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 John 3:2",
+                  "id": "v3-2",
+                  "text": "Beloved, we are children of God now, and what we will be has not yet been manifested. We know that when He is manifested we will be like Him, because we will see Him as He is.",
+                  "display_text": "Beloved, we are children of God now, and what we will be has not yet been manifested. We know that when He is manifested we will be like Him, because we will see Him as He is.",
+                  "text_sha256": "32a4c07ad218e4935c3354446ba291fb66a4ed1078b4f56baff9745f54c23d54"
+                },
+                {
+                  "reference": "1 John 3:3",
+                  "id": "v3-3",
+                  "text": "And everyone who has this hope in Him purifies himself, just as He is pure.",
+                  "display_text": "And everyone who has this hope in Him purifies himself, just as He is pure.",
+                  "text_sha256": "5431ed776eeaf0c5ef7a46dad9ba6d5e819399603f98e82d25bcf0b2420169e4"
+                }
+              ],
+              "target_passage_sha256": "4ba28603e652769516259ec12cdf35a583c6f4708d955bf87ac8fcbd366e6f1a",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     },
@@ -9773,8 +9895,39 @@
           "id": "v19-9",
           "text": "They were fettered and fell, but we rose and were set upright.",
           "display_text": "They were fettered and fell,\nbut we rose and were set upright.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-19-9__proverbs-24-16",
+              "target": "Proverbs 24:16",
+              "verdict": "supported",
+              "relationship": "contrast between downfall and being raised",
+              "rationale": "The psalm contrasts their being fettered and falling with our rising and being set upright, in the context of trust in the Lord rather than chariots and horses. Proverbs contrasts the righteous person's repeated falling and rising with the impious becoming weak amid evils. Both express a contrast through falling and rising, without identifying the psalm's opponents or importing the proverb's seven falls into its scene.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "5d92f8e1814759d457e16b75541fcb15288da7794b779a43474ff1d04cac0153",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 24:16",
+                  "id": "v24-16",
+                  "text": "for the righteous will fall seven times and rise, but the impious will grow weak amid evils.",
+                  "display_text": "for the righteous will fall seven times and rise, but the impious will grow weak amid evils.",
+                  "text_sha256": "dce0b0dbbb31efd77db38fdffe6c7567721318f68cff5e5cc8ceb733f534410b"
+                }
+              ],
+              "target_passage_sha256": "5be9237be2b5e453c5977f005a7dd32474b172d54cf8ad6cf49d0a02726c3ef3",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 19:10",
@@ -12575,8 +12728,46 @@
           "id": "v24-9",
           "text": "He will guide the meek in judgment; He will teach the meek His ways.",
           "display_text": "He will guide the meek in judgment;\nHe will teach the meek His ways.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-24-9__james-1-21-22",
+              "target": "James 1:21-22",
+              "verdict": "supported",
+              "relationship": "gentleness in receiving divine instruction",
+              "rationale": "The Lord teaches the meek His ways and guides them in judgment. James directs readers to receive the implanted word with gentleness and become its doers. Both connect a gentle disposition with receiving instruction that governs conduct; the psalm describes the Lord's teaching and James addresses the hearer's response, without equating every detail of their respective instruction.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "d1c0a58d3d0dd46a269c006947381f6dfdde901944ae064f9408ae15c89dd096",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "james/verses.json",
+                "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/james/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "James 1:21",
+                  "id": "v1-21",
+                  "text": "Therefore, putting away every impurity and the abundance of evil, receive with gentleness the implanted word, which is able to save your souls.",
+                  "display_text": "Therefore, putting away every impurity and the abundance of evil, receive with gentleness the implanted word, which is able to save your souls.",
+                  "text_sha256": "bde4ff1fbe8911e6860e5fc709c66f95dd2dc446658d04301b11629d3789927a"
+                },
+                {
+                  "reference": "James 1:22",
+                  "id": "v1-22",
+                  "text": "But become doers of the word, and not hearers only, deceiving yourselves.",
+                  "display_text": "But become doers of the word, and not hearers only, deceiving yourselves.",
+                  "text_sha256": "05b2ea79b736448522e2ab02c9a773f711e51dd2d43b340a857583921a35e835"
+                }
+              ],
+              "target_passage_sha256": "34b96fe87e01aeee6d84f89d5fada68d0ebd0410a273ed8a24249beda1c93e2b",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 24:10",
@@ -13585,8 +13776,53 @@
           "id": "v26-2",
           "text": "When those doing evil approached me to eat my flesh, those who afflict me and my enemies, they grew weak and fell.",
           "display_text": "When those doing evil approached me to eat my flesh,\nthose who afflict me and my enemies,\nthey grew weak and fell.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-26-2__micah-3-1-3",
+              "target": "Micah 3:1-3",
+              "verdict": "supported",
+              "relationship": "hostile oppression portrayed as eating flesh",
+              "rationale": "The psalm portrays evildoers approaching to eat the speaker's flesh. Micah addresses unjust authorities through the image of stripping and eating the flesh of God's people. Both make devouring human flesh an image of hostile violence or oppression; Micah names corrupt authorities, while the psalm leaves its attackers unnamed and separately reports their collapse.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "96acd9dc61cf492eea4f01dea325a537aabfb2bd7e4f54ad79fe0d816dacf3d8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "micah/verses.json",
+                "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/micah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Micah 3:1",
+                  "id": "v3-1",
+                  "text": "He will say: “Hear these things now, authorities of Jacob’s house and remaining ones of Israel’s house! Is it not for you to know justice,",
+                  "display_text": "He will say: “Hear these things now, authorities of Jacob’s house and remaining ones of Israel’s house! Is it not for you to know justice,",
+                  "text_sha256": "a8090169e0fed6797e91179aa1130a8ad7f8dea37ef5ecd14cdcfaa1836a3ee2"
+                },
+                {
+                  "reference": "Micah 3:2",
+                  "id": "v3-2",
+                  "text": "you who hate good things and seek evil things, who snatch their skins from them and their flesh from their bones?”",
+                  "display_text": "you who hate good things and seek evil things, who snatch their skins from them and their flesh from their bones?”",
+                  "text_sha256": "0fe5bd8e39c4d2772077ccb57f1c7f21cc5e3fb15d935523ab539dcdd75767b8"
+                },
+                {
+                  "reference": "Micah 3:3",
+                  "id": "v3-3",
+                  "text": "Just as they ate the flesh of My people, flayed their skins from their bones, crushed their bones and divided them into pieces like flesh for a cauldron and meat for a cooking pot,",
+                  "display_text": "Just as they ate the flesh of My people, flayed their skins from their bones, crushed their bones and divided them into pieces like flesh for a cauldron and meat for a cooking pot,",
+                  "text_sha256": "b181c2183e417cf1ebb0b594341f590dccb525f6d3156901c46a9838c5e9f3b4"
+                }
+              ],
+              "target_passage_sha256": "670b5a7908ddb06fa8be1e7c7b5fe26335b67c3b06d5fc1088dfc07de381c55c",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 26:3",
@@ -13749,8 +13985,46 @@
           "id": "v26-6",
           "text": "And now, behold, He raised my head above my enemies; I went around and sacrificed in His tent a sacrifice of shouting; I will sing and make music to the Lord.",
           "display_text": "And now, behold, He raised my head above my enemies;\nI went around and sacrificed in His tent a sacrifice of shouting;\nI will sing and make music to the Lord.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-26-6__2-samuel-22-49-50",
+              "target": "2 Samuel 22:49-50",
+              "verdict": "supported",
+              "relationship": "exaltation above enemies followed by praise",
+              "rationale": "The psalm joins the lifting of the speaker's head above enemies to sacrifice and promised song to the Lord. David's song in Samuel joins being lifted above attackers and rescued to acknowledging the Lord and singing praise. The shared sequence is deliverance above hostile people followed by praise; Samuel does not supply the psalm's tent sacrifice or identify its occasion.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "3258d3049938a771009213f8b7362bfd39bdb0fc95aaabeede334e37dcd0d66c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-samuel/verses.json",
+                "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Samuel 22:49",
+                  "id": "v22-49",
+                  "text": "and brings me out from my enemies. Thou wilt lift me above my attackers; Thou wilt rescue me from the man of wrongs.",
+                  "display_text": "and brings me out from my enemies.\nThou wilt lift me above my attackers;\nThou wilt rescue me from the man of wrongs.",
+                  "text_sha256": "def59bf687918bd00a7c6c2350f51260ef59b3bb5cb012ce880cbac70c8546fa"
+                },
+                {
+                  "reference": "2 Samuel 22:50",
+                  "id": "v22-50",
+                  "text": "Therefore I will acknowledge Thee among the nations, Lord, and sing praise to Thy name.",
+                  "display_text": "Therefore I will acknowledge Thee among the nations, Lord, and sing praise to Thy name.",
+                  "text_sha256": "1626d9f72a75c8669c606abaf386dbf7782ef66751de7057cba7bdddc50248ee"
+                }
+              ],
+              "target_passage_sha256": "25d2db4e8ec51eb8a962a895126073361f577d889329a453b979394b9b2e63eb",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 26:7",
@@ -14042,7 +14316,7 @@
     },
     {
       "chapter": 27,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 27,
         "staging_page_id": 2593,
@@ -14329,8 +14603,81 @@
           "id": "v27-7",
           "text": "The Lord is my helper and my protector; in Him my heart hoped, and I was helped, and my flesh blossomed anew; from my own will I will thank Him.",
           "display_text": "The Lord is my helper and my protector;\nin Him my heart hoped, and I was helped,\nand my flesh blossomed anew;\nfrom my own will I will thank Him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-27-7__job-33-24-30",
+              "target": "Job 33:24-30",
+              "verdict": "supported",
+              "relationship": "bodily renewal joined with prayer and thanksgiving",
+              "rationale": "The psalmist credits the Lord's help with flesh blossoming anew and answers with willing thanks. Elihu describes the Lord renewing a sufferer's body, softening the flesh like an infant's, accepting prayer and rescuing life for praise. Both associate bodily renewal with divine help and a worshipful response. Elihu's conditional account and confession of blame are not imposed upon the psalmist, and no common healing episode is claimed.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "6207119d6962ad567d56f72fce9c4267d3f2831deb095e870a7c08d302ae0d4c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 33:24",
+                  "id": "v33-24",
+                  "text": "He will hold him back from falling into death, and renew his body like plaster upon a wall, and fill his bones with marrow;",
+                  "display_text": "He will hold him back from falling into death,\nand renew his body like plaster upon a wall,\nand fill his bones with marrow;",
+                  "text_sha256": "f7a9eb0d4bb54511f181afdbcfe2d1cc411db3c277c0912fbe2fe38260251610"
+                },
+                {
+                  "reference": "Job 33:25",
+                  "id": "v33-25",
+                  "text": "He will soften his flesh like an infant’s and restore him, grown to manhood, among humans.",
+                  "display_text": "He will soften his flesh like an infant’s\nand restore him, grown to manhood, among humans.",
+                  "text_sha256": "3289d9f528fac432ebd5d1e601832426d1fe2dec07345b4b44b40d6b56126f9e"
+                },
+                {
+                  "reference": "Job 33:26",
+                  "id": "v33-26",
+                  "text": "When he prays to the Lord, it will be acceptable to Him; he will enter with a pure face, with confession, and He will return righteousness to humans.",
+                  "display_text": "When he prays to the Lord, it will be acceptable to Him;\nhe will enter with a pure face, with confession,\nand He will return righteousness to humans.",
+                  "text_sha256": "ab39ad330afc8c6b52b473a93ea8cc37f08ba70af868a13e8b5f5c0048fe92a2"
+                },
+                {
+                  "reference": "Job 33:27",
+                  "id": "v33-27",
+                  "text": "Then the human will blame himself, saying, ‘What things I carried through! He did not examine me as my sins deserved.",
+                  "display_text": "Then the human will blame himself, saying,\n‘What things I carried through!\nHe did not examine me as my sins deserved.",
+                  "text_sha256": "505aa6f6bf3da198d175d320e0467f48b4dc6c616b8a1bf8734470ee0de44977"
+                },
+                {
+                  "reference": "Job 33:28",
+                  "id": "v33-28",
+                  "text": "Save my soul from coming into corruption, and my life will see light.’",
+                  "display_text": "Save my soul from coming into corruption,\nand my life will see light.’",
+                  "text_sha256": "09dd471f94aa64f9f8f49dcda91ea67fd4001eb4e5fa83001276e4765a110310"
+                },
+                {
+                  "reference": "Job 33:29",
+                  "id": "v33-29",
+                  "text": "Behold, the Strong One works all these things in three ways with a man.",
+                  "display_text": "Behold, the Strong One works all these things\nin three ways with a man.",
+                  "text_sha256": "eb70b4732bb37f5e1f39fa37e33e819d5ca115f1547f4dc55d19dc7e74e02f99"
+                },
+                {
+                  "reference": "Job 33:30",
+                  "id": "v33-30",
+                  "text": "But He rescued my soul from death, so that my life might praise Him in light.",
+                  "display_text": "But He rescued my soul from death,\nso that my life might praise Him in light.",
+                  "text_sha256": "5d67aa9a7a6d632eab1828d7a9bf4ac72022c8fe717845f867481f2aff439121"
+                }
+              ],
+              "target_passage_sha256": "db27668670bf253e073debc4ca08f6b693042055b7190814f1dfafcfabd6f813",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 27:8",
@@ -19233,8 +19580,46 @@
           "id": "v34-15",
           "text": "But against me they rejoiced and gathered; scourges gathered against me, and I did not know; they were torn apart and felt no remorse.",
           "display_text": "But against me they rejoiced and gathered;\nscourges gathered against me, and I did not know;\nthey were torn apart and felt no remorse.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-34-15__proverbs-24-17-18",
+              "target": "Proverbs 24:17-18",
+              "verdict": "supported",
+              "relationship": "ethical contrast concerning joy at an enemy's distress",
+              "rationale": "The lament complains that opponents rejoiced and gathered against the speaker amid his trouble. Proverbs prohibits rejoicing or exalting oneself when an enemy falls, because the Lord sees and disapproves. The comparison concerns malicious delight in another's distress; it does not paraphrase the psalm's difficult clauses about gathered scourges and being torn apart, or identify its enemies.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "a58c6a38aa6cba8b02f8315815ed52c90499967ff1f1d8dae3cd101ca494b006",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 24:17",
+                  "id": "v24-17",
+                  "text": "If your enemy falls, do not rejoice over him, and at his tripping do not lift yourself up,",
+                  "display_text": "If your enemy falls, do not rejoice over him, and at his tripping do not lift yourself up,",
+                  "text_sha256": "7291ed22ca1b8b23f1660588034f46b54d5498a193c6fdd69c9badc4623258e4"
+                },
+                {
+                  "reference": "Proverbs 24:18",
+                  "id": "v24-18",
+                  "text": "for the Lord will see, and it will not please Him, and He will turn His wrath away from him.",
+                  "display_text": "for the Lord will see, and it will not please Him, and He will turn His wrath away from him.",
+                  "text_sha256": "ae5b3e32441f17e8807dd71eabff076b86b685d2549ae1279ab71d0345a60d9a"
+                }
+              ],
+              "target_passage_sha256": "759c157c99b66884678e2f2e9580a84a1f4ab529bb2d6e43924e65a7bc1a066f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 34:16",
@@ -22785,8 +23170,53 @@
           "id": "v37-18",
           "text": "For I am ready for scourges, and my pain is continually before me.",
           "display_text": "For I am ready for scourges,\nand my pain is continually before me.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "psalms-37-18__isaiah-50-5-7",
+              "target": "Isaiah 50:5-7",
+              "verdict": "supported",
+              "relationship": "readiness for bodily scourging in contrasting voices",
+              "rationale": "The psalmist says he is ready for scourges with pain continually before him. Isaiah's speaker gives his back to scourges while refusing to disobey the Lord's instruction and trusting His help. Both expressly describe readiness to face bodily blows, but the psalm's surrounding confession of lawlessness and Isaiah's declaration of obedience remain distinct; the speakers and their occasions are not identified.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "b4505712eb9309c6b252fe5797344a793f08e8c614ee5b0bbc7f142e52e340f3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 50:5",
+                  "id": "v50-5",
+                  "text": "and the Lord’s instruction opens my ears. I do not disobey or contradict.",
+                  "display_text": "and the Lord’s instruction opens my ears. I do not disobey or contradict.",
+                  "text_sha256": "b0a1b37cda52aaa31bcb8225ab611e4d85228106eb32cfc5c8075187252ab308"
+                },
+                {
+                  "reference": "Isaiah 50:6",
+                  "id": "v50-6",
+                  "text": "I have given my back to scourges and my cheeks to slaps. I did not turn my face away from the shame of spitting.",
+                  "display_text": "I have given my back to scourges and my cheeks to slaps. I did not turn my face away from the shame of spitting.",
+                  "text_sha256": "caf121c91534f04eb26117eb099d402aa521040e7d03be01b7fc35cf66f96e6a"
+                },
+                {
+                  "reference": "Isaiah 50:7",
+                  "id": "v50-7",
+                  "text": "The Lord became my helper; therefore I was not abashed. Instead, I set my face like solid rock and knew that I would certainly not be ashamed.",
+                  "display_text": "The Lord became my helper; therefore I was not abashed. Instead, I set my face like solid rock and knew that I would certainly not be ashamed.",
+                  "text_sha256": "48e7b98be39620159af692dbcb20073bab2c750c38c13d7533a0aa0fe782a6cb"
+                }
+              ],
+              "target_passage_sha256": "a368841aade80b55bfcf48e4de02823e9eaa00ea7a2fa43dcae6069e0fea6215",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Psalms 37:19",
@@ -97977,5 +98407,52 @@
       ]
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "completed_source_sections": [
+    1,
+    2,
+    3,
+    8,
+    14,
+    17,
+    22,
+    27,
+    36,
+    38,
+    42,
+    52,
+    69,
+    78,
+    81,
+    92,
+    95,
+    96,
+    97,
+    99,
+    105,
+    106,
+    110,
+    111,
+    112,
+    113,
+    114,
+    116,
+    120,
+    123,
+    124,
+    125,
+    127,
+    129,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    141,
+    142,
+    145,
+    146,
+    150
+  ]
 }

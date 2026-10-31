@@ -1,0 +1,36 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "prior_revision": [
+    {
+      "file": "before-extension3-technical-peer-review.json.raw.txt",
+      "sha256": "a3eb5bd8f5696c08a213962b2d9bb9bd7b625519c1860cd259805d3f9a31a4c0"
+    },
+    {
+      "file": "before-extension3-helper-technical-proposal.json.raw.txt",
+      "sha256": "93eaeae37200386330adfedcaac73609b2507486a10d722086d291e2b885245b"
+    },
+    {
+      "file": "before-extension3-run-config.json.raw.txt",
+      "sha256": "a20c95080425bfe10adef972046bf47740020df4bc81a204d27bd717f67495bc"
+    },
+    {
+      "file": "before-extension3-probe-pending-revisit.py.raw.txt",
+      "sha256": "ea45826eb5ff41504e35588e2b5e904f94741ea1940288f51dedf54c1904bcd0"
+    },
+    {
+      "file": "before-extension3-pending-revisit-probe-result.json.raw.txt",
+      "sha256": "a8dd78d091bb19dc3d004159022a6293180498a5aa10874dad2e306e098a9fc7"
+    }
+  ],
+  "extension": {
+    "file": "review-plan-extension3.json",
+    "sha256": "eb20537614413b0db50498321c570341c486eb8180c4970119dd8a6668b833c5"
+  },
+  "changes": [
+    "Append immutable Esther49 and Job322 pending candidate scope in canonical order, with separate extension3 reader/freezer; unchanged generic incremental helper and unchanged production renderer/validator.",
+    "Original three plan files and all prior frozen author/peer artifacts remain byte-identical. Root prior technical acceptance is preserved verbatim before updating this proposal."
+  ],
+  "completion_credit": 0
+}

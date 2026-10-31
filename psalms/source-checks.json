@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "Psalms",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 2534 units in 151 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Complete actual source and retained target passages with necessary context were read and every retained explanation separately reread in the recorded batches. Unsupported source units remain pending with zero completion credit. Earlier completed objects and all unresolved evidence are preserved. No earlier source-only deferral or unresolved candidate is resolved or removed in this run. Inventory alone earns no review credit. No exhaustive discovery or independent specialist verification is claimed.",
+  "method": "Historical actual source reading is preserved. This run selectively reevaluated pending sources with new actual target/context evidence and separately reread supported explanations. Consideration, repeated readings and unresolved proposals receive zero completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -64,6 +64,19 @@
       "revisited_source_units_read": 0,
       "resolved_source_deferrals": 0,
       "deferred_source_units": 80,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T204915Z",
+      "records": "review-batches/2026-10-31T204915Z.json",
+      "new_source_verses": 10,
+      "new_pairs": 10,
+      "source_units_read": 10,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 10,
+      "resolved_source_deferrals": 10,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 0,
       "unresolved_retained_cases": 0
     }
   ],
@@ -482,6 +495,41 @@
       "path": "zechariah/verses.json",
       "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-thessalonians/verses.json",
+      "blob_sha": "b38e8fb5397287f6648d6fd67faa7348d226bd1b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-thessalonians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-thessalonians/verses.json",
+      "blob_sha": "288f9670bb220cb4f5261ed43123800cbf81f400",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "sirach/verses.json",
+      "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "zephaniah/verses.json",
+      "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
     }
   ],
   "unresolved_candidates": [
@@ -5487,10 +5535,10 @@
     "source_passage": "Psalms 1:1-151:7",
     "source_passage_is_review_scope": true,
     "source_units_read": 2534,
-    "source_verse_units": 2165,
-    "deferred_source_units": 369,
-    "retained_pairs": 2278,
-    "distinct_target_verse_units": 2670
+    "source_verse_units": 2175,
+    "deferred_source_units": 359,
+    "retained_pairs": 2288,
+    "distinct_target_verse_units": 2688
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -5509,108 +5557,108 @@
   },
   "pending": [
     "First pending source unit: Psalms 4:1",
-    "2534 of 2534 original source units have been read; 0 are never reviewed. Deferred source units remain incomplete.",
-    "Next never-reviewed source: none; all OT source units read.",
-    "Read but deferred source units: Psalms 4:1, Psalms 4:4, Psalms 5:1, Psalms 5:2, Psalms 5:3, Psalms 5:13, Psalms 6:5, Psalms 6:10, Psalms 6:11, Psalms 7:1, Psalms 7:2, Psalms 7:6, Psalms 7:8, Psalms 7:11, Psalms 7:18, Psalms 9:1, Psalms 9:3, Psalms 9:5, Psalms 9:7, Psalms 9:11, Psalms 9:21, Psalms 9:23, Psalms 9:26, Psalms 9:31, Psalms 9:33, Psalms 9:38, Psalms 10:1, Psalms 10:3, Psalms 10:7, Psalms 11:1, Psalms 11:8, Psalms 11:9, Psalms 12:1, Psalms 12:3, Psalms 13:6, Psalms 15:1, Psalms 15:3, Psalms 15:4, Psalms 15:7, Psalms 16:4, Psalms 16:6, Psalms 16:9, Psalms 16:10, Psalms 16:11, Psalms 16:13, Psalms 16:14, Psalms 16:15, Psalms 18:1, Psalms 18:3, Psalms 18:4, Psalms 18:12, Psalms 18:14, Psalms 19:1, Psalms 19:9, Psalms 20:1, Psalms 20:6, Psalms 20:9, Psalms 20:14, Psalms 21:1, Psalms 21:4, Psalms 21:13, Psalms 21:18, Psalms 23:5, Psalms 23:10, Psalms 24:9, Psalms 24:18, Psalms 24:21, Psalms 25:3, Psalms 25:7, Psalms 25:11, Psalms 26:2, Psalms 26:6, Psalms 26:7, Psalms 27:7, Psalms 28:6, Psalms 28:7, Psalms 28:9, Psalms 29:1, Psalms 29:9, Psalms 29:13, Psalms 30:1, Psalms 30:15, Psalms 30:18, Psalms 30:20, Psalms 30:22, Psalms 30:24, Psalms 31:7, Psalms 32:22, Psalms 33:1, Psalms 33:22, Psalms 34:15, Psalms 34:22, Psalms 35:3, Psalms 35:12, Psalms 37:16, Psalms 37:18, Psalms 37:22, Psalms 39:1, Psalms 39:2, Psalms 40:1, Psalms 40:9, Psalms 41:1, Psalms 41:7, Psalms 43:1, Psalms 43:8, Psalms 43:9, Psalms 43:17, Psalms 43:19, Psalms 44:2, Psalms 44:4, Psalms 44:6, Psalms 44:9, Psalms 44:12, Psalms 44:14, Psalms 44:15, Psalms 44:17, Psalms 45:1, Psalms 46:1, Psalms 46:7, Psalms 46:10, Psalms 47:6, Psalms 47:10, Psalms 47:13, Psalms 48:1, Psalms 48:2, Psalms 48:4, Psalms 48:6, Psalms 48:10, Psalms 48:14, Psalms 48:17, Psalms 48:19, Psalms 49:2, Psalms 49:8, Psalms 49:9, Psalms 49:10, Psalms 50:1, Psalms 50:5, Psalms 51:1, Psalms 51:6, Psalms 51:11, Psalms 53:1, Psalms 53:3, Psalms 53:4, Psalms 53:6, Psalms 54:1, Psalms 54:2, Psalms 54:3, Psalms 54:4, Psalms 54:5, Psalms 54:11, Psalms 54:13, Psalms 54:17, Psalms 54:19, Psalms 55:1, Psalms 55:6, Psalms 55:8, Psalms 55:11, Psalms 56:1, Psalms 56:3, Psalms 57:8, Psalms 57:10, Psalms 58:2, Psalms 58:11, Psalms 58:12, Psalms 58:16, Psalms 59:2, Psalms 59:6, Psalms 60:1, Psalms 60:2, Psalms 60:4, Psalms 61:8, Psalms 61:12, Psalms 62:1, Psalms 62:3, Psalms 62:4, Psalms 63:1, Psalms 63:2, Psalms 63:8, Psalms 64:1, Psalms 64:9, Psalms 64:14, Psalms 65:11, Psalms 65:17, Psalms 65:19, Psalms 65:20, Psalms 66:1, Psalms 67:1, Psalms 67:11, Psalms 67:13, Psalms 67:14, Psalms 67:15, Psalms 67:16, Psalms 67:20, Psalms 67:23, Psalms 67:25, Psalms 67:28, Psalms 67:29, Psalms 67:35, Psalms 68:19, Psalms 68:20, Psalms 68:28, Psalms 68:30, Psalms 68:31, Psalms 70:5, Psalms 70:7, Psalms 70:8, Psalms 70:14, Psalms 70:16, Psalms 70:17, Psalms 71:3, Psalms 71:13, Psalms 72:4, Psalms 72:7, Psalms 72:8, Psalms 72:9, Psalms 72:10, Psalms 72:14, Psalms 72:15, Psalms 72:17, Psalms 72:21, Psalms 72:25, Psalms 73:5, Psalms 74:5, Psalms 74:7, Psalms 75:1, Psalms 75:6, Psalms 75:9, Psalms 75:11, Psalms 76:11, Psalms 77:9, Psalms 77:63, Psalms 77:66, Psalms 79:11, Psalms 79:14, Psalms 80:6, Psalms 82:1, Psalms 82:7, Psalms 82:8, Psalms 83:7, Psalms 83:9, Psalms 84:1, Psalms 85:1, Psalms 85:3, Psalms 85:6, Psalms 86:4, Psalms 87:3, Psalms 87:16, Psalms 88:1, Psalms 88:9, Psalms 88:52, Psalms 89:3, Psalms 89:7, Psalms 89:9, Psalms 89:12, Psalms 89:16, Psalms 89:17, Psalms 90:6, Psalms 90:7, Psalms 91:1, Psalms 91:7, Psalms 91:9, Psalms 91:12, Psalms 93:4, Psalms 93:8, Psalms 93:10, Psalms 93:13, Psalms 93:15, Psalms 93:16, Psalms 93:19, Psalms 94:6, Psalms 98:2, Psalms 100:4, Psalms 101:2, Psalms 101:8, Psalms 101:9, Psalms 102:10, Psalms 103:8, Psalms 103:11, Psalms 103:12, Psalms 103:22, Psalms 103:23, Psalms 104:19, Psalms 104:22, Psalms 107:1, Psalms 108:7, Psalms 108:20, Psalms 109:7, Psalms 115:4, Psalms 117:25, Psalms 118:3, Psalms 118:8, Psalms 118:10, Psalms 118:12, Psalms 118:13, Psalms 118:15, Psalms 118:16, Psalms 118:17, Psalms 118:20, Psalms 118:26, Psalms 118:29, Psalms 118:30, Psalms 118:34, Psalms 118:35, Psalms 118:40, Psalms 118:44, Psalms 118:47, Psalms 118:49, Psalms 118:56, Psalms 118:60, Psalms 118:65, Psalms 118:68, Psalms 118:77, Psalms 118:78, Psalms 118:84, Psalms 118:85, Psalms 118:87, Psalms 118:96, Psalms 118:102, Psalms 118:114, Psalms 118:117, Psalms 118:119, Psalms 118:121, Psalms 118:124, Psalms 118:125, Psalms 118:131, Psalms 118:132, Psalms 118:137, Psalms 118:144, Psalms 118:145, Psalms 118:146, Psalms 118:149, Psalms 118:156, Psalms 118:157, Psalms 118:159, Psalms 118:166, Psalms 118:167, Psalms 118:169, Psalms 118:170, Psalms 118:173, Psalms 119:3, Psalms 119:4, Psalms 119:6, Psalms 121:3, Psalms 121:8, Psalms 121:9, Psalms 122:2, Psalms 122:4, Psalms 126:5, Psalms 128:4, Psalms 128:7, Psalms 130:2, Psalms 131:6, Psalms 138:4, Psalms 138:11, Psalms 138:16, Psalms 138:17, Psalms 138:18, Psalms 138:20, Psalms 139:1, Psalms 139:8, Psalms 140:6, Psalms 143:13, Psalms 143:14, Psalms 144:11, Psalms 147:2, Psalms 147:4, Psalms 148:12, Psalms 149:9, Psalms 151:3",
+    "2534 of 2534 original source units read; 0 never reviewed. Deferred units remain incomplete.",
+    "Next never-reviewed source: none; all original units read.",
+    "Read but deferred source units: Psalms 4:1, Psalms 4:4, Psalms 5:1, Psalms 5:2, Psalms 5:3, Psalms 5:13, Psalms 6:5, Psalms 6:10, Psalms 6:11, Psalms 7:1, Psalms 7:2, Psalms 7:8, Psalms 7:11, Psalms 7:18, Psalms 9:1, Psalms 9:3, Psalms 9:5, Psalms 9:7, Psalms 9:11, Psalms 9:21, Psalms 9:23, Psalms 9:26, Psalms 9:31, Psalms 9:33, Psalms 9:38, Psalms 10:3, Psalms 10:7, Psalms 11:1, Psalms 11:8, Psalms 11:9, Psalms 12:1, Psalms 12:3, Psalms 13:6, Psalms 15:1, Psalms 15:3, Psalms 15:4, Psalms 15:7, Psalms 16:4, Psalms 16:6, Psalms 16:9, Psalms 16:10, Psalms 16:11, Psalms 16:13, Psalms 16:14, Psalms 18:1, Psalms 18:3, Psalms 18:4, Psalms 18:12, Psalms 18:14, Psalms 19:1, Psalms 20:1, Psalms 20:6, Psalms 20:9, Psalms 20:14, Psalms 21:1, Psalms 21:4, Psalms 21:13, Psalms 21:18, Psalms 23:5, Psalms 23:10, Psalms 24:18, Psalms 24:21, Psalms 25:3, Psalms 25:7, Psalms 25:11, Psalms 26:7, Psalms 28:6, Psalms 28:7, Psalms 28:9, Psalms 29:1, Psalms 29:9, Psalms 29:13, Psalms 30:1, Psalms 30:15, Psalms 30:18, Psalms 30:20, Psalms 30:22, Psalms 30:24, Psalms 31:7, Psalms 32:22, Psalms 33:1, Psalms 33:22, Psalms 34:22, Psalms 35:3, Psalms 35:12, Psalms 37:16, Psalms 37:22, Psalms 39:1, Psalms 39:2, Psalms 40:1, Psalms 40:9, Psalms 41:1, Psalms 41:7, Psalms 43:1, Psalms 43:8, Psalms 43:9, Psalms 43:17, Psalms 43:19, Psalms 44:2, Psalms 44:4, Psalms 44:6, Psalms 44:9, Psalms 44:12, Psalms 44:14, Psalms 44:15, Psalms 44:17, Psalms 45:1, Psalms 46:1, Psalms 46:7, Psalms 46:10, Psalms 47:6, Psalms 47:10, Psalms 47:13, Psalms 48:1, Psalms 48:2, Psalms 48:4, Psalms 48:6, Psalms 48:10, Psalms 48:14, Psalms 48:17, Psalms 48:19, Psalms 49:2, Psalms 49:8, Psalms 49:9, Psalms 49:10, Psalms 50:1, Psalms 50:5, Psalms 51:1, Psalms 51:6, Psalms 51:11, Psalms 53:1, Psalms 53:3, Psalms 53:4, Psalms 53:6, Psalms 54:1, Psalms 54:2, Psalms 54:3, Psalms 54:4, Psalms 54:5, Psalms 54:11, Psalms 54:13, Psalms 54:17, Psalms 54:19, Psalms 55:1, Psalms 55:6, Psalms 55:8, Psalms 55:11, Psalms 56:1, Psalms 56:3, Psalms 57:8, Psalms 57:10, Psalms 58:2, Psalms 58:11, Psalms 58:12, Psalms 58:16, Psalms 59:2, Psalms 59:6, Psalms 60:1, Psalms 60:2, Psalms 60:4, Psalms 61:8, Psalms 61:12, Psalms 62:1, Psalms 62:3, Psalms 62:4, Psalms 63:1, Psalms 63:2, Psalms 63:8, Psalms 64:1, Psalms 64:9, Psalms 64:14, Psalms 65:11, Psalms 65:17, Psalms 65:19, Psalms 65:20, Psalms 66:1, Psalms 67:1, Psalms 67:11, Psalms 67:13, Psalms 67:14, Psalms 67:15, Psalms 67:16, Psalms 67:20, Psalms 67:23, Psalms 67:25, Psalms 67:28, Psalms 67:29, Psalms 67:35, Psalms 68:19, Psalms 68:20, Psalms 68:28, Psalms 68:30, Psalms 68:31, Psalms 70:5, Psalms 70:7, Psalms 70:8, Psalms 70:14, Psalms 70:16, Psalms 70:17, Psalms 71:3, Psalms 71:13, Psalms 72:4, Psalms 72:7, Psalms 72:8, Psalms 72:9, Psalms 72:10, Psalms 72:14, Psalms 72:15, Psalms 72:17, Psalms 72:21, Psalms 72:25, Psalms 73:5, Psalms 74:5, Psalms 74:7, Psalms 75:1, Psalms 75:6, Psalms 75:9, Psalms 75:11, Psalms 76:11, Psalms 77:9, Psalms 77:63, Psalms 77:66, Psalms 79:11, Psalms 79:14, Psalms 80:6, Psalms 82:1, Psalms 82:7, Psalms 82:8, Psalms 83:7, Psalms 83:9, Psalms 84:1, Psalms 85:1, Psalms 85:3, Psalms 85:6, Psalms 86:4, Psalms 87:3, Psalms 87:16, Psalms 88:1, Psalms 88:9, Psalms 88:52, Psalms 89:3, Psalms 89:7, Psalms 89:9, Psalms 89:12, Psalms 89:16, Psalms 89:17, Psalms 90:6, Psalms 90:7, Psalms 91:1, Psalms 91:7, Psalms 91:9, Psalms 91:12, Psalms 93:4, Psalms 93:8, Psalms 93:10, Psalms 93:13, Psalms 93:15, Psalms 93:16, Psalms 93:19, Psalms 94:6, Psalms 98:2, Psalms 100:4, Psalms 101:2, Psalms 101:8, Psalms 101:9, Psalms 102:10, Psalms 103:8, Psalms 103:11, Psalms 103:12, Psalms 103:22, Psalms 103:23, Psalms 104:19, Psalms 104:22, Psalms 107:1, Psalms 108:7, Psalms 108:20, Psalms 109:7, Psalms 115:4, Psalms 117:25, Psalms 118:3, Psalms 118:8, Psalms 118:10, Psalms 118:12, Psalms 118:13, Psalms 118:15, Psalms 118:16, Psalms 118:17, Psalms 118:20, Psalms 118:26, Psalms 118:29, Psalms 118:30, Psalms 118:34, Psalms 118:35, Psalms 118:40, Psalms 118:44, Psalms 118:47, Psalms 118:49, Psalms 118:56, Psalms 118:60, Psalms 118:65, Psalms 118:68, Psalms 118:77, Psalms 118:78, Psalms 118:84, Psalms 118:85, Psalms 118:87, Psalms 118:96, Psalms 118:102, Psalms 118:114, Psalms 118:117, Psalms 118:119, Psalms 118:121, Psalms 118:124, Psalms 118:125, Psalms 118:131, Psalms 118:132, Psalms 118:137, Psalms 118:144, Psalms 118:145, Psalms 118:146, Psalms 118:149, Psalms 118:156, Psalms 118:157, Psalms 118:159, Psalms 118:166, Psalms 118:167, Psalms 118:169, Psalms 118:170, Psalms 118:173, Psalms 119:3, Psalms 119:4, Psalms 119:6, Psalms 121:3, Psalms 121:8, Psalms 121:9, Psalms 122:2, Psalms 122:4, Psalms 126:5, Psalms 128:4, Psalms 128:7, Psalms 130:2, Psalms 131:6, Psalms 138:4, Psalms 138:11, Psalms 138:16, Psalms 138:17, Psalms 138:18, Psalms 138:20, Psalms 139:1, Psalms 139:8, Psalms 140:6, Psalms 143:13, Psalms 143:14, Psalms 144:11, Psalms 147:2, Psalms 147:4, Psalms 148:12, Psalms 149:9, Psalms 151:3",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
-    "Target evidence pending: Psalms 6:1 / 1 Chronicles 15:21",
-    "Target evidence pending: Psalms 7:1 / 2 Samuel 15:32",
-    "Target evidence pending: Psalms 10:1 / 1 Samuel 26:18-20",
-    "Target evidence pending: Psalms 15:4 / Exodus 23:13",
-    "Target evidence pending: Psalms 18:14 / Romans 6:14",
-    "Target evidence pending: Psalms 21:18 / John 19:36",
-    "Target evidence pending: Psalms 23:7 / Acts 1:9-11",
-    "Target evidence pending: Psalms 24:14 / John 15:15",
-    "Target evidence pending: Psalms 28:6 / Deuteronomy 3:9",
-    "Target evidence pending: Psalms 28:9 / Job 39:1-3",
-    "Target evidence pending: Psalms 29:1 / 2 Chronicles 7:5-9",
-    "Target evidence pending: Psalms 30:22 / 1 Samuel 23:7-9",
-    "Target evidence pending: Psalms 33:1 / 1 Samuel 21:11-16",
-    "Target evidence pending: Psalms 34:14 / Job 30:25",
-    "Target evidence pending: Psalms 37:16 / Psalms 39:2",
-    "Target evidence pending: Psalms 37:22 / Psalms 21:12",
-    "Target evidence pending: Psalms 38:1 / 1 Chronicles 25:1-3",
-    "Target evidence pending: Psalms 38:8 / Psalms 61:8",
-    "Target evidence pending: Psalms 39:2 / Psalms 33:5",
-    "Target evidence pending: Psalms 40:9 / Psalms 3:3",
-    "Target evidence pending: Psalms 41:7 / 2 Samuel 17:22",
-    "Target evidence pending: Psalms 44:9 / Exodus 30:23-25",
-    "Target evidence pending: Psalms 46:6 / Acts 1:9-11",
-    "Target evidence pending: Psalms 47:5 / Psalms 2:2",
-    "Target evidence pending: Psalms 47:8 / 1 Kings 16:28f",
-    "Target evidence pending: Psalms 55:1 / 1 Samuel 21:11-16",
-    "Target evidence pending: Psalms 56:1 / 1 Samuel 22:1",
-    "Target evidence pending: Psalms 56:1 / 1 Samuel 24:1-8",
-    "Target evidence pending: Psalms 59:2 / 2 Samuel 8:13-14",
-    "Target evidence pending: Psalms 59:2 / 1 Chronicles 18:12-13",
-    "Target evidence pending: Psalms 59:6 / Jeremiah 4:6",
-    "Target evidence pending: Psalms 60:4 / Proverbs 18:10",
-    "Target evidence pending: Psalms 61:12 / Job 33:14-18",
-    "Target evidence pending: Psalms 64:7 / Amos 4:13",
-    "Target evidence pending: Psalms 67:15 / Judges 9:48",
-    "Target evidence pending: Psalms 67:25 / 1 Chronicles 15:25-29",
-    "Target evidence pending: Psalms 70:1 / Jeremiah 42:6-11",
-    "Target evidence pending: Psalms 70:16 / Isaiah 45:24",
-    "Target evidence pending: Psalms 71:6 / Judges 6:36-40",
-    "Target evidence pending: Psalms 72:14 / Job 7:17-21",
-    "Target evidence pending: Psalms 75:1 / 2 Kings 19:35-37",
-    "Target evidence pending: Psalms 75:9 / Habakkuk 2:20",
-    "Target evidence pending: Psalms 77:9 / 1 Chronicles 7:20-23",
-    "Target evidence pending: Psalms 77:63 / Jeremiah 7:32-34",
-    "Target evidence pending: Psalms 77:66 / 1 Samuel 5:9-12",
-    "Target evidence pending: Psalms 80:6 / Exodus 12:41-42",
-    "Target evidence pending: Psalms 72:8 / Daniel 7:25",
-    "Target evidence pending: Psalms 74:5 / 1 Samuel 2:3",
-    "Target evidence pending: Psalms 82:7 / 2 Chronicles 20:1-12",
-    "Target evidence pending: Psalms 87:1 / 1 Chronicles 6:18",
-    "Target evidence pending: Psalms 88:1 / 1 Chronicles 6:29",
-    "Target evidence pending: Psalms 88:1 / 1 Kings 5:11",
-    "Target evidence pending: Psalms 88:11 / Isaiah 51:9-10",
-    "Target evidence pending: Psalms 88:52 / Matthew 27:39-43",
-    "Target evidence pending: Psalms 82:11 / Jeremiah 8:1-2",
-    "Target evidence pending: Psalms 88:19 / Isaiah 43:15",
-    "Target evidence pending: Psalms 89:3 / Genesis 3:19",
-    "Target evidence pending: Psalms 89:9 / Job 8:14-15",
-    "Target evidence pending: Psalms 89:12 / Psalms 38:5",
-    "Target evidence pending: Psalms 91:1 / 1 Chronicles 23:30-31",
-    "Target evidence pending: Psalms 94:8 / Exodus 17:1-7",
-    "Target evidence pending: Psalms 100:5 / Leviticus 19:16",
-    "Target evidence pending: Psalms 101:6 / Job 19:20",
-    "Target evidence pending: Psalms 101:8 / Proverbs 27:8",
-    "Target evidence pending: Psalms 101:11 / Job 30:22",
-    "Target evidence pending: Psalms 102:7 / Exodus 33:13",
-    "Target evidence pending: Psalms 102:10 / Ezra 9:13",
-    "Target evidence pending: Psalms 103:8 / Genesis 8:5",
-    "Target evidence pending: Psalms 103:18 / Proverbs 30:26",
-    "Target evidence pending: Psalms 104:19 / Genesis 41:13",
-    "Target evidence pending: Psalms 108:7 / Proverbs 28:9",
-    "Target evidence pending: Psalms 108:7 / Psalms 65:18",
-    "Target evidence pending: Psalms 108:24 / Daniel 10:3-8",
-    "Target evidence pending: Psalms 109:7 / Psalms 3:4",
-    "Target evidence pending: Psalms 113:4 / Psalms 28:6",
-    "Target evidence pending: Psalms 114:7 / Jeremiah 6:16",
-    "Target evidence pending: Psalms 115:4 / 1 Corinthians 10:16",
-    "Target evidence pending: Psalms 117:25 / Matthew 21:9",
-    "Target evidence pending: Psalms 117:27 / Matthew 21:8-9",
-    "Target evidence pending: Psalms 118:49 / 2 Samuel 7:25-29",
-    "Target evidence pending: Psalms 118:85 / 1 Timothy 4:7",
-    "Target evidence pending: Psalms 118:96 / Job 11:7-9",
-    "Target evidence pending: Psalms 130:2 / Isaiah 66:13",
-    "Target evidence pending: Psalms 131:6 / 1 Samuel 7:1",
-    "Target evidence pending: Psalms 129:4 / Daniel 9:9",
-    "Target evidence pending: Psalms 131:17 / 1 Kings 11:36",
-    "Target evidence pending: Psalms 134:3 / Psalms 146:1",
-    "Target evidence pending: Psalms 129:4 / 1 John 4:10",
-    "Target evidence pending: Psalms 138:16 / Exodus 32:32-33",
-    "Target evidence pending: Psalms 139:8 / Isaiah 59:17",
-    "Target evidence pending: Psalms 141:1 / 1 Samuel 24:4",
-    "Target evidence pending: Psalms 144:11 / Daniel 7:14",
-    "Target evidence pending: Psalms 145:8 / Isaiah 61:1",
-    "Target evidence pending: Psalms 147:2 / Nehemiah 7:1-3",
-    "Target evidence pending: Psalms 149:9 / Deuteronomy 32:41-43",
-    "Target evidence pending: Psalms 151:3 / Psalms 93:9",
-    "Target evidence pending: Psalms 151:4 / 1 Samuel 16:13"
+    "Unretained target candidate: Psalms 6:1 / 1 Chronicles 15:21",
+    "Unretained target candidate: Psalms 7:1 / 2 Samuel 15:32",
+    "Unretained target candidate: Psalms 10:1 / 1 Samuel 26:18-20",
+    "Unretained target candidate: Psalms 15:4 / Exodus 23:13",
+    "Unretained target candidate: Psalms 18:14 / Romans 6:14",
+    "Unretained target candidate: Psalms 21:18 / John 19:36",
+    "Unretained target candidate: Psalms 23:7 / Acts 1:9-11",
+    "Unretained target candidate: Psalms 24:14 / John 15:15",
+    "Unretained target candidate: Psalms 28:6 / Deuteronomy 3:9",
+    "Unretained target candidate: Psalms 28:9 / Job 39:1-3",
+    "Unretained target candidate: Psalms 29:1 / 2 Chronicles 7:5-9",
+    "Unretained target candidate: Psalms 30:22 / 1 Samuel 23:7-9",
+    "Unretained target candidate: Psalms 33:1 / 1 Samuel 21:11-16",
+    "Unretained target candidate: Psalms 34:14 / Job 30:25",
+    "Unretained target candidate: Psalms 37:16 / Psalms 39:2",
+    "Unretained target candidate: Psalms 37:22 / Psalms 21:12",
+    "Unretained target candidate: Psalms 38:1 / 1 Chronicles 25:1-3",
+    "Unretained target candidate: Psalms 38:8 / Psalms 61:8",
+    "Unretained target candidate: Psalms 39:2 / Psalms 33:5",
+    "Unretained target candidate: Psalms 40:9 / Psalms 3:3",
+    "Unretained target candidate: Psalms 41:7 / 2 Samuel 17:22",
+    "Unretained target candidate: Psalms 44:9 / Exodus 30:23-25",
+    "Unretained target candidate: Psalms 46:6 / Acts 1:9-11",
+    "Unretained target candidate: Psalms 47:5 / Psalms 2:2",
+    "Unretained target candidate: Psalms 47:8 / 1 Kings 16:28f",
+    "Unretained target candidate: Psalms 55:1 / 1 Samuel 21:11-16",
+    "Unretained target candidate: Psalms 56:1 / 1 Samuel 22:1",
+    "Unretained target candidate: Psalms 56:1 / 1 Samuel 24:1-8",
+    "Unretained target candidate: Psalms 59:2 / 2 Samuel 8:13-14",
+    "Unretained target candidate: Psalms 59:2 / 1 Chronicles 18:12-13",
+    "Unretained target candidate: Psalms 59:6 / Jeremiah 4:6",
+    "Unretained target candidate: Psalms 60:4 / Proverbs 18:10",
+    "Unretained target candidate: Psalms 61:12 / Job 33:14-18",
+    "Unretained target candidate: Psalms 64:7 / Amos 4:13",
+    "Unretained target candidate: Psalms 67:15 / Judges 9:48",
+    "Unretained target candidate: Psalms 67:25 / 1 Chronicles 15:25-29",
+    "Unretained target candidate: Psalms 70:1 / Jeremiah 42:6-11",
+    "Unretained target candidate: Psalms 70:16 / Isaiah 45:24",
+    "Unretained target candidate: Psalms 71:6 / Judges 6:36-40",
+    "Unretained target candidate: Psalms 72:14 / Job 7:17-21",
+    "Unretained target candidate: Psalms 75:1 / 2 Kings 19:35-37",
+    "Unretained target candidate: Psalms 75:9 / Habakkuk 2:20",
+    "Unretained target candidate: Psalms 77:9 / 1 Chronicles 7:20-23",
+    "Unretained target candidate: Psalms 77:63 / Jeremiah 7:32-34",
+    "Unretained target candidate: Psalms 77:66 / 1 Samuel 5:9-12",
+    "Unretained target candidate: Psalms 80:6 / Exodus 12:41-42",
+    "Unretained target candidate: Psalms 72:8 / Daniel 7:25",
+    "Unretained target candidate: Psalms 74:5 / 1 Samuel 2:3",
+    "Unretained target candidate: Psalms 82:7 / 2 Chronicles 20:1-12",
+    "Unretained target candidate: Psalms 87:1 / 1 Chronicles 6:18",
+    "Unretained target candidate: Psalms 88:1 / 1 Chronicles 6:29",
+    "Unretained target candidate: Psalms 88:1 / 1 Kings 5:11",
+    "Unretained target candidate: Psalms 88:11 / Isaiah 51:9-10",
+    "Unretained target candidate: Psalms 88:52 / Matthew 27:39-43",
+    "Unretained target candidate: Psalms 82:11 / Jeremiah 8:1-2",
+    "Unretained target candidate: Psalms 88:19 / Isaiah 43:15",
+    "Unretained target candidate: Psalms 89:3 / Genesis 3:19",
+    "Unretained target candidate: Psalms 89:9 / Job 8:14-15",
+    "Unretained target candidate: Psalms 89:12 / Psalms 38:5",
+    "Unretained target candidate: Psalms 91:1 / 1 Chronicles 23:30-31",
+    "Unretained target candidate: Psalms 94:8 / Exodus 17:1-7",
+    "Unretained target candidate: Psalms 100:5 / Leviticus 19:16",
+    "Unretained target candidate: Psalms 101:6 / Job 19:20",
+    "Unretained target candidate: Psalms 101:8 / Proverbs 27:8",
+    "Unretained target candidate: Psalms 101:11 / Job 30:22",
+    "Unretained target candidate: Psalms 102:7 / Exodus 33:13",
+    "Unretained target candidate: Psalms 102:10 / Ezra 9:13",
+    "Unretained target candidate: Psalms 103:8 / Genesis 8:5",
+    "Unretained target candidate: Psalms 103:18 / Proverbs 30:26",
+    "Unretained target candidate: Psalms 104:19 / Genesis 41:13",
+    "Unretained target candidate: Psalms 108:7 / Proverbs 28:9",
+    "Unretained target candidate: Psalms 108:7 / Psalms 65:18",
+    "Unretained target candidate: Psalms 108:24 / Daniel 10:3-8",
+    "Unretained target candidate: Psalms 109:7 / Psalms 3:4",
+    "Unretained target candidate: Psalms 113:4 / Psalms 28:6",
+    "Unretained target candidate: Psalms 114:7 / Jeremiah 6:16",
+    "Unretained target candidate: Psalms 115:4 / 1 Corinthians 10:16",
+    "Unretained target candidate: Psalms 117:25 / Matthew 21:9",
+    "Unretained target candidate: Psalms 117:27 / Matthew 21:8-9",
+    "Unretained target candidate: Psalms 118:49 / 2 Samuel 7:25-29",
+    "Unretained target candidate: Psalms 118:85 / 1 Timothy 4:7",
+    "Unretained target candidate: Psalms 118:96 / Job 11:7-9",
+    "Unretained target candidate: Psalms 130:2 / Isaiah 66:13",
+    "Unretained target candidate: Psalms 131:6 / 1 Samuel 7:1",
+    "Unretained target candidate: Psalms 129:4 / Daniel 9:9",
+    "Unretained target candidate: Psalms 131:17 / 1 Kings 11:36",
+    "Unretained target candidate: Psalms 134:3 / Psalms 146:1",
+    "Unretained target candidate: Psalms 129:4 / 1 John 4:10",
+    "Unretained target candidate: Psalms 138:16 / Exodus 32:32-33",
+    "Unretained target candidate: Psalms 139:8 / Isaiah 59:17",
+    "Unretained target candidate: Psalms 141:1 / 1 Samuel 24:4",
+    "Unretained target candidate: Psalms 144:11 / Daniel 7:14",
+    "Unretained target candidate: Psalms 145:8 / Isaiah 61:1",
+    "Unretained target candidate: Psalms 147:2 / Nehemiah 7:1-3",
+    "Unretained target candidate: Psalms 149:9 / Deuteronomy 32:41-43",
+    "Unretained target candidate: Psalms 151:3 / Psalms 93:9",
+    "Unretained target candidate: Psalms 151:4 / 1 Samuel 16:13"
   ],
   "deferred_source_units": [
     {
@@ -5893,32 +5941,6 @@
         "id": "v7-2",
         "text": "Lord my God, in Thee I hoped. Save me from all who pursue me, and rescue me,",
         "text_sha256": "61c7ba237a740c2d25002780ce9aaec5338f7414330de627bad82e3d009be225"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms1-10 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
-      "source_reference": "Psalms 7:6",
-      "target": null,
-      "reason": "The pursuit, trampling and dust form the consequence of the preceding conditional innocence oath. This full consequence was read as necessary context, but no separate particular counterpart is established merely from its grammatical continuation of that oath.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 7:6",
-        "id": "v7-6",
-        "text": "then may the enemy pursue my soul and overtake it, trample my life into the earth, and make my glory dwell in dust. Diapsalma.",
-        "text_sha256": "96a6a2279b48788d289054fbaae0db07d6ceea3a444e0953c226d045924de7dc"
       },
       "reviewer": "Codex AI author /root/macc13_16_author, Psalms1-10 packet",
       "reviewed": "2026-10-30",
@@ -6283,32 +6305,6 @@
         "id": "v9-38",
         "text": "The Lord heard the desire of the needy; Thine ear attended to the preparation of their heart,",
         "text_sha256": "b9bba4adb5cfcdda8bd93d69e57b4069ed8480a661881af3dbdbc1a482b3f88b"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms1-10 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
-      "source_reference": "Psalms 10:1",
-      "target": null,
-      "reason": "The title and running text together describe trust and advice to flee to the mountains like a little bird. The separately read Saul pursuit account contains a different night-raven comparison and does not establish this psalm's historical occasion.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 10:1",
-        "id": "v10-1",
-        "text": "For the end. A psalm of David. In the Lord I have trusted. How will you say to my soul, “Move away to the mountains like a little bird”?",
-        "text_sha256": "4fce8025741702ed21abee95b6fee5c56f2f9f09ab5e5fd0a04818afe302181f"
       },
       "reviewer": "Codex AI author /root/macc13_16_author, Psalms1-10 packet",
       "reviewed": "2026-10-30",
@@ -6810,32 +6806,6 @@
       "review_batch": "2026-10-30T181607Z"
     },
     {
-      "source_reference": "Psalms 16:15",
-      "target": null,
-      "reason": "Appearance before God in righteousness and satisfaction when His glory appears are preserved without adding awakening from death or identifying a particular resurrection event.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 16:15",
-        "id": "v16-15",
-        "text": "But I, in righteousness, will appear before Thy face; I will be satisfied when Thy glory appears.",
-        "text_sha256": "86cf339d82d77305ac77a3ff8f84667745abf2e9e0da5ff99f4a3a0fed340b58"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 11–20 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
       "source_reference": "Psalms 18:1",
       "target": null,
       "reason": "The generic heading supplies no separate substantive counterpart.",
@@ -6985,32 +6955,6 @@
         "id": "v19-1",
         "text": "For the end. A psalm of David.",
         "text_sha256": "4d8d1d45d89fb71224c530171697f88df46f7b510e297a5c2d3418b47a6f4812"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 11–20 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
-      "source_reference": "Psalms 19:9",
-      "target": null,
-      "reason": "Their being fettered and falling, contrasted with our rising and being set upright, is preserved without identifying a particular battle or importing another passage’s named parties.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 19:9",
-        "id": "v19-9",
-        "text": "They were fettered and fell, but we rose and were set upright.",
-        "text_sha256": "5d92f8e1814759d457e16b75541fcb15288da7794b779a43474ff1d04cac0153"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 11–20 packet",
       "reviewed": "2026-10-30",
@@ -7278,32 +7222,6 @@
       "review_batch": "2026-10-30T181607Z"
     },
     {
-      "source_reference": "Psalms 24:9",
-      "target": null,
-      "reason": "The guidance and teaching of the meek are preserved; promises of land to the meek do not by themselves establish this different instructional relationship.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 24:9",
-        "id": "v24-9",
-        "text": "He will guide the meek in judgment; He will teach the meek His ways.",
-        "text_sha256": "d1c0a58d3d0dd46a269c006947381f6dfdde901944ae064f9408ae15c89dd096"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
       "source_reference": "Psalms 24:18",
       "target": null,
       "reason": "The joined appeal to see humiliation and toil and forgive all sins has not been given an independent target on the strength of generic forgiveness language alone.",
@@ -7434,58 +7352,6 @@
       "review_batch": "2026-10-30T181607Z"
     },
     {
-      "source_reference": "Psalms 26:2",
-      "target": null,
-      "reason": "The flesh-devouring attackers' collapse is not identified with a particular military or Passion episode; that identity requires more than approaching enemies falling.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 26:2",
-        "id": "v26-2",
-        "text": "When those doing evil approached me to eat my flesh, those who afflict me and my enemies, they grew weak and fell.",
-        "text_sha256": "96acd9dc61cf492eea4f01dea325a537aabfb2bd7e4f54ad79fe0d816dacf3d8"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
-      "source_reference": "Psalms 26:6",
-      "target": null,
-      "reason": "The lifted head and sacrifice of shouting in the tent do not establish a particular triumphal sacrifice elsewhere.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 26:6",
-        "id": "v26-6",
-        "text": "And now, behold, He raised my head above my enemies; I went around and sacrificed in His tent a sacrifice of shouting; I will sing and make music to the Lord.",
-        "text_sha256": "3258d3049938a771009213f8b7362bfd39bdb0fc95aaabeede334e37dcd0d66c"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
       "source_reference": "Psalms 26:7",
       "target": null,
       "reason": "The cry for hearing and mercy has no sufficiently particular independent link retained beyond a general prayer formula.",
@@ -7505,32 +7371,6 @@
         "id": "v26-7",
         "text": "Hear, Lord, my voice with which I cried; have mercy on me and hear me.",
         "text_sha256": "3694f5a826ee7aa235e6b7c8ef3831873a019e119af21af08039a30ce2dfa462"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
-      "source_reference": "Psalms 27:7",
-      "target": null,
-      "reason": "The heart's hope, help and flesh blossoming anew are preserved without equating the bodily image with a specific healing or resurrection narrative.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 27:7",
-        "id": "v27-7",
-        "text": "The Lord is my helper and my protector; in Him my heart hoped, and I was helped, and my flesh blossomed anew; from my own will I will thank Him.",
-        "text_sha256": "6207119d6962ad567d56f72fce9c4267d3f2831deb095e870a7c08d302ae0d4c"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
       "reviewed": "2026-10-30",
@@ -7954,32 +7794,6 @@
       "review_batch": "2026-10-30T181607Z"
     },
     {
-      "source_reference": "Psalms 34:15",
-      "target": null,
-      "reason": "The gathering and rejoicing of opponents is clear, but the supplied phrases about scourges gathering and being torn apart without remorse are not silently rewritten. No adequately particular target for the complete complaint was established.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 34:15",
-        "id": "v34-15",
-        "text": "But against me they rejoiced and gathered; scourges gathered against me, and I did not know; they were torn apart and felt no remorse.",
-        "text_sha256": "a58c6a38aa6cba8b02f8315815ed52c90499967ff1f1d8dae3cd101ca494b006"
-      },
-      "reviewer": "Codex AI author /root, Psalms 33–40 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
       "source_reference": "Psalms 34:22",
       "target": null,
       "reason": "The request that the God who has seen not remain silent or depart is read within the hostile-witness lament. A broad comparison to divine awareness or rescue alone does not establish a sufficiently distinctive retained link in this pass.",
@@ -8077,32 +7891,6 @@
         "id": "v37-16",
         "text": "For I hoped in Thee, Lord; Thou wilt hear, Lord my God.",
         "text_sha256": "ed7fa51cc442c8988d392e6be32671cc4a0134ca6657c3a794c947eb6ef7577c"
-      },
-      "reviewer": "Codex AI author /root, Psalms 33–40 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T181607Z"
-    },
-    {
-      "source_reference": "Psalms 37:18",
-      "target": null,
-      "reason": "Readiness for scourges and continual pain are preserved as written. A suggested resemblance to continual consciousness of sin would substitute a different object for pain, so no such comparison is retained.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 37:18",
-        "id": "v37-18",
-        "text": "For I am ready for scourges, and my pain is continually before me.",
-        "text_sha256": "b4505712eb9309c6b252fe5797344a793f08e8c614ee5b0bbc7f142e52e340f3"
       },
       "reviewer": "Codex AI author /root, Psalms 33–40 packet",
       "reviewed": "2026-10-30",
@@ -15272,5 +15060,513 @@
       "review_batch": "2026-10-30T222040Z"
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "Psalms 7:6",
+      "original_deferral": {
+        "source_reference": "Psalms 7:6",
+        "target": null,
+        "reason": "The pursuit, trampling and dust form the consequence of the preceding conditional innocence oath. This full consequence was read as necessary context, but no separate particular counterpart is established merely from its grammatical continuation of that oath.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 7:6",
+          "id": "v7-6",
+          "text": "then may the enemy pursue my soul and overtake it, trample my life into the earth, and make my glory dwell in dust. Diapsalma.",
+          "text_sha256": "96a6a2279b48788d289054fbaae0db07d6ceea3a444e0953c226d045924de7dc"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms1-10 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "60be7592c7dd3527bff2feab1ee4448d57e51d65990be43aaaec7d6af2e4eb8f",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-7-6__job-31-5-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 10:1",
+      "original_deferral": {
+        "source_reference": "Psalms 10:1",
+        "target": null,
+        "reason": "The title and running text together describe trust and advice to flee to the mountains like a little bird. The separately read Saul pursuit account contains a different night-raven comparison and does not establish this psalm's historical occasion.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 10:1",
+          "id": "v10-1",
+          "text": "For the end. A psalm of David. In the Lord I have trusted. How will you say to my soul, “Move away to the mountains like a little bird”?",
+          "text_sha256": "4fce8025741702ed21abee95b6fee5c56f2f9f09ab5e5fd0a04818afe302181f"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms1-10 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "db80ff64b1f1fdaa063e1cf82fbd2873539f123498e9e271f9bae0102370f525",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-10-1__1-samuel-26-20"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 16:15",
+      "original_deferral": {
+        "source_reference": "Psalms 16:15",
+        "target": null,
+        "reason": "Appearance before God in righteousness and satisfaction when His glory appears are preserved without adding awakening from death or identifying a particular resurrection event.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 16:15",
+          "id": "v16-15",
+          "text": "But I, in righteousness, will appear before Thy face; I will be satisfied when Thy glory appears.",
+          "text_sha256": "86cf339d82d77305ac77a3ff8f84667745abf2e9e0da5ff99f4a3a0fed340b58"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 11–20 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "cff238ac668b47fb6b4be6f3a86216768b61a098a47dc7746435ecaa847cbc53",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-16-15__1-john-3-2-3"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 19:9",
+      "original_deferral": {
+        "source_reference": "Psalms 19:9",
+        "target": null,
+        "reason": "Their being fettered and falling, contrasted with our rising and being set upright, is preserved without identifying a particular battle or importing another passage’s named parties.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 19:9",
+          "id": "v19-9",
+          "text": "They were fettered and fell, but we rose and were set upright.",
+          "text_sha256": "5d92f8e1814759d457e16b75541fcb15288da7794b779a43474ff1d04cac0153"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 11–20 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "90f7cbb55660413ff36d9ee1467cc6da97358b1b90464ac8d1598a0c7c85634d",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-19-9__proverbs-24-16"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 24:9",
+      "original_deferral": {
+        "source_reference": "Psalms 24:9",
+        "target": null,
+        "reason": "The guidance and teaching of the meek are preserved; promises of land to the meek do not by themselves establish this different instructional relationship.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 24:9",
+          "id": "v24-9",
+          "text": "He will guide the meek in judgment; He will teach the meek His ways.",
+          "text_sha256": "d1c0a58d3d0dd46a269c006947381f6dfdde901944ae064f9408ae15c89dd096"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "ad390b5f6a6c80e837a303ebc5846a643cb2f8fccc9baac0060c4849c2b4818b",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-24-9__james-1-21-22"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 26:2",
+      "original_deferral": {
+        "source_reference": "Psalms 26:2",
+        "target": null,
+        "reason": "The flesh-devouring attackers' collapse is not identified with a particular military or Passion episode; that identity requires more than approaching enemies falling.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 26:2",
+          "id": "v26-2",
+          "text": "When those doing evil approached me to eat my flesh, those who afflict me and my enemies, they grew weak and fell.",
+          "text_sha256": "96acd9dc61cf492eea4f01dea325a537aabfb2bd7e4f54ad79fe0d816dacf3d8"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "090ee473385c3764815562552ede7ae83c0112ef0a81f385d97b52ea7045d527",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-26-2__micah-3-1-3"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 26:6",
+      "original_deferral": {
+        "source_reference": "Psalms 26:6",
+        "target": null,
+        "reason": "The lifted head and sacrifice of shouting in the tent do not establish a particular triumphal sacrifice elsewhere.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 26:6",
+          "id": "v26-6",
+          "text": "And now, behold, He raised my head above my enemies; I went around and sacrificed in His tent a sacrifice of shouting; I will sing and make music to the Lord.",
+          "text_sha256": "3258d3049938a771009213f8b7362bfd39bdb0fc95aaabeede334e37dcd0d66c"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "8d13cabd92d38187df5d0c7810bdf6b9229102e7b55dd031085fa5b657ca6dd8",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-26-6__2-samuel-22-49-50"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 27:7",
+      "original_deferral": {
+        "source_reference": "Psalms 27:7",
+        "target": null,
+        "reason": "The heart's hope, help and flesh blossoming anew are preserved without equating the bodily image with a specific healing or resurrection narrative.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 27:7",
+          "id": "v27-7",
+          "text": "The Lord is my helper and my protector; in Him my heart hoped, and I was helped, and my flesh blossomed anew; from my own will I will thank Him.",
+          "text_sha256": "6207119d6962ad567d56f72fce9c4267d3f2831deb095e870a7c08d302ae0d4c"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Psalms21-32 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "88960f04b26c8a10a273a91c29cf8641d984ca3acbdd63176491810aa1152c32",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-27-7__job-33-24-30"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 34:15",
+      "original_deferral": {
+        "source_reference": "Psalms 34:15",
+        "target": null,
+        "reason": "The gathering and rejoicing of opponents is clear, but the supplied phrases about scourges gathering and being torn apart without remorse are not silently rewritten. No adequately particular target for the complete complaint was established.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 34:15",
+          "id": "v34-15",
+          "text": "But against me they rejoiced and gathered; scourges gathered against me, and I did not know; they were torn apart and felt no remorse.",
+          "text_sha256": "a58c6a38aa6cba8b02f8315815ed52c90499967ff1f1d8dae3cd101ca494b006"
+        },
+        "reviewer": "Codex AI author /root, Psalms 33–40 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "2e215aa8330118d46d6b04ee4174e8c54909a0c0bdb65ea5a457ef1bc59f642c",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-34-15__proverbs-24-17-18"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 37:18",
+      "original_deferral": {
+        "source_reference": "Psalms 37:18",
+        "target": null,
+        "reason": "Readiness for scourges and continual pain are preserved as written. A suggested resemblance to continual consciousness of sin would substitute a different object for pain, so no such comparison is retained.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 37:18",
+          "id": "v37-18",
+          "text": "For I am ready for scourges, and my pain is continually before me.",
+          "text_sha256": "b4505712eb9309c6b252fe5797344a793f08e8c614ee5b0bbc7f142e52e340f3"
+        },
+        "reviewer": "Codex AI author /root, Psalms 33–40 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T181607Z"
+      },
+      "original_deferral_sha256": "007e35a9a4fb53b35d15bfeb35caf256ae2cb7c11c0dc45971111cfe05bc8814",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-37-18__isaiah-50-5-7"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    }
+  ],
+  "pending_revisit_history": [
+    {
+      "run_id": "2026-10-31T204915Z",
+      "actual_read_source_references": [
+        "Psalms 7:6",
+        "Psalms 10:1",
+        "Psalms 16:15",
+        "Psalms 19:9",
+        "Psalms 24:9",
+        "Psalms 26:2",
+        "Psalms 26:6",
+        "Psalms 27:7",
+        "Psalms 34:15",
+        "Psalms 37:18"
+      ],
+      "considered_source_references": [
+        "Psalms 4:1",
+        "Psalms 4:4",
+        "Psalms 5:1",
+        "Psalms 5:2",
+        "Psalms 5:3",
+        "Psalms 5:13",
+        "Psalms 6:5",
+        "Psalms 6:10",
+        "Psalms 6:11",
+        "Psalms 7:1",
+        "Psalms 7:2",
+        "Psalms 7:6",
+        "Psalms 7:8",
+        "Psalms 7:11",
+        "Psalms 7:18",
+        "Psalms 9:1",
+        "Psalms 9:3",
+        "Psalms 9:5",
+        "Psalms 9:7",
+        "Psalms 9:11",
+        "Psalms 9:21",
+        "Psalms 9:23",
+        "Psalms 9:26",
+        "Psalms 9:31",
+        "Psalms 9:33",
+        "Psalms 9:38",
+        "Psalms 10:1",
+        "Psalms 10:3",
+        "Psalms 10:7",
+        "Psalms 11:1",
+        "Psalms 11:8",
+        "Psalms 11:9",
+        "Psalms 12:1",
+        "Psalms 12:3",
+        "Psalms 13:6",
+        "Psalms 15:1",
+        "Psalms 15:3",
+        "Psalms 15:4",
+        "Psalms 15:7",
+        "Psalms 16:4",
+        "Psalms 16:6",
+        "Psalms 16:9",
+        "Psalms 16:10",
+        "Psalms 16:11",
+        "Psalms 16:13",
+        "Psalms 16:14",
+        "Psalms 16:15",
+        "Psalms 18:1",
+        "Psalms 18:3",
+        "Psalms 18:4",
+        "Psalms 18:12",
+        "Psalms 18:14",
+        "Psalms 19:1",
+        "Psalms 19:9",
+        "Psalms 20:1",
+        "Psalms 20:6",
+        "Psalms 20:9",
+        "Psalms 20:14",
+        "Psalms 21:1",
+        "Psalms 21:4",
+        "Psalms 21:13",
+        "Psalms 21:18",
+        "Psalms 23:5",
+        "Psalms 23:10",
+        "Psalms 24:9",
+        "Psalms 24:18",
+        "Psalms 24:21",
+        "Psalms 25:3",
+        "Psalms 25:7",
+        "Psalms 25:11",
+        "Psalms 26:2",
+        "Psalms 26:6",
+        "Psalms 26:7",
+        "Psalms 27:7",
+        "Psalms 28:6",
+        "Psalms 28:7",
+        "Psalms 28:9",
+        "Psalms 29:1",
+        "Psalms 29:9",
+        "Psalms 29:13",
+        "Psalms 30:1",
+        "Psalms 30:15",
+        "Psalms 30:18",
+        "Psalms 30:20",
+        "Psalms 30:22",
+        "Psalms 30:24",
+        "Psalms 31:7",
+        "Psalms 32:22",
+        "Psalms 33:1",
+        "Psalms 33:22",
+        "Psalms 34:15",
+        "Psalms 34:22",
+        "Psalms 35:3",
+        "Psalms 35:12",
+        "Psalms 37:16",
+        "Psalms 37:18",
+        "Psalms 37:22",
+        "Psalms 39:1",
+        "Psalms 39:2",
+        "Psalms 40:1"
+      ],
+      "continued_pending_observations": [],
+      "unretained_candidate_observations": [],
+      "new_unretained_candidate_count": 0,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Psalms 7:6",
+        "Psalms 10:1",
+        "Psalms 16:15",
+        "Psalms 19:9",
+        "Psalms 24:9",
+        "Psalms 26:2",
+        "Psalms 26:6",
+        "Psalms 27:7",
+        "Psalms 34:15",
+        "Psalms 37:18"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
+    }
+  ]
 }

@@ -1,0 +1,89 @@
+"""Current-run display, explicit read acknowledgment and packet building; H writes only."""
+from pathlib import Path
+from datetime import datetime,timezone
+import csv,hashlib,json,sys
+from passages import INDEX,keys,complete_text
+H=Path(__file__).parent; S=sys.argv[1]; mode=sys.argv[2]
+def get(n):return json.loads((H/n).read_text(encoding='utf-8'))
+def put(n,x):(H/n).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+def sha(n):return hashlib.sha256((H/n).read_bytes()).hexdigest()
+C=get('run-config.json'); P=next(p for p in get('review-plan-extension2.json')['packets'] if p['stem']==S)
+assert C['run_id']=='2026-10-31T204915Z'
+SEL=get(S+'-selection.json');refs=SEL['source_references'];candidates=P['candidate_source_references'];assert SEL['run_id']==C['run_id'] and SEL['base_commit']==C['baseline_commit'] and SEL['source_commit']==C['source_commit'];assert SEL['considered_source_references']==candidates[:len(SEL['considered_source_references'])];assert refs==[r for r in SEL['considered_source_references'] if r in set(refs)]
+book=P.get('source_book') or P.get('book') or refs[0].rsplit(' ',1)[0]
+chapters=list(dict.fromkeys(int(r.rsplit(' ',1)[1].split(':')[0]) for r in refs))
+F=S+'-reading-log.json'; D=S+'-pending-display.json'; G=S+'-source-reading-gate.json'
+L=get(F) if (H/F).exists() else dict(run_id=C['run_id'],base_commit=C['baseline_commit'],source_commit=C['source_commit'],source_book=book,source_references=refs,source_units_read_in_order=[],context_references=[],units={},acknowledged_outputs=[],reread_versions=[],cases_reread=[])
+assert (L['run_id'],L['base_commit'],L['source_commit'])==(C['run_id'],C['baseline_commit'],C['source_commit'])
+if mode=='sources':
+ a,b=map(int,sys.argv[3:]); assert 1<=a<=b<=len(refs) and a==len(L['source_units_read_in_order'])+1
+ units=[dict(reference=r,text=complete_text(INDEX[r])) for r in refs[a-1:b]]
+ for u in units:print(u['reference']+' '+u['text'])
+ put(D,dict(kind='sources',units=units,source_indices=[a,b]))
+elif mode=='read':
+ assert (H/G).exists(),'Full source pass must be completed before target curation.'
+ units=[]; ranges=[]
+ for p in sys.argv[3:]:
+  try: rr=keys(p); current=[dict(reference=r,text=complete_text(INDEX[r])) for r in rr]
+  except (KeyError,ValueError) as exc:print('UNAVAILABLE; ZERO CREDIT: '+p+' '+str(exc));continue
+  print('\nCONTEXT '+p);ranges.append(p);units+=current
+  for u in current:print(u['reference']+' '+u['text'])
+ put(D,dict(kind='context',units=units,context_references=ranges))
+elif mode=='ack':
+ output_id=sys.argv[3]; d=get(D); assert output_id
+ if d['kind']=='sources':
+  actual=[u['reference'] for u in d['units']];n=len(L['source_units_read_in_order'])
+  assert actual==refs[n:n+len(actual)],'Acknowledge source batches only in exact native order.'
+  L['source_units_read_in_order']+=actual
+ for u in d.get('units',[]):
+  assert u['text']==complete_text(INDEX[u['reference']]);L['units'][u['reference']]=u['text']
+ for p in d.get('context_references',[]):
+  if p not in L['context_references']:L['context_references'].append(p)
+ L['reread_versions']+=d.get('triples',[]);L['cases_reread']+=d.get('cases',[])
+ L['acknowledged_outputs'].append(dict(output_id=output_id,kind=d['kind'],source_indices=d.get('source_indices'),context_references=d.get('context_references',[]),triple_keys=[[t['source_reference'],t['target']] for t in d.get('triples',[])],case_keys=[[x['kind'],x['case']['source_reference'],x['case'].get('target')] for x in d.get('cases',[])]))
+ put(F,L);put(D,dict(kind='acknowledged',output_id=output_id));print('Acknowledged complete display '+output_id)
+elif mode=='source-gate':
+ assert L['source_units_read_in_order']==refs and all(L['units'].get(r)==complete_text(INDEX[r]) for r in refs)
+ evidence=[dict(file=n,sha256=sha(n)) for n in sys.argv[3:]]
+ assert evidence,'Bind the current inventory and preceding-book source gate.'
+ for r in refs:
+  if r not in L['context_references']:L['context_references'].append(r)
+ gate=dict(run_id=C['run_id'],base_commit=C['baseline_commit'],source_commit=C['source_commit'],source_book=book,packet_stem=S,source_chapters=chapters,source_references=refs,source_units_read=len(refs),source_units_read_this_run=len(refs),all_actual_cohort_units_read_in_native_order=True,all_source_verses_read=True,reading_completed_before_target_curation=True,completed_utc=datetime.now(timezone.utc).isoformat(),reviewer=SEL.get('reviewer','Codex author /root/amos_author_recovery'),complete_source_units=[dict(reference=r,text=L['units'][r]) for r in refs],source_reading_outputs=[o for o in L['acknowledged_outputs'] if o['kind']=='sources'],prerequisite_evidence=evidence,selection_evidence=dict(file=S+'-selection.json',sha256=sha(S+'-selection.json')),scope='selected pending-source reevaluation only; consideration grants no substantive revisit or completion credit',completion_credit=0)
+ put(G,gate);put(F,L);print(json.dumps(dict(source_units_read=len(refs),first=refs[0] if refs else None,last=refs[-1] if refs else None,gate_sha256=sha(G))))
+elif mode=='build':
+ assert (H/G).exists(); rows=[];triples=[];seen=set()
+ for line in (H/(S+'-rows.txt')).read_text(encoding='utf-8').splitlines():
+  if not line.strip():continue
+  short,target,relationship,rationale=line.split('|');source=short if short in refs else book+' '+short
+  assert source in refs and (source,target) not in seen;seen.add((source,target));rr=keys(target);assert source not in rr
+  for r in rr:assert L['units'].get(r)==complete_text(INDEX[r]),(source,target,r,'TARGET NOT ACKNOWLEDGED AS READ')
+  row=dict(source_reference=source,target=target,relationship=relationship,rationale=rationale);rows.append(row)
+  triples.append(dict(**row,source_text=L['units'][source],target_units=[dict(reference=r,text=L['units'][r]) for r in rr]))
+ assert [refs.index(r['source_reference']) for r in rows]==sorted(refs.index(r['source_reference']) for r in rows)
+ with (H/(S+'.tsv')).open('w',encoding='utf-8',newline='') as f:
+  w=csv.DictWriter(f,fieldnames=['source_reference','target','relationship','rationale'],delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows)
+ put(S+'-reread.json',triples);print(json.dumps(dict(supported_sources=len({r['source_reference'] for r in rows}),pairs=len(rows),actual_units_recorded=len(L['units']),context_ranges=len(L['context_references']))))
+elif mode=='reread':
+ T=get(S+'-reread.json');a,b=map(int,sys.argv[3:]);assert 1<=a<=b<=len(T)
+ for i,t in enumerate(T[a-1:b],a):
+  print('\n'+str(i)+'. '+t['source_reference']+' '+t['source_text']);print('TARGET '+t['target'])
+  for u in t['target_units']:print(u['reference']+' '+u['text'])
+  print('RELATIONSHIP '+t['relationship']);print('RATIONALE '+t['rationale'])
+ put(D,dict(kind='triples',triples=T[a-1:b]))
+elif mode=='reread-selected':
+ T=get(S+'-reread.json');nums=list(map(int,sys.argv[3:]));assert nums==sorted(set(nums)) and nums and 1<=nums[0]<=nums[-1]<=len(T)
+ selected=[T[i-1] for i in nums]
+ for i,t in zip(nums,selected):
+  print('\n'+str(i)+'. '+t['source_reference']+' '+t['source_text']);print('TARGET '+t['target'])
+  for u in t['target_units']:print(u['reference']+' '+u['text'])
+  print('RELATIONSHIP '+t['relationship']);print('RATIONALE '+t['rationale'])
+ put(D,dict(kind='triples',triples=selected))
+elif mode=='cases':
+ K=get(S+'-cases.json');kind=sys.argv[3];a,b=map(int,sys.argv[4:]);selected=[]
+ for c in K[kind][a-1:b]:
+  print('\nCASE '+json.dumps(c,ensure_ascii=False));r=c['source_reference'];print('SOURCE '+r+' '+complete_text(INDEX[r]))
+  if kind=='unresolved_candidates':
+   for r in keys(c['target']):print('TARGET '+r+' '+complete_text(INDEX[r]))
+  selected.append(dict(kind=kind,case=c))
+ put(D,dict(kind='cases',cases=selected))
+else:raise ValueError(mode)

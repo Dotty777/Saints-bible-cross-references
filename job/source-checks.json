@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "Job",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 1083 units in 42 chapters; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Complete actual source and retained target passages with necessary context were read and every retained explanation separately reread in the recorded batches. Unsupported source units remain pending with zero completion credit. Earlier completed objects and all unresolved evidence are preserved. A resolved source-only deferral remains exactly preserved in resolved_source_deferrals with its original record. Inventory alone earns no review credit. No exhaustive discovery or independent specialist verification is claimed.",
+  "method": "Historical actual source reading is preserved. This run selectively reevaluated pending sources with new actual target/context evidence and separately reread supported explanations. Consideration, repeated readings and unresolved proposals receive zero completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -40,6 +40,19 @@
       "revisited_source_units_read": 1,
       "resolved_source_deferrals": 1,
       "deferred_source_units": 279,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T204915Z",
+      "records": "review-batches/2026-10-31T204915Z.json",
+      "new_source_verses": 33,
+      "new_pairs": 33,
+      "source_units_read": 37,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 37,
+      "resolved_source_deferrals": 33,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 4,
       "unresolved_retained_cases": 0
     }
   ],
@@ -339,6 +352,97 @@
       "path": "zechariah/verses.json",
       "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-thessalonians/verses.json",
+      "blob_sha": "b38e8fb5397287f6648d6fd67faa7348d226bd1b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-thessalonians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-samuel/verses.json",
+      "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-thessalonians/verses.json",
+      "blob_sha": "288f9670bb220cb4f5261ed43123800cbf81f400",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "esther/verses.json",
+      "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "habakkuk/verses.json",
+      "blob_sha": "063a4d3ef92c24ad68dc9ab29277e898efb3e22e",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/habakkuk/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "joel/verses.json",
+      "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "nahum/verses.json",
+      "blob_sha": "6901c800e024c859800afa7ab1e4fcda4e9d2658",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nahum/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "obadiah/verses.json",
+      "blob_sha": "cce5abd4ebba2e72e79e4fcdc060236679e2a1ab",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/obadiah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "zephaniah/verses.json",
+      "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
     }
   ],
   "unresolved_candidates": [
@@ -1631,16 +1735,343 @@
       "reviewed": "2026-10-30",
       "review_timezone": "America/New_York",
       "review_batch": "2026-10-30T170737Z"
+    },
+    {
+      "source_reference": "Job 15:31",
+      "source_text": "Let him not trust that he will endure, for empty things will result for him.",
+      "reason": "Eliphaz warns the ungodly person not to trust that he will endure, while Psalms 61:10-11 addresses human vanity, injustice, plunder and attachment to wealth. The proposed link depends on supplying wealth as the object of trust in this source sentence; that broad association is not retained as a particular match.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Psalms 61:10-11",
+      "target_units": [
+        {
+          "reference": "Psalms 61:10",
+          "text": "Nevertheless the sons of men are vain; the sons of men are false upon scales for doing injustice, they themselves together from vanity."
+        },
+        {
+          "reference": "Psalms 61:11",
+          "text": "Do not hope in injustice or long for plunder; if wealth flows, do not attach your heart."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "job/verses.json",
+        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+      },
+      "source_verse": {
+        "reference": "Job 15:31",
+        "id": "v15-31",
+        "text": "Let him not trust that he will endure, for empty things will result for him.",
+        "display_text": "Let him not trust that he will endure,\nfor empty things will result for him.",
+        "text_sha256": "a7b41b2e15b949cd7357fb7a7c24791ffdefe32ab64dddd2003dbe0ebf9aa3ef"
+      },
+      "reviewer": "Codex author /root/amos_author_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T204915Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "psalms/verses.json",
+        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Psalms 61:10",
+          "id": "v61-10",
+          "text": "Nevertheless the sons of men are vain; the sons of men are false upon scales for doing injustice, they themselves together from vanity.",
+          "display_text": "Nevertheless the sons of men are vain;\nthe sons of men are false upon scales for doing injustice,\nthey themselves together from vanity.",
+          "text_sha256": "be97c6acbb543d4f8e85bbc7f859bc964be90b698677ac65a969b2286a73e4f8"
+        },
+        {
+          "reference": "Psalms 61:11",
+          "id": "v61-11",
+          "text": "Do not hope in injustice or long for plunder; if wealth flows, do not attach your heart.",
+          "display_text": "Do not hope in injustice or long for plunder;\nif wealth flows, do not attach your heart.",
+          "text_sha256": "a22c65615a5f33509428bdd6e3b60e673c26e3ca29c274df2c17b5ffd39a22e1"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "33e77e5efce2b5bd4b02cddbb161e5bd90d3372f499cb296172a4a41d0fc4fc7"
+    },
+    {
+      "source_reference": "Job 18:13",
+      "source_text": "May the branches of his feet be devoured; death will devour his beautiful things.",
+      "reason": "The actual Psalm says that death shepherds people and that their help grows old in Hades away from their glory. It does not say death devours their beauty. A shared personification of death does not establish the proposed devouring-beauty correspondence, and the source is kept pending.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Psalms 48:15",
+      "target_units": [
+        {
+          "reference": "Psalms 48:15",
+          "text": "Like sheep they were placed in Hades; death shepherds them. The upright will rule over them in the morning, and their help will grow old in Hades, away from their glory."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "job/verses.json",
+        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+      },
+      "source_verse": {
+        "reference": "Job 18:13",
+        "id": "v18-13",
+        "text": "May the branches of his feet be devoured; death will devour his beautiful things.",
+        "display_text": "May the branches of his feet be devoured;\ndeath will devour his beautiful things.",
+        "text_sha256": "1e52a5ed428761d3a31d580b7686f6cb878d0752b5d674481f0ffe9bdcbd9768"
+      },
+      "reviewer": "Codex author /root/amos_author_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T204915Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "psalms/verses.json",
+        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Psalms 48:15",
+          "id": "v48-15",
+          "text": "Like sheep they were placed in Hades; death shepherds them. The upright will rule over them in the morning, and their help will grow old in Hades, away from their glory.",
+          "display_text": "Like sheep they were placed in Hades; death shepherds them.\nThe upright will rule over them in the morning,\nand their help will grow old in Hades, away from their glory.",
+          "text_sha256": "c2714528380ffefeadccd8cb2f0e16cd11ecc92cd3210dcd689514bbfa77b3ef"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "b457e6e994b161c13255033f96a768a40f6129eb54a40580f812609317dd461f"
+    },
+    {
+      "source_reference": "Job 24:11",
+      "source_text": "They unjustly lay in ambush in narrow places and did not know a righteous road.",
+      "reason": "Job explicitly describes an unjust ambush in narrow places and ignorance of a righteous road. The native Proverbs text instead describes hiding a righteous man in the earth, seizing his property, and refusing the criminals' paths. It was not rewritten as an ambush proposal; the general violent-path association alone was not retained.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Proverbs 1:11-16",
+      "target_units": [
+        {
+          "reference": "Proverbs 1:11",
+          "text": "Come with us; share in bloodshed. Let us hide a righteous man in the earth unjustly;"
+        },
+        {
+          "reference": "Proverbs 1:12",
+          "text": "let us swallow him alive like Hades and remove his memory from the earth."
+        },
+        {
+          "reference": "Proverbs 1:13",
+          "text": "Let us seize his costly property and fill our houses with spoils."
+        },
+        {
+          "reference": "Proverbs 1:14",
+          "text": "Cast your lot among us; let us all obtain a common purse, and let there be one moneybag for us."
+        },
+        {
+          "reference": "Proverbs 1:15",
+          "text": "Do not walk in the way with them; turn your foot away from their paths,"
+        },
+        {
+          "reference": "Proverbs 1:16",
+          "text": "for their feet run toward evil, and they are quick to shed blood."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "job/verses.json",
+        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+      },
+      "source_verse": {
+        "reference": "Job 24:11",
+        "id": "v24-11",
+        "text": "They unjustly lay in ambush in narrow places and did not know a righteous road.",
+        "display_text": "They unjustly lay in ambush in narrow places\nand did not know a righteous road.",
+        "text_sha256": "e399a9b641804789afa78b54bc511992b0a4f89a785d03ceee2ddb02e904b295"
+      },
+      "reviewer": "Codex author /root/amos_peer_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T204915Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "proverbs/verses.json",
+        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Proverbs 1:11",
+          "id": "v1-11",
+          "text": "Come with us; share in bloodshed. Let us hide a righteous man in the earth unjustly;",
+          "display_text": "Come with us; share in bloodshed. Let us hide a righteous man in the earth unjustly;",
+          "text_sha256": "1507cdef4ad143ba26bfd52daa17971575bdba8967abf697d78ea2200538b007"
+        },
+        {
+          "reference": "Proverbs 1:12",
+          "id": "v1-12",
+          "text": "let us swallow him alive like Hades and remove his memory from the earth.",
+          "display_text": "let us swallow him alive like Hades and remove his memory from the earth.",
+          "text_sha256": "776a306f9f5ab55b971afc770fc8080c18813990657050951ef11d076541fc0b"
+        },
+        {
+          "reference": "Proverbs 1:13",
+          "id": "v1-13",
+          "text": "Let us seize his costly property and fill our houses with spoils.",
+          "display_text": "Let us seize his costly property and fill our houses with spoils.",
+          "text_sha256": "a626ab8c1e8b9f7eba10c02c5b4a9b5ad8e41c9b04c13855772c841b024451a4"
+        },
+        {
+          "reference": "Proverbs 1:14",
+          "id": "v1-14",
+          "text": "Cast your lot among us; let us all obtain a common purse, and let there be one moneybag for us.",
+          "display_text": "Cast your lot among us; let us all obtain a common purse, and let there be one moneybag for us.",
+          "text_sha256": "4042761e821be7e396dad5062cbfdadd2141418a8f6535ee751b197543f26a6b"
+        },
+        {
+          "reference": "Proverbs 1:15",
+          "id": "v1-15",
+          "text": "Do not walk in the way with them; turn your foot away from their paths,",
+          "display_text": "Do not walk in the way with them; turn your foot away from their paths,",
+          "text_sha256": "55c145cb0118ff272e7103c24627bd4677752d68a70d06ced14cbc5df1b4abf1"
+        },
+        {
+          "reference": "Proverbs 1:16",
+          "id": "v1-16",
+          "text": "for their feet run toward evil, and they are quick to shed blood.",
+          "display_text": "for their feet run toward evil, and they are quick to shed blood.",
+          "text_sha256": "fd6d3993d184cfe6ca92c437f9f42e9ed0f9f11b0942ec529dcbabd04a08b301"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "5cb53d35957a0ae019735d98dc8c2a913a27abaa21990ca32a87587adf6a5f34"
+    },
+    {
+      "source_reference": "Job 28:14",
+      "source_text": "The abyss said, ‘It is not in me,’ and the sea said, ‘It is not with me.’",
+      "reason": "The sea in Job denies that wisdom is with it. Deuteronomy says its command is not across the sea and is instead near the hearer. These concern different spatial claims and different subjects; shared sea imagery and the general question of instruction were not sufficient to retain a pair.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Deuteronomy 30:11-14",
+      "target_units": [
+        {
+          "reference": "Deuteronomy 30:11",
+          "text": "For this commandment which I command you this day is not excessively burdensome, neither is it far from you."
+        },
+        {
+          "reference": "Deuteronomy 30:12",
+          "text": "It is not in heaven above, that you should say, Who shall ascend for us into heaven, and fetch it for us, that we may hear it and do it?"
+        },
+        {
+          "reference": "Deuteronomy 30:13",
+          "text": "Neither is it beyond the sea, that you should say, Who shall cross for us unto the other side of the sea, and fetch it for us, and make us hear it, that we may do it?"
+        },
+        {
+          "reference": "Deuteronomy 30:14",
+          "text": "The word is very near you, in your mouth, and in your heart, and in your hands, that you may do it."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "job/verses.json",
+        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+      },
+      "source_verse": {
+        "reference": "Job 28:14",
+        "id": "v28-14",
+        "text": "The abyss said, ‘It is not in me,’ and the sea said, ‘It is not with me.’",
+        "display_text": "The abyss said, ‘It is not in me,’\nand the sea said, ‘It is not with me.’",
+        "text_sha256": "1ed52161426849ee19882d286371c996a1304e485f39c6d743dea2dbbfa144da"
+      },
+      "reviewer": "Codex author /root/amos_peer_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T204915Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "deuteronomy/verses.json",
+        "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+      },
+      "target_verses": [
+        {
+          "chapter": 30,
+          "id": "v30-11",
+          "text": "For this commandment which I command you this day is not excessively burdensome, neither is it far from you.",
+          "line_breaks": 0,
+          "reference": "Deuteronomy 30:11",
+          "text_sha256": "26f56362f2cab17ef1fa6a9248a6ee01ddf367202e90c30ea90ee878c7c2b59c"
+        },
+        {
+          "chapter": 30,
+          "id": "v30-12",
+          "text": "It is not in heaven above, that you should say, Who shall ascend for us into heaven, and fetch it for us, that we may hear it and do it?",
+          "line_breaks": 0,
+          "reference": "Deuteronomy 30:12",
+          "text_sha256": "db8d560216ce126241bcadd68ddca78c897260a04bd2141f9fad4a4e30ce08fd"
+        },
+        {
+          "chapter": 30,
+          "id": "v30-13",
+          "text": "Neither is it beyond the sea, that you should say, Who shall cross for us unto the other side of the sea, and fetch it for us, and make us hear it, that we may do it?",
+          "line_breaks": 0,
+          "reference": "Deuteronomy 30:13",
+          "text_sha256": "217612e03bcac85ff0dbb8c7f123355f8b82723f6d12060d59710796d267007d"
+        },
+        {
+          "chapter": 30,
+          "id": "v30-14",
+          "text": "The word is very near you, in your mouth, and in your heart, and in your hands, that you may do it.",
+          "line_breaks": 0,
+          "reference": "Deuteronomy 30:14",
+          "text_sha256": "9117479757c4268c2f1dde5d02e7ec6f26144f390d625aea7420d5fbc0fecb2c"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "ca992a7f044339446f7ace07e92485e3c93e834c2d1d2ffa546066c43bf7135f"
     }
   ],
   "checked_scope": {
     "source_passage": "Job 1:1-42:17e",
     "source_passage_is_review_scope": true,
     "source_units_read": 1083,
-    "source_verse_units": 761,
-    "deferred_source_units": 322,
-    "retained_pairs": 814,
-    "distinct_target_verse_units": 999
+    "source_verse_units": 794,
+    "deferred_source_units": 289,
+    "retained_pairs": 847,
+    "distinct_target_verse_units": 1041
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -1661,38 +2092,42 @@
   },
   "pending": [
     "First pending source unit: Job 3:2",
-    "1083 of 1083 original source units have been read; 0 are never reviewed. Deferred source units remain incomplete.",
-    "Next never-reviewed source: none; all OT source units read.",
-    "Read but deferred source units: Job 3:2, Job 3:8, Job 4:1, Job 4:6, Job 4:9, Job 4:10, Job 4:11, Job 4:14, Job 4:15, Job 4:16, Job 4:18, Job 5:1, Job 5:4, Job 5:5, Job 5:6, Job 5:8, Job 5:19, Job 5:24, Job 6:1, Job 6:7, Job 6:8, Job 6:11, Job 6:13, Job 6:16, Job 6:17, Job 6:19, Job 6:22, Job 6:23, Job 6:25, Job 6:28, Job 6:29, Job 7:3, Job 7:6, Job 7:8, Job 7:13, Job 7:15, Job 7:21, Job 8:1, Job 8:10, Job 8:12, Job 8:16, Job 8:17, Job 8:19, Job 9:1, Job 9:4, Job 9:14, Job 9:22, Job 9:25, Job 9:27, Job 9:29, Job 9:35, Job 10:3, Job 10:10, Job 10:12, Job 10:22, Job 11:1, Job 11:3, Job 11:9, Job 11:12, Job 11:18, Job 12:1, Job 12:5, Job 12:8, Job 12:14, Job 12:16, Job 12:20, Job 13:6, Job 13:8, Job 13:9, Job 13:17, Job 13:20, Job 13:25, Job 14:3, Job 14:8, Job 14:19, Job 14:20, Job 14:22, Job 15:1, Job 15:2, Job 15:5, Job 15:8, Job 15:12, Job 15:17, Job 15:19, Job 15:20, Job 15:24, Job 15:26, Job 15:28, Job 15:31, Job 16:1, Job 16:5, Job 16:6, Job 16:7, Job 16:10, Job 16:14, Job 16:15, Job 16:19, Job 17:2, Job 17:8, Job 17:11, Job 17:12, Job 17:14, Job 17:16, Job 18:1, Job 18:7, Job 18:9, Job 18:11, Job 18:12, Job 18:13, Job 18:14, Job 18:18, Job 18:19, Job 18:20, Job 19:1, Job 19:4, Job 19:6, Job 19:9, Job 19:12, Job 19:15, Job 19:16, Job 19:17, Job 19:18, Job 19:25, Job 19:27, Job 20:1, Job 20:3, Job 20:10, Job 20:13, Job 20:21, Job 20:24, Job 20:26, Job 20:28, Job 21:1, Job 21:3, Job 21:4, Job 21:5, Job 21:6, Job 21:10, Job 21:11, Job 21:20, Job 21:21, Job 21:24, Job 21:27, Job 21:30, Job 21:31, Job 21:32, Job 21:33, Job 22:1, Job 22:4, Job 22:8, Job 22:14, Job 22:15, Job 22:16, Job 22:20, Job 22:24, Job 22:28, Job 23:1, Job 23:8, Job 23:15, Job 23:16, Job 24:5, Job 24:8, Job 24:11, Job 24:13, Job 24:14, Job 24:18, Job 24:21, Job 24:23, Job 25:1, Job 25:2, Job 25:3, Job 26:1, Job 26:4, Job 26:5, Job 27:1, Job 27:7, Job 27:11, Job 27:15, Job 27:20, Job 27:22, Job 27:23, Job 28:1, Job 28:2, Job 28:3, Job 28:4, Job 28:5, Job 28:6, Job 28:7, Job 28:8, Job 28:10, Job 28:13, Job 28:14, Job 28:18, Job 28:20, Job 28:22, Job 28:24, Job 29:1, Job 29:4, Job 29:7, Job 29:10, Job 29:11, Job 29:15, Job 29:17, Job 29:20, Job 29:22, Job 29:24, Job 30:2, Job 30:3, Job 30:4, Job 30:5, Job 30:6, Job 30:7, Job 30:8, Job 30:12, Job 30:16, Job 30:18, Job 30:22, Job 30:24, Job 30:27, Job 30:28, Job 31:2, Job 31:5, Job 31:22, Job 31:25, Job 31:26, Job 31:27, Job 31:28, Job 31:30, Job 31:31, Job 31:35, Job 31:36, Job 31:38, Job 32:5, Job 32:6, Job 32:10, Job 32:11, Job 32:12, Job 32:14, Job 32:15, Job 32:16, Job 32:17, Job 32:20, Job 33:1, Job 33:2, Job 33:8, Job 33:16, Job 33:18, Job 33:23, Job 33:29, Job 33:31, Job 33:33, Job 34:1, Job 34:2, Job 34:4, Job 34:8, Job 34:10, Job 34:13, Job 34:16, Job 34:17, Job 34:19, Job 34:23, Job 34:25, Job 34:26, Job 34:27, Job 34:29, Job 34:31, Job 34:33, Job 34:34, Job 34:36, Job 35:1, Job 35:8, Job 35:15, Job 36:1, Job 36:3, Job 36:16, Job 36:20, Job 36:21, Job 36:24, Job 36:25, Job 36:30, Job 36:32, Job 36:33, Job 37:7, Job 37:11, Job 37:12, Job 37:14, Job 37:17, Job 37:18, Job 37:20, Job 37:21, Job 38:20, Job 38:30, Job 38:38, Job 39:1, Job 39:2, Job 39:3, Job 39:4, Job 39:5, Job 39:10, Job 39:11, Job 39:12, Job 39:13, Job 39:18, Job 39:21, Job 39:23, Job 40:1, Job 40:3, Job 40:17, Job 40:21, Job 40:22, Job 40:23, Job 40:27, Job 40:31, Job 41:1, Job 41:4, Job 41:5, Job 41:6, Job 41:8, Job 41:23, Job 42:1, Job 42:14, Job 42:17c",
+    "1083 of 1083 original source units read; 0 never reviewed. Deferred units remain incomplete.",
+    "Next never-reviewed source: none; all original units read.",
+    "Read but deferred source units: Job 3:2, Job 3:8, Job 4:1, Job 4:6, Job 4:10, Job 4:11, Job 4:14, Job 4:15, Job 4:18, Job 5:1, Job 5:4, Job 5:6, Job 5:8, Job 5:19, Job 5:24, Job 6:1, Job 6:7, Job 6:8, Job 6:11, Job 6:16, Job 6:17, Job 6:19, Job 6:22, Job 6:23, Job 6:25, Job 6:28, Job 6:29, Job 7:3, Job 7:6, Job 7:8, Job 7:13, Job 7:15, Job 8:1, Job 8:10, Job 8:12, Job 8:16, Job 8:17, Job 8:19, Job 9:1, Job 9:14, Job 9:22, Job 9:25, Job 9:27, Job 9:29, Job 9:35, Job 10:3, Job 10:10, Job 10:12, Job 11:1, Job 11:3, Job 11:9, Job 11:12, Job 11:18, Job 12:1, Job 12:5, Job 12:8, Job 12:16, Job 12:20, Job 13:6, Job 13:8, Job 13:9, Job 13:17, Job 13:20, Job 14:3, Job 14:8, Job 14:19, Job 14:20, Job 14:22, Job 15:1, Job 15:2, Job 15:5, Job 15:8, Job 15:12, Job 15:17, Job 15:19, Job 15:24, Job 15:26, Job 15:28, Job 15:31, Job 16:1, Job 16:5, Job 16:7, Job 16:10, Job 16:14, Job 16:15, Job 17:2, Job 17:8, Job 17:11, Job 17:12, Job 17:16, Job 18:1, Job 18:7, Job 18:9, Job 18:11, Job 18:12, Job 18:13, Job 18:14, Job 18:18, Job 18:20, Job 19:1, Job 19:4, Job 19:6, Job 19:12, Job 19:16, Job 19:17, Job 19:18, Job 19:25, Job 19:27, Job 20:1, Job 20:3, Job 20:10, Job 20:13, Job 20:21, Job 20:24, Job 20:26, Job 21:1, Job 21:3, Job 21:4, Job 21:5, Job 21:6, Job 21:20, Job 21:21, Job 21:24, Job 21:27, Job 21:30, Job 21:31, Job 21:32, Job 21:33, Job 22:1, Job 22:4, Job 22:14, Job 22:16, Job 22:20, Job 22:24, Job 22:28, Job 23:1, Job 23:8, Job 23:15, Job 23:16, Job 24:5, Job 24:8, Job 24:11, Job 24:13, Job 24:14, Job 24:18, Job 24:21, Job 24:23, Job 25:1, Job 25:2, Job 25:3, Job 26:1, Job 26:4, Job 26:5, Job 27:1, Job 27:7, Job 27:11, Job 27:15, Job 27:20, Job 27:22, Job 28:3, Job 28:4, Job 28:5, Job 28:6, Job 28:7, Job 28:8, Job 28:10, Job 28:13, Job 28:14, Job 28:18, Job 28:20, Job 28:22, Job 29:1, Job 29:4, Job 29:7, Job 29:10, Job 29:11, Job 29:15, Job 29:20, Job 29:22, Job 29:24, Job 30:2, Job 30:3, Job 30:4, Job 30:5, Job 30:6, Job 30:7, Job 30:12, Job 30:16, Job 30:18, Job 30:22, Job 30:24, Job 30:27, Job 30:28, Job 31:2, Job 31:22, Job 31:25, Job 31:26, Job 31:27, Job 31:28, Job 31:30, Job 31:31, Job 31:35, Job 31:36, Job 31:38, Job 32:5, Job 32:10, Job 32:11, Job 32:12, Job 32:14, Job 32:15, Job 32:16, Job 32:17, Job 32:20, Job 33:1, Job 33:2, Job 33:8, Job 33:18, Job 33:29, Job 33:31, Job 33:33, Job 34:1, Job 34:2, Job 34:4, Job 34:8, Job 34:10, Job 34:13, Job 34:16, Job 34:17, Job 34:19, Job 34:23, Job 34:25, Job 34:26, Job 34:29, Job 34:31, Job 34:33, Job 34:34, Job 34:36, Job 35:1, Job 35:15, Job 36:1, Job 36:3, Job 36:16, Job 36:20, Job 36:21, Job 36:24, Job 36:25, Job 36:30, Job 36:32, Job 36:33, Job 37:7, Job 37:11, Job 37:12, Job 37:14, Job 37:17, Job 37:18, Job 37:20, Job 37:21, Job 38:20, Job 38:30, Job 38:38, Job 39:1, Job 39:2, Job 39:3, Job 39:4, Job 39:5, Job 39:10, Job 39:11, Job 39:12, Job 39:13, Job 39:18, Job 39:21, Job 39:23, Job 40:1, Job 40:3, Job 40:17, Job 40:21, Job 40:22, Job 40:23, Job 40:27, Job 40:31, Job 41:1, Job 41:4, Job 41:5, Job 41:6, Job 41:8, Job 41:23, Job 42:1, Job 42:14, Job 42:17c",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
-    "Target evidence pending: Job 2:9e / Job 1:11",
-    "Target evidence pending: Job 3:8 / Job 40:25-28",
-    "Target evidence pending: Job 4:16 / 1 Kings 19:11-13",
-    "Target evidence pending: Job 4:18 / 2 Peter 2:4",
-    "Target evidence pending: Job 6:19 / Job 1:15",
-    "Target evidence pending: Job 9:25 / Job 7:6",
-    "Target evidence pending: Job 9:33 / Job 33:23-24",
-    "Target evidence pending: Job 12:14 / Isaiah 22:22",
-    "Target evidence pending: Job 16:5 / Job 4:3-4",
-    "Target evidence pending: Job 16:19 / 1 John 2:1-2",
-    "Target evidence pending: Job 17:12 / Isaiah 5:20",
-    "Target evidence pending: Job 19:25 / 1 Timothy 2:5-6",
-    "Target evidence pending: Job 21:30 / 2 Peter 2:9",
-    "Target evidence pending: Job 22:16 / Genesis 7:21-23",
-    "Target evidence pending: Job 22:24 / 1 Kings 9:28",
-    "Target evidence pending: Job 26:5 / Genesis 6:4",
-    "Target evidence pending: Job 27:7 / Job 31:29",
-    "Target evidence pending: Job 31:27 / Deuteronomy 4:19",
-    "Target evidence pending: Job 33:23 / Numbers 22:31-35",
-    "Target evidence pending: Job 34:8 / Psalms 1:1",
-    "Target evidence pending: Job 34:19 / Deuteronomy 10:17",
-    "Target evidence pending: Job 36:30 / Psalms 103:2",
-    "Target evidence pending: Job 36:32 / Job 38:35",
-    "Target evidence pending: Job 39:1 / Psalms 28:9",
-    "Target evidence pending: Job 39:13 / Lamentations 4:3",
-    "Target evidence pending: Job 42:17c / Genesis 36:13",
-    "Target evidence pending: Job 42:17c / Genesis 36:33"
+    "Unretained target candidate: Job 2:9e / Job 1:11",
+    "Unretained target candidate: Job 3:8 / Job 40:25-28",
+    "Unretained target candidate: Job 4:16 / 1 Kings 19:11-13",
+    "Unretained target candidate: Job 4:18 / 2 Peter 2:4",
+    "Unretained target candidate: Job 6:19 / Job 1:15",
+    "Unretained target candidate: Job 9:25 / Job 7:6",
+    "Unretained target candidate: Job 9:33 / Job 33:23-24",
+    "Unretained target candidate: Job 12:14 / Isaiah 22:22",
+    "Unretained target candidate: Job 16:5 / Job 4:3-4",
+    "Unretained target candidate: Job 16:19 / 1 John 2:1-2",
+    "Unretained target candidate: Job 17:12 / Isaiah 5:20",
+    "Unretained target candidate: Job 19:25 / 1 Timothy 2:5-6",
+    "Unretained target candidate: Job 21:30 / 2 Peter 2:9",
+    "Unretained target candidate: Job 22:16 / Genesis 7:21-23",
+    "Unretained target candidate: Job 22:24 / 1 Kings 9:28",
+    "Unretained target candidate: Job 26:5 / Genesis 6:4",
+    "Unretained target candidate: Job 27:7 / Job 31:29",
+    "Unretained target candidate: Job 31:27 / Deuteronomy 4:19",
+    "Unretained target candidate: Job 33:23 / Numbers 22:31-35",
+    "Unretained target candidate: Job 34:8 / Psalms 1:1",
+    "Unretained target candidate: Job 34:19 / Deuteronomy 10:17",
+    "Unretained target candidate: Job 36:30 / Psalms 103:2",
+    "Unretained target candidate: Job 36:32 / Job 38:35",
+    "Unretained target candidate: Job 39:1 / Psalms 28:9",
+    "Unretained target candidate: Job 39:13 / Lamentations 4:3",
+    "Unretained target candidate: Job 42:17c / Genesis 36:13",
+    "Unretained target candidate: Job 42:17c / Genesis 36:33",
+    "Unretained target candidate: Job 15:31 / Psalms 61:10-11",
+    "Unretained target candidate: Job 18:13 / Psalms 48:15",
+    "Unretained target candidate: Job 24:11 / Proverbs 1:11-16",
+    "Unretained target candidate: Job 28:14 / Deuteronomy 30:11-14"
   ],
   "deferred_source_units": [
     {
@@ -1791,32 +2226,6 @@
         "id": "v4-6",
         "text": "Is not your fear in foolishness, and your hope and the innocence of your way as well?",
         "text_sha256": "df5eb1c1fb3061bba209ec00f50dc1f78bebb6885d7630b3e4d608f7f4c0ecc0"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T154206Z"
-    },
-    {
-      "source_reference": "Job 4:9",
-      "target": null,
-      "reason": "The claim that offenders perish through the Lord's command and angry breath remains Eliphaz's account. No further particular episode or identical divine breath is assigned to it.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 4:9",
-        "id": "v4-9",
-        "text": "By the Lord’s command they will perish; by the breath of His anger they will disappear.",
-        "text_sha256": "99e4f1e21de01864eaa6e25eb3ac5b5f2f53a1f941508d3a7711bc528a038158"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
       "reviewed": "2026-10-30",
@@ -1928,32 +2337,6 @@
       "review_batch": "2026-10-30T154206Z"
     },
     {
-      "source_reference": "Job 4:16",
-      "target": null,
-      "reason": "The account says Eliphaz did not recognize it and saw no form, while hearing a breeze and voice. The separately read Elijah candidate does not establish the identity or authority of this visitor.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 4:16",
-        "id": "v4-16",
-        "text": "I stood up and did not recognize it; I looked, and there was no form before my eyes, but I heard a breeze and a voice:",
-        "text_sha256": "c7d6a43c64506284331e356dfad1ead2c6cd3ba3db0ce5ee6ed31b0bf0583247"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T154206Z"
-    },
-    {
       "source_reference": "Job 4:18",
       "target": null,
       "reason": "The reported voice's distrust of servants and crookedness in angels does not identify the angels with the imprisoned sinful angels in the separately read candidate.",
@@ -2025,32 +2408,6 @@
         "id": "v5-4",
         "text": "May their sons be far from deliverance; may they be battered at the doors of weaker people, with no one to rescue them.",
         "text_sha256": "f27f35a55b759356a2b0bbed1dbdd109b2875d59799dad49dc3442244da1dd02"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T154206Z"
-    },
-    {
-      "source_reference": "Job 5:5",
-      "target": null,
-      "reason": "The righteous eating what was gathered, the absence of rescue and drained strength are preserved as Eliphaz’s claims; no additional specific transfer of property or harvest is identified.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 5:5",
-        "id": "v5-5",
-        "text": "For the righteous will eat what they gathered, and they themselves will not be rescued from evils; may their strength be drained away.",
-        "text_sha256": "0a7c3e821f0e7f38c73cc65b104bd34ee1731116821dfe2e04d97fa6c4b13f1d"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
       "reviewed": "2026-10-30",
@@ -2259,32 +2616,6 @@
         "id": "v6-11",
         "text": "For what is my strength, that I endure? What time remains to me, that my soul holds out?",
         "text_sha256": "fc6576108a8cff1402ffa142662cab9e6ac6e165e2290f69ff09c1b1ed4948c4"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T154206Z"
-    },
-    {
-      "source_reference": "Job 6:13",
-      "target": null,
-      "reason": "Job's stated trust and distance from help remain part of his complaint; a generic verse about seeking help would not supply an independently particular connection.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 6:13",
-        "id": "v6-13",
-        "text": "Had I not trusted in Him? But help is far from me.",
-        "text_sha256": "36091f88988ccba49f8111654159c68a93d4a01341d5a857950f26517d132238"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
       "reviewed": "2026-10-30",
@@ -2630,32 +2961,6 @@
       "review_batch": "2026-10-30T154206Z"
     },
     {
-      "source_reference": "Job 7:21",
-      "target": null,
-      "reason": "The request for forgetfulness of wrongdoing and cleansing before departure is read as Job's appeal. A generic forgiveness verse is not retained without a more particular established connection.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 7:21",
-        "id": "v7-21",
-        "text": "Why hast Thou not brought about forgetfulness of my lawlessness and cleansing of my sin? But now I will depart into the earth; at daybreak I am no more.”",
-        "text_sha256": "602ed9403616075e14fca43ef5c019fada9bff68d92ce83890da3bff45cda22a"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T154206Z"
-    },
-    {
       "source_reference": "Job 8:1",
       "target": null,
       "reason": "The heading introduces Bildad's reply; identification with the already introduced visitor alone supplies no additional substantive comparison.",
@@ -2831,32 +3136,6 @@
         "id": "v9-1",
         "text": "Then Job replied:",
         "text_sha256": "263cdd02f9b744df33f6fa16d3c24e592decf19cf91bbc5b49c1a86084ff584d"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 9:4",
-      "target": null,
-      "reason": "The assertion of divine wisdom, might and resistance remains context for the particular cosmic and judicial comparisons that follow; no additional sufficiently distinct counterpart is retained for this general declaration.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 9:4",
-        "id": "v9-4",
-        "text": "For He is wise in understanding, mighty and great. Who grew hard against Him and endured?",
-        "text_sha256": "6390eb06ca800c0b769159693926758c89a62b91555b8ce4a20b187d5dd96be1"
       },
       "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
       "reviewed": "2026-10-30",
@@ -3098,32 +3377,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 10:22",
-      "target": null,
-      "reason": "The land of everlasting darkness completes the death-description in 10:21. It is not converted into a mapped location or a comprehensive doctrine of the afterlife.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 10:22",
-        "id": "v10-22",
-        "text": "to a land of everlasting darkness, where there is no brightness and no seeing the life of mortals.’”",
-        "text_sha256": "db9fd7f9d4b0e768789a4d599340ddb817ff9993873d3733fe59c276779adbff"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 11:1",
       "target": null,
       "reason": "This introduces Zophar as the Minaean and begins his reply; a shared personal name by itself does not supply a substantive retained comparison.",
@@ -3332,32 +3585,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 12:14",
-      "target": null,
-      "reason": "God's irreversible demolition and confinement are clear, but the separately read Isaiah candidate does not contain the familiar opening-and-shutting language sometimes supplied to it.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 12:14",
-        "id": "v12-14",
-        "text": "If He throws down, who will build? If He shuts people in, who will open?",
-        "text_sha256": "17524110745c7ca14fa1bd06f71f87763cc06d9eb52da293c1407c63007df884"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 12:16",
       "target": null,
       "reason": "Might, knowledge and understanding repeat the divine-wisdom theme compared at 12:13. No additional distinct counterpart is retained merely to repeat that comparison.",
@@ -3533,32 +3760,6 @@
         "id": "v13-20",
         "text": "But grant me two things; then I will not hide from Thy face:",
         "text_sha256": "6bd61c60a9cc5bb4b006bf1ff59074a465f4b9406072596245026080045e7784"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 13:25",
-      "target": null,
-      "reason": "The wind-moved leaf and breeze-carried grass express Job's frailty. They are not silently changed into chaff or made to prove that he is the wicked figure of another passage.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 13:25",
-        "id": "v13-25",
-        "text": "Wilt Thou be wary of a leaf moved by wind, or oppose me as grass carried by a breeze?",
-        "text_sha256": "6cc800031d653dce0cf5aa788eb95736910b8b3378ca9195ae71d56236e2e4f5"
       },
       "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
       "reviewed": "2026-10-30",
@@ -3878,32 +4079,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 15:20",
-      "target": null,
-      "reason": "Lifelong anxiety and a ruler's numbered years begin the ungodly-person portrait; no particular ruler is named or independently identified.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 15:20",
-        "id": "v15-20",
-        "text": "An ungodly person’s whole life is in anxiety, and numbered years are given to a ruler.",
-        "text_sha256": "163da670ee0053fc7c47645e83840a7f2d5b4f1c73decf2173f65b031bca434d"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 15:24",
       "target": null,
       "reason": "The comparison with a general falling in the front rank is figurative. No actual battle or named commander can be inferred from it.",
@@ -4060,32 +4235,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 16:6",
-      "target": null,
-      "reason": "Job weighs speaking and silence against continuing pain. No distinct event or sufficiently particular counterpart is established by speech during distress alone.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 16:6",
-        "id": "v16-6",
-        "text": "For if I speak, I will not feel pain from the wound; and if I remain silent, how will I be wounded any less?",
-        "text_sha256": "4394d897d52a1f66df1bce15ecce2460a0fab3d97ab7e8ee4da17c620fd37aea"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 16:7",
       "target": null,
       "reason": "Exhaustion, foolishness and decay express Job's state. A generic description of sickness elsewhere does not identify a specific relationship.",
@@ -4190,32 +4339,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 16:19",
-      "target": null,
-      "reason": "The heavenly witness and one who knows with Job are not named in this unit. The separately read Christian Advocate candidate does not resolve this witness's personal identity.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 16:19",
-        "id": "v16-19",
-        "text": "Even now, behold, my witness is in the heavens, and the one who knows with me is in the highest places.",
-        "text_sha256": "162e291bc9ee942a9be72b42b8a00da6c32bf90caa66f8e36ce21a3c7f008bec"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 17:2",
       "target": null,
       "reason": "Weariness, pleading and the question what Job has done continue the legal lament; no separate specific accusation or offense is identified.",
@@ -4313,32 +4436,6 @@
         "id": "v17-12",
         "text": "They made night into day; light is near in the face of darkness.",
         "text_sha256": "537efb70b463ea63ff0af8688795b681e8c7efe7ec7fda289ca124b428d86044"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 17:14",
-      "target": null,
-      "reason": "Death as father and decay as mother and sister are personifying kinship images. They do not identify actual relatives or a specific personal genealogy.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 17:14",
-        "id": "v17-14",
-        "text": "I called upon death to be my father, and decay to be my mother and sister.",
-        "text_sha256": "53b916ef6afa9d74ef0233e98f5ba4bd8d65c62b1f796412d859cb4e07f9a3e9"
       },
       "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
       "reviewed": "2026-10-30",
@@ -4580,32 +4677,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 18:19",
-      "target": null,
-      "reason": "The unrecognized person and unpreserved house are not rewritten as an explicit assertion that he has no offspring or descendants.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 18:19",
-        "id": "v18-19",
-        "text": "He will not be recognized among his people, nor will his house be preserved beneath heaven, but others will live in what was his.",
-        "text_sha256": "04898355b12bd8ccc726fdc82d259291d2ccfc6dfbec79b47255366b0b3a2f76"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 18:20",
       "target": null,
       "reason": "The last people's groaning and first people's astonishment do not specify named generations or observers whose identities can be resolved.",
@@ -4710,32 +4781,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 19:9",
-      "target": null,
-      "reason": "The removal of glory and crown is preserved; the considered psalm wording says consecrated thing rather than crown and is not used to claim an exact crown correspondence.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 19:9",
-        "id": "v19-9",
-        "text": "He stripped glory from me and took the crown from my head.",
-        "text_sha256": "53dac2ac8ed8653d426a92bfb9455a41aa3b2d5408cc7590168bea45dd1e7956"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 19:12",
       "target": null,
       "reason": "Job's trials and encircling men lying in wait are not identified with a particular invading army or the prologue's raiders.",
@@ -4755,32 +4800,6 @@
         "id": "v19-12",
         "text": "His trials came together against me on my roads; men lying in wait encircled me.",
         "text_sha256": "dca6f7d2ea8c1d799d6fe494f5a113978853b028d39cf1738bc36ebe3451198f"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 19:15",
-      "target": null,
-      "reason": "Household neighbors and maidservants treating Job as foreign do not establish a named exile or ethnic identity beyond his complaint of alienation.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 19:15",
-        "id": "v19-15",
-        "text": "Neighbors of the house and my maidservants— I was a foreigner before them.",
-        "text_sha256": "33f9a562a2af9f596e87a849c3054d2c86cf017c690550294158260df7627af8"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
       "reviewed": "2026-10-30",
@@ -5100,32 +5119,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 20:28",
-      "target": null,
-      "reason": "The house dragged to destruction on a day of wrath is not assigned to the prologue's house collapse or to a specific final judgment event.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 20:28",
-        "id": "v20-28",
-        "text": "May destruction drag his house utterly away; may a day of wrath come upon him.",
-        "text_sha256": "5c82a08e03c7d38845864056b6d4fc372a04f1e32dc7570c323ce2eda45270e8"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 21:1",
       "target": null,
       "reason": "The response heading marks Job's turn and earns no separate connection credit.",
@@ -5249,58 +5242,6 @@
         "id": "v21-6",
         "text": "For whenever I remember, I am agitated, and pains grip my flesh.",
         "text_sha256": "2de592e937d6eb6ad2ae0323aefc4255e26d2c0cf6f3a5b387deda95fc54856a"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 21:10",
-      "target": null,
-      "reason": "The cows' successful reproduction is a concrete detail of the prosperity argument, without an established identity with a particular herd or fertility promise.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 21:10",
-        "id": "v21-10",
-        "text": "Their cow did not calve prematurely; their pregnant animal was preserved and did not miscarry.",
-        "text_sha256": "8593fdb77e7de0ff0a8f519beb8b793a70f5be6daecefca2eaf019a94a33f6b3"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 21:11",
-      "target": null,
-      "reason": "The enduring sheep and playing children do not establish a distinct flock or child group beyond the surrounding account of prosperity.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 21:11",
-        "id": "v21-11",
-        "text": "They remain like everlasting sheep, and their children play,",
-        "text_sha256": "15dc08c28f3bac053664f1307a03e77f43df3a5663a69f55fcc743d6ed7bf24f"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
       "reviewed": "2026-10-30",
@@ -5568,32 +5509,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 22:8",
-      "target": null,
-      "reason": "The charge of partiality and settling certain people in the land does not identify a particular land grant or establish that Job actually committed it.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 22:8",
-        "id": "v22-8",
-        "text": "You showed partiality to certain people and settled them upon the land.",
-        "text_sha256": "d45eff65a0ec53683373ef14b73d39904401cad1217d033744307beb794fd3a5"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 22:14",
       "target": null,
       "reason": "The cloud concealment and circuit of heaven belong to Eliphaz's attribution; they do not independently prove Job held the quoted view or identify a distinct divine journey.",
@@ -5613,32 +5528,6 @@
         "id": "v22-14",
         "text": "Clouds are His concealment, and He will not be seen; He will pass around the circle of heaven.’",
         "text_sha256": "2c88171835816fe5e88732af516482f43d285231a2f94b0c5b6cdcea188fc07b"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 22:15",
-      "target": null,
-      "reason": "The ancient unjust path remains unnamed; it is not assigned to a specific antediluvian generation without further evidence.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 22:15",
-        "id": "v22-15",
-        "text": "Will you guard the age-old path that unjust men trod,",
-        "text_sha256": "20034f344c4c064562e679cbe2b70a10942baff17f7d0e113f1a3303de08de20"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
       "reviewed": "2026-10-30",
@@ -6374,84 +6263,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 27:23",
-      "target": null,
-      "reason": "Clapping and hissing at removal do not by themselves establish an identity with another derision scene.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 27:23",
-        "id": "v27-23",
-        "text": "He will clap his hands over him and hiss him out of his place.”",
-        "text_sha256": "b063e10cca52de479911b9f235b9b20330da72465476d7a5521f71900ed8fa96"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 28:1",
-      "target": null,
-      "reason": "The origins and refining place of silver and gold are not identified with a particular mine or refining episode.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 28:1",
-        "id": "v28-1",
-        "text": "“For silver has a place from which it comes, and gold a place from which it is filtered.",
-        "text_sha256": "9f48ec4e00f68ca4836f0a9d6e7022e237adeedf9758283d1c761f230c5f94a5"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 28:2",
-      "target": null,
-      "reason": "Earth's iron and quarried copper do not identify a particular promised land or mining location.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 28:2",
-        "id": "v28-2",
-        "text": "For iron comes from earth, and copper is quarried like stone.",
-        "text_sha256": "b87f11403e6357c349a29c36e6510523cccf361384c99d20f53ec55a3786f211"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 28:3",
       "target": null,
       "reason": "The order for darkness and examination of stone and death's shadow are not simplified into an outside edition's mining description.",
@@ -6764,32 +6575,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 28:24",
-      "target": null,
-      "reason": "The general statement of God's knowledge of all creation lacks an additional narrowly distinctive target in this pass.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 28:24",
-        "id": "v28-24",
-        "text": "For He observes the whole realm under heaven, knowing everything in the earth that He made:",
-        "text_sha256": "325424c41c113a453d3a89905bddad7e0dadb2f258e077d88962c7af808edd27"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 29:1",
       "target": null,
       "reason": "The speech prelude adds no particular relationship beyond marking Job's continuation.",
@@ -6939,32 +6724,6 @@
         "id": "v29-15",
         "text": "I was an eye for the blind and a foot for the lame.",
         "text_sha256": "ec9229067cfdfbecc730b8b4d2f54544e748aa864cf1dba1c8f7abb1bab4c8c8"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 29:17",
-      "target": null,
-      "reason": "The crushed molars and recovered plunder are not identified with an unrelated literal assault or animal encounter.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 29:17",
-        "id": "v29-17",
-        "text": "I crushed the molars of unjust people and tore the plunder from between their teeth.",
-        "text_sha256": "00b35902aa40a65dd7cf2c6a0441d5dcc7c33f0594c24e75c06997aa0c23b9a8"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
       "reviewed": "2026-10-30",
@@ -7206,32 +6965,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 30:8",
-      "target": null,
-      "reason": "The foolish and dishonored lineage is not a genealogical identification of any known people.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 30:8",
-        "id": "v30-8",
-        "text": "sons of foolish and dishonored people, whose name and renown were extinguished from the earth.",
-        "text_sha256": "36c10ff3f54530aea103e9c06324bf45060bc42229ad015e55442f944e7626f4"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 30:12",
       "target": null,
       "reason": "The right hand of a shoot and roads of destruction have difficult supplied wording; no standard-edition military reconstruction is imposed.",
@@ -7433,32 +7166,6 @@
         "id": "v31-2",
         "text": "What did God apportion from above, and what is the Mighty One’s inheritance from the highest places?",
         "text_sha256": "c17c61419e4bfede6694bc340bba6c63026078ba01cd8704e19e5fae43e49973"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 31:5",
-      "target": null,
-      "reason": "The oath about walking with mockers and hastening toward deceit concerns different acts from the general commitment against lawless speech and unjust thought in Job 27:4. Once those acts are distinguished, the proposed link rests on a broad assertion of innocence rather than a sufficiently particular connection; no pair is retained.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 31:5",
-        "id": "v31-5",
-        "text": "If I had walked with mockers, and if my foot also hastened toward deceit,",
-        "text_sha256": "b661491899eb05fbfc06bd4c7f7f9bbeef3ab09b893a7cbae9a5936a2f2a7646"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
       "reviewed": "2026-10-30",
@@ -7752,32 +7459,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 32:6",
-      "target": null,
-      "reason": "Elihu's explanation of age and prior silence supplies context to the retained narrator-to-speech comparison, without a reciprocal pair merely repeating it.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 32:6",
-        "id": "v32-6",
-        "text": "Elihu son of Barachel the Buzite replied: “I am younger in time, and you are older; therefore I kept quiet, afraid to announce my own knowledge to you.",
-        "text_sha256": "5edd0cb292062de32f184da9e70934e7d90c54c4747130e7c486f5fd10095221"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 32:10",
       "target": null,
       "reason": "The request to listen and announcement of knowledge is not by itself a particular teaching parallel.",
@@ -8064,32 +7745,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 33:16",
-      "target": null,
-      "reason": "The uncovering of minds through fear is not equated with a specific dream interpretation or with the literal opening of eyes.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 33:16",
-        "id": "v33-16",
-        "text": "then He uncovers people’s minds; with such forms of fear He terrified them,",
-        "text_sha256": "67b34c5cfdd164766f63edd474284e2e7b74cb5bb3e96d49a07823027caafd08"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 33:18",
       "target": null,
       "reason": "Rescue from death and falling in war are not assigned to a named battle or individual beyond the illustrative human.",
@@ -8109,32 +7764,6 @@
         "id": "v33-18",
         "text": "He spared his soul from death, and kept him from falling in war.",
         "text_sha256": "3e8862ede05dfac5ef3e063e7216b3955eff893d1287b062a4c78ed030cc64a8"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 33:23",
-      "target": null,
-      "reason": "The thousand death-bearing angels and one not wounding him are not replaced with an interpreter or mediator; the proposed Balaam comparison remains uncertain.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 33:23",
-        "id": "v33-23",
-        "text": "If there are a thousand death-bearing angels, one of them will certainly not wound him. If he understands in his heart to turn toward the Lord, announces his own blame to a human, and shows his lack of understanding,",
-        "text_sha256": "4682b7ce226a26ac2000b140a7a9713904e618cf72450c81b58212760919442a"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
       "reviewed": "2026-10-30",
@@ -8532,32 +8161,6 @@
       "review_batch": "2026-10-30T170737Z"
     },
     {
-      "source_reference": "Job 34:27",
-      "target": null,
-      "reason": "Turning from God's law and ordinances is a general description here, with no particular statute or incident established.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 34:27",
-        "id": "v34-27",
-        "text": "because they turned aside from God’s law and did not recognize His ordinances,",
-        "text_sha256": "1b3b8d2ae6ea9128e3aa10a5238355bd54c71dabd5fd97206c5b186405c3905e"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
       "source_reference": "Job 34:29",
       "target": null,
       "reason": "Quiet, concealment of the face, and inability to condemn or see are not combined into a particular national event or settled referent beyond the text.",
@@ -8707,32 +8310,6 @@
         "id": "v35-1",
         "text": "Then Elihu replied:",
         "text_sha256": "398492d50835c9ab24f368fc3dfd27d22bf7cd116a23f6400b0320f79124b04a"
-      },
-      "reviewer": "Codex AI author /root (GPT-6)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T170737Z"
-    },
-    {
-      "source_reference": "Job 35:8",
-      "target": null,
-      "reason": "The distribution of ungodliness and righteousness to fellow humans is preserved; no sufficiently particular additional passage about that distribution is retained.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "job/verses.json",
-        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
-      },
-      "source_verse": {
-        "reference": "Job 35:8",
-        "id": "v35-8",
-        "text": "Your ungodliness is for a man like you, and your righteousness for a son of humanity.",
-        "text_sha256": "b991e6eade9b521c61d00aefa593c9ec6f39275bd7de314d1dc3603d1894374e"
       },
       "reviewer": "Codex AI author /root (GPT-6)",
       "reviewed": "2026-10-30",
@@ -10112,6 +9689,2072 @@
         "tsv_file": "job-3-18-revisit.tsv",
         "tsv_sha256": "ec6b593f48b8d7bbeaf8a819f04ab6322233b017bb00f6ce1be6829f877e0fe3"
       }
+    },
+    {
+      "source_reference": "Job 4:9",
+      "original_deferral": {
+        "source_reference": "Job 4:9",
+        "target": null,
+        "reason": "The claim that offenders perish through the Lord's command and angry breath remains Eliphaz's account. No further particular episode or identical divine breath is assigned to it.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 4:9",
+          "id": "v4-9",
+          "text": "By the Lord’s command they will perish; by the breath of His anger they will disappear.",
+          "text_sha256": "99e4f1e21de01864eaa6e25eb3ac5b5f2f53a1f941508d3a7711bc528a038158"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T154206Z"
+      },
+      "original_deferral_sha256": "0aae4829e4523643714a65784d97cd514a01b9fe630d022e4bb58887b135c970",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-4-9__2-thessalonians-2-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 4:16",
+      "original_deferral": {
+        "source_reference": "Job 4:16",
+        "target": null,
+        "reason": "The account says Eliphaz did not recognize it and saw no form, while hearing a breeze and voice. The separately read Elijah candidate does not establish the identity or authority of this visitor.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 4:16",
+          "id": "v4-16",
+          "text": "I stood up and did not recognize it; I looked, and there was no form before my eyes, but I heard a breeze and a voice:",
+          "text_sha256": "c7d6a43c64506284331e356dfad1ead2c6cd3ba3db0ce5ee6ed31b0bf0583247"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T154206Z"
+      },
+      "original_deferral_sha256": "2f2fb985ce8c0db0e57ac923f8b4b37a64824ad5a937844f0bab1dff45630b87",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-4-16__deuteronomy-4-12"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 5:5",
+      "original_deferral": {
+        "source_reference": "Job 5:5",
+        "target": null,
+        "reason": "The righteous eating what was gathered, the absence of rescue and drained strength are preserved as Eliphaz’s claims; no additional specific transfer of property or harvest is identified.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 5:5",
+          "id": "v5-5",
+          "text": "For the righteous will eat what they gathered, and they themselves will not be rescued from evils; may their strength be drained away.",
+          "text_sha256": "0a7c3e821f0e7f38c73cc65b104bd34ee1731116821dfe2e04d97fa6c4b13f1d"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T154206Z"
+      },
+      "original_deferral_sha256": "b94da0e6f089f7fa123cf7bd8d138deb5dbe5a71be3131c38239a5013025f81f",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-5-5__proverbs-13-22"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 6:13",
+      "original_deferral": {
+        "source_reference": "Job 6:13",
+        "target": null,
+        "reason": "Job's stated trust and distance from help remain part of his complaint; a generic verse about seeking help would not supply an independently particular connection.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 6:13",
+          "id": "v6-13",
+          "text": "Had I not trusted in Him? But help is far from me.",
+          "text_sha256": "36091f88988ccba49f8111654159c68a93d4a01341d5a857950f26517d132238"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T154206Z"
+      },
+      "original_deferral_sha256": "d36c2ada06f2f77dc5c0d810abbd2a620fc5ab31d4752ee1c8c62174b2833d3e",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-6-13__psalms-21-20"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 7:21",
+      "original_deferral": {
+        "source_reference": "Job 7:21",
+        "target": null,
+        "reason": "The request for forgetfulness of wrongdoing and cleansing before departure is read as Job's appeal. A generic forgiveness verse is not retained without a more particular established connection.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 7:21",
+          "id": "v7-21",
+          "text": "Why hast Thou not brought about forgetfulness of my lawlessness and cleansing of my sin? But now I will depart into the earth; at daybreak I am no more.”",
+          "text_sha256": "602ed9403616075e14fca43ef5c019fada9bff68d92ce83890da3bff45cda22a"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job4-8 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T154206Z"
+      },
+      "original_deferral_sha256": "4b2d700fa00241092fe4e3e85364e30667ac2e63117fe67c9c31558024641722",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-7-21__psalms-38-13-14"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 9:4",
+      "original_deferral": {
+        "source_reference": "Job 9:4",
+        "target": null,
+        "reason": "The assertion of divine wisdom, might and resistance remains context for the particular cosmic and judicial comparisons that follow; no additional sufficiently distinct counterpart is retained for this general declaration.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 9:4",
+          "id": "v9-4",
+          "text": "For He is wise in understanding, mighty and great. Who grew hard against Him and endured?",
+          "text_sha256": "6390eb06ca800c0b769159693926758c89a62b91555b8ce4a20b187d5dd96be1"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "757d9839f19d63738580416b67315b04ebe770d7ff0487faca56893a4b65ee72",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-9-4__romans-9-19-20"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 10:22",
+      "original_deferral": {
+        "source_reference": "Job 10:22",
+        "target": null,
+        "reason": "The land of everlasting darkness completes the death-description in 10:21. It is not converted into a mapped location or a comprehensive doctrine of the afterlife.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 10:22",
+          "id": "v10-22",
+          "text": "to a land of everlasting darkness, where there is no brightness and no seeing the life of mortals.’”",
+          "text_sha256": "db9fd7f9d4b0e768789a4d599340ddb817ff9993873d3733fe59c276779adbff"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "ecceb94c86142d96623aeeace951a7a67309f4fcb108396380679b3330b5569f",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-10-22__psalms-87-12-13"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 12:14",
+      "original_deferral": {
+        "source_reference": "Job 12:14",
+        "target": null,
+        "reason": "God's irreversible demolition and confinement are clear, but the separately read Isaiah candidate does not contain the familiar opening-and-shutting language sometimes supplied to it.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 12:14",
+          "id": "v12-14",
+          "text": "If He throws down, who will build? If He shuts people in, who will open?",
+          "text_sha256": "17524110745c7ca14fa1bd06f71f87763cc06d9eb52da293c1407c63007df884"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "04ecede1bca7e0e5003385b7b828cd1952011f0f74fd17ccd48a5ab13fe82321",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-12-14__isaiah-43-13"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 13:25",
+      "original_deferral": {
+        "source_reference": "Job 13:25",
+        "target": null,
+        "reason": "The wind-moved leaf and breeze-carried grass express Job's frailty. They are not silently changed into chaff or made to prove that he is the wicked figure of another passage.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 13:25",
+          "id": "v13-25",
+          "text": "Wilt Thou be wary of a leaf moved by wind, or oppose me as grass carried by a breeze?",
+          "text_sha256": "6cc800031d653dce0cf5aa788eb95736910b8b3378ca9195ae71d56236e2e4f5"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "a229087bf67ee1b269ef21596694920f4cfe412a257eb21c8f92dda1bd5338f2",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-13-25__isaiah-64-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 15:20",
+      "original_deferral": {
+        "source_reference": "Job 15:20",
+        "target": null,
+        "reason": "Lifelong anxiety and a ruler's numbered years begin the ungodly-person portrait; no particular ruler is named or independently identified.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 15:20",
+          "id": "v15-20",
+          "text": "An ungodly person’s whole life is in anxiety, and numbered years are given to a ruler.",
+          "text_sha256": "163da670ee0053fc7c47645e83840a7f2d5b4f1c73decf2173f65b031bca434d"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "92475ec2657b56814c4463111b7dd0967bc66389696e46d3a733ff86e4957289",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-15-20__isaiah-57-20-21"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 16:6",
+      "original_deferral": {
+        "source_reference": "Job 16:6",
+        "target": null,
+        "reason": "Job weighs speaking and silence against continuing pain. No distinct event or sufficiently particular counterpart is established by speech during distress alone.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 16:6",
+          "id": "v16-6",
+          "text": "For if I speak, I will not feel pain from the wound; and if I remain silent, how will I be wounded any less?",
+          "text_sha256": "4394d897d52a1f66df1bce15ecce2460a0fab3d97ab7e8ee4da17c620fd37aea"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "b1b5d11e79425b19dc7a6555261cba51bf9c12e040400155909079006a4f0616",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-16-6__psalms-38-3-4"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 16:19",
+      "original_deferral": {
+        "source_reference": "Job 16:19",
+        "target": null,
+        "reason": "The heavenly witness and one who knows with Job are not named in this unit. The separately read Christian Advocate candidate does not resolve this witness's personal identity.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 16:19",
+          "id": "v16-19",
+          "text": "Even now, behold, my witness is in the heavens, and the one who knows with me is in the highest places.",
+          "text_sha256": "162e291bc9ee942a9be72b42b8a00da6c32bf90caa66f8e36ce21a3c7f008bec"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "f4f6745dc716e5379f14a1bc818a60ce04c36c39eb347029dc40566e955cfc3f",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-16-19__romans-1-9-10"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 17:14",
+      "original_deferral": {
+        "source_reference": "Job 17:14",
+        "target": null,
+        "reason": "Death as father and decay as mother and sister are personifying kinship images. They do not identify actual relatives or a specific personal genealogy.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 17:14",
+          "id": "v17-14",
+          "text": "I called upon death to be my father, and decay to be my mother and sister.",
+          "text_sha256": "53b916ef6afa9d74ef0233e98f5ba4bd8d65c62b1f796412d859cb4e07f9a3e9"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author (GPT-6), Job 9-17 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "95e781eb0ac3537df08185806cc8454299b600350bf4659ffeff97372b6145ad",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-17-14__proverbs-7-4"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 18:19",
+      "original_deferral": {
+        "source_reference": "Job 18:19",
+        "target": null,
+        "reason": "The unrecognized person and unpreserved house are not rewritten as an explicit assertion that he has no offspring or descendants.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 18:19",
+          "id": "v18-19",
+          "text": "He will not be recognized among his people, nor will his house be preserved beneath heaven, but others will live in what was his.",
+          "text_sha256": "04898355b12bd8ccc726fdc82d259291d2ccfc6dfbec79b47255366b0b3a2f76"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "dcf503d604dae4223f3de5cd3f04c29c61b54b49a8d1b2fd2d076f967d340c63",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-18-19__jeremiah-6-12"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 19:9",
+      "original_deferral": {
+        "source_reference": "Job 19:9",
+        "target": null,
+        "reason": "The removal of glory and crown is preserved; the considered psalm wording says consecrated thing rather than crown and is not used to claim an exact crown correspondence.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 19:9",
+          "id": "v19-9",
+          "text": "He stripped glory from me and took the crown from my head.",
+          "text_sha256": "53dac2ac8ed8653d426a92bfb9455a41aa3b2d5408cc7590168bea45dd1e7956"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "76b57d5155eeed1483f0bbc6cbb82c3d6084c68b75eacf15791171f71c59c652",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-19-9__lamentations-5-16"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 19:15",
+      "original_deferral": {
+        "source_reference": "Job 19:15",
+        "target": null,
+        "reason": "Household neighbors and maidservants treating Job as foreign do not establish a named exile or ethnic identity beyond his complaint of alienation.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 19:15",
+          "id": "v19-15",
+          "text": "Neighbors of the house and my maidservants— I was a foreigner before them.",
+          "text_sha256": "33f9a562a2af9f596e87a849c3054d2c86cf017c690550294158260df7627af8"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "6223227378cfddc84fb889b2d6003ab895806fa1c7ef4731e84ab6524347f9fe",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-19-15__psalms-68-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 20:28",
+      "original_deferral": {
+        "source_reference": "Job 20:28",
+        "target": null,
+        "reason": "The house dragged to destruction on a day of wrath is not assigned to the prologue's house collapse or to a specific final judgment event.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 20:28",
+          "id": "v20-28",
+          "text": "May destruction drag his house utterly away; may a day of wrath come upon him.",
+          "text_sha256": "5c82a08e03c7d38845864056b6d4fc372a04f1e32dc7570c323ce2eda45270e8"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "ce836a060d9179991cc15d1d57e80bcd6cbdd55380b1811ce5c05dccf513da39",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-20-28__proverbs-15-25"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 21:10",
+      "original_deferral": {
+        "source_reference": "Job 21:10",
+        "target": null,
+        "reason": "The cows' successful reproduction is a concrete detail of the prosperity argument, without an established identity with a particular herd or fertility promise.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 21:10",
+          "id": "v21-10",
+          "text": "Their cow did not calve prematurely; their pregnant animal was preserved and did not miscarry.",
+          "text_sha256": "8593fdb77e7de0ff0a8f519beb8b793a70f5be6daecefca2eaf019a94a33f6b3"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "8bc0a5fb2c7d776c00e1497a3911d0b725e72c52729485259e4a80cbb6d67e34",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-21-10__deuteronomy-7-12-14"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 21:11",
+      "original_deferral": {
+        "source_reference": "Job 21:11",
+        "target": null,
+        "reason": "The enduring sheep and playing children do not establish a distinct flock or child group beyond the surrounding account of prosperity.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 21:11",
+          "id": "v21-11",
+          "text": "They remain like everlasting sheep, and their children play,",
+          "text_sha256": "15dc08c28f3bac053664f1307a03e77f43df3a5663a69f55fcc743d6ed7bf24f"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "628f567d1d161b94131af1359849061925210d806886f9da0fcee2117a0900ad",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-21-11__zechariah-8-4-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 22:8",
+      "original_deferral": {
+        "source_reference": "Job 22:8",
+        "target": null,
+        "reason": "The charge of partiality and settling certain people in the land does not identify a particular land grant or establish that Job actually committed it.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 22:8",
+          "id": "v22-8",
+          "text": "You showed partiality to certain people and settled them upon the land.",
+          "text_sha256": "d45eff65a0ec53683373ef14b73d39904401cad1217d033744307beb794fd3a5"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "412c828cd18885af0bfa12beacced0bc2ac6c3799d0d94a2cbc69507f4dc13ef",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-22-8__leviticus-19-15"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 22:15",
+      "original_deferral": {
+        "source_reference": "Job 22:15",
+        "target": null,
+        "reason": "The ancient unjust path remains unnamed; it is not assigned to a specific antediluvian generation without further evidence.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 22:15",
+          "id": "v22-15",
+          "text": "Will you guard the age-old path that unjust men trod,",
+          "text_sha256": "20034f344c4c064562e679cbe2b70a10942baff17f7d0e113f1a3303de08de20"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Job 18–26 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "4324662a75749c730ded6a817c89beb4adca50d09824aea50b8c2fc79aae5d28",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-22-15__jeremiah-6-16"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 27:23",
+      "original_deferral": {
+        "source_reference": "Job 27:23",
+        "target": null,
+        "reason": "Clapping and hissing at removal do not by themselves establish an identity with another derision scene.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 27:23",
+          "id": "v27-23",
+          "text": "He will clap his hands over him and hiss him out of his place.”",
+          "text_sha256": "b063e10cca52de479911b9f235b9b20330da72465476d7a5521f71900ed8fa96"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "1df72c5ab352ab37d48d031bc245e5cce6bf94bde0a81c30b3c73fc9645a67a0",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-27-23__lamentations-2-15"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 28:1",
+      "original_deferral": {
+        "source_reference": "Job 28:1",
+        "target": null,
+        "reason": "The origins and refining place of silver and gold are not identified with a particular mine or refining episode.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 28:1",
+          "id": "v28-1",
+          "text": "“For silver has a place from which it comes, and gold a place from which it is filtered.",
+          "text_sha256": "9f48ec4e00f68ca4836f0a9d6e7022e237adeedf9758283d1c761f230c5f94a5"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "5c2f8506e12251ddb85fb916f361e39056373db1fbe517c0e59d643872c8adf5",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-28-1__proverbs-17-3"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 28:2",
+      "original_deferral": {
+        "source_reference": "Job 28:2",
+        "target": null,
+        "reason": "Earth's iron and quarried copper do not identify a particular promised land or mining location.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 28:2",
+          "id": "v28-2",
+          "text": "For iron comes from earth, and copper is quarried like stone.",
+          "text_sha256": "b87f11403e6357c349a29c36e6510523cccf361384c99d20f53ec55a3786f211"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "8e3bf1320f0e8d45f45133da1cccd3cd741c266334f71ecce49f20ef074111bc",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-28-2__deuteronomy-8-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 28:24",
+      "original_deferral": {
+        "source_reference": "Job 28:24",
+        "target": null,
+        "reason": "The general statement of God's knowledge of all creation lacks an additional narrowly distinctive target in this pass.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 28:24",
+          "id": "v28-24",
+          "text": "For He observes the whole realm under heaven, knowing everything in the earth that He made:",
+          "text_sha256": "325424c41c113a453d3a89905bddad7e0dadb2f258e077d88962c7af808edd27"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "09504a6510461e8d72a9d9bba3227cbc4ae5638eb11ca9be1e840d504563db2e",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-28-24__proverbs-15-3"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 29:17",
+      "original_deferral": {
+        "source_reference": "Job 29:17",
+        "target": null,
+        "reason": "The crushed molars and recovered plunder are not identified with an unrelated literal assault or animal encounter.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 29:17",
+          "id": "v29-17",
+          "text": "I crushed the molars of unjust people and tore the plunder from between their teeth.",
+          "text_sha256": "00b35902aa40a65dd7cf2c6a0441d5dcc7c33f0594c24e75c06997aa0c23b9a8"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "a259ddba6498c25ad91774d495993167d557ce7e637f54b720328d0852007e97",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-29-17__psalms-57-7"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 30:8",
+      "original_deferral": {
+        "source_reference": "Job 30:8",
+        "target": null,
+        "reason": "The foolish and dishonored lineage is not a genealogical identification of any known people.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 30:8",
+          "id": "v30-8",
+          "text": "sons of foolish and dishonored people, whose name and renown were extinguished from the earth.",
+          "text_sha256": "36c10ff3f54530aea103e9c06324bf45060bc42229ad015e55442f944e7626f4"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "56e2edc067ecb4ed50ee105f3bfd12053b21ce91cc967b2271cdd8cefcd74aab",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-30-8__proverbs-10-7"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 31:5",
+      "original_deferral": {
+        "source_reference": "Job 31:5",
+        "target": null,
+        "reason": "The oath about walking with mockers and hastening toward deceit concerns different acts from the general commitment against lawless speech and unjust thought in Job 27:4. Once those acts are distinguished, the proposed link rests on a broad assertion of innocence rather than a sufficiently particular connection; no pair is retained.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 31:5",
+          "id": "v31-5",
+          "text": "If I had walked with mockers, and if my foot also hastened toward deceit,",
+          "text_sha256": "b661491899eb05fbfc06bd4c7f7f9bbeef3ab09b893a7cbae9a5936a2f2a7646"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "c326e73e303e0aa37debe945fe0d12934fa2e88bfd3b02d5138ecb91e149c803",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-31-5__psalms-1-1"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 32:6",
+      "original_deferral": {
+        "source_reference": "Job 32:6",
+        "target": null,
+        "reason": "Elihu's explanation of age and prior silence supplies context to the retained narrator-to-speech comparison, without a reciprocal pair merely repeating it.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 32:6",
+          "id": "v32-6",
+          "text": "Elihu son of Barachel the Buzite replied: “I am younger in time, and you are older; therefore I kept quiet, afraid to announce my own knowledge to you.",
+          "text_sha256": "5edd0cb292062de32f184da9e70934e7d90c54c4747130e7c486f5fd10095221"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "b6bd5be1f637e4ab6ae32c4490783d71a2b28850d7ec16d706220dc9eaefc198",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-32-6__sirach-32-3-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 33:16",
+      "original_deferral": {
+        "source_reference": "Job 33:16",
+        "target": null,
+        "reason": "The uncovering of minds through fear is not equated with a specific dream interpretation or with the literal opening of eyes.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 33:16",
+          "id": "v33-16",
+          "text": "then He uncovers people’s minds; with such forms of fear He terrified them,",
+          "text_sha256": "67b34c5cfdd164766f63edd474284e2e7b74cb5bb3e96d49a07823027caafd08"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "08d08935a4ce66153abcce0a969369cdbf04eaf361ef6857948ea758ecbffeb8",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-33-16__daniel-4-4-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 33:23",
+      "original_deferral": {
+        "source_reference": "Job 33:23",
+        "target": null,
+        "reason": "The thousand death-bearing angels and one not wounding him are not replaced with an interpreter or mediator; the proposed Balaam comparison remains uncertain.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 33:23",
+          "id": "v33-23",
+          "text": "If there are a thousand death-bearing angels, one of them will certainly not wound him. If he understands in his heart to turn toward the Lord, announces his own blame to a human, and shows his lack of understanding,",
+          "text_sha256": "4682b7ce226a26ac2000b140a7a9713904e618cf72450c81b58212760919442a"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "881fd1f4973487caafb14a65874cc898f427c8764f97f9349565c8b97a6196e4",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-33-23__james-5-15-16"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 34:27",
+      "original_deferral": {
+        "source_reference": "Job 34:27",
+        "target": null,
+        "reason": "Turning from God's law and ordinances is a general description here, with no particular statute or incident established.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 34:27",
+          "id": "v34-27",
+          "text": "because they turned aside from God’s law and did not recognize His ordinances,",
+          "text_sha256": "1b3b8d2ae6ea9128e3aa10a5238355bd54c71dabd5fd97206c5b186405c3905e"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer (GPT-6), Job 27-34 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "ba3abdb57667289b3aa0a8591342fc0a1be6221473e55277b529ee1cd68936c1",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-34-27__isaiah-5-23-24"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Job 35:8",
+      "original_deferral": {
+        "source_reference": "Job 35:8",
+        "target": null,
+        "reason": "The distribution of ungodliness and righteousness to fellow humans is preserved; no sufficiently particular additional passage about that distribution is retained.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "job/verses.json",
+          "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+        },
+        "source_verse": {
+          "reference": "Job 35:8",
+          "id": "v35-8",
+          "text": "Your ungodliness is for a man like you, and your righteousness for a son of humanity.",
+          "text_sha256": "b991e6eade9b521c61d00aefa593c9ec6f39275bd7de314d1dc3603d1894374e"
+        },
+        "reviewer": "Codex AI author /root (GPT-6)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T170737Z"
+      },
+      "original_deferral_sha256": "451e9b466fd2472fbe2a41d169bcc37229a1aef62a9df615e5a17a76e07f6d8b",
+      "resolved_in_run": "2026-10-31T204915Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "job-35-8__proverbs-9-12"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    }
+  ],
+  "pending_revisit_history": [
+    {
+      "run_id": "2026-10-31T204915Z",
+      "actual_read_source_references": [
+        "Job 4:9",
+        "Job 4:16",
+        "Job 5:5",
+        "Job 6:13",
+        "Job 7:21",
+        "Job 9:4",
+        "Job 10:22",
+        "Job 12:14",
+        "Job 13:25",
+        "Job 15:20",
+        "Job 15:31",
+        "Job 16:6",
+        "Job 16:19",
+        "Job 17:14",
+        "Job 18:13",
+        "Job 18:19",
+        "Job 19:9",
+        "Job 19:15",
+        "Job 20:28",
+        "Job 21:10",
+        "Job 21:11",
+        "Job 22:8",
+        "Job 22:15",
+        "Job 24:11",
+        "Job 27:23",
+        "Job 28:1",
+        "Job 28:2",
+        "Job 28:14",
+        "Job 28:24",
+        "Job 29:17",
+        "Job 30:8",
+        "Job 31:5",
+        "Job 32:6",
+        "Job 33:16",
+        "Job 33:23",
+        "Job 34:27",
+        "Job 35:8"
+      ],
+      "considered_source_references": [
+        "Job 3:2",
+        "Job 3:8",
+        "Job 4:1",
+        "Job 4:6",
+        "Job 4:9",
+        "Job 4:10",
+        "Job 4:11",
+        "Job 4:14",
+        "Job 4:15",
+        "Job 4:16",
+        "Job 4:18",
+        "Job 5:1",
+        "Job 5:4",
+        "Job 5:5",
+        "Job 5:6",
+        "Job 5:8",
+        "Job 5:19",
+        "Job 5:24",
+        "Job 6:1",
+        "Job 6:7",
+        "Job 6:8",
+        "Job 6:11",
+        "Job 6:13",
+        "Job 6:16",
+        "Job 6:17",
+        "Job 6:19",
+        "Job 6:22",
+        "Job 6:23",
+        "Job 6:25",
+        "Job 6:28",
+        "Job 6:29",
+        "Job 7:3",
+        "Job 7:6",
+        "Job 7:8",
+        "Job 7:13",
+        "Job 7:15",
+        "Job 7:21",
+        "Job 8:1",
+        "Job 8:10",
+        "Job 8:12",
+        "Job 8:16",
+        "Job 8:17",
+        "Job 8:19",
+        "Job 9:1",
+        "Job 9:4",
+        "Job 9:14",
+        "Job 9:22",
+        "Job 9:25",
+        "Job 9:27",
+        "Job 9:29",
+        "Job 9:35",
+        "Job 10:3",
+        "Job 10:10",
+        "Job 10:12",
+        "Job 10:22",
+        "Job 11:1",
+        "Job 11:3",
+        "Job 11:9",
+        "Job 11:12",
+        "Job 11:18",
+        "Job 12:1",
+        "Job 12:5",
+        "Job 12:8",
+        "Job 12:14",
+        "Job 12:16",
+        "Job 12:20",
+        "Job 13:6",
+        "Job 13:8",
+        "Job 13:9",
+        "Job 13:17",
+        "Job 13:20",
+        "Job 13:25",
+        "Job 14:3",
+        "Job 14:8",
+        "Job 14:19",
+        "Job 14:20",
+        "Job 14:22",
+        "Job 15:1",
+        "Job 15:2",
+        "Job 15:5",
+        "Job 15:8",
+        "Job 15:12",
+        "Job 15:17",
+        "Job 15:19",
+        "Job 15:20",
+        "Job 15:24",
+        "Job 15:26",
+        "Job 15:28",
+        "Job 15:31",
+        "Job 16:1",
+        "Job 16:5",
+        "Job 16:6",
+        "Job 16:7",
+        "Job 16:10",
+        "Job 16:14",
+        "Job 16:15",
+        "Job 16:19",
+        "Job 17:2",
+        "Job 17:8",
+        "Job 17:11",
+        "Job 17:12",
+        "Job 17:14",
+        "Job 17:16",
+        "Job 18:1",
+        "Job 18:7",
+        "Job 18:9",
+        "Job 18:11",
+        "Job 18:12",
+        "Job 18:13",
+        "Job 18:14",
+        "Job 18:18",
+        "Job 18:19",
+        "Job 18:20",
+        "Job 19:1",
+        "Job 19:4",
+        "Job 19:6",
+        "Job 19:9",
+        "Job 19:12",
+        "Job 19:15",
+        "Job 19:16",
+        "Job 19:17",
+        "Job 19:18",
+        "Job 19:25",
+        "Job 19:27",
+        "Job 20:1",
+        "Job 20:3",
+        "Job 20:10",
+        "Job 20:13",
+        "Job 20:21",
+        "Job 20:24",
+        "Job 20:26",
+        "Job 20:28",
+        "Job 21:1",
+        "Job 21:3",
+        "Job 21:4",
+        "Job 21:5",
+        "Job 21:6",
+        "Job 21:10",
+        "Job 21:11",
+        "Job 21:20",
+        "Job 21:21",
+        "Job 21:24",
+        "Job 21:27",
+        "Job 21:30",
+        "Job 21:31",
+        "Job 21:32",
+        "Job 21:33",
+        "Job 22:1",
+        "Job 22:4",
+        "Job 22:8",
+        "Job 22:14",
+        "Job 22:15",
+        "Job 22:16",
+        "Job 22:20",
+        "Job 22:24",
+        "Job 22:28",
+        "Job 23:1",
+        "Job 23:8",
+        "Job 23:15",
+        "Job 23:16",
+        "Job 24:5",
+        "Job 24:8",
+        "Job 24:11",
+        "Job 24:13",
+        "Job 24:14",
+        "Job 24:18",
+        "Job 24:21",
+        "Job 24:23",
+        "Job 25:1",
+        "Job 25:2",
+        "Job 25:3",
+        "Job 26:1",
+        "Job 26:4",
+        "Job 26:5",
+        "Job 27:1",
+        "Job 27:7",
+        "Job 27:11",
+        "Job 27:15",
+        "Job 27:20",
+        "Job 27:22",
+        "Job 27:23",
+        "Job 28:1",
+        "Job 28:2",
+        "Job 28:3",
+        "Job 28:4",
+        "Job 28:5",
+        "Job 28:6",
+        "Job 28:7",
+        "Job 28:8",
+        "Job 28:10",
+        "Job 28:13",
+        "Job 28:14",
+        "Job 28:18",
+        "Job 28:20",
+        "Job 28:22",
+        "Job 28:24",
+        "Job 29:1",
+        "Job 29:4",
+        "Job 29:7",
+        "Job 29:10",
+        "Job 29:11",
+        "Job 29:15",
+        "Job 29:17",
+        "Job 29:20",
+        "Job 29:22",
+        "Job 29:24",
+        "Job 30:2",
+        "Job 30:3",
+        "Job 30:4",
+        "Job 30:5",
+        "Job 30:6",
+        "Job 30:7",
+        "Job 30:8",
+        "Job 30:12",
+        "Job 30:16",
+        "Job 30:18",
+        "Job 30:22",
+        "Job 30:24",
+        "Job 30:27",
+        "Job 30:28",
+        "Job 31:2",
+        "Job 31:5",
+        "Job 31:22",
+        "Job 31:25",
+        "Job 31:26",
+        "Job 31:27",
+        "Job 31:28",
+        "Job 31:30",
+        "Job 31:31",
+        "Job 31:35",
+        "Job 31:36",
+        "Job 31:38",
+        "Job 32:5",
+        "Job 32:6",
+        "Job 32:10",
+        "Job 32:11",
+        "Job 32:12",
+        "Job 32:14",
+        "Job 32:15",
+        "Job 32:16",
+        "Job 32:17",
+        "Job 32:20",
+        "Job 33:1",
+        "Job 33:2",
+        "Job 33:8",
+        "Job 33:16",
+        "Job 33:18",
+        "Job 33:23",
+        "Job 33:29",
+        "Job 33:31",
+        "Job 33:33",
+        "Job 34:1",
+        "Job 34:2",
+        "Job 34:4",
+        "Job 34:8",
+        "Job 34:10",
+        "Job 34:13",
+        "Job 34:16",
+        "Job 34:17",
+        "Job 34:19",
+        "Job 34:23",
+        "Job 34:25",
+        "Job 34:26",
+        "Job 34:27",
+        "Job 34:29",
+        "Job 34:31",
+        "Job 34:33",
+        "Job 34:34",
+        "Job 34:36",
+        "Job 35:1",
+        "Job 35:8",
+        "Job 35:15",
+        "Job 36:1",
+        "Job 36:3",
+        "Job 36:16",
+        "Job 36:20",
+        "Job 36:21",
+        "Job 36:24",
+        "Job 36:25",
+        "Job 36:30",
+        "Job 36:32",
+        "Job 36:33",
+        "Job 37:7",
+        "Job 37:11",
+        "Job 37:12",
+        "Job 37:14",
+        "Job 37:17",
+        "Job 37:18",
+        "Job 37:20",
+        "Job 37:21",
+        "Job 38:20",
+        "Job 38:30",
+        "Job 38:38",
+        "Job 39:1",
+        "Job 39:2",
+        "Job 39:3",
+        "Job 39:4",
+        "Job 39:5",
+        "Job 39:10",
+        "Job 39:11",
+        "Job 39:12",
+        "Job 39:13",
+        "Job 39:18",
+        "Job 39:21",
+        "Job 39:23",
+        "Job 40:1",
+        "Job 40:3",
+        "Job 40:17",
+        "Job 40:21",
+        "Job 40:22",
+        "Job 40:23",
+        "Job 40:27",
+        "Job 40:31",
+        "Job 41:1",
+        "Job 41:4",
+        "Job 41:5",
+        "Job 41:6",
+        "Job 41:8",
+        "Job 41:23",
+        "Job 42:1",
+        "Job 42:14",
+        "Job 42:17c"
+      ],
+      "continued_pending_observations": [
+        {
+          "source_reference": "Job 15:31",
+          "source_text": "Let him not trust that he will endure, for empty things will result for him.",
+          "reason": "Eliphaz warns the ungodly person not to trust that he will endure, while Psalms 61:10-11 addresses human vanity, injustice, plunder and attachment to wealth. The proposed link depends on supplying wealth as the object of trust in this source sentence; that broad association is not retained as a particular match.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 15:31",
+            "id": "v15-31",
+            "text": "Let him not trust that he will endure, for empty things will result for him.",
+            "display_text": "Let him not trust that he will endure,\nfor empty things will result for him.",
+            "text_sha256": "a7b41b2e15b949cd7357fb7a7c24791ffdefe32ab64dddd2003dbe0ebf9aa3ef"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target": null
+        },
+        {
+          "source_reference": "Job 18:13",
+          "source_text": "May the branches of his feet be devoured; death will devour his beautiful things.",
+          "reason": "The actual Psalm says that death shepherds people and that their help grows old in Hades away from their glory. It does not say death devours their beauty. A shared personification of death does not establish the proposed devouring-beauty correspondence, and the source is kept pending.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 18:13",
+            "id": "v18-13",
+            "text": "May the branches of his feet be devoured; death will devour his beautiful things.",
+            "display_text": "May the branches of his feet be devoured;\ndeath will devour his beautiful things.",
+            "text_sha256": "1e52a5ed428761d3a31d580b7686f6cb878d0752b5d674481f0ffe9bdcbd9768"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target": null
+        },
+        {
+          "source_reference": "Job 24:11",
+          "source_text": "They unjustly lay in ambush in narrow places and did not know a righteous road.",
+          "reason": "The fresh Proverbs 1:11-16 lead was read in its actual native wording. It speaks of hiding a righteous man in the earth, taking property and avoiding the criminals' paths, but does not explicitly describe an ambush in narrow places. A connection resting only on the general metaphor of a wicked road was not retained; Job's native ambush wording remains intact.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 24:11",
+            "id": "v24-11",
+            "text": "They unjustly lay in ambush in narrow places and did not know a righteous road.",
+            "display_text": "They unjustly lay in ambush in narrow places\nand did not know a righteous road.",
+            "text_sha256": "e399a9b641804789afa78b54bc511992b0a4f89a785d03ceee2ddb02e904b295"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target": null
+        },
+        {
+          "source_reference": "Job 28:14",
+          "source_text": "The abyss said, ‘It is not in me,’ and the sea said, ‘It is not with me.’",
+          "reason": "Deuteronomy 30:11-14 was read as a possible sea-and-instruction comparison. Its command is not across the sea and is near the hearer, whereas Job personifies the abyss and sea as denying possession of wisdom. The remaining shared sea imagery was insufficient for a particular retained relationship; the texts' different claims were not merged.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 28:14",
+            "id": "v28-14",
+            "text": "The abyss said, ‘It is not in me,’ and the sea said, ‘It is not with me.’",
+            "display_text": "The abyss said, ‘It is not in me,’\nand the sea said, ‘It is not with me.’",
+            "text_sha256": "1ed52161426849ee19882d286371c996a1304e485f39c6d743dea2dbbfa144da"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target": null
+        }
+      ],
+      "unretained_candidate_observations": [
+        {
+          "source_reference": "Job 15:31",
+          "source_text": "Let him not trust that he will endure, for empty things will result for him.",
+          "reason": "Eliphaz warns the ungodly person not to trust that he will endure, while Psalms 61:10-11 addresses human vanity, injustice, plunder and attachment to wealth. The proposed link depends on supplying wealth as the object of trust in this source sentence; that broad association is not retained as a particular match.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Psalms 61:10-11",
+          "target_units": [
+            {
+              "reference": "Psalms 61:10",
+              "text": "Nevertheless the sons of men are vain; the sons of men are false upon scales for doing injustice, they themselves together from vanity."
+            },
+            {
+              "reference": "Psalms 61:11",
+              "text": "Do not hope in injustice or long for plunder; if wealth flows, do not attach your heart."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 15:31",
+            "id": "v15-31",
+            "text": "Let him not trust that he will endure, for empty things will result for him.",
+            "display_text": "Let him not trust that he will endure,\nfor empty things will result for him.",
+            "text_sha256": "a7b41b2e15b949cd7357fb7a7c24791ffdefe32ab64dddd2003dbe0ebf9aa3ef"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Psalms 61:10",
+              "id": "v61-10",
+              "text": "Nevertheless the sons of men are vain; the sons of men are false upon scales for doing injustice, they themselves together from vanity.",
+              "display_text": "Nevertheless the sons of men are vain;\nthe sons of men are false upon scales for doing injustice,\nthey themselves together from vanity.",
+              "text_sha256": "be97c6acbb543d4f8e85bbc7f859bc964be90b698677ac65a969b2286a73e4f8"
+            },
+            {
+              "reference": "Psalms 61:11",
+              "id": "v61-11",
+              "text": "Do not hope in injustice or long for plunder; if wealth flows, do not attach your heart.",
+              "display_text": "Do not hope in injustice or long for plunder;\nif wealth flows, do not attach your heart.",
+              "text_sha256": "a22c65615a5f33509428bdd6e3b60e673c26e3ca29c274df2c17b5ffd39a22e1"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "33e77e5efce2b5bd4b02cddbb161e5bd90d3372f499cb296172a4a41d0fc4fc7"
+        },
+        {
+          "source_reference": "Job 18:13",
+          "source_text": "May the branches of his feet be devoured; death will devour his beautiful things.",
+          "reason": "The actual Psalm says that death shepherds people and that their help grows old in Hades away from their glory. It does not say death devours their beauty. A shared personification of death does not establish the proposed devouring-beauty correspondence, and the source is kept pending.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Psalms 48:15",
+          "target_units": [
+            {
+              "reference": "Psalms 48:15",
+              "text": "Like sheep they were placed in Hades; death shepherds them. The upright will rule over them in the morning, and their help will grow old in Hades, away from their glory."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 18:13",
+            "id": "v18-13",
+            "text": "May the branches of his feet be devoured; death will devour his beautiful things.",
+            "display_text": "May the branches of his feet be devoured;\ndeath will devour his beautiful things.",
+            "text_sha256": "1e52a5ed428761d3a31d580b7686f6cb878d0752b5d674481f0ffe9bdcbd9768"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Psalms 48:15",
+              "id": "v48-15",
+              "text": "Like sheep they were placed in Hades; death shepherds them. The upright will rule over them in the morning, and their help will grow old in Hades, away from their glory.",
+              "display_text": "Like sheep they were placed in Hades; death shepherds them.\nThe upright will rule over them in the morning,\nand their help will grow old in Hades, away from their glory.",
+              "text_sha256": "c2714528380ffefeadccd8cb2f0e16cd11ecc92cd3210dcd689514bbfa77b3ef"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "b457e6e994b161c13255033f96a768a40f6129eb54a40580f812609317dd461f"
+        },
+        {
+          "source_reference": "Job 24:11",
+          "source_text": "They unjustly lay in ambush in narrow places and did not know a righteous road.",
+          "reason": "Job explicitly describes an unjust ambush in narrow places and ignorance of a righteous road. The native Proverbs text instead describes hiding a righteous man in the earth, seizing his property, and refusing the criminals' paths. It was not rewritten as an ambush proposal; the general violent-path association alone was not retained.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Proverbs 1:11-16",
+          "target_units": [
+            {
+              "reference": "Proverbs 1:11",
+              "text": "Come with us; share in bloodshed. Let us hide a righteous man in the earth unjustly;"
+            },
+            {
+              "reference": "Proverbs 1:12",
+              "text": "let us swallow him alive like Hades and remove his memory from the earth."
+            },
+            {
+              "reference": "Proverbs 1:13",
+              "text": "Let us seize his costly property and fill our houses with spoils."
+            },
+            {
+              "reference": "Proverbs 1:14",
+              "text": "Cast your lot among us; let us all obtain a common purse, and let there be one moneybag for us."
+            },
+            {
+              "reference": "Proverbs 1:15",
+              "text": "Do not walk in the way with them; turn your foot away from their paths,"
+            },
+            {
+              "reference": "Proverbs 1:16",
+              "text": "for their feet run toward evil, and they are quick to shed blood."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 24:11",
+            "id": "v24-11",
+            "text": "They unjustly lay in ambush in narrow places and did not know a righteous road.",
+            "display_text": "They unjustly lay in ambush in narrow places\nand did not know a righteous road.",
+            "text_sha256": "e399a9b641804789afa78b54bc511992b0a4f89a785d03ceee2ddb02e904b295"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "proverbs/verses.json",
+            "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Proverbs 1:11",
+              "id": "v1-11",
+              "text": "Come with us; share in bloodshed. Let us hide a righteous man in the earth unjustly;",
+              "display_text": "Come with us; share in bloodshed. Let us hide a righteous man in the earth unjustly;",
+              "text_sha256": "1507cdef4ad143ba26bfd52daa17971575bdba8967abf697d78ea2200538b007"
+            },
+            {
+              "reference": "Proverbs 1:12",
+              "id": "v1-12",
+              "text": "let us swallow him alive like Hades and remove his memory from the earth.",
+              "display_text": "let us swallow him alive like Hades and remove his memory from the earth.",
+              "text_sha256": "776a306f9f5ab55b971afc770fc8080c18813990657050951ef11d076541fc0b"
+            },
+            {
+              "reference": "Proverbs 1:13",
+              "id": "v1-13",
+              "text": "Let us seize his costly property and fill our houses with spoils.",
+              "display_text": "Let us seize his costly property and fill our houses with spoils.",
+              "text_sha256": "a626ab8c1e8b9f7eba10c02c5b4a9b5ad8e41c9b04c13855772c841b024451a4"
+            },
+            {
+              "reference": "Proverbs 1:14",
+              "id": "v1-14",
+              "text": "Cast your lot among us; let us all obtain a common purse, and let there be one moneybag for us.",
+              "display_text": "Cast your lot among us; let us all obtain a common purse, and let there be one moneybag for us.",
+              "text_sha256": "4042761e821be7e396dad5062cbfdadd2141418a8f6535ee751b197543f26a6b"
+            },
+            {
+              "reference": "Proverbs 1:15",
+              "id": "v1-15",
+              "text": "Do not walk in the way with them; turn your foot away from their paths,",
+              "display_text": "Do not walk in the way with them; turn your foot away from their paths,",
+              "text_sha256": "55c145cb0118ff272e7103c24627bd4677752d68a70d06ced14cbc5df1b4abf1"
+            },
+            {
+              "reference": "Proverbs 1:16",
+              "id": "v1-16",
+              "text": "for their feet run toward evil, and they are quick to shed blood.",
+              "display_text": "for their feet run toward evil, and they are quick to shed blood.",
+              "text_sha256": "fd6d3993d184cfe6ca92c437f9f42e9ed0f9f11b0942ec529dcbabd04a08b301"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "5cb53d35957a0ae019735d98dc8c2a913a27abaa21990ca32a87587adf6a5f34"
+        },
+        {
+          "source_reference": "Job 28:14",
+          "source_text": "The abyss said, ‘It is not in me,’ and the sea said, ‘It is not with me.’",
+          "reason": "The sea in Job denies that wisdom is with it. Deuteronomy says its command is not across the sea and is instead near the hearer. These concern different spatial claims and different subjects; shared sea imagery and the general question of instruction were not sufficient to retain a pair.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Deuteronomy 30:11-14",
+          "target_units": [
+            {
+              "reference": "Deuteronomy 30:11",
+              "text": "For this commandment which I command you this day is not excessively burdensome, neither is it far from you."
+            },
+            {
+              "reference": "Deuteronomy 30:12",
+              "text": "It is not in heaven above, that you should say, Who shall ascend for us into heaven, and fetch it for us, that we may hear it and do it?"
+            },
+            {
+              "reference": "Deuteronomy 30:13",
+              "text": "Neither is it beyond the sea, that you should say, Who shall cross for us unto the other side of the sea, and fetch it for us, and make us hear it, that we may do it?"
+            },
+            {
+              "reference": "Deuteronomy 30:14",
+              "text": "The word is very near you, in your mouth, and in your heart, and in your hands, that you may do it."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "source_verse": {
+            "reference": "Job 28:14",
+            "id": "v28-14",
+            "text": "The abyss said, ‘It is not in me,’ and the sea said, ‘It is not with me.’",
+            "display_text": "The abyss said, ‘It is not in me,’\nand the sea said, ‘It is not with me.’",
+            "text_sha256": "1ed52161426849ee19882d286371c996a1304e485f39c6d743dea2dbbfa144da"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T204915Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "deuteronomy/verses.json",
+            "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+          },
+          "target_verses": [
+            {
+              "chapter": 30,
+              "id": "v30-11",
+              "text": "For this commandment which I command you this day is not excessively burdensome, neither is it far from you.",
+              "line_breaks": 0,
+              "reference": "Deuteronomy 30:11",
+              "text_sha256": "26f56362f2cab17ef1fa6a9248a6ee01ddf367202e90c30ea90ee878c7c2b59c"
+            },
+            {
+              "chapter": 30,
+              "id": "v30-12",
+              "text": "It is not in heaven above, that you should say, Who shall ascend for us into heaven, and fetch it for us, that we may hear it and do it?",
+              "line_breaks": 0,
+              "reference": "Deuteronomy 30:12",
+              "text_sha256": "db8d560216ce126241bcadd68ddca78c897260a04bd2141f9fad4a4e30ce08fd"
+            },
+            {
+              "chapter": 30,
+              "id": "v30-13",
+              "text": "Neither is it beyond the sea, that you should say, Who shall cross for us unto the other side of the sea, and fetch it for us, and make us hear it, that we may do it?",
+              "line_breaks": 0,
+              "reference": "Deuteronomy 30:13",
+              "text_sha256": "217612e03bcac85ff0dbb8c7f123355f8b82723f6d12060d59710796d267007d"
+            },
+            {
+              "chapter": 30,
+              "id": "v30-14",
+              "text": "The word is very near you, in your mouth, and in your heart, and in your hands, that you may do it.",
+              "line_breaks": 0,
+              "reference": "Deuteronomy 30:14",
+              "text_sha256": "9117479757c4268c2f1dde5d02e7ec6f26144f390d625aea7420d5fbc0fecb2c"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "ca992a7f044339446f7ace07e92485e3c93e834c2d1d2ffa546066c43bf7135f"
+        }
+      ],
+      "new_unretained_candidate_count": 4,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Job 4:9",
+        "Job 4:16",
+        "Job 5:5",
+        "Job 6:13",
+        "Job 7:21",
+        "Job 9:4",
+        "Job 10:22",
+        "Job 12:14",
+        "Job 13:25",
+        "Job 15:20",
+        "Job 16:6",
+        "Job 16:19",
+        "Job 17:14",
+        "Job 18:19",
+        "Job 19:9",
+        "Job 19:15",
+        "Job 20:28",
+        "Job 21:10",
+        "Job 21:11",
+        "Job 22:8",
+        "Job 22:15",
+        "Job 27:23",
+        "Job 28:1",
+        "Job 28:2",
+        "Job 28:24",
+        "Job 29:17",
+        "Job 30:8",
+        "Job 31:5",
+        "Job 32:6",
+        "Job 33:16",
+        "Job 33:23",
+        "Job 34:27",
+        "Job 35:8"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
     }
   ]
 }

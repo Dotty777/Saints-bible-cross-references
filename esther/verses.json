@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Esther",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -29,13 +29,13 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_source_reading_complete_with_pending_evidence",
+  "review_status": "initial_curated_pass_in_progress",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
     3
   ],
-  "completed_source_verses": 197,
-  "completed_cross_references": 220,
+  "completed_source_verses": 203,
+  "completed_cross_references": 228,
   "total_chapters": 10,
   "total_source_verse_units": 246,
   "next_reference": "Esther 1:1b",
@@ -143,8 +143,53 @@
           "id": "v1-1d",
           "text": "This was his dream: Look! Voices and tumult, thunders and an earthquake, disturbance upon the earth!",
           "display_text": "This was his dream: Look! Voices and tumult, thunders and an earthquake, disturbance upon the earth!",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-1d__isaiah-29-6-8",
+              "target": "Isaiah 29:6-8",
+              "verdict": "supported",
+              "relationship": "visionary imagery and dream comparison",
+              "rationale": "Mordecai's dream opens with voices, thunder and an earthquake, before its nations prepare to attack the righteous people. Isaiah joins thunder, earthquake and a great sound in the Lord's visitation, then likens the nations attacking Jerusalem to people dreaming. The shared cluster of tumult, threatened people and dream imagery supports a literary comparison; it does not identify the dream's events with Isaiah's siege or import Isaiah's fire into Esther.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "5728c03aa70466be9c51062caccb8625d7c61a5a8bd6ec0a934d8a27e4985c40",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 29:6",
+                  "id": "v29-6",
+                  "text": "from the Lord Sabaoth. For there will be a visitation with thunder, earthquake and a great sound, a rushing storm and a consuming flame of fire.",
+                  "display_text": "from the Lord Sabaoth. For there will be a visitation with thunder, earthquake and a great sound, a rushing storm and a consuming flame of fire.",
+                  "text_sha256": "38a51bd8ab0591c6507f35c436106f86ee6dcdec9816ef744d452c413621d376"
+                },
+                {
+                  "reference": "Isaiah 29:7",
+                  "id": "v29-7",
+                  "text": "Like someone dreaming in sleep will be the wealth of all nations who marched against Ariel, all who marched against Jerusalem, and all assembled against her and afflicting her.",
+                  "display_text": "Like someone dreaming in sleep will be the wealth of all nations who marched against Ariel, all who marched against Jerusalem, and all assembled against her and afflicting her.",
+                  "text_sha256": "83ffcd73bfbbd6a34b6cadf9bde64a876651d8a62641f0873bc3ce444f9768cc"
+                },
+                {
+                  "reference": "Isaiah 29:8",
+                  "id": "v29-8",
+                  "text": "They will be like people drinking and eating in sleep; when they rise, their dream is futile. As a thirsty person dreams of drinking but wakes still thirsty, his soul having hoped in vain, so will be the wealth of all nations who marched against Mount Zion.",
+                  "display_text": "They will be like people drinking and eating in sleep; when they rise, their dream is futile. As a thirsty person dreams of drinking but wakes still thirsty, his soul having hoped in vain, so will be the wealth of all nations who marched against Mount Zion.",
+                  "text_sha256": "2295f7eec011598a4614d5a147e05764a45236ed9fd297ee1c04333f824f66f3"
+                }
+              ],
+              "target_passage_sha256": "b0a39aacf5bab1386031690587ba9b34a1864a56fed926c743be0899398e5bfb",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Esther 1:1e",
@@ -227,8 +272,96 @@
           "id": "v1-1g",
           "text": "Look! A day of darkness and gloom, affliction and distress, suffering and great disturbance upon the earth!",
           "display_text": "Look! A day of darkness and gloom, affliction and distress, suffering and great disturbance upon the earth!",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-1g__joel-2-1-2",
+              "target": "Joel 2:1-2",
+              "verdict": "supported",
+              "relationship": "shared imagery of a dark day of distress",
+              "rationale": "The dream announces a day of darkness and gloom amid the righteous nation's fear of destruction. Joel announces the near day of the Lord as darkness and gloom with turmoil and an approaching force. Both use the same dark-day imagery for overwhelming peril, while Esther's dream and Joel's announcement retain their own settings and are not treated as predictions of one event.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "ccecf4547320e616deb2f72c9be2eb6fbbe8d06a075373a4b409c52c3003a9f4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "joel/verses.json",
+                "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Joel 2:1",
+                  "id": "v2-1",
+                  "text": "Blow a trumpet in Zion! Proclaim on My holy mountain, and let all who inhabit the land be thrown into turmoil, because the Lord’s day is present; it is near,",
+                  "display_text": "Blow a trumpet in Zion! Proclaim on My holy mountain, and let all who inhabit the land be thrown into turmoil, because the Lord’s day is present; it is near,",
+                  "text_sha256": "26cb9c8242139627b21224b159b459c854b91c67129c57c7b0e0bfee0dcc4b74"
+                },
+                {
+                  "reference": "Joel 2:2",
+                  "id": "v2-2",
+                  "text": "a day of darkness and gloom, a day of cloud and mist. Like dawn a numerous and strong people will be poured over the mountains. Its like has never existed, nor will another follow it through the years, for generations upon generations.",
+                  "display_text": "a day of darkness and gloom, a day of cloud and mist. Like dawn a numerous and strong people will be poured over the mountains. Its like has never existed, nor will another follow it through the years, for generations upon generations.",
+                  "text_sha256": "db1db89b5447feb13189378ed51ffe951f864979c324e13d6ee51e9563a0f0d6"
+                }
+              ],
+              "target_passage_sha256": "05855299df4aed1015695c9395b73c46568d1b768f9ab0b5ec605d1e1ba94e79",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            },
+            {
+              "id": "esther-1-1g__zephaniah-1-14-17",
+              "target": "Zephaniah 1:14-17",
+              "verdict": "supported",
+              "relationship": "shared language of darkness and affliction",
+              "rationale": "Esther's dream calls the coming ordeal a day of darkness, gloom, affliction and distress. Zephaniah similarly accumulates darkness, gloom, affliction and constraint in describing the Lord's day. The dense shared description expresses overwhelming calamity; Zephaniah explicitly names divine wrath against sin, which is not transferred to Esther's threatened righteous nation.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "ccecf4547320e616deb2f72c9be2eb6fbbe8d06a075373a4b409c52c3003a9f4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zephaniah/verses.json",
+                "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zephaniah 1:14",
+                  "id": "v1-14",
+                  "text": "For the Lord’s great day is near, near and very swift. The sound of the Lord’s day is bitter and harsh; it is appointed mighty.",
+                  "display_text": "For the Lord’s great day is near, near and very swift. The sound of the Lord’s day is bitter and harsh; it is appointed mighty.",
+                  "text_sha256": "4df314d4cc34e2cc5d70aee231d8299a6e12c549f83cbcbb9d9d8df327c2d120"
+                },
+                {
+                  "reference": "Zephaniah 1:15",
+                  "id": "v1-15",
+                  "text": "That day is a day of wrath, a day of affliction and constraint, a day of untimely ruin and destruction, a day of darkness and gloom, a day of cloud and mist,",
+                  "display_text": "That day is a day of wrath, a day of affliction and constraint, a day of untimely ruin and destruction, a day of darkness and gloom, a day of cloud and mist,",
+                  "text_sha256": "0cd17dc2135b555d0d485f17dfe392cf7b6f523eaed46ac5eac06b62ce0a65dc"
+                },
+                {
+                  "reference": "Zephaniah 1:16",
+                  "id": "v1-16",
+                  "text": "a day of trumpet and shouting against fortified cities and high corners.",
+                  "display_text": "a day of trumpet and shouting against fortified cities and high corners.",
+                  "text_sha256": "be39cc55e6070b85fb3b093ffebaacbe31794af0a806758483b4400340a838c8"
+                },
+                {
+                  "reference": "Zephaniah 1:17",
+                  "id": "v1-17",
+                  "text": "I will press people hard, and they will walk like the blind because they sinned against the Lord. He will pour out their blood like dust and their flesh like dung.",
+                  "display_text": "I will press people hard, and they will walk like the blind because they sinned against the Lord. He will pour out their blood like dust and their flesh like dung.",
+                  "text_sha256": "9da329d541365fb2d88a5d158bc83d05dd1781105afe9b5f2c1d5cae8116c43d"
+                }
+              ],
+              "target_passage_sha256": "24db8f70172f6898dbb68766139764093854527e15310c3a0cca4152e2c81fed",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Esther 1:1h",
@@ -3341,8 +3474,67 @@
           "id": "v4-17a",
           "text": "and he implored the Lord, remembering all the Lord’s works, and said:",
           "display_text": "and he implored the Lord, remembering all the Lord’s works, and said:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-4-17a__psalms-76-12-16",
+              "target": "Psalms 76:12-16",
+              "verdict": "supported",
+              "relationship": "prayer grounded in remembrance of the Lord's works",
+              "rationale": "Mordecai implores the Lord while remembering all His works; the following prayer invokes creation and the redemption of Israel from Egypt. The psalm remembers the Lord's works, meditates on all His deeds, and recalls His redemption of the sons of Jacob and Joseph. Both ground an appeal in remembered divine action, without making Mordecai the psalm's speaker or claiming a quotation.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "c06d82f1b6a8df6752da6bf42ddbec959d7bd11f1626296d3bd6b34e4b66206e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 76:12",
+                  "id": "v76-12",
+                  "text": "I remembered the Lord’s works, for I will remember Thy wonders from the beginning,",
+                  "display_text": "I remembered the Lord’s works,\nfor I will remember Thy wonders from the beginning,",
+                  "text_sha256": "70e080ae9c5f3c258f7fc7f79b93e7629cd4aba950a9e903ad0e560ea3a135ff"
+                },
+                {
+                  "reference": "Psalms 76:13",
+                  "id": "v76-13",
+                  "text": "and meditate on all Thy works, and speak at length about Thy practices.",
+                  "display_text": "and meditate on all Thy works,\nand speak at length about Thy practices.",
+                  "text_sha256": "b4b61ece0da66ba7d4448bfe1f468f248e267051775b59fc53ca0798397f0e05"
+                },
+                {
+                  "reference": "Psalms 76:14",
+                  "id": "v76-14",
+                  "text": "God, Thy way is in the Holy One; what god is great like our God?",
+                  "display_text": "God, Thy way is in the Holy One;\nwhat god is great like our God?",
+                  "text_sha256": "608ae1262f89a00d21b6c96303a9e12dad3568663bd8b09876cd0138da355bb3"
+                },
+                {
+                  "reference": "Psalms 76:15",
+                  "id": "v76-15",
+                  "text": "Thou art the God who does wonders; Thou madest Thy power known among the peoples.",
+                  "display_text": "Thou art the God who does wonders;\nThou madest Thy power known among the peoples.",
+                  "text_sha256": "f71bc0237fba67714424b9b238ea5a3ccc1bf10a920920a5949fb67498e2fc30"
+                },
+                {
+                  "reference": "Psalms 76:16",
+                  "id": "v76-16",
+                  "text": "With Thine arm Thou didst redeem Thy people, the sons of Jacob and Joseph. Diapsalma.",
+                  "display_text": "With Thine arm Thou didst redeem Thy people,\nthe sons of Jacob and Joseph.\nDiapsalma.",
+                  "text_sha256": "d90e7a692f99944a8be9367b191ba886642387875b7b3071677510999f4efd8a"
+                }
+              ],
+              "target_passage_sha256": "a5ff33580bbbc242b52297d97834f3e54f40578a158210d4b1ac50c5c47e4404",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Esther 4:17b",
@@ -3893,8 +4085,53 @@
           "id": "v4-17p",
           "text": "and to open the mouth of nations to praise worthless things, and that a king of flesh might be admired for ever.",
           "display_text": "and to open the mouth of nations to praise worthless things, and that a king of flesh might be admired for ever.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-4-17p__acts-12-21-23",
+              "target": "Acts 12:21-23",
+              "verdict": "supported",
+              "relationship": "contrast between mortal royal praise and God's glory",
+              "rationale": "Esther fears that nations will praise worthless things and admire a king of flesh for ever, in a prayer defending the praise and glory owed to the Lord. Acts depicts a royal audience acclaiming Herod's speech as a god's voice rather than a human being's, followed by his death for failing to give glory to God. The comparison concerns misplaced exaltation of a mortal ruler, not an identification of Herod with Esther's king or of the two occasions.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "6a3009badb032587104d35900eaecbe3f83ede745e068992f4d6461683802463",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 12:21",
+                  "id": "v12-21",
+                  "text": "On an appointed day Herod put on royal clothing, sat on the tribunal, and delivered an address to them.",
+                  "display_text": "On an appointed day Herod put on royal clothing, sat on the tribunal, and delivered an address to them.",
+                  "text_sha256": "dbb556d99dd65bc972ddbd88c9c55bf01c90d0d7282b3fb6c3c33067051a5bed"
+                },
+                {
+                  "reference": "Acts 12:22",
+                  "id": "v12-22",
+                  "text": "The populace shouted, “A god’s voice, and not a human being’s!”",
+                  "display_text": "The populace shouted, “A god’s voice, and not a human being’s!”",
+                  "text_sha256": "3a6d8904d4e28dc83e03a6c48290883e200117a4c989e86ca66586ae069ef8ef"
+                },
+                {
+                  "reference": "Acts 12:23",
+                  "id": "v12-23",
+                  "text": "Immediately an angel of the Lord struck him because he did not give the glory to God. He was eaten by worms and breathed his last.",
+                  "display_text": "Immediately an angel of the Lord struck him because he did not give the glory to God. He was eaten by worms and breathed his last.",
+                  "text_sha256": "41b693108cf328a7a29a3322bd8cf39dd9ea813dc526ef8aaa0d08798f9a8d0f"
+                }
+              ],
+              "target_passage_sha256": "e1b2638a841011fbef47afc3f5d64d2f27a1c2a0cd8399053ffb03265bfbefc8",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Esther 4:17q",
@@ -4046,8 +4283,67 @@
           "id": "v4-17t",
           "text": "But rescue us by Thy hand, and help me, who am alone and have no one except Thee, Lord.",
           "display_text": "But rescue us by Thy hand, and help me, who am alone and have no one except Thee, Lord.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-4-17t__psalms-24-16-20",
+              "target": "Psalms 24:16-20",
+              "verdict": "supported",
+              "relationship": "solitary appeal for divine rescue",
+              "rationale": "Esther asks the Lord to rescue the people and help her, describing herself as alone with no one except Him. The psalmist asks for mercy because he is alone and poor, then seeks rescue from distress and multiplying enemies. Both join confessed isolation to a direct plea for the Lord's protection; the psalm's poverty and requested forgiveness are not added to Esther's words.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "d0dd312805ae99e13360fd0fbe867dae572bb95424b186df2003c281660dd3e2",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 24:16",
+                  "id": "v24-16",
+                  "text": "Look upon me and have mercy on me, for I am alone and poor.",
+                  "display_text": "Look upon me and have mercy on me,\nfor I am alone and poor.",
+                  "text_sha256": "b86ef6e1980f17a6bffc7aede731a7d116c978a9f62f1503cbf55ac4bd1440d0"
+                },
+                {
+                  "reference": "Psalms 24:17",
+                  "id": "v24-17",
+                  "text": "The afflictions of my heart widened; bring me out of my distresses.",
+                  "display_text": "The afflictions of my heart widened;\nbring me out of my distresses.",
+                  "text_sha256": "b0e12be292e3944441d0f4346479ee5710a5e0257081bf4055812edb6fc853bc"
+                },
+                {
+                  "reference": "Psalms 24:18",
+                  "id": "v24-18",
+                  "text": "See my humiliation and my toil, and forgive all my sins.",
+                  "display_text": "See my humiliation and my toil,\nand forgive all my sins.",
+                  "text_sha256": "bb4ee3aea02e1d653f2e333a1296d61d1ab755c543d0250f676d13e96c1d21bb"
+                },
+                {
+                  "reference": "Psalms 24:19",
+                  "id": "v24-19",
+                  "text": "See my enemies, for they multiplied and hated me with unjust hatred.",
+                  "display_text": "See my enemies, for they multiplied\nand hated me with unjust hatred.",
+                  "text_sha256": "2e1ec3fc5f75d3064e70c54ef05c5143dc94db46ac71f7091dd183fe91fa491f"
+                },
+                {
+                  "reference": "Psalms 24:20",
+                  "id": "v24-20",
+                  "text": "Guard my soul and rescue me; may I not be put to shame, for I hoped in Thee.",
+                  "display_text": "Guard my soul and rescue me;\nmay I not be put to shame, for I hoped in Thee.",
+                  "text_sha256": "e481caeb4c298d9be67385f895c15d2a61d7fbfc7fec9a0a0093b71e0717cc66"
+                }
+              ],
+              "target_passage_sha256": "cd849b018c13b088603e2939a3f578ebfb270158c0cf233fa02242f6d826c425",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Esther 4:17u",
@@ -6685,8 +6981,138 @@
           "id": "v8-12d",
           "text": "They not only abolish gratitude among people, but, lifted up by the boasts of those unacquainted with goodness, they suppose they will escape the evil-hating justice of God, Who always watches over all things.",
           "display_text": "They not only abolish gratitude among people, but, lifted up by the boasts of those unacquainted with goodness, they suppose they will escape the evil-hating justice of God, Who always watches over all things.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-8-12d__psalms-93-7-11",
+              "target": "Psalms 93:7-11",
+              "verdict": "supported",
+              "relationship": "rejection of supposed escape from God's scrutiny",
+              "rationale": "The royal letter condemns the arrogant supposition that people can escape the justice of God who watches everything. The psalm answers wrongdoers who say that the Lord will not see or understand: the Maker of eyes perceives, disciplines nations and knows human reasoning. Both expose imagined impunity as incompatible with God's perception and judgment, without identifying the psalm's offenders with the letter's subjects.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "da2dd261efe17d874bfa992baf623d34591d7cc75b431eed73f3c88cc2ed4cf5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 93:7",
+                  "id": "v93-7",
+                  "text": "They said, The Lord will not see, nor will the God of Jacob understand.",
+                  "display_text": "They said, The Lord will not see,\nnor will the God of Jacob understand.",
+                  "text_sha256": "fa34af6ae92a4e01e62813059fdfad6841d2f473f9fbb25154b40c5e4372e6e2"
+                },
+                {
+                  "reference": "Psalms 93:8",
+                  "id": "v93-8",
+                  "text": "Understand now, you senseless among the people; and you fools, become wise at last.",
+                  "display_text": "Understand now, you senseless among the people;\nand you fools, become wise at last.",
+                  "text_sha256": "b9e94fa96786f8782f56be7c9f0f850e4f806aed21b68692aa93db7f91d6fb54"
+                },
+                {
+                  "reference": "Psalms 93:9",
+                  "id": "v93-9",
+                  "text": "Does the One who planted the ear not hear, or the One who formed the eye not perceive?",
+                  "display_text": "Does the One who planted the ear not hear,\nor the One who formed the eye not perceive?",
+                  "text_sha256": "2ad152019a15081c15785e7477eeeabcae8c0859dae7f62fada9172977b78961"
+                },
+                {
+                  "reference": "Psalms 93:10",
+                  "id": "v93-10",
+                  "text": "Will the One who disciplines nations not rebuke— the One who teaches humankind knowledge?",
+                  "display_text": "Will the One who disciplines nations not rebuke—\nthe One who teaches humankind knowledge?",
+                  "text_sha256": "924c84a4ef35eccb512394b12d638313c11a89052c6d5f0c4985f94b8320a1d8"
+                },
+                {
+                  "reference": "Psalms 93:11",
+                  "id": "v93-11",
+                  "text": "The Lord knows human reasonings, that they are futile.",
+                  "display_text": "The Lord knows human reasonings,\nthat they are futile.",
+                  "text_sha256": "c85d25dc5ef852a32fe680564fc17ed6289482dfb2b2a831d3112cd7ccce7b4d"
+                }
+              ],
+              "target_passage_sha256": "e976e3335d9b808ae0e2aa26e9ebe14acf0a487c4b34360e922a90d974b45718",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            },
+            {
+              "id": "esther-8-12d__sirach-16-17-23",
+              "target": "Sirach 16:17-23",
+              "verdict": "supported",
+              "relationship": "rejection of imagined concealment from God",
+              "rationale": "Esther's letter rejects the thought that the arrogant can evade God's justice while He watches all things. Sirach forbids saying that one will be hidden from the Lord among the multitude and the vast creation, recalls the terror of His visitation, and calls such reasoning foolish. Both challenge presumed escape from divine notice; Sirach's imagined excuse of smallness is distinguished from the letter's arrogance and ingratitude.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "da2dd261efe17d874bfa992baf623d34591d7cc75b431eed73f3c88cc2ed4cf5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 16:17",
+                  "id": "v16-17",
+                  "text": "Do not say, “I will be hidden from the Lord; who will remember me from on high? Among a numerous people I will certainly not be known, for what is my soul in the immeasurable creation?”",
+                  "display_text": "Do not say, “I will be hidden from the Lord; who will remember me from on high? Among a numerous people I will certainly not be known, for what is my soul in the immeasurable creation?”",
+                  "text_sha256": "03c1ddaaccdbc2a5164521a9080e5bb36d6c3d834338981270f68bcdc5fcc367"
+                },
+                {
+                  "reference": "Sirach 16:18",
+                  "id": "v16-18",
+                  "text": "Behold, heaven and the heaven of heaven, the abyss and the earth will be shaken at His visitation.",
+                  "display_text": "Behold, heaven and the heaven of heaven, the abyss and the earth will be shaken at His visitation.",
+                  "text_sha256": "eb6f7674e2071df185185f6ce9a01c2d3f286217bf0d1c0180170fa0813d46b7"
+                },
+                {
+                  "reference": "Sirach 16:19",
+                  "id": "v16-19",
+                  "text": "Together the mountains and the foundations of the earth are shaken with trembling when He looks upon them.",
+                  "display_text": "Together the mountains and the foundations of the earth are shaken with trembling when He looks upon them.",
+                  "text_sha256": "b72935a437efe19966e14bd4e89de36795023b93a4d3ed83aefdcb53e2eaa60b"
+                },
+                {
+                  "reference": "Sirach 16:20",
+                  "id": "v16-20",
+                  "text": "Yet no heart will consider these things, and who will ponder His ways?",
+                  "display_text": "Yet no heart will consider these things, and who will ponder His ways?",
+                  "text_sha256": "2a637903e0bbb3e28d49e4b46d400a0b51c7b53dbc0a5e2021f51321826b581b"
+                },
+                {
+                  "reference": "Sirach 16:21",
+                  "id": "v16-21",
+                  "text": "There is also a tempest that a person will not see, and most of His works are hidden.",
+                  "display_text": "There is also a tempest that a person will not see, and most of His works are hidden.",
+                  "text_sha256": "a3348cad6f0a8c3f8320c564caedb5cf9bfccfa552c4273f7caa98173c91d12a"
+                },
+                {
+                  "reference": "Sirach 16:22",
+                  "id": "v16-22",
+                  "text": "Who will announce works of righteousness? Who will wait? For the covenant is far away.",
+                  "display_text": "Who will announce works of righteousness? Who will wait? For the covenant is far away.",
+                  "text_sha256": "50938b467274879854d0f9701db0e96c9ca4aa815b32bb50878b6f3f0c8a7c30"
+                },
+                {
+                  "reference": "Sirach 16:23",
+                  "id": "v16-23",
+                  "text": "Someone deficient in heart thinks these things; a foolish and wandering man thinks foolish things.",
+                  "display_text": "Someone deficient in heart thinks these things; a foolish and wandering man thinks foolish things.",
+                  "text_sha256": "a9feb995b3f0d03ce8d9307625265f0fd168c1ed9932a693a5d29a8abd7b220f"
+                }
+              ],
+              "target_passage_sha256": "895773bec72cdd641297d1fe1122eae8821ea654a3f4b728ad6ee85e1914be57",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Esther 8:12e",
@@ -9800,5 +10226,8 @@
       ]
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "completed_source_sections": [
+    3
+  ]
 }

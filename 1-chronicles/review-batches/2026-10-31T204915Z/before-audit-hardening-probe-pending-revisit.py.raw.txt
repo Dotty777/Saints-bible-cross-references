@@ -1,0 +1,63 @@
+"""Synthetic in-memory pending resolution checks; no production writes or review credit."""
+from pathlib import Path
+from copy import deepcopy
+import json,sys,hashlib,datetime
+h=Path(__file__).parent;sys.path.insert(0,str(h));import incremental as m
+results={};before=m.book_data('1 Chronicles');oldchecks=m.book_checks('1 Chronicles');oldp=m.load(h/'before-progress.json')
+pending=[v['reference'] for v in m.flat(before) if v['status']=='pending'];ref,unchanged_pending=pending[:2]
+data=deepcopy(before);checks=deepcopy(oldchecks);units={v['reference']:v for v in m.flat(data)};unit=units[ref]
+# These targets are fixture data only. No semantic relationship is proposed or accepted.
+for i,targetref in enumerate(['Genesis 10:24','Genesis 11:12']):
+ target=[m.evidence(k) for k in m.keys(targetref)]
+ unit['cross_references'].append({'id':'synthetic-probe-'+str(i),'target':targetref,'verdict':'supported','review_batch':m.RUN,'source_text_sha256':m.text_sha(unit['text']),'target_verses':target,'target_passage_sha256':m.text_sha('\n'.join(t['reference']+' '+t['text'] for t in target))})
+unit.update(status='completed',reviewed=m.DATE)
+added=m.resolve_deferrals(checks,{ref},units);assert len(added)==1 and added[0]['new_completed_pair_credit']==2
+assert checks['deferred_source_units']==oldchecks['deferred_source_units'][1:]
+assert added[0]['original_deferral']==oldchecks['deferred_source_units'][0]
+assert added[0]['original_deferral_sha256']==m.sha(m.encoded(oldchecks['deferred_source_units'][0]))
+results['one_resolved_source_two_distinct_pairs']=True
+results['unresolved_deferrals_preserved_exactly']=True
+for c in data['chapters']:c['status']='completed' if all(v['status']=='completed' for v in c['verses']) else 'pending'
+data.update(completed_source_verses=before['completed_source_verses']+1,completed_cross_references=before['completed_cross_references']+2,completed_chapters=m.completed_chapter_numbers(data),completed_source_sections=m.completed_source_sections(data),next_reference=unchanged_pending,next_unreviewed_reference=None)
+checks['checked_scope'].update(source_verse_units=data['completed_source_verses'],retained_pairs=data['completed_cross_references'],deferred_source_units=len(checks['deferred_source_units']))
+checks['review_batches'].append({'run_id':m.RUN,'new_source_verses':1,'new_pairs':2,'first_reviewed_source_units':0,'revisited_source_units_read':2,'resolved_source_deferrals':1})
+checks['pending_revisit_history']=[*checks.get('pending_revisit_history',[]),{'run_id':m.RUN,'actual_read_source_references':[ref,unchanged_pending],'considered_source_references':pending,'continued_pending_observations':[],'unretained_candidate_observations':[],'new_unretained_candidate_count':0,'resolved_source_references':[ref],'completion_credit_for_consideration_or_rereading':0}]
+progress=deepcopy(oldp);record=next(b for b in progress['books'] if b['book']=='1 Chronicles')
+record.update(completed_source_verses=data['completed_source_verses'],completed_cross_references=data['completed_cross_references'],completed_chapters=data['completed_chapters'],next_reference=unchanged_pending)
+progress.update(completed_source_verses=oldp['completed_source_verses']+1,completed_cross_references=oldp['completed_cross_references']+2,next=m.earliest_pending(progress,{'1 Chronicles':data}),next_unreviewed=None)
+progress['runs'].append({'run_id':m.RUN,'new_completed_pairs':2,'resolved_source_deferrals_count':1})
+old_scope=m.ordered_scope;m.ordered_scope=lambda stem:[ref,unchanged_pending] if stem=='1-chronicles-pending' else []
+try:
+ m.audit_objects({'1 Chronicles':data},progress,{'1 Chronicles':checks})
+ results['complete_preservation_audit_accepts_valid_resolution']=True
+ def rejected(name,change):
+  d,p,c=deepcopy(data),deepcopy(progress),deepcopy(checks);change(d,p,c)
+  try:m.audit_objects({'1 Chronicles':d},p,{'1 Chronicles':c})
+  except (ValueError,AssertionError):results[name]=True
+  else:raise AssertionError(name+' was not rejected')
+ rejected('reject_completed_native_text_mutation',lambda d,p,c:m.flat(d)[0].update(text='MUTATED'))
+ rejected('reject_lost_pending_deferral',lambda d,p,c:c['deferred_source_units'].pop())
+ rejected('reject_altered_original_resolution_proof',lambda d,p,c:c['resolved_source_deferrals'][-1]['original_deferral'].update(reason='MUTATED'))
+ rejected('reject_reread_inflated_cumulative_coverage',lambda d,p,c:c['checked_scope'].update(source_units_read=c['checked_scope']['source_units_read']+1))
+ rejected('reject_new_testament_source_continuation',lambda d,p,c:p.update(next_unreviewed={'book':'Matthew','reference':'Matthew 1:1'}))
+ rejected('reject_stale_earliest_pending',lambda d,p,c:p.update(next=oldp['next']))
+ rejected('reject_prior_run_mutation',lambda d,p,c:p['runs'][0].update(new_completed_pairs=-1))
+finally:m.ordered_scope=old_scope
+for book in m.REVIEW_BOOKS:
+ c=m.book_checks(book);original=deepcopy(c['unresolved_candidates']);assert not m.append_new_candidates(c,deepcopy(original));assert c['unresolved_candidates']==original
+results['repeated_historical_source_target_candidates_zero_new_count']=True
+invalid=deepcopy(oldchecks)
+try:m.resolve_deferrals(invalid,{ref},{v['reference']:v for v in m.flat(before)})
+except ValueError:results['cannot_resolve_without_new_supported_pair']=True
+else:raise AssertionError('Empty resolution accepted')
+old_selection=m.selection
+try:
+ m.selection=lambda stem:{'considered_source_references':next(p for p in m.PLAN['packets'] if p['stem']==stem)['candidate_source_references']}
+ cursor=m.pending_cursor(oldp,{s:{'cohort':[]} for s in m.STEMS},{})
+ assert cursor['considered_source_units_this_run']==510 and cursor['actual_source_units_reread_this_run']==0 and cursor['next_candidate']['book']=='Ezra'
+ assert cursor['completion_credit_for_consideration_or_rereading']==0 and oldp['next_unreviewed'] is None
+ results['considered_only_510_advances_cursor_without_reading_or_completion_credit']=True
+ results['next_candidate_after_assigned_pending_cohorts']=cursor['next_candidate']
+finally:m.selection=old_selection
+result={'run_id':m.RUN,'base_commit':m.BASE,'source_commit':m.PIN,'helper_sha256':m.digest(h/'incremental.py'),'probe_sha256':m.digest(Path(__file__)),'result':'passed','checks':results,'production_writes':0,'synthetic_semantic_data':True,'completion_credit':0,'checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+(h/'pending-revisit-probe-result.json').write_bytes(m.encoded(result));print(json.dumps(result,indent=2))

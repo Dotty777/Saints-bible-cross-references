@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "2 Chronicles",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,7 +28,7 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_source_reading_complete_with_pending_evidence",
+  "review_status": "initial_curated_pass_in_progress",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
     1,
@@ -54,11 +54,13 @@
     23,
     25,
     30,
+    32,
+    33,
     34,
     36
   ],
-  "completed_source_verses": 813,
-  "completed_cross_references": 922,
+  "completed_source_verses": 818,
+  "completed_cross_references": 928,
   "total_chapters": 36,
   "total_source_verse_units": 833,
   "next_reference": "2 Chronicles 8:3",
@@ -17548,8 +17550,84 @@
           "id": "v20-13",
           "text": "All Judah stood before the Lord, with their children and the women.",
           "display_text": "All Judah stood before the Lord, with their children and the women.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "2-chronicles-20-13__deuteronomy-31-11-13",
+              "target": "Deuteronomy 31:11-13",
+              "verdict": "supported",
+              "relationship": "women and children explicitly included in the assembly before the Lord",
+              "rationale": "Chronicles explicitly includes children and women as all Judah stands before the Lord; Deuteronomy calls for Israel to appear before Him and commands the gathering of men, women, children and the sojourner. The correspondence concerns the assembly's inclusive composition; Chronicles' crisis prayer is not identified as the prescribed festival reading.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "7ca02c05c8c94aa17753206c517fbb84ade343a8cdaf215bf89159be3a2fba6d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 31,
+                  "id": "v31-11",
+                  "text": "when all Israel comes together to appear before the Lord your God in the place which the Lord shall choose, you shall read this law before all Israel in their hearing.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 31:11",
+                  "text_sha256": "09a83170af288d9c33c311ea46adb7e0d0bf8784802bde3aa3acb76f77aad424"
+                },
+                {
+                  "chapter": 31,
+                  "id": "v31-12",
+                  "text": "Gather the people, the men, and the women, and the children, and the sojourner who is in your cities, that they may hear, and that they may learn to fear the Lord your God; and they shall hearken to do all the words of this law.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 31:12",
+                  "text_sha256": "88d336c6634335de9a4661c740304813db9dd800fcaa2a4251d9df68f5bf25ad"
+                },
+                {
+                  "chapter": 31,
+                  "id": "v31-13",
+                  "text": "And their sons, who do not know, shall hear and learn to fear the Lord your God all the days that they live upon the land into which you are crossing the Jordan to inherit it.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 31:13",
+                  "text_sha256": "2916179eca62a08d0ad60f9eb5dac812022d10ea1ec010e630f1d8b756fbd829"
+                }
+              ],
+              "target_passage_sha256": "877288cabc7487731659ca8ef8b0547351a4da36bd041b8301f4e77d65d5f44b",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            },
+            {
+              "id": "2-chronicles-20-13__joshua-9-2f",
+              "target": "Joshua 9:2f",
+              "verdict": "supported",
+              "relationship": "women and children present within the whole assembled people",
+              "rationale": "Chronicles names the children and women standing with all Judah; the native Joshua continuation unit names women and children among the whole assembly hearing the law. Both explicitly include these family members, while the prayer assembly and law reading remain distinct events and Joshua's original 9:2f reference is preserved.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "7ca02c05c8c94aa17753206c517fbb84ade343a8cdaf215bf89159be3a2fba6d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "joshua/verses.json",
+                "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Joshua 9:2f",
+                  "id": "v9-2f",
+                  "text": "There was not a word of everything Moses commanded Joshua that Joshua did not read in the hearing of the whole assembly of the sons of Israel: the men, women, children, and resident aliens travelling with Israel.",
+                  "text_sha256": "a9380ae24beb71e7b9bea4ee345161f0ddeb3ee5b9668e12daee8a8a8b16d48e"
+                }
+              ],
+              "target_passage_sha256": "ca5affb7425e794e5afc9261d950fe3163fae34f49620f93dd6cde425a33535f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "2 Chronicles 20:14",
@@ -23982,8 +24060,60 @@
           "id": "v26-10",
           "text": "He built towers in the wilderness and hewed many cisterns, because he had many herds in Sephela and the plain, and vinedressers in the hill country and Carmel, for he loved farming.",
           "display_text": "He built towers in the wilderness and hewed many cisterns, because he had many herds in Sephela and the plain, and vinedressers in the hill country and Carmel, for he loved farming.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "2-chronicles-26-10__ecclesiastes-2-4-7",
+              "target": "Ecclesiastes 2:4-7",
+              "verdict": "supported",
+              "relationship": "royal agricultural works combining water provision, cultivated land and livestock",
+              "rationale": "Uzziah's works include cisterns, herds and vinedressers, with his love of farming stated; the royal speaker in Ecclesiastes describes vineyards, gardens, water pools and great herds and flocks. The shared combination gives a particular parallel in royal agriculture, without equating the rulers or the cisterns for herds with the pools used to irrigate trees.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "c5aca963a539d65b7d9b6128bc4ba4d7e60000da4c3924288b2db4455c4f3a80",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 2:4",
+                  "id": "v2-4",
+                  "text": "I enlarged my work; I built houses for myself and planted vineyards for myself,",
+                  "display_text": "I enlarged my work; I built houses for myself and planted vineyards for myself,",
+                  "text_sha256": "f6b0c71f73a5e6828c412c635b63c8510ff77accaa4fcd8fd2ad0b11e0c90d64"
+                },
+                {
+                  "reference": "Ecclesiastes 2:5",
+                  "id": "v2-5",
+                  "text": "I made gardens and parks for myself and planted in them every kind of fruit tree.",
+                  "display_text": "I made gardens and parks for myself and planted in them every kind of fruit tree.",
+                  "text_sha256": "029952a84c125bf446cbb76e18cdef9b150d1e9440670500175d38228bce1f70"
+                },
+                {
+                  "reference": "Ecclesiastes 2:6",
+                  "id": "v2-6",
+                  "text": "I made pools of water for myself to irrigate from them a woodland sprouting trees.",
+                  "display_text": "I made pools of water for myself to irrigate from them a woodland sprouting trees.",
+                  "text_sha256": "bc180c75550a90bc9ef910555d83a32219d74566e5fe4cd49e5b83a211e0ff40"
+                },
+                {
+                  "reference": "Ecclesiastes 2:7",
+                  "id": "v2-7",
+                  "text": "I acquired male and female slaves, and I had slaves born in my house. I also had a great possession of herds and flocks, beyond everyone who was before me in Jerusalem.",
+                  "display_text": "I acquired male and female slaves, and I had slaves born in my house. I also had a great possession of herds and flocks, beyond everyone who was before me in Jerusalem.",
+                  "text_sha256": "1ff16ea8396cd4c7ff647c6521f7286f0fd3859a094669d4ecc00169c548b7ba"
+                }
+              ],
+              "target_passage_sha256": "d2657256f8236f6462a71eddced0c62b578c38ff86650a3ab5e744d6a8314cc7",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "2 Chronicles 26:11",
@@ -31709,7 +31839,7 @@
     },
     {
       "chapter": 32,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 32,
         "staging_page_id": 2421,
@@ -32838,8 +32968,46 @@
           "id": "v32-23",
           "text": "Many brought gifts to the Lord at Jerusalem and presents to Hezekiah king of Judah, and afterward he was highly exalted in the eyes of all the nations.",
           "display_text": "Many brought gifts to the Lord at Jerusalem and presents to Hezekiah king of Judah, and afterward he was highly exalted in the eyes of all the nations.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "2-chronicles-32-23__psalms-75-12-13",
+              "target": "Psalms 75:12-13",
+              "verdict": "supported",
+              "relationship": "gifts brought to the Lord after His victory over hostile power",
+              "rationale": "Chronicles places gifts to the Lord at Jerusalem after the defeat of Assyria and Jerusalem's deliverance; Psalm 75, explicitly titled concerning the Assyrian, moves from God's defeat of weapons at Zion to gifts brought to the Lord who overawes rulers. The link concerns the gifts to God after divine victory, not a claim that the psalm names Hezekiah or records the separate presents to him.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "9aa1c53025c939854b43ac84b94394f012a8983ee4c90c7fc814440ac31cb2fa",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 75:12",
+                  "id": "v75-12",
+                  "text": "Make vows and repay the Lord your God; all around Him will bring gifts",
+                  "display_text": "Make vows and repay the Lord your God;\nall around Him will bring gifts",
+                  "text_sha256": "435efada5275f8ab3aa22941e9c8a0d466b6a3ce9cc1fec81bb5677c2a5709c6"
+                },
+                {
+                  "reference": "Psalms 75:13",
+                  "id": "v75-13",
+                  "text": "to the Fearsome One, who takes away rulers’ spirits, who is fearsome among the earth’s kings.",
+                  "display_text": "to the Fearsome One, who takes away rulers’ spirits,\nwho is fearsome among the earth’s kings.",
+                  "text_sha256": "275c298cc2eaf2b54e78a7ecde43998f9d64fc42547fe58ab289d21a535a45ce"
+                }
+              ],
+              "target_passage_sha256": "ab54169e9459127026d9c1161ef940cf1d4ec2aa9004b457793c78a68d994b09",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "2 Chronicles 32:24",
@@ -33094,8 +33262,81 @@
           "id": "v32-28",
           "text": "and cities for the produce of grain, oil, and wine, mangers for every animal, and folds for the flocks,",
           "display_text": "and cities for the produce of grain, oil, and wine, mangers for every animal, and folds for the flocks,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "2-chronicles-32-28__1-chronicles-27-25-31",
+              "target": "1 Chronicles 27:25-31",
+              "verdict": "supported",
+              "relationship": "royal provision for produce stores and livestock",
+              "rationale": "Hezekiah's possessions include provision for grain, oil and wine and places for animals and flocks; David's estate roster separately names storehouses, wine and oil stores, cattle and sheep. The detailed combination connects the management of royal agricultural resources while preserving the different rulers, personnel and types of facilities.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "4a177e1c21d250a5fbb446554c508cc59621bfefe89dbfd8fdde055646652a9b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 27:25",
+                  "id": "v27-25",
+                  "text": "Over the king’s treasuries was Asmoth son of Odiel. Over the storehouses in the countryside, villages, settlements, and towers was Jonathan son of Oziou.",
+                  "display_text": "Over the king’s treasuries was Asmoth son of Odiel. Over the storehouses in the countryside, villages, settlements, and towers was Jonathan son of Oziou.",
+                  "text_sha256": "7dcac6b632994a6734532356979efeec3e0ae1829ff01a84df407ae5167b9d44"
+                },
+                {
+                  "reference": "1 Chronicles 27:26",
+                  "id": "v27-26",
+                  "text": "Over the workers farming the land was Esdri son of Choloub.",
+                  "display_text": "Over the workers farming the land was Esdri son of Choloub.",
+                  "text_sha256": "35c906cdbc15fe82bf67b94519a700e6f0fe87c7ff1228931195e2490f6b0108"
+                },
+                {
+                  "reference": "1 Chronicles 27:27",
+                  "id": "v27-27",
+                  "text": "Over the estates was Semei from Rama. Over the wine stores in the estates was Zachri son of Sephni.",
+                  "display_text": "Over the estates was Semei from Rama. Over the wine stores in the estates was Zachri son of Sephni.",
+                  "text_sha256": "7ce870faa8cefe43ae9aafd52ffc43c78bbb79e4eed53fae6f5454bc89f9ebc8"
+                },
+                {
+                  "reference": "1 Chronicles 27:28",
+                  "id": "v27-28",
+                  "text": "Over the olive groves and sycamores in the plain was Balanas the Gedorite. Over the oil stores was Joas.",
+                  "display_text": "Over the olive groves and sycamores in the plain was Balanas the Gedorite. Over the oil stores was Joas.",
+                  "text_sha256": "1c36d2e7f9541e35011638cfd4d70a440f64117825552ea66a49b1e0da520bab"
+                },
+                {
+                  "reference": "1 Chronicles 27:29",
+                  "id": "v27-29",
+                  "text": "Over the grazing cattle in Asidon was Satrais the Sharonite. Over the cattle in the valleys was Sophat son of Adli.",
+                  "display_text": "Over the grazing cattle in Asidon was Satrais the Sharonite. Over the cattle in the valleys was Sophat son of Adli.",
+                  "text_sha256": "4b8af6a6352c40be200bf9687a53a22b6303cd235f50105d3f029f24e607d25d"
+                },
+                {
+                  "reference": "1 Chronicles 27:30",
+                  "id": "v27-30",
+                  "text": "Over the camels was Obil the Ishmaelite. Over the donkeys was Jadias from Merathon.",
+                  "display_text": "Over the camels was Obil the Ishmaelite. Over the donkeys was Jadias from Merathon.",
+                  "text_sha256": "ae76081eb792e5e076a7cea9b10e541ca25b685a5228b23bf48ef1894c546aea"
+                },
+                {
+                  "reference": "1 Chronicles 27:31",
+                  "id": "v27-31",
+                  "text": "Over the sheep was Jaziz the Agarite. All these were overseers of King David’s possessions.",
+                  "display_text": "Over the sheep was Jaziz the Agarite. All these were overseers of King David’s possessions.",
+                  "text_sha256": "0e49465d30f6ad35133c3f5f70ae7119700cf2ea19d6f090326cdd6dc66d5632"
+                }
+              ],
+              "target_passage_sha256": "ae553de589b8b9eaeaa7e6b5b855a4de7d6938c7a8126813e75b6f9718d7b342",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "2 Chronicles 32:29",
@@ -33343,7 +33584,7 @@
     },
     {
       "chapter": 33,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 33,
         "staging_page_id": 2422,
@@ -33968,8 +34209,39 @@
           "id": "v33-14",
           "text": "After these things he built a wall outside the City of David, from the southwest opposite Gihon in the winter stream, and where people go out through the surrounding gate, and toward Ophla, and raised it very high. He stationed commanders of the force in all Judah’s walled cities.",
           "display_text": "After these things he built a wall outside the City of David, from the southwest opposite Gihon in the winter stream, and where people go out through the surrounding gate, and toward Ophla, and raised it very high. He stationed commanders of the force in all Judah’s walled cities.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "2-chronicles-33-14__2-chronicles-27-3",
+              "target": "2 Chronicles 27:3",
+              "verdict": "supported",
+              "relationship": "same-book accounts of separate royal wall works naming Ophla",
+              "rationale": "Manasseh's wall account names a course toward Ophla; Jotham's account explicitly names building on the wall of Ophla. This narrow named-place correspondence connects two periods of fortification work without claiming that the whole wall, gate, Gihon route or construction phase is identical.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "68f10ea9b8090c072e4add326a051224845f88f22549e540b92c3e4937096ea4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 27:3",
+                  "id": "v27-3",
+                  "text": "He built the Upper Gate of the Lord’s house and did much building on the wall of Ophla.",
+                  "display_text": "He built the Upper Gate of the Lord’s house and did much building on the wall of Ophla.",
+                  "text_sha256": "73eae57652e4703e3ce6ac95f152d55f83ea058b9d1a4ced5f4e30461e458fa0"
+                }
+              ],
+              "target_passage_sha256": "be8cf973d9552bd0fa100e7e570a7bd33f6c37607fab8d7d4266da03cfd024f9",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "2 Chronicles 33:15",
@@ -39014,5 +39286,34 @@
       ]
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "completed_source_sections": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    30,
+    32,
+    33,
+    34,
+    36
+  ]
 }

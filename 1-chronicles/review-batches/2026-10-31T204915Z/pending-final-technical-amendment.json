@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "changes": [
+    "Final authorized extension adds Ezra50 and Nehemiah93 pending candidates, preserving the original and first extension bytes. Second extension binds the original plan and preceding extension digest/order.",
+    "Readback audit now recomputes the exact current considered, actual-read and resolved lists, cumulative cursor, run cursor history and reread counts.",
+    "Combined considered scopes must remain the exact canonical assigned prefix: later packets cannot advance before earlier assigned candidates are considered. Actual substantive selections can still be sparse or empty."
+  ],
+  "second_extension": {
+    "file": "review-plan-extension2.json",
+    "sha256": "40105802480c38280b1050c5c350e97b442df291f6a3c81a28350d0147068167"
+  },
+  "prior_revision": [
+    {
+      "file": "before-audit-hardening-helper-technical-proposal.json.raw.txt",
+      "sha256": "921d1174433deccd24369366b0db464595cf342f69703861f51169a6fcbbdbc8"
+    },
+    {
+      "file": "before-audit-hardening-incremental.py.raw.txt",
+      "sha256": "79e3af9a4caff1f9534c8a8a1a3643f477c6556c8749a09abb80ce78d009179d"
+    },
+    {
+      "file": "before-audit-hardening-probe-pending-revisit.py.raw.txt",
+      "sha256": "93601059652901bacc6c80dbf4d66c1ff96c8f35b98f2f7ad10fa518f651e115"
+    },
+    {
+      "file": "before-audit-hardening-pending-revisit-probe-result.json.raw.txt",
+      "sha256": "96f82df8e6062ade409e2ddf8e0b92dd9fa571ae20927539aceee1f845753f85"
+    },
+    {
+      "file": "before-extension2-run-config.json.raw.txt",
+      "sha256": "83cb614e8f9fe77f6859de90e2a4cd2a15841a770f9e021694478fab88dd7d93"
+    }
+  ],
+  "completion_credit": 0
+}

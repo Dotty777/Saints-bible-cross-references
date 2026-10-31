@@ -1,0 +1,29 @@
+--- prior-accepted-helper
+
++++ proposed-helper
+
+@@ -725,5 +725,5 @@
+
+             if value.encode()!=raw:put(path,value.encode())
+     outputs={path:raw if path.startswith(ARCHIVE) else raw.replace(b'\r\n',b'\n') for path,raw in outputs.items()}
+-    audit_objects(datasets,progress,checksets,outputs)
++    audit_objects(datasets,progress,checksets,staged_readable_audit_inputs(outputs,stage,datasets))
+     for path,raw in outputs.items():
+         dest=safe_path(stage,path);dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(raw)
+@@ -733,4 +733,15 @@
+
+     manifest={'run_id':RUN,'stage':str(stage),'summary':summary,'publication_parent_commit':head,'preserved_canon_git_blob_sha':blob(original('canon.json',head)),'frozen_inputs':batch['archived_input_files'],'outputs':[{'path':path,'sha256':sha(raw),'before_sha256':sha(original_outputs[path]) if original_outputs[path] is not None else None} for path,raw in outputs.items()]}
+     (HERE/'prepared-manifest.json').write_bytes(encoded(manifest));return outputs,manifest
++
++def staged_readable_audit_inputs(outputs,stage,datasets):
++    """Audit every freshly rendered view while keeping unchanged files out of writes."""
++    audit_inputs=dict(outputs)
++    for book,data in datasets.items():
++        for name in [data['readable_html'],data['readable_text']]:
++            path=slug(book)+'/'+name
++            raw=safe_path(stage,path).read_bytes().replace(b'\r\n',b'\n')
++            if path in outputs:require(outputs[path]==raw,'Write/audit readable bytes differ: '+path)
++            audit_inputs[path]=raw
++    return audit_inputs
+ 
+ def audit_objects(datasets,progress,checksets,outputs=None):

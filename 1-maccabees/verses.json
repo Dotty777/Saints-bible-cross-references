@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "1 Maccabees",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,11 +28,11 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_source_reading_complete_with_pending_evidence",
+  "review_status": "initial_curated_pass_in_progress",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [],
-  "completed_source_verses": 662,
-  "completed_cross_references": 718,
+  "completed_source_verses": 681,
+  "completed_cross_references": 740,
   "total_chapters": 16,
   "total_source_verse_units": 924,
   "next_reference": "1 Maccabees 1:2",
@@ -102,8 +102,53 @@
           "id": "v1-3",
           "text": "He passed through to the ends of the earth and took the spoils of a multitude of nations. The earth became quiet before him; he was exalted, and his heart was lifted up.",
           "display_text": "He passed through to the ends of the earth and took the spoils of a multitude of nations. The earth became quiet before him; he was exalted, and his heart was lifted up.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-1-3__isaiah-10-12-14",
+              "target": "Isaiah 10:12-14",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: imperial conquest and pride",
+              "rationale": "Alexander's plundering of many nations and lifted-up heart are comparable to the Assyrian ruler's lofty pride and boast of seizing the inhabited world and plundering nations. The connection is the conjunction of expansive conquest, spoil and self-exaltation; Isaiah's ruler, explicitly identified as Assyrian, is not identified with Alexander.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "020b10e4d3b98b84355e8ce9643e6a26a4e09a04b5efd0ac9877991a937bde0c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 10:12",
+                  "id": "v10-12",
+                  "text": "When the Lord has finished doing all things on Mount Zion and in Jerusalem, He will bring judgment upon the great mind—the ruler of the Assyrians—and upon the height of the glory of his eyes.",
+                  "display_text": "When the Lord has finished doing all things on Mount Zion and in Jerusalem, He will bring judgment upon the great mind—the ruler of the Assyrians—and upon the height of the glory of his eyes.",
+                  "text_sha256": "21e4efa4252df1de78874ef1589b65d0235a62d5e37af346a54675a90b13e745"
+                },
+                {
+                  "reference": "Isaiah 10:13",
+                  "id": "v10-13",
+                  "text": "For he said, “By strength I will act, and by the wisdom of understanding. I will remove nations’ boundaries, plunder their strength and shake inhabited cities.",
+                  "display_text": "For he said, “By strength I will act, and by the wisdom of understanding. I will remove nations’ boundaries, plunder their strength and shake inhabited cities.",
+                  "text_sha256": "856075f410174c7bb0587361d6daa1bcd9d840b41b0989fd1fc40d580b33302c"
+                },
+                {
+                  "reference": "Isaiah 10:14",
+                  "id": "v10-14",
+                  "text": "I will seize the whole inhabited world in my hand like a nest, and lift it like abandoned eggs. There is no one who will escape me or contradict me.”",
+                  "display_text": "I will seize the whole inhabited world in my hand like a nest, and lift it like abandoned eggs. There is no one who will escape me or contradict me.”",
+                  "text_sha256": "a81b67bc5975f674a7c73e2e6cc90896a7717beec597c29ef50488528e2c090c"
+                }
+              ],
+              "target_passage_sha256": "2debf1904a13efe376b68e1c3b06f99c68ab77816cd1708f913292c7c1b9b6fd",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 1:4",
@@ -770,16 +815,114 @@
           "id": "v1-26",
           "text": "Rulers and elders groaned; young women and young men grew weak, and the beauty of women was changed.",
           "display_text": "Rulers and elders groaned; young women and young men grew weak, and the beauty of women was changed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-1-26__lamentations-2-10",
+              "target": "Lamentations 2:10",
+              "verdict": "supported",
+              "relationship": "Literary parallel: communal mourning across generations",
+              "rationale": "Maccabees depicts elders groaning and young women weakened in Israel's mourning; Lamentations depicts Zion's elders in dust and sackcloth and Jerusalem's leading virgins brought to the ground. Both give communal calamity a visible expression among elders and young women, without describing the same catastrophe.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "9f276b9b755709fe85e0d14129410da6eb0fc3d24e4a1893bf732c2d1c5b9c67",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "lamentations/verses.json",
+                "blob_sha": "05d7755a5e96cf65f30173d3e025cd7af50cdb5c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/lamentations/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Lamentations 2:10",
+                  "id": "v2-10",
+                  "text": "Daughter Zion’s elders sat on the ground in silence. They put dust on their heads and girded themselves with sackcloth. They brought the leading virgins in Jerusalem down to the ground.",
+                  "display_text": "Daughter Zion’s elders sat on the ground in silence.\nThey put dust on their heads and girded themselves with sackcloth.\nThey brought the leading virgins in Jerusalem down to the ground.",
+                  "text_sha256": "8448b056ca90ca07dbcba5daecd312646999248b0053a58117f298b1c82fc79f"
+                }
+              ],
+              "target_passage_sha256": "ae41b20f5c15a71cd7949e9955a8b99079b4da23e22219c1a30f8deb08d8ea0a",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            },
+            {
+              "id": "1-maccabees-1-26__isaiah-3-24",
+              "target": "Isaiah 3:24",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: altered beauty in calamity",
+              "rationale": "Maccabees includes the changed beauty of women in the account of national mourning. Isaiah portrays fragrance, head adornment and decorated clothing giving way to dust, baldness and sackcloth. The comparison concerns the loss of an adorned appearance in calamity; Maccabees does not specify Isaiah's individual changes.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "9f276b9b755709fe85e0d14129410da6eb0fc3d24e4a1893bf732c2d1c5b9c67",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 3:24",
+                  "id": "v3-24",
+                  "text": "Instead of sweet fragrance there will be dust; instead of a belt you will gird yourself with a cord; instead of golden head adornment you will have baldness because of your deeds; instead of the tunic with purple at its center you will gird yourself with sackcloth.",
+                  "display_text": "Instead of sweet fragrance there will be dust; instead of a belt you will gird yourself with a cord; instead of golden head adornment you will have baldness because of your deeds; instead of the tunic with purple at its center you will gird yourself with sackcloth.",
+                  "text_sha256": "f4a36c82e909ea58e8d75f2ced0e0bb50812bda47454f550479daa238bb182ef"
+                }
+              ],
+              "target_passage_sha256": "a2e97b3656b8c1a7fd5c1c95b85abdbf8fec16be9e27fe8dea6f30067d1888f4",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 1:27",
           "id": "v1-27",
           "text": "Every bridegroom took up a lament, and the bride sitting in her bridal chamber mourned.",
           "display_text": "Every bridegroom took up a lament, and the bride sitting in her bridal chamber mourned.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-1-27__joel-2-16-17",
+              "target": "Joel 2:16-17",
+              "verdict": "supported",
+              "relationship": "Literary parallel: bridal life interrupted by communal distress",
+              "rationale": "Maccabees brings the bridegroom and the bride in her bridal chamber into Israel's lament. Joel calls the bridegroom from his bedroom and the bride from her bridal chamber into the gathered community, where priests weep for the people. Both extend communal distress into bridal life, though Joel commands an assembly and Maccabees reports mourning.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "9561b27e4f4936435db40f9dbb713d555ca2b8d8ff9a041eb5d3f840595268a9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "joel/verses.json",
+                "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Joel 2:16",
+                  "id": "v2-16",
+                  "text": "Gather the people; consecrate the congregation. Choose elders; gather infants nursing at breasts. Let the bridegroom leave his bedroom and the bride her bridal chamber.",
+                  "display_text": "Gather the people; consecrate the congregation. Choose elders; gather infants nursing at breasts. Let the bridegroom leave his bedroom and the bride her bridal chamber.",
+                  "text_sha256": "f9a67057ca194b33ff72a9052ea3832e750207416754e692354c65c3864023c3"
+                },
+                {
+                  "reference": "Joel 2:17",
+                  "id": "v2-17",
+                  "text": "In the midst of the altar’s platform the priests who minister to the Lord will weep and say, “Spare Thy people, Lord, and do not give Thine inheritance to reproach, for nations to rule over them, so that they do not say among the nations, ‘Where is their God?’”",
+                  "display_text": "In the midst of the altar’s platform the priests who minister to the Lord will weep and say, “Spare Thy people, Lord, and do not give Thine inheritance to reproach, for nations to rule over them, so that they do not say among the nations, ‘Where is their God?’”",
+                  "text_sha256": "d5ad261d2dfc22d3e1002d85199f607035b9fd8a0f34226264789dc366fa9952"
+                }
+              ],
+              "target_passage_sha256": "9a006ac5645fdfdc23845d33836b806394c064679f8c4fc245ee7ac666bec346",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 1:28",
@@ -1960,16 +2103,85 @@
           "id": "v1-55",
           "text": "At the doors of the houses and in the squares they burned incense.",
           "display_text": "At the doors of the houses and in the squares they burned incense.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-1-55__jeremiah-11-12-13",
+              "target": "Jeremiah 11:12-13",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: incense to foreign gods throughout urban life",
+              "rationale": "The incense at house doors and in squares follows the establishment of pagan altars in Maccabees. Jeremiah similarly depicts Judah's cities burning incense to foreign gods and Jerusalem's many exits associated with incense altars to Baal. Both present foreign worship spread through inhabited places; the doors and squares are not equated with Jeremiah's exits or assigned his named deity.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "259c55693a6188440eb3ada52031126fe737b088e8b47fd8821b3d9ac9742067",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 11:12",
+                  "id": "v11-12",
+                  "text": "And Judah’s cities and those dwelling in Jerusalem will go and cry to the gods to whom they burn incense. Will those gods save them in the time of their evils?",
+                  "display_text": "And Judah’s cities and those dwelling in Jerusalem will go and cry to the gods to whom they burn incense. Will those gods save them in the time of their evils?",
+                  "text_sha256": "76e10e8e371bf4216152146de846ad1572594f231b7335bd0ed075b069b6d642"
+                },
+                {
+                  "reference": "Jeremiah 11:13",
+                  "id": "v11-13",
+                  "text": "For your gods were according to the number of your cities, Judah; and according to the number of Jerusalem’s exits you set up altars to burn incense to Baal.",
+                  "display_text": "For your gods were according to the number of your cities, Judah; and according to the number of Jerusalem’s exits you set up altars to burn incense to Baal.",
+                  "text_sha256": "3813b3b9eab894eb4d1f07feaa0fc15485fb8b6ee5e7464b6bb0358c1e1aec1a"
+                }
+              ],
+              "target_passage_sha256": "f2708d90f725e3ff2ed360203b4ae728af687fac7422483d3a6070785d71d3db",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 1:56",
           "id": "v1-56",
           "text": "They tore apart the books of the law that they found and burned them with fire.",
           "display_text": "They tore apart the books of the law that they found and burned them with fire.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-1-56__jeremiah-43-23",
+              "target": "Jeremiah 43:23",
+              "verdict": "supported",
+              "relationship": "Narrative parallel: sacred writings cut apart and burned",
+              "rationale": "The persecutors tear the books of the law and burn them; Jehoiakim cuts columns from the roll of Jeremiah's words and burns the whole roll. Both express hostility to divine instruction by physically dividing and burning its written document. The law books and Jeremiah's prophetic roll are different writings in different incidents.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "068a3ca5372cf4b3f4cf1346793f32dc48b0ad283a3a95d1a711b5da5b576700",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 43:23",
+                  "id": "v43-23",
+                  "text": "When Jehudi read three or four columns, the king cut them off with the scribe’s knife and threw them into the fire on the brazier, until the whole roll was consumed in the brazier’s fire.",
+                  "display_text": "When Jehudi read three or four columns, the king cut them off with the scribe’s knife and threw them into the fire on the brazier, until the whole roll was consumed in the brazier’s fire.",
+                  "text_sha256": "842b0584cf1391d3a0794abd6dc3da95cb0e636fee77f145940099d8c82154f2"
+                }
+              ],
+              "target_passage_sha256": "0141a25d35047d5437860b1a7bd38caa8caec0d67b7f522f74530b8bd9a9eedf",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 1:57",
@@ -5996,8 +6208,39 @@
           "id": "v3-7",
           "text": "He embittered many kings and gladdened Jacob by his deeds; his memory is a blessing for ever.",
           "display_text": "He embittered many kings\nand gladdened Jacob by his deeds;\nhis memory is a blessing for ever.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-3-7__proverbs-10-7",
+              "target": "Proverbs 10:7",
+              "verdict": "supported",
+              "relationship": "Wisdom parallel: praised remembrance of righteous deeds",
+              "rationale": "The praise of Judas joins deeds that gladden Jacob to a memory that remains a blessing. Proverbs describes the memory of righteous people as accompanied by praises, in contrast to the extinguished name of the impious. The proverb illuminates the favorable remembrance expressed in the tribute to Judas.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "1167cda964d90adf27428c372c0275e10b59445bb968b4cf53909611e61c4915",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 10:7",
+                  "id": "v10-7",
+                  "text": "The memory of righteous people is with praises, but the name of the impious is extinguished.",
+                  "display_text": "The memory of righteous people is with praises, but the name of the impious is extinguished.",
+                  "text_sha256": "90e02aff23c0ac3a6ffbf1c3b2ea4e0d820e9e62ed9fec609c992b68d46fd118"
+                }
+              ],
+              "target_passage_sha256": "a9eaf2efbf4025b1baf5b50b273ae82564c57d0d4bd2dc8dae22a2f799716bba",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 3:8",
@@ -7980,8 +8223,89 @@
           "id": "v3-60",
           "text": "But whatever the will in heaven may be, that He will do.”",
           "display_text": "But whatever the will in heaven may be, that He will do.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-3-60__acts-21-13-14",
+              "target": "Acts 21:13-14",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: accepting God's will amid readiness to face death",
+              "rationale": "Judas concludes his willingness to face death in battle by affirming that Heaven's will will be done. After Paul declares his readiness to die for the Lord Jesus, his companions yield with the words that the Lord's will be done. The shared movement is from readiness for mortal danger to acceptance of divine will; the speakers and conflicts differ.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "24609b8e376f842a889f29ecf4e81f35ec8de8e9dfcdfaeddfd0da0d34dac30b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 21:13",
+                  "id": "v21-13",
+                  "text": "Then Paul answered, “What are you doing, weeping and breaking my heart? For I am ready not only to be bound, but also to die in Jerusalem for the name of the Lord Jesus.”",
+                  "display_text": "Then Paul answered, “What are you doing, weeping and breaking my heart? For I am ready not only to be bound, but also to die in Jerusalem for the name of the Lord Jesus.”",
+                  "text_sha256": "070cf2f5ae7ffe7dce9d4a72dc6bd6b7baa266158d6c2603467f3775af9bf735"
+                },
+                {
+                  "reference": "Acts 21:14",
+                  "id": "v21-14",
+                  "text": "Since he would not be persuaded, we became silent and said, “Let the Lord’s will be done.”",
+                  "display_text": "Since he would not be persuaded, we became silent and said, “Let the Lord’s will be done.”",
+                  "text_sha256": "ebcaff253af388fe98947cafe66aa69a5ca0c85bb2b5844562f855027b3bbbbd"
+                }
+              ],
+              "target_passage_sha256": "ab932b7cca53ec78238599d8c740df5d1066e03c09daa12e080c990db926c75e",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            },
+            {
+              "id": "1-maccabees-3-60__james-4-13-15",
+              "target": "James 4:13-15",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: human plans subject to divine will",
+              "rationale": "Judas prepares for the coming battle but leaves its outcome to the will in heaven. James corrects confident plans for tomorrow by saying that both continued life and action depend on the Lord's will. Both qualify human intention by divine will, without equating Judas's battle preparation with the trading plans James addresses.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "24609b8e376f842a889f29ecf4e81f35ec8de8e9dfcdfaeddfd0da0d34dac30b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "james/verses.json",
+                "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/james/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "James 4:13",
+                  "id": "v4-13",
+                  "text": "Come now, you who say, “Today or tomorrow we will go to this city, spend a year there, trade, and make a profit”—",
+                  "display_text": "Come now, you who say, “Today or tomorrow we will go to this city, spend a year there, trade, and make a profit”—",
+                  "text_sha256": "2f505fd328d4350b1d110b35dfb50c1bb579b9fc772f7850b5336ff158903478"
+                },
+                {
+                  "reference": "James 4:14",
+                  "id": "v4-14",
+                  "text": "you who do not know what tomorrow brings. What is your life? For you are a vapor, appearing for a little while and then disappearing.",
+                  "display_text": "you who do not know what tomorrow brings. What is your life? For you are a vapor, appearing for a little while and then disappearing.",
+                  "text_sha256": "db25c480c74924357f965796051727bdb665cfac804c9a25153ea88a6bc8d877"
+                },
+                {
+                  "reference": "James 4:15",
+                  "id": "v4-15",
+                  "text": "Instead, you ought to say, “If the Lord wills, we shall both live and do this or that.”",
+                  "display_text": "Instead, you ought to say, “If the Lord wills, we shall both live and do this or that.”",
+                  "text_sha256": "7cf7a295100cfb04a25d0a492b2ffe01a43c90f6e198d4caeee334386c6ec4e4"
+                }
+              ],
+              "target_passage_sha256": "61caf69206ab7f519cb3a90fb0b662bb3d03a3c66fcab4c0bcf5ff011550554e",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     },
@@ -8740,8 +9064,44 @@
           "id": "v4-20",
           "text": "They saw that their men had been routed and that the camp was being burned, for the visible smoke made plain what had happened.",
           "display_text": "They saw that their men had been routed and that the camp was being burned, for the visible smoke made plain what had happened.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-4-20__joshua-8-20-21",
+              "target": "Joshua 8:20-21",
+              "verdict": "supported",
+              "relationship": "Narrative parallel: smoke reveals a military reversal",
+              "rationale": "The detachment looking from the mountain recognizes its side's defeat from the visible smoke of the burning camp. At Ai, inhabitants and Joshua's force see the city's rising smoke, and Israel turns against Ai's men. In both battles smoke makes the capture and burning of a position visible to forces outside it; the tactics and the subsequent ability to flee differ.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "77c88ee9f8199f29c0eb0e8b04de318c084d1248e319a0e209d26949f7932ffe",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "joshua/verses.json",
+                "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Joshua 8:20",
+                  "id": "v8-20",
+                  "text": "Ai’s inhabitants looked behind them and saw smoke rising from the city toward heaven. They no longer had anywhere to flee, this way or that.",
+                  "text_sha256": "94f90c93d5e36ba19a30bf509291a78d107ef56dac73e364305fbd0ca4f2d9dc"
+                },
+                {
+                  "reference": "Joshua 8:21",
+                  "id": "v8-21",
+                  "text": "Joshua and all Israel saw that the ambush had taken the city and that its smoke rose toward heaven. They turned and struck Ai’s men.",
+                  "text_sha256": "a8e326bf62589bc285499c544b788039439523ddc00b8a6e7429456afe84eae9"
+                }
+              ],
+              "target_passage_sha256": "87ec1fc313e176d777621f6b1a6e895d6b1bfb7665c52866858cf3c3f7b0a8cc",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 4:21",
@@ -9698,8 +10058,46 @@
           "id": "v4-42",
           "text": "He chose blameless priests devoted to the law.",
           "display_text": "He chose blameless priests devoted to the law.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-4-42__malachi-2-6-7",
+              "target": "Malachi 2:6-7",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: priestly integrity and devotion to the law",
+              "rationale": "Judas chooses blameless priests devoted to the law for the cleansing of the holy places. Malachi's account of faithful priestly service joins truthful law and freedom from injustice to the priest's duty to guard knowledge and provide law. This connects the qualities sought in the chosen priests with the described priestly vocation, not with a second account of their appointment.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "97bea3f21071fa50eaf729f5844c532ecc46ba63607054a0e02066e0dd6de19c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "malachi/verses.json",
+                "blob_sha": "a7fd092b220b6da8c5525e04c56db3a59786782e",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/malachi/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Malachi 2:6",
+                  "id": "v2-6",
+                  "text": "A law of truth was in his mouth, and injustice was not found on his lips. Directing his way in peace, he walked with Me and turned many back from injustice.",
+                  "display_text": "A law of truth was in his mouth, and injustice was not found on his lips. Directing his way in peace, he walked with Me and turned many back from injustice.",
+                  "text_sha256": "2d8b4cfe59a24b9380c773115e87c4c9c517ec3973bf22c20aceffea43b60413"
+                },
+                {
+                  "reference": "Malachi 2:7",
+                  "id": "v2-7",
+                  "text": "For a priest’s lips will guard knowledge, and people will seek law from his mouth, because he is the messenger of the Lord Almighty.",
+                  "display_text": "For a priest’s lips will guard knowledge, and people will seek law from his mouth, because he is the messenger of the Lord Almighty.",
+                  "text_sha256": "9c0db88d133cea28d1d0bdb1722f1ed7b7c8a088043c1749a74e09832e25f87b"
+                }
+              ],
+              "target_passage_sha256": "cb8c2eb22d417942d31e021689c3c9bc6bb0d643b02baa0b5d65187413cb32f5",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 4:43",
@@ -11742,8 +12140,39 @@
           "id": "v5-27",
           "text": "They were also confined in the other cities of Gilead. The enemy had arranged to attack the strongholds the next day, seize them, and destroy all these people in one day.",
           "display_text": "They were also confined in the other cities of Gilead. The enemy had arranged to attack the strongholds the next day, seize them, and destroy all these people in one day.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-5-27__esther-3-13",
+              "target": "Esther 3:13",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: a coordinated plan to destroy Jews in one day",
+              "rationale": "The report from Gilead describes an arranged assault intended to destroy the confined people in a single day. Esther's letters likewise schedule the destruction of the Jews on one day. The connection is the concentrated timetable for destroying a Jewish population, while the local siege plan and empire-wide decree remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "0da4b0724c3179e505f622339a0312d143f58530f9320bb1cc3454e2ed7788f8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 3:13",
+                  "id": "v3-13",
+                  "text": "Letters were sent by couriers into Artaxerxes’s kingdom to wipe out the race of the Jews in a single day of the twelfth month, which is Adar, and to plunder their possessions.",
+                  "display_text": "Letters were sent by couriers into Artaxerxes’s kingdom to wipe out the race of the Jews in a single day of the twelfth month, which is Adar, and to plunder their possessions.",
+                  "text_sha256": "a443a7cdadcc094f6a3ee0d0860a81ebdc4d427266d126eb7cce67cbd2c9434f"
+                }
+              ],
+              "target_passage_sha256": "bd266462c3020d8960085ea107e190c5d9a1da3b24ff3c133f657c2ee15a6a8b",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 5:28",
@@ -12638,8 +13067,48 @@
           "id": "v5-53",
           "text": "Judas gathered those who lagged behind and encouraged the people along the whole road until he came into the land of Judah.",
           "display_text": "Judas gathered those who lagged behind and encouraged the people along the whole road until he came into the land of Judah.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-5-53__deuteronomy-25-17-18",
+              "target": "Deuteronomy 25:17-18",
+              "verdict": "supported",
+              "relationship": "Narrative contrast: treatment of those lagging on a journey",
+              "rationale": "Judas gathers those who lag behind and encourages the company on the road to Judah. Deuteronomy recalls Amalek attacking the weary people at Israel's rear on the journey from Egypt. The concrete contrast is care for stragglers against exploitation of the rear's vulnerability; Judas is not presented as consciously reenacting that earlier journey.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "352dd62d1153fc610df2e2ef1071231437a04016205f9d5e5ba1abf79170acba",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 25,
+                  "id": "v25-17",
+                  "text": "Remember what Amalek did unto you in the way, when you came forth out of Egypt,",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 25:17",
+                  "text_sha256": "854458c244b2abb60579ad767057bf119196da570d0f849df58ba51c95e206fe"
+                },
+                {
+                  "chapter": 25,
+                  "id": "v25-18",
+                  "text": "how he withstood you in the way, and smote your rear, those who were weary behind you, when you were hungry and weary; and he did not fear God.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 25:18",
+                  "text_sha256": "b36be950e90f48574824a1c8adb85c326e9ad29ab0a5cbde6927f518a76090e9"
+                }
+              ],
+              "target_passage_sha256": "1ffda4e3222d582c3231cfcaed456e6bcbb404689f8c52045ce382b9d7bec9e6",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 5:54",
@@ -14686,8 +15155,39 @@
           "id": "v6-39",
           "text": "When the sun flashed upon the golden and bronze shields, the mountains flashed from them and shone like torches of fire.",
           "display_text": "When the sun flashed upon the golden and bronze shields, the mountains flashed from them and shone like torches of fire.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-6-39__nahum-2-5",
+              "target": "Nahum 2:5",
+              "verdict": "supported",
+              "relationship": "Imagery parallel: an army flashing like fiery torches",
+              "rationale": "Maccabees likens sunlight reflected from the army's golden and bronze shields to torches of fire shining on the mountains. Nahum likens the appearance of chariots in the roads and squares to fiery torches and flashing lightning. The shared comparison conveys the dazzling appearance of military equipment, while the equipment, setting and movement differ.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "df33083db6ebfff4a117e4e09ed14593ccf11ae1c4059bcded1e42389af4b444",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nahum/verses.json",
+                "blob_sha": "6901c800e024c859800afa7ab1e4fcda4e9d2658",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nahum/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nahum 2:5",
+                  "id": "v2-5",
+                  "text": "in the roads, and the chariots will be thrown into confusion and entangled in the squares; their appearance is like torches of fire and lightning flashing past.",
+                  "display_text": "in the roads, and the chariots will be thrown into confusion and entangled in the squares; their appearance is like torches of fire and lightning flashing past.",
+                  "text_sha256": "516baf165bc7d0419a55242afe24b8e378abb545f2e1ac20fd19b35e0e186db4"
+                }
+              ],
+              "target_passage_sha256": "d2f2f0b0f78ba2cf5a500bd85f4199c31b7624675016572d73f2ffd0e004c50c",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 6:40",
@@ -19286,8 +19786,74 @@
           "id": "v9-22",
           "text": "The rest of the deeds of Judas, his battles, the brave deeds he performed, and his greatness were not written down, for they were exceedingly many.",
           "display_text": "The rest of the deeds of Judas, his battles, the brave deeds he performed, and his greatness were not written down, for they were exceedingly many.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-9-22__2-maccabees-2-19-24",
+              "target": "2 Maccabees 2:19-24",
+              "verdict": "supported",
+              "relationship": "Comparison of narrative selection",
+              "rationale": "The first narrator leaves many of Judas's deeds and battles unwritten because of their abundance; the second describes Judas Maccabeus's campaigns as abundant material to be abridged from five books. Both explain selective narration of Judas's history; this does not identify Jason's work as the first narrator's source.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "36dd7f7cbc780de2666de0bf148dc36315029ccab5c643c485c6d6a0116674ca",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-maccabees/verses.json",
+                "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-maccabees/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Maccabees 2:19",
+                  "id": "v2-19",
+                  "text": "The events concerning Judas Maccabeus and his brothers, the purification of the greatest temple and the dedication of the altar,",
+                  "display_text": "The events concerning Judas Maccabeus and his brothers, the purification of the greatest temple and the dedication of the altar,",
+                  "text_sha256": "fadd7ba96b5041d223d42fc96f57d38efcec35e3d1b30fca532012a7137a2c74"
+                },
+                {
+                  "reference": "2 Maccabees 2:20",
+                  "id": "v2-20",
+                  "text": "and also the wars against Antiochus Epiphanes and his son Eupator,",
+                  "display_text": "and also the wars against Antiochus Epiphanes and his son Eupator,",
+                  "text_sha256": "d96ebe9822a50701cfd40c028c98f47d7321273ee98615e0a8011ec02aa9c51f"
+                },
+                {
+                  "reference": "2 Maccabees 2:21",
+                  "id": "v2-21",
+                  "text": "and the manifestations from heaven to those who zealously performed brave deeds for Judaism, so that, although few, they plundered the whole land and pursued the barbarian multitudes,",
+                  "display_text": "and the manifestations from heaven to those who zealously performed brave deeds for Judaism, so that, although few, they plundered the whole land and pursued the barbarian multitudes,",
+                  "text_sha256": "f416fd9ee101aba5f812f27f21fb5919b77adee3f41eb3bcceefe28163be045f"
+                },
+                {
+                  "reference": "2 Maccabees 2:22",
+                  "id": "v2-22",
+                  "text": "recovered the temple renowned throughout the inhabited world, freed the city, and restored the laws that were about to be abolished, the Lord having become merciful to them with all gentleness—",
+                  "display_text": "recovered the temple renowned throughout the inhabited world, freed the city, and restored the laws that were about to be abolished, the Lord having become merciful to them with all gentleness—",
+                  "text_sha256": "a6a06081d813e269082dcb30986de14d0d8f52dac460b73c76ad09b741a6ac50"
+                },
+                {
+                  "reference": "2 Maccabees 2:23",
+                  "id": "v2-23",
+                  "text": "these things, set forth by Jason of Cyrene in five books, we shall attempt to abridge into one composition.",
+                  "display_text": "these things, set forth by Jason of Cyrene in five books, we shall attempt to abridge into one composition.",
+                  "text_sha256": "29691af077f7996ee15f23a5f546e32d226c1e1599018a174f7360c0718d1eb5"
+                },
+                {
+                  "reference": "2 Maccabees 2:24",
+                  "id": "v2-24",
+                  "text": "For, seeing the abundance of figures and the difficulty caused by the mass of material for those who wish to enter into the narratives of the history,",
+                  "display_text": "For, seeing the abundance of figures and the difficulty caused by the mass of material for those who wish to enter into the narratives of the history,",
+                  "text_sha256": "aac7e4f047120ad85bf8daff0bf4c16184df6ff083d64638d16156599a13ba23"
+                }
+              ],
+              "target_passage_sha256": "aac57bff3ab775ff2f2915083a176cee16742fa3dd68c38690868d35ee82e77b",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 9:23",
@@ -20494,8 +21060,53 @@
           "id": "v9-55",
           "text": "At that time Alcimus was struck, and his work was obstructed. His mouth was stopped, and he was paralyzed, unable to speak another word or give orders concerning his household.",
           "display_text": "At that time Alcimus was struck, and his work was obstructed. His mouth was stopped, and he was paralyzed, unable to speak another word or give orders concerning his household.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-9-55__1-kings-13-4-6",
+              "target": "1 Kings 13:4-6",
+              "verdict": "supported",
+              "relationship": "Narrative comparison of bodily incapacity",
+              "rationale": "Alcimus's sanctuary demolition is obstructed when paralysis stops his speech and commands; Jeroboam's hostile gesture against the man speaking at the altar is interrupted by a withered hand. The shared pattern is bodily incapacity limiting hostile authority in a sanctuary setting, with different ailments and outcomes; Jeroboam's hand is restored.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "9361c11d2b2861b687214685d7ff49ab52755f39cc22424201848fbc352e5a11",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-kings/verses.json",
+                "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Kings 13:4",
+                  "id": "v13-4",
+                  "text": "When King Jeroboam heard the words of the man of God who had called against the altar in Bethel, the king stretched out his hand from the altar, saying, “Seize him!” Behold, the hand he stretched out against him withered, and he could not draw it back.",
+                  "display_text": "When King Jeroboam heard the words of the man of God who had called against the altar in Bethel, the king stretched out his hand from the altar, saying, “Seize him!” Behold, the hand he stretched out against him withered, and he could not draw it back.",
+                  "text_sha256": "3338e55b434d1b5f07aade0d5371bd8349b21f1e8635698695d09ea8faf73ffd"
+                },
+                {
+                  "reference": "1 Kings 13:5",
+                  "id": "v13-5",
+                  "text": "The altar split, and the fat poured from the altar, according to the portent the man of God had given by the Lord’s word.",
+                  "display_text": "The altar split, and the fat poured from the altar, according to the portent the man of God had given by the Lord’s word.",
+                  "text_sha256": "c0789a7d1def73554d634b9e50cd234c83660872aacc4a0a979111d0bbdad291"
+                },
+                {
+                  "reference": "1 Kings 13:6",
+                  "id": "v13-6",
+                  "text": "King Jeroboam said to the man of God, “Entreat the favor of the Lord your God, and let my hand be restored to me.” The man of God entreated the Lord’s favor, and he restored the king’s hand to him, so it became as it had been before.",
+                  "display_text": "King Jeroboam said to the man of God, “Entreat the favor of the Lord your God, and let my hand be restored to me.” The man of God entreated the Lord’s favor, and he restored the king’s hand to him, so it became as it had been before.",
+                  "text_sha256": "f3abae1d2d36fc1ba7b2a8b269c4d9c28668e137c4228f8b55c1c88886d975b4"
+                }
+              ],
+              "target_passage_sha256": "856db927f93b55bd22cfc1cffdee0740d8850ec99cd702132564eb7c6008c391",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 9:56",
@@ -22278,8 +22889,39 @@
           "id": "v10-41",
           "text": "All the excess that they did not pay from the revenues as in former years they shall from now on give for the works of the house.",
           "display_text": "All the excess that they did not pay from the revenues as in former years they shall from now on give for the works of the house.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-10-41__ezra-6-8",
+              "target": "Ezra 6:8",
+              "verdict": "supported",
+              "relationship": "Comparison of temple funding provisions",
+              "rationale": "Demetrius proposes redirecting previously unpaid revenues to work on the house; Darius orders royal taxes beyond the river to fund work on God's house. Both provisions assign revenue to Jerusalem's temple work. Demetrius's proposal belongs to the offer explicitly rejected in 1 Maccabees 10:46; the comparison does not establish payment.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "1cb8d7114f2b3d795d753c3d9186c94c65d7ac0fe4984cd197639d50b25afd62",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 6:8",
+                  "id": "v6-8",
+                  "text": "I have issued a decision that you must not do anything with the elders of the Jews concerning the building of that house of God. From the king’s resources, from the taxes beyond the river, let the expense be diligently supplied to those men, so that it is not stopped.",
+                  "display_text": "I have issued a decision that you must not do anything with the elders of the Jews concerning the building of that house of God. From the king’s resources, from the taxes beyond the river, let the expense be diligently supplied to those men, so that it is not stopped.",
+                  "text_sha256": "495c60225162f8bcf075db4cf3a6548d708553cd69d28aef9b78d3784ca95d03"
+                }
+              ],
+              "target_passage_sha256": "1dd9e287c6a64d1a1ba95178fb20e9f3df485bcef872625898e1192df6a9116e",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 10:42",
@@ -26614,8 +27256,89 @@
           "id": "v12-11",
           "text": "We therefore remember you continually at every season, at the festivals and the other appointed days, in the sacrifices we offer and in our prayers, as it is right and fitting to remember brothers.",
           "display_text": "We therefore remember you continually at every season, at the festivals and the other appointed days, in the sacrifices we offer and in our prayers, as it is right and fitting to remember brothers.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-12-11__1-thessalonians-1-2-4",
+              "target": "1 Thessalonians 1:2-4",
+              "verdict": "supported",
+              "relationship": "Epistolary prayer-remembrance parallel",
+              "rationale": "Jonathan's letter says that the Spartan brothers are continually remembered in prayers; Paul's letter likewise speaks of unceasing prayerful remembrance and addresses its recipients as brothers. The correspondence concerns the expressed practice of remembering others in prayer, not the identity or religious standing of the two recipient groups or Paul's adoption of the sacrifices mentioned by Jonathan.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "23b89502f917ef73a4172b8ebddb7d19eced573b27391cd89e539201f0d77ea1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-thessalonians/verses.json",
+                "blob_sha": "b38e8fb5397287f6648d6fd67faa7348d226bd1b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-thessalonians/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Thessalonians 1:2",
+                  "id": "v1-2",
+                  "text": "We always give thanks to God for all of you, mentioning you in our prayers, unceasingly",
+                  "display_text": "We always give thanks to God for all of you, mentioning you in our prayers, unceasingly",
+                  "text_sha256": "4726026037664791a3f7d3e0c493fb0b4d3619598ddc26ad5173631366091746"
+                },
+                {
+                  "reference": "1 Thessalonians 1:3",
+                  "id": "v1-3",
+                  "text": "remembering your work of faith and labor of love and endurance of hope in our Lord Jesus Christ before our God and Father,",
+                  "display_text": "remembering your work of faith and labor of love and endurance of hope in our Lord Jesus Christ before our God and Father,",
+                  "text_sha256": "84004bdb5e263ddefc10f7550daf1478462715fe2e47f0eeb437c90ba19340ad"
+                },
+                {
+                  "reference": "1 Thessalonians 1:4",
+                  "id": "v1-4",
+                  "text": "knowing, brothers beloved by God, your election,",
+                  "display_text": "knowing, brothers beloved by God, your election,",
+                  "text_sha256": "62a238372ba7563989b56fa2d32384472d51b8a08d950c31293dc24629149c50"
+                }
+              ],
+              "target_passage_sha256": "1a2e5412fe704c38b947f03189709099b0c2a549c2bb67a5678d6a5b710a27fe",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            },
+            {
+              "id": "1-maccabees-12-11__ezra-6-9-10",
+              "target": "Ezra 6:9-10",
+              "verdict": "supported",
+              "relationship": "Cultic intercession for political relationships",
+              "rationale": "Jonathan's letter connects sacrifices and prayers with remembrance of the Spartan brothers. Darius's decree supplies offerings so that prayers may be made for the king and his sons. Both link sacrificial worship with intercession for people involved in an external political relationship; a royal directive and Jonathan's statement of practice remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "23b89502f917ef73a4172b8ebddb7d19eced573b27391cd89e539201f0d77ea1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 6:9",
+                  "id": "v6-9",
+                  "text": "Whatever may be lacking—offspring of cattle and of rams, and lambs for whole burnt offerings to the God of heaven, wheat, salt, wine and oil—let it be given to them day by day according to the word of the priests in Jerusalem, whatever they ask,",
+                  "display_text": "Whatever may be lacking—offspring of cattle and of rams, and lambs for whole burnt offerings to the God of heaven, wheat, salt, wine and oil—let it be given to them day by day according to the word of the priests in Jerusalem, whatever they ask,",
+                  "text_sha256": "6af0b51ae207550f00936b6d9b52b904b84ce0256fba6a80edf904b8924136c7"
+                },
+                {
+                  "reference": "Ezra 6:10",
+                  "id": "v6-10",
+                  "text": "so that they may offer sweet fragrances to the God of heaven and pray for the life of the king and his sons.",
+                  "display_text": "so that they may offer sweet fragrances to the God of heaven and pray for the life of the king and his sons.",
+                  "text_sha256": "738d4c4c9f18173ef00d4cf0986f2421830425d2c6d1b44f2a3cfc91680a48ad"
+                }
+              ],
+              "target_passage_sha256": "d6e21d6eca68ebbd9800323e04a2c9923d3666a4ee92530d8fd59f90d27d012e",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 12:12",
@@ -29136,8 +29859,46 @@
           "id": "v13-22",
           "text": "Tryphon prepared all his cavalry to go, but that night there was exceedingly heavy snow, and he did not go because of the snow. He set out and came to Gilead.",
           "display_text": "Tryphon prepared all his cavalry to go, but that night there was exceedingly heavy snow, and he did not go because of the snow. He set out and came to Gilead.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-13-22__job-38-22-23",
+              "target": "Job 38:22-23",
+              "verdict": "supported",
+              "relationship": "Snow in a warfare setting",
+              "rationale": "Heavy snow prevents Tryphon's cavalry journey; the Lord's speech in Job places the treasures of snow and hail in the setting of enemies, war, and battle. This compares snow's place in warfare without identifying Tryphon's storm as the fulfilment of Job's speech or asserting a cause the narrative does not name.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "021c2f011717a71215409fc4af1fc1e6298e76ebc570426633a9abb0ec4eed06",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 38:22",
+                  "id": "v38-22",
+                  "text": "Did you come to the treasures of snow, and have you seen the treasures of hail?",
+                  "display_text": "Did you come to the treasures of snow,\nand have you seen the treasures of hail?",
+                  "text_sha256": "3e23ec9c23bc7b3fc2d1ac94d3fc59cfd22f2d0a0741e251c15b6fbe5e3c6166"
+                },
+                {
+                  "reference": "Job 38:23",
+                  "id": "v38-23",
+                  "text": "It is stored away for you for an hour of enemies, for a day of war and battle.",
+                  "display_text": "It is stored away for you for an hour of enemies,\nfor a day of war and battle.",
+                  "text_sha256": "e63e7b3125f7d21f9bf19125625c1fcb5bbe5b0bf55f0f2b7e0107f1e94ca4b2"
+                }
+              ],
+              "target_passage_sha256": "7ac3a54fa9f3005d4568add9d30ec7651bf16af4d5bfa68962f61348a62f4bfe",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 13:23",
@@ -32590,8 +33351,53 @@
           "id": "v14-49",
           "text": "and that copies be placed in the treasury so that Simon and his sons might possess them.”",
           "display_text": "and that copies be placed in the treasury so that Simon and his sons might possess them.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-14-49__ezra-6-1-3",
+              "target": "Ezra 6:1-3",
+              "verdict": "supported",
+              "relationship": "Preservation of official decisions in archives",
+              "rationale": "Copies of the decision concerning Simon are assigned to the treasury for Simon and his sons. Ezra describes a search in Babylon's treasury libraries and a scroll found in a Median city preserving Cyrus's temple decision. Both connect written decisions concerning temple and priestly affairs with archival preservation, without equating the decrees or their storage locations.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "34cde65958ba69f51ff4201fe0c6e7377fd1f259ee6e5c60ef2bf979c3af3f16",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 6:1",
+                  "id": "v6-1",
+                  "text": "Then Darius the king issued a decision and made a search in the libraries where the treasury is kept in Babylon.",
+                  "display_text": "Then Darius the king issued a decision and made a search in the libraries where the treasury is kept in Babylon.",
+                  "text_sha256": "47f2716731f096ff26425e0aba4cef77cb547ff326c719f73a1bc8efd0858ea0"
+                },
+                {
+                  "reference": "Ezra 6:2",
+                  "id": "v6-2",
+                  "text": "A scroll was found in a city, in the citadel of the city of the Medes, and this was written in it: “Memorandum:",
+                  "display_text": "A scroll was found in a city, in the citadel of the city of the Medes, and this was written in it: “Memorandum:",
+                  "text_sha256": "c20d46585c771ccd69d2d76d15258ca0f36f9269fd2ae9072036b24ca887fed9"
+                },
+                {
+                  "reference": "Ezra 6:3",
+                  "id": "v6-3",
+                  "text": "In the first year of Cyrus the king, King Cyrus issued a decision concerning the house of God in Jerusalem: Let the house be built, and the place where they sacrifice the sacrifices. He set an elevation: sixty cubits high and sixty cubits wide,",
+                  "display_text": "In the first year of Cyrus the king, King Cyrus issued a decision concerning the house of God in Jerusalem: Let the house be built, and the place where they sacrifice the sacrifices. He set an elevation: sixty cubits high and sixty cubits wide,",
+                  "text_sha256": "c814e1eec1bfbc6dc1bea3e9af70d91781075e8e47376ab718c2514c3a366e31"
+                }
+              ],
+              "target_passage_sha256": "f07365d3183f0f409cc781e21fbb69fdd03b06702b965a50a4b4260b379f1d8a",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     },
@@ -33606,8 +34412,74 @@
           "id": "v15-32",
           "text": "Athenobius, the king’s Friend, came to Jerusalem. He saw Simon’s glory, the display of gold and silver vessels, and the large retinue, and was astonished. He reported the king’s words to him.",
           "display_text": "Athenobius, the king’s Friend, came to Jerusalem. He saw Simon’s glory, the display of gold and silver vessels, and the large retinue, and was astonished. He reported the king’s words to him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "1-maccabees-15-32__1-kings-10-4-9",
+              "target": "1 Kings 10:4-9",
+              "verdict": "supported",
+              "relationship": "Foreign visitor's response to a ruler's display",
+              "rationale": "Athenobius is astonished by Simon's display and large retinue; the queen of Sheba is beside herself on seeing Solomon's household arrangements and attendants. Both narratives describe a foreign visitor's striking response to a ruler's visible establishment. The queen's praise differs from the envoy's hostile mission and subsequent angry report; no identity of vessels or offices is implied.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "00806d9569fb1549288b68fbd84503071fb5fa19e58c6f20fac4abfa8e391125",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-kings/verses.json",
+                "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Kings 10:4",
+                  "id": "v10-4",
+                  "text": "When the queen of Sheba saw all Solomon’s discernment and the house he had built,",
+                  "display_text": "When the queen of Sheba saw all Solomon’s discernment and the house he had built,",
+                  "text_sha256": "aec179fe6172a90d55bb3be5ae04d768ed64ff51e4b9e4a08c8fa45551edc3ff"
+                },
+                {
+                  "reference": "1 Kings 10:5",
+                  "id": "v10-5",
+                  "text": "Solomon’s food, the seating of his attendants, the station of his ministers, his clothing, his wine-pourers, and his whole burnt offering which he offered in the Lord’s house, she was beside herself.",
+                  "display_text": "Solomon’s food, the seating of his attendants, the station of his ministers, his clothing, his wine-pourers, and his whole burnt offering which he offered in the Lord’s house, she was beside herself.",
+                  "text_sha256": "78bbf0c6efd359a1702f049f59a1e732d2a2df99c4a4b21e231470348f08488a"
+                },
+                {
+                  "reference": "1 Kings 10:6",
+                  "id": "v10-6",
+                  "text": "She said to King Solomon, “The report I heard in my land about your word and your discernment is true.",
+                  "display_text": "She said to King Solomon, “The report I heard in my land about your word and your discernment is true.",
+                  "text_sha256": "95c973a1c91a1256e3e0ef0eacc8ad59c455247650ba77b08908d6682a969131"
+                },
+                {
+                  "reference": "1 Kings 10:7",
+                  "id": "v10-7",
+                  "text": "I did not believe those speaking to me until I arrived and my eyes saw. Behold, it is not half as they reported to me! You have added good things beyond them, beyond every report I heard in my land.",
+                  "display_text": "I did not believe those speaking to me until I arrived and my eyes saw. Behold, it is not half as they reported to me! You have added good things beyond them, beyond every report I heard in my land.",
+                  "text_sha256": "1154766e261918969dffab78e0a527a09d28e42f35a2965aff8fdb3774ca6f27"
+                },
+                {
+                  "reference": "1 Kings 10:8",
+                  "id": "v10-8",
+                  "text": "Blessed are your women! Blessed are these attendants of yours who stand before you continually, hearing all your discernment!",
+                  "display_text": "Blessed are your women! Blessed are these attendants of yours who stand before you continually, hearing all your discernment!",
+                  "text_sha256": "62d18aeaec2dccbc7c166a72da63544a87b5f7b3b560429ec89ac4ba63ca1473"
+                },
+                {
+                  "reference": "1 Kings 10:9",
+                  "id": "v10-9",
+                  "text": "Blessed be the Lord your God, who delighted in you, setting you on Israel’s throne! Because the Lord loves Israel, to establish them for ever, He made you king over them to carry out judgment in righteousness and in their judgments.”",
+                  "display_text": "Blessed be the Lord your God, who delighted in you, setting you on Israel’s throne! Because the Lord loves Israel, to establish them for ever, He made you king over them to carry out judgment in righteousness and in their judgments.”",
+                  "text_sha256": "bf94fcf3ccf4e84e368551ba78e11161d9b6c70f53d59a78e3bec85a6d488281"
+                }
+              ],
+              "target_passage_sha256": "0ff9999bd362e10a9acdff5d029bb6388c20380c6b7b544d8c2eaed5fd58c514",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "1 Maccabees 15:33",
@@ -34952,5 +35824,6 @@
       ]
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "completed_source_sections": []
 }

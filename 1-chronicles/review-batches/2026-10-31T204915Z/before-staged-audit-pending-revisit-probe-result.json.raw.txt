@@ -1,0 +1,46 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "helper_sha256": "3fdf9a336fc5589523fed62754a4f4a7af20df48c147ec9f442cf78843f80aa6",
+  "probe_sha256": "925343d2bd9708f694d5658b67d5e850b5adf9df366622b7798431f6e4e6cb7c",
+  "result": "passed",
+  "checks": {
+    "one_resolved_source_two_distinct_pairs": true,
+    "unresolved_deferrals_preserved_exactly": true,
+    "complete_preservation_audit_accepts_valid_resolution": true,
+    "reject_completed_native_text_mutation": true,
+    "reject_lost_pending_deferral": true,
+    "reject_altered_original_resolution_proof": true,
+    "reject_reread_inflated_cumulative_coverage": true,
+    "reject_new_testament_source_continuation": true,
+    "reject_stale_earliest_pending": true,
+    "reject_prior_run_mutation": true,
+    "reject_current_actual_read_list_mutation": true,
+    "reject_current_considered_list_mutation": true,
+    "reject_current_resolved_list_mutation": true,
+    "reject_current_cursor_mutation": true,
+    "reject_run_cursor_history_mutation": true,
+    "reject_selected_reread_count_inflation": true,
+    "repeated_historical_source_target_candidates_zero_new_count": true,
+    "cannot_resolve_without_new_supported_pair": true,
+    "reject_later_packet_consideration_before_earlier_prefix_complete": true,
+    "considered_only_1393_advances_cursor_without_reading_or_completion_credit": true,
+    "next_candidate_after_assigned_pending_cohorts": {
+      "book": "Proverbs",
+      "chapter": 1,
+      "reference": "Proverbs 1:17",
+      "source_id": "v1-17"
+    },
+    "partial_psalm_prefix_preserves_first_unconsidered_native_cursor": {
+      "book": "Psalms",
+      "chapter": 9,
+      "reference": "Psalms 9:21",
+      "source_id": "v9-21"
+    }
+  },
+  "production_writes": 0,
+  "synthetic_semantic_data": true,
+  "completion_credit": 0,
+  "checked_at_utc": "2026-10-31T21:27:04.984809+00:00"
+}

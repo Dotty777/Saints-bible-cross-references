@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "helper_sha256": "a768fea23d4935281689fc1cb88c42ae81b25caebc00d3116685b37bcc64b8b1",
+  "probe_sha256": "ea45826eb5ff41504e35588e2b5e904f94741ea1940288f51dedf54c1904bcd0",
+  "result": "passed",
+  "checks": {
+    "one_resolved_source_two_distinct_pairs": true,
+    "unresolved_deferrals_preserved_exactly": true,
+    "complete_preservation_audit_accepts_valid_resolution": true,
+    "reject_completed_native_text_mutation": true,
+    "reject_lost_pending_deferral": true,
+    "reject_altered_original_resolution_proof": true,
+    "reject_reread_inflated_cumulative_coverage": true,
+    "reject_new_testament_source_continuation": true,
+    "reject_stale_earliest_pending": true,
+    "reject_prior_run_mutation": true,
+    "reject_current_actual_read_list_mutation": true,
+    "reject_current_considered_list_mutation": true,
+    "reject_current_resolved_list_mutation": true,
+    "reject_current_cursor_mutation": true,
+    "reject_run_cursor_history_mutation": true,
+    "reject_selected_reread_count_inflation": true,
+    "repeated_historical_source_target_candidates_zero_new_count": true,
+    "cannot_resolve_without_new_supported_pair": true,
+    "reject_later_packet_consideration_before_earlier_prefix_complete": true,
+    "considered_only_653_advances_cursor_without_reading_or_completion_credit": true,
+    "next_candidate_after_assigned_pending_cohorts": {
+      "book": "Esther",
+      "chapter": 1,
+      "reference": "Esther 1:1b",
+      "source_id": "v1-1b"
+    }
+  },
+  "production_writes": 0,
+  "synthetic_semantic_data": true,
+  "completion_credit": 0,
+  "checked_at_utc": "2026-10-31T21:06:39.770526+00:00"
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Job",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,14 +28,14 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_source_reading_complete_with_pending_evidence",
+  "review_status": "initial_curated_pass_in_progress",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
     1,
     2
   ],
-  "completed_source_verses": 761,
-  "completed_cross_references": 814,
+  "completed_source_verses": 794,
+  "completed_cross_references": 847,
   "total_chapters": 42,
   "total_source_verse_units": 1083,
   "next_reference": "Job 3:2",
@@ -3603,8 +3603,39 @@
           "id": "v4-9",
           "text": "By the Lord’s command they will perish; by the breath of His anger they will disappear.",
           "display_text": "By the Lord’s command they will perish;\nby the breath of His anger they will disappear.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-4-9__2-thessalonians-2-8",
+              "target": "2 Thessalonians 2:8",
+              "verdict": "supported",
+              "relationship": "Divine breath overthrowing wrongdoing",
+              "rationale": "Eliphaz says that those who sow improper things perish by the Lord's command and the breath of His anger. The letter says the Lord Jesus will kill the lawless one with the breath of His mouth. Both employ the Lord's breath as the means of overthrow, but Eliphaz's claim is not a verdict that Job is guilty, nor are his unnamed offenders identified with the letter's lawless one.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "99e4f1e21de01864eaa6e25eb3ac5b5f2f53a1f941508d3a7711bc528a038158",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-thessalonians/verses.json",
+                "blob_sha": "288f9670bb220cb4f5261ed43123800cbf81f400",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Thessalonians 2:8",
+                  "id": "v2-8",
+                  "text": "And then the lawless one will be revealed, whom the Lord Jesus will kill with the breath of His mouth and bring to nothing by the manifestation of His coming.",
+                  "display_text": "And then the lawless one will be revealed, whom the Lord Jesus will kill with the breath of His mouth and bring to nothing by the manifestation of His coming.",
+                  "text_sha256": "7cf68b913ea38d8a5dbab244f1335eae3ec4dcd7f8a62deb2a4b5a93b4655e10"
+                }
+              ],
+              "target_passage_sha256": "20be68eddd0461ca1879403e5b5402e2bd1ecac753ed163c8ccc44ece8251983",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 4:10",
@@ -3731,8 +3762,40 @@
           "id": "v4-16",
           "text": "I stood up and did not recognize it; I looked, and there was no form before my eyes, but I heard a breeze and a voice:",
           "display_text": "I stood up and did not recognize it;\nI looked, and there was no form before my eyes,\nbut I heard a breeze and a voice:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-4-16__deuteronomy-4-12",
+              "target": "Deuteronomy 4:12",
+              "verdict": "supported",
+              "relationship": "Audible speech without a visible form",
+              "rationale": "Eliphaz reports hearing a breeze and a voice while seeing no form and not recognizing the presence. Deuteronomy recalls Israel hearing words but seeing no likeness at Horeb, only a voice. The shared feature is heard speech without a visible form; Deuteronomy explicitly names the Lord as speaker, and that identity or authority is not transferred to Eliphaz's unrecognized presence.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "c7d6a43c64506284331e356dfad1ead2c6cd3ba3db0ce5ee6ed31b0bf0583247",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 4,
+                  "id": "v4-12",
+                  "text": "And the Lord spoke unto you out of the midst of the fire; you heard the sound of words, but saw no likeness, only a voice.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 4:12",
+                  "text_sha256": "1a7154d401f07427feaed03667ea86efb709d6b7eb6ad12cef68e8e886c397c9"
+                }
+              ],
+              "target_passage_sha256": "02c2292ddd2b35c220684c572bf1965f7956d9de434108a61c3bda99f492815c",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 4:17",
@@ -4015,8 +4078,39 @@
           "id": "v5-5",
           "text": "For the righteous will eat what they gathered, and they themselves will not be rescued from evils; may their strength be drained away.",
           "display_text": "For the righteous will eat what they gathered,\nand they themselves will not be rescued from evils;\nmay their strength be drained away.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-5-5__proverbs-13-22",
+              "target": "Proverbs 13:22",
+              "verdict": "supported",
+              "relationship": "Righteous benefit contrasted with the loss of the impious",
+              "rationale": "Eliphaz's account moves from fools' ruined way of life to the righteous eating gathered goods. Proverbs explicitly says that the wealth of the impious is stored up for the righteous. Both place the righteous person's benefit beside wrongdoing's loss. The source's pronouns are not used to identify particular owners or a transaction, and the proverb does not identify Job's lost property or endorse Eliphaz's application to him.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "0a7c3e821f0e7f38c73cc65b104bd34ee1731116821dfe2e04d97fa6c4b13f1d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 13:22",
+                  "id": "v13-22",
+                  "text": "A good man will inherit children’s children, but the wealth of the impious is stored up for the righteous.",
+                  "display_text": "A good man will inherit children’s children, but the wealth of the impious is stored up for the righteous.",
+                  "text_sha256": "2f78b89152e607364b21bbd710998ccd221bf59fa0a51dd69c9cc09c795a88d1"
+                }
+              ],
+              "target_passage_sha256": "5ac17b688789fcd89b159fc1ed7210274b19ad9e5c6b00a69d1a0e2746a1de41",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 5:6",
@@ -5249,8 +5343,39 @@
           "id": "v6-13",
           "text": "Had I not trusted in Him? But help is far from me.",
           "display_text": "Had I not trusted in Him?\nBut help is far from me.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-6-13__psalms-21-20",
+              "target": "Psalms 21:20",
+              "verdict": "supported",
+              "relationship": "Lament over help remaining far away",
+              "rationale": "Job contrasts his trust with help being far from him. The psalm directly asks the Lord not to put the speaker's help far away and to attend to his support. Both express distress through the distance of help, with Job stating his experienced lack and the psalm petitioning against it; the psalm's later claim that God heard the petition is not inserted into Job's present complaint.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "36091f88988ccba49f8111654159c68a93d4a01341d5a857950f26517d132238",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 21:20",
+                  "id": "v21-20",
+                  "text": "But Thou, Lord, do not put my help far away; attend to my support.",
+                  "display_text": "But Thou, Lord, do not put my help far away;\nattend to my support.",
+                  "text_sha256": "fa582dd4ca116c8ba5a0bece8def456f7cd208299ab161c746e53a8b825a810b"
+                }
+              ],
+              "target_passage_sha256": "0435a3a8cc68906457d7652e312c0e2f93c5744678db250b409eadaa74dea0a5",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 6:14",
@@ -6559,8 +6684,46 @@
           "id": "v7-21",
           "text": "Why hast Thou not brought about forgetfulness of my lawlessness and cleansing of my sin? But now I will depart into the earth; at daybreak I am no more.”",
           "display_text": "Why hast Thou not brought about forgetfulness of my lawlessness\nand cleansing of my sin?\nBut now I will depart into the earth;\nat daybreak I am no more.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-7-21__psalms-38-13-14",
+              "target": "Psalms 38:13-14",
+              "verdict": "supported",
+              "relationship": "Petition for relief before departure from life",
+              "rationale": "Job asks for his wrongdoing to be forgotten and his sin cleansed before he departs into the earth and is no more. The psalm asks the Lord to hear and grant relief before the speaker departs and no longer exists. Both make anticipated departure the urgent setting for a petition, while Job's request for cleansing and the psalm's request for refreshment remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "602ed9403616075e14fca43ef5c019fada9bff68d92ce83890da3bff45cda22a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 38:13",
+                  "id": "v38-13",
+                  "text": "Hear my prayer, Lord, and give ear to my supplication; do not remain silent at my tears. For I am a sojourner with Thee and a temporary resident like all my fathers.",
+                  "display_text": "Hear my prayer, Lord, and give ear to my supplication;\ndo not remain silent at my tears.\nFor I am a sojourner with Thee\nand a temporary resident like all my fathers.",
+                  "text_sha256": "5fe6aa68d1c999d2ee378d0bd60a635675b93ba481a9dfd707fa4beaeb4fbb47"
+                },
+                {
+                  "reference": "Psalms 38:14",
+                  "id": "v38-14",
+                  "text": "Give me relief, that I may be refreshed, before I depart and no longer exist.”",
+                  "display_text": "Give me relief, that I may be refreshed,\nbefore I depart and no longer exist.”",
+                  "text_sha256": "e564fde4167cee27cf921f5f303f9c9839edd90a6331093bc322814791601887"
+                }
+              ],
+              "target_passage_sha256": "4f2d16d8dcffe5649f20bc6cf94c193b6e5a1de643a4ebd61c9551845ba2e20d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     },
@@ -7425,8 +7588,46 @@
           "id": "v9-4",
           "text": "For He is wise in understanding, mighty and great. Who grew hard against Him and endured?",
           "display_text": "For He is wise in understanding, mighty and great.\nWho grew hard against Him and endured?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-9-4__romans-9-19-20",
+              "target": "Romans 9:19-20",
+              "verdict": "supported",
+              "relationship": "Rhetorical questions about resisting God",
+              "rationale": "Job asks who grew hard against the mighty God and endured. Romans voices an imagined objection asking who has resisted God's purpose, then challenges a human being's answering back to God. Both formulate divine-human resistance as a rhetorical question. Job's complaint and Paul's reply to an objector are different arguments; neither identifies Job with Pharaoh or endorses every inference of the other speaker.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "6390eb06ca800c0b769159693926758c89a62b91555b8ce4a20b187d5dd96be1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "romans/verses.json",
+                "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/romans/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Romans 9:19",
+                  "id": "v9-19",
+                  "text": "You will then say to me, “Why, then, does He still find fault? For who has resisted His purpose?”",
+                  "display_text": "You will then say to me, “Why, then, does He still find fault? For who has resisted His purpose?”",
+                  "text_sha256": "29641f12bcc0b9f7de4d118c07437505e0566ca2ce988c44ecf6b7f17281c6ce"
+                },
+                {
+                  "reference": "Romans 9:20",
+                  "id": "v9-20",
+                  "text": "But who are you, O man, to answer back to God? Will what is formed say to the One who formed it, “Why didst Thou make me this way?”",
+                  "display_text": "But who are you, O man, to answer back to God? Will what is formed say to the One who formed it, “Why didst Thou make me this way?”",
+                  "text_sha256": "9f2d3f2e45bbaaa581ecf22493bfc1bc87f8654ae717f2326350b745d2fc3bda"
+                }
+              ],
+              "target_passage_sha256": "d3c65423653a5caed190619ae1e7be2e1aca0ed80e8445378438a7a67f6e7457",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 9:5",
@@ -9425,8 +9626,46 @@
           "id": "v10-22",
           "text": "to a land of everlasting darkness, where there is no brightness and no seeing the life of mortals.’”",
           "display_text": "to a land of everlasting darkness,\nwhere there is no brightness\nand no seeing the life of mortals.’”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-10-22__psalms-87-12-13",
+              "target": "Psalms 87:12-13",
+              "verdict": "supported",
+              "relationship": "Darkness and the land of the dead in lament",
+              "rationale": "Job describes the land to which he expects to go as without brightness or sight of mortal life. The psalm asks whether mercy is recounted in the grave or wonders known in darkness and a forgotten land. Both laments associate death with a dark land cut off from ordinary living experience; the comparison preserves their lamenting voices and does not construct a complete account of the afterlife.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "db9fd7f9d4b0e768789a4d599340ddb817ff9993873d3733fe59c276779adbff",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 87:12",
+                  "id": "v87-12",
+                  "text": "Surely no one will recount Thy mercy in a grave and Thy truth in destruction?",
+                  "display_text": "Surely no one will recount Thy mercy in a grave\nand Thy truth in destruction?",
+                  "text_sha256": "b2a56e660bc24a6db4a489628ef3ab105d407459b90cb455df7e388a1f8b4988"
+                },
+                {
+                  "reference": "Psalms 87:13",
+                  "id": "v87-13",
+                  "text": "Surely Thy wonders will not be known in darkness, or Thy righteousness in a forgotten land?",
+                  "display_text": "Surely Thy wonders will not be known in darkness,\nor Thy righteousness in a forgotten land?",
+                  "text_sha256": "db7e9960143881742e4b3a36b7ce508b6d36fd12a48ffee83a0f78ef21fbadc8"
+                }
+              ],
+              "target_passage_sha256": "a625ab7102ec17a845291513339d772efd6c6f8603bf36b8ec19085ac3130ba5",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     },
@@ -10651,8 +10890,39 @@
           "id": "v12-14",
           "text": "If He throws down, who will build? If He shuts people in, who will open?",
           "display_text": "If He throws down, who will build?\nIf He shuts people in, who will open?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-12-14__isaiah-43-13",
+              "target": "Isaiah 43:13",
+              "verdict": "supported",
+              "relationship": "The irreversibility of divine action",
+              "rationale": "Job asks who could rebuild what God throws down or open what He shuts. In Isaiah the Lord declares that no one rescues from His hands and asks who will turn back His action. Both deny a human capacity to undo God's act. Isaiah does not supply Job's particular demolition or confinement images, and no specific prisoner or destroyed building is identified.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "17524110745c7ca14fa1bd06f71f87763cc06d9eb52da293c1407c63007df884",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 43:13",
+                  "id": "v43-13",
+                  "text": "still from the beginning. No one rescues from My hands. I will act, and who will turn it back?”",
+                  "display_text": "still from the beginning. No one rescues from My hands. I will act, and who will turn it back?”",
+                  "text_sha256": "216ca30863ac3d4a7a0d249702dcd14d4bfd298819fb2d1a212fd8be077991d9"
+                }
+              ],
+              "target_passage_sha256": "2a81fcd77103e56abb40b236727c3ed3ba37686eddca14770dbb0aaa8c8236ad",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 12:15",
@@ -12033,8 +12303,39 @@
           "id": "v13-25",
           "text": "Wilt Thou be wary of a leaf moved by wind, or oppose me as grass carried by a breeze?",
           "display_text": "Wilt Thou be wary of a leaf moved by wind,\nor oppose me as grass carried by a breeze?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-13-25__isaiah-64-5",
+              "target": "Isaiah 64:5",
+              "verdict": "supported",
+              "relationship": "Wind-carried leaves as an image of vulnerability",
+              "rationale": "Job asks why God would oppose one as frail as a wind-moved leaf or grass carried by a breeze. Isaiah's communal confession depicts people falling like leaves and being carried off by wind because of their lawless deeds. The shared plant-and-wind image expresses vulnerability, while the confession's stated guilt is not imposed on Job's plea.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "6cc800031d653dce0cf5aa788eb95736910b8b3378ca9195ae71d56236e2e4f5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 64:5",
+                  "id": "v64-5",
+                  "text": "We all became like unclean people; all our righteousness is like a menstruating woman’s rag. We fell away like leaves because of our lawless deeds; thus wind will carry us off.",
+                  "display_text": "We all became like unclean people; all our righteousness is like a menstruating woman’s rag. We fell away like leaves because of our lawless deeds; thus wind will carry us off.",
+                  "text_sha256": "80d4448037fa379cb95e9f16a71fd59336a1b84ae4b7872f8dcc009efe069773"
+                }
+              ],
+              "target_passage_sha256": "36ba8fd6fa29559df9a5f3cf0e406a7c1b5b6c6d552f772a8f23d419c62ed01d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 13:26",
@@ -13491,8 +13792,46 @@
           "id": "v15-20",
           "text": "An ungodly person’s whole life is in anxiety, and numbered years are given to a ruler.",
           "display_text": "An ungodly person’s whole life is in anxiety,\nand numbered years are given to a ruler.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-15-20__isaiah-57-20-21",
+              "target": "Isaiah 57:20-21",
+              "verdict": "supported",
+              "relationship": "Restlessness attributed to the ungodly",
+              "rationale": "Eliphaz portrays the ungodly person's life as anxiety. Isaiah pictures the unjust as wave-tossed and unable to rest, and declares no rejoicing for the ungodly. Both associate wrongdoing with unrest, but the prophetic statement does not prove Eliphaz's insinuation that Job's suffering establishes his guilt.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "163da670ee0053fc7c47645e83840a7f2d5b4f1c73decf2173f65b031bca434d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 57:20",
+                  "id": "v57-20",
+                  "text": "But the unjust will be tossed by waves in this way and will be unable to rest.",
+                  "display_text": "But the unjust will be tossed by waves in this way and will be unable to rest.",
+                  "text_sha256": "699a33113d28e55908022e6f6f6dd7197191a87d92b089e70084d45fd9bfe22c"
+                },
+                {
+                  "reference": "Isaiah 57:21",
+                  "id": "v57-21",
+                  "text": "‘There is no rejoicing for the ungodly,’ said the Lord God.”",
+                  "display_text": "‘There is no rejoicing for the ungodly,’ said the Lord God.”",
+                  "text_sha256": "bc658f20f0a6ad61e7c3bf3a38c32b222deca7d82850eeff9f0d41b831d10461"
+                }
+              ],
+              "target_passage_sha256": "8174c64f982184a68f77f5dab22738cec1d99e9cc977c2c2bb2f35228f8ac0ff",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 15:21",
@@ -14145,8 +14484,46 @@
           "id": "v16-6",
           "text": "For if I speak, I will not feel pain from the wound; and if I remain silent, how will I be wounded any less?",
           "display_text": "For if I speak, I will not feel pain from the wound;\nand if I remain silent, how will I be wounded any less?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-16-6__psalms-38-3-4",
+              "target": "Psalms 38:3-4",
+              "verdict": "supported",
+              "relationship": "Speech and silence in the experience of pain",
+              "rationale": "Job says that if he speaks he will not feel pain from the wound and asks how silence would leave him any less wounded. The psalm reports that silence renewed the speaker's pain before he spoke. Both set the decision to speak against the inability of silence to remove distress; Job's conditional statement about speaking is preserved rather than changed to its opposite.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "4394d897d52a1f66df1bce15ecce2460a0fab3d97ab7e8ee4da17c620fd37aea",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 38:3",
+                  "id": "v38-3",
+                  "text": "I became mute and was humbled and kept silent from good things, and my pain was renewed.",
+                  "display_text": "I became mute and was humbled and kept silent from good things,\nand my pain was renewed.",
+                  "text_sha256": "7bc151b535af35d8acbf68b765935bf9924c6c55f5ffe1cf349c03dfe33215e2"
+                },
+                {
+                  "reference": "Psalms 38:4",
+                  "id": "v38-4",
+                  "text": "My heart grew hot within me, and in my meditation a fire will be kindled. I spoke with my tongue:",
+                  "display_text": "My heart grew hot within me,\nand in my meditation a fire will be kindled.\nI spoke with my tongue:",
+                  "text_sha256": "d1a12f1e8257da0cdb7268f7c6a9d59d23c1f61c94f0875a3ebcc732911624b0"
+                }
+              ],
+              "target_passage_sha256": "ce57020e68d2d07bf62438e2d06fb7c2d301dfca122ea1e77cbab1a3d51a9117",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 16:7",
@@ -14535,8 +14912,46 @@
           "id": "v16-19",
           "text": "Even now, behold, my witness is in the heavens, and the one who knows with me is in the highest places.",
           "display_text": "Even now, behold, my witness is in the heavens,\nand the one who knows with me is in the highest places.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-16-19__romans-1-9-10",
+              "target": "Romans 1:9-10",
+              "verdict": "supported",
+              "relationship": "Appeal to a witness beyond human observation",
+              "rationale": "Job claims a witness in the heavens and one who knows with him in the highest places as he seeks a hearing. Paul calls God his witness to the unceasing remembrance expressed in his prayers. Both appeal beyond human observation for knowledge of the speaker's case or inward practice. Job's witness remains unnamed; this comparison does not identify that figure as Christ, an angel, or Paul's explicitly named witness.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "162e291bc9ee942a9be72b42b8a00da6c32bf90caa66f8e36ce21a3c7f008bec",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "romans/verses.json",
+                "blob_sha": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/romans/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Romans 1:9",
+                  "id": "v1-9",
+                  "text": "For God, whom I serve in my spirit in the gospel of His Son, is my witness that I remember you without ceasing,",
+                  "display_text": "For God, whom I serve in my spirit in the gospel of His Son, is my witness that I remember you without ceasing,",
+                  "text_sha256": "5d2e356bed381ada0bc0c86257b31e0e506017c031dc55f96c680c475d484902"
+                },
+                {
+                  "reference": "Romans 1:10",
+                  "id": "v1-10",
+                  "text": "always in my prayers asking whether somehow now at last I may be granted a way, by the will of God, to come to you.",
+                  "display_text": "always in my prayers asking whether somehow now at last I may be granted a way, by the will of God, to come to you.",
+                  "text_sha256": "59d8e650c6bbaed5f3e7783e6f4184a9330c790c3c6836e13b1cbf461351349f"
+                }
+              ],
+              "target_passage_sha256": "1b7367f81cc0087ce97afec419590120f59f89d8af238165f92061ca56ec9bf2",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 16:20",
@@ -15097,8 +15512,39 @@
           "id": "v17-14",
           "text": "I called upon death to be my father, and decay to be my mother and sister.",
           "display_text": "I called upon death to be my father,\nand decay to be my mother and sister.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-17-14__proverbs-7-4",
+              "target": "Proverbs 7:4",
+              "verdict": "supported",
+              "relationship": "Personification through kinship language",
+              "rationale": "Job calls death his father and decay his mother and sister within his lament about Hades as his house. Proverbs tells the learner to call wisdom a sister and acquire understanding as a familiar companion. Both express closeness to an abstract reality through family language, with Job's desolate association with death contrasted with the instruction to embrace protective wisdom; these are not claims about literal relatives.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "53b916ef6afa9d74ef0233e98f5ba4bd8d65c62b1f796412d859cb4e07f9a3e9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 7:4",
+                  "id": "v7-4",
+                  "text": "Say that wisdom is your sister, and acquire understanding as your familiar companion,",
+                  "display_text": "Say that wisdom is your sister, and acquire understanding as your familiar companion,",
+                  "text_sha256": "6d3eb83ad6acfcc8915d4a34e475fbbb4794e6d900658bfbba90b389fc32fc15"
+                }
+              ],
+              "target_passage_sha256": "39087062e2a10083877ce69d49abc1372912feb702714b48f7de22e60fe7afc5",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 17:15",
@@ -15637,8 +16083,39 @@
           "id": "v18-19",
           "text": "He will not be recognized among his people, nor will his house be preserved beneath heaven, but others will live in what was his.",
           "display_text": "He will not be recognized among his people,\nnor will his house be preserved beneath heaven,\nbut others will live in what was his.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-18-19__jeremiah-6-12",
+              "target": "Jeremiah 6:12",
+              "verdict": "supported",
+              "relationship": "Dispossession of houses in judgment language",
+              "rationale": "Bildad says that the unjust person's house will not be preserved and that others will live in what was his. Jeremiah announces that houses, fields and wives will be transferred to others when the Lord stretches out His hand against the land's inhabitants. Both portray judgment through loss of the household to others; Jeremiah does not verify Bildad's application to Job, and neither passage is rewritten as a claim about absent descendants.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "04898355b12bd8ccc726fdc82d259291d2ccfc6dfbec79b47255366b0b3a2f76",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 6:12",
+                  "id": "v6-12",
+                  "text": "And their houses will be transferred to others, fields and their wives together, because I will stretch out My hand against those dwelling in this land, says the Lord.",
+                  "display_text": "And their houses will be transferred to others, fields and their wives together, because I will stretch out My hand against those dwelling in this land, says the Lord.",
+                  "text_sha256": "a81dced58e5b891c0cd07889114cdf6423ac6cd815bd46c263e8669149fa3801"
+                }
+              ],
+              "target_passage_sha256": "d5716c53b12c01835cf31c408c7f94957986fb0efafc73ee3f69c754563fa0aa",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 18:20",
@@ -15997,8 +16474,39 @@
           "id": "v19-9",
           "text": "He stripped glory from me and took the crown from my head.",
           "display_text": "He stripped glory from me\nand took the crown from my head.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-19-9__lamentations-5-16",
+              "target": "Lamentations 5:16",
+              "verdict": "supported",
+              "relationship": "The lost crown as an image of humiliation",
+              "rationale": "Job says that glory has been stripped from him and the crown taken from his head. Lamentations declares that the crown has fallen from the community's head. Both portray lost dignity through the crown's removal, but Lamentations' explicit confession of sin is not transferred to Job or used to identify his crown as a literal royal office.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "53dac2ac8ed8653d426a92bfb9455a41aa3b2d5408cc7590168bea45dd1e7956",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "lamentations/verses.json",
+                "blob_sha": "05d7755a5e96cf65f30173d3e025cd7af50cdb5c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/lamentations/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Lamentations 5:16",
+                  "id": "v5-16",
+                  "text": "The crown fell from our head; woe indeed to us, for we sinned!",
+                  "display_text": "The crown fell from our head;\nwoe indeed to us, for we sinned!",
+                  "text_sha256": "1127c6eef7c8be77e28b2aaa6ddaea0305955c9440f486645c8f3c5083147fcd"
+                }
+              ],
+              "target_passage_sha256": "bdbdc5f91f0654cfe1553e043fb30da5bd669d5816e197644092f52ef6dbf06d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 19:10",
@@ -16183,8 +16691,39 @@
           "id": "v19-15",
           "text": "Neighbors of the house and my maidservants— I was a foreigner before them.",
           "display_text": "Neighbors of the house and my maidservants—\nI was a foreigner before them.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-19-15__psalms-68-9",
+              "target": "Psalms 68:9",
+              "verdict": "supported",
+              "relationship": "Becoming foreign within one's own close circle",
+              "rationale": "Job says that the neighbors of his house and his maidservants regard him as a foreigner. The psalm's speaker has become estranged from his brothers and a foreigner to his mother's sons. Both express painful alienation from people who should be close through foreigner language; the household members and causes are distinct, and neither statement establishes a change of ethnicity.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "33f9a562a2af9f596e87a849c3054d2c86cf017c690550294158260df7627af8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 68:9",
+                  "id": "v68-9",
+                  "text": "I became estranged from my brothers and a foreigner to my mother’s sons,",
+                  "display_text": "I became estranged from my brothers\nand a foreigner to my mother’s sons,",
+                  "text_sha256": "d2b29f67fa78fcdf0a6268259e412d8f85acea43854b2a7443efe65e91d2329d"
+                }
+              ],
+              "target_passage_sha256": "1d1f2ec81a8ca14e2dbe4b32d9a38ee8b0c186b8e09468c15a8feddda569a74d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 19:16",
@@ -17557,8 +18096,39 @@
           "id": "v20-28",
           "text": "May destruction drag his house utterly away; may a day of wrath come upon him.",
           "display_text": "May destruction drag his house utterly away;\nmay a day of wrath come upon him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-20-28__proverbs-15-25",
+              "target": "Proverbs 15:25",
+              "verdict": "supported",
+              "relationship": "The overthrow of a house in retributive wisdom",
+              "rationale": "Zophar wishes for destruction to drag the ungodly person's house away on a day of wrath. Proverbs says that the Lord pulls down the houses of the insolent while establishing a widow's boundary. Both connect wrongdoing with the loss of a house, but the proverb's principle does not establish Zophar's accusation against Job or identify either statement with the prologue's house collapse.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "5c82a08e03c7d38845864056b6d4fc372a04f1e32dc7570c323ce2eda45270e8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 15:25",
+                  "id": "v15-25",
+                  "text": "The Lord pulls down the houses of the insolent, but He established the boundary of a widow.",
+                  "display_text": "The Lord pulls down the houses of the insolent, but He established the boundary of a widow.",
+                  "text_sha256": "1b100693e8d9dccea06cf733d274254303f41ef37b008e05d374f418ad23d41e"
+                }
+              ],
+              "target_passage_sha256": "7514663f0534bdb6354af3eaaa1eefaf7f2e7655f911d3ce0745dd930a6d3a99",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 20:29",
@@ -17813,16 +18383,102 @@
           "id": "v21-10",
           "text": "Their cow did not calve prematurely; their pregnant animal was preserved and did not miscarry.",
           "display_text": "Their cow did not calve prematurely;\ntheir pregnant animal was preserved and did not miscarry.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-21-10__deuteronomy-7-12-14",
+              "target": "Deuteronomy 7:12-14",
+              "verdict": "supported",
+              "relationship": "Thematic contrast: cattle fertility and the prosperity of the ungodly",
+              "rationale": "Job points to successful animal reproduction among the ungodly whose prosperity troubles him. Deuteronomy includes flourishing herds and freedom from barrenness among the blessings associated with keeping the covenant. The comparison places Job's observation beside that blessing pattern without treating prosperity as proof of obedience or equating freedom from barrenness with the precise absence of miscarriage.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "8593fdb77e7de0ff0a8f519beb8b793a70f5be6daecefca2eaf019a94a33f6b3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 7,
+                  "id": "v7-12",
+                  "text": "And it shall be, when you hearken unto all these ordinances, and keep and do them, that the Lord your God shall keep with you the covenant and the mercy which He sware unto your fathers.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 7:12",
+                  "text_sha256": "3f57e0ed98d6b9251634de2ab47b1e1def8e318898ee4481907cd91129e451ad"
+                },
+                {
+                  "chapter": 7,
+                  "id": "v7-13",
+                  "text": "And He shall love you, and bless you, and multiply you; and He shall bless the offspring of your womb, and the fruit of your land, your grain, and your wine, and your oil, the herds of your cattle and the flocks of your sheep, upon the land which the Lord sware unto your fathers to give you.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 7:13",
+                  "text_sha256": "0df4efc149186863a3a1217d1126201cc9b0972992bd0d18a7abe58a9a6027db"
+                },
+                {
+                  "chapter": 7,
+                  "id": "v7-14",
+                  "text": "You shall be blessed above all the nations; there shall be no barren male or female among you, nor among your cattle.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 7:14",
+                  "text_sha256": "2c80d32fe17424696922283382fb71fd528690faef314453bb3f66248c6338d0"
+                }
+              ],
+              "target_passage_sha256": "a7499c3a1b1d9ad5136a88543623d10c387135c4379a60685ee87ab96f1cf870",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 21:11",
           "id": "v21-11",
           "text": "They remain like everlasting sheep, and their children play,",
           "display_text": "They remain like everlasting sheep,\nand their children play,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-21-11__zechariah-8-4-5",
+              "target": "Zechariah 8:4-5",
+              "verdict": "supported",
+              "relationship": "Imagery comparison: playing children as a picture of well-being",
+              "rationale": "Job includes playing children in the secure, prosperous households of the ungodly. Zechariah pictures Jerusalem restored with elderly residents and boys and girls playing in its squares. The shared image makes well-being visible through children's play, while Job's troubling example and Zechariah's promised restoration have different moral and narrative settings.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "15dc08c28f3bac053664f1307a03e77f43df3a5663a69f55fcc743d6ed7bf24f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 8:4",
+                  "id": "v8-4",
+                  "text": "Thus says the Lord Almighty: Old men and old women will again sit in Jerusalem’s squares, each holding a staff in hand because of many days.",
+                  "display_text": "Thus says the Lord Almighty: Old men and old women will again sit in Jerusalem’s squares, each holding a staff in hand because of many days.",
+                  "text_sha256": "3577f7753c2951b6692f5b3e29dd5268ebf905a11eda6a12e22fc84feb820bb8"
+                },
+                {
+                  "reference": "Zechariah 8:5",
+                  "id": "v8-5",
+                  "text": "The city’s squares will be filled with boys and girls playing in her squares.",
+                  "display_text": "The city’s squares will be filled with boys and girls playing in her squares.",
+                  "text_sha256": "3b4157f72ed3b45ae95f4dae105512051a61fb218912fdae92c786b79c23087d"
+                }
+              ],
+              "target_passage_sha256": "c697dd43e87ac3fa2e2481c645fcc5366963148365e90d6e9ebb9539652a1b9a",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 21:12",
@@ -18807,8 +19463,39 @@
           "id": "v22-8",
           "text": "You showed partiality to certain people and settled them upon the land.",
           "display_text": "You showed partiality to certain people\nand settled them upon the land.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-22-8__leviticus-19-15",
+              "target": "Leviticus 19:15",
+              "verdict": "supported",
+              "relationship": "Ethical comparison: the condemnation of partiality",
+              "rationale": "Eliphaz accuses Job of favoring particular people and settling them on the land. Leviticus forbids favoring the poor or admiring the mighty in judgment and requires righteous treatment of a neighbor. The link concerns condemned favoritism; it neither establishes a particular land grant nor endorses Eliphaz's accusation against Job.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "d45eff65a0ec53683373ef14b73d39904401cad1217d033744307beb794fd3a5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "leviticus/verses.json",
+                "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/leviticus/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 19,
+                  "id": "v19-15",
+                  "text": "You shall do no injustice in judgment; you shall not favour the person of the poor, neither shall you admire the person of the mighty; you shall judge your neighbour in righteousness.",
+                  "reference": "Leviticus 19:15",
+                  "text_sha256": "0ba4a9c2346badbcb16d8a8f7b9caf4327c22fa146335e93c7c03f5876209d11"
+                }
+              ],
+              "target_passage_sha256": "6f74e3d19f336d4195a5feda9831cf71fe5512652537fb012da470880d7b7c43",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 22:9",
@@ -19049,8 +19736,39 @@
           "id": "v22-15",
           "text": "Will you guard the age-old path that unjust men trod,",
           "display_text": "Will you guard the age-old path\nthat unjust men trod,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-22-15__jeremiah-6-16",
+              "target": "Jeremiah 6:16",
+              "verdict": "supported",
+              "relationship": "Imagery contrast: enduring paths distinguished by their moral character",
+              "rationale": "Eliphaz asks whether Job will keep the age-old path trodden by unjust men. Jeremiah directs hearers to ask for the Lord's eternal paths, discern the good way and walk in it. Both use an enduring path as an image for a chosen course of conduct, but the unjust path and the Lord's good way are explicitly contrasted rather than identified.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "20034f344c4c064562e679cbe2b70a10942baff17f7d0e113f1a3303de08de20",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 6:16",
+                  "id": "v6-16",
+                  "text": "Thus says the Lord: Stand upon the roads and see, and ask for the Lord’s eternal paths and see which is the good way, and walk in it, and you will find purification for your souls. And they said, ‘We will not go.’",
+                  "display_text": "Thus says the Lord: Stand upon the roads and see, and ask for the Lord’s eternal paths and see which is the good way, and walk in it, and you will find purification for your souls. And they said, ‘We will not go.’",
+                  "text_sha256": "a888f11fcf60a8db5bad6faeaa08a0b0713c838f08b3ec3a2a8afb4a82bedbec"
+                }
+              ],
+              "target_passage_sha256": "aa51e7752b41dbe59f6ea84bac5bfb22ad5145e5b7534d684bbace2baa149912",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 22:16",
@@ -22357,8 +23075,39 @@
           "id": "v27-23",
           "text": "He will clap his hands over him and hiss him out of his place.”",
           "display_text": "He will clap his hands over him\nand hiss him out of his place.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-27-23__lamentations-2-15",
+              "target": "Lamentations 2:15",
+              "verdict": "supported",
+              "relationship": "Imagery parallel: clapping and hissing at a downfall",
+              "rationale": "The ending of Job's description of the ungodly person's fate combines clapping hands and hissing him out of his place. Passersby in Lamentations likewise clap and hiss at fallen Jerusalem. The particular pairing expresses derision at a downfall; the comparison does not identify the unnamed actor in Job or equate the individual with Jerusalem.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "b063e10cca52de479911b9f235b9b20330da72465476d7a5521f71900ed8fa96",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "lamentations/verses.json",
+                "blob_sha": "05d7755a5e96cf65f30173d3e025cd7af50cdb5c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/lamentations/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Lamentations 2:15",
+                  "id": "v2-15",
+                  "text": "All who pass along the road clapped their hands at you. They hissed and shook their heads at Daughter Jerusalem: “Is this the city they will call a crown of glory, the gladness of all the earth?”",
+                  "display_text": "All who pass along the road clapped their hands at you.\nThey hissed and shook their heads at Daughter Jerusalem:\n“Is this the city they will call a crown of glory, the gladness of all the earth?”",
+                  "text_sha256": "5fe836350789658595cea7cc6830c85af8e99493733a087dfbc06b0719a9a481"
+                }
+              ],
+              "target_passage_sha256": "c1c727cb1e0ec8e29fd8f74b55d7ad46bcee31c070cf669873c486f9e149479f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     },
@@ -22377,16 +23126,79 @@
           "id": "v28-1",
           "text": "“For silver has a place from which it comes, and gold a place from which it is filtered.",
           "display_text": "“For silver has a place from which it comes,\nand gold a place from which it is filtered.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-28-1__proverbs-17-3",
+              "target": "Proverbs 17:3",
+              "verdict": "supported",
+              "relationship": "Material comparison: processing precious metals in wisdom teaching",
+              "rationale": "Job distinguishes the known sources of silver and the place where gold is filtered before asking where wisdom can be found. Proverbs draws on the testing of silver and gold in a furnace to describe the choosing of hearts before the Lord. Both use the handling of precious metals within wisdom teaching, while filtering, testing and the lessons drawn from them remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "9f48ec4e00f68ca4836f0a9d6e7022e237adeedf9758283d1c761f230c5f94a5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 17:3",
+                  "id": "v17-3",
+                  "text": "As silver and gold are tested in a furnace, so hearts are chosen before the Lord.",
+                  "display_text": "As silver and gold are tested in a furnace, so hearts are chosen before the Lord.",
+                  "text_sha256": "a6189bb65b787781a6b1bfa375fdbac9b1fcd9243caa7c199526e19237e24257"
+                }
+              ],
+              "target_passage_sha256": "2a7b6ac466686cb80c0143d684b0b9143bba108b12248e07f2c4f69735968198",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 28:2",
           "id": "v28-2",
           "text": "For iron comes from earth, and copper is quarried like stone.",
           "display_text": "For iron comes from earth,\nand copper is quarried like stone.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-28-2__deuteronomy-8-9",
+              "target": "Deuteronomy 8:9",
+              "verdict": "supported",
+              "relationship": "Material parallel: iron and copper obtained from the land",
+              "rationale": "Job says that iron comes from earth and copper is quarried like stone. Deuteronomy describes the good land's stones as iron and copper mined from its hills. Both explicitly associate these two metals with extraction from the earth; Job's statement does not identify his location with the promised land.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "b87f11403e6357c349a29c36e6510523cccf361384c99d20f53ec55a3786f211",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 8,
+                  "id": "v8-9",
+                  "text": "a land wherein you shall eat your bread without poverty, and shall lack nothing; a land whose stones are iron, and out of whose hills you shall mine copper.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 8:9",
+                  "text_sha256": "e54543c90eb88e6e82b3a82c80c7a336e9c02f966c73642f1db8c20cdad17201"
+                }
+              ],
+              "target_passage_sha256": "2585de6faee6084d000d796cf3456e6bff4f10a31d6fcf1fe35fb316995e6115",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 28:3",
@@ -22885,8 +23697,39 @@
           "id": "v28-24",
           "text": "For He observes the whole realm under heaven, knowing everything in the earth that He made:",
           "display_text": "For He observes the whole realm under heaven,\nknowing everything in the earth that He made:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-28-24__proverbs-15-3",
+              "target": "Proverbs 15:3",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: God's observation extends everywhere",
+              "rationale": "The wisdom poem explains God's knowledge by His observation of the entire realm under heaven and everything in the earth He made. Proverbs likewise places the Lord's eyes everywhere, observing evil and good people. Both stress the unrestricted extent of divine observation, with Job emphasizing creation and Proverbs the people within it.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "325424c41c113a453d3a89905bddad7e0dadb2f258e077d88962c7af808edd27",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 15:3",
+                  "id": "v15-3",
+                  "text": "The eyes of the Lord are in every place; they observe both evil people and good people.",
+                  "display_text": "The eyes of the Lord are in every place; they observe both evil people and good people.",
+                  "text_sha256": "979ff5074ce8bf3245a18759f483d678d36bbf7c2404ed994cc814f4dac830c6"
+                }
+              ],
+              "target_passage_sha256": "82ab91f9b678dd27288e77414b8e9f97bc092965dd8436e027fb88d435918a4f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 28:25",
@@ -23591,8 +24434,39 @@
           "id": "v29-17",
           "text": "I crushed the molars of unjust people and tore the plunder from between their teeth.",
           "display_text": "I crushed the molars of unjust people\nand tore the plunder from between their teeth.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-29-17__psalms-57-7",
+              "target": "Psalms 57:7",
+              "verdict": "supported",
+              "relationship": "Imagery parallel: breaking teeth as the overthrow of predatory injustice",
+              "rationale": "Job describes rescuing plunder by crushing unjust people's molars and tearing it from their teeth. The psalm, after describing lawless people, says that God shattered their teeth and crushed the lions' grinders. Both portray the defeat of harmful power through broken teeth; Job's claim of defending victims is distinct from the psalm's attribution of the act to God.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "00b35902aa40a65dd7cf2c6a0441d5dcc7c33f0594c24e75c06997aa0c23b9a8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 57:7",
+                  "id": "v57-7",
+                  "text": "God shattered their teeth in their mouth; the Lord crushed the lions’ grinders.",
+                  "display_text": "God shattered their teeth in their mouth;\nthe Lord crushed the lions’ grinders.",
+                  "text_sha256": "af0904fcb13260e3613778163eb322cda9dad5d84c8f21e94cdcc593a006b35b"
+                }
+              ],
+              "target_passage_sha256": "f510728c41819c0a8cc05f65912cdfc94a5c37b073a9d1855234b63d7603f581",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 29:18",
@@ -23923,8 +24797,39 @@
           "id": "v30-8",
           "text": "sons of foolish and dishonored people, whose name and renown were extinguished from the earth.",
           "display_text": "sons of foolish and dishonored people,\nwhose name and renown were extinguished from the earth.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-30-8__proverbs-10-7",
+              "target": "Proverbs 10:7",
+              "verdict": "supported",
+              "relationship": "Verbal parallel: a discredited name extinguished",
+              "rationale": "Job describes the foolish and dishonored people connected with his mockers as having their name and renown extinguished from the earth. Proverbs contrasts praised righteous memory with the extinguished name of the impious. The shared image is the extinction of a discredited name; the proverb is not used to verify Job's assessment of the particular people he describes.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "36c10ff3f54530aea103e9c06324bf45060bc42229ad015e55442f944e7626f4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 10:7",
+                  "id": "v10-7",
+                  "text": "The memory of righteous people is with praises, but the name of the impious is extinguished.",
+                  "display_text": "The memory of righteous people is with praises, but the name of the impious is extinguished.",
+                  "text_sha256": "90e02aff23c0ac3a6ffbf1c3b2ea4e0d820e9e62ed9fec609c992b68d46fd118"
+                }
+              ],
+              "target_passage_sha256": "a9eaf2efbf4025b1baf5b50b273ae82564c57d0d4bd2dc8dae22a2f799716bba",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 30:9",
@@ -24799,8 +25704,39 @@
           "id": "v31-5",
           "text": "If I had walked with mockers, and if my foot also hastened toward deceit,",
           "display_text": "If I had walked with mockers,\nand if my foot also hastened toward deceit,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-31-5__psalms-1-1",
+              "target": "Psalms 1:1",
+              "verdict": "supported",
+              "relationship": "Ethical parallel: refusing the company and paths of wrongdoing",
+              "rationale": "Job's conditional oath rejects walking with mockers and hurrying toward deceit. The psalm blesses the person who does not walk in ungodly counsel, stand in sinners' way or sit with pestilent men. Both express moral separation through movement and company; the psalm's supplied term pestilent men is not replaced with mockers, and the two passages' particular offenses remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "b661491899eb05fbfc06bd4c7f7f9bbeef3ab09b893a7cbae9a5936a2f2a7646",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 1:1",
+                  "id": "v1-1",
+                  "text": "Blessed is the man who did not walk in the counsel of the ungodly, and did not stand in the way of sinners, and did not sit in the seat of pestilent men;",
+                  "display_text": "Blessed is the man who did not walk in the counsel of the ungodly,\nand did not stand in the way of sinners,\nand did not sit in the seat of pestilent men;",
+                  "text_sha256": "2e4996dacaad1b445294ae7b1041d7bb150c423a6dae0a9ff9f3f4f1512fd614"
+                }
+              ],
+              "target_passage_sha256": "fcde55960407052d284abaac610ba8f33d2e69c2cab702625160fdcc7c940737",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 31:6",
@@ -26063,8 +26999,81 @@
           "id": "v32-6",
           "text": "Elihu son of Barachel the Buzite replied: “I am younger in time, and you are older; therefore I kept quiet, afraid to announce my own knowledge to you.",
           "display_text": "Elihu son of Barachel the Buzite replied:\n“I am younger in time, and you are older;\ntherefore I kept quiet, afraid to announce my own knowledge to you.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-32-6__sirach-32-3-9",
+              "target": "Sirach 32:3-9",
+              "verdict": "supported",
+              "relationship": "Wisdom comparison: restraint in a younger person's speech",
+              "rationale": "Elihu explains that his youth in relation to the others made him remain silent before offering his knowledge. Sirach gives elders an appropriate speaking role and counsels a young man to speak when needed, briefly, without claiming equality among dignitaries or interrupting another. Both connect age and restraint in speech, while the debate and banquet settings differ and Sirach does not endorse Elihu's subsequent arguments.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "5edd0cb292062de32f184da9e70934e7d90c54c4747130e7c486f5fd10095221",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 32:3",
+                  "id": "v32-3",
+                  "text": "Speak, elder, for it is fitting for you, with exact knowledge, but do not hinder the music.",
+                  "display_text": "Speak, elder, for it is fitting for you, with exact knowledge, but do not hinder the music.",
+                  "text_sha256": "2a08ae16e8ff96371268c7ab16002af982c16cf357a51d5a879a9d340afe2f50"
+                },
+                {
+                  "reference": "Sirach 32:4",
+                  "id": "v32-4",
+                  "text": "Where there is a performance, do not pour out chatter or display wisdom at an unsuitable time.",
+                  "display_text": "Where there is a performance, do not pour out chatter or display wisdom at an unsuitable time.",
+                  "text_sha256": "069bac6bb47cf0b0eb4eb79c60984a1cdedd4d704ae2032c9606bc6787540ae3"
+                },
+                {
+                  "reference": "Sirach 32:5",
+                  "id": "v32-5",
+                  "text": "A carbuncle signet upon a golden ornament—so is an ensemble of musicians at a wine banquet.",
+                  "display_text": "A carbuncle signet upon a golden ornament—so is an ensemble of musicians at a wine banquet.",
+                  "text_sha256": "6be0c6bcca59c1cbbbf834c0502de052da0b8b617f3f84d752d2934863c29196"
+                },
+                {
+                  "reference": "Sirach 32:6",
+                  "id": "v32-6",
+                  "text": "An emerald signet in a gold setting—so is musicians’ melody with pleasant wine.",
+                  "display_text": "An emerald signet in a gold setting—so is musicians’ melody with pleasant wine.",
+                  "text_sha256": "5b7c8bfd32ebd34614b7f109320fc7d0aba4ad884a49bdb4fb6084e093f5c2d4"
+                },
+                {
+                  "reference": "Sirach 32:7",
+                  "id": "v32-7",
+                  "text": "Speak, young man, if you are needed; scarcely twice, if you are asked.",
+                  "display_text": "Speak, young man, if you are needed; scarcely twice, if you are asked.",
+                  "text_sha256": "dbf0c3f5c57f8c8f25f6d0e19eba82496ef859af85cc594f2673816e48191ded"
+                },
+                {
+                  "reference": "Sirach 32:8",
+                  "id": "v32-8",
+                  "text": "Sum up your speech, much in few words; be like someone who knows and at the same time keeps silent.",
+                  "display_text": "Sum up your speech, much in few words; be like someone who knows and at the same time keeps silent.",
+                  "text_sha256": "4ba4a3c5629ab2bdac2cb48100edac6ead0cde11a3d9aebdf58e45bdc7d2c77b"
+                },
+                {
+                  "reference": "Sirach 32:9",
+                  "id": "v32-9",
+                  "text": "Among dignitaries do not make yourself their equal, and while another speaks do not chatter much.",
+                  "display_text": "Among dignitaries do not make yourself their equal, and while another speaks do not chatter much.",
+                  "text_sha256": "14b1c733d0058d80be552790f1200275d8d2984c8990dd2d43446490c0b25877"
+                }
+              ],
+              "target_passage_sha256": "d3d734d276fcd4144f8a693237029d4d0626fff36987795c515e702d7792fe89",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 32:7",
@@ -26967,8 +27976,46 @@
           "id": "v33-16",
           "text": "then He uncovers people’s minds; with such forms of fear He terrified them,",
           "display_text": "then He uncovers people’s minds;\nwith such forms of fear He terrified them,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-33-16__daniel-4-4-5",
+              "target": "Daniel 4:4-5",
+              "verdict": "supported",
+              "relationship": "Illustrative parallel: fear arising through a revelatory dream",
+              "rationale": "In Elihu's account, God uses a fearful dream or nighttime meditation to uncover people's minds and turn them away from injustice. Nebuchadnezzar reports that a dream made him apprehensive and that fear fell upon him; its interpretation later warns him about divine judgment and urges reform. The king's experience illustrates this fear-and-warning pattern without making him the unnamed person in Elihu's description.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "67b34c5cfdd164766f63edd474284e2e7b74cb5bb3e96d49a07823027caafd08",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 4:4",
+                  "id": "v4-4",
+                  "text": "In the eighteenth year of Nebuchadnezzar’s reign, he said, “I was at peace in my house and prospering upon my throne.",
+                  "display_text": "In the eighteenth year of Nebuchadnezzar’s reign, he said, “I was at peace in my house and prospering upon my throne.",
+                  "text_sha256": "3f5f498a2770941cb470c88d959891db93486f9b3648d70e2a2bfc84ac7bec10"
+                },
+                {
+                  "reference": "Daniel 4:5",
+                  "id": "v4-5",
+                  "text": "I saw a dream and became apprehensive; fear fell upon me.",
+                  "display_text": "I saw a dream and became apprehensive; fear fell upon me.",
+                  "text_sha256": "548d742f34bf02bc088aacb07b755ce6392774d5ca1f1602108ed4dd519af220"
+                }
+              ],
+              "target_passage_sha256": "2de0539a5a790fc74be309d0e2bf5c92b69193937cfe3f5760106035a4a90331",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 33:17",
@@ -27191,8 +28238,46 @@
           "id": "v33-23",
           "text": "If there are a thousand death-bearing angels, one of them will certainly not wound him. If he understands in his heart to turn toward the Lord, announces his own blame to a human, and shows his lack of understanding,",
           "display_text": "If there are a thousand death-bearing angels,\none of them will certainly not wound him.\nIf he understands in his heart to turn toward the Lord,\nannounces his own blame to a human,\nand shows his lack of understanding,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-33-23__james-5-15-16",
+              "target": "James 5:15-16",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: acknowledging fault to another in a context of restoration",
+              "rationale": "Elihu's conditional account includes turning toward the Lord and announcing one's own blame to a human before the restoration described next. James connects forgiveness and healing with prayer and confession of sins to one another. The comparison concerns interpersonal acknowledgment of fault amid hoped-for restoration; it does not replace Job's death-bearing angels with an interpreter or equate its unusual surrounding clauses with James's instructions.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "4682b7ce226a26ac2000b140a7a9713904e618cf72450c81b58212760919442a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "james/verses.json",
+                "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/james/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "James 5:15",
+                  "id": "v5-15",
+                  "text": "And the prayer of faith will save the weary sick person, and the Lord will raise him up; and if he has committed sins, he will be forgiven.",
+                  "display_text": "And the prayer of faith will save the weary sick person, and the Lord will raise him up; and if he has committed sins, he will be forgiven.",
+                  "text_sha256": "508412d4299bbdccfc3d3479707abe1ca621ad4550ea7b1b16f5aacb2412e604"
+                },
+                {
+                  "reference": "James 5:16",
+                  "id": "v5-16",
+                  "text": "Therefore confess your sins to one another and pray for one another, so that you may be healed. A righteous person’s petition has great strength when it is at work.",
+                  "display_text": "Therefore confess your sins to one another and pray for one another, so that you may be healed. A righteous person’s petition has great strength when it is at work.",
+                  "text_sha256": "e0ff267c5c7a0a5fa117049e9c13fb28443edfa63a0e8b879cc6902b195b65d7"
+                }
+              ],
+              "target_passage_sha256": "b236990d9538f0f9934c050d9ebca2a6a05196c706892031c6a19fa5b2eefb65",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 33:24",
@@ -28177,8 +29262,46 @@
           "id": "v34-27",
           "text": "because they turned aside from God’s law and did not recognize His ordinances,",
           "display_text": "because they turned aside from God’s law\nand did not recognize His ordinances,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-34-27__isaiah-5-23-24",
+              "target": "Isaiah 5:23-24",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: rejection of divine law associated with injustice and judgment",
+              "rationale": "Elihu attributes the ungodly people's destruction to turning aside from God's law, in a context of the needy crying out. Isaiah likewise joins corrupt judgment against the righteous with consuming judgment because the people did not desire the Lord's law and provoked His utterance. Both connect injustice, rejection of divine instruction and judgment; Isaiah's oracle is not treated as direct confirmation of every claim in Elihu's speech.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "1b3b8d2ae6ea9128e3aa10a5238355bd54c71dabd5fd97206c5b186405c3905e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 5:23",
+                  "id": "v5-23",
+                  "text": "who justify the ungodly for gifts and take away the righteous person’s right!",
+                  "display_text": "who justify the ungodly for gifts and take away the righteous person’s right!",
+                  "text_sha256": "bf0020c3c906d4167d0be71d0364b68d786e2b2273b931b9d30a744988cb81bf"
+                },
+                {
+                  "reference": "Isaiah 5:24",
+                  "id": "v5-24",
+                  "text": "Therefore, as a stalk is burned by a fiery coal and consumed by a rising flame, their root will become like chaff and their blossom rise like dust. For they did not desire the law of the Lord Sabaoth, but provoked the utterance of the Holy One of Israel.",
+                  "display_text": "Therefore, as a stalk is burned by a fiery coal and consumed by a rising flame, their root will become like chaff and their blossom rise like dust. For they did not desire the law of the Lord Sabaoth, but provoked the utterance of the Holy One of Israel.",
+                  "text_sha256": "3ceeac99ce218c6a9c17cf8d61d4339fccb3c5196f978035d30863c6d491a023"
+                }
+              ],
+              "target_passage_sha256": "c62d48819ed0f7326a78837af49f22ef5ccaa4e576bffe270bb4671407552b47",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 34:28",
@@ -28733,8 +29856,39 @@
           "id": "v35-8",
           "text": "Your ungodliness is for a man like you, and your righteousness for a son of humanity.",
           "display_text": "Your ungodliness is for a man like you,\nand your righteousness for a son of humanity.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "job-35-8__proverbs-9-12",
+              "target": "Proverbs 9:12",
+              "verdict": "supported",
+              "relationship": "Wisdom comparison: righteousness and wisdom directed toward other people",
+              "rationale": "Elihu contrasts the inability to enrich God with human conduct directed toward fellow humans, saying that one's righteousness is for a son of humanity. Proverbs says that becoming wise for oneself also makes one wise for one's neighbors. Both direct attention to the human beneficiaries of right conduct or wisdom; Proverbs' further statement about bearing one's own evils is not made identical to Elihu's wording about ungodliness.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "b991e6eade9b521c61d00aefa593c9ec6f39275bd7de314d1dc3603d1894374e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 9:12",
+                  "id": "v9-12",
+                  "text": "Son, if you become wise for yourself, you will also be wise for your neighbors; but if you turn out evil, you alone will bear evils.",
+                  "display_text": "Son, if you become wise for yourself, you will also be wise for your neighbors; but if you turn out evil, you alone will bear evils.",
+                  "text_sha256": "e1f45de76323908385dc3ed94baaf87aa63146c0754ebaeb7daade42ed461d0e"
+                }
+              ],
+              "target_passage_sha256": "d37aa0e87548fbf49a500034ba4967507dedcb286f2b3c2eb3a1d16802d8d60f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Job 35:9",
@@ -36935,5 +38089,9 @@
       ]
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "completed_source_sections": [
+    1,
+    2
+  ]
 }

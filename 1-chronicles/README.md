@@ -29,3 +29,4 @@ Unretained target candidates: 45, excluded from completed counts. See the record
 
 - [2026-10-30T092501Z](review-batches/2026-10-30T092501Z.json): 516 newly completed pairs across 516 source verses.
 - [2026-10-30T102602Z](review-batches/2026-10-30T102602Z.json): 484 newly completed pairs across 401 source verses.
+- [2026-10-31T204915Z](review-batches/2026-10-31T204915Z.json): 0 newly completed pairs across 0 source verses.

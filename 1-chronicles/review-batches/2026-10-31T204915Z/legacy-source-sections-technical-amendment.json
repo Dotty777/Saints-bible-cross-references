@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "prior_revision": [
+    {
+      "file": "before-legacy-sections-technical-peer-review.json.raw.txt",
+      "sha256": "4816f63cc8e07e13c64c70161037348e27585561313cfd7cb4aa87776e75bdf8"
+    },
+    {
+      "file": "before-legacy-sections-helper-technical-proposal.json.raw.txt",
+      "sha256": "ae83b3ecdb62c0ac33bceb5268ccd1b6855c65bd44a2546d0392861c6eac1a3b"
+    },
+    {
+      "file": "before-legacy-sections-incremental.py.raw.txt",
+      "sha256": "a768fea23d4935281689fc1cb88c42ae81b25caebc00d3116685b37bcc64b8b1"
+    },
+    {
+      "file": "before-legacy-sections-probe-pending-revisit.py.raw.txt",
+      "sha256": "925343d2bd9708f694d5658b67d5e850b5adf9df366622b7798431f6e4e6cb7c"
+    },
+    {
+      "file": "before-legacy-sections-pending-revisit-probe-result.json.raw.txt",
+      "sha256": "5dd8058f3f40394043888db0a25ed3f89040dd0a7dece8c0af33b2f614f7337c"
+    }
+  ],
+  "changes": [
+    "At the two derived reporting sites only, use the optional total_source_sections value with len(existing native chapters array) as the fallback. Legacy Esther, Job and Psalms omit this optional field.",
+    "No optional metadata is inserted into book records; source structure, native fields, inventory, semantic records, counts and registry are unchanged. Existing renderer and validator already support the optional field."
+  ],
+  "exact_two_line_diff": {
+    "file": "legacy-source-sections-helper.diff.txt",
+    "sha256": "68befda3ebd5e2a01eac96abe8a80c969acb5a303a108152a863490fd86f94c4"
+  },
+  "focused_probe": {
+    "file": "legacy-source-sections-probe-result.json",
+    "sha256": "d166d94b291cd0f3beee3dd0bf436ff572f011d67906a25ae5627ba58a7c82a4"
+  },
+  "semantic_changes": false,
+  "production_writes": 0,
+  "completion_credit": 0
+}

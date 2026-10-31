@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Nehemiah",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,14 +28,16 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_source_reading_complete_with_pending_evidence",
+  "review_status": "initial_curated_pass_in_progress",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
     1,
-    2
+    2,
+    9,
+    13
   ],
-  "completed_source_verses": 299,
-  "completed_cross_references": 332,
+  "completed_source_verses": 308,
+  "completed_cross_references": 341,
   "total_chapters": 13,
   "total_source_verse_units": 392,
   "next_reference": "Nehemiah 3:2",
@@ -1817,8 +1819,46 @@
           "id": "v3-12",
           "text": "Next to him Saloum son of Alloes, ruler of half the district of Jerusalem, repaired, he and his daughters.",
           "display_text": "Next to him Saloum son of Alloes, ruler of half the district of Jerusalem, repaired, he and his daughters.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-12__exodus-35-25-26",
+              "target": "Exodus 35:25-26",
+              "verdict": "supported",
+              "relationship": "Women's work in communal construction",
+              "rationale": "Saloum's daughters join him in repairing Jerusalem, while the women in Exodus spin materials with their own hands for the Tent's work. Both expressly include women's labour in the community's building undertaking. The tasks and structures differ, and the daughters' particular skills or identities are not inferred from the spinners.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "11a1e6dcf6fc6712b1156e326d9c2022669fc7655900151fb74dd8815eb28e57",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "exodus/verses.json",
+                "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Exodus 35:25",
+                  "id": "v35-25",
+                  "text": "Every woman wise in heart spun with her hands and brought spun blue, purple, scarlet, and fine linen.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "b964b35cfc4b31a8cbad39854a21d66765b46ccfe07f7dd7732c86005b26c34e"
+                },
+                {
+                  "reference": "Exodus 35:26",
+                  "id": "v35-26",
+                  "text": "All the women whose hearts stirred them with skill spun the goats’ hair.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "c7cc86438e450a092abde2632f32111b0e37233f034bac7ec171cc07608336da"
+                }
+              ],
+              "target_passage_sha256": "bf54a2b102a7c3e9125fa0030663ed595a8857e55f28d150924bf32985cf23cf",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 3:13",
@@ -2125,8 +2165,53 @@
           "id": "v3-28",
           "text": "Above the Horse Gate the priests repaired, each opposite his house.",
           "display_text": "Above the Horse Gate the priests repaired, each opposite his house.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-28__jeremiah-38-38-40",
+              "target": "Jeremiah 38:38-40",
+              "verdict": "supported",
+              "relationship": "Shared named landmark in accounts of the city's rebuilding",
+              "rationale": "Nehemiah locates priestly repairs above the Horse Gate. Jeremiah's description of a city to be built for the Lord includes the corner of the eastern Horse Gate in its sacred boundary. The named gate provides a particular geographical connection; the repair notice does not establish every boundary, the exact architecture, or the fulfilment of Jeremiah's promise of enduring preservation.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "257b3306246074a52ab2d82be74b188e0c90d00ac8d67bcde3f3415a173acb9b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 38:38",
+                  "id": "v38-38",
+                  "text": "Behold, days are coming, says the Lord, and a city will be built for the Lord from Hanamel’s tower to the Corner Gate.",
+                  "display_text": "Behold, days are coming, says the Lord, and a city will be built for the Lord from Hanamel’s tower to the Corner Gate.",
+                  "text_sha256": "a8cac84685e9160145ab6866cbaf70f201504ccd6a2e8e944635bfb8f6d190d7"
+                },
+                {
+                  "reference": "Jeremiah 38:39",
+                  "id": "v38-39",
+                  "text": "And its measurement will go out opposite them as far as Gareb’s hills, and it will be enclosed all around with chosen stones.",
+                  "display_text": "And its measurement will go out opposite them as far as Gareb’s hills, and it will be enclosed all around with chosen stones.",
+                  "text_sha256": "12c3dcb8a991ebc95b870eb91c380e3050541672dd9a20dc1ddae0d2bc4d8191"
+                },
+                {
+                  "reference": "Jeremiah 38:40",
+                  "id": "v38-40",
+                  "text": "And all Asaremoth as far as the Kidron wadi, to the corner of the eastern Horse Gate, will be a sanctuary for the Lord. It will certainly never disappear or be torn down for ever.",
+                  "display_text": "And all Asaremoth as far as the Kidron wadi, to the corner of the eastern Horse Gate, will be a sanctuary for the Lord. It will certainly never disappear or be torn down for ever.",
+                  "text_sha256": "a1f4f78260744194463e49aa5e77663027ea264e8775909bc4e240a4b22e1937"
+                }
+              ],
+              "target_passage_sha256": "cabd6efca717a2ff476c58f29088aef62f14f0cc8cee0b62543d1adf75993b45",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 3:29",
@@ -3025,8 +3110,39 @@
           "id": "v5-4",
           "text": "Others said, “We borrowed silver for the king’s taxes—our fields, vineyards and houses are at stake.",
           "display_text": "Others said, “We borrowed silver for the king’s taxes—our fields, vineyards and houses are at stake.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-5-4__2-kings-23-35",
+              "target": "2 Kings 23:35",
+              "verdict": "supported",
+              "relationship": "Royal monetary demands borne by the land's people",
+              "rationale": "The speakers borrow silver for the king's taxes, putting their property at stake. Joakim assesses the land so that its people provide silver and gold demanded by Pharaoh. Both show royal monetary demands falling upon the population and its resources. The rulers, assessments and occasions differ, and Kings does not say those payers borrowed or pledged their property.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "50ed9069a7a688d39b21f5c6b8a63e12e0ce03e70fc2099ef14384210ecee915",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-kings/verses.json",
+                "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Kings 23:35",
+                  "id": "v23-35",
+                  "text": "Joakim gave the silver and gold to Pharaoh, but assessed the land to provide the silver at Pharaoh’s command. Each according to his assessment, they gave the silver and gold with the people of the land, to give to Pharaoh Nechao.",
+                  "display_text": "Joakim gave the silver and gold to Pharaoh, but assessed the land to provide the silver at Pharaoh’s command. Each according to his assessment, they gave the silver and gold with the people of the land, to give to Pharaoh Nechao.",
+                  "text_sha256": "0f2e5ebc459e14947e51895a04303a821a3c798a688b2a9ea6356f11a47663f2"
+                }
+              ],
+              "target_passage_sha256": "f51ac80f8e02fa7f7217bdb7f4bdf691b9d8dd47f9baa098618891ac4b516a19",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 5:5",
@@ -3469,8 +3585,53 @@
           "id": "v5-16",
           "text": "I did not take charge of the work on their wall; I acquired no field, and all those gathered there were for the work.",
           "display_text": "I did not take charge of the work on their wall; I acquired no field, and all those gathered there were for the work.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-5-16__1-samuel-12-3-5",
+              "target": "1 Samuel 12:3-5",
+              "verdict": "supported",
+              "relationship": "A leader's account of restraint from personal gain",
+              "rationale": "Within his account of governing Judah, the narrator says that he acquired no field. Samuel publicly asks whether he has taken anyone's animals or payments, and the people deny that he has taken anything from them. Both present restraint from personal gain as part of an account of public service; their declarations concern different assets, and the comparison is limited to these claims of restraint.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "7d7b05f0376fccdd637da8e5bcdd8d85860429cfc3c3241871ee780d733cd14e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-samuel/verses.json",
+                "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Samuel 12:3",
+                  "id": "v12-3",
+                  "text": "Here I am. Answer against me before the Lord and before His anointed: Whose calf have I taken? Whose donkey have I taken? Which of you have I tyrannized? Whom have I squeezed? From whose hand have I taken an appeasing payment and a sandal? Answer against me, and I will repay you.”",
+                  "display_text": "Here I am. Answer against me before the Lord and before His anointed: Whose calf have I taken? Whose donkey have I taken? Which of you have I tyrannized? Whom have I squeezed? From whose hand have I taken an appeasing payment and a sandal? Answer against me, and I will repay you.”",
+                  "text_sha256": "6f4a4a0c8f1d3c9693632dee5817b74432e50dc395722b59b68de287b2c9a5a3"
+                },
+                {
+                  "reference": "1 Samuel 12:4",
+                  "id": "v12-4",
+                  "text": "They said to Samuel, “You have not wronged us or tyrannized us or crushed us, and you have taken nothing from anyone’s hand.”",
+                  "display_text": "They said to Samuel, “You have not wronged us or tyrannized us or crushed us, and you have taken nothing from anyone’s hand.”",
+                  "text_sha256": "187c2ebf57d73c7224600b97a52895f24063ccd7c1d1ef66897cce7a2dd04f4c"
+                },
+                {
+                  "reference": "1 Samuel 12:5",
+                  "id": "v12-5",
+                  "text": "Samuel said to the people, “The Lord is witness among you, and His anointed is witness today, on this day, that you have found nothing in my hand.” They said, “Witness.”",
+                  "display_text": "Samuel said to the people, “The Lord is witness among you, and His anointed is witness today, on this day, that you have found nothing in my hand.” They said, “Witness.”",
+                  "text_sha256": "9e9d10a0fee3a562589f98669ddc45d8f5d71a76c7696e0de813fe9cb615ac41"
+                }
+              ],
+              "target_passage_sha256": "ddf55a32dc8e4c20841f11270f153027f3649c008e5f5beb6bb14700df0c85e3",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 5:17",
@@ -4315,8 +4476,46 @@
           "id": "v7-2",
           "text": "I gave orders to my brother Anania and to Anania, ruler of the bira in Jerusalem, for he was a truthful man and feared God more than many,",
           "display_text": "I gave orders to my brother Anania and to Anania, ruler of the bira in Jerusalem, for he was a truthful man and feared God more than many,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-7-2__exodus-18-21-22",
+              "target": "Exodus 18:21-22",
+              "verdict": "supported",
+              "relationship": "Fear of God as a qualification for delegated authority",
+              "rationale": "Anania, the ruler of the bira, is commended as truthful and fearing God more than many when the Jerusalem gate arrangements are entrusted to the officials. Jethro advises Moses to choose rulers who fear God, are righteous and hate arrogance. Both attach fear of God to delegated responsibility, while city security and judicial administration remain distinct and the differently worded additional virtues are preserved.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "589fc26cb1abf7db01197c991e254eeb50a00de49af6ff29c15462782a1c2e69",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "exodus/verses.json",
+                "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Exodus 18:21",
+                  "id": "v18-21",
+                  "text": "And choose for yourself from all the people able men who fear God, righteous men who hate arrogance; and you shall set them over the people as rulers of thousands, and rulers of hundreds, and rulers of fifties, and rulers of tens.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "02ab2affc179e4dd11270e380a8f57b634e22ddb5f6bcf85196ff604cd985997"
+                },
+                {
+                  "reference": "Exodus 18:22",
+                  "id": "v18-22",
+                  "text": "And they shall judge the people at all times; the weighty matter they shall bring to you, but the lesser judgments they shall judge themselves; and they shall lighten your burden, and bear it with you.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "13b3b77f0b06e3b8d6eedab69e19bfa79592336021a432bfe24665f1b7aa9a7f"
+                }
+              ],
+              "target_passage_sha256": "c229f832ea4b7e48c58c825a6e3a648150603bd4330d0855615a1a85bee26840",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 7:3",
@@ -7163,8 +7362,39 @@
           "id": "v8-4",
           "text": "Esdras the scribe stood on a wooden platform. Beside him stood Mattathias, Samaias, Ananias, Ouria, Elkia and Maasaia on his right, and on his left Phadaias, Misael, Melchias, Osam, Asabdana, Zacharias and Mosollam.",
           "display_text": "Esdras the scribe stood on a wooden platform. Beside him stood Mattathias, Samaias, Ananias, Ouria, Elkia and Maasaia on his right, and on his left Phadaias, Misael, Melchias, Osam, Asabdana, Zacharias and Mosollam.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-8-4__2-chronicles-6-13",
+              "target": "2 Chronicles 6:13",
+              "verdict": "supported",
+              "relationship": "Ceremonial comparison: a leader on a raised structure before the assembly",
+              "rationale": "Esdras stands on a wooden platform during the public reading of the law. Solomon stands and then kneels on a bronze base of stated height opposite Israel's assembly for prayer. Both place the leader on a constructed raised support in communal worship; the materials, actions and ceremonies differ, and the attendants beside Esdras are not identified through Solomon's ceremony.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "74eaf5c55be04abd0e5922b4b9a2878505f6dfae46bc6d291b0577cc09c88997",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 6:13",
+                  "id": "v6-13",
+                  "text": "For Solomon had made a bronze base and put it in the middle of the temple court, five cubits long, five cubits wide, and three cubits high. He stood on it, fell on his knees opposite all Israel’s assembly, and spread out his hands toward heaven.",
+                  "display_text": "For Solomon had made a bronze base and put it in the middle of the temple court, five cubits long, five cubits wide, and three cubits high. He stood on it, fell on his knees opposite all Israel’s assembly, and spread out his hands toward heaven.",
+                  "text_sha256": "003119c3f07f93bcc0bb5be1a68865228af54f151b7be821cb1f4fa6f1e10cb3"
+                }
+              ],
+              "target_passage_sha256": "8da8419dd473a7538e7db37ac37a1daffff4cf02e4c1b499f01bd6e74fc3e328",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 8:5",
@@ -7778,7 +8008,7 @@
     },
     {
       "chapter": 9,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 9,
         "staging_page_id": 2531,
@@ -7941,8 +8171,46 @@
           "id": "v9-4",
           "text": "Jesus and the sons of Kadmiel, Sachania son of Sarabia, the sons of Chanani, stood on the Levites’ ascent and cried out with a loud voice to the Lord their God.",
           "display_text": "Jesus and the sons of Kadmiel, Sachania son of Sarabia, the sons of Chanani, stood on the Levites’ ascent and cried out with a loud voice to the Lord their God.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-9-4__2-chronicles-20-18-19",
+              "target": "2 Chronicles 20:18-19",
+              "verdict": "supported",
+              "relationship": "Liturgical parallel: Levites stand and address God with a loud voice",
+              "rationale": "The named Levites stand on their ascent and cry loudly to the Lord in the assembled people's confession and worship. In Chronicles, after the assembly bows, Levites stand to praise the Lord with a loud voice raised high. Both give Levites a prominent standing and vocal role in communal worship, without equating the named groups or the occasions.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "4dbdfe4ec27cf50945d4821cd2705d3fa430d5487d1ad724fa8ff299c1883269",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 20:18",
+                  "id": "v20-18",
+                  "text": "Jehoshaphat bowed on his face, and all Judah and Jerusalem’s inhabitants fell before the Lord to worship the Lord.",
+                  "display_text": "Jehoshaphat bowed on his face, and all Judah and Jerusalem’s inhabitants fell before the Lord to worship the Lord.",
+                  "text_sha256": "01e82bfb6d550dfb512070f4e0780f5806aa56927822c9b3ede4ec234a80456a"
+                },
+                {
+                  "reference": "2 Chronicles 20:19",
+                  "id": "v20-19",
+                  "text": "The Levites from the sons of Kaath and the sons of Kore stood up to praise the Lord, the God of Israel, with a loud voice raised high.",
+                  "display_text": "The Levites from the sons of Kaath and the sons of Kore stood up to praise the Lord, the God of Israel, with a loud voice raised high.",
+                  "text_sha256": "e8cb7a5d2d6461074f0faeae1367065768724899fc26e65c54fe513b6c448d22"
+                }
+              ],
+              "target_passage_sha256": "11ceab4ab572518d984bcbde5e3200f7982d4029037b0de34b1b107895287db1",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 9:5",
@@ -12823,8 +13091,46 @@
           "id": "v12-30",
           "text": "The priests and Levites were purified, and they purified the people, the gatekeepers and the wall.",
           "display_text": "The priests and Levites were purified, and they purified the people, the gatekeepers and the wall.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-12-30__2-chronicles-29-15-16",
+              "target": "2 Chronicles 29:15-16",
+              "verdict": "supported",
+              "relationship": "Ritual parallel: ministers purified before performing purification",
+              "rationale": "At the wall dedication, the priests and Levites are purified and then purify the people, gatekeepers and wall. In Hezekiah's cleansing, the Levites first purify themselves, and priests and Levites then cleanse the Lord's house. The shared sequence joins the ministers' own purification to their work of purification; Nehemiah's unstated rite and source of uncleanness are not supplied from Chronicles.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "31eff5e329d0a7438547deff98494b7d1c6c89a76dc2b84913649f3321d4778b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 29:15",
+                  "id": "v29-15",
+                  "text": "They gathered their brethren and purified themselves according to the king’s command, through the Lord’s ordinance, to cleanse the Lord’s house.",
+                  "display_text": "They gathered their brethren and purified themselves according to the king’s command, through the Lord’s ordinance, to cleanse the Lord’s house.",
+                  "text_sha256": "06d733595f0061e933570e00c682fbc3944de7e5829196517b971f0e186622cf"
+                },
+                {
+                  "reference": "2 Chronicles 29:16",
+                  "id": "v29-16",
+                  "text": "The priests went inside the Lord’s house to purify it. They cast out all the uncleanness found in the Lord’s house into the courtyard of the Lord’s house, and the Levites received it to cast it outside into the Kedron torrent.",
+                  "display_text": "The priests went inside the Lord’s house to purify it. They cast out all the uncleanness found in the Lord’s house into the courtyard of the Lord’s house, and the Levites received it to cast it outside into the Kedron torrent.",
+                  "text_sha256": "a759584e6591453779d823008d26398fc53c456d88e9e02c5e629de1c279c49a"
+                }
+              ],
+              "target_passage_sha256": "e4358f9b492954e929775856971d6a466bd8e46a7815ebbe4abafddd81b329a8",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 12:31",
@@ -13536,7 +13842,7 @@
     },
     {
       "chapter": 13,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 13,
         "staging_page_id": 2553,
@@ -14553,8 +14859,53 @@
           "id": "v13-24",
           "text": "and half their children spoke Azotian and did not know how to speak Judean.",
           "display_text": "and half their children spoke Azotian and did not know how to speak Judean.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-13-24__2-kings-18-26-28",
+              "target": "2 Kings 18:26-28",
+              "verdict": "supported",
+              "relationship": "Linguistic comparison: Judean speech and its audience",
+              "rationale": "Nehemiah distinguishes children who speak Azotian but cannot speak Judean. The Jerusalem officials in Kings distinguish Syrian, which they understand, from Judean, which the envoy uses within the people's hearing. The comparison establishes the texts' use of Judean as a community language and highlights differing language competence; Azotian is not equated with Syrian, and no conclusion about the children's knowledge of the law is added.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "4af73cac51c109246c6f28451eec990d1d3c430f9dd4be07d0e8a6ae4cec1872",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-kings/verses.json",
+                "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Kings 18:26",
+                  "id": "v18-26",
+                  "text": "Eliakim son of Chelkias, Somnas, and Joash said to Rhapsakes, ‘Please speak to your servants in Syrian, for we understand it. Do not speak with us in Judean. Why are you speaking within the hearing of the people on the wall?’",
+                  "display_text": "Eliakim son of Chelkias, Somnas, and Joash said to Rhapsakes, ‘Please speak to your servants in Syrian, for we understand it. Do not speak with us in Judean. Why are you speaking within the hearing of the people on the wall?’",
+                  "text_sha256": "c2abde9fddc79d013a82389ba8f71250b79c08a40850755d99e25901a3e5b266"
+                },
+                {
+                  "reference": "2 Kings 18:27",
+                  "id": "v18-27",
+                  "text": "Rhapsakes said to them, ‘Has my master sent me to speak these words to your master and to you? Was it not to the men sitting on the wall, who are to eat their own dung and drink their own urine together with you?’",
+                  "display_text": "Rhapsakes said to them, ‘Has my master sent me to speak these words to your master and to you? Was it not to the men sitting on the wall, who are to eat their own dung and drink their own urine together with you?’",
+                  "text_sha256": "9df2a6ec85bb2693a8d1c1cee878abc13535c84ee199af99eb88e9e4d23de2c9"
+                },
+                {
+                  "reference": "2 Kings 18:28",
+                  "id": "v18-28",
+                  "text": "Rhapsakes stood and cried out loudly in Judean: ‘Hear the words of the great king of the Assyrians!",
+                  "display_text": "Rhapsakes stood and cried out loudly in Judean: ‘Hear the words of the great king of the Assyrians!",
+                  "text_sha256": "114e7d12ff3652ad26354412eb9d2a09e616ab6d52b5f43c75fa7f51b271ba1a"
+                }
+              ],
+              "target_passage_sha256": "996651ecb3360bf1db9343291671b417e7a874f698cd42107dcca4d9ef19e44f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Nehemiah 13:25",
@@ -14923,5 +15274,11 @@
       ]
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "completed_source_sections": [
+    1,
+    2,
+    9,
+    13
+  ]
 }

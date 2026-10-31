@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Ezra",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,13 +28,14 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_source_reading_complete_with_pending_evidence",
+  "review_status": "initial_curated_pass_in_progress",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
+    6,
     9
   ],
-  "completed_source_verses": 230,
-  "completed_cross_references": 245,
+  "completed_source_verses": 235,
+  "completed_cross_references": 251,
   "total_chapters": 10,
   "total_source_verse_units": 280,
   "next_reference": "Ezra 1:9",
@@ -3520,8 +3521,53 @@
           "id": "v3-6",
           "text": "On day one of the seventh month they began offering whole burnt offerings to the Lord, though the Lord’s house had not been founded.",
           "display_text": "On day one of the seventh month they began offering whole burnt offerings to the Lord, though the Lord’s house had not been founded.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-3-6__ezra-3-8-10",
+              "target": "Ezra 3:8-10",
+              "verdict": "supported",
+              "relationship": "same-chapter narrative chronology",
+              "rationale": "The narrator separates the resumption of whole burnt offerings on the first day of the seventh month, while the house remained unfounded, from the second-year building work and foundation ceremony. The later dated scene supplies the next stage of the restoration; sacrificial worship had resumed before that construction milestone.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "d754026d2eca303ed518ab0d949d7e4d656021fd027e7fe7dc7f3efea892d37b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 3:8",
+                  "id": "v3-8",
+                  "text": "In the second year after their arrival at the house of God in Jerusalem, in the second month, Zorobabel son of Salathiel, Iesous son of Iosedek, the rest of their brothers the priests and Levites, and all who had come from captivity to Jerusalem began. They set the Levites from twenty years old and upward over those doing the work in the Lord’s house.",
+                  "display_text": "In the second year after their arrival at the house of God in Jerusalem, in the second month, Zorobabel son of Salathiel, Iesous son of Iosedek, the rest of their brothers the priests and Levites, and all who had come from captivity to Jerusalem began. They set the Levites from twenty years old and upward over those doing the work in the Lord’s house.",
+                  "text_sha256": "64b60fe912c6c944826b55e4abf929ef93a0766852abd04b75863e1a9671efcc"
+                },
+                {
+                  "reference": "Ezra 3:9",
+                  "id": "v3-9",
+                  "text": "Iesous and his sons and his brothers, Kadmiel and his sons, sons of Judah, stood over those doing the work in the house of God; also the sons of Enadad, their sons and their brothers the Levites.",
+                  "display_text": "Iesous and his sons and his brothers, Kadmiel and his sons, sons of Judah, stood over those doing the work in the house of God; also the sons of Enadad, their sons and their brothers the Levites.",
+                  "text_sha256": "22d2883bf9420ce9883716662cda06d8c8e4f901c4fc4d00efb133af06592162"
+                },
+                {
+                  "reference": "Ezra 3:10",
+                  "id": "v3-10",
+                  "text": "They laid the foundation for building the Lord’s house, and the priests stood in their vestments with trumpets, and the Levites, sons of Asaph, with cymbals, to praise the Lord according to the directions of David king of Israel.",
+                  "display_text": "They laid the foundation for building the Lord’s house, and the priests stood in their vestments with trumpets, and the Levites, sons of Asaph, with cymbals, to praise the Lord according to the directions of David king of Israel.",
+                  "text_sha256": "9ae75ff2fb6988e364750c99c07e9fe76b954b8417f881cd218372da430b0576"
+                }
+              ],
+              "target_passage_sha256": "9f2455b6b692a617d5566268d740a16b436092c3dac7489b1784135a4411afb1",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ezra 3:7",
@@ -3850,8 +3896,39 @@
           "id": "v3-13",
           "text": "The people could not distinguish the sound of the joyful signal from the sound of the people’s weeping, for the people cried out with a loud voice, and the sound was heard far away.",
           "display_text": "The people could not distinguish the sound of the joyful signal from the sound of the people’s weeping, for the people cried out with a loud voice, and the sound was heard far away.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-3-13__nehemiah-12-43",
+              "target": "Nehemiah 12:43",
+              "verdict": "supported",
+              "relationship": "literary parallel in restoration celebrations",
+              "rationale": "Both Jerusalem restoration celebrations produce a sound heard far away. Ezra describes an indistinguishable mixture of joyful cries and weeping at the temple foundation, whereas the wall-dedication context in Nehemiah presents the gladness of the people, wives and children. The shared far-reaching celebration does not erase Ezra's sorrow or equate the ceremonies.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "d181b1209e51d923fd0d06a622c271d2eed5a00dd32c7b7be4eabcc93a9715af",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:43",
+                  "id": "v12-43",
+                  "text": "They offered great sacrifices that day and were glad, for God had made them exceedingly glad. Their wives and children were glad, and the gladness in Jerusalem was heard from far away.",
+                  "display_text": "They offered great sacrifices that day and were glad, for God had made them exceedingly glad. Their wives and children were glad, and the gladness in Jerusalem was heard from far away.",
+                  "text_sha256": "7c5eb76a3feef7b27ccc510cc69709c70e44b452aa6bb82cd1785827e3f7586c"
+                }
+              ],
+              "target_passage_sha256": "16ce345f1905c60de49ec9946f14f5576da5e4f9deb1443d56e67d00883cdc49",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     },
@@ -4098,8 +4175,39 @@
           "id": "v4-7",
           "text": "In the days of Arthasastha, Tabeel, together with the rest of his fellow slaves, wrote in peace for Mithradates to Arthasastha king of the Persians. The tax collector wrote a document in Syrian, and it was interpreted.",
           "display_text": "In the days of Arthasastha, Tabeel, together with the rest of his fellow slaves, wrote in peace for Mithradates to Arthasastha king of the Persians. The tax collector wrote a document in Syrian, and it was interpreted.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-4-7__daniel-2-4",
+              "target": "Daniel 2:4",
+              "verdict": "supported",
+              "relationship": "explicit language parallel",
+              "rationale": "Ezra expressly identifies a royal document as written in Syrian and interpreted; Daniel expressly identifies the Chaldeans' address to the king as spoken in the Syrian language. The connection is the texts' own naming of the language in royal communication, with written correspondence distinguished from spoken audience; it does not identify the rulers or documents.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "73e33b2b59d6d8f8c782e241c4428b7e5bd0f44d76d542b030037380be005ea4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 2:4",
+                  "id": "v2-4",
+                  "text": "The Chaldeans spoke to the king in the Syrian language: “My lord king, live for ever! Report your dream to your servants, and we will explain its interpretation to you.”",
+                  "display_text": "The Chaldeans spoke to the king in the Syrian language: “My lord king, live for ever! Report your dream to your servants, and we will explain its interpretation to you.”",
+                  "text_sha256": "c31244b83910eb34c2c0746267dc724d328fd55c05c324ce7cd3886d1d799250"
+                }
+              ],
+              "target_passage_sha256": "1d9d223dec4b728f51256cf09361dd12137d56d6d71c7737a4a10a1fbea874fe",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ezra 4:8",
@@ -5457,7 +5565,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "staging_page_id": 2481,
@@ -5952,8 +6060,46 @@
           "id": "v6-11",
           "text": "I have also issued a decision: for anyone who changes this word, a timber will be taken down from his house, and he will be raised upright and fastened upon it. His house will be dealt with according to me.",
           "display_text": "I have also issued a decision: for anyone who changes this word, a timber will be taken down from his house, and he will be raised upright and fastened upon it. His house will be dealt with according to me.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-6-11__esther-7-9-10",
+              "target": "Esther 7:9-10",
+              "verdict": "supported",
+              "relationship": "comparative royal punishment",
+              "rationale": "Darius's decree prescribes fastening a violator to timber taken from his own house. In Esther the king orders Haman fastened to the tree erected at Haman's place for Mordecai. Both punishments use wood associated with the offender's own premises; one is a prospective sanction against changing the decree, the other the narrated reversal of Haman's prepared execution. Neither is asserted to be an enforcement of the other.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "1f3873eb913a999e692d5dcb74e34bdc8360f5a136b470ca346160eb6a30b117",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 7:9",
+                  "id": "v7-9",
+                  "text": "Bougathan, one of the eunuchs, said to the king, “Behold, Haman also prepared a tree for Mordecai, who spoke concerning the king. A tree of fifty cubits has been erected at Haman’s place.” The king said, “Let him be fastened to it.”",
+                  "display_text": "Bougathan, one of the eunuchs, said to the king, “Behold, Haman also prepared a tree for Mordecai, who spoke concerning the king. A tree of fifty cubits has been erected at Haman’s place.” The king said, “Let him be fastened to it.”",
+                  "text_sha256": "eabbdc24550ec988e307eb072eec4d44487435d675cf047610edcc39dca66c7b"
+                },
+                {
+                  "reference": "Esther 7:10",
+                  "id": "v7-10",
+                  "text": "Haman was hung on the tree he had prepared for Mordecai. Then the king ceased from his anger.",
+                  "display_text": "Haman was hung on the tree he had prepared for Mordecai. Then the king ceased from his anger.",
+                  "text_sha256": "1d8354e29e5dadac6e79d12482e20730b631ffed0d0dc78636211e5efe1b12f0"
+                }
+              ],
+              "target_passage_sha256": "219d28de3bd0f702149766a4050be771f1901c5e502d074e80d675a2f020348f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ezra 6:12",
@@ -7492,8 +7638,110 @@
           "id": "v7-24",
           "text": "It has also been made known to you: from any priests, Levites, singers, gatekeepers, Nathinim or ministers of this house of God, let there be no tax for you; you shall have no authority to enslave them.",
           "display_text": "It has also been made known to you: from any priests, Levites, singers, gatekeepers, Nathinim or ministers of this house of God, let there be no tax for you; you shall have no authority to enslave them.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-7-24__genesis-47-22-26",
+              "target": "Genesis 47:22-26",
+              "verdict": "supported",
+              "relationship": "institutional comparison of priestly fiscal privilege",
+              "rationale": "Ezra exempts the personnel serving God's house from taxation and enslavement. Genesis distinguishes the Egyptian priests' land, supported by Pharaoh's allowance and not bought by him, from the land subject to the fifth. Both texts reserve a fiscal privilege connected with priestly service, but Ezra's protected workers and Egypt's exempt land are different provisions in different religious settings.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "fed1e777c128a7bccdfee5630a3d1f5fa0c86c04264f42e23db5be35f2f4de7d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 47:22",
+                  "id": "v47-22",
+                  "text": "The land of the priests was the only land Joseph did not buy; for Pharaoh gave an allowance to the priests, and they ate of the allowance which Pharaoh gave them. Therefore they did not sell their land.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "365255f54bbc70538c878b87d90400a97882b7e6345a1a9c76a559ef6f7441ca"
+                },
+                {
+                  "reference": "Genesis 47:23",
+                  "id": "v47-23",
+                  "text": "And Joseph said to all the Egyptians, “Behold, I have bought you and your land today for Pharaoh. Take seed for yourselves, and sow the land.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "a292bf5108f07cf723a0b2c416827bf5ece0a14db502ddac8f7edd30d776d042"
+                },
+                {
+                  "reference": "Genesis 47:24",
+                  "id": "v47-24",
+                  "text": "“And of its produce you shall give a fifth part to Pharaoh; but the four parts shall be yours, for seed for the land, and for food for you and for all who are in your houses.”",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "fadbf5b79b5652cf2d03def513929a9fae6500909dcd418afd3e739cc3b4387e"
+                },
+                {
+                  "reference": "Genesis 47:25",
+                  "id": "v47-25",
+                  "text": "And they said, “You have saved us; we have found grace before our lord, and we shall be Pharaoh’s slaves.”",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "6920d8e37a044348a3019f1147e4cc7f711116de447c394d0f617ba12adbce3a"
+                },
+                {
+                  "reference": "Genesis 47:26",
+                  "id": "v47-26",
+                  "text": "And Joseph established this for them as an ordinance concerning the land of Egypt to this day, to give a fifth to Pharaoh, except only the land of the priests, which was not Pharaoh’s.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "5eec0932551192d8e98fcbf51878e96f869b0a2d1958e6f36fc4579bd4066f16"
+                }
+              ],
+              "target_passage_sha256": "d6d0db336e2bb6c9a4faf4ff9b2333225a7e4e8c6a8d1ac6ceae50b318a1c9af",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            },
+            {
+              "id": "ezra-7-24__1-maccabees-10-29-31",
+              "target": "1 Maccabees 10:29-31",
+              "verdict": "supported",
+              "relationship": "comparison of royal tax exemptions",
+              "rationale": "Arthasastha's decree protects temple servants from taxation; Demetrius's letter offers tax remissions to the Jews and declares Jerusalem and its territory holy and exempt from tithes and dues. Both royal texts connect fiscal exemption with Jerusalem's sacred community, with Ezra naming service personnel and the letter naming the city and territory. The latter remains an offer that Jonathan and the people reject in 10:46, not proof that the exemption took effect.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root",
+              "review_batch": "2026-10-31T204915Z",
+              "source_text_sha256": "fed1e777c128a7bccdfee5630a3d1f5fa0c86c04264f42e23db5be35f2f4de7d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-maccabees/verses.json",
+                "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-maccabees/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Maccabees 10:29",
+                  "id": "v10-29",
+                  "text": "Now I release you and exempt all the Jews from tribute, the salt charge, and crown payments.",
+                  "display_text": "Now I release you and exempt all the Jews from tribute, the salt charge, and crown payments.",
+                  "text_sha256": "19c0dc0bc129399105a194e9765c85e6bb9de98c04b05fb30e829c6ff02fde69"
+                },
+                {
+                  "reference": "1 Maccabees 10:30",
+                  "id": "v10-30",
+                  "text": "I relinquish from today onward the right to receive the third of the grain crop and the half of the fruit of the trees that fall to me, from the land of Judah and the three districts added to it from Samaria and Galilee, from this day and for all time.",
+                  "display_text": "I relinquish from today onward the right to receive the third of the grain crop and the half of the fruit of the trees that fall to me, from the land of Judah and the three districts added to it from Samaria and Galilee, from this day and for all time.",
+                  "text_sha256": "65e9f766b0d11263d0924bc77ae7a2f3714b5b50699ffee951da491a947f082a"
+                },
+                {
+                  "reference": "1 Maccabees 10:31",
+                  "id": "v10-31",
+                  "text": "Let Jerusalem and its territory be holy and exempt, free of tithes and dues.",
+                  "display_text": "Let Jerusalem and its territory be holy and exempt, free of tithes and dues.",
+                  "text_sha256": "651c18a3094ee2f655bbc496588347092e19875d9fad70b9701e01da520c3f04"
+                }
+              ],
+              "target_passage_sha256": "20ab9ea9a707a8ed67de7b77db1584f1630e28eab85af0a9acfd7d3d2a864be4",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ezra 7:25",
@@ -11320,5 +11568,9 @@
       ]
     }
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "completed_source_sections": [
+    6,
+    9
+  ]
 }

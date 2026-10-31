@@ -1,0 +1,60 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "helper_sha256": "b915f6fb47c1c8f7714f8deeeb4ee5c29a5ce746036ac71435213ff664b12092",
+  "probe_sha256": "fe2227008b3d02c437c61bf730d4c83328fa89b12079e4deca0e5e0b25807d83",
+  "result": "passed",
+  "actual_helper_sites": [
+    "record.update total_source_sections",
+    "RESTORE native source groups"
+  ],
+  "checks": [
+    {
+      "book": "Esther",
+      "optional_total_present": false,
+      "native_source_groups": 10,
+      "distinct_native_chapters": 10,
+      "progress_and_recovery_counts": [
+        10,
+        10
+      ],
+      "source_bytes_unchanged": true
+    },
+    {
+      "book": "Job",
+      "optional_total_present": false,
+      "native_source_groups": 42,
+      "distinct_native_chapters": 42,
+      "progress_and_recovery_counts": [
+        42,
+        42
+      ],
+      "source_bytes_unchanged": true
+    },
+    {
+      "book": "Psalms",
+      "optional_total_present": false,
+      "native_source_groups": 151,
+      "distinct_native_chapters": 151,
+      "progress_and_recovery_counts": [
+        151,
+        151
+      ],
+      "source_bytes_unchanged": true
+    },
+    {
+      "book": "Daniel",
+      "optional_total_present": true,
+      "native_source_groups": 14,
+      "distinct_native_chapters": 14,
+      "progress_and_recovery_counts": [
+        14,
+        14
+      ],
+      "source_bytes_unchanged": true
+    }
+  ],
+  "normalizes_optional_book_metadata": false,
+  "production_writes": 0,
+  "completion_credit": 0,
+  "checked_at_utc": "2026-10-31T21:30:47.637978+00:00"
+}

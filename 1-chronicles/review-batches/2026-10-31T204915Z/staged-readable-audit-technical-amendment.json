@@ -1,0 +1,46 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "prior_revision": [
+    {
+      "file": "before-staged-audit-technical-peer-review.json.raw.txt",
+      "sha256": "12194a62bb80db3cca4dc4f0d14d182aa5f477c7175f8cfb1aa2114a3bbd26a1"
+    },
+    {
+      "file": "before-staged-audit-helper-technical-proposal.json.raw.txt",
+      "sha256": "8a653d8ee07a079b50031e40dd91823abe469bdd97be2b43be355d9a1a8db389"
+    },
+    {
+      "file": "before-staged-audit-incremental.py.raw.txt",
+      "sha256": "3fdf9a336fc5589523fed62754a4f4a7af20df48c147ec9f442cf78843f80aa6"
+    },
+    {
+      "file": "before-staged-audit-pending-revisit-probe-result.json.raw.txt",
+      "sha256": "4774c5334d35f3f7f723b437d15695901445c69018601f6c0385dae9dddf760c"
+    },
+    {
+      "file": "before-staged-audit-legacy-source-sections-probe-result.json.raw.txt",
+      "sha256": "d166d94b291cd0f3beee3dd0bf436ff572f011d67906a25ae5627ba58a7c82a4"
+    }
+  ],
+  "changes": [
+    "Supply audit_objects with a separate mapping containing every freshly staged HTML/text view for current datasets, including same-byte views correctly absent from the production write set.",
+    "The write set is unchanged. Reject disagreement between a view scheduled for writing and the freshly rendered audit bytes. Existing content, anchor and source checks remain mandatory."
+  ],
+  "exact_diff": {
+    "file": "staged-readable-audit-helper.diff.txt",
+    "sha256": "b9a3e21dcd9e6c78803a402f57017a47702915dc5873fbc338b2ba7378735506"
+  },
+  "focused_probe": {
+    "file": "staged-readable-audit-probe-result.json",
+    "sha256": "8630761b22935b0d81eb3ee082e8f5c31fe7aa4ed78c2b1efa3600a6e85c5559"
+  },
+  "legacy_probe_with_current_helper": {
+    "file": "staged-audit-legacy-source-sections-probe-result.json",
+    "sha256": "11cf9ef7ccac7e48f56ea292ed3525aeab1830341845658d213df2493f07040d"
+  },
+  "semantic_changes": false,
+  "production_writes": 0,
+  "completion_credit": 0
+}

@@ -1,0 +1,57 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex helper author /root/amos_helper_recovery",
+  "disposition": "proposed for independent root technical review",
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "41c56b569394e04d1162174cba54c70705012769240d3d48e223263dfdcd19ed"
+    },
+    {
+      "file": "passages.py",
+      "sha256": "8d79df2502ce7abf82b41ed6b78c13888a12fdecdfe87b47687073f877c634b5"
+    },
+    {
+      "file": "run-config.json",
+      "sha256": "06107d97340eaa6ebbe87853cb156555f54a0f80a2a708b3ef64674aedb2451f"
+    },
+    {
+      "file": "review-plan.json",
+      "sha256": "ec39987c4edda42b7947fdb66aaed454af5cb6ec18e72b5d6bba4a4eb0f24c15"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "ea897c78d93650f6ea15c1ef20dff5a901afd0c85b84b974d82462a69892156f"
+    },
+    {
+      "file": "production-validate.py",
+      "sha256": "936477bd4cca32931d414c82346a39dfba66929b30828c6d065b60989e5e74d5"
+    },
+    {
+      "file": "probe-pending-revisit.py",
+      "sha256": "0663e3e1674aaadec40019e200f13282cdc99fa33a89a9cad752596e1c87deed"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "baseline-proof.json",
+      "sha256": "c10fd3af5f55e591d0df41c8c907d9488376c91c924ebaa7dbcbd02542ca139c"
+    },
+    {
+      "file": "pending-revisit-probe-result.json",
+      "sha256": "e57c6d497ccf268776fa8f5cf0215183941105cd5487cbfc8bada80984a2584c"
+    }
+  ],
+  "changes": [
+    "Pending-only selected cohorts; assigned candidate inventories remain immutable. Selection differentiates considered prefix from actual reread subset, including empty subsets with zero semantic credit.",
+    "New supported pairs resolve only previously pending sources. Preserve all completed objects, original native fields, old run history, old candidate objects and unresolved deferral objects. Move each resolved deferral into an append-only archive with its exact original object/digest and supporting new pair IDs.",
+    "Reevaluate earliest pending from current canonical source objects; next_unreviewed remains null. Maintain an independent cumulative considered-evidence cursor, displayed in root README and current book recovery guidance.",
+    "Repeated candidate source/target pairs are preserved as revisit observations but not appended or recounted as new unresolved candidates. Source rereading never increases cumulative source-reading coverage.",
+    "Current accepted apply/rollback transaction and concurrent independent NT reconciliation architecture retained. No production code changes; renderer and validator bytes equal exact baseline."
+  ],
+  "probe_scope": "Synthetic in-memory source resolution and preservation cases only. No fixture is accepted as semantic evidence; no production writes. Full preflight still required after final semantic peers, fresh source registry and independent technical acceptance.",
+  "completion_credit": 0,
+  "created_at_utc": "2026-10-31T20:59:11.306521+00:00"
+}

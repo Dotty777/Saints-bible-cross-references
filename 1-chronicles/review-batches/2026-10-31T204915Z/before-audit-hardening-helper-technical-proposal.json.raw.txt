@@ -1,0 +1,74 @@
+{
+  "run_id": "2026-10-31T204915Z",
+  "base_commit": "acfc7e161cdec799e12fd30d7c8110d72684a8a6",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex helper author /root/amos_helper_recovery",
+  "disposition": "proposed for independent root technical review",
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "79e3af9a4caff1f9534c8a8a1a3643f477c6556c8749a09abb80ce78d009179d"
+    },
+    {
+      "file": "passages.py",
+      "sha256": "8d79df2502ce7abf82b41ed6b78c13888a12fdecdfe87b47687073f877c634b5"
+    },
+    {
+      "file": "run-config.json",
+      "sha256": "83cb614e8f9fe77f6859de90e2a4cd2a15841a770f9e021694478fab88dd7d93"
+    },
+    {
+      "file": "review-plan.json",
+      "sha256": "ec39987c4edda42b7947fdb66aaed454af5cb6ec18e72b5d6bba4a4eb0f24c15"
+    },
+    {
+      "file": "review-plan-extension.json",
+      "sha256": "f188328358e52fddc3d17e38837c49577a7ed02074e73fbfff0bb384f1ef725b"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "ea897c78d93650f6ea15c1ef20dff5a901afd0c85b84b974d82462a69892156f"
+    },
+    {
+      "file": "production-validate.py",
+      "sha256": "936477bd4cca32931d414c82346a39dfba66929b30828c6d065b60989e5e74d5"
+    },
+    {
+      "file": "probe-pending-revisit.py",
+      "sha256": "93601059652901bacc6c80dbf4d66c1ff96c8f35b98f2f7ad10fa518f651e115"
+    },
+    {
+      "file": "extension-book-author.py",
+      "sha256": "87094283e84ecfacc2a9e7b803fe23fa240b0ad13d4ae1b72c9de3a084a54e56"
+    },
+    {
+      "file": "extension-freeze-book-author.py",
+      "sha256": "6f374a92423deb5958fefd3d1cf07940a68844d990f5a73dc4e9e9325d0241e7"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "baseline-proof.json",
+      "sha256": "c10fd3af5f55e591d0df41c8c907d9488376c91c924ebaa7dbcbd02542ca139c"
+    },
+    {
+      "file": "pending-revisit-probe-result.json",
+      "sha256": "96f82df8e6062ade409e2ddf8e0b92dd9fa571ae20927539aceee1f845753f85"
+    },
+    {
+      "file": "pending-extension-technical-amendment.json",
+      "sha256": "3efa2d6fddc993ad00b9e36cb795c70304a5d7c6a7b9319dfb9eb5873b12012e"
+    }
+  ],
+  "changes": [
+    "Pending-only selected cohorts; assigned candidate inventories remain immutable. Selection differentiates considered prefix from actual reread subset, including empty subsets with zero semantic credit.",
+    "New supported pairs resolve only previously pending sources. Preserve all completed objects, original native fields, old run history, old candidate objects and unresolved deferral objects. Move each resolved deferral into an append-only archive with its exact original object/digest and supporting new pair IDs.",
+    "Reevaluate earliest pending from current canonical source objects; next_unreviewed remains null. Maintain an independent cumulative considered-evidence cursor, displayed in root README and current book recovery guidance.",
+    "Repeated candidate source/target pairs are preserved as revisit observations but not appended or recounted as new unresolved candidates. Source rereading never increases cumulative source-reading coverage.",
+    "Current accepted apply/rollback transaction and concurrent independent NT reconciliation architecture retained. No production code changes; renderer and validator bytes equal exact baseline.",
+    "An immutable extension plan adds the next canonical pending book, 2 Maccabees. Loader validates its exact original-plan digest and identities. Separate extension author tools preserve every frozen earlier reader and packet; existing eight author/peer receipts and 71-file evidence closure still validate unchanged."
+  ],
+  "probe_scope": "Synthetic in-memory source resolution and preservation cases only. No fixture is accepted as semantic evidence; no production writes. Full preflight still required after final semantic peers, fresh source registry and independent technical acceptance.",
+  "completion_credit": 0,
+  "created_at_utc": "2026-10-31T21:02:40.766929+00:00"
+}
