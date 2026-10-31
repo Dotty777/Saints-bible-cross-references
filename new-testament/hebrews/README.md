@@ -1,10 +1,10 @@
 # Hebrews cross-reference records
 
-101 completed source verses; 103 retained pairs; 101 source units read; 0 deferred units.
+303 completed source verses; 319 retained pairs; 303 source units read; 0 deferred units.
 
-First unfinished: Hebrews 7:1. Next new source review in this book: Hebrews 7:1.
+First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 John 3:1.
 
-Completed chapters: 1, 2, 3, 4, 5, 6. Reviewed chapters: 1, 2, 3, 4, 5, 6. Complete inventory: 303 original source units in 13 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13. Complete inventory: 303 original source units in 13 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Hebrews.html) · [Plain text](Hebrews.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -19,3 +19,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 ## Review batches
 
 - [2026-10-31T131026Z](../review-batches/2026-10-31T131026Z.json): 101 completed source verses and 103 retained pairs.
+- [2026-10-31T145128Z](../review-batches/2026-10-31T145128Z.json): 202 completed source verses and 216 retained pairs.

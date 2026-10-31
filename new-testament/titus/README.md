@@ -2,7 +2,7 @@
 
 46 completed source verses; 46 retained pairs; 46 source units read; 0 deferred units.
 
-First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Hebrews 7:1.
+First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 John 3:1.
 
 Completed chapters: 1, 2, 3. Reviewed chapters: 1, 2, 3. Complete inventory: 46 original source units in 3 chapters. Deferred units receive no completion credit.
 

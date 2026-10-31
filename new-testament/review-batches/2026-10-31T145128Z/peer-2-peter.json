@@ -1,0 +1,137 @@
+{
+  "source_book": "2 Peter",
+  "reviewed_chapters": [
+    1,
+    2,
+    3
+  ],
+  "independent_reader": "finish_james",
+  "primary_author": "finish_peter2",
+  "source_units_read": 61,
+  "pairs_read": 61,
+  "retained_pairs_checked": 61,
+  "supported_sources": 61,
+  "deferred_sources": 0,
+  "initial_primary_sha256": "a96fbed9f6da55de6d2bb2f28b182c1448cf0d28c4ee3531fa9da57f0d07b25a",
+  "primary_sha256": "771d4604f20d1f5f7fd09be0fe5ee8ca71de1a71db5513c2c74b9e2881d7a3ec",
+  "final_primary_sha256": "771d4604f20d1f5f7fd09be0fe5ee8ca71de1a71db5513c2c74b9e2881d7a3ec",
+  "findings": [
+    {
+      "source_id": "v2-21",
+      "target_book": "Luke",
+      "target_ids": [
+        "v12-47",
+        "v12-48"
+      ],
+      "severity": "precision",
+      "fix": "Use native Luke slave rather than servant in the rationale.",
+      "before": "Jesus distinguishes the servant who knows the master's will from the one who does not and assigns greater accountability to knowledge. Peter similarly warns of the worse consequence of knowing righteousness and then turning back; their images and specific punishments differ.",
+      "after": "Jesus distinguishes the slave who knows his master's will from the one who does not and assigns greater accountability to knowledge. Peter similarly warns of the worse consequence of knowing righteousness and then turning back; their images and specific punishments differ.",
+      "resolution": "Primary author applied to final and matching2–3prefix. Independent reader reread complete amended source, both retained targets, adjacent context and rationale in a complete344-tokenview.",
+      "status": "resolved"
+    }
+  ],
+  "status": "pass after one resolved rationale precision refinement; all61pairs retained",
+  "contributions": [
+    {
+      "file": "2-peter-1-peer-preview.json",
+      "source_units": 21,
+      "pairs": 21,
+      "sha256": "3ce111b781a67d1afd0a1b7d70aa076572b93174baa626b98e196a1ffd968e68",
+      "final_primary_exact_objects_confirmed": true
+    },
+    {
+      "file": "2-peter-2-3-peer-preview.json",
+      "source_units": 40,
+      "pairs": 40,
+      "sha256": "0a1c6d43ac5f7af261ee112bbd0e43cacd3a5856614b6487635cbd9bff1aa75c",
+      "final_primary_exact_objects_confirmed": true
+    }
+  ],
+  "read_evidence": {
+    "complete_original_source_views": [
+      {
+        "chapters": [
+          1,
+          2,
+          3
+        ],
+        "units": 61,
+        "tokens_including_following_primary_metadata": 2599
+      }
+    ],
+    "all_source_bodies_read_before_target_peer": true,
+    "complete_actual_target_context_rationale_views": [
+      [
+        0,
+        10
+      ],
+      [
+        10,
+        21
+      ],
+      [
+        21,
+        31
+      ],
+      [
+        31,
+        43
+      ],
+      [
+        43,
+        53
+      ],
+      [
+        53,
+        61
+      ]
+    ],
+    "view_tokens": [
+      2423,
+      3016,
+      2664,
+      3561,
+      2754,
+      1983
+    ],
+    "supplemental_complete_context": [
+      "Corrected2:21comparison offsets41–42 actualreread344tokens,completeendmarker"
+    ],
+    "all_end_markers_visible": true,
+    "accepted_truncated_views": 0,
+    "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+    "raw_source_target_cache_sha256": {
+      "1 Corinthians": "0137d56de15cae418bd683e86957dae74075a08822426646364cba9d7e84e66e",
+      "1 Peter": "8b158288ed07b40a6d71c6b0703cc86653d94b030afc628fbde73c5c1c226ac3",
+      "1 Thessalonians": "9e381d119827a5f978b5545047b5c3b4a91c1f362a0406a652ccb7b91734fc71",
+      "1 Timothy": "9004d125ab3a7174350b77cbee990feb6a90d32c5372a58329a8b7eedb9c9ba4",
+      "2 Corinthians": "df459b5d07b063cee9f65ff9ff3d38c9a8a19e1dd527d21cc8e01f30f49b9b0a",
+      "2 Peter": "1a789e704311262f1d5316d6deccad6f85405f27c027c5aba64769bce2472e01",
+      "2 Timothy": "fe8503b48ef11eed599982e862be9fa79a9106c22724a77618bbbfa30ece373f",
+      "Ephesians": "75533aeaa572116eb5d3d9277c983b901383fc093add247c49f006145e41229a",
+      "Ezekiel": "31729286e293686282312c3f4fc3209e3795d00948b39f60cf52bfa5595ab35c",
+      "Genesis": "5cb521cd67a1c8b57749490f87d58db2ec3601ab60903a0a9009d62cd142808f",
+      "Isaiah": "11c89cfbb50f986fca50889e79af063c51bb8926f5221e43c3faa13f17de0da8",
+      "John": "44504ae87e2e2a48a4702d0ff3d4db3a3074a2f7c7421251d6f67cd490665486",
+      "Jude": "22ac5b2aca87f16c93f18402ce0dc3147660bbc6edda75139bc412fbd562d89a",
+      "Luke": "a5fed69aded97311d5d39cc09251cb43890307ea31cae6a885f63748df9d5854",
+      "Matthew": "ea0d2221e8189bf0afe5b6e607de8534a62138e8e1a5b71350a8ef2e7a400d90",
+      "Numbers": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+      "Philippians": "f7942d11ed8764d08799361d7be7aa6aed30a2c02cc95efe69f5760df106ba4e",
+      "Proverbs": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c",
+      "Psalms": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+      "Romans": "73fb294d9f62d20a7f06bd8b453846223c91519cd6126982ec2421efedcf295f"
+    },
+    "completed_utc": "2026-10-31T19:04:22.986046+00:00"
+  },
+  "review_notes": [
+    "All61originals independently read first,then every61retained source/target/context/rationale comparison. 61supported,61uniquedirectedpairs,0DF;no imported/duplicate/unreviewed credit. Exactnativecoverage,contiguousunambiguoustargetIDs,no-selftarget,and2prefixexactobjectunion independently checked.",
+    "SimeonPeter/Bosor/chainsofgloom/trulyescaping/earthandworksNOTBEFOUND remainexact. Matthewhighmountain/Peterholymountain and takenpleasure/wellpleased distinct. No geographicalorchronologicalidentityinvented beyond narrative.",
+    "RomansPERSEVERANCEversusPeterENDURANCE;Judereefsversusspotsandblemishes,waterlesscloudsversussprings,mockersversusscoffers,boastfulversusinflated;NumbersMEANSOFDIVINATIONnotfees;ProverbsdogCOMESUPONvomit/becomeshateful versusPeterRETURNED;nativePsalm118:105/89:4 andIsaiahHEAVENsingularversusHEAVENS allactuallyreadandpreserved.",
+    "Peter’s divine-nature participation,prophecyorigin,apostolicremembrance,Paulineletterdistortion andcomingclaims remain bounded to actualwording. Future-book targetreadings earn0sourcecredit and cannot advance bookbarriers."
+  ],
+  "additional_completion_credit": 0,
+  "additional_pair_credit": 0,
+  "primary_before_peer_file": "2-peter-before-peer.json"
+}

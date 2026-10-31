@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-31T145128Z",
+  "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+  "method": "Resume Hebrews7:1 after101 previously read originals. Read all remaining originals of each current book before preparing and opening the next canonical source book. Target/context-only readings do not open source review; inventories and source-only readings earn zero completion credit. Final credit requires retained supported pairs and independent comparison.",
+  "boundaries": [
+    {
+      "book": "Hebrews",
+      "originals_read_before_run": 101,
+      "first_new_reference": "Hebrews 7:1",
+      "fresh_originals_read": 202,
+      "originals_read": 303,
+      "total_originals": 303,
+      "all_originals_read": true,
+      "read_completed_utc": "2026-10-31T14:54:28.529139Z",
+      "prior_boundary_evidence": "../2026-10-31T131026Z/source-book-boundaries-reading-audit.json",
+      "source_only_readers": [
+        {
+          "reader": "original agent2",
+          "chapters": [
+            7,
+            8,
+            9
+          ],
+          "units": 69,
+          "complete_view_units": [
+            41,
+            28
+          ],
+          "completed_at_utc": "2026-10-31T14:54:28.529139Z"
+        },
+        {
+          "reader": "root",
+          "chapters": [
+            10,
+            11
+          ],
+          "units": 79,
+          "complete_view_tokens": [
+            2583
+          ],
+          "completed_at_utc": "2026-10-31T14:53:40Z"
+        },
+        {
+          "reader": "original agent1",
+          "chapters": [
+            12,
+            13
+          ],
+          "units": 54,
+          "complete_view_tokens": [
+            1766
+          ],
+          "completed_at_utc": "2026-10-31T14:53:54.892734Z"
+        }
+      ],
+      "final_proposals": [
+        "hebrews-7-9-review.json",
+        "hebrews-10-11-review.json",
+        "hebrews-12-13-review.json"
+      ]
+    },
+    {
+      "book": "James",
+      "previous_book": "Hebrews",
+      "previous_book_originals_read": 303,
+      "previous_reading_completed_utc": "2026-10-31T14:54:28.529139Z",
+      "inventory_preparation": "james-inventory-preparation.json",
+      "prepared_inventory": "james-prepared-inventory.json",
+      "originals_read": 108,
+      "total_originals": 108,
+      "all_originals_read": true,
+      "reader": "original agent3",
+      "read_completed_utc": "2026-10-31T14:57:54Z",
+      "complete_view_tokens": [
+        1628,
+        1183,
+        736
+      ],
+      "final_proposals": [
+        "james-review.json"
+      ]
+    },
+    {
+      "book": "1 Peter",
+      "previous_book": "James",
+      "previous_book_originals_read": 108,
+      "previous_reading_completed_utc": "2026-10-31T14:57:54Z",
+      "inventory_preparation": "1-peter-inventory-preparation.json",
+      "prepared_inventory": "1-peter-prepared-inventory.json",
+      "originals_read": 105,
+      "total_originals": 105,
+      "all_originals_read": true,
+      "reader": "original agent1",
+      "read_completed_utc": "2026-10-31T15:01:13.015914Z",
+      "complete_view_tokens": [
+        1740,
+        1440,
+        460
+      ],
+      "final_proposals": [
+        "1-peter-review.json"
+      ]
+    },
+    {
+      "book": "2 Peter",
+      "previous_book": "1 Peter",
+      "previous_book_originals_read": 105,
+      "previous_reading_completed_utc": "2026-10-31T15:01:13.015914Z",
+      "inventory_preparation": "2-peter-inventory-preparation.json",
+      "prepared_inventory": "2-peter-prepared-inventory.json",
+      "originals_read": 61,
+      "total_originals": 61,
+      "all_originals_read": true,
+      "reader": "original agent2",
+      "read_completed_utc": "2026-10-31T15:02:33.683288Z",
+      "complete_view_tokens": [],
+      "final_proposals": [
+        "2-peter-review.json"
+      ]
+    },
+    {
+      "book": "1 John",
+      "previous_book": "2 Peter",
+      "previous_book_originals_read": 61,
+      "previous_reading_completed_utc": "2026-10-31T15:02:33.683288Z",
+      "inventory_preparation": "1-john-inventory-preparation.json",
+      "prepared_inventory": "1-john-prepared-inventory.json",
+      "originals_read": 39,
+      "total_originals": 105,
+      "all_originals_read": false,
+      "reader": "root",
+      "read_completed_utc": "2026-10-31T15:02:59Z",
+      "complete_view_tokens": [
+        1394
+      ],
+      "final_proposals": [
+        "1-john-1-2-review.json"
+      ],
+      "last_source_reference_read": "1 John 2:29",
+      "remaining_originals_unreviewed": 66,
+      "next_unreviewed": "1 John 3:1",
+      "following_canonical_source_book": "2 John",
+      "following_source_book_opened": false
+    }
+  ],
+  "first_reviewed_original_units": 515,
+  "reconsidered_original_units": 13,
+  "all_views_complete": true,
+  "truncated_views_used": 0,
+  "inventory_preparation_completion_credit": 0,
+  "source_only_completion_credit": 0,
+  "later_book_target_only_completion_credit": 0,
+  "next_unreviewed": "1 John 3:1",
+  "next_after_current_book": "2 John",
+  "following_source_book_opened": false
+}
