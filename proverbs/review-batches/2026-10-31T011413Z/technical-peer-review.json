@@ -1,0 +1,82 @@
+{
+  "run_id": "2026-10-31T011413Z",
+  "base_commit": "b1b1b0b9640252656f7f529e7465912f0e669c86",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex independent technical peer /root/ecclesiastes_author",
+  "reviewed_at_utc": "2026-10-31T01:56:15.250978+00:00",
+  "disposition": "accepted",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "84508042d18b9f2bdc8263230ab7c4ec86a57e839913382655b5a051d8f39a3f"
+    },
+    {
+      "file": "inventory-wisdom.py",
+      "sha256": "132b96442e857301472b66f3a80375fe5586ba0defd856a546543d5555f93a36"
+    }
+  ],
+  "baseline": {
+    "completed_source_verses": 17207,
+    "completed_pairs": 21973,
+    "prior_runs": 39
+  },
+  "inventory_units": {
+    "Ecclesiastes": 222,
+    "Song of Songs": 117,
+    "Lamentations": 150
+  },
+  "tested_scenarios": [
+    "Baseline snapshots match pinned Git objects and historical totals.",
+    "All three seeds preserve actual original source units/order/metadata with zero initial credit; Lamentations 3:22,23,24,29 remain absent.",
+    "False independent-peer reading attestations are rejected.",
+    "Interruption immediately after successful replacement restores exact before bytes and records rolled_back correctly.",
+    "Helper additional probes verify new-file rollback and preservation of concurrent third-party bytes with rollback_conflict.",
+    "Untracked pre-existing new-book directory is rejected; original user note preserved.",
+    "Windows parent traversal, absolute outside path and root itself are rejected; normal contained path accepted.",
+    "Inspected explicit native cohorts, final author/peer hashes, distinct resolved-target pair counting, historical completed object and run preservation, NT separation, rendered complete Scripture checks, and zero pending credit.",
+    "Final delta: exact native 44/106 Lamentations partition accepted; reversed packet order, reordered tail references, invented missing unit, missing tail receipt, changed frozen prefix bytes and shortened prefix all rejected in isolated scratch probes.",
+    "Final delta: actual independent NT/newline-only parent accepted; only canon.json and README.md CRLF/LF equivalence allowed; semantic edits, other reformatting, other root paths and bare CR changes rejected.",
+    "Inspected final manifest/readback binding to the exact fresh parent canon blob and all four RESTORE outputs with global continuation plus inventory-before-review guidance.",
+    "Final archival delta: eight isolated checks verified exact explicitly referenced nested JSON inclusion, unlisted-file exclusion, stale helper/result hash rejection, parent traversal rejection, absolute/drive-relative path rejection and non-JSON evidence rejection."
+  ],
+  "evidence": [
+    {
+      "file": "technical-peer-probe-f4632a7be8644a1aa41c4f6643d3aa19/probe-result.json",
+      "sha256": "b17f984b1212d63b5ab1771fdc312a83b3eba776c7a23b26390d4b19f1e0308a"
+    },
+    {
+      "file": "technical-peer-probe-86b29c934342464097f78bd3762a3f5e/probe-result.json",
+      "sha256": "2949c6c342d5b436d9374eda6aecd8fff55cf8241a4a07fe03d18d38bcdda2f8"
+    },
+    {
+      "file": "transaction-extra-probe-ab771d1b92d24387a6fd3ca12e11b11d/result.json",
+      "sha256": "24add604ffdee4cc82129783e0efce83b436580f82107f02bac24fa18f572ce9"
+    },
+    {
+      "file": "technical-delta-probe-09947203e58047bf80d6d535243eff4e/result.json",
+      "sha256": "c4a8b9065a455f5db0c54056f635bc169975efec6c4f5d723433c10245f3ccf3"
+    },
+    {
+      "file": "technical-archive-probe-5cdf1f6fe47a487987efd1140a3ab7b3/result.json",
+      "sha256": "34dcd592b02f3bbb86af9c85680202d3b1506545ebfca166a1fd46138dc4ce6b"
+    }
+  ],
+  "findings_resolved": [
+    "Required peer flags as well as author flags.",
+    "Rollback inspects every durable prepared entry, including a replacement interrupted before in-memory bookkeeping.",
+    "Preparation rejects any existing new-book destination rather than bootstrapping over untracked files.",
+    "Corrected inventory-helper delimiter literals without changing frozen source inventories."
+  ],
+  "outstanding_findings": [],
+  "limits": "Initial read-only technical review and scratch probes plus narrow final-delta inspection/probes. Unchanged earlier checks were not repeated. Final end-to-end preflight, production validation and publication readback remain required after all semantic packets are final.",
+  "initial_acceptance_utc": "2026-10-31T01:43:02.125214+00:00",
+  "initial_helper_sha256": "35c7b1ffc7472442c5d5543d7acb7e462abcd9dc4e23d94e61aecd868711af94",
+  "delta_probe_count": 19,
+  "publication_parent_commit": "9864cc39a88edecabb12af3b74932f10274e4a53",
+  "publication_parent_canon_blob_sha": "e8636b7f8fc71856df3ff45e143dfb36421586ec",
+  "partition_delta_helper_sha256": "0245515f562c0880dd31987d683aa18779d1c3715278d4c9ac1ef4d67de702d7",
+  "archive_delta_probe_count": 8,
+  "archive_evidence_inclusion": "All five exact nested result JSON files referenced here are included in the current-run archive after safe contained-relative-path and SHA256 validation; no whole scratch directories are copied. Technical helper and inventory-helper receipt hashes are validated too."
+}

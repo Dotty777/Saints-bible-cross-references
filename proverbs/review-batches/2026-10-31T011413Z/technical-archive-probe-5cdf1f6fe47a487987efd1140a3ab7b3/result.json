@@ -1,0 +1,16 @@
+{
+  "helper_sha256": "84508042d18b9f2bdc8263230ab7c4ec86a57e839913382655b5a051d8f39a3f",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "checks": {
+    "only_explicit_nested_json_evidence_included": "passed",
+    "unlisted_file_not_archived": "passed",
+    "stale_helper_hash_rejected": "Changed technical peer input: incremental.py",
+    "stale_result_hash_rejected": "Changed technical peer input: technical-peer-probe-f4632a7be8644a1aa41c4f6643d3aa19/probe-result.json",
+    "parent_traversal_rejected": "Technical evidence must use a relative contained path",
+    "absolute_contained_path_rejected": "Technical evidence must use a relative contained path",
+    "drive_relative_path_rejected": "Technical evidence must use a relative contained path",
+    "non_json_evidence_rejected": "Technical evidence must be an explicitly referenced JSON result"
+  },
+  "inspected": "Every explicitly referenced result is validated through safe_path and exact SHA256 before archive inclusion; archive paths retain relative nested names and bytes, and final frozen-input validation binds them before apply."
+}

@@ -1,0 +1,62 @@
+{
+  "run_id": "2026-10-31T011413Z",
+  "base_commit": "b1b1b0b9640252656f7f529e7465912f0e669c86",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "recorded_at_utc": "2026-10-31T01:23:56.011233+00:00",
+  "gates": [
+    {
+      "source_book": "Proverbs",
+      "source_units_read_this_run": 247,
+      "reviewer": "Codex author /root/proverbs_end_author",
+      "source_prefix": "Proverbs 24:1 through physical book end",
+      "evidence": "Author confirmed all247 complete actual native units read in physical order before Ecclesiastes review opened."
+    },
+    {
+      "source_book": "Ecclesiastes",
+      "source_units_inventoried": 222,
+      "inventory_receipt": "inventory-ecclesiastes-receipt.json",
+      "source_units_read_this_run": 222,
+      "reviewer": "Codex author /root/ecclesiastes_author",
+      "evidence": "Root opened source review after Proverbs reading and full frozen inventory; author confirmed all222 actual units read before Song of Songs review."
+    },
+    {
+      "source_book": "Song of Songs",
+      "source_units_inventoried": 117,
+      "inventory_receipt": "inventory-song-of-songs-receipt.json",
+      "source_units_read_this_run": 117,
+      "reviewer": "Codex author /root",
+      "evidence": "Root read all117 complete actual texts in physical order after Ecclesiastes reading and full inventory; this opened Lamentations review."
+    },
+    {
+      "source_book": "Lamentations",
+      "source_units_inventoried": 150,
+      "inventory_receipt": "inventory-lamentations-receipt.json",
+      "source_units_read_this_run": 150,
+      "reviewer": "Codex source-review team",
+      "evidence": "The initial 44 units were read by root after Song reading and the full inventory. The remaining 106 native units were subsequently read in order by the Ecclesiastes author, who confirmed all 150 source units now have a completed initial source reading. Curated support decisions and peer checks remain separate from this zero-credit reading gate.",
+      "source_read_cohorts": [
+        {
+          "source_range": "Lamentations 1:1-2:22",
+          "source_units": 44,
+          "reviewer": "Codex author /root"
+        },
+        {
+          "source_range": "Lamentations 3:1-5:22",
+          "source_units": 106,
+          "reviewer": "Codex author /root/ecclesiastes_author",
+          "absent_native_labels": [
+            "3:22",
+            "3:23",
+            "3:24",
+            "3:29"
+          ]
+        }
+      ]
+    }
+  ],
+  "completion_credit_for_reading_or_inventory_alone": 0,
+  "extended_at_utc": "2026-10-31T01:44:30.176089+00:00",
+  "next_new_source_review": "Wisdom of Solomon 1:1; complete native inventory required before source review."
+}

@@ -1,0 +1,33 @@
+{
+  "helper_sha256": "0245515f562c0880dd31987d683aa18779d1c3715278d4c9ac1ef4d67de702d7",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "checks": {
+    "actual_current_base_accepts_independent_nt_and_newline_only_root_changes": "passed",
+    "actual_canon_content_equal_after_newline_normalization": "passed",
+    "actual_readme_content_equal_after_newline_normalization": "passed",
+    "exact_44_106_native_partition_and_no_duplicate_coverage": "passed",
+    "native_missing_lamentations_units_remain_absent": "passed",
+    "reversed_lamentations_packet_order_rejected": "Lamentations packets must cover the full native inventory once, in order",
+    "scratch_final_tail_receipt_accepted": "passed",
+    "reordered_tail_receipt_rejected": "Receipt explicit source order: lamentations-tail",
+    "invented_absent_tail_unit_rejected": "Receipt explicit source order: lamentations-tail",
+    "any_frozen_prefix_packet_byte_change_rejected": "Accepted Lamentations prefix packet changed: lamentations.tsv",
+    "shortened_prefix_rejected_even_with_updated_scratch_hashes": "Lamentations prefix must preserve the exact original 44-unit packet",
+    "missing_tail_author_receipt_rejected": "Missing receipt: lamentations-tail-review.json",
+    "canon_crlf_lf_only_allowed": "passed",
+    "readme_crlf_lf_only_allowed": "passed",
+    "canon_semantic_change_rejected": "passed",
+    "canon_reformatting_beyond_newlines_rejected": "passed",
+    "readme_text_change_rejected": "passed",
+    "other_root_file_newlines_not_whitelisted": "passed",
+    "bare_cr_not_normalized": "passed"
+  },
+  "observed_head": "9864cc39a88edecabb12af3b74932f10274e4a53",
+  "publication_parent_canon_blob": "e8636b7f8fc71856df3ff45e143dfb36421586ec",
+  "inspected_checks": [
+    "Prepared manifest binds exact publication-parent canon Git blob, and readback requires that same blob plus baseline normalized content.",
+    "All four changed-book RESTORE outputs receive overall earliest pending and next new review after global continuation computation, and Wisdom of Solomon receives the inventory-required note.",
+    "Book-local next never-reviewed uses explicit none/all-read language only when next_unreviewed_reference is null; pending deferrals remain pending and earn zero credit."
+  ]
+}

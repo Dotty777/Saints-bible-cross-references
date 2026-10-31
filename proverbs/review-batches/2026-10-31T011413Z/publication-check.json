@@ -1,0 +1,63 @@
+{
+  "remote_ref": "origin/main",
+  "remote_commit": "9864cc39a88edecabb12af3b74932f10274e4a53",
+  "review_base_commit": "b1b1b0b9640252656f7f529e7465912f0e669c86",
+  "only_independent_nt_changes": true,
+  "remote_nt_pointer": {
+    "records": "new-testament/",
+    "progress": "new-testament/progress.json",
+    "testament": "New Testament",
+    "source_book_count": 27,
+    "canonical_orders": [
+      44,
+      70
+    ],
+    "completed_source_verses": 1823,
+    "completed_cross_references": 1868,
+    "next": {
+      "book": "Matthew",
+      "chapter": 1,
+      "reference": "Matthew 1:14",
+      "source_id": "v1-14"
+    },
+    "next_unreviewed": {
+      "book": "Luke",
+      "chapter": 4,
+      "reference": "Luke 4:1",
+      "source_id": "v4-1"
+    },
+    "updated": "2026-10-30",
+    "target_per_hour": 500,
+    "target_unit": "newly_completed_distinct_source_verses",
+    "latest_target_result": {
+      "run_id": "2026-10-31T004042Z",
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 560,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 60
+    },
+    "fully_read_source_books": [
+      "Matthew",
+      "Mark"
+    ]
+  },
+  "merge_instruction": "Perform a normal Git merge. If only progress.json conflicts, preserve the complete local OT object and replace only new_testament_tracker with remote_nt_pointer. Do not reset or regenerate the semantic batch.",
+  "completion_credit": 0,
+  "newline_only_root_files": [
+    {
+      "path": "README.md",
+      "baseline_blob_sha": "378e2e924e273ddc05c514887756644df188a2de",
+      "remote_blob_sha": "e50e7e59bacb344be047c668fda75c175be89b3b",
+      "normalized_bytes_equal": true
+    },
+    {
+      "path": "canon.json",
+      "baseline_blob_sha": "2cb7ad181c0bcb03999c45240f2d34b2c8b81372",
+      "remote_blob_sha": "e8636b7f8fc71856df3ff45e143dfb36421586ec",
+      "normalized_bytes_equal": true
+    }
+  ],
+  "fresh_remote_canon_blob_sha": "e8636b7f8fc71856df3ff45e143dfb36421586ec"
+}
