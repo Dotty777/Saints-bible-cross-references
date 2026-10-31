@@ -2,7 +2,7 @@
 
 1002 completed source verses; 1018 retained pairs; 1003 source units read; 1 deferred units.
 
-First unfinished: Acts 28:12. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 John 3:1.
+First unfinished: Acts 28:12. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Revelation 1:1.
 
 Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28. Complete inventory: 1003 original source units in 28 chapters. Deferred units receive no completion credit.
 
@@ -25,3 +25,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-31T114423Z](../review-batches/2026-10-31T114423Z.json): 12 completed source verses and 12 retained pairs.
 - [2026-10-31T131026Z](../review-batches/2026-10-31T131026Z.json): 3 completed source verses and 3 retained pairs.
 - [2026-10-31T145128Z](../review-batches/2026-10-31T145128Z.json): 0 completed source verses and 0 retained pairs.
+- [2026-10-31T194744Z](../review-batches/2026-10-31T194744Z.json): 0 completed source verses and 0 retained pairs.

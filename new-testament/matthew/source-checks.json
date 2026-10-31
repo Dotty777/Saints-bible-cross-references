@@ -13,7 +13,7 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Complete original supplied English source units and every retained actual target/context passage were read and separately compared by another AI-assisted reader. This run resumes at Hebrews7:1, prepares each complete new-book inventory before opening its source review, and reads every original in the current book before opening the next canonical source book. All13 saved deferrals are substantively reconsidered. Imported, duplicate, deferred, inventory-only and target/context-only records earn zero source completion credit. Full-book input bytes match the pinned Git blobs; no new source-language critical-text or human specialist approval is claimed.",
+  "method": "Complete original supplied English source units and every retained actual target/context passage were read and separately compared by another AI-assisted reader. Resume at 1 John 3:1 and read all remaining originals of 1 John, then 2 John, 3 John and Jude in exact canon order, with complete inventories prepared before each new source book and only after the preceding book original reading boundary. All 12 saved deferrals were freshly and substantively reconsidered and remain uncredited. Revelation is the exact next canonical book, but its source record is absent at the pinned Saints-Translation commit and current source main. No Revelation wording, inventory, verse total or completed review is invented. Imported, duplicate, deferred, inventory-only and target/context-only records earn zero source completion credit. The actual 119 newly completed distinct sources fall 381 short of 500. Full available book inputs match pinned Git blobs; no new source-language critical-text or human specialist approval is claimed.",
   "checked_scope": {
     "source_range": "Matthew 1:1–28:20",
     "source_units_read": 1068,
@@ -152,13 +152,23 @@
       "new_source_verses": 0,
       "new_completed_revisited_sources": 0,
       "new_pairs": 0
+    },
+    {
+      "run_id": "2026-10-31T194744Z",
+      "records": "../review-batches/2026-10-31T194744Z.json",
+      "source_units_read": 2,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 2,
+      "new_source_verses": 0,
+      "new_completed_revisited_sources": 0,
+      "new_pairs": 0
     }
   ],
   "deferred_source_units": [
     {
       "source_reference": "Matthew 1:14",
       "source_id": "v1-14",
-      "reason": "The actual Azor-Zadok-Achim-Eliud sequence was reread within Matthew1:12-17 and compared with Luke3:23-32. No same ordered father relation was established. The generation-count framework and immediate continuation describe the genealogy generally; they do not supply a distinct supported comparison for these named ancestors.",
+      "reason": "Azor–Zadok–Achim–Eliud was freshly compared with the named priest Zadok in 2 Samuel 8:17. That priest is son of Ahitub, while Matthew names Azor and Achim around its Zadok. Neither the different father relation nor the priestly office can be transferred; no ordered counterpart or specific second relationship was established.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -166,7 +176,7 @@
     {
       "source_reference": "Matthew 1:15",
       "source_id": "v1-15",
-      "reason": "Eliud-Eleazar-Matthan-Jacob continues to Jacob/Joseph/Mary in the next unit, but the chain itself still has no matching ordered counterpart. The similar Matthan/Matthat forms and an adjacent chain link do not justify an identity or a specific independent relation.",
+      "reason": "Eliud–Eleazar–Matthan–Jacob was tested against Exodus 6:23, where Eleazar is born to Aaron and Elisheba among four named sons. Matthew supplies a different surrounding chain and no priestly role. The shared Eleazar name and Matthan/Matthat resemblance do not establish the same person or a matched relationship.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -317,6 +327,14 @@
       "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-timothy/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-timothy.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "3-john/verses.json",
+      "blob_sha": "4f1d47f6a6209d1776fd733aa7ac1074b81231a4",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/3-john/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/3-john.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",

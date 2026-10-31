@@ -1,10 +1,10 @@
 # 1 John cross-reference records
 
-39 completed source verses; 39 retained pairs; 39 source units read; 0 deferred units.
+105 completed source verses; 106 retained pairs; 105 source units read; 0 deferred units.
 
-First unfinished: 1 John 3:1. Next new source review in this book: 1 John 3:1.
+First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Revelation 1:1.
 
-Completed chapters: 1, 2. Reviewed chapters: 1, 2. Complete inventory: 105 original source units in 5 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 3, 4, 5. Reviewed chapters: 1, 2, 3, 4, 5. Complete inventory: 105 original source units in 5 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](1John.html) · [Plain text](1John.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -19,3 +19,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 ## Review batches
 
 - [2026-10-31T145128Z](../review-batches/2026-10-31T145128Z.json): 39 completed source verses and 39 retained pairs.
+- [2026-10-31T194744Z](../review-batches/2026-10-31T194744Z.json): 66 completed source verses and 67 retained pairs.

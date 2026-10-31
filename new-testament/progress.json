@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-10-31",
-  "updated_at_utc": "2026-10-31T19:05:15.237232+00:00",
+  "updated_at_utc": "2026-10-31T20:00:39.236855+00:00",
   "scope": "Separate New Testament source review within the Saints Holy Bible 70-book edition; exact source orders 44–70 and Salvation, Discipleship, Glory divisions. Targets may come from any of its 70 books when pinned text is available.",
   "canon_manifest": "../canon.json",
   "canon_book_count": 70,
@@ -9,12 +9,12 @@
   "reference_format_repository": "Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
-  "completed_book_records": 18,
-  "pending_book_records": 9,
-  "completed_chapters": 228,
-  "reviewed_source_units": 7419,
-  "completed_source_verses": 7407,
-  "completed_cross_references": 7533,
+  "completed_book_records": 22,
+  "pending_book_records": 5,
+  "completed_chapters": 234,
+  "reviewed_source_units": 7538,
+  "completed_source_verses": 7526,
+  "completed_cross_references": 7655,
   "deferred_source_units_count": 12,
   "new_testament_complete": false,
   "next": {
@@ -24,10 +24,10 @@
     "source_id": "v1-14"
   },
   "next_unreviewed": {
-    "book": "1 John",
-    "chapter": 3,
-    "reference": "1 John 3:1",
-    "source_id": "v3-1"
+    "book": "Revelation",
+    "chapter": 1,
+    "reference": "Revelation 1:1",
+    "source_id": "v1-1"
   },
   "books": [
     {
@@ -682,18 +682,21 @@
       "order_in_division": 19,
       "source_staging_path": "/bible/discipleship/1-john/",
       "records": "1-john/",
-      "status": "in_progress",
+      "status": "complete_initial_curated_pass",
       "total_source_verse_units": 105,
-      "completed_source_verses": 39,
-      "completed_cross_references": 39,
+      "completed_source_verses": 105,
+      "completed_cross_references": 106,
       "completed_chapters": [
         1,
-        2
+        2,
+        3,
+        4,
+        5
       ],
-      "next_reference": "1 John 3:1",
-      "reviewed_source_units": 39,
-      "next_unreviewed_reference": "1 John 3:1",
-      "all_original_source_units_read": false
+      "next_reference": null,
+      "reviewed_source_units": 105,
+      "next_unreviewed_reference": null,
+      "all_original_source_units_read": true
     },
     {
       "order": 67,
@@ -703,12 +706,17 @@
       "order_in_division": 20,
       "source_staging_path": "/bible/discipleship/2-john/",
       "records": "2-john/",
-      "status": "pending",
-      "total_source_verse_units": null,
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
-      "completed_chapters": [],
-      "next_reference": "2 John 1:1"
+      "status": "complete_initial_curated_pass",
+      "total_source_verse_units": 13,
+      "completed_source_verses": 13,
+      "completed_cross_references": 13,
+      "completed_chapters": [
+        1
+      ],
+      "next_reference": null,
+      "reviewed_source_units": 13,
+      "next_unreviewed_reference": null,
+      "all_original_source_units_read": true
     },
     {
       "order": 68,
@@ -718,12 +726,17 @@
       "order_in_division": 21,
       "source_staging_path": "/bible/discipleship/3-john/",
       "records": "3-john/",
-      "status": "pending",
-      "total_source_verse_units": null,
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
-      "completed_chapters": [],
-      "next_reference": "3 John 1:1"
+      "status": "complete_initial_curated_pass",
+      "total_source_verse_units": 15,
+      "completed_source_verses": 15,
+      "completed_cross_references": 15,
+      "completed_chapters": [
+        1
+      ],
+      "next_reference": null,
+      "reviewed_source_units": 15,
+      "next_unreviewed_reference": null,
+      "all_original_source_units_read": true
     },
     {
       "order": 69,
@@ -733,12 +746,17 @@
       "order_in_division": 22,
       "source_staging_path": "/bible/discipleship/jude/",
       "records": "jude/",
-      "status": "pending",
-      "total_source_verse_units": null,
-      "completed_source_verses": 0,
-      "completed_cross_references": 0,
-      "completed_chapters": [],
-      "next_reference": "Jude 1:1"
+      "status": "complete_initial_curated_pass",
+      "total_source_verse_units": 25,
+      "completed_source_verses": 25,
+      "completed_cross_references": 27,
+      "completed_chapters": [
+        1
+      ],
+      "next_reference": null,
+      "reviewed_source_units": 25,
+      "next_unreviewed_reference": null,
+      "all_original_source_units_read": true
     },
     {
       "order": 70,
@@ -753,7 +771,11 @@
       "completed_source_verses": 0,
       "completed_cross_references": 0,
       "completed_chapters": [],
-      "next_reference": "Revelation 1:1"
+      "next_reference": "Revelation 1:1",
+      "source_record_availability": "unavailable at verified pinned commit and current source main",
+      "source_availability_evidence": "review-batches/2026-10-31T194744Z/revelation-source-availability.json",
+      "native_source_identity_verified": false,
+      "continuation_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record."
     }
   ],
   "runs": [
@@ -12153,19 +12175,451 @@
       "scheduled_trigger_at_utc": "2026-10-31T14:51:28.685Z",
       "resumed_on_heartbeat_at_utc": "2026-10-31T18:51:44.180Z",
       "review_records_assembled_at_utc": "2026-10-31T19:05:15.235948+00:00"
+    },
+    {
+      "schema_version": 1,
+      "run_id": "2026-10-31T194744Z",
+      "date": "2026-10-31",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_range": "1 John 3:1–5:21; 2 John 1:1–1:13; 3 John 1:1–1:15; Jude 1:1–1:25; reconsideration of 12 earlier Matthew/Luke/Acts/Romans units",
+      "source_units_read": 131,
+      "first_reviewed_source_units": 119,
+      "revisited_source_units_read": 12,
+      "new_completed_revisited_sources": 0,
+      "reconsidered_source_references": [
+        "Matthew 1:14",
+        "Matthew 1:15",
+        "Luke 3:24",
+        "Luke 3:25",
+        "Luke 3:26",
+        "Luke 3:28",
+        "Luke 3:29",
+        "Luke 3:30",
+        "Acts 28:12",
+        "Romans 16:8",
+        "Romans 16:14",
+        "Romans 16:15"
+      ],
+      "new_completed_source_verses": 119,
+      "new_completed_pairs": 122,
+      "deferred_source_units_count": 12,
+      "new_deferred_source_units_count": 0,
+      "next": {
+        "book": "Matthew",
+        "chapter": 1,
+        "reference": "Matthew 1:14",
+        "source_id": "v1-14"
+      },
+      "next_unreviewed": {
+        "book": "Revelation",
+        "chapter": 1,
+        "reference": "Revelation 1:1",
+        "source_id": "v1-1"
+      },
+      "pair_ids": [
+        "1-john-3-1__john-1-12-1-13",
+        "1-john-3-2__philippians-3-20-3-21",
+        "1-john-3-3__2-corinthians-7-1",
+        "1-john-3-4__1-john-5-17",
+        "1-john-3-5__hebrews-4-15",
+        "1-john-3-6__1-john-2-4",
+        "1-john-3-7__1-john-2-29",
+        "1-john-3-8__john-8-44",
+        "1-john-3-9__1-john-5-18",
+        "1-john-3-10__1-john-4-7-4-8",
+        "1-john-3-11__john-13-34",
+        "1-john-3-12__genesis-4-8-4-10",
+        "1-john-3-13__john-15-18-15-19",
+        "1-john-3-14__john-5-24",
+        "1-john-3-15__matthew-5-21-5-22",
+        "1-john-3-16__john-15-13",
+        "1-john-3-17__james-2-15-2-16",
+        "1-john-3-18__james-2-16",
+        "1-john-3-19__1-john-3-18",
+        "1-john-3-20__1-corinthians-4-4-4-5",
+        "1-john-3-21__hebrews-4-16",
+        "1-john-3-22__john-15-7",
+        "1-john-3-23__john-6-29",
+        "1-john-3-23__john-13-34",
+        "1-john-3-24__1-john-4-13",
+        "1-john-4-1__1-thessalonians-5-20-5-21",
+        "1-john-4-2__2-john-1-7",
+        "1-john-4-3__1-john-2-18",
+        "1-john-4-4__john-16-33",
+        "1-john-4-5__john-15-19",
+        "1-john-4-6__john-8-47",
+        "1-john-4-7__1-john-3-10",
+        "1-john-4-8__1-john-4-16",
+        "1-john-4-9__john-3-16",
+        "1-john-4-10__romans-5-8",
+        "1-john-4-11__john-13-34",
+        "1-john-4-12__john-1-18",
+        "1-john-4-13__1-john-3-24",
+        "1-john-4-14__john-4-42",
+        "1-john-4-15__romans-10-9",
+        "1-john-4-16__john-15-9-15-10",
+        "1-john-4-17__1-john-2-28",
+        "1-john-4-18__romans-8-15",
+        "1-john-4-19__1-john-4-10",
+        "1-john-4-20__1-john-2-9",
+        "1-john-4-21__john-13-34",
+        "1-john-5-1__john-1-12-1-13",
+        "1-john-5-2__1-john-3-23",
+        "1-john-5-3__john-14-15",
+        "1-john-5-4__john-16-33",
+        "1-john-5-5__1-john-4-4",
+        "1-john-5-6__john-19-34-19-35",
+        "1-john-5-7__1-john-5-8",
+        "1-john-5-8__1-john-5-6-5-7",
+        "1-john-5-9__john-5-37",
+        "1-john-5-10__1-john-1-10",
+        "1-john-5-11__john-10-28",
+        "1-john-5-12__john-3-36",
+        "1-john-5-13__john-20-31",
+        "1-john-5-14__luke-22-42",
+        "1-john-5-15__john-16-23-16-24",
+        "1-john-5-16__james-5-15-5-16",
+        "1-john-5-17__1-john-3-4",
+        "1-john-5-18__1-john-3-9",
+        "1-john-5-19__john-17-14-17-16",
+        "1-john-5-20__john-17-3",
+        "1-john-5-21__1-corinthians-10-14",
+        "2-john-1-1__3-john-1-1",
+        "2-john-1-2__john-8-31-8-32",
+        "2-john-1-3__1-timothy-1-2",
+        "2-john-1-4__3-john-1-3-1-4",
+        "2-john-1-5__1-john-3-11",
+        "2-john-1-6__1-john-5-3",
+        "2-john-1-7__1-john-4-1-4-3",
+        "2-john-1-8__1-corinthians-3-14-3-15",
+        "2-john-1-9__1-john-2-23-2-24",
+        "2-john-1-10__romans-16-17",
+        "2-john-1-11__1-timothy-5-22",
+        "2-john-1-12__3-john-1-13-1-14",
+        "2-john-1-13__2-john-1-1",
+        "3-john-1-1__2-john-1-1",
+        "3-john-1-2__1-thessalonians-5-23",
+        "3-john-1-3__2-john-1-4",
+        "3-john-1-4__1-thessalonians-2-19-2-20",
+        "3-john-1-5__hebrews-13-2",
+        "3-john-1-6__titus-3-13",
+        "3-john-1-7__1-corinthians-9-18",
+        "3-john-1-8__philippians-4-14-4-16",
+        "3-john-1-9__mark-10-42-10-44",
+        "3-john-1-10__3-john-1-5-1-8",
+        "3-john-1-11__1-john-3-10",
+        "3-john-1-12__john-21-24",
+        "3-john-1-13__2-john-1-12",
+        "3-john-1-14__2-john-1-12",
+        "3-john-1-15__1-peter-5-14",
+        "jude-1-1__james-1-1",
+        "jude-1-2__2-timothy-1-2",
+        "jude-1-3__philippians-1-27",
+        "jude-1-4__2-peter-2-1",
+        "jude-1-5__1-corinthians-10-1-10-5",
+        "jude-1-6__2-peter-2-4",
+        "jude-1-7__genesis-19-24-19-25",
+        "jude-1-8__2-peter-2-10",
+        "jude-1-9__zechariah-3-2",
+        "jude-1-10__2-peter-2-12",
+        "jude-1-11__genesis-4-8",
+        "jude-1-11__2-peter-2-15",
+        "jude-1-11__numbers-16-31-16-35",
+        "jude-1-12__2-peter-2-13",
+        "jude-1-13__2-peter-2-17",
+        "jude-1-14__1-thessalonians-3-13",
+        "jude-1-15__matthew-12-36-12-37",
+        "jude-1-16__2-peter-2-18",
+        "jude-1-17__2-peter-3-2",
+        "jude-1-18__2-peter-3-3",
+        "jude-1-19__1-corinthians-2-14",
+        "jude-1-20__ephesians-6-18",
+        "jude-1-21__titus-3-5-3-7",
+        "jude-1-22__matthew-14-30-14-31",
+        "jude-1-23__zechariah-3-2-3-4",
+        "jude-1-24__1-thessalonians-5-23",
+        "jude-1-25__romans-16-27"
+      ],
+      "proposal_files": [
+        "2026-10-31T194744Z/matthew-reconsidered-review.json",
+        "2026-10-31T194744Z/luke-reconsidered-review.json",
+        "2026-10-31T194744Z/acts-reconsidered-review.json",
+        "2026-10-31T194744Z/romans-reconsidered-review.json",
+        "2026-10-31T194744Z/1-john-3-5-review.json",
+        "2026-10-31T194744Z/2-john-review.json",
+        "2026-10-31T194744Z/3-john-review.json",
+        "2026-10-31T194744Z/jude-review.json"
+      ],
+      "peer_review_files": [
+        "2026-10-31T194744Z/peer-matthew-reconsidered.json",
+        "2026-10-31T194744Z/peer-luke-reconsidered.json",
+        "2026-10-31T194744Z/peer-acts-reconsidered.json",
+        "2026-10-31T194744Z/peer-romans-reconsidered.json",
+        "2026-10-31T194744Z/peer-1-john-3-5.json",
+        "2026-10-31T194744Z/peer-2-john.json",
+        "2026-10-31T194744Z/peer-3-john.json",
+        "2026-10-31T194744Z/peer-jude.json"
+      ],
+      "peer_review_resolution": "Every retained pair received a second AI-assisted source/target comparison. Findings and resolutions are preserved in the peer records; this is not independent human specialist approval.",
+      "input_manifest": "../source-snapshots/manifest.json",
+      "source_book_order_policy": "Resume at 1 John 3:1 and follow the exact canon order and divisions. Prepare each complete book inventory only after every original of the previous book has been read, then read all originals in the current source book before advancing to the next. Carry unresolved deferrals separately without credit; later-book target/context readings do not open source review. The computed next_unreviewed is the exact continuation.",
+      "source_book_boundary": {
+        "schema_version": 1,
+        "run_id": "2026-10-31T194744Z",
+        "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+        "method": "Resume1John3:1 after39 previously read originals. Complete all remaining originals in each current book before preparing and opening the next canonical source book. Native3John has15units,including separate1:15greeting. Source-only,inventory,repeated andtarget-onlyreadings earn0completioncredit;creditrequires supported pairs and distinct-reader comparison.",
+        "boundaries": [
+          {
+            "book": "1 John",
+            "originals_read_before_run": 39,
+            "fresh_originals_read": 66,
+            "originals_read": 105,
+            "total_originals": 105,
+            "all_originals_read": true,
+            "first_new_reference": "1 John 3:1",
+            "last_source_reference_read": "1 John 5:21",
+            "source_read_completed_by_utc": "2026-10-31T19:48:37Z",
+            "reader": "root",
+            "complete_combined_setup_and_source_view_tokens": 2229,
+            "prior_boundary_evidence": "../2026-10-31T145128Z/source-book-boundaries-reading-audit.json",
+            "final_proposals": [
+              "1-john-3-5-review.json"
+            ]
+          },
+          {
+            "book": "2 John",
+            "previous_book": "1 John",
+            "previous_book_originals_read": 105,
+            "previous_reading_completed_utc": "2026-10-31T19:48:37Z",
+            "inventory_preparation": "2-john-inventory-preparation.json",
+            "prepared_inventory": "2-john-prepared-inventory.json",
+            "prepared_at_utc": "2026-10-31T19:48:38.233254+00:00",
+            "originals_read": 13,
+            "total_originals": 13,
+            "all_originals_read": true,
+            "source_read_completed_by_utc": "2026-10-31T19:48:51Z",
+            "complete_source_view_tokens": 441,
+            "final_proposals": [
+              "2-john-review.json"
+            ]
+          },
+          {
+            "book": "3 John",
+            "previous_book": "2 John",
+            "previous_book_originals_read": 13,
+            "previous_reading_completed_utc": "2026-10-31T19:48:51Z",
+            "inventory_preparation": "3-john-inventory-preparation.json",
+            "prepared_inventory": "3-john-prepared-inventory.json",
+            "prepared_at_utc": "2026-10-31T19:49:05.339797+00:00",
+            "originals_read": 15,
+            "total_originals": 15,
+            "all_originals_read": true,
+            "source_read_completed_by_utc": "2026-10-31T19:49:23.2074136Z",
+            "complete_source_view_tokens": 459,
+            "final_proposals": [
+              "3-john-review.json"
+            ]
+          },
+          {
+            "book": "Jude",
+            "previous_book": "3 John",
+            "previous_book_originals_read": 15,
+            "previous_reading_completed_utc": "2026-10-31T19:49:23.2074136Z",
+            "inventory_preparation": "jude-inventory-preparation.json",
+            "prepared_inventory": "jude-prepared-inventory.json",
+            "prepared_at_utc": "2026-10-31T19:49:34.950033+00:00",
+            "originals_read": 25,
+            "total_originals": 25,
+            "all_originals_read": true,
+            "source_read_completed_by_utc": "2026-10-31T19:49:37.7273777Z",
+            "complete_source_view_tokens": 973,
+            "final_proposals": [
+              "jude-review.json"
+            ]
+          }
+        ],
+        "first_reviewed_original_units": 119,
+        "reconsidered_original_units": 12,
+        "all_available_originals_read": true,
+        "available_new_testament_source_books_fully_read": 26,
+        "next_unreviewed": "Revelation 1:1",
+        "next_source_book": "Revelation",
+        "next_canonical_order": 70,
+        "next_division": "Glory",
+        "following_source_book_opened": false,
+        "unavailable_source_evidence": "revelation-source-availability.json",
+        "revelation_inventory_created": false,
+        "revelation_source_completion_credit": 0,
+        "revelation_pair_completion_credit": 0,
+        "truncated_views_used": 0,
+        "inventory_preparation_completion_credit": 0,
+        "source_only_completion_credit": 0,
+        "continuation_identity_scope": "Revelation1:1 is a canonical continuation cursor only. No verified native Revelation verse ID, text, count or inventory is inferred from that cursor; wait for the exact source record before source review."
+      },
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 119,
+      "target_met": false,
+      "target_shortfall": 381,
+      "target_excess": 0,
+      "target_policy": "User-specified hourly target: 500 newly completed distinct source verses with passage-supported cross-references. A source verse counts once irrespective of its number of retained target passages. Deferred and previously completed source verses earn zero new-source completion credit; pair totals are separate.",
+      "review_scope": "Initial AI-assisted supplied-English passage review. Source/target wording and numbering are pinned; independent specialist and live destination checks remain pending.",
+      "auxiliary_review_evidence": [
+        {
+          "file": "2026-10-31T194744Z/1-john-3-peer-preview.json",
+          "sha256": "f3e2d355bd03d4b32bf6870598c4393095b0b80b916fd863763c6e7a5937f629",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/1-john-4-peer-preview.json",
+          "sha256": "5c781089e10f5698d392ce8ec4b37cecd5f294f1430cb1a6efe67ee879f65c5c",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/1-john-5-peer-preview.json",
+          "sha256": "bfee0250b35c65777252495e7c53659d4a87e00825f3bd66ef68e641546e1126",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/2-john-inventory-preparation.json",
+          "sha256": "b1faa7d9d12ff5b7779b43c22d3c6bab38cc4c7da42272547fcdcf83be044159",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/2-john-prepared-inventory.json",
+          "sha256": "5588a819df4650cfeb1dda4c0fd66cbf1d830863fd377bcd7f9bc4e31a6134c8",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/3-john-inventory-preparation.json",
+          "sha256": "a5d66fc277605ffebe88212792ed377a0cd87895ce77a76a8192ba20a1ef725e",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/3-john-prepared-inventory.json",
+          "sha256": "65e246ae8f381dab1d617b50e35f69483a186dda3df745422cbd1c0f923c2bd0",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/jude-inventory-preparation.json",
+          "sha256": "ade82a36b54683e16d73806910bb218764449df86f728cbed5b23820f6ca696c",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/jude-prepared-inventory.json",
+          "sha256": "889fd867a817f9ad65d883147b080ae9ddd2e723eceb632285c2a02cc4f324ed",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/peer-1-john-3-subscope.json",
+          "sha256": "6076660dfa96fa8d9a076cf9446e2f78993382a4c8a565ef7d427cb698bffb00",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/peer-1-john-4-subscope.json",
+          "sha256": "eebd895a24923b6c99171de5a9668ffd0415ad4d2b88706bfe372ebfb6cc8a5c",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/peer-1-john-5-subscope.json",
+          "sha256": "ad978b21dc75153d52cc3b42c9dc4eaf6b55613b47a1d87711e12a58f30041bf",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/revelation-source-availability.json",
+          "sha256": "ad7f06ca039fda342b789e7fe44191110cfc71889426f9fbef6a096729ed8e96",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        },
+        {
+          "file": "2026-10-31T194744Z/source-book-boundaries-reading-audit.json",
+          "sha256": "aca6fb074613f4ab6bb90a457350ae9f7e4822928ff142d2862e5fe738980017",
+          "additional_completion_credit": 0,
+          "additional_pair_credit": 0,
+          "purpose": "Preserved reading and draft-comparison evidence; final counts derive only from the final proposals and peer outcomes."
+        }
+      ],
+      "chapter_editorial_note_preservation": {
+        "books": [
+          "John",
+          "Romans"
+        ],
+        "existing_original_notes_preserved": 2,
+        "new_restorations": 0,
+        "source_verse_completion_credit": 0,
+        "pair_completion_credit": 0,
+        "preservation": "Original pinned editorial_notes and after_anchor metadata remain rendered after their original anchors, separate from verse bodies."
+      },
+      "scheduled_trigger_at_utc": "2026-10-31T19:47:44.881Z",
+      "batch_started_at_utc": "2026-10-31T19:48:04Z",
+      "source_availability_blocker": {
+        "book": "Revelation",
+        "canonical_order": 70,
+        "division": "Glory",
+        "status": "blocked_missing_pinned_source_record",
+        "source_repository": "Dotty777/Saints-Translation",
+        "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+        "source_main_verified_same_as_pin": true,
+        "evidence": "2026-10-31T194744Z/revelation-source-availability.json",
+        "evidence_sha256": "ad7f06ca039fda342b789e7fe44191110cfc71889426f9fbef6a096729ed8e96",
+        "reason": "Exact Saints Revelation source record unavailable in the verified pinned repository tree and current source main.",
+        "source_bodies_opened": 0,
+        "source_inventory_created": false,
+        "completion_credit": 0,
+        "continuation": "After Jude's originals are read, retain Revelation as next canonical source book. Do not create or count Revelation verse identities, totals, wording or cross-reference completions until the exact Saints source record is available and verified.",
+        "limit": "This evidence establishes absence in the pinned Saints-Translation GitHub repository and its current main, not absence from every possible external staging system. No external staging page or Revelation source body was opened.",
+        "canonical_continuation_cursor": {
+          "book": "Revelation",
+          "chapter": 1,
+          "reference": "Revelation 1:1",
+          "source_id": "v1-1"
+        },
+        "continuation_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record.",
+        "verified_native_source_unit": false
+      },
+      "source_availability_evidence": "2026-10-31T194744Z/revelation-source-availability.json",
+      "target_shortfall_reason": "All 119 remaining available never-reviewed originals from 1 John 3:1 through Jude 1:25 received supported reviews. All 12 saved deferrals remain unresolved without completion credit. The exact Saints Revelation source record is absent at the verified pinned commit and current source main, so no Revelation inventory or review is fabricated to fill the shortfall of 381 source verses.",
+      "next_unreviewed_source_identity_verified": false,
+      "next_unreviewed_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record.",
+      "review_records_assembled_at_utc": "2026-10-31T20:00:39.235863+00:00"
     }
   ],
   "target_per_hour": 500,
   "target_unit": "newly_completed_distinct_source_verses",
   "target_definition": "Complete passage-grounded cross-reference reviews for 500 new distinct source verses per hourly run, counting each source verse once. Keep pair totals separate; report actual counts and any shortfall.",
   "latest_target_result": {
-    "run_id": "2026-10-31T145128Z",
+    "run_id": "2026-10-31T194744Z",
     "target_per_hour": 500,
     "target_unit": "newly_completed_distinct_source_verses",
-    "target_count": 516,
-    "target_met": true,
-    "target_shortfall": 0,
-    "target_excess": 16
+    "target_count": 119,
+    "target_met": false,
+    "target_shortfall": 381,
+    "target_excess": 0
   },
   "target_history": [
     {
@@ -12198,7 +12652,39 @@
     "Hebrews",
     "James",
     "1 Peter",
-    "2 Peter"
+    "2 Peter",
+    "1 John",
+    "2 John",
+    "3 John",
+    "Jude"
   ],
-  "current_new_source_book": "1 John"
+  "current_new_source_book": "Revelation",
+  "source_availability_blocker": {
+    "book": "Revelation",
+    "canonical_order": 70,
+    "division": "Glory",
+    "status": "blocked_missing_pinned_source_record",
+    "source_repository": "Dotty777/Saints-Translation",
+    "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+    "source_main_verified_same_as_pin": true,
+    "evidence": "review-batches/2026-10-31T194744Z/revelation-source-availability.json",
+    "evidence_sha256": "ad7f06ca039fda342b789e7fe44191110cfc71889426f9fbef6a096729ed8e96",
+    "reason": "Exact Saints Revelation source record unavailable in the verified pinned repository tree and current source main.",
+    "source_bodies_opened": 0,
+    "source_inventory_created": false,
+    "completion_credit": 0,
+    "continuation": "After Jude's originals are read, retain Revelation as next canonical source book. Do not create or count Revelation verse identities, totals, wording or cross-reference completions until the exact Saints source record is available and verified.",
+    "limit": "This evidence establishes absence in the pinned Saints-Translation GitHub repository and its current main, not absence from every possible external staging system. No external staging page or Revelation source body was opened.",
+    "canonical_continuation_cursor": {
+      "book": "Revelation",
+      "chapter": 1,
+      "reference": "Revelation 1:1",
+      "source_id": "v1-1"
+    },
+    "continuation_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record.",
+    "verified_native_source_unit": false
+  },
+  "target_shortfall_reason": "All 119 remaining available never-reviewed originals from 1 John 3:1 through Jude 1:25 received supported reviews. All 12 saved deferrals remain unresolved without completion credit. The exact Saints Revelation source record is absent at the verified pinned commit and current source main, so no Revelation inventory or review is fabricated to fill the shortfall of 381 source verses.",
+  "next_unreviewed_source_identity_verified": false,
+  "next_unreviewed_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record."
 }

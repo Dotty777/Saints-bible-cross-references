@@ -1,8 +1,8 @@
 # Saints Holy Bible — separate New Testament cross-reference tracker
 
-7407 completed source verses; 7533 retained pairs; 228 completed chapters; 12 reviewed units deferred.
+7526 completed source verses; 7655 retained pairs; 234 completed chapters; 12 reviewed units deferred.
 
-First unfinished: **Matthew 1:14**. Next new source review: **1 John 3:1**.
+First unfinished: **Matthew 1:14**. Next new source review: **Revelation 1:1**.
 
 This hourly task begins at Matthew and follows the exact Saints Holy Bible 70-book order and divisions in [../canon.json](../canon.json): Salvation (44–47), Discipleship (48–69), Glory (70). Targets may use any of those 70 books when actual pinned passage evidence is available. [Progress](progress.json) and review counts here are separate from the [Old Testament tracker](../README.md). Pending books have no invented verse inventories.
 
@@ -34,14 +34,14 @@ The source texts remain the supplied English edition; this is not new critical-t
 | 63 | Discipleship | [James](james/README.md) | complete_initial_curated_pass | 108 | 108 |
 | 64 | Discipleship | [1 Peter](1-peter/README.md) | complete_initial_curated_pass | 105 | 105 |
 | 65 | Discipleship | [2 Peter](2-peter/README.md) | complete_initial_curated_pass | 61 | 61 |
-| 66 | Discipleship | [1 John](1-john/README.md) | in_progress | 39 | 39 |
-| 67 | Discipleship | 2 John | pending | 0 | 0 |
-| 68 | Discipleship | 3 John | pending | 0 | 0 |
-| 69 | Discipleship | Jude | pending | 0 | 0 |
+| 66 | Discipleship | [1 John](1-john/README.md) | complete_initial_curated_pass | 105 | 106 |
+| 67 | Discipleship | [2 John](2-john/README.md) | complete_initial_curated_pass | 13 | 13 |
+| 68 | Discipleship | [3 John](3-john/README.md) | complete_initial_curated_pass | 15 | 15 |
+| 69 | Discipleship | [Jude](jude/README.md) | complete_initial_curated_pass | 25 | 27 |
 | 70 | Glory | Revelation | pending | 0 | 0 |
 
 Run `python scripts/render_new_testament.py` and `python scripts/validate_new_testament.py --write-verification` from the repository root after updating records. Follow the book’s recovery guidance. Independent specialist and live destination-anchor/display checks remain pending.
 
-Latest hourly result: **516 / 500 new source verses**; shortfall: 0. [Review record](review-batches/2026-10-31T145128Z.json).
+Latest hourly result: **119 / 500 new source verses**; shortfall: 381. [Review record](review-batches/2026-10-31T194744Z.json).
 
-Original source reading completed for: **Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter**. Unresolved source deferrals remain separate and earn no completion credit.
+Original source reading completed for: **Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude**. Unresolved source deferrals remain separate and earn no completion credit.
