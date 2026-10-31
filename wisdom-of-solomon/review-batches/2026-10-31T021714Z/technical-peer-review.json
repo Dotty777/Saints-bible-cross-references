@@ -1,0 +1,57 @@
+{
+  "run_id": "2026-10-31T021714Z",
+  "base_commit": "ef108c4e3993f31456461e99313e5a012e50b5b2",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "reviewer": "Codex independent technical peer /root/ecclesiastes_author",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "2e474ee532d0455e624c5a06398e44e85554283d01131eaf96af6d39c40935a6"
+    },
+    {
+      "file": "render_books.py",
+      "sha256": "8a127c624b4fc5a4c28116fcb8fa0496f88a1ec12bff3b1372ca9c4c6c53c31c"
+    },
+    {
+      "file": "inventory-books.py",
+      "sha256": "f7941c9e6a90f4ee909f4d8daa7474d0bbb0e546475a1bab70df57cbd00b7692"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "technical-probe-fffa0898/result.json",
+      "sha256": "40271312e97eb6550d72ebeb6b50023fe2d0250c0e8d7706bd213f01634dfe9b"
+    },
+    {
+      "file": "p-afe2c116/result.json",
+      "sha256": "d8460e245e43f50e6ca4fe368a3705cdc441b52591df52547da03a565f2d32fe"
+    },
+    {
+      "file": "technical-wording-8a06cc34/result.json",
+      "sha256": "608f4fb77166546148286ce7cb5cadd018a1efccf281eda50e1d9a1e2edb976d"
+    }
+  ],
+  "scope": [
+    "Read the complete current helper, complete inventory generator, production native-chapter grouping and narrow renderer display-label diff. The renderer adds only optional chapter-display metadata and leaves Scripture rendering unchanged.",
+    "Verified exact frozen native source fields, order and section metadata for Wisdom 435 units and Sirach 1374 units. Sirach retains 52 native groups, its chapter-zero translator prologue with eight keys 1 and 1a through 1g, 51 numbered chapters, native gaps and the exact 219-unit reviewed prefix ending before Sirach 9:1.",
+    "Validated actual author packets: 654 read sources, 603 distinct supported source/passage pairs and 51 targetless zero-credit deferrals. Rejected duplicate and reordered cohorts, false reading flags and stale receipt hashes. Peer validation independently binds the final author hash, accepted disposition, distinct reviewer and every reading/triple flag.",
+    "Compared all 25 historical rendered books in the already-prepared scratch fixture: all 17843 source Scripture bodies, 22609 target-passage details, target Scripture bodies and native anchors are unchanged. All 40 prior run objects and the New Testament tracker pointer are preserved.",
+    "Verified the renderer appears as an exact explicit manifest output; its Sirach display label distinguishes 51 numbered chapters and the translator prologue. Independently rendered every complete prologue text and native anchor using a clearly synthetic isolated fixture.",
+    "Exercised contained path rejection and a real scratch interruption immediately after new Sirach file replacement: the previously existing progress bytes were restored and the newly created file removed, with no rollback conflicts. No production repository write occurred.",
+    "Reviewed preparation, final readback and maintenance restrictions: old records remain pinned Git objects, old Scripture bodies remain exact, only allowed continuation guidance changes, current outputs bind before/after hashes, and every explicitly listed technical evidence JSON is safely contained and hash-verified before archival.",
+    "The author context-evidence archive gap was resolved by using the already recognized reading_log field in the final Wisdom author receipt. No unresolved code findings remain.",
+    "Subsequently reviewed the exact neutral-candidate wording delta: three renderer labels, the new source-check summary label, and one count-bound whole-line historical plain-text replacement. Focused scratch rendering of Sirach, Ecclesiastes and Wisdom preserves every complete source/target body, anchor and pair count while removing misleading unread-evidence wording from all three formats. All eight actually read Sirach candidates retain their original zero-credit read flags.",
+    "Executed the actual capture_maintenance plain-text comparison block against the rendered historical Ecclesiastes fixture. It accepts only the exact known header replacement plus the established continuation update; an incorrect candidate count and an unrelated Scripture addition are both rejected. Prior rollback, containment and preserved-history probes were not repeated because those code paths are unchanged."
+  ],
+  "limitations": [
+    "Technical checks grant no semantic completion credit. The helper synthetic pipeline fixture deliberately stubs semantic receipt validation; actual author packets were validated separately by the independent probe. Final fresh-source registry, real semantic peers, full production validation and remote readback remain the root publication workflow."
+  ],
+  "probe_note": "One initial independent fixture assertion assumed an incorrect Sirach total. It was corrected to the frozen actual inventory count of 1374 and the entire probe then passed; no implementation change was necessary.",
+  "supersedes_technical_receipt_sha256": "7462a27cd05a7ab2841e55c67bf0c938368f90e1141703e47b9659bb3503379e"
+}

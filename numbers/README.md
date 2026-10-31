@@ -23,7 +23,7 @@ This book's initial curated pass is complete. Follow the current [overall tracke
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
-Pending target evidence: 6 candidate(s), excluded from completed counts. See [source-checks.json](source-checks.json).
+Unretained target candidates: 6, excluded from completed counts. See the recorded reasons in [source-checks.json](source-checks.json).
 
 ## Review batches
 

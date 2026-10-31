@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-10-31T021714Z",
+  "baseline_commit": "ef108c4e3993f31456461e99313e5a012e50b5b2",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "gates": [
+    {
+      "book": "Wisdom of Solomon",
+      "source_units_read_this_run": 435,
+      "reviewer": "Codex /root/ecclesiastes_author",
+      "all_actual_source_units_read_in_native_order": true,
+      "source_inventory_receipt": "inventory-wisdom-of-solomon-receipt.json",
+      "completion_credit": 0
+    },
+    {
+      "book": "Sirach",
+      "source_units_read_this_run": 219,
+      "reviewer": "Codex /root",
+      "all_actual_source_units_read_in_native_order": false,
+      "exact_cohort": "Translator prologue plus native chapters1\u20138, all219actualunits read in order",
+      "source_inventory_receipt": "inventory-sirach-receipt.json",
+      "next_never_reviewed": "Sirach 9:1",
+      "completion_credit": 0
+    }
+  ],
+  "rule": "Next book inventory/source review proceeds after preceding actual source reading; semantic completions require supported pairs and separate rationale reread."
+}

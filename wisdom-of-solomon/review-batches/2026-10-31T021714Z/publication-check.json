@@ -1,0 +1,50 @@
+{
+  "remote_ref": "origin/main",
+  "remote_commit": "91d0ec004e7f9d2150b80a5622a754d9962db296",
+  "review_base_commit": "ef108c4e3993f31456461e99313e5a012e50b5b2",
+  "only_independent_nt_changes": true,
+  "remote_nt_pointer": {
+    "records": "new-testament/",
+    "progress": "new-testament/progress.json",
+    "testament": "New Testament",
+    "source_book_count": 27,
+    "canonical_orders": [
+      44,
+      70
+    ],
+    "completed_source_verses": 2365,
+    "completed_cross_references": 2414,
+    "next": {
+      "book": "Matthew",
+      "chapter": 1,
+      "reference": "Matthew 1:14",
+      "source_id": "v1-14"
+    },
+    "next_unreviewed": {
+      "book": "Luke",
+      "chapter": 17,
+      "reference": "Luke 17:1",
+      "source_id": "v17-1"
+    },
+    "updated": "2026-10-30",
+    "target_per_hour": 500,
+    "target_unit": "newly_completed_distinct_source_verses",
+    "latest_target_result": {
+      "run_id": "2026-10-31T014513Z",
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 542,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 42
+    },
+    "fully_read_source_books": [
+      "Matthew",
+      "Mark"
+    ]
+  },
+  "merge_instruction": "Perform a normal Git merge. If only progress.json conflicts, preserve the complete local OT object and replace only new_testament_tracker with remote_nt_pointer. Do not reset or regenerate the semantic batch.",
+  "completion_credit": 0,
+  "newline_only_root_files": [],
+  "fresh_remote_canon_blob_sha": "e8636b7f8fc71856df3ff45e143dfb36421586ec"
+}

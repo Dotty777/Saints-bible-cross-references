@@ -32,7 +32,7 @@ def render_book(record,progress,style):
           f'{count} completed source verses; {pairs} completed cross-reference pairs.',data['completion_definition'],
           'Reference edition: '+data['source_edition']+'. Greek-based source numbering is retained.','']
     if deferred:text.insert(3,deferred_note)
-    if waiting:text.insert(4,f'{len(waiting)} target candidate(s) await source evidence or identity review and are excluded from completed pair totals; see source-checks.json.')
+    if waiting:text.insert(4,f'{len(waiting)} target candidate(s) remain unretained and are excluded from completed pair totals; see the recorded reasons in source-checks.json.')
     sections=[]
     for v in verses:
         text.extend([v['reference'],complete_text(v)]);items=[]
@@ -46,7 +46,7 @@ def render_book(record,progress,style):
     summary=('Completed entries within '+scope if deferred else scope)+f' · {count} completed verses · {pairs} completed pairs'
     page='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(name)+' cross-references</title><style>'+style+'</style></head><body><header><h1>'+e(name)+' cross-references</h1><p>'+e(summary)+'</p><p class="note">Initial curated pass. '+e(continuation)+' Greek-based Saints-Translation numbering is retained.</p><p class="note">'+e(data['completion_definition'])+'</p><nav>'+nav+'</nav><nav><a href="README.md">Book record</a> · <a href="'+e(data['readable_text'])+'">Plain text</a> · <a href="verses.json">Structured verse tracker</a> · <a href="../progress.json">Overall progress</a></nav></header>'+''.join(sections)+'<footer><p class="note">Latest review '+e(data['date'])+' by Codex (AI-assisted editorial review). Source: <a href="'+e(data['source_snapshot']['url'])+'">pinned Saints-Translation record</a>. Source-edition limitations continue to apply. Independent specialist and live-anchor review remain pending.</p></footer></body></html>'
     if not verses:page=page.replace('Latest review '+e(data['date'])+' by Codex (AI-assisted editorial review).','Inventory prepared '+e(data['date'])+' by Codex. Source verse review is pending.',1)
-    if waiting:page=page.replace('</header>','<p class="note">'+str(len(waiting))+' target candidate(s) await source evidence or identity review and are excluded from completed totals. <a href="source-checks.json">Pending evidence</a>.</p></header>',1)
+    if waiting:page=page.replace('</header>','<p class="note">'+str(len(waiting))+' target candidate(s) remain unretained and are excluded from completed totals. <a href="source-checks.json">Recorded reasons</a>.</p></header>',1)
     if deferred:page=page.replace('</header>','<p class="note">'+e(deferred_note)+' <a href="source-checks.json">Deferred source evidence</a>.</p></header>',1)
     write(folder/data['readable_html'],page)
     readme=(folder/'README.md').read_text(encoding='utf-8')
@@ -66,14 +66,14 @@ def render_book(record,progress,style):
     if deferred:follow+=' '+deferred_note+' Revisit these deferred units substantively before marking them complete; continue never-reviewed sources separately.'
     readme=readme[:start]+'## Continuation\n\n'+follow+' Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.\n\nSame-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.\n\n'+readme[end:]
     if waiting:
-        readme=readme.replace('## Review batches','Pending target evidence: '+str(len(waiting))+' candidate(s), excluded from completed counts. See [source-checks.json](source-checks.json).\n\n## Review batches',1)
+        readme=readme.replace('## Review batches','Unretained target candidates: '+str(len(waiting))+', excluded from completed counts. See the recorded reasons in [source-checks.json](source-checks.json).\n\n## Review batches',1)
     links=[]
     for batch in checks.get('review_batches',[]):
         links.append('- ['+batch['run_id']+']('+batch['records']+'): '+str(batch['new_pairs'])+' newly completed pairs across '+str(batch['new_source_verses'])+' source verses.')
     marker='## Review batches'
     if marker in readme:readme=readme[:readme.index(marker)]
     write(folder/'README.md',readme.rstrip()+'\n\n'+marker+'\n\n'+'\n'.join(links))
-    return {'book':name,'record':record,'units':data['total_source_verse_units'],'count':count,'pairs':pairs,'finished':finished,'last_chapter':last,'reviewed_through':verses[-1]['reference'] if verses else None,'total_chapters':len(chapter_units(data)),'total_source_sections':len(data['chapters'])}
+    return {'book':name,'record':record,'units':data['total_source_verse_units'],'count':count,'pairs':pairs,'finished':finished,'last_chapter':last,'reviewed_through':verses[-1]['reference'] if verses else None,'total_chapters':len(chapter_units(data)),'total_source_sections':len(data['chapters']),'division_label':data.get('chapter_display_label')}
 
 def main():
     progress=load(ROOT/'progress.json')
@@ -84,8 +84,8 @@ def main():
         state='initial curated pass complete for all chapters' if r['finished'] else 'initial curated pass complete for chapters 1–'+str(r['last_chapter'])+'; later chapters remain pending'
         if r['count'] and not r['finished']:state='initial curated pass in progress; latest completed unit '+r['reviewed_through']
         if not r['count']:state='source inventory complete; initial curated pass pending'
-        division_label=str(r['total_chapters'])+' chapters'
-        if r['total_source_sections']!=r['total_chapters']:division_label+=' in '+str(r['total_source_sections'])+' source sections'
+        division_label=r.get('division_label') or str(r['total_chapters'])+' chapters'
+        if not r.get('division_label') and r['total_source_sections']!=r['total_chapters']:division_label+=' in '+str(r['total_source_sections'])+' source sections'
         lines.append('- ['+r['book']+' — '+division_label+']('+r['record']['records']+'README.md): '+state+'; **'+str(r['count'])+' source verses, '+str(r['pairs'])+' matching cross-reference pairs**.')
     start=readme.index('- [Genesis');end=readme.index('[progress.json]',start)
     readme=readme[:start]+'\n'.join(lines)+'\n\n'+readme[end:]
