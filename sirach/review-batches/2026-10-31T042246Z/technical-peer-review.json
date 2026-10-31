@@ -1,0 +1,68 @@
+{
+  "run_id": "2026-10-31T042246Z",
+  "base_commit": "edb0af6e34be8c43102054c4c4c0daa9e3613068",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-31",
+  "review_timezone": "America/New_York",
+  "reviewer": "Codex independent technical peer /root/ecclesiastes_author",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "a45b1d440c4f8feecac5494232a95fa7cbb0955df088f0ac2931dd761471c3fe"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "382d13670238d308b4a931916ca907240d0332d6251b502639c9de414bf644ad"
+    },
+    {
+      "file": "updated-render_books.py",
+      "sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "technical-delta-5fc3102b/result.json",
+      "sha256": "e1afe8f1b02879e97395974ef0a4baeded2385dd0ed92ea0c28705dbbbbc0e2a"
+    },
+    {
+      "file": "p-714bfe03/result.json",
+      "sha256": "58389fb6488fe0fcfb9b42036acb5a2a9e2e904a999042c9bf63178ab894ff57"
+    },
+    {
+      "file": "p-f984da23/result.json",
+      "sha256": "0f88515ffbf3a8bac0ff7dbc45281b2c5280bfe53544c64f910b275f70ee3e8e"
+    },
+    {
+      "file": "technical-wording-bb95cab2/result.json",
+      "sha256": "3f0d0f870d2cfb0e66b72b1869a1787185af2bf5a39f13497561286d4ef5e460"
+    },
+    {
+      "file": "p-fb9152cd/result.json",
+      "sha256": "260a1bd73aab0fa79729d789996d623f27e315495e5d42c885d87af880e6725c"
+    },
+    {
+      "file": "p-42818596/result.json",
+      "sha256": "b191913ee1bc0f2407b4ce950c68b9561b416ec1211689d0d52b8829e4c77622"
+    }
+  ],
+  "prior_accepted_helper_sha256": "619bcbc4a55a714c603362a886d294ae455831d38f934f815ead15e4c083f6d4",
+  "review_scope": [
+    "This final acceptance supersedes the prior current-run helper binding. The initial end-of-Sirach delta was independently checked with16 focused probes; its earlier result files remain explicitly archived as prior-phase technical evidence. The final wording delta received12 additional focused probes and both full/partial fixtures were rerun against the final helper.",
+    "Read the complete helper diff from ad52b51b0ecb3ba3fd3889c9164303f4266d2668909d6d02a26c37668eedaf9a and the complete renderer diff. The renderer differs from the exact baseline production snapshot solely by replacing one occurrence of Later source verses remain pending. with Some source units remain pending. Its Scripture rendering, counts, review-state logic and all other bytes are unchanged.",
+    "The actual reviewed_renderer guard accepts only that exact byte substitution against the immutable baseline renderer. Independent negative probes reject a missing replacement, extra code and a changed old snapshot. Preparation requires the technical receipt to bind the final helper and exact updated renderer, archives the reviewed renderer, emits only that script change, and executes its staged copy.",
+    "All existing functions other than prepare, capture_maintenance and readback are AST-identical to the prior accepted helper. In particular current_base retains the old-code pre-apply guard; transaction rollback, safe paths, receipt checks, native cohorts, object preservation and publication-concurrency checks are unchanged. The new reviewed_renderer guard is the only added function.",
+    "Readback now requires literal equality to the reviewed updated renderer while retaining original guards for the compatibility renderer entrypoint, chapter parser and validator. Every other output remains hash-bound. The final fixtures exercised actual maintenance capture and readback, not substitutes for those functions.",
+    "The sole historical plain-text allowance substitutes the phrase once on line2. Executing the actual new block independently demonstrated that body text containing the same phrase is untouched, a completed-book header without that phrase is unchanged, the change is idempotent, and duplicate or missing headers are rejected. Historical HTML Scripture, target Scripture, anchors and details retain their existing exact-preservation checks.",
+    "Both final isolated fixtures passed all29 assertions and production validation for27 existing books, then actual maintenance capture and strict renderer readback. They preserve all805 old completed Sirach objects,83 deferrals,35 candidates,42 runs and the existing1374-unit native inventory. Full486-unit reading reaches Isaiah1:1 with an explicit inventory requirement and unchanged unknown Isaiah totals; partial485-unit reading stops at Sirach51:30.",
+    "Inspected final full and partial readable headers: both use Some source units remain pending. without altering completed spans or continuations. Earliest pending remains Sirach Prologue1 within the book and1Chronicles1:24 globally. Full reading does not imply completed cross-reference review; all unsupported synthetic fixture units remain deferred.",
+    "The final fixtures use two synthetic pairs on one source or zero pairs solely to test technical counting; semantic receipt validation is explicitly stubbed, historical archives are read in place, and completion credit is zero. Their actual renderer bytes and exact evidence hashes were independently checked. Earlier unrelated rollback probes were not repeated because that code is unchanged.",
+    "The files array binds the final helper, original baseline renderer and exact updated renderer. All six explicitly referenced current-run result JSONs are covered by the existing safe contained-path and SHA256 evidence archival. No repository files were modified by this review; semantic packets are unchanged."
+  ],
+  "independent_probe_checks": 28,
+  "repository_mutations": 0,
+  "final_wording_delta_probe_checks": 12,
+  "prior_end_of_sirach_probe_checks": 16
+}

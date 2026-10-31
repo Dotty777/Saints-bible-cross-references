@@ -25,7 +25,7 @@ def render_book(record,progress,style):
     global_unreviewed=(progress.get('next_unreviewed') or {}).get('reference')
     if deferred and not next_unreviewed and global_unreviewed:deferred_note+=' Next new source review: '+global_unreviewed+'.'
     global_next=(progress.get('next') or {}).get('reference')
-    continuation=('Book initial curated pass complete. Overall next: '+str(global_next)+'.') if finished else ('Next: '+str(next_ref)+'. Later source verses remain pending.')
+    continuation=('Book initial curated pass complete. Overall next: '+str(global_next)+'.') if finished else ('Next: '+str(next_ref)+'. Some source units remain pending.')
     scope=(verses[0]['reference']+'–'+verses[-1]['reference'].removeprefix(name+' ')) if verses else 'No source verses reviewed yet'
     e=html.escape
     text=[name+' — Saints Bible cross-references',('Completed entries within: ' if deferred else 'Completed: ')+scope+'. '+continuation,
