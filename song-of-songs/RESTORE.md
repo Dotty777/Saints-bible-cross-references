@@ -7,4 +7,4 @@ Read ../canon.json, ../progress.json, verses.json and inventory.json first. Pres
 
 117 original source units in 8 native chapters and 8 source sections remain unchanged. 117 read; 108 supported sources; 108 pairs; 0 never reviewed. First pending within book: **Song of Songs 1:9**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
-Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Sirach 9:1**.
+Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Sirach 34:1**.

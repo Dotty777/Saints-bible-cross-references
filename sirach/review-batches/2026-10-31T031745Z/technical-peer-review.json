@@ -1,0 +1,49 @@
+{
+  "run_id": "2026-10-31T031745Z",
+  "base_commit": "365b7e8c83d3ca1d66ef78477c5d2ef8939cb19f",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-30",
+  "review_timezone": "America/New_York",
+  "reviewer": "Codex independent technical peer /root/ecclesiastes_author",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "619bcbc4a55a714c603362a886d294ae455831d38f934f815ead15e4c083f6d4"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "382d13670238d308b4a931916ca907240d0332d6251b502639c9de414bf644ad"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "technical-probe-7912e23b/result.json",
+      "sha256": "a33400b5fae202f595d74ed45c3a2b8522d8f5e0c37e0955db6b67186577fdb4"
+    },
+    {
+      "file": "p-f609357b/result.json",
+      "sha256": "307e434423c3a0ec9bd36cab31fdc65dda85ef4c68a81d06809bc312db5c3dc5"
+    },
+    {
+      "file": "p-ff277adf/result.json",
+      "sha256": "fba7a015510c54db108b52051c392dd20ec9d77addc9a0203cd49d332ec37c2d"
+    }
+  ],
+  "review_scope": [
+    "Read the complete current helper and inspected the existing-Sirach append path, exact native cohorts, historical preservation, source/check evidence construction, receipt binding, preparation manifest, maintenance capture, readback and guarded transaction code.",
+    "Verified the baseline proof against Git: 27 existing book records, 41 historical runs, 18446 completed sources and 23212 completed pairs. Existing Sirach has 1374 actual units in 52 native groups, with 199 completed objects, 20 deferrals and 8 candidates. The complete existing inventory and native prologue metadata remain unchanged.",
+    "Independently validated the actual Sirach 9-17 author packet at 225 native sources, 201 distinct passage pairs and 24 zero-credit deferrals. A clearly labelled synthetic peer receipt was used only inside scratch to exercise peer receipt guards; it is not semantic acceptance.",
+    "Independent scratch probes reject reordered or duplicated native cohorts, missing source dispositions, duplicated passage pairs, stale author/peer hashes, all four false author and peer reading flags, credited deferrals, unread candidates and hints falsely claiming reading or completion.",
+    "Independent object-audit probes reject changes to prior completed units, future unread units, native prologue metadata, prior deferral/candidate/source-pin/batch prefixes and prior runs. The positive fixture separately establishes that two distinct target passages on one new source count as two pairs and one source.",
+    "Read and accepted both clearly labelled technical preparation fixtures: zero supported pairs and two synthetic pairs. They preserve all 199 old completed objects, 20 deferrals, 8 candidates, 41 runs and 1374-unit inventory; the next 669 sources advance cumulative actual reading to 888 and next unread to Sirach 34:1, with no synthetic semantic credit.",
+    "Both full scratch fixtures passed the production validator for all 27 existing books, retaining historical archives in place. The current helper does not output inventory, editorial-note or renderer changes. The production renderer snapshot equals the exact baseline Git blob and the prior accepted renderer after newline normalization.",
+    "The safe-path, apply/rollback, receipt and publication-concurrency functions are AST-identical to the previously accepted helper. The code still journals before/after bytes, checks each write boundary, restores only its own after-bytes, preserves concurrent changes, and performs no recursive deletion. Focused contained-path probes were repeated; unrelated rollback tests were not repeated.",
+    "The readback exception for modified historical verses is restricted to this configured existing Sirach book; audit_objects then requires every unit outside the explicit cohort, every prior completed object and all native metadata to remain exact. Other books retain exact baseline verses/inventory/editorial records and their previous rendered Scripture.",
+    "Technical evidence archival validates contained relative paths and every listed hash, archives only explicitly referenced JSON results, and binds this receipt to the final helper. Preparation and publication remain separate; this technical acceptance provides zero source or pair completion credit."
+  ],
+  "repository_mutations": 0,
+  "independent_probe_checks": 39
+}
