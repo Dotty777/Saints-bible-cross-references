@@ -1,0 +1,89 @@
+{
+  "run_id": "2026-10-31T140227Z",
+  "base_commit": "5a8a0c7b03248d8bbaecb7e448aadd355b420342",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "operator": "Codex /root",
+  "performed_at_utc": "2026-10-31T19:05:39.670425+00:00",
+  "explanation": "Technical reference repair only: two superseded unread-hint snapshots now resolve to the existing final owned proof of the same pinned-path 404 check. The original references and exact original records are preserved. All Scripture, retained triples, final cases, counts, reading attestations and original semantic reviewer identities are unchanged. This repair makes no new semantic-review or completion claim.",
+  "original_records": [
+    {
+      "file": "joel-1-4-reading-log.json.before-evidence-repair.txt",
+      "sha256": "1252d6121e32922ac028bec1fcd0128a857f5a5c40caf9efb9d6e9dd72002bf3"
+    },
+    {
+      "file": "joel-1-4-review.json.before-evidence-repair.txt",
+      "sha256": "6aebc379e69e021733122fb58877e50560f18da5ebc1e51dfd05aee7c7fe0a37"
+    },
+    {
+      "file": "joel-1-4-peer-review.json.before-evidence-repair.txt",
+      "sha256": "549285fc3f20139d60521763719ea8ce52d12847e36a61c0dec1121b10e5e21f"
+    }
+  ],
+  "changes": [
+    {
+      "json_path": [
+        "cases_reread",
+        7,
+        "case",
+        "availability_evidence"
+      ],
+      "corrected_reference": {
+        "file": "joel-revelation-unavailable.json",
+        "sha256": "80269ce4c1dbaf135d52eea15e6a28859871a8896ca09b9046e20e6f88f98165"
+      },
+      "superseded_filename": "revelation-unavailable.json",
+      "superseded_digest": "f234cc9fa90313ed8ec93a4b8ca64a04fa66ac91be066b0c528ddbabc0845e28"
+    },
+    {
+      "json_path": [
+        "cases_reread",
+        8,
+        "case",
+        "availability_evidence"
+      ],
+      "corrected_reference": {
+        "file": "joel-revelation-unavailable.json",
+        "sha256": "80269ce4c1dbaf135d52eea15e6a28859871a8896ca09b9046e20e6f88f98165"
+      },
+      "superseded_filename": "revelation-unavailable.json",
+      "superseded_digest": "f234cc9fa90313ed8ec93a4b8ca64a04fa66ac91be066b0c528ddbabc0845e28"
+    }
+  ],
+  "updated_records": [
+    {
+      "file": "joel-1-4-reading-log.json",
+      "sha256": "e3bb3b19c30f5aed89abe97064ba794e6b9a0c9f3b0c5095ffcfcc76687faa79"
+    },
+    {
+      "file": "joel-1-4-review.json",
+      "sha256": "b982be0cbef88b4ede9a86bcdb47fa81b84e9fc7e1979257401862b94561ddec"
+    },
+    {
+      "file": "joel-1-4-peer-review.json",
+      "sha256": "ae56ee9f7eb42c949fd86e29f56964a86577d3529b15ec4c51436e84a847ed9d"
+    }
+  ],
+  "protected_unchanged_records": [
+    {
+      "file": "joel-1-4.tsv",
+      "sha256": "f613c523d21b1a1e49e81d2c23a99d1b802ca82b07b20e8bfda994f271491056"
+    },
+    {
+      "file": "joel-1-4-cases.json",
+      "sha256": "1a3ad61b8192b5cbd2d3736ba318f36bde332dce81460093a4a8b0d71b539c91"
+    },
+    {
+      "file": "joel-1-4-reread.json",
+      "sha256": "40392b2a73e25bde65f7979df02b5d2cfa1e075933bfab74ae1fb84156949d42"
+    },
+    {
+      "file": "joel-1-4-peer-reading-log.json",
+      "sha256": "2dc382934d3bcfcdd0e4136b0dd2165fd0f39743f7d5a2e96d74d7b93f1f049c"
+    },
+    {
+      "file": "joel-1-4-peer-reread.json",
+      "sha256": "22a2bd6eeea0604156791e5cd4b965ff764a3cbd5c2e8dc2bccd2c9e17bbd6d0"
+    }
+  ],
+  "completion_credit": 0
+}

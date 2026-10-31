@@ -1,0 +1,66 @@
+{
+  "remote_ref": "origin/main",
+  "remote_commit": "11160d98f62dc1a53da68532980de8d5fdcfc824",
+  "review_base_commit": "5a8a0c7b03248d8bbaecb7e448aadd355b420342",
+  "only_independent_nt_changes": true,
+  "remote_nt_pointer": {
+    "records": "new-testament/",
+    "progress": "new-testament/progress.json",
+    "testament": "New Testament",
+    "source_book_count": 27,
+    "canonical_orders": [
+      44,
+      70
+    ],
+    "completed_source_verses": 6891,
+    "completed_cross_references": 7003,
+    "next": {
+      "book": "Matthew",
+      "chapter": 1,
+      "reference": "Matthew 1:14",
+      "source_id": "v1-14"
+    },
+    "next_unreviewed": {
+      "book": "Hebrews",
+      "chapter": 7,
+      "reference": "Hebrews 7:1",
+      "source_id": "v7-1"
+    },
+    "updated": "2026-10-31",
+    "target_per_hour": 500,
+    "target_unit": "newly_completed_distinct_source_verses",
+    "latest_target_result": {
+      "run_id": "2026-10-31T131026Z",
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 509,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 9
+    },
+    "fully_read_source_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John",
+      "Acts",
+      "Romans",
+      "1 Corinthians",
+      "2 Corinthians",
+      "Galatians",
+      "Ephesians",
+      "Philippians",
+      "Colossians",
+      "1 Thessalonians",
+      "2 Thessalonians",
+      "1 Timothy",
+      "2 Timothy",
+      "Titus",
+      "Philemon"
+    ]
+  },
+  "merge_instruction": "Perform a normal Git merge. If only progress.json conflicts, preserve the complete local OT object and replace only new_testament_tracker with remote_nt_pointer. Do not reset or regenerate the semantic batch.",
+  "completion_credit": 0,
+  "newline_only_root_files": [],
+  "fresh_remote_canon_blob_sha": "e8636b7f8fc71856df3ff45e143dfb36421586ec"
+}

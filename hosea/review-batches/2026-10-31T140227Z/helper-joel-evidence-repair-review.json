@@ -1,0 +1,178 @@
+{
+  "run_id": "2026-10-31T140227Z",
+  "reviewer": "Codex /root/amos_helper_recovery",
+  "reviewed_at_utc": "2026-10-31T19:06:58.005017+00:00",
+  "disposition": "accepted technical reference repair only",
+  "repair_journal": {
+    "file": "joel-evidence-reference-repair.json",
+    "sha256": "809ceb2d0989f799165e9634fb16723fc5b397c0f1795e8737394d1e30a1b1ad"
+  },
+  "original_records": [
+    {
+      "file": "joel-1-4-reading-log.json.before-evidence-repair.txt",
+      "sha256": "1252d6121e32922ac028bec1fcd0128a857f5a5c40caf9efb9d6e9dd72002bf3"
+    },
+    {
+      "file": "joel-1-4-review.json.before-evidence-repair.txt",
+      "sha256": "6aebc379e69e021733122fb58877e50560f18da5ebc1e51dfd05aee7c7fe0a37"
+    },
+    {
+      "file": "joel-1-4-peer-review.json.before-evidence-repair.txt",
+      "sha256": "549285fc3f20139d60521763719ea8ce52d12847e36a61c0dec1121b10e5e21f"
+    }
+  ],
+  "updated_records": [
+    {
+      "file": "joel-1-4-reading-log.json",
+      "sha256": "e3bb3b19c30f5aed89abe97064ba794e6b9a0c9f3b0c5095ffcfcc76687faa79"
+    },
+    {
+      "file": "joel-1-4-review.json",
+      "sha256": "b982be0cbef88b4ede9a86bcdb47fa81b84e9fc7e1979257401862b94561ddec"
+    },
+    {
+      "file": "joel-1-4-peer-review.json",
+      "sha256": "ae56ee9f7eb42c949fd86e29f56964a86577d3529b15ec4c51436e84a847ed9d"
+    }
+  ],
+  "protected_unchanged_records": [
+    {
+      "file": "joel-1-4.tsv",
+      "sha256": "f613c523d21b1a1e49e81d2c23a99d1b802ca82b07b20e8bfda994f271491056"
+    },
+    {
+      "file": "joel-1-4-cases.json",
+      "sha256": "1a3ad61b8192b5cbd2d3736ba318f36bde332dce81460093a4a8b0d71b539c91"
+    },
+    {
+      "file": "joel-1-4-reread.json",
+      "sha256": "40392b2a73e25bde65f7979df02b5d2cfa1e075933bfab74ae1fb84156949d42"
+    },
+    {
+      "file": "joel-1-4-peer-reading-log.json",
+      "sha256": "2dc382934d3bcfcdd0e4136b0dd2165fd0f39743f7d5a2e96d74d7b93f1f049c"
+    },
+    {
+      "file": "joel-1-4-peer-reread.json",
+      "sha256": "22a2bd6eeea0604156791e5cd4b965ff764a3cbd5c2e8dc2bccd2c9e17bbd6d0"
+    }
+  ],
+  "proof": {
+    "file": "joel-revelation-unavailable.json",
+    "sha256": "80269ce4c1dbaf135d52eea15e6a28859871a8896ca09b9046e20e6f88f98165"
+  },
+  "independent_check": {
+    "file": "helper-review-joel-repair.py",
+    "sha256": "e9d18e6a452e1f3a27bc7b55149d2a55a76c90a0205e6f1617cc18f39d5c0015"
+  },
+  "exact_structured_differences": {
+    "joel-1-4-reading-log.json": [
+      {
+        "path": [
+          "cases_reread",
+          7,
+          "case",
+          "availability_evidence",
+          "file"
+        ],
+        "before": "revelation-unavailable.json",
+        "after": "joel-revelation-unavailable.json"
+      },
+      {
+        "path": [
+          "cases_reread",
+          7,
+          "case",
+          "availability_evidence",
+          "sha256"
+        ],
+        "before": "f234cc9fa90313ed8ec93a4b8ca64a04fa66ac91be066b0c528ddbabc0845e28",
+        "after": "80269ce4c1dbaf135d52eea15e6a28859871a8896ca09b9046e20e6f88f98165"
+      },
+      {
+        "path": [
+          "cases_reread",
+          8,
+          "case",
+          "availability_evidence",
+          "file"
+        ],
+        "before": "revelation-unavailable.json",
+        "after": "joel-revelation-unavailable.json"
+      },
+      {
+        "path": [
+          "cases_reread",
+          8,
+          "case",
+          "availability_evidence",
+          "sha256"
+        ],
+        "before": "f234cc9fa90313ed8ec93a4b8ca64a04fa66ac91be066b0c528ddbabc0845e28",
+        "after": "80269ce4c1dbaf135d52eea15e6a28859871a8896ca09b9046e20e6f88f98165"
+      },
+      {
+        "path": [
+          "technical_reference_repair"
+        ],
+        "change": "added annotation"
+      }
+    ],
+    "joel-1-4-review.json": [
+      {
+        "path": [
+          "reading_log",
+          "sha256"
+        ],
+        "before": "1252d6121e32922ac028bec1fcd0128a857f5a5c40caf9efb9d6e9dd72002bf3",
+        "after": "e3bb3b19c30f5aed89abe97064ba794e6b9a0c9f3b0c5095ffcfcc76687faa79"
+      },
+      {
+        "path": [
+          "technical_rebind"
+        ],
+        "change": "added annotation"
+      }
+    ],
+    "joel-1-4-peer-review.json": [
+      {
+        "path": [
+          "author_review_sha256"
+        ],
+        "before": "6aebc379e69e021733122fb58877e50560f18da5ebc1e51dfd05aee7c7fe0a37",
+        "after": "b982be0cbef88b4ede9a86bcdb47fa81b84e9fc7e1979257401862b94561ddec"
+      },
+      {
+        "path": [
+          "author_sha256"
+        ],
+        "before": "6aebc379e69e021733122fb58877e50560f18da5ebc1e51dfd05aee7c7fe0a37",
+        "after": "b982be0cbef88b4ede9a86bcdb47fa81b84e9fc7e1979257401862b94561ddec"
+      },
+      {
+        "path": [
+          "technical_rebind"
+        ],
+        "change": "added annotation"
+      }
+    ]
+  },
+  "read_evidence_tool_outputs": [
+    "e4a72e",
+    "c83e22",
+    "ff52af"
+  ],
+  "findings": [
+    "Only two unread-hint evidence links, required dependent digests, and transparent technical annotations changed.",
+    "Restoring just those fields yields exact original parsed objects; full original bytes are preserved and SHA256-bound.",
+    "Final Joel TSV, cases, author full-triple reread, peer reading log and peer full-triple reread retain their protected SHA256 values.",
+    "Source text, target text, rationale, reading attestations, original semantic reviewer identities, acceptance and counts are unchanged.",
+    "Replacement evidence is the existing final owned proof of unavailability at the pinned Revelation source path; this is no new target reading or semantic review."
+  ],
+  "limitations": [
+    "This technical acceptance is not an independent semantic rereview of Joel and does not make a fresh claim that Revelation target passages were read."
+  ],
+  "completed_source_credit": 0,
+  "completed_pair_credit": 0,
+  "completion_credit": 0
+}
