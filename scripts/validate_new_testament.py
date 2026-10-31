@@ -59,7 +59,7 @@ def validate(write_verification=False):
   sections=[original_units] if isinstance(d,list) else [c['verses'] for c in d['chapters']]
   need(all(len({u['id'] for u in section})==len(section) for section in sections),'Duplicate original snapshot anchor within a reading section')
   snapshots[book]=d;pins[book]={k:v for k,v in s.items() if k not in ['size','sha256']}
- totals=Counter();pair_ids=[];global_next=None;global_new=None;reports=[];all_reviewed=[];all_deferred=[];earlier_book_unreviewed=False;batch_decisions={};batch_source_books={}
+ totals=Counter();pair_ids=[];global_next=None;global_new=None;reports=[];all_reviewed=[];all_deferred=[];earlier_book_unreviewed=False;batch_decisions={};batch_source_books={};fully_read_books=[]
  for b in p['books']:
   folder=path(b['records']);record=folder/'verses.json'
   if not record.exists():
@@ -132,6 +132,9 @@ def validate(write_verification=False):
   need(d['completed_source_verses']==b['completed_source_verses']==len(done) and d['completed_cross_references']==b['completed_cross_references']==len(all_edges),'Book completion totals mismatch')
   need(d['completed_chapters']==b['completed_chapters']==completed_chapters and d['reviewed_chapters']==reviewed_chapters,'Book chapter lists mismatch')
   need(d['reviewed_source_units']==b['reviewed_source_units']==len(reviewed),'Book review count mismatch')
+  all_read=len(reviewed)==len(sourceunits)
+  need(d.get('all_original_source_units_read',all_read)==b.get('all_original_source_units_read',all_read)==all_read,'Book source-reading completion claim mismatch')
+  if all_read:fully_read_books.append(b['book'])
   need(not earlier_book_unreviewed or not reviewed,'Reviewed a later source book before reading every original source unit in its predecessor: '+b['book'])
   if newref:earlier_book_unreviewed=True
   need(d['next_reference']==b['next_reference']==(nextref or {}).get('reference') and d['next_unreviewed_reference']==b['next_unreviewed_reference']==(newref or {}).get('reference'),'Book continuation skips a source unit')
@@ -156,11 +159,16 @@ def validate(write_verification=False):
   if newref and global_new is None:global_new=newref
   totals.update(verses=len(done),pairs=len(all_edges),chapters=len(completed_chapters),reviewed=len(reviewed),deferred=len(deferred),books=int(not nextref));all_reviewed.extend(v['reference'] for v in reviewed);all_deferred.extend(v['reference'] for v in deferred)
   report={'schema_version':1,'book':b['book'],'checked_at_utc':datetime.now(timezone.utc).isoformat(),'result':'passed','canon_and_division_order':'passed','original_full_book_snapshot_git_blobs':'passed','complete_source_inventory_wording_and_anchors':'passed','complete_target_passage_identity_wording_order_and_hashes':'passed','unique_pair_ids':'passed','readable_html_source_target_text_and_pair_count':'passed','plain_text_source_target_passages_and_explanations':'passed','completed_source_verses':len(done),'completed_cross_references':len(all_edges),'completed_chapters':completed_chapters,'reviewed_source_units':len(reviewed),'deferred_source_units':len(deferred),'next_reference':(nextref or {}).get('reference'),'next_unreviewed_reference':(newref or {}).get('reference'),'semantic_review':'AI-assisted passage review recorded per pair; technical validation does not independently establish the interpretation.','independent_specialist_review':'pending','live_destination_anchor_checks':'not performed','remote_commit_readback':'performed separately after publication; not established by this validator'}
+  report['all_original_source_units_read']=all_read
+  report['archived_peer_review_coverage_and_resolutions']='passed'
   report['hourly_target']=p['target_per_hour'];report['target_unit']=p['target_unit'];report['latest_target_result']=p['latest_target_result']
   inputs=[ROOT/'canon.json',NT/'progress.json',NT/'source-snapshots'/'manifest.json']+[folder/name for name in ['verses.json','inventory.json','source-checks.json','editorial-notes.json','README.md','RESTORE.md',d['readable_html'],d['readable_text']]]
   for run in p['runs']:
    batch_file=path('review-batches/'+run['run_id']+'.json');inputs.append(batch_file)
-   inputs.extend(path('review-batches/'+relative) for relative in load(batch_file)['proposal_files'])
+   saved_batch=load(batch_file)
+   inputs.extend(path('review-batches/'+relative) for relative in saved_batch['proposal_files'])
+   for relative in saved_batch.get('peer_review_files',[]):
+    peer_file=path('review-batches/'+relative);need(peer_file.exists(),'Missing declared peer-review archive');inputs.append(peer_file)
   report['checked_file_sha256']={f.relative_to(ROOT).as_posix():hashlib.sha256(f.read_bytes()).hexdigest() for f in inputs}
   report['root_tracker_pointer_sha256']=digest(json.dumps(load(ROOT/'progress.json')['new_testament_tracker'],ensure_ascii=False,sort_keys=True))
   if not write_verification:
@@ -171,8 +179,10 @@ def validate(write_verification=False):
  for key,val in [('completed_source_verses','verses'),('completed_cross_references','pairs'),('completed_chapters','chapters'),('reviewed_source_units','reviewed'),('deferred_source_units_count','deferred'),('completed_book_records','books')]:need(p[key]==totals[val],'New Testament total mismatch: '+key)
  need(p['pending_book_records']==27-totals['books'] and p['new_testament_complete']==(totals['books']==27),'New Testament completion claim mismatch')
  need(p['next']==global_next and p['next_unreviewed']==global_new,'New Testament continuation mismatch')
+ need(p.get('fully_read_source_books',fully_read_books)==fully_read_books,'Fully-read source-book list mismatch')
  rootpointer=load(ROOT/'progress.json')['new_testament_tracker'];need(rootpointer['completed_source_verses']==totals['verses'] and rootpointer['completed_cross_references']==totals['pairs'] and rootpointer['next']==global_next and rootpointer['next_unreviewed']==global_new,'Root New Testament pointer stale')
  need(rootpointer['target_per_hour']==500 and rootpointer['target_unit']==target_unit and rootpointer['latest_target_result']==p['latest_target_result'],'Root New Testament target pointer stale')
+ need(rootpointer.get('fully_read_source_books',fully_read_books)==fully_read_books,'Root fully-read source-book pointer stale')
  savedpairs=[];completed_sources_seen=set()
  for run in p['runs']:
   batch=load(path('review-batches/'+run['run_id']+'.json'));need(batch==run,'Progress run differs from review record');savedpairs.extend(batch['pair_ids'])
@@ -181,8 +191,16 @@ def validate(write_verification=False):
   need(batch['target_per_hour']==500 and batch['target_unit']==target_unit and batch['target_count']==credit,'Hourly target count differs from distinct completed source verses')
   need(batch['target_met']==(credit>=500) and batch['target_shortfall']==max(0,500-credit) and batch['target_excess']==max(0,credit-500),'Hourly target result or shortfall mismatch')
   proposal_units=[];proposed_pairs=[];deferred_ids=[];reviewed_decisions=[]
-  for relative in batch['proposal_files']:
+  peer_files=batch.get('peer_review_files',[])
+  need(isinstance(peer_files,list) and len(peer_files)==len(batch['proposal_files']),'Peer-review archive coverage mismatch')
+  for proposal_index,relative in enumerate(batch['proposal_files']):
    proposal=load(path('review-batches/'+relative));proposal_units.extend(proposal['reviewed_chapters'])
+   peer=load(path('review-batches/'+peer_files[proposal_index]))
+   peer_count=peer.get('retained_pairs_checked',peer.get('pairs_read',peer.get('pair_count_reviewed')))
+   need(peer_count==len(proposal['pairs']),'Peer-review retained-pair coverage mismatch')
+   for field in ['findings','material_findings','optional_wording_suggestions']:
+    findings=peer.get(field,[]);need(isinstance(findings,list),'Invalid peer-review findings')
+    need(all(isinstance(f,dict) and bool(f.get('resolution')) for f in findings),'Unresolved archived peer-review finding')
    source_books=batch_source_books.get(run['run_id'],set());source_book=proposal.get('source_book') or (next(iter(source_books)) if len(source_books)==1 else None)
    need(source_book in {x['book'] for x in expected},'Proposal must identify its canonical New Testament source book when a batch spans books')
    need(source_book in snapshots,'Proposal source book lacks an archived original')

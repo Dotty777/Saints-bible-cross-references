@@ -1,0 +1,34 @@
+{
+  "reviewed_file": "mark-1-2-review.json",
+  "pairs_read": 74,
+  "source_units_read": 73,
+  "source_units_with_pairs": 71,
+  "deferred_source_units": 2,
+  "status": "pass; the rationale precision correction is applied",
+  "findings": [
+    {
+      "source_id": "v2-12",
+      "target_book": "Luke",
+      "target_ids": [
+        "v5-25",
+        "v5-26"
+      ],
+      "issue": "The rationale says both accounts narrate going home. The actual Mark 2:12 unit says the man went out before everyone; going home is explicit in Luke 5:25. Mark 2:11 commanded going home, but that should not silently become a verbatim narrative detail of 2:12.",
+      "fix": "Both narrate the man immediately rising, taking his bed and departing, followed by amazement and glorification of God. Luke explicitly says he went home; Mark says he went out before everyone. Mark says the witnesses had never seen anything like it; Luke says they saw extraordinary things and explicitly describes fear.",
+      "reject": false,
+      "resolution": "Applied in the final proposal and retained pair; no source completion or pair count changed."
+    }
+  ],
+  "checks": [
+    "All 74 proposed source/target/rationale pairs and both deferred source units were read against exact cached Saints English texts. The proposed 71 paired sources and 2 deferrals account for all 73 actual source units.",
+    "All target IDs resolve, ranges follow contiguous original units, pair keys are unique, and no self target occurs.",
+    "The opening composite citation accurately preserves Mark's Isaiah heading while separately identifying Malachi and Exodus parallels. God's My face and Mark's Thy face are not harmonized.",
+    "Baptism wording into versus upon, heavenly Thou art versus This is, Spirit versus Spirit-and-fire, temptation timing, Galilee proclamation, and healing summaries preserve actual differences.",
+    "Mark's Abiathar and Saints Samuel's Abimelech are explicitly retained without harmonizing the priest names. Samuel's 21:2–7 numbering and actual holy-bread language are correct.",
+    "The Sabbath human-benefit comparison to Deuteronomy 5:14–15 is supported by its explicit extension of rest to servants and remembrance of liberation.",
+    "No pair rejection or completion-count reduction is required by the one wording correction."
+  ],
+  "limitations": [
+    "AI-assisted English peer review, not independent human specialist review, fresh Greek apparatus verification, or live destination-anchor checking."
+  ]
+}
