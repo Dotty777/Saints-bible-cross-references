@@ -1,8 +1,8 @@
 # Mark cross-reference records
 
-660 completed source verses; 668 retained pairs; 673 source units read; 13 deferred units.
+661 completed source verses; 669 retained pairs; 673 source units read; 12 deferred units.
 
-First unfinished: Mark 1:33. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Luke 17:1.
+First unfinished: Mark 1:33. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: John 6:1.
 
 Completed chapters: 2, 3, 5, 6, 12, 13, 15, 16. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 673 original source units in 16 chapters. Deferred units receive no completion credit.
 
@@ -21,3 +21,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-30T233941Z](../review-batches/2026-10-30T233941Z.json): 243 completed source verses and 246 retained pairs.
 - [2026-10-31T004042Z](../review-batches/2026-10-31T004042Z.json): 415 completed source verses and 420 retained pairs.
 - [2026-10-31T014513Z](../review-batches/2026-10-31T014513Z.json): 2 completed source verses and 2 retained pairs.
+- [2026-10-31T024944Z](../review-batches/2026-10-31T024944Z.json): 1 completed source verses and 1 retained pairs.

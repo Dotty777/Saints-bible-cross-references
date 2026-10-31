@@ -13,12 +13,12 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Source books follow the saved canon order. This batch continues Luke and reconsiders earlier deferred units; it opens no new source book. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
+  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Source books follow the saved canon order. All remaining Luke source units were read before John source review began; saved deferrals were reconsidered separately without automatic credit. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
   "checked_scope": {
     "source_range": "Matthew 1:1–28:20",
     "source_units_read": 1068,
-    "completed_source_verses": 1022,
-    "retained_pairs": 1055
+    "completed_source_verses": 1028,
+    "retained_pairs": 1061
   },
   "review_batches": [
     {
@@ -62,6 +62,16 @@
       "new_source_verses": 0,
       "new_completed_revisited_sources": 0,
       "new_pairs": 0
+    },
+    {
+      "run_id": "2026-10-31T024944Z",
+      "records": "../review-batches/2026-10-31T024944Z.json",
+      "source_units_read": 46,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 46,
+      "new_source_verses": 6,
+      "new_completed_revisited_sources": 6,
+      "new_pairs": 6
     }
   ],
   "deferred_source_units": [
@@ -122,14 +132,6 @@
       "completed_pair_credit": 0
     },
     {
-      "source_reference": "Matthew 13:52",
-      "source_id": "v13-52",
-      "reason": "The scribe-householder comparison was reread with the surrounding parable conclusions. A generic overlap involving treasure or old/new possessions does not establish its particular claim about a scribe made a kingdom disciple. No unsupported allusion is retained.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
       "source_reference": "Matthew 14:18",
       "source_id": "v14-18",
       "reason": "Mark 6:38–39 was reread with the feeding context. It records counting the loaves and arranging the people, without Jesus' particular command to bring the food to Him. Shared feeding context alone does not resolve this individual unit.",
@@ -149,14 +151,6 @@
       "source_reference": "Matthew 14:29",
       "source_id": "v14-29",
       "reason": "John 21:4–7 was reread as a possible Peter-and-sea comparison. It describes Peter throwing himself into the sea after hearing that it is the Lord, not walking on it at Jesus' command. The limited shared setting was not retained as a sufficiently precise counterpart to this action.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 15:12",
-      "source_id": "v15-12",
-      "reason": "The offense report was reread with Mark 7:17 and its discourse context. Mark records the disciples asking in the house, not their report of the Pharisees' offense. A generic shared response to teaching does not resolve the stated report.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -306,14 +300,6 @@
       "completed_pair_credit": 0
     },
     {
-      "source_reference": "Matthew 23:24",
-      "source_id": "v23-24",
-      "reason": "The distinctive gnat-straining and camel-swallowing image was read. Other images of disproportionate moral attention were considered too general to serve as a close separate counterpart in this initial review.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
       "source_reference": "Matthew 24:12",
       "source_id": "v24-12",
       "reason": "The prediction that increasing lawlessness will make many people's love grow cold was read. Broader lists of wrongdoing or apostasy do not repeat this causal connection, and no sufficiently specific target was retained.",
@@ -357,30 +343,6 @@
       "source_reference": "Matthew 25:33",
       "source_id": "v25-33",
       "reason": "The assignment of sheep to the right and goats to the left was read. Ezekiel's flock judgment supports the preceding separation image but does not specify this right-and-left arrangement; no separate sufficiently close counterpart was retained for this unit.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 25:37",
-      "source_id": "v25-37",
-      "reason": "The righteous people's question about when they saw and fed the hungry or gave the thirsty King drink was read. Repetition of the scene's immediately preceding list was not treated as sufficient new cross-reference evidence for this distinctive question.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 25:39",
-      "source_id": "v25-39",
-      "reason": "The question about when they visited the sick or imprisoned King was read. General prison-care instructions were not counted as reproducing this distinctive question about unrecognized service.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 25:44",
-      "source_id": "v25-44",
-      "reason": "The condemned people's question about when they saw the King in these needs and failed to serve was read. No sufficiently close independent counterpart was retained, and the scene's repeated need-list was not used merely to manufacture completion.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -511,6 +473,14 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-corinthians/verses.json",
+      "blob_sha": "2b83f1dc75d862ddb0a0a9fdbdbd63fc2682c346",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-corinthians/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-corinthians.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "2-kings/verses.json",
       "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json",
@@ -531,6 +501,14 @@
       "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-samuel.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-timothy/verses.json",
+      "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-timothy/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-timothy.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -615,6 +593,14 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "habakkuk/verses.json",
+      "blob_sha": "063a4d3ef92c24ad68dc9ab29277e898efb3e22e",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/habakkuk/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/habakkuk.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "hebrews/verses.json",
       "blob_sha": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hebrews/verses.json",
@@ -687,6 +673,14 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "joshua/verses.json",
+      "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/joshua.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "judges/verses.json",
       "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json",
@@ -743,10 +737,26 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "nehemiah/verses.json",
+      "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/nehemiah.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "numbers/verses.json",
       "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/numbers.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "philemon/verses.json",
+      "blob_sha": "db99a0fd902579ffa80ac21f59faa6e18cfb4142",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/philemon/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/philemon.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -795,6 +805,22 @@
       "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/sirach.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "song-of-songs/verses.json",
+      "blob_sha": "c25dcabd0c7416a129af37911b972ee3b89ed821",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/song-of-songs/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/song-of-songs.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "wisdom-of-solomon/verses.json",
+      "blob_sha": "468127efad884589c0e3009ffb16ab7d1ad2fe10",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/wisdom-of-solomon/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/wisdom-of-solomon.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -863,6 +889,60 @@
       "previous_reason": "The transition stating that Jesus finished these words and addressed the disciples was read. Other general discourse-ending formulas were not retained as a sufficiently distinctive counterpart to this source unit.",
       "retained_pair_ids": [
         "matthew-26-1__matthew-7-28"
+      ]
+    },
+    {
+      "source_reference": "Matthew 13:52",
+      "source_id": "v13-52",
+      "resolved_in_run": "2026-10-31T024944Z",
+      "previous_reason": "The scribe-householder comparison was reread with the surrounding parable conclusions. A generic overlap involving treasure or old/new possessions does not establish its particular claim about a scribe made a kingdom disciple. No unsupported allusion is retained.",
+      "retained_pair_ids": [
+        "matthew-13-52__song-of-songs-7-14"
+      ]
+    },
+    {
+      "source_reference": "Matthew 15:12",
+      "source_id": "v15-12",
+      "resolved_in_run": "2026-10-31T024944Z",
+      "previous_reason": "The offense report was reread with Mark 7:17 and its discourse context. Mark records the disciples asking in the house, not their report of the Pharisees' offense. A generic shared response to teaching does not resolve the stated report.",
+      "retained_pair_ids": [
+        "matthew-15-12__luke-11-45"
+      ]
+    },
+    {
+      "source_reference": "Matthew 23:24",
+      "source_id": "v23-24",
+      "resolved_in_run": "2026-10-31T024944Z",
+      "previous_reason": "The distinctive gnat-straining and camel-swallowing image was read. Other images of disproportionate moral attention were considered too general to serve as a close separate counterpart in this initial review.",
+      "retained_pair_ids": [
+        "matthew-23-24__matthew-7-3-7-5"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:37",
+      "source_id": "v25-37",
+      "resolved_in_run": "2026-10-31T024944Z",
+      "previous_reason": "The righteous people's question about when they saw and fed the hungry or gave the thirsty King drink was read. Repetition of the scene's immediately preceding list was not treated as sufficient new cross-reference evidence for this distinctive question.",
+      "retained_pair_ids": [
+        "matthew-25-37__matthew-25-44"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:39",
+      "source_id": "v25-39",
+      "resolved_in_run": "2026-10-31T024944Z",
+      "previous_reason": "The question about when they visited the sick or imprisoned King was read. General prison-care instructions were not counted as reproducing this distinctive question about unrecognized service.",
+      "retained_pair_ids": [
+        "matthew-25-39__matthew-25-44"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:44",
+      "source_id": "v25-44",
+      "resolved_in_run": "2026-10-31T024944Z",
+      "previous_reason": "The condemned people's question about when they saw the King in these needs and failed to serve was read. No sufficiently close independent counterpart was retained, and the scene's repeated need-list was not used merely to manufacture completion.",
+      "retained_pair_ids": [
+        "matthew-25-44__matthew-25-37-25-39"
       ]
     }
   ]
