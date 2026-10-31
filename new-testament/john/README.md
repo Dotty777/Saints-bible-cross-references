@@ -1,10 +1,10 @@
 # John cross-reference records
 
-875 completed source verses; 886 retained pairs; 878 source units read; 3 deferred units.
+878 completed source verses; 889 retained pairs; 878 source units read; 0 deferred units.
 
-First unfinished: John 2:2. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Galatians 1:1.
+First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 Thessalonians 1:1.
 
-Completed chapters: 1, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21. Complete inventory: 878 original source units in 21 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21. Complete inventory: 878 original source units in 21 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](John.html) · [Plain text](John.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -24,3 +24,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-31T070618Z](../review-batches/2026-10-31T070618Z.json): 7 completed source verses and 7 retained pairs.
 - [2026-10-31T083250Z](../review-batches/2026-10-31T083250Z.json): 1 completed source verses and 1 retained pairs.
 - [2026-10-31T101022Z](../review-batches/2026-10-31T101022Z.json): 0 completed source verses and 0 retained pairs.
+- [2026-10-31T114423Z](../review-batches/2026-10-31T114423Z.json): 3 completed source verses and 3 retained pairs.

@@ -13,12 +13,12 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Complete supplied English source units and every retained actual target/context passage were read and independently compared by a second AI-assisted reader. This run first reads all273 remaining1Corinthians originals in8–16, completing its437-unit original reading boundary before preparing the full256-unit2Corinthians inventory and opening its source review. All2562Corinthians originals are read in native order, and54 saved deferrals are substantively reconsidered. Inventory preparation, deferred outcomes and target/context-only readings earn zero completion credit. All full-book original bytes match the pinned Git blobs; no new critical-text or human-specialist verification is claimed.",
+  "method": "Complete original supplied English source units and every retained actual target/context passage were read and separately compared by another AI-assisted reader. This run resumes at Galatians1:1, prepares each complete new-book inventory before opening its source review, and reads every original in the current book before opening the next canonical source book. All41 saved deferrals are substantively reconsidered. Imported, duplicate, deferred, inventory-only and target/context-only records earn zero source completion credit. Full-book input bytes match the pinned Git blobs; no new source-language critical-text or human specialist approval is claimed.",
   "checked_scope": {
     "source_range": "Matthew 1:1–28:20",
     "source_units_read": 1068,
-    "completed_source_verses": 1061,
-    "retained_pairs": 1094
+    "completed_source_verses": 1066,
+    "retained_pairs": 1099
   },
   "review_batches": [
     {
@@ -122,13 +122,23 @@
       "new_source_verses": 6,
       "new_completed_revisited_sources": 6,
       "new_pairs": 6
+    },
+    {
+      "run_id": "2026-10-31T114423Z",
+      "records": "../review-batches/2026-10-31T114423Z.json",
+      "source_units_read": 7,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 7,
+      "new_source_verses": 5,
+      "new_completed_revisited_sources": 5,
+      "new_pairs": 5
     }
   ],
   "deferred_source_units": [
     {
       "source_reference": "Matthew 1:14",
       "source_id": "v1-14",
-      "reason": "The actual Azor, Zadok, Achim and Eliud succession is retained between its neighboring generations. An isolated Zadok or other common name does not substantiate the whole ancestry segment or a second matching line.",
+      "reason": "The printed Azor-Zadok-Achim-Eliud segment has no matching ordered sequence in the reread nearby Luke genealogy. A familiar individual name does not establish that a priest or another named ancestor is this person, so the supplied chain remains without a defensible specific target.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -136,47 +146,7 @@
     {
       "source_reference": "Matthew 1:15",
       "source_id": "v1-15",
-      "reason": "Eliud, Eleazar, Matthan and Jacob form the printed sequence toward Joseph. Neighboring continuation and a separately named Eleazar do not establish a distinct parallel pedigree; no missing links are supplied.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 15:23",
-      "source_id": "v15-23",
-      "reason": "Jesus silence and the disciples dismissal request have different speakers from the ensuing lost-sheep reply. The text does not state an inner reason for the silence, and another supplicants experience is not equated with this one.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 18:31",
-      "source_id": "v18-31",
-      "reason": "The fellow slaves are grieved by the imprisonment and report what happened before the masters summons. No external reporting episode or every observers inner motive is established; I retain no separate comparison for the reporting notice in this review.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 23:15",
-      "source_id": "v23-15",
-      "reason": "The accusation combines sea-and-land effort, one convert and the twice-as-much Gehenna outcome. Other mission or convert notices do not establish those stated particulars or justify generalizing the accusation to every mission.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 25:7",
-      "source_id": "v25-7",
-      "reason": "The virgins rise and arrange lamps in response to the midnight cry. I retain no merely verbal waking or lamp parallel and do not identify their equipment with sanctuary lamps.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 27:62",
-      "source_id": "v27-62",
-      "reason": "The chief priests and Pharisees gather before Pilate on the day after Preparation. Earlier trial gatherings have different times and purposes; this notice alone does not support a matching summons or an imported calendar calculation.",
+      "reason": "The Eliud-Eleazar-Matthan-Jacob chain remains distinct from Luke's printed nearby lineage. Matthan cannot simply be identified with Matthat, and the different Joseph-parent notices cannot be reconciled by inserting an unstated relationship. No matching sequence is retained.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -1074,6 +1044,51 @@
       "previous_reason": "The prudent cite possible insufficient supply and direct a purchase. The later closed door does not turn this reply into a universal rule against sharing or establish an independent purchase episode.",
       "retained_pair_ids": [
         "matthew-25-9__matthew-25-8"
+      ]
+    },
+    {
+      "source_reference": "Matthew 15:23",
+      "source_id": "v15-23",
+      "resolved_in_run": "2026-10-31T114423Z",
+      "previous_reason": "Jesus silence and the disciples dismissal request have different speakers from the ensuing lost-sheep reply. The text does not state an inner reason for the silence, and another supplicants experience is not equated with this one.",
+      "retained_pair_ids": [
+        "matthew-15-23__luke-18-38-18-40"
+      ]
+    },
+    {
+      "source_reference": "Matthew 18:31",
+      "source_id": "v18-31",
+      "resolved_in_run": "2026-10-31T114423Z",
+      "previous_reason": "The fellow slaves are grieved by the imprisonment and report what happened before the masters summons. No external reporting episode or every observers inner motive is established; I retain no separate comparison for the reporting notice in this review.",
+      "retained_pair_ids": [
+        "matthew-18-31__matthew-18-28-18-30"
+      ]
+    },
+    {
+      "source_reference": "Matthew 23:15",
+      "source_id": "v23-15",
+      "resolved_in_run": "2026-10-31T114423Z",
+      "previous_reason": "The accusation combines sea-and-land effort, one convert and the twice-as-much Gehenna outcome. Other mission or convert notices do not establish those stated particulars or justify generalizing the accusation to every mission.",
+      "retained_pair_ids": [
+        "matthew-23-15__matthew-23-33"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:7",
+      "source_id": "v25-7",
+      "resolved_in_run": "2026-10-31T114423Z",
+      "previous_reason": "The virgins rise and arrange lamps in response to the midnight cry. I retain no merely verbal waking or lamp parallel and do not identify their equipment with sanctuary lamps.",
+      "retained_pair_ids": [
+        "matthew-25-7__matthew-25-6"
+      ]
+    },
+    {
+      "source_reference": "Matthew 27:62",
+      "source_id": "v27-62",
+      "resolved_in_run": "2026-10-31T114423Z",
+      "previous_reason": "The chief priests and Pharisees gather before Pilate on the day after Preparation. Earlier trial gatherings have different times and purposes; this notice alone does not support a matching summons or an imported calendar calculation.",
+      "retained_pair_ids": [
+        "matthew-27-62__matthew-27-63-27-64"
       ]
     }
   ]

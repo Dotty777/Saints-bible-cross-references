@@ -1,10 +1,10 @@
 # Luke cross-reference records
 
-1141 completed source verses; 1152 retained pairs; 1149 source units read; 8 deferred units.
+1143 completed source verses; 1154 retained pairs; 1149 source units read; 6 deferred units.
 
-First unfinished: Luke 3:24. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Galatians 1:1.
+First unfinished: Luke 3:24. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 Thessalonians 1:1.
 
-Completed chapters: 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 24. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24. Complete inventory: 1149 original source units in 24 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24. Complete inventory: 1149 original source units in 24 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Luke.html) · [Plain text](Luke.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -26,3 +26,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-31T070618Z](../review-batches/2026-10-31T070618Z.json): 0 completed source verses and 0 retained pairs.
 - [2026-10-31T083250Z](../review-batches/2026-10-31T083250Z.json): 1 completed source verses and 1 retained pairs.
 - [2026-10-31T101022Z](../review-batches/2026-10-31T101022Z.json): 4 completed source verses and 4 retained pairs.
+- [2026-10-31T114423Z](../review-batches/2026-10-31T114423Z.json): 2 completed source verses and 2 retained pairs.

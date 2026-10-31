@@ -1,0 +1,76 @@
+{
+  "source_book": "John",
+  "reviewed_chapters": [
+    2,
+    7,
+    18
+  ],
+  "reviewed_source_ids": [
+    "v2-2",
+    "v7-53",
+    "v18-34"
+  ],
+  "pairs": [
+    {
+      "source_id": "v2-2",
+      "target_book": "John",
+      "target_ids": [
+        "v2-1"
+      ],
+      "relationship": "internal event referent",
+      "rationale": "The preceding notice identifies 'the wedding' to which Jesus and His disciples were invited as the wedding in Cana of Galilee where His mother was present. This resolves the stated event and attendance setting without naming its hosts or the person who issued the invitation."
+    },
+    {
+      "source_id": "v7-53",
+      "target_book": "John",
+      "target_ids": [
+        "v8-1"
+      ],
+      "relationship": "internal narrative contrast",
+      "rationale": "The statement that each went to his own house is followed by 'But Jesus' going to the Mount of Olives. The two notices distinguish the stated destinations in the printed narrative; they do not call the Mount Jesus's house or identify the other people's homes. The original opening double bracket remains a source limitation, not a new critical-text approval."
+    },
+    {
+      "source_id": "v18-34",
+      "target_book": "John",
+      "target_ids": [
+        "v18-33"
+      ],
+      "relationship": "internal question and counterquestion",
+      "rationale": "Pilate's immediately stated question, 'Art Thou the King of the Jews?', supplies the subject of Jesus's counterquestion about whether Pilate says 'this' from himself or from others. This identifies the question's object without deciding which of Jesus's alternatives is true or inventing Pilate's information source."
+    }
+  ],
+  "deferred": [],
+  "case_assessments": [
+    {
+      "source_id": "v2-2",
+      "source_reference": "John 2:2",
+      "previous_reason": "The invitation is to the wedding already set in Cana; the surrounding mother and wine-shortage notices do not identify the hosts or explain who issued the invitation. No generic wedding comparison is retained.",
+      "current_assessment": "The preceding notice identifies 'the wedding' to which Jesus and His disciples were invited as the wedding in Cana of Galilee where His mother was present. This resolves the stated event and attendance setting without naming its hosts or the person who issued the invitation.",
+      "disposition": "supported",
+      "source_complete_text_sha256": "02d845a82e46d512f54d26b50d0354996fba5de4c75f1b65202e213cb2ed7f6f"
+    },
+    {
+      "source_id": "v7-53",
+      "source_reference": "John 7:53",
+      "previous_reason": "Each going home is kept within the original double-bracketed passage. Jesus going to the Mount of Olives is a distinct destination, not a basis for mapping every persons home or claiming independent attestation of the departure.",
+      "current_assessment": "The statement that each went to his own house is followed by 'But Jesus' going to the Mount of Olives. The two notices distinguish the stated destinations in the printed narrative; they do not call the Mount Jesus's house or identify the other people's homes. The original opening double bracket remains a source limitation, not a new critical-text approval.",
+      "disposition": "supported",
+      "source_complete_text_sha256": "bcffc3e2fbeabcfb133513b36e572a9a602bab3bbcb8492f16e4582517eaba25"
+    },
+    {
+      "source_id": "v18-34",
+      "source_reference": "John 18:34",
+      "previous_reason": "The actual ensuing reply names Jesus nation and chief priests as the delivering party. It does not explicitly choose the from-yourself or others-told-you alternative; no unspoken source or motive for Pilates question is inserted.",
+      "current_assessment": "Pilate's immediately stated question, 'Art Thou the King of the Jews?', supplies the subject of Jesus's counterquestion about whether Pilate says 'this' from himself or from others. This identifies the question's object without deciding which of Jesus's alternatives is true or inventing Pilate's information source.",
+      "disposition": "supported",
+      "source_complete_text_sha256": "0264b59e379d5909173ea001f3046a569ac15df663bbdcd9841f4b9a758b46e6"
+    }
+  ],
+  "review_notes": [
+    "Substantive reconsideration of only this book's carried deferred source units. Prior reasons and original full-body SHA-256 hashes are archived individually; Saints wording, IDs, brackets and gaps are unchanged.",
+    "All 41 old source units, prior reasons and local context were reread before the retained-target pass, in six complete bounded book views: Acts 16 cases/3569 tokens, Luke 8/1391, Matthew 7/1517, John 3/647, Romans 6/1113 and 1 Corinthians 1/227. All end markers were present, exit 0, with no truncation. An earlier truncated whole-file listing was not counted as complete-reading evidence.",
+    "Every retained actual target and local context was then read in complete bounded displays of 1202 and 1751 tokens, including extended Matthew 23:29-33 context. An additional complete 94-token 1 Corinthians 1:1-2 display checked the rejected Sosthenes identity candidate. Mark 15:21, 1 Timothy 5:1-2 and 2 Timothy 4:19 were read for rejected Romans candidates.",
+    "Meaningful internal event referents, reports, explicit responses and contrasting reactions are identified as such, not independent corroboration. Partial supported relationships do not resolve unmatched clauses. Continued deferrals receive zero credit; no name-only or numerical-coincidence links are retained.",
+    "This file has 3 reconsidered source cases, 3 proposed supported sources/3 pairs and 0 continued deferrals. Assigned IDs have exactly one outcome; target IDs/original-contiguous ranges, no self-containing targets and pair uniqueness passed. Proposed support awaits independent peer review."
+  ]
+}

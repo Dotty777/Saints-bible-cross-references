@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-31T114423Z",
+  "audit_scope": [
+    "build_hourly.py",
+    "check_preservation.py",
+    "audit_archives.py",
+    "sync_latest.py",
+    "source-book-boundaries-reading-audit.json",
+    "four new-book inventory preparation records"
+  ],
+  "status": "pass after root applied one preservation-guard refinement; assembly and publication not run by this auditor",
+  "baseline": {
+    "completed_sources": 5856,
+    "retained_pairs": 5952,
+    "reviewed_source_units": 5897,
+    "saved_deferrals": 41,
+    "next_new_source": "Galatians1:1"
+  },
+  "current_source_scope": {
+    "fresh_originals": 503,
+    "revisited_old_cases": 41,
+    "total_outcomes": 544,
+    "new_book_native_inventories": {
+      "Galatians": 149,
+      "Ephesians": 155,
+      "Philippians": 104,
+      "Colossians": 95
+    },
+    "expected_proposal_scopes": 10,
+    "next_new_source": "1Thessalonians1:1"
+  },
+  "findings": [
+    {
+      "file": "check_preservation.py",
+      "issue": "The original silent baseline fallback could pass despite known newer Old Testament state when latest-main materialization was skipped. The fetched03677f7 root had22750sources/27781pairs while baseline had22179/27178.",
+      "resolution": "Root removed the fallback. Current code requires latest-main/progress.json and latest-main-files.json; checks materialized base-head against fetched head; checks exact progress/canon/README bytes against fetched content; then verifies root OT preservation after removing only the NT pointer.",
+      "status": "resolved; applied code reread and confirmed"
+    }
+  ],
+  "checks": [
+    "Distinct completed-source and pair counters are separate;only final supported source keys earn source credit;deferred/imported/duplicate/inventory/context/auxiliary records earn0.",
+    "Builder and archive audit check final-primary SHA variants against exact current final proposal bytes;peer retained-pair counts must match final pair counts and findings need resolutions.",
+    "All41 carried cases are represented once across the six old-case scopes;source outcomes are paired/deferred disjoint unions. Pending Galatians/Philippians finalization at audit time was expected work and not treated as a defect.",
+    "All four actual source boundaries independently satisfy previous complete book reading < full next-book inventory preparation < next-book complete source reading. Counts149/155/104/95 match native inventories;no1Thessalonians source review was opened in the inspected boundary record.",
+    "Historical5856 completed verse records and5952pairs are checked by full record equality;old review archive and snapshot bytes are preserved;NT renderer/validator remain byte-identical to baseline.",
+    "Auxiliary transitive JSON closure captures final peer subscopes,previews,reading audits,original candidate drafts,and the new Colossians before-primary/before-prefix archives through explicit references;each archive entry declares0 additional completion and pair credit.",
+    "Source/target raw bytes are restored only when their exact Git blob hashes match the pinned source commit;flat target originals receive references in memory only.",
+    "First unfinished and first unreviewed positions remain separate;continuation computes1Thessalonians1:1 while older uncredited deferrals remain separately carried.",
+    "Latest OT preservation is provided by build then sync_latest then guarded preservation validation;known latest root is03677f7310a5093c159e70d3839960a15f7af4f8."
+  ],
+  "files_sha256": {
+    "build_hourly.py": "93ec21356fa33fdb6deef18e38e68edc78888f423c7f29939098388f096d5600",
+    "check_preservation.py": "b520b0f2fb8c53eb04688efce518f4e276ac52ea2d4bf7e283e19d9a1a529adc",
+    "audit_archives.py": "c90fec67a55f1552480b5a334b78fa60f757bb89f38222057d824af8f7fc1895",
+    "sync_latest.py": "c9fc967676a1229be4c1e5794e70b6ad72c3d9047badf4cd567deb4f194e77aa"
+  },
+  "completed_utc": "2026-10-31T12:37:36.031000+00:00",
+  "additional_completion_credit": 0,
+  "additional_pair_credit": 0
+}

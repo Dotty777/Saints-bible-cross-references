@@ -1,10 +1,10 @@
 # Matthew cross-reference records
 
-1061 completed source verses; 1094 retained pairs; 1068 source units read; 7 deferred units.
+1066 completed source verses; 1099 retained pairs; 1068 source units read; 2 deferred units.
 
-First unfinished: Matthew 1:14. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Galatians 1:1.
+First unfinished: Matthew 1:14. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 Thessalonians 1:1.
 
-Completed chapters: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 19, 20, 21, 22, 24, 26, 28. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28. Complete inventory: 1068 original source units in 28 chapters. Deferred units receive no completion credit.
+Completed chapters: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28. Complete inventory: 1068 original source units in 28 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Matthew.html) · [Plain text](Matthew.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -29,3 +29,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-31T070618Z](../review-batches/2026-10-31T070618Z.json): 5 completed source verses and 5 retained pairs.
 - [2026-10-31T083250Z](../review-batches/2026-10-31T083250Z.json): 6 completed source verses and 6 retained pairs.
 - [2026-10-31T101022Z](../review-batches/2026-10-31T101022Z.json): 6 completed source verses and 6 retained pairs.
+- [2026-10-31T114423Z](../review-batches/2026-10-31T114423Z.json): 5 completed source verses and 5 retained pairs.

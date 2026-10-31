@@ -33,28 +33,28 @@
       "new_source_verses": 272,
       "new_completed_revisited_sources": 0,
       "new_pairs": 275
+    },
+    {
+      "run_id": "2026-10-31T114423Z",
+      "records": "../review-batches/2026-10-31T114423Z.json",
+      "source_units_read": 1,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 1,
+      "new_source_verses": 1,
+      "new_completed_revisited_sources": 1,
+      "new_pairs": 1
     }
   ],
   "unresolved_candidates": [],
-  "deferred_source_units": [
-    {
-      "source_reference": "1 Corinthians 11:10",
-      "source_id": "v11-10",
-      "reason": "The authority-on-her-head statement because of the angels has no sufficiently specific independently read parallel that explains that rationale. The text is preserved without supplying an unprinted word symbol, identifying the angels, or resolving the interpretation through a generic angel reference.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    }
-  ],
-  "method": "Complete supplied English source units and every retained actual target/context passage were read and independently compared by a second AI-assisted reader. This run first reads all273 remaining1Corinthians originals in8–16, completing its437-unit original reading boundary before preparing the full256-unit2Corinthians inventory and opening its source review. All2562Corinthians originals are read in native order, and54 saved deferrals are substantively reconsidered. Inventory preparation, deferred outcomes and target/context-only readings earn zero completion credit. All full-book original bytes match the pinned Git blobs; no new critical-text or human-specialist verification is claimed.",
+  "deferred_source_units": [],
+  "method": "Complete original supplied English source units and every retained actual target/context passage were read and separately compared by another AI-assisted reader. This run resumes at Galatians1:1, prepares each complete new-book inventory before opening its source review, and reads every original in the current book before opening the next canonical source book. All41 saved deferrals are substantively reconsidered. Imported, duplicate, deferred, inventory-only and target/context-only records earn zero source completion credit. Full-book input bytes match the pinned Git blobs; no new source-language critical-text or human specialist approval is claimed.",
   "checked_scope": {
     "source_range": "1 Corinthians 1:1–16:24",
     "source_units_read": 437,
-    "completed_source_verses": 436,
-    "retained_pairs": 439
+    "completed_source_verses": 437,
+    "retained_pairs": 440
   },
   "pending": [
-    "Substantive reconsideration of deferred source units",
     "Independent specialist review",
     "Live destination anchors and display checks"
   ],
@@ -555,6 +555,17 @@
       "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/zechariah.json"
+    }
+  ],
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "1 Corinthians 11:10",
+      "source_id": "v11-10",
+      "resolved_in_run": "2026-10-31T114423Z",
+      "previous_reason": "The authority-on-her-head statement because of the angels has no sufficiently specific independently read parallel that explains that rationale. The text is preserved without supplying an unprinted word symbol, identifying the angels, or resolving the interpretation through a generic angel reference.",
+      "retained_pair_ids": [
+        "1-corinthians-11-10__1-corinthians-11-7-11-9"
+      ]
     }
   ]
 }

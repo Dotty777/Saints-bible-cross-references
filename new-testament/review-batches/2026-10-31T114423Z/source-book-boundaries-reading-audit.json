@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-31T114423Z",
+  "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+  "method": "Each complete original book inventory was prepared after the previous canonical book's complete source-reading boundary and before opening this book. Original source reading precedes its retained-target review. Later target/context-only readings earn no source credit.",
+  "boundaries": [
+    {
+      "book": "Galatians",
+      "previous_book": "2 Corinthians",
+      "previous_book_originals_read": 256,
+      "previous_reading_completed_utc": "2026-10-31T10:16:13Z",
+      "inventory_preparation": "galatians-inventory-preparation.json",
+      "prepared_inventory": "galatians-prepared-inventory.json",
+      "originals_read": 149,
+      "reader": "matthew_1_2",
+      "read_completed_utc": "2026-10-31T11:47:20Z",
+      "complete_view_tokens": [
+        1516,
+        1862,
+        1289
+      ],
+      "final_proposal": "galatians-review.json"
+    },
+    {
+      "book": "Ephesians",
+      "previous_book": "Galatians",
+      "previous_book_originals_read": 149,
+      "previous_reading_completed_utc": "2026-10-31T11:47:20Z",
+      "inventory_preparation": "ephesians-inventory-preparation.json",
+      "prepared_inventory": "ephesians-prepared-inventory.json",
+      "originals_read": 155,
+      "reader": "matthew_3_4",
+      "read_completed_utc": "2026-10-31T11:48:45Z",
+      "complete_source_views": 3,
+      "final_proposal": "ephesians-review.json"
+    },
+    {
+      "book": "Philippians",
+      "previous_book": "Ephesians",
+      "previous_book_originals_read": 155,
+      "previous_reading_completed_utc": "2026-10-31T11:48:45Z",
+      "inventory_preparation": "philippians-inventory-preparation.json",
+      "prepared_inventory": "philippians-prepared-inventory.json",
+      "originals_read": 104,
+      "reader": "matthew_5_7",
+      "read_completed_utc": "2026-10-31T11:49:43Z",
+      "complete_view_tokens": [
+        925,
+        857,
+        706,
+        685
+      ],
+      "final_proposal": "philippians-review.json"
+    },
+    {
+      "book": "Colossians",
+      "previous_book": "Philippians",
+      "previous_book_originals_read": 104,
+      "previous_reading_completed_utc": "2026-10-31T11:49:43Z",
+      "inventory_preparation": "colossians-inventory-preparation.json",
+      "prepared_inventory": "colossians-prepared-inventory.json",
+      "originals_read": 95,
+      "reader": "root",
+      "read_completed_utc": "2026-10-31T11:50:09Z",
+      "complete_view_tokens": [
+        3062
+      ],
+      "final_proposal": "colossians-review.json"
+    }
+  ],
+  "first_reviewed_originals": 503,
+  "saved_deferrals_to_reconsider": 41,
+  "following_source_book": {
+    "book": "1 Thessalonians",
+    "source_review_opened": false,
+    "next_unreviewed_reference": "1 Thessalonians 1:1"
+  },
+  "additional_completion_credit": 0,
+  "additional_pair_credit": 0,
+  "pair_review_attributions": {
+    "Galatians": {
+      "primary": [
+        "agent1 chapters1–4",
+        "root chapters5–6"
+      ],
+      "independent_peer": [
+        "agent3 chapters1–2",
+        "agent2 chapters3–4",
+        "agent1 chapters5–6"
+      ]
+    },
+    "Ephesians": {
+      "primary": [
+        "agent2 all155"
+      ],
+      "independent_peer": [
+        "root all155"
+      ]
+    },
+    "Philippians": {
+      "primary": [
+        "agent3 chapters1–3",
+        "agent2 chapter4"
+      ],
+      "independent_peer": [
+        "agent1 all104"
+      ]
+    },
+    "Colossians": {
+      "primary": [
+        "root all95"
+      ],
+      "independent_peer": [
+        "agent2 all95"
+      ]
+    },
+    "saved_deferrals": {
+      "primary": [
+        "agent3 all41"
+      ],
+      "independent_peer": [
+        "root all41"
+      ]
+    }
+  },
+  "attribution_credit_policy": "Reader and authorship attribution creates zero additional source or pair credit; final proposal outcomes alone determine distinct source and directed-pair totals."
+}

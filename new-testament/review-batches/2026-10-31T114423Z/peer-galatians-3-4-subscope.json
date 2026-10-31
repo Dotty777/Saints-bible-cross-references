@@ -1,0 +1,144 @@
+{
+  "source_book": "Galatians",
+  "reviewed_chapters": [
+    3,
+    4
+  ],
+  "independent_reader": "matthew_3_4",
+  "source_units_read": 60,
+  "pairs_read": 62,
+  "retained_pairs_checked": 62,
+  "supported_sources": 60,
+  "deferred_sources": 0,
+  "primary_contribution_file": "galatians-3-4-peer-preview.json",
+  "primary_before_peer_file": "galatians-3-4-before-peer.json",
+  "initial_primary_sha256": "0fdc488e75a799de736e099d5aa0d6e1908b11e17d366d545a9f123dc3fff044",
+  "primary_sha256": "697dbaa75d740285191031bcac5f2843d4bfe69046f41a2617ca05efd95d4adf",
+  "final_primary_sha256": "697dbaa75d740285191031bcac5f2843d4bfe69046f41a2617ca05efd95d4adf",
+  "findings": [
+    {
+      "source_id": "v3-13",
+      "target_book": "Deuteronomy",
+      "target_ids": [
+        "v21-22",
+        "v21-23"
+      ],
+      "severity": "precision",
+      "fix": "Clarify the exact omitted words by God and distinguish the unquoted burial rule; do not leave that phrase with an ambiguous antecedent.",
+      "before": "The tree-hanging curse directly corresponds to Deuteronomy's death-and-burial rule. The target says cursed by God and includes burial that day; Galatians' shorter citation omits that phrase and applies the curse to Christ buying us free. That interpretation is not represented as Christ explicitly named in Deuteronomy.",
+      "after": "The tree-hanging curse directly corresponds to Deuteronomy's death-and-burial rule. Deuteronomy explicitly says cursed by God and requires burial that day; Galatians' shorter citation does not include by God or the burial rule, and applies the curse to Christ buying us free. Christ is not explicitly named in the Deuteronomy target.",
+      "resolution": "Applied directly to the current frozen3–4primary contribution; no original text,ID,range,relationship or count changed.",
+      "status": "resolved"
+    },
+    {
+      "source_id": "v4-6",
+      "target_book": "Romans",
+      "target_ids": [
+        "v8-15"
+      ],
+      "severity": "precision",
+      "fix": "The selected Galatians unit says sons; adoption occurs in its preceding context. Name the shared sonship relation without implying the adoption word appears in4:6.",
+      "before": "Both include Spirit, adoption and the Abba/Father cry. Galatians says because you are sons God sent His Son's Spirit into our hearts, crying; Romans says you received adoption's Spirit in whom we cry. The you/our/we shifts and the stated crying subject remain intact.",
+      "after": "Both link the Spirit with sonship and the Abba/Father cry. Galatians says because you are sons God sent His Son's Spirit into our hearts, crying; Romans says you received adoption's Spirit in whom we cry. The you/our/we shifts and the stated crying subject remain intact.",
+      "resolution": "Applied directly to the current frozen3–4primary contribution; no original text,ID,range,relationship or count changed.",
+      "status": "resolved"
+    },
+    {
+      "source_id": "v4-27",
+      "target_book": "Isaiah",
+      "target_ids": [
+        "v54-1"
+      ],
+      "severity": "precision",
+      "fix": "Replace childbirth cry with the actual rejoicing/crying-aloud instruction to the woman who is not in labor.",
+      "before": "The barren/deserted woman, childbirth cry and greater number of children closely correspond to Isaiah54:1. Galatians places this written passage in its mother/covenant argument; Isaiah adds for-the-Lord-has-spoken. The quotation does not independently identify Isaiah's figure as a named biological mother in Genesis.",
+      "after": "The barren/deserted woman, calls to rejoice and cry aloud, and greater number of children closely correspond to Isaiah54:1. Both address the woman who is not in labor. Galatians places the written passage in its mother/covenant argument; Isaiah adds for the Lord has spoken. The quotation does not independently identify Isaiah's figure as a named biological mother in Genesis.",
+      "resolution": "Applied directly to the current frozen3–4primary contribution; no original text,ID,range,relationship or count changed.",
+      "status": "resolved"
+    }
+  ],
+  "status": "pass after three resolved rationale precision refinements;all62pairs retained",
+  "read_evidence": {
+    "complete_source_views": [
+      {
+        "chapters": [
+          3,
+          4
+        ],
+        "native_unit_count": 60
+      }
+    ],
+    "all_source_bodies_read_before_target_peer": true,
+    "complete_actual_target_context_rationale_views": [
+      [
+        0,
+        8
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        16,
+        24
+      ],
+      [
+        24,
+        32
+      ],
+      [
+        32,
+        40
+      ],
+      [
+        40,
+        48
+      ],
+      [
+        48,
+        56
+      ],
+      [
+        56,
+        62
+      ]
+    ],
+    "all_end_markers_visible": true,
+    "accepted_truncated_views": 0,
+    "additional_complete_actual_context": [
+      "Genesis17:5 for Abram→Abraham assertion",
+      "Genesis17:15 for Sara→Sarah assertion"
+    ],
+    "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+    "raw_source_target_cache_sha256": {
+      "1 Corinthians": "0137d56de15cae418bd683e86957dae74075a08822426646364cba9d7e84e66e",
+      "1 Thessalonians": "9e381d119827a5f978b5545047b5c3b4a91c1f362a0406a652ccb7b91734fc71",
+      "1 Timothy": "9004d125ab3a7174350b77cbee990feb6a90d32c5372a58329a8b7eedb9c9ba4",
+      "2 Corinthians": "df459b5d07b063cee9f65ff9ff3d38c9a8a19e1dd527d21cc8e01f30f49b9b0a",
+      "Acts": "73d11416650576a1e20be7d286e5053236f0668e559eedb4fece9ab44b6ee257",
+      "Colossians": "fa78e6e4fc92d0e1977b029295cc7a01072cb23482c8b340b752396de9beb463",
+      "Deuteronomy": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "Exodus": "a4a8c0bcbd03b8eed39a895984b81a3b358a8238726dd9ddcce9038636f80cd9",
+      "Galatians": "94cc20c0ce9a41fff544b85ccdc183bb7f710f3e0691d6f7d59397ac597c3c65",
+      "Genesis": "5cb521cd67a1c8b57749490f87d58db2ec3601ab60903a0a9009d62cd142808f",
+      "Habakkuk": "e8d3d262b944f0ec474ec3ceec0ba7fbcda4aa07b5fc07f1c24a91ebb8e68f4a",
+      "Hebrews": "6550dc6926a500969383062d551581541d87ece393bf8445bf843962572382c8",
+      "Isaiah": "11c89cfbb50f986fca50889e79af063c51bb8926f5221e43c3faa13f17de0da8",
+      "John": "44504ae87e2e2a48a4702d0ff3d4db3a3074a2f7c7421251d6f67cd490665486",
+      "Leviticus": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "Matthew": "ea0d2221e8189bf0afe5b6e607de8534a62138e8e1a5b71350a8ef2e7a400d90",
+      "Philippians": "f7942d11ed8764d08799361d7be7aa6aed30a2c02cc95efe69f5760df106ba4e",
+      "Romans": "73fb294d9f62d20a7f06bd8b453846223c91519cd6126982ec2421efedcf295f"
+    },
+    "completed_utc": "2026-10-31T12:42:32.370973+00:00"
+  },
+  "review_notes": [
+    "This independent leaf covers only Galatians3–4:60actual originals/60supported sources/62pairs/0DF. It claims no reading or peer credit for1–2or5–6. Agent3 aggregates it with the other independently read leaves, binding exact component bytes and the final149primary.",
+    "Explicitly verified Habakkuk2:4 My faithfulness versus Gal3:11 faith;Exodus12:40 Egypt and Canaan and different430year endpoints;Genesis13:15 land-to-seed versus Christ interpretation;Deuteronomy21:23 by God and burial rule;Genesis21:9 playing with Isaac versus Gal4:29 persecution;Genesis21:10 my son Isaac versus Gal4:30 son of free woman.",
+    "Preserve Abram/Abraham and Sara/Sarah name changes,source4:28 you not we,4:7 heir through God without an added through Christ,4:6 Spirit crying versus Romans8:15 we cry,4:13 cause of first proclamation versus accompanying weakness,and4:20 unspecified direction of tone change.",
+    "Genesis-family and Isaiah-barren-woman links remain scriptural backgrounds and Paul’s stated allegorical interpretations;no unprinted biological genealogy,modern political group,calendar rule,eye disease,private conflict or itinerary is inferred. All internal antecedent/analogy links remain internal rather than independent testimony.",
+    "Exact60sourcecoverage,62unique directed pairs,alltargetIDs existing in original contiguous order,no self-containingtarget,0defers pass. Final root assembly must copy current corrected62exact objects without an author rerun."
+  ],
+  "additional_completion_credit": 0,
+  "additional_pair_credit": 0
+}
