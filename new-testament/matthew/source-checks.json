@@ -13,7 +13,7 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Matthew source reading preceded Mark; all remaining Mark source units were read before Luke source review began. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
+  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Source books follow the saved canon order. This batch continues Luke and reconsiders earlier deferred units; it opens no new source book. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
   "checked_scope": {
     "source_range": "Matthew 1:1–28:20",
     "source_units_read": 1068,
@@ -52,6 +52,16 @@
       "new_source_verses": 2,
       "new_completed_revisited_sources": 2,
       "new_pairs": 2
+    },
+    {
+      "run_id": "2026-10-31T014513Z",
+      "records": "../review-batches/2026-10-31T014513Z.json",
+      "source_units_read": 46,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 46,
+      "new_source_verses": 0,
+      "new_completed_revisited_sources": 0,
+      "new_pairs": 0
     }
   ],
   "deferred_source_units": [
@@ -493,10 +503,26 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-chronicles.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "2-kings/verses.json",
       "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-kings.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-peter/verses.json",
+      "blob_sha": "4f2eb3a0b1cf30ce38641beba7e29ef2747f24e1",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-peter/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-peter.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",

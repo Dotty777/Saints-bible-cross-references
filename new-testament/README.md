@@ -1,8 +1,8 @@
 # Saints Holy Bible — separate New Testament cross-reference tracker
 
-1823 completed source verses; 1868 retained pairs; 18 completed chapters; 88 reviewed units deferred.
+2365 completed source verses; 2414 retained pairs; 21 completed chapters; 134 reviewed units deferred.
 
-First unfinished: **Matthew 1:14**. Next new source review: **Luke 4:1**.
+First unfinished: **Matthew 1:14**. Next new source review: **Luke 17:1**.
 
 This hourly task begins at Matthew and follows the exact Saints Holy Bible 70-book order and divisions in [../canon.json](../canon.json): Salvation (44–47), Discipleship (48–69), Glory (70). Targets may use any of those 70 books when actual pinned passage evidence is available. [Progress](progress.json) and review counts here are separate from the [Old Testament tracker](../README.md). Pending books have no invented verse inventories.
 
@@ -13,8 +13,8 @@ The source texts remain the supplied English edition; this is not new critical-t
 | Order | Division | Book | Status | Completed verses | Pairs |
 | ---: | --- | --- | --- | ---: | ---: |
 | 44 | Salvation | [Matthew](matthew/README.md) | in_progress | 1022 | 1055 |
-| 45 | Salvation | [Mark](mark/README.md) | in_progress | 658 | 666 |
-| 46 | Salvation | [Luke](luke/README.md) | in_progress | 143 | 147 |
+| 45 | Salvation | [Mark](mark/README.md) | in_progress | 660 | 668 |
+| 46 | Salvation | [Luke](luke/README.md) | in_progress | 683 | 691 |
 | 47 | Salvation | John | pending | 0 | 0 |
 | 48 | Discipleship | Acts | pending | 0 | 0 |
 | 49 | Discipleship | Romans | pending | 0 | 0 |
@@ -42,6 +42,6 @@ The source texts remain the supplied English edition; this is not new critical-t
 
 Run `python scripts/render_new_testament.py` and `python scripts/validate_new_testament.py --write-verification` from the repository root after updating records. Follow the book’s recovery guidance. Independent specialist and live destination-anchor/display checks remain pending.
 
-Latest hourly result: **560 / 500 new source verses**; shortfall: 0. [Review record](review-batches/2026-10-31T004042Z.json).
+Latest hourly result: **542 / 500 new source verses**; shortfall: 0. [Review record](review-batches/2026-10-31T014513Z.json).
 
 Original source reading completed for: **Matthew, Mark**. Unresolved source deferrals remain separate and earn no completion credit.

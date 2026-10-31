@@ -33,6 +33,16 @@
       "new_source_verses": 415,
       "new_completed_revisited_sources": 2,
       "new_pairs": 420
+    },
+    {
+      "run_id": "2026-10-31T014513Z",
+      "records": "../review-batches/2026-10-31T014513Z.json",
+      "source_units_read": 15,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 15,
+      "new_source_verses": 2,
+      "new_completed_revisited_sources": 2,
+      "new_pairs": 2
     }
   ],
   "unresolved_candidates": [],
@@ -134,36 +144,20 @@
       "completed_pair_credit": 0
     },
     {
-      "source_reference": "Mark 14:52",
-      "source_id": "v14-52",
-      "reason": "The young man leaving the cloth and fleeing naked was read. General naked-flight imagery in other settings was not treated as independent evidence for this distinctive scene.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
       "source_reference": "Mark 14:59",
       "source_id": "v14-59",
       "reason": "The renewed statement that even the temple-charge testimonies did not agree was read. The general false-witness parallel is retained for earlier units, but no sufficiently precise separate counterpart to this repeated disagreement notice was established.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Mark 16:3",
-      "source_id": "v16-3",
-      "reason": "The women's question about who would move the tomb stone was read. Other accounts narrate an already-moved stone rather than this particular discussion; they were not used to manufacture a match for the question.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
     }
   ],
-  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Matthew source reading preceded Mark; all remaining Mark source units were read before Luke source review began. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
+  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Source books follow the saved canon order. This batch continues Luke and reconsiders earlier deferred units; it opens no new source book. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
   "checked_scope": {
     "source_range": "Mark 1:1–16:20",
     "source_units_read": 673,
-    "completed_source_verses": 658,
-    "retained_pairs": 666
+    "completed_source_verses": 660,
+    "retained_pairs": 668
   },
   "pending": [
     "Substantive reconsideration of deferred source units",
@@ -257,10 +251,26 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-chronicles/verses.json",
+      "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-chronicles.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "2-kings/verses.json",
       "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-kings.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-peter/verses.json",
+      "blob_sha": "4f2eb3a0b1cf30ce38641beba7e29ef2747f24e1",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-peter/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-peter.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -560,6 +570,24 @@
       "previous_reason": "The man crying day and night in tombs and mountains and cutting himself with stones was read. No sufficiently precise external counterpart was retained; unrelated accounts of cutting or cries were not treated as equivalent to this particular suffering.",
       "retained_pair_ids": [
         "mark-5-5__1-kings-18-28"
+      ]
+    },
+    {
+      "source_reference": "Mark 14:52",
+      "source_id": "v14-52",
+      "resolved_in_run": "2026-10-31T014513Z",
+      "previous_reason": "The young man leaving the cloth and fleeing naked was read. General naked-flight imagery in other settings was not treated as independent evidence for this distinctive scene.",
+      "retained_pair_ids": [
+        "mark-14-52__genesis-39-12"
+      ]
+    },
+    {
+      "source_reference": "Mark 16:3",
+      "source_id": "v16-3",
+      "resolved_in_run": "2026-10-31T014513Z",
+      "previous_reason": "The women's question about who would move the tomb stone was read. Other accounts narrate an already-moved stone rather than this particular discussion; they were not used to manufacture a match for the question.",
+      "retained_pair_ids": [
+        "mark-16-3__matthew-28-2"
       ]
     }
   ]

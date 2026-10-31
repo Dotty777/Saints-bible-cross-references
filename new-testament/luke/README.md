@@ -1,10 +1,10 @@
 # Luke cross-reference records
 
-143 completed source verses; 147 retained pairs; 170 source units read; 27 deferred units.
+683 completed source verses; 691 retained pairs; 758 source units read; 75 deferred units.
 
-First unfinished: Luke 1:21. Next new source review in this book: Luke 4:1.
+First unfinished: Luke 1:21. Next new source review in this book: Luke 17:1.
 
-Completed chapters: none. Reviewed chapters: 1, 2, 3. Complete inventory: 1149 original source units in 24 chapters. Deferred units receive no completion credit.
+Completed chapters: 6, 8. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 1149 original source units in 24 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Luke.html) · [Plain text](Luke.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -19,3 +19,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 ## Review batches
 
 - [2026-10-31T004042Z](../review-batches/2026-10-31T004042Z.json): 143 completed source verses and 147 retained pairs.
+- [2026-10-31T014513Z](../review-batches/2026-10-31T014513Z.json): 540 completed source verses and 544 retained pairs.
