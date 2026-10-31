@@ -20,19 +20,23 @@ def units(d,book=None):
 def path(relative):
  p=(NT/relative).resolve();need(p.is_relative_to(NT.resolve()),'Path escapes New Testament tracker');return p
 class Readable(HTMLParser):
- def __init__(self):super().__init__(convert_charrefs=True);self.ids=[];self.pairs=[];self.sources=[];self.targets=[];self.capture=None;self.body=[];self.details=0;self.links=[]
+ def __init__(self):super().__init__(convert_charrefs=True);self.ids=[];self.pairs=[];self.sources=[];self.targets=[];self.notes=[];self.note_anchor=None;self.note_position=None;self.capture=None;self.body=[];self.details=0;self.links=[]
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if 'id' in a:self.ids.append(a['id'])
   if 'data-pair-id' in a:self.pairs.append(a['data-pair-id'])
   if tag=='details':self.details+=1
   if tag=='a':self.links.append(a.get('href',''))
-  if tag=='p' and a.get('class') in ['scripture','target-scripture']:self.capture=a['class'];self.body=[]
+  if tag=='p' and a.get('class') in ['scripture','target-scripture','editorial-note']:
+   self.capture=a['class'];self.body=[]
+   if self.capture=='editorial-note':self.note_anchor=a.get('data-after-anchor');self.note_position=len(self.sources)
  def handle_data(self,data):
   if self.capture:self.body.append(data)
  def handle_endtag(self,tag):
   if tag=='p' and self.capture:
-   (self.sources if self.capture=='scripture' else self.targets).append(''.join(self.body));self.capture=None
+   if self.capture=='editorial-note':self.notes.append((self.note_anchor,''.join(self.body),self.note_position))
+   else:(self.sources if self.capture=='scripture' else self.targets).append(''.join(self.body))
+   self.capture=None
 def validate(write_verification=False):
  canon=load(ROOT/'canon.json');canonical=canon['books'];p=load(NT/'progress.json');allowed={b['book']:b for b in canonical}
  need(len(canonical)==len(allowed)==70 and [b['order'] for b in canonical]==list(range(1,71)),'Saints canon membership/order mismatch')
@@ -82,6 +86,8 @@ def validate(write_verification=False):
   for ch,origch in zip(d['chapters'],original['chapters']):
    for key in ['chapter','section','title','staging_page_id','staging_url']:
     need(ch.get(key)==origch.get(key),'Original chapter identity/order changed')
+   need(ch.get('editorial_notes',[])==origch.get('editorial_notes',[]),'Original chapter editorial notes changed or omitted')
+   need(all(n.get('after_anchor') in {v['id'] for v in origch['verses']} and isinstance(n.get('text'),str) and n['text'] for n in origch.get('editorial_notes',[])),'Invalid original editorial-note anchor or text')
    need(len(ch['verses'])==len(origch['verses']),'Original chapter verse count changed')
    for v,orig in zip(ch['verses'],origch['verses']):
     for key,value in orig.items():need(v.get(key)==value,'Original source field changed: '+orig['reference']+'/'+key)
@@ -146,12 +152,20 @@ def validate(write_verification=False):
   need(parser.ids==[v['id'] for v in done] and parser.sources==[full(v) for v in done],'Readable HTML source identities/text/order changed')
   need(parser.pairs==[e['id'] for e in all_edges] and parser.details==len(all_edges),'Readable HTML pair count/order mismatch')
   need(parser.targets==[t['reference']+' '+full(t) for edge in all_edges for t in edge['target_verses']],'Readable HTML target text/order changed')
+  done_positions={v['id']:i+1 for i,v in enumerate(done)}
+  expected_notes=[(n['after_anchor'],n['text'],done_positions[n['after_anchor']]) for ch in d['chapters'] for n in ch.get('editorial_notes',[]) if n['after_anchor'] in done_positions]
+  need(parser.notes==expected_notes,'Readable HTML editorial-note text, anchor or placement changed')
   for href in parser.links:
    if href.startswith('#'):need(href[1:] in parser.ids,'Broken chapter navigation')
    elif '://' not in href:
     need((folder/href).exists() or (write_verification and href=='verification.json'),'Missing readable local link: '+href)
   text=(folder/d['readable_text']).read_text(encoding='utf-8')
   for v in done:need(v['reference']+'\n'+full(v)+'\n' in text,'Plain-text source missing or changed')
+  for anchor,note,position in expected_notes:
+   source_start=text.index(done[position-1]['reference']+'\n'+full(done[position-1])+'\n')
+   note_start=text.find('\n'+note+'\n')
+   next_start=text.index(done[position]['reference']+'\n'+full(done[position])+'\n') if position<len(done) else len(text)
+   need(source_start<note_start<next_start,'Plain-text editorial note missing, changed or misplaced')
   for edge in all_edges:
    need(edge['target']+' — '+edge['relationship']+': '+edge['rationale'] in text,'Plain-text explanation missing')
    for t in edge['target_verses']:need('    '+t['reference']+' '+full(t).replace('\n','\n    ')+'\n' in text,'Plain-text target missing or changed')
@@ -160,6 +174,7 @@ def validate(write_verification=False):
   totals.update(verses=len(done),pairs=len(all_edges),chapters=len(completed_chapters),reviewed=len(reviewed),deferred=len(deferred),books=int(not nextref));all_reviewed.extend(v['reference'] for v in reviewed);all_deferred.extend(v['reference'] for v in deferred)
   report={'schema_version':1,'book':b['book'],'checked_at_utc':datetime.now(timezone.utc).isoformat(),'result':'passed','canon_and_division_order':'passed','original_full_book_snapshot_git_blobs':'passed','complete_source_inventory_wording_and_anchors':'passed','complete_target_passage_identity_wording_order_and_hashes':'passed','unique_pair_ids':'passed','readable_html_source_target_text_and_pair_count':'passed','plain_text_source_target_passages_and_explanations':'passed','completed_source_verses':len(done),'completed_cross_references':len(all_edges),'completed_chapters':completed_chapters,'reviewed_source_units':len(reviewed),'deferred_source_units':len(deferred),'next_reference':(nextref or {}).get('reference'),'next_unreviewed_reference':(newref or {}).get('reference'),'semantic_review':'AI-assisted passage review recorded per pair; technical validation does not independently establish the interpretation.','independent_specialist_review':'pending','live_destination_anchor_checks':'not performed','remote_commit_readback':'performed separately after publication; not established by this validator'}
   report['all_original_source_units_read']=all_read
+  report['original_chapter_editorial_notes_and_readable_placement']='passed'
   report['archived_peer_review_coverage_and_resolutions']='passed'
   report['hourly_target']=p['target_per_hour'];report['target_unit']=p['target_unit'];report['latest_target_result']=p['latest_target_result']
   inputs=[ROOT/'canon.json',NT/'progress.json',NT/'source-snapshots'/'manifest.json']+[folder/name for name in ['verses.json','inventory.json','source-checks.json','editorial-notes.json','README.md','RESTORE.md',d['readable_html'],d['readable_text']]]
@@ -169,6 +184,12 @@ def validate(write_verification=False):
    inputs.extend(path('review-batches/'+relative) for relative in saved_batch['proposal_files'])
    for relative in saved_batch.get('peer_review_files',[]):
     peer_file=path('review-batches/'+relative);need(peer_file.exists(),'Missing declared peer-review archive');inputs.append(peer_file)
+   for auxiliary in saved_batch.get('auxiliary_review_evidence',[]):
+    auxiliary_file=path('review-batches/'+auxiliary['file'])
+    need(auxiliary_file.is_file(),'Missing declared auxiliary review evidence')
+    need(auxiliary.get('additional_completion_credit')==0 and auxiliary.get('additional_pair_credit',0)==0,'Auxiliary reading evidence cannot earn completion credit')
+    need(hashlib.sha256(auxiliary_file.read_bytes()).hexdigest()==auxiliary['sha256'],'Auxiliary review evidence hash mismatch')
+    inputs.append(auxiliary_file)
   report['checked_file_sha256']={f.relative_to(ROOT).as_posix():hashlib.sha256(f.read_bytes()).hexdigest() for f in inputs}
   report['root_tracker_pointer_sha256']=digest(json.dumps(load(ROOT/'progress.json')['new_testament_tracker'],ensure_ascii=False,sort_keys=True))
   if not write_verification:

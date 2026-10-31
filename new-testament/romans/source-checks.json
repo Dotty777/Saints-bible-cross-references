@@ -23,19 +23,78 @@
       "new_source_verses": 61,
       "new_completed_revisited_sources": 0,
       "new_pairs": 61
+    },
+    {
+      "run_id": "2026-10-31T083250Z",
+      "records": "../review-batches/2026-10-31T083250Z.json",
+      "source_units_read": 372,
+      "first_reviewed_source_units": 372,
+      "revisited_source_units_read": 0,
+      "new_source_verses": 366,
+      "new_completed_revisited_sources": 0,
+      "new_pairs": 379
     }
   ],
   "unresolved_candidates": [],
-  "deferred_source_units": [],
-  "method": "Complete supplied English source units and retained target passages were read with context, followed by a second AI-assisted comparison. The saved canon order is preserved: all original Gospel and Acts units were read before Romans source review. This run finishes all485 remaining Acts source reviews and reviews Romans1–2, carrying unresolved deferrals separately without credit. Later passages read only as targets or context earn no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
+  "deferred_source_units": [
+    {
+      "source_reference": "Romans 16:8",
+      "source_id": "v16-8",
+      "reason": "Ampliatus is greeted as beloved in the Lord, with no further act, role or securely matched identity stated. A link based only on the common beloved greeting would be too general to retain.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Romans 16:10",
+      "source_id": "v16-10",
+      "reason": "Apelles's approved-in-Christ description and the greeting to Aristobulus's household do not establish a particular shared episode or identity elsewhere. The separately read household greeting in2Timothy4:19 supplies a formula, not a specific connection for these people.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Romans 16:11",
+      "source_id": "v16-11",
+      "reason": "Herodion's kinship label and the believing members of Narcissus's household are retained exactly. No particular degree of kinship, identity with a Herod, belief of Narcissus himself or matched household history is established by the greeting.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Romans 16:13",
+      "source_id": "v16-13",
+      "reason": "The repeated Rufus name inMark15:21 does not establish identity with Simon's son. The mother-and-mine phrase is unexplained here; the general familial instruction in1Timothy5:1–2 does not determine this particular relationship, so no biographical identification is retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Romans 16:14",
+      "source_id": "v16-14",
+      "reason": "The list names these people and the brothers with them but no specific event or task. The Hermes label assigned to Paul by the crowd inActs14:12 is not an identity for this named Christian; a shared name or general greeting is insufficient.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Romans 16:15",
+      "source_id": "v16-15",
+      "reason": "The greeting names Philologus, Julia, Nereus and his unnamed sister, Olympas and the saints with them. No specific matching episode or identity was found to retain; spouse relationships, the sister's name and a particular meeting place must not be invented.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "method": "Complete supplied English source units and retained actual target/context passages were read, then independently compared by a second AI-assisted reader. All372 remaining Romans originals were read before1Corinthians source review began; the complete437-unit1Corinthians inventory was prepared first and earns zero credit. This run reviews1Corinthians1–7 and substantively reconsiders62 saved deferrals. Later passages used only as targets/context receive no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
   "checked_scope": {
-    "source_range": "Romans 1:1–2:29",
-    "source_units_read": 61,
-    "completed_source_verses": 61,
-    "retained_pairs": 61
+    "source_range": "Romans 1:1–16:27",
+    "source_units_read": 433,
+    "completed_source_verses": 427,
+    "retained_pairs": 440
   },
   "pending": [
-    "Remaining Romans source review",
+    "Substantive reconsideration of deferred source units",
     "Independent specialist review",
     "Live destination anchors and display checks"
   ],
@@ -388,6 +447,14 @@
       "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/joshua.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "jude/verses.json",
+      "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jude/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jude.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",

@@ -31,6 +31,10 @@ def render():
      target=''.join('<p class="target-scripture">'+e(t['reference']+' '+full(t))+'</p>' for t in edge['target_verses'])
      items.append('<li data-pair-id="'+e(edge['id'])+'"><strong>'+e(edge['target'])+'</strong> <span class="kind">'+e(edge['relationship'])+'</span><p>'+e(edge['rationale'])+'</p><details><summary>Read matching passage</summary>'+target+'<p><a href="'+e(edge['target_source']['url'])+'">Pinned target record</a></p></details></li>')
     text.append('');sections.append('<section id="'+e(v['id'])+'"><h2>'+e(v['reference'])+'</h2><p class="scripture">'+e(full(v))+'</p><ol>'+''.join(items)+'</ol></section>')
+    for note in c.get('editorial_notes',[]):
+     if note['after_anchor']==v['id']:
+      text.extend([note['text'],''])
+      sections.append('<p class="editorial-note" data-after-anchor="'+e(v['id'])+'">'+e(note['text'])+'</p>')
   deferred=checks['deferred_source_units']
   deferred_html='<aside><h2>Reviewed units still unfinished</h2><ul>'+''.join('<li>'+e(x['source_reference'])+': '+e(x['reason'])+'</li>' for x in deferred)+'</ul></aside>' if deferred else ''
   if deferred:text.extend(['Reviewed units still unfinished']+[x['source_reference']+': '+x['reason'] for x in deferred]+[''])

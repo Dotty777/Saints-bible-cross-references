@@ -1,8 +1,8 @@
 # Acts cross-reference records
 
-977 completed source verses; 993 retained pairs; 1003 source units read; 26 deferred units.
+983 completed source verses; 999 retained pairs; 1003 source units read; 20 deferred units.
 
-First unfinished: Acts 2:9. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Romans 3:1.
+First unfinished: Acts 2:9. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 Corinthians 8:1.
 
 Completed chapters: 1, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 23, 24, 25, 26. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28. Complete inventory: 1003 original source units in 28 chapters. Deferred units receive no completion credit.
 
@@ -20,3 +20,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 
 - [2026-10-31T050916Z](../review-batches/2026-10-31T050916Z.json): 506 completed source verses and 518 retained pairs.
 - [2026-10-31T070618Z](../review-batches/2026-10-31T070618Z.json): 471 completed source verses and 475 retained pairs.
+- [2026-10-31T083250Z](../review-batches/2026-10-31T083250Z.json): 6 completed source verses and 6 retained pairs.

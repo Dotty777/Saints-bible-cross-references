@@ -1,0 +1,82 @@
+{
+  "source_book": "Romans",
+  "reviewed_chapters": [
+    8,
+    9
+  ],
+  "source_units_read": 72,
+  "supported_source_units": 72,
+  "retained_pairs_checked": 73,
+  "deferred_sources_checked": 0,
+  "reviewer": "Codex root, independent second AI-assisted source/target comparison",
+  "primary_preview_file": "romans-8-9-peer-preview.json",
+  "input_preview_sha256": "77a5ac4a9173998b0666e70859591f9c9c8c555703e1e7ee580ced0eea8e66ac",
+  "primary_preview_sha256": "b80b99e19c2080dd9cea162d5611a0e88c54c523766ce446cc0781621b184c41",
+  "final_primary_file": "romans-8-12-review.json",
+  "final_primary_prefix_confirmed": true,
+  "findings": [
+    {
+      "source_id": "v8-13",
+      "fix": "Romans8:13 is a conditional statement, not the same imperative form as Colossians3:5.",
+      "before": "Both command putting to death what belongs to disordered bodily conduct. Romans says the body's practices by Spirit; Colossians names earthly members and immediately lists vices. The objects and means are not rewritten as one phrase or a command literally to destroy the believer's body.",
+      "after": "Both speak of putting to death disordered bodily conduct. Romans states conditional life/death alternatives and names acting by Spirit; Colossians directly commands putting to death earthly members and lists vices. The objects and grammatical forms remain distinct, without making either text a direction literally to destroy the person's body.",
+      "resolution": "Applied an explicit conditional-versus-imperative distinction after complete actual source/target reading."
+    },
+    {
+      "source_id": "v8-26",
+      "fix": "Keep the actual supplied beyond words formulation rather than narrowing it to wordless.",
+      "before": "This chapter describes intercession by both the Spirit and Christ Jesus. Here the Spirit helps weakness and intercedes with wordless groanings; the later verse names the dead-and-raised Christ at God's right hand. The related intercession roles do not identify the Spirit as the crucified person or give Christ this verse's groanings.",
+      "after": "This chapter describes intercession by both the Spirit and Christ Jesus. Here the Spirit helps weakness and intercedes with groanings beyond words; the later verse names the dead-and-raised Christ at God's right hand. The related intercession roles do not identify the Spirit as the crucified person or give Christ this verse's groanings.",
+      "resolution": "Applied the saved source wording in the explanation; source and target bodies are unchanged."
+    }
+  ],
+  "rejected_pairs": [],
+  "result": "passed after two wording refinements",
+  "reading_evidence": {
+    "complete_source_view_tokens": 2294,
+    "complete_actual_comparison_view_tokens": [
+      3624,
+      3770,
+      3625,
+      3962,
+      3293
+    ],
+    "pair_slices": [
+      [
+        0,
+        15
+      ],
+      [
+        15,
+        30
+      ],
+      [
+        30,
+        45
+      ],
+      [
+        45,
+        60
+      ],
+      [
+        60,
+        73
+      ]
+    ],
+    "all_end_markers_visible": true,
+    "truncated_body_used": false
+  },
+  "review_notes": [
+    "Every complete source unit and actual retained target/context passage was read. Hosea2:25 says mercy/Not Shown Mercy where Romans9:25 says beloved/not beloved; Hosea2:1 retains its actual Greek-based identity. Genesis25:23 says greater/lesser where Romans9:12 says older/younger.",
+    "Exodus9:16 says you were preserved where Romans9:17 says I raised you up. Isaiah8:14 retains its conditional not-stumbling statement, while Romans9:33 positively names a stumbling stone; Isaiah28:16 says trusts in it rather than believes in Him. None of these actual differences is silently harmonized.",
+    "Romans9:22 has an unspecified fitting agent for wrath-vessels;9:23 explicitly names prior preparation of mercy-vessels. The comparison keeps different grammatical roles and does not fill the former from the latter. John10:29 retains What My Father has given Me as its actual subject.",
+    "Root authored only a disjoint primary Romans12 slice, not8–9. Agent1 independently reviewed10–12 and confirmed that the final first72 source IDs and73 pair records exactly equal this corrected preview. No additional source or pair credit is earned by the peer or preview."
+  ],
+  "additional_completion_credit": 0,
+  "final_primary_sha256": "6ef2a3c48f8466673341fb5282f637d1a08444cede5e8aa5b14ff0af31edd35d",
+  "final_primary_prefix_check": {
+    "source_ids_exact": 72,
+    "pairs_exact": 73,
+    "corrected_preview_sha256": "b80b99e19c2080dd9cea162d5611a0e88c54c523766ce446cc0781621b184c41"
+  }
+}

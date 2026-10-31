@@ -13,12 +13,12 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Complete supplied English source units and retained target passages were read with context, followed by a second AI-assisted comparison. The saved canon order is preserved: all original Gospel and Acts units were read before Romans source review. This run finishes all485 remaining Acts source reviews and reviews Romans1–2, carrying unresolved deferrals separately without credit. Later passages read only as targets or context earn no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
+  "method": "Complete supplied English source units and retained actual target/context passages were read, then independently compared by a second AI-assisted reader. All372 remaining Romans originals were read before1Corinthians source review began; the complete437-unit1Corinthians inventory was prepared first and earns zero credit. This run reviews1Corinthians1–7 and substantively reconsiders62 saved deferrals. Later passages used only as targets/context receive no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
   "checked_scope": {
     "source_range": "Matthew 1:1–28:20",
     "source_units_read": 1068,
-    "completed_source_verses": 1049,
-    "retained_pairs": 1082
+    "completed_source_verses": 1055,
+    "retained_pairs": 1088
   },
   "review_batches": [
     {
@@ -102,13 +102,23 @@
       "new_source_verses": 5,
       "new_completed_revisited_sources": 5,
       "new_pairs": 5
+    },
+    {
+      "run_id": "2026-10-31T083250Z",
+      "records": "../review-batches/2026-10-31T083250Z.json",
+      "source_units_read": 19,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 19,
+      "new_source_verses": 6,
+      "new_completed_revisited_sources": 6,
+      "new_pairs": 6
     }
   ],
   "deferred_source_units": [
     {
       "source_reference": "Matthew 1:14",
       "source_id": "v1-14",
-      "reason": "Azor, Zadok, Achim and Eliud remain the precise ancestral chain. Rereading its neighboring generations does not establish another matching lineage or license identifying a familiar name with a different person.",
+      "reason": "Azor–Zadok–Achim–Eliud remains the exact segment between the neighboring generations. A recognizable name elsewhere does not provide another matching line or identify a different Zadok.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -116,7 +126,7 @@
     {
       "source_reference": "Matthew 1:15",
       "source_id": "v1-15",
-      "reason": "The Eliud–Eleazar–Matthan–Jacob succession leads locally toward Joseph, but a shared ancestral name alone does not establish a cross-passage identity. No additional pedigree is reconstructed.",
+      "reason": "The Eliud–Eleazar–Matthan–Jacob sequence leads toward the next verse's Joseph. Neither that continuation nor isolated same-name ancestors supplies a second supported pedigree.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -124,7 +134,7 @@
     {
       "source_reference": "Matthew 6:3",
       "source_id": "v6-3",
-      "reason": "The right/left-hand hyperbole supports secret almsgiving in its immediate context. I retain no further concrete counterpart for that bodily image and supply neither a literal mechanism nor an allegorical identity for either hand.",
+      "reason": "The following secrecy purpose explains the almsgiving image, but no sufficiently specific further counterpart for the left/right-hand hyperbole is retained. Neither hand receives an invented allegorical identity.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -132,31 +142,7 @@
     {
       "source_reference": "Matthew 15:23",
       "source_id": "v15-23",
-      "reason": "The silence and disciples' request to dismiss this particular Canaanite woman retain their distinct speakers and situation. I do not derive Jesus' unstated motive from another silence or assign another supplicant's outcome to her.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 17:24",
-      "source_id": "v17-24",
-      "reason": "Fresh reading of Exodus30:11–16 confirms a half-didrachma contribution with its own numbering and sanctuary-work setting; Matthew speaks of didrachma collectors. These amounts and settings are not made identical, and no independent legal rule for this question is established.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 17:25",
-      "source_id": "v17-25",
-      "reason": "The royal sons/strangers analogy is explicit, but I find no particular second royal-tax passage establishing the same distinction. The local analogy is not expanded into a reconstructed administrative exemption.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 17:26",
-      "source_id": "v17-26",
-      "reason": "The sons' freedom answers the preceding tax question. General spiritual-freedom language would change this comparison, and I retain no additional supported royal-tax counterpart.",
+      "reason": "Jesus' silence, the disciples' dismissal request and the following lost-sheep saying retain their different speakers. No unreported reason for the silence or a different supplicant's outcome is inferred.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -164,7 +150,7 @@
     {
       "source_reference": "Matthew 18:31",
       "source_id": "v18-31",
-      "reason": "The fellow slaves grieve and report this debtor's treatment of another slave. The following summons continues the same story; I add no different reporting incident or an inferred motive for every observer.",
+      "reason": "The fellow slaves' sorrow and report concern the debtor's imprisonment of another slave. The master's following summons does not independently reproduce the reporting episode or supply every observer's motive.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -172,7 +158,7 @@
     {
       "source_reference": "Matthew 22:11",
       "source_id": "v22-11",
-      "reason": "The king sees a guest without the required wedding garment. Neither the neighboring question nor a generic clothing text determines an unstated material or allegorical identity for that garment.",
+      "reason": "The wedding-garment absence is followed by the king's question. Generic clothing passages would not identify its material or give an unprinted allegorical definition.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -180,7 +166,7 @@
     {
       "source_reference": "Matthew 22:12",
       "source_id": "v22-12",
-      "reason": "The garment question and guest's speechlessness remain particular to this scene. No cause for the silence or unrelated acquittal/condemnation scene is supplied as its counterpart.",
+      "reason": "The guest's speechlessness remains the response to this garment question. The following expulsion does not reveal an unstated reason for his silence or make another defendant's silence the same event.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -188,23 +174,7 @@
     {
       "source_reference": "Matthew 23:15",
       "source_id": "v23-15",
-      "reason": "The sea-and-land effort, one convert and twice-as-much Gehenna charge are preserved together. No unrelated missionary effort establishes these quantities, motives or this specific condemnation.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 23:17",
-      "source_id": "v23-17",
-      "reason": "The sanctuary sanctifying gold is the actual hierarchy in this question. Precious temple materials by themselves do not establish that hierarchy, and a different consecration act is not substituted.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 23:20",
-      "source_id": "v23-20",
-      "reason": "This oath explicitly embraces the altar and what is on it. A broad statement about oaths or holiness does not establish the same scope, so I retain no further pair for this source unit.",
+      "reason": "The sea-and-land effort and twice-as-much-Gehenna charge belong together. Another proselyte or mission passage would not establish these quantities, motives or the outcome of this specific accusation.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -212,7 +182,7 @@
     {
       "source_reference": "Matthew 25:2",
       "source_id": "v25-2",
-      "reason": "The five foolish and five prudent virgins are the parable's division. The neighboring preparations explain their difference without supporting a new independent numerical counterpart or a population statistic.",
+      "reason": "The five/five division is explained by later preparations within the parable. A second group of five or ten elsewhere would only duplicate a number, not substantiate the grouping.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -220,7 +190,7 @@
     {
       "source_reference": "Matthew 25:7",
       "source_id": "v25-7",
-      "reason": "All ten arise and put lamps in order after the midnight cry. No separate lamp or waking passage closely reproduces this wedding action; the lamps are not identified with sanctuary equipment.",
+      "reason": "The virgins rise and arrange their lamps after the midnight cry. Other waking or lamp scenes do not specifically reproduce this wedding response or establish an equipment identity.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -228,7 +198,7 @@
     {
       "source_reference": "Matthew 25:8",
       "source_id": "v25-8",
-      "reason": "The foolish request oil because their lamps are going out. I do not identify the oil allegorically or turn a general sharing command into the particular answer this parable gives.",
+      "reason": "The request for oil states the lamps' failing condition. General generosity texts do not supply the parable's particular answer, and no allegorical identity is assigned to the oil.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -236,7 +206,7 @@
     {
       "source_reference": "Matthew 25:9",
       "source_id": "v25-9",
-      "reason": "The prudent cite insufficient supply and direct the others to sellers. The ensuing late return is not a general prohibition of sharing or an independently matched purchase incident.",
+      "reason": "The prudent cite possible insufficient supply and direct a purchase. The later closed door does not turn this reply into a universal rule against sharing or establish an independent purchase episode.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -244,15 +214,7 @@
     {
       "source_reference": "Matthew 27:62",
       "source_id": "v27-62",
-      "reason": "The chief priests and Pharisees approach Pilate on the day after Preparation. A different judicial gathering does not establish this precise audience or time notice.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 27:65",
-      "source_id": "v27-65",
-      "reason": "Pilate's guard reply and instruction precede the sealing. The wording does not by itself decide whether a new guard is being assigned, and later guards do not independently attest the reply.",
+      "reason": "The post-Preparation day and named gathering before Pilate remain explicit. Earlier hearings have different times and purposes and do not provide a matching summons.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -571,6 +533,14 @@
       "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/joshua.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "jude/verses.json",
+      "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jude/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jude.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -1034,6 +1004,60 @@
       "previous_reason": "The holy people's appearance in the holy city after His rising remains distinct from Jesus' own appearances. No names, additional resurrection chronology or independent matching appearance is supplied.",
       "retained_pair_ids": [
         "matthew-27-53__ezekiel-37-12-37-14"
+      ]
+    },
+    {
+      "source_reference": "Matthew 17:24",
+      "source_id": "v17-24",
+      "resolved_in_run": "2026-10-31T083250Z",
+      "previous_reason": "Fresh reading of Exodus30:11–16 confirms a half-didrachma contribution with its own numbering and sanctuary-work setting; Matthew speaks of didrachma collectors. These amounts and settings are not made identical, and no independent legal rule for this question is established.",
+      "retained_pair_ids": [
+        "matthew-17-24__matthew-17-25"
+      ]
+    },
+    {
+      "source_reference": "Matthew 17:25",
+      "source_id": "v17-25",
+      "resolved_in_run": "2026-10-31T083250Z",
+      "previous_reason": "The royal sons/strangers analogy is explicit, but I find no particular second royal-tax passage establishing the same distinction. The local analogy is not expanded into a reconstructed administrative exemption.",
+      "retained_pair_ids": [
+        "matthew-17-25__matthew-17-26"
+      ]
+    },
+    {
+      "source_reference": "Matthew 17:26",
+      "source_id": "v17-26",
+      "resolved_in_run": "2026-10-31T083250Z",
+      "previous_reason": "The sons' freedom answers the preceding tax question. General spiritual-freedom language would change this comparison, and I retain no additional supported royal-tax counterpart.",
+      "retained_pair_ids": [
+        "matthew-17-26__matthew-17-25"
+      ]
+    },
+    {
+      "source_reference": "Matthew 23:17",
+      "source_id": "v23-17",
+      "resolved_in_run": "2026-10-31T083250Z",
+      "previous_reason": "The sanctuary sanctifying gold is the actual hierarchy in this question. Precious temple materials by themselves do not establish that hierarchy, and a different consecration act is not substituted.",
+      "retained_pair_ids": [
+        "matthew-23-17__matthew-23-19"
+      ]
+    },
+    {
+      "source_reference": "Matthew 23:20",
+      "source_id": "v23-20",
+      "resolved_in_run": "2026-10-31T083250Z",
+      "previous_reason": "This oath explicitly embraces the altar and what is on it. A broad statement about oaths or holiness does not establish the same scope, so I retain no further pair for this source unit.",
+      "retained_pair_ids": [
+        "matthew-23-20__matthew-23-18-23-19"
+      ]
+    },
+    {
+      "source_reference": "Matthew 27:65",
+      "source_id": "v27-65",
+      "resolved_in_run": "2026-10-31T083250Z",
+      "previous_reason": "Pilate's guard reply and instruction precede the sealing. The wording does not by itself decide whether a new guard is being assigned, and later guards do not independently attest the reply.",
+      "retained_pair_ids": [
+        "matthew-27-65__matthew-27-66"
       ]
     }
   ]

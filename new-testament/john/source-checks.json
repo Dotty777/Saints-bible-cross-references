@@ -53,6 +53,16 @@
       "new_source_verses": 7,
       "new_completed_revisited_sources": 7,
       "new_pairs": 7
+    },
+    {
+      "run_id": "2026-10-31T083250Z",
+      "records": "../review-batches/2026-10-31T083250Z.json",
+      "source_units_read": 4,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 4,
+      "new_source_verses": 1,
+      "new_completed_revisited_sources": 1,
+      "new_pairs": 1
     }
   ],
   "unresolved_candidates": [],
@@ -60,15 +70,7 @@
     {
       "source_reference": "John 2:2",
       "source_id": "v2-2",
-      "reason": "Jesus and His disciples receive a wedding invitation at Cana. A wedding parable does not establish this invitation's hosts, bridegroom or historical circumstances.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "John 7:9",
-      "source_id": "v7-9",
-      "reason": "Jesus remains in Galilee after the actual not-going statement, before the later private journey. No yet is inserted into7:8 or unreported duration used to harmonize the sequence.",
+      "reason": "The invitation places Jesus and His disciples at the Cana wedding. Neighboring family presence and wine shortage do not identify unnamed hosts, and wedding parables are different literary settings.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -76,7 +78,7 @@
     {
       "source_reference": "John 7:53",
       "source_id": "v7-53",
-      "reason": "The each-to-his-house departure remains within the double brackets. Jesus' following Mount-of-Olives destination does not identify every other departing person or itinerary.",
+      "reason": "The each-to-his-house notice remains inside the double-bracketed passage. Jesus' subsequent Mount-of-Olives destination does not establish every person's itinerary or an independently matching departure.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -84,18 +86,18 @@
     {
       "source_reference": "John 18:34",
       "source_id": "v18-34",
-      "reason": "The question distinguishes Pilate's own assertion from a report received from others. I do not infer an unspoken answer, political motive or a different speaker's inquiry as the same exchange.",
+      "reason": "Pilate's ensuing response points to Jesus' own nation and chief priests but does not expressly resolve the question's own-assertion/report alternative. No motive or unspoken answer is supplied.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
     }
   ],
-  "method": "Complete supplied English source units and retained target passages were read with context, followed by a second AI-assisted comparison. The saved canon order is preserved: all original Gospel and Acts units were read before Romans source review. This run finishes all485 remaining Acts source reviews and reviews Romans1–2, carrying unresolved deferrals separately without credit. Later passages read only as targets or context earn no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
+  "method": "Complete supplied English source units and retained actual target/context passages were read, then independently compared by a second AI-assisted reader. All372 remaining Romans originals were read before1Corinthians source review began; the complete437-unit1Corinthians inventory was prepared first and earns zero credit. This run reviews1Corinthians1–7 and substantively reconsiders62 saved deferrals. Later passages used only as targets/context receive no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
   "checked_scope": {
     "source_range": "John 1:1–21:25",
     "source_units_read": 878,
-    "completed_source_verses": 874,
-    "retained_pairs": 885
+    "completed_source_verses": 875,
+    "retained_pairs": 886
   },
   "pending": [
     "Substantive reconsideration of deferred source units",
@@ -434,6 +436,14 @@
       "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/joshua.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "jude/verses.json",
+      "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jude/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jude.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -1045,6 +1055,15 @@
       "previous_reason": "The refusal to revise the placard was reread with the requested change. A rule about irrevocable royal decrees would not establish Pilate's legal obligation or particular motive here; no general law is imposed on this rhetorical reply.",
       "retained_pair_ids": [
         "john-19-22__john-19-19-19-21"
+      ]
+    },
+    {
+      "source_reference": "John 7:9",
+      "source_id": "v7-9",
+      "resolved_in_run": "2026-10-31T083250Z",
+      "previous_reason": "Jesus remains in Galilee after the actual not-going statement, before the later private journey. No yet is inserted into7:8 or unreported duration used to harmonize the sequence.",
+      "retained_pair_ids": [
+        "john-7-9__john-7-8"
       ]
     }
   ]
