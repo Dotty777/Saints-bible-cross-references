@@ -1,0 +1,236 @@
+{
+  "run_id": "2026-10-31T072419Z",
+  "base_commit": "788a47557342bc24eae23c03f7ea032237016936",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Independent technical peer /root/ecclesiastes_author",
+  "helper_sha256": "5e0b2e08668012b0b44239d8aab96483c0c9d1c03ff7a3823b1d9847799c39ba",
+  "inventory_helper_sha256": "35db8e7fec4ec6763e903ed1aac89af2c7555914cd82d76ed922a1875c57355f",
+  "renderer_sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "method": "Current helper functions and its actual final packet-order AST guard; deliberately malformed values injected only in memory. One contained scratch-only destination collision fixture. No production apply, renderer or validator invoked.",
+  "checks": {
+    "unchanged_transaction_receipt_registry_readback_guards": {
+      "passed": true,
+      "functions": [
+        "safe_path",
+        "apply",
+        "receipt",
+        "verified_registry",
+        "readback",
+        "publication_check",
+        "reviewed_renderer",
+        "refresh_sources",
+        "evidence"
+      ]
+    },
+    "current_exact_mixed_baselines": {
+      "passed": true,
+      "isaiah_prior_supported": 1033,
+      "isaiah_prior_read": 1098,
+      "isaiah_prior_deferred": 65,
+      "isaiah_next_read": 191,
+      "jeremiah_native_units": 1296,
+      "jeremiah_native_groups": 52
+    },
+    "independent_native_gap_and_compound_check": {
+      "passed": true,
+      "compound_references": [
+        "Jeremiah 7:27–28",
+        "Jeremiah 25:13; 32:13",
+        "Jeremiah 25:14;25:20"
+      ],
+      "next_after_planned_401": "Jeremiah 17:5",
+      "gap_groups": [
+        {
+          "chapter": 2,
+          "missing_numbers": [
+            1
+          ]
+        },
+        {
+          "chapter": 7,
+          "missing_numbers": [
+            1
+          ]
+        },
+        {
+          "chapter": 8,
+          "missing_numbers": [
+            11,
+            12
+          ]
+        },
+        {
+          "chapter": 10,
+          "missing_numbers": [
+            6,
+            7,
+            8,
+            10
+          ]
+        },
+        {
+          "chapter": 11,
+          "missing_numbers": [
+            7
+          ]
+        },
+        {
+          "chapter": 17,
+          "missing_numbers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "chapter": 26,
+          "missing_numbers": [
+            1,
+            26
+          ]
+        },
+        {
+          "chapter": 28,
+          "missing_numbers": [
+            45,
+            46,
+            47,
+            48
+          ]
+        },
+        {
+          "chapter": 30,
+          "missing_numbers": [
+            22
+          ]
+        },
+        {
+          "chapter": 32,
+          "missing_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "chapter": 34,
+          "missing_numbers": [
+            1,
+            7,
+            13,
+            17,
+            21
+          ]
+        },
+        {
+          "chapter": 36,
+          "missing_numbers": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "chapter": 37,
+          "missing_numbers": [
+            10,
+            11,
+            15,
+            22
+          ]
+        },
+        {
+          "chapter": 46,
+          "missing_numbers": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "chapter": 52,
+          "missing_numbers": [
+            2,
+            3,
+            15,
+            28,
+            29,
+            30
+          ]
+        }
+      ]
+    },
+    "seed_text_mutation_rejected": {
+      "passed": true,
+      "rejection": "Original source units/order changed"
+    },
+    "seed_reordering_rejected": {
+      "passed": true,
+      "rejection": "Original source units/order changed"
+    },
+    "seed_status_credit_rejected": {
+      "passed": true,
+      "rejection": "Inventory seed grants completion"
+    },
+    "seed_total_credit_rejected": {
+      "passed": true,
+      "rejection": "New inventory declares completion"
+    },
+    "inventory_parent_traversal_rejected": {
+      "passed": true,
+      "rejection": "Inventory input must use a relative contained path"
+    },
+    "new_source_checks_read_credit_rejected": {
+      "passed": true,
+      "rejection": "New source checks grant reading or completion credit"
+    },
+    "existing_book_seed_dispatch_rejected": {
+      "passed": true,
+      "rejection": "Seed requested outside this run"
+    },
+    "new_book_existing_dispatch_rejected": {
+      "passed": true,
+      "rejection": "Existing book outside this run"
+    },
+    "cannot_review_jeremiah_after_partial_isaiah": {
+      "passed": true,
+      "rejection": "An earlier source book must be fully read before reviewing the next book: Isaiah"
+    },
+    "jeremiah_reordered_native_prefix_rejected": {
+      "passed": true,
+      "rejection": "Book packets must cover the exact disjoint next-unread native prefix: Jeremiah"
+    },
+    "existing_new_book_directory_rejected": {
+      "passed": true,
+      "rejection": "New book destination already exists; preserve it instead of bootstrapping: Jeremiah"
+    },
+    "current_canonical_baseline_readback": {
+      "passed": true,
+      "historical_runs": 45,
+      "protected_objects": 141
+    }
+  }
+}

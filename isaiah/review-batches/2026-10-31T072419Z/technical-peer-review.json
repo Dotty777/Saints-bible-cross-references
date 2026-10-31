@@ -1,0 +1,59 @@
+{
+  "run_id": "2026-10-31T072419Z",
+  "base_commit": "788a47557342bc24eae23c03f7ea032237016936",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-31",
+  "review_timezone": "America/New_York",
+  "reviewer": "Independent technical peer /root/ecclesiastes_author",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "5e0b2e08668012b0b44239d8aab96483c0c9d1c03ff7a3823b1d9847799c39ba"
+    },
+    {
+      "file": "inventory-books.py",
+      "sha256": "35db8e7fec4ec6763e903ed1aac89af2c7555914cd82d76ed922a1875c57355f"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "p-129ba090/result.json",
+      "sha256": "c1ccc8b761fad34c7fa608848ae37bb3d73f97b616707d8b0e0fd8c86fca6c51"
+    },
+    {
+      "file": "p-d815861f/result.json",
+      "sha256": "5e1493509a8acb1ade67f1b91ff460ef9fef21ebcbb4210aa16bdb803e41c704"
+    },
+    {
+      "file": "technical-peer-probe-a-9c28299f/result.json",
+      "sha256": "dbf03b01ff550836ff58b74224e37c5b7c9d5cade806099eb20618ef2f1129da"
+    },
+    {
+      "file": "revelation-unavailable.json",
+      "sha256": "71342df1b394a6df9578fcc9a32d2b1f0a684f9af508aa763277c5c06f4c63cb"
+    }
+  ],
+  "review_scope": [
+    "Reviewed the mixed existing-Isaiah/new-Jeremiah delta against the accepted prior existing-book helper, including baseline partition, original-object preservation, seed dispatch, packet order, preparation, archiving, and the new-book verification/readback branch.",
+    "Read the complete inventory generator, its source-gate checks, exact pinned raw/cache equality, original book/chapter/unit metadata preservation, zero-credit initialization, compound labels and physical-group gap accounting.",
+    "Independently verified the 1296 Jeremiah units in 52 native groups, every compound label retained as one actual unit, exact numeric-gap metadata and next planned native unit Jeremiah 17:5. No missing labels or future source units were manufactured.",
+    "Checked preservation of the 1033 existing completed Isaiah objects, 65 historical deferrals, 1098 prior read units, 45 historical runs, 141 baseline identity objects and the unchanged 27 other existing books. Audit functions require exact objects outside the current cohort and exact old source-check prefixes.",
+    "Confirmed native-order cohort, self/duplicate-pair, targetless-deferral, read/unretained-candidate, unread-hint zero-credit, author/peer identity and reading-flag guards. The whole remaining Isaiah prefix is required before a Jeremiah packet is accepted.",
+    "Confirmed by AST identity that path safety, atomic apply/rollback, receipt validation, full source registry verification, renderer binding, readback and publication safeguards are unchanged. No production transaction was performed by this reviewer.",
+    "Read both full and partial mixed-book fixture results: all 37 checks passed in each, including actual scratch production validation for all 29 books, maintenance capture and readback. Those fixtures deliberately stub semantic receipt validation and use seven clearly synthetic edges; they grant zero semantic credit.",
+    "Ran 15 independent focused checks using the current functions and the actual final native-prefix guard. Negative cases rejected source-text/order mutation, seed completion credit, source-check read credit, parent traversal, incorrect book dispatch, incomplete earlier-book coverage, reordered Jeremiah units and an existing new-book destination.",
+    "Verified unchanged production renderer bytes and exact manifest/hash-bound archive logic. The existing technical-evidence hook safely validates and archives every explicitly listed result file; Revelation absence evidence is explicitly listed here, so all six unread hint references remain recoverable without a helper change."
+  ],
+  "reading_limitations": [
+    "This receipt is technical acceptance only and supplies zero completed-source or completed-pair credit. Independent semantic receipts separately govern all retained references.",
+    "Unchanged transaction mechanisms were checked by AST equality and reviewed in their mixed-book call path; unaffected earlier failure-injection tests were not rerun."
+  ]
+}

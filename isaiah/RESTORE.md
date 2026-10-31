@@ -4,8 +4,9 @@ Read ../canon.json, ../progress.json, verses.json and inventory.json first. Pres
 
 
 
+
 ## Pending source review recovery
 
-1289 original source units in 66 native chapters and 66 native source groups remain unchanged. 1098 read; 1033 supported sources; 1114 pairs; 191 never reviewed. First pending within book: **Isaiah 2:18**. Next never-reviewed within book: **Isaiah 56:1**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
+1289 original source units in 66 native chapters and 66 native source groups remain unchanged. 1289 read; 1218 supported sources; 1311 pairs; 0 never reviewed. First pending within book: **Isaiah 2:18**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
-Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Isaiah 56:1**.
+Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Jeremiah 17:5**.
