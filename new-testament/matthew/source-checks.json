@@ -13,12 +13,12 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Complete supplied English source units and retained actual target/context passages were read, then independently compared by a second AI-assisted reader. All372 remaining Romans originals were read before1Corinthians source review began; the complete437-unit1Corinthians inventory was prepared first and earns zero credit. This run reviews1Corinthians1–7 and substantively reconsiders62 saved deferrals. Later passages used only as targets/context receive no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
+  "method": "Complete supplied English source units and every retained actual target/context passage were read and independently compared by a second AI-assisted reader. This run first reads all273 remaining1Corinthians originals in8–16, completing its437-unit original reading boundary before preparing the full256-unit2Corinthians inventory and opening its source review. All2562Corinthians originals are read in native order, and54 saved deferrals are substantively reconsidered. Inventory preparation, deferred outcomes and target/context-only readings earn zero completion credit. All full-book original bytes match the pinned Git blobs; no new critical-text or human-specialist verification is claimed.",
   "checked_scope": {
     "source_range": "Matthew 1:1–28:20",
     "source_units_read": 1068,
-    "completed_source_verses": 1055,
-    "retained_pairs": 1088
+    "completed_source_verses": 1061,
+    "retained_pairs": 1094
   },
   "review_batches": [
     {
@@ -112,13 +112,23 @@
       "new_source_verses": 6,
       "new_completed_revisited_sources": 6,
       "new_pairs": 6
+    },
+    {
+      "run_id": "2026-10-31T101022Z",
+      "records": "../review-batches/2026-10-31T101022Z.json",
+      "source_units_read": 13,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 13,
+      "new_source_verses": 6,
+      "new_completed_revisited_sources": 6,
+      "new_pairs": 6
     }
   ],
   "deferred_source_units": [
     {
       "source_reference": "Matthew 1:14",
       "source_id": "v1-14",
-      "reason": "Azor–Zadok–Achim–Eliud remains the exact segment between the neighboring generations. A recognizable name elsewhere does not provide another matching line or identify a different Zadok.",
+      "reason": "The actual Azor, Zadok, Achim and Eliud succession is retained between its neighboring generations. An isolated Zadok or other common name does not substantiate the whole ancestry segment or a second matching line.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -126,15 +136,7 @@
     {
       "source_reference": "Matthew 1:15",
       "source_id": "v1-15",
-      "reason": "The Eliud–Eleazar–Matthan–Jacob sequence leads toward the next verse's Joseph. Neither that continuation nor isolated same-name ancestors supplies a second supported pedigree.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 6:3",
-      "source_id": "v6-3",
-      "reason": "The following secrecy purpose explains the almsgiving image, but no sufficiently specific further counterpart for the left/right-hand hyperbole is retained. Neither hand receives an invented allegorical identity.",
+      "reason": "Eliud, Eleazar, Matthan and Jacob form the printed sequence toward Joseph. Neighboring continuation and a separately named Eleazar do not establish a distinct parallel pedigree; no missing links are supplied.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -142,7 +144,7 @@
     {
       "source_reference": "Matthew 15:23",
       "source_id": "v15-23",
-      "reason": "Jesus' silence, the disciples' dismissal request and the following lost-sheep saying retain their different speakers. No unreported reason for the silence or a different supplicant's outcome is inferred.",
+      "reason": "Jesus silence and the disciples dismissal request have different speakers from the ensuing lost-sheep reply. The text does not state an inner reason for the silence, and another supplicants experience is not equated with this one.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -150,23 +152,7 @@
     {
       "source_reference": "Matthew 18:31",
       "source_id": "v18-31",
-      "reason": "The fellow slaves' sorrow and report concern the debtor's imprisonment of another slave. The master's following summons does not independently reproduce the reporting episode or supply every observer's motive.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 22:11",
-      "source_id": "v22-11",
-      "reason": "The wedding-garment absence is followed by the king's question. Generic clothing passages would not identify its material or give an unprinted allegorical definition.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 22:12",
-      "source_id": "v22-12",
-      "reason": "The guest's speechlessness remains the response to this garment question. The following expulsion does not reveal an unstated reason for his silence or make another defendant's silence the same event.",
+      "reason": "The fellow slaves are grieved by the imprisonment and report what happened before the masters summons. No external reporting episode or every observers inner motive is established; I retain no separate comparison for the reporting notice in this review.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -174,15 +160,7 @@
     {
       "source_reference": "Matthew 23:15",
       "source_id": "v23-15",
-      "reason": "The sea-and-land effort and twice-as-much-Gehenna charge belong together. Another proselyte or mission passage would not establish these quantities, motives or the outcome of this specific accusation.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 25:2",
-      "source_id": "v25-2",
-      "reason": "The five/five division is explained by later preparations within the parable. A second group of five or ten elsewhere would only duplicate a number, not substantiate the grouping.",
+      "reason": "The accusation combines sea-and-land effort, one convert and the twice-as-much Gehenna outcome. Other mission or convert notices do not establish those stated particulars or justify generalizing the accusation to every mission.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -190,23 +168,7 @@
     {
       "source_reference": "Matthew 25:7",
       "source_id": "v25-7",
-      "reason": "The virgins rise and arrange their lamps after the midnight cry. Other waking or lamp scenes do not specifically reproduce this wedding response or establish an equipment identity.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 25:8",
-      "source_id": "v25-8",
-      "reason": "The request for oil states the lamps' failing condition. General generosity texts do not supply the parable's particular answer, and no allegorical identity is assigned to the oil.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 25:9",
-      "source_id": "v25-9",
-      "reason": "The prudent cite possible insufficient supply and direct a purchase. The later closed door does not turn this reply into a universal rule against sharing or establish an independent purchase episode.",
+      "reason": "The virgins rise and arrange lamps in response to the midnight cry. I retain no merely verbal waking or lamp parallel and do not identify their equipment with sanctuary lamps.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -214,7 +176,7 @@
     {
       "source_reference": "Matthew 27:62",
       "source_id": "v27-62",
-      "reason": "The post-Preparation day and named gathering before Pilate remain explicit. Earlier hearings have different times and purposes and do not provide a matching summons.",
+      "reason": "The chief priests and Pharisees gather before Pilate on the day after Preparation. Earlier trial gatherings have different times and purposes; this notice alone does not support a matching summons or an imported calendar calculation.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -1058,6 +1020,60 @@
       "previous_reason": "Pilate's guard reply and instruction precede the sealing. The wording does not by itself decide whether a new guard is being assigned, and later guards do not independently attest the reply.",
       "retained_pair_ids": [
         "matthew-27-65__matthew-27-66"
+      ]
+    },
+    {
+      "source_reference": "Matthew 6:3",
+      "source_id": "v6-3",
+      "resolved_in_run": "2026-10-31T101022Z",
+      "previous_reason": "The following secrecy purpose explains the almsgiving image, but no sufficiently specific further counterpart for the left/right-hand hyperbole is retained. Neither hand receives an invented allegorical identity.",
+      "retained_pair_ids": [
+        "matthew-6-3__matthew-6-4"
+      ]
+    },
+    {
+      "source_reference": "Matthew 22:11",
+      "source_id": "v22-11",
+      "resolved_in_run": "2026-10-31T101022Z",
+      "previous_reason": "The wedding-garment absence is followed by the king's question. Generic clothing passages would not identify its material or give an unprinted allegorical definition.",
+      "retained_pair_ids": [
+        "matthew-22-11__matthew-22-12"
+      ]
+    },
+    {
+      "source_reference": "Matthew 22:12",
+      "source_id": "v22-12",
+      "resolved_in_run": "2026-10-31T101022Z",
+      "previous_reason": "The guest's speechlessness remains the response to this garment question. The following expulsion does not reveal an unstated reason for his silence or make another defendant's silence the same event.",
+      "retained_pair_ids": [
+        "matthew-22-12__matthew-22-11"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:2",
+      "source_id": "v25-2",
+      "resolved_in_run": "2026-10-31T101022Z",
+      "previous_reason": "The five/five division is explained by later preparations within the parable. A second group of five or ten elsewhere would only duplicate a number, not substantiate the grouping.",
+      "retained_pair_ids": [
+        "matthew-25-2__matthew-25-3-25-4"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:8",
+      "source_id": "v25-8",
+      "resolved_in_run": "2026-10-31T101022Z",
+      "previous_reason": "The request for oil states the lamps' failing condition. General generosity texts do not supply the parable's particular answer, and no allegorical identity is assigned to the oil.",
+      "retained_pair_ids": [
+        "matthew-25-8__matthew-25-9"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:9",
+      "source_id": "v25-9",
+      "resolved_in_run": "2026-10-31T101022Z",
+      "previous_reason": "The prudent cite possible insufficient supply and direct a purchase. The later closed door does not turn this reply into a universal rule against sharing or establish an independent purchase episode.",
+      "retained_pair_ids": [
+        "matthew-25-9__matthew-25-8"
       ]
     }
   ]

@@ -1,10 +1,10 @@
 # 1 Corinthians cross-reference records
 
-164 completed source verses; 164 retained pairs; 164 source units read; 0 deferred units.
+436 completed source verses; 439 retained pairs; 437 source units read; 1 deferred units.
 
-First unfinished: 1 Corinthians 8:1. Next new source review in this book: 1 Corinthians 8:1.
+First unfinished: 1 Corinthians 11:10. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Galatians 1:1.
 
-Completed chapters: 1, 2, 3, 4, 5, 6, 7. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7. Complete inventory: 437 original source units in 16 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 437 original source units in 16 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](1Corinthians.html) · [Plain text](1Corinthians.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -19,3 +19,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 ## Review batches
 
 - [2026-10-31T083250Z](../review-batches/2026-10-31T083250Z.json): 164 completed source verses and 164 retained pairs.
+- [2026-10-31T101022Z](../review-batches/2026-10-31T101022Z.json): 272 completed source verses and 275 retained pairs.

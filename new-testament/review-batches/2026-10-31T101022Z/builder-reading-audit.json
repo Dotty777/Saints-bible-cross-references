@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-31T101022Z",
+  "reviewer": "Codex agent matthew_3_4, independent read-only workflow review",
+  "status": "passed_read_only_preassembly",
+  "recorded_at_utc": "2026-10-31T11:15:05.391686+00:00",
+  "inspected_file_sha256": {
+    "build_hourly.py": "334504ad32d866a34487e1ced9db807964188305b6547673592b3f724dbbfae6",
+    "check_preservation.py": "01512549e07889a09c2d86f4b8e09d592e0d2ba193713e1b82925dc8b6f377f4",
+    "audit_archives.py": "14770112bc1a972768a640abeb3309817c72e00e001a17a4a72b29bd295b0781",
+    "sync_latest.py": "c9fc967676a1229be4c1e5794e70b6ad72c3d9047badf4cd567deb4f194e77aa",
+    "corinthian-source-boundary-reading-audit.json": "f7ab37277511f87303906fabed89afd53c5ee3f24bab85b0c6fd5e46b53d73e3",
+    "2-corinthians-inventory-preparation.json": "f64e6357c558d8186b3d3b11ab57a0180de1ff88ea8132c6fc424199dae91d10",
+    "2-corinthians-prepared-inventory.json": "ef72db239e529908bff39f567ec71660a8a21a62e6cb7b5c6e5db334a9fec66f"
+  },
+  "baseline_verified": {
+    "completed_sources_counted_from_records": 5314,
+    "retained_pairs_counted_from_records": 5406,
+    "carried_deferred_ids": 54,
+    "all54_exactly_in_current_reconsideration_inputs": true,
+    "historical_record_preservation_script_compares_complete_completed_objects": true
+  },
+  "intended_current_scope": {
+    "source_books": 8,
+    "final_proposals": 12,
+    "first_reviewed_originals": 529,
+    "revisited_originals": 54,
+    "total_source_outcomes": 583,
+    "known_fresh_inputs_at_audit": 444,
+    "expected_remaining_second_corinthians_10_13_outcomes": 85,
+    "pending_final_inputs_are_not_a_defect": true,
+    "pending85_refers_to_combined_final_proposal_not_unread_sources": true,
+    "unread_source_originals_in_assigned85": 0,
+    "root12_13_completed_primary_target_comparisons_as_reported": 34,
+    "agent3_10_11_primary_target_comparisons_in_progress_as_reported": 51
+  },
+  "boundary_inventory_verified": {
+    "first_corinthians_total": 437,
+    "previously_reviewed": 164,
+    "newly_read": 273,
+    "first_corinthians_boundary_utc": "2026-10-31T10:14:32Z",
+    "second_corinthians_inventory_utc": "2026-10-31T10:15:11.712516+00:00",
+    "all_second_corinthians_scope_completion_times_after_inventory": true,
+    "second_corinthians_final_source_boundary_utc": "2026-10-31T10:16:13Z",
+    "second_corinthians_original_units": 256,
+    "prepared_inventory_exactly_matches_all_original_id_reference_section_and_hash_rows": true,
+    "native_final_unit": "2 Corinthians 13:13",
+    "manufactured_13_14_units": 0,
+    "following_source_book_opened": false,
+    "next_new_source": "Galatians 1:1"
+  },
+  "archive_checks": {
+    "transitive_current_H_JSON_evidence_closure": true,
+    "explicit_prepared_inventory_and_boundary_evidence_included": true,
+    "auxiliary_completion_and_pair_credit": 0,
+    "currently_declared_nested_file_hash_bindings_checked": 17,
+    "nested_hash_mismatches": 0
+  },
+  "findings": [
+    {
+      "file": "audit_archives.py",
+      "issue": "The initial current-primary hash loop omitted primary_sha256 used in three current peer reports.",
+      "resolution": "Root amended the loop to include primary_sha256 and final_primary_sha256; the updated hunk was independently reread and all currently available current-primary hash values match their proposals.",
+      "status": "resolved"
+    }
+  ],
+  "latest_root_snapshot_at_audit": {
+    "head": "23751f1b5829c582551a90c4745d3186dd3856c2",
+    "old_testament_completed_sources": 22179,
+    "old_testament_pairs": 27178,
+    "new_testament_pointer_sources": 5314,
+    "new_testament_pointer_pairs": 5406
+  },
+  "workflow_order": "Builder starts from immutable baseline root progress; run sync_latest.py after assembly and before check_preservation.py/publication to preserve the newer OT fields and exact root README/canon.",
+  "execution_limits": "No builder, author or preservation/archive execution was performed. No delivery, baseline, primary proposal or source cache file was edited. This is a preparation-logic and available-input audit. All85 original10–13 source bodies were already read at10:16:13Z; their pending combined final proposal and target/peer checks are not unread-source claims. Post-build totals remain a separate check.",
+  "additional_completion_credit": 0,
+  "additional_pair_credit": 0
+}

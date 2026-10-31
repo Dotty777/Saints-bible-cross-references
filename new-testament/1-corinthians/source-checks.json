@@ -23,19 +23,38 @@
       "new_source_verses": 164,
       "new_completed_revisited_sources": 0,
       "new_pairs": 164
+    },
+    {
+      "run_id": "2026-10-31T101022Z",
+      "records": "../review-batches/2026-10-31T101022Z.json",
+      "source_units_read": 273,
+      "first_reviewed_source_units": 273,
+      "revisited_source_units_read": 0,
+      "new_source_verses": 272,
+      "new_completed_revisited_sources": 0,
+      "new_pairs": 275
     }
   ],
   "unresolved_candidates": [],
-  "deferred_source_units": [],
-  "method": "Complete supplied English source units and retained actual target/context passages were read, then independently compared by a second AI-assisted reader. All372 remaining Romans originals were read before1Corinthians source review began; the complete437-unit1Corinthians inventory was prepared first and earns zero credit. This run reviews1Corinthians1–7 and substantively reconsiders62 saved deferrals. Later passages used only as targets/context receive no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
+  "deferred_source_units": [
+    {
+      "source_reference": "1 Corinthians 11:10",
+      "source_id": "v11-10",
+      "reason": "The authority-on-her-head statement because of the angels has no sufficiently specific independently read parallel that explains that rationale. The text is preserved without supplying an unprinted word symbol, identifying the angels, or resolving the interpretation through a generic angel reference.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    }
+  ],
+  "method": "Complete supplied English source units and every retained actual target/context passage were read and independently compared by a second AI-assisted reader. This run first reads all273 remaining1Corinthians originals in8–16, completing its437-unit original reading boundary before preparing the full256-unit2Corinthians inventory and opening its source review. All2562Corinthians originals are read in native order, and54 saved deferrals are substantively reconsidered. Inventory preparation, deferred outcomes and target/context-only readings earn zero completion credit. All full-book original bytes match the pinned Git blobs; no new critical-text or human-specialist verification is claimed.",
   "checked_scope": {
-    "source_range": "1 Corinthians 1:1–7:40",
-    "source_units_read": 164,
-    "completed_source_verses": 164,
-    "retained_pairs": 164
+    "source_range": "1 Corinthians 1:1–16:24",
+    "source_units_read": 437,
+    "completed_source_verses": 436,
+    "retained_pairs": 439
   },
   "pending": [
-    "Remaining 1 Corinthians source review",
+    "Substantive reconsideration of deferred source units",
     "Independent specialist review",
     "Live destination anchors and display checks"
   ],
