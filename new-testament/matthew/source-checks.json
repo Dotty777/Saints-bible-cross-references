@@ -13,12 +13,12 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Matthew source reading was completed before Mark source review began. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
+  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Matthew source reading preceded Mark; all remaining Mark source units were read before Luke source review began. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
   "checked_scope": {
     "source_range": "Matthew 1:1–28:20",
     "source_units_read": 1068,
-    "completed_source_verses": 1020,
-    "retained_pairs": 1053
+    "completed_source_verses": 1022,
+    "retained_pairs": 1055
   },
   "review_batches": [
     {
@@ -42,6 +42,16 @@
       "new_source_verses": 277,
       "new_completed_revisited_sources": 4,
       "new_pairs": 279
+    },
+    {
+      "run_id": "2026-10-31T004042Z",
+      "records": "../review-batches/2026-10-31T004042Z.json",
+      "source_units_read": 48,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 48,
+      "new_source_verses": 2,
+      "new_completed_revisited_sources": 2,
+      "new_pairs": 2
     }
   ],
   "deferred_source_units": [
@@ -350,14 +360,6 @@
       "completed_pair_credit": 0
     },
     {
-      "source_reference": "Matthew 25:38",
-      "source_id": "v25-38",
-      "reason": "The question about when they welcomed the stranger or clothed the naked King was read. No sufficiently precise counterpart beyond the scene's own repeated list was retained.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
       "source_reference": "Matthew 25:39",
       "source_id": "v25-39",
       "reason": "The question about when they visited the sick or imprisoned King was read. General prison-care instructions were not counted as reproducing this distinctive question about unrecognized service.",
@@ -369,14 +371,6 @@
       "source_reference": "Matthew 25:44",
       "source_id": "v25-44",
       "reason": "The condemned people's question about when they saw the King in these needs and failed to serve was read. No sufficiently close independent counterpart was retained, and the scene's repeated need-list was not used merely to manufacture completion.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 26:1",
-      "source_id": "v26-1",
-      "reason": "The transition stating that Jesus finished these words and addressed the disciples was read. Other general discourse-ending formulas were not retained as a sufficiently distinctive counterpart to this source unit.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -459,6 +453,14 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-kings/verses.json",
+      "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-kings.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "1-peter/verses.json",
       "blob_sha": "24498c091c777535f4a4069f62d6844c31fccc53",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-peter/verses.json",
@@ -471,6 +473,22 @@
       "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-samuel.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-thessalonians/verses.json",
+      "blob_sha": "b38e8fb5397287f6648d6fd67faa7348d226bd1b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-thessalonians/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-thessalonians.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-timothy/verses.json",
+      "blob_sha": "02e0778c9eed12dfc0a8ca4552efbd5537e5a20b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-timothy/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-timothy.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -527,6 +545,14 @@
       "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "ephesians/verses.json",
+      "blob_sha": "5dff863a35c294f5f0377e58fd6553054c5d06b6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ephesians/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ephesians.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -631,6 +657,14 @@
       "blob_sha": "b2f33077a19167cd7c2c8cdb48562b942ce91380",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jonah/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jonah.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/judges.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -785,6 +819,24 @@
       "previous_reason": "The departure notice after the parables was read. Similar travel transitions were considered too general to count as a supported cross-reference for this source unit.",
       "retained_pair_ids": [
         "matthew-13-53__matthew-19-1"
+      ]
+    },
+    {
+      "source_reference": "Matthew 25:38",
+      "source_id": "v25-38",
+      "resolved_in_run": "2026-10-31T004042Z",
+      "previous_reason": "The question about when they welcomed the stranger or clothed the naked King was read. No sufficiently precise counterpart beyond the scene's own repeated list was retained.",
+      "retained_pair_ids": [
+        "matthew-25-38__hebrews-13-2"
+      ]
+    },
+    {
+      "source_reference": "Matthew 26:1",
+      "source_id": "v26-1",
+      "resolved_in_run": "2026-10-31T004042Z",
+      "previous_reason": "The transition stating that Jesus finished these words and addressed the disciples was read. Other general discourse-ending formulas were not retained as a sufficiently distinctive counterpart to this source unit.",
+      "retained_pair_ids": [
+        "matthew-26-1__matthew-7-28"
       ]
     }
   ]
