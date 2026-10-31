@@ -15,7 +15,9 @@ def render():
   count=len(done);pairs=sum(len(v['cross_references']) for v in done);name=d['book']
   nextref=d.get('next_reference');newref=d.get('next_unreviewed_reference')
   summary=f'{count} completed source verses; {pairs} retained pairs; {d["reviewed_source_units"]} source units read; {len(checks["deferred_source_units"])} deferred units.'
-  follow=f'First unfinished: {nextref or "none"}. Next new source review: {newref or "none"}.'
+  follow=f'First unfinished: {nextref or "none"}. Next new source review in this book: {newref or "none"}.'
+  if d.get('all_original_source_units_read'):
+   follow+=' All original source units in this book have been read. Overall next new source: '+str((progress.get('next_unreviewed') or {}).get('reference','none'))+'.'
   text=[name+' — Saints Holy Bible cross-references',summary,follow,d['completion_definition'],'Original Saints numbering is retained.','']
   sections=[];nav=[]
   for c in d['chapters']:
@@ -49,6 +51,8 @@ def render():
  intro+='This hourly task begins at Matthew and follows the exact Saints Holy Bible 70-book order and divisions in [../canon.json](../canon.json): Salvation (44–47), Discipleship (48–69), Glory (70). Targets may use any of those 70 books when actual pinned passage evidence is available. [Progress](progress.json) and review counts here are separate from the [Old Testament tracker](../README.md). Pending books have no invented verse inventories.\n\n'+progress['completion_definition']+'\n\nThe source texts remain the supplied English edition; this is not new critical-text or original-language verification. Original Greek-based Saints numbering is retained, including OT targets. Each pair stores the complete target passage, rationale, relationship, source pin and evidence hashes. The readable files show retained pairs and disclose deferred units. Full original inputs and their Git blob identities are archived in [source-snapshots/manifest.json](source-snapshots/manifest.json). The hourly target is **500 newly completed distinct source verses with cross-references**. Count a source verse once regardless of how many target passages it has; pair totals remain separate. Deferred, duplicate, imported and previously completed source verses earn no new-source completion credit.\n\n'+ '\n'.join(rows)+'\n\nRun `python scripts/render_new_testament.py` and `python scripts/validate_new_testament.py --write-verification` from the repository root after updating records. Follow the book’s recovery guidance. Independent specialist and live destination-anchor/display checks remain pending.\n'
  latest=progress['latest_target_result']
  intro+='\nLatest hourly result: **'+str(latest['target_count'])+' / '+str(latest['target_per_hour'])+' new source verses**; shortfall: '+str(latest['target_shortfall'])+'. [Review record](review-batches/'+latest['run_id']+'.json).\n'
+ if progress.get('fully_read_source_books'):
+  intro+='\nOriginal source reading completed for: **'+', '.join(progress['fully_read_source_books'])+'**. Unresolved source deferrals remain separate and earn no completion credit.\n'
  write(NT/'README.md',intro)
  print(json.dumps({'rendered':'New Testament readable records','completed_source_verses':progress['completed_source_verses'],'completed_pairs':progress['completed_cross_references']}))
 if __name__=='__main__':render()

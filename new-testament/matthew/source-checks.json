@@ -13,12 +13,12 @@
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
   "canon_manifest": "../../canon.json",
   "source_language_scope": "Supplied English passage comparison; no new Greek, Hebrew, critical-apparatus or UBS6/ECM verification.",
-  "method": "The initial Matthew 1–7 review and the Matthew 8–22 continuation read complete supplied English source units and actual retained target passages with necessary context. Each retained pair has an individual explanation and a second AI-assisted passage comparison. Full original source/target snapshots are verified against pinned Git blob identities. Target credit counts distinct newly completed source verses once; pair totals are separate.",
+  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Matthew source reading was completed before Mark source review began. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
   "checked_scope": {
-    "source_range": "Matthew 1:1–22:46",
-    "source_units_read": 772,
-    "completed_source_verses": 743,
-    "retained_pairs": 774
+    "source_range": "Matthew 1:1–28:20",
+    "source_units_read": 1068,
+    "completed_source_verses": 1020,
+    "retained_pairs": 1053
   },
   "review_batches": [
     {
@@ -32,13 +32,23 @@
       "records": "../review-batches/2026-10-30T231801Z.json",
       "new_source_verses": 548,
       "new_pairs": 548
+    },
+    {
+      "run_id": "2026-10-30T233941Z",
+      "records": "../review-batches/2026-10-30T233941Z.json",
+      "source_units_read": 325,
+      "first_reviewed_source_units": 296,
+      "revisited_source_units_read": 29,
+      "new_source_verses": 277,
+      "new_completed_revisited_sources": 4,
+      "new_pairs": 279
     }
   ],
   "deferred_source_units": [
     {
       "source_reference": "Matthew 1:14",
       "source_id": "v1-14",
-      "reason": "The reviewed comparison genealogies do not independently attest Matthew's Azor-Zadok-Achim-Eliud chain. Shared personal names elsewhere would not establish these identities or relationships, so no completed pair is claimed.",
+      "reason": "The actual Matthew lineage was reread beside Luke 3:23–24 and the postexilic families in 1 Chronicles 3:19–24. Those records do not establish this Azor–Zadok–Achim–Eliud chain; similarly situated or repeated names cannot settle these identities. No pair is retained.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -46,7 +56,7 @@
     {
       "source_reference": "Matthew 1:15",
       "source_id": "v1-15",
-      "reason": "The reviewed comparison genealogies do not independently attest Matthew's Eliud-Eleazar-Matthan-Jacob chain. No identity is inferred from recurring names alone; further evidence review is required.",
+      "reason": "The Matthew chain was reconsidered with Luke 3:23–24 and 1 Chronicles 3:19–24. Neither supplied passage attests the Eliud–Eleazar–Matthan–Jacob chain. No identity or relationship is manufactured from similar names.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -54,15 +64,7 @@
     {
       "source_reference": "Matthew 3:15",
       "source_id": "v3-15",
-      "reason": "The source verse was read. No target was retained in this batch for Jesus' specific instruction to permit His baptism to fulfill all righteousness. Matthew 21:32 calls John's ministry a way of righteousness and Matthew 5:17 describes Jesus fulfilling the Law and Prophets, but neither explains this distinctive baptismal exchange closely enough to count a completed pair here. Further substantive review remains pending.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 5:41",
-      "source_id": "v5-41",
-      "reason": "The distinctive instruction to go a second Roman mile after compulsory service was read. General teachings about doing good amid mistreatment were considered, but no sufficiently close independently supported passage was retained in this initial batch.",
+      "reason": "Matthew 5:17 and 21:32 were reread with the baptismal exchange. They concern fulfillment and John's righteous way, but do not explain Jesus permitting this baptism to fulfill all righteousness. The distinctive exchange remains without a retained counterpart.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -70,7 +72,7 @@
     {
       "source_reference": "Matthew 6:3",
       "source_id": "v6-3",
-      "reason": "The instruction not to let the left hand know the right hand's almsgiving was read. No separate passage with a sufficiently precise correspondence to this distinctive secrecy image was retained; neighboring teaching was not used merely to manufacture a completion.",
+      "reason": "The almsgiving instruction and its secrecy image were reconsidered in Matthew 6:1–4. The surrounding reward language does not independently reproduce the left-hand/right-hand image, so repeating neighboring context would not resolve this deferred unit.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -78,7 +80,7 @@
     {
       "source_reference": "Matthew 6:17",
       "source_id": "v6-17",
-      "reason": "The concrete instructions to anoint the head and wash the face while fasting were read. General passages about inward fasting were reviewed, but none was retained as a sufficiently precise counterpart to these particular actions.",
+      "reason": "The grooming instructions were reconsidered beside 2 Samuel 12:20 and its fasting context. David washes and anoints after his fast; Matthew commands ordinary appearance while fasting. That limited overlap does not establish a close counterpart to this particular fasting instruction.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -86,23 +88,7 @@
     {
       "source_reference": "Matthew 8:1",
       "source_id": "v8-1",
-      "reason": "The mountain-descent and crowd-following transition was read. No sufficiently specific independently supported counterpart to this transition was retained; generic crowd notices were not used to create a completed pair.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 9:26",
-      "source_id": "v9-26",
-      "reason": "The report of the girl-healing spreading throughout the region was read. The parallel Mark ending describes astonishment and restricted disclosure, not the same report-spreading notice; no precise counterpart was retained in this batch.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 11:1",
-      "source_id": "v11-1",
-      "reason": "The transition from directing the Twelve to Jesus teaching and proclaiming in their cities was read. General ministry summaries were considered but no sufficiently close counterpart to this specific transition was retained.",
+      "reason": "Luke 6:17 was reread as a candidate because it describes descent and a crowd. Its distinct level-place scene does not supply a sufficiently specific counterpart to Matthew's transition after the mountain teaching. No identity of occasion or completion is claimed.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -110,7 +96,7 @@
     {
       "source_reference": "Matthew 13:29",
       "source_id": "v13-29",
-      "reason": "The instruction not to uproot wheat while gathering darnel was read. The later parable explanation identifies the plants and final harvest but does not closely restate this particular warning about premature removal; no separate passage was retained for it in this batch.",
+      "reason": "The warning about uprooting wheat while gathering darnel was reread with the later explanation in Matthew 13:37–43. The explanation identifies the plants and harvest but not this hazard of premature removal. The warning remains deferred.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -118,15 +104,7 @@
     {
       "source_reference": "Matthew 13:52",
       "source_id": "v13-52",
-      "reason": "The scribe-householder bringing new and old treasures was read. No sufficiently close independent target was established for this distinctive comparison; general references to scribes, wisdom, or treasure would not adequately explain its particular claim.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Matthew 13:53",
-      "source_id": "v13-53",
-      "reason": "The departure notice after the parables was read. Similar travel transitions were considered too general to count as a supported cross-reference for this source unit.",
+      "reason": "The scribe-householder comparison was reread with the surrounding parable conclusions. A generic overlap involving treasure or old/new possessions does not establish its particular claim about a scribe made a kingdom disciple. No unsupported allusion is retained.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -134,7 +112,7 @@
     {
       "source_reference": "Matthew 14:18",
       "source_id": "v14-18",
-      "reason": "Jesus' command to bring the five loaves and two fish to Him was read. The other feeding accounts describe the food's availability and Jesus taking it but do not closely reproduce this distinctive command; no retained target was established for this unit.",
+      "reason": "Mark 6:38–39 was reread with the feeding context. It records counting the loaves and arranging the people, without Jesus' particular command to bring the food to Him. Shared feeding context alone does not resolve this individual unit.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -142,7 +120,7 @@
     {
       "source_reference": "Matthew 14:28",
       "source_id": "v14-28",
-      "reason": "Peter's conditional request for Jesus to command him onto the water was read. Mark and John's sea-walking accounts do not include Peter's request, and a separate sufficiently specific target was not established.",
+      "reason": "Peter's request was reconsidered beside John 21:4–7. The later shore scene has recognition of the Lord, but no corresponding request to be commanded onto the waters. The episodes and the distinctive request are not conflated.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -150,7 +128,7 @@
     {
       "source_reference": "Matthew 14:29",
       "source_id": "v14-29",
-      "reason": "Peter's stepping from the boat and walking toward Jesus at His command was read. The other sea-walking accounts do not include this action; generic references to following Jesus or walking through water were not counted.",
+      "reason": "John 21:4–7 was reread as a possible Peter-and-sea comparison. It describes Peter throwing himself into the sea after hearing that it is the Lord, not walking on it at Jesus' command. The limited shared setting was not retained as a sufficiently precise counterpart to this action.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -158,7 +136,7 @@
     {
       "source_reference": "Matthew 15:12",
       "source_id": "v15-12",
-      "reason": "The disciples' report that the Pharisees took offense at the defilement saying was read. Mark's parallel discourse does not include this report, and unrelated offense passages were not retained merely for shared vocabulary.",
+      "reason": "The offense report was reread with Mark 7:17 and its discourse context. Mark records the disciples asking in the house, not their report of the Pharisees' offense. A generic shared response to teaching does not resolve the stated report.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -166,7 +144,7 @@
     {
       "source_reference": "Matthew 15:23",
       "source_id": "v15-23",
-      "reason": "Jesus' initial silence and the disciples' request to dismiss the crying woman were read. Mark's account does not reproduce these features; no sufficiently specific alternative passage was retained.",
+      "reason": "Mark 7:24–30 was reread in full beside the woman's approach. It does not reproduce Jesus' initial silence or the disciples' request to dismiss her. No correspondence for those distinctive actions is credited.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -174,7 +152,7 @@
     {
       "source_reference": "Matthew 17:24",
       "source_id": "v17-24",
-      "reason": "The collectors' question about the didrachmas was read. Exodus 30:13–15 was examined, but its supplied wording specifies a half-didrachma census contribution and does not establish the identity or amount of this collection. The levy identification and source wording need further substantive review before retaining that candidate.",
+      "reason": "Exodus 30:13–15 was reread. Its actual wording gives half a didrachma for the census contribution, while Matthew speaks of the didrachmas collectors. The texts alone do not establish the levy's identity or amount; the proposed equivalence remains unresolved.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -182,7 +160,7 @@
     {
       "source_reference": "Matthew 17:25",
       "source_id": "v17-25",
-      "reason": "Peter's reply and Jesus' question about whether earthly kings collect from sons or strangers were read. No sufficiently close independent target was established for this distinctive fiscal analogy.",
+      "reason": "The question was reread with the full Matthew 17:24–27 tax exchange and Exodus 30:13–15. The census contribution does not supply Jesus' sons-versus-strangers analogy about earthly kings. General tax vocabulary is insufficient.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -190,7 +168,7 @@
     {
       "source_reference": "Matthew 17:26",
       "source_id": "v17-26",
-      "reason": "The conclusion that the sons are free was read in its tax-discussion context. General sayings about spiritual freedom were not counted as equivalent to this particular argument about royal taxation.",
+      "reason": "The conclusion was reconsidered in the immediate royal-tax analogy. General spiritual-freedom sayings would not reproduce the specific sons-versus-strangers reasoning. No equivalence between those different arguments is retained.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -198,7 +176,7 @@
     {
       "source_reference": "Matthew 18:31",
       "source_id": "v18-31",
-      "reason": "The fellow slaves' grief and report to the master were read. No sufficiently distinctive external counterpart was retained; general grief or reporting passages were not used merely to manufacture completion.",
+      "reason": "The fellow servants' grief and report were reconsidered in Matthew 18:23–35. Neighboring responses explain the narrative but do not provide a separate precise counterpart to the report. It remains deferred without duplicating generic grief/reporting notices.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -206,7 +184,7 @@
     {
       "source_reference": "Matthew 19:10",
       "source_id": "v19-10",
-      "reason": "The disciples' inference that it would be better not to marry was read. General single-life teaching was considered, but no precise counterpart to this reaction to the divorce instruction was retained.",
+      "reason": "1 Corinthians 7:1 and 7:8–9 were reread as candidates. Paul's qualified advice to the unmarried and widows does not reproduce the disciples' reaction to the divorce instruction. Their reaction is not silently converted into Paul's counsel.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -214,7 +192,7 @@
     {
       "source_reference": "Matthew 20:3",
       "source_id": "v20-3",
-      "reason": "The third-hour marketplace hiring detail was read; no sufficiently precise independent counterpart was retained for this particular hiring round.",
+      "reason": "The third-hour hiring detail was reread in the full Matthew 20:1–16 hiring narrative. Its exact time and marketplace action lack an established independent counterpart; another round of the same story is not used to create completion.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -222,7 +200,7 @@
     {
       "source_reference": "Matthew 20:5",
       "source_id": "v20-5",
-      "reason": "The sixth- and ninth-hour hiring rounds were read. Merely repeating adjacent narrative would not supply a sufficient counterpart for the distinctive details.",
+      "reason": "The sixth- and ninth-hour hiring rounds were reconsidered in Matthew 20:1–16. Repetition within this single hiring sequence does not independently establish a precise cross-reference for these time details.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -230,7 +208,7 @@
     {
       "source_reference": "Matthew 20:6",
       "source_id": "v20-6",
-      "reason": "The eleventh-hour question about standing idle all day was read; no sufficiently precise counterpart to the time and question was retained.",
+      "reason": "The eleventh-hour question was reread with the full hiring sequence. No precise counterpart to the time and all-day-idleness question is established; broad vineyard or work imagery earns no credit.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -238,7 +216,7 @@
     {
       "source_reference": "Matthew 20:7",
       "source_id": "v20-7",
-      "reason": "The workers' explanation that nobody hired them and the resulting invitation were read; no precise external counterpart was retained.",
+      "reason": "The un-hired workers' explanation and invitation were reconsidered in the complete hiring narrative. The generic invitation to work does not supply a precise independent counterpart to their stated reason and response.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -246,7 +224,7 @@
     {
       "source_reference": "Matthew 22:11",
       "source_id": "v22-11",
-      "reason": "The king's inspection and discovery of a guest without a wedding garment were read. General clothing imagery was not made into an unsupported identification of this garment.",
+      "reason": "The king's inspection was reread with Matthew 22:1–14. General clothing images do not establish what this wedding garment represents or independently reproduce the inspection. No allegorical identity is asserted.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -254,7 +232,7 @@
     {
       "source_reference": "Matthew 22:12",
       "source_id": "v22-12",
-      "reason": "The wedding-garment question and the guest's silence were read. No precise counterpart was retained, and no unsupported allegorical identification was supplied.",
+      "reason": "The garment question and speechless response were reconsidered in Matthew 22:1–14. Neither generic garment symbolism nor an unrelated silence establishes a precise counterpart to this exchange.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -262,7 +240,191 @@
     {
       "source_reference": "Matthew 22:14",
       "source_id": "v22-14",
-      "reason": "Many called but few chosen was read. General many/few sayings were considered imprecise for a retained pair. This sentence is not invented at Matthew20:16, where the pinned text does not contain it.",
+      "reason": "1 Peter 2:9 was reread as a called/chosen candidate. It identifies a chosen people called out of darkness, without Matthew's many/few distinction. Shared vocabulary alone was not credited, and no unavailable Revelation text was invented.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 23:2",
+      "source_id": "v23-2",
+      "reason": "The specific statement about scribes and Pharisees occupying Moses' chair was read. General instructions to heed legal authorities do not establish this particular chair or its attribution to these groups; no sufficiently precise target was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 23:10",
+      "source_id": "v23-10",
+      "reason": "The prohibition on being called guides, grounded in the one Guide, the Christ, was read. Broad passages about teachers or shepherds were not treated as direct counterparts to this distinct instruction.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 23:15",
+      "source_id": "v23-15",
+      "reason": "The indictment of travel to make a proselyte and then making him twice a son of Gehenna was read. No sufficiently precise separate passage for this distinctive conversion-and-corruption claim was established.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 23:17",
+      "source_id": "v23-17",
+      "reason": "The sanctuary's sanctifying the gold and the resulting ranking of sanctuary over gold were read. General consecration rules were not retained as though they explicitly establish this particular relationship or the disputed oath distinction.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 23:20",
+      "source_id": "v23-20",
+      "reason": "The inference that swearing by the altar includes everything upon it was read. Related altar-holiness rules do not themselves state this oath's scope; no sufficiently specific independent target was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 23:24",
+      "source_id": "v23-24",
+      "reason": "The distinctive gnat-straining and camel-swallowing image was read. Other images of disproportionate moral attention were considered too general to serve as a close separate counterpart in this initial review.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 24:12",
+      "source_id": "v24-12",
+      "reason": "The prediction that increasing lawlessness will make many people's love grow cold was read. Broader lists of wrongdoing or apostasy do not repeat this causal connection, and no sufficiently specific target was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:2",
+      "source_id": "v25-2",
+      "reason": "The five-foolish/five-prudent division was read. Broad wise-and-foolish comparisons were considered too general to establish a sufficiently specific counterpart to this source unit's distinctive division.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:7",
+      "source_id": "v25-7",
+      "reason": "The virgins' rising and putting their lamps in order was read. General lamp or awakening passages were not retained merely for shared imagery; no sufficiently precise counterpart was established.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:8",
+      "source_id": "v25-8",
+      "reason": "The foolish virgins' request to share oil because their lamps are going out was read. No sufficiently close counterpart was retained, and no unsupported allegorical identity for the oil was supplied.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:9",
+      "source_id": "v25-9",
+      "reason": "The prudent virgins' refusal based on limited supply and instruction to buy oil were read. General buying, sharing, or individual-responsibility teachings were not treated as precise counterparts to this distinctive parable detail.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:33",
+      "source_id": "v25-33",
+      "reason": "The assignment of sheep to the right and goats to the left was read. Ezekiel's flock judgment supports the preceding separation image but does not specify this right-and-left arrangement; no separate sufficiently close counterpart was retained for this unit.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:37",
+      "source_id": "v25-37",
+      "reason": "The righteous people's question about when they saw and fed the hungry or gave the thirsty King drink was read. Repetition of the scene's immediately preceding list was not treated as sufficient new cross-reference evidence for this distinctive question.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:38",
+      "source_id": "v25-38",
+      "reason": "The question about when they welcomed the stranger or clothed the naked King was read. No sufficiently precise counterpart beyond the scene's own repeated list was retained.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:39",
+      "source_id": "v25-39",
+      "reason": "The question about when they visited the sick or imprisoned King was read. General prison-care instructions were not counted as reproducing this distinctive question about unrecognized service.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 25:44",
+      "source_id": "v25-44",
+      "reason": "The condemned people's question about when they saw the King in these needs and failed to serve was read. No sufficiently close independent counterpart was retained, and the scene's repeated need-list was not used merely to manufacture completion.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 26:1",
+      "source_id": "v26-1",
+      "reason": "The transition stating that Jesus finished these words and addressed the disciples was read. Other general discourse-ending formulas were not retained as a sufficiently distinctive counterpart to this source unit.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 27:36",
+      "source_id": "v27-36",
+      "reason": "The soldiers sitting and keeping watch at the crucifixion were read. Other Gospel notices of soldiers at the cross do not precisely attest this sitting-watch detail; no generic presence link was retained for completion.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 27:53",
+      "source_id": "v27-53",
+      "reason": "The holy people leaving tombs after Jesus' rising, entering the holy city, and appearing to many were read. No precise independent counterpart was retained; passages about Jesus' appearances or general resurrection order were not made to narrate these specific appearances.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 27:62",
+      "source_id": "v27-62",
+      "reason": "The next-day approach of chief priests and Pharisees to Pilate was read. The distinctive guard-request transition has no sufficiently precise independent counterpart retained in this batch.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 27:65",
+      "source_id": "v27-65",
+      "reason": "Pilate's reply about a guard and making the tomb secure was read. No sufficiently precise independent counterpart was retained; later guard appearances alone were not used as a second confirmation of these particular words.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 28:4",
+      "source_id": "v28-4",
+      "reason": "The guards shaking and becoming like dead men from fear of the angel were read. Accounts of women fearing tomb messengers involve different participants; no generic angel-fear link was retained solely for completion.",
+      "status": "deferred after English passage review",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0
+    },
+    {
+      "source_reference": "Matthew 28:14",
+      "source_id": "v28-14",
+      "reason": "The leaders' promise to persuade the governor and protect the guards was read. Acts 12:18–19 was considered as a contrasting guard-liability narrative, but not retained as sufficiently precise evidence for this particular promised intervention.",
       "status": "deferred after English passage review",
       "completed_source_credit": 0,
       "completed_pair_credit": 0
@@ -377,6 +539,14 @@
     {
       "repository": "Dotty777/Saints-Translation",
       "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "ezekiel/verses.json",
+      "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ezekiel.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
       "path": "galatians/verses.json",
       "blob_sha": "1f559ceb0168206d5a0c1994096b5ebfb50897b5",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/galatians/verses.json",
@@ -437,6 +607,14 @@
       "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/job.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "joel/verses.json",
+      "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/joel.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -568,9 +746,46 @@
     }
   ],
   "pending": [
-    "Matthew 23–28 source review",
     "Substantive reconsideration of deferred source units",
     "Independent specialist review",
     "Live destination anchors and display checks"
+  ],
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "Matthew 5:41",
+      "source_id": "v5-41",
+      "resolved_in_run": "2026-10-30T233941Z",
+      "previous_reason": "The distinctive instruction to go a second Roman mile after compulsory service was read. General teachings about doing good amid mistreatment were considered, but no sufficiently close independently supported passage was retained in this initial batch.",
+      "retained_pair_ids": [
+        "matthew-5-41__matthew-27-32"
+      ]
+    },
+    {
+      "source_reference": "Matthew 9:26",
+      "source_id": "v9-26",
+      "resolved_in_run": "2026-10-30T233941Z",
+      "previous_reason": "The report of the girl-healing spreading throughout the region was read. The parallel Mark ending describes astonishment and restricted disclosure, not the same report-spreading notice; no precise counterpart was retained in this batch.",
+      "retained_pair_ids": [
+        "matthew-9-26__luke-7-14-7-17"
+      ]
+    },
+    {
+      "source_reference": "Matthew 11:1",
+      "source_id": "v11-1",
+      "resolved_in_run": "2026-10-30T233941Z",
+      "previous_reason": "The transition from directing the Twelve to Jesus teaching and proclaiming in their cities was read. General ministry summaries were considered but no sufficiently close counterpart to this specific transition was retained.",
+      "retained_pair_ids": [
+        "matthew-11-1__matthew-13-53"
+      ]
+    },
+    {
+      "source_reference": "Matthew 13:53",
+      "source_id": "v13-53",
+      "resolved_in_run": "2026-10-30T233941Z",
+      "previous_reason": "The departure notice after the parables was read. Similar travel transitions were considered too general to count as a supported cross-reference for this source unit.",
+      "retained_pair_ids": [
+        "matthew-13-53__matthew-19-1"
+      ]
+    }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "record_type": "publication_reconciliation",
+  "run_id": "2026-10-30T222040Z",
+  "checked_at_utc": "2026-10-31T00:06:29.955639+00:00",
+  "reviewer": "Codex /root",
+  "review_base_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "original_review_commit": "97ce87105fbcb6eaa540626423ffb384f12c2338",
+  "original_publication_parent": "0bed9c182097eb0e681d4b49e09a3de2b814ab98",
+  "latest_concurrent_parent": "9af326fbc1195d1f083e24d4aeaa172fdcac3fbe",
+  "merge_parents": [
+    "97ce87105fbcb6eaa540626423ffb384f12c2338",
+    "9af326fbc1195d1f083e24d4aeaa172fdcac3fbe"
+  ],
+  "original_review_record": "review-batches/2026-10-30T222040Z.json",
+  "original_review_record_blob": "6cb5daf1e2508a5904d47992b7470f8ebd9419d6",
+  "reason": "A normal push was rejected after concurrent New Testament work advanced main. A normal merge preserves that newer tracker and the already validated Old Testament review commit.",
+  "prior_staged_audit_sha256": "d9427fba3ef33177325d61d874e3a8918a97bfba955da0c9113f0e775125f811",
+  "prior_staged_audit_summary": {
+    "result": "passed",
+    "require_staged": true,
+    "new_source_units": 551,
+    "new_pairs": 585,
+    "cumulative_sources": 16680,
+    "cumulative_pairs": 21437
+  },
+  "preserved_nt_tree_git_sha": "a8b38f18bffef9a8f2ff36687995b7ef3b652c96",
+  "preserved_nt_script_blobs": {
+    "scripts/render_new_testament.py": "12c9fdcf61dcf47ccd165a4674dfe2dc9a824358",
+    "scripts/validate_new_testament.py": "7571813c909d4e9387d33ccc812aade45137d63f"
+  },
+  "preserved_original_ot_and_shared_git_objects": 4917,
+  "progress_merge_rule": "Exactly the original review commit progress, with only new_testament_tracker replaced by the latest concurrent parent value.",
+  "original_review_record_and_frozen_inputs_unchanged": true,
+  "completion_credit": 0,
+  "new_source_verses": 0,
+  "new_pairs": 0
+}
