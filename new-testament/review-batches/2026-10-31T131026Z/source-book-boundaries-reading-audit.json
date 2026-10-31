@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-31T131026Z",
+  "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+  "method": "Complete source inventories are prepared after the previous canonical book all-originals-read boundary andbefore opening the new source book. Source-only and inventory preparation earn zero completion credit. Everyretainedtarget must subsequently be actuallyread andindependently compared. Hebrewsiscuratedonlythrough6:20;notall303originalunitswere read.",
+  "boundaries": [
+    {
+      "book": "1 Thessalonians",
+      "previous_book": "Colossians",
+      "previous_book_originals_read": 95,
+      "previous_reading_completed_utc": "2026-10-31T11:50:09Z",
+      "inventory_preparation": "1-thessalonians-inventory-preparation.json",
+      "prepared_inventory": "1-thessalonians-prepared-inventory.json",
+      "originals_read": 89,
+      "total_originals": 89,
+      "all_originals_read": true,
+      "reader": "agent1",
+      "read_completed_utc": "2026-10-31T13:12:54.781643Z",
+      "complete_view_tokens": [
+        1541,
+        1335
+      ],
+      "final_proposals": [
+        "1-thessalonians-review.json"
+      ]
+    },
+    {
+      "book": "2 Thessalonians",
+      "previous_book": "1 Thessalonians",
+      "previous_book_originals_read": 89,
+      "previous_reading_completed_utc": "2026-10-31T13:12:54.781643Z",
+      "inventory_preparation": "2-thessalonians-inventory-preparation.json",
+      "prepared_inventory": "2-thessalonians-prepared-inventory.json",
+      "originals_read": 47,
+      "total_originals": 47,
+      "all_originals_read": true,
+      "reader": "agent2",
+      "read_completed_utc": "2026-10-31T13:13:48.878857Z",
+      "complete_view_tokens": [],
+      "final_proposals": [
+        "2-thessalonians-review.json"
+      ]
+    },
+    {
+      "book": "1 Timothy",
+      "previous_book": "2 Thessalonians",
+      "previous_book_originals_read": 47,
+      "previous_reading_completed_utc": "2026-10-31T13:13:48.878857Z",
+      "inventory_preparation": "1-timothy-inventory-preparation.json",
+      "prepared_inventory": "1-timothy-prepared-inventory.json",
+      "originals_read": 113,
+      "total_originals": 113,
+      "all_originals_read": true,
+      "reader": "agent3",
+      "read_completed_utc": "2026-10-31T13:15:56Z",
+      "complete_view_tokens": [
+        1140,
+        1037,
+        1509
+      ],
+      "final_proposals": [
+        "1-timothy-review.json"
+      ]
+    },
+    {
+      "book": "2 Timothy",
+      "previous_book": "1 Timothy",
+      "previous_book_originals_read": 113,
+      "previous_reading_completed_utc": "2026-10-31T13:15:56Z",
+      "inventory_preparation": "2-timothy-inventory-preparation.json",
+      "prepared_inventory": "2-timothy-prepared-inventory.json",
+      "originals_read": 83,
+      "total_originals": 83,
+      "all_originals_read": true,
+      "reader": "root",
+      "read_completed_utc": "2026-10-31T13:16:30Z",
+      "complete_view_tokens": [
+        1385,
+        1140
+      ],
+      "final_proposals": [
+        "2-timothy-review.json"
+      ]
+    },
+    {
+      "book": "Titus",
+      "previous_book": "2 Timothy",
+      "previous_book_originals_read": 83,
+      "previous_reading_completed_utc": "2026-10-31T13:16:30Z",
+      "inventory_preparation": "titus-inventory-preparation.json",
+      "prepared_inventory": "titus-prepared-inventory.json",
+      "originals_read": 46,
+      "total_originals": 46,
+      "all_originals_read": true,
+      "reader": "agent1",
+      "read_completed_utc": "2026-10-31T13:17:17.877461Z",
+      "complete_view_tokens": [
+        1448
+      ],
+      "final_proposals": [
+        "titus-review.json"
+      ]
+    },
+    {
+      "book": "Philemon",
+      "previous_book": "Titus",
+      "previous_book_originals_read": 46,
+      "previous_reading_completed_utc": "2026-10-31T13:17:17.877461Z",
+      "inventory_preparation": "philemon-inventory-preparation.json",
+      "prepared_inventory": "philemon-prepared-inventory.json",
+      "originals_read": 25,
+      "total_originals": 25,
+      "all_originals_read": true,
+      "reader": "agent2",
+      "read_completed_utc": "2026-10-31T13:18:26.916643Z",
+      "complete_view_tokens": [],
+      "final_proposals": [
+        "philemon-review.json"
+      ]
+    },
+    {
+      "book": "Hebrews",
+      "previous_book": "Philemon",
+      "previous_book_originals_read": 25,
+      "previous_reading_completed_utc": "2026-10-31T13:18:26.916643Z",
+      "inventory_preparation": "hebrews-inventory-preparation.json",
+      "prepared_inventory": "hebrews-prepared-inventory.json",
+      "originals_read": 101,
+      "total_originals": 303,
+      "all_originals_read": false,
+      "reader": "agent2chapters1–3/rootchapters4–6",
+      "read_completed_utc": "2026-10-31T13:22:11Z",
+      "complete_view_tokens": [
+        1678
+      ],
+      "final_proposals": [
+        "hebrews-1-3-review.json",
+        "hebrews-4-6-review.json"
+      ],
+      "partial_chapter_reading_scopes": [
+        {
+          "chapters": [
+            1,
+            2,
+            3
+          ],
+          "units": 51,
+          "reader": "agent2",
+          "completed_at_utc": "2026-10-31T13:20:16.228013Z"
+        },
+        {
+          "chapters": [
+            4,
+            5,
+            6
+          ],
+          "units": 50,
+          "reader": "root",
+          "tokens": 1678,
+          "completed_at_utc": "2026-10-31T13:22:11Z"
+        }
+      ]
+    }
+  ],
+  "first_reviewed_originals": 504,
+  "saved_deferrals_to_reconsider": 18,
+  "following_source_book": {
+    "book": "Hebrews",
+    "source_review_opened": true,
+    "total_originals": 303,
+    "originals_read": 101,
+    "remaining_originals": 202,
+    "next_unreviewed_reference": "Hebrews 7:1",
+    "following_canonical_book": "James",
+    "following_canonical_book_source_review_opened": false
+  },
+  "additional_completion_credit": 0,
+  "additional_pair_credit": 0,
+  "count_basis": "Original-unit counts refer to SOURCE REVIEW roles. Retained-target/context reads in a later pending source unit earn zero source review/completion credit and do not move next_unreviewed."
+}

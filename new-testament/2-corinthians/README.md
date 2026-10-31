@@ -2,7 +2,7 @@
 
 256 completed source verses; 257 retained pairs; 256 source units read; 0 deferred units.
 
-First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 Thessalonians 1:1.
+First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Hebrews 7:1.
 
 Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13. Complete inventory: 256 original source units in 13 chapters. Deferred units receive no completion credit.
 

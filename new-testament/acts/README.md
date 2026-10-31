@@ -1,10 +1,10 @@
 # Acts cross-reference records
 
-999 completed source verses; 1015 retained pairs; 1003 source units read; 4 deferred units.
+1002 completed source verses; 1018 retained pairs; 1003 source units read; 1 deferred units.
 
-First unfinished: Acts 17:33. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: 1 Thessalonians 1:1.
+First unfinished: Acts 28:12. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Hebrews 7:1.
 
-Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 26. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28. Complete inventory: 1003 original source units in 28 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28. Complete inventory: 1003 original source units in 28 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Acts.html) · [Plain text](Acts.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -23,3 +23,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-31T083250Z](../review-batches/2026-10-31T083250Z.json): 6 completed source verses and 6 retained pairs.
 - [2026-10-31T101022Z](../review-batches/2026-10-31T101022Z.json): 4 completed source verses and 4 retained pairs.
 - [2026-10-31T114423Z](../review-batches/2026-10-31T114423Z.json): 12 completed source verses and 12 retained pairs.
+- [2026-10-31T131026Z](../review-batches/2026-10-31T131026Z.json): 3 completed source verses and 3 retained pairs.
