@@ -1,0 +1,188 @@
+--- integrate-before-publication-parent.py
++++ integrate.py
+@@ -10,7 +10,9 @@
+ import hashlib,json,os,re,runpy,subprocess,sys,uuid
+ from passages import INDEX,keys,complete_text
+ from complete_evidence_contract import evidence_unit,text_sha,verify_complete_edge
+-from review_contract import HERE,REPO,RUN,DATE,PIN,BASE_COMMIT,GROUPS,STEMS,BOOK_CONFIG,CONFIG,REVISITS,load,digest,validate_packets
++from review_contract import HERE,REPO,RUN,DATE,PIN,BASE_COMMIT as REVIEW_BASE_COMMIT,GROUPS,STEMS,BOOK_CONFIG,CONFIG,REVISITS,load,digest,validate_packets
++from publication_parent import PUBLICATION_PARENT,publication_contract,require_parent_ready,validate_output_scope
++BASE_COMMIT=PUBLICATION_PARENT  # Only the transaction/checkout parent; review_contract keeps the review base.
+ from pin_artifact_contract import declared_pin_metadata
+ from run_support import run_support,PRODUCTION_PATHS,validate_target_headers
+ assert set(sys.argv[1:]) <= {"--apply","--preflight-only"}, "Unknown integration option"
+@@ -22,17 +24,19 @@
+ def flat(x):return [v for c in x['chapters'] for v in c['verses']]
+ def gsha(raw):return hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+ git=lambda *a:subprocess.check_output(['git',*a],cwd=REPO)
++publication=publication_contract();assert publication['review_base']==REVIEW_BASE_COMMIT
+ baseline=load(HERE/'before-progress.json');progress=load(REPO/'progress.json')
+-assert progress==baseline and progress['next']['reference']=='1 Chronicles 1:24' and progress['next_unreviewed']['reference']=='Psalms 118:1'
+-assert git('rev-parse','HEAD').decode().strip()==git('rev-parse','origin/main').decode().strip()==git('ls-remote','origin','refs/heads/main').decode().split()[0]==BASE_COMMIT and not git('status','--porcelain').strip()
++assert progress==load(HERE/'publication-parent2-progress.json') and progress['next']['reference']=='1 Chronicles 1:24' and progress['next_unreviewed']['reference']=='Psalms 118:1'
++concurrent_working_copy_before=require_parent_ready(publication)
+ assert len(baseline['runs'])==37 and not any(r.get('run_id')==RUN for r in baseline['runs'])
+ assert (baseline['completed_source_verses'],baseline['completed_cross_references'],baseline['completed_chapters'],baseline['completed_book_records'],baseline['pending_book_records'])==(16129,20852,420,12,31)
+ baseline_files={path:'before-'+path.replace('/','__') for path in load(HERE/'baseline-metadata.json')['files']}
+-meta=load(HERE/'baseline-metadata.json');assert meta['commit']==BASE_COMMIT and set(meta['files'])==set(baseline_files)
++meta=load(HERE/'baseline-metadata.json');assert meta['commit']==REVIEW_BASE_COMMIT and set(meta['files'])==set(baseline_files)
+ assert set(meta['files'])=={'canon.json','progress.json','psalms/verses.json','psalms/source-checks.json','psalms/inventory.json','psalms/editorial-notes.json','psalms/verification.json'}
+ for path,saved in baseline_files.items():
+- raw=git('show',BASE_COMMIT+':'+path)
+- assert gsha(raw)==meta['files'][path] and json.loads(raw)==load(HERE/saved)==load(REPO/path),path
++ raw=git('show',REVIEW_BASE_COMMIT+':'+path)
++ assert gsha(raw)==meta['files'][path] and json.loads(raw)==load(HERE/saved),path
++ assert json.loads(git('show',BASE_COMMIT+':'+path))==load(REPO/path),path
+ before_files={p.relative_to(REPO).as_posix():digest(p) for p in REPO.rglob('*') if p.is_file() and '.git' not in p.relative_to(REPO).parts}
+ plan=validate_packets()
+ assert list(GROUPS)==['Psalms','Proverbs'] and BOOK_CONFIG['Psalms']['new'] is False and BOOK_CONFIG['Proverbs']['new'] is True
+@@ -207,6 +211,7 @@
+ newchaptercount=sum(len(s['newchapters']) for s in states.values())
+ assert progress['completed_source_verses']==16129+len(plan['supported']) and progress['completed_cross_references']==20852+len(plan['rows']) and progress['completed_chapters']==420+newchaptercount
+ run={'run_id':RUN,'date':DATE,'synchronized':DATE,'reviewed_dates':[DATE],'source_range':plan['source_range'],'source_range_is_review_scope':True,'source_units_read':plan['source_units_read'],'first_reviewed_source_units':plan['first_reviewed_source_units'],'revisited_source_units_read':plan['revisited_source_units_read'],'new_completed_revisited_sources':0,'resolved_source_deferrals_count':0,'distinct_source_verses':len(plan['supported']),'new_completed_pairs':len(plan['rows']),'new_deferred_source_units_count':len(all_new_deferred),'total_deferred_source_units_count':len(known_deferred),'book_results':results,'hourly_target':500,'target_met':len(plan['rows'])>=500,'target_shortfall':max(0,500-len(plan['rows'])),'target_excess':max(0,len(plan['rows'])-500),'unresolved_retained_cases':0,'new_unresolved_candidate_count':len(all_new_candidates),'known_pending_target_candidate_count':len(known),'review_record':'review-batches/'+RUN+'.json','next_reference':nextpending['reference'],'next_unreviewed_reference':nextnew['reference'],'inventories_added':inventories}
++run.update(review_base_commit=REVIEW_BASE_COMMIT,publication_parent=BASE_COMMIT,publication_parent_reconciliation_file='publication-parent2-reconciliation.json',publication_parent_reconciliation_sha256=digest(HERE/'publication-parent2-reconciliation.json'),preserved_nt_tree_git_sha=publication['preserved_nt_tree_git_sha'])
+ progress['runs'].append(run);assert progress['runs'][:-1]==baseline['runs'] and len(progress['runs'])==38
+ archivefiles=sorted(set(plan['files']+inventory_files+ezrafiles));archive_relative='psalms/review-batches/'+RUN+'/'
+ batch={**run,'source_repository':manifest['repository'],'source_commit':PIN,'reviewed':DATE,'completion_definition':states['Psalms']['data']['completion_definition'],'inputs':inputs,'chapter_pair_counts':{book:s['paircounts'] for book,s in states.items()},'review_receipts':list(plan['authors'].values()),'peer_review_receipts':list(plan['peers'].values()),'applied_peer_corrections':plan['fixes'],'resolved_source_deferrals':[d for st in states.values() for d in st['resolved_source_deferrals']],'first_review_scope':'Psalms 118:1 through Psalms 151:7, then Proverbs 1:1 through Proverbs 4:27b; 632 first-reviewed units','revisit_scope':[],'next_new_review_inventory_required':False,'deferred_source_units':all_new_deferred,'known_pending_source_units':known_deferred,'unresolved_candidates':all_new_candidates,'known_pending_target_candidates':known,'excluded_candidates':[c for a in plan['authors'].values() for c in a.get('candidate_exclusions',[])],'unresolved_retained_cases':[],'remaining_checks':['Deferred source units require substantive supported review','Next never-reviewed source: '+nextnew['reference'],'Independent human specialist review','Original-language and critical-apparatus comparison','Live destination-anchor and display verification'],'target_identity_preflight':preflight,'frozen_receipt_fingerprints':plan['fingerprints'],'input_archive':archive_relative,'archived_input_files':[{'file':p.name,'sha256':digest(p),'completion_credit':0} for p in archivefiles],'inventory_evidence':inventory_evidence,'target_provenance_added':targetextras,'historical_filename_bindings':plan['historical_filename_bindings'],'continuation_only_updates':[{'book':book,'new_review_credit':0,'first_pending':ref,'next_new_source_review':nextnew['reference']} for book,ref in [(b['book'],b['next_reference']) for b in baseline['books'] if b['book'] in allchecks and b['book'] not in GROUPS and b['status']!='completed']]}
+@@ -252,9 +257,11 @@
+ assert {path for path in outputs if path.startswith('scripts/')}==PRODUCTION_PATHS
+ assert {path for path in outputs if path.endswith('/inventory.json')}=={'proverbs/inventory.json'} and 'canon.json' not in outputs
+ assert all(hashlib.sha256(outputs[f['path']]).hexdigest()==f['after_sha256'] for f in support['contract']['files'])
++validate_output_scope(outputs,publication)
+ assert all(digest(REPO/path)==sha for path,sha in before_files.items())
+ assert not (REPO/archive_relative).exists()
+ summary={'run':run,'completed_source_verses':progress['completed_source_verses'],'completed_pairs':progress['completed_cross_references'],'completed_chapters':progress['completed_chapters'],'next':progress['next'],'next_unreviewed':nextnew,'book_totals':{book:{'completed_sources':len(s['done']),'completed_pairs':len(s['edges']),'pending_sources':len(s['pending']),'deferred_sources':len(s['checks']['deferred_source_units']),'unreviewed_sources':len(s['unread'])} for book,s in states.items()},'archive_files':len(archivefiles),'repository_output_files':len(outputs)}
++summary.update(review_base_commit=REVIEW_BASE_COMMIT,publication_parent=BASE_COMMIT,concurrent_working_copy_before=concurrent_working_copy_before)
+ if '--apply' not in sys.argv or '--preflight-only' in sys.argv:print(json.dumps({'preflight_only':True,**summary}));raise SystemExit(0)
+ # Stage complete outputs and exact old bytes outside the repository first.
+ # The journal survives interruption, including interruption between replacement
+--- preservation-audit-before-publication-parent.py
++++ preservation-audit.py
+@@ -14,22 +14,28 @@
+ from complete_evidence_contract import evidence_unit,verify_complete_edge
+ from passages import INDEX,keys,complete_text
+ from run_support import run_support,PRODUCTION_PATHS,validate_target_headers
++from publication_parent import PUBLICATION_PARENT,publication_contract,verify_concurrent_worktree,verify_published_tree,validate_progress_metadata
+ sys.dont_write_bytecode=True
++publication=publication_contract();concurrent_working_copy=verify_concurrent_worktree(publication)
++working_copy_before=load(H/'merge-result.json');require(working_copy_before['publication_parent']==PUBLICATION_PARENT and working_copy_before['concurrent_working_copy_before']==concurrent_working_copy,'Concurrent working-copy bytes changed during OT publication')
+ support=run_support(current_is_final=True)
+ chapter_units=support["chapter_units"];completed_chapter_numbers=support["completed_chapter_numbers"];completed_source_sections=support["completed_source_sections"]
+ from pin_artifact_contract import declared_pin_metadata
+ ap=argparse.ArgumentParser();ap.add_argument('--require-staged',action='store_true');ap.add_argument('--published',action='store_true');opt=ap.parse_args()
+ before=load(H/'before-progress.json');p=load(R/'progress.json');batch=load(R/f'review-batches/{RUN}.json');run=p['runs'][-1]
+ require(before==old('progress.json') and len(before['runs'])==37 and p['runs'][:-1]==before['runs'] and len(p['runs'])==38 and run['run_id']==RUN,'Historical run objects changed')
+-require(load(R/'canon.json')==old('canon.json')==load(H/'before-canon.json'),'Canon changed')
++require(old('canon.json')==load(H/'before-canon.json'),'Review-base canon changed')
++require(load(R/'canon.json')==load(H/'publication-parent2-canon.json'),'Publication-parent canon changed')
++validate_progress_metadata(p,load(H/'publication-parent2-progress.json'))
++require(run['review_base_commit']==BASE and run['publication_parent']==PUBLICATION_PARENT and run['publication_parent_reconciliation_file']=='publication-parent2-reconciliation.json' and run['publication_parent_reconciliation_sha256']==sha((H/'publication-parent2-reconciliation.json').read_bytes()) and run['preserved_nt_tree_git_sha']==publication['preserved_nt_tree_git_sha'],'Review/publication provenance differs')
+ metadata=load(H/'baseline-metadata.json');require(metadata['commit']==BASE,'Baseline commit differs')
+ saved={path:'before-'+path.replace('/','__') for path in metadata['files']}
+ require(set(metadata['files'])==set(saved),'Baseline metadata coverage differs')
+ for path,name in saved.items():
+  raw=git('show',BASE+':'+path);require(gsha(raw)==metadata['files'][path] and json.loads(raw)==load(H/name),'Fresh baseline object differs: '+path)
+-oldtree={line.split('\t',1)[1]:line.split('\t',1)[0].split()[2] for line in git('ls-tree','-r',BASE).decode().splitlines()}
++oldtree={line.split('\t',1)[1]:line.split('\t',1)[0].split()[2] for line in git('ls-tree','-r',PUBLICATION_PARENT).decode().splitlines()}
+ index={line.split('\t',1)[1]:line.split('\t',1)[0].split()[1] for line in git('ls-files','--stage').decode().splitlines()}
+-changed=set(git('diff','--name-only',BASE).decode().splitlines());untracked=set(git('ls-files','--others','--exclude-standard').decode().splitlines())
++changed=set(git('diff','--name-only',PUBLICATION_PARENT).decode().splitlines());untracked=set(git('ls-files','--others','--exclude-standard').decode().splitlines())
+ generated={f+'/'+name for f in OLD_FOLDERS for name in ['README.md','verification.json',old(f+'/verses.json')['readable_html'],old(f+'/verses.json')['readable_text']]}
+ allowed={'README.md','progress.json'}|PRODUCTION_PATHS|{folder+'/'+name for folder in CONTINUATION_FOLDERS for name in ['source-checks.json','RESTORE.md']}|{'psalms/'+name for name in ['verses.json','source-checks.json','editorial-notes.json','RESTORE.md']}|generated
+ # Only the three exact contract-bound production files may change.
+@@ -229,7 +235,8 @@
+ if opt.published:
+  meta=load(H/'published-metadata.json');commit=meta['commit'];require(set(meta['files'])==required_paths(),'Fresh MCP readback coverage differs')
+  require(git('rev-parse','HEAD').decode().strip()==git('rev-parse','origin/main').decode().strip()==git('ls-remote','origin','refs/heads/main').decode().split()[0]==commit and not git('status','--porcelain').strip(),'Published main differs or dirty')
+- require(git('merge-base','--is-ancestor',BASE,commit)==b'','Baseline ancestry differs')
++ require(git('merge-base','--is-ancestor',BASE,commit)==b'','Review-base ancestry differs')
++ published_concurrent=verify_published_tree(commit,publication)
+  for path,blob in meta['files'].items():
+   require(git('rev-parse',commit+':'+path).decode().strip()==blob,'Fresh MCP blob differs');raw=git('cat-file','blob',blob);require(gsha(raw)==blob and json.loads(raw)==load(R/path),'Complete published JSON differs');remote.append({'path':path,'git_blob':blob,'raw_sha256':sha(raw),'complete_json_equal':True})
+  registry={s['path']:s for f in FOLDERS for s in load(R/f/'source-checks.json')['sources']}
+@@ -237,6 +244,7 @@
+   path,s=item;require(s['commit']==PIN,'Unpinned source');raw=urlopen(f'https://raw.githubusercontent.com/Dotty777/Saints-Translation/{PIN}/'+path,timeout=45).read();require(gsha(raw)==s['blob_sha'] and json.loads(raw)==load(H.parent/'reference'/(path.split('/')[0]+'.json')),'Fresh pinned source mismatch');return {'path':path,'git_blob':s['blob_sha'],'sha256':sha(raw),'completion_credit':0}
+  with ThreadPoolExecutor(max_workers=8) as pool:fresh=list(pool.map(freshcheck,sorted(registry.items())))
+ out={'result':'passed','auditor':'Codex root (technical preservation checks, no additional semantic credit)','checked_at_utc':datetime.now(timezone.utc).isoformat(),'baseline_commit':BASE,'run_id':RUN,'require_staged':opt.require_staged,'published':opt.published,'completion_credit':0,'new_source_units':len(plan['supported']),'new_pairs':len(plan['rows']),'source_units_read':plan['source_units_read'],'new_deferred_source_units':len(allnewdef),'total_deferred_source_units':len(knowndef),'new_pending_target_candidates':len(allnewcases),'total_pending_target_candidates':len(knowncases),'cumulative_sources':p['completed_source_verses'],'cumulative_pairs':p['completed_cross_references'],'completed_chapters':p['completed_chapters'],'completed_books':p['completed_book_records'],'pending_books':p['pending_book_records'],'book_totals':{book:{'completed_sources':len(s['done']),'completed_pairs':len(s['edges']),'pending_sources':len(s['pending']),'deferred_sources':len(s['checks']['deferred_source_units']),'unreviewed_sources':len(s['unread'])} for book,s in states.items()},'next':p['next'],'next_unreviewed':p['next_unreviewed'],'old_psalms_completed_objects_preserved':1733,'old_psalms_pairs_preserved':1826,'old_psalms_source_deferrals_preserved':289,'old_psalms_target_cases_preserved':79,'prior_runs_preserved':37,'first_reviewed_source_units':632,'revisited_source_units_read':0,'resolved_source_deferrals_count':0,'immutable_git_objects':len(immutable),'archived_files':len(files),'raw_pin_rehashes':len(pins),'new_inventory_credit':0,'new_target_provenance_credit':0,'new_target_sources':[e['book'] for e in targetextras],'full_remote_json_readback':remote,'fresh_source_checks':fresh,'validator_reports':reports}
++out.update(review_base_commit=BASE,publication_parent=PUBLICATION_PARENT,concurrent_working_copy=concurrent_working_copy,published_concurrent_preservation=published_concurrent if opt.published else None)
+ out['production_changes']=support['contract']['files']
+ out['all_other_production_code_unchanged']=True
+ out['native_chapter_and_source_section_counts']={'Proverbs':{'native_chapters':31,'source_sections':34,'completed_source_sections':states['Proverbs']['data']['completed_source_sections']}}
+--- prepare-readback-before-publication-parent.py
++++ prepare-readback.py
+@@ -1,7 +1,10 @@
+ from pathlib import Path
+ import runpy,json
++from publication_parent import PUBLICATION_PARENT,publication_contract
++publication=publication_contract()
+ H=Path(__file__).resolve().parent;C=runpy.run_path(str(H/'audit-common.py'))
+-for name in ['review_contract.py','finalize-reviews.py','integrate.py','audit-common.py','preservation-audit.py','run_support.py']:compile((H/name).read_text(encoding='utf-8'),name,'exec')
++for name in ['review_contract.py','finalize-reviews.py','integrate.py','audit-common.py','preservation-audit.py','run_support.py','publication_parent.py']:compile((H/name).read_text(encoding='utf-8'),name,'exec')
+ out={'repository':'Dotty777/Saints-bible-cross-references-','run_id':C['RUN'],'baseline_commit':C['BASE'],'files':sorted(C['required_paths']()),'completion_credit':0,'readback_requirement':'Fetch fresh MCP identities at the published main commit, then parse each complete exact Git blob and compare the full JSON. An empty MCP body for a large object is not an empty dataset.'}
++out.update(review_base_commit=C['BASE'],publication_parent=PUBLICATION_PARENT,preserved_nt_tree_git_sha=publication['preserved_nt_tree_git_sha'],concurrent_unchanged_git_objects=[{'path':x['path'],'git_blob':x['git_blob']} for x in publication['complete_concurrent_objects'] if x['path'] in publication['added_paths']],concurrent_preservation_requirement='Verify the published commit descends from publication_parent and retains the exact entire NT tree and both NT script Git blobs. This separate identity proof adds no OT JSON paths, source reviews or completion credit.')
+ (H/'readback-required-paths.json').write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8')
+ print(json.dumps({'compiled':True,'required_remote_json_objects':len(out['files']),'repository_mutations':0}))
+--- run_support-before-publication-parent.py
++++ run_support.py
+@@ -7,6 +7,7 @@
+ from datetime import datetime, timezone
+ import hashlib, json, re, runpy, subprocess
+ from review_contract import HERE, REPO, RUN, PIN, BASE_COMMIT, load, digest
++from publication_parent import PUBLICATION_PARENT,publication_contract
+ 
+ PRODUCTION_PATHS = {'scripts/chapter_structure.py', 'scripts/validate.py', 'scripts/render_books.py'}
+ 
+@@ -62,13 +63,40 @@
+ def bound_support_files(roots,contract):
+     """Validate transitive file/hash dependencies, including exact old renderer bytes."""
+     historical={("production-changes/scripts/render_books.py",contract['initial_renderer_sha256']):contract['initial_renderer_file']}
++    stage=load(local('publication-parent-adapter-receipt.json'))
++    assert stage['review_base_commit']==BASE_COMMIT and stage['publication_parent']==PUBLICATION_PARENT
++    expected={'integrate.py','preservation-audit.py','prepare-readback.py','run_support.py'}
++    assert {x['original_file'] for x in stage['changed_helpers']}==expected and len(stage['changed_helpers'])==4
++    for item in stage['changed_helpers']:
++        original=item['original_file'];before=item['before_file']
++        assert before==original[:-3]+'-before-publication-parent.py' and item['after_file']==original
++        assert digest(local(before))==item['before_sha256'] and digest(local(original))==item['after_sha256']
++        historical[(original,item['before_sha256'])]=before
++    first=load(local(stage['first_parent_adapter_file']))
++    assert digest(local(stage['first_parent_adapter_file']))==stage['first_parent_adapter_sha256']
++    assert first['review_base_commit']==BASE_COMMIT and first['publication_parent']=='0b3dba6020141e4e5536340920b510f5677e7c25'
++    expected_aliases=[{'original_file':x['after_file'],'original_sha256':x['after_sha256'],'preserved_file':x['after_file'][:-3]+'-first-parent.py','preserved_sha256':x['after_sha256']} for x in first['changed_helpers']]
++    expected_aliases.extend([{'original_file':first['new_guard_file'],'original_sha256':first['new_guard_sha256'],'preserved_file':'publication_parent-first-parent.py','preserved_sha256':first['new_guard_sha256']},{'original_file':first['diff_file'],'original_sha256':first['diff_sha256'],'preserved_file':'publication-parent-first-adapter.diff','preserved_sha256':first['diff_sha256']}])
++    assert stage['intermediate_aliases']==expected_aliases
++    for item in expected_aliases:
++        assert digest(local(item['preserved_file']))==item['original_sha256']==item['preserved_sha256']
++        historical[(item['original_file'],item['original_sha256'])]=item['preserved_file']
++    attempt=load(local(stage['checkout_guard_attempt_file']))
++    assert digest(local(stage['checkout_guard_attempt_file']))==stage['checkout_guard_attempt_sha256']
++    assert attempt['review_base_commit']==BASE_COMMIT and attempt['publication_parent']==PUBLICATION_PARENT
++    amended={x['after_file']:x['after_sha256'] for x in attempt['changed_helpers']}
++    expected_extra=[{'original_file':name,'original_sha256':value,'preserved_file':saved,'preserved_sha256':value} for name,value,saved in [('publication_parent.py',attempt['new_guard_sha256'],'publication_parent-before-checkout-normalization.py'),('preservation-audit.py',amended['preservation-audit.py'],'preservation-audit-before-checkout-normalization.py'),('run_support.py',amended['run_support.py'],'run_support-before-checkout-normalization.py'),('publication-parent-adapter.diff',attempt['diff_sha256'],'publication-parent-before-checkout-normalization.diff')]]
++    assert stage['checkout_guard_aliases']==expected_extra
++    for item in expected_extra:
++        assert digest(local(item['preserved_file']))==item['original_sha256']==item['preserved_sha256']
++        historical[(item['original_file'],item['original_sha256'])]=item['preserved_file']
+     pending=[local(n) for n in roots]; seen=set()
+     def scan(node):
+         if isinstance(node,list):
+             for child in node: yield from scan(child)
+         elif isinstance(node,dict):
+             for key,value in node.items():
+-                if isinstance(value,str) and '://' not in value and value.endswith(('.json','.tsv','.py','.md')):
++                if isinstance(value,str) and '://' not in value and value.endswith(('.json','.tsv','.py','.md','.diff')):
+                     base=key[:-5] if key.endswith('_file') else key
+                     expected=node.get(base+'_sha256') or node.get(key+'_sha256')
+                     if key=='file': expected=expected or node.get('sha256')
+@@ -135,9 +163,11 @@
+     return {'inventory':inventory,'seed':seed,'summary':summary,'evidence':evidence}
+ 
+ def run_support(current_is_final=False):
++    publication=publication_contract()
+     contract,outputs=production_contract(current_is_final)
+     inventory=inventory_contract()
+     roots=['chapter-structure-change-contract.json','chapter-structure-independent-final-audit.json','chapter-structure-independent-amendment-check.json','inventory-proverbs-receipt.json','proverbs-inventory-check.json','before-proverbs.json','proverbs-seed.json','proverbs-inventory.json']
++    roots+=['publication-parent2-reconciliation.json','publication-parent-adapter-receipt.json','concurrent-root-renderer2-check.json']
+     files=bound_support_files(roots,contract)
+     structure=runpy.run_path(str(local('production-changes/scripts/chapter_structure.py')))
+     archive_manifest=[{'original_file':p.relative_to(HERE).as_posix(),'archive_file':p.name,'sha256':digest(p)} for p in files]

@@ -1,0 +1,621 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "reviewer": "Codex AI independent technical auditor /root/macc9_12_peer",
+  "checked_at_utc": "2026-10-30T23:03:05.833601+00:00",
+  "baseline_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "all_existing_before_snapshots_equal_full_baseline_git_bytes": true,
+  "snapshot_count": 106,
+  "old_known_book_count": 21,
+  "old_separate_inventory_file_count": 20,
+  "old_run_count": 37,
+  "old_completed_sources": 16129,
+  "old_completed_pairs": 20852,
+  "old_completed_chapters": 420,
+  "snapshots": [
+    {
+      "path": "1-chronicles/editorial-notes.json",
+      "snapshot_file": "before-1-chronicles__editorial-notes.json",
+      "sha256": "46f055eba26d79073d3be8ed0104e1a8533ae874d6c20541f0fb1ca604b6155e"
+    },
+    {
+      "path": "1-chronicles/inventory.json",
+      "snapshot_file": "before-1-chronicles__inventory.json",
+      "sha256": "649f5af93f2bbacee7682beeb436bbc12e03a710216e8bc720c342059c2bc80d"
+    },
+    {
+      "path": "1-chronicles/source-checks.json",
+      "snapshot_file": "before-1-chronicles__source-checks.json",
+      "sha256": "779cf91dffe1c4e2131539252e2d0c3f58792f2d76f5ce99771b2fd866359d1f"
+    },
+    {
+      "path": "1-chronicles/verification.json",
+      "snapshot_file": "before-1-chronicles__verification.json",
+      "sha256": "bc51def0c54c0d0eaa13cccaedf01f83d1f30aeb2622f59ab0fd35116dfef319"
+    },
+    {
+      "path": "1-chronicles/verses.json",
+      "snapshot_file": "before-1-chronicles__verses.json",
+      "sha256": "798831fb494c119a560e832703c4fd020c32096fccebbe5d9983cc84b287710d"
+    },
+    {
+      "path": "1-kings/editorial-notes.json",
+      "snapshot_file": "before-1-kings__editorial-notes.json",
+      "sha256": "f854d32028fae6a73a493ffd567399ce3d2e302d58cbf84d329acee38305484a"
+    },
+    {
+      "path": "1-kings/inventory.json",
+      "snapshot_file": "before-1-kings__inventory.json",
+      "sha256": "eb6447ec4f8172b56699f57d0b1665ec956ef690d83630698b4d8816364b7739"
+    },
+    {
+      "path": "1-kings/source-checks.json",
+      "snapshot_file": "before-1-kings__source-checks.json",
+      "sha256": "feba80603fa2ed876f800cd7be9885332ebe3776b7c9c9883d3a866c61c249ea"
+    },
+    {
+      "path": "1-kings/verification.json",
+      "snapshot_file": "before-1-kings__verification.json",
+      "sha256": "5e0c89c0c954c77bd93b31ded94a02ab9b3022e020932451a981eb62aa473456"
+    },
+    {
+      "path": "1-kings/verses.json",
+      "snapshot_file": "before-1-kings__verses.json",
+      "sha256": "4b78a755825ad558d424f6cea8875c841b14bf7fe8f941a280003fcef7277074"
+    },
+    {
+      "path": "1-maccabees/editorial-notes.json",
+      "snapshot_file": "before-1-maccabees__editorial-notes.json",
+      "sha256": "4b93ac280902367bc9e690f60c916acabaf2eb939554ed9c6dfbd4800f701d65"
+    },
+    {
+      "path": "1-maccabees/inventory.json",
+      "snapshot_file": "before-1-maccabees__inventory.json",
+      "sha256": "e9b6ccb1fe24e8640bdf5f2fcf2afc05afc68e56b2017287a67fedc3f5818996"
+    },
+    {
+      "path": "1-maccabees/source-checks.json",
+      "snapshot_file": "before-1-maccabees__source-checks.json",
+      "sha256": "1a88aef672de62eed4ea5d6ed4a9ea056e4799589af8517f0a97680f05fc240b"
+    },
+    {
+      "path": "1-maccabees/verification.json",
+      "snapshot_file": "before-1-maccabees__verification.json",
+      "sha256": "9de69ac903d0b313a698a6b8ab1b7c0e1c47c42c532cbf03b5a9960f923b449b"
+    },
+    {
+      "path": "1-maccabees/verses.json",
+      "snapshot_file": "before-1-maccabees__verses.json",
+      "sha256": "71778db8f65ffb804c192b4558fe6eef6215fa413c0326219eb3d82b0b220a85"
+    },
+    {
+      "path": "1-samuel/editorial-notes.json",
+      "snapshot_file": "before-1-samuel__editorial-notes.json",
+      "sha256": "94a3a87e1903d6097409405c2d1a1181e3b1137055d6e2c32e463feeea662cf2"
+    },
+    {
+      "path": "1-samuel/inventory.json",
+      "snapshot_file": "before-1-samuel__inventory.json",
+      "sha256": "ae75d9bc930967395458623b0bf8c4e77bfb0068a771d1ee5f90a0baffc740d0"
+    },
+    {
+      "path": "1-samuel/source-checks.json",
+      "snapshot_file": "before-1-samuel__source-checks.json",
+      "sha256": "86d6c97967dd49c78545a0b7b8bb30cefa7f53ef715448782c7a2ce58a84dcf2"
+    },
+    {
+      "path": "1-samuel/verification.json",
+      "snapshot_file": "before-1-samuel__verification.json",
+      "sha256": "0df344b79bc4726fac85b340f167b64d693174681d67b9a4771fa54fac5da381"
+    },
+    {
+      "path": "1-samuel/verses.json",
+      "snapshot_file": "before-1-samuel__verses.json",
+      "sha256": "ac002e37d766a0e2b10b4d757a4491b08abcd6a852ece52b89b081709880202c"
+    },
+    {
+      "path": "2-chronicles/editorial-notes.json",
+      "snapshot_file": "before-2-chronicles__editorial-notes.json",
+      "sha256": "2d85f69710a522b5fc3f8c9a2dbc973f1356d7982d0011be0736294312f744a4"
+    },
+    {
+      "path": "2-chronicles/inventory.json",
+      "snapshot_file": "before-2-chronicles__inventory.json",
+      "sha256": "5f07690678bba2e0f03a3f300ea7a646f597630c06239e03ec9997b5805ad385"
+    },
+    {
+      "path": "2-chronicles/source-checks.json",
+      "snapshot_file": "before-2-chronicles__source-checks.json",
+      "sha256": "9bb54313188c5d51fbaa9f563f561948b10f01168496454daf4cd060602c6ced"
+    },
+    {
+      "path": "2-chronicles/verification.json",
+      "snapshot_file": "before-2-chronicles__verification.json",
+      "sha256": "a60d76dad9a9731a9ccfe22f1113f9edecd49c2991b6067ebab0c892a2d47ec9"
+    },
+    {
+      "path": "2-chronicles/verses.json",
+      "snapshot_file": "before-2-chronicles__verses.json",
+      "sha256": "1e790f65ec9c655e3d9127baa8623da4f51fe7b693c65c45e51e90ff294df087"
+    },
+    {
+      "path": "2-kings/editorial-notes.json",
+      "snapshot_file": "before-2-kings__editorial-notes.json",
+      "sha256": "f3925c8d45b7364c402b17f29f436f0c299bb626a4cf9af85d4a1254c38c9a82"
+    },
+    {
+      "path": "2-kings/inventory.json",
+      "snapshot_file": "before-2-kings__inventory.json",
+      "sha256": "28c8c231d39845ff62f4177348b0c6e92dbcb624d58c73a192b534747c7275aa"
+    },
+    {
+      "path": "2-kings/source-checks.json",
+      "snapshot_file": "before-2-kings__source-checks.json",
+      "sha256": "d048a4f87a67ce85386ac7acc05de413e977a74d9187a58148f1673315a8cefd"
+    },
+    {
+      "path": "2-kings/verification.json",
+      "snapshot_file": "before-2-kings__verification.json",
+      "sha256": "cdfc3fe5c6e6d72d19a83a11a660f15398f49a5200f7e34d092187606703c58b"
+    },
+    {
+      "path": "2-kings/verses.json",
+      "snapshot_file": "before-2-kings__verses.json",
+      "sha256": "166667e00c3504713d7b6f323f0840a44d06de10ee4e9fc5f4932b451cfe4dd6"
+    },
+    {
+      "path": "2-maccabees/editorial-notes.json",
+      "snapshot_file": "before-2-maccabees__editorial-notes.json",
+      "sha256": "e57a29cedcef405b77e299427e8d881aeeaf30124bb553ee986e3ab0d7d3fa53"
+    },
+    {
+      "path": "2-maccabees/inventory.json",
+      "snapshot_file": "before-2-maccabees__inventory.json",
+      "sha256": "9aab82d36c860c0a2d670bdfe57708a28dfa83fbceaea056c67864e25e63678f"
+    },
+    {
+      "path": "2-maccabees/source-checks.json",
+      "snapshot_file": "before-2-maccabees__source-checks.json",
+      "sha256": "f02e1a2b0957188be70161ad7df60872e03943c6247dab445c8b0e65988bdc98"
+    },
+    {
+      "path": "2-maccabees/verification.json",
+      "snapshot_file": "before-2-maccabees__verification.json",
+      "sha256": "baf15b4556d36eb800f1413f8cdf43b2017776815441799f88c6255c4763db94"
+    },
+    {
+      "path": "2-maccabees/verses.json",
+      "snapshot_file": "before-2-maccabees__verses.json",
+      "sha256": "8449c52882b7c22e2b469aced2d040d6a22b24a02e43b33a9a7c09cdd6a07fdd"
+    },
+    {
+      "path": "2-samuel/editorial-notes.json",
+      "snapshot_file": "before-2-samuel__editorial-notes.json",
+      "sha256": "c93b71d02500acbe5339df83708ea896a5404d438f4dd43e5f7b1263e9d70d45"
+    },
+    {
+      "path": "2-samuel/inventory.json",
+      "snapshot_file": "before-2-samuel__inventory.json",
+      "sha256": "5c8deacf545de3e2d1eb7cf1a6e14967bee10948372acc121ee45f794f73747a"
+    },
+    {
+      "path": "2-samuel/source-checks.json",
+      "snapshot_file": "before-2-samuel__source-checks.json",
+      "sha256": "b702ba6f4a15b6e1f48a43720832eb6af3f57f2162276e05a0170f4853edf57c"
+    },
+    {
+      "path": "2-samuel/verification.json",
+      "snapshot_file": "before-2-samuel__verification.json",
+      "sha256": "faa0acca6367c1597955437a0547196415e96a6640b961fae347e428a45d6d05"
+    },
+    {
+      "path": "2-samuel/verses.json",
+      "snapshot_file": "before-2-samuel__verses.json",
+      "sha256": "dab5179250577ec65c8b3c0219e89a79118db890786f547326ab23591b9887c3"
+    },
+    {
+      "path": "canon.json",
+      "snapshot_file": "before-canon.json",
+      "sha256": "0e8223260bb0dc78ef69ac3e7c01488d7c45a9e935fe2bf75294b6657bb3fd48"
+    },
+    {
+      "path": "deuteronomy/editorial-notes.json",
+      "snapshot_file": "before-deuteronomy__editorial-notes.json",
+      "sha256": "e567de1980c179e0039f0756f513a72c1543919d50b0a97f27f4d45e1a2c72c5"
+    },
+    {
+      "path": "deuteronomy/inventory.json",
+      "snapshot_file": "before-deuteronomy__inventory.json",
+      "sha256": "c3bbd4b5d87ba3cb089f69b4076c435351c179bdfea175966fccc5f38a680a2a"
+    },
+    {
+      "path": "deuteronomy/source-checks.json",
+      "snapshot_file": "before-deuteronomy__source-checks.json",
+      "sha256": "e83ae355f826e801f83c99c92c18129f9a8110699f755a9af54d5b6a21e0da19"
+    },
+    {
+      "path": "deuteronomy/verification.json",
+      "snapshot_file": "before-deuteronomy__verification.json",
+      "sha256": "46ca28433c6646f6872c8dcd06e4122e669b8b8d78c4a0f822ce2c987d7a6378"
+    },
+    {
+      "path": "deuteronomy/verses.json",
+      "snapshot_file": "before-deuteronomy__verses.json",
+      "sha256": "0f9182417e50e2f491157cbf96da3360ae7553b75f01e583df4edb8896277891"
+    },
+    {
+      "path": "esther/editorial-notes.json",
+      "snapshot_file": "before-esther__editorial-notes.json",
+      "sha256": "cddc8874c62c5e14b926752a4126a359e75e2be6b04d512bc82f1e41852880e4"
+    },
+    {
+      "path": "esther/inventory.json",
+      "snapshot_file": "before-esther__inventory.json",
+      "sha256": "1422165196e95dc3e5ed265d436da9bd32bc550979d246a71da0e34b6ef4404e"
+    },
+    {
+      "path": "esther/source-checks.json",
+      "snapshot_file": "before-esther__source-checks.json",
+      "sha256": "2a72705aef93774df201f254c78e5164054ed1514b705065428bba0c32b23f6d"
+    },
+    {
+      "path": "esther/verification.json",
+      "snapshot_file": "before-esther__verification.json",
+      "sha256": "6e634d221a36e84b025ab041d427348c43f1af4108366f0c4dd13ad720e6c932"
+    },
+    {
+      "path": "esther/verses.json",
+      "snapshot_file": "before-esther__verses.json",
+      "sha256": "fd2d3fdd70f4d8678a8b6a0bfe2a6397c81781dc9114a4225ca770df8bed2bfa"
+    },
+    {
+      "path": "exodus/editorial-notes.json",
+      "snapshot_file": "before-exodus__editorial-notes.json",
+      "sha256": "632045aa6cd7ac880e858ab757f1f352da4d91790ea46cf156796a7a7b298073"
+    },
+    {
+      "path": "exodus/inventory.json",
+      "snapshot_file": "before-exodus__inventory.json",
+      "sha256": "fb2c195345a4bf13215f499e52e9343310d1cc794277664e286be4bb4051559f"
+    },
+    {
+      "path": "exodus/source-checks.json",
+      "snapshot_file": "before-exodus__source-checks.json",
+      "sha256": "2c138a93610d32221a98a6eaee9104a79ea8b488cd537bfce8fee9ad1d04caf8"
+    },
+    {
+      "path": "exodus/verification.json",
+      "snapshot_file": "before-exodus__verification.json",
+      "sha256": "2563a5871e6c9e3eb494359d48260a0dd3acae85360e61a2d80d81211c6a9920"
+    },
+    {
+      "path": "exodus/verses.json",
+      "snapshot_file": "before-exodus__verses.json",
+      "sha256": "f6db7e0217279eef686c9492bb686570be4e1bdb6b22dfdf07f5efeea55ba12c"
+    },
+    {
+      "path": "ezra/editorial-notes.json",
+      "snapshot_file": "before-ezra__editorial-notes.json",
+      "sha256": "57eb1121a20f239489f67e6c9a3a4af23fd514f4baeb45fdfcf2d10ffc17ffe6"
+    },
+    {
+      "path": "ezra/inventory.json",
+      "snapshot_file": "before-ezra__inventory.json",
+      "sha256": "65bc4bb17b6b655e1f30f7d497b85162f9697d58dce4b5414190ed7562ef5782"
+    },
+    {
+      "path": "ezra/source-checks.json",
+      "snapshot_file": "before-ezra__source-checks.json",
+      "sha256": "9677bf696c4ffe9357208b1961a614d7cc319ebac58398221208444b84a36a55"
+    },
+    {
+      "path": "ezra/verification.json",
+      "snapshot_file": "before-ezra__verification.json",
+      "sha256": "402eaa4a81be6ed3f4bcffad1636a88388e672fda035cb9cbc73afe9ee8c6974"
+    },
+    {
+      "path": "ezra/verses.json",
+      "snapshot_file": "before-ezra__verses.json",
+      "sha256": "fc6418c356bd36f05371930f3b766488409e64bed748c03ceb2333413a596829"
+    },
+    {
+      "path": "genesis/editorial-notes.json",
+      "snapshot_file": "before-genesis__editorial-notes.json",
+      "sha256": "d3e89fd39f16df5bc6145ddc9a35ca78d1ce9e61030ef5ed85a37a8179fa440d"
+    },
+    {
+      "path": "genesis/source-checks.json",
+      "snapshot_file": "before-genesis__source-checks.json",
+      "sha256": "236eb1575e046bbfe0eff1e0a83456fa67ba7442acda013346901089d566ec88"
+    },
+    {
+      "path": "genesis/verification.json",
+      "snapshot_file": "before-genesis__verification.json",
+      "sha256": "bd877ad3669e3ee5c0ec508b8e251005b2cd5945596b50e4d7ab0d711ce5d3a0"
+    },
+    {
+      "path": "genesis/verses.json",
+      "snapshot_file": "before-genesis__verses.json",
+      "sha256": "d2c518425b8e93edf0d6bc9d0f7647890b12b67af889963c5557e365cf9852ca"
+    },
+    {
+      "path": "job/editorial-notes.json",
+      "snapshot_file": "before-job__editorial-notes.json",
+      "sha256": "7a742ebad764a67aa1eec75d1edf34a8a2f8384770fcddae14000133e043f129"
+    },
+    {
+      "path": "job/inventory.json",
+      "snapshot_file": "before-job__inventory.json",
+      "sha256": "faa02a0e4ce1c99b461bb5eadcb8f4f137f7c412484453ddbdd320614225d02e"
+    },
+    {
+      "path": "job/source-checks.json",
+      "snapshot_file": "before-job__source-checks.json",
+      "sha256": "2f132c86fcc222a2ca15f03ecfb3a449218c6b5a20edf4eca765114fcc3f045a"
+    },
+    {
+      "path": "job/verification.json",
+      "snapshot_file": "before-job__verification.json",
+      "sha256": "b1f35c5016695f7c3a7fba859ab8b01a8b5a30f959e0b878c916a0a53b1f809e"
+    },
+    {
+      "path": "job/verses.json",
+      "snapshot_file": "before-job__verses.json",
+      "sha256": "9437aaa860c444bfee0221d1067708e997c4fcdf0580228d10dbfd5e037942ef"
+    },
+    {
+      "path": "joshua/editorial-notes.json",
+      "snapshot_file": "before-joshua__editorial-notes.json",
+      "sha256": "083d8e5e2fba2075f15efcf6dc92c3cfa759b2dbda7e94b9a613d17e718536ad"
+    },
+    {
+      "path": "joshua/inventory.json",
+      "snapshot_file": "before-joshua__inventory.json",
+      "sha256": "3b4bba5162e677edcbd0d5b6124498bce227345670a45dfe887dfb2f18a2dc67"
+    },
+    {
+      "path": "joshua/source-checks.json",
+      "snapshot_file": "before-joshua__source-checks.json",
+      "sha256": "0e246008ff326fa79eaf0e4eba304f7459d18a53d42fdea986bac526e7274f32"
+    },
+    {
+      "path": "joshua/verification.json",
+      "snapshot_file": "before-joshua__verification.json",
+      "sha256": "60b648828f6293d6745feb2eeece8d6ab60465d02372195b162b807b79558564"
+    },
+    {
+      "path": "joshua/verses.json",
+      "snapshot_file": "before-joshua__verses.json",
+      "sha256": "fe5a18be0626cca4da29dbf8427319a8980969324624acc26f8b1f978a4af9c6"
+    },
+    {
+      "path": "judges/editorial-notes.json",
+      "snapshot_file": "before-judges__editorial-notes.json",
+      "sha256": "f49df87ee0c2848f9c97c46598d7e7bfc1db22831b06093cc4219d13caa949aa"
+    },
+    {
+      "path": "judges/inventory.json",
+      "snapshot_file": "before-judges__inventory.json",
+      "sha256": "564210c1a9c99e762b10520bffd5d23ebdcc1f99543d10b8709a05c43cda18a3"
+    },
+    {
+      "path": "judges/source-checks.json",
+      "snapshot_file": "before-judges__source-checks.json",
+      "sha256": "bfcc012356bee23b72e1b6adca37959977d55656a3f1b52bd1b930cf0a34a638"
+    },
+    {
+      "path": "judges/verification.json",
+      "snapshot_file": "before-judges__verification.json",
+      "sha256": "d63e510f8ead2612bbcdd192a9d964f45fb4a8592f4c0dedd9eefc7b04fe4176"
+    },
+    {
+      "path": "judges/verses.json",
+      "snapshot_file": "before-judges__verses.json",
+      "sha256": "434380932b742b1c303d2f45b7631c6ce8bfc0a7a9b41b7d3587b08bf27363f8"
+    },
+    {
+      "path": "leviticus/editorial-notes.json",
+      "snapshot_file": "before-leviticus__editorial-notes.json",
+      "sha256": "a376fb72c96b1f21892c0d36bf06745027963ece9009d92326566207437ef320"
+    },
+    {
+      "path": "leviticus/inventory.json",
+      "snapshot_file": "before-leviticus__inventory.json",
+      "sha256": "ab5d55a6ba67d7f4fa28881d1b860d7c0e9e0b99d0cc5d2dfda493468ed2cdae"
+    },
+    {
+      "path": "leviticus/source-checks.json",
+      "snapshot_file": "before-leviticus__source-checks.json",
+      "sha256": "205e8f53593513adaae7a7b7aa31fa0a07a490ea18aa871ddb8cad75a39d2e04"
+    },
+    {
+      "path": "leviticus/verification.json",
+      "snapshot_file": "before-leviticus__verification.json",
+      "sha256": "15581c1d28333d73f1da305eae9888b6417cf239ab4945092b174f8390949a80"
+    },
+    {
+      "path": "leviticus/verses.json",
+      "snapshot_file": "before-leviticus__verses.json",
+      "sha256": "13e5e64bcd89c8c10a4ffe7d18df37abab9ebaf05a0ee5d6e7e1eb3411d49640"
+    },
+    {
+      "path": "nehemiah/editorial-notes.json",
+      "snapshot_file": "before-nehemiah__editorial-notes.json",
+      "sha256": "ed8494c9f5a67d7238ca095e60739ffe55c1a1788d8e117107778a27698378e4"
+    },
+    {
+      "path": "nehemiah/inventory.json",
+      "snapshot_file": "before-nehemiah__inventory.json",
+      "sha256": "cb5dc7097a40f1eaf6df28e7efcba4748d178566d923878d7edbf4c7367f6901"
+    },
+    {
+      "path": "nehemiah/source-checks.json",
+      "snapshot_file": "before-nehemiah__source-checks.json",
+      "sha256": "9f155bae3ef97f3212610552f5d4e318fb4f603e25e5b067aa01ed7eafe67f4f"
+    },
+    {
+      "path": "nehemiah/verification.json",
+      "snapshot_file": "before-nehemiah__verification.json",
+      "sha256": "5552beb55883fc60794c96ef807f4bcd5bdcb4c0f3fab65cb6c8784dd1f59779"
+    },
+    {
+      "path": "nehemiah/verses.json",
+      "snapshot_file": "before-nehemiah__verses.json",
+      "sha256": "f9aee1611158a6486c39074c71f30c1f50ce19e8e7b21ab7d10b1b538c71ebe9"
+    },
+    {
+      "path": "numbers/editorial-notes.json",
+      "snapshot_file": "before-numbers__editorial-notes.json",
+      "sha256": "fa3df0c85f95cb6420f90485b1783d2635193d02f78092d468322c680a2b5679"
+    },
+    {
+      "path": "numbers/inventory.json",
+      "snapshot_file": "before-numbers__inventory.json",
+      "sha256": "14bc7f3b8852eea849c9a7d85b80663ed5ff619daf939acea2fabde89e8e2d87"
+    },
+    {
+      "path": "numbers/source-checks.json",
+      "snapshot_file": "before-numbers__source-checks.json",
+      "sha256": "1b76599602b25428b1bc914f50178717efeae4f2ca2772cc7928b7f9b1d0dfe8"
+    },
+    {
+      "path": "numbers/verification.json",
+      "snapshot_file": "before-numbers__verification.json",
+      "sha256": "455fcc24341b3481091d5f49cc083b2a6296ad1316f87048e34da85ffe14a47b"
+    },
+    {
+      "path": "numbers/verses.json",
+      "snapshot_file": "before-numbers__verses.json",
+      "sha256": "7ad064c6831928f39b2f6f92c6c5ee845809b6c7bba62debf3a1c4a3febc5ba9"
+    },
+    {
+      "path": "progress.json",
+      "snapshot_file": "before-progress.json",
+      "sha256": "948dd42808148eabd5163cbf428e8ad4922a5d72f038884f4083f91b2474299c"
+    },
+    {
+      "path": "psalms/editorial-notes.json",
+      "snapshot_file": "before-psalms__editorial-notes.json",
+      "sha256": "63213ce19896850a8a5eedfd4e91504d26d7316e9e90caecd33a974f08dc6113"
+    },
+    {
+      "path": "psalms/inventory.json",
+      "snapshot_file": "before-psalms__inventory.json",
+      "sha256": "f1a7d59896bb22dac37c50d9211099192b74b59f2ae4e2eb51bee6aece57ec87"
+    },
+    {
+      "path": "psalms/source-checks.json",
+      "snapshot_file": "before-psalms__source-checks.json",
+      "sha256": "5f90a0f63a3e9830f4ca9657a3a44b6a393e6273c3e7f3e2a391cce3a9a0bea6"
+    },
+    {
+      "path": "psalms/verification.json",
+      "snapshot_file": "before-psalms__verification.json",
+      "sha256": "1c067a21c89a036f23101fb4796e2b468a8d2760d4d433d27c46678ace885a13"
+    },
+    {
+      "path": "psalms/verses.json",
+      "snapshot_file": "before-psalms__verses.json",
+      "sha256": "abf61c2553cc2ea2b8d04f231c3d27e1f11bc2fdf9666eb2046d3880136eab55"
+    },
+    {
+      "path": "ruth/editorial-notes.json",
+      "snapshot_file": "before-ruth__editorial-notes.json",
+      "sha256": "ef0f2bd27047fa07eef33c598accf2a70e0812680ec29f354f091b7ea3acba5e"
+    },
+    {
+      "path": "ruth/inventory.json",
+      "snapshot_file": "before-ruth__inventory.json",
+      "sha256": "cadbdef3a71d4bbc859344bd98499e09ea9a57f5a32fd8cb52b7d531b6acb1a2"
+    },
+    {
+      "path": "ruth/source-checks.json",
+      "snapshot_file": "before-ruth__source-checks.json",
+      "sha256": "c0ce079c5e4d18172737ff61350252c22a9dd8b8e9ae482d417c38013a61d230"
+    },
+    {
+      "path": "ruth/verification.json",
+      "snapshot_file": "before-ruth__verification.json",
+      "sha256": "9c8b0681477c7558a06ff37ac19bfb369023cf2f05ff2d1a8e7d6a9055923077"
+    },
+    {
+      "path": "ruth/verses.json",
+      "snapshot_file": "before-ruth__verses.json",
+      "sha256": "37dcc98d7e627695312c3486a9479e90ac81463e45e75180db2e3b37b1f0201f"
+    }
+  ],
+  "expected_publication_json_paths": [
+    "1-chronicles/inventory.json",
+    "1-chronicles/source-checks.json",
+    "1-chronicles/verses.json",
+    "1-kings/inventory.json",
+    "1-kings/source-checks.json",
+    "1-kings/verses.json",
+    "1-maccabees/inventory.json",
+    "1-maccabees/source-checks.json",
+    "1-maccabees/verses.json",
+    "1-samuel/inventory.json",
+    "1-samuel/source-checks.json",
+    "1-samuel/verses.json",
+    "2-chronicles/inventory.json",
+    "2-chronicles/source-checks.json",
+    "2-chronicles/verses.json",
+    "2-kings/inventory.json",
+    "2-kings/source-checks.json",
+    "2-kings/verses.json",
+    "2-maccabees/inventory.json",
+    "2-maccabees/source-checks.json",
+    "2-maccabees/verses.json",
+    "2-samuel/inventory.json",
+    "2-samuel/source-checks.json",
+    "2-samuel/verses.json",
+    "canon.json",
+    "deuteronomy/inventory.json",
+    "deuteronomy/source-checks.json",
+    "deuteronomy/verses.json",
+    "esther/inventory.json",
+    "esther/source-checks.json",
+    "esther/verses.json",
+    "exodus/inventory.json",
+    "exodus/source-checks.json",
+    "exodus/verses.json",
+    "ezra/inventory.json",
+    "ezra/source-checks.json",
+    "ezra/verses.json",
+    "genesis/source-checks.json",
+    "genesis/verses.json",
+    "job/inventory.json",
+    "job/source-checks.json",
+    "job/verses.json",
+    "joshua/inventory.json",
+    "joshua/source-checks.json",
+    "joshua/verses.json",
+    "judges/inventory.json",
+    "judges/source-checks.json",
+    "judges/verses.json",
+    "leviticus/inventory.json",
+    "leviticus/source-checks.json",
+    "leviticus/verses.json",
+    "nehemiah/inventory.json",
+    "nehemiah/source-checks.json",
+    "nehemiah/verses.json",
+    "numbers/inventory.json",
+    "numbers/source-checks.json",
+    "numbers/verses.json",
+    "progress.json",
+    "proverbs/inventory.json",
+    "proverbs/review-batches/2026-10-30T222040Z.json",
+    "proverbs/source-checks.json",
+    "proverbs/verses.json",
+    "psalms/inventory.json",
+    "psalms/review-batches/2026-10-30T222040Z.json",
+    "psalms/source-checks.json",
+    "psalms/verses.json",
+    "review-batches/2026-10-30T222040Z.json",
+    "ruth/inventory.json",
+    "ruth/source-checks.json",
+    "ruth/verses.json"
+  ],
+  "expected_publication_json_count": 70,
+  "repository_status_before_and_after": "clean",
+  "completion_credit": 0
+}

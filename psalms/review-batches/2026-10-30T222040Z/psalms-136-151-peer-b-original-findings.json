@@ -1,0 +1,112 @@
+{
+  "reviewer": "Codex AI independent peer /root/macc2_1_8_peer",
+  "run_id": "2026-10-30T222040Z",
+  "base_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "checked_at_utc": "2026-10-30T23:15:08.173079+00:00",
+  "completion_credit": 0,
+  "input_file": "psalms-136-151-peer-input.tsv",
+  "input_sha256": "f3e2220e5dea7939455e6baace997a97870a9439c87d5d233705b43e55f47bc2",
+  "author_receipt_file": "psalms-136-151-peer-author-input.json",
+  "author_receipt_sha256": "600021db54688c052fdbb427e7b21656ef694701fa8913119c9fbacc27dfdec5",
+  "scope_note": "Four exact retained-row precision proposals and one candidate wording proposal based on B’s complete source/context readings, 20 historical before-triples, 21 author-refined final triples and all 24 full cases. ROOT is independently reading all 178 final triples and cases and will consolidate his additional findings before author revision. No whole-packet acceptance is claimed here.",
+  "proposed_changes": [
+    {
+      "pair_index_one_based": 9,
+      "old_row": {
+        "source_reference": "Psalms 136:9",
+        "target": "Isaiah 13:16-19",
+        "relationship": "Children dashed in judgment against Babylon",
+        "rationale": "The psalm’s violent blessing concerning Babylon’s infants corresponds to Isaiah’s Babylon oracle describing their children dashed before them. Isaiah does not specify the psalm’s rock, and the comparison reports the texts rather than extending their command to another setting."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 136:9",
+        "target": "Isaiah 13:16-19",
+        "relationship": "Children dashed in judgment against Babylon",
+        "rationale": "The psalm’s violent blessing concerning Babylon’s infants corresponds to Isaiah’s Babylon oracle describing their children dashed before them. Isaiah does not specify the psalm’s rock."
+      },
+      "reason": "The source is a blessing and the target is a prediction; neither retained unit issues the command claimed by the deleted clause."
+    },
+    {
+      "pair_index_one_based": 26,
+      "old_row": {
+        "source_reference": "Psalms 138:10",
+        "target": "Psalms 72:23-24",
+        "relationship": "Divine handholding and guidance",
+        "rationale": "Both passages combine divine holding and guidance. Psalm 138 says God’s right hand holds the speaker; Psalm 72 says God grasped the speaker’s right hand and guided him in counsel."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 138:10",
+        "target": "Psalms 72:23-24",
+        "relationship": "Divine handholding and guidance",
+        "rationale": "Both passages combine divine holding and guidance. Psalm 138 says God’s right hand will hold the speaker; Psalm 72 says God grasped the speaker’s right hand and guided him in counsel."
+      },
+      "reason": "Preserve the source future while distinguishing the target past grasping and guidance."
+    },
+    {
+      "pair_index_one_based": 140,
+      "old_row": {
+        "source_reference": "Psalms 147:7",
+        "target": "Job 37:10",
+        "relationship": "Divine breath or wind controls frost and water",
+        "rationale": "The Lord’s sending His word to melt the ice and blowing wind so waters flow correspond to frost given from the Strong One’s breath and His steering water as He wishes. Frost-giving and melting are different actions."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 147:7",
+        "target": "Job 37:10",
+        "relationship": "Divine breath or wind controls frost and water",
+        "rationale": "The Lord’s sending His word to melt the ice and blowing wind so waters flow correspond to Elihu’s description of frost given from the Strong One’s breath and His steering water as He wishes. Frost-giving and melting are different actions."
+      },
+      "reason": "The actual Job 32:6, 36:1 and 38:1 speaker markers identify this as Elihu’s speech; state that attribution rather than leave the target voice implicit."
+    },
+    {
+      "pair_index_one_based": 125,
+      "old_row": {
+        "source_reference": "Psalms 146:1",
+        "target": "Psalms 134:3",
+        "relationship": "Goodness and beauty in the summons to praise",
+        "rationale": "Psalm 146 commends praise because a psalm is good and asks that praise please God; Psalm 134 commands praise because the Lord is good and music because His name is beautiful. The differing subjects of good are preserved."
+      },
+      "proposed_new_row": {
+        "source_reference": "Psalms 146:1",
+        "target": "Psalms 134:3",
+        "relationship": "A praise summons with differing goodness clauses",
+        "rationale": "Both summon praise of the Lord and follow it with a goodness clause. Psalm 146 calls a psalm good and asks that praise please God; Psalm 134 calls the Lord good and commands music to His name, adding “for it is beautiful.” The repeated form is compared without equating the subjects of good or resolving the final it."
+      },
+      "reason": "Keep the particular repeated praise-and-reason form while preserving different goodness predicates and the supplied final pronoun."
+    }
+  ],
+  "candidate_changes": [
+    {
+      "old_case": {
+        "source_reference": "Psalms 141:1",
+        "target": "1 Samuel 24:4",
+        "relationship": "Proposed identification of David’s cave occasion",
+        "rationale": "The psalm heading names a cave but no location or pursuer. Samuel records David in the En-gedi cave and also records the Adullam cave in 22:1. This target does not uniquely establish the heading’s occasion.",
+        "reason": "The psalm heading names a cave but no location or pursuer. Samuel records David in the En-gedi cave and also records the Adullam cave in 22:1. This target does not uniquely establish the heading’s occasion.",
+        "source_and_target_text_read": true,
+        "necessary_context_read": true,
+        "identity_resolved": false,
+        "retained": false,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0
+      },
+      "proposed_new_case": {
+        "source_reference": "Psalms 141:1",
+        "target": "1 Samuel 24:4",
+        "relationship": "Proposed identification of David’s cave occasion",
+        "rationale": "The psalm heading names a cave but no location or pursuer. The account in 1 Samuel records David in the En-gedi cave and also records the Adullam cave in 22:1. This target does not uniquely establish the heading’s occasion.",
+        "reason": "The psalm heading names a cave but no location or pursuer. The account in 1 Samuel records David in the En-gedi cave and also records the Adullam cave in 22:1. This target does not uniquely establish the heading’s occasion.",
+        "source_and_target_text_read": true,
+        "necessary_context_read": true,
+        "identity_resolved": false,
+        "retained": false,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0
+      },
+      "reason": "Identify the book account without implying personal narrative authorship by Samuel."
+    }
+  ],
+  "required_removals": [],
+  "proposed_membership_changes": []
+}

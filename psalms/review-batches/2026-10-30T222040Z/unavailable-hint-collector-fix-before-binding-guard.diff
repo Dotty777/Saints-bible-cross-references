@@ -1,0 +1,38 @@
+--- audit-common-before-unavailable-hint-fix.py
++++ audit-common.py
+@@ -26,9 +26,10 @@
+  return paths
+ 
+ def unavailable_hint_target(hint):
+- target=hint.get('target',hint.get('unavailable_reference_text'))
++ locators=[hint[k] for k in ['target','unavailable_reference_text','target_hint'] if k in hint]
++ target=locators[0] if locators else None
+  require(isinstance(target,str) and bool(target.strip()),'Unavailable target locator missing')
+- if 'target' in hint and 'unavailable_reference_text' in hint:require(hint['target']==hint['unavailable_reference_text'],'Conflicting unavailable locators')
++ require(all(value==target for value in locators),'Conflicting unavailable locators')
+  return target
+ 
+ def unavailable_hint_groups(authors,packets):
+@@ -39,6 +40,10 @@
+   return load(path),{'file':name,'sha256':expected}
+  for stem,author in authors.items():
+   hints=deepcopy(author.get('unavailable_locator_hints',[])+author.get('unavailable_target_hints',[]));proof=[]
++  if 'unavailable_reference_hints_file' in author:
++   bundle,binding=bound_json(author,'unavailable_reference_hints_file')
++   require(isinstance(bundle,list) and bundle==author.get('unavailable_reference_hints'),'Direct unavailable hint list differs from its bound original')
++   hints.extend(deepcopy(bundle));proof.append(binding)
+   # B preserves absent native-unit locators in its hash-bound reading attestation.
+   if 'reading_attestation_file' in author:
+    attestation,attestation_binding=bound_json(author,'reading_attestation_file')
+@@ -51,9 +56,10 @@
+   for hint in hints:
+    require(hint['source_reference'] in packets[stem]['cohort'],'Unavailable hint source outside reviewed packet')
+    pair=(hint['source_reference'],unavailable_hint_target(hint));require(pair not in seen,'Duplicate unavailable hint');seen.add(pair)
+-   readflags=[hint[k] for k in ['target_passage_read','target_text_read','source_and_target_body_read'] if k in hint]
++   readflags=[hint[k] for k in ['target_passage_read','target_text_read','source_and_target_body_read','target_body_read'] if k in hint]
+    require(bool(readflags) and all(v is False for v in readflags),'Unavailable target incorrectly marked read')
+    if 'source_and_target_body_read' in hint:require(hint.get('body_available_in_exact_inventory') is False,'Combined unread flag lacks explicit absent-body evidence')
++   if 'target_body_read' in hint:require(hint.get('target_body_available_in_current_reference_cache') is False and hint.get('status')=='unread_locator_only' and hint.get('read_candidate_credit')==0,'Cache-only unread hint incorrectly marked available, read or credited')
+    require(hint['completed_source_credit']==hint['completed_pair_credit']==0 and hint.get('retained',False) is False and hint.get('identity_resolved',False) is False,'Unavailable hint incorrectly credited or resolved')
+    require(not hint.get('target_verses') and not hint.get('target_text'),'Unavailable target body fabricated')
+    require(all(pair!=(r['source_reference'],r['target']) for r in packets[stem]['rows']+packets[stem]['candidates']),'Unavailable hint counted as a retained pair or read candidate')

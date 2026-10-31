@@ -1,0 +1,710 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-30T222040Z",
+  "review_base": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "publication_parent": "0bed9c182097eb0e681d4b49e09a3de2b814ab98",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "prepared_at_utc": "2026-10-30T23:35:08.866402+00:00",
+  "review_receipts_and_review_baselines_unchanged": true,
+  "completion_credit": 0,
+  "semantic_review_credit": 0,
+  "repository_mutations": 0,
+  "new_testament_tracker_executed": false,
+  "all_preexisting_paths_except_three_root_metadata_files_byte_identical": true,
+  "unchanged_preexisting_path_count": 4164,
+  "changed_existing_paths": [
+    "README.md",
+    "canon.json",
+    "progress.json"
+  ],
+  "added_paths": [
+    "new-testament/README.md",
+    "new-testament/matthew/Matthew.html",
+    "new-testament/matthew/Matthew.txt",
+    "new-testament/matthew/README.md",
+    "new-testament/matthew/RESTORE.md",
+    "new-testament/matthew/editorial-notes.json",
+    "new-testament/matthew/inventory.json",
+    "new-testament/matthew/source-checks.json",
+    "new-testament/matthew/verification.json",
+    "new-testament/matthew/verses.json",
+    "new-testament/progress.json",
+    "new-testament/review-batches/2026-10-30T224159Z.json",
+    "new-testament/review-batches/2026-10-30T224159Z/matthew-1-2-review.json",
+    "new-testament/review-batches/2026-10-30T224159Z/matthew-3-4-review.json",
+    "new-testament/review-batches/2026-10-30T224159Z/matthew-5-7-review.json",
+    "new-testament/review-batches/2026-10-30T224159Z/peer-1-2.json",
+    "new-testament/review-batches/2026-10-30T224159Z/peer-3-4.json",
+    "new-testament/review-batches/2026-10-30T224159Z/peer-5-7.json",
+    "new-testament/review-batches/2026-10-30T231801Z.json",
+    "new-testament/review-batches/2026-10-30T231801Z/matthew-13-17-review.json",
+    "new-testament/review-batches/2026-10-30T231801Z/matthew-18-22-review.json",
+    "new-testament/review-batches/2026-10-30T231801Z/matthew-8-12-review.json",
+    "new-testament/review-batches/2026-10-30T231801Z/peer-13-17.json",
+    "new-testament/review-batches/2026-10-30T231801Z/peer-18-22.json",
+    "new-testament/review-batches/2026-10-30T231801Z/peer-8-12.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-chronicles.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-corinthians.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-john.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-peter.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-samuel.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-kings.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-samuel.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/colossians.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/daniel.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/deuteronomy.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/exodus.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/galatians.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/genesis.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/hebrews.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/hosea.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/isaiah.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/james.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jeremiah.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/job.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jonah.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/leviticus.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/malachi.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/mark.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/micah.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/numbers.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/philippians.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/proverbs.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/psalms.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/romans.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ruth.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/sirach.json",
+    "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/zechariah.json",
+    "new-testament/source-snapshots/manifest.json",
+    "scripts/render_new_testament.py",
+    "scripts/validate_new_testament.py"
+  ],
+  "complete_concurrent_objects": [
+    {
+      "path": "README.md",
+      "git_blob": "4cd453e4af16eb3c0071377af0028c17bd34ce38",
+      "raw_sha256": "2673e404b2bf6f3e9169b41e0c8f2bcec0afaf062ef5b38045d6ba976732a2b9",
+      "bytes": 10005,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    },
+    {
+      "path": "canon.json",
+      "git_blob": "2cb7ad181c0bcb03999c45240f2d34b2c8b81372",
+      "raw_sha256": "f6e7c8fc5cb17cc4f59906b5dc7ecd39816d18e10da5e7285d1f3ce140d94a6f",
+      "bytes": 23450,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/README.md",
+      "git_blob": "49209bdb85b2625b46817e831954c52a8909fdcd",
+      "raw_sha256": "f8a5f96abe04af8c23331d942030f10c06ce234aa2ea625afcef781be8c7573d",
+      "bytes": 3696,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    },
+    {
+      "path": "new-testament/matthew/Matthew.html",
+      "git_blob": "0571b8ec76bf28d93a877fed0ae43164dfa52ebd",
+      "raw_sha256": "d7c5aeb534074066b111774c9ecda8598341a8b6027825680f936a65d7979af6",
+      "bytes": 732413,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    },
+    {
+      "path": "new-testament/matthew/Matthew.txt",
+      "git_blob": "6c3a314accc61e901a8d9f68c0a5de2ec339c947",
+      "raw_sha256": "ded79d16a41100fb7932a71181f9aabc8cf2bac26248c2e6bf0f01ece6c0c599",
+      "bytes": 415874,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    },
+    {
+      "path": "new-testament/matthew/README.md",
+      "git_blob": "5fea8a472829b672a1f4e6595c6eaec56001716c",
+      "raw_sha256": "312fd7bc14d6cd2af020b0be35ec65f317ea3022d6baf8cacb60bd7cf07dc4fe",
+      "bytes": 2110,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    },
+    {
+      "path": "new-testament/matthew/RESTORE.md",
+      "git_blob": "706c94203ab7fa80a85a96ac8952704688a4d01d",
+      "raw_sha256": "9f1fb2dc04701fc750bffa41d66f64707e7550429c9fe00d80b93f5f2522bad4",
+      "bytes": 1805,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    },
+    {
+      "path": "new-testament/matthew/editorial-notes.json",
+      "git_blob": "4aaed0d62bacf1f6989344c09f5ec4badb0f57a5",
+      "raw_sha256": "4cc687ebb6279ad3efbf6870c34a77d39b4492cc7350cc8f06dc0e466c5af2a4",
+      "bytes": 9501,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/matthew/inventory.json",
+      "git_blob": "a6052a28a805725afab8ed0c10d5f5f367775829",
+      "raw_sha256": "5682398514ace7e0441bcde06e449b738d959641f47a0cf86043115458c6ef50",
+      "bytes": 326893,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/matthew/source-checks.json",
+      "git_blob": "cb4fecac542f0bbe1dd899f880f3a147effb337a",
+      "raw_sha256": "02c4e08daf3bda42f5fdd39abb35d27a32c3e914ecfde91392de906fb4a4fdd8",
+      "bytes": 32424,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/matthew/verification.json",
+      "git_blob": "b58a5cf230446a96f5591e50e34e59a552533f07",
+      "raw_sha256": "09aa90192a50557703269a01a7f6c904e5ea56b3f6859f79371676798f171ece",
+      "bytes": 4039,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/matthew/verses.json",
+      "git_blob": "c1b4c9a69395fe9cef3a7ff0edf079a2935866c8",
+      "raw_sha256": "b56c6a89433c2f6c670d62b19b8903c01b237d6f34abf2122d93720c5d821779",
+      "bytes": 2364643,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/progress.json",
+      "git_blob": "50af3cbf2457d25edacce4a997f5dfa42dff11eb",
+      "raw_sha256": "45c1c86889026f35d614fc1b6931c878b940aa5ef9c1996210b4831add4136e4",
+      "bytes": 49799,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T224159Z.json",
+      "git_blob": "9c12ede7e21966e652212f68954c53e6fd330dd0",
+      "raw_sha256": "24c0d1d0302dd51ab059a602fb30364ad4e3cfe8b254d224a4c24405b18aeaa1",
+      "bytes": 9718,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T224159Z/matthew-1-2-review.json",
+      "git_blob": "c50c93dd685b3a9fda9de2cce26b31632ad4fb6e",
+      "raw_sha256": "d1120e4c4680944cbe049e7d684def54951b5bd29b0d5bfa1f7ce26032694ded",
+      "bytes": 28466,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T224159Z/matthew-3-4-review.json",
+      "git_blob": "ac9a9c644b8226707bef456bf387af6949d72097",
+      "raw_sha256": "174e8461df02140dcc03f282bc98973dbb087fbb9fd6bf88d7a633ff98ed0813",
+      "bytes": 22978,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T224159Z/matthew-5-7-review.json",
+      "git_blob": "ce7495dbeec9d9e9385029a81d7ba285018a6b08",
+      "raw_sha256": "e96713a2fcba3c162941f08a9da4096688be0dd420ccd3864b8bfb5f0eb69455",
+      "bytes": 45602,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T224159Z/peer-1-2.json",
+      "git_blob": "bef862ccaa4d7e697541be61450bfeb406742799",
+      "raw_sha256": "eaa7b0fec49f0e5de9a8bd01c8a7ba060e913320f9c55faf3f095c4644210acd",
+      "bytes": 2456,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T224159Z/peer-3-4.json",
+      "git_blob": "c7a7abda7864caa0ab4402c25069268fb3cce08e",
+      "raw_sha256": "5fe7b5d8b19ec81eca4c7728495e2c886e26d5e7eb9aa15cb42e4f17c86c21e1",
+      "bytes": 1229,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T224159Z/peer-5-7.json",
+      "git_blob": "55b470518ec046b5c4bc06e81cb27a0736473c1a",
+      "raw_sha256": "73325309a0faea749f39fdc64aa339fb92daaefcc6dd7c19bb52cc0e9d76408d",
+      "bytes": 2896,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T231801Z.json",
+      "git_blob": "386ef734cc27f53c2c267326e63944916a756348",
+      "raw_sha256": "cf01d39f2a826483893778b4dca55fa50e542460be3927229a9c0dc27f7f0380",
+      "bytes": 20994,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T231801Z/matthew-13-17-review.json",
+      "git_blob": "5de6b66a015b7b9259be77c270f3128eb2600a64",
+      "raw_sha256": "0cf5821bca9643afc2db8f6105b7eb7893583225ab469505988502fd3eccc077",
+      "bytes": 68854,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T231801Z/matthew-18-22-review.json",
+      "git_blob": "cb02720a710d14609049f6b0627afad19539d190",
+      "raw_sha256": "714245fb8d64b55b2e05b7ec7c5f772a015c6ae70a1a082eeea6dab51025362c",
+      "bytes": 69395,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T231801Z/matthew-8-12-review.json",
+      "git_blob": "839d84e762908312e0f506b07b1446c0b64ad7c8",
+      "raw_sha256": "567452bb8ce3307d1ece743e1b98d7620faadb8243467616aae1a834cae66c89",
+      "bytes": 77202,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T231801Z/peer-13-17.json",
+      "git_blob": "29ccb7f0436ad930bd4148897b076331792c1a0a",
+      "raw_sha256": "5846af3e1291a7b884624766e0ea5068ef27fe50d8ccd278cbdb070528c307a5",
+      "bytes": 1924,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T231801Z/peer-18-22.json",
+      "git_blob": "05df27d63a4e2e2b83eca2bfe77ca9cd34a16795",
+      "raw_sha256": "e50937c89ce4c25ebb336a8c85069f496ad8794de70032660cf3b18b5cdb14e8",
+      "bytes": 2912,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/review-batches/2026-10-30T231801Z/peer-8-12.json",
+      "git_blob": "bb6eeff60a4db4b3224701ccf2cb3faacd758fac",
+      "raw_sha256": "95ad49b26493f2720858ffb207a09052442e8ddf6aaf779174e6b5132b2f3a1e",
+      "bytes": 2049,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-chronicles.json",
+      "git_blob": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+      "raw_sha256": "2f3b41f3542698e2808137f822d03f704f8fc1dff5d4ced8cee815289c2ef730",
+      "bytes": 333264,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-corinthians.json",
+      "git_blob": "5b11184ef872b9480dc4a1e7b63b078173f85545",
+      "raw_sha256": "0137d56de15cae418bd683e86957dae74075a08822426646364cba9d7e84e66e",
+      "bytes": 162936,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-john.json",
+      "git_blob": "d5165122b8928b87c7fc9b31f9e9d1249e6b44c7",
+      "raw_sha256": "dee1f216d5ef58b7c8bbb7cd718e3ac42bde3e3beac8f44eadbb8be338c1e5de",
+      "bytes": 41656,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-peter.json",
+      "git_blob": "24498c091c777535f4a4069f62d6844c31fccc53",
+      "raw_sha256": "8b158288ed07b40a6d71c6b0703cc86653d94b030afc628fbde73c5c1c226ac3",
+      "bytes": 42060,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-samuel.json",
+      "git_blob": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+      "raw_sha256": "52131d84212a485c87b530dec1c51481423dc2ff82e54f2cd90f00e5750ad30b",
+      "bytes": 345760,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-kings.json",
+      "git_blob": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+      "raw_sha256": "b4a8fe8bda1a8decb3addb817883f90d1539ee50f1a91dd44d5d5a20c02344c7",
+      "bytes": 327986,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-samuel.json",
+      "git_blob": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+      "raw_sha256": "2bad7ab804a4d19978d9973b070f85343705c6476264bbec7dd72f5ae8023cc0",
+      "bytes": 304341,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json",
+      "git_blob": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+      "raw_sha256": "73d11416650576a1e20be7d286e5053236f0668e559eedb4fece9ab44b6ee257",
+      "bytes": 382380,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/colossians.json",
+      "git_blob": "5e135d4d842ec8c19239abac374b1cbb547e0844",
+      "raw_sha256": "fa78e6e4fc92d0e1977b029295cc7a01072cb23482c8b340b752396de9beb463",
+      "bytes": 35980,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/daniel.json",
+      "git_blob": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+      "raw_sha256": "41fe27c56d5c0a23e4e970d7beb9376fdb8a55c16721aea1a1cc1b6ac23fe3f8",
+      "bytes": 222528,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/deuteronomy.json",
+      "git_blob": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+      "raw_sha256": "a569a71dacce92f9e966f102723956acd742cbbd0ca4a32741c37544ca81bbcd",
+      "bytes": 243585,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes.json",
+      "git_blob": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+      "raw_sha256": "ce7e9557345e71da9a5f5e95e31cc78453b9bbe917ff90ac0dee03d7a5ce6fd9",
+      "bytes": 88938,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/exodus.json",
+      "git_blob": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+      "raw_sha256": "a52942229abc202d2f6ce2cfff22fe0229d56499e0b94cfff5f53d06fb815bb0",
+      "bytes": 331143,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/galatians.json",
+      "git_blob": "1f559ceb0168206d5a0c1994096b5ebfb50897b5",
+      "raw_sha256": "94cc20c0ce9a41fff544b85ccdc183bb7f710f3e0691d6f7d59397ac597c3c65",
+      "bytes": 54962,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/genesis.json",
+      "git_blob": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+      "raw_sha256": "cacb8a9104b71044876467c31ab90908c350d4238c033cc56239a831e518182e",
+      "bytes": 435355,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/hebrews.json",
+      "git_blob": "ef5225f1d2cc46c2a9410deb516ebf688aaa2bb6",
+      "raw_sha256": "6550dc6926a500969383062d551581541d87ece393bf8445bf843962572382c8",
+      "bytes": 118222,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/hosea.json",
+      "git_blob": "c7b17f6519ad7ae6908d75a6d4230b02fbf7f278",
+      "raw_sha256": "0988f211e0e4e263b247df574a533209ae66cc144dd590a96eefec72daf51b73",
+      "bytes": 83111,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/isaiah.json",
+      "git_blob": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+      "raw_sha256": "11c89cfbb50f986fca50889e79af063c51bb8926f5221e43c3faa13f17de0da8",
+      "bytes": 543459,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/james.json",
+      "git_blob": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02",
+      "raw_sha256": "129c4faba06f92c1e92f02f60da683971a06c093469f0d7a4fb3fe275a676052",
+      "bytes": 40306,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jeremiah.json",
+      "git_blob": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+      "raw_sha256": "34b7b32e065476f8a314b2b95eb0dd452e25c64cc4c19112aa5098d3b63b97bf",
+      "bytes": 548695,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/job.json",
+      "git_blob": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+      "raw_sha256": "f1bdc648c4b1e5355c4f4518f33c52762ba228635cb0fc726d9e228a30a910e3",
+      "bytes": 342165,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json",
+      "git_blob": "23685e2856ebeab2347c058309fecd009cc11fee",
+      "raw_sha256": "44504ae87e2e2a48a4702d0ff3d4db3a3074a2f7c7421251d6f67cd490665486",
+      "bytes": 318374,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/jonah.json",
+      "git_blob": "b2f33077a19167cd7c2c8cdb48562b942ce91380",
+      "raw_sha256": "7e7485d556b7aa1b3cc4e181c6e75cba2ef5b6ef39add2c7e6c89323299ea75c",
+      "bytes": 20495,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/leviticus.json",
+      "git_blob": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+      "raw_sha256": "2d722c4a93a5cf0ec08162ec4919e410bdea584058f2cabb38201fd7c068a2ca",
+      "bytes": 192188,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json",
+      "git_blob": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+      "raw_sha256": "a5fed69aded97311d5d39cc09251cb43890307ea31cae6a885f63748df9d5854",
+      "bytes": 412477,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/malachi.json",
+      "git_blob": "a7fd092b220b6da8c5525e04c56db3a59786782e",
+      "raw_sha256": "d29d04b2a258ab9edd05e722dd723fc5b00c3e73c72484adcfbd701f19c7f464",
+      "bytes": 27867,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/mark.json",
+      "git_blob": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+      "raw_sha256": "54d809f3d67b1c0dc45f0c1cd2d7b0278d02746a788a31d0d7dfa9a7fa6caa2e",
+      "bytes": 239798,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json",
+      "git_blob": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+      "raw_sha256": "ea0d2221e8189bf0afe5b6e607de8534a62138e8e1a5b71350a8ef2e7a400d90",
+      "bytes": 385647,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/micah.json",
+      "git_blob": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5",
+      "raw_sha256": "7865b16d1dc1c4f8c6092298d6cd7ac22b15c3ddf6d51c29e3044f50f13d4672",
+      "bytes": 47995,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/numbers.json",
+      "git_blob": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+      "raw_sha256": "5e1297f0960ee3272843a2eff90f72909365418012f2dcfeb44127a1be6bef1d",
+      "bytes": 294372,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/philippians.json",
+      "git_blob": "857ac6ac373fe776be75108013ca105fc5bd7d7f",
+      "raw_sha256": "f7942d11ed8764d08799361d7be7aa6aed30a2c02cc95efe69f5760df106ba4e",
+      "bytes": 39032,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/proverbs.json",
+      "git_blob": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+      "raw_sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c",
+      "bytes": 311280,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/psalms.json",
+      "git_blob": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+      "raw_sha256": "f82aa612c9363b49061118a475c2f64cf7597887a7ffe209cb5541356ec70afe",
+      "bytes": 828656,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/romans.json",
+      "git_blob": "a45f675eb0d5f33d2fa7109592231947b7891d55",
+      "raw_sha256": "73fb294d9f62d20a7f06bd8b453846223c91519cd6126982ec2421efedcf295f",
+      "bytes": 160867,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/ruth.json",
+      "git_blob": "25d7b5626a802494e87f0b5413aecb82b2428e18",
+      "raw_sha256": "539a006ecb648bcca7542ea3596f1ef2a3ba7acb2e7d094fa1a32b92f6f879d9",
+      "bytes": 22681,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/sirach.json",
+      "git_blob": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+      "raw_sha256": "8b53aaab1ea06f1660535a0ee5902eabf29fcdf4e4de97cf052525430f0a3efd",
+      "bytes": 480528,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/328967336f32958587835c921fea3b96a5bf6494/zechariah.json",
+      "git_blob": "16228318100b747c05311caeb18f15f5f378c765",
+      "raw_sha256": "d57fdae9f1c79aff5b7eefd79e798681bb026d0634bee2f71623f587275d4aa3",
+      "bytes": 93307,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "new-testament/source-snapshots/manifest.json",
+      "git_blob": "b367db1ddc0b969f9edb9e3c6913bfaca7a0441c",
+      "raw_sha256": "09cb8e457856d24209034e5d34c13aa9ad150b1294000506235ddc4aa87489f5",
+      "bytes": 21228,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "progress.json",
+      "git_blob": "3a718b5fbab73b3e47b05e8bd0646facdeef6e67",
+      "raw_sha256": "9ff0f0cb3ae719f3997551462cc88ea9121def4ba5dc60c5c515e6ab0b007838",
+      "bytes": 115171,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": true
+    },
+    {
+      "path": "scripts/render_new_testament.py",
+      "git_blob": "4fae32330d082898ce17299750c35aff14a0cdfd",
+      "raw_sha256": "a597a47d2a654229f2bb6323adf33d0bc2d535c4ac8a4e9bd53740b189b24cd1",
+      "bytes": 11132,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    },
+    {
+      "path": "scripts/validate_new_testament.py",
+      "git_blob": "295529d648f2e9d6182a55f3f116e782377ac5a1",
+      "raw_sha256": "51a19acd6958dc063e89e7814fd0c1e14805ba67f011dfde242b7884ff4eb430",
+      "bytes": 23291,
+      "complete_git_blob_read": true,
+      "complete_json_parsed": false
+    }
+  ],
+  "complete_concurrent_json_objects_parsed": 60,
+  "preserved_nt_tree_git_sha": "611de94a97e8dc65ab1f4cb406b0dfb13d6df19a",
+  "root_snapshots": [
+    {
+      "path": "README.md",
+      "snapshot_file": "publication-parent2-README.md",
+      "snapshot_sha256": "2673e404b2bf6f3e9169b41e0c8f2bcec0afaf062ef5b38045d6ba976732a2b9",
+      "git_blob": "4cd453e4af16eb3c0071377af0028c17bd34ce38"
+    },
+    {
+      "path": "canon.json",
+      "snapshot_file": "publication-parent2-canon.json",
+      "snapshot_sha256": "f6e7c8fc5cb17cc4f59906b5dc7ecd39816d18e10da5e7285d1f3ce140d94a6f",
+      "git_blob": "2cb7ad181c0bcb03999c45240f2d34b2c8b81372"
+    },
+    {
+      "path": "progress.json",
+      "snapshot_file": "publication-parent2-progress.json",
+      "snapshot_sha256": "9ff0f0cb3ae719f3997551462cc88ea9121def4ba5dc60c5c515e6ab0b007838",
+      "git_blob": "3a718b5fbab73b3e47b05e8bd0646facdeef6e67"
+    }
+  ],
+  "new_testament_root_pointer": {
+    "records": "new-testament/",
+    "progress": "new-testament/progress.json",
+    "testament": "New Testament",
+    "source_book_count": 27,
+    "canonical_orders": [
+      44,
+      70
+    ],
+    "completed_source_verses": 743,
+    "completed_cross_references": 774,
+    "next": {
+      "book": "Matthew",
+      "chapter": 1,
+      "reference": "Matthew 1:14",
+      "source_id": "v1-14"
+    },
+    "next_unreviewed": {
+      "book": "Matthew",
+      "chapter": 23,
+      "reference": "Matthew 23:1",
+      "source_id": "v23-1"
+    },
+    "updated": "2026-10-30",
+    "target_per_hour": 500,
+    "target_unit": "newly_completed_distinct_source_verses",
+    "latest_target_result": {
+      "run_id": "2026-10-30T231801Z",
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 548,
+      "target_met": true,
+      "target_shortfall": 0,
+      "target_excess": 48
+    }
+  },
+  "root_canon_metadata_changes": {
+    "review_scope": {
+      "before": "The current task reviews Old Testament source books only, in orders 1-43. Matching targets may come from any of these 70 books when actual passage evidence is available.",
+      "after": "Separate source-review tracks: Old Testament orders 1–43 in root progress.json; New Testament orders 44–70 in new-testament/progress.json. Both use exactly these 70 books, order and divisions; targets may use any member when actual passage evidence is available."
+    },
+    "updated": {
+      "before": "2026-10-28",
+      "after": "2026-10-30"
+    }
+  },
+  "readme_preserved_block_file": "publication-parent2-nt-link-block.md",
+  "readme_preserved_block_sha256": "90521adffe9d83a30face0266de006680b2f8921bb4019c0b833aa4fbb45f5e1",
+  "preservation_boundary": "No new-testament path or either separate NT script is an integration output. Canon remains the exact publication-parent blob. Root progress changes only the authorized OT fields, preserving every other parent field, including new_testament_tracker. The renderer must retain the exact NT link block text.",
+  "manual_code_inspection_paths": [
+    "scripts/render_new_testament.py",
+    "scripts/validate_new_testament.py"
+  ],
+  "readme_preserved_coverage_file": "publication-parent2-nt-coverage-sentence.md",
+  "readme_preserved_coverage_sha256": "ee9256cd694747f30a1ab71030f7aaed9bf677d45e847fa051a8af0674a74be6"
+}

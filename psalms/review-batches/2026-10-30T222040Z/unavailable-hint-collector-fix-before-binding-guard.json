@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "baseline_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "checked_at_utc": "2026-10-30T23:08:22.798901+00:00",
+  "result": "passed",
+  "completion_credit": 0,
+  "repository_mutations": 0,
+  "preserved_helper_file": "audit-common-before-unavailable-hint-fix.py",
+  "preserved_helper_sha256": "670dcea2346ec116f8cc6ce93af25c704dd6fafeb0e9ca3695c41c4f57946adb",
+  "final_helper_file": "audit-common.py",
+  "final_helper_sha256": "64493f474381d95c4056e4b656b014d7a795f299ba31f68fdeb3948c558f7348",
+  "preserved_adapter_receipt_file": "psalms-proverbs-adapter-receipt-before-unavailable-hint-fix.json",
+  "preserved_adapter_receipt_sha256": "62adbedaec29268f6e922ad9aa243b8c4f8ac1d9db0cf3cda6cbc6af8348b673",
+  "final_adapter_receipt_file": "psalms-proverbs-adapter-receipt.json",
+  "final_adapter_receipt_sha256": "3394a1bf7f0592ec90d7111aa48e7e1058475bd4ddb896a798925deceb823481",
+  "exact_diff_file": "unavailable-hint-collector-fix.diff",
+  "exact_diff_sha256": "1efd861a56a5c5d75b480ea147e099ce7cdbee08fd89decbb5d8d7827a685ca7",
+  "original_hint_records_unchanged": true,
+  "cache_unavailability_not_repository_absence": true,
+  "original_hint_file": "psalms-119-135-unavailable-reference-hints.json",
+  "original_hint_sha256": "0a4c59f21c2e89d9ff1a7a6f3cc24917cd56ec5a7c49fe83000befa2596142d4",
+  "negative_checks_passed": [
+    "Wrong direct bundle hash",
+    "Inline list differs from immutable bound list",
+    "Reject target_body_read=True",
+    "Reject target_body_available_in_current_reference_cache=True",
+    "Reject completed_pair_credit=1",
+    "Reject read_candidate_credit=1",
+    "Reject retained=True",
+    "Conflicting locator aliases"
+  ],
+  "no_semantic_receipt_or_membership_changes": true
+}

@@ -1,0 +1,224 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "baseline_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "prepared_by": "Codex AI technical adapter /root/macc13_16_author",
+  "checked_at_utc": "2026-10-30T23:08:10.496464+00:00",
+  "result": "passed",
+  "completion_credit": 0,
+  "repository_mutations": 0,
+  "integration_or_apply_executed": false,
+  "semantic_reading_credit": 0,
+  "prior_helper_snapshots": [
+    {
+      "file": "adapter-input-integrate.py",
+      "sha256": "4d183139713560573704f3f2a0e434c06cf71459ec2558679bc409c46d4f915d",
+      "origin": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-30-1656\\integrate.py"
+    },
+    {
+      "file": "adapter-input-preservation-audit.py",
+      "sha256": "4c62bb31ac4349f1bb9622b3013216a79f09a8af3875bd70fc5a8b1f06e8ae20",
+      "origin": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-30-1656\\preservation-audit.py"
+    },
+    {
+      "file": "adapter-input-audit-common.py",
+      "sha256": "55f4fae2a6c2f301138c52a2797466a3adc129fa5b6fab82a676b4d2367d799a",
+      "origin": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-30-1656\\audit-common.py"
+    },
+    {
+      "file": "adapter-input-prepare-readback.py",
+      "sha256": "2686d6839a69c804df67071b014371600b770424674dc68d592522af5774dd25",
+      "origin": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-30-1656\\prepare-readback.py"
+    },
+    {
+      "file": "adapter-input-finalize-reviews.py",
+      "sha256": "56f0f00bc6b7f29845f533db5507f6e67bfaa0a294f86cbbbbbf733f21e9f7c6",
+      "origin": "C:\\Users\\penna\\Documents\\Codex\\2026-10-28\\new-chat\\work\\hourly-2026-10-30-1656\\finalize-reviews.py"
+    }
+  ],
+  "final_helpers": [
+    {
+      "file": "integrate.py",
+      "sha256": "2460b8c25e345845b3084d920845628b3893a12fe17e57056872729f1dba7d82"
+    },
+    {
+      "file": "preservation-audit.py",
+      "sha256": "525d1c0fd9d792e44a288f91f5de776121cdcd36c5335b5f7b72c2bc26ef6082"
+    },
+    {
+      "file": "audit-common.py",
+      "sha256": "64493f474381d95c4056e4b656b014d7a795f299ba31f68fdeb3948c558f7348"
+    },
+    {
+      "file": "prepare-readback.py",
+      "sha256": "d777981ab6a8b79ffa4acee77336369bb77e76f83a2b375e0ac7ca0b3756eb1f"
+    },
+    {
+      "file": "finalize-reviews.py",
+      "sha256": "7e287f8d01f605a46c38106361fef7f53f68f919599aea1506b2ee15ae00ed7d"
+    },
+    {
+      "file": "run_support.py",
+      "sha256": "23a78af3c61e37f8ce7e2d82868e757a3d897a729a714d9c473bb6169c72d6ed"
+    }
+  ],
+  "adapter_diff_file": "psalms-proverbs-adapter.diff",
+  "adapter_diff_sha256": "8b9028cf722b41f81b4e2d4379ce05e2b88292ade68c86d75ace956a2c52fec2",
+  "source_scope": {
+    "Psalms": {
+      "first_reference": "Psalms 118:1",
+      "last_reference": "Psalms 151:7",
+      "source_units": 512
+    },
+    "Proverbs": {
+      "first_reference": "Proverbs 1:1",
+      "last_reference": "Proverbs 4:27b",
+      "source_units": 120
+    }
+  },
+  "first_reviewed_source_units": 632,
+  "revisited_source_units": 0,
+  "baseline_preserved": {
+    "sources": 16129,
+    "pairs": 20852,
+    "chapters": 420,
+    "runs": 37,
+    "source_deferrals": 1313,
+    "read_candidates": 285,
+    "psalms_sources": 1733,
+    "psalms_pairs": 1826,
+    "psalms_source_deferrals": 289,
+    "psalms_read_candidates": 79
+  },
+  "new_inventory": {
+    "book": "Proverbs",
+    "source_units": 939,
+    "chapters": 31,
+    "total_source_sections": 34,
+    "source_blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+    "completion_credit": 0
+  },
+  "production_contract_file": "chapter-structure-change-contract.json",
+  "production_contract_sha256": "0851e38f9b9d3e711ea8bc45365d9b0fd167e95d5e054dad50902b9889c3cac3",
+  "production_and_inventory_dependencies": [
+    {
+      "original_file": "before-proverbs.json",
+      "archive_file": "before-proverbs.json",
+      "sha256": "a991dce04e2537a1db6e061ea52c91db1de628309622d89352f81ad14c4bb74d"
+    },
+    {
+      "original_file": "chapter-structure-change-contract-initial.json",
+      "archive_file": "chapter-structure-change-contract-initial.json",
+      "sha256": "9c592a78946777cd810921e23db36e399410463eef07b3d1d3e66cd3dc551763"
+    },
+    {
+      "original_file": "chapter-structure-change-contract.json",
+      "archive_file": "chapter-structure-change-contract.json",
+      "sha256": "0851e38f9b9d3e711ea8bc45365d9b0fd167e95d5e054dad50902b9889c3cac3"
+    },
+    {
+      "original_file": "chapter-structure-independent-amendment-check.json",
+      "archive_file": "chapter-structure-independent-amendment-check.json",
+      "sha256": "19ec0898e619497f9939af57a7d93c0f42511aad5a2d1eddab72e9a063f6f819"
+    },
+    {
+      "original_file": "chapter-structure-independent-final-audit.json",
+      "archive_file": "chapter-structure-independent-final-audit.json",
+      "sha256": "f1eab2c1a5cfbd4612b1f480fbb3ecce5a807731668ca5198b2d09d8a1242bf7"
+    },
+    {
+      "original_file": "inventory-proverbs-receipt.json",
+      "archive_file": "inventory-proverbs-receipt.json",
+      "sha256": "2d7bd364e175bb33de6e20803186419acaa7b947e664cb12e84ab88556611b0b"
+    },
+    {
+      "original_file": "production-changes/scripts/chapter_structure.py",
+      "archive_file": "chapter_structure.py",
+      "sha256": "c9103c70e8e2e182cb57225a476f4bf2129abb127f875cece6d02ef4ec098fd0"
+    },
+    {
+      "original_file": "production-changes/scripts/render_books.py",
+      "archive_file": "render_books.py",
+      "sha256": "2bf0cad432b3d2b1d90de636e5f58ae6cfdcc453d8b4036c5dc406ca48d72177"
+    },
+    {
+      "original_file": "production-changes/scripts/validate.py",
+      "archive_file": "validate.py",
+      "sha256": "8e6d0e7f5bd45097dcabb9b4805b66d32d29e97de0cdaa159b0c791cb2d46dbe"
+    },
+    {
+      "original_file": "production-changes-history/render_books-before-completion-label-fix.py",
+      "archive_file": "render_books-before-completion-label-fix.py",
+      "sha256": "772df49a99fc61b2343657bbf749100e6053c6d323bd7024e69e0c08113df67d"
+    },
+    {
+      "original_file": "proverbs-inventory-check.json",
+      "archive_file": "proverbs-inventory-check.json",
+      "sha256": "2d7bd364e175bb33de6e20803186419acaa7b947e664cb12e84ab88556611b0b"
+    },
+    {
+      "original_file": "proverbs-inventory.json",
+      "archive_file": "proverbs-inventory.json",
+      "sha256": "2f0416c8c9c045e1df6297a57c3531e222eb50946168366e36f1f11d7aff0887"
+    },
+    {
+      "original_file": "proverbs-mcp-source-metadata.json",
+      "archive_file": "proverbs-mcp-source-metadata.json",
+      "sha256": "4e3aaeb3356df356fa8e9256d8b93cfcfae413620e0fa7ab78a247df3061bc3b"
+    },
+    {
+      "original_file": "proverbs-pinned-source-headers.json",
+      "archive_file": "proverbs-pinned-source-headers.json",
+      "sha256": "8f8ce40abf212e3e100a54013a678009758254d99d086140c09202b94b89b8df"
+    },
+    {
+      "original_file": "proverbs-pinned-source.json",
+      "archive_file": "proverbs-pinned-source.json",
+      "sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c"
+    },
+    {
+      "original_file": "proverbs-seed.json",
+      "archive_file": "proverbs-seed.json",
+      "sha256": "a991dce04e2537a1db6e061ea52c91db1de628309622d89352f81ad14c4bb74d"
+    },
+    {
+      "original_file": "psalms-136-151-author-pin-proverbs-headers.json",
+      "archive_file": "psalms-136-151-author-pin-proverbs-headers.json",
+      "sha256": "d638dc1ee90074b03e4880e8091ff7c0397982b8d5e980d1cb3e42f20d6ca204"
+    },
+    {
+      "original_file": "psalms-136-151-author-pin-proverbs.json",
+      "archive_file": "psalms-136-151-author-pin-proverbs.json",
+      "sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c"
+    }
+  ],
+  "durable_transaction_tail_byte_identical": true,
+  "durable_transaction_tail_sha256": "f23f4d096325a90fe4d7f8341c5503171a774b0e48103466a5a34be6115e7822",
+  "required_remote_json_objects": 70,
+  "readback_scope_explanation": "65 book graph/check/inventory JSON objects, canon/progress/root batch, and both current local review batches. Genesis has no inventory.json.",
+  "next_unreviewed": "Proverbs 5:1",
+  "earliest_pending": "1 Chronicles 1:24",
+  "negative_checks_passed": [
+    "Chapter 24: section 24 alone does not complete the native chapter",
+    "Chapter 24: section 26 alone does not complete the native chapter",
+    "Chapter 30: section 25 alone does not complete the native chapter",
+    "Chapter 30: section 27 alone does not complete the native chapter",
+    "Chapter 31: section 28 alone does not complete the native chapter",
+    "Chapter 31: section 34 alone does not complete the native chapter",
+    "Prepared production byte/hash mismatch",
+    "Unrecorded historical dependency hash",
+    "Target header/source blob mismatch",
+    "Target header byte/hash mismatch"
+  ],
+  "positive_checks": [
+    "Six helpers compile",
+    "Complete 939-unit Proverbs seed and every original source object preserved in order",
+    "31 native chapters / 34 source sections and all complete/pending counts",
+    "Three prepared production files match exact baseline and current hashes",
+    "All transitive production/history/inventory raw/header dependencies checked",
+    "All three new target-only header/raw/metadata bindings checked",
+    "70 complete JSON readback paths retain both current local batches",
+    "Default integration remains preflight; explicit apply required",
+    "Durable transaction tail unchanged; repository clean at baseline"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "reviewer": "Codex AI independent technical auditor /root/macc9_12_peer",
+  "checked_at_utc": "2026-10-30T23:03:05.899707+00:00",
+  "reason": "Corrected my preliminary expected publication paths to the inherited required_paths contract: source-checks.json, not editorial-notes.json, and review-batches paths. The count remains 70 and all 106 baseline-byte comparisons are unchanged. No repository or semantic artifacts changed.",
+  "before_receipt_file": "independent-baseline-snapshot-audit-before-path-correction.json",
+  "before_receipt_sha256": "0b7bf8593a359b15eed2807c874e35d24bc7d2f47127a9b309d1ecfd87a9f974",
+  "after_receipt_file": "independent-baseline-snapshot-audit.json",
+  "after_receipt_sha256": "3d6d8276c399f71a60dafac12ecafb00c0851f3f5d14a0daa1b64d42e20ce104",
+  "before_helper_file": "audit-peer-baseline-snapshots-before-path-correction.py",
+  "before_helper_sha256": "cfc02126acadd935f5cce256be09a68ec7b4a597f0e4219054d79e1a6ff2e5d2",
+  "after_helper_file": "audit-peer-baseline-snapshots.py",
+  "after_helper_sha256": "53c61e0a5142c2d19a2921181c125270b33eb22c0881f50daf9662105222e19d",
+  "exact_replacements": [
+    {
+      "before": "'batches/2026-10-30T222040Z.json'",
+      "after": "'review-batches/2026-10-30T222040Z.json'"
+    },
+    {
+      "before": "folder+'/editorial-notes.json'",
+      "after": "folder+'/source-checks.json'"
+    },
+    {
+      "before": "b+'/batches/2026-10-30T222040Z.json'",
+      "after": "b+'/review-batches/2026-10-30T222040Z.json'"
+    },
+    {
+      "before": "assert not p.exists();p.write_text",
+      "after": "assert not p.exists() or sha(p.read_bytes())=='0b7bf8593a359b15eed2807c874e35d24bc7d2f47127a9b309d1ecfd87a9f974';p.write_text"
+    }
+  ],
+  "completion_credit": 0
+}

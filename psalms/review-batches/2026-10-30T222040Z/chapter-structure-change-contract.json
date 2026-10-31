@@ -1,0 +1,44 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "baseline_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "prepared_at_utc": "2026-10-30T22:31:06.970780+00:00",
+  "purpose": "Preserve interleaved original Proverbs sections while combining their target-range lookup and requiring every section of a native chapter before chapter completion. Report31native chapters in34source sections.",
+  "root_worktree_mutated": false,
+  "baseline_books_unchanged_by_chapter_grouping": 21,
+  "split_chapter_partial_completion_rejected": [
+    24,
+    30,
+    31
+  ],
+  "complete_book_chapters": 31,
+  "complete_book_source_sections": 34,
+  "source_unit_order_unchanged": true,
+  "completion_credit": 0,
+  "files": [
+    {
+      "path": "scripts/chapter_structure.py",
+      "prepared_file": "production-changes/scripts/chapter_structure.py",
+      "before_sha256": null,
+      "after_sha256": "c9103c70e8e2e182cb57225a476f4bf2129abb127f875cece6d02ef4ec098fd0"
+    },
+    {
+      "path": "scripts/validate.py",
+      "prepared_file": "production-changes/scripts/validate.py",
+      "before_sha256": "298015f80e359bfba14b93d96d84226a57840834c8ee737e4744c28610e9c240",
+      "after_sha256": "8e6d0e7f5bd45097dcabb9b4805b66d32d29e97de0cdaa159b0c791cb2d46dbe"
+    },
+    {
+      "path": "scripts/render_books.py",
+      "prepared_file": "production-changes/scripts/render_books.py",
+      "before_sha256": "0cc2aac8e0ef9685cc9fc354f4abf331f66f4e74c1a179e63d1243df7be0b9a7",
+      "after_sha256": "2bf0cad432b3d2b1d90de636e5f58ae6cfdcc453d8b4036c5dc406ca48d72177"
+    }
+  ],
+  "amended_at_utc": "2026-10-30T22:42:33.526271+00:00",
+  "amendment_reason": "Independent C audit found that original native chapter insertion order ends with29 when all31 chapters are complete. Display endpoint now uses maximum chapter number, preserving the source sections and completed chapter list unchanged.",
+  "complete_book_display_endpoint": 31,
+  "initial_contract_file": "chapter-structure-change-contract-initial.json",
+  "initial_contract_sha256": "9c592a78946777cd810921e23db36e399410463eef07b3d1d3e66cd3dc551763",
+  "initial_renderer_file": "production-changes-history/render_books-before-completion-label-fix.py",
+  "initial_renderer_sha256": "772df49a99fc61b2343657bbf749100e6053c6d323bd7024e69e0c08113df67d"
+}

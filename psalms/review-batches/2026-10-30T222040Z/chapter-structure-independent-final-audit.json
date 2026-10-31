@@ -1,0 +1,135 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "baseline_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex AI independent technical reviewer /root/macc9_12_peer",
+  "checked_at_utc": "2026-10-30T22:43:05.815436+00:00",
+  "result": "passed",
+  "completion_credit": 0,
+  "source_units_semantically_reviewed_by_this_technical_audit": 0,
+  "repository_mutations": 0,
+  "contract_file": "chapter-structure-change-contract.json",
+  "contract_sha256": "0851e38f9b9d3e711ea8bc45365d9b0fd167e95d5e054dad50902b9889c3cac3",
+  "files": [
+    {
+      "path": "scripts/chapter_structure.py",
+      "prepared_file": "production-changes/scripts/chapter_structure.py",
+      "before_sha256": null,
+      "after_sha256": "c9103c70e8e2e182cb57225a476f4bf2129abb127f875cece6d02ef4ec098fd0"
+    },
+    {
+      "path": "scripts/validate.py",
+      "prepared_file": "production-changes/scripts/validate.py",
+      "before_sha256": "298015f80e359bfba14b93d96d84226a57840834c8ee737e4744c28610e9c240",
+      "after_sha256": "8e6d0e7f5bd45097dcabb9b4805b66d32d29e97de0cdaa159b0c791cb2d46dbe"
+    },
+    {
+      "path": "scripts/render_books.py",
+      "prepared_file": "production-changes/scripts/render_books.py",
+      "before_sha256": "0cc2aac8e0ef9685cc9fc354f4abf331f66f4e74c1a179e63d1243df7be0b9a7",
+      "after_sha256": "2bf0cad432b3d2b1d90de636e5f58ae6cfdcc453d8b4036c5dc406ca48d72177"
+    }
+  ],
+  "independent_proverbs_raw_file": "psalms-136-151-author-pin-proverbs.json",
+  "independent_proverbs_raw_sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c",
+  "independent_proverbs_headers_file": "psalms-136-151-author-pin-proverbs-headers.json",
+  "independent_proverbs_headers_sha256": "d638dc1ee90074b03e4880e8091ff7c0397982b8d5e980d1cb3e42f20d6ca204",
+  "full_source_metadata_and_unit_objects_preserved": true,
+  "source_units": 939,
+  "native_chapters": 31,
+  "source_sections": 34,
+  "alphabetic_continuation_units": 48,
+  "native_chapters_with_numeric_gaps": 10,
+  "all_existing_book_chapter_results_unchanged": [
+    "Genesis",
+    "Exodus",
+    "Leviticus",
+    "Numbers",
+    "Deuteronomy",
+    "Joshua",
+    "Judges",
+    "Ruth",
+    "1 Samuel",
+    "2 Samuel",
+    "1 Kings",
+    "2 Kings",
+    "1 Chronicles",
+    "2 Chronicles",
+    "1 Maccabees",
+    "2 Maccabees",
+    "Ezra",
+    "Nehemiah",
+    "Esther",
+    "Job",
+    "Psalms"
+  ],
+  "partial_completion_checks": [
+    {
+      "chapter": 24,
+      "first_completed_section_index": 0,
+      "partial_and_last_unit_pending_rejected": true
+    },
+    {
+      "chapter": 24,
+      "first_completed_section_index": 1,
+      "partial_and_last_unit_pending_rejected": true
+    },
+    {
+      "chapter": 30,
+      "first_completed_section_index": 0,
+      "partial_and_last_unit_pending_rejected": true
+    },
+    {
+      "chapter": 30,
+      "first_completed_section_index": 1,
+      "partial_and_last_unit_pending_rejected": true
+    },
+    {
+      "chapter": 31,
+      "first_completed_section_index": 0,
+      "partial_and_last_unit_pending_rejected": true
+    },
+    {
+      "chapter": 31,
+      "first_completed_section_index": 1,
+      "partial_and_last_unit_pending_rejected": true
+    }
+  ],
+  "cross_section_ranges": {
+    "Proverbs 24:22-24": [
+      "Proverbs 24:22",
+      "Proverbs 24:22a",
+      "Proverbs 24:22b",
+      "Proverbs 24:22c",
+      "Proverbs 24:22d",
+      "Proverbs 24:22e",
+      "Proverbs 24:23",
+      "Proverbs 24:24"
+    ],
+    "Proverbs 30:14-16": [
+      "Proverbs 30:14",
+      "Proverbs 30:15",
+      "Proverbs 30:16"
+    ],
+    "Proverbs 31:9-11": [
+      "Proverbs 31:9",
+      "Proverbs 31:10",
+      "Proverbs 31:11"
+    ]
+  },
+  "whole_book_native_chapter_count": 31,
+  "whole_book_completed_source_section_count": 34,
+  "whole_book_source_order_unchanged": true,
+  "read_only_baseline_validator_summary": {
+    "result": "passed",
+    "canon_books": 70,
+    "books_in_plan": 43,
+    "completed_source_verses": 16129,
+    "completed_pairs": 20852,
+    "completed_chapters": 420,
+    "next": "1 Chronicles 1:24"
+  },
+  "existing_validator_tests_passed": 10,
+  "material_findings": [],
+  "read_scope_note": "All exact prepared code deltas and surrounding validator/render logic were personally inspected. Whole inventory equality, all original metadata/units and hashes were independently programmatically checked against this reviewer’s fresh raw pin. Truncated inventory-check display was not treated as a full manual read; no additional semantic source-reading credit is claimed."
+}

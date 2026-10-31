@@ -1,0 +1,76 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "review_base_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "publication_parent": "0b3dba6020141e4e5536340920b510f5677e7c25",
+  "completion_credit": 0,
+  "semantic_reading_credit": 0,
+  "repository_mutations": 0,
+  "integration_executed": false,
+  "changed_helpers": [
+    {
+      "original_file": "integrate.py",
+      "before_file": "integrate-before-publication-parent.py",
+      "before_sha256": "c70901be90686347c197d4d0dca374660cbfdd5cb7b8a702fdcae7fc2c89842c",
+      "after_file": "integrate.py",
+      "after_sha256": "dbe0a316c0b3e969b1604c7a91f263bd8d84f41ecee5346b242c058158164ab2"
+    },
+    {
+      "original_file": "preservation-audit.py",
+      "before_file": "preservation-audit-before-publication-parent.py",
+      "before_sha256": "0eb13a0cc33397771974e5949e07cf58879481458df4a072d26987aa2c2aa540",
+      "after_file": "preservation-audit.py",
+      "after_sha256": "b5c6d4bfd00bec6394a6d4e9f9b1e5993666d701fc8706de2e31ba13a3a795b8"
+    },
+    {
+      "original_file": "prepare-readback.py",
+      "before_file": "prepare-readback-before-publication-parent.py",
+      "before_sha256": "d777981ab6a8b79ffa4acee77336369bb77e76f83a2b375e0ac7ca0b3756eb1f",
+      "after_file": "prepare-readback.py",
+      "after_sha256": "f791c48300d9f16c8ebf3de3277fea37213a12297e2b344554ca0b61c0973733"
+    },
+    {
+      "original_file": "run_support.py",
+      "before_file": "run_support-before-publication-parent.py",
+      "before_sha256": "23a78af3c61e37f8ce7e2d82868e757a3d897a729a714d9c473bb6169c72d6ed",
+      "after_file": "run_support.py",
+      "after_sha256": "d2606cf8899b5c654e3c37d9d85dce3a406e350dc47569c83ac96557e61c2ce4"
+    }
+  ],
+  "new_guard_file": "publication_parent.py",
+  "new_guard_sha256": "c18f620f997a91f3eed8902dfab48dfea98f0e971c8a9799727005fba92a2208",
+  "reconciliation_file": "publication-parent-reconciliation.json",
+  "reconciliation_sha256": "759535b445808cc6c163828249e7f164749718253fdca141d2f4eb967939a250",
+  "preserved_adapter_file": "psalms-proverbs-adapter-receipt-before-publication-parent.json",
+  "preserved_adapter_sha256": "bb6012883f4c513abc03267a2c7308b03b4e4603528e4d777a65c60594a5fd58",
+  "prior_independent_audit_file": "independent-helper-technical-audit.json",
+  "prior_independent_audit_sha256": "cfc9a3cc2c7cd2a9131c45465f3afc45ee609b635327998505941ff3f1184f61",
+  "diff_file": "publication-parent-adapter.diff",
+  "diff_sha256": "6d64411cff6a28c5eee70022e8f28b66c7051d9f939f8d0f5721d558e111fd04",
+  "renderer_fixture_file": "concurrent-root-renderer-check.json",
+  "renderer_fixture_sha256": "67cbb47bf7648990a61556b76e48c5ea6870b9896c20dbe14d65ce988b66a61d",
+  "unchanged_helpers": [
+    {
+      "file": "review_contract.py",
+      "sha256": "ab614a67899d2c6e18869be97161b6c1594b3e5e676a23b6edf7611f27a3de0c"
+    },
+    {
+      "file": "audit-common.py",
+      "sha256": "379c3cb9882434b54eb0cb40f8d52ffc12526327d0b3036a17171003d92f1d46"
+    },
+    {
+      "file": "finalize-reviews.py",
+      "sha256": "7e287f8d01f605a46c38106361fef7f53f68f919599aea1506b2ee15ae00ed7d"
+    },
+    {
+      "file": "pin_artifact_contract.py",
+      "sha256": "0d40c5fcce152c5c626e600ee8e23dd77e1398e4725b0edb6e4ddc9c152a858c"
+    }
+  ],
+  "durable_transaction_tail_unchanged": true,
+  "durable_transaction_tail_sha256": "f23f4d096325a90fe4d7f8341c5503171a774b0e48103466a5a34be6115e7822",
+  "required_ot_json_readback_objects": 70,
+  "separate_concurrent_git_objects_preserved": 50,
+  "current_semantic_receipts_keep_review_baseline": true,
+  "working_copy_and_git_blob_preservation_are_distinct": true,
+  "validation_status": "prepared; independent audit and positive/negative checks required before apply"
+}

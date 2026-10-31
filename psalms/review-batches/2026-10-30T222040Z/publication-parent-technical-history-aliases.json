@@ -1,0 +1,181 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "completion_credit": 0,
+  "purpose": "Exact technical-helper historical bindings only; current semantic and raw-pin validation is unchanged.",
+  "aliases": [
+    {
+      "original_file": "audit-common.py",
+      "original_sha256": "64493f474381d95c4056e4b656b014d7a795f299ba31f68fdeb3948c558f7348",
+      "preserved_file": "audit-common-before-unavailable-hint-binding-guard.py",
+      "preserved_sha256": "64493f474381d95c4056e4b656b014d7a795f299ba31f68fdeb3948c558f7348"
+    },
+    {
+      "original_file": "audit-common.py",
+      "original_sha256": "670dcea2346ec116f8cc6ce93af25c704dd6fafeb0e9ca3695c41c4f57946adb",
+      "preserved_file": "audit-common-before-unavailable-hint-fix.py",
+      "preserved_sha256": "670dcea2346ec116f8cc6ce93af25c704dd6fafeb0e9ca3695c41c4f57946adb"
+    },
+    {
+      "original_file": "audit-common.py",
+      "original_sha256": "c1cb3798aed46de20ca8445b1a837c8a74ef7b84f8e9404f3918c61204d28d15",
+      "preserved_file": "audit-common-before-empty-direct-list-fix.py",
+      "preserved_sha256": "c1cb3798aed46de20ca8445b1a837c8a74ef7b84f8e9404f3918c61204d28d15"
+    },
+    {
+      "original_file": "integrate.py",
+      "original_sha256": "2460b8c25e345845b3084d920845628b3893a12fe17e57056872729f1dba7d82",
+      "preserved_file": "integrate-before-local-hint-scope-fix.py",
+      "preserved_sha256": "2460b8c25e345845b3084d920845628b3893a12fe17e57056872729f1dba7d82"
+    },
+    {
+      "original_file": "integrate.py",
+      "original_sha256": "c70901be90686347c197d4d0dca374660cbfdd5cb7b8a702fdcae7fc2c89842c",
+      "preserved_file": "integrate-before-publication-parent.py",
+      "preserved_sha256": "c70901be90686347c197d4d0dca374660cbfdd5cb7b8a702fdcae7fc2c89842c"
+    },
+    {
+      "original_file": "integrate.py",
+      "original_sha256": "dbe0a316c0b3e969b1604c7a91f263bd8d84f41ecee5346b242c058158164ab2",
+      "preserved_file": "integrate-first-parent.py",
+      "preserved_sha256": "dbe0a316c0b3e969b1604c7a91f263bd8d84f41ecee5346b242c058158164ab2"
+    },
+    {
+      "original_file": "prepare-readback.py",
+      "original_sha256": "d777981ab6a8b79ffa4acee77336369bb77e76f83a2b375e0ac7ca0b3756eb1f",
+      "preserved_file": "prepare-readback-before-publication-parent.py",
+      "preserved_sha256": "d777981ab6a8b79ffa4acee77336369bb77e76f83a2b375e0ac7ca0b3756eb1f"
+    },
+    {
+      "original_file": "preservation-audit.py",
+      "original_sha256": "0eb13a0cc33397771974e5949e07cf58879481458df4a072d26987aa2c2aa540",
+      "preserved_file": "preservation-audit-before-publication-parent.py",
+      "preserved_sha256": "0eb13a0cc33397771974e5949e07cf58879481458df4a072d26987aa2c2aa540"
+    },
+    {
+      "original_file": "preservation-audit.py",
+      "original_sha256": "525d1c0fd9d792e44a288f91f5de776121cdcd36c5335b5f7b72c2bc26ef6082",
+      "preserved_file": "preservation-audit-before-local-hint-scope-fix.py",
+      "preserved_sha256": "525d1c0fd9d792e44a288f91f5de776121cdcd36c5335b5f7b72c2bc26ef6082"
+    },
+    {
+      "original_file": "preservation-audit.py",
+      "original_sha256": "b5c6d4bfd00bec6394a6d4e9f9b1e5993666d701fc8706de2e31ba13a3a795b8",
+      "preserved_file": "preservation-audit-first-parent.py",
+      "preserved_sha256": "b5c6d4bfd00bec6394a6d4e9f9b1e5993666d701fc8706de2e31ba13a3a795b8"
+    },
+    {
+      "original_file": "preservation-audit.py",
+      "original_sha256": "f9861925bb587511f856f1f05f8560b5228aa3c0c81243ae440dd442895dad85",
+      "preserved_file": "preservation-audit-before-checkout-normalization.py",
+      "preserved_sha256": "f9861925bb587511f856f1f05f8560b5228aa3c0c81243ae440dd442895dad85"
+    },
+    {
+      "original_file": "psalms-proverbs-adapter-receipt.json",
+      "original_sha256": "124e122009e4470cce9e7da0d8ce03a092c8f3864c5ea185bd68560a630bfe02",
+      "preserved_file": "psalms-proverbs-adapter-receipt-before-empty-direct-list-fix.json",
+      "preserved_sha256": "124e122009e4470cce9e7da0d8ce03a092c8f3864c5ea185bd68560a630bfe02"
+    },
+    {
+      "original_file": "psalms-proverbs-adapter-receipt.json",
+      "original_sha256": "3394a1bf7f0592ec90d7111aa48e7e1058475bd4ddb896a798925deceb823481",
+      "preserved_file": "psalms-proverbs-adapter-receipt-before-local-hint-scope-fix.json",
+      "preserved_sha256": "3394a1bf7f0592ec90d7111aa48e7e1058475bd4ddb896a798925deceb823481"
+    },
+    {
+      "original_file": "psalms-proverbs-adapter.diff",
+      "original_sha256": "8b9028cf722b41f81b4e2d4379ce05e2b88292ade68c86d75ace956a2c52fec2",
+      "preserved_file": "psalms-proverbs-recovered-adapter-8b9028cf722b41f8.diff",
+      "preserved_sha256": "8b9028cf722b41f81b4e2d4379ce05e2b88292ade68c86d75ace956a2c52fec2"
+    },
+    {
+      "original_file": "psalms-proverbs-adapter.diff",
+      "original_sha256": "a7a190505fae747bd4171b2dd4fdd744c080c7021ef3989e7f3c34f2c112f2f2",
+      "preserved_file": "psalms-proverbs-recovered-adapter-a7a190505fae747b.diff",
+      "preserved_sha256": "a7a190505fae747bd4171b2dd4fdd744c080c7021ef3989e7f3c34f2c112f2f2"
+    },
+    {
+      "original_file": "psalms-proverbs-adapter.diff",
+      "original_sha256": "bd10d91e2d564b951c81ab5ab8c2f5296b6c58738caf39dd4a7f855ce448e524",
+      "preserved_file": "psalms-proverbs-recovered-adapter-bd10d91e2d564b95.diff",
+      "preserved_sha256": "bd10d91e2d564b951c81ab5ab8c2f5296b6c58738caf39dd4a7f855ce448e524"
+    },
+    {
+      "original_file": "publication-parent-adapter.diff",
+      "original_sha256": "6d64411cff6a28c5eee70022e8f28b66c7051d9f939f8d0f5721d558e111fd04",
+      "preserved_file": "publication-parent-first-adapter.diff",
+      "preserved_sha256": "6d64411cff6a28c5eee70022e8f28b66c7051d9f939f8d0f5721d558e111fd04"
+    },
+    {
+      "original_file": "publication-parent-adapter.diff",
+      "original_sha256": "a5e61759c1841d76e1e4f73fdc31af707942ab37ae3c0f13bb9c75d380c945e7",
+      "preserved_file": "publication-parent-before-checkout-normalization.diff",
+      "preserved_sha256": "a5e61759c1841d76e1e4f73fdc31af707942ab37ae3c0f13bb9c75d380c945e7"
+    },
+    {
+      "original_file": "publication-parent-adapter.diff",
+      "original_sha256": "ed3a7654f3563874463db5358be7600422de715e969bd3bf32b354b1e43e7f7f",
+      "preserved_file": "publication-parent-before-path-guard.diff",
+      "preserved_sha256": "ed3a7654f3563874463db5358be7600422de715e969bd3bf32b354b1e43e7f7f"
+    },
+    {
+      "original_file": "publication_parent.py",
+      "original_sha256": "1d731417d90ac20ad038f05fe785bcc4c8cc1fd3ea2a51bb4aed99a7f3ebacfe",
+      "preserved_file": "publication_parent-before-path-guard.py",
+      "preserved_sha256": "1d731417d90ac20ad038f05fe785bcc4c8cc1fd3ea2a51bb4aed99a7f3ebacfe"
+    },
+    {
+      "original_file": "publication_parent.py",
+      "original_sha256": "bce2230a8e850241e0d3ba82b7fc2c2bd5af54d424475b42e5165f5931a11b04",
+      "preserved_file": "publication_parent-before-checkout-normalization.py",
+      "preserved_sha256": "bce2230a8e850241e0d3ba82b7fc2c2bd5af54d424475b42e5165f5931a11b04"
+    },
+    {
+      "original_file": "publication_parent.py",
+      "original_sha256": "c18f620f997a91f3eed8902dfab48dfea98f0e971c8a9799727005fba92a2208",
+      "preserved_file": "publication_parent-first-parent.py",
+      "preserved_sha256": "c18f620f997a91f3eed8902dfab48dfea98f0e971c8a9799727005fba92a2208"
+    },
+    {
+      "original_file": "run_support.py",
+      "original_sha256": "23a78af3c61e37f8ce7e2d82868e757a3d897a729a714d9c473bb6169c72d6ed",
+      "preserved_file": "run_support-before-publication-parent.py",
+      "preserved_sha256": "23a78af3c61e37f8ce7e2d82868e757a3d897a729a714d9c473bb6169c72d6ed"
+    },
+    {
+      "original_file": "run_support.py",
+      "original_sha256": "6edd3cdb33a8233ea6f20218912299f66ddfdb6b70424dbda315903a0622afba",
+      "preserved_file": "run_support-before-history-registry.py",
+      "preserved_sha256": "6edd3cdb33a8233ea6f20218912299f66ddfdb6b70424dbda315903a0622afba"
+    },
+    {
+      "original_file": "run_support.py",
+      "original_sha256": "d2606cf8899b5c654e3c37d9d85dce3a406e350dc47569c83ac96557e61c2ce4",
+      "preserved_file": "run_support-first-parent.py",
+      "preserved_sha256": "d2606cf8899b5c654e3c37d9d85dce3a406e350dc47569c83ac96557e61c2ce4"
+    },
+    {
+      "original_file": "run_support.py",
+      "original_sha256": "e6688455ab0188657a5b219b0d1f42c774f38a8bc70444c24af67dad52550425",
+      "preserved_file": "run_support-before-checkout-normalization.py",
+      "preserved_sha256": "e6688455ab0188657a5b219b0d1f42c774f38a8bc70444c24af67dad52550425"
+    },
+    {
+      "original_file": "unavailable-hint-collector-fix.diff",
+      "original_sha256": "1efd861a56a5c5d75b480ea147e099ce7cdbee08fd89decbb5d8d7827a685ca7",
+      "preserved_file": "unavailable-hint-collector-fix-before-binding-guard.diff",
+      "preserved_sha256": "1efd861a56a5c5d75b480ea147e099ce7cdbee08fd89decbb5d8d7827a685ca7"
+    },
+    {
+      "original_file": "unavailable-hint-collector-fix.diff",
+      "original_sha256": "ba7175fb655100b5c19ee644c24fce14b5434ab8a688c9c028b7f718e3102f1e",
+      "preserved_file": "unavailable-hint-collector-fix-before-empty-direct-list-fix.diff",
+      "preserved_sha256": "ba7175fb655100b5c19ee644c24fce14b5434ab8a688c9c028b7f718e3102f1e"
+    },
+    {
+      "original_file": "unavailable-hint-collector-fix.json",
+      "original_sha256": "f9a402ea3cbeba13af65893395cb52791b9e412743832ec54c950ab56ad6bb91",
+      "preserved_file": "unavailable-hint-collector-fix-before-empty-direct-list-fix.json",
+      "preserved_sha256": "f9a402ea3cbeba13af65893395cb52791b9e412743832ec54c950ab56ad6bb91"
+    }
+  ]
+}

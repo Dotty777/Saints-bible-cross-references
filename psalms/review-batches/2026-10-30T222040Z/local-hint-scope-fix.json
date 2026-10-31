@@ -1,0 +1,45 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "baseline_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "checked_at_utc": "2026-10-30T23:10:24.663000+00:00",
+  "result": "passed",
+  "completion_credit": 0,
+  "repository_mutations": 0,
+  "helper_changes": [
+    {
+      "preserved_file": "integrate-before-local-hint-scope-fix.py",
+      "preserved_sha256": "2460b8c25e345845b3084d920845628b3893a12fe17e57056872729f1dba7d82",
+      "final_file": "integrate.py",
+      "final_sha256": "c70901be90686347c197d4d0dca374660cbfdd5cb7b8a702fdcae7fc2c89842c",
+      "exact_diff": "--- integrate-before-local-hint-scope-fix.py\n+++ integrate.py\n@@ -221,6 +221,8 @@\n for book,s in states.items():\n  folder=s['folder'];stems=plan['books'][book]['stems']\n  local_batch={**batch,**s['result'],'book_results':[s['result']],'inputs':s['inputs'],'chapter_pair_counts':{book:s['paircounts']},'review_receipts':[plan['authors'][stem] for stem in stems],'peer_review_receipts':[plan['peers'][stem] for stem in stems],'applied_peer_corrections':[c for c in plan['fixes'] if c['file'] in {stem+'.tsv' for stem in stems}],'deferred_source_units':s['new_deferred'],'known_pending_source_units':s['checks']['deferred_source_units'],'unresolved_candidates':s['new_candidates'],'known_pending_target_candidates':s['checks']['unresolved_candidates'],'new_unresolved_candidate_count':len(s['new_candidates']),'known_pending_target_candidate_count':len(s['checks']['unresolved_candidates']),'excluded_candidates':[c for stem in stems for c in plan['authors'][stem].get('candidate_exclusions',[])],'overall_distinct_source_verses':len(plan['supported']),'overall_new_completed_pairs':len(plan['rows']),'overall_source_units_read':plan['source_units_read'],'overall_reviewed_dates':[DATE],'overall_review_record':'../../review-batches/'+RUN+'.json','overall_next_unreviewed_reference':nextnew['reference'],'hourly_target_scope':'The hourly target, target_met, target_shortfall and target_excess cover this entire ordered run and are evaluated against overall_new_completed_pairs. This local record credits only its own book in distinct_source_verses and new_completed_pairs. Pending evidence, source rereading and new-book inventory earn zero credit.'}\n+ local_hintgroups=[g for g in hintgroups if g['packet'] in stems]\n+ local_batch.update(unavailable_locator_hints_by_packet=local_hintgroups,unavailable_target_locator_hint_count=sum(len(g['hints']) for g in local_hintgroups))\n  restore_path=REPO/folder/'RESTORE.md' if book in allchecks else newfolders[book]/'RESTORE.md'\n  restore=restore_path.read_text(encoding='utf-8');marker='\\n## Pending source review recovery\\n'\n  if marker in restore:restore=restore[:restore.index(marker)]\n"
+    },
+    {
+      "preserved_file": "preservation-audit-before-local-hint-scope-fix.py",
+      "preserved_sha256": "525d1c0fd9d792e44a288f91f5de776121cdcd36c5335b5f7b72c2bc26ef6082",
+      "final_file": "preservation-audit.py",
+      "final_sha256": "0eb13a0cc33397771974e5949e07cf58879481458df4a072d26987aa2c2aa540",
+      "exact_diff": "--- preservation-audit-before-local-hint-scope-fix.py\n+++ preservation-audit.py\n@@ -176,7 +176,8 @@\n  note=unavailable_hint_note([g for g in hintgroups if g['packet'] in stems])\n  if note and note not in expected_notes:expected_notes.append(note)\n  require(notes=={**oldnotes,'date':DATE,'notes':expected_notes},'Editorial changes exceed current receipts')\n- require(local['unavailable_locator_hints_by_packet']==hintgroups and local['unavailable_target_locator_hint_count']==hintcount and local['unavailable_locator_hints_are_unread'] is True and local['unavailable_locator_hint_completion_credit']==0,'Local unavailable hint preservation differs')\n+ local_hintgroups=[g for g in hintgroups if g['packet'] in stems]\n+ require(local['unavailable_locator_hints_by_packet']==local_hintgroups and local['unavailable_target_locator_hint_count']==sum(len(g['hints']) for g in local_hintgroups) and local['unavailable_locator_hints_are_unread'] is True and local['unavailable_locator_hint_completion_credit']==0,'Local unavailable hint preservation differs')\n  text=(R/folder/d['readable_text']).read_text(encoding='utf-8');page=(R/folder/d['readable_html']).read_text(encoding='utf-8')\n  for row in bp['rows']:require(row['target']+' — '+row['relationship']+': '+row['rationale'] in text and html.escape(row['rationale']) in page,'Readable pair differs')\n  for unit in done:\n"
+    },
+    {
+      "preserved_file": "audit-common-before-unavailable-hint-binding-guard.py",
+      "preserved_sha256": "64493f474381d95c4056e4b656b014d7a795f299ba31f68fdeb3948c558f7348",
+      "final_file": "audit-common.py",
+      "final_sha256": "c1cb3798aed46de20ca8445b1a837c8a74ef7b84f8e9404f3918c61204d28d15",
+      "exact_diff": "--- audit-common-before-unavailable-hint-binding-guard.py\n+++ audit-common.py\n@@ -40,6 +40,8 @@\n   return load(path),{'file':name,'sha256':expected}\n  for stem,author in authors.items():\n   hints=deepcopy(author.get('unavailable_locator_hints',[])+author.get('unavailable_target_hints',[]));proof=[]\n+  if any(k in author for k in ['unavailable_reference_hints','unavailable_reference_hints_file','unavailable_reference_hints_sha256','unavailable_reference_hints_file_sha256']):\n+   require(isinstance(author.get('unavailable_reference_hints'),list) and 'unavailable_reference_hints_file' in author and bool(author.get('unavailable_reference_hints_sha256') or author.get('unavailable_reference_hints_file_sha256')),'Direct unavailable hint declaration lacks its complete bound original')\n   if 'unavailable_reference_hints_file' in author:\n    bundle,binding=bound_json(author,'unavailable_reference_hints_file')\n    require(isinstance(bundle,list) and bundle==author.get('unavailable_reference_hints'),'Direct unavailable hint list differs from its bound original')\n"
+    }
+  ],
+  "local_book_filter_executed_from_actual_integration_ast": true,
+  "psalms_local_hints": 1,
+  "proverbs_local_hints": 0,
+  "root_hints_preserved": 1,
+  "no_overall_aliases_added": true,
+  "missing_direct_binding_filename_and_hash_rejected": true,
+  "preserved_collector_receipt_file": "unavailable-hint-collector-fix-before-binding-guard.json",
+  "preserved_collector_receipt_sha256": "892faca319ce340d3fff83bd6b7aee1df0a601defc2f7737fb2c026b363fffdc",
+  "current_collector_receipt_file": "unavailable-hint-collector-fix.json",
+  "current_collector_receipt_sha256": "f9a402ea3cbeba13af65893395cb52791b9e412743832ec54c950ab56ad6bb91",
+  "preserved_adapter_receipt_file": "psalms-proverbs-adapter-receipt-before-local-hint-scope-fix.json",
+  "preserved_adapter_receipt_sha256": "3394a1bf7f0592ec90d7111aa48e7e1058475bd4ddb896a798925deceb823481",
+  "final_adapter_receipt_file": "psalms-proverbs-adapter-receipt.json",
+  "final_adapter_receipt_sha256": "124e122009e4470cce9e7da0d8ce03a092c8f3864c5ea185bd68560a630bfe02"
+}

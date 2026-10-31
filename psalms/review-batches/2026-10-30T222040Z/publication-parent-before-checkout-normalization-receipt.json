@@ -1,0 +1,119 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "review_base_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "publication_parent": "0bed9c182097eb0e681d4b49e09a3de2b814ab98",
+  "completion_credit": 0,
+  "semantic_reading_credit": 0,
+  "repository_mutations": 0,
+  "integration_executed": false,
+  "changed_helpers": [
+    {
+      "original_file": "integrate.py",
+      "before_file": "integrate-before-publication-parent.py",
+      "before_sha256": "c70901be90686347c197d4d0dca374660cbfdd5cb7b8a702fdcae7fc2c89842c",
+      "after_file": "integrate.py",
+      "after_sha256": "73373b8f933737f73c8e62b5fec1960233adae3a30332499e043e4f2d569e2eb"
+    },
+    {
+      "original_file": "preservation-audit.py",
+      "before_file": "preservation-audit-before-publication-parent.py",
+      "before_sha256": "0eb13a0cc33397771974e5949e07cf58879481458df4a072d26987aa2c2aa540",
+      "after_file": "preservation-audit.py",
+      "after_sha256": "f9861925bb587511f856f1f05f8560b5228aa3c0c81243ae440dd442895dad85"
+    },
+    {
+      "original_file": "prepare-readback.py",
+      "before_file": "prepare-readback-before-publication-parent.py",
+      "before_sha256": "d777981ab6a8b79ffa4acee77336369bb77e76f83a2b375e0ac7ca0b3756eb1f",
+      "after_file": "prepare-readback.py",
+      "after_sha256": "f791c48300d9f16c8ebf3de3277fea37213a12297e2b344554ca0b61c0973733"
+    },
+    {
+      "original_file": "run_support.py",
+      "before_file": "run_support-before-publication-parent.py",
+      "before_sha256": "23a78af3c61e37f8ce7e2d82868e757a3d897a729a714d9c473bb6169c72d6ed",
+      "after_file": "run_support.py",
+      "after_sha256": "e6688455ab0188657a5b219b0d1f42c774f38a8bc70444c24af67dad52550425"
+    }
+  ],
+  "new_guard_file": "publication_parent.py",
+  "new_guard_sha256": "bce2230a8e850241e0d3ba82b7fc2c2bd5af54d424475b42e5165f5931a11b04",
+  "reconciliation_file": "publication-parent2-reconciliation.json",
+  "reconciliation_sha256": "6edcd209313b722d4fa07793c78b82d64cf73b2c70d8a07f665132169daa227d",
+  "preserved_adapter_file": "psalms-proverbs-adapter-receipt-before-publication-parent.json",
+  "preserved_adapter_sha256": "bb6012883f4c513abc03267a2c7308b03b4e4603528e4d777a65c60594a5fd58",
+  "prior_independent_audit_file": "independent-helper-technical-audit.json",
+  "prior_independent_audit_sha256": "cfc9a3cc2c7cd2a9131c45465f3afc45ee609b635327998505941ff3f1184f61",
+  "diff_file": "publication-parent-adapter.diff",
+  "diff_sha256": "a5e61759c1841d76e1e4f73fdc31af707942ab37ae3c0f13bb9c75d380c945e7",
+  "renderer_fixture_file": "concurrent-root-renderer2-check.json",
+  "renderer_fixture_sha256": "996156814fe25452e8e6b465544a8bac1b21bff477854e2f95a97c1bc83a5dc8",
+  "unchanged_helpers": [
+    {
+      "file": "review_contract.py",
+      "sha256": "ab614a67899d2c6e18869be97161b6c1594b3e5e676a23b6edf7611f27a3de0c"
+    },
+    {
+      "file": "audit-common.py",
+      "sha256": "379c3cb9882434b54eb0cb40f8d52ffc12526327d0b3036a17171003d92f1d46"
+    },
+    {
+      "file": "finalize-reviews.py",
+      "sha256": "7e287f8d01f605a46c38106361fef7f53f68f919599aea1506b2ee15ae00ed7d"
+    },
+    {
+      "file": "pin_artifact_contract.py",
+      "sha256": "0d40c5fcce152c5c626e600ee8e23dd77e1398e4725b0edb6e4ddc9c152a858c"
+    }
+  ],
+  "durable_transaction_tail_unchanged": true,
+  "durable_transaction_tail_sha256": "f23f4d096325a90fe4d7f8341c5503171a774b0e48103466a5a34be6115e7822",
+  "required_ot_json_readback_objects": 70,
+  "separate_concurrent_git_objects_preserved": 65,
+  "current_semantic_receipts_keep_review_baseline": true,
+  "working_copy_and_git_blob_preservation_are_distinct": true,
+  "validation_status": "prepared; independent audit and positive/negative checks required before apply",
+  "first_parent_adapter_file": "publication-parent-first-adapter-receipt.json",
+  "first_parent_adapter_sha256": "152392ecf931c91554c19aa2402d13dcf78d405f4541c1539ee208d441e68f70",
+  "first_parent_reconciliation_file": "publication-parent-reconciliation.json",
+  "first_parent_reconciliation_sha256": "759535b445808cc6c163828249e7f164749718253fdca141d2f4eb967939a250",
+  "preparation_history": "The first parent advanced before any integration. Its complete object guard and initial overlay are preserved. An initial helper rewrite normalized the transaction tail line endings; the stopped byte-equality assertion was corrected before either overlay was frozen or executed. Both frozen overlays retain the exact original tail.",
+  "intermediate_aliases": [
+    {
+      "original_file": "integrate.py",
+      "original_sha256": "dbe0a316c0b3e969b1604c7a91f263bd8d84f41ecee5346b242c058158164ab2",
+      "preserved_file": "integrate-first-parent.py",
+      "preserved_sha256": "dbe0a316c0b3e969b1604c7a91f263bd8d84f41ecee5346b242c058158164ab2"
+    },
+    {
+      "original_file": "preservation-audit.py",
+      "original_sha256": "b5c6d4bfd00bec6394a6d4e9f9b1e5993666d701fc8706de2e31ba13a3a795b8",
+      "preserved_file": "preservation-audit-first-parent.py",
+      "preserved_sha256": "b5c6d4bfd00bec6394a6d4e9f9b1e5993666d701fc8706de2e31ba13a3a795b8"
+    },
+    {
+      "original_file": "prepare-readback.py",
+      "original_sha256": "f791c48300d9f16c8ebf3de3277fea37213a12297e2b344554ca0b61c0973733",
+      "preserved_file": "prepare-readback-first-parent.py",
+      "preserved_sha256": "f791c48300d9f16c8ebf3de3277fea37213a12297e2b344554ca0b61c0973733"
+    },
+    {
+      "original_file": "run_support.py",
+      "original_sha256": "d2606cf8899b5c654e3c37d9d85dce3a406e350dc47569c83ac96557e61c2ce4",
+      "preserved_file": "run_support-first-parent.py",
+      "preserved_sha256": "d2606cf8899b5c654e3c37d9d85dce3a406e350dc47569c83ac96557e61c2ce4"
+    },
+    {
+      "original_file": "publication_parent.py",
+      "original_sha256": "c18f620f997a91f3eed8902dfab48dfea98f0e971c8a9799727005fba92a2208",
+      "preserved_file": "publication_parent-first-parent.py",
+      "preserved_sha256": "c18f620f997a91f3eed8902dfab48dfea98f0e971c8a9799727005fba92a2208"
+    },
+    {
+      "original_file": "publication-parent-adapter.diff",
+      "original_sha256": "6d64411cff6a28c5eee70022e8f28b66c7051d9f939f8d0f5721d558e111fd04",
+      "preserved_file": "publication-parent-first-adapter.diff",
+      "preserved_sha256": "6d64411cff6a28c5eee70022e8f28b66c7051d9f939f8d0f5721d558e111fd04"
+    }
+  ]
+}

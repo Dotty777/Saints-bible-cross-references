@@ -1,0 +1,1 @@
+The separate [New Testament source-review tracker](new-testament/README.md) uses orders 44–70 with its own counts and continuation.

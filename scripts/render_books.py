@@ -1,6 +1,7 @@
 """Render inventoried books and root counts without modifying review evidence."""
 from pathlib import Path
 import html,json,re
+from chapter_structure import chapter_units
 ROOT=Path(__file__).resolve().parents[1]
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
 def write(p,s):p.write_text(s.rstrip()+'\n',encoding='utf-8')
@@ -49,7 +50,7 @@ def render_book(record,progress,style):
     if deferred:page=page.replace('</header>','<p class="note">'+e(deferred_note)+' <a href="source-checks.json">Deferred source evidence</a>.</p></header>',1)
     write(folder/data['readable_html'],page)
     readme=(folder/'README.md').read_text(encoding='utf-8')
-    last=data['completed_chapters'][-1] if data['completed_chapters'] else None
+    last=max(data['completed_chapters']) if data['completed_chapters'] else None
     coverage=f'{name} 1–{last}' if last else name
     current=f'{coverage} is complete at the initial curated cross-reference stage: **{count} source verses and {pairs} distinct source/target-passage pairs**. '+continuation
     if verses and not finished:
@@ -72,7 +73,7 @@ def render_book(record,progress,style):
     marker='## Review batches'
     if marker in readme:readme=readme[:readme.index(marker)]
     write(folder/'README.md',readme.rstrip()+'\n\n'+marker+'\n\n'+'\n'.join(links))
-    return {'book':name,'record':record,'units':data['total_source_verse_units'],'count':count,'pairs':pairs,'finished':finished,'last_chapter':last,'reviewed_through':verses[-1]['reference'] if verses else None,'total_chapters':len(data['chapters'])}
+    return {'book':name,'record':record,'units':data['total_source_verse_units'],'count':count,'pairs':pairs,'finished':finished,'last_chapter':last,'reviewed_through':verses[-1]['reference'] if verses else None,'total_chapters':len(chapter_units(data)),'total_source_sections':len(data['chapters'])}
 
 def main():
     progress=load(ROOT/'progress.json')
@@ -83,7 +84,9 @@ def main():
         state='initial curated pass complete for all chapters' if r['finished'] else 'initial curated pass complete for chapters 1–'+str(r['last_chapter'])+'; later chapters remain pending'
         if r['count'] and not r['finished']:state='initial curated pass in progress; latest completed unit '+r['reviewed_through']
         if not r['count']:state='source inventory complete; initial curated pass pending'
-        lines.append('- ['+r['book']+' — '+str(r['total_chapters'])+' chapters]('+r['record']['records']+'README.md): '+state+'; **'+str(r['count'])+' source verses, '+str(r['pairs'])+' matching cross-reference pairs**.')
+        division_label=str(r['total_chapters'])+' chapters'
+        if r['total_source_sections']!=r['total_chapters']:division_label+=' in '+str(r['total_source_sections'])+' source sections'
+        lines.append('- ['+r['book']+' — '+division_label+']('+r['record']['records']+'README.md): '+state+'; **'+str(r['count'])+' source verses, '+str(r['pairs'])+' matching cross-reference pairs**.')
     start=readme.index('- [Genesis');end=readme.index('[progress.json]',start)
     readme=readme[:start]+'\n'.join(lines)+'\n\n'+readme[end:]
     next_ref=(progress.get('next') or {}).get('reference')

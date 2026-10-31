@@ -1,5 +1,6 @@
 """Validate cross-reference evidence and saved progress using the standard library."""
 from collections import Counter
+from chapter_structure import chapter_units, chapter_references, completed_chapter_numbers, completed_source_sections
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -137,7 +138,7 @@ def validate(write_receipts=False):
         path=ROOT/record['records']/'verses.json'
         if path.exists():
             saved=load(path)
-            inventories[saved['book']]={str(ch['chapter']):[v['reference'] for v in ch['verses']] for ch in saved['chapters']}
+            inventories[saved['book']]=chapter_references(saved)
             saved_units.update({v['reference']:v for ch in saved['chapters'] for v in ch['verses']})
             saved_unit_books.update({v['reference']:saved['book'] for ch in saved['chapters'] for v in ch['verses']})
     for b in progress['books']:
@@ -149,6 +150,15 @@ def validate(write_receipts=False):
         require(not missing_earlier,'Book inventory skips earlier uninventoried books: '+', '.join(missing_earlier))
         data=load(file)
         require(data['book']==b['book'],'Book identity mismatch')
+        if 'total_chapters' in data:
+            require(data['total_chapters']==len(chapter_units(data)),'Native chapter count mismatch')
+        if 'total_chapters' in b:
+            require(b['total_chapters']==len(chapter_units(data)),'Progress native chapter count mismatch')
+        if 'total_source_sections' in data:
+            require(data['total_source_sections']==len(data['chapters']),'Source section count mismatch')
+            require(b.get('total_source_sections')==data['total_source_sections'],'Progress source section count mismatch')
+        if 'completed_source_sections' in data:
+            require(data['completed_source_sections']==completed_source_sections(data)==b.get('completed_source_sections'),'Completed source section mismatch')
         inventory_file=ROOT/b['records']/'inventory.json'
         if inventory_file.exists():
             inventory=load(inventory_file)
@@ -228,7 +238,7 @@ def validate(write_receipts=False):
                         require(e.get('target_passage_complete_sha256')==digest(full),'Complete target passage hash mismatch')
             all_done=all(v['status']=='completed' for v in ch['verses'])
             require((ch['status']=='completed')==all_done,'False chapter-completion claim')
-            if all_done:complete_chapters.append(ch['chapter'])
+        complete_chapters=completed_chapter_numbers(data)
         pair_keys=[(v['reference'],e['target']) for v in complete for e in v['cross_references']]
         require(len(pair_keys)==len(set(pair_keys)),'Duplicate source/target pair')
         require(len(source_refs)==data['total_source_verse_units'],'Source inventory total mismatch')

@@ -1,0 +1,297 @@
+{
+  "run_id": "2026-10-30T222040Z",
+  "baseline_commit": "e194517a8bdc5ceaba07142d7eafdc726480dd2c",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex AI independent technical auditor /root/macc9_12_peer",
+  "checked_at_utc": "2026-10-30T23:15:54.827312+00:00",
+  "result": "passed",
+  "accepted_for_root_preflight": true,
+  "semantic_and_final_packet_gates_still_required": true,
+  "repository_mutations": 0,
+  "integration_executed": false,
+  "completion_credit": 0,
+  "all_six_current_helpers_personally_read": true,
+  "helpers": [
+    {
+      "file": "integrate.py",
+      "sha256": "c70901be90686347c197d4d0dca374660cbfdd5cb7b8a702fdcae7fc2c89842c"
+    },
+    {
+      "file": "preservation-audit.py",
+      "sha256": "0eb13a0cc33397771974e5949e07cf58879481458df4a072d26987aa2c2aa540"
+    },
+    {
+      "file": "audit-common.py",
+      "sha256": "379c3cb9882434b54eb0cb40f8d52ffc12526327d0b3036a17171003d92f1d46"
+    },
+    {
+      "file": "prepare-readback.py",
+      "sha256": "d777981ab6a8b79ffa4acee77336369bb77e76f83a2b375e0ac7ca0b3756eb1f"
+    },
+    {
+      "file": "finalize-reviews.py",
+      "sha256": "7e287f8d01f605a46c38106361fef7f53f68f919599aea1506b2ee15ae00ed7d"
+    },
+    {
+      "file": "run_support.py",
+      "sha256": "23a78af3c61e37f8ce7e2d82868e757a3d897a729a714d9c473bb6169c72d6ed"
+    }
+  ],
+  "adapter_receipt_file": "psalms-proverbs-adapter-receipt.json",
+  "adapter_receipt_sha256": "bb6012883f4c513abc03267a2c7308b03b4e4603528e4d777a65c60594a5fd58",
+  "local_hint_scope_fix_file": "local-hint-scope-fix.json",
+  "local_hint_scope_fix_sha256": "a52111723a0ee95018d92dd99f6a8a6966cf6869bc295eef7d60acb25156b10b",
+  "collector_fix_file": "unavailable-hint-collector-fix.json",
+  "collector_fix_sha256": "50219cc83aa9bc872c9518300103b6a347ec019acea7d5a54affe494835fbcec",
+  "baseline_snapshot_audit_file": "independent-baseline-snapshot-audit.json",
+  "baseline_snapshot_audit_sha256": "3d6d8276c399f71a60dafac12ecafb00c0851f3f5d14a0daa1b64d42e20ce104",
+  "baseline_path_correction_file": "independent-baseline-path-correction.json",
+  "baseline_path_correction_sha256": "c2e463a650fbf2eb691aa29943134b294b65cb5210af957dbe7147f0ec5266cf",
+  "all_106_before_snapshots_equal_complete_git_objects": true,
+  "prior_book_inventories_preserved": 21,
+  "prior_standalone_inventory_json_files": 20,
+  "prior_runs": 37,
+  "baseline_totals": {
+    "sources": 16129,
+    "pairs": 20852,
+    "chapters": 420,
+    "source_deferrals": 1313,
+    "target_candidates": 285
+  },
+  "new_source_scope": {
+    "Psalms": 512,
+    "Proverbs": 120
+  },
+  "total_first_reviewed_source_units": 632,
+  "revisits": 0,
+  "new_inventory": {
+    "book": "Proverbs",
+    "units": 939,
+    "native_chapters": 31,
+    "original_source_sections": 34,
+    "completion_credit": 0
+  },
+  "original_source_order_and_metadata_preserved": true,
+  "earliest_pending": "1 Chronicles 1:24",
+  "next_new_review": "Proverbs 5:1",
+  "remaining_unread_proverbs_units": 819,
+  "publication_json_paths": [
+    "1-chronicles/inventory.json",
+    "1-chronicles/source-checks.json",
+    "1-chronicles/verses.json",
+    "1-kings/inventory.json",
+    "1-kings/source-checks.json",
+    "1-kings/verses.json",
+    "1-maccabees/inventory.json",
+    "1-maccabees/source-checks.json",
+    "1-maccabees/verses.json",
+    "1-samuel/inventory.json",
+    "1-samuel/source-checks.json",
+    "1-samuel/verses.json",
+    "2-chronicles/inventory.json",
+    "2-chronicles/source-checks.json",
+    "2-chronicles/verses.json",
+    "2-kings/inventory.json",
+    "2-kings/source-checks.json",
+    "2-kings/verses.json",
+    "2-maccabees/inventory.json",
+    "2-maccabees/source-checks.json",
+    "2-maccabees/verses.json",
+    "2-samuel/inventory.json",
+    "2-samuel/source-checks.json",
+    "2-samuel/verses.json",
+    "canon.json",
+    "deuteronomy/inventory.json",
+    "deuteronomy/source-checks.json",
+    "deuteronomy/verses.json",
+    "esther/inventory.json",
+    "esther/source-checks.json",
+    "esther/verses.json",
+    "exodus/inventory.json",
+    "exodus/source-checks.json",
+    "exodus/verses.json",
+    "ezra/inventory.json",
+    "ezra/source-checks.json",
+    "ezra/verses.json",
+    "genesis/source-checks.json",
+    "genesis/verses.json",
+    "job/inventory.json",
+    "job/source-checks.json",
+    "job/verses.json",
+    "joshua/inventory.json",
+    "joshua/source-checks.json",
+    "joshua/verses.json",
+    "judges/inventory.json",
+    "judges/source-checks.json",
+    "judges/verses.json",
+    "leviticus/inventory.json",
+    "leviticus/source-checks.json",
+    "leviticus/verses.json",
+    "nehemiah/inventory.json",
+    "nehemiah/source-checks.json",
+    "nehemiah/verses.json",
+    "numbers/inventory.json",
+    "numbers/source-checks.json",
+    "numbers/verses.json",
+    "progress.json",
+    "proverbs/inventory.json",
+    "proverbs/review-batches/2026-10-30T222040Z.json",
+    "proverbs/source-checks.json",
+    "proverbs/verses.json",
+    "psalms/inventory.json",
+    "psalms/review-batches/2026-10-30T222040Z.json",
+    "psalms/source-checks.json",
+    "psalms/verses.json",
+    "review-batches/2026-10-30T222040Z.json",
+    "ruth/inventory.json",
+    "ruth/source-checks.json",
+    "ruth/verses.json"
+  ],
+  "publication_json_count": 70,
+  "continuation_only_folders": [
+    "1-chronicles",
+    "2-chronicles",
+    "1-maccabees",
+    "2-maccabees",
+    "ezra",
+    "nehemiah",
+    "esther",
+    "job"
+  ],
+  "production_contract_file": "chapter-structure-change-contract.json",
+  "production_contract_sha256": "0851e38f9b9d3e711ea8bc45365d9b0fd167e95d5e054dad50902b9889c3cac3",
+  "transitive_inventory_production_history_files": [
+    {
+      "original_file": "before-proverbs.json",
+      "archive_file": "before-proverbs.json",
+      "sha256": "a991dce04e2537a1db6e061ea52c91db1de628309622d89352f81ad14c4bb74d"
+    },
+    {
+      "original_file": "chapter-structure-change-contract-initial.json",
+      "archive_file": "chapter-structure-change-contract-initial.json",
+      "sha256": "9c592a78946777cd810921e23db36e399410463eef07b3d1d3e66cd3dc551763"
+    },
+    {
+      "original_file": "chapter-structure-change-contract.json",
+      "archive_file": "chapter-structure-change-contract.json",
+      "sha256": "0851e38f9b9d3e711ea8bc45365d9b0fd167e95d5e054dad50902b9889c3cac3"
+    },
+    {
+      "original_file": "chapter-structure-independent-amendment-check.json",
+      "archive_file": "chapter-structure-independent-amendment-check.json",
+      "sha256": "19ec0898e619497f9939af57a7d93c0f42511aad5a2d1eddab72e9a063f6f819"
+    },
+    {
+      "original_file": "chapter-structure-independent-final-audit.json",
+      "archive_file": "chapter-structure-independent-final-audit.json",
+      "sha256": "f1eab2c1a5cfbd4612b1f480fbb3ecce5a807731668ca5198b2d09d8a1242bf7"
+    },
+    {
+      "original_file": "inventory-proverbs-receipt.json",
+      "archive_file": "inventory-proverbs-receipt.json",
+      "sha256": "2d7bd364e175bb33de6e20803186419acaa7b947e664cb12e84ab88556611b0b"
+    },
+    {
+      "original_file": "production-changes/scripts/chapter_structure.py",
+      "archive_file": "chapter_structure.py",
+      "sha256": "c9103c70e8e2e182cb57225a476f4bf2129abb127f875cece6d02ef4ec098fd0"
+    },
+    {
+      "original_file": "production-changes/scripts/render_books.py",
+      "archive_file": "render_books.py",
+      "sha256": "2bf0cad432b3d2b1d90de636e5f58ae6cfdcc453d8b4036c5dc406ca48d72177"
+    },
+    {
+      "original_file": "production-changes/scripts/validate.py",
+      "archive_file": "validate.py",
+      "sha256": "8e6d0e7f5bd45097dcabb9b4805b66d32d29e97de0cdaa159b0c791cb2d46dbe"
+    },
+    {
+      "original_file": "production-changes-history/render_books-before-completion-label-fix.py",
+      "archive_file": "render_books-before-completion-label-fix.py",
+      "sha256": "772df49a99fc61b2343657bbf749100e6053c6d323bd7024e69e0c08113df67d"
+    },
+    {
+      "original_file": "proverbs-inventory-check.json",
+      "archive_file": "proverbs-inventory-check.json",
+      "sha256": "2d7bd364e175bb33de6e20803186419acaa7b947e664cb12e84ab88556611b0b"
+    },
+    {
+      "original_file": "proverbs-inventory.json",
+      "archive_file": "proverbs-inventory.json",
+      "sha256": "2f0416c8c9c045e1df6297a57c3531e222eb50946168366e36f1f11d7aff0887"
+    },
+    {
+      "original_file": "proverbs-mcp-source-metadata.json",
+      "archive_file": "proverbs-mcp-source-metadata.json",
+      "sha256": "4e3aaeb3356df356fa8e9256d8b93cfcfae413620e0fa7ab78a247df3061bc3b"
+    },
+    {
+      "original_file": "proverbs-pinned-source-headers.json",
+      "archive_file": "proverbs-pinned-source-headers.json",
+      "sha256": "8f8ce40abf212e3e100a54013a678009758254d99d086140c09202b94b89b8df"
+    },
+    {
+      "original_file": "proverbs-pinned-source.json",
+      "archive_file": "proverbs-pinned-source.json",
+      "sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c"
+    },
+    {
+      "original_file": "proverbs-seed.json",
+      "archive_file": "proverbs-seed.json",
+      "sha256": "a991dce04e2537a1db6e061ea52c91db1de628309622d89352f81ad14c4bb74d"
+    },
+    {
+      "original_file": "psalms-136-151-author-pin-proverbs-headers.json",
+      "archive_file": "psalms-136-151-author-pin-proverbs-headers.json",
+      "sha256": "d638dc1ee90074b03e4880e8091ff7c0397982b8d5e980d1cb3e42f20d6ca204"
+    },
+    {
+      "original_file": "psalms-136-151-author-pin-proverbs.json",
+      "archive_file": "psalms-136-151-author-pin-proverbs.json",
+      "sha256": "4a71c007b9a1b1bf8063977f6e09a8167aff458ddb81692dd424c109687f5f9c"
+    }
+  ],
+  "all_three_extra_target_raw_headers_checked": true,
+  "durable_transaction_tail_identical": true,
+  "durable_transaction_tail_sha256": "f23f4d096325a90fe4d7f8341c5503171a774b0e48103466a5a34be6115e7822",
+  "negative_checks_passed": [
+    "partial split chapter 24 source section 24",
+    "partial split chapter 24 source section 26",
+    "partial split chapter 30 source section 25",
+    "partial split chapter 30 source section 27",
+    "partial split chapter 31 source section 28",
+    "partial split chapter 31 source section 34",
+    "missing unavailable_reference_hints_file",
+    "missing unavailable_reference_hints_sha256",
+    "non-list direct hints {}",
+    "non-list direct hints ''",
+    "non-list direct hints None",
+    "empty list with orphan binding",
+    "wrong direct hint hash",
+    "inline list differs from bound hint",
+    "reject target_body_read override within bound-bundle flag test",
+    "reject target_body_available_in_current_reference_cache override within bound-bundle flag test",
+    "reject completed_source_credit override within bound-bundle flag test",
+    "reject completed_pair_credit override within bound-bundle flag test",
+    "reject read_candidate_credit override within bound-bundle flag test",
+    "reject retained override within bound-bundle flag test",
+    "reject identity_resolved override within bound-bundle flag test",
+    "reject target_text override within bound-bundle flag test",
+    "conflicting target locator aliases",
+    "unread hint included in retained rows"
+  ],
+  "unread_hints_preserved_verbatim": true,
+  "root_unread_hints": 1,
+  "local_unread_hint_counts": {
+    "Psalms": 1,
+    "Proverbs": 0
+  },
+  "meaning_of_unavailability": "The current unread hint reports an unavailable cached body, not a verified absent source repository path.",
+  "remaining_technical_findings": [],
+  "limitation": "The complete integration/finalizer/post-write/published audits were not executed by this peer. ROOT must execute them after every semantic peer receipt is final. Unit-level flag rejection checks mocked only the bound bundle loader; no files or semantic receipts were changed.",
+  "empty_direct_hint_fix_file": "unavailable-hint-empty-list-fix.json",
+  "empty_direct_hint_fix_sha256": "678f9964333fdfd5b7f0ca8a46e22d9d7be1b4a812be5e60da919fba752b3b97",
+  "empty_unbound_hint_list_accepted": true,
+  "all_four_actual_author_hint_declarations_checked": true
+}
