@@ -924,7 +924,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The named Azor–Zadok–Achim–Eliud succession remains unestablished elsewhere; no similar-name identity is inferred. This remains deferred with zero credit."
+          "deferral_reason": "The exact Azor–Zadok–Achim–Eliud chain was reread with the preceding and following generations. Its people are not identified through isolated similar names in other genealogies; the chain remains without a retained particular counterpart."
         },
         {
           "reference": "Matthew 1:15",
@@ -934,7 +934,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The Eliud–Eleazar–Matthan–Jacob chain remains distinct from other pedigrees; adjacent Joseph language does not identify these ancestors. This remains deferred with zero credit."
+          "deferral_reason": "The Eliud–Eleazar–Matthan–Jacob succession remains the stated succession. The following Joseph link supplies local narrative context but does not independently identify these otherwise unestablished ancestors."
         },
         {
           "reference": "Matthew 1:16",
@@ -7414,7 +7414,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The left-hand/right-hand secrecy hyperbole remains unmatched; its immediate grammatical purpose in6:4 does not supply a separate precise image. This remains deferred with zero credit."
+          "deferral_reason": "The immediately following purpose of secret almsgiving was reconsidered. It explains the local instruction, but no further concrete comparison for the left-hand/right-hand image is retained; no literal bodily ignorance or secret-keeping mechanism is invented."
         },
         {
           "reference": "Matthew 6:4",
@@ -7981,10 +7981,63 @@
           "id": "v6-17",
           "text": "But you, when fasting, anoint your head and wash your face,",
           "display_text": "But you, when fasting, anoint your head and wash your face,",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. Ruth3:3 was freshly read and shares washing/anointing instructions, but prepares an encounter at the threshing floor rather than concealed fasting. Ordinary grooming alone does not closely illuminate this particular fasting instruction; no pair is retained. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-6-17__2-samuel-12-20-12-23",
+              "target": "2 Samuel 12:20–12:23",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "Matthew tells a person who is fasting to wash and anoint so the fast is not displayed. David washes and anoints after the death that ends his fast, and the servants question that change. The same grooming acts have different relations to fasting; David is not represented as following the instruction to conceal a continuing fast.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "53d95a2573f7e9e80a82f3ec8c14ab77c0e2949f6216172f4a1717079da223a5",
+              "source_complete_text_sha256": "53d95a2573f7e9e80a82f3ec8c14ab77c0e2949f6216172f4a1717079da223a5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-samuel/verses.json",
+                "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-samuel.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Samuel 12:20",
+                  "id": "v12-20",
+                  "text": "David rose from the ground, washed, anointed himself, and changed his clothes. He entered God’s house and bowed down to Him. Then he entered his own house and asked for bread to eat; they set bread before him, and he ate.",
+                  "text_sha256": "d7b097a6baac6d11a109239b9b23b81c3537e559e12ea54e6f88a201b2aa8eff",
+                  "complete_text_sha256": "d7b097a6baac6d11a109239b9b23b81c3537e559e12ea54e6f88a201b2aa8eff"
+                },
+                {
+                  "reference": "2 Samuel 12:21",
+                  "id": "v12-21",
+                  "text": "His servants said to him, “What is this that you have done? While the child was still alive, you fasted and wept and kept vigil, but when the child died, you rose and ate bread and drank.”",
+                  "text_sha256": "538461ffb5fada7603238355f1ce036064944899b52f1f725ca8a50e85f49bf3",
+                  "complete_text_sha256": "538461ffb5fada7603238355f1ce036064944899b52f1f725ca8a50e85f49bf3"
+                },
+                {
+                  "reference": "2 Samuel 12:22",
+                  "id": "v12-22",
+                  "text": "David said, “While the child was still alive, I fasted and wept, because I said, ‘Who knows whether the Lord will have mercy on me and the child will live?’",
+                  "text_sha256": "78f8e584ca752e523d2ebf08f876dfdd43a1f42e8a484b7e67a7d23710d2fe03",
+                  "complete_text_sha256": "78f8e584ca752e523d2ebf08f876dfdd43a1f42e8a484b7e67a7d23710d2fe03"
+                },
+                {
+                  "reference": "2 Samuel 12:23",
+                  "id": "v12-23",
+                  "text": "But now he has died. Why should I fast? Can I bring him back again? I will go to him, but he will not return to me.”",
+                  "text_sha256": "85a52e747ad129071bc53935c2b191ef817f009717f4cf736cf076b8cdd829c2",
+                  "complete_text_sha256": "85a52e747ad129071bc53935c2b191ef817f009717f4cf736cf076b8cdd829c2"
+                }
+              ],
+              "target_passage_sha256": "e44e698edeba851a37328a6caab1135d2a4514170764c79016e2f561bdb1b5e4",
+              "target_passage_complete_sha256": "e44e698edeba851a37328a6caab1135d2a4514170764c79016e2f561bdb1b5e4",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 6:18",
@@ -10010,10 +10063,56 @@
           "id": "v8-1",
           "text": "When He came down from the mountain, great crowds followed Him.",
           "display_text": "When He came down from the mountain, great crowds followed Him.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. Descent from this mountain and the following crowds remain a transition here, not proof of identity with another crowd scene. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-8-1__luke-6-17-6-19",
+              "target": "Luke 6:17–6:19",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both accounts place Jesus' descent alongside a large crowd. Matthew places the descent after the preceding discourse; Luke places it after the mountain selection of the Twelve and before the ensuing teaching. The comparison preserves the different sequence and does not identify the mountain, level place or crowds as one historical scene.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "5d620db45b34f1085d1aa6d23a4aec4b9b23965c0658bbf16a7ac325db032f1b",
+              "source_complete_text_sha256": "5d620db45b34f1085d1aa6d23a4aec4b9b23965c0658bbf16a7ac325db032f1b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 6:17",
+                  "id": "v6-17",
+                  "text": "He came down with them and stood on a level place. There was a large crowd of His disciples and a great multitude of the people from all Judea, Jerusalem, and the coastal region of Tyre and Sidon.",
+                  "text_sha256": "95bdc430135aab5bd5bb536716fa37d3fc8690ed00785f295e3cbd82af0d682b",
+                  "complete_text_sha256": "95bdc430135aab5bd5bb536716fa37d3fc8690ed00785f295e3cbd82af0d682b"
+                },
+                {
+                  "reference": "Luke 6:18",
+                  "id": "v6-18",
+                  "text": "They had come to hear Him and be healed of their diseases; those troubled by unclean spirits were also healed.",
+                  "text_sha256": "21856ef50a9f36034d86e064102c0e855e7347a9f9a1d279b7454c4a1c7366ac",
+                  "complete_text_sha256": "21856ef50a9f36034d86e064102c0e855e7347a9f9a1d279b7454c4a1c7366ac"
+                },
+                {
+                  "reference": "Luke 6:19",
+                  "id": "v6-19",
+                  "text": "The whole crowd sought to touch Him, because power went out from Him and healed everyone.",
+                  "text_sha256": "2dfdea64fc0c0af9a1132271ec4b7a86802a7ea659e60186ae968f1b83cc0d6e",
+                  "complete_text_sha256": "2dfdea64fc0c0af9a1132271ec4b7a86802a7ea659e60186ae968f1b83cc0d6e"
+                }
+              ],
+              "target_passage_sha256": "26e52b3d0b4a46f64aaa4199fc052710ced9edee8181d768ce069d12368aa2d5",
+              "target_passage_complete_sha256": "26e52b3d0b4a46f64aaa4199fc052710ced9edee8181d768ce069d12368aa2d5",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 8:2",
@@ -11500,7 +11599,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 9,
@@ -19845,7 +19944,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The risk of uprooting wheat during premature removal remains more specific than the later plant identities and final harvest. This remains deferred with zero credit."
+          "deferral_reason": "The following wait-until-harvest instruction was reread with the risk of uprooting wheat. A general patience comparison would not supply the particular danger to wheat, and no unspoken historical weed-removal policy is assigned to the image."
         },
         {
           "reference": "Matthew 13:30",
@@ -21927,10 +22026,42 @@
           "id": "v14-18",
           "text": "He said, “Bring them here to Me.”",
           "display_text": "He said, “Bring them here to Me.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The command to bring the loaves to Jesus is not established simply by shared counting or distribution in feeding accounts. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-14-18__john-21-10",
+              "target": "John 21:10",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Jesus requests that food be brought before the ensuing meal in both scenes. Matthew refers back to the five loaves and two fish; John requests some newly caught fish. The crowd meal and shore breakfast, amounts and food origins remain distinct, and neither command is independently attested by the other.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "ed0c2833c1b4a1223dfcc0d010f872973eb78c2a6ea613141197b87cd501c7c9",
+              "source_complete_text_sha256": "ed0c2833c1b4a1223dfcc0d010f872973eb78c2a6ea613141197b87cd501c7c9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 21:10",
+                  "id": "v21-10",
+                  "text": "Jesus says to them, “Bring some of the fish that you have just caught.”",
+                  "text_sha256": "00f07722fe78a3ab0f38aa20252f172604e0c25c04c7f9ba4ca8007f32936354",
+                  "complete_text_sha256": "00f07722fe78a3ab0f38aa20252f172604e0c25c04c7f9ba4ca8007f32936354"
+                }
+              ],
+              "target_passage_sha256": "0ac731a4eff24c03fe7a00861e4f272e29a883fdc21c63cb1afb168752f8b7ec",
+              "target_passage_complete_sha256": "0ac731a4eff24c03fe7a00861e4f272e29a883fdc21c63cb1afb168752f8b7ec",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 14:19",
@@ -22353,17 +22484,49 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. Peter's conditional request to be commanded onto the waters is not supplied by his later recognition from a boat. This remains deferred with zero credit."
+          "deferral_reason": "The conditional identity clause and request for a command remain distinct from the actual water-walk that follows. Job9:8 illuminates the following sea-walking action but does not supply Peter's particular conditional request here."
         },
         {
           "reference": "Matthew 14:29",
           "id": "v14-29",
           "text": "He said, “Come.” Peter got down from the boat, walked upon the waters, and came toward Jesus.",
           "display_text": "He said, “Come.” Peter got down from the boat, walked upon the waters, and came toward Jesus.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. Peter actually walking toward Jesus remains different from jumping into the sea; no water-walking claim is imported into John. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-14-29__job-9-8",
+              "target": "Job 9:8",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "Peter walks upon the waters after Jesus commands him to come; Job describes God alone walking upon the sea as on ground. The particular sea-walking image is shared, while divine sovereignty and the dependent disciple remain distinct. Job does not independently narrate Peter or make him the sole divine walker.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "668985695cbe729b018bc696b758c992fbe29290e5d89687bdff32d73b90ddb4",
+              "source_complete_text_sha256": "668985695cbe729b018bc696b758c992fbe29290e5d89687bdff32d73b90ddb4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/job.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 9:8",
+                  "id": "v9-8",
+                  "text": "He alone stretched out heaven and walks on the sea as on ground.",
+                  "text_sha256": "c22f5f5fe04ed78841c695d74db8880431ccf39721ca2ffd90f0fcba4465697a",
+                  "complete_text_sha256": "c22f5f5fe04ed78841c695d74db8880431ccf39721ca2ffd90f0fcba4465697a"
+                }
+              ],
+              "target_passage_sha256": "9ed80b0eb44126f4d5b036ede02c23a05d0ea5fb3d68eba9e65468573551a16d",
+              "target_passage_complete_sha256": "9ed80b0eb44126f4d5b036ede02c23a05d0ea5fb3d68eba9e65468573551a16d",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 14:30",
@@ -23650,7 +23813,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The silence and disciples' dismissal request are the distinctive actions here; the broader woman-healing parallel does not repeat them. This remains deferred with zero credit."
+          "deferral_reason": "Silence and the disciples' dismissal request were reconsidered separately from the eventual healing. Neither a general silence nor a generic dismissal reproduces this combination and its narrated speakers; no motive is supplied for Jesus' silence."
         },
         {
           "reference": "Matthew 15:24",
@@ -26571,7 +26734,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The collector's question about didrachmas still does not establish an equivalence with the differently worded census levy. This remains deferred with zero credit."
+          "deferral_reason": "The didrachma collectors' question is preserved in its own currency wording. No independent levy amount, universal census-tax identity or unstated administrative requirement is inferred from a differently worded levy."
         },
         {
           "reference": "Matthew 17:25",
@@ -26581,7 +26744,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The kings' sons/strangers question is a distinct analogy; tax vocabulary alone does not reproduce its reasoning. This remains deferred with zero credit."
+          "deferral_reason": "The royal sons/strangers question was reread with its immediate answer. That supplies the local analogy but not a further particular royal-tax comparison; no modern or ancient tax exemption is reconstructed beyond the text."
         },
         {
           "reference": "Matthew 17:26",
@@ -26591,7 +26754,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The sons' exemption follows the preceding royal-tax distinction, which is not interchangeable with generic spiritual freedom. This remains deferred with zero credit."
+          "deferral_reason": "The sons' freedom is kept as the conclusion of the stated royal-tax distinction. General spiritual-freedom passages would change the point, and the immediately preceding question is not retained merely as another duplicate explanation of the same local exchange."
         },
         {
           "reference": "Matthew 17:27",
@@ -27955,7 +28118,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The fellow slaves' grief and detailed report are not reproduced by a generic grief or reporting notice elsewhere. This remains deferred with zero credit."
+          "deferral_reason": "The fellow slaves' grief and report were followed into the master's response. The exact reporting action has not acquired a further useful counterpart; generic report-and-response sequences would add little."
         },
         {
           "reference": "Matthew 18:32",
@@ -28546,10 +28709,49 @@
           "id": "v19-10",
           "text": "His disciples said to Him, “If this is the situation of the man with the wife, it is better not to marry.”",
           "display_text": "His disciples said to Him, “If this is the situation of the man with the wife, it is better not to marry.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The disciples' negative reaction to the marriage ruling remains their reaction, distinct from qualified apostolic marriage advice. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-19-10__1-corinthians-7-8-7-9",
+              "target": "1 Corinthians 7:8–7:9",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "The disciples react to the marriage ruling by saying it is better not to marry. Paul advises unmarried people and widows about remaining as he is, while qualifying the advice where self-control is lacking. This compares particular assessments of unmarried life without converting the disciples' reaction into Jesus' command or erasing Paul's qualifications.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "09267af77c2e239a737ba173de089d8b569db0848f63075f2adfca854245d564",
+              "source_complete_text_sha256": "09267af77c2e239a737ba173de089d8b569db0848f63075f2adfca854245d564",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-corinthians/verses.json",
+                "blob_sha": "5b11184ef872b9480dc4a1e7b63b078173f85545",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-corinthians/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-corinthians.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Corinthians 7:8",
+                  "id": "v7-8",
+                  "text": "Now I say to the unmarried and the widows: it is good for them if they remain as I am.",
+                  "text_sha256": "ae4ebae18686318005c0d5d6673bc539b404c89b1cec11bf06431fa1cc12cdb7",
+                  "complete_text_sha256": "ae4ebae18686318005c0d5d6673bc539b404c89b1cec11bf06431fa1cc12cdb7"
+                },
+                {
+                  "reference": "1 Corinthians 7:9",
+                  "id": "v7-9",
+                  "text": "But if they do not exercise self-control, let them marry, for it is better to marry than to burn.",
+                  "text_sha256": "8bf702ea9348ca27f48b04911a86ba728cfcf447ffee28a3e3cfcac55db8709e",
+                  "complete_text_sha256": "8bf702ea9348ca27f48b04911a86ba728cfcf447ffee28a3e3cfcac55db8709e"
+                }
+              ],
+              "target_passage_sha256": "a9fc2fd48872dd1cf8ca3a780a0b136da2340125117468ef25827ac56df69100",
+              "target_passage_complete_sha256": "a9fc2fd48872dd1cf8ca3a780a0b136da2340125117468ef25827ac56df69100",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 19:11",
@@ -29441,7 +29643,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 20,
@@ -33517,7 +33719,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The king's discovery of a guest without wedding clothing does not establish an allegorical identity for that clothing. This remains deferred with zero credit."
+          "deferral_reason": "The king's discovery and the ensuing garment question were reread. No new identity for the required clothing or for this individual guest is established, and a generic clothing comparison is not retained."
         },
         {
           "reference": "Matthew 22:12",
@@ -33527,7 +33729,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The garment question and speechlessness remain a distinct exchange; unrelated silence does not explain its object. This remains deferred with zero credit."
+          "deferral_reason": "The missing garment and speechless reply remain the particular exchange. The preceding discovery provides local context but does not explain an unstated reason for silence or supply a separate supported clothing interpretation."
         },
         {
           "reference": "Matthew 22:13",
@@ -33576,10 +33778,77 @@
           "id": "v22-14",
           "text": "For many are called, but few chosen.”",
           "display_text": "For many are called, but few chosen.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The many-called/few-chosen numerical contrast is not supplied by merely sharing called/chosen vocabulary. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-22-14__luke-13-23-13-28",
+              "target": "Luke 13:23–13:28",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "Matthew closes the feast account with many called and few chosen. Luke records a question about few being saved, followed by Jesus' warning that many will seek entry and not be able. Both confront restricted admission despite approach or invitation; Luke is not made a quotation of called/chosen terminology or a statistical salvation rate.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "209e50bf9f91d2a963b7b26dc21a90eaafbde7224cd37c168c1af1c99273de93",
+              "source_complete_text_sha256": "209e50bf9f91d2a963b7b26dc21a90eaafbde7224cd37c168c1af1c99273de93",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 13:23",
+                  "id": "v13-23",
+                  "text": "Someone said to Him, “Lord, are those who are being saved few?” And He said to them,",
+                  "text_sha256": "bd299bd6ceccc5c4067b60fdfaa611ffe8ce2fafb58b890e0a579fa2daed0eae",
+                  "complete_text_sha256": "bd299bd6ceccc5c4067b60fdfaa611ffe8ce2fafb58b890e0a579fa2daed0eae"
+                },
+                {
+                  "reference": "Luke 13:24",
+                  "id": "v13-24",
+                  "text": "“Strive to enter through the narrow door, because many, I tell you, will seek to enter and will not be able,",
+                  "text_sha256": "2ff380362e27f6db6dc9161f77df01b87f65ccf2b378cb2d6c22386eca9a0e57",
+                  "complete_text_sha256": "2ff380362e27f6db6dc9161f77df01b87f65ccf2b378cb2d6c22386eca9a0e57"
+                },
+                {
+                  "reference": "Luke 13:25",
+                  "id": "v13-25",
+                  "text": "once the master of the house rises and shuts the door. Then you will begin to stand outside and knock at the door, saying, ‘Lord, open to us!’ And he will answer you, ‘I do not know you or where you come from.’",
+                  "text_sha256": "9e4bfb56f2708a0afafa9e78e05c1028c408604badc066a66779be654e562d84",
+                  "complete_text_sha256": "9e4bfb56f2708a0afafa9e78e05c1028c408604badc066a66779be654e562d84"
+                },
+                {
+                  "reference": "Luke 13:26",
+                  "id": "v13-26",
+                  "text": "Then you will begin to say, ‘We ate and drank in your presence, and you taught in our streets.’",
+                  "text_sha256": "eb6f9a085bf7773da9f4a925a6a092929242bd7e4ca92e954b500569ac38ee4d",
+                  "complete_text_sha256": "eb6f9a085bf7773da9f4a925a6a092929242bd7e4ca92e954b500569ac38ee4d"
+                },
+                {
+                  "reference": "Luke 13:27",
+                  "id": "v13-27",
+                  "text": "And he will say to you, ‘I do not know you or where you come from. Depart from me, all you workers of unrighteousness!’",
+                  "text_sha256": "b29bd2fee8941337db6c476a1a32ff58b231e29e7441073af166510746b66e16",
+                  "complete_text_sha256": "b29bd2fee8941337db6c476a1a32ff58b231e29e7441073af166510746b66e16"
+                },
+                {
+                  "reference": "Luke 13:28",
+                  "id": "v13-28",
+                  "text": "There will be weeping and grinding of teeth there, when you see Abraham and Isaac and Jacob and all the prophets in the kingdom of God, but yourselves being thrown outside.",
+                  "text_sha256": "c5c312e209f5c003c044e7392a2786f3c850c98ec87ed6629703205a90f2fdfd",
+                  "complete_text_sha256": "c5c312e209f5c003c044e7392a2786f3c850c98ec87ed6629703205a90f2fdfd"
+                }
+              ],
+              "target_passage_sha256": "ac42e0cf8588e7b9eaea84392456b87b906b479dd5bd9ec0c37766e85ea8ae0a",
+              "target_passage_complete_sha256": "ac42e0cf8588e7b9eaea84392456b87b906b479dd5bd9ec0c37766e85ea8ae0a",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 22:15",
@@ -35034,7 +35303,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. Occupying Moses' chair remains a particular claim about these authorities; general legal authority does not identify that chair. This remains deferred with zero credit."
+          "deferral_reason": "Moses' chair remains the specific authority image in this utterance. General Moses or judicial-seat notices do not identify a physical artifact or fully establish this particular scribal claim."
         },
         {
           "reference": "Matthew 23:3",
@@ -35352,7 +35621,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The one-Guide prohibition is more specific than broad teaching or shepherding roles; no unverified title equivalence is asserted. This remains deferred with zero credit."
+          "deferral_reason": "The one Guide is explicitly the Christ. General teacher or shepherd texts do not establish equivalence of those titles or reproduce this prohibition, so no new title or role identity is asserted."
         },
         {
           "reference": "Matthew 23:11",
@@ -35488,7 +35757,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The travel, proselyte-making and twice-Gehenna indictment remain a distinctive combination, not generic condemnation. This remains deferred with zero credit."
+          "deferral_reason": "Sea-and-land travel, one proselyte and the twice-as-much Gehenna charge were reread together. None of these particular quantities or this indictment is supplied from a general missionary or condemnation text."
         },
         {
           "reference": "Matthew 23:16",
@@ -35554,7 +35823,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The sanctuary sanctifying gold is the particular ranking at issue, not simply a general statement of consecration. This remains deferred with zero credit."
+          "deferral_reason": "The sanctuary's sanctifying of the gold remains the actual comparison. Descriptions of precious temple materials alone do not state that hierarchy, and no unrelated consecration rule is substituted."
         },
         {
           "reference": "Matthew 23:18",
@@ -35655,7 +35924,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The inclusion of everything on the altar in an oath remains different from merely declaring an altar holy. This remains deferred with zero credit."
+          "deferral_reason": "The oath includes the altar and everything upon it. A general holy-altar statement would not establish the scope of this oath; no broader oath practice is reconstructed."
         },
         {
           "reference": "Matthew 23:21",
@@ -37009,10 +37278,70 @@
           "id": "v24-12",
           "text": "Because lawlessness increases, the love of many will grow cold.",
           "display_text": "Because lawlessness increases, the love of many will grow cold.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The stated causal movement from increasing lawlessness to cold love remains distinct from broad wrongdoing or lovelessness lists. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-24-12__2-timothy-3-1-3-5",
+              "target": "2 Timothy 3:1–3:5",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "Both warnings associate a coming moral deterioration with damaged love. Matthew explicitly makes increasing lawlessness the cause of love growing cold; Second Timothy describes the last days through wrongdoing and disordered or absent love. The specific causal clause belongs to Matthew and is not inserted into Timothy, nor are the settings assigned one calculated date.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "f2be22d8fb39cf9cf835aa0b77f3fa4024688afe0dd0242d5a83ea7f67be7f9d",
+              "source_complete_text_sha256": "f2be22d8fb39cf9cf835aa0b77f3fa4024688afe0dd0242d5a83ea7f67be7f9d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-timothy/verses.json",
+                "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-timothy/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-timothy.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Timothy 3:1",
+                  "id": "v3-1",
+                  "text": "But know this: in the last days difficult times will come.",
+                  "text_sha256": "ae555180cce581241c217ae138bbc52bc31acbba336177bb4d9ff9d6fd6021f7",
+                  "complete_text_sha256": "ae555180cce581241c217ae138bbc52bc31acbba336177bb4d9ff9d6fd6021f7"
+                },
+                {
+                  "reference": "2 Timothy 3:2",
+                  "id": "v3-2",
+                  "text": "For people will be lovers of themselves, lovers of money, boastful, arrogant, blasphemous, disobedient to parents, ungrateful, unholy,",
+                  "text_sha256": "063c237d9ad25b268016ee97ab8c4a90f4adf9266c8520abf76369962ff88c80",
+                  "complete_text_sha256": "063c237d9ad25b268016ee97ab8c4a90f4adf9266c8520abf76369962ff88c80"
+                },
+                {
+                  "reference": "2 Timothy 3:3",
+                  "id": "v3-3",
+                  "text": "without natural affection, irreconcilable, slanderers, without self-control, savage, not loving the good,",
+                  "text_sha256": "c5e7ae90240f4edd5ebded1732002528837b8aeed31dfb866e0bafdb27631f14",
+                  "complete_text_sha256": "c5e7ae90240f4edd5ebded1732002528837b8aeed31dfb866e0bafdb27631f14"
+                },
+                {
+                  "reference": "2 Timothy 3:4",
+                  "id": "v3-4",
+                  "text": "traitors, reckless, conceited, lovers of pleasure rather than lovers of God,",
+                  "text_sha256": "c3ea031dee8ad2c3403623e712ceb162b326e1458e27b0fa1807cd932187463b",
+                  "complete_text_sha256": "c3ea031dee8ad2c3403623e712ceb162b326e1458e27b0fa1807cd932187463b"
+                },
+                {
+                  "reference": "2 Timothy 3:5",
+                  "id": "v3-5",
+                  "text": "having a form of godliness but denying its power. Turn away from these also.",
+                  "text_sha256": "ede868703345f2abd9c10503ef414b02223be1c1b2bf354eac4cee7972236b7d",
+                  "complete_text_sha256": "ede868703345f2abd9c10503ef414b02223be1c1b2bf354eac4cee7972236b7d"
+                }
+              ],
+              "target_passage_sha256": "d7e93f779c938ff19d4e0a8a12016f392b459a9de219937df3124872d6368cd5",
+              "target_passage_complete_sha256": "d7e93f779c938ff19d4e0a8a12016f392b459a9de219937df3124872d6368cd5",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 24:13",
@@ -38724,7 +39053,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 25,
@@ -38790,7 +39119,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The five/five allocation remains a numerical division, not established by generic wisdom and foolishness contrasts. This remains deferred with zero credit."
+          "deferral_reason": "The five/five division was reread with the different preparations of the two groups. The local explanation does not supply a separate numerical counterpart, and no oil identity or population statistic is inferred."
         },
         {
           "reference": "Matthew 25:3",
@@ -38968,7 +39297,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The arising and preparation of these lamps remains a particular action rather than a generic awakening/light motif. This remains deferred with zero credit."
+          "deferral_reason": "All the virgins' arising and putting lamps in order remains the particular response to the cry. Generic rising or lighting passages do not establish this group's action or identify the wedding lamps as a particular sanctuary implement."
         },
         {
           "reference": "Matthew 25:8",
@@ -38978,7 +39307,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The request to share oil because the lamps fail remains particular; no identity for oil or unrelated sharing rule is supplied. This remains deferred with zero credit."
+          "deferral_reason": "The failing lamps and request for shared oil remain specific. No allegorical identity for the oil or a general command to share is used to override the parable's described exchange."
         },
         {
           "reference": "Matthew 25:9",
@@ -38988,7 +39317,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The supply objection and direction to buy remain specific parable details, without a precise separate counterpart. This remains deferred with zero credit."
+          "deferral_reason": "The sufficient-supply concern and instruction to buy were reread with the ensuing late return. A generic purchase or refusal would not supply this particular readiness problem; no moral rule against sharing is invented."
         },
         {
           "reference": "Matthew 25:10",
@@ -39975,10 +40304,91 @@
           "id": "v25-33",
           "text": "He will stand the sheep at His right and the young goats at His left.",
           "display_text": "He will stand the sheep at His right and the young goats at His left.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The particular right/left allocation is not stated by a general sheep/goat or flock-separation image. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-25-33__matthew-25-34-25-41",
+              "target": "Matthew 25:34–25:41",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "The following addresses identify the meaning of the parable's right/left placement: those at the right are invited to inherit the kingdom, while those at the left are told to depart. This is the same discourse's explicit interpretation of its allocated sides, not an independent sheep-and-goat event or a new meaning for every animal detail.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "45eb3991551a4741a385974eb5f3467bbacd8277da5c50c46df872cd83c22032",
+              "source_complete_text_sha256": "45eb3991551a4741a385974eb5f3467bbacd8277da5c50c46df872cd83c22032",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "matthew/verses.json",
+                "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Matthew 25:34",
+                  "id": "v25-34",
+                  "text": "Then the King will say to those at His right, ‘Come, you blessed by My Father; inherit the kingdom prepared for you from the foundation of the world.",
+                  "text_sha256": "fb77d4c1d832e2dd790eec9ba9a6017618e87d17e450dcd71ba9f1b89351ceca",
+                  "complete_text_sha256": "fb77d4c1d832e2dd790eec9ba9a6017618e87d17e450dcd71ba9f1b89351ceca"
+                },
+                {
+                  "reference": "Matthew 25:35",
+                  "id": "v25-35",
+                  "text": "For I was hungry and you gave Me food, I was thirsty and you gave Me drink, I was a stranger and you welcomed Me,",
+                  "text_sha256": "d6a8366d6307239224fccac59cfcdaca228917f1f39fe80db995f281861b9599",
+                  "complete_text_sha256": "d6a8366d6307239224fccac59cfcdaca228917f1f39fe80db995f281861b9599"
+                },
+                {
+                  "reference": "Matthew 25:36",
+                  "id": "v25-36",
+                  "text": "naked and you clothed Me, I was sick and you visited Me, I was in prison and you came to Me.’",
+                  "text_sha256": "f467462a2da0bb1c9d552331747a79a56eb673e74c9ff866e04c4034de2fe794",
+                  "complete_text_sha256": "f467462a2da0bb1c9d552331747a79a56eb673e74c9ff866e04c4034de2fe794"
+                },
+                {
+                  "reference": "Matthew 25:37",
+                  "id": "v25-37",
+                  "text": "Then the righteous will answer Him, ‘Lord, when did we see Thee hungry and feed Thee, or thirsty and give Thee drink?",
+                  "text_sha256": "6a82d76d35cc497513db3e609c94418478700cd5e044b57be194ec0f52b1a30a",
+                  "complete_text_sha256": "6a82d76d35cc497513db3e609c94418478700cd5e044b57be194ec0f52b1a30a"
+                },
+                {
+                  "reference": "Matthew 25:38",
+                  "id": "v25-38",
+                  "text": "When did we see Thee a stranger and welcome Thee, or naked and clothe Thee?",
+                  "text_sha256": "cf6c37bbf33839dc22e1609a441eddde9f9b9c5e3a527931cc1bece1d9f69caa",
+                  "complete_text_sha256": "cf6c37bbf33839dc22e1609a441eddde9f9b9c5e3a527931cc1bece1d9f69caa"
+                },
+                {
+                  "reference": "Matthew 25:39",
+                  "id": "v25-39",
+                  "text": "When did we see Thee sick or in prison and come to Thee?’",
+                  "text_sha256": "acdd8903d76568c59b1bb6fbf95b2b287715a7468897034949cce97cda957d06",
+                  "complete_text_sha256": "acdd8903d76568c59b1bb6fbf95b2b287715a7468897034949cce97cda957d06"
+                },
+                {
+                  "reference": "Matthew 25:40",
+                  "id": "v25-40",
+                  "text": "The King will answer them, ‘Truly I tell you, insofar as you did it to one of the least of these My brothers, you did it to Me.’",
+                  "text_sha256": "a95d5bbc2d7e4c1466ff5c4c8638e94bbe5921cdb6d23ca7d946219070cf5c1d",
+                  "complete_text_sha256": "a95d5bbc2d7e4c1466ff5c4c8638e94bbe5921cdb6d23ca7d946219070cf5c1d"
+                },
+                {
+                  "reference": "Matthew 25:41",
+                  "id": "v25-41",
+                  "text": "Then He will also say to those at His left, ‘Depart from Me, you cursed, into the eternal fire prepared for the devil and his angels.",
+                  "text_sha256": "cbef2a322d6140856bed9c2947bb88828865961baad2396b6dd8ccad25d87f21",
+                  "complete_text_sha256": "cbef2a322d6140856bed9c2947bb88828865961baad2396b6dd8ccad25d87f21"
+                }
+              ],
+              "target_passage_sha256": "c25ffc0edc356ea819bd71fdbcb43d6188d012e7dcfd92edbf98e9c6bd3a5d75",
+              "target_passage_complete_sha256": "c25ffc0edc356ea819bd71fdbcb43d6188d012e7dcfd92edbf98e9c6bd3a5d75",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 25:34",
@@ -45402,10 +45812,42 @@
           "id": "v27-36",
           "text": "and sat there keeping watch over Him.",
           "display_text": "and sat there keeping watch over Him.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. Sitting and keeping watch is more precise than other soldiers' mere presence at the crucifixion. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-27-36__matthew-27-54",
+              "target": "Matthew 27:54",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The later account returns to the centurion and those with him guarding Jesus, describing their response to the earthquake and events. This traces the watchers introduced sitting here into their later narrated testimony. It does not independently repeat the sitting posture or identify each guard personally.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "35c4a7f3ead0e1bf6ade583e356521c565f479030402a78c006a285cda23636b",
+              "source_complete_text_sha256": "35c4a7f3ead0e1bf6ade583e356521c565f479030402a78c006a285cda23636b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "matthew/verses.json",
+                "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Matthew 27:54",
+                  "id": "v27-54",
+                  "text": "The centurion and those with him guarding Jesus saw the earthquake and what had happened, and were exceedingly afraid, saying, “Truly this was God’s Son.”",
+                  "text_sha256": "218731c1346991a4ddcb905ac7b92d776744ef4709b54fb9e4e0d6e18a6188ac",
+                  "complete_text_sha256": "218731c1346991a4ddcb905ac7b92d776744ef4709b54fb9e4e0d6e18a6188ac"
+                }
+              ],
+              "target_passage_sha256": "c686c3a438f67d8e9b42d8b2e250822ceba12de54bdc620d8a412fd06d8aa79f",
+              "target_passage_complete_sha256": "c686c3a438f67d8e9b42d8b2e250822ceba12de54bdc620d8a412fd06d8aa79f",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 27:37",
@@ -46122,7 +46564,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. These holy people's post-rising city appearances remain distinct from Jesus' appearances and general resurrection promises. This remains deferred with zero credit."
+          "deferral_reason": "The holy people's appearance in the holy city after His rising remains distinct from Jesus' own appearances. No names, additional resurrection chronology or independent matching appearance is supplied."
         },
         {
           "reference": "Matthew 27:54",
@@ -46496,7 +46938,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The particular next-day approach to Pilate remains distinct from generic chief-priest or guard notices. This remains deferred with zero credit."
+          "deferral_reason": "The next-day gathering before Pilate is kept at its stated time and with chief priests and Pharisees. A different hearing or gathering would not corroborate this approach or duplicate its particular timing."
         },
         {
           "reference": "Matthew 27:63",
@@ -46590,7 +47032,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The stated reply about a guard and securing the tomb is not reproduced by a later guard appearance. This remains deferred with zero credit."
+          "deferral_reason": "Pilate's You have a guard reply and securing instruction were reread with the sealing that follows. The later guard narrative does not repeat the reply or settle whether its wording supplies a new guard or refers to an available one."
         },
         {
           "reference": "Matthew 27:66",
@@ -46796,10 +47238,70 @@
           "id": "v28-4",
           "text": "From fear of him the guards shook and became like dead men.",
           "display_text": "From fear of him the guards shook and became like dead men.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The guards' shaking and dead-like reaction remains distinct from the women's fear of messengers. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-28-4__daniel-10-5-10-9",
+              "target": "Daniel 10:5–10:9",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both scenes associate an overwhelming reaction with an extraordinary appearing figure. Matthew says the guards shook and became like dead men; Daniel describes frightened companions and his own loss of strength and collapse. The participants, their perception and their exact reactions remain distinct; Matthew does not say the guards literally died.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "c044be1c2f55f2dcef2f3ce46374fcc17275b36ad06de9a0ae099901d28f9871",
+              "source_complete_text_sha256": "c044be1c2f55f2dcef2f3ce46374fcc17275b36ad06de9a0ae099901d28f9871",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/daniel.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 10:5",
+                  "id": "v10-5",
+                  "text": "and I lifted my eyes and saw a man clothed in fine linen, with fine linen wrapped around his waist, and light coming from his middle.",
+                  "text_sha256": "ac28fdd710137b582f4eb0cb4d6cea14f486f7154ae1dbbac8acf5803ad2981c",
+                  "complete_text_sha256": "ac28fdd710137b582f4eb0cb4d6cea14f486f7154ae1dbbac8acf5803ad2981c"
+                },
+                {
+                  "reference": "Daniel 10:6",
+                  "id": "v10-6",
+                  "text": "His body was like a tarshish stone, his face like a flash of lightning, his eyes like flaming torches, his arms and feet like flashing bronze, and the sound of his speech like the sound of an uproar.",
+                  "text_sha256": "8397d989095c394d1d36ff346adfa6802612e12863a53bdc3128f2c7d6c8423f",
+                  "complete_text_sha256": "8397d989095c394d1d36ff346adfa6802612e12863a53bdc3128f2c7d6c8423f"
+                },
+                {
+                  "reference": "Daniel 10:7",
+                  "id": "v10-7",
+                  "text": "I, Daniel, saw this great vision, but the men with me did not see it. Strong fear fell upon them, and they fled in haste.",
+                  "text_sha256": "e1918e46c35fea20a61e7d2bb1d9554800e5e677674a2c7dcb42f0d32c41feaa",
+                  "complete_text_sha256": "e1918e46c35fea20a61e7d2bb1d9554800e5e677674a2c7dcb42f0d32c41feaa"
+                },
+                {
+                  "reference": "Daniel 10:8",
+                  "id": "v10-8",
+                  "text": "I was left alone and saw this great vision. No strength remained in me; a spirit turned upon me for destruction, and I had no strength.",
+                  "text_sha256": "5798313f256dbed02563ade3815bfeca1f041b1944235ff8f45d3700acf8cc3c",
+                  "complete_text_sha256": "5798313f256dbed02563ade3815bfeca1f041b1944235ff8f45d3700acf8cc3c"
+                },
+                {
+                  "reference": "Daniel 10:9",
+                  "id": "v10-9",
+                  "text": "I did not hear the sound of his speech; I had fallen face down upon the earth.",
+                  "text_sha256": "4d787b8369426ddfc82d6068d18b34432e726b963591cfc059a2c3ad91499a35",
+                  "complete_text_sha256": "4d787b8369426ddfc82d6068d18b34432e726b963591cfc059a2c3ad91499a35"
+                }
+              ],
+              "target_passage_sha256": "2ce67c59d527816ac3c244bb3216555824b56ddf29484a2a1fbd41c1fbb224ff",
+              "target_passage_complete_sha256": "2ce67c59d527816ac3c244bb3216555824b56ddf29484a2a1fbd41c1fbb224ff",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 28:5",
@@ -47212,10 +47714,49 @@
           "id": "v28-14",
           "text": "If this is heard before the governor, we will persuade him and make you free from worry.”",
           "display_text": "If this is heard before the governor, we will persuade him and make you free from worry.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Freshly reread the complete source and neighboring context. The promised persuasion of the governor and release from worry remains distinct from generic guard liability. This remains deferred with zero credit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "matthew-28-14__acts-12-18-12-19",
+              "target": "Acts 12:18–12:19",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "Matthew records a promise to protect the guards from anxiety if their account reaches the governor. Acts reports Herod searching for Peter, examining the guards and ordering them led away for execution. This is a concrete comparison of guard accountability after a missing charge, without importing Herod's sentence into Matthew or claiming a universal Roman custody law.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "dc16c074d977d35fea70c636adb48df3dec7749915181c18f04face26db694ad",
+              "source_complete_text_sha256": "dc16c074d977d35fea70c636adb48df3dec7749915181c18f04face26db694ad",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 12:18",
+                  "id": "v12-18",
+                  "text": "When day came, there was no small disturbance among the soldiers over what had become of Peter.",
+                  "text_sha256": "86ee4a3c3c3ee375cad3f0338538887736e0a0f0433f1c7e97deca3de63219ee",
+                  "complete_text_sha256": "86ee4a3c3c3ee375cad3f0338538887736e0a0f0433f1c7e97deca3de63219ee"
+                },
+                {
+                  "reference": "Acts 12:19",
+                  "id": "v12-19",
+                  "text": "Herod searched for him and did not find him. After examining the guards, he ordered them to be led away for execution. Then he went down from Judea to Caesarea and stayed there.",
+                  "text_sha256": "8ac283dba09a3d81e672a1d91a74d371e21c1e931772a841a41e9ddb3ac93183",
+                  "complete_text_sha256": "8ac283dba09a3d81e672a1d91a74d371e21c1e931772a841a41e9ddb3ac93183"
+                }
+              ],
+              "target_passage_sha256": "26005e1d86665ba1db935bbc849288857a526a9ac69042b6348a175c41860a4b",
+              "target_passage_complete_sha256": "26005e1d86665ba1db935bbc849288857a526a9ac69042b6348a175c41860a4b",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Matthew 28:15",
@@ -47505,27 +48046,31 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     }
   ],
   "total_source_verse_units": 1068,
   "reviewed_source_units": 1068,
-  "completed_source_verses": 1033,
-  "completed_cross_references": 1066,
+  "completed_source_verses": 1044,
+  "completed_cross_references": 1077,
   "completed_chapters": [
     2,
     3,
     4,
     5,
     7,
+    8,
     9,
     10,
     11,
     12,
     16,
+    19,
     20,
     21,
-    26
+    24,
+    26,
+    28
   ],
   "reviewed_chapters": [
     1,

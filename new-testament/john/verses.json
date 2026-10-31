@@ -2559,7 +2559,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Matthew 22:1–4 was read as an actual wedding-invitation candidate. Its king, son and refusing invitees do not provide a sufficiently particular counterpart to Jesus and His disciples accepting an invitation at Cana. Shared wedding vocabulary alone is not retained, and Jesus is not made that wedding's literal bridegroom."
+          "deferral_reason": "The wedding invitation was reconsidered in its Cana setting. A parable about refusing a king's wedding invitation still does not supply a particular counterpart for Jesus and His disciples being invited here; no bridegroom identity is assigned."
         },
         {
           "reference": "John 2:3",
@@ -2814,7 +2814,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "The provision command in 2 Kings 4:42–44 was reread. It tells the minister to give bread to the people, and the supplied text says they ate and left over; it does not reproduce drawing liquid or carrying it to a feast-master. The broad serving/provision association remains too loose for this particular action."
+          "deferral_reason": "First Kings17:10–13 was freshly read: Elijah requests water in a vessel and bread from a widow. Unlike this draw-and-bring-to-the-feast-master command, it addresses him as recipient and then a different food provision. The broad request/service resemblance remains insufficiently particular for retention."
         },
         {
           "reference": "John 2:9",
@@ -6194,7 +6194,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "The call-your-husband instruction was reread with the no-husband reply and its detailed explanation. Generic spouse-fetching or marriage passages would not supply a concrete counterpart, and the account does not narrate a husband being fetched. No marital history or reason for the command beyond the text is invented."
+          "deferral_reason": "The husband-fetching instruction was reread with the no-husband reply. No husband is narrated as fetched, and generic spouse-summoning passages would not supply this request or its unexplained full purpose."
         },
         {
           "reference": "John 4:17",
@@ -11209,10 +11209,49 @@
           "id": "v6-22",
           "text": "The next day, the crowd standing across the sea saw that there had been no other small boat there except one, and that Jesus had not entered the boat with His disciples, but His disciples had gone away alone.",
           "display_text": "The next day, the crowd standing across the sea saw that there had been no other small boat there except one, and that Jesus had not entered the boat with His disciples, but His disciples had gone away alone.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The crowd's particular observation about the single boat and the disciples' departure has no sufficiently close retained counterpart; no inference about Jesus' exact boarding action is added."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-6-22__john-6-16-6-17",
+              "target": "John 6:16–6:17",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The earlier departure narrates the disciples entering a boat and setting out while Jesus had not yet come to them. The crowd's later observation looks back to that departure without Him. This internal back-reference preserves the crowd's additional single-boat observation and does not add an actual boarding statement to6:21's willingness to receive Jesus.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "445c626b5639aefe06b56efbf32f098935982bdcb04e0e19ae55420e5413d4fd",
+              "source_complete_text_sha256": "445c626b5639aefe06b56efbf32f098935982bdcb04e0e19ae55420e5413d4fd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 6:16",
+                  "id": "v6-16",
+                  "text": "When evening came, His disciples went down to the sea.",
+                  "text_sha256": "9e0ce9be1378024f0348f487c8787efba4ab88130d8b6c864103fca629b9f672",
+                  "complete_text_sha256": "9e0ce9be1378024f0348f487c8787efba4ab88130d8b6c864103fca629b9f672"
+                },
+                {
+                  "reference": "John 6:17",
+                  "id": "v6-17",
+                  "text": "They entered a boat and were going across the sea toward Capernaum. Darkness had already come, and Jesus had not yet come to them,",
+                  "text_sha256": "3fda52aed3434674735854a875f8d72f130fb5d11a40fb804f582179518fa5b1",
+                  "complete_text_sha256": "3fda52aed3434674735854a875f8d72f130fb5d11a40fb804f582179518fa5b1"
+                }
+              ],
+              "target_passage_sha256": "dd8f54afc1a7edb6cce0a738ff9e7de38f2dcb96c9aeef6c0a050ae3a870dac9",
+              "target_passage_complete_sha256": "dd8f54afc1a7edb6cce0a738ff9e7de38f2dcb96c9aeef6c0a050ae3a870dac9",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 6:23",
@@ -11261,20 +11300,119 @@
           "id": "v6-24",
           "text": "So when the crowd saw that Jesus was not there, nor His disciples, they themselves entered the small boats and came to Capernaum, seeking Jesus.",
           "display_text": "So when the crowd saw that Jesus was not there, nor His disciples, they themselves entered the small boats and came to Capernaum, seeking Jesus.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The crowd's boat journey to Capernaum and search transition is unique in these details; no different Gospel crowd journey is treated as the same episode."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-6-24__john-6-26",
+              "target": "John 6:26",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Jesus explicitly interprets this crowd's seeking as motivated by having eaten the loaves and been filled. This links the narrated search with His later assessment, rather than a generic travel comparison. The motive is attributed to Jesus' reported words and is not independently inferred for every person or for another crowd.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "7bef3b20b6c75711e2a5f1311f88faa4831bdddb2de90dd87f994035355c9f52",
+              "source_complete_text_sha256": "7bef3b20b6c75711e2a5f1311f88faa4831bdddb2de90dd87f994035355c9f52",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 6:26",
+                  "id": "v6-26",
+                  "text": "Jesus answered them, “Amen, amen, I tell you: you seek Me not because you saw signs, but because you ate from the loaves and were filled.",
+                  "text_sha256": "e68b041ddff80ffe1e49882989118fd061e86522407eb0a33926581cdd3d5ebc",
+                  "complete_text_sha256": "e68b041ddff80ffe1e49882989118fd061e86522407eb0a33926581cdd3d5ebc"
+                }
+              ],
+              "target_passage_sha256": "82cc857d4c2d340423b3011254ff9c1aae04df825fb2fc6f747d6935d3a9e6b6",
+              "target_passage_complete_sha256": "82cc857d4c2d340423b3011254ff9c1aae04df825fb2fc6f747d6935d3a9e6b6",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 6:25",
           "id": "v6-25",
           "text": "Finding Him across the sea, they said to Him, “Rabbi, when didst Thou come here?”",
           "display_text": "Finding Him across the sea, they said to Him, “Rabbi, when didst Thou come here?”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The crowd's question about when Jesus arrived has no sufficiently close independent or useful internal counterpart; an unstated travel explanation is not supplied."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-6-25__john-6-16-6-21",
+              "target": "John 6:16–6:21",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The crowd asks when Jesus arrived, whereas the reader has already received the evening departure, encounter upon the sea and the boat's immediate arrival narrative. This is a specific contrast between narrated travel knowledge and the crowd's question, not Jesus' spoken travel explanation or a newly calculated clock time.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "edb734f09c6f1fee129e9e1874790b1c17d58d2e0bad0100eca7c232cdd1f073",
+              "source_complete_text_sha256": "edb734f09c6f1fee129e9e1874790b1c17d58d2e0bad0100eca7c232cdd1f073",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 6:16",
+                  "id": "v6-16",
+                  "text": "When evening came, His disciples went down to the sea.",
+                  "text_sha256": "9e0ce9be1378024f0348f487c8787efba4ab88130d8b6c864103fca629b9f672",
+                  "complete_text_sha256": "9e0ce9be1378024f0348f487c8787efba4ab88130d8b6c864103fca629b9f672"
+                },
+                {
+                  "reference": "John 6:17",
+                  "id": "v6-17",
+                  "text": "They entered a boat and were going across the sea toward Capernaum. Darkness had already come, and Jesus had not yet come to them,",
+                  "text_sha256": "3fda52aed3434674735854a875f8d72f130fb5d11a40fb804f582179518fa5b1",
+                  "complete_text_sha256": "3fda52aed3434674735854a875f8d72f130fb5d11a40fb804f582179518fa5b1"
+                },
+                {
+                  "reference": "John 6:18",
+                  "id": "v6-18",
+                  "text": "and the sea was being stirred up by a strong wind blowing.",
+                  "text_sha256": "6a7aa8726e2848b706549a7754d8e693c00fb09d0f98d354cd58405c47d9ecf1",
+                  "complete_text_sha256": "6a7aa8726e2848b706549a7754d8e693c00fb09d0f98d354cd58405c47d9ecf1"
+                },
+                {
+                  "reference": "John 6:19",
+                  "id": "v6-19",
+                  "text": "So when they had rowed about twenty-five or thirty stadia, they saw Jesus walking upon the sea and drawing near the boat, and they were afraid.",
+                  "text_sha256": "544dee93ba83ef908ae528a4ef5b55d9651e004ff7d1eebe730b50b120a4bf44",
+                  "complete_text_sha256": "544dee93ba83ef908ae528a4ef5b55d9651e004ff7d1eebe730b50b120a4bf44"
+                },
+                {
+                  "reference": "John 6:20",
+                  "id": "v6-20",
+                  "text": "But He said to them, “It is I; do not fear.”",
+                  "text_sha256": "0e9f71b3bd1aec23448eda29ba44c7f8952f89856c58a8be3839b203c5390ac4",
+                  "complete_text_sha256": "0e9f71b3bd1aec23448eda29ba44c7f8952f89856c58a8be3839b203c5390ac4"
+                },
+                {
+                  "reference": "John 6:21",
+                  "id": "v6-21",
+                  "text": "Then they were willing to receive Him into the boat, and at once the boat was at the land to which they were going.",
+                  "text_sha256": "c62a4ad897cb30e9438a6d8662a3c07dc6cbb6902cbe1ad719bb9f90d11ef4a2",
+                  "complete_text_sha256": "c62a4ad897cb30e9438a6d8662a3c07dc6cbb6902cbe1ad719bb9f90d11ef4a2"
+                }
+              ],
+              "target_passage_sha256": "8a8445bc27fc36ed3be2f3150fdac836b75b8cd7e1527bd7730d317961270f92",
+              "target_passage_complete_sha256": "8a8445bc27fc36ed3be2f3150fdac836b75b8cd7e1527bd7730d317961270f92",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 6:26",
@@ -13122,10 +13260,63 @@
           "id": "v6-67",
           "text": "So Jesus said to the Twelve, “Do you also want to go away?”",
           "display_text": "So Jesus said to the Twelve, “Do you also want to go away?”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Jesus' particular question whether the Twelve also wish to depart is retained without forcing a different disciple question or predicting each individual's response."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-6-67__john-6-68-6-71",
+              "target": "John 6:68–6:71",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Peter's reply to the question about leaving names Jesus' words of eternal life and the group's confession; Jesus then qualifies the Twelve's position by speaking of one devil, identified as Judas. This explains the narrative response without asserting every individual had Peter's faith or predicting that no disciple would depart.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "3ce0d7ca8352231421a32991a16b27fef541d34a65cb2c0ba4a862f60fc96ed4",
+              "source_complete_text_sha256": "3ce0d7ca8352231421a32991a16b27fef541d34a65cb2c0ba4a862f60fc96ed4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 6:68",
+                  "id": "v6-68",
+                  "text": "Simon Peter answered Him, “Lord, to whom shall we go? Thou hast words of eternal life.",
+                  "text_sha256": "1f30ab77ca0a97c58999669a241ce8542cbfa96cdaad16bc6c1b5406f3499ecd",
+                  "complete_text_sha256": "1f30ab77ca0a97c58999669a241ce8542cbfa96cdaad16bc6c1b5406f3499ecd"
+                },
+                {
+                  "reference": "John 6:69",
+                  "id": "v6-69",
+                  "text": "And we have believed and have known that Thou art the Holy One of God.”",
+                  "text_sha256": "ddf82a0efe7f2a0e34a05deb6557beaa2b62ddeccff88f9fe1ee81e4cf726332",
+                  "complete_text_sha256": "ddf82a0efe7f2a0e34a05deb6557beaa2b62ddeccff88f9fe1ee81e4cf726332"
+                },
+                {
+                  "reference": "John 6:70",
+                  "id": "v6-70",
+                  "text": "Jesus answered them, “Did I not choose you, the Twelve? Yet one of you is a devil.”",
+                  "text_sha256": "dfd35fe2c62109dab9afb49bb9862acb95cb0be3931d8d4574b6d412b0150bd7",
+                  "complete_text_sha256": "dfd35fe2c62109dab9afb49bb9862acb95cb0be3931d8d4574b6d412b0150bd7"
+                },
+                {
+                  "reference": "John 6:71",
+                  "id": "v6-71",
+                  "text": "He was speaking of Judas, son of Simon Iscariot, for this man was about to hand Him over, one of the Twelve.",
+                  "text_sha256": "834ed8dbf5eaae8c6bd54e744f03ed745f6c6af0cf961f2de9c9227d1be99c10",
+                  "complete_text_sha256": "834ed8dbf5eaae8c6bd54e744f03ed745f6c6af0cf961f2de9c9227d1be99c10"
+                }
+              ],
+              "target_passage_sha256": "77f7b6188650309ed03369b1e8ff565e57c599b92e78c87187fe80c4c3c0ce1d",
+              "target_passage_complete_sha256": "77f7b6188650309ed03369b1e8ff565e57c599b92e78c87187fe80c4c3c0ce1d",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 6:68",
@@ -13310,7 +13501,7 @@
           "reviewed": "2026-10-31"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 7,
@@ -13422,10 +13613,105 @@
           "id": "v7-3",
           "text": "So His brothers said to Him, “Leave here and go into Judea, so that Thy disciples also may see the works Thou doest.",
           "display_text": "So His brothers said to Him, “Leave here and go into Judea, so that Thy disciples also may see the works Thou doest.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The brothers' private directive to leave for Judea so disciples may see His works has no close retained counterpart in its particular actors and purpose."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-7-3__john-11-7-11-16",
+              "target": "John 11:7–11:16",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both episodes discuss going into Judea in relation to Jesus' work and the disciples. Here His brothers urge the trip so disciples see His works; later Jesus proposes going and speaks of the disciples' believing in the Lazarus setting. Speakers, purpose and danger differ; neither is made the same journey or a proof of the brothers' private motives.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "6603d3b55e1e16b5baf308329a4c2783bc0de1f722fb50645c69b794d395b481",
+              "source_complete_text_sha256": "6603d3b55e1e16b5baf308329a4c2783bc0de1f722fb50645c69b794d395b481",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 11:7",
+                  "id": "v11-7",
+                  "text": "After this He said to the disciples, “Let us go into Judea again.”",
+                  "text_sha256": "c70b6013ee09a82abf61d17cc78bcdb05cc8f2564aecf84edb44a67fbd4d5922",
+                  "complete_text_sha256": "c70b6013ee09a82abf61d17cc78bcdb05cc8f2564aecf84edb44a67fbd4d5922"
+                },
+                {
+                  "reference": "John 11:8",
+                  "id": "v11-8",
+                  "text": "The disciples said to Him, “Rabbi, the Jews were just now seeking to stone Thee, and art Thou going there again?”",
+                  "text_sha256": "68e4bf8a9c024667c3dcc62ebae0451292805a9a30ce68906d384820e4463883",
+                  "complete_text_sha256": "68e4bf8a9c024667c3dcc62ebae0451292805a9a30ce68906d384820e4463883"
+                },
+                {
+                  "reference": "John 11:9",
+                  "id": "v11-9",
+                  "text": "Jesus answered, “Are there not twelve hours of the day? If anyone walks in the day, he does not stumble, because he sees the light of this world.",
+                  "text_sha256": "6ac6e383e99a93aa6b13dc8d8c923fe205628ba66203678fe7fab3f5907a25ad",
+                  "complete_text_sha256": "6ac6e383e99a93aa6b13dc8d8c923fe205628ba66203678fe7fab3f5907a25ad"
+                },
+                {
+                  "reference": "John 11:10",
+                  "id": "v11-10",
+                  "text": "But if anyone walks in the night, he stumbles, because the light is not in him.”",
+                  "text_sha256": "eb52aaa8b286993b927f03c4c61263ba2e58d113c6c9e869a3a8ee3d77a3e568",
+                  "complete_text_sha256": "eb52aaa8b286993b927f03c4c61263ba2e58d113c6c9e869a3a8ee3d77a3e568"
+                },
+                {
+                  "reference": "John 11:11",
+                  "id": "v11-11",
+                  "text": "He said these things, and after this He said to them, “Lazarus our friend has fallen asleep, but I am going to awaken him.”",
+                  "text_sha256": "40f4b2afe5f10c627852d7ff2b469c95b732d97cbc1bdffa8223f4178ae585ea",
+                  "complete_text_sha256": "40f4b2afe5f10c627852d7ff2b469c95b732d97cbc1bdffa8223f4178ae585ea"
+                },
+                {
+                  "reference": "John 11:12",
+                  "id": "v11-12",
+                  "text": "So the disciples said to Him, “Lord, if he has fallen asleep, he will be saved.”",
+                  "text_sha256": "f1e604b607a45b4cbe05e33253fd18a4511379a00db687d9a235afad960d7267",
+                  "complete_text_sha256": "f1e604b607a45b4cbe05e33253fd18a4511379a00db687d9a235afad960d7267"
+                },
+                {
+                  "reference": "John 11:13",
+                  "id": "v11-13",
+                  "text": "But Jesus had spoken of his death, while they thought He was speaking of resting in sleep.",
+                  "text_sha256": "47268d3d2b95547bc6eb2cbab2541da990ab0eeb34f9846c674773d6c8a63ba0",
+                  "complete_text_sha256": "47268d3d2b95547bc6eb2cbab2541da990ab0eeb34f9846c674773d6c8a63ba0"
+                },
+                {
+                  "reference": "John 11:14",
+                  "id": "v11-14",
+                  "text": "So then Jesus told them openly, “Lazarus died,",
+                  "text_sha256": "d419472ecbb680af68988c6b95b6659ca08801869aaeb34acdaa76301c516112",
+                  "complete_text_sha256": "d419472ecbb680af68988c6b95b6659ca08801869aaeb34acdaa76301c516112"
+                },
+                {
+                  "reference": "John 11:15",
+                  "id": "v11-15",
+                  "text": "and for your sake I rejoice that I was not there, so that you may believe. But let us go to him.”",
+                  "text_sha256": "4a4f17329bedc6ab67697b177e393ad996aa977ea396bc2afcc1a96145db03b5",
+                  "complete_text_sha256": "4a4f17329bedc6ab67697b177e393ad996aa977ea396bc2afcc1a96145db03b5"
+                },
+                {
+                  "reference": "John 11:16",
+                  "id": "v11-16",
+                  "text": "Then Thomas, who was called Didymus, said to his fellow disciples, “Let us also go, so that we may die with Him.”",
+                  "text_sha256": "3bfb4a115b311b4139a59210d6efa0b6c2b0de563bf1e3b355cfbbd0ffff9c4f",
+                  "complete_text_sha256": "3bfb4a115b311b4139a59210d6efa0b6c2b0de563bf1e3b355cfbbd0ffff9c4f"
+                }
+              ],
+              "target_passage_sha256": "9f6abffc54e7534cce3ba60db08669bbb71c8fb72ef0a09a7236958d79664c0a",
+              "target_passage_complete_sha256": "9f6abffc54e7534cce3ba60db08669bbb71c8fb72ef0a09a7236958d79664c0a",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 7:4",
@@ -13652,7 +13938,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Remaining in Galilee after the preceding exchange is a narrative transition; no separate journey is treated as the same movement."
+          "deferral_reason": "The stay in Galilee follows the exact not-going statement and precedes the later private trip. No yet is inserted into7:8, no unstated timing is calculated, and no generic stay is retained as another account of this transition."
         },
         {
           "reference": "John 7:10",
@@ -14793,10 +15079,56 @@
           "id": "v7-35",
           "text": "So the Jews said among themselves, “Where is this man about to go that we will not find Him? Is He about to go to the Dispersion among the Greeks and teach the Greeks?",
           "display_text": "So the Jews said among themselves, “Where is this man about to go that we will not find Him? Is He about to go to the Dispersion among the Greeks and teach the Greeks?",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The hearers' specific speculation about the Greek Dispersion is kept as their question; no actual Greek journey or teaching mission by Jesus is inferred."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-7-35__john-12-20-12-22",
+              "target": "John 12:20–12:22",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The hearers speculate that Jesus might go to the Greek Dispersion and teach Greeks; later Greek visitors approach through Philip and Andrew to seek Jesus. This contrasts imagined outward travel with visitors approaching Him. It does not narrate the speculated journey, identify the two groups or claim the later requested audience is explicitly reported as granted.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "f5f3ca50ff811e530d3bc92cb3cc3cc0465cba37da02e1905e76109b0f54dd18",
+              "source_complete_text_sha256": "f5f3ca50ff811e530d3bc92cb3cc3cc0465cba37da02e1905e76109b0f54dd18",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 12:20",
+                  "id": "v12-20",
+                  "text": "Now there were some Greeks among those going up to worship at the feast.",
+                  "text_sha256": "1eb11703d82dd778b4150a5c5637f25f0ed27fb3764ce52a3baff53ce8c8e7fd",
+                  "complete_text_sha256": "1eb11703d82dd778b4150a5c5637f25f0ed27fb3764ce52a3baff53ce8c8e7fd"
+                },
+                {
+                  "reference": "John 12:21",
+                  "id": "v12-21",
+                  "text": "These approached Philip, who was from Bethsaida of Galilee, and asked him, saying, “Sir, we want to see Jesus.”",
+                  "text_sha256": "b8c68bbb62ee60e6499527ed6e5c439cda13a2ef4bf3b7e3ccb9bea0926ae98f",
+                  "complete_text_sha256": "b8c68bbb62ee60e6499527ed6e5c439cda13a2ef4bf3b7e3ccb9bea0926ae98f"
+                },
+                {
+                  "reference": "John 12:22",
+                  "id": "v12-22",
+                  "text": "Philip came and told Andrew; Andrew and Philip came and told Jesus.",
+                  "text_sha256": "34699e2f5b6d5fcd228aab712405fa070cbad0987872d3756a3668fd58b69625",
+                  "complete_text_sha256": "34699e2f5b6d5fcd228aab712405fa070cbad0987872d3756a3668fd58b69625"
+                }
+              ],
+              "target_passage_sha256": "354b2f3753562d38ac16854c48e3d3c6a8b2d0dce52700fc9b21e055dd5aff86",
+              "target_passage_complete_sha256": "354b2f3753562d38ac16854c48e3d3c6a8b2d0dce52700fc9b21e055dd5aff86",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 7:36",
@@ -15535,10 +15867,49 @@
           "id": "v7-52",
           "text": "They answered him, “Are you also from Galilee? Search and see that a prophet does not arise from Galilee.”",
           "display_text": "They answered him, “Are you also from Galilee? Search and see that a prophet does not arise from Galilee.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The opponents' Galilee-prophet taunt is not endorsed as geographical or prophetic fact, and no unsupported identification of an earlier prophet's home is used to answer it."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-7-52__john-1-45-1-46",
+              "target": "John 1:45–1:46",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "The Galilee-prophet objection to Nicodemus is compared with Nathanael's earlier objection about good coming from Nazareth and Philip's invitation to come and see. Both challenge a claim through regional origin. The places and addressees are not conflated, and the comparison does not independently disprove the Galilee claim by assigning a prophet modern geographic coordinates.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "623c68858549324f544353309c483c812f69c4760e54908bb1ac4085ac7d5784",
+              "source_complete_text_sha256": "623c68858549324f544353309c483c812f69c4760e54908bb1ac4085ac7d5784",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 1:45",
+                  "id": "v1-45",
+                  "text": "Philip found Nathanael and said to him, “We have found the One of whom Moses wrote in the Law, and the prophets also: Jesus, the son of Joseph, from Nazareth.”",
+                  "text_sha256": "87fde6cf8300dddfa5f645ed9c45a9703990e2c4d0ad60faf2f6a355cc90c279",
+                  "complete_text_sha256": "87fde6cf8300dddfa5f645ed9c45a9703990e2c4d0ad60faf2f6a355cc90c279"
+                },
+                {
+                  "reference": "John 1:46",
+                  "id": "v1-46",
+                  "text": "Nathanael said to him, “Can anything good come from Nazareth?” Philip said to him, “Come and see.”",
+                  "text_sha256": "0c1e69f70cabb499ec584c450a88aff226df3d03f37942e1d8ea63ff8c2821fd",
+                  "complete_text_sha256": "0c1e69f70cabb499ec584c450a88aff226df3d03f37942e1d8ea63ff8c2821fd"
+                }
+              ],
+              "target_passage_sha256": "d1e4e69ecf4675c7207946d3cfd832778575eeb79186f1b05ca9542396a772b2",
+              "target_passage_complete_sha256": "d1e4e69ecf4675c7207946d3cfd832778575eeb79186f1b05ca9542396a772b2",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 7:53",
@@ -15548,7 +15919,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "The double-bracketed departure of each person to his own house has no close retained counterpart; the original opening bracket is preserved."
+          "deferral_reason": "The double-bracketed each-to-his-house departure is preserved. The following contrasting destination of Jesus does not provide a separate counterpart for each person's departure, and no identities or itinerary are supplied."
         }
       ],
       "status": "reviewed_with_deferrals"
@@ -15698,10 +16069,42 @@
           "id": "v8-4",
           "text": "They said to Him, “Teacher, this woman was caught in the very act of committing adultery.",
           "display_text": "They said to Him, “Teacher, this woman was caught in the very act of committing adultery.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The accusers' particular address and repeated caught-in-the-act charge has no additional sufficiently useful counterpart beyond the legal-background comparisons attached to the surrounding units."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-8-4__deuteronomy-22-22",
+              "target": "Deuteronomy 22:22",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "The reported caught-in-adultery charge is compared with the legal case of a man found lying with another man's wife. Deuteronomy explicitly concerns both parties and death; this unit does not specify stoning. The comparison supplies legal offense background without inventing the woman's marital details, the absent man's fate or an additional verdict on her case.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "6a0929627b8d3829027f032831ed409dc034ab8b3f8fd71f89050d0adb75d138",
+              "source_complete_text_sha256": "6a0929627b8d3829027f032831ed409dc034ab8b3f8fd71f89050d0adb75d138",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/deuteronomy.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Deuteronomy 22:22",
+                  "id": "v22-22",
+                  "text": "And if a man is found lying with a woman married unto a husband, you shall put both of them to death, the man who lay with the woman, and the woman; and you shall remove the evil one from Israel.",
+                  "text_sha256": "a679e353e559d630bfca5f99e49b8d9d7b278665ee9593618831833f8416aedf",
+                  "complete_text_sha256": "a679e353e559d630bfca5f99e49b8d9d7b278665ee9593618831833f8416aedf"
+                }
+              ],
+              "target_passage_sha256": "99fbf95f54ed7da9195a01ef18b5a7245955a7594a3f2c0ee152fcb22caa3c6d",
+              "target_passage_complete_sha256": "99fbf95f54ed7da9195a01ef18b5a7245955a7594a3f2c0ee152fcb22caa3c6d",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 8:5",
@@ -15918,10 +16321,42 @@
           "id": "v8-9",
           "text": "But when they heard, they went out one by one, beginning with the older ones. And Jesus was left alone, and the woman standing in the midst.",
           "display_text": "But when they heard, they went out one by one, beginning with the older ones. And Jesus was left alone, and the woman standing in the midst.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The one-by-one departure beginning with the elders and the remaining woman is distinctive. A motive such as a supplied conscience clause is not inserted into this edition's text."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-8-9__john-8-7",
+              "target": "John 8:7",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The earlier preserved instruction tells the sinless person to throw first; the later narration marks the departure as occurring when they heard. This supplies the actual spoken antecedent without adding a conscience clause, stating each accuser's inner guilt or explaining why the older ones left first.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "8e059782e2a571f3d1dd592876a50761d1052cbd754eaf5f3b49b7d272a13030",
+              "source_complete_text_sha256": "8e059782e2a571f3d1dd592876a50761d1052cbd754eaf5f3b49b7d272a13030",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 8:7",
+                  "id": "v8-7",
+                  "text": "As they persisted in questioning Him, He straightened up and said to them, “Let the one among you who is without sin be first to cast a stone at her.”",
+                  "text_sha256": "bc1e6f0ba23139db62f79d2cc4895adbbc9685ef4abf08d775dd859107299187",
+                  "complete_text_sha256": "bc1e6f0ba23139db62f79d2cc4895adbbc9685ef4abf08d775dd859107299187"
+                }
+              ],
+              "target_passage_sha256": "aeb1a46fb69a753918542523e2c741e9cf4d2a1141b5ada23cacd5a02e8c3eaf",
+              "target_passage_complete_sha256": "aeb1a46fb69a753918542523e2c741e9cf4d2a1141b5ada23cacd5a02e8c3eaf",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 8:10",
@@ -15931,7 +16366,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Jesus' particular question about the departed accusers and whether anyone condemned the woman has no sufficiently close retained counterpart; a different absolution scene is not made this event."
+          "deferral_reason": "The question was reread with the actual woman's reply and Jesus' instruction. They complete this exchange, but no different absolution scene is made the same event or a further comparison for these departed accusers."
         },
         {
           "reference": "John 8:11",
@@ -16582,10 +17017,49 @@
           "id": "v8-25",
           "text": "So they said to Him, “Who art Thou?” Jesus said to them, “Why do I even speak to you at all?",
           "display_text": "So they said to Him, “Who art Thou?” Jesus said to them, “Why do I even speak to you at all?",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The identity question and the exact reply 'Why do I even speak to you at all?' are preserved. A familiar alternative rendering about speaking from the beginning is not imported."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-8-25__john-10-24-10-25",
+              "target": "John 10:24–10:25",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both identity demands receive a reply challenging the hearers' reception of Jesus' speech. John8 preserves Why do I even speak to you at all; John10 says He told them and they do not believe, adding the witness of works. The first reply is not replaced by a familiar from-the-beginning rendering.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "dba3ab004986d1fecadb83708cd7d52d837c2b65022645a29483c15d528015f6",
+              "source_complete_text_sha256": "dba3ab004986d1fecadb83708cd7d52d837c2b65022645a29483c15d528015f6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 10:24",
+                  "id": "v10-24",
+                  "text": "So the Jews surrounded Him and said to Him, “How long wilt Thou keep our soul in suspense? If Thou art the Christ, tell us openly.”",
+                  "text_sha256": "d03ef5df35076028fdde5b8cc50d59d35398bdf08669a91fc664f893ba346a16",
+                  "complete_text_sha256": "d03ef5df35076028fdde5b8cc50d59d35398bdf08669a91fc664f893ba346a16"
+                },
+                {
+                  "reference": "John 10:25",
+                  "id": "v10-25",
+                  "text": "Jesus answered them, “I told you, and you do not believe. The works I do in My Father’s name bear witness concerning Me.",
+                  "text_sha256": "77d1fe0c2824c3cf6264ca05ba195e679012a811e8d922000f5ba19693a1ae61",
+                  "complete_text_sha256": "77d1fe0c2824c3cf6264ca05ba195e679012a811e8d922000f5ba19693a1ae61"
+                }
+              ],
+              "target_passage_sha256": "fcd8874ae51e12377e8264b959521f3ddd61b45428e1c38a83aae16f08f0364c",
+              "target_passage_complete_sha256": "fcd8874ae51e12377e8264b959521f3ddd61b45428e1c38a83aae16f08f0364c",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 8:26",
@@ -18685,10 +19159,49 @@
           "id": "v9-9",
           "text": "Some said, “This is he.” Others said, “No, but he is like him.” He said, “I am he.”",
           "display_text": "Some said, “This is he.” Others said, “No, but he is like him.” He said, “I am he.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The neighbors' identity dispute and the man's 'I am he' are retained without equating his ordinary identification with Jesus' distinct identity sayings."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-9-9__acts-3-9-3-10",
+              "target": "Acts 3:9–3:10",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both healed beggars become objects of public identity recognition. John reports disagreement and the man's own identification; Acts says the people recognized the former alms-seeker now walking and praising God. The disabilities, responses and individuals differ, and the ordinary I am he is not equated with Jesus' distinct identity sayings.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "302c6bf287133cbd7027a5e8f0aae47f6b1622d3d7cb43ee80803e2478f4f430",
+              "source_complete_text_sha256": "302c6bf287133cbd7027a5e8f0aae47f6b1622d3d7cb43ee80803e2478f4f430",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 3:9",
+                  "id": "v3-9",
+                  "text": "All the people saw him walking and praising God.",
+                  "text_sha256": "1f52341309b21342db83a1fd65c4cc37bf64496cfeb2b8a190104a78492867aa",
+                  "complete_text_sha256": "1f52341309b21342db83a1fd65c4cc37bf64496cfeb2b8a190104a78492867aa"
+                },
+                {
+                  "reference": "Acts 3:10",
+                  "id": "v3-10",
+                  "text": "They recognized him as the one who used to sit for alms at the temple’s Beautiful Gate, and they were filled with wonder and astonishment at what had happened to him.",
+                  "text_sha256": "2e615f4f86b2a026a55e447c3fb6e3f02e499cfba678a5a7f8a5d6dace76e54a",
+                  "complete_text_sha256": "2e615f4f86b2a026a55e447c3fb6e3f02e499cfba678a5a7f8a5d6dace76e54a"
+                }
+              ],
+              "target_passage_sha256": "4a3ceec88a46657010925274ffd0291398b9cc491d4f469205e67c9ec886a147",
+              "target_passage_complete_sha256": "4a3ceec88a46657010925274ffd0291398b9cc491d4f469205e67c9ec886a147",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 9:10",
@@ -18786,10 +19299,49 @@
           "id": "v9-12",
           "text": "And they said to him, “Where is He?” He said, “I do not know.”",
           "display_text": "And they said to him, “Where is He?” He said, “I do not know.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The man's lack of knowledge of Jesus' current whereabouts is a particular narrative detail; no broader ignorance of Jesus or different missing-person scene is inferred."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-9-12__john-5-12-5-13",
+              "target": "John 5:12–5:13",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both healed men are questioned about Jesus, with different limits of knowledge. John5 says the healed man did not know who it was; John9 has already named Jesus but does not know where He is. This sharpens the reported who/where difference without inventing broader ignorance, lack of faith or an escape method.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "d706163a930f3f74e894c9cb6801cf89eb3c4d2b64e6d4b6430a8652106d7f59",
+              "source_complete_text_sha256": "d706163a930f3f74e894c9cb6801cf89eb3c4d2b64e6d4b6430a8652106d7f59",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 5:12",
+                  "id": "v5-12",
+                  "text": "So they asked him, “Who is the man who told you, ‘Take it up and walk’?”",
+                  "text_sha256": "252497144576840cc1ccabfb7ec01039ae76eecf55c5d69869bda4dfef9612c8",
+                  "complete_text_sha256": "252497144576840cc1ccabfb7ec01039ae76eecf55c5d69869bda4dfef9612c8"
+                },
+                {
+                  "reference": "John 5:13",
+                  "id": "v5-13",
+                  "text": "But the man who had been healed did not know who He was, for Jesus had slipped away, since there was a crowd in the place.",
+                  "text_sha256": "944670482e331cc3ccac6c0ce4dec8ff1c065b148b7c07f778df98d4c2d933db",
+                  "complete_text_sha256": "944670482e331cc3ccac6c0ce4dec8ff1c065b148b7c07f778df98d4c2d933db"
+                }
+              ],
+              "target_passage_sha256": "1969004be608116c48314c02f79f6975ffac237ff6f5086c73e79ba13d1e53e2",
+              "target_passage_complete_sha256": "1969004be608116c48314c02f79f6975ffac237ff6f5086c73e79ba13d1e53e2",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 9:13",
@@ -19097,10 +19649,49 @@
           "id": "v9-19",
           "text": "and asked them, saying, “Is this your son, whom you say was born blind? How, then, does he now see?”",
           "display_text": "and asked them, saying, “Is this your son, whom you say was born blind? How, then, does he now see?”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The parents' combined interview question about sonship, congenital blindness, and present sight has no close retained counterpart as a whole; unrelated family hearings are not identified with it."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-9-19__john-9-20-9-21",
+              "target": "John 9:20–9:21",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The parents affirm that this is their son, born blind, but say they do not know how he sees or who opened his eyes and refer the questioners to him. This answer distinguishes their certified identity and former blindness from their stated limits concerning the healing, without deciding an unstated private degree of knowledge.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "8047c0689ceeea959a9bc1b8d10e28376b2c197e37ae75a248fb14d8835c6c31",
+              "source_complete_text_sha256": "8047c0689ceeea959a9bc1b8d10e28376b2c197e37ae75a248fb14d8835c6c31",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 9:20",
+                  "id": "v9-20",
+                  "text": "His parents answered, “We know that this is our son and that he was born blind.",
+                  "text_sha256": "2cd4d082be90407e91f1b464e63f5abeaf39089c9c13921da2011006285a8bc4",
+                  "complete_text_sha256": "2cd4d082be90407e91f1b464e63f5abeaf39089c9c13921da2011006285a8bc4"
+                },
+                {
+                  "reference": "John 9:21",
+                  "id": "v9-21",
+                  "text": "But how he now sees we do not know, or who opened his eyes we do not know. Ask him; he is of age. He will speak for himself.”",
+                  "text_sha256": "5a01a02cddf4fb58c08f0266d29b3232add9b26ea84bb35f87af92703b0a5cfa",
+                  "complete_text_sha256": "5a01a02cddf4fb58c08f0266d29b3232add9b26ea84bb35f87af92703b0a5cfa"
+                }
+              ],
+              "target_passage_sha256": "8cf03c0e7f827e55064ccca73350e0153503b328a6d7c9720fafacae906a8ede",
+              "target_passage_complete_sha256": "8cf03c0e7f827e55064ccca73350e0153503b328a6d7c9720fafacae906a8ede",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 9:20",
@@ -19149,10 +19740,49 @@
           "id": "v9-21",
           "text": "But how he now sees we do not know, or who opened his eyes we do not know. Ask him; he is of age. He will speak for himself.”",
           "display_text": "But how he now sees we do not know, or who opened his eyes we do not know. Ask him; he is of age. He will speak for himself.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The parents' stated limits of knowledge and referral to their adult son are retained without deciding an unstated degree of knowledge or pairing a generic ignorance statement."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-9-21__john-9-22-9-23",
+              "target": "John 9:22–9:23",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The narrator explicitly relates the parents' response to fear of synagogue exclusion, then repeats their referral to their adult son. This stated explanation contextualizes their limited-knowledge answer without declaring that they lied, changing their reported knowledge or assigning the same response to every parent.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "5a01a02cddf4fb58c08f0266d29b3232add9b26ea84bb35f87af92703b0a5cfa",
+              "source_complete_text_sha256": "5a01a02cddf4fb58c08f0266d29b3232add9b26ea84bb35f87af92703b0a5cfa",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 9:22",
+                  "id": "v9-22",
+                  "text": "His parents said these things because they feared the Jews, for the Jews had already agreed that if anyone confessed Him as Christ, he should be put out of the synagogue.",
+                  "text_sha256": "12ea1d74adc213f21fbe7799ebc2ab8ac40f998b813884f7ddf84385cced98bf",
+                  "complete_text_sha256": "12ea1d74adc213f21fbe7799ebc2ab8ac40f998b813884f7ddf84385cced98bf"
+                },
+                {
+                  "reference": "John 9:23",
+                  "id": "v9-23",
+                  "text": "For this reason his parents said, “He is of age; ask him.”",
+                  "text_sha256": "5f5c3fe178cecd896c97416550aabd6599924b87bbed47cb0cbc2b49647fb783",
+                  "complete_text_sha256": "5f5c3fe178cecd896c97416550aabd6599924b87bbed47cb0cbc2b49647fb783"
+                }
+              ],
+              "target_passage_sha256": "8ad43ffb44fba2eff7edc648701e6b7835c12c7338a0cf92070758d246014e9c",
+              "target_passage_complete_sha256": "8ad43ffb44fba2eff7edc648701e6b7835c12c7338a0cf92070758d246014e9c",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 9:22",
@@ -19211,7 +19841,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "This repeats the parents' immediately preceding referral and the narrator's stated fear explanation; no additional sufficiently useful cross-passage comparison is retained."
+          "deferral_reason": "The stated for-this-reason referral was reread with9:21–22. Its immediate causal and repeated wording is already considered in the particular9:21 comparison; no additional cross-passage relation is assigned merely to repeat that comment."
         },
         {
           "reference": "John 9:24",
@@ -19792,7 +20422,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "The man's request to identify the Son of Man so he may believe is retained without changing its title or forcing an unrelated identification question. The adjacent identification is compared separately."
+          "deferral_reason": "The request to identify the Son of Man was reread with the exact following self-identification. That title is not changed to Son of God, and no unrelated who question is made the same particular request to believe."
         },
         {
           "reference": "John 9:37",
@@ -22290,10 +22920,49 @@
           "id": "v11-6",
           "text": "So when He heard that he was ill, He then remained two days in the place where He was.",
           "display_text": "So when He heard that he was ill, He then remained two days in the place where He was.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The two-day stay after hearing of Lazarus's illness was read. Other delays or absence statements do not independently reproduce this exact stay, and no unstated motive or travel-time calculation is supplied."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-11-6__john-11-14-11-15",
+              "target": "John 11:14–11:15",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Jesus later connects His absence at Lazarus's death with the disciples' believing. That explicit comment illuminates the absence within the earlier delay narrative. It does not state the arithmetic of the two-day stay, prove when Lazarus died relative to the message, or supply an unstated lack of love.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "d594b073f34959bc3962ee642a9ee83a2b7aff070b4966ffa470d984fc75e19e",
+              "source_complete_text_sha256": "d594b073f34959bc3962ee642a9ee83a2b7aff070b4966ffa470d984fc75e19e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 11:14",
+                  "id": "v11-14",
+                  "text": "So then Jesus told them openly, “Lazarus died,",
+                  "text_sha256": "d419472ecbb680af68988c6b95b6659ca08801869aaeb34acdaa76301c516112",
+                  "complete_text_sha256": "d419472ecbb680af68988c6b95b6659ca08801869aaeb34acdaa76301c516112"
+                },
+                {
+                  "reference": "John 11:15",
+                  "id": "v11-15",
+                  "text": "and for your sake I rejoice that I was not there, so that you may believe. But let us go to him.”",
+                  "text_sha256": "4a4f17329bedc6ab67697b177e393ad996aa977ea396bc2afcc1a96145db03b5",
+                  "complete_text_sha256": "4a4f17329bedc6ab67697b177e393ad996aa977ea396bc2afcc1a96145db03b5"
+                }
+              ],
+              "target_passage_sha256": "6267e218f935922a9be8403e01d9fd7d6f2b0d93efaa82c67fa16af5f73302cb",
+              "target_passage_complete_sha256": "6267e218f935922a9be8403e01d9fd7d6f2b0d93efaa82c67fa16af5f73302cb",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 11:7",
@@ -22776,10 +23445,49 @@
           "id": "v11-18",
           "text": "Now Bethany was near Jerusalem, about fifteen stadia away.",
           "display_text": "Now Bethany was near Jerusalem, about fifteen stadia away.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Bethany's approximately fifteen-stadia distance from Jerusalem was read. Other Olivet, Bethany or Sabbath-journey notices do not independently establish this particular distance or a precise site identity."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-11-18__luke-19-28-19-29",
+              "target": "Luke 19:28–19:29",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "Both locate Bethany in relation to Jerusalem: John explicitly calls it near Jerusalem and gives about fifteen stadia; Luke names it with Bethphage by the Mount of Olives as Jesus goes toward Jerusalem. This geographical comparison does not independently verify the distance, fix coordinates or equate it with a Sabbath-day journey.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "35f415f5bde2e83c86566577a6991283cbccad051fdfdccf709484c7903448f4",
+              "source_complete_text_sha256": "35f415f5bde2e83c86566577a6991283cbccad051fdfdccf709484c7903448f4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 19:28",
+                  "id": "v19-28",
+                  "text": "And after saying these things, He went on ahead, going up to Jerusalem.",
+                  "text_sha256": "2562ee1f8a9f4ea8ed2f408faf1e6fcb3496d5608512ddb46abc186353ecaff1",
+                  "complete_text_sha256": "2562ee1f8a9f4ea8ed2f408faf1e6fcb3496d5608512ddb46abc186353ecaff1"
+                },
+                {
+                  "reference": "Luke 19:29",
+                  "id": "v19-29",
+                  "text": "And it happened that as He drew near Bethphage and Bethany, at the mount called Olivet, He sent two of the disciples,",
+                  "text_sha256": "fdbbac3d46b6d46e6e813e9cb41a0b6d7925f099d18bd0270afbca98c3e998f3",
+                  "complete_text_sha256": "fdbbac3d46b6d46e6e813e9cb41a0b6d7925f099d18bd0270afbca98c3e998f3"
+                }
+              ],
+              "target_passage_sha256": "5c8b7bb195aaffe1e4802f8d520ff44713bf8939b774898fb24a0aa5dbeeb66d",
+              "target_passage_complete_sha256": "5c8b7bb195aaffe1e4802f8d520ff44713bf8939b774898fb24a0aa5dbeeb66d",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 11:19",
@@ -23269,10 +23977,42 @@
           "id": "v11-30",
           "text": "Now Jesus had not yet entered the village, but was still at the place where Martha had met Him.",
           "display_text": "Now Jesus had not yet entered the village, but was still at the place where Martha had met Him.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Jesus' still being outside the village at Martha's meeting place was read. General meeting and travel notices do not independently establish this position at this point in the sequence."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-11-30__john-11-20",
+              "target": "John 11:20",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "The reference to where Martha had met Jesus looks back to her earlier going to meet Him while Mary remained in the house. This distinguishes the two sisters' meetings within the narrative. The earlier unit does not independently measure Jesus' position or repeat the later statement that He had not entered the village.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "da550b74e42bf1047d4ed413e9109bd52cc3dc254fb66f8bb2518082467362e0",
+              "source_complete_text_sha256": "da550b74e42bf1047d4ed413e9109bd52cc3dc254fb66f8bb2518082467362e0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 11:20",
+                  "id": "v11-20",
+                  "text": "When Martha heard that Jesus was coming, she went to meet Him, but Mary remained seated in the house.",
+                  "text_sha256": "013b71870594f623f84b5e66ac6fb2f7c1a0d542f5f37581060225ca3c94caf9",
+                  "complete_text_sha256": "013b71870594f623f84b5e66ac6fb2f7c1a0d542f5f37581060225ca3c94caf9"
+                }
+              ],
+              "target_passage_sha256": "01d43c9375c0a460f1db25edd2ba0877ed2d1fd66bad992b981ba2cd0d2c95c0",
+              "target_passage_complete_sha256": "01d43c9375c0a460f1db25edd2ba0877ed2d1fd66bad992b981ba2cd0d2c95c0",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 11:31",
@@ -23405,10 +24145,56 @@
           "id": "v11-34",
           "text": "And He said, “Where have you laid him?” They said to Him, “Lord, come and see.”",
           "display_text": "And He said, “Where have you laid him?” They said to Him, “Lord, come and see.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The where-have-you-laid-him question and come-and-see reply were read. Other invitations to see Jesus concern different objects and purposes and do not establish this tomb-location exchange."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-11-34__john-20-13-20-15",
+              "target": "John 20:13–20:15",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both scenes combine weeping with a question about where a body has been laid. Jesus asks about Lazarus and receives a come-and-see answer; Magdalene seeks where Jesus has been laid while not recognizing Him. The speakers and bodies differ, and neither Mary is identified with the other or either question made proof of an unstated limit of divine knowledge.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "cc84877b04272eee1739d243fe2364ac58076e6023dc43876c24ad48976581e3",
+              "source_complete_text_sha256": "cc84877b04272eee1739d243fe2364ac58076e6023dc43876c24ad48976581e3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 20:13",
+                  "id": "v20-13",
+                  "text": "And they say to her, “Woman, why do you weep?” She says to them, “They took my Lord, and I do not know where they laid Him.”",
+                  "text_sha256": "4729bede9537232e03271c8fd6ab5bf39b96293d7ac07a851be134b92df97488",
+                  "complete_text_sha256": "4729bede9537232e03271c8fd6ab5bf39b96293d7ac07a851be134b92df97488"
+                },
+                {
+                  "reference": "John 20:14",
+                  "id": "v20-14",
+                  "text": "Having said these things, she turned backward and beholds Jesus standing there, and did not know that it was Jesus.",
+                  "text_sha256": "319b25962ac0ee5a94c31f1d1486d5894d15ea5626a2f356a667f5754a6140b7",
+                  "complete_text_sha256": "319b25962ac0ee5a94c31f1d1486d5894d15ea5626a2f356a667f5754a6140b7"
+                },
+                {
+                  "reference": "John 20:15",
+                  "id": "v20-15",
+                  "text": "Jesus says to her, “Woman, why do you weep? Whom do you seek?” She, supposing that He is the gardener, says to Him, “Sir, if Thou didst carry Him away, tell me where Thou didst lay Him, and I will take Him away.”",
+                  "text_sha256": "2c55e873dc6ea083ab97a80f48cf48f9de7660c7a899b7ae3c94c1046a8fbed7",
+                  "complete_text_sha256": "2c55e873dc6ea083ab97a80f48cf48f9de7660c7a899b7ae3c94c1046a8fbed7"
+                }
+              ],
+              "target_passage_sha256": "33f41b3c706381dbbf7d63c933d550a8fee61dd7ae4a22a008dfe10a8fb7f687",
+              "target_passage_complete_sha256": "33f41b3c706381dbbf7d63c933d550a8fee61dd7ae4a22a008dfe10a8fb7f687",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 11:35",
@@ -23996,10 +24782,63 @@
           "id": "v11-48",
           "text": "If we leave Him like this, everyone will believe in Him, and the Romans will come and take away both our place and our nation.”",
           "display_text": "If we leave Him like this, everyone will believe in Him, and the Romans will come and take away both our place and our nation.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The council's fear of Roman action against place and nation if all believe was read. Other political fears do not establish these speakers' particular prediction, and the prediction is not treated as independently verified history."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-11-48__john-19-12-19-15",
+              "target": "John 19:12–19:15",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "The council invokes the Romans as a threat to their place and nation if belief spreads; the Passion scene invokes Caesar while pressuring Pilate, and the chief priests profess Caesar as king. This compares explicit Roman political arguments around Jesus without verifying the council's prediction, defining place as one compulsory referent or equating every participant.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "c9641b25e2fe529863b0b9b4611ee9507dab8ffdb00469f4c3c5ef45ebfdaf0f",
+              "source_complete_text_sha256": "c9641b25e2fe529863b0b9b4611ee9507dab8ffdb00469f4c3c5ef45ebfdaf0f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 19:12",
+                  "id": "v19-12",
+                  "text": "From this Pilate sought to release Him; but the Jews cried out, saying, “If you release this Man, you are not Caesar’s friend. Everyone who makes himself a king speaks against Caesar.”",
+                  "text_sha256": "4b6def544e472d62df905bc283f3401002943b8e3dbf857f6babfb2941320b37",
+                  "complete_text_sha256": "4b6def544e472d62df905bc283f3401002943b8e3dbf857f6babfb2941320b37"
+                },
+                {
+                  "reference": "John 19:13",
+                  "id": "v19-13",
+                  "text": "So Pilate, hearing these words, brought Jesus outside and sat on the judgment seat at a place called Stone Pavement, and in Hebrew, Gabbatha.",
+                  "text_sha256": "4db1e1f45c7f505cfb6ab37c3043847f1f2dc420d06609c0c2b2798e452610a5",
+                  "complete_text_sha256": "4db1e1f45c7f505cfb6ab37c3043847f1f2dc420d06609c0c2b2798e452610a5"
+                },
+                {
+                  "reference": "John 19:14",
+                  "id": "v19-14",
+                  "text": "Now it was the Preparation of the Passover; it was about the sixth hour. And he says to the Jews, “Behold your King!”",
+                  "text_sha256": "589e8da50de4cac4306ca1c8f94c768d7ba1979f965f50f0f663be6376f35cd9",
+                  "complete_text_sha256": "589e8da50de4cac4306ca1c8f94c768d7ba1979f965f50f0f663be6376f35cd9"
+                },
+                {
+                  "reference": "John 19:15",
+                  "id": "v19-15",
+                  "text": "Then they cried out, “Take Him away! Take Him away! Crucify Him!” Pilate says to them, “Shall I crucify your King?” The chief priests answered, “We have no king except Caesar.”",
+                  "text_sha256": "19f1fe097d1c87c90c00ee98e59aebbf97aa001fecc377ff04d8a683693e9ee0",
+                  "complete_text_sha256": "19f1fe097d1c87c90c00ee98e59aebbf97aa001fecc377ff04d8a683693e9ee0"
+                }
+              ],
+              "target_passage_sha256": "83e8a61839c7996f9332b32d0df49f03824aa66c7988512352a385f037385309",
+              "target_passage_complete_sha256": "83e8a61839c7996f9332b32d0df49f03824aa66c7988512352a385f037385309",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 11:49",
@@ -24401,7 +25240,7 @@
           "reviewed": "2026-10-31"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 12,
@@ -25374,10 +26213,84 @@
           "id": "v12-22",
           "text": "Philip came and told Andrew; Andrew and Philip came and told Jesus.",
           "display_text": "Philip came and told Andrew; Andrew and Philip came and told Jesus.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The specific Philip-to-Andrew-to-Jesus message relay was read. Other introductions to Jesus do not independently reproduce these intermediaries, their order or the message."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-12-22__john-1-40-1-46",
+              "target": "John 1:40–1:46",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Andrew and Philip mediate the request to Jesus here; earlier Andrew brings Simon and Philip tells Nathanael about Jesus and invites him to see. The named disciples' mediating roles recur, but the persons and actions differ. The comparison does not assert that the Greeks' requested audience occurs or supply the motive for Philip consulting Andrew.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "34699e2f5b6d5fcd228aab712405fa070cbad0987872d3756a3668fd58b69625",
+              "source_complete_text_sha256": "34699e2f5b6d5fcd228aab712405fa070cbad0987872d3756a3668fd58b69625",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 1:40",
+                  "id": "v1-40",
+                  "text": "Andrew, Simon Peter’s brother, was one of the two who heard from John and followed Him.",
+                  "text_sha256": "17c6c01e869eef45db81af75f2b87581bf260fe4a3857bc4cf4b0be83b01e712",
+                  "complete_text_sha256": "17c6c01e869eef45db81af75f2b87581bf260fe4a3857bc4cf4b0be83b01e712"
+                },
+                {
+                  "reference": "John 1:41",
+                  "id": "v1-41",
+                  "text": "He first found his own brother Simon and said to him, “We have found the Messiah”—which, translated, is Christ.",
+                  "text_sha256": "f1b147f4cb49c6b7e460727aa0592819d36f71a715d92c76d7d0eec3f8099e79",
+                  "complete_text_sha256": "f1b147f4cb49c6b7e460727aa0592819d36f71a715d92c76d7d0eec3f8099e79"
+                },
+                {
+                  "reference": "John 1:42",
+                  "id": "v1-42",
+                  "text": "He brought him to Jesus. Jesus looked at him and said, “You are Simon, the son of John; you shall be called Cephas”—which is translated Peter.",
+                  "text_sha256": "e77866507013da6d43acec58baa54cc3c357f2f21463c2aa2cd82ee617797ed8",
+                  "complete_text_sha256": "e77866507013da6d43acec58baa54cc3c357f2f21463c2aa2cd82ee617797ed8"
+                },
+                {
+                  "reference": "John 1:43",
+                  "id": "v1-43",
+                  "text": "The next day He wanted to go out into Galilee. And He found Philip, and Jesus said to him, “Follow Me.”",
+                  "text_sha256": "b7e39caaf37c3e6ab82112707378041c85a928aec032240cb286f6ccd0f996f0",
+                  "complete_text_sha256": "b7e39caaf37c3e6ab82112707378041c85a928aec032240cb286f6ccd0f996f0"
+                },
+                {
+                  "reference": "John 1:44",
+                  "id": "v1-44",
+                  "text": "Now Philip was from Bethsaida, the city of Andrew and Peter.",
+                  "text_sha256": "316830576800d83a3cfbe42b5dc1cf1844b1df682cbd27f33cfee6be275ffe1b",
+                  "complete_text_sha256": "316830576800d83a3cfbe42b5dc1cf1844b1df682cbd27f33cfee6be275ffe1b"
+                },
+                {
+                  "reference": "John 1:45",
+                  "id": "v1-45",
+                  "text": "Philip found Nathanael and said to him, “We have found the One of whom Moses wrote in the Law, and the prophets also: Jesus, the son of Joseph, from Nazareth.”",
+                  "text_sha256": "87fde6cf8300dddfa5f645ed9c45a9703990e2c4d0ad60faf2f6a355cc90c279",
+                  "complete_text_sha256": "87fde6cf8300dddfa5f645ed9c45a9703990e2c4d0ad60faf2f6a355cc90c279"
+                },
+                {
+                  "reference": "John 1:46",
+                  "id": "v1-46",
+                  "text": "Nathanael said to him, “Can anything good come from Nazareth?” Philip said to him, “Come and see.”",
+                  "text_sha256": "0c1e69f70cabb499ec584c450a88aff226df3d03f37942e1d8ea63ff8c2821fd",
+                  "complete_text_sha256": "0c1e69f70cabb499ec584c450a88aff226df3d03f37942e1d8ea63ff8c2821fd"
+                }
+              ],
+              "target_passage_sha256": "800638823faf4b847df40a7a1dfa27fdec5bfffd459199eb1a911308be54aa21",
+              "target_passage_complete_sha256": "800638823faf4b847df40a7a1dfa27fdec5bfffd459199eb1a911308be54aa21",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 12:23",
@@ -25671,10 +26584,42 @@
           "id": "v12-29",
           "text": "So the crowd standing there and hearing it said that it had thundered. Others said, “An angel has spoken to Him.”",
           "display_text": "So the crowd standing there and hearing it said that it had thundered. Others said, “An angel has spoken to Him.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The crowd's thunder-versus-angel interpretations of the heavenly sound were read. Other heavenly voices do not reproduce these particular interpretations or participants."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-12-29__psalms-28-3",
+              "target": "Psalms 28:3",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "The Psalm explicitly joins the Lord's voice with the God of glory thundering. John's crowd hears the heavenly voice but divides between thunder and an angel speaking. This compares concrete divine-voice/thunder imagery without endorsing both crowd explanations as fact, inventing a storm or making the Psalm a report of this event.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "c8a814a09fcb61c743bfc0e1bcc296403ce901d1b93855aefe6702b118ab7181",
+              "source_complete_text_sha256": "c8a814a09fcb61c743bfc0e1bcc296403ce901d1b93855aefe6702b118ab7181",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/psalms.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 28:3",
+                  "id": "v28-3",
+                  "text": "The Lord’s voice is over the waters; the God of glory thundered; the Lord is over many waters.",
+                  "text_sha256": "3410b9759f613693fbb9530c968940238ee12d7353f8adb091edde3634075a6a",
+                  "complete_text_sha256": "3410b9759f613693fbb9530c968940238ee12d7353f8adb091edde3634075a6a"
+                }
+              ],
+              "target_passage_sha256": "040cead2020ae4861e90080cb162a93bfe42782603a5a6ac71ce4204b48916bf",
+              "target_passage_complete_sha256": "040cead2020ae4861e90080cb162a93bfe42782603a5a6ac71ce4204b48916bf",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 12:30",
@@ -26608,7 +27553,7 @@
           "reviewed": "2026-10-31"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 13,
@@ -26965,10 +27910,63 @@
           "id": "v13-9",
           "text": "Simon Peter said to Him, “Lord, not my feet only, but also my hands and my head!”",
           "display_text": "Simon Peter said to Him, “Lord, not my feet only, but also my hands and my head!”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Peter's request for hands and head as well as feet was read. General washings or priestly-body regulations do not independently reproduce his request or settle its full meaning."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-13-9__exodus-30-18-30-21",
+              "target": "Exodus 30:18–30:21",
+              "verdict": "supported",
+              "relationship": "thematic parallel",
+              "rationale": "Peter requests hands and head as well as feet after Jesus' no-share warning. Exodus specifies priestly hand-and-foot washing before service. Both specify bodily washing in relation to participation, but Exodus does not add head washing here, and John does not make Peter an Aaronite or impose the priestly death warning on this conversation.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "b6e1fb29a04d6c80ee03e418291249a4ebb37a4200e311802f2c1376f3dd7c02",
+              "source_complete_text_sha256": "b6e1fb29a04d6c80ee03e418291249a4ebb37a4200e311802f2c1376f3dd7c02",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "exodus/verses.json",
+                "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/exodus.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Exodus 30:18",
+                  "id": "v30-18",
+                  "text": "“Make a bronze basin with a bronze base for washing. Put it between the Tent of Testimony and the altar, and pour water into it.",
+                  "text_sha256": "5088467645a8d4f83753d2469f9938f023919073b1a07631fdc16cf0c0a21f77",
+                  "complete_text_sha256": "5088467645a8d4f83753d2469f9938f023919073b1a07631fdc16cf0c0a21f77"
+                },
+                {
+                  "reference": "Exodus 30:19",
+                  "id": "v30-19",
+                  "text": "Aaron and his sons shall wash their hands and feet with water from it.",
+                  "text_sha256": "d8ca0c7c591c721bf0f548cff147028843fcb6d05aa5657883e9543e018edef9",
+                  "complete_text_sha256": "d8ca0c7c591c721bf0f548cff147028843fcb6d05aa5657883e9543e018edef9"
+                },
+                {
+                  "reference": "Exodus 30:20",
+                  "id": "v30-20",
+                  "text": "When they enter the Tent of Testimony, they shall wash with water so that they do not die. When they approach the altar to minister and offer whole burnt offerings to the Lord,",
+                  "text_sha256": "17137b6a21e94dc9dc0714a6124dfd624fa7f746e2645e855a51193e5f7cdf74",
+                  "complete_text_sha256": "17137b6a21e94dc9dc0714a6124dfd624fa7f746e2645e855a51193e5f7cdf74"
+                },
+                {
+                  "reference": "Exodus 30:21",
+                  "id": "v30-21",
+                  "text": "they shall wash their hands and feet with water. When they enter the Tent of Testimony, they shall wash with water so that they do not die. This shall be a perpetual statute for him and his generations after him.”",
+                  "text_sha256": "be2d657efb70518227baf0958d0670a8516fa12b99453000366383a220c028e5",
+                  "complete_text_sha256": "be2d657efb70518227baf0958d0670a8516fa12b99453000366383a220c028e5"
+                }
+              ],
+              "target_passage_sha256": "e1e0d75fdef5ccfbd851d19bbe612c29db2789f3fbb7d542cc3aa3e3b7fcbea5",
+              "target_passage_complete_sha256": "e1e0d75fdef5ccfbd851d19bbe612c29db2789f3fbb7d542cc3aa3e3b7fcbea5",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 13:10",
@@ -28217,7 +29215,7 @@
           "reviewed": "2026-10-31"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 14,
@@ -34376,10 +35374,63 @@
           "id": "v18-16",
           "text": "but Peter was standing outside at the door. So the other disciple, who was known to the high priest, went out and spoke to the woman keeping the door, and brought Peter in.",
           "display_text": "but Peter was standing outside at the door. So the other disciple, who was known to the high priest, went out and spoke to the woman keeping the door, and brought Peter in.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The other disciple's acquaintance with the high priest, conversation with the woman doorkeeper and bringing Peter inside were read in their full order. Other courtyard accounts do not reproduce this particular admission through an unnamed intermediary, and that disciple is not automatically identified as the beloved disciple or given a personal name."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-18-16__acts-12-13-12-16",
+              "target": "Acts 12:13–12:16",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Both scenes place Peter at a doorway with a female servant involved in admission. John has another disciple speak to the doorkeeper and bring him in; Acts has Rhoda recognize his voice but leave the gate shut in joy before it is opened. The women, houses and circumstances differ, and the unnamed disciple remains unnamed.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "ccf3b0a198af4e210403a9c2b6a9ccbcf0b3d2929065d1fbffbc423310bce9f2",
+              "source_complete_text_sha256": "ccf3b0a198af4e210403a9c2b6a9ccbcf0b3d2929065d1fbffbc423310bce9f2",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 12:13",
+                  "id": "v12-13",
+                  "text": "When he knocked at the outer gate’s door, a slave girl named Rhoda came to answer.",
+                  "text_sha256": "8b837aae708123d5c238f0e5617b9b7e3d63fe6532e789152d44423efd86c793",
+                  "complete_text_sha256": "8b837aae708123d5c238f0e5617b9b7e3d63fe6532e789152d44423efd86c793"
+                },
+                {
+                  "reference": "Acts 12:14",
+                  "id": "v12-14",
+                  "text": "Recognizing Peter’s voice, in her joy she did not open the gate, but ran inside and announced that Peter was standing before it.",
+                  "text_sha256": "a608e2a9e29306d3572dbe29a71bc47b6dc7e5090ff39c560d823c86128e069d",
+                  "complete_text_sha256": "a608e2a9e29306d3572dbe29a71bc47b6dc7e5090ff39c560d823c86128e069d"
+                },
+                {
+                  "reference": "Acts 12:15",
+                  "id": "v12-15",
+                  "text": "They said to her, “You are out of your mind.” But she insisted that it was so. They said, “It is his angel.”",
+                  "text_sha256": "fa46c45b27723ada71f4613ca05b27a30b27c2c5b54958b36adcc4e6e41a5e51",
+                  "complete_text_sha256": "fa46c45b27723ada71f4613ca05b27a30b27c2c5b54958b36adcc4e6e41a5e51"
+                },
+                {
+                  "reference": "Acts 12:16",
+                  "id": "v12-16",
+                  "text": "Peter kept knocking. When they opened the door, they saw him and were astonished.",
+                  "text_sha256": "43d044ed28f18cf7bbadf4b44e597a812e66859f6dff47b7391f7db56bc8441e",
+                  "complete_text_sha256": "43d044ed28f18cf7bbadf4b44e597a812e66859f6dff47b7391f7db56bc8441e"
+                }
+              ],
+              "target_passage_sha256": "dcea68cf3b33d5cef110840e4f03c70c2287978776f058afc7bd868e155e6d8a",
+              "target_passage_complete_sha256": "dcea68cf3b33d5cef110840e4f03c70c2287978776f058afc7bd868e155e6d8a",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 18:17",
@@ -35173,7 +36224,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Jesus' question whether Pilate's royal description is his own or received from others was read with the ensuing dialogue. Other identity inquiries do not establish this particular contrast of personal and reported knowledge; Pilate's motives or a new answer on his behalf are not invented."
+          "deferral_reason": "The personal-versus-reported source question was reread with Pilate's response. Other identity demands do not reproduce this specific distinction, and neither Pilate's hidden motives nor a new reply is supplied."
         },
         {
           "reference": "John 18:35",
@@ -35837,7 +36888,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Pilate's increased fear after the Son-of-God allegation was read with the next origin question. Other judicial anxieties, dreams or fear responses do not supply this scene's particular cause or confirm an unstated inner belief, so no general fear parallel is forced."
+          "deferral_reason": "Pilate's increased fear is explicitly linked to the preceding allegation. Other warnings or judicial anxieties do not establish that cause or justify an unstated inner belief, and the wife's different experience is not transferred to him."
         },
         {
           "reference": "John 19:9",
@@ -36435,7 +37486,7 @@
           "status": "deferred",
           "cross_references": [],
           "reviewed": "2026-10-31",
-          "deferral_reason": "Pilate's refusal to revise the inscription was read after the chief priests' proposed change. General statements about irrevocable royal writings do not establish a parallel rule or motive for this particular placard; no independent counterpart to the reply is retained."
+          "deferral_reason": "The refusal to revise the placard was reread with the requested change. A rule about irrevocable royal decrees would not establish Pilate's legal obligation or particular motive here; no general law is imposed on this rhetorical reply."
         },
         {
           "reference": "John 19:23",
@@ -39287,10 +40338,56 @@
           "id": "v21-10",
           "text": "Jesus says to them, “Bring some of the fish that you have just caught.”",
           "display_text": "Jesus says to them, “Bring some of the fish that you have just caught.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "The instruction to bring some newly caught fish was read with the existing fire, fish and bread and Peter's subsequent hauling. Other food requests and the earlier crowd-feeding scenes do not supply this particular catch-to-breakfast instruction, and no generic serving or command-response link is added."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-21-10__matthew-14-17-14-19",
+              "target": "Matthew 14:17–14:19",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "Jesus' request for newly caught fish is compared with His command to bring the available loaves and fish before feeding the crowd. The concrete food-contribution command precedes a meal in both narratives. Catch and existing supplies, disciples' breakfast and crowd feeding remain distinct; no new multiplication or identity of occasions is asserted.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "00f07722fe78a3ab0f38aa20252f172604e0c25c04c7f9ba4ca8007f32936354",
+              "source_complete_text_sha256": "00f07722fe78a3ab0f38aa20252f172604e0c25c04c7f9ba4ca8007f32936354",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "matthew/verses.json",
+                "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Matthew 14:17",
+                  "id": "v14-17",
+                  "text": "They said to Him, “We have here only five loaves and two fish.”",
+                  "text_sha256": "85db4454757f8c0eb8a4656360b0dd132d08c2619081d9174da30c3f735d3cc1",
+                  "complete_text_sha256": "85db4454757f8c0eb8a4656360b0dd132d08c2619081d9174da30c3f735d3cc1"
+                },
+                {
+                  "reference": "Matthew 14:18",
+                  "id": "v14-18",
+                  "text": "He said, “Bring them here to Me.”",
+                  "text_sha256": "ed0c2833c1b4a1223dfcc0d010f872973eb78c2a6ea613141197b87cd501c7c9",
+                  "complete_text_sha256": "ed0c2833c1b4a1223dfcc0d010f872973eb78c2a6ea613141197b87cd501c7c9"
+                },
+                {
+                  "reference": "Matthew 14:19",
+                  "id": "v14-19",
+                  "text": "He ordered the crowds to recline on the grass. Taking the five loaves and the two fish, He looked up to heaven, blessed, broke the loaves, and gave them to the disciples, and the disciples to the crowds.",
+                  "text_sha256": "a25c38b2a1af25677367ab80d76d04518f075a966e0123b8ea4d8ad3a7bc226e",
+                  "complete_text_sha256": "a25c38b2a1af25677367ab80d76d04518f075a966e0123b8ea4d8ad3a7bc226e"
+                }
+              ],
+              "target_passage_sha256": "507a11b2af65374858fa6d7a0ebd8e54c34fbfee68691ec3ee9fc8f16cb4dd9c",
+              "target_passage_complete_sha256": "507a11b2af65374858fa6d7a0ebd8e54c34fbfee68691ec3ee9fc8f16cb4dd9c",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 21:11",
@@ -39896,10 +40993,56 @@
           "id": "v21-21",
           "text": "So Peter, seeing him, says to Jesus, “Lord, and what about this man?”",
           "display_text": "So Peter, seeing him, says to Jesus, “Lord, and what about this man?”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-31",
-          "deferral_reason": "Peter's question about the other disciple was read with Jesus' conditional answer and the rumor correction. Those explain the same exchange rather than supplying a separate counterpart; generic curiosity or judgment passages do not establish Peter's motive or the other disciple's future."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "john-21-21__acts-1-6-1-8",
+              "target": "Acts 1:6–1:8",
+              "verdict": "supported",
+              "relationship": "narrative parallel",
+              "rationale": "In both post-resurrection exchanges, a question about the future is answered with a boundary on the disciples' concern and a task from Jesus. Peter asks about the other disciple before being told to follow; the group asks about kingdom timing before being commissioned as witnesses. Neither question is assigned an unspoken motive or its requested timetable supplied.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T050916Z",
+              "source_text_sha256": "1ed2d34bd3408ae1f3959e8170f9aa988661f56ecfec76ffd7c6b02ece77dc87",
+              "source_complete_text_sha256": "1ed2d34bd3408ae1f3959e8170f9aa988661f56ecfec76ffd7c6b02ece77dc87",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 1:6",
+                  "id": "v1-6",
+                  "text": "So those who had come together asked Him, “Lord, is this the time when Thou art restoring the kingdom to Israel?”",
+                  "text_sha256": "3f16d2ad727c0b16591e87b21b5bb6fd7c20901b6e9d5a61034967fcef2e30d9",
+                  "complete_text_sha256": "3f16d2ad727c0b16591e87b21b5bb6fd7c20901b6e9d5a61034967fcef2e30d9"
+                },
+                {
+                  "reference": "Acts 1:7",
+                  "id": "v1-7",
+                  "text": "He said to them, “It is not for you to know times or seasons that the Father has set by His own authority.",
+                  "text_sha256": "cddf9697b64c968c2e692164c1ee0cd5cdb2574c228e993942111c402d591cc2",
+                  "complete_text_sha256": "cddf9697b64c968c2e692164c1ee0cd5cdb2574c228e993942111c402d591cc2"
+                },
+                {
+                  "reference": "Acts 1:8",
+                  "id": "v1-8",
+                  "text": "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem and [in] all Judea and Samaria, and to the end of the earth.”",
+                  "text_sha256": "7202e3c3a753d350d13ff8f4912aeefc35fe2de0a3aa330aa4c0dcdba18fdf0e",
+                  "complete_text_sha256": "7202e3c3a753d350d13ff8f4912aeefc35fe2de0a3aa330aa4c0dcdba18fdf0e"
+                }
+              ],
+              "target_passage_sha256": "cc5476514444d4aaa5c7cf0bf33f2216f60dc704e402533da60f22ca9bd0f3be",
+              "target_passage_complete_sha256": "cc5476514444d4aaa5c7cf0bf33f2216f60dc704e402533da60f22ca9bd0f3be",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "John 21:22",
@@ -40070,23 +41213,28 @@
           "reviewed": "2026-10-31"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     }
   ],
   "total_source_verse_units": 878,
   "reviewed_source_units": 878,
-  "completed_source_verses": 842,
-  "completed_cross_references": 853,
+  "completed_source_verses": 867,
+  "completed_cross_references": 878,
   "completed_chapters": [
     1,
     3,
     5,
+    6,
     10,
+    11,
+    12,
+    13,
     14,
     15,
     16,
     17,
-    20
+    20,
+    21
   ],
   "reviewed_chapters": [
     1,
