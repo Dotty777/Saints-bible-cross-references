@@ -1,0 +1,53 @@
+{
+  "run_id": "2026-10-31T082549Z",
+  "base_commit": "1f97320b91dd8639baaf598800c3e41f9bf06408",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-31",
+  "review_timezone": "America/New_York",
+  "reviewer": "Independent technical peer /root/ecclesiastes_author",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "8727b57c0a7d20a7edb745beaa19e3ea0eb007e95a290eab233ff83f7c03b9af"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "p-7cf642f9/result.json",
+      "sha256": "ce1f9d0eec4d0082871bbb2e36b2bf141f2320f9e59bd8ecf5fce8c01c114b46"
+    },
+    {
+      "file": "p-c437b22d/result.json",
+      "sha256": "b4803651346610a04d721003da36765a3164219d04a3ae1e0c9ed7ef343d4b88"
+    },
+    {
+      "file": "technical-peer-probe-a-3755d4a5/result.json",
+      "sha256": "efeb914b36856ad98d076afb85c1160cd627e3de221ac548706e4e15cb2451ad"
+    },
+    {
+      "file": "revelation-unavailable.json",
+      "sha256": "de9bc7400a36a80cf7aa365060fbd96334d0519fd89f0c1319c8f9f9bb82cc9a"
+    }
+  ],
+  "review_scope": [
+    "Read the exact comparison with the accepted 0324 helper: only the empty-new-book partition permission, conditional inventory-generator archival, conditional inventory technical binding, and module description changed. No inventory is regenerated for this existing Jeremiah append.",
+    "Confirmed by AST comparison that all 46 other functions are unchanged, including receipt and native-prefix validation, original-record preservation, source registry verification, safe paths, guarded application and rollback, maintenance capture, final readback and publication checks.",
+    "Ran the actual current baseline audit: 146 protected identity objects, 29 existing books, 46 historical runs, 21,080 completed sources and 26,035 pairs were verified. Existing Jeremiah retains 1,296 native units / 52 groups, 365 completed records / 380 pairs, 401 previously read units, 36 prior deferrals and 17 prior candidates.",
+    "Executed 17 independent focused checks against actual current guard statements and native data. Invalid duplicate/out-of-scope new-book partitions, reclassification of existing Jeremiah as new, missing baseline records, reordered/skipped prefixes and split composite source labels were rejected. The true new-book branch still requires the inventory helper hash; the existing-only branch neither requires nor reads the absent file.",
+    "Confirmed the exact 633-unit full prefix continues at Jeremiah 41:1 and the 632-unit partial prefix at Jeremiah 40:13. All three actual composite labels remain single keys; missing 17:1–4 and conventional split aliases are not invented.",
+    "Read both isolated full/partial fixture drivers and complete results. Each passed 33 checks, including the actual 29-book production validator, maintenance capture and readback, composite source/target cases, original objects and old run preservation, no production script output, unchanged future-book unknown metadata and clean production repository.",
+    "Read the archive and technical-receipt code: current identities and exact helper/renderer hashes are required; only explicitly listed relative contained evidence files with matching hashes are archived, including the current-run Revelation availability proof."
+  ],
+  "limitations": [
+    "The two helper fixtures use explicitly synthetic edges with semantic receipt validation and source-registry inputs stubbed. They supply zero semantic completion credit; the final actual author and independent peer receipts remain separately mandatory.",
+    "Previously accepted unchanged transaction/rollback/path behavior was checked for AST identity and was not subjected to redundant fault-injection runs in this narrow review. All probes and receipt writes stayed under this run workspace."
+  ]
+}

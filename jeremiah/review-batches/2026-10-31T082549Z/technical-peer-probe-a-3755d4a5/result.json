@@ -1,0 +1,144 @@
+{
+  "run_id": "2026-10-31T082549Z",
+  "base_commit": "1f97320b91dd8639baaf598800c3e41f9bf06408",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Independent technical peer /root/ecclesiastes_author",
+  "helper_sha256": "8727b57c0a7d20a7edb745beaa19e3ea0eb007e95a290eab233ff83f7c03b9af",
+  "renderer_sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "method": "Actual current baseline readback; AST comparison with the previously accepted helper; current validation statements and prefix guard executed in isolated in-memory environments. No author or peer semantic validation was bypassed to create completion evidence.",
+  "checks": {
+    "unchanged_critical_functions": {
+      "passed": true,
+      "details": {
+        "changed_functions": [
+          "baseline",
+          "prepare"
+        ],
+        "unchanged_function_count": 46,
+        "includes": [
+          "safe_path",
+          "apply",
+          "receipt",
+          "packets",
+          "audit_objects",
+          "capture_maintenance",
+          "readback",
+          "publication_check",
+          "verified_registry",
+          "existing_book",
+          "existing_checks"
+        ]
+      }
+    },
+    "actual_current_baseline_with_empty_new_partition": {
+      "passed": true,
+      "details": {
+        "historical_runs": 46,
+        "existing_books": 29,
+        "parsed_identity_objects": 146,
+        "global_completed_sources": 21080,
+        "global_completed_pairs": 26035
+      }
+    },
+    "existing_dispatch_and_inventory_preservation": {
+      "passed": true,
+      "details": {
+        "completed_sources": 365,
+        "pairs": 380,
+        "prior_read": 401,
+        "prior_deferrals": 36,
+        "prior_candidates": 17,
+        "native_units": 1296,
+        "groups": 52,
+        "first_unread": "Jeremiah 17:5",
+        "inventory_helper_present": false
+      }
+    },
+    "duplicate_new_book_partition_rejected": {
+      "passed": true,
+      "details": {
+        "rejection": "Invalid new-book partition"
+      }
+    },
+    "out_of_scope_new_book_rejected": {
+      "passed": true,
+      "details": {
+        "rejection": "Invalid new-book partition"
+      }
+    },
+    "existing_book_cannot_be_reclassified_as_new": {
+      "passed": true,
+      "details": {
+        "rejection": "Never bootstrap over historical book records"
+      }
+    },
+    "missing_existing_baseline_record_rejected": {
+      "passed": true,
+      "details": {
+        "rejection": "Existing-book append requires baseline records"
+      }
+    },
+    "inventory_generator_archived_only_for_new_books": {
+      "passed": true,
+      "details": {
+        "existing_only": false,
+        "new_book_branch": true
+      }
+    },
+    "existing_only_acceptance_does_not_read_absent_inventory_helper": {
+      "passed": true,
+      "details": "The actual conditional guard accepted no inventory binding and never called digest."
+    },
+    "new_book_branch_still_requires_inventory_binding": {
+      "passed": true,
+      "details": {
+        "rejection": "Technical peer must bind the inventory helper"
+      }
+    },
+    "new_book_branch_accepts_exact_inventory_binding": {
+      "passed": true,
+      "details": "The existing true branch still checks the exact inventory hash."
+    },
+    "exact_full_and_partial_native_prefixes": {
+      "passed": true,
+      "details": {
+        "full_read": 633,
+        "full_next": "Jeremiah 41:1",
+        "partial_read": 632,
+        "partial_next": "Jeremiah 40:13"
+      }
+    },
+    "reordered_source_prefix_rejected": {
+      "passed": true,
+      "details": {
+        "rejection": "Book packets must cover the exact disjoint next-unread native prefix: Jeremiah"
+      }
+    },
+    "internal_source_gap_rejected": {
+      "passed": true,
+      "details": {
+        "rejection": "Book packets must cover the exact disjoint next-unread native prefix: Jeremiah"
+      }
+    },
+    "all_three_composites_remain_single_actual_keys": {
+      "passed": true,
+      "details": [
+        "Jeremiah 7:27–28",
+        "Jeremiah 25:13; 32:13",
+        "Jeremiah 25:14;25:20"
+      ]
+    },
+    "split_composite_source_rejected": {
+      "passed": true,
+      "details": {
+        "rejection": "Book packets must cover the exact disjoint next-unread native prefix: Jeremiah"
+      }
+    },
+    "missing_native_labels_not_manufactured": {
+      "passed": true,
+      "details": "No separate25:13/25:14 keys or17:1–4 units appear; exact composite targets resolve to one actual unit."
+    }
+  }
+}
