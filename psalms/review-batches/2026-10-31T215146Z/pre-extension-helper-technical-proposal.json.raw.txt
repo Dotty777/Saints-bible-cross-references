@@ -1,0 +1,75 @@
+{
+  "run_id": "2026-10-31T215146Z",
+  "base_commit": "d7a140885e7df06c51a4a960d8d7e636e97633ce",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex helper author /root/amos_helper_recovery",
+  "disposition": "proposed for independent root technical review",
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "b018228df0023f73321808176068618409e3ae0abf0220d0fcf53580bab7927c"
+    },
+    {
+      "file": "passages.py",
+      "sha256": "8d79df2502ce7abf82b41ed6b78c13888a12fdecdfe87b47687073f877c634b5"
+    },
+    {
+      "file": "run-config.json",
+      "sha256": "fc450b0ab3221c890428b13d52de70f980dbb5cedda1b3d91b6425b4558a2a66"
+    },
+    {
+      "file": "review-plan.json",
+      "sha256": "6a87cb669aefcd4ce39a5bbe5d47ee64395032dbbe0d3ef50d63d9f9dc86932f"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "ea897c78d93650f6ea15c1ef20dff5a901afd0c85b84b974d82462a69892156f"
+    },
+    {
+      "file": "production-validate.py",
+      "sha256": "936477bd4cca32931d414c82346a39dfba66929b30828c6d065b60989e5e74d5"
+    },
+    {
+      "file": "book-author.py",
+      "sha256": "766918483953e8dca4d94af3eb3c4b377dd9237e614d0add127db09b1500b221"
+    },
+    {
+      "file": "freeze-book-author.py",
+      "sha256": "04549d4db0393b80953b2f2ce09521a4a7a527e6f8f0abac8fd6af4e621cb5a2"
+    },
+    {
+      "file": "build-author-cases.py",
+      "sha256": "3193df10a5b09cece60c3b34e5a392a0eebfe73cfbcae32afb24f4dfd0f9b0c9"
+    },
+    {
+      "file": "probe-current-run-adaptation.py",
+      "sha256": "fb43e485a31049711ecb7f198196a9e1a1f87ca733fb22589ee83040decb60ae"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "baseline-proof.json",
+      "sha256": "68e293f79d16c1fe0d66e61df9e0ccd449db8fd80e4bfc2d71499c76dee9652d"
+    },
+    {
+      "file": "current-run-adaptation.json",
+      "sha256": "e64e985dc28246bdb69be8dc7a4e08649e960fdceac83f555f265b4647e22fa5"
+    },
+    {
+      "file": "current-run-adaptation-probe-result.json",
+      "sha256": "3bd998de3a466a10dd4f350f861ea2c5e852b1a5b67a59d77304b0f07cc8b8ce"
+    }
+  ],
+  "changes": [
+    "Candidate selection excludes exact prior considered references from before-progress.json, so the new canonical cursor begins at Psalms 40:9 and does not repeat the prior 1,124 considered sources.",
+    "Author/freezer current-run assertion updated; selected source-section labels derive from existing native chapter membership, including Sirach Prologue chapter 0.",
+    "Passages and case-builder unchanged. Accepted optional-section fallback, staged unchanged-readable auditing, historical preservation, repeated-candidate deduplication, transactional apply/rollback and independent NT reconciliation retained unchanged."
+  ],
+  "candidate_source_units": 787,
+  "initial_pending_evidence_cursor": "Psalms 40:9",
+  "probe_scope": "Focused current-run exclusion, canonical partial-prefix rejection and native Sirach Prologue section handling. Accepted unchanged helper logic was compared byte-for-byte rather than re-tested with redundant fixtures. Full prepare/audit remains required after final semantic peers and fresh source registry.",
+  "production_code_changes": false,
+  "production_writes": 0,
+  "completion_credit": 0,
+  "created_at_utc": "2026-10-31T21:58:27.359408+00:00"
+}

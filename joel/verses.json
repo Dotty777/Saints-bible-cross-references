@@ -34,13 +34,15 @@
   },
   "review_status": "initial_curated_pass_in_progress",
   "completed_chapters": [
-    3
+    3,
+    4
   ],
   "completed_source_sections": [
-    3
+    3,
+    4
   ],
-  "completed_source_verses": 69,
-  "completed_cross_references": 74,
+  "completed_source_verses": 71,
+  "completed_cross_references": 76,
   "total_chapters": 4,
   "total_source_sections": 4,
   "total_source_verse_units": 73,
@@ -1144,8 +1146,46 @@
           "id": "v2-8",
           "text": "and no one will hold back from his brother. Burdened with their weapons they will go, and among their missiles they will fall, yet they will certainly not be destroyed.",
           "display_text": "and no one will hold back from his brother. Burdened with their weapons they will go, and among their missiles they will fall, yet they will certainly not be destroyed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "joel-2-8__2-corinthians-4-8-9",
+              "target": "2 Corinthians 4:8-9",
+              "verdict": "supported",
+              "relationship": "Contrastive parallel: falling under attack without destruction",
+              "rationale": "Joel's advancing force falls among missiles yet is certainly not destroyed. The Corinthian letter describes its speakers as persecuted and struck down, but not abandoned or destroyed. Both explicitly distinguish experiencing a fall or blow from being destroyed. Joel's armed force and the letter's afflicted ministry remain different groups and situations; no physical invulnerability or identification of the two is inferred.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "3fb3bcec84caa3c6fc3852c289a8f6c557c6e3640b09ef3209b047b54e117d85",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-corinthians/verses.json",
+                "blob_sha": "2b83f1dc75d862ddb0a0a9fdbdbd63fc2682c346",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-corinthians/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Corinthians 4:8",
+                  "id": "v4-8",
+                  "text": "We are afflicted in every way, but not confined; perplexed, but not utterly at a loss;",
+                  "display_text": "We are afflicted in every way, but not confined; perplexed, but not utterly at a loss;",
+                  "text_sha256": "707107c81ea80f17fc79d182394f0c41a6b094928bbab84b8cd591011d8529e7"
+                },
+                {
+                  "reference": "2 Corinthians 4:9",
+                  "id": "v4-9",
+                  "text": "persecuted, but not abandoned; struck down, but not destroyed;",
+                  "display_text": "persecuted, but not abandoned; struck down, but not destroyed;",
+                  "text_sha256": "abf663304dd737ad80918ea6d387a75c7d2d8a621fe767de0527d52e1dae709a"
+                }
+              ],
+              "target_passage_sha256": "4846d4d3689f58276a993d9791e9aee75f0d8ab5db17c0008b1ce5eac0264c56",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Joel 2:9",
@@ -2230,7 +2270,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -2815,8 +2855,53 @@
           "id": "v4-14",
           "text": "Sounds rang out in the Valley of Judgment, because the Lord’s day is near in the Valley of Judgment.",
           "display_text": "Sounds rang out in the Valley of Judgment, because the Lord’s day is near in the Valley of Judgment.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "joel-4-14__zephaniah-1-14-16",
+              "target": "Zephaniah 1:14-16",
+              "verdict": "supported",
+              "relationship": "Prophetic parallel: the near day of the Lord announced with sound",
+              "rationale": "Joel joins sounds in the Valley of Judgment to the nearness of the Lord's day. Zephaniah likewise announces that the Lord's great day is near and describes its bitter, harsh sound and trumpet and shouting. Both present the approaching judgment as something heard as well as announced. Zephaniah does not name Joel's valley, and Joel's sounds are not replaced with an unstated multitude or a different valley name.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "baaedc67a0799a9c1cbe8ee27a98d482d2d1cec68883255a512fbb3daf72e0d3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zephaniah/verses.json",
+                "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zephaniah 1:14",
+                  "id": "v1-14",
+                  "text": "For the Lord’s great day is near, near and very swift. The sound of the Lord’s day is bitter and harsh; it is appointed mighty.",
+                  "display_text": "For the Lord’s great day is near, near and very swift. The sound of the Lord’s day is bitter and harsh; it is appointed mighty.",
+                  "text_sha256": "4df314d4cc34e2cc5d70aee231d8299a6e12c549f83cbcbb9d9d8df327c2d120"
+                },
+                {
+                  "reference": "Zephaniah 1:15",
+                  "id": "v1-15",
+                  "text": "That day is a day of wrath, a day of affliction and constraint, a day of untimely ruin and destruction, a day of darkness and gloom, a day of cloud and mist,",
+                  "display_text": "That day is a day of wrath, a day of affliction and constraint, a day of untimely ruin and destruction, a day of darkness and gloom, a day of cloud and mist,",
+                  "text_sha256": "0cd17dc2135b555d0d485f17dfe392cf7b6f523eaed46ac5eac06b62ce0a65dc"
+                },
+                {
+                  "reference": "Zephaniah 1:16",
+                  "id": "v1-16",
+                  "text": "a day of trumpet and shouting against fortified cities and high corners.",
+                  "display_text": "a day of trumpet and shouting against fortified cities and high corners.",
+                  "text_sha256": "be39cc55e6070b85fb3b093ffebaacbe31794af0a806758483b4400340a838c8"
+                }
+              ],
+              "target_passage_sha256": "14b1b7d7fc1a5b3c06d365a2db2e747b57b4275b51f59cc81baac5279afbd671",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Joel 4:15",

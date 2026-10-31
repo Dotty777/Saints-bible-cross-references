@@ -1,0 +1,1473 @@
+{
+  "run_id": "2026-10-31T215146Z",
+  "baseline_commit": "d7a140885e7df06c51a4a960d8d7e636e97633ce",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "historical_runs": 53,
+  "existing_book_records": 43,
+  "completed_source_verses": 24441,
+  "completed_pairs": 29608,
+  "canonical_book_order_validated": [
+    "Genesis",
+    "Exodus",
+    "Leviticus",
+    "Numbers",
+    "Deuteronomy",
+    "Joshua",
+    "Judges",
+    "Ruth",
+    "1 Samuel",
+    "2 Samuel",
+    "1 Kings",
+    "2 Kings",
+    "1 Chronicles",
+    "2 Chronicles",
+    "1 Maccabees",
+    "2 Maccabees",
+    "Ezra",
+    "Nehemiah",
+    "Esther",
+    "Job",
+    "Psalms",
+    "Proverbs",
+    "Ecclesiastes",
+    "Song of Songs",
+    "Lamentations",
+    "Wisdom of Solomon",
+    "Sirach",
+    "Isaiah",
+    "Jeremiah",
+    "Ezekiel",
+    "Daniel",
+    "Hosea",
+    "Joel",
+    "Amos",
+    "Obadiah",
+    "Jonah",
+    "Micah",
+    "Nahum",
+    "Habakkuk",
+    "Zephaniah",
+    "Haggai",
+    "Zechariah",
+    "Malachi",
+    "Matthew",
+    "Mark",
+    "Luke",
+    "John",
+    "Acts",
+    "Romans",
+    "1 Corinthians",
+    "2 Corinthians",
+    "Galatians",
+    "Ephesians",
+    "Philippians",
+    "Colossians",
+    "1 Thessalonians",
+    "2 Thessalonians",
+    "1 Timothy",
+    "2 Timothy",
+    "Titus",
+    "Philemon",
+    "Hebrews",
+    "James",
+    "1 Peter",
+    "2 Peter",
+    "1 John",
+    "2 John",
+    "3 John",
+    "Jude",
+    "Revelation"
+  ],
+  "baseline_new_testament_tree": "38a1ad8ae212a459e7a93018504bcb4c6044cfca",
+  "baseline_new_testament_pointer": {
+    "records": "new-testament/",
+    "progress": "new-testament/progress.json",
+    "testament": "New Testament",
+    "source_book_count": 27,
+    "canonical_orders": [
+      44,
+      70
+    ],
+    "completed_source_verses": 7526,
+    "completed_cross_references": 7655,
+    "next": {
+      "book": "Matthew",
+      "chapter": 1,
+      "reference": "Matthew 1:14",
+      "source_id": "v1-14"
+    },
+    "next_unreviewed": {
+      "book": "Revelation",
+      "chapter": 1,
+      "reference": "Revelation 1:1",
+      "source_id": "v1-1"
+    },
+    "updated": "2026-10-31",
+    "target_per_hour": 500,
+    "target_unit": "newly_completed_distinct_source_verses",
+    "latest_target_result": {
+      "run_id": "2026-10-31T194744Z",
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 119,
+      "target_met": false,
+      "target_shortfall": 381,
+      "target_excess": 0
+    },
+    "fully_read_source_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John",
+      "Acts",
+      "Romans",
+      "1 Corinthians",
+      "2 Corinthians",
+      "Galatians",
+      "Ephesians",
+      "Philippians",
+      "Colossians",
+      "1 Thessalonians",
+      "2 Thessalonians",
+      "1 Timothy",
+      "2 Timothy",
+      "Titus",
+      "Philemon",
+      "Hebrews",
+      "James",
+      "1 Peter",
+      "2 Peter",
+      "1 John",
+      "2 John",
+      "3 John",
+      "Jude"
+    ],
+    "source_availability_blocker": {
+      "book": "Revelation",
+      "canonical_order": 70,
+      "division": "Glory",
+      "status": "blocked_missing_pinned_source_record",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_main_verified_same_as_pin": true,
+      "evidence": "new-testament/review-batches/2026-10-31T194744Z/revelation-source-availability.json",
+      "evidence_sha256": "ad7f06ca039fda342b789e7fe44191110cfc71889426f9fbef6a096729ed8e96",
+      "reason": "Exact Saints Revelation source record unavailable in the verified pinned repository tree and current source main.",
+      "source_bodies_opened": 0,
+      "source_inventory_created": false,
+      "completion_credit": 0,
+      "continuation": "After Jude's originals are read, retain Revelation as next canonical source book. Do not create or count Revelation verse identities, totals, wording or cross-reference completions until the exact Saints source record is available and verified.",
+      "limit": "This evidence establishes absence in the pinned Saints-Translation GitHub repository and its current main, not absence from every possible external staging system. No external staging page or Revelation source body was opened.",
+      "canonical_continuation_cursor": {
+        "book": "Revelation",
+        "chapter": 1,
+        "reference": "Revelation 1:1",
+        "source_id": "v1-1"
+      },
+      "continuation_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record.",
+      "verified_native_source_unit": false
+    },
+    "target_shortfall_reason": "All 119 remaining available never-reviewed originals from 1 John 3:1 through Jude 1:25 received supported reviews. All 12 saved deferrals remain unresolved without completion credit. The exact Saints Revelation source record is absent at the verified pinned commit and current source main, so no Revelation inventory or review is fabricated to fill the shortfall of 381 source verses.",
+    "next_unreviewed_source_identity_verified": false,
+    "next_unreviewed_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record."
+  },
+  "files": {
+    "canon.json": {
+      "git_blob_sha": "e8636b7f8fc71856df3ff45e143dfb36421586ec",
+      "original_sha256": "d78dd5623716b3de01aff759754f783e71e0bb3ec40008d8cf7786365e8b72d9",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d78dd5623716b3de01aff759754f783e71e0bb3ec40008d8cf7786365e8b72d9"
+    },
+    "progress.json": {
+      "git_blob_sha": "29aa5fbed9238bf71855acae8b1e9b9f52c37523",
+      "original_sha256": "16f6f0136c591ef550d182667e3e7b77edf83ae74ac046fb9e10a0cc4c6773fc",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "16f6f0136c591ef550d182667e3e7b77edf83ae74ac046fb9e10a0cc4c6773fc"
+    },
+    "genesis/verses.json": {
+      "git_blob_sha": "4ea57f0a21e8003612d6ade846ecc027aee1ede0",
+      "original_sha256": "d2c518425b8e93edf0d6bc9d0f7647890b12b67af889963c5557e365cf9852ca",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d2c518425b8e93edf0d6bc9d0f7647890b12b67af889963c5557e365cf9852ca"
+    },
+    "genesis/source-checks.json": {
+      "git_blob_sha": "e5ed120e5e3fcc06da2c51563f18e2d933fca684",
+      "original_sha256": "236eb1575e046bbfe0eff1e0a83456fa67ba7442acda013346901089d566ec88",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "236eb1575e046bbfe0eff1e0a83456fa67ba7442acda013346901089d566ec88"
+    },
+    "genesis/editorial-notes.json": {
+      "git_blob_sha": "780790c301fd9d1fe710784f78aab5cc8ae2c947",
+      "original_sha256": "d3e89fd39f16df5bc6145ddc9a35ca78d1ce9e61030ef5ed85a37a8179fa440d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d3e89fd39f16df5bc6145ddc9a35ca78d1ce9e61030ef5ed85a37a8179fa440d"
+    },
+    "genesis/verification.json": {
+      "git_blob_sha": "5e4968a4b63660258e4f70920833c6c6a5dc6691",
+      "original_sha256": "e42e866df7b14160c391f8b142f4189b0e48b661ed7ca8b269c1318e0cdde170",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e42e866df7b14160c391f8b142f4189b0e48b661ed7ca8b269c1318e0cdde170"
+    },
+    "exodus/verses.json": {
+      "git_blob_sha": "c090d56a5e21b19ceacf9790d487a54d42584b62",
+      "original_sha256": "f6db7e0217279eef686c9492bb686570be4e1bdb6b22dfdf07f5efeea55ba12c",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f6db7e0217279eef686c9492bb686570be4e1bdb6b22dfdf07f5efeea55ba12c"
+    },
+    "exodus/source-checks.json": {
+      "git_blob_sha": "5b257870d8afdbb6b1e78c23a1c9386e20a8ac04",
+      "original_sha256": "2c138a93610d32221a98a6eaee9104a79ea8b488cd537bfce8fee9ad1d04caf8",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "2c138a93610d32221a98a6eaee9104a79ea8b488cd537bfce8fee9ad1d04caf8"
+    },
+    "exodus/inventory.json": {
+      "git_blob_sha": "a96985328bdb00ee2afca4adadca7c3f22f65f49",
+      "original_sha256": "fb2c195345a4bf13215f499e52e9343310d1cc794277664e286be4bb4051559f",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "fb2c195345a4bf13215f499e52e9343310d1cc794277664e286be4bb4051559f"
+    },
+    "exodus/editorial-notes.json": {
+      "git_blob_sha": "bde70f0eb4d1b61579b8e21e3799b5a9d5ff96fe",
+      "original_sha256": "632045aa6cd7ac880e858ab757f1f352da4d91790ea46cf156796a7a7b298073",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "632045aa6cd7ac880e858ab757f1f352da4d91790ea46cf156796a7a7b298073"
+    },
+    "exodus/verification.json": {
+      "git_blob_sha": "23581e73189350fa2d31fff07231e0ceb68ebf2f",
+      "original_sha256": "b264c4522ab119f28ebebcedee7edc1bd01f7050dd41eb7a62d569de1f7cf06a",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "b264c4522ab119f28ebebcedee7edc1bd01f7050dd41eb7a62d569de1f7cf06a"
+    },
+    "leviticus/verses.json": {
+      "git_blob_sha": "a79c83fa9e596e6cb635146e9166e0422ae26cf8",
+      "original_sha256": "13e5e64bcd89c8c10a4ffe7d18df37abab9ebaf05a0ee5d6e7e1eb3411d49640",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "13e5e64bcd89c8c10a4ffe7d18df37abab9ebaf05a0ee5d6e7e1eb3411d49640"
+    },
+    "leviticus/source-checks.json": {
+      "git_blob_sha": "279fcf7ac9f03a27e29af0bc8fe13ccee10ce6f0",
+      "original_sha256": "205e8f53593513adaae7a7b7aa31fa0a07a490ea18aa871ddb8cad75a39d2e04",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "205e8f53593513adaae7a7b7aa31fa0a07a490ea18aa871ddb8cad75a39d2e04"
+    },
+    "leviticus/inventory.json": {
+      "git_blob_sha": "1b9c6eac78e341a1d91c407a9c9822531f0edfb0",
+      "original_sha256": "ab5d55a6ba67d7f4fa28881d1b860d7c0e9e0b99d0cc5d2dfda493468ed2cdae",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ab5d55a6ba67d7f4fa28881d1b860d7c0e9e0b99d0cc5d2dfda493468ed2cdae"
+    },
+    "leviticus/editorial-notes.json": {
+      "git_blob_sha": "edcf84584e40734b27f1dec81306c9e068c3f3cc",
+      "original_sha256": "a376fb72c96b1f21892c0d36bf06745027963ece9009d92326566207437ef320",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "a376fb72c96b1f21892c0d36bf06745027963ece9009d92326566207437ef320"
+    },
+    "leviticus/verification.json": {
+      "git_blob_sha": "cfca4d412fea03918c7472748ec1da20f155386a",
+      "original_sha256": "53a3ab043e5c0e06bfcdaeb34166c6fcabd929ac4f2ca5d72d3b701bae3aab30",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "53a3ab043e5c0e06bfcdaeb34166c6fcabd929ac4f2ca5d72d3b701bae3aab30"
+    },
+    "numbers/verses.json": {
+      "git_blob_sha": "f2d70423ddc4f7b15a0942dda76459ffed732a8f",
+      "original_sha256": "7ad064c6831928f39b2f6f92c6c5ee845809b6c7bba62debf3a1c4a3febc5ba9",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "7ad064c6831928f39b2f6f92c6c5ee845809b6c7bba62debf3a1c4a3febc5ba9"
+    },
+    "numbers/source-checks.json": {
+      "git_blob_sha": "063eada06da69a738a8a0a5428b9f4cdf4f680a2",
+      "original_sha256": "1b76599602b25428b1bc914f50178717efeae4f2ca2772cc7928b7f9b1d0dfe8",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "1b76599602b25428b1bc914f50178717efeae4f2ca2772cc7928b7f9b1d0dfe8"
+    },
+    "numbers/inventory.json": {
+      "git_blob_sha": "594a91d1e93b5de1e9047c653c0d3cfa79d1cc15",
+      "original_sha256": "14bc7f3b8852eea849c9a7d85b80663ed5ff619daf939acea2fabde89e8e2d87",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "14bc7f3b8852eea849c9a7d85b80663ed5ff619daf939acea2fabde89e8e2d87"
+    },
+    "numbers/editorial-notes.json": {
+      "git_blob_sha": "b834ddcb16748d9d147bde86fd365c4b56fce62e",
+      "original_sha256": "fa3df0c85f95cb6420f90485b1783d2635193d02f78092d468322c680a2b5679",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "fa3df0c85f95cb6420f90485b1783d2635193d02f78092d468322c680a2b5679"
+    },
+    "numbers/verification.json": {
+      "git_blob_sha": "df719d60dcd34ac5c6dac164722aff3b8d48a3f4",
+      "original_sha256": "3a1cbc6e6c96f94af9268e3583f884d77f356ede89e4515514b923b9f7930082",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "3a1cbc6e6c96f94af9268e3583f884d77f356ede89e4515514b923b9f7930082"
+    },
+    "deuteronomy/verses.json": {
+      "git_blob_sha": "5d224a1972fd2c0d70944327c559ff1f91450d2e",
+      "original_sha256": "0f9182417e50e2f491157cbf96da3360ae7553b75f01e583df4edb8896277891",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "0f9182417e50e2f491157cbf96da3360ae7553b75f01e583df4edb8896277891"
+    },
+    "deuteronomy/source-checks.json": {
+      "git_blob_sha": "b61bfc2c6357a3b5df1bbaab3c8588f302884494",
+      "original_sha256": "e83ae355f826e801f83c99c92c18129f9a8110699f755a9af54d5b6a21e0da19",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e83ae355f826e801f83c99c92c18129f9a8110699f755a9af54d5b6a21e0da19"
+    },
+    "deuteronomy/inventory.json": {
+      "git_blob_sha": "8c320d274b255d96ae01ab62c3306698667a0dd3",
+      "original_sha256": "c3bbd4b5d87ba3cb089f69b4076c435351c179bdfea175966fccc5f38a680a2a",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c3bbd4b5d87ba3cb089f69b4076c435351c179bdfea175966fccc5f38a680a2a"
+    },
+    "deuteronomy/editorial-notes.json": {
+      "git_blob_sha": "4ecdb1cc2c67ea433c64a409743cf59999d68752",
+      "original_sha256": "e567de1980c179e0039f0756f513a72c1543919d50b0a97f27f4d45e1a2c72c5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e567de1980c179e0039f0756f513a72c1543919d50b0a97f27f4d45e1a2c72c5"
+    },
+    "deuteronomy/verification.json": {
+      "git_blob_sha": "78f7c06a2bc621887002ce52346aa0c11f28e4c3",
+      "original_sha256": "b62384eb5544f0f02144fa5e264b37aff667439d72cb89251fad3fd264f1550a",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "b62384eb5544f0f02144fa5e264b37aff667439d72cb89251fad3fd264f1550a"
+    },
+    "joshua/verses.json": {
+      "git_blob_sha": "7b14db591713f34597d756bd3f4d940419a7d238",
+      "original_sha256": "fe5a18be0626cca4da29dbf8427319a8980969324624acc26f8b1f978a4af9c6",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "fe5a18be0626cca4da29dbf8427319a8980969324624acc26f8b1f978a4af9c6"
+    },
+    "joshua/source-checks.json": {
+      "git_blob_sha": "b4c8176408a4d62dcd53a3f46d78d6880dd318be",
+      "original_sha256": "0e246008ff326fa79eaf0e4eba304f7459d18a53d42fdea986bac526e7274f32",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "0e246008ff326fa79eaf0e4eba304f7459d18a53d42fdea986bac526e7274f32"
+    },
+    "joshua/inventory.json": {
+      "git_blob_sha": "265725606f24871ac3b817906d3771c554033668",
+      "original_sha256": "3b4bba5162e677edcbd0d5b6124498bce227345670a45dfe887dfb2f18a2dc67",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "3b4bba5162e677edcbd0d5b6124498bce227345670a45dfe887dfb2f18a2dc67"
+    },
+    "joshua/editorial-notes.json": {
+      "git_blob_sha": "0e7ae355dbada3713c82b2970b74bfab1de9f6d3",
+      "original_sha256": "083d8e5e2fba2075f15efcf6dc92c3cfa759b2dbda7e94b9a613d17e718536ad",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "083d8e5e2fba2075f15efcf6dc92c3cfa759b2dbda7e94b9a613d17e718536ad"
+    },
+    "joshua/verification.json": {
+      "git_blob_sha": "268a54e0576a55d1ac4d16952d778b62529a12cd",
+      "original_sha256": "237e1a8ae60553478841c625e67020d1254ba988801f7b389d688c72e4302e8f",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "237e1a8ae60553478841c625e67020d1254ba988801f7b389d688c72e4302e8f"
+    },
+    "judges/verses.json": {
+      "git_blob_sha": "f20acb52dbee46dd0d35b4d66513288758187532",
+      "original_sha256": "434380932b742b1c303d2f45b7631c6ce8bfc0a7a9b41b7d3587b08bf27363f8",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "434380932b742b1c303d2f45b7631c6ce8bfc0a7a9b41b7d3587b08bf27363f8"
+    },
+    "judges/source-checks.json": {
+      "git_blob_sha": "6824065b9cf3cda35b449b96eebc97412b5aada5",
+      "original_sha256": "bfcc012356bee23b72e1b6adca37959977d55656a3f1b52bd1b930cf0a34a638",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "bfcc012356bee23b72e1b6adca37959977d55656a3f1b52bd1b930cf0a34a638"
+    },
+    "judges/inventory.json": {
+      "git_blob_sha": "3f497a090819a575a3c9cad9bd1bb4d0e586af52",
+      "original_sha256": "564210c1a9c99e762b10520bffd5d23ebdcc1f99543d10b8709a05c43cda18a3",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "564210c1a9c99e762b10520bffd5d23ebdcc1f99543d10b8709a05c43cda18a3"
+    },
+    "judges/editorial-notes.json": {
+      "git_blob_sha": "56b73e2ae2bbde80ae969e1fbb79942e6bdc9817",
+      "original_sha256": "f49df87ee0c2848f9c97c46598d7e7bfc1db22831b06093cc4219d13caa949aa",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f49df87ee0c2848f9c97c46598d7e7bfc1db22831b06093cc4219d13caa949aa"
+    },
+    "judges/verification.json": {
+      "git_blob_sha": "876b81cbbbc944fd53c1df74e6935db41f598ddb",
+      "original_sha256": "668b28e5cb26d99fe32ac70eebc6398de4b1997378bdf1037c31117e550d3300",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "668b28e5cb26d99fe32ac70eebc6398de4b1997378bdf1037c31117e550d3300"
+    },
+    "ruth/verses.json": {
+      "git_blob_sha": "e29be229bc13e87a13df9ea76fe09c4d68f1f895",
+      "original_sha256": "37dcc98d7e627695312c3486a9479e90ac81463e45e75180db2e3b37b1f0201f",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "37dcc98d7e627695312c3486a9479e90ac81463e45e75180db2e3b37b1f0201f"
+    },
+    "ruth/source-checks.json": {
+      "git_blob_sha": "ea469f44294a5f4426cb16d4f79b924f052697d7",
+      "original_sha256": "c0ce079c5e4d18172737ff61350252c22a9dd8b8e9ae482d417c38013a61d230",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c0ce079c5e4d18172737ff61350252c22a9dd8b8e9ae482d417c38013a61d230"
+    },
+    "ruth/inventory.json": {
+      "git_blob_sha": "86f659a0d70820b8ac42f60b7bd056d69116df36",
+      "original_sha256": "cadbdef3a71d4bbc859344bd98499e09ea9a57f5a32fd8cb52b7d531b6acb1a2",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "cadbdef3a71d4bbc859344bd98499e09ea9a57f5a32fd8cb52b7d531b6acb1a2"
+    },
+    "ruth/editorial-notes.json": {
+      "git_blob_sha": "850141343792197d16bd4366922a8491ae05e0c4",
+      "original_sha256": "ef0f2bd27047fa07eef33c598accf2a70e0812680ec29f354f091b7ea3acba5e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ef0f2bd27047fa07eef33c598accf2a70e0812680ec29f354f091b7ea3acba5e"
+    },
+    "ruth/verification.json": {
+      "git_blob_sha": "83ace7d0132b553db6656059dd8423cca44e0846",
+      "original_sha256": "3846c7011aa5ac9fa73c58eacabbc1bed59b37f1ebc21b7ed5d6332e03f45316",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "3846c7011aa5ac9fa73c58eacabbc1bed59b37f1ebc21b7ed5d6332e03f45316"
+    },
+    "1-samuel/verses.json": {
+      "git_blob_sha": "ae257ddf81e90953ace366f47f25ded83af97543",
+      "original_sha256": "ac002e37d766a0e2b10b4d757a4491b08abcd6a852ece52b89b081709880202c",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ac002e37d766a0e2b10b4d757a4491b08abcd6a852ece52b89b081709880202c"
+    },
+    "1-samuel/source-checks.json": {
+      "git_blob_sha": "4e85e703f690b67e08dfe5cb5af8d86c09f05fae",
+      "original_sha256": "86d6c97967dd49c78545a0b7b8bb30cefa7f53ef715448782c7a2ce58a84dcf2",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "86d6c97967dd49c78545a0b7b8bb30cefa7f53ef715448782c7a2ce58a84dcf2"
+    },
+    "1-samuel/inventory.json": {
+      "git_blob_sha": "2fc612c905343af51bc5a6b86bb2a7cce9dd3306",
+      "original_sha256": "ae75d9bc930967395458623b0bf8c4e77bfb0068a771d1ee5f90a0baffc740d0",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ae75d9bc930967395458623b0bf8c4e77bfb0068a771d1ee5f90a0baffc740d0"
+    },
+    "1-samuel/editorial-notes.json": {
+      "git_blob_sha": "d472c4ada2ebaad04d590dde9837cd7f58b804d1",
+      "original_sha256": "94a3a87e1903d6097409405c2d1a1181e3b1137055d6e2c32e463feeea662cf2",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "94a3a87e1903d6097409405c2d1a1181e3b1137055d6e2c32e463feeea662cf2"
+    },
+    "1-samuel/verification.json": {
+      "git_blob_sha": "8c87ab38f51553334b8b44fd8422a4a206feb489",
+      "original_sha256": "1b9a7fa677e12c3169da79f519d541681695fa9bc0b561706c2aa0ec69aa2d1b",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "1b9a7fa677e12c3169da79f519d541681695fa9bc0b561706c2aa0ec69aa2d1b"
+    },
+    "2-samuel/verses.json": {
+      "git_blob_sha": "b8fa085cd40727abdbf3d4125f99f409807df847",
+      "original_sha256": "dab5179250577ec65c8b3c0219e89a79118db890786f547326ab23591b9887c3",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "dab5179250577ec65c8b3c0219e89a79118db890786f547326ab23591b9887c3"
+    },
+    "2-samuel/source-checks.json": {
+      "git_blob_sha": "6c8faabd4afdd1f187a2e44caf4f3235569d54a1",
+      "original_sha256": "b702ba6f4a15b6e1f48a43720832eb6af3f57f2162276e05a0170f4853edf57c",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "b702ba6f4a15b6e1f48a43720832eb6af3f57f2162276e05a0170f4853edf57c"
+    },
+    "2-samuel/inventory.json": {
+      "git_blob_sha": "bf6999eb20a7e85ae3260e83ce5c7c4ee0500f8a",
+      "original_sha256": "5c8deacf545de3e2d1eb7cf1a6e14967bee10948372acc121ee45f794f73747a",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5c8deacf545de3e2d1eb7cf1a6e14967bee10948372acc121ee45f794f73747a"
+    },
+    "2-samuel/editorial-notes.json": {
+      "git_blob_sha": "b4193a6f49c2ecc23b56438b016f9eede2502d46",
+      "original_sha256": "c93b71d02500acbe5339df83708ea896a5404d438f4dd43e5f7b1263e9d70d45",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c93b71d02500acbe5339df83708ea896a5404d438f4dd43e5f7b1263e9d70d45"
+    },
+    "2-samuel/verification.json": {
+      "git_blob_sha": "5094bd935fa2f5f8a3d0be0ae7fba5512e79edc2",
+      "original_sha256": "96e77f82779aadae2234d65672e70b1e25ee25053ecca23abcfdd095e8e28d64",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "96e77f82779aadae2234d65672e70b1e25ee25053ecca23abcfdd095e8e28d64"
+    },
+    "1-kings/verses.json": {
+      "git_blob_sha": "9599fa380165cac534205fd891a591fac580eda5",
+      "original_sha256": "4b78a755825ad558d424f6cea8875c841b14bf7fe8f941a280003fcef7277074",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "4b78a755825ad558d424f6cea8875c841b14bf7fe8f941a280003fcef7277074"
+    },
+    "1-kings/source-checks.json": {
+      "git_blob_sha": "73ac00f9c886720466883ca6d006ea3c08caf8d5",
+      "original_sha256": "feba80603fa2ed876f800cd7be9885332ebe3776b7c9c9883d3a866c61c249ea",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "feba80603fa2ed876f800cd7be9885332ebe3776b7c9c9883d3a866c61c249ea"
+    },
+    "1-kings/inventory.json": {
+      "git_blob_sha": "12dcec5384f6644fc763ab3bd3a981b869b9e7a4",
+      "original_sha256": "eb6447ec4f8172b56699f57d0b1665ec956ef690d83630698b4d8816364b7739",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "eb6447ec4f8172b56699f57d0b1665ec956ef690d83630698b4d8816364b7739"
+    },
+    "1-kings/editorial-notes.json": {
+      "git_blob_sha": "6594bbe5658b8767dffecc48bcfbf22d28d847cd",
+      "original_sha256": "f854d32028fae6a73a493ffd567399ce3d2e302d58cbf84d329acee38305484a",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f854d32028fae6a73a493ffd567399ce3d2e302d58cbf84d329acee38305484a"
+    },
+    "1-kings/verification.json": {
+      "git_blob_sha": "9432818fe948998f7616bb01fb5727f204ed4a95",
+      "original_sha256": "117c76e55b81ecb633fa09deeceac2d2ce3c6b93a66bcf89e2d70bb36f771666",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "117c76e55b81ecb633fa09deeceac2d2ce3c6b93a66bcf89e2d70bb36f771666"
+    },
+    "2-kings/verses.json": {
+      "git_blob_sha": "c04f6aee27d9ca88fc12bef5f10a4ae6f5c73236",
+      "original_sha256": "166667e00c3504713d7b6f323f0840a44d06de10ee4e9fc5f4932b451cfe4dd6",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "166667e00c3504713d7b6f323f0840a44d06de10ee4e9fc5f4932b451cfe4dd6"
+    },
+    "2-kings/source-checks.json": {
+      "git_blob_sha": "a333fef65a039480de1165dad01ca4e0773e9e1e",
+      "original_sha256": "d048a4f87a67ce85386ac7acc05de413e977a74d9187a58148f1673315a8cefd",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d048a4f87a67ce85386ac7acc05de413e977a74d9187a58148f1673315a8cefd"
+    },
+    "2-kings/inventory.json": {
+      "git_blob_sha": "27c7942ce991f861a4dc8779b24abea377996d54",
+      "original_sha256": "28c8c231d39845ff62f4177348b0c6e92dbcb624d58c73a192b534747c7275aa",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "28c8c231d39845ff62f4177348b0c6e92dbcb624d58c73a192b534747c7275aa"
+    },
+    "2-kings/editorial-notes.json": {
+      "git_blob_sha": "65fce810f172030e847ba59e99f7b763368299b9",
+      "original_sha256": "f3925c8d45b7364c402b17f29f436f0c299bb626a4cf9af85d4a1254c38c9a82",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f3925c8d45b7364c402b17f29f436f0c299bb626a4cf9af85d4a1254c38c9a82"
+    },
+    "2-kings/verification.json": {
+      "git_blob_sha": "31caa821acb90d41986146bb8efe340318d4189e",
+      "original_sha256": "7c04a8abde719e843f33d64097d288b8db4e773a0c8d4a5395f504bae93b8071",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "7c04a8abde719e843f33d64097d288b8db4e773a0c8d4a5395f504bae93b8071"
+    },
+    "1-chronicles/verses.json": {
+      "git_blob_sha": "1e1755c75336087ebc01ad69cb7cc172a5daf9b5",
+      "original_sha256": "9c4b27807bb5cfcd2437c87d8226bbddb8d0f609d41bb3c2e5127150f70e4577",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "9c4b27807bb5cfcd2437c87d8226bbddb8d0f609d41bb3c2e5127150f70e4577"
+    },
+    "1-chronicles/source-checks.json": {
+      "git_blob_sha": "c605aa6a25bc40542b6950323320b78b047d4659",
+      "original_sha256": "e64a763432d4d422542dad8afa798816987cf3716a093de5ed6708d5d628c667",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e64a763432d4d422542dad8afa798816987cf3716a093de5ed6708d5d628c667"
+    },
+    "1-chronicles/inventory.json": {
+      "git_blob_sha": "167bedb743d7041b41090d259f3c955eadc857e4",
+      "original_sha256": "649f5af93f2bbacee7682beeb436bbc12e03a710216e8bc720c342059c2bc80d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "649f5af93f2bbacee7682beeb436bbc12e03a710216e8bc720c342059c2bc80d"
+    },
+    "1-chronicles/editorial-notes.json": {
+      "git_blob_sha": "d63c873fdbc45a534d2d46440b1ea76000321bf9",
+      "original_sha256": "46f055eba26d79073d3be8ed0104e1a8533ae874d6c20541f0fb1ca604b6155e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "46f055eba26d79073d3be8ed0104e1a8533ae874d6c20541f0fb1ca604b6155e"
+    },
+    "1-chronicles/verification.json": {
+      "git_blob_sha": "7dfca6dc8e4acb2ec493981599e310173157d84e",
+      "original_sha256": "2f1f49269b8b755744429958a0886df96bf666c84233e7a1fc222d0314e6e6df",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "2f1f49269b8b755744429958a0886df96bf666c84233e7a1fc222d0314e6e6df"
+    },
+    "2-chronicles/verses.json": {
+      "git_blob_sha": "b6b27d48ee32eaa59a15d59f5894c78a58d88b40",
+      "original_sha256": "03f0631a789ecc7e2718c4fb262af5570dea90f63e381f4b48afe0264de457dd",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "03f0631a789ecc7e2718c4fb262af5570dea90f63e381f4b48afe0264de457dd"
+    },
+    "2-chronicles/source-checks.json": {
+      "git_blob_sha": "f2c12dc6e15cdf90603547175f0f32999f63acc2",
+      "original_sha256": "3c8954c5ce6b7ee1b9f0e3803dd7cf9bfacc3733b40bd1e8400327c782f1de0b",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "3c8954c5ce6b7ee1b9f0e3803dd7cf9bfacc3733b40bd1e8400327c782f1de0b"
+    },
+    "2-chronicles/inventory.json": {
+      "git_blob_sha": "3a51ca188ba68d4dc78df669501b3a8c67501010",
+      "original_sha256": "5f07690678bba2e0f03a3f300ea7a646f597630c06239e03ec9997b5805ad385",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5f07690678bba2e0f03a3f300ea7a646f597630c06239e03ec9997b5805ad385"
+    },
+    "2-chronicles/editorial-notes.json": {
+      "git_blob_sha": "c5d083376ff07b58dc171448967f13df5f2677a5",
+      "original_sha256": "2d85f69710a522b5fc3f8c9a2dbc973f1356d7982d0011be0736294312f744a4",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "2d85f69710a522b5fc3f8c9a2dbc973f1356d7982d0011be0736294312f744a4"
+    },
+    "2-chronicles/verification.json": {
+      "git_blob_sha": "41f94f4c8bd3efd289c0f79b5ab178fbe2d8fae0",
+      "original_sha256": "e2eb79dca9ddd4c208671ef8597fe487381616cc4ed3b0081509f5e84ceaf3ba",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e2eb79dca9ddd4c208671ef8597fe487381616cc4ed3b0081509f5e84ceaf3ba"
+    },
+    "1-maccabees/verses.json": {
+      "git_blob_sha": "a472126bed1dd0e8104accafa344a919a93935d3",
+      "original_sha256": "dff8641463407df9a52ae7ddacbcf895a5eaa48dc7eab3ce25a850eae21ad533",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "dff8641463407df9a52ae7ddacbcf895a5eaa48dc7eab3ce25a850eae21ad533"
+    },
+    "1-maccabees/source-checks.json": {
+      "git_blob_sha": "75e026c8cc347d91f874eb70e9828563c2ec57d1",
+      "original_sha256": "7f48fa7e165de0ceff18acdf90e8e2247bd135cf73ba19ef8cee83d5493d8dc4",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "7f48fa7e165de0ceff18acdf90e8e2247bd135cf73ba19ef8cee83d5493d8dc4"
+    },
+    "1-maccabees/inventory.json": {
+      "git_blob_sha": "080eb4223ef729869c8bcb572799f1733baa7c44",
+      "original_sha256": "e9b6ccb1fe24e8640bdf5f2fcf2afc05afc68e56b2017287a67fedc3f5818996",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e9b6ccb1fe24e8640bdf5f2fcf2afc05afc68e56b2017287a67fedc3f5818996"
+    },
+    "1-maccabees/editorial-notes.json": {
+      "git_blob_sha": "4e3bed855c68ec51a9ffc10ce009e09819742dbf",
+      "original_sha256": "4b93ac280902367bc9e690f60c916acabaf2eb939554ed9c6dfbd4800f701d65",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "4b93ac280902367bc9e690f60c916acabaf2eb939554ed9c6dfbd4800f701d65"
+    },
+    "1-maccabees/verification.json": {
+      "git_blob_sha": "907b159880d76cf0bddf8581289405383a8eae78",
+      "original_sha256": "d830ec908cc458008544656a0b208d6e2d4bd1b6d6b3b71e20791ca1bd82eaf5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d830ec908cc458008544656a0b208d6e2d4bd1b6d6b3b71e20791ca1bd82eaf5"
+    },
+    "2-maccabees/verses.json": {
+      "git_blob_sha": "86585d084e3086b7dfb4b97075a01ee2751b8141",
+      "original_sha256": "623421af1c5f2216726a541a006b47a3f90ac6d0b13b09243110e69b9090c50e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "623421af1c5f2216726a541a006b47a3f90ac6d0b13b09243110e69b9090c50e"
+    },
+    "2-maccabees/source-checks.json": {
+      "git_blob_sha": "761e7da1c7af550d1bf6ece7d0df01e7209bbc51",
+      "original_sha256": "58609d7bf0716257db48419869e7d8ac53f46a9077b30c8d343b741597d05781",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "58609d7bf0716257db48419869e7d8ac53f46a9077b30c8d343b741597d05781"
+    },
+    "2-maccabees/inventory.json": {
+      "git_blob_sha": "20f7613127928eb65060b4acc2749a13285e3c13",
+      "original_sha256": "9aab82d36c860c0a2d670bdfe57708a28dfa83fbceaea056c67864e25e63678f",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "9aab82d36c860c0a2d670bdfe57708a28dfa83fbceaea056c67864e25e63678f"
+    },
+    "2-maccabees/editorial-notes.json": {
+      "git_blob_sha": "74cef742fd13a7cbf8951851f56bd8cb028726d5",
+      "original_sha256": "e57a29cedcef405b77e299427e8d881aeeaf30124bb553ee986e3ab0d7d3fa53",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e57a29cedcef405b77e299427e8d881aeeaf30124bb553ee986e3ab0d7d3fa53"
+    },
+    "2-maccabees/verification.json": {
+      "git_blob_sha": "7017f7eb6a811f8004476c39462c12e8ee0c65bf",
+      "original_sha256": "5744824e6a39766d8a4f6a610a1d5ffeabf54e40ff20513869c50c14608760e7",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5744824e6a39766d8a4f6a610a1d5ffeabf54e40ff20513869c50c14608760e7"
+    },
+    "ezra/verses.json": {
+      "git_blob_sha": "75a053d83aa3ba238c47a40807ce73f72e9af3f2",
+      "original_sha256": "fea036be8445d6c0957d33b7620ea2e478d01e8a19548c5f1c490d3f93eeaa38",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "fea036be8445d6c0957d33b7620ea2e478d01e8a19548c5f1c490d3f93eeaa38"
+    },
+    "ezra/source-checks.json": {
+      "git_blob_sha": "6fce9de31ae55387d95c1695145ec501060fd225",
+      "original_sha256": "69b8ba3eb989b73b502f07eb4b3b9f728061b0859c904f7c383efa24621bc4b3",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "69b8ba3eb989b73b502f07eb4b3b9f728061b0859c904f7c383efa24621bc4b3"
+    },
+    "ezra/inventory.json": {
+      "git_blob_sha": "b482633018abe2623c493ecfa42d6f507ef40668",
+      "original_sha256": "65bc4bb17b6b655e1f30f7d497b85162f9697d58dce4b5414190ed7562ef5782",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "65bc4bb17b6b655e1f30f7d497b85162f9697d58dce4b5414190ed7562ef5782"
+    },
+    "ezra/editorial-notes.json": {
+      "git_blob_sha": "c7dcf17591a4c930e95f7138acb8a60d91379331",
+      "original_sha256": "57eb1121a20f239489f67e6c9a3a4af23fd514f4baeb45fdfcf2d10ffc17ffe6",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "57eb1121a20f239489f67e6c9a3a4af23fd514f4baeb45fdfcf2d10ffc17ffe6"
+    },
+    "ezra/verification.json": {
+      "git_blob_sha": "c41b70943509742c3a5ea490aec09d0f6225d979",
+      "original_sha256": "141425f3fca2a3e148a0a01d7db0466986ba7904d7bab06a052a244729b85f25",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "141425f3fca2a3e148a0a01d7db0466986ba7904d7bab06a052a244729b85f25"
+    },
+    "nehemiah/verses.json": {
+      "git_blob_sha": "87d1050c2d493d0df66972a1ae6aa56245e4d7b7",
+      "original_sha256": "9ac0a49b04b3c8985c62fd6982364e32a72daf5dcf738bbc13f1699258758b83",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "9ac0a49b04b3c8985c62fd6982364e32a72daf5dcf738bbc13f1699258758b83"
+    },
+    "nehemiah/source-checks.json": {
+      "git_blob_sha": "11ff4947e94d39463f443cf08c0ae744bad16f93",
+      "original_sha256": "7595e3e3810518082a734f4ed1e725dae478c0205b9febc70d7ee282de649587",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "7595e3e3810518082a734f4ed1e725dae478c0205b9febc70d7ee282de649587"
+    },
+    "nehemiah/inventory.json": {
+      "git_blob_sha": "de924d98fc562da5bfc1bfcd66ffc0c2edc48846",
+      "original_sha256": "cb5dc7097a40f1eaf6df28e7efcba4748d178566d923878d7edbf4c7367f6901",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "cb5dc7097a40f1eaf6df28e7efcba4748d178566d923878d7edbf4c7367f6901"
+    },
+    "nehemiah/editorial-notes.json": {
+      "git_blob_sha": "435f905c5bd32575634008082d74b7d4137e077d",
+      "original_sha256": "ed8494c9f5a67d7238ca095e60739ffe55c1a1788d8e117107778a27698378e4",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ed8494c9f5a67d7238ca095e60739ffe55c1a1788d8e117107778a27698378e4"
+    },
+    "nehemiah/verification.json": {
+      "git_blob_sha": "76b5f6710e382c29b0f32857a93ab6b930a62c2d",
+      "original_sha256": "f6d50ba6bc50f54ecf1090915a0a6fd80895bcb690f32d45a341b8f3e4cacb2d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f6d50ba6bc50f54ecf1090915a0a6fd80895bcb690f32d45a341b8f3e4cacb2d"
+    },
+    "esther/verses.json": {
+      "git_blob_sha": "15fac54ec18c615cb05979723dc1c0e388b67bb6",
+      "original_sha256": "2d520884173cc0408e7b63c4178f78475d02257b911fed149ca92709c7149ecf",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "2d520884173cc0408e7b63c4178f78475d02257b911fed149ca92709c7149ecf"
+    },
+    "esther/source-checks.json": {
+      "git_blob_sha": "91032bf900b572069aabba0d871fc47ea3f837f2",
+      "original_sha256": "5ef70832e4779c49842d890bd7c5e04c2e31bcd7e6d0d08cc81502393492d71d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5ef70832e4779c49842d890bd7c5e04c2e31bcd7e6d0d08cc81502393492d71d"
+    },
+    "esther/inventory.json": {
+      "git_blob_sha": "284cbb1b22052f7128306c30e1258de20ad05349",
+      "original_sha256": "1422165196e95dc3e5ed265d436da9bd32bc550979d246a71da0e34b6ef4404e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "1422165196e95dc3e5ed265d436da9bd32bc550979d246a71da0e34b6ef4404e"
+    },
+    "esther/editorial-notes.json": {
+      "git_blob_sha": "19fbeb5a851c386988b9356a447fb52f1769c4c0",
+      "original_sha256": "cddc8874c62c5e14b926752a4126a359e75e2be6b04d512bc82f1e41852880e4",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "cddc8874c62c5e14b926752a4126a359e75e2be6b04d512bc82f1e41852880e4"
+    },
+    "esther/verification.json": {
+      "git_blob_sha": "bf3011fdcce102861f556026dbc84446aca0de7d",
+      "original_sha256": "9046892cfd2f0a7e56dee99182278c91942691406b3aa229381050351b5e2735",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "9046892cfd2f0a7e56dee99182278c91942691406b3aa229381050351b5e2735"
+    },
+    "job/verses.json": {
+      "git_blob_sha": "434dcd061a45ec271dafc265cfdc13c065b6cf65",
+      "original_sha256": "f1f3d887db55857a04c79f2a08710b2ddb976f8de6f9ea099ff1a05cb69f0d31",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f1f3d887db55857a04c79f2a08710b2ddb976f8de6f9ea099ff1a05cb69f0d31"
+    },
+    "job/source-checks.json": {
+      "git_blob_sha": "858c87e6b7d01690f75ce94c82d14bdd3d6cafa8",
+      "original_sha256": "f52f1069b4365bb46bf5d3f869dd49de6c543e7a104a33ab08b49cd7ecda2852",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f52f1069b4365bb46bf5d3f869dd49de6c543e7a104a33ab08b49cd7ecda2852"
+    },
+    "job/inventory.json": {
+      "git_blob_sha": "2206807e30ab313cf81d05c7225a252dd409b766",
+      "original_sha256": "faa02a0e4ce1c99b461bb5eadcb8f4f137f7c412484453ddbdd320614225d02e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "faa02a0e4ce1c99b461bb5eadcb8f4f137f7c412484453ddbdd320614225d02e"
+    },
+    "job/editorial-notes.json": {
+      "git_blob_sha": "cfa4ed1d061fd6c53016ba41da37600e00b3ad24",
+      "original_sha256": "7a742ebad764a67aa1eec75d1edf34a8a2f8384770fcddae14000133e043f129",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "7a742ebad764a67aa1eec75d1edf34a8a2f8384770fcddae14000133e043f129"
+    },
+    "job/verification.json": {
+      "git_blob_sha": "9f70bd91c00dcdb2900d2f012a00ff2747d031e7",
+      "original_sha256": "f5ff9b50b3d49af05abddf95f1426fd4ebe5b1943264d1092c4e89b0239a6026",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f5ff9b50b3d49af05abddf95f1426fd4ebe5b1943264d1092c4e89b0239a6026"
+    },
+    "psalms/verses.json": {
+      "git_blob_sha": "806795f93d218d245e471afcda5df49a8f2be12f",
+      "original_sha256": "5999722f64df53fff69dcd8e71073eb4e7385dff80604602865b730a21ae8b68",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5999722f64df53fff69dcd8e71073eb4e7385dff80604602865b730a21ae8b68"
+    },
+    "psalms/source-checks.json": {
+      "git_blob_sha": "ab77bdd36cc515975e1b96976b1127b7a5197b8f",
+      "original_sha256": "101473e9de1851675268de27a6776c111616ceb28d955d9a946b0e50a865eade",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "101473e9de1851675268de27a6776c111616ceb28d955d9a946b0e50a865eade"
+    },
+    "psalms/inventory.json": {
+      "git_blob_sha": "e9639a4eab34087601e1e1548601d7cda0677d92",
+      "original_sha256": "f1a7d59896bb22dac37c50d9211099192b74b59f2ae4e2eb51bee6aece57ec87",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f1a7d59896bb22dac37c50d9211099192b74b59f2ae4e2eb51bee6aece57ec87"
+    },
+    "psalms/editorial-notes.json": {
+      "git_blob_sha": "4aec63b059a5b83ec55eb82a36fd55d83f4aebfc",
+      "original_sha256": "d8be67725476b64a9794cd5aef561148b93ae210bdb796986e5a59eb554f966a",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d8be67725476b64a9794cd5aef561148b93ae210bdb796986e5a59eb554f966a"
+    },
+    "psalms/verification.json": {
+      "git_blob_sha": "3246003b6ede13a870ec3dd5c378d4e400bf5222",
+      "original_sha256": "9d7198e23ce73152dc2fe3be149193df169ee88f9c2c96c91082618dee3a8706",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "9d7198e23ce73152dc2fe3be149193df169ee88f9c2c96c91082618dee3a8706"
+    },
+    "proverbs/verses.json": {
+      "git_blob_sha": "5e496397ab7c7633c2d14962c073a5046315d627",
+      "original_sha256": "6405104949f612f0576403eb9a5ae7c6d5f188e6e077af8543cdff6c35508359",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "6405104949f612f0576403eb9a5ae7c6d5f188e6e077af8543cdff6c35508359"
+    },
+    "proverbs/source-checks.json": {
+      "git_blob_sha": "963f94c94f6e246b7f247d05450cd56ff0c2dd1a",
+      "original_sha256": "8d5ea6491502c3c5949dc4e0ae19e4745177257f4bf638ea37465eaa937c3428",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "8d5ea6491502c3c5949dc4e0ae19e4745177257f4bf638ea37465eaa937c3428"
+    },
+    "proverbs/inventory.json": {
+      "git_blob_sha": "693cb33747a1d0670bca6f40b45b5bf6acb5fd8e",
+      "original_sha256": "613732f893d58bdf8ee0bc029c188a7dde51d82519db847046d24a70867762e7",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "613732f893d58bdf8ee0bc029c188a7dde51d82519db847046d24a70867762e7"
+    },
+    "proverbs/editorial-notes.json": {
+      "git_blob_sha": "1b91665301583b204ae918f804faa2161ded4001",
+      "original_sha256": "85428aedb38b5106e14df480411dd1ee8b5da7137a10eee722395931448d1239",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "85428aedb38b5106e14df480411dd1ee8b5da7137a10eee722395931448d1239"
+    },
+    "proverbs/verification.json": {
+      "git_blob_sha": "19d01a9260c19860124da29ac0508d1e6d6ef55c",
+      "original_sha256": "3c54079b84704ddb371e3ab012afeffd10a31f41adefc077e4f13d8e15b766d3",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "3c54079b84704ddb371e3ab012afeffd10a31f41adefc077e4f13d8e15b766d3"
+    },
+    "ecclesiastes/verses.json": {
+      "git_blob_sha": "28e6d8fc0e8e0b924ab302223eac1801ad7958ab",
+      "original_sha256": "78773a38adb0cca44ece9826a4cbbc6f95f8a547b2101d9fc5a70734f5cebf2e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "78773a38adb0cca44ece9826a4cbbc6f95f8a547b2101d9fc5a70734f5cebf2e"
+    },
+    "ecclesiastes/source-checks.json": {
+      "git_blob_sha": "51504f0cf5d9b857dbff78ca68f403a45a202c05",
+      "original_sha256": "44c6b12cd117ca7901ded70820344503a5fd9814119c72b44ec532145283defa",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "44c6b12cd117ca7901ded70820344503a5fd9814119c72b44ec532145283defa"
+    },
+    "ecclesiastes/inventory.json": {
+      "git_blob_sha": "4e94b0448d078d6cc645f9b2d4502f487cd32131",
+      "original_sha256": "bc86641e13f8ed3796523698109d555e28158be9f0bafaaba13a439fff7e4dfb",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "bc86641e13f8ed3796523698109d555e28158be9f0bafaaba13a439fff7e4dfb"
+    },
+    "ecclesiastes/editorial-notes.json": {
+      "git_blob_sha": "6fabb3497e1d913304cf86b5b1abeb67e28922ed",
+      "original_sha256": "4afad27fc22ba6fabb57f0fa5aa753df30083b9ab336b32b118678322eebc90d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "4afad27fc22ba6fabb57f0fa5aa753df30083b9ab336b32b118678322eebc90d"
+    },
+    "ecclesiastes/verification.json": {
+      "git_blob_sha": "611f66d13d5e27d3bdcb63d401508960100a8a64",
+      "original_sha256": "92c94fd7d4fbfc001b8ab21267c4da76746aecb0080ca7872626c5d9314dda0f",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "92c94fd7d4fbfc001b8ab21267c4da76746aecb0080ca7872626c5d9314dda0f"
+    },
+    "song-of-songs/verses.json": {
+      "git_blob_sha": "628491b19bf257da8d4579ff2f68a2065b06791b",
+      "original_sha256": "ef3301da85e99706a45b7b27b93c0a1fc30f132e0b47e96a57197e5d1ad80118",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ef3301da85e99706a45b7b27b93c0a1fc30f132e0b47e96a57197e5d1ad80118"
+    },
+    "song-of-songs/source-checks.json": {
+      "git_blob_sha": "3502599c4cb55aec1a693ef4aa62c55c67f3a67e",
+      "original_sha256": "c0b2a2e32f696ffd2f20f51b342793807e43db9d7e6961a88e0fb93dc4a24a3d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c0b2a2e32f696ffd2f20f51b342793807e43db9d7e6961a88e0fb93dc4a24a3d"
+    },
+    "song-of-songs/inventory.json": {
+      "git_blob_sha": "7e6983337f6278af344106a0b4b2bcc4ce002585",
+      "original_sha256": "c6482b5e27b6763bc837e913f3018b5a9e3623cec8d50198d0f4a3f846763e69",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c6482b5e27b6763bc837e913f3018b5a9e3623cec8d50198d0f4a3f846763e69"
+    },
+    "song-of-songs/editorial-notes.json": {
+      "git_blob_sha": "839144dc70d81fbfcd89f26699271a15f0b5e11f",
+      "original_sha256": "3e0bd63aba149bb14c9e8d23b4fdb36ddbb87a3847987edc98fc939f0bfba3d4",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "3e0bd63aba149bb14c9e8d23b4fdb36ddbb87a3847987edc98fc939f0bfba3d4"
+    },
+    "song-of-songs/verification.json": {
+      "git_blob_sha": "d7cf6f7e1c29aa67983772fdb0087b38471f6bc2",
+      "original_sha256": "deb8aadc5adc5d835ea0576f507584c80250bbaeb956ea71a74179140d7b1784",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "deb8aadc5adc5d835ea0576f507584c80250bbaeb956ea71a74179140d7b1784"
+    },
+    "lamentations/verses.json": {
+      "git_blob_sha": "48951db8d803e4c287dfff81d130fde322275479",
+      "original_sha256": "9ce1703ee91d72e6e38fe82ef35ba0a225941a50dcae10f0f386f3bfda2435de",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "9ce1703ee91d72e6e38fe82ef35ba0a225941a50dcae10f0f386f3bfda2435de"
+    },
+    "lamentations/source-checks.json": {
+      "git_blob_sha": "b042c982d513102a8f7e1cad0ca3d284fb8fc7bb",
+      "original_sha256": "980ee9b45e0a316ef9eebfd5fc5243ba9a8f804805958f745f399f589323ba3b",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "980ee9b45e0a316ef9eebfd5fc5243ba9a8f804805958f745f399f589323ba3b"
+    },
+    "lamentations/inventory.json": {
+      "git_blob_sha": "9fe7d8bdb08f42c176b4fcad56dc0238b8fd93db",
+      "original_sha256": "b9d8be68f4b848df8ad6cce14799f44e23f5d45744450f538516cc82d821a2e5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "b9d8be68f4b848df8ad6cce14799f44e23f5d45744450f538516cc82d821a2e5"
+    },
+    "lamentations/editorial-notes.json": {
+      "git_blob_sha": "a4360bd7bb1b056ba02ac5362066293b35afd71a",
+      "original_sha256": "23850798c1eed798cbb753a34e4d0647ea5e161b1cf5948a85a666c9bc6d0b79",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "23850798c1eed798cbb753a34e4d0647ea5e161b1cf5948a85a666c9bc6d0b79"
+    },
+    "lamentations/verification.json": {
+      "git_blob_sha": "1ccf6a65bdcf5fc5fe134161c2f28f9c9af4e6bf",
+      "original_sha256": "c3ce177a0598c450d9ca72e73ee73619f1106c09dc8ed82dddad1412cf6557d9",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c3ce177a0598c450d9ca72e73ee73619f1106c09dc8ed82dddad1412cf6557d9"
+    },
+    "wisdom-of-solomon/verses.json": {
+      "git_blob_sha": "c7f09b7b9988a52be02d1df1f22a5213face7086",
+      "original_sha256": "a834c5d7756ea94d84fe36aeb6fcc87ef9bdcdcdc369777c578c36158aac95b7",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "a834c5d7756ea94d84fe36aeb6fcc87ef9bdcdcdc369777c578c36158aac95b7"
+    },
+    "wisdom-of-solomon/source-checks.json": {
+      "git_blob_sha": "7358e76e97990343cd237939c6467d18e568e599",
+      "original_sha256": "bb39c2798108a07869780c443e553993459a353a767e564afbea610d8277fc54",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "bb39c2798108a07869780c443e553993459a353a767e564afbea610d8277fc54"
+    },
+    "wisdom-of-solomon/inventory.json": {
+      "git_blob_sha": "a5f57afedf214508f5c11d49841d28cbe82f5018",
+      "original_sha256": "5ed02e036cc13fbdd06545a89ebc4a5c4a5b77f528e267a7d56dd4c92fd2749c",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5ed02e036cc13fbdd06545a89ebc4a5c4a5b77f528e267a7d56dd4c92fd2749c"
+    },
+    "wisdom-of-solomon/editorial-notes.json": {
+      "git_blob_sha": "d39549a3eeafd12f2882dba7d49c06e1dafb0b9d",
+      "original_sha256": "6389905562abbe7b6bb9e0c4185d6207b328e8e7115ac843a61a9a498318f70e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "6389905562abbe7b6bb9e0c4185d6207b328e8e7115ac843a61a9a498318f70e"
+    },
+    "wisdom-of-solomon/verification.json": {
+      "git_blob_sha": "f009d45dd755036682a11877bcf897f77a17d10c",
+      "original_sha256": "4ba34674e191e3c37c28030d05208ccd928624825ac78222d29e9fd05cbb0e5b",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "4ba34674e191e3c37c28030d05208ccd928624825ac78222d29e9fd05cbb0e5b"
+    },
+    "sirach/verses.json": {
+      "git_blob_sha": "fad95e71d4bc8b5d9f90b7a09179aa6e382ee81a",
+      "original_sha256": "8a0005a9b027049dbb82c5795757160685dab4a87f77977e76a9718bf1495733",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "8a0005a9b027049dbb82c5795757160685dab4a87f77977e76a9718bf1495733"
+    },
+    "sirach/source-checks.json": {
+      "git_blob_sha": "12117afc0a92c241d43056393d7a1cab799c8cff",
+      "original_sha256": "2f70a7c1e67158015589e8a0636199d49603296cceaa615b206e3e906c5f2a94",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "2f70a7c1e67158015589e8a0636199d49603296cceaa615b206e3e906c5f2a94"
+    },
+    "sirach/inventory.json": {
+      "git_blob_sha": "bc73ae35f7ea41a962f28e365548126042b5d0b7",
+      "original_sha256": "66400bccd8921b2fe7fe7645bc1f7e8c2a85253067c50496f891b5d817fbe173",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "66400bccd8921b2fe7fe7645bc1f7e8c2a85253067c50496f891b5d817fbe173"
+    },
+    "sirach/editorial-notes.json": {
+      "git_blob_sha": "d211b994c51badb64b6cc96d44c5996e49cae959",
+      "original_sha256": "4c3260a240cdc016926dc596742b62e7b18e48e24cf5b270ed1542da45ad60af",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "4c3260a240cdc016926dc596742b62e7b18e48e24cf5b270ed1542da45ad60af"
+    },
+    "sirach/verification.json": {
+      "git_blob_sha": "8b7eb33252de7dfeea1929b2827f465c70cbac70",
+      "original_sha256": "0ff8ed43b54a1b13cf0d17cf25bf4d010bf867dd43818ee65979d210d7779746",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "0ff8ed43b54a1b13cf0d17cf25bf4d010bf867dd43818ee65979d210d7779746"
+    },
+    "isaiah/verses.json": {
+      "git_blob_sha": "ab69395012325878bac565bb74f77b1f573af6bb",
+      "original_sha256": "c442875c442daeddc3e2b52e2bf9d191a13925b14f088f220fe28330191cd9fc",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c442875c442daeddc3e2b52e2bf9d191a13925b14f088f220fe28330191cd9fc"
+    },
+    "isaiah/source-checks.json": {
+      "git_blob_sha": "23773b7263c3707492f5ffa2e81407eeeff0195b",
+      "original_sha256": "20415c4c715924140dbe064e999a7c9cb51f76c1cddbea963060b409098370e5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "20415c4c715924140dbe064e999a7c9cb51f76c1cddbea963060b409098370e5"
+    },
+    "isaiah/inventory.json": {
+      "git_blob_sha": "e337517ee5738f2114a083d63b64a84b4b56b7cb",
+      "original_sha256": "b578ffaaa379e6f7387f0dfa3c4987dced099f945b61a2c2f84f8b78fdc6b6a8",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "b578ffaaa379e6f7387f0dfa3c4987dced099f945b61a2c2f84f8b78fdc6b6a8"
+    },
+    "isaiah/editorial-notes.json": {
+      "git_blob_sha": "c37603f8ae750af2af799b594ddd06bc48c36661",
+      "original_sha256": "ad6a6678e6ee5eb67c45fd25e1f7481f5325c1ebc201964a069c64171ee2ab49",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ad6a6678e6ee5eb67c45fd25e1f7481f5325c1ebc201964a069c64171ee2ab49"
+    },
+    "isaiah/verification.json": {
+      "git_blob_sha": "b88561121a9a7eaef5dd6ae43d6a089bd1083964",
+      "original_sha256": "504055b5590aa5f674b561621b9caca5f71256352f5fcd9e42d254de1de42ae0",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "504055b5590aa5f674b561621b9caca5f71256352f5fcd9e42d254de1de42ae0"
+    },
+    "jeremiah/verses.json": {
+      "git_blob_sha": "df4ac18a184337ab9276db6eeaf0118ac95baa82",
+      "original_sha256": "c54d7f65925ad16e6aa416601129e9c25c1d02a86cb62a45fb5646a667ea53af",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c54d7f65925ad16e6aa416601129e9c25c1d02a86cb62a45fb5646a667ea53af"
+    },
+    "jeremiah/source-checks.json": {
+      "git_blob_sha": "c85cb91951479d46aaaa7fa27341a8ba51c45ed3",
+      "original_sha256": "8c43524f9fda6bdaefbcd8950b48b9739eecb675a7109ec08c0739b67d9803a2",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "8c43524f9fda6bdaefbcd8950b48b9739eecb675a7109ec08c0739b67d9803a2"
+    },
+    "jeremiah/inventory.json": {
+      "git_blob_sha": "45eb39be47af21d845b3f20c46bcb4e23311fdcb",
+      "original_sha256": "bee7b1859fe81cff21239313aef38e4de270a31af122d7c5926ff620858c7889",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "bee7b1859fe81cff21239313aef38e4de270a31af122d7c5926ff620858c7889"
+    },
+    "jeremiah/editorial-notes.json": {
+      "git_blob_sha": "77701f8c0d5ee4faa4c21f0a1069bd7868d7b480",
+      "original_sha256": "e67cd5a721ef81857ae3fb46baf17907a49573e8ec6590f99054551b44a0c219",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e67cd5a721ef81857ae3fb46baf17907a49573e8ec6590f99054551b44a0c219"
+    },
+    "jeremiah/verification.json": {
+      "git_blob_sha": "9e5fd61a3714fd08237c0e9baed4b958a28602a1",
+      "original_sha256": "af81257fd8710010d2112626a3eceb7d48d8f953c290603ff8c309027b90c502",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "af81257fd8710010d2112626a3eceb7d48d8f953c290603ff8c309027b90c502"
+    },
+    "ezekiel/verses.json": {
+      "git_blob_sha": "0dfe56b7e789a22191345181e255c12bc2bb9f7c",
+      "original_sha256": "9646bc0ce77e6c386b295266eb07f64eaa785b15d48183a6daec4bc6851114b5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "9646bc0ce77e6c386b295266eb07f64eaa785b15d48183a6daec4bc6851114b5"
+    },
+    "ezekiel/source-checks.json": {
+      "git_blob_sha": "f95cd32a7513ec61309af21f50618dc67b5a82e8",
+      "original_sha256": "4d3c65e476990155c086e21beddd7f9c7ff6a0f76d645f85850fad8a6f8bdce6",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "4d3c65e476990155c086e21beddd7f9c7ff6a0f76d645f85850fad8a6f8bdce6"
+    },
+    "ezekiel/inventory.json": {
+      "git_blob_sha": "268a14c22977899a06ca974d0880972ebb096d9b",
+      "original_sha256": "29ebcbc6aead358dbc3d7ec605967c2f135cfacb9000b66f2927f4ed77dbb6ca",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "29ebcbc6aead358dbc3d7ec605967c2f135cfacb9000b66f2927f4ed77dbb6ca"
+    },
+    "ezekiel/editorial-notes.json": {
+      "git_blob_sha": "88ea43677d322b059a676fb4df9e2b66383ba186",
+      "original_sha256": "4c4ffb48e28287624621a4396ed12312ce7ada7c97155d0791b6d5071adb0e71",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "4c4ffb48e28287624621a4396ed12312ce7ada7c97155d0791b6d5071adb0e71"
+    },
+    "ezekiel/verification.json": {
+      "git_blob_sha": "4e1b8708b37b2734da7dee70a064cb8f8309daf1",
+      "original_sha256": "6937fb835829419ccfebbb81d718daf7d2bb9e9063687404b12ba0de0c4e3a75",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "6937fb835829419ccfebbb81d718daf7d2bb9e9063687404b12ba0de0c4e3a75"
+    },
+    "daniel/verses.json": {
+      "git_blob_sha": "96fad37025b9c2af0e9dfc5ad4d397f1d83a1b44",
+      "original_sha256": "341af5282dde46cab963bd983fe496301fb6d7bf9c5c21a53953d820d925c491",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "341af5282dde46cab963bd983fe496301fb6d7bf9c5c21a53953d820d925c491"
+    },
+    "daniel/source-checks.json": {
+      "git_blob_sha": "478bdc936cad512cd04745cde0b05d90d269c288",
+      "original_sha256": "df008157a25a1ca4205ff8a71567bdaaa754d615b5c7a40530a74e726ea6e581",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "df008157a25a1ca4205ff8a71567bdaaa754d615b5c7a40530a74e726ea6e581"
+    },
+    "daniel/inventory.json": {
+      "git_blob_sha": "a287ad9c9c8b15a8d692fcdc1e377026bbd0143b",
+      "original_sha256": "cee5bf116cbe036fb2f8377815e7e6203962b8e5556ea91d0f328866cc40139b",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "cee5bf116cbe036fb2f8377815e7e6203962b8e5556ea91d0f328866cc40139b"
+    },
+    "daniel/editorial-notes.json": {
+      "git_blob_sha": "2104d2a01fd2e62c7e7b317fff6af5086e5c8004",
+      "original_sha256": "b48050a14ba0012e639c0c83042acf93a0269b78e9c84b56bc5e7d14aded2cfb",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "b48050a14ba0012e639c0c83042acf93a0269b78e9c84b56bc5e7d14aded2cfb"
+    },
+    "daniel/verification.json": {
+      "git_blob_sha": "e5f96018795976a0408d2901e07bff0db95a2818",
+      "original_sha256": "5c0c26aba44355b99e1a65d974fe643109b75515e47e22eff8993c5d689ae166",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5c0c26aba44355b99e1a65d974fe643109b75515e47e22eff8993c5d689ae166"
+    },
+    "hosea/verses.json": {
+      "git_blob_sha": "fd892fe1fe2b5aac72cc4e951d9f0c9b7444a7cb",
+      "original_sha256": "fd9579143027eb804b5b2b728a2b1ffffe467cf34db153afe4e091a580b51218",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "fd9579143027eb804b5b2b728a2b1ffffe467cf34db153afe4e091a580b51218"
+    },
+    "hosea/source-checks.json": {
+      "git_blob_sha": "18987d3e0b55b1bb27f84b3176ef751afe00cea7",
+      "original_sha256": "902b6b23409732ef5c566dc9d051df02867efedb5e09c55065ecf3d9f81712a7",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "902b6b23409732ef5c566dc9d051df02867efedb5e09c55065ecf3d9f81712a7"
+    },
+    "hosea/inventory.json": {
+      "git_blob_sha": "94b17992eb29d790f547a33ec9042c644407e9db",
+      "original_sha256": "10ff502836c603615070647e97adbacf543c0309cfaca1a487557e0a948c31a8",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "10ff502836c603615070647e97adbacf543c0309cfaca1a487557e0a948c31a8"
+    },
+    "hosea/editorial-notes.json": {
+      "git_blob_sha": "e8277d50f5fdd67441c4897d55e9306786d87be7",
+      "original_sha256": "ea4223d37ab557fd09ef296d96ad9ec53f865c07834586650de8d2fe734e8d0b",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ea4223d37ab557fd09ef296d96ad9ec53f865c07834586650de8d2fe734e8d0b"
+    },
+    "hosea/verification.json": {
+      "git_blob_sha": "450ca56e50e1e5783cbe8427b3a30a1a81b81c15",
+      "original_sha256": "f145acdb2a56a50c9e6104ea43700c2eb401aa4fe15360508487c7f7164ea88e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f145acdb2a56a50c9e6104ea43700c2eb401aa4fe15360508487c7f7164ea88e"
+    },
+    "joel/verses.json": {
+      "git_blob_sha": "7f410070e8930b585fb243b2ebaa86b32dacb9c9",
+      "original_sha256": "447b73832e2478acc26d40912ba3a5453d4244cc9be6f2f88f2d3f26b8553c3b",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "447b73832e2478acc26d40912ba3a5453d4244cc9be6f2f88f2d3f26b8553c3b"
+    },
+    "joel/source-checks.json": {
+      "git_blob_sha": "ac15cc90b538776657a8366e63976a48e96c940c",
+      "original_sha256": "ec5864266e450c3552ace0a2b7dbf9e5fca10ed46e7561880cf5c6f0c02de90c",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ec5864266e450c3552ace0a2b7dbf9e5fca10ed46e7561880cf5c6f0c02de90c"
+    },
+    "joel/inventory.json": {
+      "git_blob_sha": "3503b4796acd461e43aaec6f4adc076a1515c51d",
+      "original_sha256": "a0c7ad2e7bfd1100e7d14840f0bc155b87a044106238a773846c16b5be3a33bb",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "a0c7ad2e7bfd1100e7d14840f0bc155b87a044106238a773846c16b5be3a33bb"
+    },
+    "joel/editorial-notes.json": {
+      "git_blob_sha": "702015bb724bc5e6e69d78bb849c7355b6caa37e",
+      "original_sha256": "e20422af00a79533f17b6c01dd3d90b372bc77a08c263d064a8b23810793e1c8",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e20422af00a79533f17b6c01dd3d90b372bc77a08c263d064a8b23810793e1c8"
+    },
+    "joel/verification.json": {
+      "git_blob_sha": "b64510d463d488fa1b58e6ccc5dc039e0ad8ca51",
+      "original_sha256": "acaacccd9d744fb5e6c863bc80beb6b95602f9deeb96ca189be72d4d12abc682",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "acaacccd9d744fb5e6c863bc80beb6b95602f9deeb96ca189be72d4d12abc682"
+    },
+    "amos/verses.json": {
+      "git_blob_sha": "ccce405811d9d08fbdcfda8f9e888dd05bdc8cf7",
+      "original_sha256": "af742ab1533a52143ef768ea978a0ee30e690de77f429de09c4ef9a0dda74b25",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "af742ab1533a52143ef768ea978a0ee30e690de77f429de09c4ef9a0dda74b25"
+    },
+    "amos/source-checks.json": {
+      "git_blob_sha": "c8ea38d26174ad5cbfa1ae7732b719830b118124",
+      "original_sha256": "48c2c7f5b01218792735f4c30e7a96ccf965906642bd25784cd05528d36e6e5d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "48c2c7f5b01218792735f4c30e7a96ccf965906642bd25784cd05528d36e6e5d"
+    },
+    "amos/inventory.json": {
+      "git_blob_sha": "9e88a73d267311414093a7b69a439fea04ed1cf0",
+      "original_sha256": "d4d3b99117feb718478b6ca0198a8106b2ba56e614d2b6caecc46fffbde430a5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d4d3b99117feb718478b6ca0198a8106b2ba56e614d2b6caecc46fffbde430a5"
+    },
+    "amos/editorial-notes.json": {
+      "git_blob_sha": "a5e3542eeca02e66e0d2a8da5912e9598f9c8a97",
+      "original_sha256": "0e02b1abf52f324a24bb9931ba3c1ee673d5a9d570fbc0eed0d9cfe22695f8e1",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "0e02b1abf52f324a24bb9931ba3c1ee673d5a9d570fbc0eed0d9cfe22695f8e1"
+    },
+    "amos/verification.json": {
+      "git_blob_sha": "c7e5292b8b1db252abd53fcdf3afc8eb78b2441a",
+      "original_sha256": "749373563c8fcc3dd8f2d84c062275ab59fd90b06419740022a345ea63884971",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "749373563c8fcc3dd8f2d84c062275ab59fd90b06419740022a345ea63884971"
+    },
+    "obadiah/verses.json": {
+      "git_blob_sha": "44de6ca553ca0022809b8fa7a50fb5d537fd221f",
+      "original_sha256": "463c52d6cc885aa839ee49234728c275e900b57acce475d33effeb079557a415",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "463c52d6cc885aa839ee49234728c275e900b57acce475d33effeb079557a415"
+    },
+    "obadiah/source-checks.json": {
+      "git_blob_sha": "11355aa61c64e16d8a5838de6539998787d1d7c7",
+      "original_sha256": "8931f0ce3e23ce2e1d44b288ee8f59598614088e36133470e5c0bd1bf9f428ac",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "8931f0ce3e23ce2e1d44b288ee8f59598614088e36133470e5c0bd1bf9f428ac"
+    },
+    "obadiah/inventory.json": {
+      "git_blob_sha": "fb7e2388781bde4e947fc5029296ff987686f659",
+      "original_sha256": "eb99518bffea944069e9b4d450545770423875019b659012b03903949c4bce77",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "eb99518bffea944069e9b4d450545770423875019b659012b03903949c4bce77"
+    },
+    "obadiah/editorial-notes.json": {
+      "git_blob_sha": "976715b8c73f2fe75a25e65a037d2c401272887a",
+      "original_sha256": "c7367cd8fd196ee24c60df42bf0a2c102ced8688986db344450200393813e6c2",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c7367cd8fd196ee24c60df42bf0a2c102ced8688986db344450200393813e6c2"
+    },
+    "obadiah/verification.json": {
+      "git_blob_sha": "2259edef4384087b2bbc95846a5305c92ff29c67",
+      "original_sha256": "75274311cd374934b6882a771c4f65c1fdc8ecd7146f1d1b3b2c9fdaee203ef8",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "75274311cd374934b6882a771c4f65c1fdc8ecd7146f1d1b3b2c9fdaee203ef8"
+    },
+    "jonah/verses.json": {
+      "git_blob_sha": "05bfcc04d90173d89246a574150522d6f7503099",
+      "original_sha256": "16ed7d39415badcdaad7e1c3736ed53c911bd0ef96843954eb4ac4ffee073174",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "16ed7d39415badcdaad7e1c3736ed53c911bd0ef96843954eb4ac4ffee073174"
+    },
+    "jonah/source-checks.json": {
+      "git_blob_sha": "21ef9a43bdfb7410d0b4d6a166591c6643088da4",
+      "original_sha256": "ee16d420b6134ac95adf0ea9e92642e3ee1d0fbf1fdbcf92e5cde2801b0223ab",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ee16d420b6134ac95adf0ea9e92642e3ee1d0fbf1fdbcf92e5cde2801b0223ab"
+    },
+    "jonah/inventory.json": {
+      "git_blob_sha": "21c5670153b454b17d9f1f894a7ceb10039eb953",
+      "original_sha256": "ddb54af8a100797a819c23f4f0b5c46644afa803445509d08c7e483e21610645",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ddb54af8a100797a819c23f4f0b5c46644afa803445509d08c7e483e21610645"
+    },
+    "jonah/editorial-notes.json": {
+      "git_blob_sha": "ed10babdbd0917aa890d1b8272378846910cc208",
+      "original_sha256": "504ff3aa210550015381c6272cbf8fb76f0c2037866a7c3edb737c9091244089",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "504ff3aa210550015381c6272cbf8fb76f0c2037866a7c3edb737c9091244089"
+    },
+    "jonah/verification.json": {
+      "git_blob_sha": "6417772bfde2b627f81b37ae911583c82144cadf",
+      "original_sha256": "41ddb1a7cad685b52ae348c27ab724a4bccd479ae6fed28a3b9c3cb6477df9a5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "41ddb1a7cad685b52ae348c27ab724a4bccd479ae6fed28a3b9c3cb6477df9a5"
+    },
+    "micah/verses.json": {
+      "git_blob_sha": "eebb15ce4ca8f75935b41e4505daddf9c52e2e0d",
+      "original_sha256": "1403a5eab9829fcdcd728a0d027029d3d0cab14637e20df1917cd44ecca5a161",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "1403a5eab9829fcdcd728a0d027029d3d0cab14637e20df1917cd44ecca5a161"
+    },
+    "micah/source-checks.json": {
+      "git_blob_sha": "a2bf2263bb15a7907e4f0c022caf34ee6af5838e",
+      "original_sha256": "734d617f0d92f83930a5ec888dc4ffcd64de8540b7f7531bcc1cabd6e407f65e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "734d617f0d92f83930a5ec888dc4ffcd64de8540b7f7531bcc1cabd6e407f65e"
+    },
+    "micah/inventory.json": {
+      "git_blob_sha": "ee0a54dc8243acffd2da3c0a7ba84e4134edcd97",
+      "original_sha256": "7fbc3e2b5a4f33353e755ce6bc9d22b62a3cf38cfd41bba9e6a8a0b49a954935",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "7fbc3e2b5a4f33353e755ce6bc9d22b62a3cf38cfd41bba9e6a8a0b49a954935"
+    },
+    "micah/editorial-notes.json": {
+      "git_blob_sha": "f94679acfeb32d50c7d234adec4484a5777a83ae",
+      "original_sha256": "13f2df7a932ddef8d78c8d0ceea8b1a755cfd5b6c997a6d4bf8b1847cd693a5e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "13f2df7a932ddef8d78c8d0ceea8b1a755cfd5b6c997a6d4bf8b1847cd693a5e"
+    },
+    "micah/verification.json": {
+      "git_blob_sha": "bed68e2f564f9c77736ae77f26bca304c8837bdf",
+      "original_sha256": "cc8d6d496685fe2e03cad46ce5b57634424226ea51416a47588eecd9b69fcdf3",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "cc8d6d496685fe2e03cad46ce5b57634424226ea51416a47588eecd9b69fcdf3"
+    },
+    "nahum/verses.json": {
+      "git_blob_sha": "e2a8b2474404f892c1a639b4d4e7c1f739961e22",
+      "original_sha256": "c2a44b7dd116f07f08ba15d46879fbe86c68a51c62e69737956af501a1ba0c94",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c2a44b7dd116f07f08ba15d46879fbe86c68a51c62e69737956af501a1ba0c94"
+    },
+    "nahum/source-checks.json": {
+      "git_blob_sha": "28e8d862a3fd7251106cab25407681830924b9c1",
+      "original_sha256": "0f14dd358f67229f2a2648869e436fc014597f4f87fcdaccc959d6dcba5b46bb",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "0f14dd358f67229f2a2648869e436fc014597f4f87fcdaccc959d6dcba5b46bb"
+    },
+    "nahum/inventory.json": {
+      "git_blob_sha": "996197ad41ac4c76837aebb0c4dcff3b52831a51",
+      "original_sha256": "e6c166516cdb168b65b59a2bf2a895be612f2541fc2cf7207181b8322ef4128e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e6c166516cdb168b65b59a2bf2a895be612f2541fc2cf7207181b8322ef4128e"
+    },
+    "nahum/editorial-notes.json": {
+      "git_blob_sha": "bd6838a963ff35045d63d5fd90ce61ad80228572",
+      "original_sha256": "328b3ec5f188dc4380b3d10ff980c901afcaa735c590e620fcdbaebb60d9d939",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "328b3ec5f188dc4380b3d10ff980c901afcaa735c590e620fcdbaebb60d9d939"
+    },
+    "nahum/verification.json": {
+      "git_blob_sha": "b9117e541cbbfaf71a992eca5a64f260721d1f89",
+      "original_sha256": "a5602302c4d659f0229f0af0f2db12bbb0e338a7308e4130f1cf18603d04ef54",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "a5602302c4d659f0229f0af0f2db12bbb0e338a7308e4130f1cf18603d04ef54"
+    },
+    "habakkuk/verses.json": {
+      "git_blob_sha": "4b2154806f0efe707a48de93f7b2505c838e6527",
+      "original_sha256": "1fc147784038d46bcebc4c48c96e6c0c5ff02d830f62e6350f781819e4becf51",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "1fc147784038d46bcebc4c48c96e6c0c5ff02d830f62e6350f781819e4becf51"
+    },
+    "habakkuk/source-checks.json": {
+      "git_blob_sha": "7f4e2525f60d134bd7f298b67fb0ecec8adba510",
+      "original_sha256": "1249de10ee5b03be339595978ca8f8e435055f2ee6148f2595d769518c48bdb6",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "1249de10ee5b03be339595978ca8f8e435055f2ee6148f2595d769518c48bdb6"
+    },
+    "habakkuk/inventory.json": {
+      "git_blob_sha": "9e642b1f19945b4c40dd44931e27b6f9068973ef",
+      "original_sha256": "24390f9c9c4dea965f9d553ea0809a92a7c70cfd22a0b37d20c97a20db6cddc9",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "24390f9c9c4dea965f9d553ea0809a92a7c70cfd22a0b37d20c97a20db6cddc9"
+    },
+    "habakkuk/editorial-notes.json": {
+      "git_blob_sha": "5436ff467c0d15eec8fd1e7056a8277e85779fd0",
+      "original_sha256": "cdd1d32aac2386790251e298786cb6d376814bff81594adb9dd57723b8f4f795",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "cdd1d32aac2386790251e298786cb6d376814bff81594adb9dd57723b8f4f795"
+    },
+    "habakkuk/verification.json": {
+      "git_blob_sha": "60c039911c3950433df9d9bd86de6d4c99c138bb",
+      "original_sha256": "e8353cdcbe84d4b55f2618c6fd8bd9bfafa8940ddcdd40005491001af6a09656",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "e8353cdcbe84d4b55f2618c6fd8bd9bfafa8940ddcdd40005491001af6a09656"
+    },
+    "zephaniah/verses.json": {
+      "git_blob_sha": "f1ee9fafe4c411ad9b4097daae166c3d945718d1",
+      "original_sha256": "2dab905ab30d80316a60620421ce0fe4db10652882a09b398680d1ab7ee101a4",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "2dab905ab30d80316a60620421ce0fe4db10652882a09b398680d1ab7ee101a4"
+    },
+    "zephaniah/source-checks.json": {
+      "git_blob_sha": "2cff3b0c3670f65afa958d8eda36fc54ee0d4153",
+      "original_sha256": "700765c02c21101ee7c1188edd8c8d2fa7c3f40bad4a7d0fe606a8bee05d9d59",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "700765c02c21101ee7c1188edd8c8d2fa7c3f40bad4a7d0fe606a8bee05d9d59"
+    },
+    "zephaniah/inventory.json": {
+      "git_blob_sha": "016fa5a0a44528c0227db409e3da209046b1ed51",
+      "original_sha256": "840f2957fa9a8523bec2089671a9f8579c94c5b6b99c0eac2aa52b8f8b18af32",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "840f2957fa9a8523bec2089671a9f8579c94c5b6b99c0eac2aa52b8f8b18af32"
+    },
+    "zephaniah/editorial-notes.json": {
+      "git_blob_sha": "a9e3a549642949a222241c4b33a18e400c2cb821",
+      "original_sha256": "5ccb460d0fda5a49133d10e8f2bc26ed57c05c50aa22309e4ffedbb4b4b38e35",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5ccb460d0fda5a49133d10e8f2bc26ed57c05c50aa22309e4ffedbb4b4b38e35"
+    },
+    "zephaniah/verification.json": {
+      "git_blob_sha": "69e77dd49e455d4c2c2eea65ec7136e4dfa2539e",
+      "original_sha256": "320c13fc7eea28e6db666cdcf8e94083cf341cd2c39e84acd16ea3e8e8ecbc26",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "320c13fc7eea28e6db666cdcf8e94083cf341cd2c39e84acd16ea3e8e8ecbc26"
+    },
+    "haggai/verses.json": {
+      "git_blob_sha": "1c63f5c5a95d3288869973df1bbdef5c82fff023",
+      "original_sha256": "b148e4e39a792aa3e3720aab06d1d4fd4f0f6c6287b5b079cc1b5cdb9b95c7e6",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "b148e4e39a792aa3e3720aab06d1d4fd4f0f6c6287b5b079cc1b5cdb9b95c7e6"
+    },
+    "haggai/source-checks.json": {
+      "git_blob_sha": "7bc0b0d1bf5773698bfc1d61495807ec40c386ca",
+      "original_sha256": "d499270aebeb7b2864474373def5a205e24cdee9454e2349e74f452b6d77ae81",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d499270aebeb7b2864474373def5a205e24cdee9454e2349e74f452b6d77ae81"
+    },
+    "haggai/inventory.json": {
+      "git_blob_sha": "f6b9956025cac8e1d265a715950b2ee1f9a98aba",
+      "original_sha256": "f1e058c96fb631ccda9d08b7aa95a4f3b196cd7652556202e07bbabced0f259e",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "f1e058c96fb631ccda9d08b7aa95a4f3b196cd7652556202e07bbabced0f259e"
+    },
+    "haggai/editorial-notes.json": {
+      "git_blob_sha": "1c3f73de9439c9494f3748e2665c6508b818882d",
+      "original_sha256": "cc7a053db8cb410ef1d66e4053dfeaaf3a3fa1afe02e4ed7c702cb2621aa4902",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "cc7a053db8cb410ef1d66e4053dfeaaf3a3fa1afe02e4ed7c702cb2621aa4902"
+    },
+    "haggai/verification.json": {
+      "git_blob_sha": "63b9b09260ec87590589c14048d2beaa87c47e99",
+      "original_sha256": "5be716aa3576ed33207bc993e3f4c081f730cb843137f973316f27b59211a5a5",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5be716aa3576ed33207bc993e3f4c081f730cb843137f973316f27b59211a5a5"
+    },
+    "zechariah/verses.json": {
+      "git_blob_sha": "e1da773c24d4ed8d13af77ae12baa2b99fcc67fc",
+      "original_sha256": "27dffa514728c8d20834a681476da1ecd981f7909fbf2ff13c4060b132e27466",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "27dffa514728c8d20834a681476da1ecd981f7909fbf2ff13c4060b132e27466"
+    },
+    "zechariah/source-checks.json": {
+      "git_blob_sha": "632608522de33d9bede86c9b27b7b5e47025ac30",
+      "original_sha256": "7df69377f042d3ffa674e310719bc719c03ff115cb4d8f3774ba1f9501b65301",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "7df69377f042d3ffa674e310719bc719c03ff115cb4d8f3774ba1f9501b65301"
+    },
+    "zechariah/inventory.json": {
+      "git_blob_sha": "3d1ffe78062809025cb56f4c230115be122b4ad6",
+      "original_sha256": "d5df71fbb57df4413b3f04adbe3cfc61711707693f6e9c4bb8be785bb2769852",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "d5df71fbb57df4413b3f04adbe3cfc61711707693f6e9c4bb8be785bb2769852"
+    },
+    "zechariah/editorial-notes.json": {
+      "git_blob_sha": "eaeb21cf313b3a7d70d0892dd05c439912311b4a",
+      "original_sha256": "5d8bab5f9c795cc95f702e39b4dff7376141d65d979b40c8de057bc526aca7f6",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "5d8bab5f9c795cc95f702e39b4dff7376141d65d979b40c8de057bc526aca7f6"
+    },
+    "zechariah/verification.json": {
+      "git_blob_sha": "6268f8b48783ab961853f3b66d75d8da143dafa4",
+      "original_sha256": "c0a85193f7f380ada8a1b9f93ecb3c505b4711f567aacd427829e9c0834ead54",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "c0a85193f7f380ada8a1b9f93ecb3c505b4711f567aacd427829e9c0834ead54"
+    },
+    "malachi/verses.json": {
+      "git_blob_sha": "6a1ab03a3ea8b2bf786ef1942af8fdf2362201b1",
+      "original_sha256": "3c419c25b454e6535fdc2a6dfdfe7e55b3f30c21fa59184b596831dfb4c0e456",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "3c419c25b454e6535fdc2a6dfdfe7e55b3f30c21fa59184b596831dfb4c0e456"
+    },
+    "malachi/source-checks.json": {
+      "git_blob_sha": "d4dc8f91c341bccb8a70cab1a22b2788c6e768cf",
+      "original_sha256": "eb08c103096e39ec3d92280a6f3c90297ffe1e661df4573a5f96a764d9ba8e1a",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "eb08c103096e39ec3d92280a6f3c90297ffe1e661df4573a5f96a764d9ba8e1a"
+    },
+    "malachi/inventory.json": {
+      "git_blob_sha": "28a2f16a9f56a1a461f950bb9a04f750224c87bf",
+      "original_sha256": "35f4ece96d71ed13a5c36c3cb3fe9438341a727cd646341ad7233cf400b93548",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "35f4ece96d71ed13a5c36c3cb3fe9438341a727cd646341ad7233cf400b93548"
+    },
+    "malachi/editorial-notes.json": {
+      "git_blob_sha": "41b8ca9727e399e7bac212832f778005258d6fcd",
+      "original_sha256": "ada88d2708b50e03df04cfed1919fcc5d748622c1ab48bc8721865fc28aaa76d",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "ada88d2708b50e03df04cfed1919fcc5d748622c1ab48bc8721865fc28aaa76d"
+    },
+    "malachi/verification.json": {
+      "git_blob_sha": "3d369a565efe74cb318e4fcb159e84b5deb45d5f",
+      "original_sha256": "1d22a2ebefb1d23608f7a6ed4d8df036250b11048d22de5cc87166d5daee8c59",
+      "complete_json_parsed": true,
+      "snapshot_sha256": "1d22a2ebefb1d23608f7a6ed4d8df036250b11048d22de5cc87166d5daee8c59"
+    }
+  },
+  "completion_credit": 0
+}

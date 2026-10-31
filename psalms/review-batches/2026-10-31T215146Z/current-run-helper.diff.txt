@@ -1,0 +1,12 @@
+--- accepted-prior-incremental.py
++++ incremental.py
+@@ -191,7 +191,8 @@
+ 
+ def available_refs(book):
+     old=previously_read_refs(book)
+-    return [v['reference'] for v in flat(book_data(book)) if v['status']=='pending']
++    considered=set(load(HERE/'before-progress.json').get('pending_evidence_review',{}).get('considered_source_references',[]))
++    return [v['reference'] for v in flat(book_data(book)) if v['status']=='pending' and v['reference'] not in considered]
+ 
+ def selection(stem):
+     packet=next(p for p in PLAN['packets'] if p['stem']==stem)

@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Ecclesiastes",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -41,12 +41,12 @@
     1,
     8
   ],
-  "completed_source_verses": 198,
-  "completed_cross_references": 198,
+  "completed_source_verses": 209,
+  "completed_cross_references": 209,
   "total_chapters": 12,
   "total_source_sections": 12,
   "total_source_verse_units": 222,
-  "next_reference": "Ecclesiastes 2:5",
+  "next_reference": "Ecclesiastes 2:12",
   "next_unreviewed_reference": null,
   "readable_html": "Ecclesiastes.html",
   "readable_text": "Ecclesiastes.txt",
@@ -1003,16 +1003,92 @@
           "id": "v2-5",
           "text": "I made gardens and parks for myself and planted in them every kind of fruit tree.",
           "display_text": "I made gardens and parks for myself and planted in them every kind of fruit tree.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-2-5__genesis-2-8-9",
+              "target": "Genesis 2:8-9",
+              "verdict": "supported",
+              "relationship": "Planted gardens containing food-bearing trees",
+              "rationale": "Ecclesiastes describes making gardens and planting every kind of fruit tree. Genesis describes God planting Eden's garden and causing trees good for food to spring up. The concrete shared pattern is a planted garden with edible trees; the royal experiment is not identified with Eden or assigned its tree of life.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "029952a84c125bf446cbb76e18cdef9b150d1e9440670500175d38228bce1f70",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 2:8",
+                  "id": "v2-8",
+                  "text": "And the Lord God planted a garden in Eden, toward the east, and there He placed the man whom He had formed.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "80128a76f1a7340c77a947654df378c99ea307c07875a1615eeb8e75a53ff6b9"
+                },
+                {
+                  "reference": "Genesis 2:9",
+                  "id": "v2-9",
+                  "text": "And God caused every tree that was beautiful to behold and good for food to spring up from the earth, with the tree of life in the midst of the garden, and the tree of the knowledge of good and evil.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "40761656a438d312dacd81c3b1b4727ccda4bc495bd3838fdca8a43c8db45c77"
+                }
+              ],
+              "target_passage_sha256": "cec565caaeb1c67dda4a83a5b512ddfd99fc831c7fe9f6daa83f1785af7e198a",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 2:6",
           "id": "v2-6",
           "text": "I made pools of water for myself to irrigate from them a woodland sprouting trees.",
           "display_text": "I made pools of water for myself to irrigate from them a woodland sprouting trees.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-2-6__sirach-24-30-31",
+              "target": "Sirach 24:30-31",
+              "verdict": "supported",
+              "relationship": "Irrigation used literally and as a teaching image",
+              "rationale": "Ecclesiastes constructs water pools to irrigate growing woodland. Sirach compares the speaker to a river channel entering a garden and speaks of watering a garden bed, before applying the flowing image to instruction. Both picture directed water nourishing cultivated growth; Sirach's figurative channel is not claimed to be the same physical pool or woodland.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "bc180c75550a90bc9ef910555d83a32219d74566e5fe4cd49e5b83a211e0ff40",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 24:30",
+                  "id": "v24-30",
+                  "text": "I too came out like a channel from a river, like a watercourse into a garden.",
+                  "display_text": "I too came out like a channel from a river, like a watercourse into a garden.",
+                  "text_sha256": "ab4ce1f950b477e34252d15c121f343797cf77b9abd8eb118b4a6b5268b8a65b"
+                },
+                {
+                  "reference": "Sirach 24:31",
+                  "id": "v24-31",
+                  "text": "I said, “I will water my garden and drench my garden bed.” Then behold, my channel became a river, and my river became a sea.",
+                  "display_text": "I said, “I will water my garden and drench my garden bed.” Then behold, my channel became a river, and my river became a sea.",
+                  "text_sha256": "82d00720b00b45a2b8bc57c656df3756dc24ef49ab9318e46cdb1d736fa1ae8f"
+                }
+              ],
+              "target_passage_sha256": "d6d410fcd76fb0ac7628bfab04bd96750284dc6429670cb0601d093c20671937",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 2:7",
@@ -2002,8 +2078,46 @@
           "id": "v3-6",
           "text": "a time to seek and a time to lose, a time to keep and a time to throw away,",
           "display_text": "a time to seek and a time to lose, a time to keep and a time to throw away,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-3-6__acts-27-18-19",
+              "target": "Acts 27:18-19",
+              "verdict": "supported",
+              "relationship": "Circumstances making disposal necessary",
+              "rationale": "Ecclesiastes includes a time to keep and a time to throw away. The storm narrative gives a concrete occasion for discarding previously useful cargo and ship's tackle. This illustrates the disposal half of the saying under danger, without making the whole time catalogue a prediction of that voyage.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "f6ddabb49ac25ca773c2797140c8846ac8ae5cb56d6b3d04541c79334a42dad3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 27:18",
+                  "id": "v27-18",
+                  "text": "As we were violently battered by the storm, the next day they began throwing cargo overboard.",
+                  "display_text": "As we were violently battered by the storm, the next day they began throwing cargo overboard.",
+                  "text_sha256": "84e259349ef08ca2228ecbdbd8c30737f75cd13ce4e3984488d00ad523e5ec25"
+                },
+                {
+                  "reference": "Acts 27:19",
+                  "id": "v27-19",
+                  "text": "On the third day they threw the ship’s tackle overboard with their own hands.",
+                  "display_text": "On the third day they threw the ship’s tackle overboard with their own hands.",
+                  "text_sha256": "cc31b1f2a802156e7bc959acefb7a5de2f964a055aae638c2c1d04b7dc62436f"
+                }
+              ],
+              "target_passage_sha256": "3ca874a8be833758ddcf355190571a5b4f790d9d44844fc18286ca66fce08ea3",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 3:7",
@@ -2049,8 +2163,46 @@
           "id": "v3-8",
           "text": "a time to love and a time to hate, a time of war and a time of peace.",
           "display_text": "a time to love and a time to hate, a time of war and a time of peace.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-3-8__1-chronicles-22-8-9",
+              "target": "1 Chronicles 22:8-9",
+              "verdict": "supported",
+              "relationship": "Contrasting periods of war and peace",
+              "rationale": "Ecclesiastes places a time of war beside a time of peace. David recounts his great wars and God's promise of rest, peace and quietness in Solomon's days. Chronicles supplies a particular contrast between such periods, while the separate love-and-hate pair is not assigned to either king.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "64f5afb0fd0f53938cf9f99261dbbd47e3454725c4ed7611cecc01bfdcf21f87",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 22:8",
+                  "id": "v22-8",
+                  "text": "But the Lord’s word came upon me, saying, ‘You have poured out much blood and waged great wars. You shall not build a house for My name, because you have poured out much blood upon the earth before Me.",
+                  "display_text": "But the Lord’s word came upon me, saying, ‘You have poured out much blood and waged great wars. You shall not build a house for My name, because you have poured out much blood upon the earth before Me.",
+                  "text_sha256": "9f8f7ebb020127ecca2bc79e29f9b4e06bd42528c4d6c94bf6ada7581b1520ae"
+                },
+                {
+                  "reference": "1 Chronicles 22:9",
+                  "id": "v22-9",
+                  "text": "Behold, a son is born unto you; he shall be a man of rest. I will give him rest from all the enemies round about him, for Solomon is his name; and I will give peace and quietness unto Israel in his days.",
+                  "display_text": "Behold, a son is born unto you; he shall be a man of rest. I will give him rest from all the enemies round about him, for Solomon is his name; and I will give peace and quietness unto Israel in his days.",
+                  "text_sha256": "0b80eec19dc0db1a359a8319118be3ff732cf3a5d1a19a175952392f299e511f"
+                }
+              ],
+              "target_passage_sha256": "12271902e19507bb51aa8a8b3079857e4e243c8e384ae398723364cab38dbb57",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 3:9",
@@ -3103,8 +3255,60 @@
           "id": "v4-11",
           "text": "Also, if two lie down, they have warmth; but how can one be warm alone?",
           "display_text": "Also, if two lie down, they have warmth; but how can one be warm alone?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-4-11__1-kings-1-1-4",
+              "target": "1 Kings 1:1-4",
+              "verdict": "supported",
+              "relationship": "A companion supplying bodily warmth",
+              "rationale": "Ecclesiastes names warmth as a benefit when two lie down together. When clothing does not warm David, his attendants seek a woman to lie with him, and Abishag keeps him warm. The narrative concretely shares the bodily-warmth benefit; its explicit statement that David did not know her is preserved rather than making the comparison sexual.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "4098bd15b724192707ece357e854022000f99a9af45b15d54123b7a7b9300002",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-kings/verses.json",
+                "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Kings 1:1",
+                  "id": "v1-1",
+                  "text": "King David was old and advanced in days; and they wrapped him in garments, but he did not grow warm.",
+                  "display_text": "King David was old and advanced in days; and they wrapped him in garments, but he did not grow warm.",
+                  "text_sha256": "43a5096d26927e44a812a01bee6cde0ed0a1e7ce7e417a7e398ee82f1bb13e34"
+                },
+                {
+                  "reference": "1 Kings 1:2",
+                  "id": "v1-2",
+                  "text": "His attendants said, “Let them seek a young virgin for our lord the king. She shall attend the king and keep him warm; she shall lie with him, and our lord the king will become warm.”",
+                  "display_text": "His attendants said, “Let them seek a young virgin for our lord the king. She shall attend the king and keep him warm; she shall lie with him, and our lord the king will become warm.”",
+                  "text_sha256": "81477f488ecbccd0a0c6c74346f9c74685e7a2d4a333fdbdfd4a0bf6fab320b2"
+                },
+                {
+                  "reference": "1 Kings 1:3",
+                  "id": "v1-3",
+                  "text": "And they sought a fair young woman throughout all the territory of Israel, and found Abishag the Shunammite, and brought her to the king.",
+                  "display_text": "And they sought a fair young woman throughout all the territory of Israel, and found Abishag the Shunammite, and brought her to the king.",
+                  "text_sha256": "ff76bd0bff9843efc30f35ee7dd29000b76d4fd34dfb799dac949503628c3dd7"
+                },
+                {
+                  "reference": "1 Kings 1:4",
+                  "id": "v1-4",
+                  "text": "The young woman was very fair; she kept the king warm and served him, but the king did not know her.",
+                  "display_text": "The young woman was very fair; she kept the king warm and served him, but the king did not know her.",
+                  "text_sha256": "423fe65b54527a32939400954c77f21f4a292bffcfd21f86cce08ae77e121e8a"
+                }
+              ],
+              "target_passage_sha256": "acf3087c726b0597865a05ff5246f13b526ed746e504e4c15dc06166e57fe717",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 4:12",
@@ -4369,8 +4573,39 @@
           "id": "v6-4",
           "text": "for it came in futility and goes in darkness, and in darkness its name will be covered,",
           "display_text": "for it came in futility and goes in darkness, and in darkness its name will be covered,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-6-4__job-3-16",
+              "target": "Job 3:16",
+              "verdict": "supported",
+              "relationship": "Stillbirth described through absence of light",
+              "rationale": "In context Ecclesiastes speaks of a stillborn child whose departure and covered name are in darkness. Job compares his wished-for rest with a miscarriage or infants who never saw light. Both use the stillborn child's separation from the light of life in reflections on suffering; Job does not supply the separate detail of a name covered in darkness.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "ad970d7d1e3b5081975e3cd972613a57dab2e971a593dbe0dc31418a70af69cd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 3:16",
+                  "id": "v3-16",
+                  "text": "or like a miscarriage coming out of a mother’s womb, or like infants who never saw light.",
+                  "display_text": "or like a miscarriage coming out of a mother’s womb,\nor like infants who never saw light.",
+                  "text_sha256": "6f412b59cc0e0212d98d6d256451dea926a91e280689fbf2f57bca81ddb1f820"
+                }
+              ],
+              "target_passage_sha256": "d25462d0daad21a494c6a8fea86913a8ac8dea4a0ffe687554451535914801aa",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 6:5",
@@ -5103,8 +5338,56 @@
           "id": "v7-10",
           "text": "Do not say, “What happened that the former days were better than these?” For it was not in wisdom that you asked about this.",
           "display_text": "Do not say, “What happened that the former days were better than these?” For it was not in wisdom that you asked about this.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-7-10__numbers-11-18-20",
+              "target": "Numbers 11:18-20",
+              "verdict": "supported",
+              "relationship": "Rebuked idealization of former circumstances",
+              "rationale": "Ecclesiastes says it is unwise to ask why former days were better. Numbers recounts Israel's claim that it was well with them in Egypt and rebukes their disobedient lament over leaving. The narrative is a particular instance of a criticized favorable comparison with the past, without claiming every recollection of earlier days is wrong.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "1c2c4ff7bbc8ab03cf58c139211a974ff8bace56915afa18da61c1338f565ffb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "numbers/verses.json",
+                "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 11,
+                  "id": "v11-18",
+                  "text": "And you shall say unto the people: Purify yourselves for tomorrow, and you shall eat meat; for you wept before the Lord, saying: Who will feed us meat? For it is well with us in Egypt. And the Lord will give you meat to eat, and you shall eat meat.",
+                  "line_breaks": 0,
+                  "reference": "Numbers 11:18",
+                  "text_sha256": "a7ae0533a87fd5d92bd7c171b2a0f8d5d2dfc9110b682f392311f2ce319ac18e"
+                },
+                {
+                  "chapter": 11,
+                  "id": "v11-19",
+                  "text": "You shall eat not for one day, nor for two, nor for five days, nor for ten days, nor for twenty days;",
+                  "line_breaks": 0,
+                  "reference": "Numbers 11:19",
+                  "text_sha256": "0fdd7e92a9588598907511fa58aeffcfa5743c0a878fc4d4526c8853ef387c6c"
+                },
+                {
+                  "chapter": 11,
+                  "id": "v11-20",
+                  "text": "for a whole month you shall eat, until it comes out of your nostrils, and it shall be unto you a bilious sickness; because you disobeyed the Lord, who is among you, and wept before Him, saying: Why did we come out of Egypt?",
+                  "line_breaks": 0,
+                  "reference": "Numbers 11:20",
+                  "text_sha256": "290f4cdabbce6719c8ea5adff83d7a774c539bfd6f519debb97a69027f34f143"
+                }
+              ],
+              "target_passage_sha256": "5c6bb3252c547d939129549102f178506f76a9c16e068a6509bc6aa086b1452d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 7:11",
@@ -7055,8 +7338,39 @@
           "id": "v9-8",
           "text": "Let your garments be white at all times, and let oil not be lacking on your head.",
           "display_text": "Let your garments be white at all times, and let oil not be lacking on your head.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-9-8__psalms-22-5",
+              "target": "Psalms 22:5",
+              "verdict": "supported",
+              "relationship": "Oil on the head alongside enjoyed provision",
+              "rationale": "Ecclesiastes urges an oiled head in a setting of glad eating and drinking. The psalm joins a prepared table, a head enriched with oil and an excellent cup. Both associate head-anointing with enjoyed provision; the psalm does not mention the white garments or identify a shared ritual.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "4af3fa879010cb2578edd4a61d3456ace90990652390d49a26f26e7d6aacef53",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 22:5",
+                  "id": "v22-5",
+                  "text": "Thou didst prepare a table before me opposite those who afflict me; Thou didst enrich my head with oil, and Thy cup is intoxicating—how excellent!",
+                  "display_text": "Thou didst prepare a table before me opposite those who afflict me;\nThou didst enrich my head with oil,\nand Thy cup is intoxicating—how excellent!",
+                  "text_sha256": "641dea785a1d6b8685120465342223c5436d25872ff882bbba80ec77ea34802c"
+                }
+              ],
+              "target_passage_sha256": "8665e4907f4d623ac6d10d49a2363ffe5af3edddf0ed047e148953e580b3ab6a",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 9:9",
@@ -7780,8 +8094,56 @@
           "id": "v10-9",
           "text": "Whoever lifts stones will be worn out by them; whoever splits wood will be endangered by it.",
           "display_text": "Whoever lifts stones will be worn out by them; whoever splits wood will be endangered by it.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-10-9__deuteronomy-19-4-6",
+              "target": "Deuteronomy 19:4-6",
+              "verdict": "supported",
+              "relationship": "Danger arising during woodcutting",
+              "rationale": "Ecclesiastes warns that splitting wood brings danger. Deuteronomy gives the concrete case of an axe's iron slipping while wood is cut, killing a neighbor and exposing the cutter to an avenger. Both recognize woodcutting's dangers, while the legal example distinguishes the neighbor's immediate injury from the cutter's ensuing danger.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "aea1901d238d160122193a3dcdce25b72510830a3b31cc7244f81b8b7c3e330c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 19,
+                  "id": "v19-4",
+                  "text": "And this shall be the ordinance for the slayer who shall flee thither and live: whosoever strikes his neighbour unintentionally, having borne him no hatred aforetime,",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 19:4",
+                  "text_sha256": "6e439e8cbe98ea58f302dd63d1ed1be41f49cc038e2bb4ab539afb4f8f95f94a"
+                },
+                {
+                  "chapter": 19,
+                  "id": "v19-5",
+                  "text": "as when a man goes with his neighbour into the forest to gather wood, and his hand is jolted with the axe as he cuts the wood, and the iron slips from the wood and strikes his neighbour, so that he dies, he shall flee unto one of these cities and live;",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 19:5",
+                  "text_sha256": "3f67a0af63825d9aee954948afa6394d401f951d7f9f6fbe9cb9e0b8baf1157f"
+                },
+                {
+                  "chapter": 19,
+                  "id": "v19-6",
+                  "text": "lest the kinsman who avenges blood pursue the slayer while his heart is hot, and overtake him, if the way is long, and strike him mortally, so that he dies, though no sentence of death is due unto him, for he bore his neighbour no hatred aforetime.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 19:6",
+                  "text_sha256": "2f674efbfc1ce7218d7751e3a5b37a80f9736e5fa8e452b287d79346a6080251"
+                }
+              ],
+              "target_passage_sha256": "e038dc041f6dab9f4cd4ee9351928e04aaab8d3a44ac3a6c71c3b07a6397b50c",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 10:10",
@@ -7827,8 +8189,46 @@
           "id": "v10-11",
           "text": "If the snake bites without a whispered charm, there is no advantage for the charmer.",
           "display_text": "If the snake bites without a whispered charm, there is no advantage for the charmer.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-10-11__psalms-57-5-6",
+              "target": "Psalms 57:5-6",
+              "verdict": "supported",
+              "relationship": "Serpent danger and the limits of charming",
+              "rationale": "Ecclesiastes says a bite without a whispered charm leaves no advantage for the charmer. The psalm pictures a deaf asp refusing to hear enchanters or a wise person's spell. Both connect dangerous serpents with ineffective charming; the proverb's absent charm and the psalm's refused charm are distinct circumstances.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "3067bfe0188927bba60855f1992193e8a3dee7b2d13439e1ae6b5d73f743d5fd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 57:5",
+                  "id": "v57-5",
+                  "text": "Their fury is in the likeness of a serpent, like that of a deaf asp that stops up its ears,",
+                  "display_text": "Their fury is in the likeness of a serpent,\nlike that of a deaf asp that stops up its ears,",
+                  "text_sha256": "d94cc47d8b78a2455486808d96c5bce0f65f61da10b7d5ae3f46debfca83557f"
+                },
+                {
+                  "reference": "Psalms 57:6",
+                  "id": "v57-6",
+                  "text": "which will not hear the voice of enchanters, or a spell being cast by a wise person.",
+                  "display_text": "which will not hear the voice of enchanters,\nor a spell being cast by a wise person.",
+                  "text_sha256": "dadc1c8446770aca79c859013704dadf46cf65f7534a07da5da288ca0bc8d9dd"
+                }
+              ],
+              "target_passage_sha256": "5de441db20ad63272826b43e0a38be3254ecef6ca7e3150e9c36492ac92d4d6c",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 10:12",
@@ -8129,8 +8529,39 @@
           "id": "v10-19",
           "text": "They make bread for laughter, and wine gladdens the living, and everything will listen to money.",
           "display_text": "They make bread for laughter, and wine gladdens the living, and everything will listen to money.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-10-19__psalms-103-15",
+              "target": "Psalms 103:15",
+              "verdict": "supported",
+              "relationship": "Wine gladdening human life",
+              "rationale": "Ecclesiastes says wine gladdens the living while speaking of bread and money. The psalm similarly says wine gladdens the human heart, beside oil brightening the face and bread making the heart firm. This is a particular shared description of wine's gladness, without using the psalm to explain everything listening to money.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "5e0e8c51113b7b63b2b7210cd461609f1b855abd926b050b259681e7339dafae",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 103:15",
+                  "id": "v103-15",
+                  "text": "and wine gladdens the human heart, to brighten the face with oil, and bread makes the human heart firm.",
+                  "display_text": "and wine gladdens the human heart,\nto brighten the face with oil,\nand bread makes the human heart firm.",
+                  "text_sha256": "dc574ce936c4ebc6b2e0d5a869bc63da4c60971b817926ebb7591a99d9fa84c0"
+                }
+              ],
+              "target_passage_sha256": "1274c6bf55784574fa0d2dfdaafd227803776278e2dbb0018bcd1bc20fd609e0",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Ecclesiastes 10:20",

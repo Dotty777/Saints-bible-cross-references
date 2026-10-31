@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new original-language or apparatus verification.",
   "numbering": "Exact original order, native fields, references and anchors retained: 38 units, 2 native chapters, 2 native source groups.",
-  "method": "Complete actual source and target passages with necessary context were read and each retained explanation separately reread in recorded batches. Source-only deferrals and unresolved candidates receive zero completion credit. Technical inventory is separate from semantic review.",
+  "method": "Historical actual source reading is preserved. This run selectively reevaluated pending sources with new actual target/context evidence and separately reread supported explanations. Consideration, repeated readings and unresolved proposals receive zero completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -31,6 +31,19 @@
       "revisited_source_units_read": 0,
       "resolved_source_deferrals": 0,
       "deferred_source_units": 1,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T215146Z",
+      "records": "review-batches/2026-10-31T215146Z.json",
+      "new_source_verses": 1,
+      "new_pairs": 1,
+      "source_units_read": 1,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 1,
+      "resolved_source_deferrals": 1,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 0,
       "unresolved_retained_cases": 0
     }
   ],
@@ -386,37 +399,72 @@
       "path": "zephaniah/verses.json",
       "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
-    }
-  ],
-  "deferred_source_units": [
+    },
     {
-      "source_reference": "Haggai 2:1",
-      "source_text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
-      "reason": "The complete date heading, the twenty-first day of month seven, was read in its native order. No sufficiently particular parallel for this dated message was established; a generic revelation heading is not counted as a supported connection.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "haggai/verses.json",
-        "blob_sha": "b9623d3c2c80b65db6366f940ccbb200a2c4ba5d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/haggai/verses.json"
-      },
-      "source_verse": {
-        "reference": "Haggai 2:1",
-        "id": "v2-1",
-        "text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
-        "display_text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
-        "text_sha256": "259440951e4d88572831c6c62d4fe9da9c70b35b71cfca0f39c715e4a84d336b"
-      },
-      "reviewer": "Codex author /root/amos_author_recovery",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T194844Z",
-      "target": null
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-timothy/verses.json",
+      "blob_sha": "02e0778c9eed12dfc0a8ca4552efbd5537e5a20b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-timothy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-corinthians/verses.json",
+      "blob_sha": "2b83f1dc75d862ddb0a0a9fdbdbd63fc2682c346",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-corinthians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-peter/verses.json",
+      "blob_sha": "4f2eb3a0b1cf30ce38641beba7e29ef2747f24e1",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-peter/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-thessalonians/verses.json",
+      "blob_sha": "288f9670bb220cb4f5261ed43123800cbf81f400",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-timothy/verses.json",
+      "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-timothy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "song-of-songs/verses.json",
+      "blob_sha": "c25dcabd0c7416a129af37911b972ee3b89ed821",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/song-of-songs/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "wisdom-of-solomon/verses.json",
+      "blob_sha": "468127efad884589c0e3009ffb16ab7d1ad2fe10",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/wisdom-of-solomon/verses.json"
     }
   ],
+  "deferred_source_units": [],
   "unresolved_candidates": [
     {
       "source_reference": "Haggai 2:1",
@@ -479,10 +527,10 @@
     "source_passage": "Haggai 1:1 through Haggai 2:23",
     "source_passage_is_review_scope": true,
     "source_units_read": 38,
-    "source_verse_units": 37,
-    "deferred_source_units": 1,
-    "retained_pairs": 45,
-    "distinct_target_verse_units": 54
+    "source_verse_units": 38,
+    "deferred_source_units": 0,
+    "retained_pairs": 46,
+    "distinct_target_verse_units": 57
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -509,13 +557,72 @@
     "completed_review_credit": 0
   },
   "pending": [
-    "First pending source unit: Haggai 2:1",
+    "First pending source unit: None",
     "38 of 38 original source units read; 0 never reviewed. Deferred units remain incomplete.",
     "Next never-reviewed source: none; all original units read.",
-    "Read but deferred source units: Haggai 2:1",
+    "Read but deferred source units: ",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Unretained target candidate: Haggai 2:1 / Ezra 4:24"
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "Haggai 2:1",
+      "original_deferral": {
+        "source_reference": "Haggai 2:1",
+        "source_text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
+        "reason": "The complete date heading, the twenty-first day of month seven, was read in its native order. No sufficiently particular parallel for this dated message was established; a generic revelation heading is not counted as a supported connection.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "haggai/verses.json",
+          "blob_sha": "b9623d3c2c80b65db6366f940ccbb200a2c4ba5d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/haggai/verses.json"
+        },
+        "source_verse": {
+          "reference": "Haggai 2:1",
+          "id": "v2-1",
+          "text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
+          "display_text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
+          "text_sha256": "259440951e4d88572831c6c62d4fe9da9c70b35b71cfca0f39c715e4a84d336b"
+        },
+        "reviewer": "Codex author /root/amos_author_recovery",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T194844Z",
+        "target": null
+      },
+      "original_deferral_sha256": "d1b6a27fa4d195c987fe225667ee53e740c2c0fe4b05de0229b6558241d8e51b",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "haggai-2-1__leviticus-23-34-36"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    }
+  ],
+  "pending_revisit_history": [
+    {
+      "run_id": "2026-10-31T215146Z",
+      "actual_read_source_references": [
+        "Haggai 2:1"
+      ],
+      "considered_source_references": [
+        "Haggai 2:1"
+      ],
+      "continued_pending_observations": [],
+      "unretained_candidate_observations": [],
+      "new_unretained_candidate_count": 0,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Haggai 2:1"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
+    }
+  ]
 }

@@ -32,19 +32,21 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
-    1
+    1,
+    2
   ],
   "completed_source_sections": [
-    1
+    1,
+    2
   ],
-  "completed_source_verses": 37,
-  "completed_cross_references": 45,
+  "completed_source_verses": 38,
+  "completed_cross_references": 46,
   "total_chapters": 2,
   "total_source_sections": 2,
   "total_source_verse_units": 38,
-  "next_reference": "Haggai 2:1",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Haggai.html",
   "readable_text": "Haggai.txt",
@@ -810,7 +812,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -825,8 +827,53 @@
           "id": "v2-1",
           "text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
           "display_text": "In the seventh month, on the twenty-first day of the month, the Lord spoke through Haggai the prophet, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "haggai-2-1__leviticus-23-34-36",
+              "target": "Leviticus 23:34-36",
+              "verdict": "supported",
+              "relationship": "Calendar correspondence: month seven, day twenty-one within the Feast of Tents",
+              "rationale": "Haggai dates the divine message to the twenty-first day of the seventh month. Leviticus sets the Feast of Tents on the fifteenth day of that same month for seven days, followed by an eighth-day closing observance. Counting the fifteenth as the first festival day places the twenty-first on the seventh day of that prescribed calendar. This is a calendar inference from the stated dates, not a claim that Haggai explicitly reports the audience celebrating the feast or calls its date the eighth day.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "259440951e4d88572831c6c62d4fe9da9c70b35b71cfca0f39c715e4a84d336b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "leviticus/verses.json",
+                "blob_sha": "579aa009229810013259f2f24296f6f9a2c3c8f4",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/leviticus/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 23,
+                  "id": "v23-34",
+                  "text": "Speak to the sons of Israel, saying: On the fifteenth day of this seventh month is the Feast of Tents unto the Lord for seven days.",
+                  "reference": "Leviticus 23:34",
+                  "text_sha256": "03e407e8c9962d993359eb707c9c93c369c838ba5c9df83c99d3ce84c2689cf8"
+                },
+                {
+                  "chapter": 23,
+                  "id": "v23-35",
+                  "text": "And on the first day there shall be a holy convocation. You shall do no laborious work.",
+                  "reference": "Leviticus 23:35",
+                  "text_sha256": "2b2f3f1a7c7633021323ec19e92fa0cd9c3f21dff240b4dbc5ac78c5673a61dc"
+                },
+                {
+                  "chapter": 23,
+                  "id": "v23-36",
+                  "text": "For seven days you shall bring whole burnt offerings unto the Lord. The eighth day shall be a holy convocation for you, and you shall bring whole burnt offerings unto the Lord. It is a closing observance; you shall do no laborious work.",
+                  "reference": "Leviticus 23:36",
+                  "text_sha256": "7ff118a0a61864a4cd2347c6fc8159b87b5df783f4c51b238f935cc102f3a8ee"
+                }
+              ],
+              "target_passage_sha256": "e2dee00dd59acc7a67aacb6c7023d62692daf9c83f2d84550b0801606653f1a7",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Haggai 2:2",

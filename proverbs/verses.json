@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Proverbs",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -35,6 +35,7 @@
     3,
     4,
     5,
+    6,
     8,
     13
   ],
@@ -43,11 +44,12 @@
     3,
     4,
     5,
+    6,
     8,
     13
   ],
-  "completed_source_verses": 840,
-  "completed_cross_references": 863,
+  "completed_source_verses": 857,
+  "completed_cross_references": 880,
   "total_chapters": 31,
   "total_source_sections": 34,
   "total_source_verse_units": 939,
@@ -6393,7 +6395,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "section": 6,
@@ -6539,8 +6541,53 @@
           "id": "v6-4",
           "text": "Give no sleep to your eyes, nor doze with your eyelids,",
           "display_text": "Give no sleep to your eyes, nor doze with your eyelids,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-6-4__psalms-131-3-5",
+              "target": "Psalms 131:3-5",
+              "verdict": "supported",
+              "relationship": "Shared formula of withholding sleep for an urgent purpose",
+              "rationale": "Proverbs forbids sleep to the eyes and dozing to the eyelids while urging release from a dangerous guarantee. David's vow in the psalm withholds sleep and slumber until a dwelling for the Lord is found. The matching eyes-and-eyelids formula expresses urgency; the financial obligation and the vow's sacred purpose remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "a766d9937045e695fd292e43172dc582cb218b3eb2748153130f2ba3e1b9d6ef",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 131:3",
+                  "id": "v131-3",
+                  "text": "“I will not enter the dwelling of my house, nor climb onto my bed’s couch;",
+                  "display_text": "“I will not enter the dwelling of my house,\nnor climb onto my bed’s couch;",
+                  "text_sha256": "55700194f86e8d6fd47bbb51166189dcac93ce918f00c708a5781484378f88c2"
+                },
+                {
+                  "reference": "Psalms 131:4",
+                  "id": "v131-4",
+                  "text": "I will not give sleep to my eyes, slumber to my eyelids, or rest to my temples,",
+                  "display_text": "I will not give sleep to my eyes,\nslumber to my eyelids,\nor rest to my temples,",
+                  "text_sha256": "e8c3ce72e55567c0b2b3dd0325ebe079ae7a686251ea4fbc528881aaeda0f7a5"
+                },
+                {
+                  "reference": "Psalms 131:5",
+                  "id": "v131-5",
+                  "text": "until I find a place for the Lord, a dwelling for the God of Jacob.”",
+                  "display_text": "until I find a place for the Lord,\na dwelling for the God of Jacob.”",
+                  "text_sha256": "80e6f2fe27d14e8817802b545a57e802ff9880f7f87c1b30bdd713ec7ea77f83"
+                }
+              ],
+              "target_passage_sha256": "f9c9a84813ff40075fbdb7ebddccfc141616aa430a9efdb918051fe5e157023d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 6:5",
@@ -16550,8 +16597,39 @@
           "id": "v14-7",
           "text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
           "display_text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-14-7__isaiah-49-2",
+              "target": "Isaiah 49:2",
+              "verdict": "supported",
+              "relationship": "Speech pictured as a weapon",
+              "rationale": "Proverbs calls wise lips weapons of discernment. Isaiah's speaker says the Lord made his mouth like a sharp sword. Both use weapon imagery for speech, with Proverbs describing wise lips generally and Isaiah describing a particular servant's vocation; no identity between that servant and every wise speaker is asserted.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "680614ebff07945bfac2d0288b00ee2ee8a0ebeabec1e6aed8a10fa0c295f7be",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 49:2",
+                  "id": "v49-2",
+                  "text": "and made my mouth like a sharp sword. In the shelter of His hand He hid me; He made me a chosen arrow and sheltered me in His quiver.",
+                  "display_text": "and made my mouth like a sharp sword. In the shelter of His hand He hid me; He made me a chosen arrow and sheltered me in His quiver.",
+                  "text_sha256": "b0749b5fbbc0d3d603f946e43524bef6c5706b7e2e3552f1491e98e7caef3b47"
+                }
+              ],
+              "target_passage_sha256": "173f6659f751fdd365e04a99211c73844c43cb4e89fb730bb93f823e38a5c3bd",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 14:8",
@@ -16691,8 +16769,39 @@
           "id": "v14-13",
           "text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
           "display_text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-14-13__james-4-9",
+              "target": "James 4:9",
+              "verdict": "supported",
+              "relationship": "Joy passing into mourning",
+              "rationale": "Proverbs says that in the end joy comes to mourning, while James commands laughter to turn to mourning and joy to dejection. Both describe a transition from gladness to grief; James places it in a call to repentance, whereas Proverbs does not specify that cause or say sorrow was hidden within the gladness.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "49ab1a6251c9d17205229fc1787dc3e781837e95e9025c0ca9c6aab93733124d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "james/verses.json",
+                "blob_sha": "cc539b33b0fa3b9f0b2237961c0b3e99e5571e02",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/james/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "James 4:9",
+                  "id": "v4-9",
+                  "text": "Be wretched and mourn and weep. Let your laughter be turned into mourning and your joy into dejection.",
+                  "display_text": "Be wretched and mourn and weep. Let your laughter be turned into mourning and your joy into dejection.",
+                  "text_sha256": "7bea5285ae69942d308219752af11f28d3624eac5e34f6c091653ae761c5f8f5"
+                }
+              ],
+              "target_passage_sha256": "b5e7196352793d99f9c30f33ff355feb9fec4c81e214b698f0c8e922b806febe",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 14:14",
@@ -19628,8 +19737,53 @@
           "id": "v16-21",
           "text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
           "display_text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-16-21__ecclesiastes-9-15-17",
+              "target": "Ecclesiastes 9:15-17",
+              "verdict": "supported",
+              "relationship": "Wisdom undervalued by its hearers",
+              "rationale": "Proverbs says that the wise and understanding are called worthless. Ecclesiastes describes an unremembered poor wise man whose wisdom is despised and whose words are unheard, while valuing quiet wise words. Both distinguish the worth of wisdom from its social reception; the poor deliverer is not identified as the person meant in Proverbs, and the sweet speakers of its second clause are not inserted into Ecclesiastes.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "9a1a90f0ffd2476e28d2b6d85aa2d2dcd7e830be1ce82a58a8376be05573125e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 9:15",
+                  "id": "v9-15",
+                  "text": "and he might find in it a poor wise man, who will deliver the city by his wisdom; yet no one remembered that poor man.",
+                  "display_text": "and he might find in it a poor wise man, who will deliver the city by his wisdom; yet no one remembered that poor man.",
+                  "text_sha256": "80762178c9f13404f722980bc3ad3e23368c6a352e3bbbb5c49bac33c576397e"
+                },
+                {
+                  "reference": "Ecclesiastes 9:16",
+                  "id": "v9-16",
+                  "text": "I said, Wisdom is better than strength; yet the poor man’s wisdom is despised, and his words are not heard.",
+                  "display_text": "I said, Wisdom is better than strength; yet the poor man’s wisdom is despised, and his words are not heard.",
+                  "text_sha256": "0ca00a2df5d7f3ec9b176ed78464af177e448bed1ea0cd33cad0cafb12671618"
+                },
+                {
+                  "reference": "Ecclesiastes 9:17",
+                  "id": "v9-17",
+                  "text": "The words of the wise, heard quietly, are better than the shouting of rulers in follies.",
+                  "display_text": "The words of the wise, heard quietly, are better than the shouting of rulers in follies.",
+                  "text_sha256": "f92e64342bc59d2420f0b95a19852cdb9fc9ee91b4c8c4968c13d2b5186386a6"
+                }
+              ],
+              "target_passage_sha256": "8d5276d9801157f541172a47c6c87d8d6cf143d0099111297861ae7944fe1405",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 16:22",
@@ -21955,8 +22109,39 @@
           "id": "v18-17",
           "text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
           "display_text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-18-17__psalms-31-5",
+              "target": "Psalms 31:5",
+              "verdict": "supported",
+              "relationship": "Self-accusation in the acknowledgment of wrongdoing",
+              "rationale": "Proverbs describes the righteous as his own accuser in the opening speech. The psalmist declares that he will confess his lawlessness against himself to the Lord. Both explicitly portray a speaker bringing an accusation against himself. The psalm's confession and forgiveness do not supply the proverb's opposing litigant or rewrite its self-accusation as self-justification.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "d7d7ace18e814d863cf6e277c771b829495964f82f04fdadc483bff25ca217e3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 31:5",
+                  "id": "v31-5",
+                  "text": "I made my sin known, and I did not cover my lawlessness. I said, “I will confess my lawlessness against myself to the Lord,” and Thou forgavest the impiety of my sin. Diapsalma.",
+                  "display_text": "I made my sin known,\nand I did not cover my lawlessness.\nI said, “I will confess my lawlessness against myself to the Lord,”\nand Thou forgavest the impiety of my sin. Diapsalma.",
+                  "text_sha256": "64a3ff27d33951051f936b29ae4d12c7f9d77f6f9bad4bdc73b61e9b86031686"
+                }
+              ],
+              "target_passage_sha256": "d3fb86f3afbeda5cd7f250da5bf622ada1dc7345813f08568c2665e0bfb53352",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 18:18",
@@ -29322,8 +29507,48 @@
           "id": "v30-10",
           "text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
           "display_text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-30-10__deuteronomy-23-16-17",
+              "target": "Deuteronomy 23:16-17",
+              "verdict": "supported",
+              "relationship": "Prohibition of handing a servant to a master",
+              "rationale": "Proverbs forbids handing a household servant into a master's hands; Deuteronomy forbids delivering to his master a slave who has come from that master and allows him to dwell freely. Both prohibit handing over the servant, but Deuteronomy states the refuge situation explicitly and Proverbs gives a different warning about a curse. No slander prohibition is substituted for the act described.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "73bc8e4d7afcf6fe07e2a99485b93df9b795f3661e21e0b67cd0b2cc2153ac22",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 23,
+                  "id": "v23-16",
+                  "text": "You shall not deliver unto his master a slave who has come unto you from his master.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 23:16",
+                  "text_sha256": "41d24dfd99192eb552644bd1e9f6af0bf092ac4cb4d39d760dfec9804aec50b0"
+                },
+                {
+                  "chapter": 23,
+                  "id": "v23-17",
+                  "text": "He shall dwell with you; he shall dwell among you in any place that pleases him. You shall not afflict him.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 23:17",
+                  "text_sha256": "ffe14a4bddfa8ae810013193aba9c310220e4b4a26778baee50da075f6959690"
+                }
+              ],
+              "target_passage_sha256": "67aa9d9d258b26acc57a11babcea65f64fbb84f686623233706ea6d9d5824263",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 30:11",
@@ -30678,8 +30903,39 @@
           "id": "v31-6",
           "text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
           "display_text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-31-6__1-timothy-5-23",
+              "target": "1 Timothy 5:23",
+              "verdict": "supported",
+              "relationship": "Wine prescribed for an afflicted person in different settings",
+              "rationale": "Proverbs directs wine to those in pain, in a context of grief and forgetting trouble. The letter directs its addressee to use a little wine because of stomach trouble and frequent illnesses. Both describe wine being given or used in response to affliction; emotional relief, physical illness, quantity and purpose remain distinct, and neither instruction is generalized into medical advice.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "96582ed37a9009047da389a028d62b755ac4910e0b2dec1a080196831d6e11f7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-timothy/verses.json",
+                "blob_sha": "02e0778c9eed12dfc0a8ca4552efbd5537e5a20b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-timothy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Timothy 5:23",
+                  "id": "v5-23",
+                  "text": "No longer drink only water, but use a little wine because of your stomach and your frequent illnesses.",
+                  "display_text": "No longer drink only water, but use a little wine because of your stomach and your frequent illnesses.",
+                  "text_sha256": "579d806ed0365a0a24e411f84fb6d882be5e7fb4f618812acb47e474193e2e8c"
+                }
+              ],
+              "target_passage_sha256": "cf7c53d3aa956132ae61da282ac63b1f28a765db0dcf0e153b1372712e147b76",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 31:7",
@@ -30786,16 +31042,79 @@
           "id": "v25-1",
           "text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
           "display_text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-25-1__2-chronicles-29-30",
+              "target": "2 Chronicles 29:30",
+              "verdict": "supported",
+              "relationship": "Hezekiah's circle using inherited sacred words",
+              "rationale": "The Proverbs heading attributes the copying of Solomon's instructions to Hezekiah's friends. Chronicles records Hezekiah and the rulers instructing the Levites to sing with the words of David and Asaph. Both associate Hezekiah's court with the use of inherited words, while copying wisdom instructions and performing ancestral hymns remain different activities; Chronicles does not independently narrate this copying event.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "b2c0e4c4e52aca2185e428a002065e58f45002ebfe6b9027429ac2b0f08698b1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 29:30",
+                  "id": "v29-30",
+                  "text": "King Hezekiah and the rulers told the Levites to hymn the Lord with the words of David and Asaph the prophet. They hymned with rejoicing, fell down, and worshiped.",
+                  "display_text": "King Hezekiah and the rulers told the Levites to hymn the Lord with the words of David and Asaph the prophet. They hymned with rejoicing, fell down, and worshiped.",
+                  "text_sha256": "19622567789bc4177394af0801f75ef1a337131b10cb2ff4a5a50248d2e48082"
+                }
+              ],
+              "target_passage_sha256": "694e07c073e935a31dee3a7f8f8e859f128ac38426deca7fcc9ad7399fda99f9",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 25:2",
           "id": "v25-2",
           "text": "God’s glory conceals a word, but a king’s glory honors matters.",
           "display_text": "God’s glory conceals a word, but a king’s glory honors matters.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-25-2__deuteronomy-29-28",
+              "target": "Deuteronomy 29:28",
+              "verdict": "supported",
+              "relationship": "Hidden matters belonging to God",
+              "rationale": "Proverbs associates God's glory with concealing a word. Deuteronomy assigns hidden things to the Lord and revealed things to the people for obeying the law. Both distinguish what God keeps hidden from what humans handle; Deuteronomy does not turn the proverb's king honoring matters into a king searching them out.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "372ba4dec1c05be0fda3d1c0ea1e21b3c5108b00c809b26bd3f9b8988a752cde",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "chapter": 29,
+                  "id": "v29-28",
+                  "text": "The hidden things belong unto the Lord our God; but the things revealed belong unto us and unto our children for ever, that we may do all the words of this law.",
+                  "line_breaks": 0,
+                  "reference": "Deuteronomy 29:28",
+                  "text_sha256": "ed2f3417fc74c43c5c4fe82d26ffc4c6f3f4b1bd9d507148a133be23d557e278"
+                }
+              ],
+              "target_passage_sha256": "38140002cb30ac4a81612404fd1476dfe50016979448f5b5f4eede56df7b8c4a",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 25:3",
@@ -32923,8 +33242,46 @@
           "id": "v27-3",
           "text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
           "display_text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-27-3__sirach-22-14-15",
+              "target": "Sirach 22:14-15",
+              "verdict": "supported",
+              "relationship": "A fool compared with heavy physical burdens",
+              "rationale": "Proverbs says a fool's anger is heavier than stone and hard-to-carry sand. Sirach calls a fool heavier than lead and says sand, salt and iron are easier to bear than a person without understanding. Both compare the burden of foolishness with heavy materials, with Proverbs singling out anger and Sirach describing the person more generally.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "845f37192bb7625a602bc1c154c1e24163c3e5006d67061a6de2b16e29b2c831",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 22:14",
+                  "id": "v22-14",
+                  "text": "What is heavier than lead? What is its name except a fool?",
+                  "display_text": "What is heavier than lead? What is its name except a fool?",
+                  "text_sha256": "041daf0cca36183d4aecd9f3dc59835fc0282fb4b0a8d62b06ff2722026081da"
+                },
+                {
+                  "reference": "Sirach 22:15",
+                  "id": "v22-15",
+                  "text": "Sand, salt, and a lump of iron are easier to bear than a person without understanding.",
+                  "display_text": "Sand, salt, and a lump of iron are easier to bear than a person without understanding.",
+                  "text_sha256": "25d4e6e5d947b53657375e2d0111d82cec23782cce2a87b0a893092f3928369d"
+                }
+              ],
+              "target_passage_sha256": "aaf74530ca7488d3599a99513e65363af52487250d12784bcb260f89bb84656b",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 27:4",
@@ -33077,8 +33434,53 @@
           "id": "v27-8",
           "text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
           "display_text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-27-8__isaiah-16-2-4",
+              "target": "Isaiah 16:2-4",
+              "verdict": "supported",
+              "relationship": "Bird imagery for displacement from familiar surroundings",
+              "rationale": "Proverbs compares a person estranged from his places with a bird flying down from its own nest and adds enslavement. Isaiah compares Daughter Moab with a fledgling removed from a bird taking flight, in a passage about fugitives and shelter. Both use separated-bird imagery for human displacement; Isaiah does not mention a nest in this unit or establish Proverbs' enslavement consequence for those fugitives.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "c8bee9a7d94da0d3a89c0c2d1467adc5495bffecd62c43d47a257b64900fb80c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 16:2",
+                  "id": "v16-2",
+                  "text": "For you will be like a fledgling removed from a bird taking flight, Daughter Moab. Then, Arnon,",
+                  "display_text": "For you will be like a fledgling removed from a bird taking flight, Daughter Moab. Then, Arnon,",
+                  "text_sha256": "14c0ce8b8ae61ef9826b656ddac22d50b8621c8b13b4899c0dcd269ec3d3b2a8"
+                },
+                {
+                  "reference": "Isaiah 16:3",
+                  "id": "v16-3",
+                  "text": "take further counsel. Make a shelter of mourning for her continually. In midday darkness they flee; they were distraught. Do not be carried away.",
+                  "display_text": "take further counsel. Make a shelter of mourning for her continually. In midday darkness they flee; they were distraught. Do not be carried away.",
+                  "text_sha256": "7061fc9d7756b9a24969bb7acf6dc8b07c71e08e5f14ad3cdff59296bb611b24"
+                },
+                {
+                  "reference": "Isaiah 16:4",
+                  "id": "v16-4",
+                  "text": "Moab’s fugitives will sojourn with you; they will be a shelter for you from the pursuer, because your alliance was removed, and the ruler trampling the earth perished.",
+                  "display_text": "Moab’s fugitives will sojourn with you; they will be a shelter for you from the pursuer, because your alliance was removed, and the ruler trampling the earth perished.",
+                  "text_sha256": "73e41c1a418ce4ab97e527e4da8a9e51d886a774d680bc78b58ce8f143555195"
+                }
+              ],
+              "target_passage_sha256": "b13c2ce4c40fb021028e8d104eb182ae3ad072d1001957554ea17a1bbb7965d9",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 27:9",
@@ -33654,8 +34056,46 @@
           "id": "v27-26",
           "text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
           "display_text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-27-26__job-31-19-20",
+              "target": "Job 31:19-20",
+              "verdict": "supported",
+              "relationship": "Sheep providing clothing and warmth",
+              "rationale": "Proverbs commends tending livestock so that sheep supply clothing. In Job's defense, the powerless are warmed from the shearing of his lambs, alongside his denial of disregarding the unclothed. Both connect flocks with clothing people; Job specifically describes aid to the needy, a purpose not explicitly required by the proverb's livestock instruction.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "8ea2b8b496405607b6142c56967d9a9192db2b28bd0a764a31aff18e85d227f2",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 31:19",
+                  "id": "v31-19",
+                  "text": "if I also disregarded a naked person perishing and did not clothe him,",
+                  "display_text": "if I also disregarded a naked person perishing\nand did not clothe him,",
+                  "text_sha256": "3323901f262312b9f4a034f1229f7756fbebf2c8b4b70ad8686c795b8b2b7367"
+                },
+                {
+                  "reference": "Job 31:20",
+                  "id": "v31-20",
+                  "text": "if the powerless did not bless me, while their shoulders were warmed from the shearing of my lambs,",
+                  "display_text": "if the powerless did not bless me,\nwhile their shoulders were warmed from the shearing of my lambs,",
+                  "text_sha256": "80fca321c08de98d95916d41ebb2627a4333733c8393805d756d894a25d93a96"
+                }
+              ],
+              "target_passage_sha256": "95ca29517236f683bde9f980a4b18691e56c1737ed032019e97ae8905b2448b0",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 27:27",
@@ -35419,8 +35859,53 @@
           "id": "v29-16",
           "text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
           "display_text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-29-16__psalms-51-7-9",
+              "target": "Psalms 51:7-9",
+              "verdict": "supported",
+              "relationship": "The righteous fearing at the downfall of wrongdoing",
+              "rationale": "Proverbs says the righteous become terrified when the impious fall. The psalm describes God's pulling down the wrongdoer and says the righteous will see and fear. Both include fear among righteous observers of downfall. The psalm also mentions laughter, which is not substituted for the proverb's explicit terror.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "7f589f2fe0ae1872ba89eca5f42805169fd961d584e9e63e82ad9d2a6f40f4b6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 51:7",
+                  "id": "v51-7",
+                  "text": "Therefore God will pull you down completely; may He pluck you out and remove you from your dwelling, and your root from the land of the living. Diapsalma.",
+                  "display_text": "Therefore God will pull you down completely;\nmay He pluck you out and remove you from your dwelling,\nand your root from the land of the living. Diapsalma.",
+                  "text_sha256": "cd14ecb5652b2ff411f95bed44174d0bf252a94b82955550a8c45087950a75cb"
+                },
+                {
+                  "reference": "Psalms 51:8",
+                  "id": "v51-8",
+                  "text": "The righteous will see and fear; they will laugh at him and say:",
+                  "display_text": "The righteous will see and fear;\nthey will laugh at him and say:",
+                  "text_sha256": "f538070d49eaa531e5981db9c501124f4916677615e8e4964657582cc2190450"
+                },
+                {
+                  "reference": "Psalms 51:9",
+                  "id": "v51-9",
+                  "text": "“Look at the person who did not make God his helper, but hoped in the abundance of his wealth and became strong in his vanity.”",
+                  "display_text": "“Look at the person who did not make God his helper,\nbut hoped in the abundance of his wealth\nand became strong in his vanity.”",
+                  "text_sha256": "31defa1db664eccacd54cc20360196e42c11466ae564b71909afbe2dbff5f204"
+                }
+              ],
+              "target_passage_sha256": "c286957054d22c7a0f6dd1fb579cfe393d7512faca0c7181550e284143ad0c50",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 29:17",
@@ -35552,8 +36037,81 @@
           "id": "v29-21",
           "text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
           "display_text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-29-21__luke-15-13-19",
+              "target": "Luke 15:13-19",
+              "verdict": "supported",
+              "relationship": "Extravagant living followed by dependent service",
+              "rationale": "Proverbs warns that one living extravagantly becomes a household servant and grieves over himself. The younger son spends recklessly, falls into need amid famine, serves a citizen feeding pigs and seeks a hired worker's place with his father. Both trace wasteful living toward dependence and regret, without assigning childhood extravagance to the son or equating his agricultural work with the proverb's exact household status.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "4bd1e3a39d8b1ac37000a94979e47766c869cf08d678089f5cc0a5715c5ae279",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 15:13",
+                  "id": "v15-13",
+                  "text": "Not many days later, the younger son gathered everything together and traveled to a distant country. There he scattered his property by living recklessly.",
+                  "display_text": "Not many days later, the younger son gathered everything together and traveled to a distant country. There he scattered his property by living recklessly.",
+                  "text_sha256": "3b152767f217f69e3b767ddc3e741c12561829c76b34ef383fba6bb5fdc1e376"
+                },
+                {
+                  "reference": "Luke 15:14",
+                  "id": "v15-14",
+                  "text": "When he had spent everything, a severe famine arose throughout that country, and he began to be in need.",
+                  "display_text": "When he had spent everything, a severe famine arose throughout that country, and he began to be in need.",
+                  "text_sha256": "92869236b605cbc9deb471f78090be9639d8d347e05c42b3c143f55ef3b27c79"
+                },
+                {
+                  "reference": "Luke 15:15",
+                  "id": "v15-15",
+                  "text": "So he went and attached himself to one of the citizens of that country, who sent him into his fields to feed pigs.",
+                  "display_text": "So he went and attached himself to one of the citizens of that country, who sent him into his fields to feed pigs.",
+                  "text_sha256": "3592813f52ca22ebe5f1085ab13a2f2c5f792b42870a6f50f95bf6bac6faa70a"
+                },
+                {
+                  "reference": "Luke 15:16",
+                  "id": "v15-16",
+                  "text": "And he longed to be filled with the carob pods the pigs were eating, and no one gave him anything.",
+                  "display_text": "And he longed to be filled with the carob pods the pigs were eating, and no one gave him anything.",
+                  "text_sha256": "e400b3206f925e4e8980649d7651f8cdc5cb523ba40a97e2f512a6ca4f00d211"
+                },
+                {
+                  "reference": "Luke 15:17",
+                  "id": "v15-17",
+                  "text": "But when he came to himself, he said, ‘How many of my father’s hired workers have bread to spare, while I am perishing here from hunger!",
+                  "display_text": "But when he came to himself, he said, ‘How many of my father’s hired workers have bread to spare, while I am perishing here from hunger!",
+                  "text_sha256": "3ddd5ff5a9b058833cc3396cae922bb04938b73212777a7d629d45899a9b5a3f"
+                },
+                {
+                  "reference": "Luke 15:18",
+                  "id": "v15-18",
+                  "text": "I will rise and go to my father and say to him, “Father, I have sinned against heaven and before you.",
+                  "display_text": "I will rise and go to my father and say to him, “Father, I have sinned against heaven and before you.",
+                  "text_sha256": "3ebe389dae2483566cd639209b97629ac51a4ca3c2a945c858767d5ad0f943a1"
+                },
+                {
+                  "reference": "Luke 15:19",
+                  "id": "v15-19",
+                  "text": "I am no longer worthy to be called your son. Make me like one of your hired workers.”’",
+                  "display_text": "I am no longer worthy to be called your son. Make me like one of your hired workers.”’",
+                  "text_sha256": "db7fb1717488346dea179a7f872aa955c3ad999bae47c5ddaa0ad823dcf46e2f"
+                }
+              ],
+              "target_passage_sha256": "648479ce6335ea558d35cbb4669ee6addb78b7208b9888778eb41c0261f7b572",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 29:22",
@@ -36214,8 +36772,53 @@
           "id": "v31-22",
           "text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
           "display_text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-31-22__luke-16-19-21",
+              "target": "Luke 16:19-21",
+              "verdict": "supported",
+              "relationship": "Fine linen and purple in contrasting household portraits",
+              "rationale": "The woman makes fine-linen and purple garments for herself; the rich man clothes himself in purple and fine linen while the poor Lazarus lies at his gateway. The same two garment materials appear in contrasting portrayals: Proverbs praises productive household care and elsewhere her aid to the needy, while Luke sets the rich man's splendor beside another's need. The clothing alone is not made proof of virtue or wrongdoing.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "e16cf1458ac848ae663c0f9c0c55e33cc68f31cf49a4374f56a79dfe01c9be42",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 16:19",
+                  "id": "v16-19",
+                  "text": "Now there was a certain rich man, and he clothed himself in purple and fine linen, enjoying himself in splendor every day.",
+                  "display_text": "Now there was a certain rich man, and he clothed himself in purple and fine linen, enjoying himself in splendor every day.",
+                  "text_sha256": "9f71977a7b49f117b8fcc79cb21abc4572de9609d5ae27edec104b735144ccc1"
+                },
+                {
+                  "reference": "Luke 16:20",
+                  "id": "v16-20",
+                  "text": "And a certain poor man named Lazarus had been laid at his gateway, covered with sores",
+                  "display_text": "And a certain poor man named Lazarus had been laid at his gateway, covered with sores",
+                  "text_sha256": "4e727ff1e2799e1bb592960d352a8cd426a3cb87d7900379a85fd27ebf4bc2fb"
+                },
+                {
+                  "reference": "Luke 16:21",
+                  "id": "v16-21",
+                  "text": "and longing to be filled with what fell from the rich man’s table. Even the dogs came and licked his sores.",
+                  "display_text": "and longing to be filled with what fell from the rich man’s table. Even the dogs came and licked his sores.",
+                  "text_sha256": "2f9d1364677624fe247992e2a9b4aa55dc9bd27299b10528310cbdf5cbf6ecfb"
+                }
+              ],
+              "target_passage_sha256": "2f70db95daa07684ea322ba55858427620f6c9a7255968def615c2e92b8f421d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 31:23",
@@ -36308,8 +36911,39 @@
           "id": "v31-26",
           "text": "She clothed herself in strength and dignity and rejoiced in the last days.",
           "display_text": "She clothed herself in strength and dignity and rejoiced in the last days.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-31-26__psalms-92-1",
+              "target": "Psalms 92:1",
+              "verdict": "supported",
+              "relationship": "Strength described through clothing imagery",
+              "rationale": "The woman clothes herself in strength and dignity. The psalm says the Lord clothes Himself in comeliness and power and girds Himself. Both express strength through the image of putting on garments; the woman's qualities are not equated with divine kingship or the Lord's establishing the world.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "2aaef3c7f751db91178dd0234cc3e2bc221d7ed051f0a12a230056d03217088c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 92:1",
+                  "id": "v92-1",
+                  "text": "For the day before the Sabbath, when the earth has been inhabited; a praise of a song, of David. The Lord reigned, clothed Himself in comeliness; the Lord clothed Himself in power and girded Himself. For He established the inhabited world, which will not be shaken.",
+                  "display_text": "For the day before the Sabbath, when the earth has been inhabited; a praise of a song, of David.\nThe Lord reigned, clothed Himself in comeliness;\nthe Lord clothed Himself in power and girded Himself.\nFor He established the inhabited world, which will not be shaken.",
+                  "text_sha256": "7e1a8c67378edf904ab465b816e04bbb2c9388d55ff36981718c37217f6ff559"
+                }
+              ],
+              "target_passage_sha256": "c69f2fa4b69e821b5207f52082636194b350b9143d22e9eb01abbd4b0b810f8f",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Proverbs 31:27",
@@ -36455,8 +37089,46 @@
           "id": "v31-31",
           "text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
           "display_text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-31-31__psalms-127-1-2",
+              "target": "Psalms 127:1-2",
+              "verdict": "supported",
+              "relationship": "Enjoying the return from one's own work",
+              "rationale": "Proverbs directs that the woman receive the fruits of her hands. The psalm blesses one who fears the Lord and will eat the labors of his wrists. Both connect a person's benefit with the work of their own hands; the proverb's separate praise of her husband in the gates is preserved and is not transferred to her by the comparison.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "3192cdee89ee725553b091514fb81e0e8f032e3341af1c131f77d73372944e19",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 127:1",
+                  "id": "v127-1",
+                  "text": "A song of the ascents. Happy are all who fear the Lord, who walk in His ways.",
+                  "display_text": "A song of the ascents.\nHappy are all who fear the Lord,\nwho walk in His ways.",
+                  "text_sha256": "12f402ebfccb6b68f4920ccf8ea3183ae37b26bf92dcc2a7989a167ed32b5b00"
+                },
+                {
+                  "reference": "Psalms 127:2",
+                  "id": "v127-2",
+                  "text": "You will eat the labors of your wrists; happy are you, and it will be well with you.",
+                  "display_text": "You will eat the labors of your wrists;\nhappy are you, and it will be well with you.",
+                  "text_sha256": "3c39b1db797236e2151d7a50d168d99b81bf87f1d02f8c6158169c54066678e5"
+                }
+              ],
+              "target_passage_sha256": "b3c619c688758dae0840173ac4fe0b58640f56aabe5b657f78f364cad9957f38",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         }
       ]
     }

@@ -35,10 +35,13 @@
   "review_status": "initial_curated_pass_in_progress",
   "completed_chapters": [
     1,
+    2,
     6,
     11,
     12,
     13,
+    14,
+    24,
     25,
     26,
     30,
@@ -53,21 +56,29 @@
     40,
     46,
     48,
+    49,
     50,
     52,
     55,
     56,
+    57,
     58,
+    59,
+    60,
     61,
     62,
-    63
+    63,
+    66
   ],
   "completed_source_sections": [
     1,
+    2,
     6,
     11,
     12,
     13,
+    14,
+    24,
     25,
     26,
     30,
@@ -82,21 +93,26 @@
     40,
     46,
     48,
+    49,
     50,
     52,
     55,
     56,
+    57,
     58,
+    59,
+    60,
     61,
     62,
-    63
+    63,
+    66
   ],
-  "completed_source_verses": 1218,
-  "completed_cross_references": 1311,
+  "completed_source_verses": 1231,
+  "completed_cross_references": 1324,
   "total_chapters": 66,
   "total_source_sections": 66,
   "total_source_verse_units": 1289,
-  "next_reference": "Isaiah 2:18",
+  "next_reference": "Isaiah 3:6",
   "next_unreviewed_reference": null,
   "readable_html": "Isaiah.html",
   "readable_text": "Isaiah.txt",
@@ -1686,7 +1702,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -2491,8 +2507,39 @@
           "id": "v2-18",
           "text": "They will hide away all the handmade things,",
           "display_text": "They will hide away all the handmade things,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-2-18__genesis-35-4",
+              "target": "Genesis 35:4",
+              "verdict": "supported",
+              "relationship": "Narrative parallel: hiding objects of foreign worship",
+              "rationale": "Isaiah says the handmade things will be hidden; the preceding description identifies objects made by fingers and worshiped, and the following unit locates their concealment in caves and earth. Genesis describes Jacob hiding the foreign gods surrendered by his household beneath the terebinth. Both passages remove worshiped objects from sight, although Genesis additionally says Jacob destroyed them and Isaiah's unit does not assert destruction.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "a434f25cfd10f10ae0b9636668479922f5fbeffb98ee7418c549e31736b9c4f9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 35:4",
+                  "id": "v35-4",
+                  "text": "And they gave to Jacob the foreign gods which were in their hands, and the earrings which were in their ears; and Jacob hid them under the terebinth in Shechem, and destroyed them to this day.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "5238afec9f643e77ecd4edf83d2794725b31c07b655543ed552c6a7fd3fc3b7a"
+                }
+              ],
+              "target_passage_sha256": "f337da1dd681554ac644e0b714899881d11a500451501a0df9e049cc3a373fe8",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 2:19",
@@ -8166,8 +8213,53 @@
           "id": "v8-20",
           "text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
           "display_text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-8-20__psalms-118-92-94",
+              "target": "Psalms 118:92-94",
+              "verdict": "supported",
+              "relationship": "Thematic parallel: divine law as sustaining help",
+              "rationale": "Isaiah explicitly says that God gave law for help, in contrast with the utterance discussed after consulting the dead. The psalmist says meditation on God's law kept him from perishing in humiliation, that the ordinances gave him life, and asks for salvation while seeking them. The connection is the law's beneficial, sustaining function; the psalm does not resolve Isaiah's unusual clause about gifts or replace it with another wording.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "8a1a20ac1156708208e8d0cf99ef6c4c5c3941e2cb3ebe27e313ea01749e6dbf",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 118:92",
+                  "id": "v118-92",
+                  "text": "If Thy law had not been my meditation, then I would have perished in my humiliation.",
+                  "display_text": "If Thy law had not been my meditation,\nthen I would have perished in my humiliation.",
+                  "text_sha256": "75d23509addc222bfd1cfdb5f2c40a82e026dbb0423d1427e116e37a2d40083e"
+                },
+                {
+                  "reference": "Psalms 118:93",
+                  "id": "v118-93",
+                  "text": "I will certainly never forget Thine ordinances, for by them Thou gavest me life, Lord.",
+                  "display_text": "I will certainly never forget Thine ordinances,\nfor by them Thou gavest me life, Lord.",
+                  "text_sha256": "e51ed1a53487fd00872d3c7c7d46e2628b368f40b817b34815c14a4383dae99d"
+                },
+                {
+                  "reference": "Psalms 118:94",
+                  "id": "v118-94",
+                  "text": "I am Thine; save me, for I sought Thine ordinances.",
+                  "display_text": "I am Thine; save me,\nfor I sought Thine ordinances.",
+                  "text_sha256": "5f84474a1bc89f9045be230518ea5bb0e6de659f43a40e65aee0f37c6c30b304"
+                }
+              ],
+              "target_passage_sha256": "910ea362aa05dd58ff9807996a991697570d3e2b721035721ad3da800e3b76d0",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 8:21",
@@ -10304,8 +10396,39 @@
           "id": "v10-21",
           "text": "and Jacob’s remainder will be toward a mighty God.",
           "display_text": "and Jacob’s remainder will be toward a mighty God.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-10-21__hosea-3-5",
+              "target": "Hosea 3:5",
+              "verdict": "supported",
+              "relationship": "Restoration parallel: Israel turning toward its God",
+              "rationale": "Isaiah places Jacob's remainder toward a mighty God, immediately after the promise that the survivors will trust Israel's Holy One instead of those who wronged them. Hosea says Israel's sons will return and seek the Lord their God after their long deprivation. Both envisage a renewed orientation of Israel toward God; Hosea adds seeking David their king and does not supply the title mighty God.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "175600dd5a5bb48b85146375642469b749a684db8c19cc6487566dda4f1aec93",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "hosea/verses.json",
+                "blob_sha": "c7b17f6519ad7ae6908d75a6d4230b02fbf7f278",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hosea/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Hosea 3:5",
+                  "id": "v3-5",
+                  "text": "After these things Israel’s sons will return and seek the Lord their God and David their king; they will be astonished at the Lord and His good things in the last days.",
+                  "display_text": "After these things Israel’s sons will return and seek the Lord their God and David their king; they will be astonished at the Lord and His good things in the last days.",
+                  "text_sha256": "6679de0ba8234db5bd45ff746d9dd339d69050f1a9476e0d129221c7fcfc7528"
+                }
+              ],
+              "target_passage_sha256": "c81c72a5c9a745f4746846ab4b8a9772093569090fbbe347e9e902ad48bcc421",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 10:22",
@@ -13080,7 +13203,7 @@
     },
     {
       "chapter": 14,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 14,
         "section": 14,
@@ -13368,8 +13491,39 @@
           "id": "v14-6",
           "text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
           "display_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-14-6__nahum-3-19",
+              "target": "Nahum 3:19",
+              "verdict": "supported",
+              "relationship": "Judgment imagery: a national blow without healing",
+              "rationale": "Within the lament against Babylon's king, Isaiah describes a nation struck by an incurable, unsparing blow. Nahum describes crushing without healing and an inflamed wound, while hearers clap over the one whose evil continually reached others. The royal-judgment passages use bodily injury without healing to portray devastating violence; Isaiah's nation receiving the blow is not identified with Nahum's addressee, and the direction of the injury differs.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "a759dfc40835877a61c86109e2cc9aee23b115b6587ce3a962dcbf9623760c57",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nahum/verses.json",
+                "blob_sha": "6901c800e024c859800afa7ab1e4fcda4e9d2658",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nahum/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nahum 3:19",
+                  "id": "v3-19",
+                  "text": "There is no healing for your crushing; your wound has become inflamed. All who hear the report of you will clap their hands over you, for upon whom has your evil not continually come?",
+                  "display_text": "There is no healing for your crushing; your wound has become inflamed. All who hear the report of you will clap their hands over you, for upon whom has your evil not continually come?",
+                  "text_sha256": "74d475299366b37e4915f1e2efda7ae7b142afd1eb1c6d728d317a603141ac51"
+                }
+              ],
+              "target_passage_sha256": "c22deaff7c10f772fff176918e82b6e180570d73d4874aa3334d547411cc7836",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 14:7",
@@ -19434,8 +19588,53 @@
           "id": "v22-22",
           "text": "I will give him David’s glory, and he will rule, with no one contradicting.",
           "display_text": "I will give him David’s glory, and he will rule, with no one contradicting.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-22-22__1-chronicles-29-23-25",
+              "target": "1 Chronicles 29:23-25",
+              "verdict": "supported",
+              "relationship": "Royal parallel: granted glory with general submission",
+              "rationale": "Isaiah promises Eliakim David's glory and rule with no one contradicting. Chronicles describes Solomon occupying David's throne, receiving obedience from Israel and submission from the rulers, while the Lord gives him exceptional royal glory. Both connect granted Davidic honor with accepted rule. Eliakim and Solomon remain distinct figures, and no key or opening-and-shutting language is supplied to Isaiah.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "90341ed091ca22a1cdb57c341a5dfae7273d02f9a43149b7b58d83443b15c4ac",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 29:23",
+                  "id": "v29-23",
+                  "text": "Solomon sat upon the throne of David his father and was accepted with favor. All Israel obeyed him.",
+                  "display_text": "Solomon sat upon the throne of David his father and was accepted with favor. All Israel obeyed him.",
+                  "text_sha256": "f7f6d230190e5d38f2b6b54b68c1e423d2de9b021eb64a6dac05349624a38a33"
+                },
+                {
+                  "reference": "1 Chronicles 29:24",
+                  "id": "v29-24",
+                  "text": "The rulers, the powerful men, and all the sons of King David his father submitted to him.",
+                  "display_text": "The rulers, the powerful men, and all the sons of King David his father submitted to him.",
+                  "text_sha256": "6cf85a5be6d5802d5918163b58eb462e662000b1b78b04be691f56ad8adbe1ef"
+                },
+                {
+                  "reference": "1 Chronicles 29:25",
+                  "id": "v29-25",
+                  "text": "The Lord made Solomon exceedingly great before all Israel and gave him a king’s glory such as had not belonged to any king before him.",
+                  "display_text": "The Lord made Solomon exceedingly great before all Israel and gave him a king’s glory such as had not belonged to any king before him.",
+                  "text_sha256": "0d0fb5de9d04ea5eb913853c0a74c7be6eba27c1f127b46e3e6b5d12ee9006e4"
+                }
+              ],
+              "target_passage_sha256": "17f1146ab356f7c20c5687e4d1e1e1eadcd158e142a8512197d468a3a5ccf46d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 22:23",
@@ -20368,7 +20567,7 @@
     },
     {
       "chapter": 24,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 24,
         "section": 24,
@@ -20767,8 +20966,74 @@
           "id": "v24-9",
           "text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
           "display_text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-24-9__lamentations-3-14-19",
+              "target": "Lamentations 3:14-19",
+              "verdict": "supported",
+              "relationship": "Lament imagery: drinking turned to bitterness",
+              "rationale": "Isaiah replaces the surrounding wine-associated gladness with shame and sikera bitter to its drinkers. The lamenting speaker describes public mockery and being filled with bitterness and made drunk with gall, followed by the loss of peace and good things. Both portray affliction through bitter drinking rather than enjoyment; the comparison does not identify sikera with gall or claim the same drink or occasion.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "a7e5e5865a098bf5ed82fc538c8442a4259c86a67505e79e6d33bc384984b2b9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "lamentations/verses.json",
+                "blob_sha": "05d7755a5e96cf65f30173d3e025cd7af50cdb5c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/lamentations/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Lamentations 3:14",
+                  "id": "v3-14",
+                  "text": "I became a laughingstock to all my people, their psalm all day.",
+                  "display_text": "I became a laughingstock to all my people, their psalm all day.",
+                  "text_sha256": "ad39b096ccd141c99039dea3a9dfffe773f1a87a5e36c13d9915b7e8145f764d"
+                },
+                {
+                  "reference": "Lamentations 3:15",
+                  "id": "v3-15",
+                  "text": "He filled me with bitterness and made me drunk with gall.",
+                  "display_text": "He filled me with bitterness and made me drunk with gall.",
+                  "text_sha256": "bc9068e0ecebdac5761e6b2c202cab2003dbb13623a68bd6ae02fe32ad648a63"
+                },
+                {
+                  "reference": "Lamentations 3:16",
+                  "id": "v3-16",
+                  "text": "He knocked out my teeth with a pebble and fed me ashes.",
+                  "display_text": "He knocked out my teeth with a pebble and fed me ashes.",
+                  "text_sha256": "eb5f982eea61d77cee06ebb5851273522be838dd84be597d4254d979203e7f3a"
+                },
+                {
+                  "reference": "Lamentations 3:17",
+                  "id": "v3-17",
+                  "text": "He drove my soul away from peace; I forgot good things.",
+                  "display_text": "He drove my soul away from peace; I forgot good things.",
+                  "text_sha256": "78f42285bdb854e9c2f05d0aca0c90283b46454170a78c8b1ad865623dcd24a6"
+                },
+                {
+                  "reference": "Lamentations 3:18",
+                  "id": "v3-18",
+                  "text": "I said, “My victory has perished, and my hope from the Lord.”",
+                  "display_text": "I said, “My victory has perished, and my hope from the Lord.”",
+                  "text_sha256": "3efad1749b397cbe7ee7c624f9472a59008a99fd8d8a07a5657a54503c29c9f7"
+                },
+                {
+                  "reference": "Lamentations 3:19",
+                  "id": "v3-19",
+                  "text": "I remembered, from my poverty and my persecution, my bitterness and gall.",
+                  "display_text": "I remembered, from my poverty and my persecution, my bitterness and gall.",
+                  "text_sha256": "de5a3c56ff06af2575e3cabaa830d0600c791d0d889bd1fa142264487057e606"
+                }
+              ],
+              "target_passage_sha256": "0b369223d4c3e51e4debd03499d5734a110d700367cf8d1de7e119bde3a656d3",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 24:10",
@@ -23279,8 +23544,39 @@
           "id": "v27-7",
           "text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
           "display_text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-27-7__obadiah-1-15",
+              "target": "Obadiah 1:15",
+              "verdict": "supported",
+              "relationship": "Rhetorical comparison: receiving as one has inflicted",
+              "rationale": "Isaiah asks whether the unnamed figure will be struck and killed just as he himself struck and killed. Obadiah declares that the addressee will receive recompense corresponding to what he did. The shared comparison sets received harm beside inflicted harm, but Isaiah poses a question beginning Surely he will not, whereas Obadiah makes an affirmative announcement. The comparison neither settles Isaiah's pronouns nor turns the question into Obadiah's assertion.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "9f105b668fac9bfd3f693f19616a1d436e4fefc8f1649ec4f7daadb32d50cd97",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "obadiah/verses.json",
+                "blob_sha": "cce5abd4ebba2e72e79e4fcdc060236679e2a1ab",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/obadiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Obadiah 1:15",
+                  "id": "v1-15",
+                  "text": "For the day of the Lord is near against all the nations. Just as you acted, so it will be for you; your recompense will be repaid upon your own head.",
+                  "display_text": "For the day of the Lord is near against all the nations. Just as you acted, so it will be for you; your recompense will be repaid upon your own head.",
+                  "text_sha256": "b473711ed794e48409433fed1a81e89529ec765b267a399dc2a8d92d4d6c4b37"
+                }
+              ],
+              "target_passage_sha256": "43dc258eef5e9a404a80fa5b2cc157696edd46613aaf4fbd7ae37e607f2194f7",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 27:8",
@@ -37209,8 +37505,60 @@
           "id": "v41-6",
           "text": "each deciding to help his neighbor and brother, and he will say,",
           "display_text": "each deciding to help his neighbor and brother, and he will say,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-41-6__acts-19-24-27",
+              "target": "Acts 19:24-27",
+              "verdict": "supported",
+              "relationship": "Contextual parallel: mutual support among makers of worship objects",
+              "rationale": "Isaiah's neighbor-and-brother help is immediately developed through the craftsman, hammering smith, joining, and objects secured with nails. In Acts, the maker of silver Artemis shrines gathers related craftsmen to defend their work against the teaching that handmade things are not gods. Both scenes place collective support around making worship objects; Acts specifies commercial interests and Artemis, which are not supplied as the identities or motives of Isaiah's workers.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "aadb866d3d84abb43907f3089c91c6d65bb1b7b6c9d42857a88d368b0745309a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 19:24",
+                  "id": "v19-24",
+                  "text": "A silversmith named Demetrius, who made silver shrines of Artemis, provided considerable business for the craftsmen.",
+                  "display_text": "A silversmith named Demetrius, who made silver shrines of Artemis, provided considerable business for the craftsmen.",
+                  "text_sha256": "a17b8d96f68807ab3e87f2c72032667e2b23bf689cf060a449b1296d0080a6f8"
+                },
+                {
+                  "reference": "Acts 19:25",
+                  "id": "v19-25",
+                  "text": "He gathered them and the workers in related trades and said, “Men, you know that our prosperity comes from this business.",
+                  "display_text": "He gathered them and the workers in related trades and said, “Men, you know that our prosperity comes from this business.",
+                  "text_sha256": "82d678352a5ddd00f97f2cdd07efa8c00edb13fb4706388c242c0029a5863c09"
+                },
+                {
+                  "reference": "Acts 19:26",
+                  "id": "v19-26",
+                  "text": "You see and hear that not only in Ephesus but in almost all Asia this Paul has persuaded and turned away a considerable crowd, saying that things made by hands are not gods.",
+                  "display_text": "You see and hear that not only in Ephesus but in almost all Asia this Paul has persuaded and turned away a considerable crowd, saying that things made by hands are not gods.",
+                  "text_sha256": "73fb592fa50fddb7d0c014180f6440fd7e4c19324013be788c9dc7759341a7a7"
+                },
+                {
+                  "reference": "Acts 19:27",
+                  "id": "v19-27",
+                  "text": "There is danger not only that this trade of ours will fall into disrepute, but also that the temple of the great goddess Artemis will be reckoned as nothing, and that she whom all Asia and the inhabited world worship will be stripped of her magnificence.”",
+                  "display_text": "There is danger not only that this trade of ours will fall into disrepute, but also that the temple of the great goddess Artemis will be reckoned as nothing, and that she whom all Asia and the inhabited world worship will be stripped of her magnificence.”",
+                  "text_sha256": "1228ed7479aa23f655368ec5385d36b8dcb99569bbe71bd4d1e41e266da42309"
+                }
+              ],
+              "target_passage_sha256": "01ff72f6070112ff58b2aafe31b3da080943abb5bf9fed5cfbefbd34512cf36e",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 41:7",
@@ -45933,7 +46281,7 @@
     },
     {
       "chapter": 49,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 49,
         "section": 49,
@@ -46674,8 +47022,60 @@
           "id": "v49-16",
           "text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
           "display_text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-49-16__exodus-28-9-12",
+              "target": "Exodus 28:9-12",
+              "verdict": "supported",
+              "relationship": "Memorial imagery: represented Israel kept before the Lord",
+              "rationale": "To answer Zion's fear of being forgotten, God says He painted her walls on His hands and keeps her continually before Him. Exodus orders Israel's sons' names engraved on stones carried on Aaron's shoulders before the Lord as a memorial. Both use a bodily borne representation to express continuing remembrance before God. The painted walls on God's hands remain distinct from engraved names on priestly shoulder stones.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "f83058bc44f2c00fb4ed9965ae5412e5132ebe5de5881ceb02700a99c8d474e6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "exodus/verses.json",
+                "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Exodus 28:9",
+                  "id": "v28-9",
+                  "text": "You shall take two emerald stones and engrave the names of the sons of Israel on them,",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "51e680b4a0d3eb65deac2d8e8b0af7987b86f5d1ddf9b0f1a7c7cdb509538736"
+                },
+                {
+                  "reference": "Exodus 28:10",
+                  "id": "v28-10",
+                  "text": "six names on one stone and the six remaining names on the other, according to their generations.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "772a2378376301ed46c95bc74abfe40c7237b51ddf909f43c8b49806bd7c7872"
+                },
+                {
+                  "reference": "Exodus 28:11",
+                  "id": "v28-11",
+                  "text": "With a stoneworker’s craftsmanship, like a seal engraving, you shall engrave the two stones with the names of the sons of Israel.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "411d9d90bed4eb96277c9ee5fd7b71ab2bee0355c53cab3ebd554acc63995c0e"
+                },
+                {
+                  "reference": "Exodus 28:12",
+                  "id": "v28-12",
+                  "text": "You shall place the two stones on the shoulders of the shoulder-piece. They are memorial stones for the sons of Israel, and Aaron shall bear the names of the sons of Israel on his two shoulders before the Lord as a memorial concerning them.",
+                  "poetic_line_breaks": 0,
+                  "text_sha256": "7d64a5f00908950b9e2e0cbbc8e0628fb41e2cb8bd0d0e16751ed564952e896b"
+                }
+              ],
+              "target_passage_sha256": "0461443dcf80eef372dd9053d24163743f95d557b9b136fe0b6786bbd3d2c7f2",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 49:17",
@@ -52373,7 +52773,7 @@
     },
     {
       "chapter": 57,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 57,
         "section": 57,
@@ -52894,8 +53294,60 @@
           "id": "v57-12",
           "text": "I will proclaim My righteousness and your evils, which will not benefit you.",
           "display_text": "I will proclaim My righteousness and your evils, which will not benefit you.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-57-12__daniel-9-7-10",
+              "target": "Daniel 9:7-10",
+              "verdict": "supported",
+              "relationship": "Theological contrast: God's righteousness and human wrongdoing",
+              "rationale": "Isaiah distinguishes God's own righteousness from the people's evils, which cannot benefit them. Daniel's confession similarly assigns righteousness and mercy to the Lord, while assigning shame to the people because they sinned, fell away, and disobeyed His law. God's accusation and Daniel's confession occupy different speaking positions but preserve the same contrast; neither text calls the human evils God's righteousness.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "639da55c3399cabf7615f83991086ae091ee5b01e38c6c2199ee3604b3e1581b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 9:7",
+                  "id": "v9-7",
+                  "text": "Righteousness belongs to Thee, Lord, but shame of face to us as on this day—to the people of Judah, those dwelling in Jerusalem, and all the people Israel, near and far, in all the countries where Thou didst scatter them because of the trespass they committed before Thee.",
+                  "display_text": "Righteousness belongs to Thee, Lord, but shame of face to us as on this day—to the people of Judah, those dwelling in Jerusalem, and all the people Israel, near and far, in all the countries where Thou didst scatter them because of the trespass they committed before Thee.",
+                  "text_sha256": "c4e655f32007aa07c6ca2c0e48b5407d20059fcc85099ba4eb8cb30c6a58b41f"
+                },
+                {
+                  "reference": "Daniel 9:8",
+                  "id": "v9-8",
+                  "text": "Master, shame of face belongs to us, to our kings, rulers, and fathers, because we have sinned against Thee.",
+                  "display_text": "Master, shame of face belongs to us, to our kings, rulers, and fathers, because we have sinned against Thee.",
+                  "text_sha256": "3095c9837c4bb3461e11b563da0db69bdd2b11577143bd8d598fa2a921b81997"
+                },
+                {
+                  "reference": "Daniel 9:9",
+                  "id": "v9-9",
+                  "text": "To the Lord belong righteousness and mercy, for we have fallen away from Thee",
+                  "display_text": "To the Lord belong righteousness and mercy, for we have fallen away from Thee",
+                  "text_sha256": "a6006d4ec46ec36308c5ceea9e5b6930854505cd878691c7586ebe19a662217e"
+                },
+                {
+                  "reference": "Daniel 9:10",
+                  "id": "v9-10",
+                  "text": "and have not listened to the voice of the Lord our God, to follow Thy law that Thou didst set before Moses and us through Thy servants the prophets.",
+                  "display_text": "and have not listened to the voice of the Lord our God, to follow Thy law that Thou didst set before Moses and us through Thy servants the prophets.",
+                  "text_sha256": "df21173185e2362b81f8dd8e229fef5fae3d1d78f8e0f6b7d9537936c23f6cd1"
+                }
+              ],
+              "target_passage_sha256": "4f0493a37683129ec0c58bfeb4e3fb05c06ae8932a98283454111bbf31c4dfd7",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 57:13",
@@ -54056,7 +54508,7 @@
     },
     {
       "chapter": 59,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 59,
         "section": 59,
@@ -54228,8 +54680,53 @@
           "id": "v59-5",
           "text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
           "display_text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-59-5__job-8-13-15",
+              "target": "Job 8:13-15",
+              "verdict": "supported",
+              "relationship": "Image parallel: a spider's web and the futility of ungodliness",
+              "rationale": "Isaiah describes lawless people weaving a spider's web, whose inability to provide clothing is explained in the next unit. Bildad depicts the ungodly person's tent becoming a spider's web and his propped-up house failing to stand. In both arguments the web exposes the uselessness of what the ungodly produce or rely on. Job's statement belongs to Bildad's speech; it does not establish that Job is ungodly or explain Isaiah's separate asp-egg and basilisk imagery.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "256e1802080928da4bb222aa5dabdc3f02c83690b6a51527031b7cb81c040b8d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 8:13",
+                  "id": "v8-13",
+                  "text": "So, then, will be the latter end of all who forget the Lord; for the hope of an ungodly person will perish.",
+                  "display_text": "So, then, will be the latter end of all who forget the Lord;\nfor the hope of an ungodly person will perish.",
+                  "text_sha256": "68023007d0d3182e66d3ba811a12e760f0cd52ecbd45f23dadfea196825f606b"
+                },
+                {
+                  "reference": "Job 8:14",
+                  "id": "v8-14",
+                  "text": "For his house will be uninhabited, and his tent will turn into a spider’s web.",
+                  "display_text": "For his house will be uninhabited,\nand his tent will turn into a spider’s web.",
+                  "text_sha256": "d6d8a54d3162d19183e405f01bec6e698204984464237d40e6e2aaa77ced47ff"
+                },
+                {
+                  "reference": "Job 8:15",
+                  "id": "v8-15",
+                  "text": "If he props up his house, it will certainly not stand; when he takes hold of it, it will certainly not endure.",
+                  "display_text": "If he props up his house, it will certainly not stand;\nwhen he takes hold of it, it will certainly not endure.",
+                  "text_sha256": "75f51a92640785c93e41f6711589a3006a6fa4faee5ea9631c83d34be710e897"
+                }
+              ],
+              "target_passage_sha256": "6e7a597a9ab3a38434939429ea1b7f8fd27bdbff0f88fbaf560a45d50913b4cc",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 59:6",
@@ -55009,7 +55506,7 @@
     },
     {
       "chapter": 60,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 60,
         "section": 60,
@@ -55339,8 +55836,39 @@
           "id": "v60-8",
           "text": "Who are these flying like clouds and like doves with their young?",
           "display_text": "Who are these flying like clouds and like doves with their young?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-60-8__hosea-11-11",
+              "target": "Hosea 11:11",
+              "verdict": "supported",
+              "relationship": "Restoration imagery: people compared with doves",
+              "rationale": "Isaiah asks about arrivals flying like clouds and doves with their young, within the gathering of Zion's children from far away. Hosea compares those from Egypt and Assyria's land with a bird and a dove and promises to restore them to their houses. Both restoration scenes employ bird imagery for returning people. Hosea's verb is astonished, not flying, and Isaiah's young are not replaced with windows or a dovecote.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "36617da61e1808338c7749b381d3ea42cabc49460a987d528d67ff4a264e2b3f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "hosea/verses.json",
+                "blob_sha": "c7b17f6519ad7ae6908d75a6d4230b02fbf7f278",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hosea/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Hosea 11:11",
+                  "id": "v11-11",
+                  "text": "They will be astonished like a bird from Egypt and like a dove from the Assyrians’ land, and I will restore them to their houses, says the Lord.",
+                  "display_text": "They will be astonished like a bird from Egypt and like a dove from the Assyrians’ land, and I will restore them to their houses, says the Lord.",
+                  "text_sha256": "e1ab5aefcb766cc566375937423c9ec0f25559cc17b40e7c419dd855e2f25c2c"
+                }
+              ],
+              "target_passage_sha256": "d5e2ae1148b259e7df5022e04a2498bc10605a3ab18d007bf75f06538364905d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 60:9",
@@ -59449,7 +59977,7 @@
     },
     {
       "chapter": 66,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 66,
         "section": 66,
@@ -59802,8 +60330,46 @@
           "id": "v66-8",
           "text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
           "display_text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-66-8__isaiah-49-20-21",
+              "target": "Isaiah 49:20-21",
+              "verdict": "supported",
+              "relationship": "Within-book literary parallel: Zion astonished at newly given children",
+              "rationale": "Isaiah 66 asks how a nation could be born all at once and declares that Zion labored and bore her children. In Isaiah 49, the formerly childless and widowed Zion asks who bore and raised the unexpectedly numerous children now needing room. Both depict restored Zion as a mother astonished at her children. Chapter 49 does not repeat the one-day timing or establish how the sudden birth occurs.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_peer_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "4d72378b7718926a1dee7c9b187a4109ceaca7c061f2d27366d9dec523e6ea13",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 49:20",
+                  "id": "v49-20",
+                  "text": "For your sons whom you lost will say within your hearing, ‘This place is too cramped for me. Make room for me, so I can settle.’",
+                  "display_text": "For your sons whom you lost will say within your hearing, ‘This place is too cramped for me. Make room for me, so I can settle.’",
+                  "text_sha256": "aa99973ef575cb651d8a3adc5041b2e78d66b4672e45253d7f142bd8c42ad7cf"
+                },
+                {
+                  "reference": "Isaiah 49:21",
+                  "id": "v49-21",
+                  "text": "You will say in your heart, ‘Who bore these for me? I was childless and widowed. Who raised these for me? I was left alone; where were these of mine?’”",
+                  "display_text": "You will say in your heart, ‘Who bore these for me? I was childless and widowed. Who raised these for me? I was left alone; where were these of mine?’”",
+                  "text_sha256": "ac1522fb6645837b1f93e1e3b75b5bc6e6a88847952e1d5c19c707c5bad174b9"
+                }
+              ],
+              "target_passage_sha256": "181807d76257e9e55c73e9f2e89229a9371af9de5c4ec4e2087bd8b779d32aef",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Isaiah 66:9",

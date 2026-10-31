@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new original-language or apparatus verification.",
   "numbering": "Exact original order, native fields, references and anchors retained: 1267 units, 48 native chapters, 48 native source groups.",
-  "method": "Complete actual source and target passages with necessary context were read and each retained explanation separately reread in recorded batches. Source-only deferrals and unresolved candidates receive zero completion credit. Technical inventory is separate from semantic review.",
+  "method": "Historical actual source reading is preserved. This run selectively reevaluated pending sources with new actual target/context evidence and separately reread supported explanations. Consideration, repeated readings and unresolved proposals receive zero completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -55,6 +55,19 @@
       "revisited_source_units_read": 0,
       "resolved_source_deferrals": 0,
       "deferred_source_units": 46,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T215146Z",
+      "records": "review-batches/2026-10-31T215146Z.json",
+      "new_source_verses": 8,
+      "new_pairs": 8,
+      "source_units_read": 8,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 8,
+      "resolved_source_deferrals": 8,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 0,
       "unresolved_retained_cases": 0
     }
   ],
@@ -480,6 +493,27 @@
       "path": "titus/verses.json",
       "blob_sha": "6847298b22091ab057d317a33371e068e76980ae",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/titus/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-timothy/verses.json",
+      "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-timothy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "song-of-songs/verses.json",
+      "blob_sha": "c25dcabd0c7416a129af37911b972ee3b89ed821",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/song-of-songs/verses.json"
     }
   ],
   "deferred_source_units": [
@@ -720,33 +754,6 @@
         "text": "For thus says the Lord:",
         "display_text": "For thus says the Lord:",
         "text_sha256": "d4ac42c8308a98f56d378ff61b87af29b963f3ad3ce341b6cdfdbc6449f5230a"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T092850Z"
-    },
-    {
-      "source_reference": "Ezekiel 7:11",
-      "source_text": "It will shatter the support of a lawless person, neither with tumult nor with haste.",
-      "reason": "The support of a lawless person will be shattered, neither with tumult nor haste. The agent and support imagery are not securely clarified by a checked counterpart; the familiar alternative violence wording is not substituted.",
-      "target": null,
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 7:11",
-        "id": "v7-11",
-        "text": "It will shatter the support of a lawless person, neither with tumult nor with haste.",
-        "display_text": "It will shatter the support of a lawless person, neither with tumult nor with haste.",
-        "text_sha256": "5a5f33cf0ef01729413b34b95c81d694e82df73a790a02b24f45e790b71db4b5"
       },
       "reviewer": "Codex author /root/proverbs_end_author",
       "reviewed": "2026-10-31",
@@ -1294,33 +1301,6 @@
       "target": null
     },
     {
-      "source_reference": "Ezekiel 13:4",
-      "source_text": "Your prophets, Israel, are like foxes in the wildernesses.",
-      "reason": "The prophets are likened specifically to foxes in wildernesses. The reviewed false-prophecy passages do not establish that particular comparison; a fox-image match remains pending rather than inferred from other animal imagery.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 13:4",
-        "id": "v13-4",
-        "text": "Your prophets, Israel, are like foxes in the wildernesses.",
-        "display_text": "Your prophets, Israel, are like foxes in the wildernesses.",
-        "text_sha256": "c6efabbeaec94169f931a95f3b75f3e5524e0b5e4ad10d519fbc0472dd9413a6"
-      },
-      "reviewer": "Codex author /root (Ezekiel 9-16)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T092850Z",
-      "target": null
-    },
-    {
       "source_reference": "Ezekiel 13:5",
       "source_text": "They did not stand in a firm position, and they gathered flocks against the house of Israel. Those saying, ‘On the Lord’s day,’ did not rise.",
       "reason": "The source says the prophets gathered flocks against Israel and failed to rise. It was not replaced by a familiar gap-repair rendering; a match for this native description remains uncertain.",
@@ -1502,60 +1482,6 @@
         "text": "The Lord’s word came to me, saying,",
         "display_text": "The Lord’s word came to me, saying,",
         "text_sha256": "bad8a0af38abb5b7a5e79c54d5aed342bf72f1396e790be7ce125c77f045b667"
-      },
-      "reviewer": "Codex author /root (Ezekiel 9-16)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T092850Z",
-      "target": null
-    },
-    {
-      "source_reference": "Ezekiel 16:4",
-      "source_text": "As for your birth, on the day you were born they did not bind your breasts; you were not washed with water, not salted with salt, and not wrapped in swaddling cloths.",
-      "reason": "The native newborn description says that the breasts were not bound and lists washing, salting and swaddling. No reviewed passage securely matches these particular actions, and the wording was not converted to a different birth-care description.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 16:4",
-        "id": "v16-4",
-        "text": "As for your birth, on the day you were born they did not bind your breasts; you were not washed with water, not salted with salt, and not wrapped in swaddling cloths.",
-        "display_text": "As for your birth, on the day you were born they did not bind your breasts; you were not washed with water, not salted with salt, and not wrapped in swaddling cloths.",
-        "text_sha256": "a3bd387b89a963af0bd306c1bedf9dfc0b2bd9e0103ce882a49de7fae4279269"
-      },
-      "reviewer": "Codex author /root (Ezekiel 9-16)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T092850Z",
-      "target": null
-    },
-    {
-      "source_reference": "Ezekiel 16:5",
-      "source_text": "Nor did My eye spare you to do any of all these things for you, to feel anything for you. You were cast upon the face of the plain because of your life’s crookedness, on the day you were born.",
-      "reason": "The source explicitly says My eye did not spare and connects abandonment with the infant's crookedness. A generalized abandonment parallel would obscure these distinctive details; a precise match remains pending.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 16:5",
-        "id": "v16-5",
-        "text": "Nor did My eye spare you to do any of all these things for you, to feel anything for you. You were cast upon the face of the plain because of your life’s crookedness, on the day you were born.",
-        "display_text": "Nor did My eye spare you to do any of all these things for you, to feel anything for you. You were cast upon the face of the plain because of your life’s crookedness, on the day you were born.",
-        "text_sha256": "e5d7e551e8349385c2bec1f3a8e188d875ed0bc5a3cc9afd0272bc61f3e8aff6"
       },
       "reviewer": "Codex author /root (Ezekiel 9-16)",
       "reviewed": "2026-10-31",
@@ -1826,33 +1752,6 @@
         "text": "The Lord’s word came to me, saying,",
         "display_text": "The Lord’s word came to me, saying,",
         "text_sha256": "bad8a0af38abb5b7a5e79c54d5aed342bf72f1396e790be7ce125c77f045b667"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Ezekiel 17-24)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T103252Z",
-      "target": null
-    },
-    {
-      "source_reference": "Ezekiel 20:25",
-      "reason": "The native declaration of commands that were not good and ordinances that do not give life is preserved. The read Romans giving-over passage does not identify these commands, and a particular explanatory connection remains uncertain.",
-      "source_text": "I too gave them commands that were not good, and ordinances in which they would not live.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 20:25",
-        "id": "v20-25",
-        "text": "I too gave them commands that were not good, and ordinances in which they would not live.",
-        "display_text": "I too gave them commands that were not good, and ordinances in which they would not live.",
-        "text_sha256": "664468f240327ebf2eb3f3bf9e0a3335989098c1f8bc3b0462bf6e20856452b3"
       },
       "reviewer": "Codex author /root/ecclesiastes_author (Ezekiel 17-24)",
       "reviewed": "2026-10-31",
@@ -2671,33 +2570,6 @@
       "target": null
     },
     {
-      "source_reference": "Ezekiel 25:9",
-      "reason": "The paralyzed shoulder of Moab is combined with frontier cities, the house of Asimouth and the spring of the coastal city. The checked Moab judgment does not establish these geographical details or the distinctive shoulder statement; the unit remains pending.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_text": "therefore behold, I am paralyzing Moab’s shoulder from its frontier cities, the choice land, the house of Asimouth above a spring of a coastal city.",
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 25:9",
-        "id": "v25-9",
-        "text": "therefore behold, I am paralyzing Moab’s shoulder from its frontier cities, the choice land, the house of Asimouth above a spring of a coastal city.",
-        "display_text": "therefore behold, I am paralyzing Moab’s shoulder from its frontier cities, the choice land, the house of Asimouth above a spring of a coastal city.",
-        "text_sha256": "eeb5c7655a20399004ae343dfd69d9876d6467d0d3e5b02f875b0fe17f59709a"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T103252Z",
-      "target": null
-    },
-    {
       "source_reference": "Ezekiel 26:1",
       "reason": "The eleventh-year notice gives the first day of a month without identifying that month. The dated introduction alone has no verified particular counterpart; no conventional calendar detail is supplied.",
       "source_unit_read": true,
@@ -3265,33 +3137,6 @@
       "target": null
     },
     {
-      "source_reference": "Ezekiel 32:27",
-      "reason": "The unit says the dead lay with ancient giants, with weapons and swords beneath their heads and lawless deeds upon their bones. The checked iron-bed account does not establish those burial details or the unusual statement about terrifying giants; no secure counterpart was retained.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_text": "They lay with the giants who fell long ago, who descended to Hades with weapons of war and put their swords beneath their heads. Their lawless deeds were upon their bones, because they terrified giants in the land of life.",
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 32:27",
-        "id": "v32-27",
-        "text": "They lay with the giants who fell long ago, who descended to Hades with weapons of war and put their swords beneath their heads. Their lawless deeds were upon their bones, because they terrified giants in the land of life.",
-        "display_text": "They lay with the giants who fell long ago, who descended to Hades with weapons of war and put their swords beneath their heads. Their lawless deeds were upon their bones, because they terrified giants in the land of life.",
-        "text_sha256": "b199d6e3c224e3a574a409772a837615f74d7ac010cf142c8defecfce09b9989"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T103252Z",
-      "target": null
-    },
-    {
       "source_reference": "Ezekiel 33:1",
       "source_text": "The Lord’s word came to me, saying,",
       "reason": "The source unit is the introductory reception formula. No particular connection beyond that recurring formula was retained.",
@@ -3500,33 +3345,6 @@
         "text": "The Lord’s word came to me, saying,",
         "display_text": "The Lord’s word came to me, saying,",
         "text_sha256": "bad8a0af38abb5b7a5e79c54d5aed342bf72f1396e790be7ce125c77f045b667"
-      },
-      "reviewer": "Codex author /root (Ezekiel 33-39)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T103252Z",
-      "target": null
-    },
-    {
-      "source_reference": "Ezekiel 35:14",
-      "source_text": "Thus says the Lord: In the rejoicing of the whole earth, I will make you a wilderness.",
-      "reason": "The source contrasts the whole earth's rejoicing with Seir's desolation. Obadiah's prohibition on Idumea rejoicing over Judah has a different subject; it was not treated as this same claim.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "ezekiel/verses.json",
-        "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Ezekiel 35:14",
-        "id": "v35-14",
-        "text": "Thus says the Lord: In the rejoicing of the whole earth, I will make you a wilderness.",
-        "display_text": "Thus says the Lord: In the rejoicing of the whole earth, I will make you a wilderness.",
-        "text_sha256": "6f0eda8173b6817cbda0b3198995d093b4d283e2a5c6b47241048a0cc2ba8fb1"
       },
       "reviewer": "Codex author /root (Ezekiel 33-39)",
       "reviewed": "2026-10-31",
@@ -8918,10 +8736,10 @@
     "source_passage": "Ezekiel 1:1 through Ezekiel 48:35",
     "source_passage_is_review_scope": true,
     "source_units_read": 1267,
-    "source_verse_units": 1098,
-    "deferred_source_units": 169,
-    "retained_pairs": 1146,
-    "distinct_target_verse_units": 1601
+    "source_verse_units": 1106,
+    "deferred_source_units": 161,
+    "retained_pairs": 1154,
+    "distinct_target_verse_units": 1619
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -8951,7 +8769,7 @@
     "First pending source unit: Ezekiel 2:4",
     "1267 of 1267 original source units read; 0 never reviewed. Deferred units remain incomplete.",
     "Next never-reviewed source: none; all original units read.",
-    "Read but deferred source units: Ezekiel 2:4, Ezekiel 3:16, Ezekiel 4:7, Ezekiel 6:1, Ezekiel 6:10, Ezekiel 6:14, Ezekiel 7:1, Ezekiel 7:3, Ezekiel 7:9, Ezekiel 7:11, Ezekiel 7:13, Ezekiel 7:21, Ezekiel 7:23, Ezekiel 8:5, Ezekiel 8:7, Ezekiel 8:13, Ezekiel 8:14, Ezekiel 8:15, Ezekiel 10:13, Ezekiel 11:4, Ezekiel 11:10, Ezekiel 11:12, Ezekiel 11:14, Ezekiel 12:1, Ezekiel 12:8, Ezekiel 12:10, Ezekiel 12:17, Ezekiel 12:21, Ezekiel 12:26, Ezekiel 13:1, Ezekiel 13:4, Ezekiel 13:5, Ezekiel 13:18, Ezekiel 14:2, Ezekiel 14:5, Ezekiel 14:12, Ezekiel 15:1, Ezekiel 16:1, Ezekiel 16:4, Ezekiel 16:5, Ezekiel 16:23, Ezekiel 16:30, Ezekiel 16:35, Ezekiel 16:56, Ezekiel 16:61, Ezekiel 17:1, Ezekiel 17:11, Ezekiel 18:1, Ezekiel 19:5, Ezekiel 20:2, Ezekiel 20:25, Ezekiel 20:27, Ezekiel 20:29, Ezekiel 21:1, Ezekiel 21:2, Ezekiel 21:6, Ezekiel 21:10, Ezekiel 21:13, Ezekiel 21:18, Ezekiel 21:20, Ezekiel 21:21, Ezekiel 21:23, Ezekiel 21:24, Ezekiel 21:25, Ezekiel 21:28, Ezekiel 21:35, Ezekiel 22:1, Ezekiel 22:6, Ezekiel 22:16, Ezekiel 22:17, Ezekiel 22:23, Ezekiel 23:1, Ezekiel 23:14, Ezekiel 23:15, Ezekiel 23:23, Ezekiel 23:43, Ezekiel 23:44, Ezekiel 24:9, Ezekiel 24:15, Ezekiel 24:20, Ezekiel 25:1, Ezekiel 25:9, Ezekiel 26:1, Ezekiel 27:1, Ezekiel 27:15, Ezekiel 27:16, Ezekiel 27:18, Ezekiel 27:19, Ezekiel 27:20, Ezekiel 27:23, Ezekiel 27:24, Ezekiel 28:1, Ezekiel 28:11, Ezekiel 28:20, Ezekiel 29:1, Ezekiel 29:17, Ezekiel 30:1, Ezekiel 30:17, Ezekiel 30:20, Ezekiel 31:1, Ezekiel 32:1, Ezekiel 32:17, Ezekiel 32:25, Ezekiel 32:27, Ezekiel 33:1, Ezekiel 33:23, Ezekiel 33:25, Ezekiel 33:30, Ezekiel 34:1, Ezekiel 34:7, Ezekiel 34:9, Ezekiel 35:1, Ezekiel 35:14, Ezekiel 36:16, Ezekiel 36:18, Ezekiel 37:15, Ezekiel 38:1, Ezekiel 38:6, Ezekiel 38:7, Ezekiel 38:17, Ezekiel 39:13, Ezekiel 39:22, Ezekiel 39:28, Ezekiel 40:7, Ezekiel 40:8, Ezekiel 40:11, Ezekiel 40:12, Ezekiel 40:14, Ezekiel 40:17, Ezekiel 40:18, Ezekiel 40:20, Ezekiel 40:24, Ezekiel 40:28, Ezekiel 40:32, Ezekiel 40:35, Ezekiel 40:38, Ezekiel 40:40, Ezekiel 40:48, Ezekiel 41:1, Ezekiel 41:3, Ezekiel 41:8, Ezekiel 41:9, Ezekiel 41:10, Ezekiel 41:11, Ezekiel 41:12, Ezekiel 41:13, Ezekiel 41:14, Ezekiel 41:15, Ezekiel 41:21, Ezekiel 42:2, Ezekiel 42:3, Ezekiel 42:7, Ezekiel 42:8, Ezekiel 42:15, Ezekiel 42:16, Ezekiel 42:17, Ezekiel 42:18, Ezekiel 42:19, Ezekiel 43:1, Ezekiel 43:14, Ezekiel 43:15, Ezekiel 43:16, Ezekiel 46:10, Ezekiel 46:21, Ezekiel 46:22, Ezekiel 48:30, Ezekiel 48:32, Ezekiel 48:33, Ezekiel 48:34",
+    "Read but deferred source units: Ezekiel 2:4, Ezekiel 3:16, Ezekiel 4:7, Ezekiel 6:1, Ezekiel 6:10, Ezekiel 6:14, Ezekiel 7:1, Ezekiel 7:3, Ezekiel 7:9, Ezekiel 7:13, Ezekiel 7:21, Ezekiel 7:23, Ezekiel 8:5, Ezekiel 8:7, Ezekiel 8:13, Ezekiel 8:14, Ezekiel 8:15, Ezekiel 10:13, Ezekiel 11:4, Ezekiel 11:10, Ezekiel 11:12, Ezekiel 11:14, Ezekiel 12:1, Ezekiel 12:8, Ezekiel 12:10, Ezekiel 12:17, Ezekiel 12:21, Ezekiel 12:26, Ezekiel 13:1, Ezekiel 13:5, Ezekiel 13:18, Ezekiel 14:2, Ezekiel 14:5, Ezekiel 14:12, Ezekiel 15:1, Ezekiel 16:1, Ezekiel 16:23, Ezekiel 16:30, Ezekiel 16:35, Ezekiel 16:56, Ezekiel 16:61, Ezekiel 17:1, Ezekiel 17:11, Ezekiel 18:1, Ezekiel 19:5, Ezekiel 20:2, Ezekiel 20:27, Ezekiel 20:29, Ezekiel 21:1, Ezekiel 21:2, Ezekiel 21:6, Ezekiel 21:10, Ezekiel 21:13, Ezekiel 21:18, Ezekiel 21:20, Ezekiel 21:21, Ezekiel 21:23, Ezekiel 21:24, Ezekiel 21:25, Ezekiel 21:28, Ezekiel 21:35, Ezekiel 22:1, Ezekiel 22:6, Ezekiel 22:16, Ezekiel 22:17, Ezekiel 22:23, Ezekiel 23:1, Ezekiel 23:14, Ezekiel 23:15, Ezekiel 23:23, Ezekiel 23:43, Ezekiel 23:44, Ezekiel 24:9, Ezekiel 24:15, Ezekiel 24:20, Ezekiel 25:1, Ezekiel 26:1, Ezekiel 27:1, Ezekiel 27:15, Ezekiel 27:16, Ezekiel 27:18, Ezekiel 27:19, Ezekiel 27:20, Ezekiel 27:23, Ezekiel 27:24, Ezekiel 28:1, Ezekiel 28:11, Ezekiel 28:20, Ezekiel 29:1, Ezekiel 29:17, Ezekiel 30:1, Ezekiel 30:17, Ezekiel 30:20, Ezekiel 31:1, Ezekiel 32:1, Ezekiel 32:17, Ezekiel 32:25, Ezekiel 33:1, Ezekiel 33:23, Ezekiel 33:25, Ezekiel 33:30, Ezekiel 34:1, Ezekiel 34:7, Ezekiel 34:9, Ezekiel 35:1, Ezekiel 36:16, Ezekiel 36:18, Ezekiel 37:15, Ezekiel 38:1, Ezekiel 38:6, Ezekiel 38:7, Ezekiel 38:17, Ezekiel 39:13, Ezekiel 39:22, Ezekiel 39:28, Ezekiel 40:7, Ezekiel 40:8, Ezekiel 40:11, Ezekiel 40:12, Ezekiel 40:14, Ezekiel 40:17, Ezekiel 40:18, Ezekiel 40:20, Ezekiel 40:24, Ezekiel 40:28, Ezekiel 40:32, Ezekiel 40:35, Ezekiel 40:38, Ezekiel 40:40, Ezekiel 40:48, Ezekiel 41:1, Ezekiel 41:3, Ezekiel 41:8, Ezekiel 41:9, Ezekiel 41:10, Ezekiel 41:11, Ezekiel 41:12, Ezekiel 41:13, Ezekiel 41:14, Ezekiel 41:15, Ezekiel 41:21, Ezekiel 42:2, Ezekiel 42:3, Ezekiel 42:7, Ezekiel 42:8, Ezekiel 42:15, Ezekiel 42:16, Ezekiel 42:17, Ezekiel 42:18, Ezekiel 42:19, Ezekiel 43:1, Ezekiel 43:14, Ezekiel 43:15, Ezekiel 43:16, Ezekiel 46:10, Ezekiel 46:21, Ezekiel 46:22, Ezekiel 48:30, Ezekiel 48:32, Ezekiel 48:33, Ezekiel 48:34",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Unretained target candidate: Ezekiel 1:24 / Ezekiel 43:2",
@@ -9015,5 +8833,512 @@
     "Unretained target candidate: Ezekiel 48:34 / Ezekiel 48:16",
     "Unretained target candidate: Ezekiel 48:34 / Numbers 2:25-31"
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "Ezekiel 7:11",
+      "original_deferral": {
+        "source_reference": "Ezekiel 7:11",
+        "source_text": "It will shatter the support of a lawless person, neither with tumult nor with haste.",
+        "reason": "The support of a lawless person will be shattered, neither with tumult nor haste. The agent and support imagery are not securely clarified by a checked counterpart; the familiar alternative violence wording is not substituted.",
+        "target": null,
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 7:11",
+          "id": "v7-11",
+          "text": "It will shatter the support of a lawless person, neither with tumult nor with haste.",
+          "display_text": "It will shatter the support of a lawless person, neither with tumult nor with haste.",
+          "text_sha256": "5a5f33cf0ef01729413b34b95c81d694e82df73a790a02b24f45e790b71db4b5"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T092850Z"
+      },
+      "original_deferral_sha256": "86700033797845d6396293c9f40f4aed72410a45c8824478f8c45e4d7ac214d6",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-7-11__psalms-36-17"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Ezekiel 13:4",
+      "original_deferral": {
+        "source_reference": "Ezekiel 13:4",
+        "source_text": "Your prophets, Israel, are like foxes in the wildernesses.",
+        "reason": "The prophets are likened specifically to foxes in wildernesses. The reviewed false-prophecy passages do not establish that particular comparison; a fox-image match remains pending rather than inferred from other animal imagery.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 13:4",
+          "id": "v13-4",
+          "text": "Your prophets, Israel, are like foxes in the wildernesses.",
+          "display_text": "Your prophets, Israel, are like foxes in the wildernesses.",
+          "text_sha256": "c6efabbeaec94169f931a95f3b75f3e5524e0b5e4ad10d519fbc0472dd9413a6"
+        },
+        "reviewer": "Codex author /root (Ezekiel 9-16)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T092850Z",
+        "target": null
+      },
+      "original_deferral_sha256": "1e7a2e3370b18be63b3ad64b68ca5189dfd4a7b885dbaff1d09a301026788dd9",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-13-4__luke-13-31-33"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Ezekiel 16:4",
+      "original_deferral": {
+        "source_reference": "Ezekiel 16:4",
+        "source_text": "As for your birth, on the day you were born they did not bind your breasts; you were not washed with water, not salted with salt, and not wrapped in swaddling cloths.",
+        "reason": "The native newborn description says that the breasts were not bound and lists washing, salting and swaddling. No reviewed passage securely matches these particular actions, and the wording was not converted to a different birth-care description.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 16:4",
+          "id": "v16-4",
+          "text": "As for your birth, on the day you were born they did not bind your breasts; you were not washed with water, not salted with salt, and not wrapped in swaddling cloths.",
+          "display_text": "As for your birth, on the day you were born they did not bind your breasts; you were not washed with water, not salted with salt, and not wrapped in swaddling cloths.",
+          "text_sha256": "a3bd387b89a963af0bd306c1bedf9dfc0b2bd9e0103ce882a49de7fae4279269"
+        },
+        "reviewer": "Codex author /root (Ezekiel 9-16)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T092850Z",
+        "target": null
+      },
+      "original_deferral_sha256": "03e41b289dd85a0be91eb38b3770eed7934ffae284d781e8fbc765f4e5ec7eb6",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-16-4__luke-2-6-7"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Ezekiel 16:5",
+      "original_deferral": {
+        "source_reference": "Ezekiel 16:5",
+        "source_text": "Nor did My eye spare you to do any of all these things for you, to feel anything for you. You were cast upon the face of the plain because of your life’s crookedness, on the day you were born.",
+        "reason": "The source explicitly says My eye did not spare and connects abandonment with the infant's crookedness. A generalized abandonment parallel would obscure these distinctive details; a precise match remains pending.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 16:5",
+          "id": "v16-5",
+          "text": "Nor did My eye spare you to do any of all these things for you, to feel anything for you. You were cast upon the face of the plain because of your life’s crookedness, on the day you were born.",
+          "display_text": "Nor did My eye spare you to do any of all these things for you, to feel anything for you. You were cast upon the face of the plain because of your life’s crookedness, on the day you were born.",
+          "text_sha256": "e5d7e551e8349385c2bec1f3a8e188d875ed0bc5a3cc9afd0272bc61f3e8aff6"
+        },
+        "reviewer": "Codex author /root (Ezekiel 9-16)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T092850Z",
+        "target": null
+      },
+      "original_deferral_sha256": "10ef310683d0c7309efd78344f6cd456c7f3951d1c56ca1cdfc08af6d22381db",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-16-5__exodus-2-3-6"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Ezekiel 20:25",
+      "original_deferral": {
+        "source_reference": "Ezekiel 20:25",
+        "reason": "The native declaration of commands that were not good and ordinances that do not give life is preserved. The read Romans giving-over passage does not identify these commands, and a particular explanatory connection remains uncertain.",
+        "source_text": "I too gave them commands that were not good, and ordinances in which they would not live.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 20:25",
+          "id": "v20-25",
+          "text": "I too gave them commands that were not good, and ordinances in which they would not live.",
+          "display_text": "I too gave them commands that were not good, and ordinances in which they would not live.",
+          "text_sha256": "664468f240327ebf2eb3f3bf9e0a3335989098c1f8bc3b0462bf6e20856452b3"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Ezekiel 17-24)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T103252Z",
+        "target": null
+      },
+      "original_deferral_sha256": "26258cc8e4ca8088c33236fe190e8a42dd0e74c90da293037a222f4640460f37",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-20-25__romans-7-10-13"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Ezekiel 25:9",
+      "original_deferral": {
+        "source_reference": "Ezekiel 25:9",
+        "reason": "The paralyzed shoulder of Moab is combined with frontier cities, the house of Asimouth and the spring of the coastal city. The checked Moab judgment does not establish these geographical details or the distinctive shoulder statement; the unit remains pending.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_text": "therefore behold, I am paralyzing Moab’s shoulder from its frontier cities, the choice land, the house of Asimouth above a spring of a coastal city.",
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 25:9",
+          "id": "v25-9",
+          "text": "therefore behold, I am paralyzing Moab’s shoulder from its frontier cities, the choice land, the house of Asimouth above a spring of a coastal city.",
+          "display_text": "therefore behold, I am paralyzing Moab’s shoulder from its frontier cities, the choice land, the house of Asimouth above a spring of a coastal city.",
+          "text_sha256": "eeb5c7655a20399004ae343dfd69d9876d6467d0d3e5b02f875b0fe17f59709a"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T103252Z",
+        "target": null
+      },
+      "original_deferral_sha256": "9bbcb101bdb5db45894ee69b294ac4a1afcb47193572b0041f904e717da3f8d0",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-25-9__ezekiel-30-21-25"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Ezekiel 32:27",
+      "original_deferral": {
+        "source_reference": "Ezekiel 32:27",
+        "reason": "The unit says the dead lay with ancient giants, with weapons and swords beneath their heads and lawless deeds upon their bones. The checked iron-bed account does not establish those burial details or the unusual statement about terrifying giants; no secure counterpart was retained.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_text": "They lay with the giants who fell long ago, who descended to Hades with weapons of war and put their swords beneath their heads. Their lawless deeds were upon their bones, because they terrified giants in the land of life.",
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 32:27",
+          "id": "v32-27",
+          "text": "They lay with the giants who fell long ago, who descended to Hades with weapons of war and put their swords beneath their heads. Their lawless deeds were upon their bones, because they terrified giants in the land of life.",
+          "display_text": "They lay with the giants who fell long ago, who descended to Hades with weapons of war and put their swords beneath their heads. Their lawless deeds were upon their bones, because they terrified giants in the land of life.",
+          "text_sha256": "b199d6e3c224e3a574a409772a837615f74d7ac010cf142c8defecfce09b9989"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T103252Z",
+        "target": null
+      },
+      "original_deferral_sha256": "1a69f1f116c4bd5cad953e0b9931965f44ea56336b74474c5fbc7766a1cb237a",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-32-27__isaiah-14-9-11"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Ezekiel 35:14",
+      "original_deferral": {
+        "source_reference": "Ezekiel 35:14",
+        "source_text": "Thus says the Lord: In the rejoicing of the whole earth, I will make you a wilderness.",
+        "reason": "The source contrasts the whole earth's rejoicing with Seir's desolation. Obadiah's prohibition on Idumea rejoicing over Judah has a different subject; it was not treated as this same claim.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "ezekiel/verses.json",
+          "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Ezekiel 35:14",
+          "id": "v35-14",
+          "text": "Thus says the Lord: In the rejoicing of the whole earth, I will make you a wilderness.",
+          "display_text": "Thus says the Lord: In the rejoicing of the whole earth, I will make you a wilderness.",
+          "text_sha256": "6f0eda8173b6817cbda0b3198995d093b4d283e2a5c6b47241048a0cc2ba8fb1"
+        },
+        "reviewer": "Codex author /root (Ezekiel 33-39)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T103252Z",
+        "target": null
+      },
+      "original_deferral_sha256": "fada68c5223e5f10d5ec408cc0b7ef1422db3682cec060f7c038b5abbc9732d7",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "ezekiel-35-14__isaiah-14-7-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    }
+  ],
+  "pending_revisit_history": [
+    {
+      "run_id": "2026-10-31T215146Z",
+      "actual_read_source_references": [
+        "Ezekiel 7:11",
+        "Ezekiel 13:4",
+        "Ezekiel 16:4",
+        "Ezekiel 16:5",
+        "Ezekiel 20:25",
+        "Ezekiel 25:9",
+        "Ezekiel 32:27",
+        "Ezekiel 35:14"
+      ],
+      "considered_source_references": [
+        "Ezekiel 2:4",
+        "Ezekiel 3:16",
+        "Ezekiel 4:7",
+        "Ezekiel 6:1",
+        "Ezekiel 6:10",
+        "Ezekiel 6:14",
+        "Ezekiel 7:1",
+        "Ezekiel 7:3",
+        "Ezekiel 7:9",
+        "Ezekiel 7:11",
+        "Ezekiel 7:13",
+        "Ezekiel 7:21",
+        "Ezekiel 7:23",
+        "Ezekiel 8:5",
+        "Ezekiel 8:7",
+        "Ezekiel 8:13",
+        "Ezekiel 8:14",
+        "Ezekiel 8:15",
+        "Ezekiel 10:13",
+        "Ezekiel 11:4",
+        "Ezekiel 11:10",
+        "Ezekiel 11:12",
+        "Ezekiel 11:14",
+        "Ezekiel 12:1",
+        "Ezekiel 12:8",
+        "Ezekiel 12:10",
+        "Ezekiel 12:17",
+        "Ezekiel 12:21",
+        "Ezekiel 12:26",
+        "Ezekiel 13:1",
+        "Ezekiel 13:4",
+        "Ezekiel 13:5",
+        "Ezekiel 13:18",
+        "Ezekiel 14:2",
+        "Ezekiel 14:5",
+        "Ezekiel 14:12",
+        "Ezekiel 15:1",
+        "Ezekiel 16:1",
+        "Ezekiel 16:4",
+        "Ezekiel 16:5",
+        "Ezekiel 16:23",
+        "Ezekiel 16:30",
+        "Ezekiel 16:35",
+        "Ezekiel 16:56",
+        "Ezekiel 16:61",
+        "Ezekiel 17:1",
+        "Ezekiel 17:11",
+        "Ezekiel 18:1",
+        "Ezekiel 19:5",
+        "Ezekiel 20:2",
+        "Ezekiel 20:25",
+        "Ezekiel 20:27",
+        "Ezekiel 20:29",
+        "Ezekiel 21:1",
+        "Ezekiel 21:2",
+        "Ezekiel 21:6",
+        "Ezekiel 21:10",
+        "Ezekiel 21:13",
+        "Ezekiel 21:18",
+        "Ezekiel 21:20",
+        "Ezekiel 21:21",
+        "Ezekiel 21:23",
+        "Ezekiel 21:24",
+        "Ezekiel 21:25",
+        "Ezekiel 21:28",
+        "Ezekiel 21:35",
+        "Ezekiel 22:1",
+        "Ezekiel 22:6",
+        "Ezekiel 22:16",
+        "Ezekiel 22:17",
+        "Ezekiel 22:23",
+        "Ezekiel 23:1",
+        "Ezekiel 23:14",
+        "Ezekiel 23:15",
+        "Ezekiel 23:23",
+        "Ezekiel 23:43",
+        "Ezekiel 23:44",
+        "Ezekiel 24:9",
+        "Ezekiel 24:15",
+        "Ezekiel 24:20",
+        "Ezekiel 25:1",
+        "Ezekiel 25:9",
+        "Ezekiel 26:1",
+        "Ezekiel 27:1",
+        "Ezekiel 27:15",
+        "Ezekiel 27:16",
+        "Ezekiel 27:18",
+        "Ezekiel 27:19",
+        "Ezekiel 27:20",
+        "Ezekiel 27:23",
+        "Ezekiel 27:24",
+        "Ezekiel 28:1",
+        "Ezekiel 28:11",
+        "Ezekiel 28:20",
+        "Ezekiel 29:1",
+        "Ezekiel 29:17",
+        "Ezekiel 30:1",
+        "Ezekiel 30:17",
+        "Ezekiel 30:20",
+        "Ezekiel 31:1",
+        "Ezekiel 32:1",
+        "Ezekiel 32:17",
+        "Ezekiel 32:25",
+        "Ezekiel 32:27",
+        "Ezekiel 33:1",
+        "Ezekiel 33:23",
+        "Ezekiel 33:25",
+        "Ezekiel 33:30",
+        "Ezekiel 34:1",
+        "Ezekiel 34:7",
+        "Ezekiel 34:9",
+        "Ezekiel 35:1",
+        "Ezekiel 35:14",
+        "Ezekiel 36:16",
+        "Ezekiel 36:18",
+        "Ezekiel 37:15",
+        "Ezekiel 38:1",
+        "Ezekiel 38:6",
+        "Ezekiel 38:7",
+        "Ezekiel 38:17",
+        "Ezekiel 39:13",
+        "Ezekiel 39:22",
+        "Ezekiel 39:28",
+        "Ezekiel 40:7",
+        "Ezekiel 40:8",
+        "Ezekiel 40:11",
+        "Ezekiel 40:12",
+        "Ezekiel 40:14",
+        "Ezekiel 40:17",
+        "Ezekiel 40:18",
+        "Ezekiel 40:20",
+        "Ezekiel 40:24",
+        "Ezekiel 40:28",
+        "Ezekiel 40:32",
+        "Ezekiel 40:35",
+        "Ezekiel 40:38",
+        "Ezekiel 40:40",
+        "Ezekiel 40:48",
+        "Ezekiel 41:1",
+        "Ezekiel 41:3",
+        "Ezekiel 41:8",
+        "Ezekiel 41:9",
+        "Ezekiel 41:10",
+        "Ezekiel 41:11",
+        "Ezekiel 41:12",
+        "Ezekiel 41:13",
+        "Ezekiel 41:14",
+        "Ezekiel 41:15",
+        "Ezekiel 41:21",
+        "Ezekiel 42:2",
+        "Ezekiel 42:3",
+        "Ezekiel 42:7",
+        "Ezekiel 42:8",
+        "Ezekiel 42:15",
+        "Ezekiel 42:16",
+        "Ezekiel 42:17",
+        "Ezekiel 42:18",
+        "Ezekiel 42:19",
+        "Ezekiel 43:1",
+        "Ezekiel 43:14",
+        "Ezekiel 43:15",
+        "Ezekiel 43:16",
+        "Ezekiel 46:10",
+        "Ezekiel 46:21",
+        "Ezekiel 46:22",
+        "Ezekiel 48:30",
+        "Ezekiel 48:32",
+        "Ezekiel 48:33",
+        "Ezekiel 48:34"
+      ],
+      "continued_pending_observations": [],
+      "unretained_candidate_observations": [],
+      "new_unretained_candidate_count": 0,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Ezekiel 7:11",
+        "Ezekiel 13:4",
+        "Ezekiel 16:4",
+        "Ezekiel 16:5",
+        "Ezekiel 20:25",
+        "Ezekiel 25:9",
+        "Ezekiel 32:27",
+        "Ezekiel 35:14"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
+    }
+  ]
 }

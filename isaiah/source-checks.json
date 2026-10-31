@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new original-language or apparatus verification.",
   "numbering": "Exact original order, native fields, references and anchors retained: 1289 units, 66 native chapters, 66 native source groups.",
-  "method": "Complete actual source and target passages with necessary context were read and each retained explanation separately reread in recorded batches. Source-only deferrals and unresolved candidates receive zero completion credit. Technical inventory is separate from semantic review.",
+  "method": "Historical actual source reading is preserved. This run selectively reevaluated pending sources with new actual target/context evidence and separately reread supported explanations. Consideration, repeated readings and unresolved proposals receive zero completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -55,6 +55,19 @@
       "revisited_source_units_read": 0,
       "resolved_source_deferrals": 0,
       "deferred_source_units": 6,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T215146Z",
+      "records": "review-batches/2026-10-31T215146Z.json",
+      "new_source_verses": 13,
+      "new_pairs": 13,
+      "source_units_read": 14,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 14,
+      "resolved_source_deferrals": 13,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 1,
       "unresolved_retained_cases": 0
     }
   ],
@@ -459,36 +472,44 @@
       "path": "jude/verses.json",
       "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jude/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-timothy/verses.json",
+      "blob_sha": "02e0778c9eed12dfc0a8ca4552efbd5537e5a20b",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-timothy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "jonah/verses.json",
+      "blob_sha": "b2f33077a19167cd7c2c8cdb48562b942ce91380",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jonah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "song-of-songs/verses.json",
+      "blob_sha": "c25dcabd0c7416a129af37911b972ee3b89ed821",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/song-of-songs/verses.json"
     }
   ],
   "deferred_source_units": [
-    {
-      "source_reference": "Isaiah 2:18",
-      "source_text": "They will hide away all the handmade things,",
-      "reason": "The supplied action is hiding away handmade things, not their abolition. No independently read counterpart was retained for this particular action; adjacent rejection-of-idols links do not complete this unit.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 2:18",
-        "id": "v2-18",
-        "text": "They will hide away all the handmade things,",
-        "display_text": "They will hide away all the handmade things,",
-        "text_sha256": "a434f25cfd10f10ae0b9636668479922f5fbeffb98ee7418c549e31736b9c4f9"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 1-8)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T052117Z",
-      "target": null
-    },
     {
       "source_reference": "Isaiah 3:6",
       "source_text": "For a man will seize his brother or a member of his father’s household, saying, “You have a cloak; become our leader, and let my food be under you!”",
@@ -814,33 +835,6 @@
       "target": null
     },
     {
-      "source_reference": "Isaiah 8:20",
-      "source_text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
-      "reason": "The supplied wording says law was given for help and speaks of an utterance with no gifts to give for it. Its particular formulation was not replaced by a familiar law-and-testimony or lack-of-dawn rendering, and no sufficiently grounded counterpart was retained.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 8:20",
-        "id": "v8-20",
-        "text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
-        "display_text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
-        "text_sha256": "8a1a20ac1156708208e8d0cf99ef6c4c5c3941e2cb3ebe27e313ea01749e6dbf"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 1-8)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T052117Z",
-      "target": null
-    },
-    {
       "source_reference": "Isaiah 8:21",
       "source_text": "A harsh famine will come upon you; when you hunger, you will be grieved and speak evil of the ruler and the cult images, and they will look up toward heaven above,",
       "reason": "The hungry people speak evil of the ruler and cult images, then look upward. No particular independent counterpart to that combination was established; the object of the cursing was not changed to God.",
@@ -914,33 +908,6 @@
         "text": "If they say to him, “You alone are ruler,”",
         "display_text": "If they say to him, “You alone are ruler,”",
         "text_sha256": "9d317d9b9d2abc41b40ba06894f436306a5cbd6b496134b319d2ca024bd21b01"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author (Isaiah 9-16)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T052117Z",
-      "target": null
-    },
-    {
-      "source_reference": "Isaiah 10:21",
-      "source_text": "and Jacob’s remainder will be toward a mighty God.",
-      "reason": "Jacob's remainder being toward a mighty God was read as the continuation of 10:20. The actual quotation in Romans concerns the following sea-sand and shortened-word clauses, not this precise clause; no separate completion credit is assigned here.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 10:21",
-        "id": "v10-21",
-        "text": "and Jacob’s remainder will be toward a mighty God.",
-        "display_text": "and Jacob’s remainder will be toward a mighty God.",
-        "text_sha256": "175600dd5a5bb48b85146375642469b749a684db8c19cc6487566dda4f1aec93"
       },
       "reviewer": "Codex author /root/proverbs_end_author (Isaiah 9-16)",
       "reviewed": "2026-10-31",
@@ -1076,33 +1043,6 @@
         "text": "today along the way, to remain; with the hand offer encouragement, the mountain, Daughter Zion, and the hills in Jerusalem.",
         "display_text": "today along the way, to remain; with the hand offer encouragement, the mountain, Daughter Zion, and the hills in Jerusalem.",
         "text_sha256": "1cc1da73ed345679e20984fdb7b600652e275f82f1181954abe080734b568c6f"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author (Isaiah 9-16)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T052117Z",
-      "target": null
-    },
-    {
-      "source_reference": "Isaiah 14:6",
-      "source_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
-      "reason": "The nation struck in wrath with an incurable, unsparing blow was read within the preceding yoke-shattering statement. No sufficiently particular counterpart was retained without imposing an uncertain agent or reducing the comparison to ordinary warfare.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 14:6",
-        "id": "v14-6",
-        "text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
-        "display_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
-        "text_sha256": "a759dfc40835877a61c86109e2cc9aee23b115b6587ce3a962dcbf9623760c57"
       },
       "reviewer": "Codex author /root/proverbs_end_author (Isaiah 9-16)",
       "reviewed": "2026-10-31",
@@ -1462,33 +1402,6 @@
       "target": null
     },
     {
-      "source_reference": "Isaiah 22:22",
-      "source_text": "I will give him David’s glory, and he will rule, with no one contradicting.",
-      "reason": "The source grants David's glory and unopposed rule; it does not say key, opening or shutting. The unavailable Revelation lead was not read and earns no credit, and no equivalent was presumed from another rendering.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 22:22",
-        "id": "v22-22",
-        "text": "I will give him David’s glory, and he will rule, with no one contradicting.",
-        "display_text": "I will give him David’s glory, and he will rule, with no one contradicting.",
-        "text_sha256": "90341ed091ca22a1cdb57c341a5dfae7273d02f9a43149b7b58d83443b15c4ac"
-      },
-      "reviewer": "Codex author /root (Isaiah 17-27)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T052117Z",
-      "target": null
-    },
-    {
       "source_reference": "Isaiah 23:4",
       "source_text": "“Be ashamed, Sidon,” said the sea; and the sea’s strength said, “I did not labor or give birth or rear young men or raise maidens.”",
       "reason": "The sea's denial of labor, birth and rearing young people in the rebuke to Sidon was read as given. No specific counterpart clarifies the personification without adding an unsupported interpretation of its family imagery.",
@@ -1543,33 +1456,6 @@
       "target": null
     },
     {
-      "source_reference": "Isaiah 24:9",
-      "source_text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
-      "reason": "Shame, abstention from wine and bitter sikera are the specific features. The neighboring loss-of-joy parallels do not independently establish the bitterness or shame, so no target is retained for this unit.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 24:9",
-        "id": "v24-9",
-        "text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
-        "display_text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
-        "text_sha256": "a7e5e5865a098bf5ed82fc538c8442a4259c86a67505e79e6d33bc384984b2b9"
-      },
-      "reviewer": "Codex author /root (Isaiah 17-27)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T052117Z",
-      "target": null
-    },
-    {
       "source_reference": "Isaiah 27:4",
       "source_text": "There is none who has not seized her. Who will set me to guard stubble in a field? Because of this hostility I rejected her.” Therefore, for this reason the Lord God has done everything He commanded. “I have been burned!”",
       "reason": "Seizure, guarding stubble, hostility, rejection, fulfilled command and burning occur with shifting voices. No sufficiently particular counterpart was established without resolving uncertain pronouns or replacing the passage with a familiar no-anger rendering.",
@@ -1589,33 +1475,6 @@
         "text": "There is none who has not seized her. Who will set me to guard stubble in a field? Because of this hostility I rejected her.” Therefore, for this reason the Lord God has done everything He commanded. “I have been burned!”",
         "display_text": "There is none who has not seized her. Who will set me to guard stubble in a field? Because of this hostility I rejected her.” Therefore, for this reason the Lord God has done everything He commanded. “I have been burned!”",
         "text_sha256": "12c221c3a68f7fbc81824f168fd3b0d9d0ca40abbbfbf5db37563e45e1605fa1"
-      },
-      "reviewer": "Codex author /root (Isaiah 17-27)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T052117Z",
-      "target": null
-    },
-    {
-      "source_reference": "Isaiah 27:7",
-      "source_text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
-      "reason": "The rhetorical question compares striking and killing with prior striking and killing, but does not name the parties. A claim about equal retaliation or moderated punishment would require resolving that ambiguity; neither was counted.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 27:7",
-        "id": "v27-7",
-        "text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
-        "display_text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
-        "text_sha256": "9f105b668fac9bfd3f693f19616a1d436e4fefc8f1649ec4f7daadb32d50cd97"
       },
       "reviewer": "Codex author /root (Isaiah 17-27)",
       "reviewed": "2026-10-31",
@@ -1867,33 +1726,6 @@
       "target": null
     },
     {
-      "source_reference": "Isaiah 41:6",
-      "reason": "The neighbor and brother helping and speaking continue into the craftsmen and secured objects of 41:7. A generic positive neighbor-help parallel would erase that setting; no independently supported counterpart for this specific scene was retained.",
-      "source_text": "each deciding to help his neighbor and brother, and he will say,",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 41:6",
-        "id": "v41-6",
-        "text": "each deciding to help his neighbor and brother, and he will say,",
-        "display_text": "each deciding to help his neighbor and brother, and he will say,",
-        "text_sha256": "aadb866d3d84abb43907f3089c91c6d65bb1b7b6c9d42857a88d368b0745309a"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author (Isaiah 37-44)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T062118Z",
-      "target": null
-    },
-    {
       "source_reference": "Isaiah 41:21",
       "reason": "The supplied wording says judgment and plans draw near. It does not give the familiar instruction to present a case or strong arguments, and no particular independently verified counterpart to the actual wording was established.",
       "source_text": "Your judgment draws near, says the Lord God; your plans have drawn near, says Jacob’s King.",
@@ -2083,33 +1915,6 @@
       "target": null
     },
     {
-      "source_reference": "Isaiah 49:16",
-      "source_text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
-      "reason": "The actual image is of Zion's walls painted on God's hands and remaining continually before Him. No supported counterpart to that specific image was established; generic remembrance or hand imagery alone does not complete the unit.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 49:16",
-        "id": "v49-16",
-        "text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
-        "display_text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
-        "text_sha256": "f83058bc44f2c00fb4ed9965ae5412e5132ebe5de5881ceb02700a99c8d474e6"
-      },
-      "reviewer": "Codex author /root (Isaiah 45-55)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T062118Z",
-      "target": null
-    },
-    {
       "source_reference": "Isaiah 51:14",
       "source_text": "For as you are saved, it will not stand or linger.",
       "reason": "The short native unit says that as you are saved, it will not stand or linger. The referent and timing remain compressed. It was not replaced with a familiar statement about a bent captive, a pit or bread, and no particular match was retained.",
@@ -2218,87 +2023,6 @@
       "target": null
     },
     {
-      "source_reference": "Isaiah 57:12",
-      "source_text": "I will proclaim My righteousness and your evils, which will not benefit you.",
-      "reason": "The native contrast is God's own righteousness and the hearers' evils that will not benefit them. No sufficiently particular counterpart was retained in this pass; replacing My righteousness with your righteousness would create a different claim.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 57:12",
-        "id": "v57-12",
-        "text": "I will proclaim My righteousness and your evils, which will not benefit you.",
-        "display_text": "I will proclaim My righteousness and your evils, which will not benefit you.",
-        "text_sha256": "639da55c3399cabf7615f83991086ae091ee5b01e38c6c2199ee3604b3e1581b"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T072419Z",
-      "target": null
-    },
-    {
-      "source_reference": "Isaiah 59:5",
-      "source_text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
-      "reason": "The unit combines asp eggs, a spider's web, a wind-egg and a basilisk. No adequately particular counterpart was established for this native sequence without normalizing its unusual wording to another translation.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 59:5",
-        "id": "v59-5",
-        "text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
-        "display_text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
-        "text_sha256": "256e1802080928da4bb222aa5dabdc3f02c83690b6a51527031b7cb81c040b8d"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T072419Z",
-      "target": null
-    },
-    {
-      "source_reference": "Isaiah 60:8",
-      "source_text": "Who are these flying like clouds and like doves with their young?",
-      "reason": "The question compares unidentified arrivals with clouds and doves with their young. No sufficiently specific read counterpart was retained, and the young must not be rewritten as windows or a dovecote.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 60:8",
-        "id": "v60-8",
-        "text": "Who are these flying like clouds and like doves with their young?",
-        "display_text": "Who are these flying like clouds and like doves with their young?",
-        "text_sha256": "36617da61e1808338c7749b381d3ea42cabc49460a987d528d67ff4a264e2b3f"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T072419Z",
-      "target": null
-    },
-    {
       "source_reference": "Isaiah 64:4",
       "source_text": "For He will meet those doing what is just, and they will remember Thy ways. Behold, Thou becamest angry, and we sinned; therefore we went astray.",
       "reason": "The unit joins meeting those doing justice, remembrance of God's ways, divine anger, sin and straying. This pass did not establish a particular counterpart that preserves those clauses without imposing an unstated causal order.",
@@ -2345,33 +2069,6 @@
         "text": "There will never be one cut off prematurely there, nor an old man who fails to complete his time. For the young person will be a hundred years old, but the sinner who dies will be a hundred years old and accursed.",
         "display_text": "There will never be one cut off prematurely there, nor an old man who fails to complete his time. For the young person will be a hundred years old, but the sinner who dies will be a hundred years old and accursed.",
         "text_sha256": "327d0fd9380e7c7441961a911163d99d98b6c90de442655b8b6cf5487683539c"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T072419Z",
-      "target": null
-    },
-    {
-      "source_reference": "Isaiah 66:8",
-      "source_text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
-      "reason": "The questions about a land laboring in one day and a nation born all at once, followed by Zion bearing children, were read completely. No sufficiently particular additional counterpart was retained for the sudden national-birth formulation in this pass.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "isaiah/verses.json",
-        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
-      },
-      "source_verse": {
-        "reference": "Isaiah 66:8",
-        "id": "v66-8",
-        "text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
-        "display_text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
-        "text_sha256": "4d72378b7718926a1dee7c9b187a4109ceaca7c061f2d27366d9dec523e6ea13"
       },
       "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
       "reviewed": "2026-10-31",
@@ -4381,16 +4078,217 @@
       "source_and_target_text_read": true,
       "evidence_support_status": "pending supported relationship; excluded from completion",
       "target_passage_sha256": "5214b2e71128aee26493d795d0bb46740c2b9a48425f624b3d22df37f4467c29"
+    },
+    {
+      "source_reference": "Isaiah 5:27",
+      "source_text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+      "reason": "The Passover instruction specifies girded loins, sandals and haste, whereas Isaiah describes an advancing army that neither tires nor sleeps and whose straps do not break. The shared equipment is insufficiently particular for the source’s exceptional military endurance; no pair is retained.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Exodus 12:11",
+      "target_units": [
+        {
+          "reference": "Exodus 12:11",
+          "text": "And this is how you shall eat it: your loins girded, your sandals upon your feet, and your staffs in your hands; and you shall eat it in haste. It is a Passover to the Lord."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "isaiah/verses.json",
+        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+      },
+      "source_verse": {
+        "reference": "Isaiah 5:27",
+        "id": "v5-27",
+        "text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+        "display_text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+        "text_sha256": "a9cf81c508b9b3250b29e108f7d0c411a1cfd668e33aa2959b1f3c5b7c5d7cc6"
+      },
+      "reviewer": "Codex author /root/amos_peer_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "exodus/verses.json",
+        "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Exodus 12:11",
+          "id": "v12-11",
+          "text": "And this is how you shall eat it: your loins girded, your sandals upon your feet, and your staffs in your hands; and you shall eat it in haste. It is a Passover to the Lord.",
+          "poetic_line_breaks": 0,
+          "text_sha256": "27697c88694d70db42836c271dbe215323b106c46cb46d68e45c46fe22484943"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "0d3e3fecdf1461cb8ec04ed1fa6c6556a8a260a50f9196f302ac1a5167c7425e"
+    },
+    {
+      "source_reference": "Isaiah 10:21",
+      "source_text": "and Jacob’s remainder will be toward a mighty God.",
+      "reason": "The actual native child passage names Messenger of Great Counsel and describes Davidic rule; it does not contain the anticipated mighty God title. It is not retained as a quotation or title parallel. The separately supported Hosea connection concerns renewed orientation toward God.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Isaiah 9:5-6",
+      "target_units": [
+        {
+          "reference": "Isaiah 9:5",
+          "text": "For a child was born to us, a son also was given to us, whose rule was laid upon his shoulder; and his name is called Messenger of Great Counsel. For I will bring peace upon the rulers, peace and health to him."
+        },
+        {
+          "reference": "Isaiah 9:6",
+          "text": "Great is his rule, and his peace has no limit, upon the throne of David and his kingdom, to establish it and uphold it in righteousness and judgment, from now on and for ever. The zeal of the Lord Sabaoth will do these things."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "isaiah/verses.json",
+        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+      },
+      "source_verse": {
+        "reference": "Isaiah 10:21",
+        "id": "v10-21",
+        "text": "and Jacob’s remainder will be toward a mighty God.",
+        "display_text": "and Jacob’s remainder will be toward a mighty God.",
+        "text_sha256": "175600dd5a5bb48b85146375642469b749a684db8c19cc6487566dda4f1aec93"
+      },
+      "reviewer": "Codex author /root/amos_peer_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "isaiah/verses.json",
+        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Isaiah 9:5",
+          "id": "v9-5",
+          "text": "For a child was born to us, a son also was given to us, whose rule was laid upon his shoulder; and his name is called Messenger of Great Counsel. For I will bring peace upon the rulers, peace and health to him.",
+          "display_text": "For a child was born to us,\na son also was given to us,\nwhose rule was laid upon his shoulder;\nand his name is called Messenger of Great Counsel.\nFor I will bring peace upon the rulers,\npeace and health to him.",
+          "text_sha256": "7ee39e20586ebba06bdd47f4aab2415706d8fd61f3a93a7e4589400f5d4fe0ca"
+        },
+        {
+          "reference": "Isaiah 9:6",
+          "id": "v9-6",
+          "text": "Great is his rule, and his peace has no limit, upon the throne of David and his kingdom, to establish it and uphold it in righteousness and judgment, from now on and for ever. The zeal of the Lord Sabaoth will do these things.",
+          "display_text": "Great is his rule, and his peace has no limit,\nupon the throne of David and his kingdom,\nto establish it and uphold it in righteousness and judgment,\nfrom now on and for ever.\nThe zeal of the Lord Sabaoth will do these things.",
+          "text_sha256": "7c2785bcf0a024b9f8d82a6bdbd186fdb51131b5eee4f05680d1b5a52e6cee8d"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "f1c4654226a89670102cd7f92bf6d32c6b5b5a1ef4a53ed5f38018b178ad2c95"
+    },
+    {
+      "source_reference": "Isaiah 14:6",
+      "source_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+      "reason": "Jeremiah describes a painful fracture and an enemy’s blow used as discipline, but the actual wording does not supply the expected incurable-wound phrase. With the source’s compressed agent sequence unresolved, this broad wounding comparison is not retained; the more particular no-healing image is checked separately in Nahum.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Jeremiah 37:12-14",
+      "target_units": [
+        {
+          "reference": "Jeremiah 37:12",
+          "text": "Thus said the Lord: I raised up a fracture; your wound is painful."
+        },
+        {
+          "reference": "Jeremiah 37:13",
+          "text": "There is no one judging your case; you were treated into pain. There is no benefit for you."
+        },
+        {
+          "reference": "Jeremiah 37:14",
+          "text": "All your friends forgot you; they will certainly not inquire. For I struck you with an enemy’s blow, a firm discipline; upon all your injustice your sins multiplied."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "isaiah/verses.json",
+        "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+      },
+      "source_verse": {
+        "reference": "Isaiah 14:6",
+        "id": "v14-6",
+        "text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+        "display_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+        "text_sha256": "a759dfc40835877a61c86109e2cc9aee23b115b6587ce3a962dcbf9623760c57"
+      },
+      "reviewer": "Codex author /root/amos_peer_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "jeremiah/verses.json",
+        "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Jeremiah 37:12",
+          "id": "v37-12",
+          "text": "Thus said the Lord: I raised up a fracture; your wound is painful.",
+          "display_text": "Thus said the Lord: I raised up a fracture; your wound is painful.",
+          "text_sha256": "5ff0d7cbc53f2cfa390645eaf80f1db1a62e978cd6e47e4557da78019442ad7f"
+        },
+        {
+          "reference": "Jeremiah 37:13",
+          "id": "v37-13",
+          "text": "There is no one judging your case; you were treated into pain. There is no benefit for you.",
+          "display_text": "There is no one judging your case; you were treated into pain. There is no benefit for you.",
+          "text_sha256": "e9d38d3646b52f9ae9131d2b153a73a3dc6ac43240b6a59f957037071bb62c22"
+        },
+        {
+          "reference": "Jeremiah 37:14",
+          "id": "v37-14",
+          "text": "All your friends forgot you; they will certainly not inquire. For I struck you with an enemy’s blow, a firm discipline; upon all your injustice your sins multiplied.",
+          "display_text": "All your friends forgot you; they will certainly not inquire. For I struck you with an enemy’s blow, a firm discipline; upon all your injustice your sins multiplied.",
+          "text_sha256": "011c61a60101efcc7a1ba8ea4ffdc299d115e7391c073a681870af3ac766a8af"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "9c12b5c97bb852eb16d0b03e1415edfa48068d99c923ca5131842b52bfbbd56f"
     }
   ],
   "checked_scope": {
     "source_passage": "Isaiah 1:1 through Isaiah 66:24",
     "source_passage_is_review_scope": true,
     "source_units_read": 1289,
-    "source_verse_units": 1218,
-    "deferred_source_units": 71,
-    "retained_pairs": 1311,
-    "distinct_target_verse_units": 2035
+    "source_verse_units": 1231,
+    "deferred_source_units": 58,
+    "retained_pairs": 1324,
+    "distinct_target_verse_units": 2063
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -4410,10 +4308,10 @@
     "completed_review_credit": 0
   },
   "pending": [
-    "First pending source unit: Isaiah 2:18",
+    "First pending source unit: Isaiah 3:6",
     "1289 of 1289 original source units read; 0 never reviewed. Deferred units remain incomplete.",
     "Next never-reviewed source: none; all original units read.",
-    "Read but deferred source units: Isaiah 2:18, Isaiah 3:6, Isaiah 3:7, Isaiah 3:21, Isaiah 3:22, Isaiah 4:1, Isaiah 5:27, Isaiah 7:10, Isaiah 7:19, Isaiah 7:21, Isaiah 7:24, Isaiah 8:5, Isaiah 8:11, Isaiah 8:20, Isaiah 8:21, Isaiah 9:10, Isaiah 10:8, Isaiah 10:21, Isaiah 10:28, Isaiah 10:29, Isaiah 10:30, Isaiah 10:31, Isaiah 10:32, Isaiah 14:6, Isaiah 15:7, Isaiah 15:8, Isaiah 16:1, Isaiah 16:4, Isaiah 17:11, Isaiah 18:1, Isaiah 18:2, Isaiah 19:10, Isaiah 20:1, Isaiah 21:13, Isaiah 22:1, Isaiah 22:2, Isaiah 22:8, Isaiah 22:22, Isaiah 23:4, Isaiah 23:16, Isaiah 24:9, Isaiah 27:4, Isaiah 27:7, Isaiah 27:8, Isaiah 28:20, Isaiah 28:27, Isaiah 28:29, Isaiah 29:2, Isaiah 33:4, Isaiah 33:8, Isaiah 33:19, Isaiah 41:3, Isaiah 41:6, Isaiah 41:21, Isaiah 42:23, Isaiah 43:15, Isaiah 44:11, Isaiah 45:10, Isaiah 45:11, Isaiah 47:15, Isaiah 49:16, Isaiah 51:14, Isaiah 53:10, Isaiah 54:11, Isaiah 54:12, Isaiah 57:12, Isaiah 59:5, Isaiah 60:8, Isaiah 64:4, Isaiah 65:20, Isaiah 66:8",
+    "Read but deferred source units: Isaiah 3:6, Isaiah 3:7, Isaiah 3:21, Isaiah 3:22, Isaiah 4:1, Isaiah 5:27, Isaiah 7:10, Isaiah 7:19, Isaiah 7:21, Isaiah 7:24, Isaiah 8:5, Isaiah 8:11, Isaiah 8:21, Isaiah 9:10, Isaiah 10:8, Isaiah 10:28, Isaiah 10:29, Isaiah 10:30, Isaiah 10:31, Isaiah 10:32, Isaiah 15:7, Isaiah 15:8, Isaiah 16:1, Isaiah 16:4, Isaiah 17:11, Isaiah 18:1, Isaiah 18:2, Isaiah 19:10, Isaiah 20:1, Isaiah 21:13, Isaiah 22:1, Isaiah 22:2, Isaiah 22:8, Isaiah 23:4, Isaiah 23:16, Isaiah 27:4, Isaiah 27:8, Isaiah 28:20, Isaiah 28:27, Isaiah 28:29, Isaiah 29:2, Isaiah 33:4, Isaiah 33:8, Isaiah 33:19, Isaiah 41:3, Isaiah 41:21, Isaiah 42:23, Isaiah 43:15, Isaiah 44:11, Isaiah 45:10, Isaiah 45:11, Isaiah 47:15, Isaiah 51:14, Isaiah 53:10, Isaiah 54:11, Isaiah 54:12, Isaiah 64:4, Isaiah 65:20",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Unretained target candidate: Isaiah 1:8 / Job 27:18",
@@ -4446,7 +4344,850 @@
     "Unretained target candidate: Isaiah 61:5 / Isaiah 14:2",
     "Unretained target candidate: Isaiah 64:2 / Exodus 19:18",
     "Unretained target candidate: Isaiah 65:10 / Hosea 2:17",
-    "Unretained target candidate: Isaiah 66:9 / Genesis 20:17-18"
+    "Unretained target candidate: Isaiah 66:9 / Genesis 20:17-18",
+    "Unretained target candidate: Isaiah 5:27 / Exodus 12:11",
+    "Unretained target candidate: Isaiah 10:21 / Isaiah 9:5-6",
+    "Unretained target candidate: Isaiah 14:6 / Jeremiah 37:12-14"
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "Isaiah 2:18",
+      "original_deferral": {
+        "source_reference": "Isaiah 2:18",
+        "source_text": "They will hide away all the handmade things,",
+        "reason": "The supplied action is hiding away handmade things, not their abolition. No independently read counterpart was retained for this particular action; adjacent rejection-of-idols links do not complete this unit.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 2:18",
+          "id": "v2-18",
+          "text": "They will hide away all the handmade things,",
+          "display_text": "They will hide away all the handmade things,",
+          "text_sha256": "a434f25cfd10f10ae0b9636668479922f5fbeffb98ee7418c549e31736b9c4f9"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 1-8)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T052117Z",
+        "target": null
+      },
+      "original_deferral_sha256": "a46efa02d2fa7188790afa3a5f351839fd795acae420d0bf53e0260c0dac1dbc",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-2-18__genesis-35-4"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 8:20",
+      "original_deferral": {
+        "source_reference": "Isaiah 8:20",
+        "source_text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
+        "reason": "The supplied wording says law was given for help and speaks of an utterance with no gifts to give for it. Its particular formulation was not replaced by a familiar law-and-testimony or lack-of-dawn rendering, and no sufficiently grounded counterpart was retained.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 8:20",
+          "id": "v8-20",
+          "text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
+          "display_text": "For He gave law for help, so that they might speak unlike this utterance, concerning which there are no gifts to give for it.",
+          "text_sha256": "8a1a20ac1156708208e8d0cf99ef6c4c5c3941e2cb3ebe27e313ea01749e6dbf"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 1-8)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T052117Z",
+        "target": null
+      },
+      "original_deferral_sha256": "4ece80b1ec203c9450305d4b441998429471762aa52beadee7349c28c4e5e825",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-8-20__psalms-118-92-94"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 10:21",
+      "original_deferral": {
+        "source_reference": "Isaiah 10:21",
+        "source_text": "and Jacob’s remainder will be toward a mighty God.",
+        "reason": "Jacob's remainder being toward a mighty God was read as the continuation of 10:20. The actual quotation in Romans concerns the following sea-sand and shortened-word clauses, not this precise clause; no separate completion credit is assigned here.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 10:21",
+          "id": "v10-21",
+          "text": "and Jacob’s remainder will be toward a mighty God.",
+          "display_text": "and Jacob’s remainder will be toward a mighty God.",
+          "text_sha256": "175600dd5a5bb48b85146375642469b749a684db8c19cc6487566dda4f1aec93"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author (Isaiah 9-16)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T052117Z",
+        "target": null
+      },
+      "original_deferral_sha256": "a527b8e0c46c546c4211c3df3317d9c61e3f12fb536f2e53c658492587044ca4",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-10-21__hosea-3-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 14:6",
+      "original_deferral": {
+        "source_reference": "Isaiah 14:6",
+        "source_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+        "reason": "The nation struck in wrath with an incurable, unsparing blow was read within the preceding yoke-shattering statement. No sufficiently particular counterpart was retained without imposing an uncertain agent or reducing the comparison to ordinary warfare.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 14:6",
+          "id": "v14-6",
+          "text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+          "display_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+          "text_sha256": "a759dfc40835877a61c86109e2cc9aee23b115b6587ce3a962dcbf9623760c57"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author (Isaiah 9-16)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T052117Z",
+        "target": null
+      },
+      "original_deferral_sha256": "d8b9f13290a9650fb37c7d59da345eacb4a19c36c54ae65e10a1765a90776b3a",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-14-6__nahum-3-19"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 22:22",
+      "original_deferral": {
+        "source_reference": "Isaiah 22:22",
+        "source_text": "I will give him David’s glory, and he will rule, with no one contradicting.",
+        "reason": "The source grants David's glory and unopposed rule; it does not say key, opening or shutting. The unavailable Revelation lead was not read and earns no credit, and no equivalent was presumed from another rendering.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 22:22",
+          "id": "v22-22",
+          "text": "I will give him David’s glory, and he will rule, with no one contradicting.",
+          "display_text": "I will give him David’s glory, and he will rule, with no one contradicting.",
+          "text_sha256": "90341ed091ca22a1cdb57c341a5dfae7273d02f9a43149b7b58d83443b15c4ac"
+        },
+        "reviewer": "Codex author /root (Isaiah 17-27)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T052117Z",
+        "target": null
+      },
+      "original_deferral_sha256": "826b0f8906a0c4155039679a70f56f3a795e5c3bee076e898f7d94bd5a9808cb",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-22-22__1-chronicles-29-23-25"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 24:9",
+      "original_deferral": {
+        "source_reference": "Isaiah 24:9",
+        "source_text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
+        "reason": "Shame, abstention from wine and bitter sikera are the specific features. The neighboring loss-of-joy parallels do not independently establish the bitterness or shame, so no target is retained for this unit.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 24:9",
+          "id": "v24-9",
+          "text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
+          "display_text": "They were ashamed and did not drink wine; sikera became bitter to those drinking it.",
+          "text_sha256": "a7e5e5865a098bf5ed82fc538c8442a4259c86a67505e79e6d33bc384984b2b9"
+        },
+        "reviewer": "Codex author /root (Isaiah 17-27)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T052117Z",
+        "target": null
+      },
+      "original_deferral_sha256": "758d346b8259a111e1eb22cccf47105206ccb0d89061ff4865dfe3b97e1c1d3b",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-24-9__lamentations-3-14-19"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 27:7",
+      "original_deferral": {
+        "source_reference": "Isaiah 27:7",
+        "source_text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
+        "reason": "The rhetorical question compares striking and killing with prior striking and killing, but does not name the parties. A claim about equal retaliation or moderated punishment would require resolving that ambiguity; neither was counted.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 27:7",
+          "id": "v27-7",
+          "text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
+          "display_text": "Surely he will not be struck just as he himself struck, and be killed just as he himself killed?",
+          "text_sha256": "9f105b668fac9bfd3f693f19616a1d436e4fefc8f1649ec4f7daadb32d50cd97"
+        },
+        "reviewer": "Codex author /root (Isaiah 17-27)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T052117Z",
+        "target": null
+      },
+      "original_deferral_sha256": "169b56588e377064a01ebb73d74a091469ada8bb1a5fc22ab358f46630702ead",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-27-7__obadiah-1-15"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 41:6",
+      "original_deferral": {
+        "source_reference": "Isaiah 41:6",
+        "reason": "The neighbor and brother helping and speaking continue into the craftsmen and secured objects of 41:7. A generic positive neighbor-help parallel would erase that setting; no independently supported counterpart for this specific scene was retained.",
+        "source_text": "each deciding to help his neighbor and brother, and he will say,",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 41:6",
+          "id": "v41-6",
+          "text": "each deciding to help his neighbor and brother, and he will say,",
+          "display_text": "each deciding to help his neighbor and brother, and he will say,",
+          "text_sha256": "aadb866d3d84abb43907f3089c91c6d65bb1b7b6c9d42857a88d368b0745309a"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author (Isaiah 37-44)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T062118Z",
+        "target": null
+      },
+      "original_deferral_sha256": "848b055bea91d8d3ca34cb5ad1caa69445157ebcfcfa8880b5e2545c9bedaf97",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-41-6__acts-19-24-27"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 49:16",
+      "original_deferral": {
+        "source_reference": "Isaiah 49:16",
+        "source_text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
+        "reason": "The actual image is of Zion's walls painted on God's hands and remaining continually before Him. No supported counterpart to that specific image was established; generic remembrance or hand imagery alone does not complete the unit.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 49:16",
+          "id": "v49-16",
+          "text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
+          "display_text": "“Behold, on My hands I painted your walls, and you are before Me continually.",
+          "text_sha256": "f83058bc44f2c00fb4ed9965ae5412e5132ebe5de5881ceb02700a99c8d474e6"
+        },
+        "reviewer": "Codex author /root (Isaiah 45-55)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T062118Z",
+        "target": null
+      },
+      "original_deferral_sha256": "9354c3125ea05721c9c7b2039abd1091818d7d32107a4fec555b076f87de2b8a",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-49-16__exodus-28-9-12"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 57:12",
+      "original_deferral": {
+        "source_reference": "Isaiah 57:12",
+        "source_text": "I will proclaim My righteousness and your evils, which will not benefit you.",
+        "reason": "The native contrast is God's own righteousness and the hearers' evils that will not benefit them. No sufficiently particular counterpart was retained in this pass; replacing My righteousness with your righteousness would create a different claim.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 57:12",
+          "id": "v57-12",
+          "text": "I will proclaim My righteousness and your evils, which will not benefit you.",
+          "display_text": "I will proclaim My righteousness and your evils, which will not benefit you.",
+          "text_sha256": "639da55c3399cabf7615f83991086ae091ee5b01e38c6c2199ee3604b3e1581b"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T072419Z",
+        "target": null
+      },
+      "original_deferral_sha256": "a2cb73b110510ca7dfde1a17644b84e930ea3d82b7fa55c7ae2557ab84238f05",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-57-12__daniel-9-7-10"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 59:5",
+      "original_deferral": {
+        "source_reference": "Isaiah 59:5",
+        "source_text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
+        "reason": "The unit combines asp eggs, a spider's web, a wind-egg and a basilisk. No adequately particular counterpart was established for this native sequence without normalizing its unusual wording to another translation.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 59:5",
+          "id": "v59-5",
+          "text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
+          "display_text": "They broke open asps’ eggs and weave a spider’s web. Whoever was about to eat their eggs broke one and found a wind-egg, and in it a basilisk.",
+          "text_sha256": "256e1802080928da4bb222aa5dabdc3f02c83690b6a51527031b7cb81c040b8d"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T072419Z",
+        "target": null
+      },
+      "original_deferral_sha256": "6b59c0681955515ef3c29e616d4ea54c1872f4b0ba1c6c8308726f65c0b65390",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-59-5__job-8-13-15"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 60:8",
+      "original_deferral": {
+        "source_reference": "Isaiah 60:8",
+        "source_text": "Who are these flying like clouds and like doves with their young?",
+        "reason": "The question compares unidentified arrivals with clouds and doves with their young. No sufficiently specific read counterpart was retained, and the young must not be rewritten as windows or a dovecote.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 60:8",
+          "id": "v60-8",
+          "text": "Who are these flying like clouds and like doves with their young?",
+          "display_text": "Who are these flying like clouds and like doves with their young?",
+          "text_sha256": "36617da61e1808338c7749b381d3ea42cabc49460a987d528d67ff4a264e2b3f"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T072419Z",
+        "target": null
+      },
+      "original_deferral_sha256": "154f5b29245bff7eb512d35ad5854f3bf01c4b176b93a28264a753e480cfb91e",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-60-8__hosea-11-11"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Isaiah 66:8",
+      "original_deferral": {
+        "source_reference": "Isaiah 66:8",
+        "source_text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
+        "reason": "The questions about a land laboring in one day and a nation born all at once, followed by Zion bearing children, were read completely. No sufficiently particular additional counterpart was retained for the sudden national-birth formulation in this pass.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "isaiah/verses.json",
+          "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+        },
+        "source_verse": {
+          "reference": "Isaiah 66:8",
+          "id": "v66-8",
+          "text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
+          "display_text": "Who heard such a thing, and who has seen anything like it? Did a land labor in one day, or was a nation born all at once? For Zion labored and bore her children.",
+          "text_sha256": "4d72378b7718926a1dee7c9b187a4109ceaca7c061f2d27366d9dec523e6ea13"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Isaiah 56-66)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T072419Z",
+        "target": null
+      },
+      "original_deferral_sha256": "7c4cdb3d54486046ce2d7d3efb9376d9cf8319a400a4909210ba00fe64fa52ba",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "isaiah-66-8__isaiah-49-20-21"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    }
+  ],
+  "pending_revisit_history": [
+    {
+      "run_id": "2026-10-31T215146Z",
+      "actual_read_source_references": [
+        "Isaiah 2:18",
+        "Isaiah 5:27",
+        "Isaiah 8:20",
+        "Isaiah 10:21",
+        "Isaiah 14:6",
+        "Isaiah 22:22",
+        "Isaiah 24:9",
+        "Isaiah 27:7",
+        "Isaiah 41:6",
+        "Isaiah 49:16",
+        "Isaiah 57:12",
+        "Isaiah 59:5",
+        "Isaiah 60:8",
+        "Isaiah 66:8"
+      ],
+      "considered_source_references": [
+        "Isaiah 2:18",
+        "Isaiah 3:6",
+        "Isaiah 3:7",
+        "Isaiah 3:21",
+        "Isaiah 3:22",
+        "Isaiah 4:1",
+        "Isaiah 5:27",
+        "Isaiah 7:10",
+        "Isaiah 7:19",
+        "Isaiah 7:21",
+        "Isaiah 7:24",
+        "Isaiah 8:5",
+        "Isaiah 8:11",
+        "Isaiah 8:20",
+        "Isaiah 8:21",
+        "Isaiah 9:10",
+        "Isaiah 10:8",
+        "Isaiah 10:21",
+        "Isaiah 10:28",
+        "Isaiah 10:29",
+        "Isaiah 10:30",
+        "Isaiah 10:31",
+        "Isaiah 10:32",
+        "Isaiah 14:6",
+        "Isaiah 15:7",
+        "Isaiah 15:8",
+        "Isaiah 16:1",
+        "Isaiah 16:4",
+        "Isaiah 17:11",
+        "Isaiah 18:1",
+        "Isaiah 18:2",
+        "Isaiah 19:10",
+        "Isaiah 20:1",
+        "Isaiah 21:13",
+        "Isaiah 22:1",
+        "Isaiah 22:2",
+        "Isaiah 22:8",
+        "Isaiah 22:22",
+        "Isaiah 23:4",
+        "Isaiah 23:16",
+        "Isaiah 24:9",
+        "Isaiah 27:4",
+        "Isaiah 27:7",
+        "Isaiah 27:8",
+        "Isaiah 28:20",
+        "Isaiah 28:27",
+        "Isaiah 28:29",
+        "Isaiah 29:2",
+        "Isaiah 33:4",
+        "Isaiah 33:8",
+        "Isaiah 33:19",
+        "Isaiah 41:3",
+        "Isaiah 41:6",
+        "Isaiah 41:21",
+        "Isaiah 42:23",
+        "Isaiah 43:15",
+        "Isaiah 44:11",
+        "Isaiah 45:10",
+        "Isaiah 45:11",
+        "Isaiah 47:15",
+        "Isaiah 49:16",
+        "Isaiah 51:14",
+        "Isaiah 53:10",
+        "Isaiah 54:11",
+        "Isaiah 54:12",
+        "Isaiah 57:12",
+        "Isaiah 59:5",
+        "Isaiah 60:8",
+        "Isaiah 64:4",
+        "Isaiah 65:20",
+        "Isaiah 66:8"
+      ],
+      "continued_pending_observations": [
+        {
+          "source_reference": "Isaiah 5:27",
+          "source_text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+          "reason": "The new Exodus readiness comparison was read, but girded loins and sandals alone do not establish the source army’s distinctive absence of hunger, fatigue and sleep or its unbroken straps. The source remains pending with its exact wording and original deferral preserved.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "isaiah/verses.json",
+            "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+          },
+          "source_verse": {
+            "reference": "Isaiah 5:27",
+            "id": "v5-27",
+            "text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+            "display_text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+            "text_sha256": "a9cf81c508b9b3250b29e108f7d0c411a1cfd668e33aa2959b1f3c5b7c5d7cc6"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target": null
+        }
+      ],
+      "unretained_candidate_observations": [
+        {
+          "source_reference": "Isaiah 5:27",
+          "source_text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+          "reason": "The Passover instruction specifies girded loins, sandals and haste, whereas Isaiah describes an advancing army that neither tires nor sleeps and whose straps do not break. The shared equipment is insufficiently particular for the source’s exceptional military endurance; no pair is retained.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Exodus 12:11",
+          "target_units": [
+            {
+              "reference": "Exodus 12:11",
+              "text": "And this is how you shall eat it: your loins girded, your sandals upon your feet, and your staffs in your hands; and you shall eat it in haste. It is a Passover to the Lord."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "isaiah/verses.json",
+            "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+          },
+          "source_verse": {
+            "reference": "Isaiah 5:27",
+            "id": "v5-27",
+            "text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+            "display_text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
+            "text_sha256": "a9cf81c508b9b3250b29e108f7d0c411a1cfd668e33aa2959b1f3c5b7c5d7cc6"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "exodus/verses.json",
+            "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Exodus 12:11",
+              "id": "v12-11",
+              "text": "And this is how you shall eat it: your loins girded, your sandals upon your feet, and your staffs in your hands; and you shall eat it in haste. It is a Passover to the Lord.",
+              "poetic_line_breaks": 0,
+              "text_sha256": "27697c88694d70db42836c271dbe215323b106c46cb46d68e45c46fe22484943"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "0d3e3fecdf1461cb8ec04ed1fa6c6556a8a260a50f9196f302ac1a5167c7425e"
+        },
+        {
+          "source_reference": "Isaiah 10:21",
+          "source_text": "and Jacob’s remainder will be toward a mighty God.",
+          "reason": "The actual native child passage names Messenger of Great Counsel and describes Davidic rule; it does not contain the anticipated mighty God title. It is not retained as a quotation or title parallel. The separately supported Hosea connection concerns renewed orientation toward God.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Isaiah 9:5-6",
+          "target_units": [
+            {
+              "reference": "Isaiah 9:5",
+              "text": "For a child was born to us, a son also was given to us, whose rule was laid upon his shoulder; and his name is called Messenger of Great Counsel. For I will bring peace upon the rulers, peace and health to him."
+            },
+            {
+              "reference": "Isaiah 9:6",
+              "text": "Great is his rule, and his peace has no limit, upon the throne of David and his kingdom, to establish it and uphold it in righteousness and judgment, from now on and for ever. The zeal of the Lord Sabaoth will do these things."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "isaiah/verses.json",
+            "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+          },
+          "source_verse": {
+            "reference": "Isaiah 10:21",
+            "id": "v10-21",
+            "text": "and Jacob’s remainder will be toward a mighty God.",
+            "display_text": "and Jacob’s remainder will be toward a mighty God.",
+            "text_sha256": "175600dd5a5bb48b85146375642469b749a684db8c19cc6487566dda4f1aec93"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "isaiah/verses.json",
+            "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Isaiah 9:5",
+              "id": "v9-5",
+              "text": "For a child was born to us, a son also was given to us, whose rule was laid upon his shoulder; and his name is called Messenger of Great Counsel. For I will bring peace upon the rulers, peace and health to him.",
+              "display_text": "For a child was born to us,\na son also was given to us,\nwhose rule was laid upon his shoulder;\nand his name is called Messenger of Great Counsel.\nFor I will bring peace upon the rulers,\npeace and health to him.",
+              "text_sha256": "7ee39e20586ebba06bdd47f4aab2415706d8fd61f3a93a7e4589400f5d4fe0ca"
+            },
+            {
+              "reference": "Isaiah 9:6",
+              "id": "v9-6",
+              "text": "Great is his rule, and his peace has no limit, upon the throne of David and his kingdom, to establish it and uphold it in righteousness and judgment, from now on and for ever. The zeal of the Lord Sabaoth will do these things.",
+              "display_text": "Great is his rule, and his peace has no limit,\nupon the throne of David and his kingdom,\nto establish it and uphold it in righteousness and judgment,\nfrom now on and for ever.\nThe zeal of the Lord Sabaoth will do these things.",
+              "text_sha256": "7c2785bcf0a024b9f8d82a6bdbd186fdb51131b5eee4f05680d1b5a52e6cee8d"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "f1c4654226a89670102cd7f92bf6d32c6b5b5a1ef4a53ed5f38018b178ad2c95"
+        },
+        {
+          "source_reference": "Isaiah 14:6",
+          "source_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+          "reason": "Jeremiah describes a painful fracture and an enemy’s blow used as discipline, but the actual wording does not supply the expected incurable-wound phrase. With the source’s compressed agent sequence unresolved, this broad wounding comparison is not retained; the more particular no-healing image is checked separately in Nahum.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Jeremiah 37:12-14",
+          "target_units": [
+            {
+              "reference": "Jeremiah 37:12",
+              "text": "Thus said the Lord: I raised up a fracture; your wound is painful."
+            },
+            {
+              "reference": "Jeremiah 37:13",
+              "text": "There is no one judging your case; you were treated into pain. There is no benefit for you."
+            },
+            {
+              "reference": "Jeremiah 37:14",
+              "text": "All your friends forgot you; they will certainly not inquire. For I struck you with an enemy’s blow, a firm discipline; upon all your injustice your sins multiplied."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "isaiah/verses.json",
+            "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+          },
+          "source_verse": {
+            "reference": "Isaiah 14:6",
+            "id": "v14-6",
+            "text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+            "display_text": "having struck a nation in wrath with an incurable blow, striking a nation with a blow of anger that did not spare,",
+            "text_sha256": "a759dfc40835877a61c86109e2cc9aee23b115b6587ce3a962dcbf9623760c57"
+          },
+          "reviewer": "Codex author /root/amos_peer_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "jeremiah/verses.json",
+            "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Jeremiah 37:12",
+              "id": "v37-12",
+              "text": "Thus said the Lord: I raised up a fracture; your wound is painful.",
+              "display_text": "Thus said the Lord: I raised up a fracture; your wound is painful.",
+              "text_sha256": "5ff0d7cbc53f2cfa390645eaf80f1db1a62e978cd6e47e4557da78019442ad7f"
+            },
+            {
+              "reference": "Jeremiah 37:13",
+              "id": "v37-13",
+              "text": "There is no one judging your case; you were treated into pain. There is no benefit for you.",
+              "display_text": "There is no one judging your case; you were treated into pain. There is no benefit for you.",
+              "text_sha256": "e9d38d3646b52f9ae9131d2b153a73a3dc6ac43240b6a59f957037071bb62c22"
+            },
+            {
+              "reference": "Jeremiah 37:14",
+              "id": "v37-14",
+              "text": "All your friends forgot you; they will certainly not inquire. For I struck you with an enemy’s blow, a firm discipline; upon all your injustice your sins multiplied.",
+              "display_text": "All your friends forgot you; they will certainly not inquire. For I struck you with an enemy’s blow, a firm discipline; upon all your injustice your sins multiplied.",
+              "text_sha256": "011c61a60101efcc7a1ba8ea4ffdc299d115e7391c073a681870af3ac766a8af"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "9c12b5c97bb852eb16d0b03e1415edfa48068d99c923ca5131842b52bfbbd56f"
+        }
+      ],
+      "new_unretained_candidate_count": 3,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Isaiah 2:18",
+        "Isaiah 8:20",
+        "Isaiah 10:21",
+        "Isaiah 14:6",
+        "Isaiah 22:22",
+        "Isaiah 24:9",
+        "Isaiah 27:7",
+        "Isaiah 41:6",
+        "Isaiah 49:16",
+        "Isaiah 57:12",
+        "Isaiah 59:5",
+        "Isaiah 60:8",
+        "Isaiah 66:8"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
+    }
+  ]
 }

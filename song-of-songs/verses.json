@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Song of Songs",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -41,8 +41,8 @@
     4,
     8
   ],
-  "completed_source_verses": 108,
-  "completed_cross_references": 108,
+  "completed_source_verses": 110,
+  "completed_cross_references": 110,
   "total_chapters": 8,
   "total_source_sections": 8,
   "total_source_verse_units": 117,
@@ -2584,8 +2584,46 @@
           "id": "v5-3",
           "text": "I took off my tunic; how could I put it on? I washed my feet; how could I soil them?",
           "display_text": "I took off my tunic; how could I put it on? I washed my feet; how could I soil them?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "song-of-songs-5-3__luke-11-7-8",
+              "target": "Luke 11:7-8",
+              "verdict": "supported",
+              "relationship": "Reluctance to rise for a visitor at night",
+              "rationale": "After the kinsman's nighttime knocking, the speaker objects that her tunic is off and her feet washed. Luke's person inside answers a midnight request by saying the door is shut and his children are in bed, and initially refuses to rise. Both scenes make nighttime domestic inconvenience a reason to delay answering a visitor; their eventual outcomes and the prayer-teaching setting in Luke remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "198c7f688b42165099152b88b493880ed3371b4ee4c9de45b9b1c2e6aff3e813",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 11:7",
+                  "id": "v11-7",
+                  "text": "and that man will answer from inside, ‘Do not trouble me. The door is already shut, and my children are in bed with me. I cannot get up and give you anything’?",
+                  "display_text": "and that man will answer from inside, ‘Do not trouble me. The door is already shut, and my children are in bed with me. I cannot get up and give you anything’?",
+                  "text_sha256": "a42b850d78de92e70ff797c884f31af8f8dbeb2ef95f24bec4e06627847a2f7b"
+                },
+                {
+                  "reference": "Luke 11:8",
+                  "id": "v11-8",
+                  "text": "I tell you, even if he will not get up and give to him because he is his friend, yet because of his shameless insistence he will rise and give him as much as he needs.",
+                  "display_text": "I tell you, even if he will not get up and give to him because he is his friend, yet because of his shameless insistence he will rise and give him as much as he needs.",
+                  "text_sha256": "87724c33a734c0f666e06ec25b16a9d60d0d6230ad7a065ec6b686b4a46f84de"
+                }
+              ],
+              "target_passage_sha256": "3346ceaccbe9ebb07da078382516f28a093dbb2372d38d0b5cb35436c48e89e3",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Song of Songs 5:4",
@@ -3792,8 +3830,46 @@
           "id": "v7-7",
           "text": "How beautiful and how delightful you have become, love, in your delights!",
           "display_text": "How beautiful and how delightful you have become, love, in your delights!",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "song-of-songs-7-7__proverbs-5-18-19",
+              "target": "Proverbs 5:18-19",
+              "verdict": "supported",
+              "relationship": "Delight in the beloved",
+              "rationale": "The Song praises the beloved as beautiful and delightful, in a passage that affirms belonging to the kinsman. Proverbs urges sharing joy with the wife of one's youth and remaining in the company of one's own woman's affection. Both celebrate joy in the beloved, with Proverbs expressly directing that joy to one's own wife; the Song is not turned into a quotation of Proverbs.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "7d03d99fe7a2e58a0c88b6bb178e2938ef6d7c1a1779c398496124a2073f96c5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 5:18",
+                  "id": "v5-18",
+                  "text": "Let your fountain of water be your own, and share joy with the wife of your youth.",
+                  "display_text": "Let your fountain of water be your own, and share joy with the wife of your youth.",
+                  "text_sha256": "be05a0fd5f1561973ec6d61ef5d6fc98dc1745eff2346eede958282ce5204bcd"
+                },
+                {
+                  "reference": "Proverbs 5:19",
+                  "id": "v5-19",
+                  "text": "Let a deer of affection and a colt of your graces keep company with you. Let your own woman lead you and be with you at every time, for as you move in the company of her affection, you will be one among many.",
+                  "display_text": "Let a deer of affection and a colt of your graces keep company with you. Let your own woman lead you and be with you at every time, for as you move in the company of her affection, you will be one among many.",
+                  "text_sha256": "147567b07faf81498cabd79d7e4943999e5ecf7edd7c4b6414bf38e7a4cbbfb7"
+                }
+              ],
+              "target_passage_sha256": "5f6f06a9ddc2c2b93eb73abc1136f38f18f06e90ca6a5431d189eba7a0b6367b",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Song of Songs 7:8",

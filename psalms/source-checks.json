@@ -78,6 +78,19 @@
       "deferred_source_units": 0,
       "continued_pending_source_observations": 0,
       "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T215146Z",
+      "records": "review-batches/2026-10-31T215146Z.json",
+      "new_source_verses": 34,
+      "new_pairs": 37,
+      "source_units_read": 37,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 37,
+      "resolved_source_deferrals": 34,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 3,
+      "unresolved_retained_cases": 0
     }
   ],
   "canon_manifest": "../canon.json",
@@ -530,6 +543,13 @@
       "path": "zephaniah/verses.json",
       "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "haggai/verses.json",
+      "blob_sha": "b9623d3c2c80b65db6366f940ccbb200a2c4ba5d",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/haggai/verses.json"
     }
   ],
   "unresolved_candidates": [
@@ -5529,16 +5549,239 @@
       "reviewed": "2026-10-30",
       "review_timezone": "America/New_York",
       "review_batch": "2026-10-30T222040Z"
+    },
+    {
+      "source_reference": "Psalms 75:9",
+      "source_text": "From heaven Thou didst cause judgment to be heard; the earth feared and grew quiet,",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reason": "The psalm combines judgment heard from heaven with the earth fearing and growing quiet. Zechariah calls all flesh to reverence because the Lord rose from His holy clouds, but does not state the anticipated silence or heard judgment. The remaining broad divine-appearance response does not establish the proposed particular parallel.",
+      "target": "Zechariah 2:17",
+      "target_units": [
+        {
+          "reference": "Zechariah 2:17",
+          "text": "Let all flesh be reverent before the Lord, for He has risen from His holy clouds."
+        }
+      ],
+      "target_passage_read": true,
+      "source_and_target_read": true,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "psalms/verses.json",
+        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+      },
+      "source_verse": {
+        "reference": "Psalms 75:9",
+        "id": "v75-9",
+        "text": "From heaven Thou didst cause judgment to be heard; the earth feared and grew quiet,",
+        "display_text": "From heaven Thou didst cause judgment to be heard;\nthe earth feared and grew quiet,",
+        "text_sha256": "e27fb02b1ce1edc3c713f933ac06952dfac32fcb54f852482741fb774293a491"
+      },
+      "reviewer": "Codex author /root",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "zechariah/verses.json",
+        "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Zechariah 2:17",
+          "id": "v2-17",
+          "text": "Let all flesh be reverent before the Lord, for He has risen from His holy clouds.",
+          "display_text": "Let all flesh be reverent before the Lord, for He has risen from His holy clouds.",
+          "text_sha256": "4793b0c4a721d5c9af85e276dc3be626591855a11a871510f70c97e42035ca37"
+        }
+      ],
+      "retained": false,
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "1301dc5ae7986206ce83b16979197f0bff368e82ea687bca83d309cb7a20c1a6"
+    },
+    {
+      "source_reference": "Psalms 87:16",
+      "source_text": "I am poor and in toils from my youth; but after being raised up, I was humbled and left helpless.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reason": "The source explicitly places humiliation and helplessness after being raised up. The actual Job passage speaks of being placed amid pains and cast away from salvation; it does not describe the anticipated lifting by wind or that raised-then-humbled sequence. That expected alternative wording is not supplied, and shared affliction alone is insufficient.",
+      "target": "Job 30:20-23",
+      "target_units": [
+        {
+          "reference": "Job 30:20",
+          "text": "I have cried to Thee, and Thou dost not hear me; they stood and observed me."
+        },
+        {
+          "reference": "Job 30:21",
+          "text": "Thou camest upon me without mercy; with a mighty hand Thou didst scourge me."
+        },
+        {
+          "reference": "Job 30:22",
+          "text": "Thou didst place me amid pains and cast me away from salvation."
+        },
+        {
+          "reference": "Job 30:23",
+          "text": "For I know that death will wear me away; for earth is the house of every mortal."
+        }
+      ],
+      "target_passage_read": true,
+      "source_and_target_read": true,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "psalms/verses.json",
+        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+      },
+      "source_verse": {
+        "reference": "Psalms 87:16",
+        "id": "v87-16",
+        "text": "I am poor and in toils from my youth; but after being raised up, I was humbled and left helpless.",
+        "display_text": "I am poor and in toils from my youth;\nbut after being raised up, I was humbled and left helpless.",
+        "text_sha256": "ef862f3c57eb97986e280eecaf5bd69c7ff2196b60bf59a80e4af4155bbcef5d"
+      },
+      "reviewer": "Codex author /root",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "job/verses.json",
+        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Job 30:20",
+          "id": "v30-20",
+          "text": "I have cried to Thee, and Thou dost not hear me; they stood and observed me.",
+          "display_text": "I have cried to Thee, and Thou dost not hear me;\nthey stood and observed me.",
+          "text_sha256": "25788880f1fe4ad7b87cb5f4d13a1de1887a969010ac6c00a64195c1617f5942"
+        },
+        {
+          "reference": "Job 30:21",
+          "id": "v30-21",
+          "text": "Thou camest upon me without mercy; with a mighty hand Thou didst scourge me.",
+          "display_text": "Thou camest upon me without mercy;\nwith a mighty hand Thou didst scourge me.",
+          "text_sha256": "e71ce9757849060719a510040391458011c187acedb7c7c1c316898cd2c1bfba"
+        },
+        {
+          "reference": "Job 30:22",
+          "id": "v30-22",
+          "text": "Thou didst place me amid pains and cast me away from salvation.",
+          "display_text": "Thou didst place me amid pains\nand cast me away from salvation.",
+          "text_sha256": "2bc04f712d4c0bb3b5726f5a7f96826ce501b9c08cede4f0cc66b332d958a79b"
+        },
+        {
+          "reference": "Job 30:23",
+          "id": "v30-23",
+          "text": "For I know that death will wear me away; for earth is the house of every mortal.",
+          "display_text": "For I know that death will wear me away;\nfor earth is the house of every mortal.",
+          "text_sha256": "06a1ff19e057d8a403384e488d1fef5c3c4d79a6b280f96b46fb8529c532c28f"
+        }
+      ],
+      "retained": false,
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "e818446a29e4400d4042e3996415aa5e282534054c096ef508248caabccdeb12"
+    },
+    {
+      "source_reference": "Psalms 118:131",
+      "source_text": "I opened my mouth and drew breath, for I longed for Thy commandments.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reason": "The source opens the mouth and draws breath in longing for commandments. Job describes hearers awaiting his speech like thirsty earth awaiting rain; the expected opening of their mouths is absent. Desire for words alone does not establish the proposed particular mouth-and-breath correspondence.",
+      "target": "Job 29:21-23",
+      "target_units": [
+        {
+          "reference": "Job 29:21",
+          "text": "When they heard me, they paid attention and kept silent at my counsel."
+        },
+        {
+          "reference": "Job 29:22",
+          "text": "They added nothing to my word, and became overjoyed whenever I spoke to them."
+        },
+        {
+          "reference": "Job 29:23",
+          "text": "Like thirsty earth awaiting rain, so they awaited my speech."
+        }
+      ],
+      "target_passage_read": true,
+      "source_and_target_read": true,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "psalms/verses.json",
+        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+      },
+      "source_verse": {
+        "reference": "Psalms 118:131",
+        "id": "v118-131",
+        "text": "I opened my mouth and drew breath, for I longed for Thy commandments.",
+        "display_text": "I opened my mouth and drew breath,\nfor I longed for Thy commandments.",
+        "text_sha256": "fa5744ee06d8f275adda4ffd52566e000371ca89fe3a7beeda2fd1716768dc06"
+      },
+      "reviewer": "Codex author /root",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "job/verses.json",
+        "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Job 29:21",
+          "id": "v29-21",
+          "text": "When they heard me, they paid attention and kept silent at my counsel.",
+          "display_text": "When they heard me, they paid attention\nand kept silent at my counsel.",
+          "text_sha256": "959a59ffea5a1f48314efde1cce02c98fa5ee9187eea996b2c456ddd6b54cbde"
+        },
+        {
+          "reference": "Job 29:22",
+          "id": "v29-22",
+          "text": "They added nothing to my word, and became overjoyed whenever I spoke to them.",
+          "display_text": "They added nothing to my word,\nand became overjoyed whenever I spoke to them.",
+          "text_sha256": "82f6871b3f6bbe2a5f38763b71590439cbeabf2af681a6bcf2e2b5ae37569602"
+        },
+        {
+          "reference": "Job 29:23",
+          "id": "v29-23",
+          "text": "Like thirsty earth awaiting rain, so they awaited my speech.",
+          "display_text": "Like thirsty earth awaiting rain,\nso they awaited my speech.",
+          "text_sha256": "4ec9115fcf77f72827ea573fc93cc6b87b0d20bb3b3e50b96aba57a43c6872df"
+        }
+      ],
+      "retained": false,
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "5ed1cbd947394c2fb36e770866aa4cb1cc490b0de87b349d9950ed52eb9c801f"
     }
   ],
   "checked_scope": {
     "source_passage": "Psalms 1:1-151:7",
     "source_passage_is_review_scope": true,
     "source_units_read": 2534,
-    "source_verse_units": 2175,
-    "deferred_source_units": 359,
-    "retained_pairs": 2288,
-    "distinct_target_verse_units": 2688
+    "source_verse_units": 2209,
+    "deferred_source_units": 325,
+    "retained_pairs": 2325,
+    "distinct_target_verse_units": 2768
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -5559,7 +5802,7 @@
     "First pending source unit: Psalms 4:1",
     "2534 of 2534 original source units read; 0 never reviewed. Deferred units remain incomplete.",
     "Next never-reviewed source: none; all original units read.",
-    "Read but deferred source units: Psalms 4:1, Psalms 4:4, Psalms 5:1, Psalms 5:2, Psalms 5:3, Psalms 5:13, Psalms 6:5, Psalms 6:10, Psalms 6:11, Psalms 7:1, Psalms 7:2, Psalms 7:8, Psalms 7:11, Psalms 7:18, Psalms 9:1, Psalms 9:3, Psalms 9:5, Psalms 9:7, Psalms 9:11, Psalms 9:21, Psalms 9:23, Psalms 9:26, Psalms 9:31, Psalms 9:33, Psalms 9:38, Psalms 10:3, Psalms 10:7, Psalms 11:1, Psalms 11:8, Psalms 11:9, Psalms 12:1, Psalms 12:3, Psalms 13:6, Psalms 15:1, Psalms 15:3, Psalms 15:4, Psalms 15:7, Psalms 16:4, Psalms 16:6, Psalms 16:9, Psalms 16:10, Psalms 16:11, Psalms 16:13, Psalms 16:14, Psalms 18:1, Psalms 18:3, Psalms 18:4, Psalms 18:12, Psalms 18:14, Psalms 19:1, Psalms 20:1, Psalms 20:6, Psalms 20:9, Psalms 20:14, Psalms 21:1, Psalms 21:4, Psalms 21:13, Psalms 21:18, Psalms 23:5, Psalms 23:10, Psalms 24:18, Psalms 24:21, Psalms 25:3, Psalms 25:7, Psalms 25:11, Psalms 26:7, Psalms 28:6, Psalms 28:7, Psalms 28:9, Psalms 29:1, Psalms 29:9, Psalms 29:13, Psalms 30:1, Psalms 30:15, Psalms 30:18, Psalms 30:20, Psalms 30:22, Psalms 30:24, Psalms 31:7, Psalms 32:22, Psalms 33:1, Psalms 33:22, Psalms 34:22, Psalms 35:3, Psalms 35:12, Psalms 37:16, Psalms 37:22, Psalms 39:1, Psalms 39:2, Psalms 40:1, Psalms 40:9, Psalms 41:1, Psalms 41:7, Psalms 43:1, Psalms 43:8, Psalms 43:9, Psalms 43:17, Psalms 43:19, Psalms 44:2, Psalms 44:4, Psalms 44:6, Psalms 44:9, Psalms 44:12, Psalms 44:14, Psalms 44:15, Psalms 44:17, Psalms 45:1, Psalms 46:1, Psalms 46:7, Psalms 46:10, Psalms 47:6, Psalms 47:10, Psalms 47:13, Psalms 48:1, Psalms 48:2, Psalms 48:4, Psalms 48:6, Psalms 48:10, Psalms 48:14, Psalms 48:17, Psalms 48:19, Psalms 49:2, Psalms 49:8, Psalms 49:9, Psalms 49:10, Psalms 50:1, Psalms 50:5, Psalms 51:1, Psalms 51:6, Psalms 51:11, Psalms 53:1, Psalms 53:3, Psalms 53:4, Psalms 53:6, Psalms 54:1, Psalms 54:2, Psalms 54:3, Psalms 54:4, Psalms 54:5, Psalms 54:11, Psalms 54:13, Psalms 54:17, Psalms 54:19, Psalms 55:1, Psalms 55:6, Psalms 55:8, Psalms 55:11, Psalms 56:1, Psalms 56:3, Psalms 57:8, Psalms 57:10, Psalms 58:2, Psalms 58:11, Psalms 58:12, Psalms 58:16, Psalms 59:2, Psalms 59:6, Psalms 60:1, Psalms 60:2, Psalms 60:4, Psalms 61:8, Psalms 61:12, Psalms 62:1, Psalms 62:3, Psalms 62:4, Psalms 63:1, Psalms 63:2, Psalms 63:8, Psalms 64:1, Psalms 64:9, Psalms 64:14, Psalms 65:11, Psalms 65:17, Psalms 65:19, Psalms 65:20, Psalms 66:1, Psalms 67:1, Psalms 67:11, Psalms 67:13, Psalms 67:14, Psalms 67:15, Psalms 67:16, Psalms 67:20, Psalms 67:23, Psalms 67:25, Psalms 67:28, Psalms 67:29, Psalms 67:35, Psalms 68:19, Psalms 68:20, Psalms 68:28, Psalms 68:30, Psalms 68:31, Psalms 70:5, Psalms 70:7, Psalms 70:8, Psalms 70:14, Psalms 70:16, Psalms 70:17, Psalms 71:3, Psalms 71:13, Psalms 72:4, Psalms 72:7, Psalms 72:8, Psalms 72:9, Psalms 72:10, Psalms 72:14, Psalms 72:15, Psalms 72:17, Psalms 72:21, Psalms 72:25, Psalms 73:5, Psalms 74:5, Psalms 74:7, Psalms 75:1, Psalms 75:6, Psalms 75:9, Psalms 75:11, Psalms 76:11, Psalms 77:9, Psalms 77:63, Psalms 77:66, Psalms 79:11, Psalms 79:14, Psalms 80:6, Psalms 82:1, Psalms 82:7, Psalms 82:8, Psalms 83:7, Psalms 83:9, Psalms 84:1, Psalms 85:1, Psalms 85:3, Psalms 85:6, Psalms 86:4, Psalms 87:3, Psalms 87:16, Psalms 88:1, Psalms 88:9, Psalms 88:52, Psalms 89:3, Psalms 89:7, Psalms 89:9, Psalms 89:12, Psalms 89:16, Psalms 89:17, Psalms 90:6, Psalms 90:7, Psalms 91:1, Psalms 91:7, Psalms 91:9, Psalms 91:12, Psalms 93:4, Psalms 93:8, Psalms 93:10, Psalms 93:13, Psalms 93:15, Psalms 93:16, Psalms 93:19, Psalms 94:6, Psalms 98:2, Psalms 100:4, Psalms 101:2, Psalms 101:8, Psalms 101:9, Psalms 102:10, Psalms 103:8, Psalms 103:11, Psalms 103:12, Psalms 103:22, Psalms 103:23, Psalms 104:19, Psalms 104:22, Psalms 107:1, Psalms 108:7, Psalms 108:20, Psalms 109:7, Psalms 115:4, Psalms 117:25, Psalms 118:3, Psalms 118:8, Psalms 118:10, Psalms 118:12, Psalms 118:13, Psalms 118:15, Psalms 118:16, Psalms 118:17, Psalms 118:20, Psalms 118:26, Psalms 118:29, Psalms 118:30, Psalms 118:34, Psalms 118:35, Psalms 118:40, Psalms 118:44, Psalms 118:47, Psalms 118:49, Psalms 118:56, Psalms 118:60, Psalms 118:65, Psalms 118:68, Psalms 118:77, Psalms 118:78, Psalms 118:84, Psalms 118:85, Psalms 118:87, Psalms 118:96, Psalms 118:102, Psalms 118:114, Psalms 118:117, Psalms 118:119, Psalms 118:121, Psalms 118:124, Psalms 118:125, Psalms 118:131, Psalms 118:132, Psalms 118:137, Psalms 118:144, Psalms 118:145, Psalms 118:146, Psalms 118:149, Psalms 118:156, Psalms 118:157, Psalms 118:159, Psalms 118:166, Psalms 118:167, Psalms 118:169, Psalms 118:170, Psalms 118:173, Psalms 119:3, Psalms 119:4, Psalms 119:6, Psalms 121:3, Psalms 121:8, Psalms 121:9, Psalms 122:2, Psalms 122:4, Psalms 126:5, Psalms 128:4, Psalms 128:7, Psalms 130:2, Psalms 131:6, Psalms 138:4, Psalms 138:11, Psalms 138:16, Psalms 138:17, Psalms 138:18, Psalms 138:20, Psalms 139:1, Psalms 139:8, Psalms 140:6, Psalms 143:13, Psalms 143:14, Psalms 144:11, Psalms 147:2, Psalms 147:4, Psalms 148:12, Psalms 149:9, Psalms 151:3",
+    "Read but deferred source units: Psalms 4:1, Psalms 4:4, Psalms 5:1, Psalms 5:2, Psalms 5:3, Psalms 5:13, Psalms 6:5, Psalms 6:10, Psalms 6:11, Psalms 7:1, Psalms 7:2, Psalms 7:8, Psalms 7:11, Psalms 7:18, Psalms 9:1, Psalms 9:3, Psalms 9:5, Psalms 9:7, Psalms 9:11, Psalms 9:21, Psalms 9:23, Psalms 9:26, Psalms 9:31, Psalms 9:33, Psalms 9:38, Psalms 10:3, Psalms 10:7, Psalms 11:1, Psalms 11:8, Psalms 11:9, Psalms 12:1, Psalms 12:3, Psalms 13:6, Psalms 15:1, Psalms 15:3, Psalms 15:4, Psalms 15:7, Psalms 16:4, Psalms 16:6, Psalms 16:9, Psalms 16:10, Psalms 16:11, Psalms 16:13, Psalms 16:14, Psalms 18:1, Psalms 18:3, Psalms 18:4, Psalms 18:12, Psalms 18:14, Psalms 19:1, Psalms 20:1, Psalms 20:6, Psalms 20:9, Psalms 20:14, Psalms 21:1, Psalms 21:4, Psalms 21:13, Psalms 21:18, Psalms 23:5, Psalms 23:10, Psalms 24:18, Psalms 24:21, Psalms 25:3, Psalms 25:7, Psalms 25:11, Psalms 26:7, Psalms 28:6, Psalms 28:7, Psalms 28:9, Psalms 29:1, Psalms 29:9, Psalms 29:13, Psalms 30:1, Psalms 30:15, Psalms 30:18, Psalms 30:20, Psalms 30:22, Psalms 30:24, Psalms 31:7, Psalms 32:22, Psalms 33:1, Psalms 33:22, Psalms 34:22, Psalms 35:3, Psalms 35:12, Psalms 37:16, Psalms 37:22, Psalms 39:1, Psalms 39:2, Psalms 40:1, Psalms 40:9, Psalms 41:1, Psalms 41:7, Psalms 43:1, Psalms 43:8, Psalms 43:9, Psalms 43:17, Psalms 43:19, Psalms 44:6, Psalms 44:12, Psalms 44:15, Psalms 45:1, Psalms 46:1, Psalms 46:7, Psalms 46:10, Psalms 47:6, Psalms 47:10, Psalms 47:13, Psalms 48:1, Psalms 48:2, Psalms 48:4, Psalms 48:6, Psalms 48:10, Psalms 48:14, Psalms 48:19, Psalms 49:2, Psalms 49:8, Psalms 49:9, Psalms 50:1, Psalms 50:5, Psalms 51:1, Psalms 51:6, Psalms 51:11, Psalms 53:1, Psalms 53:3, Psalms 53:4, Psalms 53:6, Psalms 54:1, Psalms 54:2, Psalms 54:3, Psalms 54:4, Psalms 54:11, Psalms 54:17, Psalms 54:19, Psalms 55:1, Psalms 55:8, Psalms 55:11, Psalms 56:1, Psalms 56:3, Psalms 57:8, Psalms 57:10, Psalms 58:2, Psalms 58:11, Psalms 58:12, Psalms 58:16, Psalms 59:2, Psalms 59:6, Psalms 60:1, Psalms 60:2, Psalms 61:8, Psalms 61:12, Psalms 62:1, Psalms 62:3, Psalms 62:4, Psalms 63:1, Psalms 63:2, Psalms 63:8, Psalms 64:1, Psalms 64:9, Psalms 64:14, Psalms 65:17, Psalms 65:19, Psalms 65:20, Psalms 66:1, Psalms 67:1, Psalms 67:11, Psalms 67:13, Psalms 67:14, Psalms 67:15, Psalms 67:16, Psalms 67:20, Psalms 67:23, Psalms 67:28, Psalms 67:29, Psalms 67:35, Psalms 68:19, Psalms 68:30, Psalms 68:31, Psalms 70:5, Psalms 70:8, Psalms 70:14, Psalms 70:16, Psalms 70:17, Psalms 71:13, Psalms 72:4, Psalms 72:7, Psalms 72:8, Psalms 72:9, Psalms 72:10, Psalms 72:14, Psalms 72:15, Psalms 72:21, Psalms 72:25, Psalms 73:5, Psalms 74:5, Psalms 74:7, Psalms 75:1, Psalms 75:9, Psalms 75:11, Psalms 76:11, Psalms 77:9, Psalms 77:63, Psalms 77:66, Psalms 79:11, Psalms 79:14, Psalms 80:6, Psalms 82:1, Psalms 82:7, Psalms 82:8, Psalms 83:7, Psalms 83:9, Psalms 84:1, Psalms 85:1, Psalms 85:3, Psalms 85:6, Psalms 86:4, Psalms 87:3, Psalms 87:16, Psalms 88:1, Psalms 88:9, Psalms 88:52, Psalms 89:3, Psalms 89:7, Psalms 89:9, Psalms 89:12, Psalms 89:16, Psalms 89:17, Psalms 90:6, Psalms 90:7, Psalms 91:1, Psalms 91:7, Psalms 91:9, Psalms 91:12, Psalms 93:4, Psalms 93:8, Psalms 93:10, Psalms 93:13, Psalms 93:15, Psalms 93:16, Psalms 93:19, Psalms 98:2, Psalms 100:4, Psalms 101:2, Psalms 101:8, Psalms 101:9, Psalms 103:8, Psalms 103:12, Psalms 103:22, Psalms 104:19, Psalms 104:22, Psalms 107:1, Psalms 108:7, Psalms 108:20, Psalms 109:7, Psalms 117:25, Psalms 118:3, Psalms 118:8, Psalms 118:10, Psalms 118:12, Psalms 118:13, Psalms 118:15, Psalms 118:16, Psalms 118:17, Psalms 118:20, Psalms 118:26, Psalms 118:29, Psalms 118:30, Psalms 118:34, Psalms 118:35, Psalms 118:40, Psalms 118:44, Psalms 118:47, Psalms 118:49, Psalms 118:56, Psalms 118:60, Psalms 118:65, Psalms 118:68, Psalms 118:77, Psalms 118:78, Psalms 118:85, Psalms 118:87, Psalms 118:96, Psalms 118:114, Psalms 118:117, Psalms 118:124, Psalms 118:125, Psalms 118:131, Psalms 118:132, Psalms 118:137, Psalms 118:144, Psalms 118:145, Psalms 118:146, Psalms 118:149, Psalms 118:156, Psalms 118:157, Psalms 118:159, Psalms 118:166, Psalms 118:167, Psalms 118:169, Psalms 118:170, Psalms 118:173, Psalms 119:3, Psalms 119:4, Psalms 119:6, Psalms 121:3, Psalms 121:8, Psalms 121:9, Psalms 122:2, Psalms 122:4, Psalms 126:5, Psalms 128:4, Psalms 128:7, Psalms 130:2, Psalms 131:6, Psalms 138:4, Psalms 138:11, Psalms 138:16, Psalms 138:17, Psalms 138:18, Psalms 138:20, Psalms 139:1, Psalms 139:8, Psalms 140:6, Psalms 144:11, Psalms 151:3",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Unretained target candidate: Psalms 6:1 / 1 Chronicles 15:21",
@@ -5658,7 +5901,10 @@
     "Unretained target candidate: Psalms 147:2 / Nehemiah 7:1-3",
     "Unretained target candidate: Psalms 149:9 / Deuteronomy 32:41-43",
     "Unretained target candidate: Psalms 151:3 / Psalms 93:9",
-    "Unretained target candidate: Psalms 151:4 / 1 Samuel 16:13"
+    "Unretained target candidate: Psalms 151:4 / 1 Samuel 16:13",
+    "Unretained target candidate: Psalms 75:9 / Zechariah 2:17",
+    "Unretained target candidate: Psalms 87:16 / Job 30:20-23",
+    "Unretained target candidate: Psalms 118:131 / Job 29:21-23"
   ],
   "deferred_source_units": [
     {
@@ -8210,58 +8456,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 44:2",
-      "target": null,
-      "reason": "The tongue compared with a swift scribe's reed and the speaker's good word and works for the king have no sufficiently particular external comparison established beyond speaking or writing in general.",
-      "actual_source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_unit_read": true,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 44:2",
-        "id": "v44-2",
-        "text": "My heart poured forth a good word; I speak my works to the king; my tongue is the reed of a swiftly writing scribe.",
-        "text_sha256": "cd838e5c48451cbfdb0bc4a866d15dc676d7cf1fd758851599ad7524dabfc763"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 44:4",
-      "target": null,
-      "reason": "The command to gird a sword at the thigh addresses an unnamed royal warrior. Generic equipment or a battle account would not establish a specific relationship or identify this king.",
-      "actual_source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_unit_read": true,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 44:4",
-        "id": "v44-4",
-        "text": "Gird your sword upon your thigh, mighty one, in your fairness and your beauty,",
-        "text_sha256": "ab6e38c654d9c3fc45354aa1c50fba57436016debe37ae4db924df13d86e9480"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 44:6",
       "target": null,
       "reason": "Sharpened arrows in the heart of the king's enemies and peoples falling do not name a battle, enemies or a corresponding historical action; no link is retained merely for arrows or victory.",
@@ -8281,32 +8475,6 @@
         "id": "v44-6",
         "text": "Your arrows are sharpened, mighty one—peoples will fall beneath you— in the heart of the king’s enemies.",
         "text_sha256": "4ef1e41666c1814dd38dcacb7156d0b27877e53be4ba4d8f36a40f1f0baee97b"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 44:9",
-      "target": null,
-      "reason": "The fragrant garments and ivory palaces are not identified with the Mosaic holy oil. The separately read recipe shares myrrh but has other ingredients, including iris, and does not establish the same substance or rite.",
-      "actual_source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_unit_read": true,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 44:9",
-        "id": "v44-9",
-        "text": "Myrrh, stacte and cassia come from your garments, from ivory palaces, from which they gladdened you.",
-        "text_sha256": "3290dbe8f0620271f4007854effd8c1365519e63fd79c56ef7ea3921cac7f915"
       },
       "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
       "reviewed": "2026-10-30",
@@ -8340,32 +8508,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 44:14",
-      "target": null,
-      "reason": "The king's daughter, inward glory and gold-fringed embroidery do not establish identity with priestly garments, a named royal woman or a particular sanctuary object.",
-      "actual_source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_unit_read": true,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 44:14",
-        "id": "v44-14",
-        "text": "All the glory of the king’s daughter is within; she is arrayed in gold-fringed, varied embroidery.",
-        "text_sha256": "25e487564065243131adcecb73f1355f4a3cec520a22646a52b37200bee61d47"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 44:15",
       "target": null,
       "reason": "The virgin companions brought behind the daughter to the king remain unnamed; a general royal gathering of women does not establish the same procession or participants.",
@@ -8385,32 +8527,6 @@
         "id": "v44-15",
         "text": "Virgins behind her will be brought to the king; her companions will be brought unto you.",
         "text_sha256": "f8d3cf37922703f9341e3fe9b1d607e9b72c6bafda45aedfead7842031f03e05"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 44:17",
-      "target": null,
-      "reason": "Sons replacing fathers and appointment as rulers throughout the earth are not tied to a named dynasty or genealogy in the actual verse; no such identity is supplied.",
-      "actual_source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_unit_read": true,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 44:17",
-        "id": "v44-17",
-        "text": "In place of your fathers, sons were born unto you; you will establish them as rulers over all the earth.",
-        "text_sha256": "bfb84a836c5c60066f87dca5dcb07ff5c63e367aa54deeb76055286782dac6fc"
       },
       "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
       "reviewed": "2026-10-30",
@@ -8756,32 +8872,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 48:17",
-      "target": null,
-      "reason": "The prohibition of fear when a person grows rich and his house's glory increases has no sufficiently particular external comparison established beyond general warnings about wealth.",
-      "actual_source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_unit_read": true,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 48:17",
-        "id": "v48-17",
-        "text": "Do not fear when a person grows rich and when the glory of his house increases.",
-        "text_sha256": "0f29ee53c784dfdaed5701c2477aec2f82c78d002d3509879650e1b79d875136"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 48:19",
       "target": null,
       "reason": "The blessing of the soul during life and the thanks offered to you when you do good have uncertain referential relations. The unit is not turned into a specific rich person's self-address or a narrated feast.",
@@ -8879,32 +8969,6 @@
         "id": "v49-9",
         "text": "I will not receive calves from your house or young goats from your flocks.",
         "text_sha256": "97eafb083d80b62ba8a6abae33e2eb8dd3d4886eb9c23965014e57815453cc32"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 49:10",
-      "target": null,
-      "reason": "God's ownership of forest animals, mountain beasts and cattle is preserved as this enumeration. No exact external enumeration was established, and the absent familiar thousand-hills wording is not supplied.",
-      "actual_source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_unit_read": true,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 49:10",
-        "id": "v49-10",
-        "text": "For all the forest’s wild animals are Mine, beasts on the mountains and cattle.",
-        "text_sha256": "dd513faf7a8b41f4b5506d52e5e211814421e674edba468059a7d2aac119d11a"
       },
       "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
       "reviewed": "2026-10-30",
@@ -9250,32 +9314,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 54:5",
-      "target": null,
-      "reason": "The troubled heart and dread of death are preserved; a generic similarity to another frightened person would not establish a sufficiently particular connection.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 54:5",
-        "id": "v54-5",
-        "text": "My heart was troubled within me, and dread of death fell upon me.",
-        "text_sha256": "0449166a7fde8e6d05d88a45212301957d2dac5c9e7d12e8767b0f3d932db31b"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 54:11",
       "target": null,
       "reason": "The wording it will circle it upon its walls is retained with its unresolved pronouns. Lawlessness, toil and injustice in the city are not converted into a claim about identifiable enemy watchmen.",
@@ -9295,32 +9333,6 @@
         "id": "v54-11",
         "text": "Day and night it will circle it upon its walls; lawlessness and toil are within it, and injustice,",
         "text_sha256": "6f2cfde1acd3038e3274b1cb9986ab2c47c3e72d5dd95e0c7dc326016a79c3a6"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 54:13",
-      "target": null,
-      "reason": "The counterfactual ability to endure an enemy's reproach or hide from a hater is preserved within the intimate-betrayal complaint; it does not establish a named betrayer for this unit.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 54:13",
-        "id": "v54-13",
-        "text": "For if an enemy had reproached me, I would have endured it; and if the one hating me had boasted against me, I would have hidden from him.",
-        "text_sha256": "5c46fa2836ee3a368d7a9a49458a361b077fd185aa21eefb60e92c8166a99b08"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
       "reviewed": "2026-10-30",
@@ -9399,32 +9411,6 @@
         "id": "v55-1",
         "text": "For the end. Concerning the people far removed from the holy ones. Of David, for an inscription on a pillar, when the foreigners seized him in Gath.",
         "text_sha256": "a0922e9d2355364ae27bd630d108364640dc77fddc477fd06a701430903bc06a"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 55:6",
-      "target": null,
-      "reason": "The enemies detested the speaker's words and thought evil against him. Detested is not replaced with twisted, and no more particular comparison of the actual wording is established.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 55:6",
-        "id": "v55-6",
-        "text": "All day they detested my words; all their thoughts against me are for evil.",
-        "text_sha256": "9a1e7cd931242e7d89ed94fa010ecc07d598c56dc15989cea9a94beae055a578"
       },
       "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
       "reviewed": "2026-10-30",
@@ -9796,32 +9782,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 60:4",
-      "target": null,
-      "reason": "God as hope and a tower of strength before the enemy is preserved. The read Proverbs candidate speaks of greatness of strength, the Lord's name and runners raised high, but does not contain the anticipated tower; that proposed tower match is unestablished.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 60:4",
-        "id": "v60-4",
-        "text": "Thou didst guide me, for Thou becamest my hope, a tower of strength before the enemy.",
-        "text_sha256": "d0af238d1e2f344a387502a86a9c36072ca6ed4b5bb539f9dd4de2a39175b428"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 61:8",
       "target": null,
       "reason": "The confession of salvation, glory, help and hope upon God remains pending; common hope language alone does not supply a sufficiently particular additional relation.",
@@ -10101,32 +10061,6 @@
         "id": "v64-14",
         "text": "The rams of the sheep clothed themselves, and the valleys will abound in grain; they will cry out, for indeed they will sing hymns.",
         "text_sha256": "1a85697c087c48ebc7d61a00f37148cde6addd10458ec4c24c7063d965ee8fbc"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 65:11",
-      "target": null,
-      "reason": "The trap and afflictions upon the back are not assigned to Egyptian slavery or another named captivity from these images alone.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 65:11",
-        "id": "v65-11",
-        "text": "Thou broughtest us into the trap; Thou didst place afflictions upon our back.",
-        "text_sha256": "f6bf3d0f83ba41702e7b5f18aa27aeb674a4650cb5318a948c2ac1a7faa1dce6"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
       "reviewed": "2026-10-30",
@@ -10446,32 +10380,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 67:25",
-      "target": null,
-      "reason": "The divine King's processions in the holy place do not establish the particular ark procession in Chronicles. That historical identification remains a zero-credit candidate.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 67:25",
-        "id": "v67-25",
-        "text": "Thy processions were seen, God, the processions of my God, the King in the holy place.",
-        "text_sha256": "b6910ff4a76750b3170277ee4e7fdcc139889ebce6a9946b0a7695a10b3dfe65"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 67:28",
       "target": null,
       "reason": "Benjamin, Judah, Zebulun and Naphtali are named in this gathering, but no particular historical tribal assembly is identified by these names alone.",
@@ -10576,58 +10484,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 68:20",
-      "target": null,
-      "reason": "God's knowledge of reproach, shame and the people afflicting the speaker who are before Him remains this lament; it does not identify a separate trial scene or a particular historical group.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 68:20",
-        "id": "v68-20",
-        "text": "For Thou knowest my reproach, shame and embarrassment; all those afflicting me are before Thee.",
-        "text_sha256": "6b888633c4dfe5592ab9cd07d67bf629c781af2cadcb5b7b60a3890da2bd6268"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 68:28",
-      "target": null,
-      "reason": "The request to add lawlessness to lawlessness and bar entry into divine righteousness is not flattened into an ordinary forgiveness or judgment formula.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 68:28",
-        "id": "v68-28",
-        "text": "Add lawlessness to their lawlessness, and let them not enter Thy righteousness.",
-        "text_sha256": "fe8c8709981fe19cd668e95c1a21602c781c4d7d0759e50d04fb33c790e56add"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 68:30",
       "target": null,
       "reason": "Poverty, pain and the declaration that the salvation of God's presence supported the speaker have no retained independent link more particular than a general suffering-and-rescue theme.",
@@ -10699,32 +10555,6 @@
         "id": "v70-5",
         "text": "For Thou art my endurance, Lord; the Lord is my hope from my youth.",
         "text_sha256": "222b7644189154b998112c3ab101fa09c69c88000b30c85851a403061dc2af16"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 70:7",
-      "target": null,
-      "reason": "Being a portent to many and having God's strong help do not identify the particular sign-children in Isaiah or another named portent.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 70:7",
-        "id": "v70-7",
-        "text": "I became like a portent to the many, and Thou art a mighty helper.",
-        "text_sha256": "3ab316d82a1946ab6285b6c0dd66a0229db077c7ef6482338266dff9bbae7646"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
       "reviewed": "2026-10-30",
@@ -10829,32 +10659,6 @@
         "id": "v70-17",
         "text": "Thou didst teach me, God, from my youth, and until now I will announce Thy wonders.",
         "text_sha256": "68f5d4a1893686411c251f6d815794837a54e5bec1b5af54f030a8044c826243"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 71:3",
-      "target": null,
-      "reason": "Mountains taking up peace and hills righteousness are not identified with named rulers or transformed into an ordinary agricultural blessing.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 71:3",
-        "id": "v71-3",
-        "text": "Let the mountains take up peace for Thy people, and the hills in righteousness.",
-        "text_sha256": "16fb035cc4d4117f947fc434569fb6702bee589f1d57542bb238c517b37fc305"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
       "reviewed": "2026-10-30",
@@ -11070,32 +10874,6 @@
       "review_batch": "2026-10-30T193838Z"
     },
     {
-      "source_reference": "Psalms 72:17",
-      "target": null,
-      "reason": "Entering the sanctuary changes understanding of the sinners' last things. Generic sanctuary or judgment language alone has not established a sufficiently particular independent match.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 72:17",
-        "id": "v72-17",
-        "text": "until I enter God’s sanctuary and understand their last things.",
-        "text_sha256": "d4e6aa9800a0443a19510655ecd78cf3a779946b7400f3a9a1fe2a1a4939e0b2"
-      },
-      "reviewer": "Codex AI author /root, Psalms72-80 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
       "source_reference": "Psalms 72:21",
       "target": null,
       "reason": "The heart is set ablaze and kidneys altered in the source wording. An imported embittered-heart rendering would replace the evidence, and no secure counterpart for the actual formulation is retained.",
@@ -11245,32 +11023,6 @@
         "id": "v75-1",
         "text": "For the end, among hymns. A psalm of Asaph; a song concerning the Assyrian.",
         "text_sha256": "eed7b932a38702560048e709c9d0c4c00e831aee61cf3ab73a2db55f7e40aa2a"
-      },
-      "reviewer": "Codex AI author /root, Psalms72-80 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T193838Z"
-    },
-    {
-      "source_reference": "Psalms 75:6",
-      "target": null,
-      "reason": "The actual line combines uncomprehending hearts, sleep and men of wealth finding nothing with their hands. It is not converted into a conventional slain-warriors translation.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 75:6",
-        "id": "v75-6",
-        "text": "All those without understanding in heart were troubled; they slept their sleep, and all the men of wealth found nothing with their hands.",
-        "text_sha256": "8f1184931aca360d5e18dc34171dfc12b58848915b72ec4d36f77a04cc035c35"
       },
       "reviewer": "Codex AI author /root, Psalms72-80 packet",
       "reviewed": "2026-10-30",
@@ -12411,32 +12163,6 @@
       "review_batch": "2026-10-30T205609Z"
     },
     {
-      "source_reference": "Psalms 94:6",
-      "target": null,
-      "reason": "The combined summons to bow, fall and weep before the Maker is preserved. Weep is not changed to kneel, and a generic worship command alone is not an independent specific counterpart.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 94:6",
-        "id": "v94-6",
-        "text": "Come, let us bow down and fall before Him, and let us weep before the Lord who made us.",
-        "text_sha256": "48cc63fffa0a302c1720ee642913c69757b90ffef206c37ad41587e23edc1902"
-      },
-      "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 89–101 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T205609Z"
-    },
-    {
       "source_reference": "Psalms 98:2",
       "target": null,
       "reason": "Divine greatness in Zion and exaltation above peoples are preserved without adding another pair merely from the broad Zion-praise theme.",
@@ -12567,32 +12293,6 @@
       "review_batch": "2026-10-30T205609Z"
     },
     {
-      "source_reference": "Psalms 102:10",
-      "target": null,
-      "reason": "The source explicitly denies treatment or repayment according to sins. Ezra 9:13 says God lightened lawless deeds and gave deliverance, but does not expressly describe a lesser punishment. That proposed punitive equivalence remains uncredited; no sufficiently particular supported alternative is retained.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 102:10",
-        "id": "v102-10",
-        "text": "He has not dealt with us according to our sins, nor repaid us according to our lawless deeds,",
-        "text_sha256": "22a69c2627d128a4777fd6a40b410ff33a1e2e495a8c6e526ffbe71de20886a3"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T205609Z"
-    },
-    {
       "source_reference": "Psalms 103:8",
       "target": null,
       "reason": "The rising mountains and descending plains reach their founded place. Genesis 8:5 describes mountain tops appearing as floodwaters recede, not mountains rising and plains descending. Identifying these scenes requires a claim the read texts do not establish.",
@@ -12612,32 +12312,6 @@
         "id": "v103-8",
         "text": "Mountains rise and plains descend to the place Thou didst found for them.",
         "text_sha256": "81d08ed347269eff1ca31f50ff52ed2fa537672669ea4036ab5ab32fc0b19c33"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T205609Z"
-    },
-    {
-      "source_reference": "Psalms 103:11",
-      "target": null,
-      "reason": "Animals drinking and wild donkeys quenching thirst are stated specifically. A general account of wild donkeys or divine food provision would not establish a particular independent drinking comparison; none is retained.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 103:11",
-        "id": "v103-11",
-        "text": "They give drink to all the beasts of the field; wild donkeys will receive it for their thirst.",
-        "text_sha256": "97d2fdb8af30d792ba47ff5fdd331069595f42d8458b5522afdb5b8ce2f006de"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
       "reviewed": "2026-10-30",
@@ -12690,32 +12364,6 @@
         "id": "v103-22",
         "text": "The sun rose, and they gathered, and they will lie down in their enclosures.",
         "text_sha256": "2fe1db4dc845cdd648ea2c7ffb3190a178d680ca3dcead76eb952a4415d1048b"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T205609Z"
-    },
-    {
-      "source_reference": "Psalms 103:23",
-      "target": null,
-      "reason": "The unit describes human work and labor until evening. An ordinary narrative of someone working or returning in the evening would be too general to establish a particular relationship; no supported comparison is retained.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 103:23",
-        "id": "v103-23",
-        "text": "A man will go out to his work and to his labor until evening.",
-        "text_sha256": "caf06e0b7e6de1eeee2dbddd417e5edefae972044f2ee22ee08cf17ac54b765a"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
       "reviewed": "2026-10-30",
@@ -12872,32 +12520,6 @@
         "id": "v109-7",
         "text": "He will drink from a torrent on the way; therefore he will lift his head.",
         "text_sha256": "5b5b630356bc0a0dfd75b95068e5573ab7a25d4e78643b6acfe8c56cc26f3d0f"
-      },
-      "reviewer": "Codex AI author /root, Psalms 106–117 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T205609Z"
-    },
-    {
-      "source_reference": "Psalms 115:4",
-      "target": null,
-      "reason": "Taking the cup of salvation and calling on the Lord is preserved. A Eucharistic identification from the checked cup-of-blessing passage remains unestablished, and no particular supported cup counterpart is retained in this pass.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 115:4",
-        "id": "v115-4",
-        "text": "I will take the cup of salvation and call on the name of the Lord.",
-        "text_sha256": "3dc84b77d3bdb2fa68a20e0fb7ec17780572116fa3dc29591e910743d83e8b3c"
       },
       "reviewer": "Codex AI author /root, Psalms 106–117 packet",
       "reviewed": "2026-10-30",
@@ -13579,33 +13201,6 @@
       "review_batch": "2026-10-30T222040Z"
     },
     {
-      "source_reference": "Psalms 118:84",
-      "target": null,
-      "reason": "The speaker asks how many the servant’s days are and when judgment against pursuers will occur. No stated duration, identified pursuit or particular judgment episode resolves these questions; no chronology was inferred.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 118:84",
-        "id": "v118-84",
-        "text": "How many are the days of Thy servant? When wilt Thou give me judgment against those who pursue me?",
-        "text_sha256": "76c8ac6199618dae594753084b74d5eb7589d65347bb66756df72e5785be0c47"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
       "source_reference": "Psalms 118:85",
       "target": null,
       "reason": "Lawbreakers told idle tales, but not in keeping with the law. They are not described as digging pits in this edition. Whether their tales are the same kind of stories rejected in 1 Timothy remains a separate unresolved comparison.",
@@ -13687,33 +13282,6 @@
       "review_batch": "2026-10-30T222040Z"
     },
     {
-      "source_reference": "Psalms 118:102",
-      "target": null,
-      "reason": "The speaker did not turn from judgments because God instructed him. A particular relationship beyond general divine teaching and persevering obedience was not established.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 118:102",
-        "id": "v118-102",
-        "text": "I did not turn away from Thy judgments, for Thou didst instruct me.",
-        "text_sha256": "239c48f7ada2e67811c52d82b2e571897c84e8ea024ee8296c568982c3deb765"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
       "source_reference": "Psalms 118:114",
       "target": null,
       "reason": "God is called helper and upholder and the word is the object of hope. No more distinctive counterpart beyond common support-and-hope prayer language was established.",
@@ -13761,60 +13329,6 @@
         "id": "v118-117",
         "text": "Help me, and I will be saved; and I will meditate on Thine ordinances continually.",
         "text_sha256": "2d6f78bde3f1887b59de5f88d3afb056d8f09e1dc60562a93f2ce4e32d7736b0"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Psalms 118:119",
-      "target": null,
-      "reason": "The speaker reckoned all sinners as transgressors and therefore loved testimonies. The unit does not describe God removing people like dross; no counterpart to the actual speaker’s reckoning was established.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 118:119",
-        "id": "v118-119",
-        "text": "I reckoned all the sinners of the earth as transgressors; therefore I loved Thy testimonies continually.",
-        "text_sha256": "9448daf0375e37d579ece227407032b073f74b086774eb9a794a5a8fa1d5e229"
-      },
-      "reviewer": "Codex AI author /root/macc13_16_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Psalms 118:121",
-      "target": null,
-      "reason": "The speaker claims to have done judgment and righteousness and asks not to be handed to wrongdoers. No particular adjudicated case or sufficiently distinctive parallel beyond a general claim of just conduct was established.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 118:121",
-        "id": "v118-121",
-        "text": "Sixteen: Ain. I did judgment and righteousness; do not hand me over to those who wrong me.",
-        "text_sha256": "24e8d0bfff08601baaac434fc820ebde6dffbe9f36a1ea4faecebfbcbadbb49c"
       },
       "reviewer": "Codex AI author /root/macc13_16_author",
       "reviewed": "2026-10-30",
@@ -14853,58 +14367,6 @@
       "review_batch": "2026-10-30T222040Z"
     },
     {
-      "source_reference": "Psalms 143:13",
-      "target": null,
-      "reason": "The full storehouses and sheep multiplying are kept in their own whose/their sequence. The researched general agricultural richness does not establish this particular combined scene or the owners’ identity.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 143:13",
-        "id": "v143-13",
-        "text": "Their storehouses full, pouring forth from this to that; their sheep bearing many young, multiplying in their outgoing places.",
-        "text_sha256": "c124375e799de89a18b413dc1adaae15f1be1c96cad4e1048b2949ca4654e20d"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Psalms 143:14",
-      "target": null,
-      "reason": "Fat oxen, no collapse of a fence, no passage out and no cry in squares remain as written. No particular historical security scene or unexpressed translation of these clauses is established.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 143:14",
-        "id": "v143-14",
-        "text": "Their oxen fat; there is no collapse of a fence and no passage out, nor any cry in their squares.",
-        "text_sha256": "d4307210bc345663fd3366d36778b8dc8ee7d66530a149b8e28b97350da38ddd"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
       "source_reference": "Psalms 144:11",
       "target": null,
       "reason": "The original Daniel 7:14 proposal shared broad kingdom, glory and authority language but not a sufficiently particular relation once the different recipients and actions were preserved. It was removed. The separate enduring-kingdom comparison at 144:13 supplies no completion credit here.",
@@ -14924,110 +14386,6 @@
         "id": "v144-11",
         "text": "They will speak of the glory of Thy kingdom and tell of Thy might,",
         "text_sha256": "113e2f76df7acb4f2b15d46c6ed0f67200e932ebc34d49a28d8c9eebb5a7c04a"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Psalms 147:2",
-      "target": null,
-      "reason": "Strengthened gate bars and blessed children in Jerusalem are not explicitly tied to Nehemiah’s gate-watch orders. The inspected narrative says the doors were wedged fast and guards appointed; that does not identify this praise with the narrated event.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 147:2",
-        "id": "v147-2",
-        "text": "For He strengthened the bars of your gates; He blessed your children within you.",
-        "text_sha256": "eee18f83efcf44a76cfb51c66551357ccad16b2c9ca13b1e29680042246b7d0e"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Psalms 147:4",
-      "target": null,
-      "reason": "The sent oracle and swiftly running word require a more particular counterpart than the general effectiveness of God’s sent word. The inspected Isaiah rain-and-word comparison does not expressly state the running or speed.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 147:4",
-        "id": "v147-4",
-        "text": "He sends His oracle to the earth; His word will run swiftly,",
-        "text_sha256": "b6cd4339aaf7cbea8385dfdc6b11227c7cf7bd839622ffdf7d4d43ff23fb359c"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Psalms 148:12",
-      "target": null,
-      "reason": "The young men, young women, old and younger people extend the praise summons across ages. No particular independent assembly or ritual is identified merely from such a general enumeration.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 148:12",
-        "id": "v148-12",
-        "text": "young men and young women, old people with younger people.",
-        "text_sha256": "e41da34e74cdbe46a7b7316fa316ab4477b12f4d240f7d427e75717f030fdeed"
-      },
-      "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Psalms 149:9",
-      "target": null,
-      "reason": "The written judgment remains unnamed. The examined vengeance statement in Deuteronomy does not establish that it is the exact written judgment intended here; no particular document or execution event is credited.",
-      "source_unit_read": true,
-      "source_and_necessary_context_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "psalms/verses.json",
-        "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
-      },
-      "source_verse": {
-        "reference": "Psalms 149:9",
-        "id": "v149-9",
-        "text": "to execute upon them a written judgment. This is glory for all His holy ones.",
-        "text_sha256": "10be9a759a5104870012ca94f768f99351176d3744a6905a84f6313c089f5dd1"
       },
       "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
       "reviewed": "2026-10-30",
@@ -15431,6 +14789,1271 @@
       ],
       "new_completed_source_credit": 1,
       "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 44:2",
+      "original_deferral": {
+        "source_reference": "Psalms 44:2",
+        "target": null,
+        "reason": "The tongue compared with a swift scribe's reed and the speaker's good word and works for the king have no sufficiently particular external comparison established beyond speaking or writing in general.",
+        "actual_source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_unit_read": true,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 44:2",
+          "id": "v44-2",
+          "text": "My heart poured forth a good word; I speak my works to the king; my tongue is the reed of a swiftly writing scribe.",
+          "text_sha256": "cd838e5c48451cbfdb0bc4a866d15dc676d7cf1fd758851599ad7524dabfc763"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "be169e2ad212e9d015d0e76e8ab293b0feebd35c93b8f44b0248136905f380de",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-44-2__jeremiah-43-17-18"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 44:4",
+      "original_deferral": {
+        "source_reference": "Psalms 44:4",
+        "target": null,
+        "reason": "The command to gird a sword at the thigh addresses an unnamed royal warrior. Generic equipment or a battle account would not establish a specific relationship or identify this king.",
+        "actual_source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_unit_read": true,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 44:4",
+          "id": "v44-4",
+          "text": "Gird your sword upon your thigh, mighty one, in your fairness and your beauty,",
+          "text_sha256": "ab6e38c654d9c3fc45354aa1c50fba57436016debe37ae4db924df13d86e9480"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "b67d38014d70d6ab132792227efd610f10b5ef2814aaa791126becc0abba2eb0",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-44-4__song-of-songs-3-7-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 44:9",
+      "original_deferral": {
+        "source_reference": "Psalms 44:9",
+        "target": null,
+        "reason": "The fragrant garments and ivory palaces are not identified with the Mosaic holy oil. The separately read recipe shares myrrh but has other ingredients, including iris, and does not establish the same substance or rite.",
+        "actual_source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_unit_read": true,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 44:9",
+          "id": "v44-9",
+          "text": "Myrrh, stacte and cassia come from your garments, from ivory palaces, from which they gladdened you.",
+          "text_sha256": "3290dbe8f0620271f4007854effd8c1365519e63fd79c56ef7ea3921cac7f915"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "773f46efc28d5d75283c055d2b8c31aa6e27240e21a3b07a3d22d6683c605216",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-44-9__song-of-songs-4-10-14"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 44:14",
+      "original_deferral": {
+        "source_reference": "Psalms 44:14",
+        "target": null,
+        "reason": "The king's daughter, inward glory and gold-fringed embroidery do not establish identity with priestly garments, a named royal woman or a particular sanctuary object.",
+        "actual_source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_unit_read": true,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 44:14",
+          "id": "v44-14",
+          "text": "All the glory of the king’s daughter is within; she is arrayed in gold-fringed, varied embroidery.",
+          "text_sha256": "25e487564065243131adcecb73f1355f4a3cec520a22646a52b37200bee61d47"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "9689f2fbd89323567992770c99e0f9663314809b6fe2e15dd44809619aed06dc",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-44-14__ezekiel-16-10-14"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 44:17",
+      "original_deferral": {
+        "source_reference": "Psalms 44:17",
+        "target": null,
+        "reason": "Sons replacing fathers and appointment as rulers throughout the earth are not tied to a named dynasty or genealogy in the actual verse; no such identity is supplied.",
+        "actual_source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_unit_read": true,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 44:17",
+          "id": "v44-17",
+          "text": "In place of your fathers, sons were born unto you; you will establish them as rulers over all the earth.",
+          "text_sha256": "bfb84a836c5c60066f87dca5dcb07ff5c63e367aa54deeb76055286782dac6fc"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "5ef58e90f28158987c7a6a3d730655c33e6a00bb0a57c4f9439eadbd6ca14050",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-44-17__2-chronicles-11-22"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 48:17",
+      "original_deferral": {
+        "source_reference": "Psalms 48:17",
+        "target": null,
+        "reason": "The prohibition of fear when a person grows rich and his house's glory increases has no sufficiently particular external comparison established beyond general warnings about wealth.",
+        "actual_source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_unit_read": true,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 48:17",
+          "id": "v48-17",
+          "text": "Do not fear when a person grows rich and when the glory of his house increases.",
+          "text_sha256": "0f29ee53c784dfdaed5701c2477aec2f82c78d002d3509879650e1b79d875136"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "010cdd0b248ed2ccdbc9af95f702ad366ce82b4fa9742efa055a8fcfc71a19c6",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-48-17__proverbs-23-4-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 49:10",
+      "original_deferral": {
+        "source_reference": "Psalms 49:10",
+        "target": null,
+        "reason": "God's ownership of forest animals, mountain beasts and cattle is preserved as this enumeration. No exact external enumeration was established, and the absent familiar thousand-hills wording is not supplied.",
+        "actual_source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_unit_read": true,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 49:10",
+          "id": "v49-10",
+          "text": "For all the forest’s wild animals are Mine, beasts on the mountains and cattle.",
+          "text_sha256": "dd513faf7a8b41f4b5506d52e5e211814421e674edba468059a7d2aac119d11a"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author, Psalms 41–50 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "5f0342e4dd04b307f25abf2a0d1a305473339828458404334685370e8d3394ad",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-49-10__1-chronicles-29-14-16"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 54:5",
+      "original_deferral": {
+        "source_reference": "Psalms 54:5",
+        "target": null,
+        "reason": "The troubled heart and dread of death are preserved; a generic similarity to another frightened person would not establish a sufficiently particular connection.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 54:5",
+          "id": "v54-5",
+          "text": "My heart was troubled within me, and dread of death fell upon me.",
+          "text_sha256": "0449166a7fde8e6d05d88a45212301957d2dac5c9e7d12e8767b0f3d932db31b"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "7e2a9ab9184d608037b71acc80d79cd8ecb456eb7332a0466e4dfba36796b7ec",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-54-5__john-12-27-28"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 54:13",
+      "original_deferral": {
+        "source_reference": "Psalms 54:13",
+        "target": null,
+        "reason": "The counterfactual ability to endure an enemy's reproach or hide from a hater is preserved within the intimate-betrayal complaint; it does not establish a named betrayer for this unit.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 54:13",
+          "id": "v54-13",
+          "text": "For if an enemy had reproached me, I would have endured it; and if the one hating me had boasted against me, I would have hidden from him.",
+          "text_sha256": "5c46fa2836ee3a368d7a9a49458a361b077fd185aa21eefb60e92c8166a99b08"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "c956252372fb01e175f3b2288308b1bcdada7481b0e92eb775379f2400160308",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-54-13__micah-7-5-6"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 55:6",
+      "original_deferral": {
+        "source_reference": "Psalms 55:6",
+        "target": null,
+        "reason": "The enemies detested the speaker's words and thought evil against him. Detested is not replaced with twisted, and no more particular comparison of the actual wording is established.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 55:6",
+          "id": "v55-6",
+          "text": "All day they detested my words; all their thoughts against me are for evil.",
+          "text_sha256": "9a1e7cd931242e7d89ed94fa010ecc07d598c56dc15989cea9a94beae055a578"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "35413fa3b678e851735ae93c7cbcaf3bd1cc25da70faab96b56d9b0396641f8f",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-55-6__jeremiah-18-18"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 60:4",
+      "original_deferral": {
+        "source_reference": "Psalms 60:4",
+        "target": null,
+        "reason": "God as hope and a tower of strength before the enemy is preserved. The read Proverbs candidate speaks of greatness of strength, the Lord's name and runners raised high, but does not contain the anticipated tower; that proposed tower match is unestablished.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 60:4",
+          "id": "v60-4",
+          "text": "Thou didst guide me, for Thou becamest my hope, a tower of strength before the enemy.",
+          "text_sha256": "d0af238d1e2f344a387502a86a9c36072ca6ed4b5bb539f9dd4de2a39175b428"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 51–62 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "37473f709eb6beae7fe04e2b500ba9545e4d6b0dfaef0f4219b8f9ab7adec087",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-60-4__judges-9-50-53"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 65:11",
+      "original_deferral": {
+        "source_reference": "Psalms 65:11",
+        "target": null,
+        "reason": "The trap and afflictions upon the back are not assigned to Egyptian slavery or another named captivity from these images alone.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 65:11",
+          "id": "v65-11",
+          "text": "Thou broughtest us into the trap; Thou didst place afflictions upon our back.",
+          "text_sha256": "f6bf3d0f83ba41702e7b5f18aa27aeb674a4650cb5318a948c2ac1a7faa1dce6"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "3562b71268df69d256333b0738c991c1bf8de7093fd757fe07ff1740a2b24bf2",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-65-11__lamentations-1-13"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 67:25",
+      "original_deferral": {
+        "source_reference": "Psalms 67:25",
+        "target": null,
+        "reason": "The divine King's processions in the holy place do not establish the particular ark procession in Chronicles. That historical identification remains a zero-credit candidate.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 67:25",
+          "id": "v67-25",
+          "text": "Thy processions were seen, God, the processions of my God, the King in the holy place.",
+          "text_sha256": "b6910ff4a76750b3170277ee4e7fdcc139889ebce6a9946b0a7695a10b3dfe65"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "160376c3b738c11f4e1ac46a086c7e594242aaf950604b41a098b3e94ab8de95",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-67-25__2-samuel-6-12-15"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 68:20",
+      "original_deferral": {
+        "source_reference": "Psalms 68:20",
+        "target": null,
+        "reason": "God's knowledge of reproach, shame and the people afflicting the speaker who are before Him remains this lament; it does not identify a separate trial scene or a particular historical group.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 68:20",
+          "id": "v68-20",
+          "text": "For Thou knowest my reproach, shame and embarrassment; all those afflicting me are before Thee.",
+          "text_sha256": "6b888633c4dfe5592ab9cd07d67bf629c781af2cadcb5b7b60a3890da2bd6268"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "54537d7480fcb02f324a135447aed715b21dd17b8285642399c44d371dd8a84d",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-68-20__jeremiah-15-15-16"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 68:28",
+      "original_deferral": {
+        "source_reference": "Psalms 68:28",
+        "target": null,
+        "reason": "The request to add lawlessness to lawlessness and bar entry into divine righteousness is not flattened into an ordinary forgiveness or judgment formula.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 68:28",
+          "id": "v68-28",
+          "text": "Add lawlessness to their lawlessness, and let them not enter Thy righteousness.",
+          "text_sha256": "fe8c8709981fe19cd668e95c1a21602c781c4d7d0759e50d04fb33c790e56add"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "de50e55217f425dd246389b834a5289e86c9d616aeb68fdb3fdd16b22fb0b79e",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-68-28__isaiah-30-1"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 70:7",
+      "original_deferral": {
+        "source_reference": "Psalms 70:7",
+        "target": null,
+        "reason": "Being a portent to many and having God's strong help do not identify the particular sign-children in Isaiah or another named portent.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 70:7",
+          "id": "v70-7",
+          "text": "I became like a portent to the many, and Thou art a mighty helper.",
+          "text_sha256": "3ab316d82a1946ab6285b6c0dd66a0229db077c7ef6482338266dff9bbae7646"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "71156d231ad6ff7969f8d126c129a5e70b768fabdd5420c853fd8829f8d14301",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-70-7__ezekiel-12-6-11"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 71:3",
+      "original_deferral": {
+        "source_reference": "Psalms 71:3",
+        "target": null,
+        "reason": "Mountains taking up peace and hills righteousness are not identified with named rulers or transformed into an ordinary agricultural blessing.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 71:3",
+          "id": "v71-3",
+          "text": "Let the mountains take up peace for Thy people, and the hills in righteousness.",
+          "text_sha256": "16fb035cc4d4117f947fc434569fb6702bee589f1d57542bb238c517b37fc305"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms63-71 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "29d16a21f31f457b8b558ae2c3dc93b4a5b7ef77c061d088a90e510937e302f3",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-71-3__isaiah-55-12"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 72:17",
+      "original_deferral": {
+        "source_reference": "Psalms 72:17",
+        "target": null,
+        "reason": "Entering the sanctuary changes understanding of the sinners' last things. Generic sanctuary or judgment language alone has not established a sufficiently particular independent match.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 72:17",
+          "id": "v72-17",
+          "text": "until I enter God’s sanctuary and understand their last things.",
+          "text_sha256": "d4e6aa9800a0443a19510655ecd78cf3a779946b7400f3a9a1fe2a1a4939e0b2"
+        },
+        "reviewer": "Codex AI author /root, Psalms72-80 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "88109cf6fd384ac13d178ed521be339b8dffbafadc125153acaaa319f4422098",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-72-17__job-20-4-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 75:6",
+      "original_deferral": {
+        "source_reference": "Psalms 75:6",
+        "target": null,
+        "reason": "The actual line combines uncomprehending hearts, sleep and men of wealth finding nothing with their hands. It is not converted into a conventional slain-warriors translation.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 75:6",
+          "id": "v75-6",
+          "text": "All those without understanding in heart were troubled; they slept their sleep, and all the men of wealth found nothing with their hands.",
+          "text_sha256": "8f1184931aca360d5e18dc34171dfc12b58848915b72ec4d36f77a04cc035c35"
+        },
+        "reviewer": "Codex AI author /root, Psalms72-80 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T193838Z"
+      },
+      "original_deferral_sha256": "4d6db718228367ece3c8188cb35441acca9dd1700fd5dfc25a47d9fa2746dfbd",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-75-6__job-27-19-21",
+        "psalms-75-6__luke-12-19-20"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 2
+    },
+    {
+      "source_reference": "Psalms 94:6",
+      "original_deferral": {
+        "source_reference": "Psalms 94:6",
+        "target": null,
+        "reason": "The combined summons to bow, fall and weep before the Maker is preserved. Weep is not changed to kneel, and a generic worship command alone is not an independent specific counterpart.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 94:6",
+          "id": "v94-6",
+          "text": "Come, let us bow down and fall before Him, and let us weep before the Lord who made us.",
+          "text_sha256": "48cc63fffa0a302c1720ee642913c69757b90ffef206c37ad41587e23edc1902"
+        },
+        "reviewer": "Codex AI author /root/macc2_1_8_peer (GPT-6), Psalms 89–101 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T205609Z"
+      },
+      "original_deferral_sha256": "3e2747c612d0b31d58c6241b4f48814913eee28979df8846d23d98781561a88c",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-94-6__nehemiah-8-6-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 102:10",
+      "original_deferral": {
+        "source_reference": "Psalms 102:10",
+        "target": null,
+        "reason": "The source explicitly denies treatment or repayment according to sins. Ezra 9:13 says God lightened lawless deeds and gave deliverance, but does not expressly describe a lesser punishment. That proposed punitive equivalence remains uncredited; no sufficiently particular supported alternative is retained.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 102:10",
+          "id": "v102-10",
+          "text": "He has not dealt with us according to our sins, nor repaid us according to our lawless deeds,",
+          "text_sha256": "22a69c2627d128a4777fd6a40b410ff33a1e2e495a8c6e526ffbe71de20886a3"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T205609Z"
+      },
+      "original_deferral_sha256": "d34c6cdea6ad562221937addf1e7827271c520d90d917c8b4ed85ff6be5f73fb",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-102-10__nehemiah-9-30-31"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 103:11",
+      "original_deferral": {
+        "source_reference": "Psalms 103:11",
+        "target": null,
+        "reason": "Animals drinking and wild donkeys quenching thirst are stated specifically. A general account of wild donkeys or divine food provision would not establish a particular independent drinking comparison; none is retained.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 103:11",
+          "id": "v103-11",
+          "text": "They give drink to all the beasts of the field; wild donkeys will receive it for their thirst.",
+          "text_sha256": "97d2fdb8af30d792ba47ff5fdd331069595f42d8458b5522afdb5b8ce2f006de"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T205609Z"
+      },
+      "original_deferral_sha256": "ae4827c6adc4c9b663567076117f460f3a502a82ae94f7769989b155a0547297",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-103-11__jeremiah-14-3-6"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 103:23",
+      "original_deferral": {
+        "source_reference": "Psalms 103:23",
+        "target": null,
+        "reason": "The unit describes human work and labor until evening. An ordinary narrative of someone working or returning in the evening would be too general to establish a particular relationship; no supported comparison is retained.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 103:23",
+          "id": "v103-23",
+          "text": "A man will go out to his work and to his labor until evening.",
+          "text_sha256": "caf06e0b7e6de1eeee2dbddd417e5edefae972044f2ee22ee08cf17ac54b765a"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 102-105 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T205609Z"
+      },
+      "original_deferral_sha256": "a30bfc89346bf014f1b71ba48e690ca598ad11da4025aeca887cdc427931b6f1",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-103-23__john-9-4-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 115:4",
+      "original_deferral": {
+        "source_reference": "Psalms 115:4",
+        "target": null,
+        "reason": "Taking the cup of salvation and calling on the Lord is preserved. A Eucharistic identification from the checked cup-of-blessing passage remains unestablished, and no particular supported cup counterpart is retained in this pass.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 115:4",
+          "id": "v115-4",
+          "text": "I will take the cup of salvation and call on the name of the Lord.",
+          "text_sha256": "3dc84b77d3bdb2fa68a20e0fb7ec17780572116fa3dc29591e910743d83e8b3c"
+        },
+        "reviewer": "Codex AI author /root, Psalms 106–117 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T205609Z"
+      },
+      "original_deferral_sha256": "c197e2011e935ab4a61be0afda7f3b289ef177ad81252ed563ccece805a0cd36",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-115-4__psalms-22-5-6"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 118:84",
+      "original_deferral": {
+        "source_reference": "Psalms 118:84",
+        "target": null,
+        "reason": "The speaker asks how many the servant’s days are and when judgment against pursuers will occur. No stated duration, identified pursuit or particular judgment episode resolves these questions; no chronology was inferred.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 118:84",
+          "id": "v118-84",
+          "text": "How many are the days of Thy servant? When wilt Thou give me judgment against those who pursue me?",
+          "text_sha256": "76c8ac6199618dae594753084b74d5eb7589d65347bb66756df72e5785be0c47"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "a83fc9a7c25a8189e9f4212b82b1c1388f492fc4fcf48f706a937059d0bce500",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-118-84__habakkuk-1-2-4",
+        "psalms-118-84__luke-18-1-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 2
+    },
+    {
+      "source_reference": "Psalms 118:102",
+      "original_deferral": {
+        "source_reference": "Psalms 118:102",
+        "target": null,
+        "reason": "The speaker did not turn from judgments because God instructed him. A particular relationship beyond general divine teaching and persevering obedience was not established.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 118:102",
+          "id": "v118-102",
+          "text": "I did not turn away from Thy judgments, for Thou didst instruct me.",
+          "text_sha256": "239c48f7ada2e67811c52d82b2e571897c84e8ea024ee8296c568982c3deb765"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "9167521d0892e5c63aa0b58d34cece0018dc1cba1656a4e3e89c109d2459e512",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-118-102__isaiah-50-4-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 118:119",
+      "original_deferral": {
+        "source_reference": "Psalms 118:119",
+        "target": null,
+        "reason": "The speaker reckoned all sinners as transgressors and therefore loved testimonies. The unit does not describe God removing people like dross; no counterpart to the actual speaker’s reckoning was established.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 118:119",
+          "id": "v118-119",
+          "text": "I reckoned all the sinners of the earth as transgressors; therefore I loved Thy testimonies continually.",
+          "text_sha256": "9448daf0375e37d579ece227407032b073f74b086774eb9a794a5a8fa1d5e229"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "0461e316569e3bcd73ec8df5b8da636fbcbec5393b7e682e8e91f210e20c2d32",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-118-119__romans-3-19-20"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 118:121",
+      "original_deferral": {
+        "source_reference": "Psalms 118:121",
+        "target": null,
+        "reason": "The speaker claims to have done judgment and righteousness and asks not to be handed to wrongdoers. No particular adjudicated case or sufficiently distinctive parallel beyond a general claim of just conduct was established.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 118:121",
+          "id": "v118-121",
+          "text": "Sixteen: Ain. I did judgment and righteousness; do not hand me over to those who wrong me.",
+          "text_sha256": "24e8d0bfff08601baaac434fc820ebde6dffbe9f36a1ea4faecebfbcbadbb49c"
+        },
+        "reviewer": "Codex AI author /root/macc13_16_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "8d8e07596a7dd061b93a13110174d98f5e9269c198e6f1691aa23dc1a7b53071",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-118-121__jeremiah-22-3"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 143:13",
+      "original_deferral": {
+        "source_reference": "Psalms 143:13",
+        "target": null,
+        "reason": "The full storehouses and sheep multiplying are kept in their own whose/their sequence. The researched general agricultural richness does not establish this particular combined scene or the owners’ identity.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 143:13",
+          "id": "v143-13",
+          "text": "Their storehouses full, pouring forth from this to that; their sheep bearing many young, multiplying in their outgoing places.",
+          "text_sha256": "c124375e799de89a18b413dc1adaae15f1be1c96cad4e1048b2949ca4654e20d"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "6dd5b86924bc27134a7b37fa442011e186ad56530cb9c37e6c8769ddd95b38e7",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-143-13__deuteronomy-28-4-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 143:14",
+      "original_deferral": {
+        "source_reference": "Psalms 143:14",
+        "target": null,
+        "reason": "Fat oxen, no collapse of a fence, no passage out and no cry in squares remain as written. No particular historical security scene or unexpressed translation of these clauses is established.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 143:14",
+          "id": "v143-14",
+          "text": "Their oxen fat; there is no collapse of a fence and no passage out, nor any cry in their squares.",
+          "text_sha256": "d4307210bc345663fd3366d36778b8dc8ee7d66530a149b8e28b97350da38ddd"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "d64be5bc40c43d41af94967cf081a81c42e348bbef2f1c0d2db03d6d0830dbd0",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-143-14__amos-5-16-17"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 147:2",
+      "original_deferral": {
+        "source_reference": "Psalms 147:2",
+        "target": null,
+        "reason": "Strengthened gate bars and blessed children in Jerusalem are not explicitly tied to Nehemiah’s gate-watch orders. The inspected narrative says the doors were wedged fast and guards appointed; that does not identify this praise with the narrated event.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 147:2",
+          "id": "v147-2",
+          "text": "For He strengthened the bars of your gates; He blessed your children within you.",
+          "text_sha256": "eee18f83efcf44a76cfb51c66551357ccad16b2c9ca13b1e29680042246b7d0e"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "8a91fafed409a2b8b10d5623ef85a5bfe8822eed24f7bf8c9983430121207e10",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-147-2__zechariah-2-8-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 147:4",
+      "original_deferral": {
+        "source_reference": "Psalms 147:4",
+        "target": null,
+        "reason": "The sent oracle and swiftly running word require a more particular counterpart than the general effectiveness of God’s sent word. The inspected Isaiah rain-and-word comparison does not expressly state the running or speed.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 147:4",
+          "id": "v147-4",
+          "text": "He sends His oracle to the earth; His word will run swiftly,",
+          "text_sha256": "b6cd4339aaf7cbea8385dfdc6b11227c7cf7bd839622ffdf7d4d43ff23fb359c"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "0a9f872e1e034e856cf43b900ad2c86a0870315422a5831a79d5c6a4e5035098",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-147-4__2-thessalonians-3-1"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 148:12",
+      "original_deferral": {
+        "source_reference": "Psalms 148:12",
+        "target": null,
+        "reason": "The young men, young women, old and younger people extend the praise summons across ages. No particular independent assembly or ritual is identified merely from such a general enumeration.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 148:12",
+          "id": "v148-12",
+          "text": "young men and young women, old people with younger people.",
+          "text_sha256": "e41da34e74cdbe46a7b7316fa316ab4477b12f4d240f7d427e75717f030fdeed"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "b4f355ef75a5e400efc84e60d07cb02cdac8a7b2d463f942cc744f3cc0e31ffa",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-148-12__joel-2-15-17"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Psalms 149:9",
+      "original_deferral": {
+        "source_reference": "Psalms 149:9",
+        "target": null,
+        "reason": "The written judgment remains unnamed. The examined vengeance statement in Deuteronomy does not establish that it is the exact written judgment intended here; no particular document or execution event is credited.",
+        "source_unit_read": true,
+        "source_and_necessary_context_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "psalms/verses.json",
+          "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+        },
+        "source_verse": {
+          "reference": "Psalms 149:9",
+          "id": "v149-9",
+          "text": "to execute upon them a written judgment. This is glory for all His holy ones.",
+          "text_sha256": "10be9a759a5104870012ca94f768f99351176d3744a6905a84f6313c089f5dd1"
+        },
+        "reviewer": "Codex AI author /root/macc9_12_peer, Psalms 136-151 packet",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-30T222040Z"
+      },
+      "original_deferral_sha256": "31eb7a558e00cc503d5cdb7a03eb1050e762c3c0822cca77c6dca6698e3d9337",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "psalms-149-9__1-corinthians-6-2-3",
+        "psalms-149-9__daniel-7-21-22"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 2
     }
   ],
   "pending_revisit_history": [
@@ -15565,6 +16188,666 @@
         "Psalms 27:7",
         "Psalms 34:15",
         "Psalms 37:18"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
+    },
+    {
+      "run_id": "2026-10-31T215146Z",
+      "actual_read_source_references": [
+        "Psalms 44:2",
+        "Psalms 44:4",
+        "Psalms 44:9",
+        "Psalms 44:14",
+        "Psalms 44:17",
+        "Psalms 48:17",
+        "Psalms 49:10",
+        "Psalms 54:5",
+        "Psalms 54:13",
+        "Psalms 55:6",
+        "Psalms 60:4",
+        "Psalms 65:11",
+        "Psalms 67:25",
+        "Psalms 68:20",
+        "Psalms 68:28",
+        "Psalms 70:7",
+        "Psalms 71:3",
+        "Psalms 72:17",
+        "Psalms 75:6",
+        "Psalms 75:9",
+        "Psalms 87:16",
+        "Psalms 94:6",
+        "Psalms 102:10",
+        "Psalms 103:11",
+        "Psalms 103:23",
+        "Psalms 115:4",
+        "Psalms 118:84",
+        "Psalms 118:102",
+        "Psalms 118:119",
+        "Psalms 118:121",
+        "Psalms 118:131",
+        "Psalms 143:13",
+        "Psalms 143:14",
+        "Psalms 147:2",
+        "Psalms 147:4",
+        "Psalms 148:12",
+        "Psalms 149:9"
+      ],
+      "considered_source_references": [
+        "Psalms 40:9",
+        "Psalms 41:1",
+        "Psalms 41:7",
+        "Psalms 43:1",
+        "Psalms 43:8",
+        "Psalms 43:9",
+        "Psalms 43:17",
+        "Psalms 43:19",
+        "Psalms 44:2",
+        "Psalms 44:4",
+        "Psalms 44:6",
+        "Psalms 44:9",
+        "Psalms 44:12",
+        "Psalms 44:14",
+        "Psalms 44:15",
+        "Psalms 44:17",
+        "Psalms 45:1",
+        "Psalms 46:1",
+        "Psalms 46:7",
+        "Psalms 46:10",
+        "Psalms 47:6",
+        "Psalms 47:10",
+        "Psalms 47:13",
+        "Psalms 48:1",
+        "Psalms 48:2",
+        "Psalms 48:4",
+        "Psalms 48:6",
+        "Psalms 48:10",
+        "Psalms 48:14",
+        "Psalms 48:17",
+        "Psalms 48:19",
+        "Psalms 49:2",
+        "Psalms 49:8",
+        "Psalms 49:9",
+        "Psalms 49:10",
+        "Psalms 50:1",
+        "Psalms 50:5",
+        "Psalms 51:1",
+        "Psalms 51:6",
+        "Psalms 51:11",
+        "Psalms 53:1",
+        "Psalms 53:3",
+        "Psalms 53:4",
+        "Psalms 53:6",
+        "Psalms 54:1",
+        "Psalms 54:2",
+        "Psalms 54:3",
+        "Psalms 54:4",
+        "Psalms 54:5",
+        "Psalms 54:11",
+        "Psalms 54:13",
+        "Psalms 54:17",
+        "Psalms 54:19",
+        "Psalms 55:1",
+        "Psalms 55:6",
+        "Psalms 55:8",
+        "Psalms 55:11",
+        "Psalms 56:1",
+        "Psalms 56:3",
+        "Psalms 57:8",
+        "Psalms 57:10",
+        "Psalms 58:2",
+        "Psalms 58:11",
+        "Psalms 58:12",
+        "Psalms 58:16",
+        "Psalms 59:2",
+        "Psalms 59:6",
+        "Psalms 60:1",
+        "Psalms 60:2",
+        "Psalms 60:4",
+        "Psalms 61:8",
+        "Psalms 61:12",
+        "Psalms 62:1",
+        "Psalms 62:3",
+        "Psalms 62:4",
+        "Psalms 63:1",
+        "Psalms 63:2",
+        "Psalms 63:8",
+        "Psalms 64:1",
+        "Psalms 64:9",
+        "Psalms 64:14",
+        "Psalms 65:11",
+        "Psalms 65:17",
+        "Psalms 65:19",
+        "Psalms 65:20",
+        "Psalms 66:1",
+        "Psalms 67:1",
+        "Psalms 67:11",
+        "Psalms 67:13",
+        "Psalms 67:14",
+        "Psalms 67:15",
+        "Psalms 67:16",
+        "Psalms 67:20",
+        "Psalms 67:23",
+        "Psalms 67:25",
+        "Psalms 67:28",
+        "Psalms 67:29",
+        "Psalms 67:35",
+        "Psalms 68:19",
+        "Psalms 68:20",
+        "Psalms 68:28",
+        "Psalms 68:30",
+        "Psalms 68:31",
+        "Psalms 70:5",
+        "Psalms 70:7",
+        "Psalms 70:8",
+        "Psalms 70:14",
+        "Psalms 70:16",
+        "Psalms 70:17",
+        "Psalms 71:3",
+        "Psalms 71:13",
+        "Psalms 72:4",
+        "Psalms 72:7",
+        "Psalms 72:8",
+        "Psalms 72:9",
+        "Psalms 72:10",
+        "Psalms 72:14",
+        "Psalms 72:15",
+        "Psalms 72:17",
+        "Psalms 72:21",
+        "Psalms 72:25",
+        "Psalms 73:5",
+        "Psalms 74:5",
+        "Psalms 74:7",
+        "Psalms 75:1",
+        "Psalms 75:6",
+        "Psalms 75:9",
+        "Psalms 75:11",
+        "Psalms 76:11",
+        "Psalms 77:9",
+        "Psalms 77:63",
+        "Psalms 77:66",
+        "Psalms 79:11",
+        "Psalms 79:14",
+        "Psalms 80:6",
+        "Psalms 82:1",
+        "Psalms 82:7",
+        "Psalms 82:8",
+        "Psalms 83:7",
+        "Psalms 83:9",
+        "Psalms 84:1",
+        "Psalms 85:1",
+        "Psalms 85:3",
+        "Psalms 85:6",
+        "Psalms 86:4",
+        "Psalms 87:3",
+        "Psalms 87:16",
+        "Psalms 88:1",
+        "Psalms 88:9",
+        "Psalms 88:52",
+        "Psalms 89:3",
+        "Psalms 89:7",
+        "Psalms 89:9",
+        "Psalms 89:12",
+        "Psalms 89:16",
+        "Psalms 89:17",
+        "Psalms 90:6",
+        "Psalms 90:7",
+        "Psalms 91:1",
+        "Psalms 91:7",
+        "Psalms 91:9",
+        "Psalms 91:12",
+        "Psalms 93:4",
+        "Psalms 93:8",
+        "Psalms 93:10",
+        "Psalms 93:13",
+        "Psalms 93:15",
+        "Psalms 93:16",
+        "Psalms 93:19",
+        "Psalms 94:6",
+        "Psalms 98:2",
+        "Psalms 100:4",
+        "Psalms 101:2",
+        "Psalms 101:8",
+        "Psalms 101:9",
+        "Psalms 102:10",
+        "Psalms 103:8",
+        "Psalms 103:11",
+        "Psalms 103:12",
+        "Psalms 103:22",
+        "Psalms 103:23",
+        "Psalms 104:19",
+        "Psalms 104:22",
+        "Psalms 107:1",
+        "Psalms 108:7",
+        "Psalms 108:20",
+        "Psalms 109:7",
+        "Psalms 115:4",
+        "Psalms 117:25",
+        "Psalms 118:3",
+        "Psalms 118:8",
+        "Psalms 118:10",
+        "Psalms 118:12",
+        "Psalms 118:13",
+        "Psalms 118:15",
+        "Psalms 118:16",
+        "Psalms 118:17",
+        "Psalms 118:20",
+        "Psalms 118:26",
+        "Psalms 118:29",
+        "Psalms 118:30",
+        "Psalms 118:34",
+        "Psalms 118:35",
+        "Psalms 118:40",
+        "Psalms 118:44",
+        "Psalms 118:47",
+        "Psalms 118:49",
+        "Psalms 118:56",
+        "Psalms 118:60",
+        "Psalms 118:65",
+        "Psalms 118:68",
+        "Psalms 118:77",
+        "Psalms 118:78",
+        "Psalms 118:84",
+        "Psalms 118:85",
+        "Psalms 118:87",
+        "Psalms 118:96",
+        "Psalms 118:102",
+        "Psalms 118:114",
+        "Psalms 118:117",
+        "Psalms 118:119",
+        "Psalms 118:121",
+        "Psalms 118:124",
+        "Psalms 118:125",
+        "Psalms 118:131",
+        "Psalms 118:132",
+        "Psalms 118:137",
+        "Psalms 118:144",
+        "Psalms 118:145",
+        "Psalms 118:146",
+        "Psalms 118:149",
+        "Psalms 118:156",
+        "Psalms 118:157",
+        "Psalms 118:159",
+        "Psalms 118:166",
+        "Psalms 118:167",
+        "Psalms 118:169",
+        "Psalms 118:170",
+        "Psalms 118:173",
+        "Psalms 119:3",
+        "Psalms 119:4",
+        "Psalms 119:6",
+        "Psalms 121:3",
+        "Psalms 121:8",
+        "Psalms 121:9",
+        "Psalms 122:2",
+        "Psalms 122:4",
+        "Psalms 126:5",
+        "Psalms 128:4",
+        "Psalms 128:7",
+        "Psalms 130:2",
+        "Psalms 131:6",
+        "Psalms 138:4",
+        "Psalms 138:11",
+        "Psalms 138:16",
+        "Psalms 138:17",
+        "Psalms 138:18",
+        "Psalms 138:20",
+        "Psalms 139:1",
+        "Psalms 139:8",
+        "Psalms 140:6",
+        "Psalms 143:13",
+        "Psalms 143:14",
+        "Psalms 144:11",
+        "Psalms 147:2",
+        "Psalms 147:4",
+        "Psalms 148:12",
+        "Psalms 149:9",
+        "Psalms 151:3"
+      ],
+      "continued_pending_observations": [
+        {
+          "source_reference": "Psalms 75:9",
+          "source_text": "From heaven Thou didst cause judgment to be heard; the earth feared and grew quiet,",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "reason": "The psalm combines judgment heard from heaven with the earth fearing and growing quiet. Zechariah calls all flesh to reverence because the Lord rose from His holy clouds, but does not state the anticipated silence or heard judgment. The remaining broad divine-appearance response does not establish the proposed particular parallel.",
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "source_verse": {
+            "reference": "Psalms 75:9",
+            "id": "v75-9",
+            "text": "From heaven Thou didst cause judgment to be heard; the earth feared and grew quiet,",
+            "display_text": "From heaven Thou didst cause judgment to be heard;\nthe earth feared and grew quiet,",
+            "text_sha256": "e27fb02b1ce1edc3c713f933ac06952dfac32fcb54f852482741fb774293a491"
+          },
+          "reviewer": "Codex author /root",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target": null
+        },
+        {
+          "source_reference": "Psalms 87:16",
+          "source_text": "I am poor and in toils from my youth; but after being raised up, I was humbled and left helpless.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "reason": "The source explicitly places humiliation and helplessness after being raised up. The actual Job passage speaks of being placed amid pains and cast away from salvation; it does not describe the anticipated lifting by wind or that raised-then-humbled sequence. That expected alternative wording is not supplied, and shared affliction alone is insufficient.",
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "source_verse": {
+            "reference": "Psalms 87:16",
+            "id": "v87-16",
+            "text": "I am poor and in toils from my youth; but after being raised up, I was humbled and left helpless.",
+            "display_text": "I am poor and in toils from my youth;\nbut after being raised up, I was humbled and left helpless.",
+            "text_sha256": "ef862f3c57eb97986e280eecaf5bd69c7ff2196b60bf59a80e4af4155bbcef5d"
+          },
+          "reviewer": "Codex author /root",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target": null
+        },
+        {
+          "source_reference": "Psalms 118:131",
+          "source_text": "I opened my mouth and drew breath, for I longed for Thy commandments.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "reason": "The source opens the mouth and draws breath in longing for commandments. Job describes hearers awaiting his speech like thirsty earth awaiting rain; the expected opening of their mouths is absent. Desire for words alone does not establish the proposed particular mouth-and-breath correspondence.",
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "source_verse": {
+            "reference": "Psalms 118:131",
+            "id": "v118-131",
+            "text": "I opened my mouth and drew breath, for I longed for Thy commandments.",
+            "display_text": "I opened my mouth and drew breath,\nfor I longed for Thy commandments.",
+            "text_sha256": "fa5744ee06d8f275adda4ffd52566e000371ca89fe3a7beeda2fd1716768dc06"
+          },
+          "reviewer": "Codex author /root",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target": null
+        }
+      ],
+      "unretained_candidate_observations": [
+        {
+          "source_reference": "Psalms 75:9",
+          "source_text": "From heaven Thou didst cause judgment to be heard; the earth feared and grew quiet,",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "reason": "The psalm combines judgment heard from heaven with the earth fearing and growing quiet. Zechariah calls all flesh to reverence because the Lord rose from His holy clouds, but does not state the anticipated silence or heard judgment. The remaining broad divine-appearance response does not establish the proposed particular parallel.",
+          "target": "Zechariah 2:17",
+          "target_units": [
+            {
+              "reference": "Zechariah 2:17",
+              "text": "Let all flesh be reverent before the Lord, for He has risen from His holy clouds."
+            }
+          ],
+          "target_passage_read": true,
+          "source_and_target_read": true,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "source_verse": {
+            "reference": "Psalms 75:9",
+            "id": "v75-9",
+            "text": "From heaven Thou didst cause judgment to be heard; the earth feared and grew quiet,",
+            "display_text": "From heaven Thou didst cause judgment to be heard;\nthe earth feared and grew quiet,",
+            "text_sha256": "e27fb02b1ce1edc3c713f933ac06952dfac32fcb54f852482741fb774293a491"
+          },
+          "reviewer": "Codex author /root",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "zechariah/verses.json",
+            "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Zechariah 2:17",
+              "id": "v2-17",
+              "text": "Let all flesh be reverent before the Lord, for He has risen from His holy clouds.",
+              "display_text": "Let all flesh be reverent before the Lord, for He has risen from His holy clouds.",
+              "text_sha256": "4793b0c4a721d5c9af85e276dc3be626591855a11a871510f70c97e42035ca37"
+            }
+          ],
+          "retained": false,
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "1301dc5ae7986206ce83b16979197f0bff368e82ea687bca83d309cb7a20c1a6"
+        },
+        {
+          "source_reference": "Psalms 87:16",
+          "source_text": "I am poor and in toils from my youth; but after being raised up, I was humbled and left helpless.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "reason": "The source explicitly places humiliation and helplessness after being raised up. The actual Job passage speaks of being placed amid pains and cast away from salvation; it does not describe the anticipated lifting by wind or that raised-then-humbled sequence. That expected alternative wording is not supplied, and shared affliction alone is insufficient.",
+          "target": "Job 30:20-23",
+          "target_units": [
+            {
+              "reference": "Job 30:20",
+              "text": "I have cried to Thee, and Thou dost not hear me; they stood and observed me."
+            },
+            {
+              "reference": "Job 30:21",
+              "text": "Thou camest upon me without mercy; with a mighty hand Thou didst scourge me."
+            },
+            {
+              "reference": "Job 30:22",
+              "text": "Thou didst place me amid pains and cast me away from salvation."
+            },
+            {
+              "reference": "Job 30:23",
+              "text": "For I know that death will wear me away; for earth is the house of every mortal."
+            }
+          ],
+          "target_passage_read": true,
+          "source_and_target_read": true,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "source_verse": {
+            "reference": "Psalms 87:16",
+            "id": "v87-16",
+            "text": "I am poor and in toils from my youth; but after being raised up, I was humbled and left helpless.",
+            "display_text": "I am poor and in toils from my youth;\nbut after being raised up, I was humbled and left helpless.",
+            "text_sha256": "ef862f3c57eb97986e280eecaf5bd69c7ff2196b60bf59a80e4af4155bbcef5d"
+          },
+          "reviewer": "Codex author /root",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Job 30:20",
+              "id": "v30-20",
+              "text": "I have cried to Thee, and Thou dost not hear me; they stood and observed me.",
+              "display_text": "I have cried to Thee, and Thou dost not hear me;\nthey stood and observed me.",
+              "text_sha256": "25788880f1fe4ad7b87cb5f4d13a1de1887a969010ac6c00a64195c1617f5942"
+            },
+            {
+              "reference": "Job 30:21",
+              "id": "v30-21",
+              "text": "Thou camest upon me without mercy; with a mighty hand Thou didst scourge me.",
+              "display_text": "Thou camest upon me without mercy;\nwith a mighty hand Thou didst scourge me.",
+              "text_sha256": "e71ce9757849060719a510040391458011c187acedb7c7c1c316898cd2c1bfba"
+            },
+            {
+              "reference": "Job 30:22",
+              "id": "v30-22",
+              "text": "Thou didst place me amid pains and cast me away from salvation.",
+              "display_text": "Thou didst place me amid pains\nand cast me away from salvation.",
+              "text_sha256": "2bc04f712d4c0bb3b5726f5a7f96826ce501b9c08cede4f0cc66b332d958a79b"
+            },
+            {
+              "reference": "Job 30:23",
+              "id": "v30-23",
+              "text": "For I know that death will wear me away; for earth is the house of every mortal.",
+              "display_text": "For I know that death will wear me away;\nfor earth is the house of every mortal.",
+              "text_sha256": "06a1ff19e057d8a403384e488d1fef5c3c4d79a6b280f96b46fb8529c532c28f"
+            }
+          ],
+          "retained": false,
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "e818446a29e4400d4042e3996415aa5e282534054c096ef508248caabccdeb12"
+        },
+        {
+          "source_reference": "Psalms 118:131",
+          "source_text": "I opened my mouth and drew breath, for I longed for Thy commandments.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "reason": "The source opens the mouth and draws breath in longing for commandments. Job describes hearers awaiting his speech like thirsty earth awaiting rain; the expected opening of their mouths is absent. Desire for words alone does not establish the proposed particular mouth-and-breath correspondence.",
+          "target": "Job 29:21-23",
+          "target_units": [
+            {
+              "reference": "Job 29:21",
+              "text": "When they heard me, they paid attention and kept silent at my counsel."
+            },
+            {
+              "reference": "Job 29:22",
+              "text": "They added nothing to my word, and became overjoyed whenever I spoke to them."
+            },
+            {
+              "reference": "Job 29:23",
+              "text": "Like thirsty earth awaiting rain, so they awaited my speech."
+            }
+          ],
+          "target_passage_read": true,
+          "source_and_target_read": true,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "psalms/verses.json",
+            "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+          },
+          "source_verse": {
+            "reference": "Psalms 118:131",
+            "id": "v118-131",
+            "text": "I opened my mouth and drew breath, for I longed for Thy commandments.",
+            "display_text": "I opened my mouth and drew breath,\nfor I longed for Thy commandments.",
+            "text_sha256": "fa5744ee06d8f275adda4ffd52566e000371ca89fe3a7beeda2fd1716768dc06"
+          },
+          "reviewer": "Codex author /root",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "job/verses.json",
+            "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Job 29:21",
+              "id": "v29-21",
+              "text": "When they heard me, they paid attention and kept silent at my counsel.",
+              "display_text": "When they heard me, they paid attention\nand kept silent at my counsel.",
+              "text_sha256": "959a59ffea5a1f48314efde1cce02c98fa5ee9187eea996b2c456ddd6b54cbde"
+            },
+            {
+              "reference": "Job 29:22",
+              "id": "v29-22",
+              "text": "They added nothing to my word, and became overjoyed whenever I spoke to them.",
+              "display_text": "They added nothing to my word,\nand became overjoyed whenever I spoke to them.",
+              "text_sha256": "82f6871b3f6bbe2a5f38763b71590439cbeabf2af681a6bcf2e2b5ae37569602"
+            },
+            {
+              "reference": "Job 29:23",
+              "id": "v29-23",
+              "text": "Like thirsty earth awaiting rain, so they awaited my speech.",
+              "display_text": "Like thirsty earth awaiting rain,\nso they awaited my speech.",
+              "text_sha256": "4ec9115fcf77f72827ea573fc93cc6b87b0d20bb3b3e50b96aba57a43c6872df"
+            }
+          ],
+          "retained": false,
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "5ed1cbd947394c2fb36e770866aa4cb1cc490b0de87b349d9950ed52eb9c801f"
+        }
+      ],
+      "new_unretained_candidate_count": 3,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Psalms 44:2",
+        "Psalms 44:4",
+        "Psalms 44:9",
+        "Psalms 44:14",
+        "Psalms 44:17",
+        "Psalms 48:17",
+        "Psalms 49:10",
+        "Psalms 54:5",
+        "Psalms 54:13",
+        "Psalms 55:6",
+        "Psalms 60:4",
+        "Psalms 65:11",
+        "Psalms 67:25",
+        "Psalms 68:20",
+        "Psalms 68:28",
+        "Psalms 70:7",
+        "Psalms 71:3",
+        "Psalms 72:17",
+        "Psalms 75:6",
+        "Psalms 94:6",
+        "Psalms 102:10",
+        "Psalms 103:11",
+        "Psalms 103:23",
+        "Psalms 115:4",
+        "Psalms 118:84",
+        "Psalms 118:102",
+        "Psalms 118:119",
+        "Psalms 118:121",
+        "Psalms 143:13",
+        "Psalms 143:14",
+        "Psalms 147:2",
+        "Psalms 147:4",
+        "Psalms 148:12",
+        "Psalms 149:9"
       ],
       "completion_credit_for_consideration_or_rereading": 0
     }

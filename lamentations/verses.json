@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Lamentations",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -41,8 +41,8 @@
     1,
     2
   ],
-  "completed_source_verses": 136,
-  "completed_cross_references": 136,
+  "completed_source_verses": 138,
+  "completed_cross_references": 138,
   "total_chapters": 5,
   "total_source_sections": 5,
   "total_source_verse_units": 150,
@@ -3464,8 +3464,39 @@
           "id": "v3-39",
           "text": "Why should a living person grumble, a man concerning his sin?",
           "display_text": "Why should a living person grumble, a man concerning his sin?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-3-39__proverbs-19-3",
+              "target": "Proverbs 19:3",
+              "verdict": "supported",
+              "relationship": "Complaint considered alongside one's own wrongdoing",
+              "rationale": "Lamentations questions a living man's grumbling concerning his sin, then calls for examined ways and confession. Proverbs describes a man's own foolishness ruining his ways while he blames God. Both place complaint beside the complainant's own fault; Proverbs explicitly names blaming God, whereas that object is not supplied to Lamentations' question as if stated there.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "5fbc06e850a7d2dc5af41b26d5cc796108abafc515fbcef664fa78f1dc6e2cc0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 19:3",
+                  "id": "v19-3",
+                  "text": "A man’s foolishness ruins his ways, but in his heart he blames God.",
+                  "display_text": "A man’s foolishness ruins his ways, but in his heart he blames God.",
+                  "text_sha256": "2b78d9895d9db6789f03331517627c0653cdf2c42aa0341f0b6978be315c3b67"
+                }
+              ],
+              "target_passage_sha256": "cd070ad967038fa39fc29795c16f1520b2c2f2791f08cb22fda2d0d7b694e1bd",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Lamentations 3:40",
@@ -4584,8 +4615,46 @@
           "id": "v4-3",
           "text": "Even dragons bared breasts, and their young suckled; the daughters of my people have become incurable, like a sparrow in the wilderness.",
           "display_text": "Even dragons bared breasts, and their young suckled;\nthe daughters of my people have become incurable, like a sparrow in the wilderness.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-4-3__psalms-101-7-8",
+              "target": "Psalms 101:7-8",
+              "verdict": "supported",
+              "relationship": "Desolate bird similes within lament",
+              "rationale": "Lamentations compares the people's incurable daughters with a sparrow in the wilderness. The lamenting psalmist becomes like a wilderness pelican and a little bird alone on a roof. Both use a bird in a desolate or isolated setting to portray human distress. The bird species and settings differ, and the psalm does not explain the dragons' nursing or replace the source's sparrow with another creature.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "bb54ec432eeed38228f4a1654edce08ed1c403108ecb71c93f569f9f79756ff5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 101:7",
+                  "id": "v101-7",
+                  "text": "I became like a wilderness pelican; I became like a night raven on a house site.",
+                  "display_text": "I became like a wilderness pelican;\nI became like a night raven on a house site.",
+                  "text_sha256": "b3ac1d03b87ac0d4ef3a84285e6b770fade63133211a48ff676bf581416ffbac"
+                },
+                {
+                  "reference": "Psalms 101:8",
+                  "id": "v101-8",
+                  "text": "I stayed awake and became like a little bird alone on a roof.",
+                  "display_text": "I stayed awake and became\nlike a little bird alone on a roof.",
+                  "text_sha256": "de0f72b13a163496a44c572d2a374f02838a12150eec9f3a40de9795cb0c48cd"
+                }
+              ],
+              "target_passage_sha256": "65b460a4b0ef459449ef47c918060c133909356812696ebb7461e43e524837e1",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Lamentations 4:4",

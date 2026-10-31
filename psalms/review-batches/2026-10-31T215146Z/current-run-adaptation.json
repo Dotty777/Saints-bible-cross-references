@@ -1,0 +1,52 @@
+{
+  "run_id": "2026-10-31T215146Z",
+  "base_commit": "d7a140885e7df06c51a4a960d8d7e636e97633ce",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "prior_accepted_helper_sha256": "b915f6fb47c1c8f7714f8deeeb4ee5c29a5ce746036ac71435213ff664b12092",
+  "prior_source_snapshots": [
+    {
+      "file": "accepted-prior-incremental.py.raw.txt",
+      "sha256": "b915f6fb47c1c8f7714f8deeeb4ee5c29a5ce746036ac71435213ff664b12092"
+    },
+    {
+      "file": "accepted-prior-passages.py.raw.txt",
+      "sha256": "8d79df2502ce7abf82b41ed6b78c13888a12fdecdfe87b47687073f877c634b5"
+    },
+    {
+      "file": "accepted-prior-book-author.py.raw.txt",
+      "sha256": "31d05927f77904e05a46fc7f40f503bda321532d9da13697a8ac72219a04d45e"
+    },
+    {
+      "file": "accepted-prior-freeze-book-author.py.raw.txt",
+      "sha256": "195ec3e4da5c2e28e9b8c10c820e35c00e3c7e733ee8155e8856796c06780aa1"
+    },
+    {
+      "file": "accepted-prior-build-author-cases.py.raw.txt",
+      "sha256": "3193df10a5b09cece60c3b34e5a392a0eebfe73cfbcae32afb24f4dfd0f9b0c9"
+    }
+  ],
+  "exact_helper_diff": {
+    "file": "current-run-helper.diff.txt",
+    "sha256": "7a06bdcf4c89b673f35dcceb3e9e95924d6964b9e67f35c4eaaec4194068c5c9"
+  },
+  "baseline_evidence": {
+    "file": "baseline-proof.json",
+    "sha256": "68e293f79d16c1fe0d66e61df9e0ccd449db8fd80e4bfc2d71499c76dee9652d"
+  },
+  "focused_probe": {
+    "file": "current-run-adaptation-probe-result.json",
+    "sha256": "3bd998de3a466a10dd4f350f861ea2c5e852b1a5b67a59d77304b0f07cc8b8ce"
+  },
+  "changes": [
+    "Candidate selection excludes exact prior considered references from before-progress.json, so the new canonical cursor begins at Psalms 40:9 and does not repeat the prior 1,124 considered sources.",
+    "Author/freezer current-run assertion updated; selected source-section labels derive from existing native chapter membership, including Sirach Prologue chapter 0.",
+    "Passages and case-builder unchanged. Accepted optional-section fallback, staged unchanged-readable auditing, historical preservation, repeated-candidate deduplication, transactional apply/rollback and independent NT reconciliation retained unchanged."
+  ],
+  "baseline_git_objects": 216,
+  "historical_runs": 53,
+  "prior_considered_source_units": 1124,
+  "candidate_source_units": 787,
+  "production_writes": 0,
+  "completion_credit": 0,
+  "created_at_utc": "2026-10-31T21:58:27.329359+00:00"
+}

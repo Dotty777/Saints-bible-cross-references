@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "Proverbs",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new Greek, Hebrew or critical-apparatus verification.",
   "numbering": "Exact original nested chapter/verse order, references and anchors retained. The actual inventory contains 939 units in 31 native chapters and 34 original source sections; continuation units and numeric gaps are recorded in inventory.json.",
-  "method": "Complete actual source and target passages with necessary context were read and each retained explanation separately reread in recorded batches. Source-only deferrals and unresolved candidates receive zero completion credit. Technical inventory is separate from semantic review.",
+  "method": "Historical actual source reading is preserved. This run selectively reevaluated pending sources with new actual target/context evidence and separately reread supported explanations. Consideration, repeated readings and unresolved proposals receive zero completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -55,6 +55,19 @@
       "revisited_source_units_read": 0,
       "resolved_source_deferrals": 0,
       "deferred_source_units": 53,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T215146Z",
+      "records": "review-batches/2026-10-31T215146Z.json",
+      "new_source_verses": 17,
+      "new_pairs": 17,
+      "source_units_read": 18,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 18,
+      "resolved_source_deferrals": 17,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 1,
       "unresolved_retained_cases": 0
     }
   ],
@@ -403,6 +416,69 @@
       "path": "zechariah/verses.json",
       "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-maccabees/verses.json",
+      "blob_sha": "7f54b48b4e284348aa8918b1cb14cd4300d227c2",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-thessalonians/verses.json",
+      "blob_sha": "288f9670bb220cb4f5261ed43123800cbf81f400",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-timothy/verses.json",
+      "blob_sha": "5610758e3fe600b3819a62671c01cc6ce2458b60",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-timothy/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "habakkuk/verses.json",
+      "blob_sha": "063a4d3ef92c24ad68dc9ab29277e898efb3e22e",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/habakkuk/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "haggai/verses.json",
+      "blob_sha": "b9623d3c2c80b65db6366f940ccbb200a2c4ba5d",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/haggai/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "judges/verses.json",
+      "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "nahum/verses.json",
+      "blob_sha": "6901c800e024c859800afa7ab1e4fcda4e9d2658",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nahum/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "zephaniah/verses.json",
+      "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
     }
   ],
   "unresolved_candidates": [
@@ -1988,16 +2064,116 @@
       "source_and_target_text_read": true,
       "evidence_support_status": "pending supported relationship; excluded from completion",
       "target_passage_sha256": "254e3ea33e717ac7a41c25f9420e532e35f512891a4c5ee2721ce5c0fbef408a"
+    },
+    {
+      "source_reference": "Proverbs 15:19",
+      "source_text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+      "reason": "The actual Proverbs 24:30-34 compares an unattended fool with a field or vineyard becoming wild and abandoned, followed by a warning about sleep and poverty. It does not describe thorns on the idle person's path or the contrasting well-worn way of the courageous. The broad neglect-and-overgrowth association is not retained as a sufficiently particular match.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Proverbs 24:30-34",
+      "target_units": [
+        {
+          "reference": "Proverbs 24:30",
+          "text": "A foolish man is like a cultivated field, and a person lacking understanding like a vineyard;"
+        },
+        {
+          "reference": "Proverbs 24:31",
+          "text": "if you leave him alone, he will become wasteland, and grow wild with grass all over and become abandoned, and his stone fences are torn down."
+        },
+        {
+          "reference": "Proverbs 24:32",
+          "text": "Afterward I reconsidered; I looked so as to choose discipline."
+        },
+        {
+          "reference": "Proverbs 24:33",
+          "text": "“A little I doze, a little I sleep, a little I clasp my chest with my hands”—"
+        },
+        {
+          "reference": "Proverbs 24:34",
+          "text": "but if you do this, your poverty will come marching in front, and your want like a good runner."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "proverbs/verses.json",
+        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+      },
+      "source_verse": {
+        "reference": "Proverbs 15:19",
+        "id": "v15-19",
+        "text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+        "display_text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+        "text_sha256": "19f243bc0421e6f25fc6f011409a1e64d6af4b5ec3766fb7a36e21b63b3659fa"
+      },
+      "reviewer": "Codex author /root/amos_author_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "proverbs/verses.json",
+        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Proverbs 24:30",
+          "id": "v24-30",
+          "text": "A foolish man is like a cultivated field, and a person lacking understanding like a vineyard;",
+          "display_text": "A foolish man is like a cultivated field, and a person lacking understanding like a vineyard;",
+          "text_sha256": "2fdd208008fb029712f0d997aeb093402532836a72fb1a9557c5a32b4f5627a9"
+        },
+        {
+          "reference": "Proverbs 24:31",
+          "id": "v24-31",
+          "text": "if you leave him alone, he will become wasteland, and grow wild with grass all over and become abandoned, and his stone fences are torn down.",
+          "display_text": "if you leave him alone, he will become wasteland, and grow wild with grass all over and become abandoned, and his stone fences are torn down.",
+          "text_sha256": "246d0f8cd2f251751f138c956111db48598296f6e4dcf7cfe0c71f2698e2a162"
+        },
+        {
+          "reference": "Proverbs 24:32",
+          "id": "v24-32",
+          "text": "Afterward I reconsidered; I looked so as to choose discipline.",
+          "display_text": "Afterward I reconsidered; I looked so as to choose discipline.",
+          "text_sha256": "4b2edbf9e7bf7581d17eff6db6c32f28af801d95b8ee6f9d72ad7b5bbbc78c83"
+        },
+        {
+          "reference": "Proverbs 24:33",
+          "id": "v24-33",
+          "text": "“A little I doze, a little I sleep, a little I clasp my chest with my hands”—",
+          "display_text": "“A little I doze, a little I sleep, a little I clasp my chest with my hands”—",
+          "text_sha256": "40a2cd103d93826f81c1ef235971baf41e792b2b784a9ecc80557b58de558d25"
+        },
+        {
+          "reference": "Proverbs 24:34",
+          "id": "v24-34",
+          "text": "but if you do this, your poverty will come marching in front, and your want like a good runner.",
+          "display_text": "but if you do this, your poverty will come marching in front, and your want like a good runner.",
+          "text_sha256": "6f53cc7946d28e3fb77db65fa9fdae53389bdb49a4a759f224591dd81f380719"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "91c83e43532f8689f2ab0ac8a49e37f77d867a7d25c161a0c3a774e887d7c2fb"
     }
   ],
   "checked_scope": {
     "source_passage": "Proverbs 1:1 through Proverbs 31:31",
     "source_passage_is_review_scope": true,
     "source_units_read": 939,
-    "source_verse_units": 840,
-    "deferred_source_units": 99,
-    "retained_pairs": 863,
-    "distinct_target_verse_units": 806
+    "source_verse_units": 857,
+    "deferred_source_units": 82,
+    "retained_pairs": 880,
+    "distinct_target_verse_units": 839
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -2017,40 +2193,41 @@
   "pending": [
     "First pending source unit: Proverbs 1:17",
     "939 of 939 original source units read; 0 never reviewed. Deferred units remain incomplete.",
-    "Next never-reviewed source: None.",
-    "Read but deferred source units: Proverbs 1:17, Proverbs 6:4, Proverbs 7:6, Proverbs 7:10, Proverbs 7:11, Proverbs 7:12, Proverbs 7:15, Proverbs 7:16, Proverbs 7:20, Proverbs 9:13, Proverbs 9:18b, Proverbs 10:5, Proverbs 11:25, Proverbs 12:24, Proverbs 12:27, Proverbs 14:7, Proverbs 14:9, Proverbs 14:10, Proverbs 14:13, Proverbs 14:19, Proverbs 14:24, Proverbs 14:28, Proverbs 14:30, Proverbs 15:19, Proverbs 15:23, Proverbs 16:21, Proverbs 16:33, Proverbs 17:12, Proverbs 17:14, Proverbs 17:24, Proverbs 18:3, Proverbs 18:9, Proverbs 18:17, Proverbs 19:19, Proverbs 20:4, Proverbs 21:10, Proverbs 21:12, Proverbs 21:17, Proverbs 22:7, Proverbs 22:12, Proverbs 23:2, Proverbs 23:5, Proverbs 23:7, Proverbs 23:8, Proverbs 23:16, Proverbs 23:28, Proverbs 24:10, Proverbs 24:15, Proverbs 24:22e, Proverbs 30:1, Proverbs 30:7, Proverbs 30:10, Proverbs 24:26, Proverbs 24:27, Proverbs 30:18, Proverbs 30:19, Proverbs 30:21, Proverbs 30:23, Proverbs 30:28, Proverbs 30:29, Proverbs 30:30, Proverbs 30:31, Proverbs 31:6, Proverbs 31:7, Proverbs 25:1, Proverbs 25:2, Proverbs 25:10, Proverbs 25:14, Proverbs 25:17, Proverbs 25:19, Proverbs 25:23, Proverbs 25:26, Proverbs 26:9, Proverbs 26:10, Proverbs 26:18, Proverbs 27:3, Proverbs 27:7, Proverbs 27:8, Proverbs 27:13, Proverbs 27:14, Proverbs 27:16, Proverbs 27:17, Proverbs 27:19, Proverbs 27:24, Proverbs 27:26, Proverbs 28:17, Proverbs 28:20, Proverbs 29:9, Proverbs 29:10, Proverbs 29:16, Proverbs 29:19, Proverbs 29:21, Proverbs 31:14, Proverbs 31:16, Proverbs 31:22, Proverbs 31:24, Proverbs 31:26, Proverbs 31:29, Proverbs 31:31",
+    "Next never-reviewed source: none; all original units read.",
+    "Read but deferred source units: Proverbs 1:17, Proverbs 7:6, Proverbs 7:10, Proverbs 7:11, Proverbs 7:12, Proverbs 7:15, Proverbs 7:16, Proverbs 7:20, Proverbs 9:13, Proverbs 9:18b, Proverbs 10:5, Proverbs 11:25, Proverbs 12:24, Proverbs 12:27, Proverbs 14:9, Proverbs 14:10, Proverbs 14:19, Proverbs 14:24, Proverbs 14:28, Proverbs 14:30, Proverbs 15:19, Proverbs 15:23, Proverbs 16:33, Proverbs 17:12, Proverbs 17:14, Proverbs 17:24, Proverbs 18:3, Proverbs 18:9, Proverbs 19:19, Proverbs 20:4, Proverbs 21:10, Proverbs 21:12, Proverbs 21:17, Proverbs 22:7, Proverbs 22:12, Proverbs 23:2, Proverbs 23:5, Proverbs 23:7, Proverbs 23:8, Proverbs 23:16, Proverbs 23:28, Proverbs 24:10, Proverbs 24:15, Proverbs 24:22e, Proverbs 30:1, Proverbs 30:7, Proverbs 24:26, Proverbs 24:27, Proverbs 30:18, Proverbs 30:19, Proverbs 30:21, Proverbs 30:23, Proverbs 30:28, Proverbs 30:29, Proverbs 30:30, Proverbs 30:31, Proverbs 31:7, Proverbs 25:10, Proverbs 25:14, Proverbs 25:17, Proverbs 25:19, Proverbs 25:23, Proverbs 25:26, Proverbs 26:9, Proverbs 26:10, Proverbs 26:18, Proverbs 27:7, Proverbs 27:13, Proverbs 27:14, Proverbs 27:16, Proverbs 27:17, Proverbs 27:19, Proverbs 27:24, Proverbs 28:17, Proverbs 28:20, Proverbs 29:9, Proverbs 29:10, Proverbs 29:19, Proverbs 31:14, Proverbs 31:16, Proverbs 31:24, Proverbs 31:29",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
-    "Target evidence pending: Proverbs 1:17 / Ecclesiastes 9:12",
-    "Target evidence pending: Proverbs 1:17 / Psalms 123:7",
-    "Target evidence pending: Proverbs 4:18 / 2 Samuel 23:3-4",
-    "Target evidence pending: Proverbs 7:12 / Proverbs 23:27-28",
-    "Target evidence pending: Proverbs 9:13 / Proverbs 12:9",
-    "Target evidence pending: Proverbs 9:18b / Proverbs 5:15-17",
-    "Target evidence pending: Proverbs 11:3 / Proverbs 28:12",
-    "Target evidence pending: Proverbs 11:25 / Proverbs 14:29",
-    "Target evidence pending: Proverbs 14:13 / 2 Corinthians 6:10",
-    "Target evidence pending: Proverbs 14:30 / James 3:13-18",
-    "Target evidence pending: Proverbs 15:19 / Proverbs 22:5",
-    "Target evidence pending: Proverbs 15:23 / Proverbs 25:11",
-    "Target evidence pending: Proverbs 17:12 / Proverbs 14:24",
-    "Target evidence pending: Proverbs 17:14 / Proverbs 28:2",
-    "Target evidence pending: Proverbs 18:3 / Proverbs 28:14",
-    "Target evidence pending: Proverbs 18:9 / Proverbs 15:32",
-    "Target evidence pending: Proverbs 18:17 / Proverbs 21:2",
-    "Target evidence pending: Proverbs 19:19 / Proverbs 16:18",
-    "Target evidence pending: Proverbs 20:4 / Proverbs 15:12",
-    "Target evidence pending: Proverbs 21:10 / Proverbs 12:10",
-    "Target evidence pending: Proverbs 21:12 / Proverbs 28:11",
-    "Target evidence pending: Proverbs 21:17 / Proverbs 23:21",
-    "Target evidence pending: Proverbs 22:7 / Proverbs 30:22",
-    "Target evidence pending: Proverbs 22:12 / Proverbs 15:3",
-    "Target evidence pending: Proverbs 23:2 / Sirach 31:14",
-    "Target evidence pending: Proverbs 23:5 / Proverbs 13:11",
-    "Target evidence pending: Proverbs 23:7 / Sirach 31:20",
-    "Target evidence pending: Proverbs 23:8 / Proverbs 25:16",
-    "Target evidence pending: Proverbs 23:16 / Proverbs 16:13",
-    "Target evidence pending: Proverbs 23:28 / Proverbs 12:7"
+    "Unretained target candidate: Proverbs 1:17 / Ecclesiastes 9:12",
+    "Unretained target candidate: Proverbs 1:17 / Psalms 123:7",
+    "Unretained target candidate: Proverbs 4:18 / 2 Samuel 23:3-4",
+    "Unretained target candidate: Proverbs 7:12 / Proverbs 23:27-28",
+    "Unretained target candidate: Proverbs 9:13 / Proverbs 12:9",
+    "Unretained target candidate: Proverbs 9:18b / Proverbs 5:15-17",
+    "Unretained target candidate: Proverbs 11:3 / Proverbs 28:12",
+    "Unretained target candidate: Proverbs 11:25 / Proverbs 14:29",
+    "Unretained target candidate: Proverbs 14:13 / 2 Corinthians 6:10",
+    "Unretained target candidate: Proverbs 14:30 / James 3:13-18",
+    "Unretained target candidate: Proverbs 15:19 / Proverbs 22:5",
+    "Unretained target candidate: Proverbs 15:23 / Proverbs 25:11",
+    "Unretained target candidate: Proverbs 17:12 / Proverbs 14:24",
+    "Unretained target candidate: Proverbs 17:14 / Proverbs 28:2",
+    "Unretained target candidate: Proverbs 18:3 / Proverbs 28:14",
+    "Unretained target candidate: Proverbs 18:9 / Proverbs 15:32",
+    "Unretained target candidate: Proverbs 18:17 / Proverbs 21:2",
+    "Unretained target candidate: Proverbs 19:19 / Proverbs 16:18",
+    "Unretained target candidate: Proverbs 20:4 / Proverbs 15:12",
+    "Unretained target candidate: Proverbs 21:10 / Proverbs 12:10",
+    "Unretained target candidate: Proverbs 21:12 / Proverbs 28:11",
+    "Unretained target candidate: Proverbs 21:17 / Proverbs 23:21",
+    "Unretained target candidate: Proverbs 22:7 / Proverbs 30:22",
+    "Unretained target candidate: Proverbs 22:12 / Proverbs 15:3",
+    "Unretained target candidate: Proverbs 23:2 / Sirach 31:14",
+    "Unretained target candidate: Proverbs 23:5 / Proverbs 13:11",
+    "Unretained target candidate: Proverbs 23:7 / Sirach 31:20",
+    "Unretained target candidate: Proverbs 23:8 / Proverbs 25:16",
+    "Unretained target candidate: Proverbs 23:16 / Proverbs 16:13",
+    "Unretained target candidate: Proverbs 23:28 / Proverbs 12:7",
+    "Unretained target candidate: Proverbs 15:19 / Proverbs 24:30-34"
   ],
   "deferred_source_units": [
     {
@@ -2078,33 +2255,6 @@
       "reviewed": "2026-10-30",
       "review_timezone": "America/New_York",
       "review_batch": "2026-10-30T222040Z"
-    },
-    {
-      "source_reference": "Proverbs 6:4",
-      "source_text": "Give no sleep to your eyes, nor doze with your eyelids,",
-      "reason": "The no-sleep command is an urgent step within the guarantee-release instruction. No independently precise target for this particular step was retained.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 6:4",
-        "id": "v6-4",
-        "text": "Give no sleep to your eyes, nor doze with your eyelids,",
-        "display_text": "Give no sleep to your eyes, nor doze with your eyelids,",
-        "text_sha256": "a766d9937045e695fd292e43172dc582cb218b3eb2748153130f2ba3e1b9d6ef"
-      },
-      "reviewer": "/root/proverbs_5_10",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T001612Z",
-      "target": null
     },
     {
       "source_reference": "Proverbs 7:6",
@@ -2458,33 +2608,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 14:7",
-      "source_text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
-      "reason": "The source contrasts everything opposing a fool with wise lips as weapons of discernment. Reviewed speech passages do not establish a sufficiently specific counterpart for this distinctive image.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 14:7",
-        "id": "v14-7",
-        "text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
-        "display_text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
-        "text_sha256": "680614ebff07945bfac2d0288b00ee2ee8a0ebeabec1e6aed8a10fa0c295f7be"
-      },
-      "reviewer": "Codex author /root/proverbs_11_16",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T001612Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 14:9",
       "source_text": "The houses of lawless people will owe purification, but the houses of the righteous are acceptable.",
       "reason": "The houses of lawless people owing purification and righteous houses being acceptable require more than generic righteous-versus-wicked parallels. No specific connection was established.",
@@ -2531,33 +2654,6 @@
         "text": "A man’s heart is perceptive; his life is sorrowful, but when he rejoices, he does not mingle with insolence.",
         "display_text": "A man’s heart is perceptive; his life is sorrowful, but when he rejoices, he does not mingle with insolence.",
         "text_sha256": "da2ee4054dd5af00b37f37c20e73d8d5f27608465ea94ac4017852047a5335ac"
-      },
-      "reviewer": "Codex author /root/proverbs_11_16",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T001612Z",
-      "target": null
-    },
-    {
-      "source_reference": "Proverbs 14:13",
-      "source_text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
-      "reason": "The text says sorrow does not mingle in gladness and that joy finally comes to mourning. No specific reviewed target resolves the sequence well enough for a retained connection.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 14:13",
-        "id": "v14-13",
-        "text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
-        "display_text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
-        "text_sha256": "49ab1a6251c9d17205229fc1787dc3e781837e95e9025c0ca9c6aab93733124d"
       },
       "reviewer": "Codex author /root/proverbs_11_16",
       "reviewed": "2026-10-30",
@@ -2728,33 +2824,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 16:21",
-      "source_text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
-      "reason": "The source says wise and understanding people are called worthless, while sweet speakers hear more. The familiar prudent-recognition interpretation cannot be assumed; no secure target was established.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 16:21",
-        "id": "v16-21",
-        "text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
-        "display_text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
-        "text_sha256": "9a1a90f0ffd2476e28d2b6d85aa2d2dcd7e830be1ce82a58a8376be05573125e"
-      },
-      "reviewer": "Codex author /root/proverbs_11_16",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T001612Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 16:33",
       "source_text": "Everything comes into the laps of the unjust, but all righteous things are from the Lord.",
       "reason": "The source says everything comes into unjust laps but all righteous things are from the Lord. It does not mention casting lots, so lot-related parallels would import unsupported wording; no specific alternative was established.",
@@ -2909,33 +2978,6 @@
         "text": "One who does not heal himself in his works is brother to one who ruins himself.",
         "display_text": "One who does not heal himself in his works is brother to one who ruins himself.",
         "text_sha256": "2c1ef32006e6940d1008814296915d0a480577ac90b217422dc645f9905bc66f"
-      },
-      "reviewer": "Codex author /root",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T001612Z",
-      "target": null
-    },
-    {
-      "source_reference": "Proverbs 18:17",
-      "reason": "The righteous person is his own accuser in the opening speech here. The proposal about everyone appearing righteous to himself cannot support the conventional first-speaker-seems-right reading.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 18:17",
-        "id": "v18-17",
-        "text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
-        "display_text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
-        "text_sha256": "d7d7ace18e814d863cf6e277c771b829495964f82f04fdadc483bff25ca217e3"
       },
       "reviewer": "Codex author /root",
       "reviewed": "2026-10-30",
@@ -3430,33 +3472,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 30:10",
-      "source_text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
-      "reason": "The native command forbids handing a servant into a master’s hands; a familiar prohibition against slandering a servant would change the act described and was not used.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 30:10",
-        "id": "v30-10",
-        "text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
-        "display_text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
-        "text_sha256": "73bc8e4d7afcf6fe07e2a99485b93df9b795f3661e21e0b67cd0b2cc2153ac22"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 24:26",
       "source_text": "and lips answering good words will kiss.",
       "reason": "The native line joins lips answering good words with kissing; no independently read target sufficiently matches that positive relation without importing a different rendering.",
@@ -3727,33 +3742,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 31:6",
-      "source_text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
-      "reason": "The use of intoxicating drink for grief and pain differs from the nearby warnings about rulers drinking; no read target securely established this particular palliative use.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 31:6",
-        "id": "v31-6",
-        "text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
-        "display_text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
-        "text_sha256": "96582ed37a9009047da389a028d62b755ac4910e0b2dec1a080196831d6e11f7"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 31:7",
       "source_text": "so that they may forget their poverty and no longer remember their troubles.",
       "reason": "Forgetting poverty and troubles is the purpose of the preceding drink instruction; no independent read target was retained for this specific purpose.",
@@ -3773,60 +3761,6 @@
         "text": "so that they may forget their poverty and no longer remember their troubles.",
         "display_text": "so that they may forget their poverty and no longer remember their troubles.",
         "text_sha256": "d886993edd3eea32526d20fafbf5a7596272b450f61f1aa7934bbc9e99c64d59"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
-      "source_reference": "Proverbs 25:1",
-      "source_text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
-      "reason": "This heading identifies Solomon’s instructions and Hezekiah’s copying circle; no read historical passage independently documented this copying event.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 25:1",
-        "id": "v25-1",
-        "text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
-        "display_text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
-        "text_sha256": "b2c0e4c4e52aca2185e428a002065e58f45002ebfe6b9027429ac2b0f08698b1"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
-      "source_reference": "Proverbs 25:2",
-      "source_text": "God’s glory conceals a word, but a king’s glory honors matters.",
-      "reason": "The native contrast is God concealing a word and a king honoring matters; a familiar king searching out matters was not substituted to produce a connection.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 25:2",
-        "id": "v25-2",
-        "text": "God’s glory conceals a word, but a king’s glory honors matters.",
-        "display_text": "God’s glory conceals a word, but a king’s glory honors matters.",
-        "text_sha256": "372ba4dec1c05be0fda3d1c0ea1e21b3c5108b00c809b26bd3f9b8988a752cde"
       },
       "reviewer": "/root/proverbs_end_author",
       "reviewed": "2026-10-30",
@@ -4078,33 +4012,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 27:3",
-      "source_text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
-      "reason": "The weight comparison singles out a fool’s anger as heavier than stone and sand; general anger passages read did not supply a comparably specific retained connection.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 27:3",
-        "id": "v27-3",
-        "text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
-        "display_text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
-        "text_sha256": "845f37192bb7625a602bc1c154c1e24163c3e5006d67061a6de2b16e29b2c831"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 27:7",
       "source_text": "A life in fullness mocks honeycombs, but to a needy life even bitter things seem sweet.",
       "reason": "The contrast is satiety mocking honey and need finding bitterness sweet; no specific independently read target was retained for this appetite reversal.",
@@ -4124,33 +4031,6 @@
         "text": "A life in fullness mocks honeycombs, but to a needy life even bitter things seem sweet.",
         "display_text": "A life in fullness mocks honeycombs, but to a needy life even bitter things seem sweet.",
         "text_sha256": "7a34d25b2e423bd2fcc320421b2ed83478c7eeb657e4acd666d8aeac3d7adba9"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
-      "source_reference": "Proverbs 27:8",
-      "source_text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
-      "reason": "The native comparison makes estrangement from one’s place a form of enslavement; no read target securely matched both the displaced-bird image and that consequence.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 27:8",
-        "id": "v27-8",
-        "text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
-        "display_text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
-        "text_sha256": "c8bee9a7d94da0d3a89c0c2d1467adc5495bffecd62c43d47a257b64900fb80c"
       },
       "reviewer": "/root/proverbs_end_author",
       "reviewed": "2026-10-30",
@@ -4321,33 +4201,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 27:26",
-      "source_text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
-      "reason": "The instruction concerns sheep for clothing and valuing land for lambs; no specific independent target was retained for this practical livestock provision.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 27:26",
-        "id": "v27-26",
-        "text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
-        "display_text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
-        "text_sha256": "8ea2b8b496405607b6142c56967d9a9192db2b28bd0a764a31aff18e85d227f2"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 28:17",
       "source_text": "One who acts as guarantor for a man charged with murder will be a fugitive and will not be secure.",
       "reason": "The subject is a guarantor for a man charged with murder; the common rendering about a murderer fleeing to the pit would change the subject and was not used.",
@@ -4456,33 +4309,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 29:16",
-      "source_text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
-      "reason": "The native righteous become terrified when the impious fall; a rendering in which they triumphantly witness the fall would reverse that response and was not used.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 29:16",
-        "id": "v29-16",
-        "text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
-        "display_text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
-        "text_sha256": "7f589f2fe0ae1872ba89eca5f42805169fd961d584e9e63e82ad9d2a6f40f4b6"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 29:19",
       "source_text": "A harsh household servant will not be disciplined by words; for even if he understands, he will not obey.",
       "reason": "The harsh servant understands words but will not obey; no read passage securely supported this specific discipline distinction beyond a generic obedience theme.",
@@ -4502,33 +4328,6 @@
         "text": "A harsh household servant will not be disciplined by words; for even if he understands, he will not obey.",
         "display_text": "A harsh household servant will not be disciplined by words; for even if he understands, he will not obey.",
         "text_sha256": "1eefc8f85ef4988c8fd4e82653983724fae70dfd860ac3b80b13cd11dfed5ed1"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
-      "source_reference": "Proverbs 29:21",
-      "source_text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
-      "reason": "The native person lives extravagantly from childhood and becomes a servant; the common account of a pampered servant becoming a son was not imported.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 29:21",
-        "id": "v29-21",
-        "text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
-        "display_text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
-        "text_sha256": "4bd1e3a39d8b1ac37000a94979e47766c869cf08d678089f5cc0a5715c5ae279"
       },
       "reviewer": "/root/proverbs_end_author",
       "reviewed": "2026-10-30",
@@ -4591,33 +4390,6 @@
       "target": null
     },
     {
-      "source_reference": "Proverbs 31:22",
-      "source_text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
-      "reason": "Making double cloaks for her husband and fine linen and purple for herself was read; no target was retained by treating these household luxury garments as charitable gifts.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 31:22",
-        "id": "v31-22",
-        "text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
-        "display_text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
-        "text_sha256": "e16cf1458ac848ae663c0f9c0c55e33cc68f31cf49a4374f56a79dfe01c9be42"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
       "source_reference": "Proverbs 31:24",
       "source_text": "She made linen cloths and sold them, and girdles for the Canaanites.",
       "reason": "The sale of linen and girdles to Canaanites describes a particular commercial activity; no independently read target matched it closely enough.",
@@ -4637,33 +4409,6 @@
         "text": "She made linen cloths and sold them, and girdles for the Canaanites.",
         "display_text": "She made linen cloths and sold them, and girdles for the Canaanites.",
         "text_sha256": "814dfdca7be9643a16a6545a5bf7597fe70647a953dfc543072398bc852a2c0e"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
-    },
-    {
-      "source_reference": "Proverbs 31:26",
-      "source_text": "She clothed herself in strength and dignity and rejoiced in the last days.",
-      "reason": "The native unit clothes the woman in strength and dignity and has her rejoice in the last days; no wisdom-of-speech wording from another verse order was substituted.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
-      },
-      "source_verse": {
-        "reference": "Proverbs 31:26",
-        "id": "v31-26",
-        "text": "She clothed herself in strength and dignity and rejoiced in the last days.",
-        "display_text": "She clothed herself in strength and dignity and rejoiced in the last days.",
-        "text_sha256": "2aaef3c7f751db91178dd0234cc3e2bc221d7ed051f0a12a230056d03217088c"
       },
       "reviewer": "/root/proverbs_end_author",
       "reviewed": "2026-10-30",
@@ -4697,34 +4442,934 @@
       "review_timezone": "America/New_York",
       "review_batch": "2026-10-31T011413Z",
       "target": null
+    }
+  ],
+  "next_unreviewed_reference": null,
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "Proverbs 6:4",
+      "original_deferral": {
+        "source_reference": "Proverbs 6:4",
+        "source_text": "Give no sleep to your eyes, nor doze with your eyelids,",
+        "reason": "The no-sleep command is an urgent step within the guarantee-release instruction. No independently precise target for this particular step was retained.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 6:4",
+          "id": "v6-4",
+          "text": "Give no sleep to your eyes, nor doze with your eyelids,",
+          "display_text": "Give no sleep to your eyes, nor doze with your eyelids,",
+          "text_sha256": "a766d9937045e695fd292e43172dc582cb218b3eb2748153130f2ba3e1b9d6ef"
+        },
+        "reviewer": "/root/proverbs_5_10",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T001612Z",
+        "target": null
+      },
+      "original_deferral_sha256": "1d9b4dcc4065f4ba680244f4a1ac58966a0204bfe0bf72314b80ff2508d80541",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-6-4__psalms-131-3-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 14:7",
+      "original_deferral": {
+        "source_reference": "Proverbs 14:7",
+        "source_text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
+        "reason": "The source contrasts everything opposing a fool with wise lips as weapons of discernment. Reviewed speech passages do not establish a sufficiently specific counterpart for this distinctive image.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 14:7",
+          "id": "v14-7",
+          "text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
+          "display_text": "Everything is against a foolish man, but wise lips are weapons of discernment.",
+          "text_sha256": "680614ebff07945bfac2d0288b00ee2ee8a0ebeabec1e6aed8a10fa0c295f7be"
+        },
+        "reviewer": "Codex author /root/proverbs_11_16",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T001612Z",
+        "target": null
+      },
+      "original_deferral_sha256": "ae135abda09fb5645bb8eb04306452b9728f673adb97ebbfc7da9f11daca25ca",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-14-7__isaiah-49-2"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 14:13",
+      "original_deferral": {
+        "source_reference": "Proverbs 14:13",
+        "source_text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
+        "reason": "The text says sorrow does not mingle in gladness and that joy finally comes to mourning. No specific reviewed target resolves the sequence well enough for a retained connection.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 14:13",
+          "id": "v14-13",
+          "text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
+          "display_text": "In gladness sorrow does not mingle, but in the end joy comes to mourning.",
+          "text_sha256": "49ab1a6251c9d17205229fc1787dc3e781837e95e9025c0ca9c6aab93733124d"
+        },
+        "reviewer": "Codex author /root/proverbs_11_16",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T001612Z",
+        "target": null
+      },
+      "original_deferral_sha256": "d7a05ea2173e8e35e81b3e14b75f66e4af615b64ccf31acb3d64d672a96ed5b5",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-14-13__james-4-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 16:21",
+      "original_deferral": {
+        "source_reference": "Proverbs 16:21",
+        "source_text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
+        "reason": "The source says wise and understanding people are called worthless, while sweet speakers hear more. The familiar prudent-recognition interpretation cannot be assumed; no secure target was established.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 16:21",
+          "id": "v16-21",
+          "text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
+          "display_text": "They call the wise and understanding worthless, but those sweet in speech will hear more.",
+          "text_sha256": "9a1a90f0ffd2476e28d2b6d85aa2d2dcd7e830be1ce82a58a8376be05573125e"
+        },
+        "reviewer": "Codex author /root/proverbs_11_16",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T001612Z",
+        "target": null
+      },
+      "original_deferral_sha256": "092ed8f21c88fac279cd6a0bccc15439d48ee8063f3631a4ad694cb7be5d3618",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-16-21__ecclesiastes-9-15-17"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 18:17",
+      "original_deferral": {
+        "source_reference": "Proverbs 18:17",
+        "reason": "The righteous person is his own accuser in the opening speech here. The proposal about everyone appearing righteous to himself cannot support the conventional first-speaker-seems-right reading.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 18:17",
+          "id": "v18-17",
+          "text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
+          "display_text": "The righteous is his own accuser in the opening speech, but when the opponent presses in, he is reproved.",
+          "text_sha256": "d7d7ace18e814d863cf6e277c771b829495964f82f04fdadc483bff25ca217e3"
+        },
+        "reviewer": "Codex author /root",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T001612Z",
+        "target": null
+      },
+      "original_deferral_sha256": "bfded38d82540fe6489fb7b50ffa868715eefe6d8fc2b0dd104140cd8194e204",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-18-17__psalms-31-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 30:10",
+      "original_deferral": {
+        "source_reference": "Proverbs 30:10",
+        "source_text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
+        "reason": "The native command forbids handing a servant into a master’s hands; a familiar prohibition against slandering a servant would change the act described and was not used.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 30:10",
+          "id": "v30-10",
+          "text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
+          "display_text": "Do not hand a household servant over into a master’s hands, lest he curse you and you be destroyed.",
+          "text_sha256": "73bc8e4d7afcf6fe07e2a99485b93df9b795f3661e21e0b67cd0b2cc2153ac22"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "696045ae7287f13e8c6d14615031cdc064731f581f5bf945718c3788133b8270",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-30-10__deuteronomy-23-16-17"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 31:6",
+      "original_deferral": {
+        "source_reference": "Proverbs 31:6",
+        "source_text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
+        "reason": "The use of intoxicating drink for grief and pain differs from the nearby warnings about rulers drinking; no read target securely established this particular palliative use.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 31:6",
+          "id": "v31-6",
+          "text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
+          "display_text": "Give intoxicating drink to those in grief, and wine to drink to those in pain,",
+          "text_sha256": "96582ed37a9009047da389a028d62b755ac4910e0b2dec1a080196831d6e11f7"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "1e7daaec61d9d8a47fd5a79ba8f0d02cbf761ad06e6e9e754df8d5d88cdcb6bc",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-31-6__1-timothy-5-23"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 25:1",
+      "original_deferral": {
+        "source_reference": "Proverbs 25:1",
+        "source_text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
+        "reason": "This heading identifies Solomon’s instructions and Hezekiah’s copying circle; no read historical passage independently documented this copying event.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 25:1",
+          "id": "v25-1",
+          "text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
+          "display_text": "These are Solomon’s undifferentiated instructions, which the friends of Hezekiah, king of Judea, copied out.",
+          "text_sha256": "b2c0e4c4e52aca2185e428a002065e58f45002ebfe6b9027429ac2b0f08698b1"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "ae48855401c4975fd8cd13e081b8bc41c2b2332fb1051e0378d58e9c9a255d1f",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-25-1__2-chronicles-29-30"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 25:2",
+      "original_deferral": {
+        "source_reference": "Proverbs 25:2",
+        "source_text": "God’s glory conceals a word, but a king’s glory honors matters.",
+        "reason": "The native contrast is God concealing a word and a king honoring matters; a familiar king searching out matters was not substituted to produce a connection.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 25:2",
+          "id": "v25-2",
+          "text": "God’s glory conceals a word, but a king’s glory honors matters.",
+          "display_text": "God’s glory conceals a word, but a king’s glory honors matters.",
+          "text_sha256": "372ba4dec1c05be0fda3d1c0ea1e21b3c5108b00c809b26bd3f9b8988a752cde"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "85aaa8478cf3ae150693be76f01bcf4c11ea8ec763ba2d9ecce966fabf90fcab",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-25-2__deuteronomy-29-28"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 27:3",
+      "original_deferral": {
+        "source_reference": "Proverbs 27:3",
+        "source_text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
+        "reason": "The weight comparison singles out a fool’s anger as heavier than stone and sand; general anger passages read did not supply a comparably specific retained connection.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 27:3",
+          "id": "v27-3",
+          "text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
+          "display_text": "A stone is heavy and sand hard to carry, but a fool’s anger is heavier than both.",
+          "text_sha256": "845f37192bb7625a602bc1c154c1e24163c3e5006d67061a6de2b16e29b2c831"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "abd0240c9228cdb7ed79da4d332f42ca3aebba5b4b3fcb4f1546dfa4993f1046",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-27-3__sirach-22-14-15"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 27:8",
+      "original_deferral": {
+        "source_reference": "Proverbs 27:8",
+        "source_text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
+        "reason": "The native comparison makes estrangement from one’s place a form of enslavement; no read target securely matched both the displaced-bird image and that consequence.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 27:8",
+          "id": "v27-8",
+          "text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
+          "display_text": "As when a bird flies down from its own nest, so a person is enslaved when estranged from his own places.",
+          "text_sha256": "c8bee9a7d94da0d3a89c0c2d1467adc5495bffecd62c43d47a257b64900fb80c"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "03363127959d4895af5db9254b09170debac8353880a7e0acb1bfc08a189b6cc",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-27-8__isaiah-16-2-4"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 27:26",
+      "original_deferral": {
+        "source_reference": "Proverbs 27:26",
+        "source_text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
+        "reason": "The instruction concerns sheep for clothing and valuing land for lambs; no specific independent target was retained for this practical livestock provision.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 27:26",
+          "id": "v27-26",
+          "text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
+          "display_text": "so that you may have sheep for clothing; value a plain, so that you may have lambs.",
+          "text_sha256": "8ea2b8b496405607b6142c56967d9a9192db2b28bd0a764a31aff18e85d227f2"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "edbce2dd6453195375cee900ac4d506b8a0482c3637064423a87cbf2f82aee1e",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-27-26__job-31-19-20"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 29:16",
+      "original_deferral": {
+        "source_reference": "Proverbs 29:16",
+        "source_text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
+        "reason": "The native righteous become terrified when the impious fall; a rendering in which they triumphantly witness the fall would reverse that response and was not used.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 29:16",
+          "id": "v29-16",
+          "text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
+          "display_text": "When the impious are many, sins become many, but the righteous become terrified when those people fall.",
+          "text_sha256": "7f589f2fe0ae1872ba89eca5f42805169fd961d584e9e63e82ad9d2a6f40f4b6"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "5fc225ace4bb08134e3c4a3e20f575b5621e1afd71baf6be71f83d2085b75075",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-29-16__psalms-51-7-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 29:21",
+      "original_deferral": {
+        "source_reference": "Proverbs 29:21",
+        "source_text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
+        "reason": "The native person lives extravagantly from childhood and becomes a servant; the common account of a pampered servant becoming a son was not imported.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 29:21",
+          "id": "v29-21",
+          "text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
+          "display_text": "One who lives extravagantly from childhood will become a household servant, and in the end he will grieve over himself.",
+          "text_sha256": "4bd1e3a39d8b1ac37000a94979e47766c869cf08d678089f5cc0a5715c5ae279"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "4e257525b82ddc870caf5f06bad20c53fec92323ba62e8b4a611c404bcbcf2e1",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-29-21__luke-15-13-19"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 31:22",
+      "original_deferral": {
+        "source_reference": "Proverbs 31:22",
+        "source_text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
+        "reason": "Making double cloaks for her husband and fine linen and purple for herself was read; no target was retained by treating these household luxury garments as charitable gifts.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 31:22",
+          "id": "v31-22",
+          "text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
+          "display_text": "She made double cloaks for her husband, and garments of fine linen and purple for herself.",
+          "text_sha256": "e16cf1458ac848ae663c0f9c0c55e33cc68f31cf49a4374f56a79dfe01c9be42"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "b39083dfb581feadcf75a88958ab4fb2c6a41cfed193a98a662f9fa6a8e7cca5",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-31-22__luke-16-19-21"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Proverbs 31:26",
+      "original_deferral": {
+        "source_reference": "Proverbs 31:26",
+        "source_text": "She clothed herself in strength and dignity and rejoiced in the last days.",
+        "reason": "The native unit clothes the woman in strength and dignity and has her rejoice in the last days; no wisdom-of-speech wording from another verse order was substituted.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 31:26",
+          "id": "v31-26",
+          "text": "She clothed herself in strength and dignity and rejoiced in the last days.",
+          "display_text": "She clothed herself in strength and dignity and rejoiced in the last days.",
+          "text_sha256": "2aaef3c7f751db91178dd0234cc3e2bc221d7ed051f0a12a230056d03217088c"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
+      },
+      "original_deferral_sha256": "9ec2f855d0cbdddb5fd7c1c3cdd18b5b9f79d284db2daf2a4b033d4418e036a2",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-31-26__psalms-92-1"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
     },
     {
       "source_reference": "Proverbs 31:31",
-      "source_text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
-      "reason": "The native conclusion gives her the fruits of her hands but praises her husband in the gates; a familiar rendering in which her own works praise her was not substituted.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "proverbs/verses.json",
-        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+      "original_deferral": {
+        "source_reference": "Proverbs 31:31",
+        "source_text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
+        "reason": "The native conclusion gives her the fruits of her hands but praises her husband in the gates; a familiar rendering in which her own works praise her was not substituted.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "proverbs/verses.json",
+          "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+        },
+        "source_verse": {
+          "reference": "Proverbs 31:31",
+          "id": "v31-31",
+          "text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
+          "display_text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
+          "text_sha256": "3192cdee89ee725553b091514fb81e0e8f032e3341af1c131f77d73372944e19"
+        },
+        "reviewer": "/root/proverbs_end_author",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T011413Z",
+        "target": null
       },
-      "source_verse": {
-        "reference": "Proverbs 31:31",
-        "id": "v31-31",
-        "text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
-        "display_text": "Give her from the fruits of her hands, and let her husband be praised in the gates.",
-        "text_sha256": "3192cdee89ee725553b091514fb81e0e8f032e3341af1c131f77d73372944e19"
-      },
-      "reviewer": "/root/proverbs_end_author",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T011413Z",
-      "target": null
+      "original_deferral_sha256": "8b3ba75c1bf39206f5b8d242f59ec62d3143da7892d5f3d3e6665af9434609f6",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "proverbs-31-31__psalms-127-1-2"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
     }
   ],
-  "next_unreviewed_reference": null
+  "pending_revisit_history": [
+    {
+      "run_id": "2026-10-31T215146Z",
+      "actual_read_source_references": [
+        "Proverbs 6:4",
+        "Proverbs 14:7",
+        "Proverbs 14:13",
+        "Proverbs 15:19",
+        "Proverbs 16:21",
+        "Proverbs 18:17",
+        "Proverbs 30:10",
+        "Proverbs 31:6",
+        "Proverbs 25:1",
+        "Proverbs 25:2",
+        "Proverbs 27:3",
+        "Proverbs 27:8",
+        "Proverbs 27:26",
+        "Proverbs 29:16",
+        "Proverbs 29:21",
+        "Proverbs 31:22",
+        "Proverbs 31:26",
+        "Proverbs 31:31"
+      ],
+      "considered_source_references": [
+        "Proverbs 1:17",
+        "Proverbs 6:4",
+        "Proverbs 7:6",
+        "Proverbs 7:10",
+        "Proverbs 7:11",
+        "Proverbs 7:12",
+        "Proverbs 7:15",
+        "Proverbs 7:16",
+        "Proverbs 7:20",
+        "Proverbs 9:13",
+        "Proverbs 9:18b",
+        "Proverbs 10:5",
+        "Proverbs 11:25",
+        "Proverbs 12:24",
+        "Proverbs 12:27",
+        "Proverbs 14:7",
+        "Proverbs 14:9",
+        "Proverbs 14:10",
+        "Proverbs 14:13",
+        "Proverbs 14:19",
+        "Proverbs 14:24",
+        "Proverbs 14:28",
+        "Proverbs 14:30",
+        "Proverbs 15:19",
+        "Proverbs 15:23",
+        "Proverbs 16:21",
+        "Proverbs 16:33",
+        "Proverbs 17:12",
+        "Proverbs 17:14",
+        "Proverbs 17:24",
+        "Proverbs 18:3",
+        "Proverbs 18:9",
+        "Proverbs 18:17",
+        "Proverbs 19:19",
+        "Proverbs 20:4",
+        "Proverbs 21:10",
+        "Proverbs 21:12",
+        "Proverbs 21:17",
+        "Proverbs 22:7",
+        "Proverbs 22:12",
+        "Proverbs 23:2",
+        "Proverbs 23:5",
+        "Proverbs 23:7",
+        "Proverbs 23:8",
+        "Proverbs 23:16",
+        "Proverbs 23:28",
+        "Proverbs 24:10",
+        "Proverbs 24:15",
+        "Proverbs 24:22e",
+        "Proverbs 30:1",
+        "Proverbs 30:7",
+        "Proverbs 30:10",
+        "Proverbs 24:26",
+        "Proverbs 24:27",
+        "Proverbs 30:18",
+        "Proverbs 30:19",
+        "Proverbs 30:21",
+        "Proverbs 30:23",
+        "Proverbs 30:28",
+        "Proverbs 30:29",
+        "Proverbs 30:30",
+        "Proverbs 30:31",
+        "Proverbs 31:6",
+        "Proverbs 31:7",
+        "Proverbs 25:1",
+        "Proverbs 25:2",
+        "Proverbs 25:10",
+        "Proverbs 25:14",
+        "Proverbs 25:17",
+        "Proverbs 25:19",
+        "Proverbs 25:23",
+        "Proverbs 25:26",
+        "Proverbs 26:9",
+        "Proverbs 26:10",
+        "Proverbs 26:18",
+        "Proverbs 27:3",
+        "Proverbs 27:7",
+        "Proverbs 27:8",
+        "Proverbs 27:13",
+        "Proverbs 27:14",
+        "Proverbs 27:16",
+        "Proverbs 27:17",
+        "Proverbs 27:19",
+        "Proverbs 27:24",
+        "Proverbs 27:26",
+        "Proverbs 28:17",
+        "Proverbs 28:20",
+        "Proverbs 29:9",
+        "Proverbs 29:10",
+        "Proverbs 29:16",
+        "Proverbs 29:19",
+        "Proverbs 29:21",
+        "Proverbs 31:14",
+        "Proverbs 31:16",
+        "Proverbs 31:22",
+        "Proverbs 31:24",
+        "Proverbs 31:26",
+        "Proverbs 31:29",
+        "Proverbs 31:31"
+      ],
+      "continued_pending_observations": [
+        {
+          "source_reference": "Proverbs 15:19",
+          "source_text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+          "reason": "The actual Proverbs 24:30-34 compares an unattended fool with a field or vineyard becoming wild and abandoned, followed by a warning about sleep and poverty. It does not describe thorns on the idle person's path or the contrasting well-worn way of the courageous. The broad neglect-and-overgrowth association is not retained as a sufficiently particular match.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "proverbs/verses.json",
+            "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+          },
+          "source_verse": {
+            "reference": "Proverbs 15:19",
+            "id": "v15-19",
+            "text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+            "display_text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+            "text_sha256": "19f243bc0421e6f25fc6f011409a1e64d6af4b5ec3766fb7a36e21b63b3659fa"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target": null
+        }
+      ],
+      "unretained_candidate_observations": [
+        {
+          "source_reference": "Proverbs 15:19",
+          "source_text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+          "reason": "The actual Proverbs 24:30-34 compares an unattended fool with a field or vineyard becoming wild and abandoned, followed by a warning about sleep and poverty. It does not describe thorns on the idle person's path or the contrasting well-worn way of the courageous. The broad neglect-and-overgrowth association is not retained as a sufficiently particular match.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Proverbs 24:30-34",
+          "target_units": [
+            {
+              "reference": "Proverbs 24:30",
+              "text": "A foolish man is like a cultivated field, and a person lacking understanding like a vineyard;"
+            },
+            {
+              "reference": "Proverbs 24:31",
+              "text": "if you leave him alone, he will become wasteland, and grow wild with grass all over and become abandoned, and his stone fences are torn down."
+            },
+            {
+              "reference": "Proverbs 24:32",
+              "text": "Afterward I reconsidered; I looked so as to choose discipline."
+            },
+            {
+              "reference": "Proverbs 24:33",
+              "text": "“A little I doze, a little I sleep, a little I clasp my chest with my hands”—"
+            },
+            {
+              "reference": "Proverbs 24:34",
+              "text": "but if you do this, your poverty will come marching in front, and your want like a good runner."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "proverbs/verses.json",
+            "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+          },
+          "source_verse": {
+            "reference": "Proverbs 15:19",
+            "id": "v15-19",
+            "text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+            "display_text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
+            "text_sha256": "19f243bc0421e6f25fc6f011409a1e64d6af4b5ec3766fb7a36e21b63b3659fa"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "proverbs/verses.json",
+            "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Proverbs 24:30",
+              "id": "v24-30",
+              "text": "A foolish man is like a cultivated field, and a person lacking understanding like a vineyard;",
+              "display_text": "A foolish man is like a cultivated field, and a person lacking understanding like a vineyard;",
+              "text_sha256": "2fdd208008fb029712f0d997aeb093402532836a72fb1a9557c5a32b4f5627a9"
+            },
+            {
+              "reference": "Proverbs 24:31",
+              "id": "v24-31",
+              "text": "if you leave him alone, he will become wasteland, and grow wild with grass all over and become abandoned, and his stone fences are torn down.",
+              "display_text": "if you leave him alone, he will become wasteland, and grow wild with grass all over and become abandoned, and his stone fences are torn down.",
+              "text_sha256": "246d0f8cd2f251751f138c956111db48598296f6e4dcf7cfe0c71f2698e2a162"
+            },
+            {
+              "reference": "Proverbs 24:32",
+              "id": "v24-32",
+              "text": "Afterward I reconsidered; I looked so as to choose discipline.",
+              "display_text": "Afterward I reconsidered; I looked so as to choose discipline.",
+              "text_sha256": "4b2edbf9e7bf7581d17eff6db6c32f28af801d95b8ee6f9d72ad7b5bbbc78c83"
+            },
+            {
+              "reference": "Proverbs 24:33",
+              "id": "v24-33",
+              "text": "“A little I doze, a little I sleep, a little I clasp my chest with my hands”—",
+              "display_text": "“A little I doze, a little I sleep, a little I clasp my chest with my hands”—",
+              "text_sha256": "40a2cd103d93826f81c1ef235971baf41e792b2b784a9ecc80557b58de558d25"
+            },
+            {
+              "reference": "Proverbs 24:34",
+              "id": "v24-34",
+              "text": "but if you do this, your poverty will come marching in front, and your want like a good runner.",
+              "display_text": "but if you do this, your poverty will come marching in front, and your want like a good runner.",
+              "text_sha256": "6f53cc7946d28e3fb77db65fa9fdae53389bdb49a4a759f224591dd81f380719"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "91c83e43532f8689f2ab0ac8a49e37f77d867a7d25c161a0c3a774e887d7c2fb"
+        }
+      ],
+      "new_unretained_candidate_count": 1,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Proverbs 6:4",
+        "Proverbs 14:7",
+        "Proverbs 14:13",
+        "Proverbs 16:21",
+        "Proverbs 18:17",
+        "Proverbs 30:10",
+        "Proverbs 31:6",
+        "Proverbs 25:1",
+        "Proverbs 25:2",
+        "Proverbs 27:3",
+        "Proverbs 27:8",
+        "Proverbs 27:26",
+        "Proverbs 29:16",
+        "Proverbs 29:21",
+        "Proverbs 31:22",
+        "Proverbs 31:26",
+        "Proverbs 31:31"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
+    }
+  ]
 }

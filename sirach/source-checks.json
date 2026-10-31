@@ -11,7 +11,7 @@
   },
   "source_language_scope": "Supplied English records only; no new original-language or apparatus verification.",
   "numbering": "Exact original order, native fields, references and anchors retained: 1374 units, 51 numbered chapters and a translator’s prologue, 52 native source groups.",
-  "method": "Complete actual source and target passages with necessary context were read and each retained explanation separately reread in recorded batches. Source-only deferrals and unresolved candidates receive zero completion credit. Technical inventory is separate from semantic review.",
+  "method": "Historical actual source reading is preserved. This run selectively reevaluated pending sources with new actual target/context evidence and separately reread supported explanations. Consideration, repeated readings and unresolved proposals receive zero completion credit.",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "excluded_from_completion": [
     "Imports",
@@ -55,6 +55,19 @@
       "revisited_source_units_read": 0,
       "resolved_source_deferrals": 0,
       "deferred_source_units": 41,
+      "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-10-31T215146Z",
+      "records": "review-batches/2026-10-31T215146Z.json",
+      "new_source_verses": 12,
+      "new_pairs": 12,
+      "source_units_read": 14,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 14,
+      "resolved_source_deferrals": 12,
+      "deferred_source_units": 0,
+      "continued_pending_source_observations": 2,
       "unresolved_retained_cases": 0
     }
   ],
@@ -487,6 +500,27 @@
       "path": "nehemiah/verses.json",
       "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "1-maccabees/verses.json",
+      "blob_sha": "41754e1990877ca2270f272220676773bd179b3c",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-maccabees/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "nahum/verses.json",
+      "blob_sha": "6901c800e024c859800afa7ab1e4fcda4e9d2658",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nahum/verses.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "zephaniah/verses.json",
+      "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
     }
   ],
   "deferred_source_units": [
@@ -509,33 +543,6 @@
         "text": "Since many great things have been given to us through the law, the prophets, and the others who followed after them, for which Israel ought to be praised for instruction and wisdom, and since the readers themselves ought not only to become knowledgeable,",
         "display_text": "Since many great things have been given to us through the law, the prophets, and the others who followed after them, for which Israel ought to be praised for instruction and wisdom, and since the readers themselves ought not only to become knowledgeable,",
         "text_sha256": "e2787ecf0b64ba72ad4510baded2946c8b062bd4ea2d707b300c1577f74fd178"
-      },
-      "reviewer": "Codex author /root",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T021714Z",
-      "target": null,
-      "source_unit_read": true
-    },
-    {
-      "source_reference": "Sirach Prologue 1a",
-      "reason": "The translator identifies his grandfather Jesus and his reading of law and prophets. No identification with another scriptural Jesus or another author is assumed.",
-      "source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach Prologue 1a",
-        "id": "vPrologue-1a",
-        "text": "but lovers of learning should also be able to benefit those outside, both by speaking and by writing, my grandfather Jesus, having devoted himself extensively to reading the law and the prophets",
-        "display_text": "but lovers of learning should also be able to benefit those outside, both by speaking and by writing, my grandfather Jesus, having devoted himself extensively to reading the law and the prophets",
-        "text_sha256": "7fb7f8e3cf4d98fad914f86294c8f803a8958fe271e739d6dad7296097e226d9"
       },
       "reviewer": "Codex author /root",
       "reviewed": "2026-10-30",
@@ -644,33 +651,6 @@
         "text": "and the remaining books show no small difference when expressed in their own form. For in the thirty-eighth year, under King Euergetes, I arrived in Egypt and stayed for some time; finding a likeness of no small learning,",
         "display_text": "and the remaining books show no small difference when expressed in their own form. For in the thirty-eighth year, under King Euergetes, I arrived in Egypt and stayed for some time; finding a likeness of no small learning,",
         "text_sha256": "3c7385c46edd6074893419a46082f2e2aa4fa8cbbd0b40e134dd7af291ceb0a9"
-      },
-      "reviewer": "Codex author /root",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T021714Z",
-      "target": null,
-      "source_unit_read": true
-    },
-    {
-      "source_reference": "Sirach Prologue 1f",
-      "reason": "Wakeful labor and publication for readers abroad describe this translator's work. No target narrating the same act or a specific enough literary correspondence was established.",
-      "source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach Prologue 1f",
-        "id": "vPrologue-1f",
-        "text": "I myself considered it most necessary to contribute some diligence and hard work toward translating this book. During that time I devoted many wakeful hours and much skill to completing the book and publishing it also for those living abroad who wish to learn,",
-        "display_text": "I myself considered it most necessary to contribute some diligence and hard work toward translating this book. During that time I devoted many wakeful hours and much skill to completing the book and publishing it also for those living abroad who wish to learn,",
-        "text_sha256": "5a6f43b6013eb082bd892c70fd4987777a18f211216de1d678b1b0bb0f78b1c2"
       },
       "reviewer": "Codex author /root",
       "reviewed": "2026-10-30",
@@ -995,33 +975,6 @@
         "text": "Do not jest with someone uninstructed, lest your ancestors be dishonored.",
         "display_text": "Do not jest with someone uninstructed, lest your ancestors be dishonored.",
         "text_sha256": "2712b7dfb7303213782900e3375526082344a09561d8bab79a088686c0700aec"
-      },
-      "reviewer": "Codex author /root",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T021714Z",
-      "target": null,
-      "source_unit_read": true
-    },
-    {
-      "source_reference": "Sirach 8:11",
-      "reason": "The insolent person's ambush against the mouth was read. A general warning against quarrels was not treated as enough to establish this particular retaliation.",
-      "source_text_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 8:11",
-        "id": "v8-11",
-        "text": "Do not rise up against an insolent person, lest he sit in ambush against your mouth.",
-        "display_text": "Do not rise up against an insolent person, lest he sit in ambush against your mouth.",
-        "text_sha256": "6d600aab18403538f8b454fa6f8c2a986b728a2d6c145866fab11e9771811eb6"
       },
       "reviewer": "Codex author /root",
       "reviewed": "2026-10-30",
@@ -1382,33 +1335,6 @@
       "target": null
     },
     {
-      "source_reference": "Sirach 13:11",
-      "source_text": "Do not insist on speaking with him as an equal, and do not trust his many words. For through much talk he will test you and examine you as though smiling.",
-      "reason": "The powerful person's apparently friendly questioning that tests an inferior was read. No actual target supplies that particular conversational test, so ordinary warnings about flattering enemies were not substituted.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 13:11",
-        "id": "v13-11",
-        "text": "Do not insist on speaking with him as an equal, and do not trust his many words. For through much talk he will test you and examine you as though smiling.",
-        "display_text": "Do not insist on speaking with him as an equal, and do not trust his many words. For through much talk he will test you and examine you as though smiling.",
-        "text_sha256": "8cb1c737f85aa3fb3d8c13252575a9135c0828c3d202575d1698e94fc5dee74d"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Sirach 9-17)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T031745Z",
-      "target": null
-    },
-    {
       "source_reference": "Sirach 13:13",
       "source_text": "Keep watch and take very great care, because you are walking alongside your downfall.",
       "reason": "The urgent vigilance required while walking alongside one's downfall was read in the courtly-danger context. No particular independent target was retained beyond broad danger language.",
@@ -1617,33 +1543,6 @@
         "text": "There is also a tempest that a person will not see, and most of His works are hidden.",
         "display_text": "There is also a tempest that a person will not see, and most of His works are hidden.",
         "text_sha256": "a3348cad6f0a8c3f8320c564caedb5cf9bfccfa552c4273f7caa98173c91d12a"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Sirach 9-17)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T031745Z",
-      "target": null
-    },
-    {
-      "source_reference": "Sirach 16:25",
-      "source_text": "I will disclose instruction by measure and declare knowledge with precision.",
-      "reason": "The promise to disclose instruction by measure and knowledge with precision was read. General wisdom-teaching introductions do not establish this specific statement of measured method, so no generic teaching link was credited.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 16:25",
-        "id": "v16-25",
-        "text": "I will disclose instruction by measure and declare knowledge with precision.",
-        "display_text": "I will disclose instruction by measure and declare knowledge with precision.",
-        "text_sha256": "e83e5c0b832981f92f7f0aa8afab48844a207210eb3f30da197b4200a0afe14f"
       },
       "reviewer": "Codex author /root/ecclesiastes_author (Sirach 9-17)",
       "reviewed": "2026-10-30",
@@ -1995,33 +1894,6 @@
         "text": "When an ungodly person curses Satan, he curses his own soul.",
         "display_text": "When an ungodly person curses Satan, he curses his own soul.",
         "text_sha256": "1ad5a4cc89070ff59af91aedd749152038d12d8d6f64f25d4d2e5828fe0b294f"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author (Sirach 18–25)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T031745Z",
-      "target": null
-    },
-    {
-      "source_reference": "Sirach 22:19",
-      "source_text": "The one who pricks an eye will bring down tears; the one who pricks a heart reveals feeling.",
-      "reason": "Pricking an eye to produce tears is compared with pricking a heart to reveal feeling. No read target sustains this precise analogy without replacing it with a generic statement about sorrow.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 22:19",
-        "id": "v22-19",
-        "text": "The one who pricks an eye will bring down tears; the one who pricks a heart reveals feeling.",
-        "display_text": "The one who pricks an eye will bring down tears; the one who pricks a heart reveals feeling.",
-        "text_sha256": "11c1b4d464d6c10a2fccf3ff8dc4a0f28b1a46cf5fbef7b861c6b5365ed4ede1"
       },
       "reviewer": "Codex author /root/proverbs_end_author (Sirach 18–25)",
       "reviewed": "2026-10-30",
@@ -2405,58 +2277,6 @@
       "target": null
     },
     {
-      "source_reference": "Sirach 29:25",
-      "reason": "The dependent guest entertains and supplies drink but receives no thanks and instead hears bitter words. No checked target for this particular reversal of hospitality was retained.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 29:25",
-        "id": "v29-25",
-        "text": "You will entertain and provide drink without thanks, and besides these things you will hear bitter words:",
-        "display_text": "You will entertain and provide drink without thanks, and besides these things you will hear bitter words:",
-        "text_sha256": "b18d31d4e87df074dbff97fb402f82ae50e874dbd41174db3dd1fa2ab31751fa"
-      },
-      "reviewer": "Codex author /root (Sirach 26-33)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T031745Z",
-      "target": null
-    },
-    {
-      "source_reference": "Sirach 29:26",
-      "reason": "The quoted host orders the dependent guest to arrange the table and supply food from his own hand. The specific coercive demand was read, but no supported target was established.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 29:26",
-        "id": "v29-26",
-        "text": "“Come along, guest, arrange the table, and if you have anything in your hand, feed me.",
-        "display_text": "“Come along, guest, arrange the table, and if you have anything in your hand, feed me.",
-        "text_sha256": "19e73bc3d53501a5b84e94ae23756ad98e6fc53ddda52511caddecb92aa25f33"
-      },
-      "reviewer": "Codex author /root (Sirach 26-33)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T031745Z",
-      "target": null
-    },
-    {
       "source_reference": "Sirach 29:28",
       "reason": "The target describes a creditor seizing bedding after an unpaid pledge; the source names reproach over lodging and debt, without that seizure. Linking the two as one concrete outcome depended too much on inference, so the pair and source completion were withheld.",
       "source_unit_read": true,
@@ -2501,32 +2321,6 @@
         "text": "Better a poor person who is healthy and strong in constitution than a rich person scourged in his body.",
         "display_text": "Better a poor person who is healthy and strong in constitution than a rich person scourged in his body.",
         "text_sha256": "99b1deaa5a98c8c8f3a898d12f131e2462a45f424dd437a903c665cec37e231d"
-      },
-      "reviewer": "Codex author /root (Sirach 26-33)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T031745Z",
-      "target": null
-    },
-    {
-      "source_reference": "Sirach 30:15",
-      "reason": "The source explicitly ranks bodily health and strength above gold and immeasurable wealth. General praise of wisdom above gold was not substituted for this particular valuation of health.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 30:15",
-        "id": "v30-15",
-        "text": "Health and soundness are better than all gold, and a robust body than immeasurable wealth.",
-        "display_text": "Health and soundness are better than all gold, and a robust body than immeasurable wealth.",
-        "text_sha256": "a967641be5c604f8db393b1b5f7a425b680db9e18d787377738224c1dc00884a"
       },
       "reviewer": "Codex author /root (Sirach 26-33)",
       "reviewed": "2026-10-30",
@@ -2683,32 +2477,6 @@
         "text": "In all your works be preeminent; do not put a blemish upon your glory.",
         "display_text": "In all your works be preeminent; do not put a blemish upon your glory.",
         "text_sha256": "6f0ff797aeeee14960ff56a4ef7f145b4e3b1054ee85aa0201a589934fd823e6"
-      },
-      "reviewer": "Codex author /root (Sirach 26-33)",
-      "reviewed": "2026-10-30",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T031745Z",
-      "target": null
-    },
-    {
-      "source_reference": "Sirach 33:26",
-      "reason": "The source links making a servant work with the owner’s rest and links released hands with seeking freedom. The proposed Proverbs 29:21 text instead describes an extravagant person becoming a servant, so the source remains pending.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 33:26",
-        "id": "v33-26",
-        "text": "Make a servant work, and you will find rest; release his hands, and he will seek freedom.",
-        "display_text": "Make a servant work, and you will find rest; release his hands, and he will seek freedom.",
-        "text_sha256": "f823f256c56bcfa00d86863699d2456994ea8b545a4d9c54cd879404efdcc162"
       },
       "reviewer": "Codex author /root (Sirach 26-33)",
       "reviewed": "2026-10-30",
@@ -3122,33 +2890,6 @@
       "target": null
     },
     {
-      "source_reference": "Sirach 38:24",
-      "source_text": "A scribe’s wisdom comes through the opportunity of leisure; the one whose activity is reduced will become wise.",
-      "reason": "The connection between a scribe's wisdom, leisure and reduced activity was read. Teaching and diligent-study passages do not themselves establish this stated condition of available leisure.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 38:24",
-        "id": "v38-24",
-        "text": "A scribe’s wisdom comes through the opportunity of leisure; the one whose activity is reduced will become wise.",
-        "display_text": "A scribe’s wisdom comes through the opportunity of leisure; the one whose activity is reduced will become wise.",
-        "text_sha256": "89bfa11433578c6b2fd44761497c73a7e7359a09eecca140f9b4ba13c8be955d"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Sirach 34-39)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T042246Z",
-      "target": null
-    },
-    {
       "source_reference": "Sirach 38:25",
       "source_text": "How will someone become wise who holds a plow, boasts in a goad’s shaft, drives oxen, is occupied with their work, and whose talk is about the offspring of bulls?",
       "reason": "The full rhetorical question about a plow-holder's opportunity for wisdom amid ox-driving and talk of bulls was read. The examined Isaiah agricultural analogy does not explicitly assign its divine-instruction clause to the farmer in this edition, so familiar wording was not substituted to manufacture a counterpart.",
@@ -3195,33 +2936,6 @@
         "text": "Without them a city will not be settled, and people will neither sojourn nor walk about.",
         "display_text": "Without them a city will not be settled, and people will neither sojourn nor walk about.",
         "text_sha256": "adc5fc24b7c2d32f9a5c93325e13094f5b4fc832bedc3b0a41dae5a85c39b614"
-      },
-      "reviewer": "Codex author /root/ecclesiastes_author (Sirach 34-39)",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T042246Z",
-      "target": null
-    },
-    {
-      "source_reference": "Sirach 39:12",
-      "source_text": "Having reflected further, I will recount more, for I have become full like the moon at midmonth.",
-      "reason": "The teacher's fullness like the moon at midmonth before further discourse was read. No actual target was retained combining that lunar image with an abundance of teaching; unrelated full-moon references were not treated as equivalent.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "sirach/verses.json",
-        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
-      },
-      "source_verse": {
-        "reference": "Sirach 39:12",
-        "id": "v39-12",
-        "text": "Having reflected further, I will recount more, for I have become full like the moon at midmonth.",
-        "display_text": "Having reflected further, I will recount more, for I have become full like the moon at midmonth.",
-        "text_sha256": "3c4881d822904a01d7a65921f836feb7f5383cd1002571850c2d454914683fd5"
       },
       "reviewer": "Codex author /root/ecclesiastes_author (Sirach 34-39)",
       "reviewed": "2026-10-31",
@@ -6894,16 +6608,150 @@
       "source_and_target_text_read": true,
       "evidence_support_status": "pending supported relationship; excluded from completion",
       "target_passage_sha256": "79498b6ff8aaf78f5c61db3fd282f5aafaf9ab51a7b904907c3014ac38815435"
+    },
+    {
+      "source_reference": "Sirach 11:18",
+      "source_text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+      "reason": "The native Proverbs 13:11 contrasts lawless acquisition with gathering in piety. It does not state Sirach's attention-and-frugality method. The distinct moral and economic descriptions are not treated as the same specific reason for growing rich.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Proverbs 13:11",
+      "target_units": [
+        {
+          "reference": "Proverbs 13:11",
+          "text": "Property pursued eagerly with lawlessness becomes less, but one who gathers for himself with piety will increase; a righteous person has compassion and lends."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "sirach/verses.json",
+        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+      },
+      "source_verse": {
+        "reference": "Sirach 11:18",
+        "id": "v11-18",
+        "text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+        "display_text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+        "text_sha256": "a0f80e52e3950244c8a23f6e6fd3509d25d2e8b72561a18a404f3333e56d2659"
+      },
+      "reviewer": "Codex author /root/amos_author_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "proverbs/verses.json",
+        "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Proverbs 13:11",
+          "id": "v13-11",
+          "text": "Property pursued eagerly with lawlessness becomes less, but one who gathers for himself with piety will increase; a righteous person has compassion and lends.",
+          "display_text": "Property pursued eagerly with lawlessness becomes less, but one who gathers for himself with piety will increase; a righteous person has compassion and lends.",
+          "text_sha256": "7462b6c5aa0976eb1ff0a5b010f7c937cade0fae0938c82e0519890d78d52e78"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "fbb46aca687940a6d5c94944347e1a4f99a22bb3f74552f38b72098584b55e51"
+    },
+    {
+      "source_reference": "Sirach 20:23",
+      "source_text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+      "reason": "Matthew 14:7-9 says Herod promised with an oath after the dance and later acted because of the oaths and guests. It neither calls the recipient his friend nor describes her becoming his enemy through the promise, and does not say shame caused the original promise. The particular causal sequence in Sirach remains unmatched.",
+      "source_unit_read": true,
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "target": "Matthew 14:7-9",
+      "target_units": [
+        {
+          "reference": "Matthew 14:7",
+          "text": "Therefore he promised with an oath to give her whatever she asked."
+        },
+        {
+          "reference": "Matthew 14:8",
+          "text": "Prompted by her mother, she said, “Give me here on a platter the head of John the Baptist.”"
+        },
+        {
+          "reference": "Matthew 14:9",
+          "text": "Although the king was grieved, because of his oaths and those reclining with him, he ordered it to be given."
+        }
+      ],
+      "source_and_target_read": true,
+      "target_passage_read": true,
+      "retained": false,
+      "source_snapshot": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "sirach/verses.json",
+        "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+      },
+      "source_verse": {
+        "reference": "Sirach 20:23",
+        "id": "v20-23",
+        "text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+        "display_text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+        "text_sha256": "2f5164a7ba6e5c116b93ca1b06002194b266b097d65c61a684ddd20479a6555e"
+      },
+      "reviewer": "Codex author /root/amos_author_recovery",
+      "reviewed": "2026-10-31",
+      "review_timezone": "America/New_York",
+      "review_batch": "2026-10-31T215146Z",
+      "target_source": {
+        "repository": "Dotty777/Saints-Translation",
+        "commit": "328967336f32958587835c921fea3b96a5bf6494",
+        "path": "matthew/verses.json",
+        "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+      },
+      "target_verses": [
+        {
+          "reference": "Matthew 14:7",
+          "id": "v14-7",
+          "text": "Therefore he promised with an oath to give her whatever she asked.",
+          "display_text": "Therefore he promised with an oath to give her whatever she asked.",
+          "text_sha256": "b07ad1fb86d1af10558ba66a05f595bc2fdf986df6b2efac6ccbfc38b1bb2d62"
+        },
+        {
+          "reference": "Matthew 14:8",
+          "id": "v14-8",
+          "text": "Prompted by her mother, she said, “Give me here on a platter the head of John the Baptist.”",
+          "display_text": "Prompted by her mother, she said, “Give me here on a platter the head of John the Baptist.”",
+          "text_sha256": "a3b65959d2eb68c5e090eaa03d8bcb790e85b54527c8fbb316b667cc4151730f"
+        },
+        {
+          "reference": "Matthew 14:9",
+          "id": "v14-9",
+          "text": "Although the king was grieved, because of his oaths and those reclining with him, he ordered it to be given.",
+          "display_text": "Although the king was grieved, because of his oaths and those reclining with him, he ordered it to be given.",
+          "text_sha256": "29d8380d7ec179c5b5ca6b1d9aa12ee11f286292202f8c187935900eeecdd7ad"
+        }
+      ],
+      "passage_identity_resolved": true,
+      "source_and_target_text_read": true,
+      "evidence_support_status": "pending supported relationship; excluded from completion",
+      "target_passage_sha256": "5c3c40a1dbaee446cf186a41c29148859a95017643a701fc50758568eda1a2c0"
     }
   ],
   "checked_scope": {
     "source_passage": "Sirach Prologue 1 through Sirach 51:30",
     "source_passage_is_review_scope": true,
     "source_units_read": 1374,
-    "source_verse_units": 1250,
-    "deferred_source_units": 124,
-    "retained_pairs": 1331,
-    "distinct_target_verse_units": 2245
+    "source_verse_units": 1262,
+    "deferred_source_units": 112,
+    "retained_pairs": 1343,
+    "distinct_target_verse_units": 2269
   },
   "inventory_evidence": {
     "fresh_mcp_blob_identity_verified": true,
@@ -6926,7 +6774,7 @@
     "First pending source unit: Sirach Prologue 1",
     "1374 of 1374 original source units read; 0 never reviewed. Deferred units remain incomplete.",
     "Next never-reviewed source: none; all original units read.",
-    "Read but deferred source units: Sirach Prologue 1, Sirach Prologue 1a, Sirach Prologue 1b, Sirach Prologue 1c, Sirach Prologue 1d, Sirach Prologue 1e, Sirach Prologue 1f, Sirach Prologue 1g, Sirach 3:5, Sirach 3:17, Sirach 6:5, Sirach 6:6, Sirach 6:11, Sirach 6:22, Sirach 6:30, Sirach 7:7, Sirach 7:24, Sirach 7:25, Sirach 8:4, Sirach 8:11, Sirach 9:1, Sirach 9:4, Sirach 10:18, Sirach 10:26, Sirach 10:31, Sirach 11:18, Sirach 11:23, Sirach 11:27, Sirach 11:34, Sirach 12:1, Sirach 12:12, Sirach 13:5, Sirach 13:8, Sirach 13:11, Sirach 13:13, Sirach 13:15, Sirach 13:16, Sirach 14:6, Sirach 14:7, Sirach 16:5, Sirach 16:9, Sirach 16:21, Sirach 16:25, Sirach 17:8, Sirach 18:7, Sirach 18:28, Sirach 19:5, Sirach 20:4, Sirach 20:10, Sirach 20:12, Sirach 20:17, Sirach 20:23, Sirach 21:7, Sirach 21:18, Sirach 21:26, Sirach 21:27, Sirach 22:19, Sirach 22:26, Sirach 23:12, Sirach 23:16, Sirach 25:2, Sirach 25:13, Sirach 25:14, Sirach 25:15, Sirach 25:17, Sirach 25:19, Sirach 25:22, Sirach 25:25, Sirach 28:15, Sirach 28:21, Sirach 29:24, Sirach 29:25, Sirach 29:26, Sirach 29:28, Sirach 30:14, Sirach 30:15, Sirach 30:20, Sirach 31:4, Sirach 31:31, Sirach 33:6, Sirach 33:20, Sirach 33:23, Sirach 33:26, Sirach 34:3, Sirach 34:11, Sirach 36:20, Sirach 36:25, Sirach 36:26, Sirach 37:3, Sirach 37:5, Sirach 37:8, Sirach 37:11, Sirach 37:14, Sirach 37:21, Sirach 38:8, Sirach 38:13, Sirach 38:15, Sirach 38:19, Sirach 38:24, Sirach 38:25, Sirach 38:32, Sirach 39:12, Sirach 39:28, Sirach 40:14, Sirach 40:16, Sirach 40:22, Sirach 41:20, Sirach 42:2, Sirach 42:6, Sirach 42:13, Sirach 42:14, Sirach 42:22, Sirach 43:4, Sirach 43:8, Sirach 43:15, Sirach 43:21, Sirach 44:2, Sirach 48:11, Sirach 50:1, Sirach 50:2, Sirach 50:3, Sirach 50:4, Sirach 50:25, Sirach 50:26",
+    "Read but deferred source units: Sirach Prologue 1, Sirach Prologue 1b, Sirach Prologue 1c, Sirach Prologue 1d, Sirach Prologue 1e, Sirach Prologue 1g, Sirach 3:5, Sirach 3:17, Sirach 6:5, Sirach 6:6, Sirach 6:11, Sirach 6:22, Sirach 6:30, Sirach 7:7, Sirach 7:24, Sirach 7:25, Sirach 8:4, Sirach 9:1, Sirach 9:4, Sirach 10:18, Sirach 10:26, Sirach 10:31, Sirach 11:18, Sirach 11:23, Sirach 11:27, Sirach 11:34, Sirach 12:1, Sirach 12:12, Sirach 13:5, Sirach 13:8, Sirach 13:13, Sirach 13:15, Sirach 13:16, Sirach 14:6, Sirach 14:7, Sirach 16:5, Sirach 16:9, Sirach 16:21, Sirach 17:8, Sirach 18:7, Sirach 18:28, Sirach 19:5, Sirach 20:4, Sirach 20:10, Sirach 20:12, Sirach 20:17, Sirach 20:23, Sirach 21:7, Sirach 21:18, Sirach 21:26, Sirach 21:27, Sirach 22:26, Sirach 23:12, Sirach 23:16, Sirach 25:2, Sirach 25:13, Sirach 25:14, Sirach 25:15, Sirach 25:17, Sirach 25:19, Sirach 25:22, Sirach 25:25, Sirach 28:15, Sirach 28:21, Sirach 29:24, Sirach 29:28, Sirach 30:14, Sirach 30:20, Sirach 31:4, Sirach 31:31, Sirach 33:6, Sirach 33:20, Sirach 33:23, Sirach 34:3, Sirach 34:11, Sirach 36:20, Sirach 36:25, Sirach 36:26, Sirach 37:3, Sirach 37:5, Sirach 37:8, Sirach 37:11, Sirach 37:14, Sirach 37:21, Sirach 38:8, Sirach 38:13, Sirach 38:15, Sirach 38:19, Sirach 38:25, Sirach 38:32, Sirach 39:28, Sirach 40:14, Sirach 40:16, Sirach 40:22, Sirach 41:20, Sirach 42:2, Sirach 42:6, Sirach 42:13, Sirach 42:14, Sirach 42:22, Sirach 43:4, Sirach 43:8, Sirach 43:15, Sirach 43:21, Sirach 44:2, Sirach 48:11, Sirach 50:1, Sirach 50:2, Sirach 50:3, Sirach 50:4, Sirach 50:25, Sirach 50:26",
     "Independent specialist review",
     "Live destination anchors and reader display checks",
     "Unretained target candidate: Sirach 3:16 / Exodus 21:17",
@@ -6983,7 +6831,819 @@
     "Unretained target candidate: Sirach 43:15 / Psalms 17:13-15",
     "Unretained target candidate: Sirach 43:15 / Job 37:11-12",
     "Unretained target candidate: Sirach 43:19 / Psalms 147:5",
-    "Unretained target candidate: Sirach 48:11 / 2 Kings 2:9-12"
+    "Unretained target candidate: Sirach 48:11 / 2 Kings 2:9-12",
+    "Unretained target candidate: Sirach 11:18 / Proverbs 13:11",
+    "Unretained target candidate: Sirach 20:23 / Matthew 14:7-9"
   ],
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "resolved_source_deferrals": [
+    {
+      "source_reference": "Sirach Prologue 1a",
+      "original_deferral": {
+        "source_reference": "Sirach Prologue 1a",
+        "reason": "The translator identifies his grandfather Jesus and his reading of law and prophets. No identification with another scriptural Jesus or another author is assumed.",
+        "source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach Prologue 1a",
+          "id": "vPrologue-1a",
+          "text": "but lovers of learning should also be able to benefit those outside, both by speaking and by writing, my grandfather Jesus, having devoted himself extensively to reading the law and the prophets",
+          "display_text": "but lovers of learning should also be able to benefit those outside, both by speaking and by writing, my grandfather Jesus, having devoted himself extensively to reading the law and the prophets",
+          "text_sha256": "7fb7f8e3cf4d98fad914f86294c8f803a8958fe271e739d6dad7296097e226d9"
+        },
+        "reviewer": "Codex author /root",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T021714Z",
+        "target": null,
+        "source_unit_read": true
+      },
+      "original_deferral_sha256": "188fb3da5fc6750c2b93eff3e6321c410a039610255fb3ef9ae8fa8bc03d6675",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-prologue-1a__2-timothy-2-2"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach Prologue 1f",
+      "original_deferral": {
+        "source_reference": "Sirach Prologue 1f",
+        "reason": "Wakeful labor and publication for readers abroad describe this translator's work. No target narrating the same act or a specific enough literary correspondence was established.",
+        "source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach Prologue 1f",
+          "id": "vPrologue-1f",
+          "text": "I myself considered it most necessary to contribute some diligence and hard work toward translating this book. During that time I devoted many wakeful hours and much skill to completing the book and publishing it also for those living abroad who wish to learn,",
+          "display_text": "I myself considered it most necessary to contribute some diligence and hard work toward translating this book. During that time I devoted many wakeful hours and much skill to completing the book and publishing it also for those living abroad who wish to learn,",
+          "text_sha256": "5a6f43b6013eb082bd892c70fd4987777a18f211216de1d678b1b0bb0f78b1c2"
+        },
+        "reviewer": "Codex author /root",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T021714Z",
+        "target": null,
+        "source_unit_read": true
+      },
+      "original_deferral_sha256": "3c6a0d810536f86745b9e8a0928a2c209ec8195986f8905e7f9c0cb3cbe12e0a",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-prologue-1f__2-maccabees-2-25-27"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 8:11",
+      "original_deferral": {
+        "source_reference": "Sirach 8:11",
+        "reason": "The insolent person's ambush against the mouth was read. A general warning against quarrels was not treated as enough to establish this particular retaliation.",
+        "source_text_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 8:11",
+          "id": "v8-11",
+          "text": "Do not rise up against an insolent person, lest he sit in ambush against your mouth.",
+          "display_text": "Do not rise up against an insolent person, lest he sit in ambush against your mouth.",
+          "text_sha256": "6d600aab18403538f8b454fa6f8c2a986b728a2d6c145866fab11e9771811eb6"
+        },
+        "reviewer": "Codex author /root",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T021714Z",
+        "target": null,
+        "source_unit_read": true
+      },
+      "original_deferral_sha256": "8d8a721af3c28713336e027415b0971a4034a6a92b4e7797678c94acf9d59fb1",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-8-11__luke-11-52-54"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 13:11",
+      "original_deferral": {
+        "source_reference": "Sirach 13:11",
+        "source_text": "Do not insist on speaking with him as an equal, and do not trust his many words. For through much talk he will test you and examine you as though smiling.",
+        "reason": "The powerful person's apparently friendly questioning that tests an inferior was read. No actual target supplies that particular conversational test, so ordinary warnings about flattering enemies were not substituted.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 13:11",
+          "id": "v13-11",
+          "text": "Do not insist on speaking with him as an equal, and do not trust his many words. For through much talk he will test you and examine you as though smiling.",
+          "display_text": "Do not insist on speaking with him as an equal, and do not trust his many words. For through much talk he will test you and examine you as though smiling.",
+          "text_sha256": "8cb1c737f85aa3fb3d8c13252575a9135c0828c3d202575d1698e94fc5dee74d"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Sirach 9-17)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T031745Z",
+        "target": null
+      },
+      "original_deferral_sha256": "0a504f2aacf6b388a4e172798be978013ad8e57ff3ed8663880dc4b9d47ed311",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-13-11__matthew-22-15-18"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 16:25",
+      "original_deferral": {
+        "source_reference": "Sirach 16:25",
+        "source_text": "I will disclose instruction by measure and declare knowledge with precision.",
+        "reason": "The promise to disclose instruction by measure and knowledge with precision was read. General wisdom-teaching introductions do not establish this specific statement of measured method, so no generic teaching link was credited.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 16:25",
+          "id": "v16-25",
+          "text": "I will disclose instruction by measure and declare knowledge with precision.",
+          "display_text": "I will disclose instruction by measure and declare knowledge with precision.",
+          "text_sha256": "e83e5c0b832981f92f7f0aa8afab48844a207210eb3f30da197b4200a0afe14f"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Sirach 9-17)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T031745Z",
+        "target": null
+      },
+      "original_deferral_sha256": "bf8ec19b06eaaa29cd9c2e72d8641e1f959d26a77aba5b4569d10684fbf8dc58",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-16-25__ecclesiastes-12-9-10"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 22:19",
+      "original_deferral": {
+        "source_reference": "Sirach 22:19",
+        "source_text": "The one who pricks an eye will bring down tears; the one who pricks a heart reveals feeling.",
+        "reason": "Pricking an eye to produce tears is compared with pricking a heart to reveal feeling. No read target sustains this precise analogy without replacing it with a generic statement about sorrow.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 22:19",
+          "id": "v22-19",
+          "text": "The one who pricks an eye will bring down tears; the one who pricks a heart reveals feeling.",
+          "display_text": "The one who pricks an eye will bring down tears; the one who pricks a heart reveals feeling.",
+          "text_sha256": "11c1b4d464d6c10a2fccf3ff8dc4a0f28b1a46cf5fbef7b861c6b5365ed4ede1"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author (Sirach 18–25)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T031745Z",
+        "target": null
+      },
+      "original_deferral_sha256": "d9dbf424ccdf88c1fe405f9e8077ec87eb192efecf90b341ac030c81d51657e7",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-22-19__acts-2-37"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 29:25",
+      "original_deferral": {
+        "source_reference": "Sirach 29:25",
+        "reason": "The dependent guest entertains and supplies drink but receives no thanks and instead hears bitter words. No checked target for this particular reversal of hospitality was retained.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 29:25",
+          "id": "v29-25",
+          "text": "You will entertain and provide drink without thanks, and besides these things you will hear bitter words:",
+          "display_text": "You will entertain and provide drink without thanks, and besides these things you will hear bitter words:",
+          "text_sha256": "b18d31d4e87df074dbff97fb402f82ae50e874dbd41174db3dd1fa2ab31751fa"
+        },
+        "reviewer": "Codex author /root (Sirach 26-33)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T031745Z",
+        "target": null
+      },
+      "original_deferral_sha256": "d2eb8af4f81ecf92263b5c9e7414ec2664712736cd12096e733b7a4af5abb037",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-29-25__luke-17-8-9"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 29:26",
+      "original_deferral": {
+        "source_reference": "Sirach 29:26",
+        "reason": "The quoted host orders the dependent guest to arrange the table and supply food from his own hand. The specific coercive demand was read, but no supported target was established.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 29:26",
+          "id": "v29-26",
+          "text": "“Come along, guest, arrange the table, and if you have anything in your hand, feed me.",
+          "display_text": "“Come along, guest, arrange the table, and if you have anything in your hand, feed me.",
+          "text_sha256": "19e73bc3d53501a5b84e94ae23756ad98e6fc53ddda52511caddecb92aa25f33"
+        },
+        "reviewer": "Codex author /root (Sirach 26-33)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T031745Z",
+        "target": null
+      },
+      "original_deferral_sha256": "16eb6c92ede69bfd589e897a21f356e1679fc5b8feec3dbc894806f869c9eeda",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-29-26__luke-17-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 30:15",
+      "original_deferral": {
+        "source_reference": "Sirach 30:15",
+        "reason": "The source explicitly ranks bodily health and strength above gold and immeasurable wealth. General praise of wisdom above gold was not substituted for this particular valuation of health.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 30:15",
+          "id": "v30-15",
+          "text": "Health and soundness are better than all gold, and a robust body than immeasurable wealth.",
+          "display_text": "Health and soundness are better than all gold, and a robust body than immeasurable wealth.",
+          "text_sha256": "a967641be5c604f8db393b1b5f7a425b680db9e18d787377738224c1dc00884a"
+        },
+        "reviewer": "Codex author /root (Sirach 26-33)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T031745Z",
+        "target": null
+      },
+      "original_deferral_sha256": "2f9a9f579f1fac543c1471bdd346712ece42dd4e8051b9cf3304986f7b310629",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-30-15__job-2-4-5"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 33:26",
+      "original_deferral": {
+        "source_reference": "Sirach 33:26",
+        "reason": "The source links making a servant work with the owner’s rest and links released hands with seeking freedom. The proposed Proverbs 29:21 text instead describes an extravagant person becoming a servant, so the source remains pending.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 33:26",
+          "id": "v33-26",
+          "text": "Make a servant work, and you will find rest; release his hands, and he will seek freedom.",
+          "display_text": "Make a servant work, and you will find rest; release his hands, and he will seek freedom.",
+          "text_sha256": "f823f256c56bcfa00d86863699d2456994ea8b545a4d9c54cd879404efdcc162"
+        },
+        "reviewer": "Codex author /root (Sirach 26-33)",
+        "reviewed": "2026-10-30",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T031745Z",
+        "target": null
+      },
+      "original_deferral_sha256": "048f1d7dd0dd7f78b6d89cf7009bb64fa31e90ebf394a007bdb13899ef2928a9",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-33-26__luke-17-7-8"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 38:24",
+      "original_deferral": {
+        "source_reference": "Sirach 38:24",
+        "source_text": "A scribe’s wisdom comes through the opportunity of leisure; the one whose activity is reduced will become wise.",
+        "reason": "The connection between a scribe's wisdom, leisure and reduced activity was read. Teaching and diligent-study passages do not themselves establish this stated condition of available leisure.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 38:24",
+          "id": "v38-24",
+          "text": "A scribe’s wisdom comes through the opportunity of leisure; the one whose activity is reduced will become wise.",
+          "display_text": "A scribe’s wisdom comes through the opportunity of leisure; the one whose activity is reduced will become wise.",
+          "text_sha256": "89bfa11433578c6b2fd44761497c73a7e7359a09eecca140f9b4ba13c8be955d"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Sirach 34-39)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T042246Z",
+        "target": null
+      },
+      "original_deferral_sha256": "60b55f34b9391d75627284fd90fbd034b87ba71266e8ef381024aec665a77207",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-38-24__luke-10-39-42"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Sirach 39:12",
+      "original_deferral": {
+        "source_reference": "Sirach 39:12",
+        "source_text": "Having reflected further, I will recount more, for I have become full like the moon at midmonth.",
+        "reason": "The teacher's fullness like the moon at midmonth before further discourse was read. No actual target was retained combining that lunar image with an abundance of teaching; unrelated full-moon references were not treated as equivalent.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "sirach/verses.json",
+          "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+        },
+        "source_verse": {
+          "reference": "Sirach 39:12",
+          "id": "v39-12",
+          "text": "Having reflected further, I will recount more, for I have become full like the moon at midmonth.",
+          "display_text": "Having reflected further, I will recount more, for I have become full like the moon at midmonth.",
+          "text_sha256": "3c4881d822904a01d7a65921f836feb7f5383cd1002571850c2d454914683fd5"
+        },
+        "reviewer": "Codex author /root/ecclesiastes_author (Sirach 34-39)",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T042246Z",
+        "target": null
+      },
+      "original_deferral_sha256": "eef2ea8410df07f78cc529d0fb0817ebc22bd85a5fb2f085aa83b2fe4a3572b9",
+      "resolved_in_run": "2026-10-31T215146Z",
+      "resolved_on": "2026-10-31",
+      "supported_pair_ids": [
+        "sirach-39-12__job-32-18-20"
+      ],
+      "new_completed_source_credit": 1,
+      "new_completed_pair_credit": 1
+    }
+  ],
+  "pending_revisit_history": [
+    {
+      "run_id": "2026-10-31T215146Z",
+      "actual_read_source_references": [
+        "Sirach Prologue 1a",
+        "Sirach Prologue 1f",
+        "Sirach 8:11",
+        "Sirach 11:18",
+        "Sirach 13:11",
+        "Sirach 16:25",
+        "Sirach 20:23",
+        "Sirach 22:19",
+        "Sirach 29:25",
+        "Sirach 29:26",
+        "Sirach 30:15",
+        "Sirach 33:26",
+        "Sirach 38:24",
+        "Sirach 39:12"
+      ],
+      "considered_source_references": [
+        "Sirach Prologue 1",
+        "Sirach Prologue 1a",
+        "Sirach Prologue 1b",
+        "Sirach Prologue 1c",
+        "Sirach Prologue 1d",
+        "Sirach Prologue 1e",
+        "Sirach Prologue 1f",
+        "Sirach Prologue 1g",
+        "Sirach 3:5",
+        "Sirach 3:17",
+        "Sirach 6:5",
+        "Sirach 6:6",
+        "Sirach 6:11",
+        "Sirach 6:22",
+        "Sirach 6:30",
+        "Sirach 7:7",
+        "Sirach 7:24",
+        "Sirach 7:25",
+        "Sirach 8:4",
+        "Sirach 8:11",
+        "Sirach 9:1",
+        "Sirach 9:4",
+        "Sirach 10:18",
+        "Sirach 10:26",
+        "Sirach 10:31",
+        "Sirach 11:18",
+        "Sirach 11:23",
+        "Sirach 11:27",
+        "Sirach 11:34",
+        "Sirach 12:1",
+        "Sirach 12:12",
+        "Sirach 13:5",
+        "Sirach 13:8",
+        "Sirach 13:11",
+        "Sirach 13:13",
+        "Sirach 13:15",
+        "Sirach 13:16",
+        "Sirach 14:6",
+        "Sirach 14:7",
+        "Sirach 16:5",
+        "Sirach 16:9",
+        "Sirach 16:21",
+        "Sirach 16:25",
+        "Sirach 17:8",
+        "Sirach 18:7",
+        "Sirach 18:28",
+        "Sirach 19:5",
+        "Sirach 20:4",
+        "Sirach 20:10",
+        "Sirach 20:12",
+        "Sirach 20:17",
+        "Sirach 20:23",
+        "Sirach 21:7",
+        "Sirach 21:18",
+        "Sirach 21:26",
+        "Sirach 21:27",
+        "Sirach 22:19",
+        "Sirach 22:26",
+        "Sirach 23:12",
+        "Sirach 23:16",
+        "Sirach 25:2",
+        "Sirach 25:13",
+        "Sirach 25:14",
+        "Sirach 25:15",
+        "Sirach 25:17",
+        "Sirach 25:19",
+        "Sirach 25:22",
+        "Sirach 25:25",
+        "Sirach 28:15",
+        "Sirach 28:21",
+        "Sirach 29:24",
+        "Sirach 29:25",
+        "Sirach 29:26",
+        "Sirach 29:28",
+        "Sirach 30:14",
+        "Sirach 30:15",
+        "Sirach 30:20",
+        "Sirach 31:4",
+        "Sirach 31:31",
+        "Sirach 33:6",
+        "Sirach 33:20",
+        "Sirach 33:23",
+        "Sirach 33:26",
+        "Sirach 34:3",
+        "Sirach 34:11",
+        "Sirach 36:20",
+        "Sirach 36:25",
+        "Sirach 36:26",
+        "Sirach 37:3",
+        "Sirach 37:5",
+        "Sirach 37:8",
+        "Sirach 37:11",
+        "Sirach 37:14",
+        "Sirach 37:21",
+        "Sirach 38:8",
+        "Sirach 38:13",
+        "Sirach 38:15",
+        "Sirach 38:19",
+        "Sirach 38:24",
+        "Sirach 38:25",
+        "Sirach 38:32",
+        "Sirach 39:12",
+        "Sirach 39:28",
+        "Sirach 40:14",
+        "Sirach 40:16",
+        "Sirach 40:22",
+        "Sirach 41:20",
+        "Sirach 42:2",
+        "Sirach 42:6",
+        "Sirach 42:13",
+        "Sirach 42:14",
+        "Sirach 42:22",
+        "Sirach 43:4",
+        "Sirach 43:8",
+        "Sirach 43:15",
+        "Sirach 43:21",
+        "Sirach 44:2",
+        "Sirach 48:11",
+        "Sirach 50:1",
+        "Sirach 50:2",
+        "Sirach 50:3",
+        "Sirach 50:4",
+        "Sirach 50:25",
+        "Sirach 50:26"
+      ],
+      "continued_pending_observations": [
+        {
+          "source_reference": "Sirach 11:18",
+          "source_text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+          "reason": "The native Proverbs 13:11 contrasts lawless acquisition with gathering in piety. It does not state Sirach's attention-and-frugality method. The distinct moral and economic descriptions are not treated as the same specific reason for growing rich.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "sirach/verses.json",
+            "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+          },
+          "source_verse": {
+            "reference": "Sirach 11:18",
+            "id": "v11-18",
+            "text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+            "display_text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+            "text_sha256": "a0f80e52e3950244c8a23f6e6fd3509d25d2e8b72561a18a404f3333e56d2659"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target": null
+        },
+        {
+          "source_reference": "Sirach 20:23",
+          "source_text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+          "reason": "Matthew 14:7-9 says Herod promised with an oath after the dance and later acted because of the oaths and guests. It neither calls the recipient his friend nor describes her becoming his enemy through the promise, and does not say shame caused the original promise. The particular causal sequence in Sirach remains unmatched.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "sirach/verses.json",
+            "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+          },
+          "source_verse": {
+            "reference": "Sirach 20:23",
+            "id": "v20-23",
+            "text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+            "display_text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+            "text_sha256": "2f5164a7ba6e5c116b93ca1b06002194b266b097d65c61a684ddd20479a6555e"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target": null
+        }
+      ],
+      "unretained_candidate_observations": [
+        {
+          "source_reference": "Sirach 11:18",
+          "source_text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+          "reason": "The native Proverbs 13:11 contrasts lawless acquisition with gathering in piety. It does not state Sirach's attention-and-frugality method. The distinct moral and economic descriptions are not treated as the same specific reason for growing rich.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Proverbs 13:11",
+          "target_units": [
+            {
+              "reference": "Proverbs 13:11",
+              "text": "Property pursued eagerly with lawlessness becomes less, but one who gathers for himself with piety will increase; a righteous person has compassion and lends."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "sirach/verses.json",
+            "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+          },
+          "source_verse": {
+            "reference": "Sirach 11:18",
+            "id": "v11-18",
+            "text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+            "display_text": "There is someone who grows rich through his attention and frugality, and this is his allotted reward:",
+            "text_sha256": "a0f80e52e3950244c8a23f6e6fd3509d25d2e8b72561a18a404f3333e56d2659"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "proverbs/verses.json",
+            "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Proverbs 13:11",
+              "id": "v13-11",
+              "text": "Property pursued eagerly with lawlessness becomes less, but one who gathers for himself with piety will increase; a righteous person has compassion and lends.",
+              "display_text": "Property pursued eagerly with lawlessness becomes less, but one who gathers for himself with piety will increase; a righteous person has compassion and lends.",
+              "text_sha256": "7462b6c5aa0976eb1ff0a5b010f7c937cade0fae0938c82e0519890d78d52e78"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "fbb46aca687940a6d5c94944347e1a4f99a22bb3f74552f38b72098584b55e51"
+        },
+        {
+          "source_reference": "Sirach 20:23",
+          "source_text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+          "reason": "Matthew 14:7-9 says Herod promised with an oath after the dance and later acted because of the oaths and guests. It neither calls the recipient his friend nor describes her becoming his enemy through the promise, and does not say shame caused the original promise. The particular causal sequence in Sirach remains unmatched.",
+          "source_unit_read": true,
+          "completed_source_credit": 0,
+          "completed_pair_credit": 0,
+          "target": "Matthew 14:7-9",
+          "target_units": [
+            {
+              "reference": "Matthew 14:7",
+              "text": "Therefore he promised with an oath to give her whatever she asked."
+            },
+            {
+              "reference": "Matthew 14:8",
+              "text": "Prompted by her mother, she said, “Give me here on a platter the head of John the Baptist.”"
+            },
+            {
+              "reference": "Matthew 14:9",
+              "text": "Although the king was grieved, because of his oaths and those reclining with him, he ordered it to be given."
+            }
+          ],
+          "source_and_target_read": true,
+          "target_passage_read": true,
+          "retained": false,
+          "source_snapshot": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "sirach/verses.json",
+            "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+          },
+          "source_verse": {
+            "reference": "Sirach 20:23",
+            "id": "v20-23",
+            "text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+            "display_text": "There is someone who makes a promise to a friend because of shame, and has acquired him as an enemy for nothing.",
+            "text_sha256": "2f5164a7ba6e5c116b93ca1b06002194b266b097d65c61a684ddd20479a6555e"
+          },
+          "reviewer": "Codex author /root/amos_author_recovery",
+          "reviewed": "2026-10-31",
+          "review_timezone": "America/New_York",
+          "review_batch": "2026-10-31T215146Z",
+          "target_source": {
+            "repository": "Dotty777/Saints-Translation",
+            "commit": "328967336f32958587835c921fea3b96a5bf6494",
+            "path": "matthew/verses.json",
+            "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+            "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+          },
+          "target_verses": [
+            {
+              "reference": "Matthew 14:7",
+              "id": "v14-7",
+              "text": "Therefore he promised with an oath to give her whatever she asked.",
+              "display_text": "Therefore he promised with an oath to give her whatever she asked.",
+              "text_sha256": "b07ad1fb86d1af10558ba66a05f595bc2fdf986df6b2efac6ccbfc38b1bb2d62"
+            },
+            {
+              "reference": "Matthew 14:8",
+              "id": "v14-8",
+              "text": "Prompted by her mother, she said, “Give me here on a platter the head of John the Baptist.”",
+              "display_text": "Prompted by her mother, she said, “Give me here on a platter the head of John the Baptist.”",
+              "text_sha256": "a3b65959d2eb68c5e090eaa03d8bcb790e85b54527c8fbb316b667cc4151730f"
+            },
+            {
+              "reference": "Matthew 14:9",
+              "id": "v14-9",
+              "text": "Although the king was grieved, because of his oaths and those reclining with him, he ordered it to be given.",
+              "display_text": "Although the king was grieved, because of his oaths and those reclining with him, he ordered it to be given.",
+              "text_sha256": "29d8380d7ec179c5b5ca6b1d9aa12ee11f286292202f8c187935900eeecdd7ad"
+            }
+          ],
+          "passage_identity_resolved": true,
+          "source_and_target_text_read": true,
+          "evidence_support_status": "pending supported relationship; excluded from completion",
+          "target_passage_sha256": "5c3c40a1dbaee446cf186a41c29148859a95017643a701fc50758568eda1a2c0"
+        }
+      ],
+      "new_unretained_candidate_count": 2,
+      "repeated_unretained_candidate_count": 0,
+      "resolved_source_references": [
+        "Sirach Prologue 1a",
+        "Sirach Prologue 1f",
+        "Sirach 8:11",
+        "Sirach 13:11",
+        "Sirach 16:25",
+        "Sirach 22:19",
+        "Sirach 29:25",
+        "Sirach 29:26",
+        "Sirach 30:15",
+        "Sirach 33:26",
+        "Sirach 38:24",
+        "Sirach 39:12"
+      ],
+      "completion_credit_for_consideration_or_rereading": 0
+    }
+  ]
 }

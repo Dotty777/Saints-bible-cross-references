@@ -1,0 +1,100 @@
+{
+  "run_id": "2026-10-31T215146Z",
+  "base_commit": "d7a140885e7df06c51a4a960d8d7e636e97633ce",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Codex independent technical peer /root",
+  "reviewed": "2026-10-31",
+  "review_timezone": "America/New_York",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "b018228df0023f73321808176068618409e3ae0abf0220d0fcf53580bab7927c"
+    },
+    {
+      "file": "passages.py",
+      "sha256": "8d79df2502ce7abf82b41ed6b78c13888a12fdecdfe87b47687073f877c634b5"
+    },
+    {
+      "file": "run-config.json",
+      "sha256": "00aa353538499b6ab6718e6a53c8cb994e00a9d943e64db41862b6a467014156"
+    },
+    {
+      "file": "review-plan.json",
+      "sha256": "6a87cb669aefcd4ce39a5bbe5d47ee64395032dbbe0d3ef50d63d9f9dc86932f"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "ea897c78d93650f6ea15c1ef20dff5a901afd0c85b84b974d82462a69892156f"
+    },
+    {
+      "file": "production-validate.py",
+      "sha256": "936477bd4cca32931d414c82346a39dfba66929b30828c6d065b60989e5e74d5"
+    },
+    {
+      "file": "book-author.py",
+      "sha256": "766918483953e8dca4d94af3eb3c4b377dd9237e614d0add127db09b1500b221"
+    },
+    {
+      "file": "freeze-book-author.py",
+      "sha256": "04549d4db0393b80953b2f2ce09521a4a7a527e6f8f0abac8fd6af4e621cb5a2"
+    },
+    {
+      "file": "build-author-cases.py",
+      "sha256": "3193df10a5b09cece60c3b34e5a392a0eebfe73cfbcae32afb24f4dfd0f9b0c9"
+    },
+    {
+      "file": "probe-current-run-adaptation.py",
+      "sha256": "fb43e485a31049711ecb7f198196a9e1a1f87ca733fb22589ee83040decb60ae"
+    },
+    {
+      "file": "review-plan-extension.json",
+      "sha256": "28d097bae4f916b5b7b05cd78d79bd3024b801ba64c5e44ecdd03a820d09e795"
+    },
+    {
+      "file": "extension-book-author.py",
+      "sha256": "15a849f24ccfaefe87be3950ca51349c61518da6eca7560ad88c9908870de286"
+    },
+    {
+      "file": "extension-freeze-book-author.py",
+      "sha256": "08b38d130cc861089f3828efde8b0bc98f035dc122b39fea03563e6ed7e540d6"
+    },
+    {
+      "file": "probe-current-extension.py",
+      "sha256": "84d4211681edd7b0a42158c16b04c20e80d7a68274e982f9e71362fc418503b5"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "baseline-proof.json",
+      "sha256": "68e293f79d16c1fe0d66e61df9e0ccd449db8fd80e4bfc2d71499c76dee9652d"
+    },
+    {
+      "file": "current-run-adaptation.json",
+      "sha256": "e64e985dc28246bdb69be8dc7a4e08649e960fdceac83f555f265b4647e22fa5"
+    },
+    {
+      "file": "current-run-adaptation-probe-result.json",
+      "sha256": "3bd998de3a466a10dd4f350f861ea2c5e852b1a5b67a59d77304b0f07cc8b8ce"
+    },
+    {
+      "file": "pending-extension-technical-amendment.json",
+      "sha256": "90b0bc1981c8cc837a49b208536d87f2d9884c4ce935ba75b6dfe732a3efa1a9"
+    },
+    {
+      "file": "current-extension-probe-result.json",
+      "sha256": "92a670af70fead020dd3fd27928d02ef8a52456464cd1db50b8ece9d460ebe39"
+    },
+    {
+      "file": "root-technical-check.json",
+      "sha256": "901e4e949efb90108d57950b4c5a3556e2f901f985084ad5c485e4e26a2a763c"
+    }
+  ],
+  "scope": [
+    "Exact prior accepted helper compared with current exclusion delta; previous preservation, transactional apply and concurrent NT protection unchanged.",
+    "Fresh complete Git baseline, all proposal inputs, native chapter mapping and canonical consideration cursor independently checked.",
+    "Actual author and independent semantic peer reading and final source registry remain separate preconditions. No completion credit for tests, consideration or rereading."
+  ]
+}

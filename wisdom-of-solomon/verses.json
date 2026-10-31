@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Wisdom of Solomon",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -47,8 +47,8 @@
     13,
     16
   ],
-  "completed_source_verses": 404,
-  "completed_cross_references": 404,
+  "completed_source_verses": 411,
+  "completed_cross_references": 411,
   "total_chapters": 19,
   "total_source_sections": 19,
   "total_source_verse_units": 435,
@@ -4548,8 +4548,39 @@
           "id": "v5-19",
           "text": "He will take holiness as an invincible shield,",
           "display_text": "He will take holiness as an invincible shield,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "wisdom-of-solomon-5-19__ephesians-6-16",
+              "target": "Ephesians 6:16",
+              "verdict": "supported",
+              "relationship": "A spiritual quality represented as a shield",
+              "rationale": "Wisdom depicts God taking holiness as an invincible shield within His armor. Ephesians instructs the hearers to take faith as a shield that extinguishes flaming arrows. Both give a spiritual quality the defensive role of a shield, while the bearer and the named quality differ; holiness is not silently changed into faith.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "046e0f40beceed6aef6a3ebc4b8cd27e5f2dc424cfbad8930a4f33ae6b6ecde1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ephesians/verses.json",
+                "blob_sha": "5dff863a35c294f5f0377e58fd6553054c5d06b6",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ephesians/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ephesians 6:16",
+                  "id": "v6-16",
+                  "text": "in all circumstances taking up the shield of faith, with which you will be able to extinguish all the flaming arrows of the evil one.",
+                  "display_text": "in all circumstances taking up the shield of faith, with which you will be able to extinguish all the flaming arrows of the evil one.",
+                  "text_sha256": "0cafa716a118c331b195aacc7808dbb7b32cc0d1cf0a9eeccd17e72fbaea1cc9"
+                }
+              ],
+              "target_passage_sha256": "8153c8e7a50152138bdfce29356ead737f444ce012402e6d536d20b1ddba506d",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Wisdom of Solomon 5:20",
@@ -7902,8 +7933,67 @@
           "id": "v8-15",
           "text": "Terrifying rulers will fear me when they hear of me; among the multitude I will appear good, and in war courageous.",
           "display_text": "Terrifying rulers will fear me when they hear of me;\namong the multitude I will appear good, and in war courageous.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "wisdom-of-solomon-8-15__1-samuel-18-12-16",
+              "target": "1 Samuel 18:12-16",
+              "verdict": "supported",
+              "relationship": "A feared leader who nevertheless wins the people's regard",
+              "rationale": "Wisdom expects rulers to fear the wise speaker while the multitude regards him well. Saul fears David and becomes wary of his understanding, while Israel and Judah love David as he goes before them. These contrasting ruler-and-people responses form the particular parallel; the target does not establish every expectation about military courage or identify the wisdom speaker with David.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "62eac6e580424baf637820b30541e2ba12c52768a2ef8ee9485f975730ee3463",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-samuel/verses.json",
+                "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Samuel 18:12",
+                  "id": "v18-12",
+                  "text": "Saul was afraid of David.",
+                  "display_text": "Saul was afraid of David.",
+                  "text_sha256": "15b70ec6d988394c6f2ab1e3d8634b378ac959c4d66dc889c810167253121f13"
+                },
+                {
+                  "reference": "1 Samuel 18:13",
+                  "id": "v18-13",
+                  "text": "He removed him from his presence and appointed him a commander of a thousand for himself. He went out and came in before the people.",
+                  "display_text": "He removed him from his presence and appointed him a commander of a thousand for himself. He went out and came in before the people.",
+                  "text_sha256": "0282da1c28868208ce359b6bdf632a203fe12ef6bd6f55cf0ecc4db613e1f596"
+                },
+                {
+                  "reference": "1 Samuel 18:14",
+                  "id": "v18-14",
+                  "text": "David showed understanding in all his ways, and the Lord was with him.",
+                  "display_text": "David showed understanding in all his ways, and the Lord was with him.",
+                  "text_sha256": "15da5569897ce346d8196941954f7109cb6660f7d30a6ac21e5f8ca0941a2998"
+                },
+                {
+                  "reference": "1 Samuel 18:15",
+                  "id": "v18-15",
+                  "text": "Saul saw that he showed great understanding, and he was wary of him.",
+                  "display_text": "Saul saw that he showed great understanding, and he was wary of him.",
+                  "text_sha256": "c71b9b5c9019a33f5984ee8871043070d75b6371f338706b4a44c2a0ff99211d"
+                },
+                {
+                  "reference": "1 Samuel 18:16",
+                  "id": "v18-16",
+                  "text": "All Israel and Judah loved David, because he went out and came in before the people.",
+                  "display_text": "All Israel and Judah loved David, because he went out and came in before the people.",
+                  "text_sha256": "7139eb9c9718bea67c899547c57c1d0269064b4d7a283a4ba79d63aa5749b5b1"
+                }
+              ],
+              "target_passage_sha256": "fef92a064fb7aac451690a4ad93f01f277e21ca74251fc297ad97777b0acb12c",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Wisdom of Solomon 8:16",
@@ -11222,16 +11312,106 @@
           "id": "v11-18",
           "text": "or newly created, unknown beasts full of fury, either breathing a fire-breathing blast, or scattering a stench of smoke, or flashing dreadful sparks from their eyes,",
           "display_text": "or newly created, unknown beasts full of fury,\neither breathing a fire-breathing blast,\nor scattering a stench of smoke,\nor flashing dreadful sparks from their eyes,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "wisdom-of-solomon-11-18__job-41-10-13",
+              "target": "Job 41:10-13",
+              "verdict": "supported",
+              "relationship": "Fire, smoke and shining eyes in fearsome creature imagery",
+              "rationale": "Wisdom imagines unknown beasts with fiery breath, smoke and dreadful sparks from their eyes. Job's dragon description gives bright eyes, burning torches and flames from its mouth, and smoke from its nostrils. The shared cluster of fiery bodily images is literary; Wisdom's hypothetical newly created beasts are not identified as an actual Egyptian plague or as Job's single dragon.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "e924d3d6e3bb8993d83027b0a3a4aa07c8909302e3cf0ee760aadd0267bff05b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 41:10",
+                  "id": "v41-10",
+                  "text": "In its sneeze brightness shines, and its eyes have the appearance of the dawn-bearer.",
+                  "display_text": "In its sneeze brightness shines,\nand its eyes have the appearance of the dawn-bearer.",
+                  "text_sha256": "0bc486ed5bf55e3c149407c11b5311610ca0bb6a58a524cfdae8b5e09532b154"
+                },
+                {
+                  "reference": "Job 41:11",
+                  "id": "v41-11",
+                  "text": "Burning torches go out from its mouth, and fire-hearths are hurled about.",
+                  "display_text": "Burning torches go out from its mouth,\nand fire-hearths are hurled about.",
+                  "text_sha256": "5052ef9c8bf603fce316810cf14d52ce0452b61a6978c7e7151ecb1f65dcfb87"
+                },
+                {
+                  "reference": "Job 41:12",
+                  "id": "v41-12",
+                  "text": "Smoke comes out of its nostrils, as from a furnace burning with a coal fire.",
+                  "display_text": "Smoke comes out of its nostrils,\nas from a furnace burning with a coal fire.",
+                  "text_sha256": "19176658b12373ff1eee2a5c853b8faacb4a7b4167af74713e0efac231699be1"
+                },
+                {
+                  "reference": "Job 41:13",
+                  "id": "v41-13",
+                  "text": "Its soul is coals, and flame comes out of its mouth.",
+                  "display_text": "Its soul is coals,\nand flame comes out of its mouth.",
+                  "text_sha256": "de46933573d49be7c203cc5abce5c0e8a4f6a3b8b6344890d0a11a2f0a46e396"
+                }
+              ],
+              "target_passage_sha256": "3cc8ee8d0013176f6f0846aa0b4cfc014acff120354151cd43fcbc4413aea719",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Wisdom of Solomon 11:19",
           "id": "v11-19",
           "text": "whose injury could not only utterly crush them, but whose very appearance could terrify and destroy them.",
           "display_text": "whose injury could not only utterly crush them,\nbut whose very appearance could terrify and destroy them.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "wisdom-of-solomon-11-19__job-41-5-6",
+              "target": "Job 41:5-6",
+              "verdict": "supported",
+              "relationship": "Fear attached to a creature's appearance",
+              "rationale": "Wisdom imagines beasts whose very appearance could terrify and destroy. Job asks who could uncover the creature's face or open its facial gates, with fear surrounding its teeth. Both emphasize the terror of confronting the creature's visible features; Job does not assert Wisdom's further hypothetical destruction by appearance alone.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "d90e28fb3b85a04b8ec48ffb3c224617c0d9a1ca960ec82bd0fb2176a35b6ce5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 41:5",
+                  "id": "v41-5",
+                  "text": "Who will uncover the face of its clothing, and who could enter the fold of its breastplate?",
+                  "display_text": "Who will uncover the face of its clothing,\nand who could enter the fold of its breastplate?",
+                  "text_sha256": "d18d3e80054b23db25cd59a7f27b37eb0e8a3497ce34804a9cfca5f899979023"
+                },
+                {
+                  "reference": "Job 41:6",
+                  "id": "v41-6",
+                  "text": "Who will open the gates of its face? Fear surrounds its teeth.",
+                  "display_text": "Who will open the gates of its face?\nFear surrounds its teeth.",
+                  "text_sha256": "3a84b0bf07ad8fce607213a7c8504cb3fc54a1356f13c5ab6e781dae9442541d"
+                }
+              ],
+              "target_passage_sha256": "457b3e340a62d99a283044840f72ba79b9a0327a46f732acd2713b0b8e7b9450",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Wisdom of Solomon 11:20",
@@ -14323,8 +14503,53 @@
           "id": "v14-16",
           "text": "Then, strengthened over time, the ungodly custom was kept as law.",
           "display_text": "Then, strengthened over time, the ungodly custom was kept as law.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "wisdom-of-solomon-14-16__mark-7-7-9",
+              "target": "Mark 7:7-9",
+              "verdict": "supported",
+              "relationship": "Human religious custom treated as binding authority",
+              "rationale": "Wisdom says an ungodly image-worship custom grew strong and was kept as law. Mark rebukes holding human tradition and establishing it while setting aside God's commandment. Both criticize human religious practice being treated as authoritative; Mark's dispute over inherited observances is not identified with the grieving father's image cult or its historical origin.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "e8566039e50df51d9eb97fda13c4eb80b66ae3c4643cd7c73e951853bcababa9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "mark/verses.json",
+                "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/mark/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Mark 7:7",
+                  "id": "v7-7",
+                  "text": "In vain do they worship Me, teaching human commandments as teachings.’",
+                  "display_text": "In vain do they worship Me, teaching human commandments as teachings.’",
+                  "text_sha256": "e8082f84e8e33fc3be033c643956252280700c6dd16be3f894473ad0c0e2931f"
+                },
+                {
+                  "reference": "Mark 7:8",
+                  "id": "v7-8",
+                  "text": "You abandon God’s commandment and hold to human tradition.”",
+                  "display_text": "You abandon God’s commandment and hold to human tradition.”",
+                  "text_sha256": "73ff34fb4bb4446c2529fe64b9c7be542e1daf5ebae0f96163b55920975915fd"
+                },
+                {
+                  "reference": "Mark 7:9",
+                  "id": "v7-9",
+                  "text": "He said to them, “You set aside God’s commandment very well indeed, so that you may establish your tradition!",
+                  "display_text": "He said to them, “You set aside God’s commandment very well indeed, so that you may establish your tradition!",
+                  "text_sha256": "ffd747289c4a9bc12f476f1b5561a454eb109c58f899ae1c7b57a17fb2e9104b"
+                }
+              ],
+              "target_passage_sha256": "914361192b79650fb277a47339b36e45e26fe9d120f041aa361b3c012baec305",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Wisdom of Solomon 14:17",
@@ -17287,8 +17512,60 @@
           "id": "v17-4",
           "text": "For not even the recess that held them kept them free from fear; terrifying sounds rang around them, and gloomy specters with unsmiling faces appeared.",
           "display_text": "For not even the recess that held them kept them free from fear;\nterrifying sounds rang around them,\nand gloomy specters with unsmiling faces appeared.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "wisdom-of-solomon-17-4__job-4-13-16",
+              "target": "Job 4:13-16",
+              "verdict": "supported",
+              "relationship": "Nocturnal sounds and apparitions causing terror",
+              "rationale": "Wisdom describes terrifying sounds and gloomy specters appearing to those trapped in darkness. Eliphaz recounts nocturnal sound, trembling and a spirit before him, followed by a breeze and voice. Both combine frightening nighttime sounds with an uncanny encounter. Eliphaz explicitly sees no recognizable form, unlike Wisdom's specters with faces, and his episode is not placed in Egypt.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "4540e424b09f20ba4c4dd527e06928a7c66e3a219746bbf55a09f084e7cd7556",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 4:13",
+                  "id": "v4-13",
+                  "text": "There were terrors and a nocturnal sound, fear falling upon people;",
+                  "display_text": "There were terrors and a nocturnal sound,\nfear falling upon people;",
+                  "text_sha256": "771856775d4a97ed00fff5a568314140c8e6f99493140d755aa56764dcbcec28"
+                },
+                {
+                  "reference": "Job 4:14",
+                  "id": "v4-14",
+                  "text": "a shudder and trembling met me and shook my bones greatly.",
+                  "display_text": "a shudder and trembling met me\nand shook my bones greatly.",
+                  "text_sha256": "b948afe81330babf4956edc39f5750c1e6de7f359214799c58e17db6a20e697e"
+                },
+                {
+                  "reference": "Job 4:15",
+                  "id": "v4-15",
+                  "text": "A spirit came upon my face, and my hair and flesh shuddered.",
+                  "display_text": "A spirit came upon my face,\nand my hair and flesh shuddered.",
+                  "text_sha256": "dc674a43360a0512df2298a6b20f6fc198218293d255030b3e34c7cab11a1dd5"
+                },
+                {
+                  "reference": "Job 4:16",
+                  "id": "v4-16",
+                  "text": "I stood up and did not recognize it; I looked, and there was no form before my eyes, but I heard a breeze and a voice:",
+                  "display_text": "I stood up and did not recognize it;\nI looked, and there was no form before my eyes,\nbut I heard a breeze and a voice:",
+                  "text_sha256": "c7d6a43c64506284331e356dfad1ead2c6cd3ba3db0ce5ee6ed31b0bf0583247"
+                }
+              ],
+              "target_passage_sha256": "264d18bc8f5565bc5a029fef52e1fc27b18099f7b803182afdd98569f8f17bb3",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Wisdom of Solomon 17:5",
@@ -18657,8 +18934,46 @@
           "id": "v18-17",
           "text": "Then at once apparitions of dreadful dreams disturbed them, and unexpected fears came upon them;",
           "display_text": "Then at once apparitions of dreadful dreams disturbed them,\nand unexpected fears came upon them;",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "wisdom-of-solomon-18-17__job-7-13-14",
+              "target": "Job 7:13-14",
+              "verdict": "supported",
+              "relationship": "Dreams turning hoped-for nighttime rest into fear",
+              "rationale": "Wisdom's account of a quiet night interrupted by judgment includes dreadful dreams and unexpected fear. Job says that when he expected his bed to comfort him, dreams frightened him and visions overwhelmed him. Both portray disturbing dreams intruding upon nighttime repose; Job is not assigned the firstborn judgment or the guilt of Wisdom's sufferers.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex author /root/amos_author_recovery",
+              "review_batch": "2026-10-31T215146Z",
+              "source_text_sha256": "c9d785eff925177b689a70e05b122166e18170381ef047e0c2c2e08dff4b7359",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 7:13",
+                  "id": "v7-13",
+                  "text": "I said, ‘My bed will comfort me; on my couch I will privately bring up a matter with myself,’",
+                  "display_text": "I said, ‘My bed will comfort me;\non my couch I will privately bring up a matter with myself,’",
+                  "text_sha256": "4b990450955ca1860fdf9479d6f948589d4cba07e0c730181ccfe06aa55998f9"
+                },
+                {
+                  "reference": "Job 7:14",
+                  "id": "v7-14",
+                  "text": "Thou frightenest me with dreams and overwhelmest me with visions.",
+                  "display_text": "Thou frightenest me with dreams\nand overwhelmest me with visions.",
+                  "text_sha256": "7ac927f7aa00f916eab2f63760a5ac807a315024c714979bc43d5153be77653a"
+                }
+              ],
+              "target_passage_sha256": "0f326ab82072c0bbd31ef66e36e1a8740d2fc0ee6d735ac8ee65c697a3ac9191",
+              "destination_anchor_check": "not performed; reference resolves to saved source records"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Wisdom of Solomon 18:18",

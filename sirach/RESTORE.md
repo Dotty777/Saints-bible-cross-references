@@ -5,8 +5,11 @@ Read ../canon.json, ../progress.json, verses.json and inventory.json first. Pres
 
 
 
+
 ## Pending source review recovery
 
-1374 original source units in 51 numbered chapters and a translator’s prologue and 52 native source groups remain unchanged. 1374 read; 1250 supported sources; 1331 pairs; 0 never reviewed. First pending within book: **Sirach Prologue 1**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
+1374 original source units in 51 numbered chapters and a translator’s prologue and 52 native source groups remain unchanged. 1374 read; 1262 supported sources; 1343 pairs; 0 never reviewed. First pending within book: **Sirach Prologue 1**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
 Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **none; all OT source units read**.
+
+**Pending evidence continuation: none; all pending evidence has been considered, awaiting substantive new leads.** Consideration and rereading alone earn no completion credit. Earliest unresolved source: **1 Chronicles 1:24**.
