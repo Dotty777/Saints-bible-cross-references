@@ -1,0 +1,77 @@
+{
+  "run_id": "2026-10-31T120823Z",
+  "baseline_commit": "03677f7310a5093c159e70d3839960a15f7af4f8",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "purpose": "Preserve original Daniel source IDs, aliases and preface while deriving unique readable anchors and resolving declared embedded-label ranges to their canonical book.",
+  "files": [
+    {
+      "path": "scripts/render_books.py",
+      "original_file": "production-render_books.py",
+      "updated_file": "updated-render_books.py",
+      "original_sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36",
+      "updated_sha256": "c636bafb48220262b4e7ad670541dc098ae1ed33ac9c8e1474e03c797a42edab",
+      "replacements": [
+        {
+          "old": "import html,json,re\n",
+          "new": "import html,json,re\nfrom collections import Counter\n",
+          "count": 1
+        },
+        {
+          "old": "def render_book(record,progress,style):\n",
+          "new": "def readable_source_anchors(data):\n    \"\"\"Keep native IDs; namespace repeated IDs only in the derived readable view.\"\"\"\n    counts=Counter(v['id'] for c in data['chapters'] for v in c['verses'])\n    result={};used=set()\n    for index,chapter in enumerate(data['chapters'],1):\n        section=chapter.get('source_metadata',{}).get('section',index)\n        for unit in chapter['verses']:\n            anchor=unit['id'] if counts[unit['id']]==1 else f\"section-{section}-{unit['id']}\"\n            if unit['reference'] in result or anchor in used:\n                raise ValueError('Duplicate native reference or derived readable anchor: '+unit['reference'])\n            result[unit['reference']]=anchor;used.add(anchor)\n    return result\n\ndef render_book(record,progress,style):\n",
+          "count": 1
+        },
+        {
+          "old": "    count=len(verses);pairs=sum(len(v['cross_references']) for v in verses)\n",
+          "new": "    anchors=readable_source_anchors(data)\n    count=len(verses);pairs=sum(len(v['cross_references']) for v in verses)\n",
+          "count": 1
+        },
+        {
+          "old": "'<section id=\"'+e(v['id'])+'\"><h2>'",
+          "new": "'<section id=\"'+e(anchors[v['reference']])+'\"'+(' data-source-id=\"'+e(v['id'])+'\"' if anchors[v['reference']]!=v['id'] else '')+'><h2>'",
+          "count": 1
+        },
+        {
+          "old": "e(c['verses'][0]['id'])",
+          "new": "e(anchors[c['verses'][0]['reference']])",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "scripts/validate.py",
+      "original_file": "production-validate.py",
+      "updated_file": "updated-validate.py",
+      "original_sha256": "13f0834b02a8d869d279e010566b7cbf5b581d4228ab3cf51b8be02bf5ca8f52",
+      "updated_sha256": "ce9b0623523bb7df60ae5d5664b6b836ac52e532c75de434fc349611a3092eff",
+      "replacements": [
+        {
+          "old": "def repository_path(relative):\n",
+          "new": "def readable_source_anchors(data):\n    \"\"\"Keep native IDs; namespace repeated IDs only in the derived readable view.\"\"\"\n    counts=Counter(v['id'] for c in data['chapters'] for v in c['verses'])\n    result={};used=set()\n    for index,chapter in enumerate(data['chapters'],1):\n        section=chapter.get('source_metadata',{}).get('section',index)\n        for unit in chapter['verses']:\n            anchor=unit['id'] if counts[unit['id']]==1 else f\"section-{section}-{unit['id']}\"\n            if unit['reference'] in result or anchor in used:\n                raise ValueError('Duplicate native reference or derived readable anchor: '+unit['reference'])\n            result[unit['reference']]=anchor;used.add(anchor)\n    return result\n\ndef repository_path(relative):\n",
+          "count": 1
+        },
+        {
+          "old": "        source_refs=set();source_ids=set();complete=[];complete_chapters=[];edges=[]\n",
+          "new": "        anchors=readable_source_anchors(data)\n        source_refs=set();source_ids=set();complete=[];complete_chapters=[];edges=[]\n",
+          "count": 1
+        },
+        {
+          "old": "                require(v['id'] not in source_ids,'Duplicate source anchor '+v['id'])\n                source_refs.add(v['reference']);source_ids.add(v['id'])\n",
+          "new": "                require(anchors[v['reference']] not in source_ids,'Duplicate readable source anchor '+anchors[v['reference']])\n                source_refs.add(v['reference']);source_ids.add(anchors[v['reference']])\n",
+          "count": 1
+        },
+        {
+          "old": "                        if z and book in inventories:\n",
+          "new": "                        start,end=f'{book} {c}:{a}',f'{book} {c}:{z}'\n                        if z and book not in inventories and start in saved_units and end in saved_units and saved_unit_books[start]==saved_unit_books[end]:\n                            # Embedded labels stay native; canonical ownership comes from saved source units.\n                            prefix=f'{book} {c}:';book=saved_unit_books[start]\n                            ordered=[ref for refs in inventories[book].values() for ref in refs if ref.startswith(prefix)]\n                            expected=ordered_range(ordered,start,end)\n                        elif z and book in inventories:\n",
+          "count": 1
+        },
+        {
+          "old": "Counter(parser.ids)==Counter(v['id'] for v in complete)",
+          "new": "Counter(parser.ids)==Counter(anchors[v['reference']] for v in complete)",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "completion_credit": 0
+}

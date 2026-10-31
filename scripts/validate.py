@@ -22,6 +22,19 @@ def complete_text(unit):
     paragraphs=unit.get('continuation_paragraphs',[])
     require(isinstance(paragraphs,list) and all(isinstance(p,str) for p in paragraphs),'Invalid original continuation paragraphs: '+unit['reference'])
     return '\n'.join([unit['text']]+paragraphs)
+def readable_source_anchors(data):
+    """Keep native IDs; namespace repeated IDs only in the derived readable view."""
+    counts=Counter(v['id'] for c in data['chapters'] for v in c['verses'])
+    result={};used=set()
+    for index,chapter in enumerate(data['chapters'],1):
+        section=chapter.get('source_metadata',{}).get('section',index)
+        for unit in chapter['verses']:
+            anchor=unit['id'] if counts[unit['id']]==1 else f"section-{section}-{unit['id']}"
+            if unit['reference'] in result or anchor in used:
+                raise ValueError('Duplicate native reference or derived readable anchor: '+unit['reference'])
+            result[unit['reference']]=anchor;used.add(anchor)
+    return result
+
 def repository_path(relative):
     path=(ROOT/relative).resolve()
     require(path.is_relative_to(ROOT.resolve()),'Archived target source path escapes repository')
@@ -167,12 +180,13 @@ def validate(write_receipts=False):
             require(actual==declared,'Source inventory wording, order or anchor mismatch')
             require(len(actual)==inventory['total_source_verse_units'],'Declared inventory total mismatch')
             require(inventory['source_commit']==data['source_snapshot']['commit'] and inventory['source_blob_sha']==data['source_snapshot']['blob_sha'],'Inventory source pin mismatch')
+        anchors=readable_source_anchors(data)
         source_refs=set();source_ids=set();complete=[];complete_chapters=[];edges=[]
         for ch in data['chapters']:
             for v in ch['verses']:
                 require(v['reference'] not in source_refs,'Duplicate source reference '+v['reference'])
-                require(v['id'] not in source_ids,'Duplicate source anchor '+v['id'])
-                source_refs.add(v['reference']);source_ids.add(v['id'])
+                require(anchors[v['reference']] not in source_ids,'Duplicate readable source anchor '+anchors[v['reference']])
+                source_refs.add(v['reference']);source_ids.add(anchors[v['reference']])
                 complete_text(v)
                 if 'complete_text_sha256' in v:
                     require(v['complete_text_sha256']==digest(complete_text(v)),'Complete source unit hash mismatch')
@@ -204,7 +218,13 @@ def validate(write_receipts=False):
                         m=re.fullmatch(r'(.+) (\d+):(\d+[a-z]*)(?:-(\d+[a-z]*))?',e['target'])
                         require(m is not None,'Unsupported target-range identity')
                         book,c,a,z=m.groups()
-                        if z and book in inventories:
+                        start,end=f'{book} {c}:{a}',f'{book} {c}:{z}'
+                        if z and book not in inventories and start in saved_units and end in saved_units and saved_unit_books[start]==saved_unit_books[end]:
+                            # Embedded labels stay native; canonical ownership comes from saved source units.
+                            prefix=f'{book} {c}:';book=saved_unit_books[start]
+                            ordered=[ref for refs in inventories[book].values() for ref in refs if ref.startswith(prefix)]
+                            expected=ordered_range(ordered,start,end)
+                        elif z and book in inventories:
                             ordered=inventories[book][c]
                             start,end=f'{book} {c}:{a}',f'{book} {c}:{z}'
                             expected=ordered_range(ordered,start,end)
@@ -249,7 +269,7 @@ def validate(write_receipts=False):
         require(data['next_reference']==b['next_reference']==book_next,'Book continuation mismatch')
         require((data['review_status']=='complete_initial_curated_pass')==(book_next is None),'Book completion status mismatch')
         parser=Anchors();parser.feed((ROOT/b['records']/data['readable_html']).read_text(encoding='utf-8'))
-        require(Counter(parser.ids)==Counter(v['id'] for v in complete),'Readable HTML/source anchor mismatch')
+        require(Counter(parser.ids)==Counter(anchors[v['reference']] for v in complete),'Readable HTML/source anchor mismatch')
         require(parser.scripture==[complete_text(v) for v in complete],'Readable HTML changes complete source wording or order')
         require(parser.target_scripture==[x['reference']+' '+complete_text(x) for edge in edges for x in edge['target_verses']],'Readable HTML changes complete target wording or order')
         require(parser.details==len(edges),'Readable HTML cross-reference count mismatch')

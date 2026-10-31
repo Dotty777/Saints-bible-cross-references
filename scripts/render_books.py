@@ -1,6 +1,7 @@
 """Render inventoried books and root counts without modifying review evidence."""
 from pathlib import Path
 import html,json,re
+from collections import Counter
 from chapter_structure import chapter_units
 ROOT=Path(__file__).resolve().parents[1]
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
@@ -11,10 +12,24 @@ def complete_text(unit):
         raise ValueError('Invalid original continuation paragraphs: '+unit['reference'])
     return '\n'.join([unit['text']]+paragraphs)
 
+def readable_source_anchors(data):
+    """Keep native IDs; namespace repeated IDs only in the derived readable view."""
+    counts=Counter(v['id'] for c in data['chapters'] for v in c['verses'])
+    result={};used=set()
+    for index,chapter in enumerate(data['chapters'],1):
+        section=chapter.get('source_metadata',{}).get('section',index)
+        for unit in chapter['verses']:
+            anchor=unit['id'] if counts[unit['id']]==1 else f"section-{section}-{unit['id']}"
+            if unit['reference'] in result or anchor in used:
+                raise ValueError('Duplicate native reference or derived readable anchor: '+unit['reference'])
+            result[unit['reference']]=anchor;used.add(anchor)
+    return result
+
 def render_book(record,progress,style):
     folder=ROOT/record['records'];data=load(folder/'verses.json');name=data['book']
     checks=load(folder/'source-checks.json');waiting=checks.get('unresolved_candidates',[])
     verses=[v for c in data['chapters'] for v in c['verses'] if v['status']=='completed']
+    anchors=readable_source_anchors(data)
     count=len(verses);pairs=sum(len(v['cross_references']) for v in verses)
     finished=count==data['total_source_verse_units'];next_ref=data['next_reference']
     deferred_set={case['source_reference'] for case in checks.get('deferred_source_units',[])}
@@ -40,9 +55,9 @@ def render_book(record,progress,style):
             text.append('  '+edge['target']+' — '+edge['relationship']+': '+edge['rationale'])
             quoted=''.join('<p class="target-scripture"'+(' style="white-space:pre-line"' if t.get('continuation_paragraphs') else '')+'><b>'+e(t['reference'])+'</b> '+e(complete_text(t))+'</p>' for t in edge['target_verses'])
             items.append('<li><strong>'+e(edge['target'])+'</strong> <span class="kind">'+e(edge['relationship'])+'</span><p>'+e(edge['rationale'])+'</p><details><summary>Read matching passage</summary>'+quoted+'<p><a href="'+e(edge['target_source']['url'])+'">Pinned source record</a></p></details></li>')
-        text.append('');sections.append('<section id="'+e(v['id'])+'"><h2>'+e(v['reference'])+'</h2><p class="scripture"'+(' style="white-space:pre-line"' if v.get('continuation_paragraphs') else '')+'>'+e(complete_text(v))+'</p><ol>'+''.join(items)+'</ol></section>')
+        text.append('');sections.append('<section id="'+e(anchors[v['reference']])+'"'+(' data-source-id="'+e(v['id'])+'"' if anchors[v['reference']]!=v['id'] else '')+'><h2>'+e(v['reference'])+'</h2><p class="scripture"'+(' style="white-space:pre-line"' if v.get('continuation_paragraphs') else '')+'>'+e(complete_text(v))+'</p><ol>'+''.join(items)+'</ol></section>')
     write(folder/data['readable_text'],'\n'.join(text))
-    nav=' · '.join('<a href="#'+e(c['verses'][0]['id'])+'">'+e(name)+' '+str(c['chapter'])+'</a>' for c in data['chapters'] if c['status']=='completed')
+    nav=' · '.join('<a href="#'+e(anchors[c['verses'][0]['reference']])+'">'+e(name)+' '+str(c['chapter'])+'</a>' for c in data['chapters'] if c['status']=='completed')
     summary=('Completed entries within '+scope if deferred else scope)+f' · {count} completed verses · {pairs} completed pairs'
     page='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(name)+' cross-references</title><style>'+style+'</style></head><body><header><h1>'+e(name)+' cross-references</h1><p>'+e(summary)+'</p><p class="note">Initial curated pass. '+e(continuation)+' Greek-based Saints-Translation numbering is retained.</p><p class="note">'+e(data['completion_definition'])+'</p><nav>'+nav+'</nav><nav><a href="README.md">Book record</a> · <a href="'+e(data['readable_text'])+'">Plain text</a> · <a href="verses.json">Structured verse tracker</a> · <a href="../progress.json">Overall progress</a></nav></header>'+''.join(sections)+'<footer><p class="note">Latest review '+e(data['date'])+' by Codex (AI-assisted editorial review). Source: <a href="'+e(data['source_snapshot']['url'])+'">pinned Saints-Translation record</a>. Source-edition limitations continue to apply. Independent specialist and live-anchor review remain pending.</p></footer></body></html>'
     if not verses:page=page.replace('Latest review '+e(data['date'])+' by Codex (AI-assisted editorial review).','Inventory prepared '+e(data['date'])+' by Codex. Source verse review is pending.',1)

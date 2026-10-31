@@ -1,0 +1,39 @@
+{
+  "run_id": "2026-10-31T120823Z",
+  "base_commit": "03677f7310a5093c159e70d3839960a15f7af4f8",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "checks": {
+    "exact_replacement_scripts/render_books.py": true,
+    "exact_replacement_scripts/validate.py": true,
+    "unchanged_other_helper_functions": true,
+    "complete_raw_git_blob": true,
+    "complete_raw_sha256": true,
+    "full_native_daniel_inventory": true,
+    "all_original_source_fields_order_preserved": true,
+    "all_original_chapter_metadata_preserved": true,
+    "all_original_book_metadata_preserved": true,
+    "all_native_references_match_receipt": true,
+    "all_derived_anchors_unique": true,
+    "unique_original_ids_unchanged": true,
+    "31_original_duplicate_id_groups_preserved": true,
+    "preface_alias_composite_scope_preserved": true,
+    "exact_nonoverlapping_746_source_plan": true,
+    "authorized_mixed_book_config": true,
+    "root_daniel_complete_source_gate_matches_inventory": true,
+    "root_ezekiel_exact_tail_gate": true,
+    "root_ezekiel_gate_complete_text_exact": true,
+    "fixture_p-33f029f6/result.json": true,
+    "fixture_p-2b463271/result.json": true
+  },
+  "changed_helper_functions": [
+    "reviewed_renderer",
+    "prepare",
+    "audit_objects",
+    "readback"
+  ],
+  "new_helper_functions": [
+    "reviewed_code"
+  ],
+  "completion_credit": 0,
+  "repo_mutations": 0
+}

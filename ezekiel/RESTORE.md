@@ -4,8 +4,9 @@ Read ../canon.json, ../progress.json, verses.json and inventory.json first. Pres
 
 
 
+
 ## Pending source review recovery
 
-1267 original source units in 48 native chapters and 48 native source groups remain unchanged. 1008 read; 885 supported sources; 928 pairs; 259 never reviewed. First pending within book: **Ezekiel 2:4**. Next never-reviewed within book: **Ezekiel 40:1**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
+1267 original source units in 48 native chapters and 48 native source groups remain unchanged. 1267 read; 1098 supported sources; 1146 pairs; 0 never reviewed. First pending within book: **Ezekiel 2:4**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
-Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Ezekiel 40:1**.
+Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Hosea 1:1** (inventory required before review).
