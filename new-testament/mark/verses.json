@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Holy Bible cross-reference tracker",
   "book": "Mark",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "testament": "New Testament",
   "division": "Salvation",
   "canonical_order": 45,
@@ -1475,10 +1475,49 @@
           "id": "v1-33",
           "text": "The whole city had gathered at the door.",
           "display_text": "The whole city had gathered at the door.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The whole city's gathering at the door was read in the evening-healing context. The corresponding healing accounts do not reproduce this precise collective doorway notice; generic crowd gatherings were not retained merely to complete this unit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "mark-1-33__mark-2-1-2-2",
+              "target": "Mark 2:1–2:2",
+              "verdict": "supported",
+              "relationship": "internal narrative motif: crowded house doorways",
+              "rationale": "Both Markan scenes portray a crowd gathered at the door of a house where Jesus is present. The earlier evening-healing scene says the whole city; the later Capernaum teaching scene says there is no room even near the door. The repeated crowded-doorway setting is compared without identifying the occasions or asserting that whole city and many are equal numerical counts.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "ac59a96e8a755ac8ce4b63654a4d6e729f96a82e772a87ac979e8ccce7f221c7",
+              "source_complete_text_sha256": "ac59a96e8a755ac8ce4b63654a4d6e729f96a82e772a87ac979e8ccce7f221c7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "mark/verses.json",
+                "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/mark/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/mark.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Mark 2:1",
+                  "id": "v2-1",
+                  "text": "When He entered Capernaum again after some days, it was heard that He was at home.",
+                  "text_sha256": "bdaa6728208ad42ce726e93b3c1aae4ecbc94238d726ec7497b14c32b19e9807",
+                  "complete_text_sha256": "bdaa6728208ad42ce726e93b3c1aae4ecbc94238d726ec7497b14c32b19e9807"
+                },
+                {
+                  "reference": "Mark 2:2",
+                  "id": "v2-2",
+                  "text": "Many gathered, so that there was no longer room, not even near the door, and He was speaking the word to them.",
+                  "text_sha256": "f95464e2a79c214c60a8c6dcbf5a56e4ec8745831045d5b6c04aa47f38a22fcb",
+                  "complete_text_sha256": "f95464e2a79c214c60a8c6dcbf5a56e4ec8745831045d5b6c04aa47f38a22fcb"
+                }
+              ],
+              "target_passage_sha256": "aac07c4e195eebb8b3cb1eeff04b2419618db83ab943a9e6159827e9b9272642",
+              "target_passage_complete_sha256": "aac07c4e195eebb8b3cb1eeff04b2419618db83ab943a9e6159827e9b9272642",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Mark 1:34",
@@ -1999,7 +2038,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 2,
@@ -5348,10 +5387,42 @@
           "id": "v4-13",
           "text": "He said to them, “Do you not understand this parable? Then how will you understand all the parables?",
           "display_text": "He said to them, “Do you not understand this parable? Then how will you understand all the parables?",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' question about failing to understand this parable and therefore all parables was read. Matthew and Luke record explanation requests but do not closely reproduce this particular inference; no sufficiently precise counterpart was retained."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "mark-4-13__john-3-12",
+              "target": "John 3:12",
+              "verdict": "supported",
+              "relationship": "comparison of two-stage teaching questions",
+              "rationale": "Both questions move from failure over a stated teaching to asking how a further or wider teaching can be received. Mark contrasts understanding this parable with all parables; John contrasts believing earthly things with believing heavenly things. Understanding and believing, the audiences, and the teachings remain distinct; the link does not identify the sower parable with the birth-from-above discourse.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "df92d9d2c5d344264c35f05f1f7d4c3666576dd1093ad1dbad67051002a58363",
+              "source_complete_text_sha256": "df92d9d2c5d344264c35f05f1f7d4c3666576dd1093ad1dbad67051002a58363",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 3:12",
+                  "id": "v3-12",
+                  "text": "If I told you earthly things and you do not believe, how will you believe if I tell you heavenly things?",
+                  "text_sha256": "a545c865e8184266b700f1a59f51c294d4292b08eca4917ce5a7d8b962f91f6d",
+                  "complete_text_sha256": "a545c865e8184266b700f1a59f51c294d4292b08eca4917ce5a7d8b962f91f6d"
+                }
+              ],
+              "target_passage_sha256": "24edd0e10421f70da24352bb7acb497c9a78713a81ef8b91b7a4eadd31df427e",
+              "target_passage_complete_sha256": "24edd0e10421f70da24352bb7acb497c9a78713a81ef8b91b7a4eadd31df427e",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Mark 4:14",
@@ -5955,8 +6026,8 @@
           "display_text": "The earth bears fruit of itself: first the blade, then the ear, then the full grain in the ear.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The earth producing first the blade, then the ear, then full grain was read. General growth passages were not counted as reproducing this distinctive sequence, and no independent allegorical identity for each growth stage was invented."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The blade–ear–full-grain progression remains particular; no allegorical stages are invented from generic growth. This remains deferred with zero credit."
         },
         {
           "reference": "Mark 4:29",
@@ -12258,10 +12329,56 @@
           "id": "v7-34",
           "text": "Looking up to heaven, He sighed and said to him, “Ephphatha,” that is, “Be opened.”",
           "display_text": "Looking up to heaven, He sighed and said to him, “Ephphatha,” that is, “Be opened.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The heavenly look, sigh and Ephphatha command translated Be opened were read. No sufficiently precise counterpart to this distinctive combination was established; generic healing commands or upward looks were not counted as resolving it."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "mark-7-34__john-11-41-11-43",
+              "target": "John 11:41–11:43",
+              "verdict": "supported",
+              "relationship": "upward look preceding a restorative word",
+              "rationale": "Both scenes place Jesus' upward look before words associated with restoration. Mark expressly says He looks toward heaven, sighs and commands the deaf man to be opened; John says He lifts His eyes upward, thanks the Father and calls Lazarus out. John does not reproduce the sigh or Ephphatha, and the deaf man's healing and Lazarus' raising are distinct events.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "63a0bc6efd99f818dac227cbbcfa955529e75d274371210c83ae239c8d615a17",
+              "source_complete_text_sha256": "63a0bc6efd99f818dac227cbbcfa955529e75d274371210c83ae239c8d615a17",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 11:41",
+                  "id": "v11-41",
+                  "text": "So they took away the stone. Jesus lifted His eyes upward and said, “Father, I thank Thee that Thou didst hear Me.",
+                  "text_sha256": "88970fb5ba7e1d39b10c07a30a791a9bbcce05ca51d759cf9e30466e09f1fbc0",
+                  "complete_text_sha256": "88970fb5ba7e1d39b10c07a30a791a9bbcce05ca51d759cf9e30466e09f1fbc0"
+                },
+                {
+                  "reference": "John 11:42",
+                  "id": "v11-42",
+                  "text": "I knew that Thou always hearest Me, but I said this because of the crowd standing around, so that they may believe that Thou didst send Me.”",
+                  "text_sha256": "fbe078577e938dd971c1077b6b6c1a3e495a77155b27cb87106d6a979e876940",
+                  "complete_text_sha256": "fbe078577e938dd971c1077b6b6c1a3e495a77155b27cb87106d6a979e876940"
+                },
+                {
+                  "reference": "John 11:43",
+                  "id": "v11-43",
+                  "text": "Having said these things, He cried out with a loud voice, “Lazarus, come out!”",
+                  "text_sha256": "afc5f6b7a0baefb5bc6799c35912de8ee165457912d03840cca010f4fb536649",
+                  "complete_text_sha256": "afc5f6b7a0baefb5bc6799c35912de8ee165457912d03840cca010f4fb536649"
+                }
+              ],
+              "target_passage_sha256": "91dc110c0daab5137aa027ce1c2630007c4528bef97f15e6b465d40b06872e83",
+              "target_passage_complete_sha256": "91dc110c0daab5137aa027ce1c2630007c4528bef97f15e6b465d40b06872e83",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Mark 7:35",
@@ -12411,7 +12528,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 8,
@@ -13449,8 +13566,8 @@
           "display_text": "He looked up and said, “I see people, for I see them like trees, walking.”",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The man's initial partial sight, describing people like walking trees, was read in the staged healing. No sufficiently precise separate passage was retained for that report, and symbolic identities for the trees or stages were not invented."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The report of people as walking trees concerns this partial sight; no symbolic tree identity or matching report is supplied. This remains deferred with zero credit."
         },
         {
           "reference": "Mark 8:25",
@@ -13499,10 +13616,56 @@
           "id": "v8-26",
           "text": "He sent him home, saying, “Do not even enter the village.”",
           "display_text": "He sent him home, saying, “Do not even enter the village.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The instruction to go home without even entering the village was read. General healing-secrecy commands do not reproduce this travel restriction, and a hidden publicity motive was not supplied as though explicitly stated."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "mark-8-26__mark-5-18-5-20",
+              "target": "Mark 5:18–5:20",
+              "verdict": "supported",
+              "relationship": "contrasting post-restoration directions",
+              "rationale": "Both restored men are sent home by Jesus, but the accompanying directions differ. The formerly blind man is told not even to enter the village; the formerly demon-possessed man is told to report to his own people what the Lord did and goes proclaiming in the Decapolis. This compares different post-restoration directions without inventing a publicity motive or a universal secrecy rule.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "b6cb347edbf7cf4d2011d44d00020b274a30b8d781ce5bf2a2fffb430d712367",
+              "source_complete_text_sha256": "b6cb347edbf7cf4d2011d44d00020b274a30b8d781ce5bf2a2fffb430d712367",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "mark/verses.json",
+                "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/mark/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/mark.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Mark 5:18",
+                  "id": "v5-18",
+                  "text": "As He was boarding the boat, the man who had been demon-possessed begged Him to let him be with Him.",
+                  "text_sha256": "ad9c8ca5f502833347235aa5826b4c0d872bbf5b6cb501a2f578be235e620f64",
+                  "complete_text_sha256": "ad9c8ca5f502833347235aa5826b4c0d872bbf5b6cb501a2f578be235e620f64"
+                },
+                {
+                  "reference": "Mark 5:19",
+                  "id": "v5-19",
+                  "text": "He did not allow him, but said to him, “Go home to your own people and report to them how much the Lord has done for you and how He has had mercy on you.”",
+                  "text_sha256": "496fee8a2b239ade052347810171f5807d55de0ea776ba744234c95d42eda98c",
+                  "complete_text_sha256": "496fee8a2b239ade052347810171f5807d55de0ea776ba744234c95d42eda98c"
+                },
+                {
+                  "reference": "Mark 5:20",
+                  "id": "v5-20",
+                  "text": "He went away and began proclaiming in the Decapolis how much Jesus had done for him, and everyone marveled.",
+                  "text_sha256": "e595ce16afc31250c5c933cae96f4f8abf94e27c9d57a6151514f69821dc2135",
+                  "complete_text_sha256": "e595ce16afc31250c5c933cae96f4f8abf94e27c9d57a6151514f69821dc2135"
+                }
+              ],
+              "target_passage_sha256": "4808b469186035f3deacf04762a01b1de35088a54dbd9622b6c4e85ccc18c1d5",
+              "target_passage_complete_sha256": "4808b469186035f3deacf04762a01b1de35088a54dbd9622b6c4e85ccc18c1d5",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Mark 8:27",
@@ -14676,8 +14839,8 @@
           "display_text": "He asked them, “What are you disputing with them?”",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' specific question about the scribes' dispute with the disciples was read. The parallel boy-healing accounts do not reproduce this dispute question; general conversations about the failed healing were not treated as the same exchange."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The actual question about the dispute with scribes remains different from accounts merely asking about a failed healing. This remains deferred with zero credit."
         },
         {
           "reference": "Mark 9:17",
@@ -14866,10 +15029,49 @@
           "id": "v9-21",
           "text": "He asked his father, “How long has this been happening to him?” He said, “From childhood.",
           "display_text": "He asked his father, “How long has this been happening to him?” He said, “From childhood.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' question about how long the condition had occurred and the father's answer From childhood were read. No sufficiently specific parallel to that duration exchange was retained."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "mark-9-21__john-5-5-5-6",
+              "target": "John 5:5–5:6",
+              "verdict": "supported",
+              "relationship": "attention to duration before healing",
+              "rationale": "Both healing scenes explicitly attend to a condition's long duration before restoration. Mark records Jesus asking the father and receiving the answer from childhood; John specifies thirty-eight years and Jesus knowing the condition had lasted a long time before asking whether the man wants to become well. The questions, knowledge descriptions, patients and conditions differ; John does not attest Mark's childhood onset.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "8861f819e29d665d030642478644e2780b9d209540e2b3893a95ccc61b6e2ea6",
+              "source_complete_text_sha256": "8861f819e29d665d030642478644e2780b9d209540e2b3893a95ccc61b6e2ea6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 5:5",
+                  "id": "v5-5",
+                  "text": "And a certain man was there who had been ill for thirty-eight years.",
+                  "text_sha256": "2d907897af6c984cedba30eb95cd56f11917ae5fb84de462af14ef86a94a572c",
+                  "complete_text_sha256": "2d907897af6c984cedba30eb95cd56f11917ae5fb84de462af14ef86a94a572c"
+                },
+                {
+                  "reference": "John 5:6",
+                  "id": "v5-6",
+                  "text": "Jesus, seeing him lying there and knowing that he had already been that way a long time, said to him, “Do you want to become well?”",
+                  "text_sha256": "a1728179df9f8a82b09b2386d2300f31a9a4a14c14be5585683137aa1d6b7fc1",
+                  "complete_text_sha256": "a1728179df9f8a82b09b2386d2300f31a9a4a14c14be5585683137aa1d6b7fc1"
+                }
+              ],
+              "target_passage_sha256": "1928d5b0652c7b26d1633500dfde9951aed9ec89934f4263752175af60af581d",
+              "target_passage_complete_sha256": "1928d5b0652c7b26d1633500dfde9951aed9ec89934f4263752175af60af581d",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Mark 9:22",
@@ -15935,8 +16137,8 @@
           "display_text": "For everyone will be salted with fire.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The statement that everyone will be salted with fire was read. No sufficiently specific supported counterpart to the combined image was established, and no sacrificial, suffering or purification interpretation was silently imported to manufacture a completed pair."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. People salted with fire remains a combined image without a supplied sacrifice clause; that absent clause is not restored. This remains deferred with zero credit."
         },
         {
           "reference": "Mark 9:50",
@@ -16426,10 +16628,42 @@
           "id": "v10-10",
           "text": "In the house, the disciples asked Him about this again.",
           "display_text": "In the house, the disciples asked Him about this again.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The disciples' renewed question in the house was read. Matthew records a different disciples' reaction to the divorce teaching, but no sufficiently close independent counterpart to this private follow-up notice was retained."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "mark-10-10__mark-7-17",
+              "target": "Mark 7:17",
+              "verdict": "supported",
+              "relationship": "internal narrative pattern: disciples' private follow-up",
+              "rationale": "Both Markan scenes have disciples asking Jesus in a house after public teaching. Mark10 concerns the marriage/divorce instruction; Mark7 concerns the defilement parable and explicitly says the house is away from the crowd. This is a repeated private-follow-up setting, not the same question, house or occasion established.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "7455f3a3e5b0f7ace5e0e6b752aa756e205f2c7eee911a34e36f3d5a848f7446",
+              "source_complete_text_sha256": "7455f3a3e5b0f7ace5e0e6b752aa756e205f2c7eee911a34e36f3d5a848f7446",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "mark/verses.json",
+                "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/mark/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/mark.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Mark 7:17",
+                  "id": "v7-17",
+                  "text": "When He entered a house away from the crowd, His disciples asked Him about the parable.",
+                  "text_sha256": "32327c557da7b5af695df836a8f636b6371e0e10967c38e7fa3dd1bfe9985f7c",
+                  "complete_text_sha256": "32327c557da7b5af695df836a8f636b6371e0e10967c38e7fa3dd1bfe9985f7c"
+                }
+              ],
+              "target_passage_sha256": "713d6f14e81205c631fabb00a7b913473e65e58ecf2009e3338536f06f1a9070",
+              "target_passage_complete_sha256": "713d6f14e81205c631fabb00a7b913473e65e58ecf2009e3338536f06f1a9070",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Mark 10:11",
@@ -18245,7 +18479,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 11,
@@ -18896,10 +19130,42 @@
           "id": "v11-16",
           "text": "and would not allow anyone to carry a vessel through the temple.",
           "display_text": "and would not allow anyone to carry a vessel through the temple.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' prohibition on carrying a vessel through the temple was read. The other temple-cleansing accounts do not precisely reproduce this action; unrelated Sabbath burden or vessel laws were not treated as evidence for the specific prohibition here."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "mark-11-16__john-2-16",
+              "target": "John 2:16",
+              "verdict": "supported",
+              "relationship": "comparison of temple-cleansing restrictions",
+              "rationale": "Both temple-cleansing narratives include Jesus restricting material activity within the sacred setting. Mark prohibits carrying a vessel through the temple; John orders the dove sellers to remove these things and rejects making His Father's house a trading house. The exact activities and the Gospels' narrative placements differ; John does not independently state Mark's through-carrying prohibition.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "76782bf216516f561cea847166027d4e708aa63ac03ec10cca0bc347031d22e3",
+              "source_complete_text_sha256": "76782bf216516f561cea847166027d4e708aa63ac03ec10cca0bc347031d22e3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 2:16",
+                  "id": "v2-16",
+                  "text": "And He said to those selling the doves, “Take these things away from here. Do not make My Father’s house a house of trade.”",
+                  "text_sha256": "a06a7aecc739d2294bbaf694fdad572dcc5810037534ac142f73b0def582af6b",
+                  "complete_text_sha256": "a06a7aecc739d2294bbaf694fdad572dcc5810037534ac142f73b0def582af6b"
+                }
+              ],
+              "target_passage_sha256": "78fd1e850fc6a13b5b9a6c489c4c5f742a9bf24bbf03145f192b5e10d6d51aec",
+              "target_passage_complete_sha256": "78fd1e850fc6a13b5b9a6c489c4c5f742a9bf24bbf03145f192b5e10d6d51aec",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Mark 11:17",
@@ -19595,7 +19861,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 12,
@@ -25350,8 +25616,8 @@
           "display_text": "A certain young man was following Him, wearing a linen cloth over his naked body. They seized him,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The young man following in a linen cloth over his naked body and being seized was read. No sufficiently precise external counterpart was retained; he was not assigned an unverified personal identity."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The unnamed linen-clad follower's capture remains unverified in identity; the garment-escape analogy for14:52 is not used to identify him. This remains deferred with zero credit."
         },
         {
           "reference": "Mark 14:52",
@@ -29539,13 +29805,17 @@
   ],
   "total_source_verse_units": 673,
   "reviewed_source_units": 673,
-  "completed_source_verses": 661,
-  "completed_cross_references": 669,
+  "completed_source_verses": 668,
+  "completed_cross_references": 676,
   "completed_chapters": [
+    1,
     2,
     3,
     5,
     6,
+    7,
+    10,
+    11,
     12,
     13,
     15,
@@ -29570,7 +29840,7 @@
     16
   ],
   "review_status": "in_progress",
-  "next_reference": "Mark 1:33",
+  "next_reference": "Mark 4:28",
   "next_unreviewed_reference": null,
   "all_original_source_units_read": true
 }

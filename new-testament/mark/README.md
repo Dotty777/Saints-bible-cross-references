@@ -1,10 +1,10 @@
 # Mark cross-reference records
 
-661 completed source verses; 669 retained pairs; 673 source units read; 12 deferred units.
+668 completed source verses; 676 retained pairs; 673 source units read; 5 deferred units.
 
-First unfinished: Mark 1:33. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: John 6:1.
+First unfinished: Mark 4:28. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Acts 1:1.
 
-Completed chapters: 2, 3, 5, 6, 12, 13, 15, 16. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 673 original source units in 16 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 3, 5, 6, 7, 10, 11, 12, 13, 15, 16. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 673 original source units in 16 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Mark.html) · [Plain text](Mark.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -22,3 +22,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-31T004042Z](../review-batches/2026-10-31T004042Z.json): 415 completed source verses and 420 retained pairs.
 - [2026-10-31T014513Z](../review-batches/2026-10-31T014513Z.json): 2 completed source verses and 2 retained pairs.
 - [2026-10-31T024944Z](../review-batches/2026-10-31T024944Z.json): 1 completed source verses and 1 retained pairs.
+- [2026-10-31T035445Z](../review-batches/2026-10-31T035445Z.json): 7 completed source verses and 7 retained pairs.

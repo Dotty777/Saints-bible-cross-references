@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Holy Bible cross-reference tracker",
   "book": "Luke",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "testament": "New Testament",
   "division": "Salvation",
   "canonical_order": 46,
@@ -895,8 +895,8 @@
           "display_text": "The people were waiting for Zechariah and wondering at his delay in the sanctuary.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The delay and the people's wondering were reread with the announcement and muteness that explain this scene. The priestly division regulations in 1 Chronicles 24 do not describe a comparable waiting crowd or duration of delay. No generic wait for a religious leader is retained."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. Exodus32:1 was freshly read for an unexplained leader's delay. Its demand for replacement gods during Moses' mountain stay is far from Luke's waiting temple congregation; delay and wonder alone add too little for a retained comparison. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 1:22",
@@ -954,8 +954,8 @@
           "display_text": "When the days of his service were completed, he went home.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The fixed priestly ministry background in 1 Chronicles 24:19 was considered, but it gives no particular completed term or return home corresponding to this transition. It informs the earlier division setting more directly than this departure, so the unit remains unpaired."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The actual2Chronicles23:8 Sabbath/division wording was freshly read. It concerns armed Levites and Judah kept together at Jehoiada's command, not Zechariah's completed service and homeward departure. No shift date or identical priestly action is supplied. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 1:24",
@@ -3438,8 +3438,8 @@
           "display_text": "In those days a decree went out from Caesar Augustus for all the inhabited world to be registered.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Acts 5:37 provides a registration-related dating notice, compared separately with Luke 2:2, but it gives neither Augustus's decree nor this inhabited-world scope. No imperial decree, synchronism, or identical census is supplied for this unit."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The Augustus decree and inhabited-world registration scope remain particular. Other Caesar or census notices do not establish this edict or its identity. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 2:2",
@@ -3490,8 +3490,8 @@
           "display_text": "Everyone went to be registered, each to his own city.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The registration notices in Acts 5:37 and the neighboring Luke verses do not reproduce everyone traveling to an own city. General census language would not illuminate this distinctive procedure, and no external administrative rule or ancestral-city requirement is added."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The everyone/own-city travel procedure remains a particular census claim; no unverified administrative requirement is inferred from generic registrations. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 2:4",
@@ -3666,10 +3666,56 @@
           "id": "v2-8",
           "text": "In that same region there were shepherds living in the fields and keeping watch over their flock through the watches of the night.",
           "display_text": "In that same region there were shepherds living in the fields and keeping watch over their flock through the watches of the night.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "David tending a flock in the Bethlehem setting of 1 Samuel 16 was considered. It does not share the nighttime field watch, the group of shepherds, or the angelic setting. A broad shepherd association alone is not retained for this narrative unit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-2-8__genesis-31-38-31-40",
+              "target": "Genesis 31:38–31:40",
+              "verdict": "supported",
+              "relationship": "scriptural background: nighttime flock labor",
+              "rationale": "Both passages place tending flocks in the conditions of nighttime labor. Luke narrates shepherds keeping night watches over their flock; Jacob describes responsibility for the flock, losses by night, frost and sleeplessness. This is concrete occupational background for night shepherding, not an identification of Jacob with the shepherds, their region, the birth occasion or the angelic encounter.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "b10371988fdfad97d719b564ae4573131c58dc95bce6d6f9c3c6fda80f91635e",
+              "source_complete_text_sha256": "b10371988fdfad97d719b564ae4573131c58dc95bce6d6f9c3c6fda80f91635e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/genesis.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 31:38",
+                  "id": "v31-38",
+                  "text": "“These twenty years I have been with you; your sheep and your goats have not miscarried, and I have not eaten the rams of your flock.",
+                  "text_sha256": "8dbb84fe398d24f3628998918faf17cf9ff1ebdb2bad8bf1b80cba80a2b44986",
+                  "complete_text_sha256": "8dbb84fe398d24f3628998918faf17cf9ff1ebdb2bad8bf1b80cba80a2b44986"
+                },
+                {
+                  "reference": "Genesis 31:39",
+                  "id": "v31-39",
+                  "text": "“I brought you no animal taken by wild beasts; I myself paid for what was stolen by day and what was stolen by night.",
+                  "text_sha256": "6324ff6de7840c51e79f0316df34490a2dd53243c9328eec7365c85eb0e16776",
+                  "complete_text_sha256": "6324ff6de7840c51e79f0316df34490a2dd53243c9328eec7365c85eb0e16776"
+                },
+                {
+                  "reference": "Genesis 31:40",
+                  "id": "v31-40",
+                  "text": "“By day I was consumed by the heat, and by night by the frost; and sleep departed from my eyes.",
+                  "text_sha256": "49e4d106fd6b33f6e74e2bc79b773822263d308e58773907d4defde233e4dcad",
+                  "complete_text_sha256": "49e4d106fd6b33f6e74e2bc79b773822263d308e58773907d4defde233e4dcad"
+                }
+              ],
+              "target_passage_sha256": "17f520da0cd142ad2384ecb5a30354b004847ded3c04a75972a43ad5e28f8170",
+              "target_passage_complete_sha256": "17f520da0cd142ad2384ecb5a30354b004847ded3c04a75972a43ad5e28f8170",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 2:9",
@@ -4082,10 +4128,63 @@
           "id": "v2-18",
           "text": "Everyone who heard wondered at what the shepherds told them.",
           "display_text": "Everyone who heard wondered at what the shepherds told them.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The John-birth report and local reaction in Luke 1:63–66 were reconsidered. They share social response to an unusual birth but not the shepherds' testimony, and wonder alone adds too little as a fresh connection. The unit remains deferred."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-2-18__luke-1-63-1-66",
+              "target": "Luke 1:63–1:66",
+              "verdict": "supported",
+              "relationship": "internal infancy report-and-reception pattern",
+              "rationale": "Both infancy narratives join reports about an unusual child with a community response. John's naming and Zechariah's restored speech bring wonder, fear and discussion among hearers; the shepherds' report brings wonder about Jesus. The children, speakers, signs and reactions are explicitly distinct. This compares the paired infancy narratives' report-and-reception pattern, not the same testimony or audience.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "d7ccfb3b28525b6a3ba0366e50c87563245dc6e71ae5939a67fb3280f38ded59",
+              "source_complete_text_sha256": "d7ccfb3b28525b6a3ba0366e50c87563245dc6e71ae5939a67fb3280f38ded59",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 1:63",
+                  "id": "v1-63",
+                  "text": "He asked for a writing tablet and wrote, “His name is John.” And they all wondered.",
+                  "text_sha256": "01005949626b5aea5ff98df7f17735090261bacec72bb9eb0efd3a737751e083",
+                  "complete_text_sha256": "01005949626b5aea5ff98df7f17735090261bacec72bb9eb0efd3a737751e083"
+                },
+                {
+                  "reference": "Luke 1:64",
+                  "id": "v1-64",
+                  "text": "Immediately his mouth and tongue were opened, and he spoke, blessing God.",
+                  "text_sha256": "c2faf0d7ab06273d2d4d33cb8f48e8cd75a389a6efa2a190ef99e332d2b317c0",
+                  "complete_text_sha256": "c2faf0d7ab06273d2d4d33cb8f48e8cd75a389a6efa2a190ef99e332d2b317c0"
+                },
+                {
+                  "reference": "Luke 1:65",
+                  "id": "v1-65",
+                  "text": "Fear came upon all who lived around them, and all these matters were discussed throughout the whole hill country of Judea.",
+                  "text_sha256": "c589c7a6cac9b411f8ee325ac3ebb18044effcc9e6045d5928b17a6b1a713c6f",
+                  "complete_text_sha256": "c589c7a6cac9b411f8ee325ac3ebb18044effcc9e6045d5928b17a6b1a713c6f"
+                },
+                {
+                  "reference": "Luke 1:66",
+                  "id": "v1-66",
+                  "text": "Everyone who heard took these matters to heart, saying, “What then will this child become?” For the Lord’s hand was indeed with him.",
+                  "text_sha256": "696b4fcce24631ec6d6bc62d8dd088170b010daed3d0095b1d9428442a902fd0",
+                  "complete_text_sha256": "696b4fcce24631ec6d6bc62d8dd088170b010daed3d0095b1d9428442a902fd0"
+                }
+              ],
+              "target_passage_sha256": "8954c5c5121ff3bda70e97d9a3b8ab325626b93aca2fbaf27758b39973365ae8",
+              "target_passage_complete_sha256": "8954c5c5121ff3bda70e97d9a3b8ab325626b93aca2fbaf27758b39973365ae8",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 2:19",
@@ -4740,10 +4839,42 @@
           "id": "v2-33",
           "text": "His father and mother were wondering at what was being said about Him.",
           "display_text": "His father and mother were wondering at what was being said about Him.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The parents' later response and failure to understand in Luke 2:48–50 were compared with this wonder at Simeon's words. Wonder is not itself lack of understanding, and the later exchange does not independently illuminate this particular testimony or parental response."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-2-33__luke-2-18",
+              "target": "Luke 2:18",
+              "verdict": "supported",
+              "relationship": "internal response pattern: wonder at testimony about Jesus",
+              "rationale": "The parents wonder at what Simeon is saying about Jesus, while earlier hearers wonder at what the shepherds tell them about the same Child. The repeated response is specifically to testimony about the infant Jesus in the same infancy narrative. The witnesses, words and audiences differ; parental wonder is not equated with ignorance or made a second account of the shepherds' visit.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "f7905d60c44e8879cd23fdd6f477095d0ead47f229607d2265b80d424f2f9838",
+              "source_complete_text_sha256": "f7905d60c44e8879cd23fdd6f477095d0ead47f229607d2265b80d424f2f9838",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 2:18",
+                  "id": "v2-18",
+                  "text": "Everyone who heard wondered at what the shepherds told them.",
+                  "text_sha256": "d7ccfb3b28525b6a3ba0366e50c87563245dc6e71ae5939a67fb3280f38ded59",
+                  "complete_text_sha256": "d7ccfb3b28525b6a3ba0366e50c87563245dc6e71ae5939a67fb3280f38ded59"
+                }
+              ],
+              "target_passage_sha256": "8352a5977cec2a468404a262d39a1ed705535e566c1f2567761dab8aa06084f6",
+              "target_passage_complete_sha256": "8352a5977cec2a468404a262d39a1ed705535e566c1f2567761dab8aa06084f6",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 2:34",
@@ -5228,8 +5359,8 @@
           "display_text": "Supposing Him to be in the traveling company, they went a day’s journey and searched for Him among their relatives and acquaintances.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The neighboring discovery story and Luke's lost-and-found parables were reconsidered. They do not reproduce the mistaken traveling-company assumption, day's journey, or search among relatives. No allegory about Jesus being morally lost or an identical later search is retained."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The mistaken travel-company assumption, day's journey and relatives/acquaintances search remain particular. No allegory about Jesus being morally lost or a matching family search is invented. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 2:45",
@@ -5238,8 +5369,8 @@
           "display_text": "When they did not find Him, they returned to Jerusalem searching for Him.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The continued search and return to Jerusalem were reread with the discovery in the temple. A generic search-until-found pattern does not supply a concrete separate connection to this return journey. Its specific narrative action stays deferred."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The parents' return to Jerusalem in search remains particular; a generic search or return would add little as a separate connection. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 2:46",
@@ -5339,8 +5470,8 @@
           "display_text": "When His parents saw Him, they were overwhelmed. His mother said to Him, “Child, why hast Thou treated us this way? Behold, Thy father and I have been searching for Thee in anguish.”",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Simeon's earlier sword-to-Mary's-soul saying was considered alongside this anguished parental question. It does not explicitly identify the childhood search as fulfillment, and general maternal pain is insufficient to decide that interpretation. No fulfillment claim or new pair is retained."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. John20:13–16 was freshly read, but the mother's anguished question to the recognized child is distinct from Magdalene's encounter with the unrecognized risen Jesus. The latter more specifically parallels Luke24:17. No identity of Marys, fulfillment of Simeon's sword or new counterpart for this maternal confrontation is imposed. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 2:49",
@@ -6549,8 +6680,8 @@
           "display_text": "of Matthat, of Levi, of Melchi, of Jannai, of Joseph,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Matthew 1:12–16 was reread as a nearby postexilic genealogy candidate. Its chain does not establish Matthat–Levi–Melchi–Jannai–Joseph. Shared or similar names are not sufficient to recover relationships or equate the differently traced lineages."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The Matthat–Levi–Melchi–Jannai–Joseph chain remains unestablished by a matching lineage. Repeated familiar names do not identify its people. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 3:25",
@@ -6559,8 +6690,8 @@
           "display_text": "of Mattathias, of Amos, of Nahum, of Esli, of Naggai,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The reread Matthew lineage does not establish Mattathias–Amos–Nahum–Esli–Naggai. No prophetic-author identity for Amos or Nahum is inferred from a repeated name, and no supplied paternal chain is replaced by a conjectured harmonization."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The Mattathias–Amos–Nahum–Esli–Naggai chain remains without a matching attested sequence; prophetic-author identities are not inferred. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 3:26",
@@ -6569,8 +6700,8 @@
           "display_text": "of Maath, of Mattathias, of Semein, of Josech, of Joda,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The actual Maath–Mattathias–Semein–Josech–Joda sequence remains without a matching chain in the reread Matthew genealogy. Similar spellings cannot establish the persons or their relationships; no pair is retained."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The Maath–Mattathias–Semein–Josech–Joda sequence remains unresolved. Similar spellings do not establish genealogy. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 3:27",
@@ -6628,8 +6759,8 @@
           "display_text": "of Melchi, of Addi, of Cosam, of Elmadam, of Er,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "No matching Melchi–Addi–Cosam–Elmadam–Er chain was established in the candidate genealogy. An Er elsewhere or the repeated Melchi inside Luke does not establish identity across these generations. The precise lineage remains deferred."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The Melchi–Addi–Cosam–Elmadam–Er chain is not established by isolated repeated names. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 3:29",
@@ -6638,8 +6769,8 @@
           "display_text": "of Jesus, of Eliezer, of Jorim, of Matthat, of Levi,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The ancestral Jesus–Eliezer–Jorim–Matthat–Levi sequence was distinguished from Jesus Christ and from other repeated Matthat or Levi names. The reread Matthew chain does not establish these links, so no identity-based target is retained."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The ancestral Jesus–Eliezer–Jorim–Matthat–Levi chain is not replaced with Christ or other people sharing those names. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 3:30",
@@ -6648,8 +6779,8 @@
           "display_text": "of Simeon, of Judah, of Joseph, of Jonam, of Eliakim,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The Simeon–Judah–Joseph–Jonam–Eliakim sequence was read against the postexilic Matthew sequence. Neither familiar patriarchal names nor Matthew's differently situated Eliakim establishes the same persons or chain. No lineage harmonization receives credit."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The Simeon–Judah–Joseph–Jonam–Eliakim chain remains distinct from differently placed patriarchal or postexilic names. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 3:31",
@@ -8112,8 +8243,8 @@
           "display_text": "He rolled up the scroll, gave it back to the attendant, and sat down. The eyes of everyone in the synagogue were fixed on Him.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Nehemiah 8:5–8 provides a public Scripture reading and explanation, but has an opened book, standing audience and different actions. That shared setting does not add a specific counterpart to Jesus returning the rolled scroll, sitting, and receiving the synagogue's fixed gaze."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. Rolling the scroll, returning it to the attendant and the fixed gaze remain particular. A general public-reading setting adds little to these specific actions. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 4:21",
@@ -19882,10 +20013,49 @@
           "id": "v9-43",
           "text": "Everyone was overwhelmed at God’s majesty. While they all marveled at everything He was doing, He said to His disciples,",
           "display_text": "Everyone was overwhelmed at God’s majesty. While they all marveled at everything He was doing, He said to His disciples,",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Mark 9:15 places the crowd's astonishment before the afflicted boy's healing, on seeing and greeting Jesus. Luke's response to God's majesty follows the healing and introduces another prediction. The timing and focus are distinct, and generic amazement alone is not retained."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-9-43__luke-7-15-7-16",
+              "target": "Luke 7:15–7:16",
+              "verdict": "supported",
+              "relationship": "internal restoration-and-divine-acclaim pattern",
+              "rationale": "Both Lukan scenes give an acclaim of God after Jesus restores a son to a parent. Luke9 follows the healed boy being given back to his father and names God's majesty; Luke7 gives the raised son to his mother and reports fear and glorifying God. Healing and raising, the children and parents, and the reported praise differ; the later handover prediction is not inserted into Luke7.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "971dbe050e179ed48bd1d9fb55dbaf5a7b8ee41b8505acec5e2a68406a383204",
+              "source_complete_text_sha256": "971dbe050e179ed48bd1d9fb55dbaf5a7b8ee41b8505acec5e2a68406a383204",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 7:15",
+                  "id": "v7-15",
+                  "text": "The dead man sat up and began speaking, and He gave him to his mother.",
+                  "text_sha256": "c27a89100f854ca6e34e26c715ea28430091ad6b0c9d18211279016863552c51",
+                  "complete_text_sha256": "c27a89100f854ca6e34e26c715ea28430091ad6b0c9d18211279016863552c51"
+                },
+                {
+                  "reference": "Luke 7:16",
+                  "id": "v7-16",
+                  "text": "Fear seized everyone, and they glorified God, saying, “A great prophet has arisen among us,” and, “God has visited His people.”",
+                  "text_sha256": "b90e007e06d1de27dd8648f207650efdd08372a9900640fd9a7aa2934f2745a3",
+                  "complete_text_sha256": "b90e007e06d1de27dd8648f207650efdd08372a9900640fd9a7aa2934f2745a3"
+                }
+              ],
+              "target_passage_sha256": "537f862e6a80d689926057f41879ce54025e763a789bda968250c194543271cd",
+              "target_passage_complete_sha256": "537f862e6a80d689926057f41879ce54025e763a789bda968250c194543271cd",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 9:44",
@@ -20459,10 +20629,42 @@
           "id": "v9-56",
           "text": "And they went to another village.",
           "display_text": "And they went to another village.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Matthew 10:23's instruction to flee persecution was compared with the Samaritan village's refusal and Jesus' subsequent departure. Luke does not describe flight from persecution here or reproduce the instruction; no punitive fire or extra departure detail is added."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-9-56__matthew-10-14",
+              "target": "Matthew 10:14",
+              "verdict": "supported",
+              "relationship": "departure after refusal of reception",
+              "rationale": "After a Samaritan village refuses reception and Jesus rebukes the fire proposal, the group goes to another village. Matthew's mission instruction likewise directs departure where messengers are not received. Matthew adds dust-shaking, which Luke9 does not narrate, and the departure is not recast as flight from a violent persecution or an act of destructive retaliation.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "4bca26107b5c76ce0bee2c8305b3d5f5486ca57c4ae41b576e3faab15323003e",
+              "source_complete_text_sha256": "4bca26107b5c76ce0bee2c8305b3d5f5486ca57c4ae41b576e3faab15323003e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "matthew/verses.json",
+                "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Matthew 10:14",
+                  "id": "v10-14",
+                  "text": "Whoever will not receive you or hear your words, as you leave that house or city, shake the dust off your feet.",
+                  "text_sha256": "506add2b020e499f07fb62d3a0a3bc11abae0f944a20368730d7d9a2ef9c0d21",
+                  "complete_text_sha256": "506add2b020e499f07fb62d3a0a3bc11abae0f944a20368730d7d9a2ef9c0d21"
+                }
+              ],
+              "target_passage_sha256": "918354c46a5d7cd77f1f9d44e58855b6c101fec574ff7ed3e2cad7717b76628a",
+              "target_passage_complete_sha256": "918354c46a5d7cd77f1f9d44e58855b6c101fec574ff7ed3e2cad7717b76628a",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 9:57",
@@ -20731,7 +20933,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 10,
@@ -25634,10 +25836,49 @@
           "id": "v12-13",
           "text": "Someone from the crowd said to Him, “Teacher, tell my brother to divide the inheritance with me.”",
           "display_text": "Someone from the crowd said to Him, “Teacher, tell my brother to divide the inheritance with me.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Deuteronomy 21:15–17 regulates paternal inheritance and the firstborn's portion, but the claimant's birth rank, family structure and legal rights are unspecified. Unlike the father's division scene in Luke 15:12, this request gives no particular basis for applying that provision. It remains deferred."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-12-13__luke-15-11-15-12",
+              "target": "Luke 15:11–15:12",
+              "verdict": "supported",
+              "relationship": "comparison of family-property division requests",
+              "rationale": "Both passages contain a request for division of a family's property. The crowd member asks Jesus to tell his brother to divide the inheritance; the younger son asks his father for his share and the father divides his livelihood. The requested authority, people and ensuing responses differ. No birth rank, legal share or identical dispute is inferred.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "1203e96e8a7136e432235699df2967b7fdfd422633fcf4d70a20a6ef9a68a400",
+              "source_complete_text_sha256": "1203e96e8a7136e432235699df2967b7fdfd422633fcf4d70a20a6ef9a68a400",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 15:11",
+                  "id": "v15-11",
+                  "text": "And He said, “A certain man had two sons.",
+                  "text_sha256": "ca68143759addcfd55246394e15dcc544d35b7697f44ee53f8c63c1f777d4caa",
+                  "complete_text_sha256": "ca68143759addcfd55246394e15dcc544d35b7697f44ee53f8c63c1f777d4caa"
+                },
+                {
+                  "reference": "Luke 15:12",
+                  "id": "v15-12",
+                  "text": "The younger of them said to his father, ‘Father, give me the share of the property that falls to me.’ And he divided his livelihood between them.",
+                  "text_sha256": "274f9ab805ba1f140e4e1f6c5b066accd29fdbb38d3409d00e24276037635a70",
+                  "complete_text_sha256": "274f9ab805ba1f140e4e1f6c5b066accd29fdbb38d3409d00e24276037635a70"
+                }
+              ],
+              "target_passage_sha256": "7290e35cc512feced5a7371429270058097c74f74d27b81712368c6edf0e8709",
+              "target_passage_complete_sha256": "7290e35cc512feced5a7371429270058097c74f74d27b81712368c6edf0e8709",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 12:14",
@@ -27726,7 +27967,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 13,
@@ -27742,8 +27983,8 @@
           "display_text": "At that very time some people were present who told Him about the Galileans whose blood Pilate had mixed with their sacrifices.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Psalm 78:1–3 was considered for violent bloodshed and violation of worship. It describes foreign devastation of Jerusalem, not Pilate's Galileans or blood mixed with their sacrifices. The common religious-violence topic is not retained as a sufficiently particular comparison."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The Galileans' blood mixed with their sacrifices under Pilate remains a distinctive report. General cultic violence does not identify those victims or reproduce the report. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 13:2",
@@ -31487,10 +31728,56 @@
           "id": "v15-14",
           "text": "When he had spent everything, a severe famine arose throughout that country, and he began to be in need.",
           "display_text": "When he had spent everything, a severe famine arose throughout that country, and he began to be in need.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Ruth 1:1–6 was read for famine, loss abroad and return toward food. Its famine precedes migration, while Luke's famine follows the son's journey and spending. The shared hardship setting does not add a close connection to this sequence or identify the country, so no pair is retained."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-15-14__genesis-47-13-47-15",
+              "target": "Genesis 47:13–47:15",
+              "verdict": "supported",
+              "relationship": "famine and exhausted resources",
+              "rationale": "Both narratives combine an acute famine with exhausted resources and need for food. Luke places the son's spending before the country's famine; Genesis describes the severe Egyptian/Canaanite famine and silver spent buying grain before the people ask for bread. Their spending causes and sequences differ, and Genesis does not identify the son's unnamed country or imply his recklessness in its hungry population.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "92869236b605cbc9deb471f78090be9639d8d347e05c42b3c143f55ef3b27c79",
+              "source_complete_text_sha256": "92869236b605cbc9deb471f78090be9639d8d347e05c42b3c143f55ef3b27c79",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/genesis.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 47:13",
+                  "id": "v47-13",
+                  "text": "And there was no grain in all the land, for the famine had become exceedingly severe; and the land of Egypt and the land of Canaan languished because of the famine.",
+                  "text_sha256": "b9472f5e1e34a8dbe39d73abf254713b596fbeb6401e94790cd9a03aee9ed106",
+                  "complete_text_sha256": "b9472f5e1e34a8dbe39d73abf254713b596fbeb6401e94790cd9a03aee9ed106"
+                },
+                {
+                  "reference": "Genesis 47:14",
+                  "id": "v47-14",
+                  "text": "And Joseph gathered all the silver found in the land of Egypt and in the land of Canaan for the grain which they bought, and he measured it out to them; and Joseph brought all the silver into Pharaoh’s house.",
+                  "text_sha256": "8106669d46b8c5d0f79b00b55ae72e23a79518dd44076d9a275b209414c6d970",
+                  "complete_text_sha256": "8106669d46b8c5d0f79b00b55ae72e23a79518dd44076d9a275b209414c6d970"
+                },
+                {
+                  "reference": "Genesis 47:15",
+                  "id": "v47-15",
+                  "text": "And all the silver in the land of Egypt and in the land of Canaan was spent. And all the Egyptians came to Joseph, saying, “Give us bread; why should we die before you? For our silver is spent.”",
+                  "text_sha256": "ede56d5484e2c755b95a18dec07781a84d2e791446fee354881290870b8e78ab",
+                  "complete_text_sha256": "ede56d5484e2c755b95a18dec07781a84d2e791446fee354881290870b8e78ab"
+                }
+              ],
+              "target_passage_sha256": "2cb101531ca4ecf1c3e2e369e79d9e0d13f825e13762e4d5c45fe6db5b497c5f",
+              "target_passage_complete_sha256": "2cb101531ca4ecf1c3e2e369e79d9e0d13f825e13762e4d5c45fe6db5b497c5f",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 15:15",
@@ -31597,8 +31884,8 @@
           "display_text": "But when he came to himself, he said, ‘How many of my father’s hired workers have bread to spare, while I am perishing here from hunger!",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The father's later provision of clothing and a calf feast was compared with the son's thought about hired workers' abundant bread. It answers his deprivation generally but does not repeat the workers' position or this specific realization. No generic bread or hunger link is added."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The hired workers' abundant bread and the son's self-comparison remain particular. Generic hunger or later provision does not closely reproduce this realization. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 15:18",
@@ -31971,8 +32258,8 @@
           "display_text": "And he called one of the servants and asked what these things might mean.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Luke 18:36–37 also narrates hearing something, asking what it means, and receiving a report. That is a common inquiry pattern with different hearers, sounds and consequences; it offers no stronger substantive connection to the older son's particular servant question."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. A generic hearing/inquiry/report sequence does not add a substantive new connection to the servant question after music and dancing. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 15:27",
@@ -33151,10 +33438,49 @@
           "id": "v16-20",
           "text": "And a certain poor man named Lazarus had been laid at his gateway, covered with sores",
           "display_text": "And a certain poor man named Lazarus had been laid at his gateway, covered with sores",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Job 2:7–8 was read for bodily sores and a sufferer outside an ordinary residential setting. Job's ulcer, its stated cause and dung-heap scene differ from Lazarus's unnamed cause and placement at the rich man's gate. The general afflicted-person resemblance remains too loose for a retained pair."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-16-20__acts-3-2-3-3",
+              "target": "Acts 3:2–3:3",
+              "verdict": "supported",
+              "relationship": "needy afflicted men placed at a gateway",
+              "rationale": "Both accounts place a needy, physically afflicted man at an entrance where others may provide aid. Lazarus is laid at the rich man's gateway covered in sores; Acts' man unable to walk from birth is carried to the temple gate and asks for alms. The sites, ailments, requests and outcomes differ. Lazarus is not identified with Acts' man or assigned his inability to walk.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "4e727ff1e2799e1bb592960d352a8cd426a3cb87d7900379a85fd27ebf4bc2fb",
+              "source_complete_text_sha256": "4e727ff1e2799e1bb592960d352a8cd426a3cb87d7900379a85fd27ebf4bc2fb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 3:2",
+                  "id": "v3-2",
+                  "text": "A man unable to walk from his mother’s womb was being carried there. They used to place him each day at the temple gate called Beautiful, to ask for alms from those entering the temple.",
+                  "text_sha256": "f450b8f67981dcbde6593decd51ea0916759a4c7faa34459cb174e4384f05755",
+                  "complete_text_sha256": "f450b8f67981dcbde6593decd51ea0916759a4c7faa34459cb174e4384f05755"
+                },
+                {
+                  "reference": "Acts 3:3",
+                  "id": "v3-3",
+                  "text": "When he saw Peter and John about to enter the temple, he asked to receive alms.",
+                  "text_sha256": "5ed8be9269e6cf0947da77f8bf6f982f6b546f7f79b1eaedb73c675346b97264",
+                  "complete_text_sha256": "5ed8be9269e6cf0947da77f8bf6f982f6b546f7f79b1eaedb73c675346b97264"
+                }
+              ],
+              "target_passage_sha256": "73237fb9b14698a66ea888f985cde7174d0e01429acbbd30070e4bd3533b4bf8",
+              "target_passage_complete_sha256": "73237fb9b14698a66ea888f985cde7174d0e01429acbbd30070e4bd3533b4bf8",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 16:21",
@@ -33478,8 +33804,8 @@
           "display_text": "And he said, ‘Then I ask you, father, to send him to my father’s house,",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The proposed visit to the father's house was reread with Abraham's reply and the request's warning purpose. The reply interprets the same dialogue rather than supplying a separate visit, and no actual journey by a dead messenger is inferred. The warning theme is compared specifically for 16:28, while this proposed itinerary remains deferred."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The proposed dead messenger's trip to the father's house remains a particular unfulfilled request; no actual visit or identity with John's Lazarus is inferred. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 16:28",
@@ -34401,8 +34727,8 @@
           "display_text": "Jesus answered, “Were not the ten cleansed? But where are the nine?",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' question about ten cleansed and nine absent is distinctive to this healing account. Other healing or gratitude scenes do not establish these numbers or the absent recipients' actions."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The ten cleansed and nine absent remain particular numbers in this question; unrelated numerical contrasts do not establish their conduct. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 17:18",
@@ -34584,10 +34910,42 @@
           "id": "v17-22",
           "text": "And He said to the disciples, “Days will come when you will long to see one of the days of the Son of Man, and you will not see it.",
           "display_text": "And He said to the disciples, “Days will come when you will long to see one of the days of the Son of Man, and you will not see it.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The predicted longing for one of the Son of Man's days without seeing it has no sufficiently precise retained counterpart. Other wishes to see Jesus are not treated as this same future experience."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-17-22__john-13-33",
+              "target": "John 13:33",
+              "verdict": "supported",
+              "relationship": "disciples' anticipated seeking during absence",
+              "rationale": "Both sayings to disciples anticipate Jesus' absence and an unfulfilled seeking or desire. Luke speaks of longing to see a day of the Son of Man without seeing it; John says they will seek Him and cannot come where He goes. The days/seeing and seeking/going formulations and settings differ; this comparison does not impose an identical timetable or settle the meaning of Luke's days.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "c82119a2b5de3a59249da5207398966fb963cef811c1475e487af006d3a9de6a",
+              "source_complete_text_sha256": "c82119a2b5de3a59249da5207398966fb963cef811c1475e487af006d3a9de6a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 13:33",
+                  "id": "v13-33",
+                  "text": "Little children, I am with you a little longer. You will seek Me, and just as I told the Jews, ‘Where I go, you cannot come,’ I now tell you also.",
+                  "text_sha256": "b3eb4730adf084b12de62cd4609ef60307346b98b05a5748fdb7821376dab0be",
+                  "complete_text_sha256": "b3eb4730adf084b12de62cd4609ef60307346b98b05a5748fdb7821376dab0be"
+                }
+              ],
+              "target_passage_sha256": "c5bff03e6b9a84b64908a6ad56137550c6a37f93fdec9b2b8ae8a1ee505b9f2c",
+              "target_passage_complete_sha256": "c5bff03e6b9a84b64908a6ad56137550c6a37f93fdec9b2b8ae8a1ee505b9f2c",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 17:23",
@@ -35283,10 +35641,56 @@
           "id": "v18-2",
           "text": "saying, “There was a certain judge in a certain city who neither feared God nor respected any person.",
           "display_text": "saying, “There was a certain judge in a certain city who neither feared God nor respected any person.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The judge's particular lack of fear of God and respect for people is distinctive characterization. Other unjust officials are not equated with this parable figure."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-18-2__2-chronicles-19-5-19-7",
+              "target": "2 Chronicles 19:5–19:7",
+              "verdict": "supported",
+              "relationship": "judicial-character contrast: fear of God",
+              "rationale": "The parable's judge lacks fear of God, whereas Jehoshaphat's appointed judges are explicitly told that they judge for the Lord and must act in His fear without injustice, status favoritism or gifts. This is a concrete judicial-character contrast. The parable judge is not identified as one of those officials or accused of an unstated particular bribe.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "007136e82f0650104a2ae83543cf1ad0fbd25f00711d832423a00ee5f7e00c1c",
+              "source_complete_text_sha256": "007136e82f0650104a2ae83543cf1ad0fbd25f00711d832423a00ee5f7e00c1c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-chronicles.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 19:5",
+                  "id": "v19-5",
+                  "text": "He appointed judges in all the fortified cities of Judah, city by city.",
+                  "text_sha256": "04f6171ae018075da74c927648f6e3e65a78795139da0fc86f1e1fae0415d20d",
+                  "complete_text_sha256": "04f6171ae018075da74c927648f6e3e65a78795139da0fc86f1e1fae0415d20d"
+                },
+                {
+                  "reference": "2 Chronicles 19:6",
+                  "id": "v19-6",
+                  "text": "He said to the judges, “Consider what you are doing, because you judge for the Lord, not for a human being, and the matters of judgment are with you.",
+                  "text_sha256": "c07c0ef65fcae383df58fb5fe603ec33dc12b831d59093bb040a5f3978cf862d",
+                  "complete_text_sha256": "c07c0ef65fcae383df58fb5fe603ec33dc12b831d59093bb040a5f3978cf862d"
+                },
+                {
+                  "reference": "2 Chronicles 19:7",
+                  "id": "v19-7",
+                  "text": "Now let the fear of the Lord be upon you. Keep watch and act, because with the Lord our God there is no injustice, admiration of a person’s status, or taking of gifts.”",
+                  "text_sha256": "9e5e9da9938ace54345336bc74ef307e76b3a5d15f5ce2bd0cb4a99f767fa257",
+                  "complete_text_sha256": "9e5e9da9938ace54345336bc74ef307e76b3a5d15f5ce2bd0cb4a99f767fa257"
+                }
+              ],
+              "target_passage_sha256": "9433bcb559d632ef077d99046e11b80dbe4776b39080c086bcfe8bbe872e71ad",
+              "target_passage_complete_sha256": "9433bcb559d632ef077d99046e11b80dbe4776b39080c086bcfe8bbe872e71ad",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 18:3",
@@ -35636,20 +36040,91 @@
           "id": "v18-10",
           "text": "“Two men went up into the temple to pray, one a Pharisee and the other a tax collector.",
           "display_text": "“Two men went up into the temple to pray, one a Pharisee and the other a tax collector.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The paired temple visit of a Pharisee and tax collector is this parable's specific setup. Other temple prayers do not independently establish these two figures or their visit."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-18-10__1-kings-8-29-8-30",
+              "target": "1 Kings 8:29–8:30",
+              "verdict": "supported",
+              "relationship": "scriptural background: temple-directed prayer",
+              "rationale": "The two men's going to the temple to pray has a concrete scriptural setting in Solomon's prayer that God hear His servant and Israel when praying toward this house. This is background for temple-directed prayer and divine hearing/mercy. Kings neither narrates this pair of worshipers nor establishes their Pharisee/tax-collector identities or the contents of their prayers.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "01509a7e71f92e225818ca24192a1cf857eb23b713813463775aabd484dcade9",
+              "source_complete_text_sha256": "01509a7e71f92e225818ca24192a1cf857eb23b713813463775aabd484dcade9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-kings/verses.json",
+                "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/1-kings.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Kings 8:29",
+                  "id": "v8-29",
+                  "text": "so that Thine eyes may be open toward this house day and night, toward the place of which Thou saidst, ‘My name shall be there,’ to hear the prayer Thy servant prays toward this place day and night.",
+                  "text_sha256": "50a00dae0e543f05a634f5448f5d58bef53e8c3d89dad558f2747f8ccc30424e",
+                  "complete_text_sha256": "50a00dae0e543f05a634f5448f5d58bef53e8c3d89dad558f2747f8ccc30424e"
+                },
+                {
+                  "reference": "1 Kings 8:30",
+                  "id": "v8-30",
+                  "text": "Hear the supplication of Thy servant and Thy people Israel when they pray toward this place. Hear in Thy dwelling place, in heaven; act and be merciful.",
+                  "text_sha256": "c6e9afda0bbc72740aaf3535fec7cd884a3fef7c35dd426f96ebcc096bd6e6df",
+                  "complete_text_sha256": "c6e9afda0bbc72740aaf3535fec7cd884a3fef7c35dd426f96ebcc096bd6e6df"
+                }
+              ],
+              "target_passage_sha256": "ec7033bfa161e0e028703c1356e64c6e17c5f520e95089cf11e471b4cef0d229",
+              "target_passage_complete_sha256": "ec7033bfa161e0e028703c1356e64c6e17c5f520e95089cf11e471b4cef0d229",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 18:11",
           "id": "v18-11",
           "text": "The Pharisee stood and prayed these things to himself: ‘God, I thank Thee that I am not like the rest of humanity—plunderers, unrighteous people, adulterers—or even like this tax collector.",
           "display_text": "The Pharisee stood and prayed these things to himself: ‘God, I thank Thee that I am not like the rest of humanity—plunderers, unrighteous people, adulterers—or even like this tax collector.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The Pharisee's comparative thanksgiving and its particular list of other people's vices have no sufficiently precise retained counterpart. General pride sayings do not independently reproduce this prayer."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-18-11__isaiah-65-5",
+              "target": "Isaiah 65:5",
+              "verdict": "supported",
+              "relationship": "religious self-distancing and claimed distinction",
+              "rationale": "Both speeches distance the speaker from other people through a claim to religious or moral distinction. The Pharisee thanks God that he is unlike listed wrongdoers and the tax collector; Isaiah's speakers tell others not to approach because they are clean. Isaiah's actual clean wording is retained. Its surrounding idolatry and food offenses are not attributed to the Pharisee, and it does not quote his prayer.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "1f707f17a6d98eb0ed9f07425679ea0c3cb56857fe5a1d548d954e9da1490dcb",
+              "source_complete_text_sha256": "1f707f17a6d98eb0ed9f07425679ea0c3cb56857fe5a1d548d954e9da1490dcb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/isaiah.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 65:5",
+                  "id": "v65-5",
+                  "text": "They say, ‘Far away from me! Do not approach me, for I am clean.’ This is smoke of My wrath; fire burns in it all the days.",
+                  "text_sha256": "e02322ba199ef1082a31a2d38a71166f953e5549a02ac675f6bc5c35b038b822",
+                  "complete_text_sha256": "e02322ba199ef1082a31a2d38a71166f953e5549a02ac675f6bc5c35b038b822"
+                }
+              ],
+              "target_passage_sha256": "3fcff2b871f87dd3a937610c8ab023b0cba5a3364509ceae2b29278f4803f075",
+              "target_passage_complete_sha256": "3fcff2b871f87dd3a937610c8ab023b0cba5a3364509ceae2b29278f4803f075",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 18:12",
@@ -36673,8 +37148,8 @@
           "display_text": "Hearing a crowd passing through, he asked what this might be.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The blind man's question about the passing crowd is a distinctive transition. Another account's report that he heard about Jesus does not independently reproduce this particular question."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The blind man's inquiry about the passing crowd remains a brief particular transition. Generic questions after hearing a sound add too little. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 18:37",
@@ -37097,30 +37572,154 @@
           "id": "v19-3",
           "text": "He was seeking to see who Jesus was, but could not because of the crowd, since he was short in stature.",
           "display_text": "He was seeking to see who Jesus was, but could not because of the crowd, since he was short in stature.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Zacchaeus's short stature and inability to see through the crowd are distinctive personal details. Other crowd impediments do not establish his circumstances."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-19-3__luke-5-18-5-19",
+              "target": "Luke 5:18–5:19",
+              "verdict": "supported",
+              "relationship": "internal crowd-impeded access pattern",
+              "rationale": "Both stories explicitly say that a crowd prevents access to Jesus. Zacchaeus cannot see because of the crowd and his short stature; the bearers cannot bring their paralyzed companion before Jesus because of the crowd. The impediment pattern is concrete, while the people, physical conditions, desired sight/healing and means of access remain different.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "6ecb97eca225132edada13999010541b11d59187f33edfa22539b17685d034c0",
+              "source_complete_text_sha256": "6ecb97eca225132edada13999010541b11d59187f33edfa22539b17685d034c0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 5:18",
+                  "id": "v5-18",
+                  "text": "And behold, men were carrying on a bed a man who was paralyzed. They sought to bring him in and place him before Him.",
+                  "text_sha256": "ed883bb32b10966754e8534b54b0cf93aba3cbbb8105822f90334fa0a2e01a24",
+                  "complete_text_sha256": "ed883bb32b10966754e8534b54b0cf93aba3cbbb8105822f90334fa0a2e01a24"
+                },
+                {
+                  "reference": "Luke 5:19",
+                  "id": "v5-19",
+                  "text": "Finding no way to bring him in because of the crowd, they went up onto the roof and lowered him through the tiles with his little bed into their midst, before Jesus.",
+                  "text_sha256": "b8fce10b502077de1e337c9d36f55ec775bce84e7928be55f7e70bdc36bb5fdc",
+                  "complete_text_sha256": "b8fce10b502077de1e337c9d36f55ec775bce84e7928be55f7e70bdc36bb5fdc"
+                }
+              ],
+              "target_passage_sha256": "67c20efdbf8103515187bb4dae597e3513ab215a582fbea4fd5ca1180ab767d5",
+              "target_passage_complete_sha256": "67c20efdbf8103515187bb4dae597e3513ab215a582fbea4fd5ca1180ab767d5",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 19:4",
           "id": "v19-4",
           "text": "So he ran ahead and climbed a sycamore fig tree to see Him, because He was about to pass that way.",
           "display_text": "So he ran ahead and climbed a sycamore fig tree to see Him, because He was about to pass that way.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Running ahead and climbing a sycamore fig tree to see Jesus are distinctive details. Unrelated tree or climbing passages do not supply a defensible counterpart."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-19-4__luke-5-19",
+              "target": "Luke 5:19",
+              "verdict": "supported",
+              "relationship": "internal comparison: elevated access past a crowd",
+              "rationale": "Both crowd-impeded encounters use an elevated route to reach a position relative to Jesus. Zacchaeus climbs a sycamore fig tree to see Him; the bearers go onto a roof and lower their companion through its tiles before Him. A tree is not a roof, seeing is not the stated request for healing, and the people and occasions are not identified.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "4758c79cca7be7f5ad23595fc8ce0145dace72d9078b8d2ce53c594701344ade",
+              "source_complete_text_sha256": "4758c79cca7be7f5ad23595fc8ce0145dace72d9078b8d2ce53c594701344ade",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 5:19",
+                  "id": "v5-19",
+                  "text": "Finding no way to bring him in because of the crowd, they went up onto the roof and lowered him through the tiles with his little bed into their midst, before Jesus.",
+                  "text_sha256": "b8fce10b502077de1e337c9d36f55ec775bce84e7928be55f7e70bdc36bb5fdc",
+                  "complete_text_sha256": "b8fce10b502077de1e337c9d36f55ec775bce84e7928be55f7e70bdc36bb5fdc"
+                }
+              ],
+              "target_passage_sha256": "c51cad1bba27973b021154d1dadba7c6468ac9be4498726c8b8d99882bc0c599",
+              "target_passage_complete_sha256": "c51cad1bba27973b021154d1dadba7c6468ac9be4498726c8b8d99882bc0c599",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 19:5",
           "id": "v19-5",
           "text": "When Jesus came to the place, He looked up and said to him, “Zacchaeus, hurry and come down, for today I must stay in your house.”",
           "display_text": "When Jesus came to the place, He looked up and said to him, “Zacchaeus, hurry and come down, for today I must stay in your house.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' personal summons from the tree and statement that He must stay in Zacchaeus's house today are distinctive. Other calls and hospitality scenes do not independently reproduce this directive."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-19-5__luke-5-27-5-30",
+              "target": "Luke 5:27–5:30",
+              "verdict": "supported",
+              "relationship": "internal tax-collector call and hospitality pattern",
+              "rationale": "Both Lukan narratives join Jesus' personal call of a tax collector with hospitality in that man's house. Zacchaeus is called down from the tree for a stay today; Levi is called from the booth to follow and gives Jesus a reception at home. The directions, timing and men differ; Levi's call is not made an independent record of Jesus' words to Zacchaeus.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "20818c01713dca3803756387988d21bbe9f5ec94c1ecfca07adfb3a6f2075da4",
+              "source_complete_text_sha256": "20818c01713dca3803756387988d21bbe9f5ec94c1ecfca07adfb3a6f2075da4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 5:27",
+                  "id": "v5-27",
+                  "text": "After this He went out and saw a tax collector named Levi sitting at the tax booth, and said to him, “Follow Me.”",
+                  "text_sha256": "9a24e0b1aac83119bad2e69584404be4daf55390f73074bbfc962c6fd0585fa3",
+                  "complete_text_sha256": "9a24e0b1aac83119bad2e69584404be4daf55390f73074bbfc962c6fd0585fa3"
+                },
+                {
+                  "reference": "Luke 5:28",
+                  "id": "v5-28",
+                  "text": "Leaving everything, he rose and followed Him.",
+                  "text_sha256": "c62b10e7e8db9431515b021a892a8d007a42cc3bb77e82205bd44fbaf9f050d7",
+                  "complete_text_sha256": "c62b10e7e8db9431515b021a892a8d007a42cc3bb77e82205bd44fbaf9f050d7"
+                },
+                {
+                  "reference": "Luke 5:29",
+                  "id": "v5-29",
+                  "text": "Levi gave a great reception for Him in his house. A large crowd of tax collectors and others was reclining with them.",
+                  "text_sha256": "89454717959c4d5cabf4bb2bab4026be1c8d831f588a230122b4340b88cd5534",
+                  "complete_text_sha256": "89454717959c4d5cabf4bb2bab4026be1c8d831f588a230122b4340b88cd5534"
+                },
+                {
+                  "reference": "Luke 5:30",
+                  "id": "v5-30",
+                  "text": "The Pharisees and their scribes grumbled to His disciples, saying, “Why do you eat and drink with tax collectors and sinners?”",
+                  "text_sha256": "9c5e57636cd62d784ffc6d644dd4d4445812f85b0dd871857f0e7d3b9fe72b06",
+                  "complete_text_sha256": "9c5e57636cd62d784ffc6d644dd4d4445812f85b0dd871857f0e7d3b9fe72b06"
+                }
+              ],
+              "target_passage_sha256": "339adecb7865a6cc06887202b3aff8864a64cd8d081318ffc008e004d2568a74",
+              "target_passage_complete_sha256": "339adecb7865a6cc06887202b3aff8864a64cd8d081318ffc008e004d2568a74",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 19:6",
@@ -37967,10 +38566,42 @@
           "id": "v19-25",
           "text": "And they said to him, ‘Master, he has ten minas!’",
           "display_text": "And they said to him, ‘Master, he has ten minas!’",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The bystanders' objection that the recipient already has ten minas is distinctive to this parable. The talent story does not include that interjection, and it was not silently supplied there."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-19-25__matthew-25-28",
+              "target": "Matthew 25:28",
+              "verdict": "supported",
+              "relationship": "comparison of the recipient's prior holding",
+              "rationale": "Both related parables explicitly identify the transfer's beneficiary as already having ten units. Luke's bystanders say he has ten minas; Matthew's command names the one with ten talents. Talents and minas and their distributions differ, and Matthew does not contain the bystanders' interjection. This compares the stated prior holding, not the presence of an identical objection in both stories.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "8eb819bcc571ad5206bf8889abf0b8a00add691b076e6227ea987f913e9d09e9",
+              "source_complete_text_sha256": "8eb819bcc571ad5206bf8889abf0b8a00add691b076e6227ea987f913e9d09e9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "matthew/verses.json",
+                "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Matthew 25:28",
+                  "id": "v25-28",
+                  "text": "So take the talent from him and give it to the one who has the ten talents.",
+                  "text_sha256": "cf6ab6027368121fd3981207e540c5af87449bc2f7bc5de961f1d490bc2a4c74",
+                  "complete_text_sha256": "cf6ab6027368121fd3981207e540c5af87449bc2f7bc5de961f1d490bc2a4c74"
+                }
+              ],
+              "target_passage_sha256": "05d82cbe7ae811c3796b757377b5dcc1ecab530d3f3feccc8f14804999a24fb0",
+              "target_passage_complete_sha256": "05d82cbe7ae811c3796b757377b5dcc1ecab530d3f3feccc8f14804999a24fb0",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 19:26",
@@ -39017,7 +39648,7 @@
           "reviewed": "2026-10-30"
         }
       ],
-      "status": "reviewed_with_deferrals"
+      "status": "completed"
     },
     {
       "chapter": 20,
@@ -43335,10 +43966,42 @@
           "id": "v22-15",
           "text": "And He said to them, “With desire I have desired to eat this Passover with you before I suffer.",
           "display_text": "And He said to them, “With desire I have desired to eat this Passover with you before I suffer.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' intense desire to eat this Passover before suffering was read. Other supper preparations and general passion statements do not independently reproduce this distinctive declaration of desire."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-22-15__matthew-26-2",
+              "target": "Matthew 26:2",
+              "verdict": "supported",
+              "relationship": "Passover and approaching Passion",
+              "rationale": "Both statements connect Passover with Jesus' approaching suffering or death. Luke expresses His desire to eat this Passover with the apostles before suffering; Matthew announces Passover after two days and the Son of Man's handover for crucifixion. Matthew does not repeat the desire or narrate the supper in that verse; their speech occasions are not collapsed.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "1dc673e6ca8f5fead8f545f99ceae80b3e5db2d961f0a1ce3a2a96d40320ccef",
+              "source_complete_text_sha256": "1dc673e6ca8f5fead8f545f99ceae80b3e5db2d961f0a1ce3a2a96d40320ccef",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "matthew/verses.json",
+                "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/matthew.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Matthew 26:2",
+                  "id": "v26-2",
+                  "text": "“You know that after two days the Passover takes place, and the Son of Man is handed over to be crucified.”",
+                  "text_sha256": "d8c0909eeb0906358786bcaea734b50c2eef527d12ff4b59f0f2b61fa2d916d9",
+                  "complete_text_sha256": "d8c0909eeb0906358786bcaea734b50c2eef527d12ff4b59f0f2b61fa2d916d9"
+                }
+              ],
+              "target_passage_sha256": "02e7d35141be76ad206ec01c29c6834594475cf41861a54fb7e1bfc2c3140534",
+              "target_passage_complete_sha256": "02e7d35141be76ad206ec01c29c6834594475cf41861a54fb7e1bfc2c3140534",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 22:16",
@@ -44339,10 +45002,49 @@
           "id": "v22-38",
           "text": "They said, “Lord, behold, here are two swords.” And He said to them, “It is enough.”",
           "display_text": "They said, “Lord, behold, here are two swords.” And He said to them, “It is enough.”",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The two swords and Jesus' It is enough reply were read. No close independent counterpart establishes the number or meaning of that reply, and no literal or figurative weapons policy is supplied from another scene."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-22-38__john-18-10-18-11",
+              "target": "John 18:10–18:11",
+              "verdict": "supported",
+              "relationship": "Passion narratives: swords and Jesus' response",
+              "rationale": "Both Passion scenes explicitly place swords among Jesus' companions and record His response. Luke says they present two swords and He says it is enough; John narrates Peter using a sword and Jesus commanding it into its sheath. John neither establishes the total of two nor interprets enough, and the link imposes no general weapons policy or identity for the second sword holder.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "295ebc36491e548b780aa2eefbb6ff68daada1d6429ec71ec0c3d205fa841187",
+              "source_complete_text_sha256": "295ebc36491e548b780aa2eefbb6ff68daada1d6429ec71ec0c3d205fa841187",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 18:10",
+                  "id": "v18-10",
+                  "text": "Then Simon Peter, having a sword, drew it and struck the high priest’s slave and cut off his right ear. The slave’s name was Malchus.",
+                  "text_sha256": "bbbb3045f72d326fb2270f7766a123b1ea4f20045590c8a3e921183af78e6794",
+                  "complete_text_sha256": "bbbb3045f72d326fb2270f7766a123b1ea4f20045590c8a3e921183af78e6794"
+                },
+                {
+                  "reference": "John 18:11",
+                  "id": "v18-11",
+                  "text": "So Jesus said to Peter, “Put the sword into the sheath. The cup that the Father has given Me—shall I not drink it?”",
+                  "text_sha256": "5a90e57ff61bf2cd66550987ead9216f106b803284d17c14600bee21918bdb0e",
+                  "complete_text_sha256": "5a90e57ff61bf2cd66550987ead9216f106b803284d17c14600bee21918bdb0e"
+                }
+              ],
+              "target_passage_sha256": "c97d6667d47d6b19bf20ca4fedf5bdf1bb8748ad208cc2979228b1cdb61fdee2",
+              "target_passage_complete_sha256": "c97d6667d47d6b19bf20ca4fedf5bdf1bb8748ad208cc2979228b1cdb61fdee2",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 22:39",
@@ -44888,10 +45590,63 @@
           "id": "v22-51",
           "text": "But Jesus answered, “Allow this much.” And He touched the ear and healed him.",
           "display_text": "But Jesus answered, “Allow this much.” And He touched the ear and healed him.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' Allow this much reply and healing of the severed ear were read. Other commands about weapons do not independently narrate this healing or reproduce that reply; no particular interpretation of Allow this much is imposed."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-22-51__mark-7-32-7-35",
+              "target": "Mark 7:32–7:35",
+              "verdict": "supported",
+              "relationship": "restorative touch applied to an ear",
+              "rationale": "Both narrate Jesus applying physical touch to an ear as part of restoration. Luke follows the slave's ear being cut off and reports its healing; Mark describes fingers placed in a deaf man's ears, tongue-touching and the ears opening. The causes, patients, settings and speech differ. Mark does not independently attest the arrest healing, specify a repair mechanism or interpret Allow this much.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "08f6486908673aecd73b073874edf0988ad65b0de2e5d9fa92e863293c07e9d6",
+              "source_complete_text_sha256": "08f6486908673aecd73b073874edf0988ad65b0de2e5d9fa92e863293c07e9d6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "mark/verses.json",
+                "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/mark/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/mark.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Mark 7:32",
+                  "id": "v7-32",
+                  "text": "They brought Him a man who was deaf and had difficulty speaking, and begged Him to lay His hand on him.",
+                  "text_sha256": "5ce869eb6882fcaccecc1e4767c1510cf521ecd9f00e9253f5bdceca50fe01b4",
+                  "complete_text_sha256": "5ce869eb6882fcaccecc1e4767c1510cf521ecd9f00e9253f5bdceca50fe01b4"
+                },
+                {
+                  "reference": "Mark 7:33",
+                  "id": "v7-33",
+                  "text": "Taking him aside privately, away from the crowd, He put His fingers into his ears, spat, and touched his tongue.",
+                  "text_sha256": "71dfced6c4cce7c7f6d4eb94fd4dac11c6c5b45ed160fc8491a0fbed022c3e60",
+                  "complete_text_sha256": "71dfced6c4cce7c7f6d4eb94fd4dac11c6c5b45ed160fc8491a0fbed022c3e60"
+                },
+                {
+                  "reference": "Mark 7:34",
+                  "id": "v7-34",
+                  "text": "Looking up to heaven, He sighed and said to him, “Ephphatha,” that is, “Be opened.”",
+                  "text_sha256": "63a0bc6efd99f818dac227cbbcfa955529e75d274371210c83ae239c8d615a17",
+                  "complete_text_sha256": "63a0bc6efd99f818dac227cbbcfa955529e75d274371210c83ae239c8d615a17"
+                },
+                {
+                  "reference": "Mark 7:35",
+                  "id": "v7-35",
+                  "text": "Immediately his ears were opened, the bond of his tongue was loosened, and he spoke correctly.",
+                  "text_sha256": "e8f65ca690ea1eb7f7c07b7b7e63847e90efd41dae67b2ecee5d7265bdd693cd",
+                  "complete_text_sha256": "e8f65ca690ea1eb7f7c07b7b7e63847e90efd41dae67b2ecee5d7265bdd693cd"
+                }
+              ],
+              "target_passage_sha256": "93df93a08e4f02dc5c09dc284ce886780b7eebded76efc23a60cb1fa72fe216c",
+              "target_passage_complete_sha256": "93df93a08e4f02dc5c09dc284ce886780b7eebded76efc23a60cb1fa72fe216c",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 22:52",
@@ -45481,8 +46236,8 @@
           "display_text": "And they spoke many other things against Him, blaspheming.",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The summary of many other blasphemous things spoken against Jesus was read. Other specified insults do not independently reproduce the unquoted statements in this summary."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. The many other unquoted blasphemous sayings remain a summary whose specific speech is not supplied elsewhere. A neighboring quoted insult is not treated as those unreported additional words. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 22:66",
@@ -45573,10 +46328,70 @@
           "id": "v22-68",
           "text": "And if I ask, you will certainly not answer.",
           "display_text": "And if I ask, you will certainly not answer.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' statement that His question would not receive an answer was read. Other unanswered questions in different controversies do not establish this particular exchange."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-22-68__luke-20-3-20-7",
+              "target": "Luke 20:3–20:7",
+              "verdict": "supported",
+              "relationship": "internal authority-questioning and noncommittal response",
+              "rationale": "Luke20 provides a specific earlier scene of Jesus questioning religious authorities who decline the requested choice by saying they do not know. Luke22 conditionally says that if He asks, they will not answer. Their earlier reply is professed ignorance, not literal silence; the controversies and questions differ, and no unrecorded trial question is supplied.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "7f54da064ce9f680bf3cb8b39aa583728ad94a37213f87ff5a02c0e28470cd54",
+              "source_complete_text_sha256": "7f54da064ce9f680bf3cb8b39aa583728ad94a37213f87ff5a02c0e28470cd54",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 20:3",
+                  "id": "v20-3",
+                  "text": "He answered them, “I too will ask you a question; tell Me:",
+                  "text_sha256": "6a4e2afdea1469e432665759d9ff470b459efc6dbf8f6036ac13ef1fbbcfcd78",
+                  "complete_text_sha256": "6a4e2afdea1469e432665759d9ff470b459efc6dbf8f6036ac13ef1fbbcfcd78"
+                },
+                {
+                  "reference": "Luke 20:4",
+                  "id": "v20-4",
+                  "text": "was John’s baptism from heaven or from people?”",
+                  "text_sha256": "7c78fcfb7d9f3bd00433539eb92b41e47f6f17dd0b5e9ff3f3874de199cca864",
+                  "complete_text_sha256": "7c78fcfb7d9f3bd00433539eb92b41e47f6f17dd0b5e9ff3f3874de199cca864"
+                },
+                {
+                  "reference": "Luke 20:5",
+                  "id": "v20-5",
+                  "text": "And they reasoned among themselves, saying, “If we say, ‘From heaven,’ He will say, ‘Why did you not believe him?’",
+                  "text_sha256": "9764fb1cdeb819954252b64ee628cec5c8a188235e0527e9267bec8185c07e46",
+                  "complete_text_sha256": "9764fb1cdeb819954252b64ee628cec5c8a188235e0527e9267bec8185c07e46"
+                },
+                {
+                  "reference": "Luke 20:6",
+                  "id": "v20-6",
+                  "text": "But if we say, ‘From people,’ all the people will stone us, for they are convinced that John was a prophet.”",
+                  "text_sha256": "1e0f22a32668373d130c9276bf85f90cf668790c8a0820e407ffd28ad3a715a7",
+                  "complete_text_sha256": "1e0f22a32668373d130c9276bf85f90cf668790c8a0820e407ffd28ad3a715a7"
+                },
+                {
+                  "reference": "Luke 20:7",
+                  "id": "v20-7",
+                  "text": "So they answered that they did not know where it was from.",
+                  "text_sha256": "a37e328dd707e7449ef80190c9eca4b7558a838f75a00a25786f8d5d259c5742",
+                  "complete_text_sha256": "a37e328dd707e7449ef80190c9eca4b7558a838f75a00a25786f8d5d259c5742"
+                }
+              ],
+              "target_passage_sha256": "5d39a75d366e1465e7747aa2b50bf64da912998eb227789ea6d6c8d2f333d11c",
+              "target_passage_complete_sha256": "5d39a75d366e1465e7747aa2b50bf64da912998eb227789ea6d6c8d2f333d11c",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 22:69",
@@ -45971,10 +46786,42 @@
           "id": "v23-6",
           "text": "When Pilate heard this, he asked whether the man was a Galilean.",
           "display_text": "When Pilate heard this, he asked whether the man was a Galilean.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Pilate's inquiry whether Jesus was Galilean was read. General statements about Jesus' Galilean activity do not independently narrate this specific jurisdictional inquiry."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-23-6__luke-3-1",
+              "target": "Luke 3:1",
+              "verdict": "supported",
+              "relationship": "internal jurisdictional background",
+              "rationale": "The earlier dating notice explicitly assigns Pilate to Judea and Herod to Galilee. It provides jurisdictional background for Pilate's Galilean inquiry and the following referral to Herod. It does not independently narrate the inquiry, date the trial to Tiberius' fifteenth year or corroborate every other ruler in the list.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "194d10040d6992d6b0d5682459ec026149b5449437255b3aef93cfbbe99dcbd6",
+              "source_complete_text_sha256": "194d10040d6992d6b0d5682459ec026149b5449437255b3aef93cfbbe99dcbd6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 3:1",
+                  "id": "v3-1",
+                  "text": "In the fifteenth year of Tiberius Caesar’s rule, when Pontius Pilate governed Judea, Herod was tetrarch of Galilee, his brother Philip tetrarch of the region of Iturea and Trachonitis, and Lysanias tetrarch of Abilene,",
+                  "text_sha256": "0441291c34238024e9ccd6f61b92b4cf32ca9222cb6bc166afa06eab5304f734",
+                  "complete_text_sha256": "0441291c34238024e9ccd6f61b92b4cf32ca9222cb6bc166afa06eab5304f734"
+                }
+              ],
+              "target_passage_sha256": "e08f386d76dc2cd7240d971f080340544b88096930a0907e24072d5636a2b954",
+              "target_passage_complete_sha256": "e08f386d76dc2cd7240d971f080340544b88096930a0907e24072d5636a2b954",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 23:7",
@@ -46219,10 +47066,42 @@
           "id": "v23-12",
           "text": "Herod and Pilate became friends with one another on that very day, for previously they had been at enmity with each other.",
           "display_text": "Herod and Pilate became friends with one another on that very day, for previously they had been at enmity with each other.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Herod and Pilate becoming friends that day after former enmity was read. Acts records their shared opposition but not this newly changed relationship; no friendship or prior feud is inferred merely from their joint presence."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-23-12__acts-4-27",
+              "target": "Acts 4:27",
+              "verdict": "supported",
+              "relationship": "Herod and Pilate in the Jesus Passion narratives",
+              "rationale": "Both passages name the Herod–Pilate pair in relation to Jesus' Passion. Luke states that they became friends after enmity; Acts names them together among those gathered against Jesus. The actor-pair connection is explicit, while Acts does not establish the beginning of friendship or the preceding feud. It is not offered as independent evidence for that change in relationship.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "74a61bfbb2d5720a1657a51551939a8b3187ae227352512fbc89bfcbe7a0f03f",
+              "source_complete_text_sha256": "74a61bfbb2d5720a1657a51551939a8b3187ae227352512fbc89bfcbe7a0f03f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "acts/verses.json",
+                "blob_sha": "ae22109864a7ee264bc25bd5ef54a5c4b1325b48",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/acts/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/acts.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Acts 4:27",
+                  "id": "v4-27",
+                  "text": "For truly, in this city, both Herod and Pontius Pilate, with the Gentiles and the peoples of Israel, gathered against Thy holy Servant Jesus, whom Thou didst anoint,",
+                  "text_sha256": "c1d4a3ff730c46c7ea7e8e42f6adca7b11b0ed480adf1fe57b61b1b357670efd",
+                  "complete_text_sha256": "c1d4a3ff730c46c7ea7e8e42f6adca7b11b0ed480adf1fe57b61b1b357670efd"
+                }
+              ],
+              "target_passage_sha256": "b4bc5ddba525dc89116ecc93ba0f90ad951ad3a0069c1f4092e70ea5ea42e23c",
+              "target_passage_complete_sha256": "b4bc5ddba525dc89116ecc93ba0f90ad951ad3a0069c1f4092e70ea5ea42e23c",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 23:13",
@@ -46231,8 +47110,8 @@
           "display_text": "Pilate called together the chief priests, the rulers, and the people",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Pilate's summoning the chief priests, rulers and people was read. Other crowd gatherings do not independently reproduce this particular summons after the Herod referral."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. This particular summons after the Herod referral remains distinct from other audiences or crowd gatherings; no repeated summons is invented. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 23:14",
@@ -46750,10 +47629,49 @@
           "id": "v23-27",
           "text": "And a great multitude of the people followed Him, and women who beat themselves in mourning and lamented Him.",
           "display_text": "And a great multitude of the people followed Him, and women who beat themselves in mourning and lamented Him.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The following crowd and women mourning along the execution route were read. Women watching at the cross are not assumed to be this procession or evidence for its precise mourning actions."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-23-27__zechariah-12-10-12-11",
+              "target": "Zechariah 12:10–12:11",
+              "verdict": "supported",
+              "relationship": "bounded prophetic imagery: lament in Jerusalem",
+              "rationale": "Both depict lament in a Jerusalem setting. Luke's women mourn Jesus in the procession; Zechariah addresses David's house and Jerusalem's residents and pictures grief as for a beloved one or firstborn. This is a bounded prophetic-image comparison, not identification of every person or proof that the entire prophecy is fulfilled here. The actual Greek-based danced-in-mockery and pomegranate-grove wording is kept, without importing pierced or another edition's place name.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "c34f63bb21ae910cc8ff75482c6a10b1ecf4e4a6943d1285153526de8554dc68",
+              "source_complete_text_sha256": "c34f63bb21ae910cc8ff75482c6a10b1ecf4e4a6943d1285153526de8554dc68",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/zechariah.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 12:10",
+                  "id": "v12-10",
+                  "text": "I will pour upon David’s house and Jerusalem’s residents a spirit of grace and compassion. They will look toward Me because they danced in mockery, and mourn over him as over a beloved one; they will suffer grief as over a firstborn.",
+                  "text_sha256": "5efff1f74b01fc680fb112f98b34fed266369e7000f1e7686ffc12de872b3a3a",
+                  "complete_text_sha256": "5efff1f74b01fc680fb112f98b34fed266369e7000f1e7686ffc12de872b3a3a"
+                },
+                {
+                  "reference": "Zechariah 12:11",
+                  "id": "v12-11",
+                  "text": "On that day mourning in Jerusalem will grow great, like mourning over a pomegranate grove cut down in a plain,",
+                  "text_sha256": "5f98f0110bffa397967fa3da2ac66ca535fa7c249eacbfc3e283cc2cc2642a72",
+                  "complete_text_sha256": "5f98f0110bffa397967fa3da2ac66ca535fa7c249eacbfc3e283cc2cc2642a72"
+                }
+              ],
+              "target_passage_sha256": "92e6c85f6b5e4b806eb919cdbf8735dcf7d9fd315f221db6f63938fe70f1df44",
+              "target_passage_complete_sha256": "92e6c85f6b5e4b806eb919cdbf8735dcf7d9fd315f221db6f63938fe70f1df44",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 23:28",
@@ -47352,10 +48270,49 @@
           "id": "v23-40",
           "text": "But the other answered, rebuking him, “Do you not even fear God, since you are under the same judgment?",
           "display_text": "But the other answered, rebuking him, “Do you not even fear God, since you are under the same judgment?",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The second criminal's rebuke invoking fear of God and shared judgment was read. General fear-of-God teachings or the adjacent criminal's mockery do not independently reproduce this distinctive response."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-23-40__luke-12-4-12-5",
+              "target": "Luke 12:4–12:5",
+              "verdict": "supported",
+              "relationship": "fear of divine authority beside human killing",
+              "rationale": "Both passages bring fear of divine authority into a setting involving human power to kill. The criminal invokes fear of God while sharing the human sentence; Jesus' earlier teaching distinguishes bodily killing from the One with authority over Gehenna. The shared God-fear theme does not turn the criminal's same judgment into an explicit statement of both men's final destiny or reproduce his specific rebuke elsewhere.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "5034f64e472cb34f9cc8c643c331cba5adadcf718efe7397b1c9b2ee954cd537",
+              "source_complete_text_sha256": "5034f64e472cb34f9cc8c643c331cba5adadcf718efe7397b1c9b2ee954cd537",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 12:4",
+                  "id": "v12-4",
+                  "text": "I tell you, My friends, do not fear those who kill the body and after that have nothing more they can do.",
+                  "text_sha256": "b09a2e98c12861c775444dc551812877491711249e2f8a8c07e5c2ccda60677b",
+                  "complete_text_sha256": "b09a2e98c12861c775444dc551812877491711249e2f8a8c07e5c2ccda60677b"
+                },
+                {
+                  "reference": "Luke 12:5",
+                  "id": "v12-5",
+                  "text": "But I will show you whom to fear: fear the One who, after killing, has authority to cast into Gehenna. Yes, I tell you, fear Him.",
+                  "text_sha256": "29c7ff58fe79ec133da43ce2c6c0974430c98bcd3a4a28afb128224dde1a0656",
+                  "complete_text_sha256": "29c7ff58fe79ec133da43ce2c6c0974430c98bcd3a4a28afb128224dde1a0656"
+                }
+              ],
+              "target_passage_sha256": "718c3fec09e9d5432380f1a37ff09812b8d14ea690cc314305e2f0ad209fbf54",
+              "target_passage_complete_sha256": "718c3fec09e9d5432380f1a37ff09812b8d14ea690cc314305e2f0ad209fbf54",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 23:41",
@@ -48702,10 +49659,77 @@
           "id": "v24-14",
           "text": "They were talking with one another about all these things that had happened.",
           "display_text": "They were talking with one another about all these things that had happened.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "The two travelers' conversation about the recent events was read. Mark's road appearance summary does not independently reproduce this conversation, and generic discussion while traveling adds no precise counterpart."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-24-14__luke-24-19-24-24",
+              "target": "Luke 24:19–24:24",
+              "verdict": "supported",
+              "relationship": "internal expansion of a reported event-topic",
+              "rationale": "The narrator says the two travelers discuss the recent happenings; their later report to Jesus expressly recounts His ministry, condemnation, crucifixion, third-day hopes and the women's tomb report. This is an internal expansion of the event-topic under discussion. It does not claim that the earlier unquoted exchange contained these exact later words or supply an independent witness.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "cb87eccf7e1be34a8be0f97176137078b889669d9a197c46a5ddbafad9158f27",
+              "source_complete_text_sha256": "cb87eccf7e1be34a8be0f97176137078b889669d9a197c46a5ddbafad9158f27",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/luke.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 24:19",
+                  "id": "v24-19",
+                  "text": "And He said to them, “What things?” They said to Him, “The things concerning Jesus the Nazarene, who was a prophet mighty in deed and word before God and all the people,",
+                  "text_sha256": "f717b692f1f78eb0ce1b79af7d606436affa562841cdf8dd1a2e78b32c77dfe7",
+                  "complete_text_sha256": "f717b692f1f78eb0ce1b79af7d606436affa562841cdf8dd1a2e78b32c77dfe7"
+                },
+                {
+                  "reference": "Luke 24:20",
+                  "id": "v24-20",
+                  "text": "and how our chief priests and rulers handed Him over to a judgment of death and crucified Him.",
+                  "text_sha256": "63e90a5482e5b2ba038dbaa055dcb45e3203aa23cd4adcd0c097d10dbba6ad38",
+                  "complete_text_sha256": "63e90a5482e5b2ba038dbaa055dcb45e3203aa23cd4adcd0c097d10dbba6ad38"
+                },
+                {
+                  "reference": "Luke 24:21",
+                  "id": "v24-21",
+                  "text": "But we were hoping that He was the One about to redeem Israel. Yet indeed, besides all these things, this is the third day since these things happened.",
+                  "text_sha256": "26b05a9caa40f2dfc49b9a2b60bbba5e4c9d6347d33b5913e4e33f5f35e21a21",
+                  "complete_text_sha256": "26b05a9caa40f2dfc49b9a2b60bbba5e4c9d6347d33b5913e4e33f5f35e21a21"
+                },
+                {
+                  "reference": "Luke 24:22",
+                  "id": "v24-22",
+                  "text": "Moreover, some women from among us astonished us. They went to the tomb early",
+                  "text_sha256": "60f4b2e1c575c0c0dd10beec5cdba02d6563d7dff7f8a36e9a0fcf0bd0a2557f",
+                  "complete_text_sha256": "60f4b2e1c575c0c0dd10beec5cdba02d6563d7dff7f8a36e9a0fcf0bd0a2557f"
+                },
+                {
+                  "reference": "Luke 24:23",
+                  "id": "v24-23",
+                  "text": "and did not find His body, and came saying that they had also seen a vision of angels who say that He is alive.",
+                  "text_sha256": "75596dc89339a372cefe00b7857193f384ac2789f8aa06ea204be081d6662e6f",
+                  "complete_text_sha256": "75596dc89339a372cefe00b7857193f384ac2789f8aa06ea204be081d6662e6f"
+                },
+                {
+                  "reference": "Luke 24:24",
+                  "id": "v24-24",
+                  "text": "And some of those with us went to the tomb and found it just as the women had said, but Him they did not see.”",
+                  "text_sha256": "1bbcc815debc4db0938493da082f1c4c25afea78a8cc6e931000bf4f7c7b5358",
+                  "complete_text_sha256": "1bbcc815debc4db0938493da082f1c4c25afea78a8cc6e931000bf4f7c7b5358"
+                }
+              ],
+              "target_passage_sha256": "2c0f8dd91f4085db21183b8352b8f82c8f49c611dd06a61b3a4c32dec8709720",
+              "target_passage_complete_sha256": "2c0f8dd91f4085db21183b8352b8f82c8f49c611dd06a61b3a4c32dec8709720",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 24:15",
@@ -48803,10 +49827,56 @@
           "id": "v24-17",
           "text": "And He said to them, “What are these words you are exchanging with one another as you walk?” And they stood still, downcast.",
           "display_text": "And He said to them, “What are these words you are exchanging with one another as you walk?” And they stood still, downcast.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' question about the exchanged words and the travelers' downcast halt were read. Other recognition encounters do not reproduce these particular words or reaction."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-24-17__john-20-14-20-16",
+              "target": "John 20:14–20:16",
+              "verdict": "supported",
+              "relationship": "unrecognized risen Jesus questioning distressed followers",
+              "rationale": "Both resurrection encounters have the still-unrecognized Jesus question distressed followers. Luke's two travelers stop downcast when He asks about their words; John's Mary weeps, mistakes Him for the gardener and hears questions before He names her. Road and tomb settings, questions, participants and recognition sequences remain distinct.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "fd074cf7b100fdfd8115baf5e25b02fafc0ff0c393af4d24e6c644456022a9a0",
+              "source_complete_text_sha256": "fd074cf7b100fdfd8115baf5e25b02fafc0ff0c393af4d24e6c644456022a9a0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "john/verses.json",
+                "blob_sha": "23685e2856ebeab2347c058309fecd009cc11fee",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/john/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/john.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "John 20:14",
+                  "id": "v20-14",
+                  "text": "Having said these things, she turned backward and beholds Jesus standing there, and did not know that it was Jesus.",
+                  "text_sha256": "319b25962ac0ee5a94c31f1d1486d5894d15ea5626a2f356a667f5754a6140b7",
+                  "complete_text_sha256": "319b25962ac0ee5a94c31f1d1486d5894d15ea5626a2f356a667f5754a6140b7"
+                },
+                {
+                  "reference": "John 20:15",
+                  "id": "v20-15",
+                  "text": "Jesus says to her, “Woman, why do you weep? Whom do you seek?” She, supposing that He is the gardener, says to Him, “Sir, if Thou didst carry Him away, tell me where Thou didst lay Him, and I will take Him away.”",
+                  "text_sha256": "2c55e873dc6ea083ab97a80f48cf48f9de7660c7a899b7ae3c94c1046a8fbed7",
+                  "complete_text_sha256": "2c55e873dc6ea083ab97a80f48cf48f9de7660c7a899b7ae3c94c1046a8fbed7"
+                },
+                {
+                  "reference": "John 20:16",
+                  "id": "v20-16",
+                  "text": "Jesus says to her, “Mary.” Turning, she says to Him in Hebrew, “Rabbouni!”—which means Teacher.",
+                  "text_sha256": "cf19cd6cc1b719098262d334eea2e9348be3b93b0f51837dd0d83c0116325e61",
+                  "complete_text_sha256": "cf19cd6cc1b719098262d334eea2e9348be3b93b0f51837dd0d83c0116325e61"
+                }
+              ],
+              "target_passage_sha256": "fca1b5c8efe6dcffcd7e010aaa7cae33170ee600496bc75fd4e80ea1523b6eaf",
+              "target_passage_complete_sha256": "fca1b5c8efe6dcffcd7e010aaa7cae33170ee600496bc75fd4e80ea1523b6eaf",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 24:18",
@@ -48815,8 +49885,8 @@
           "display_text": "One named Cleopas answered Him, “Art Thou the only visitor in Jerusalem who does not know the things that have happened there in these days?”",
           "status": "deferred",
           "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Cleopas's name and visitor-in-Jerusalem question were read. No independent counterpart establishes this dialogue or identifies him with another similarly named person."
+          "reviewed": "2026-10-31",
+          "deferral_reason": "Freshly reread the complete source and neighboring context. Cleopas' visitor question remains particular. John's Clopas or another similar name does not establish an identity or this dialogue. This remains deferred with zero credit."
         },
         {
           "reference": "Luke 24:19",
@@ -49278,10 +50348,63 @@
           "id": "v24-28",
           "text": "They drew near the village to which they were traveling, and He acted as though He would travel farther.",
           "display_text": "They drew near the village to which they were traveling, and He acted as though He would travel farther.",
-          "status": "deferred",
-          "cross_references": [],
-          "reviewed": "2026-10-30",
-          "deferral_reason": "Jesus' acting as though He would continue beyond the village was read. Other journeys or pass-by scenes do not independently establish this action or an unstated motive."
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "luke-24-28__mark-6-48-6-51",
+              "target": "Mark 6:48–6:51",
+              "verdict": "supported",
+              "relationship": "bounded movement-past-companions comparison",
+              "rationale": "Both scenes narrate an apparent or intended movement onward by Jesus before He stays with companions. Luke says He acts as though going farther; Mark says He intends to pass by the rowing disciples before speaking and entering their boat. Apparent continuation and stated intention are different, as are road and sea. No shared hidden motive, feigned intention in Mark or identical occasion is inferred.",
+              "reviewed": "2026-10-31",
+              "reviewer": "Codex (AI-assisted editorial review)",
+              "review_batch": "2026-10-31T035445Z",
+              "source_text_sha256": "f615058e58995dc91b43cbd09201a6f06e835192df0d3de1f47bba2d190a8fe4",
+              "source_complete_text_sha256": "f615058e58995dc91b43cbd09201a6f06e835192df0d3de1f47bba2d190a8fe4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "mark/verses.json",
+                "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/mark/verses.json",
+                "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/mark.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Mark 6:48",
+                  "id": "v6-48",
+                  "text": "Seeing them straining at the rowing, for the wind was against them, He came toward them about the fourth watch of the night, walking on the sea. He intended to pass by them.",
+                  "text_sha256": "ef8a4401de68746f851b735cae9cc4a2f827cd35d3e52b055a4cbfb00d62a741",
+                  "complete_text_sha256": "ef8a4401de68746f851b735cae9cc4a2f827cd35d3e52b055a4cbfb00d62a741"
+                },
+                {
+                  "reference": "Mark 6:49",
+                  "id": "v6-49",
+                  "text": "When they saw Him walking on the sea, they thought it was a phantom and cried out,",
+                  "text_sha256": "d714bd49ddde61104a25f2151dc54863e56b75b7ff3572a20e91399a8fbef558",
+                  "complete_text_sha256": "d714bd49ddde61104a25f2151dc54863e56b75b7ff3572a20e91399a8fbef558"
+                },
+                {
+                  "reference": "Mark 6:50",
+                  "id": "v6-50",
+                  "text": "for they all saw Him and were troubled. Immediately He spoke with them and said to them, “Take courage! It is I; do not fear.”",
+                  "text_sha256": "b1416963e0414281398c22d4fba6bf360de5472775cda902d2851a14b62485fc",
+                  "complete_text_sha256": "b1416963e0414281398c22d4fba6bf360de5472775cda902d2851a14b62485fc"
+                },
+                {
+                  "reference": "Mark 6:51",
+                  "id": "v6-51",
+                  "text": "He climbed into the boat with them, and the wind ceased. They were utterly astounded within themselves,",
+                  "text_sha256": "c37921f627196ad59902fe13c330a37a1a124e9533dc36732cf233681188ba6e",
+                  "complete_text_sha256": "c37921f627196ad59902fe13c330a37a1a124e9533dc36732cf233681188ba6e"
+                }
+              ],
+              "target_passage_sha256": "4c803cca1b05732dfe5c1857d74756b6875843c34e024dd6b61cce500213f4b6",
+              "target_passage_complete_sha256": "4c803cca1b05732dfe5c1857d74756b6875843c34e024dd6b61cce500213f4b6",
+              "destination_anchor_check": "not performed; matching identity checked against the pinned saved record"
+            }
+          ],
+          "reviewed": "2026-10-31"
         },
         {
           "reference": "Luke 24:29",
@@ -50395,16 +51518,19 @@
   ],
   "total_source_verse_units": 1149,
   "reviewed_source_units": 1149,
-  "completed_source_verses": 1099,
-  "completed_cross_references": 1110,
+  "completed_source_verses": 1126,
+  "completed_cross_references": 1137,
   "completed_chapters": [
     5,
     6,
     7,
     8,
+    9,
     10,
     11,
+    12,
     14,
+    19,
     20,
     21
   ],
