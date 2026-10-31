@@ -8,7 +8,7 @@ The authoritative tracker is [verses.json](verses.json), with the complete origi
 4. Resume at the saved first unfinished position and the separate next new source position. Read and assess actual passages before changing status; technical repair earns zero review credit.
 5. Commit records, notes, review history, readable files and progress together. Verify the remote main commit and published file identities after uploading.
 
-First unfinished: Luke 1:21. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Acts 15:1.
+First unfinished: Luke 1:21. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Romans 3:1.
 
 Do not reconstruct Greek Psalm numbering or named figures from another edition. Do not silently replace source text. Independent specialist review and live destination checks are pending.
 

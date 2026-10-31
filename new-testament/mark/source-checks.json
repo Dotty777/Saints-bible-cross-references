@@ -73,36 +73,28 @@
       "new_source_verses": 3,
       "new_completed_revisited_sources": 3,
       "new_pairs": 3
+    },
+    {
+      "run_id": "2026-10-31T070618Z",
+      "records": "../review-batches/2026-10-31T070618Z.json",
+      "source_units_read": 2,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 2,
+      "new_source_verses": 2,
+      "new_completed_revisited_sources": 2,
+      "new_pairs": 2
     }
   ],
   "unresolved_candidates": [],
-  "deferred_source_units": [
-    {
-      "source_reference": "Mark 9:16",
-      "source_id": "v9-16",
-      "reason": "The earlier scribal dispute and the father's ensuing answer were reread. They delimit the local context, but no separate passage repeats this question; its unexpressed addressees are not assigned beyond the supplied wording.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Mark 9:49",
-      "source_id": "v9-49",
-      "reason": "Leviticus2:13 was freshly read with its context: it requires covenant salt on offerings. Mark speaks of everyone salted with fire and does not supply the longer sacrifice clause. The ritual background does not establish this combined image's particular meaning, and the absent clause is not restored.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    }
-  ],
-  "method": "Complete supplied English source units and actual retained target passages were read with context. Every retained pair received a second AI-assisted passage comparison. Source books follow the saved canon order. All original Gospel source units were read before Acts source review began. Acts1–14 receive source/target review in original order; Acts15–28 remain pending for cross-reference review. A source-only reading of Acts15 earns zero completion credit. Saved Gospel deferrals are reconsidered separately without automatic credit. Original full-book input bytes are checked against pinned Git blob identities; no critical-text verification is claimed.",
+  "deferred_source_units": [],
+  "method": "Complete supplied English source units and retained target passages were read with context, followed by a second AI-assisted comparison. The saved canon order is preserved: all original Gospel and Acts units were read before Romans source review. This run finishes all485 remaining Acts source reviews and reviews Romans1–2, carrying unresolved deferrals separately without credit. Later passages read only as targets or context earn no source-review credit. Original full-book bytes match pinned Git blobs; no new critical-text verification is claimed.",
   "checked_scope": {
     "source_range": "Mark 1:1–16:20",
     "source_units_read": 673,
-    "completed_source_verses": 671,
-    "retained_pairs": 679
+    "completed_source_verses": 673,
+    "retained_pairs": 681
   },
   "pending": [
-    "Substantive reconsideration of deferred source units",
     "Independent specialist review",
     "Live destination anchors and display checks"
   ],
@@ -245,6 +237,14 @@
       "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json",
       "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-samuel.json"
+    },
+    {
+      "repository": "Dotty777/Saints-Translation",
+      "commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "path": "2-thessalonians/verses.json",
+      "blob_sha": "288f9670bb220cb4f5261ed43123800cbf81f400",
+      "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians/verses.json",
+      "local_snapshot": "source-snapshots/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians.json"
     },
     {
       "repository": "Dotty777/Saints-Translation",
@@ -725,6 +725,24 @@
       "previous_reason": "Freshly reread the complete source and neighboring context. The unnamed linen-clad follower's capture remains unverified in identity; the garment-escape analogy for14:52 is not used to identify him. This remains deferred with zero credit.",
       "retained_pair_ids": [
         "mark-14-51__genesis-39-12"
+      ]
+    },
+    {
+      "source_reference": "Mark 9:16",
+      "source_id": "v9-16",
+      "resolved_in_run": "2026-10-31T070618Z",
+      "previous_reason": "The earlier scribal dispute and the father's ensuing answer were reread. They delimit the local context, but no separate passage repeats this question; its unexpressed addressees are not assigned beyond the supplied wording.",
+      "retained_pair_ids": [
+        "mark-9-16__mark-9-17-9-18"
+      ]
+    },
+    {
+      "source_reference": "Mark 9:49",
+      "source_id": "v9-49",
+      "resolved_in_run": "2026-10-31T070618Z",
+      "previous_reason": "Leviticus2:13 was freshly read with its context: it requires covenant salt on offerings. Mark speaks of everyone salted with fire and does not supply the longer sacrifice clause. The ritual background does not establish this combined image's particular meaning, and the absent clause is not restored.",
+      "retained_pair_ids": [
+        "mark-9-49__leviticus-2-13"
       ]
     }
   ]
