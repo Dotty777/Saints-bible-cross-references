@@ -4,6 +4,7 @@ import html,json,re
 from collections import Counter
 from chapter_structure import chapter_units
 ROOT=Path(__file__).resolve().parents[1]
+END_OF_OT='none; all OT source units read'
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
 def write(p,s):p.write_text(s.rstrip()+'\n',encoding='utf-8')
 def complete_text(unit):
@@ -38,7 +39,7 @@ def render_book(record,progress,style):
     next_unreviewed=next((ref for ref in pending if ref not in deferred_set),None)
     deferred_note=(f'{len(deferred)} read source unit(s) remain deferred with zero completion credit: '+', '.join(deferred)+'. First pending source unit: '+str(next_ref)+'. '+('Never-reviewed source units start at '+next_unreviewed+'.' if next_unreviewed else 'No never-reviewed source units remain.')) if deferred else ''
     global_unreviewed=(progress.get('next_unreviewed') or {}).get('reference')
-    if deferred and not next_unreviewed and global_unreviewed:deferred_note+=' Next new source review: '+global_unreviewed+'.'
+    if deferred and not next_unreviewed:deferred_note+=' Next new source review: '+(global_unreviewed or END_OF_OT)+'.'
     global_next=(progress.get('next') or {}).get('reference')
     continuation=('Book initial curated pass complete. Overall next: '+str(global_next)+'.') if finished else ('Next: '+str(next_ref)+'. Some source units remain pending.')
     scope=(verses[0]['reference']+'–'+verses[-1]['reference'].removeprefix(name+' ')) if verses else 'No source verses reviewed yet'
@@ -78,7 +79,8 @@ def render_book(record,progress,style):
     if end<0:end=len(readme)
     follow=('This book\'s initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **'+str(global_next)+'**.') if finished else ('Read the current [overall tracker](../progress.json), preserve completed records, and start at **'+str(next_ref)+'**. Review source verses in the edition\'s order.')
     if deferred and not finished:follow='Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **'+str(next_ref)+'**. Continue never-reviewed source units in the edition\'s order.'
-    if deferred:follow+=' '+deferred_note+' Revisit these deferred units substantively before marking them complete; continue never-reviewed sources separately.'
+    if deferred:follow+=' '+deferred_note+' Revisit these deferred units substantively before marking them complete.'+(' Continue never-reviewed sources separately.' if global_unreviewed else '')
+    if deferred and not global_unreviewed:follow=follow.replace("Continue never-reviewed source units in the edition's order.",'All OT source units have been read; incomplete units remain pending.')
     readme=readme[:start]+'## Continuation\n\n'+follow+' Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.\n\nSame-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.\n\n'+readme[end:]
     if waiting:
         readme=readme.replace('## Review batches','Unretained target candidates: '+str(len(waiting))+', excluded from completed counts. See the recorded reasons in [source-checks.json](source-checks.json).\n\n## Review batches',1)
@@ -108,7 +110,7 @@ def main():
     readme=re.sub(r'\*\*Next: [^\n]+?\.\*\*',f'**Next: {next_ref}.**',readme,count=1)
     readme=re.sub(r'\n\*\*Next new source review: [^\n]+?\.\*\*','',readme)
     next_unreviewed=(progress.get('next_unreviewed') or {}).get('reference')
-    if next_unreviewed:readme=readme.replace(f'**Next: {next_ref}.**',f'**Next: {next_ref}.**\n**Next new source review: {next_unreviewed}.**',1)
+    readme=readme.replace(f'**Next: {next_ref}.**',f'**Next: {next_ref}.**\n**Next new source review: {next_unreviewed or END_OF_OT}.**',1)
     n=progress['completed_book_records'];completion=f'{n} Old Testament '+('book has a complete initial curated pass.' if n==1 else 'books have complete initial curated passes.')
     readme=readme.replace('No complete Old Testament book is claimed yet.',completion)
     readme=re.sub(r'\d+ Old Testament books? (?:has|have) (?:a complete initial curated pass|complete initial curated passes)\.',lambda _:completion,readme)

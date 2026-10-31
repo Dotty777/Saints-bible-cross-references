@@ -7,4 +7,4 @@ Read ../canon.json, ../progress.json, verses.json and inventory.json first. Pres
 
 105 original source units in 7 native chapters and 7 native source groups remain unchanged. 105 read; 96 supported sources; 103 pairs; 0 never reviewed. First pending within book: **Micah 1:11**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
-Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Nahum 1:1** (inventory required before review).
+Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **none; all OT source units read**.

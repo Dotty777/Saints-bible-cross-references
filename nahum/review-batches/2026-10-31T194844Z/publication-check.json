@@ -1,0 +1,102 @@
+{
+  "remote_ref": "origin/main",
+  "remote_commit": "8227c88e279a4c6b2c40520c547c6aaa4c691efa",
+  "review_base_commit": "9573f39894a7907b6c5b81053e3530229aabf43d",
+  "only_independent_nt_changes": true,
+  "remote_nt_pointer": {
+    "records": "new-testament/",
+    "progress": "new-testament/progress.json",
+    "testament": "New Testament",
+    "source_book_count": 27,
+    "canonical_orders": [
+      44,
+      70
+    ],
+    "completed_source_verses": 7526,
+    "completed_cross_references": 7655,
+    "next": {
+      "book": "Matthew",
+      "chapter": 1,
+      "reference": "Matthew 1:14",
+      "source_id": "v1-14"
+    },
+    "next_unreviewed": {
+      "book": "Revelation",
+      "chapter": 1,
+      "reference": "Revelation 1:1",
+      "source_id": "v1-1"
+    },
+    "updated": "2026-10-31",
+    "target_per_hour": 500,
+    "target_unit": "newly_completed_distinct_source_verses",
+    "latest_target_result": {
+      "run_id": "2026-10-31T194744Z",
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 119,
+      "target_met": false,
+      "target_shortfall": 381,
+      "target_excess": 0
+    },
+    "fully_read_source_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John",
+      "Acts",
+      "Romans",
+      "1 Corinthians",
+      "2 Corinthians",
+      "Galatians",
+      "Ephesians",
+      "Philippians",
+      "Colossians",
+      "1 Thessalonians",
+      "2 Thessalonians",
+      "1 Timothy",
+      "2 Timothy",
+      "Titus",
+      "Philemon",
+      "Hebrews",
+      "James",
+      "1 Peter",
+      "2 Peter",
+      "1 John",
+      "2 John",
+      "3 John",
+      "Jude"
+    ],
+    "source_availability_blocker": {
+      "book": "Revelation",
+      "canonical_order": 70,
+      "division": "Glory",
+      "status": "blocked_missing_pinned_source_record",
+      "source_repository": "Dotty777/Saints-Translation",
+      "source_pin": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_main_verified_same_as_pin": true,
+      "evidence": "new-testament/review-batches/2026-10-31T194744Z/revelation-source-availability.json",
+      "evidence_sha256": "ad7f06ca039fda342b789e7fe44191110cfc71889426f9fbef6a096729ed8e96",
+      "reason": "Exact Saints Revelation source record unavailable in the verified pinned repository tree and current source main.",
+      "source_bodies_opened": 0,
+      "source_inventory_created": false,
+      "completion_credit": 0,
+      "continuation": "After Jude's originals are read, retain Revelation as next canonical source book. Do not create or count Revelation verse identities, totals, wording or cross-reference completions until the exact Saints source record is available and verified.",
+      "limit": "This evidence establishes absence in the pinned Saints-Translation GitHub repository and its current main, not absence from every possible external staging system. No external staging page or Revelation source body was opened.",
+      "canonical_continuation_cursor": {
+        "book": "Revelation",
+        "chapter": 1,
+        "reference": "Revelation 1:1",
+        "source_id": "v1-1"
+      },
+      "continuation_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record.",
+      "verified_native_source_unit": false
+    },
+    "target_shortfall_reason": "All 119 remaining available never-reviewed originals from 1 John 3:1 through Jude 1:25 received supported reviews. All 12 saved deferrals remain unresolved without completion credit. The exact Saints Revelation source record is absent at the verified pinned commit and current source main, so no Revelation inventory or review is fabricated to fill the shortfall of 381 source verses.",
+    "next_unreviewed_source_identity_verified": false,
+    "next_unreviewed_cursor_scope": "Revelation 1:1 / v1-1 is only the canonical next-book starting cursor. It is not a verified native Revelation verse identity or anchor. All native Revelation text, verse identities, divisions, anchors, inventory and totals await the exact Saints source record."
+  },
+  "merge_instruction": "Perform a normal Git merge. If only progress.json conflicts, preserve the complete local OT object and replace only new_testament_tracker with remote_nt_pointer. Do not reset or regenerate the semantic batch.",
+  "completion_credit": 0,
+  "newline_only_root_files": [],
+  "fresh_remote_canon_blob_sha": "e8636b7f8fc71856df3ff45e143dfb36421586ec"
+}

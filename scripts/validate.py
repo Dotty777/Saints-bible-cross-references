@@ -122,6 +122,30 @@ class Anchors(HTMLParser):
             self.scripture.append(''.join(self.current));self.in_scripture=False
         if tag=='p' and self.in_target_scripture:
             self.target_scripture.append(''.join(self.target_current));self.in_target_scripture=False
+def validate_source_review_continuation(progress):
+    """Distinguish read-but-deferred OT units from the next never-reviewed unit."""
+    expected=None;missing_book=None
+    for record in progress['books']:
+        file=ROOT/record['records']/'verses.json'
+        if not file.exists():
+            if expected is None and missing_book is None:missing_book=record['book']
+            continue
+        data=load(file);checks=load(ROOT/record['records']/'source-checks.json')
+        deferred={case['source_reference'] for case in checks.get('deferred_source_units',[])}
+        pending={v['reference'] for c in data['chapters'] for v in c['verses'] if v['status']!='completed'}
+        require(deferred<=pending,'Deferred source is missing or already completed: '+record['book'])
+        unread=next(((c,v) for c in data['chapters'] for v in c['verses'] if v['status']!='completed' and v['reference'] not in deferred),None)
+        ref=unread[1]['reference'] if unread else None
+        for saved in [data,record]:
+            if 'next_unreviewed_reference' in saved:require(saved['next_unreviewed_reference']==ref,'Book never-reviewed continuation mismatch: '+record['book'])
+        if expected is None and missing_book is None and unread:
+            c,v=unread;expected={'book':record['book'],'chapter':c['chapter'],'reference':v['reference'],'source_id':v['id']}
+    actual=progress.get('next_unreviewed')
+    if expected is not None:require(actual==expected,'Root never-reviewed continuation skips a source unit')
+    elif missing_book is not None:require(isinstance(actual,dict) and actual.get('book')==missing_book and bool(actual.get('reference')),'Root never-reviewed continuation skips an uninventoried source book')
+    else:require(actual is None,'All OT source units read: next_unreviewed must be null')
+    return expected if expected is not None else ({'book':missing_book,'inventory_required':True} if missing_book else None)
+
 def validate(write_receipts=False):
     progress=load(ROOT/'progress.json')
     reports=[]
@@ -138,6 +162,7 @@ def validate(write_receipts=False):
     require(len(source_books)==canon['old_testament_book_count']==43,'Old Testament canon count mismatch')
     require(len(canonical)-len(source_books)==canon['new_testament_book_count']==27,'New Testament canon count mismatch')
     require(names==[b['book'] for b in source_books],'Source plan differs from Saints Old Testament order')
+    validate_source_review_continuation(progress)
     for actual,expected in zip(progress['books'],source_books):
         require(actual['order']==expected['order'] and actual['division']==expected['division'],'Source order or division mismatch')
     for division in canon['divisions']:

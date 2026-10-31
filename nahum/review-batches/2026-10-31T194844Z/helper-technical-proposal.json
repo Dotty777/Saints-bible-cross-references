@@ -1,0 +1,71 @@
+{
+  "run_id": "2026-10-31T194844Z",
+  "baseline_commit": "9573f39894a7907b6c5b81053e3530229aabf43d",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "prepared_by": "Codex /root/amos_helper_recovery",
+  "kind": "technical proposal for independent root review; not acceptance",
+  "changes": [
+    "Copied accepted prior helpers without altering originals. Generalized preceding-book inventory gate from Daniel to canonical prior book Micah; binds exact baseline Micah verses/checks and preserved published evidence, with zero current read credit.",
+    "Handle exhaustion of OT-only source order as null next_unreviewed, not an index error or implicit NT source continuation. Preserve earliest pending/incomplete statuses.",
+    "Carry explicit end-of-OT label through run metadata, readable continuation, recovery guidance and required maintenance comparison.",
+    "Validate never-reviewed continuation separately from source-only deferrals; reject null while unread units remain and reject NT pointer at OT end.",
+    "Proposed production code is captured only under exact final technical-peer receipt bindings, with matching run/base/source identities and final helper/renderer/validator digests; preparation includes those exact code bytes in transaction outputs. The isolated fixture rejects unaccepted, wrong-run, and stale-code bindings."
+  ],
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "e443a4e496103e1c5c5173edcf5fc87397207451c7e23ab16b350ddcd5a870ad"
+    },
+    {
+      "file": "inventory-books.py",
+      "sha256": "ebd19b816a02f43d694d2a17a141778321fb6bbda41dcdbae5e8fa5b64c8f05a"
+    },
+    {
+      "file": "passages.py",
+      "sha256": "8d79df2502ce7abf82b41ed6b78c13888a12fdecdfe87b47687073f877c634b5"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "ea897c78d93650f6ea15c1ef20dff5a901afd0c85b84b974d82462a69892156f"
+    },
+    {
+      "file": "production-validate.py",
+      "sha256": "936477bd4cca32931d414c82346a39dfba66929b30828c6d065b60989e5e74d5"
+    },
+    {
+      "file": "probe-end-of-ot.py",
+      "sha256": "be397c24828caa44ff69fc1c9a3afed0d54324860906d7dd9a4f4d8e2bc9d911"
+    },
+    {
+      "file": "end-of-ot-probe-result.json",
+      "sha256": "3b6515bba2f73d15caccb21344609bf856b5fee49599f6b272743d90c6dbd1c9"
+    },
+    {
+      "file": "baseline-proof.json",
+      "sha256": "6ab432bfe658060c28a9cbcb5ef4681b0cedbf441d992b8ce44d75577e17f08a"
+    },
+    {
+      "file": "source-review-gates.json",
+      "sha256": "fbfed83e35039f1a32dfc6bce8e4649a4b7435131b3b010d3deafb4c9ec0d4b9"
+    },
+    {
+      "file": "review-plan.json",
+      "sha256": "f8e80072f81c01f930497f3eda054b27e0e871c91c9d9a9244ca6a2e334fb392"
+    },
+    {
+      "file": "preceding-micah-source-reading-gate.json",
+      "sha256": "f25b182c22a38f4fb8f7c2579e9ec5d3b62c5919d90f410fe021e279e8d18e3e"
+    }
+  ],
+  "inventory_counts": {
+    "Nahum": 47,
+    "Habakkuk": 56,
+    "Zephaniah": 53,
+    "Haggai": 38,
+    "Zechariah": 211,
+    "Malachi": 55
+  },
+  "all_inventories_preceding_source_gated": true,
+  "completion_credit": 0,
+  "production_mutations": 0
+}

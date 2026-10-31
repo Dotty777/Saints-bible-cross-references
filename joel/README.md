@@ -1,6 +1,6 @@
 # Joel - Saints Bible cross-references
 
-Joel has **69 completed source verses and 74 distinct source/target-passage pairs**. Latest completed unit: **Joel 4:21**. Fully completed chapters: 3. Next: Joel 1:17. Some source units remain pending. Completed entries within **Joel 1:1–4:21**; this span includes pending source deferrals. 4 read source unit(s) remain deferred with zero completion credit: Joel 1:17, Joel 2:4, Joel 2:8, Joel 4:14. First pending source unit: Joel 1:17. No never-reviewed source units remain. Next new source review: Nahum 1:1.
+Joel has **69 completed source verses and 74 distinct source/target-passage pairs**. Latest completed unit: **Joel 4:21**. Fully completed chapters: 3. Next: Joel 1:17. Some source units remain pending. Completed entries within **Joel 1:1–4:21**; this span includes pending source deferrals. 4 read source unit(s) remain deferred with zero completion credit: Joel 1:17, Joel 2:4, Joel 2:8, Joel 4:14. First pending source unit: Joel 1:17. No never-reviewed source units remain. Next new source review: none; all OT source units read.
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -15,7 +15,7 @@ Preserve every original reference, anchor, word, native metadata field and sourc
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **Joel 1:17**. Continue never-reviewed source units in the edition's order. 4 read source unit(s) remain deferred with zero completion credit: Joel 1:17, Joel 2:4, Joel 2:8, Joel 4:14. First pending source unit: Joel 1:17. No never-reviewed source units remain. Next new source review: Nahum 1:1. Revisit these deferred units substantively before marking them complete; continue never-reviewed sources separately. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **Joel 1:17**. All OT source units have been read; incomplete units remain pending. 4 read source unit(s) remain deferred with zero completion credit: Joel 1:17, Joel 2:4, Joel 2:8, Joel 4:14. First pending source unit: Joel 1:17. No never-reviewed source units remain. Next new source review: none; all OT source units read. Revisit these deferred units substantively before marking them complete. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
