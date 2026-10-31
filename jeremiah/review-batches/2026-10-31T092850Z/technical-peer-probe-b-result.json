@@ -1,0 +1,147 @@
+{
+  "run_id": "2026-10-31T092850Z",
+  "base_commit": "9cec5a95b7ee763c20a6053ea16eaf0f1ca48c41",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewer": "Independent technical peer /root/proverbs_end_author",
+  "helper_sha256": "d7922f6e4c47af8385b135c4b284178df30f822fb2ef8a2d53126d9be841f734",
+  "inventory_helper_sha256": "b409f69cef651cbfb45080b9ad4766f80a2137084c48769df0e22d2ec5e8c5ac",
+  "renderer_sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36",
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "method": "Current helper functions and actual final packet-order guard, with malformed data injected only in memory. No production apply, renderer, validator or inventory construction executed by this probe.",
+  "checks": {
+    "all_helper_functions_unchanged_from_accepted_0425": {
+      "passed": true,
+      "function_count": 48
+    },
+    "exact_baseline_and_book_partition": {
+      "passed": true,
+      "historical_runs": 47,
+      "existing_books": 29,
+      "protected_json_objects": 146,
+      "jeremiah_read": 1034,
+      "jeremiah_unread": 262,
+      "jeremiah_completed": 937,
+      "prior_deferrals": 97,
+      "prior_candidates": 39
+    },
+    "full_native_ezekiel_inventory_and_gaps": {
+      "passed": true,
+      "units": 1267,
+      "sections": 48,
+      "first_cohort": 157,
+      "numbering_gaps": [
+        {
+          "chapter": 1,
+          "missing_numbers": [
+            14
+          ]
+        },
+        {
+          "chapter": 10,
+          "missing_numbers": [
+            14
+          ]
+        },
+        {
+          "chapter": 27,
+          "missing_numbers": [
+            31
+          ]
+        },
+        {
+          "chapter": 32,
+          "missing_numbers": [
+            19
+          ]
+        },
+        {
+          "chapter": 33,
+          "missing_numbers": [
+            26
+          ]
+        },
+        {
+          "chapter": 40,
+          "missing_numbers": [
+            30
+          ]
+        }
+      ],
+      "all_source_fields_and_order_preserved": true,
+      "semantic_credit": 0
+    },
+    "seed_text_change": {
+      "passed": true,
+      "message": "Original source units/order changed"
+    },
+    "seed_reordering": {
+      "passed": true,
+      "message": "Original source units/order changed"
+    },
+    "seed_completion_credit": {
+      "passed": true,
+      "message": "Inventory seed grants completion"
+    },
+    "seed_total_credit": {
+      "passed": true,
+      "message": "New inventory declares completion"
+    },
+    "seed_path_traversal": {
+      "passed": true,
+      "message": "Inventory input must use a relative contained path"
+    },
+    "new_book_source_check_credit": {
+      "passed": true,
+      "message": "New source checks grant reading or completion credit"
+    },
+    "existing_jeremiah_rebootstrap": {
+      "passed": true,
+      "message": "Seed requested outside this run"
+    },
+    "new_ezekiel_existing_dispatch": {
+      "passed": true,
+      "message": "Existing book outside this run"
+    },
+    "earlier_book_unread_unit": {
+      "passed": true,
+      "message": "An earlier source book must be fully read before reviewing the next book: Jeremiah"
+    },
+    "new_book_reordered_prefix": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "invented_absent_unit": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Ezekiel"
+    },
+    "historical_source_revisit": {
+      "passed": true,
+      "message": "Book packets must cover the exact disjoint next-unread native prefix: Jeremiah"
+    },
+    "native_continuation_after_actual_plan": {
+      "passed": true,
+      "reference": "Ezekiel 17:1"
+    },
+    "current_new_book_permission": {
+      "passed": true
+    },
+    "unauthorized_inventory_stem": {
+      "passed": true,
+      "message": "Only an explicitly authorized new source book may be inventoried"
+    },
+    "existing_book_reclassified_new": {
+      "passed": true,
+      "message": ""
+    },
+    "inventory_skips_current_canonical_book": {
+      "passed": true,
+      "message": ""
+    },
+    "canonical_source_path_mismatch": {
+      "passed": true,
+      "message": ""
+    }
+  },
+  "inventory_permission_guard_method": "Executed the actual adapted inventory permission statements in isolation, with altered configuration/canon only in memory; no fetch or inventory write performed."
+}
