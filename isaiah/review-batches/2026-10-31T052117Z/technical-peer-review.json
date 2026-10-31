@@ -1,0 +1,54 @@
+{
+  "run_id": "2026-10-31T052117Z",
+  "base_commit": "ab63ad361158615898ca9c09d64c5a33c763efe1",
+  "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+  "reviewed": "2026-10-31",
+  "review_timezone": "America/New_York",
+  "reviewer": "Codex independent technical peer /root/ecclesiastes_author",
+  "disposition": "accepted",
+  "outstanding_findings": [],
+  "completion_credit": 0,
+  "repo_mutations": 0,
+  "files": [
+    {
+      "file": "incremental.py",
+      "sha256": "8d153e2c2ac8f5e44afabbc4eeb262f439201f77a3ee304f0a3c36ed41adda36"
+    },
+    {
+      "file": "production-render_books.py",
+      "sha256": "c64dd9543307224a0d946b85b3ec272bcff721ffe7c35ca7d3c97446441b0f36"
+    },
+    {
+      "file": "inventory-books.py",
+      "sha256": "d0570c8e69e31d7e50d6c4c202440bcbcc15328b522eb85fbf8d8e1e1c4b8d1d"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "p-023c8e5b/result.json",
+      "sha256": "e2d75c09a2386480e5bfb5828390103332842d382bdbab025b877fb4da87f7a0"
+    },
+    {
+      "file": "p-af975eab/result.json",
+      "sha256": "dcb9e8b23ea82f928e6a522482689305d88e79c54ec126bc8dabcb41c73a5d4f"
+    },
+    {
+      "file": "technical-newbook-5b0a5ca5/result.json",
+      "sha256": "4962134c77d47753f17d1e53763902fd3a9a31040bfff68e6736b80ae8bcdde3"
+    },
+    {
+      "file": "revelation-unavailable.json",
+      "sha256": "0b24cff874c54771d700277acc5840f9d3e9ac644351298da3b719e2b3496104"
+    }
+  ],
+  "review_scope": [
+    "Inspected the complete new-book inventory builder and the changed baseline, seed, scope, preparation, preservation, maintenance, and readback logic against the previously accepted helper. Isaiah is the exact next canonical book; all 136 protected baseline JSON objects are fully parsed, and all 27 existing book records and 43 historical runs retain their prior data.",
+    "Confirmed that the 1289 actual native Isaiah units across 66 chapters are copied with complete original fields and native order, all initially pending with zero edges and zero completion totals. No Isaiah 2:22 is invented. The three explicit packet cohorts concatenate to the exact first 509 native units. The frozen inventory receipt binds the raw Git blob, metadata, inventory and seed; registry archival includes the exact raw and identity filenames referenced by that receipt.",
+    "Independent isolated probes reject changed source text, reordered source units, invented unit completion, invented total completion, and an already existing new-book destination. All 20 independent checks pass. No production writes or inventory regeneration were performed.",
+    "Inspected both helper-owned full and partial synthetic fixtures: each reports 29 passing assertions using actual production validation, maintenance capture and readback over 28 books. The 509-unit case continues at Isaiah 28:1; the 508-unit case continues at Isaiah 27:13. Receipt validation was explicitly stubbed in those technical fixtures, whose synthetic pairs and all technical checks receive zero semantic credit.",
+    "Confirmed unchanged production renderer bytes and no script output. Native source text, target text, anchors and counts are matched by the existing renderer audit. Source deferrals, read-unretained candidates and unread hints are separately retained with zero credit; completed sources and distinct source/target passage pairs are counted separately.",
+    "AST comparison confirms that safe_path, apply, receipt, refresh_sources, verified_registry and publication_check are unchanged from the accepted prior helper. The transaction journal, rollback and concurrent-content protection were not modified; their unaffected probes were not repeated. The new destination collision guard was separately exercised.",
+    "The final receipt binds the exact current helper, unchanged renderer, inventory helper and three explicitly named JSON result files. The existing safe contained-path and recorded-hash checks archive those exact evidence files, without copying their scratch directories.",
+    "Read the current-run pinned Revelation availability proof: the source progress record has records=null and the exact-commit passage request returned404. This proof is explicitly archived with zero reading or completion credit; unavailable Revelation proposals remain unread hints, never retained targets."
+  ]
+}

@@ -12,4 +12,4 @@ Recover through Git history in a new commit. Recompute counts and the first unfi
 
 939 original source units in 31 native chapters and 34 source sections remain unchanged. 939 read; 840 supported sources; 863 pairs; 0 never reviewed. First pending within book: **Proverbs 1:17**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
-Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Isaiah 1:1** (inventory required before review).
+Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Isaiah 28:1**.

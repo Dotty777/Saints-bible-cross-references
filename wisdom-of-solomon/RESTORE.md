@@ -7,4 +7,4 @@ Read ../canon.json, ../progress.json, verses.json and inventory.json first. Pres
 
 435 original source units in 19 native chapters and 19 native source groups remain unchanged. 435 read; 404 supported sources; 404 pairs; 0 never reviewed. First pending within book: **Wisdom of Solomon 2:8**. Next never-reviewed within book: **none; all original units read**. Deferred sources have zero completion credit. Preserve all prior evidence and native ordering.
 
-Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Isaiah 1:1** (inventory required before review).
+Overall continuation: earliest pending source overall is **1 Chronicles 1:24**. Next new source review: **Isaiah 28:1**.
