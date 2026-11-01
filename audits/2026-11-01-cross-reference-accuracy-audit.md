@@ -86,3 +86,37 @@ Susanna, Bel and the Dragon and the Sirach prologue have no cross-reference page
 The staging site was not edited. The defects come from the site's reference-resolution plugin, whose code is not in this repository or in Saints-Translation. Correcting individual entries by hand would not fix the resolver and would probably be overwritten on the next import. The JSON file above lists the exact corrections for whoever maintains that importer.
 
 This audit checks wording, numbering and passage identity. Like the existing records, it is AI-assisted and does not replace independent specialist review of interpretation.
+
+## Completion pass (same day)
+
+Every book is now finished in this repository.
+
+| Area | Result |
+| --- | --- |
+| Revelation | 405 source verses, 1,040 pairs. Each drafted pair was read again by a separate reader: 936 accepted, 104 revised, 1 rejected. |
+| Old Testament units left without links (2,009) | 689 linked with 954 new pairs (peer review: 811 accepted, 143 revised, 21 rejected); 1,320 closed with a stated reason. |
+| New Testament deferrals (12) | All closed with a stated reason: genealogy names and greetings with no identifiable counterpart, and Syracuse in Acts 28:12. |
+| Books finished | 43 of 43 Old Testament, 27 of 27 New Testament. |
+| Source fidelity | All 39,390 pairs match the pinned Saints-Translation text (`scripts/audit_against_source.py`). |
+
+**Closed** is a new final status. The unit was read and has no supportable cross-reference in this edition: it holds only a bare name, a speech introducer, or similar. Closed units carry their reason, have no pairs, earn no completion credit, and are listed in each book's `source-checks.json` and readable files. "Completed source verses" still counts only verses with retained pairs.
+
+### Revelation source
+
+The Saints-Translation repository had no Revelation record, so Revelation was blocked. With the owner's approval, the Revelation text published on staging was added to Saints-Translation as `revelation/verses.json`. It is on branch `claude/add-revelation-snapshot`, commit `bf920386f6355064d4b7a5fd2f1ac4e99d8e5110`, and is marked as a staging text snapshot. All 405 verses were checked against the live chapter pages; the only difference is footnote markers. The Bespoke editorial revision of Revelation is still pending. When it is done, the Revelation records here must be re-pinned.
+
+**Action needed:** merge that branch with a fast-forward or a merge commit, not a squash, so the pinned commit stays reachable.
+
+### Staging import drafts
+
+[`2026-11-01-staging-import-drafts.json`](2026-11-01-staging-import-drafts.json) contains drafts generated from the curated records. Nothing has been written to staging.
+
+- **Missing source sections.** Cross-references for 135 Saints source verses that staging has no section for:
+  - Proverbs 24:23–34, 30:15–33 and 31:10–31: 53 verses;
+  - Susanna: 37 verses;
+  - Bel and the Dragon: 37 verses;
+  - the Sirach prologue: 8 units.
+
+  107 verses have curated entries; 28 are closed with their reasons. All 163 target links resolve to staging anchors.
+- **Reviews for 2,735 unreviewed staging candidates** that match a curated pair: 1,555 exact matches and 1,180 whose range contains the curated target. They are in the `saints-xref-review` chapter format, keyed by edge ID.
+- **37,195 unreviewed staging candidates have no curated counterpart.** Almost all are in Job, 1–2 Chronicles, 1–2 Kings, Nehemiah, Ezra and Esther. They still need individual review; per-book counts are in the file.
