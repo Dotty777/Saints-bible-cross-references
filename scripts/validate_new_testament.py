@@ -6,6 +6,7 @@ from html.parser import HTMLParser
 import argparse,hashlib,json
 ROOT=Path(__file__).resolve().parents[1];NT=ROOT/'new-testament'
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
+REVIEWERS={'Codex (AI-assisted editorial review)','Claude (AI-assisted editorial review)'}
 def need(ok,message):
  if not ok:raise ValueError(message)
 def digest(s):return hashlib.sha256(s.encode('utf-8')).hexdigest()
@@ -52,7 +53,8 @@ def validate(write_verification=False):
   slug=s['path'].split('/')[0];book=next((b['book'] for b in canonical if b['source_staging_path'].strip('/').split('/')[-1]==slug),None)
   need(book is not None and s['path']==slug+'/verses.json','Snapshot book outside canon')
   need(book not in snapshots,'Duplicate snapshot')
-  need(s['repository']==p['reference_format_repository'] and s['commit']==manifest['commit'],'Snapshot provenance mismatch')
+  # A book added to the source repository after the main pin may use a later, declared commit.
+  need(s['repository']==p['reference_format_repository'] and s['commit'] in {manifest['commit'],*manifest.get('additional_commits',[])},'Snapshot provenance mismatch')
   need(s['url']==f'https://github.com/{s["repository"]}/blob/{s["commit"]}/{s["path"]}','Snapshot URL mismatch')
   raw=path(s['local_snapshot']).read_bytes();need(len(raw)==s['size'] and blob(raw)==s['blob_sha'] and hashlib.sha256(raw).hexdigest()==s['sha256'],'Original snapshot byte/hash mismatch: '+book)
   d=json.loads(raw)
@@ -107,7 +109,7 @@ def validate(write_verification=False):
     target_keys=set()
     for edge in v['cross_references']:
      need(edge['verdict']=='supported' and bool(edge['relationship'].strip()) and bool(edge['rationale'].strip()),'Missing pair verdict or explanation')
-     need(edge['reviewer']=='Codex (AI-assisted editorial review)' and edge['reviewed']==v['reviewed'],'Pair review attribution mismatch')
+     need(edge['reviewer'] in REVIEWERS and edge['reviewed']==v['reviewed'],'Pair review attribution mismatch')
      need(edge['source_text_sha256']==digest(v['text']) and edge['source_complete_text_sha256']==digest(full(v)),'Source hash mismatch')
      pin=edge['target_source'];book=next((book for book,s in pins.items() if s==pin),None);need(book in allowed and book in snapshots,'Missing or changed target pin')
      targetall=units(snapshots[book],book);byref={u['reference']:(i,u) for i,u in enumerate(targetall)};evidence=edge['target_verses'];need(bool(evidence),'Empty target passage')

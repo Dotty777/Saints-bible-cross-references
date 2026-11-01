@@ -1,8 +1,8 @@
 # Saints Holy Bible — separate New Testament cross-reference tracker
 
-7526 completed source verses; 7655 retained pairs; 234 completed chapters; 12 reviewed units deferred.
+7931 completed source verses; 8695 retained pairs; 256 completed chapters; 12 reviewed units deferred.
 
-First unfinished: **Matthew 1:14**. Next new source review: **Revelation 1:1**.
+First unfinished: **Matthew 1:14**. Next new source review: **none**.
 
 This hourly task begins at Matthew and follows the exact Saints Holy Bible 70-book order and divisions in [../canon.json](../canon.json): Salvation (44–47), Discipleship (48–69), Glory (70). Targets may use any of those 70 books when actual pinned passage evidence is available. [Progress](progress.json) and review counts here are separate from the [Old Testament tracker](../README.md). Pending books have no invented verse inventories.
 
@@ -38,10 +38,10 @@ The source texts remain the supplied English edition; this is not new critical-t
 | 67 | Discipleship | [2 John](2-john/README.md) | complete_initial_curated_pass | 13 | 13 |
 | 68 | Discipleship | [3 John](3-john/README.md) | complete_initial_curated_pass | 15 | 15 |
 | 69 | Discipleship | [Jude](jude/README.md) | complete_initial_curated_pass | 25 | 27 |
-| 70 | Glory | Revelation | pending | 0 | 0 |
+| 70 | Glory | [Revelation](revelation/README.md) | complete_initial_curated_pass | 405 | 1040 |
 
 Run `python scripts/render_new_testament.py` and `python scripts/validate_new_testament.py --write-verification` from the repository root after updating records. Follow the book’s recovery guidance. Independent specialist and live destination-anchor/display checks remain pending.
 
-Latest hourly result: **119 / 500 new source verses**; shortfall: 381. [Review record](review-batches/2026-10-31T194744Z.json).
+Latest hourly result: **405 / 500 new source verses**; shortfall: 95. [Review record](review-batches/2026-11-01T123430Z.json).
 
-Original source reading completed for: **Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude**. Unresolved source deferrals remain separate and earn no completion credit.
+Original source reading completed for: **Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude, Revelation**. Unresolved source deferrals remain separate and earn no completion credit.

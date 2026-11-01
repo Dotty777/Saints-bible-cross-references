@@ -2,7 +2,7 @@
 
 1143 completed source verses; 1154 retained pairs; 1149 source units read; 6 deferred units.
 
-First unfinished: Luke 3:24. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Revelation 1:1.
+First unfinished: Luke 3:24. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: none.
 
 Completed chapters: 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24. Complete inventory: 1149 original source units in 24 chapters. Deferred units receive no completion credit.
 

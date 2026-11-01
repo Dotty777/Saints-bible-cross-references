@@ -2,7 +2,7 @@
 
 878 completed source verses; 889 retained pairs; 878 source units read; 0 deferred units.
 
-First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Revelation 1:1.
+First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: none.
 
 Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21. Complete inventory: 878 original source units in 21 chapters. Deferred units receive no completion credit.
 

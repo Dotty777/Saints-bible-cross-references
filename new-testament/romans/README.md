@@ -2,7 +2,7 @@
 
 430 completed source verses; 443 retained pairs; 433 source units read; 3 deferred units.
 
-First unfinished: Romans 16:8. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: Revelation 1:1.
+First unfinished: Romans 16:8. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: none.
 
 Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 433 original source units in 16 chapters. Deferred units receive no completion credit.
 
