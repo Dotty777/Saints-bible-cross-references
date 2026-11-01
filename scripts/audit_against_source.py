@@ -45,7 +45,6 @@ def load_source(checkout):
 
 def record_files():
     yield from sorted(ROOT.glob('*/verses.json'))
-    yield from sorted((ROOT / 'new-testament').glob('*/verses.json'))
 
 
 def audit(checkout):
