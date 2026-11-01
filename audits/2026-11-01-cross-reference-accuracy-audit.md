@@ -111,15 +111,15 @@ The Saints-Translation repository had no Revelation record, so Revelation was bl
 
 The drafted reviews are published to staging as `saints_xref_review` posts. Staging accepts a review only with the `batch` and `source_hash` of a waiting review-queue item. The site adds queue items about once an hour, a few chapters at a time, and marks an item done once every link in it has a review.
 
-So far: **607 posts carrying 7,237 reviews across 407 chapters** (2,151 supported, 2,934 weak, 2,152 unsupported):
+So far: **616 posts carrying 8,105 reviews across 411 chapters** (2,567 supported, 3,296 weak, 2,242 unsupported):
 
 - The first import matched 507 posts (1,979 reviews) to the queue items that were already waiting.
 - Then 36 posts carried 45 corrected reviews for queued links whose reading staging maps wrongly. Each note gives the correct Saints reading.
-- Since then, 64 posts in 6 hourly queue rounds have carried 5,213 reviews.
+- Since then, 73 posts in 7 hourly queue rounds have carried 6,081 reviews.
 
 Each post ID and the links it carries are listed in [`2026-11-01-staging-import-log.json`](2026-11-01-staging-import-log.json). After every round, each imported link was fetched again from its public chapter page. Each shows the Claude 2026-11-01 attribution, the drafted verdict and the drafted summary.
 
-Import continues hourly. **32,747 drafted reviews** are waiting for their chapters to be queued.
+Import continues hourly. **31,879 drafted reviews** are waiting for their chapters to be queued.
 
 Some drafts still cannot be imported, whatever the queue does:
 
