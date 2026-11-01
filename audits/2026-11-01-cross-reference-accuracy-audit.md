@@ -107,32 +107,21 @@ The Saints-Translation repository had no Revelation record, so Revelation was bl
 
 **Merged:** on 1 November 2026 Saints-Translation `main` was fast-forwarded to this commit, so the pin is on the default branch.
 
-### Staging import drafts
-
-[`2026-11-01-staging-import-drafts.json`](2026-11-01-staging-import-drafts.json) contains drafts generated from the curated records. Nothing has been written to staging.
-
-- **Missing source sections.** Cross-references for 135 Saints source verses that staging has no section for:
-  - Proverbs 24:23–34, 30:15–33 and 31:10–31: 53 verses;
-  - Susanna: 37 verses;
-  - Bel and the Dragon: 37 verses;
-  - the Sirach prologue: 8 units.
-
-  107 verses have curated entries; 28 are closed with their reasons. All 163 target links resolve to staging anchors.
-- **Reviews for 2,735 unreviewed staging candidates** that match a curated pair: 1,555 exact matches and 1,180 whose range contains the curated target. They are in the `saints-xref-review` chapter format, keyed by edge ID.
-- **37,195 unreviewed staging candidates have no curated counterpart.** Almost all are in Job, 1–2 Chronicles, 1–2 Kings, Nehemiah, Ezra and Esther. They still need individual review; per-book counts are in the file.
-
-### Staging candidate reviews
-
-Every staging candidate that was still awaiting review now has a drafted review in [`staging-candidate-reviews/`](staging-candidate-reviews/README.md): one file per book, in the `saints-xref-review` chapter format, keyed by edge ID. That is 37,007 entries: 13,293 supported, 16,489 weak and 7,225 unsupported. Another 188 entries are covered by the corrected-review drafts. Of the unsupported entries, 1,925 carry a standard explanation, because the cited passage has no counterpart in this edition or the imported source verse is unidentified. 379 reviews quote Hebrew-based or paraphrased wording and carry a note saying so. Nothing has been written to staging, and none of these reviews has been checked by a person.
-
 ### Staging import
 
-On 1 November 2026 the drafted reviews that staging could accept were published to staging as `saints_xref_review` posts. That was 507 posts carrying 1,979 reviews across 370 chapters: 262 supported, 415 weak and 1,302 unsupported. Most of the unsupported reviews are Hebrew-only passages that have no counterpart in this edition. 1,949 reviews come from [`staging-candidate-reviews/`](staging-candidate-reviews/README.md) and 30 from the curated-pair drafts.
+The drafted reviews are published to staging as `saints_xref_review` posts. Staging accepts a review only with the `batch` and `source_hash` of a waiting review-queue item. The site adds queue items about once an hour, a few chapters at a time, and marks an item done once every link in it has a review.
 
-Each post ID and the edges it carries are listed in [`2026-11-01-staging-import-log.json`](2026-11-01-staging-import-log.json). After the import, every one of the 1,979 edges was fetched again from its public chapter page. Each shows the Claude 2026-11-01 attribution, the drafted verdict and the drafted summary.
+So far: **562 posts carrying 3,835 reviews across 384 chapters** (872 supported, 1,365 weak, 1,598 unsupported):
 
-Staging accepts a review only when it carries the `batch` and `source_hash` of an existing review-queue item. The queue covers only some chapters, so the rest of the drafts could not be imported:
+- The first import matched 507 posts (1,979 reviews) to the queue items that were already waiting.
+- Then 36 posts carried 45 corrected reviews for queued links whose reading staging maps wrongly. Each note gives the correct Saints reading.
+- Since then, 19 posts in 2 hourly queue rounds have carried 1,811 reviews.
 
-- **35,058 candidate reviews and 2,705 curated-pair reviews** are in chapters that staging has never queued. These are mostly Job, 1–2 Chronicles, 1–2 Kings, Nehemiah, Ezra and Esther. They can be published once the site's plugin creates queue items for those chapters. The `source_hash` it uses could not be reproduced from the chapter text.
-- **The 244 corrected reviews** fix entries whose label is mapped to the wrong reading. A review post cannot change that mapping, so the resolver must be fixed first.
-- **The missing source sections** (Proverbs 24:23–34, 30:15–33 and 31:10–31; Susanna; Bel and the Dragon; the Sirach prologue) have no staging pages for a review to attach to.
+Each post ID and the links it carries are listed in [`2026-11-01-staging-import-log.json`](2026-11-01-staging-import-log.json). After every round, each imported link was fetched again from its public chapter page. Each shows the Claude 2026-11-01 attribution, the drafted verdict and the drafted summary.
+
+Import continues hourly. **36,149 drafted reviews** are waiting for their chapters to be queued.
+
+Some drafts still cannot be imported, whatever the queue does:
+
+- **Missing source sections.** Proverbs 24:23–34, 30:15–33 and 31:10–31, Susanna, Bel and the Dragon, and the Sirach prologue have no staging pages for a review to attach to.
+- **Already-reviewed entries.** Some of the 244 corrected reviews are for entries whose reading staging maps wrongly and that already carry a review. They can only be applied after the resolver is fixed.
