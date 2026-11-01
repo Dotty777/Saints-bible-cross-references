@@ -1,0 +1,49 @@
+{
+ "run_id": "2026-11-01T120000Z",
+ "baseline_commit": "a35fc4804c2cf87c96cb321957a4c66e4a1ae90f",
+ "recorded_at_utc": "2026-11-01T11:57:41.837201+00:00",
+ "completion_credit": 0,
+ "reason": "Accuracy audit of all 37,396 saved pairs (29,741 Old Testament, 7,655 New Testament) against the pinned Saints-Translation source and the staging site. One rationale described a detail that lies outside its cited target range.",
+ "source_snapshot": {
+  "repository": "Dotty777/Saints-Translation",
+  "commit": "328967336f32958587835c921fea3b96a5bf6494"
+ },
+ "corrections": [
+  {
+   "pair_id": "wisdom-of-solomon-14-4__psalms-106-28-30",
+   "field": "rationale",
+   "before": "Wisdom celebrates salvation even when the traveler lacks skill; the psalm likewise makes rescue depend on the Lord's response and guidance when sailors' wisdom has failed.",
+   "after": "Wisdom celebrates salvation even when the traveler lacks skill; the psalm likewise shows the Lord bringing distressed seafarers out of the storm, stilling the waves and guiding them to harbor in answer to their cry.",
+   "evidence": "“All their wisdom was swallowed up” is Psalms 106:27, outside the cited range 106:28-30. The cited verses state the cry, the stilled storm and the guidance to harbor; the target range, hashes and relationship are unchanged."
+  }
+ ],
+ "change": "Rationale wording only; readable HTML and text re-rendered with scripts/render_books.py. Added scripts/audit_against_source.py and the audit report under audits/.",
+ "files": {
+  "wisdom-of-solomon/verses.json": {
+   "before_sha256": "5acc995cd2d0df6fbf3462fdd3ba66515f4cae1a95db4384829cb18227dcc2ed",
+   "after_sha256": "f594ec05bc9d657fb3d549e1b8562edf9800c517411d1168a265463de90ad01b"
+  },
+  "wisdom-of-solomon/WisdomofSolomon.html": {
+   "before_sha256": "bdaf8200be6c62acb01069f42947c073de18a2f0d3c89cbf62087d9c537e2abf",
+   "after_sha256": "1a85f563cb2d55b091170baa82496c3f648ccc5a9f27c3a37633fbdfb46e557a"
+  },
+  "wisdom-of-solomon/WisdomofSolomon.txt": {
+   "before_sha256": "4f3063f96667dd12f1850959a485862b175120a99962928dc42fd8ad8fc5f1bb",
+   "after_sha256": "60707780472f1fa0c7bca389284baa2eacfe60d22528ce1681f99d49fc3744be"
+  }
+ },
+ "full_validation": {
+  "status": "passed",
+  "completed_source_verses": 24571,
+  "completed_cross_references": 29741,
+  "completed_chapters": 553,
+  "first_unfinished": "1 Chronicles 1:24"
+ },
+ "source_fidelity_audit": {
+  "status": "passed",
+  "checked_pairs": 37396,
+  "issues": 0
+ },
+ "limits": "No source wording, target passage, hash, completion count or historical review record was changed. Earlier review-batch files keep the original rationale as historical evidence.",
+ "report": "audits/2026-11-01-cross-reference-accuracy-audit.md"
+}

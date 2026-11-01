@@ -87,6 +87,8 @@ Source and target texts in the completed records are the supplied Saints-Transla
 
 These are AI-assisted English passage reviews. Independent specialist review and live destination-anchor/display verification remain pending. The repository is a separate tracker; it does not deploy WordPress content or edit Saints-Translation.
 
+An accuracy audit of every saved pair against the pinned Saints-Translation source, and of every cross-reference entry on the staging site, is recorded in [audits/2026-11-01-cross-reference-accuracy-audit.md](audits/2026-11-01-cross-reference-accuracy-audit.md). Re-run the source comparison with `python scripts/audit_against_source.py <Saints-Translation checkout>`.
+
 Run `python scripts/validate.py` to check the saved data, counts, unique pair IDs, evidence hashes, HTML source anchors and next unfinished verse before committing further batches.
 
 After updating structured records and progress, run `python scripts/render_books.py` to refresh all inventoried books and README counts, then `python scripts/validate.py --write-verification`. The existing `render_genesis.py` entry point runs the same multi-book renderer.
