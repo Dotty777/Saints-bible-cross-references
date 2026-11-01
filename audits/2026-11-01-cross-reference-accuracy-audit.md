@@ -103,9 +103,9 @@ Every book is now finished in this repository.
 
 ### Revelation source
 
-The Saints-Translation repository had no Revelation record, so Revelation was blocked. With the owner's approval, the Revelation text published on staging was added to Saints-Translation as `revelation/verses.json`. It is on branch `claude/add-revelation-snapshot`, commit `bf920386f6355064d4b7a5fd2f1ac4e99d8e5110`, and is marked as a staging text snapshot. All 405 verses were checked against the live chapter pages; the only difference is footnote markers. The Bespoke editorial revision of Revelation is still pending. When it is done, the Revelation records here must be re-pinned.
+The Saints-Translation repository had no Revelation record, so Revelation was blocked. With the owner's approval, the Revelation text published on staging was added to Saints-Translation as `revelation/verses.json`. It was added on branch `claude/add-revelation-snapshot`, commit `bf920386f6355064d4b7a5fd2f1ac4e99d8e5110`, and is marked as a staging text snapshot. All 405 verses were checked against the live chapter pages; the only difference is footnote markers. The Bespoke editorial revision of Revelation is still pending. When it is done, the Revelation records here must be re-pinned.
 
-**Action needed:** merge that branch with a fast-forward or a merge commit, not a squash, so the pinned commit stays reachable.
+**Merged:** on 1 November 2026 Saints-Translation `main` was fast-forwarded to this commit, so the pin is on the default branch.
 
 ### Staging import drafts
 
@@ -120,3 +120,7 @@ The Saints-Translation repository had no Revelation record, so Revelation was bl
   107 verses have curated entries; 28 are closed with their reasons. All 163 target links resolve to staging anchors.
 - **Reviews for 2,735 unreviewed staging candidates** that match a curated pair: 1,555 exact matches and 1,180 whose range contains the curated target. They are in the `saints-xref-review` chapter format, keyed by edge ID.
 - **37,195 unreviewed staging candidates have no curated counterpart.** Almost all are in Job, 1–2 Chronicles, 1–2 Kings, Nehemiah, Ezra and Esther. They still need individual review; per-book counts are in the file.
+
+### Staging candidate reviews
+
+Every staging candidate that was still awaiting review now has a drafted review in [`staging-candidate-reviews/`](staging-candidate-reviews/README.md): one file per book, in the `saints-xref-review` chapter format, keyed by edge ID. That is 37,007 entries: 13,293 supported, 16,489 weak and 7,225 unsupported. Another 188 entries are covered by the corrected-review drafts. Of the unsupported entries, 1,925 carry a standard explanation, because the cited passage has no counterpart in this edition or the imported source verse is unidentified. 379 reviews quote Hebrew-based or paraphrased wording and carry a note saying so. Nothing has been written to staging, and none of these reviews has been checked by a person.
