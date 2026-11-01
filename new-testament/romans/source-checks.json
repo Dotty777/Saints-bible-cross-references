@@ -83,35 +83,20 @@
       "new_source_verses": 0,
       "new_completed_revisited_sources": 0,
       "new_pairs": 0
+    },
+    {
+      "run_id": "2026-11-01T124445Z",
+      "records": "../review-batches/2026-11-01T124445Z.json",
+      "source_units_read": 3,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 3,
+      "new_source_verses": 0,
+      "new_completed_revisited_sources": 0,
+      "new_pairs": 0
     }
   ],
   "unresolved_candidates": [],
-  "deferred_source_units": [
-    {
-      "source_reference": "Romans 16:8",
-      "source_id": "v16-8",
-      "reason": "First John 4:7–8 supplies a command to mutual love and predicates about loving, knowing God and divine birth. Ampliatus is only Paul’s beloved in the Lord here; that affectionate greeting does not itself report his exercise of love or those further predicates. The comparison remains too general to add a specific supported link.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Romans 16:14",
-      "source_id": "v16-14",
-      "reason": "Third John 1:15’s friends greeting and instruction to greet by name were freshly compared with these five named men and accompanying brothers. It supplies no matching identity, action or relationship for Asyncritus, Phlegon, Hermes, Patrobas or Hermas. The general grouped-greeting frame does not support an individual or group identification.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    },
-    {
-      "source_reference": "Romans 16:15",
-      "source_id": "v16-15",
-      "reason": "Second John 1:13’s chosen sister and her children supply a concrete contrasting family greeting, but do not identify Nereus’s unnamed sister or any of this unit’s saints. A sister designation and accompanying group are insufficient to transfer chosen status, parentage, office or a second specific relation; the named greeting remains unmatched.",
-      "status": "deferred after English passage review",
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0
-    }
-  ],
+  "deferred_source_units": [],
   "method": "Complete original supplied English source units and every retained actual target/context passage were read and separately compared by another AI-assisted reader. Resume at 1 John 3:1 and read all remaining originals of 1 John, then 2 John, 3 John and Jude in exact canon order, with complete inventories prepared before each new source book and only after the preceding book original reading boundary. All 12 saved deferrals were freshly and substantively reconsidered and remain uncredited. Revelation is the exact next canonical book, but its source record is absent at the pinned Saints-Translation commit and current source main. No Revelation wording, inventory, verse total or completed review is invented. Imported, duplicate, deferred, inventory-only and target/context-only records earn zero source completion credit. The actual 119 newly completed distinct sources fall 381 short of 500. Full available book inputs match pinned Git blobs; no new source-language critical-text or human specialist approval is claimed.",
   "checked_scope": {
     "source_range": "Romans 1:1–16:27",
@@ -702,6 +687,44 @@
       "retained_pair_ids": [
         "romans-16-10__2-corinthians-10-18"
       ]
+    }
+  ],
+  "closed_source_units": [
+    {
+      "source_reference": "Romans 16:8",
+      "source_id": "v16-8",
+      "reason": "The verse is a bare greeting to Ampliatus as Paul's beloved in the Lord; Ampliatus appears nowhere else, and the other passages merely call other people or groups \"beloved,\" which is a common epistolary term.",
+      "previous_deferral_reason": "First John 4:7–8 supplies a command to mutual love and predicates about loving, knowing God and divine birth. Ampliatus is only Paul’s beloved in the Lord here; that affectionate greeting does not itself report his exercise of love or those further predicates. The comparison remains too general to add a specific supported link.",
+      "status": "closed: no supportable cross-reference",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reviewer": "Claude (AI-assisted editorial review)",
+      "reviewed": "2026-11-01",
+      "review_batch": "2026-11-01T124445Z"
+    },
+    {
+      "source_reference": "Romans 16:14",
+      "source_id": "v16-14",
+      "reason": "The verse greets five otherwise unknown men and the brothers with them; none of these names recurs for the same people (Hermes in Acts is the name of the god applied to Paul), and the other passages use \"brothers\" only in general address.",
+      "previous_deferral_reason": "Third John 1:15’s friends greeting and instruction to greet by name were freshly compared with these five named men and accompanying brothers. It supplies no matching identity, action or relationship for Asyncritus, Phlegon, Hermes, Patrobas or Hermas. The general grouped-greeting frame does not support an individual or group identification.",
+      "status": "closed: no supportable cross-reference",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reviewer": "Claude (AI-assisted editorial review)",
+      "reviewed": "2026-11-01",
+      "review_batch": "2026-11-01T124445Z"
+    },
+    {
+      "source_reference": "Romans 16:15",
+      "source_id": "v16-15",
+      "reason": "The verse greets Philologus, Julia, Nereus and his sister, Olympas and the saints with them, none of whom appears elsewhere; the other passages offer only general greetings to saints or brothers, with no shared person.",
+      "previous_deferral_reason": "Second John 1:13’s chosen sister and her children supply a concrete contrasting family greeting, but do not identify Nereus’s unnamed sister or any of this unit’s saints. A sister designation and accompanying group are insufficient to transfer chosen status, parentage, office or a second specific relation; the named greeting remains unmatched.",
+      "status": "closed: no supportable cross-reference",
+      "completed_source_credit": 0,
+      "completed_pair_credit": 0,
+      "reviewer": "Claude (AI-assisted editorial review)",
+      "reviewed": "2026-11-01",
+      "review_batch": "2026-11-01T124445Z"
     }
   ]
 }

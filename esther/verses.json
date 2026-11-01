@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Esther",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -29,16 +29,25 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
-    3
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
   ],
-  "completed_source_verses": 203,
-  "completed_cross_references": 228,
+  "completed_source_verses": 216,
+  "completed_cross_references": 245,
   "total_chapters": 10,
   "total_source_verse_units": 246,
-  "next_reference": "Esther 1:1b",
+  "next_reference": null,
   "readable_html": "Esther.html",
   "readable_text": "Esther.txt",
   "canon_manifest": "../canon.json",
@@ -46,7 +55,7 @@
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "staging_page_id": 2489,
@@ -97,8 +106,66 @@
           "id": "v1-1b",
           "text": "He was a Jewish man living in the city of Susa, a great man serving in the king’s court.",
           "display_text": "He was a Jewish man living in the city of Susa, a great man serving in the king’s court.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-1b__esther-2-5",
+              "target": "Esther 2:5",
+              "verdict": "supported",
+              "relationship": "parallel introduction",
+              "rationale": "Both introduce Mordecai in nearly the same words, \"a Jewish man\" in \"the city of Susa\"; 2:5 adds his name and Benjaminite ancestry.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e3a92626036d695f85c1e97082fd9803d7dda812b03d0c9b2b41046ee7aba994",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 2:5",
+                  "id": "v2-5",
+                  "text": "There was a Jewish man in the city of Susa named Mordecai son of Jair, son of Shimei, son of Kish, of the tribe of Benjamin,",
+                  "text_sha256": "48baf5af7c464b267f9a6bd73eb5c8b08926b74f511998c4d938c0b9f02a62a8"
+                }
+              ],
+              "target_passage_sha256": "921adfafd1d78d4e0394c8c2d65d475886acecdf624ee999de62ffaba12a1ee7",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "esther-1-1b__esther-2-19",
+              "target": "Esther 2:19",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both describe Mordecai's position as service in the king's court: \"a great man serving in the king's court\" and \"Mordecai was serving in the court.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e3a92626036d695f85c1e97082fd9803d7dda812b03d0c9b2b41046ee7aba994",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 2:19",
+                  "id": "v2-19",
+                  "text": "Mordecai was serving in the court.",
+                  "text_sha256": "e1f2ad1827beb4c4f60ef5120e67f2d447b808a6de6effe9aa30848426987c88"
+                }
+              ],
+              "target_passage_sha256": "d73c32da1078849702e067fae722eab1644267aba53410e3098b49deba938a76",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 1:1c",
@@ -550,8 +617,38 @@
           "id": "v1-1m",
           "text": "Mordecai stayed quietly in the court with Gabatha and Tharra, the king’s two eunuchs who guarded the court.",
           "display_text": "Mordecai stayed quietly in the court with Gabatha and Tharra, the king’s two eunuchs who guarded the court.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-1m__esther-1-10",
+              "target": "Esther 1:10",
+              "verdict": "supported",
+              "relationship": "same name",
+              "rationale": "A eunuch named Tharra serves King Artaxerxes in both passages: here as one of two eunuchs guarding the court, in 1:10 as one of the seven eunuchs attending the king. The roles are described differently.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1619ec031b1d099c7d07b9064e100b367be5bf2556ae0fc1c523b7581c556f47",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 1:10",
+                  "id": "v1-10",
+                  "text": "On the seventh day, when the king had become merry, he told Haman, Bazan, Tharra, Boraze, Zatholtha, Abataza, and Tharaba, the seven eunuchs who attended King Artaxerxes,",
+                  "text_sha256": "3654b7eb050fdb2556f9ae9aa16d88abde6229f758022e9fa9611a6d87c151e5"
+                }
+              ],
+              "target_passage_sha256": "0a069c0f57a00dbcd12c55509be4d44daf1378a11c932fd14d8852e9899c506c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 1:1n",
@@ -684,8 +781,38 @@
           "id": "v1-1q",
           "text": "The king ordered Mordecai to serve in the court and gave him gifts for these things.",
           "display_text": "The king ordered Mordecai to serve in the court and gave him gifts for these things.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-1q__esther-2-19",
+              "target": "Esther 2:19",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both record Mordecai's service in the royal court: the king \"ordered Mordecai to serve in the court,\" and \"Mordecai was serving in the court.\" Only 1:1q mentions gifts.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "f8a8b3df419c9f6fc09a50262cd614f049bd5d0af5f2a239a61859f7bf39dd95",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 2:19",
+                  "id": "v2-19",
+                  "text": "Mordecai was serving in the court.",
+                  "text_sha256": "e1f2ad1827beb4c4f60ef5120e67f2d447b808a6de6effe9aa30848426987c88"
+                }
+              ],
+              "target_passage_sha256": "d73c32da1078849702e067fae722eab1644267aba53410e3098b49deba938a76",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 1:1r",
@@ -774,72 +901,174 @@
           "id": "v1-2",
           "text": "in those very days, when King Artaxerxes was enthroned in the city of Susa,",
           "display_text": "in those very days, when King Artaxerxes was enthroned in the city of Susa,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-2__daniel-8-2",
+              "target": "Daniel 8:2",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Both name \"the city of Susa\" as a residence: Artaxerxes is enthroned there, and Daniel sees his vision there, in the country of Elymais.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c0a68b3e88809890753bdf212f3a93846e8ee8165ea4033956af991ebdd2f466",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 8:2",
+                  "id": "v8-2",
+                  "text": "I saw in the vision of my dream, while I was in the city of Susa in the country of Elymais, still beside the gate of Ailam,",
+                  "text_sha256": "a9d6c0d306d388cd3e3d1be0a1e58440d6f678c90bf172b5bc09416da893a0c5"
+                }
+              ],
+              "target_passage_sha256": "e2aea4c68a2f8ad7054a2bb8f9a96fc5b330b1e6c649bbb9beedc42593746abc",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "esther-1-2__nehemiah-1-1",
+              "target": "Nehemiah 1:1",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Nehemiah is in Sousan ('Sousan abira'), the same city called Susa in Esther 1:2, where King Artaxerxes was enthroned. The spelling differs (Sousan).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c0a68b3e88809890753bdf212f3a93846e8ee8165ea4033956af991ebdd2f466",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 1:1",
+                  "id": "v1-1",
+                  "text": "The words of Neemias son of Achalia. In the month of Chaseelou, in the twentieth year, I was in Sousan abira,",
+                  "text_sha256": "989ef77dc1a88002288f49ef8d9ce64af7a5fe646dd1122a3b328b28cc31188f"
+                }
+              ],
+              "target_passage_sha256": "6343c4e269feb1b7b6e6d0f9af1eddc0700f1be7282df939e6982e2f88d3143f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 1:3",
           "id": "v1-3",
           "text": "in the third year of his reign he held a reception for his friends and the other nations, the nobles of Persia and Media, and the rulers of the satraps.",
           "display_text": "in the third year of his reign he held a reception for his friends and the other nations, the nobles of Persia and Media, and the rulers of the satraps.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes Artaxerxes's third-year reception for friends, nations, nobles of Persia and Media and satrap rulers. The leads are other banquets (Herod, Baltasar, Solomon, Esther's wedding feast) or bare mentions of Persia and Media; none is the same event or a parallel list of these guests."
         },
         {
           "reference": "Esther 1:4",
           "id": "v1-4",
           "text": "After these things, after he had shown them the wealth of his kingdom and the glory of the rejoicing in his wealth for a hundred and eighty days,",
           "display_text": "After these things, after he had shown them the wealth of his kingdom and the glory of the rejoicing in his wealth for a hundred and eighty days,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reports a 180-day display of the kingdom's wealth and glory. The leads share only general words such as glory, wealth or a hundred and eighty in unrelated contexts (praise psalms, Satan's temptation, Nebuchadnezzar's boast, Rehoboam's army), with no parallel display."
         },
         {
           "reference": "Esther 1:5",
           "id": "v1-5",
           "text": "when the days of the wedding were completed, the king held a drinking feast for the nations present in the city for six days, in the court of the king’s house,",
           "display_text": "when the days of the wedding were completed, the king held a drinking feast for the nations present in the city for six days, in the court of the king’s house,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes a six-day drinking feast for the nations in Susa after the wedding days. The leads are different feasts of other lengths and occasions (Solomon's and Hezekiah's seven-day feasts, Samson's feast, Esther's later wedding feast, a parable); none is the same feast."
         },
         {
           "reference": "Esther 1:6",
           "id": "v1-6",
           "text": "which was adorned with fine linen and cotton cloths stretched on fine linen and purple cords upon gold and silver blocks, upon pillars of Parian marble and stone. There were gold and silver couches on a pavement of emerald stone, pearly stone, and Parian stone, and transparent coverings adorned with varied flowers, with roses scattered all around.",
           "display_text": "which was adorned with fine linen and cotton cloths stretched on fine linen and purple cords upon gold and silver blocks, upon pillars of Parian marble and stone. There were gold and silver couches on a pavement of emerald stone, pearly stone, and Parian stone, and transparent coverings adorned with varied flowers, with roses scattered all around.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists the palace court's linen, purple cords, marble pillars, couches and stone pavement. Similar materials appear in tabernacle curtains, priestly robes, Babylon's luxury and couches elsewhere, but none describes this setting or uses the same distinctive combination."
         },
         {
           "reference": "Esther 1:7",
           "id": "v1-7",
           "text": "There were gold and silver drinking vessels and a garnet cup set out, reckoned at thirty thousand talents. There was abundant sweet wine, which the king himself drank.",
           "display_text": "There were gold and silver drinking vessels and a garnet cup set out, reckoned at thirty thousand talents. There was abundant sweet wine, which the king himself drank.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists gold and silver drinking vessels, a garnet cup valued at thirty thousand talents and abundant wine. Solomon's gold vessels and Baltasar's temple vessels are different treasuries in different settings, and the remaining leads are figurative cups or tribute sums with no shared item."
         },
         {
           "reference": "Esther 1:8",
           "id": "v1-8",
           "text": "This drinking feast did not take place according to an established law; rather, the king wished it so and ordered the stewards to carry out his will and that of the people.",
           "display_text": "This drinking feast did not take place according to an established law; rather, the king wished it so and ordered the stewards to carry out his will and that of the people.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit notes that the feast followed no established law but the king's wish carried out by stewards. The leads share only words such as drink, steward or wishing in unrelated contexts and offer no parallel to this administrative detail."
         },
         {
           "reference": "Esther 1:9",
           "id": "v1-9",
           "text": "Queen Astin also held a drinking feast for the women in the royal quarters, where King Artaxerxes was.",
           "display_text": "Queen Astin also held a drinking feast for the women in the royal quarters, where King Artaxerxes was.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reports Queen Astin's separate feast for the women. Esther's later receptions and the women's-quarters notices involve a different queen and occasion, so no specific shared event or detail exists."
         },
         {
           "reference": "Esther 1:10",
           "id": "v1-10",
           "text": "On the seventh day, when the king had become merry, he told Haman, Bazan, Tharra, Boraze, Zatholtha, Abataza, and Tharaba, the seven eunuchs who attended King Artaxerxes,",
           "display_text": "On the seventh day, when the king had become merry, he told Haman, Bazan, Tharra, Boraze, Zatholtha, Abataza, and Tharaba, the seven eunuchs who attended King Artaxerxes,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-10__esther-1-1m",
+              "target": "Esther 1:1m",
+              "verdict": "supported",
+              "relationship": "same name",
+              "rationale": "A eunuch named Tharra serves King Artaxerxes in both passages: here among the seven eunuchs attending the king, in 1:1m as one of two eunuchs guarding the court. The roles are described differently.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "3654b7eb050fdb2556f9ae9aa16d88abde6229f758022e9fa9611a6d87c151e5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 1:1m",
+                  "id": "v1-1m",
+                  "text": "Mordecai stayed quietly in the court with Gabatha and Tharra, the king’s two eunuchs who guarded the court.",
+                  "text_sha256": "1619ec031b1d099c7d07b9064e100b367be5bf2556ae0fc1c523b7581c556f47"
+                }
+              ],
+              "target_passage_sha256": "c807ed579bbb6f64de9f67498ae9c7e7eff911993fd213dae60d382ed7052d37",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 1:11",
@@ -960,16 +1189,20 @@
           "id": "v1-14",
           "text": "Arcesaeus, Sarsathaeus, and Malesehar, the rulers of Persia and Media who were nearest the king and sat in the first places beside him, approached him",
           "display_text": "Arcesaeus, Sarsathaeus, and Malesehar, the rulers of Persia and Media who were nearest the king and sat in the first places beside him, approached him",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names three rulers of Persia and Media who sat nearest the king. No other text shows these named men; Ezra's seven advisers and the captured officials in 2 Kings belong to other courts, and the remaining leads share only the phrase Persia and Media or generic approaching."
         },
         {
           "reference": "Esther 1:15",
           "id": "v1-15",
           "text": "and reported to him, according to the laws, how Queen Astin must be dealt with, because she had not done what the king commanded through the eunuchs.",
           "display_text": "and reported to him, according to the laws, how Queen Astin must be dealt with, because she had not done what the king commanded through the eunuchs.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit summarizes the counselors' report on how Astin should be dealt with under the laws. The leads are later or unrelated court moments (Haman on honoring, Esther's maids reporting, a different queen in Jeremiah); none gives a parallel ruling or legal counterpart."
         },
         {
           "reference": "Esther 1:16",
@@ -1014,8 +1247,10 @@
           "id": "v1-17",
           "text": "(for he had recounted to them the queen’s words and how she had contradicted the king). Just as she contradicted King Artaxerxes,",
           "display_text": "(for he had recounted to them the queen’s words and how she had contradicted the king). Just as she contradicted King Artaxerxes,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is a parenthetical saying the queen's words of contradiction had been recounted. Michal's contempt for David and teaching on wives respecting husbands are different persons and settings, and the other leads share only words like contradicted or recounted."
         },
         {
           "reference": "Esther 1:18",
@@ -1136,8 +1371,66 @@
           "id": "v1-21",
           "text": "The proposal pleased the king and the rulers, and the king did as Muchaeus said.",
           "display_text": "The proposal pleased the king and the rulers, and the king did as Muchaeus said.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-1-21__esther-1-19",
+              "target": "Esther 1:19",
+              "verdict": "supported",
+              "relationship": "proposal and acceptance",
+              "rationale": "1:19 sets out the proposal (\"If, therefore, it pleases the king, let him issue a royal command\") that 1:21 reports was accepted: \"The proposal pleased the king ... and the king did as Muchaeus said.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2682695abc1c7d6bc043791f9db29d29037c165d5ee127473adb0fb0e57816c1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 1:19",
+                  "id": "v1-19",
+                  "text": "If, therefore, it pleases the king, let him issue a royal command, and let it be written according to the laws of Media and Persia. Let him not act otherwise, and let the queen no longer enter his presence; let the king give her royal position to a woman better than she.",
+                  "text_sha256": "bcab05b8b7a414c4580f3725a719fe021408cc25d03a48a9e75a487e1dca2c54"
+                }
+              ],
+              "target_passage_sha256": "bd2d865c08c45de14a7c5aff15a2b25d8aaa87dda9bc7aa2a0310462e35fed16",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "esther-1-21__esther-2-4",
+              "target": "Esther 2:4",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both close a counsel scene concerning Astin's replacement with the king's approval and action: \"The matter pleased the king, and he did so\" in 2:4, and \"The proposal pleased the king ... and the king did as Muchaeus said\" here.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2682695abc1c7d6bc043791f9db29d29037c165d5ee127473adb0fb0e57816c1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 2:4",
+                  "id": "v2-4",
+                  "text": "The woman who pleases the king shall reign as queen in Astin’s place.” The matter pleased the king, and he did so.",
+                  "text_sha256": "30bcb30fa2bda33b76c5632092317434ad22971efdf6dd694ce7279aed51c43a"
+                }
+              ],
+              "target_passage_sha256": "3df8c0bd27ef715a9d542e0af36cec2d70085298d8903eb2daf9b09a3f5be6bb",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 1:22",
@@ -1181,7 +1474,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "staging_page_id": 2490,
@@ -1586,8 +1879,10 @@
           "id": "v2-11",
           "text": "Every day Mordecai walked about the women’s court, watching to see what would happen to Esther.",
           "display_text": "Every day Mordecai walked about the women’s court, watching to see what would happen to Esther.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit records Mordecai's daily walking in the women's court to see what would happen to Esther. The leads are other visits to check on someone's welfare (Joseph sent to his brothers, Paul revisiting churches) or other Esther-Mordecai exchanges; none parallels this daily watch."
         },
         {
           "reference": "Esther 2:12",
@@ -1632,8 +1927,10 @@
           "id": "v2-13",
           "text": "Then she entered the king’s presence. Whatever she requested would be handed over to her to accompany her from the women’s quarters to the royal quarters.",
           "display_text": "Then she entered the king’s presence. Whatever she requested would be handed over to her to accompany her from the women’s quarters to the royal quarters.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit states that whatever a young woman requested was given her when she went from the women's quarters to the royal quarters. The leads share only words such as royal quarters, women's quarters or asking, and none presents the same provision."
         },
         {
           "reference": "Esther 2:14",
@@ -1716,8 +2013,10 @@
           "id": "v2-16",
           "text": "Esther entered the presence of King Artaxerxes in the twelfth month, which is Adar, in the seventh year of his reign.",
           "display_text": "Esther entered the presence of King Artaxerxes in the twelfth month, which is Adar, in the seventh year of his reign.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit dates Esther's going in to the king to Adar, the twelfth month, in Artaxerxes's seventh year. Other notices of Adar concern different events, and Ezra's seventh year is a different king's chronology; a shared calendar formula does not create a specific link."
         },
         {
           "reference": "Esther 2:17",
@@ -1800,8 +2099,66 @@
           "id": "v2-19",
           "text": "Mordecai was serving in the court.",
           "display_text": "Mordecai was serving in the court.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-2-19__esther-1-1q",
+              "target": "Esther 1:1q",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both concern Mordecai's service in the royal court: the king \"ordered Mordecai to serve in the court,\" and \"Mordecai was serving in the court.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e1f2ad1827beb4c4f60ef5120e67f2d447b808a6de6effe9aa30848426987c88",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 1:1q",
+                  "id": "v1-1q",
+                  "text": "The king ordered Mordecai to serve in the court and gave him gifts for these things.",
+                  "text_sha256": "f8a8b3df419c9f6fc09a50262cd614f049bd5d0af5f2a239a61859f7bf39dd95"
+                }
+              ],
+              "target_passage_sha256": "0b1f3ee8ff793e8f06bc00a78bc9fb8b053c49ee33cc24d6e32720655cd95e41",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "esther-2-19__esther-6-10",
+              "target": "Esther 6:10",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "The king himself identifies \"Mordecai the Jew, who serves in the court,\" matching this notice that Mordecai was serving in the court.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e1f2ad1827beb4c4f60ef5120e67f2d447b808a6de6effe9aa30848426987c88",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 6:10",
+                  "id": "v6-10",
+                  "text": "The king said to Haman, “Do just as you have said for Mordecai the Jew, who serves in the court. Do not let a word of what you have said fall away from you.”",
+                  "text_sha256": "84046ca31ed9a6fb8aeb4bac61ebad8b4a78fa43d36fbb9fdcd1a1d7417c2883"
+                }
+              ],
+              "target_passage_sha256": "fa9bba4127749d8b726941f33bc589a44fbfe4a7773fc445dd81b23421f01e30",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 2:20",
@@ -2921,7 +3278,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "staging_page_id": 2496,
@@ -2972,8 +3329,10 @@
           "id": "v4-2",
           "text": "He came as far as the king’s gate and stood there, for he was not permitted to enter the court wearing sackcloth and ashes.",
           "display_text": "He came as far as the king’s gate and stood there, for he was not permitted to enter the court wearing sackcloth and ashes.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reports that Mordecai stopped at the king's gate because sackcloth and ashes were barred from the court. The leads concern priestly linen at the temple gates, Jerusalem's city gates, or a general call to sackcloth mourning; none states or applies this royal restriction."
         },
         {
           "reference": "Esther 4:3",
@@ -3210,16 +3569,20 @@
           "id": "v4-9",
           "text": "Achrathaeus came in and spoke all these words to her.",
           "display_text": "Achrathaeus came in and spoke all these words to her.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit only records Achrathaeus delivering Mordecai's words to Esther; no text was offered, and a generic message-delivery step does not support a specific cross-reference."
         },
         {
           "reference": "Esther 4:10",
           "id": "v4-10",
           "text": "Esther said to Achrathaeus, “Go to Mordecai and say:",
           "display_text": "Esther said to Achrathaeus, “Go to Mordecai and say:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit only introduces Esther's reply through Achrathaeus. The leads are earlier notices about Esther's ancestry, Mordecai's watch and her preparations, which share names but no parallel speech or act."
         },
         {
           "reference": "Esther 4:11",
@@ -3271,8 +3634,38 @@
           "id": "v4-12",
           "text": "Achrathaeus reported all Esther’s words to Mordecai.",
           "display_text": "Achrathaeus reported all Esther’s words to Mordecai.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-4-12__esther-4-5",
+              "target": "Esther 4:5",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Achrathaeus is in both passages the eunuch who carries messages between Esther and Mordecai: in 4:5 Esther sends him to learn the matter from Mordecai, and in 4:12 he reports her words to Mordecai.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5850b471ecaef9ba59d940b648676f65b9dafd2ca98953286893dcac44b0c8cc",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 4:5",
+                  "id": "v4-5",
+                  "text": "Esther summoned her eunuch Achrathaeus, who attended her, and sent him to learn the exact matter for her from Mordecai.",
+                  "text_sha256": "3db2b65aa5345e2d0a80581298dcdcb6e585e3e03a76112324a1bba61df5fc67"
+                }
+              ],
+              "target_passage_sha256": "0b958f38295820e262324416456c54ee0db24050c1150f8d1a9dd60b7941b69c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 4:13",
@@ -3379,8 +3772,10 @@
           "id": "v4-15",
           "text": "Esther sent the man who had come to her back to Mordecai, saying:",
           "display_text": "Esther sent the man who had come to her back to Mordecai, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit only introduces Esther's return message to Mordecai. The leads are earlier notices about Esther and Mordecai that share the names but contain no parallel message or event."
         },
         {
           "reference": "Esther 4:16",
@@ -3466,8 +3861,10 @@
           "id": "v4-17",
           "text": "Mordecai went and did everything Esther commanded him,",
           "display_text": "Mordecai went and did everything Esther commanded him,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit states that Mordecai did all Esther commanded. The leads are earlier notices of Esther obeying Mordecai or the eunuch, so they share names and the idea of obedience but no parallel act."
         },
         {
           "reference": "Esther 4:17a",
@@ -4545,7 +4942,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "staging_page_id": 2499,
@@ -4760,8 +5157,10 @@
           "id": "v5-2b",
           "text": "While she was speaking, she fell in her faintness. The king was troubled, and all his attendants comforted her.",
           "display_text": "While she was speaking, she fell in her faintness. The king was troubled, and all his attendants comforted her.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes Esther fainting again and the attendants comforting her. The leads share only words such as troubled, speaking or comfort in unrelated prophetic and narrative contexts, with no parallel scene."
         },
         {
           "reference": "Esther 5:3",
@@ -4862,8 +5261,38 @@
           "id": "v5-5",
           "text": "The king said, “Hurry Haman here, so that we may carry out Esther’s word.” Both came to the reception Esther had spoken of.",
           "display_text": "The king said, “Hurry Haman here, so that we may carry out Esther’s word.” Both came to the reception Esther had spoken of.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-5-5__esther-6-14",
+              "target": "Esther 6:14",
+              "verdict": "supported",
+              "relationship": "parallel scene",
+              "rationale": "Both describe Haman being hurried to the feast Esther had prepared for the king: \"Hurry Haman here\" before the first reception, and the eunuchs \"hurrying Haman to the drinking feast Esther had prepared\" before the second.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e575997d31384cb30a707db229b5fd0d63056ce5cb93ed85f85ae6f231843cb0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 6:14",
+                  "id": "v6-14",
+                  "text": "While they were still speaking, the eunuchs arrived, hurrying Haman to the drinking feast Esther had prepared.",
+                  "text_sha256": "a5bc14fd4e7250c458b3b780759edfa136cf4d2eaf63139ddc789524022de272"
+                }
+              ],
+              "target_passage_sha256": "442f1848c850c6292d82425cc6fec5153716b90d8eb690e751b128b31bb9fe6c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 5:6",
@@ -4914,8 +5343,38 @@
           "id": "v5-7",
           "text": "She said, “My request and my petition are this:",
           "display_text": "She said, “My request and my petition are this:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-5-7__esther-7-3",
+              "target": "Esther 7:3",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Esther begins her answer here with \"My request and my petition,\" and at the next feast she finally makes it, asking for her life \"at my petition\" and her people \"at my request.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c3cb15e03cbf1a449fe2746b9ff47480c1baa75bf21b904f824080c5ba2338c0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 7:3",
+                  "id": "v7-3",
+                  "text": "She answered, “If I have found favor before the king, let my life be granted at my petition, and my people at my request.",
+                  "text_sha256": "b182250780fd2fd506c996a22ddf42cb2cd69e550b3b280ebcba77c72e149261"
+                }
+              ],
+              "target_passage_sha256": "01b9aa6a190845c261543d55eda3910baec6f68e494d571a43851743fafd7ae8",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 5:8",
@@ -5239,7 +5698,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "staging_page_id": 2502,
@@ -5416,8 +5875,10 @@
           "id": "v6-5",
           "text": "The king’s attendants said, “Behold, Haman is standing in the court.” The king said, “Call him.”",
           "display_text": "The king’s attendants said, “Behold, Haman is standing in the court.” The king said, “Call him.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reports the attendants seeing Haman in the court and the king summoning him. Other notices of Haman or Mordecai in the court are different moments with no specific parallel to this summons."
         },
         {
           "reference": "Esther 6:6",
@@ -5468,8 +5929,38 @@
           "id": "v6-7",
           "text": "He said to the king, “As for a man whom the king wishes to honor,",
           "display_text": "He said to the king, “As for a man whom the king wishes to honor,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-6-7__esther-6-11",
+              "target": "Esther 6:11",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Haman's phrase \"a man whom the king wishes to honor\" returns in the proclamation he must make for Mordecai: \"So shall it be for every man whom the king wishes to honor!\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a0822024724252020790cdf6ecb3ab57a769f77875a11cb660809b44392d17d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 6:11",
+                  "id": "v6-11",
+                  "text": "Haman took the robe and the horse, clothed Mordecai, mounted him on the horse, went through the city square, and proclaimed, “So shall it be for every man whom the king wishes to honor!”",
+                  "text_sha256": "61513096ff2c2224168e27cb5c072fcefb4b50852910f75ecade492548c16f3b"
+                }
+              ],
+              "target_passage_sha256": "b896d618a78c3bef7fa41e67b7c416ebb9032c55d619b9278f13cfda1d135556",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 6:8",
@@ -5777,7 +6268,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "staging_page_id": 2508,
@@ -5966,8 +6457,10 @@
           "id": "v7-5",
           "text": "The king said, “Who is this who dared to do this deed?”",
           "display_text": "The king said, “Who is this who dared to do this deed?”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the king's question asking who dared to do this deed. The leads are other questions or uses of dared in unrelated settings (Isaac, Job, Peter to Ananias, Joseph of Arimathea) and do not concern this plot or its author."
         },
         {
           "reference": "Esther 7:6",
@@ -6255,7 +6748,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "staging_page_id": 2512,
@@ -6885,8 +7378,38 @@
           "id": "v8-12a",
           "text": "The following is a copy of the letter:",
           "display_text": "The following is a copy of the letter:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-8-12a__esther-3-13a",
+              "target": "Esther 3:13a",
+              "verdict": "supported",
+              "relationship": "parallel formula",
+              "rationale": "Both introduce the full text of a royal letter with the same formula, 'This is the copy of the letter' / 'The following is a copy of the letter'; in 3:13a the letter opens 'The great King Artaxerxes writes the following to the rulers of the hundred and twenty-seven territories'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8b9ee3a476704273cd3fdd75eb69a4736ed498a842f14f7e3276d785ae95b4ac",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 3:13a",
+                  "id": "v3-13a",
+                  "text": "This is the copy of the letter: “The great King Artaxerxes writes the following to the rulers of the hundred and twenty-seven territories from India to Ethiopia and to the district governors subject to them:",
+                  "text_sha256": "084de948493aa3b11d81e264bfa354b4c8e7c5da09e72ff1b9b7edd133b1bc1e"
+                }
+              ],
+              "target_passage_sha256": "ac1b1734821d9bdaa87ec47b4d5915e392d10a1253be272309864739c884985c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Esther 8:12b",
@@ -7615,8 +8138,10 @@
           "id": "v8-12o",
           "text": "For he thought that by these means he could find us isolated and transfer the rule of the Persians to the Macedonians.",
           "display_text": "For he thought that by these means he could find us isolated and transfer the rule of the Persians to the Macedonians.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the letter's charge that Haman plotted to transfer Persian rule to the Macedonians. Alexander's defeat of Darius in 1 Maccabees and Paul's mention of Macedonians are separate matters and do not confirm or parallel this allegation."
         },
         {
           "reference": "Esther 8:12p",
@@ -7927,8 +8452,10 @@
           "id": "v8-12x",
           "text": "Every city or region, without exception, that does not act according to these instructions will be consumed in wrath by spear and fire. It will be made not only impassable to human beings but also most hateful to wild beasts and birds for all time.",
           "display_text": "Every city or region, without exception, that does not act according to these instructions will be consumed in wrath by spear and fire. It will be made not only impassable to human beings but also most hateful to wild beasts and birds for all time.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit threatens non-complying cities with spear and fire and lasting desolation hateful to beasts and birds. The leads share only general words such as wild beasts, birds, wrath or hateful in unrelated contexts and are not the same sanction."
         },
         {
           "reference": "Esther 8:13",
@@ -8158,7 +8685,7 @@
     },
     {
       "chapter": 9,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 9,
         "staging_page_id": 2516,
@@ -8511,24 +9038,30 @@
           "id": "v9-7",
           "text": "and Pharsannestain, Delphon, Phasga,",
           "display_text": "and Pharsannestain, Delphon, Phasga,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Pharsannestain, Delphon and Phasga are names of Haman's sons. The only matches are the place-name Asedoth Phasga in Joshua, a location in Moab rather than a person, so no individual can be identified elsewhere."
         },
         {
           "reference": "Esther 9:8",
           "id": "v9-8",
           "text": "Phardatha, Barea, Sarbacha,",
           "display_text": "Phardatha, Barea, Sarbacha,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Phardatha, Barea and Sarbacha are names of Haman's sons that appear nowhere else in the edition; no text was offered and no person-level parallel exists."
         },
         {
           "reference": "Esther 9:9",
           "id": "v9-9",
           "text": "Marmasima, Arouphaion, Arsaion, and Zabouthaithan,",
           "display_text": "Marmasima, Arouphaion, Arsaion, and Zabouthaithan,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Marmasima, Arouphaion, Arsaion and Zabouthaithan are names of Haman's sons that appear nowhere else in the edition; no text was offered and no person-level parallel exists."
         },
         {
           "reference": "Esther 9:10",
@@ -8607,8 +9140,10 @@
           "id": "v9-11",
           "text": "On that very day the number of those who had perished in Susa was delivered to the king.",
           "display_text": "On that very day the number of those who had perished in Susa was delivered to the king.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reports that the number of those who perished in Susa was delivered to the king. The leads share only words such as Susa, deliver, number or perish in unrelated contexts and give no parallel report."
         },
         {
           "reference": "Esther 9:12",
@@ -9465,8 +10000,10 @@
           "id": "v9-31",
           "text": "Mordecai and Queen Esther established these things for themselves, against themselves, and then also set their plan against their own health.",
           "display_text": "Mordecai and Queen Esther established these things for themselves, against themselves, and then also set their plan against their own health.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says Mordecai and Esther established these things against themselves and set their plan against their own health. The earlier mourning and three-day fast, and the other Esther scenes offered, do not state this establishing act; equating them would replace the verse's own wording with a fasting interpretation."
         },
         {
           "reference": "Esther 9:32",
@@ -9522,7 +10059,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "staging_page_id": 2522,
@@ -9535,16 +10072,20 @@
           "id": "v10-1",
           "text": "The king set down taxes upon the kingdom, both on land and on sea.",
           "display_text": "The king set down taxes upon the kingdom, both on land and on sea.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit notes that the king imposed taxes on land and sea. The leads concern islands praising God, gifts from kings, Augustus's census, tax remission or tax collectors, none of which describes this levy."
         },
         {
           "reference": "Esther 10:2",
           "id": "v10-2",
           "text": "His strength and courage, and the wealth and glory of his kingdom—behold, they are written in the book of the kings of the Persians and Medes for a remembrance.",
           "display_text": "His strength and courage, and the wealth and glory of his kingdom—behold, they are written in the book of the kings of the Persians and Medes for a remembrance.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says the king's strength and glory are written in the book of the kings of the Persians and Medes. The Israelite and Judean annals formulas are different records, and the royal remembrances read in Esther 6:1 or the library entry of 2:23 are not identified with this book; no specific counterpart exists."
         },
         {
           "reference": "Esther 10:3",
@@ -10220,14 +10761,55 @@
           "id": "v10-3l",
           "text": "In the fourth year of the reign of Ptolemy and Cleopatra, Dositheus, who said he was a priest and a Levite, and Ptolemy his son brought in the preceding letter about Phrourai. They said it was authentic and had been translated by Lysimachus son of Ptolemy, one of those in Jerusalem.",
           "display_text": "In the fourth year of the reign of Ptolemy and Cleopatra, Dositheus, who said he was a priest and a Levite, and Ptolemy his son brought in the preceding letter about Phrourai. They said it was authentic and had been translated by Lysimachus son of Ptolemy, one of those in Jerusalem.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "esther-10-3l__esther-9-29",
+              "target": "Esther 9:29",
+              "verdict": "supported",
+              "relationship": "same document",
+              "rationale": "The colophon says Dositheus and Ptolemy brought in \"the preceding letter about Phrourai,\" the same letter whose confirmation Esther and Mordecai wrote in 9:29: \"the confirmation of the letter about Phrourai.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5cc06f7155161311e0e6e34cd1d61d7313ffaa0a92183bdc898a289addf01ea8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 9:29",
+                  "id": "v9-29",
+                  "text": "Queen Esther daughter of Aminadab and Mordecai the Jew wrote what they had done, and the confirmation of the letter about Phrourai.",
+                  "text_sha256": "841dd1805f687443e28cf9b4b75297a0ae666b2755f60fd0c9d696426787ff0d"
+                }
+              ],
+              "target_passage_sha256": "75479b73d16a2e35f06700966213c0d961227a2b1cc6a0020b3e614a86f1dd94",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         }
       ]
     }
   ],
   "next_unreviewed_reference": null,
   "completed_source_sections": [
-    3
-  ]
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "closed_source_units": 30,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

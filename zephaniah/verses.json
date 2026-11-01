@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Zephaniah",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,21 +32,23 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
     1,
-    2
+    2,
+    3
   ],
   "completed_source_sections": [
     1,
-    2
+    2,
+    3
   ],
   "completed_source_verses": 52,
   "completed_cross_references": 56,
   "total_chapters": 3,
   "total_source_sections": 3,
   "total_source_verse_units": 53,
-  "next_reference": "Zephaniah 3:1",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Zephaniah.html",
   "readable_text": "Zephaniah.txt",
@@ -1801,7 +1803,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -1816,8 +1818,10 @@
           "id": "v3-1",
           "text": "O conspicuous and redeemed city, the dove-city!",
           "display_text": "O conspicuous and redeemed city, the dove-city!",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse addresses a \"conspicuous and redeemed city, the dove-city\"; the other passages denounce oppressive or false cities, or use \"conspicuous\" of fearsome people, feast days or public places, and none shares this address or the dove image."
         },
         {
           "reference": "Zephaniah 3:2",
@@ -2755,5 +2759,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 1,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

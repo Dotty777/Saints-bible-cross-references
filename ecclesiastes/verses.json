@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Ecclesiastes",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,21 +32,41 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
     1,
-    8
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
   ],
   "completed_source_sections": [
     1,
-    8
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
   ],
-  "completed_source_verses": 209,
-  "completed_cross_references": 209,
+  "completed_source_verses": 217,
+  "completed_cross_references": 218,
   "total_chapters": 12,
   "total_source_sections": 12,
   "total_source_verse_units": 222,
-  "next_reference": "Ecclesiastes 2:12",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Ecclesiastes.html",
   "readable_text": "Ecclesiastes.txt",
@@ -818,7 +838,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -1304,8 +1324,38 @@
           "id": "v2-12",
           "text": "Then I looked to consider wisdom, delirium and folly. For who is the person who will come after the counsel—all the things with which he made it?",
           "display_text": "Then I looked to consider wisdom, delirium and folly. For who is the person who will come after the counsel—all the things with which he made it?",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-2-12__ecclesiastes-7-25",
+              "target": "Ecclesiastes 7:25",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both describe the Preacher turning to examine \"wisdom\" together with \"folly\" and \"delirium\". Here he looks \"to consider wisdom, delirium and folly\", and in Ecclesiastes 7:25 he seeks to know \"wisdom\" and \"an ungodly person's folly, harshness and delirium.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fd07507c84a3b56437b61b347261adb3d42e14c4f2e7d581a64e0783746acb55",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 7:25",
+                  "id": "v7-25",
+                  "text": "I turned, I and my heart, to know, examine and seek wisdom and a reckoning, and to know an ungodly person’s folly, harshness and delirium.",
+                  "text_sha256": "887ff39f254d5bfff3aec958ddeb6fa9d0716ce6263e77b1b772ea4dee661915"
+                }
+              ],
+              "target_passage_sha256": "df9cd364672e4fdeb497315d67112bbf287af399b7c888151efa4d2b89504c1b",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 2:13",
@@ -1899,7 +1949,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -2070,8 +2120,10 @@
           "id": "v3-5",
           "text": "a time to throw stones and a time to gather stones, a time to embrace and a time to keep far from embracing,",
           "display_text": "a time to throw stones and a time to gather stones, a time to embrace and a time to keep far from embracing,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit pairs throwing/gathering stones with embracing/keeping from embracing as times in a poetic catalogue without naming any referent. The leads either describe literal stone-throwing in unrelated events (spoiling fields, sealing a cave, Shimei's stoning, removing leprous stones, Tyre's ruin) or abstinence from women for consecration; linking them would impose an interpretation of the images that the text itself does not supply."
         },
         {
           "reference": "Ecclesiastes 3:6",
@@ -2769,7 +2821,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -3116,8 +3168,38 @@
           "id": "v4-7",
           "text": "Again I turned and saw futility beneath the sun.",
           "display_text": "Again I turned and saw futility beneath the sun.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-4-7__ecclesiastes-4-1",
+              "target": "Ecclesiastes 4:1",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both verses open a new observation with the same formula, \"Again I turned and saw ... beneath the sun.\" In 4:1 the object is the extortions committed; in 4:7 it is futility, introducing the isolated-worker case.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "ab3792a55969961d54d504a9fe413c7a5bec816ded2adf89b04867b498f71069",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 4:1",
+                  "id": "v4-1",
+                  "text": "Again I turned and saw all the extortions committed beneath the sun. Behold, the tears of those being extorted, with no one to comfort them! Power was in their extorters’ hands, and they had no one to comfort them.",
+                  "text_sha256": "56a77fe002822e0048173e331996d6ffc99b794172f6875c9750c0027edb7758"
+                }
+              ],
+              "target_passage_sha256": "af5ef8d29836ebe39214495640bca0abb90851eecc7d8a5d1def690cfbd4dd40",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 4:8",
@@ -3621,16 +3703,48 @@
           "id": "v4-15",
           "text": "I saw all the living who walk beneath the sun with the second young man who will stand in his place,",
           "display_text": "I saw all the living who walk beneath the sun with the second young man who will stand in his place,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit speaks of all the living walking beneath the sun with an unnamed second young man who will stand in a king's place. Nothing identifies this youth; Absalom's winning of Israel's hearts is a different, named situation, and the remaining texts share only the generic phrase beneath the sun."
         },
         {
           "reference": "Ecclesiastes 4:16",
           "id": "v4-16",
           "text": "there was no end to all the people, all who came before them; yet those who come last will not rejoice in him. This too is futility and resolve of spirit.",
           "display_text": "there was no end to all the people, all who came before them; yet those who come last will not rejoice in him. This too is futility and resolve of spirit.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-4-16__ecclesiastes-2-26",
+              "target": "Ecclesiastes 2:26",
+              "verdict": "supported",
+              "relationship": "repeated refrain",
+              "rationale": "Both verses close their observation with the identical verdict, \"This too is futility and resolve of spirit.\" In 2:26 it follows God's giving to the good and the sinner; in 4:16 it follows the people's fickle response to the successor king.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "132a932565ee2d4b35463983ff3b0d33df5787b04be0c29c86d19cac4de5b279",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 2:26",
+                  "id": "v2-26",
+                  "text": "For to the person who is good before Him He gave wisdom, knowledge and gladness; but to the sinner He gave the distraction of adding and gathering, to give to the one who is good before God. This too is futility and resolve of spirit.",
+                  "text_sha256": "57c72abd7df40e5aedb03a26a2e7e6457357cffc9a5c25b6002ef64b2689300a"
+                }
+              ],
+              "target_passage_sha256": "7f30d14c27637395a28e1dd4f11f228cca065014c32eb0c2f36eb2962dcdb0fe",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 4:17",
@@ -3675,7 +3789,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "section": 5,
@@ -3994,8 +4108,10 @@
           "id": "v5-8",
           "text": "The land’s surplus is in everything—a king of a cultivated field.",
           "display_text": "The land’s surplus is in everything—a king of a cultivated field.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The compressed saying that the land's surplus is in everything and a king belongs to a cultivated field has no clear counterpart. The texts offered speak generally of God giving the earth or plants for food, of diligent farming, or use cultivated field as a metaphor, none of which reproduces this saying about the land's surplus and the king."
         },
         {
           "reference": "Ecclesiastes 5:9",
@@ -4437,7 +4553,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "section": 6,
@@ -4452,8 +4568,38 @@
           "id": "v6-1",
           "text": "There is an evil I have seen beneath the sun, and it is great upon human beings:",
           "display_text": "There is an evil I have seen beneath the sun, and it is great upon human beings:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-6-1__ecclesiastes-5-12",
+              "target": "Ecclesiastes 5:12",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both verses use the same introductory formula, \"There is a ... I have seen beneath the sun,\" to announce a particular case that follows. In 5:12 it is a sickness (wealth kept to its owner's harm); in 6:1 it is an evil that is great upon human beings.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "cb1b54fa50777ba41f1194cd24405ead38f9ecc1e547c9d64264b7472145ad7f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 5:12",
+                  "id": "v5-12",
+                  "text": "There is a sickness I have seen beneath the sun: wealth kept by its possessor to his harm,",
+                  "text_sha256": "9ccc8ae4a025972c553fb097c5ced929d9384e5096cb862e336257ff94e72c2e"
+                }
+              ],
+              "target_passage_sha256": "d4ce79a0ca7db6b9cfe59bef1332d3b09f203182e32b1008b34fe9a5d82c31c8",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 6:2",
@@ -4965,7 +5111,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -6207,16 +6353,88 @@
           "id": "v7-27",
           "text": "Behold, this I found, said Ecclesiastes, one thing alongside another, to find a reckoning,",
           "display_text": "Behold, this I found, said Ecclesiastes, one thing alongside another, to find a reckoning,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-7-27__ecclesiastes-12-8-10",
+              "target": "Ecclesiastes 12:8-10",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both passages interrupt with the third-person attribution \"said Ecclesiastes\" and describe Ecclesiastes seeking to find: here \"to find a reckoning,\" in 12:10 he \"sought much to find words of delight.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "6eb380a0113d24ad5c614069f6daeb4ca46abf9fc7231b6cc4021274be2d9081",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 12:8",
+                  "id": "v12-8",
+                  "text": "Futility of futilities, said Ecclesiastes; everything is futility.",
+                  "text_sha256": "0b9c59e28962736f4a92522c82dd5f90a86f9203c11ada34abade1f672b27d3e"
+                },
+                {
+                  "reference": "Ecclesiastes 12:9",
+                  "id": "v12-9",
+                  "text": "Besides becoming wise, Ecclesiastes also taught the people knowledge; and an ear will trace out an orderly arrangement of proverbs.",
+                  "text_sha256": "e19324e7e9d4a05867d648fadc7bb647eaedbc36b133f6f28975c116c33cf002"
+                },
+                {
+                  "reference": "Ecclesiastes 12:10",
+                  "id": "v12-10",
+                  "text": "Ecclesiastes sought much to find words of delight and something written in uprightness, words of truth.",
+                  "text_sha256": "c8d78d11d5b9510d86a12a044e483d3e95f8421e790b522cdca5bcfcaa4d9c3b"
+                }
+              ],
+              "target_passage_sha256": "4ac720b501db617e7b4ab6b48afd406f720fdbd12d71a0e2389b99099ee024e2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 7:28",
           "id": "v7-28",
           "text": "which my soul still sought but I did not find. One man among a thousand I found, but a woman among all these I did not find.",
           "display_text": "which my soul still sought but I did not find. One man among a thousand I found, but a woman among all these I did not find.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-7-28__sirach-6-6",
+              "target": "Sirach 6:6",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both use one out of a thousand as the measure of something rare: Ecclesiastes found \"one man among a thousand,\" and Sirach advises that counselors be \"one out of a thousand.\" Sirach says nothing about the comparison with women.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5b9176a60d395987fad4cc8c52e50bc497fe0652da7e5a68ce6de7bcb5e963e9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 6:6",
+                  "id": "v6-6",
+                  "text": "Let those at peace with you be many, but your counselors one out of a thousand.",
+                  "text_sha256": "ec9461971813c7acb21172571a5147c9d5825c4d5c64f039df15586a8cdcd691"
+                }
+              ],
+              "target_passage_sha256": "b71cc696d57e3120e263bf8f767e60bc44e02838f2f8df9201ec9eab18b8aeff",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 7:29",
@@ -7029,7 +7247,7 @@
     },
     {
       "chapter": 9,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 9,
         "section": 9,
@@ -7547,8 +7765,10 @@
           "id": "v9-13",
           "text": "This too I saw as wisdom under the sun, and it seemed great to me:",
           "display_text": "This too I saw as wisdom under the sun, and it seemed great to me:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit only frames the following city account by saying an instance of wisdom under the sun seemed great. The leads are other generic observations under the sun or general sayings about wisdom; none shares the specific poor-wise-man story or adds a particular relationship to this framing line."
         },
         {
           "reference": "Ecclesiastes 9:14",
@@ -7791,7 +8011,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "section": 10,
@@ -7969,8 +8189,66 @@
           "id": "v10-5",
           "text": "There is an evil I saw under the sun, like an unintended act proceeding from one in authority:",
           "display_text": "There is an evil I saw under the sun, like an unintended act proceeding from one in authority:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-10-5__ecclesiastes-6-1",
+              "target": "Ecclesiastes 6:1",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both open with the formula \"There is an evil I have seen/saw beneath/under the sun\" to introduce a specific case. Here the evil is an unintended act from one in authority; in 6:1 it is an evil great upon human beings.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8d79fcf816dcb44be99669f668bc6484e9feaef1f73627d534c861652b36edbb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 6:1",
+                  "id": "v6-1",
+                  "text": "There is an evil I have seen beneath the sun, and it is great upon human beings:",
+                  "text_sha256": "cb1b54fa50777ba41f1194cd24405ead38f9ecc1e547c9d64264b7472145ad7f"
+                }
+              ],
+              "target_passage_sha256": "0bbf165dcaa2385cbd1e3049eefb638353b4331614885e10ddcddf10411814b4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "ecclesiastes-10-5__ecclesiastes-8-9",
+              "target": "Ecclesiastes 8:9",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both observe under the sun harm arising from authority: 8:9 sees \"one person had authority over another to his harm,\" and 10:5 an evil \"proceeding from one in authority.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8d79fcf816dcb44be99669f668bc6484e9feaef1f73627d534c861652b36edbb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 8:9",
+                  "id": "v8-9",
+                  "text": "All this I saw, and I set my heart upon every deed done under the sun, all the things in which one person had authority over another to his harm.",
+                  "text_sha256": "77552ecc5b767f634a60cbe077e255090becd8b2befe8ae2e8d4412331462317"
+                }
+              ],
+              "target_passage_sha256": "b41867a68398b8c0b448034bdac3a8feff8e13d1467933e3729db42558e25c32",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 10:6",
@@ -8606,7 +8884,7 @@
     },
     {
       "chapter": 11,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 11,
         "section": 11,
@@ -8699,8 +8977,10 @@
           "id": "v11-3",
           "text": "If the clouds are full of rain, they pour it upon the earth; and if a tree falls to the south or to the north, in the place where the tree falls, there it will be.",
           "display_text": "If the clouds are full of rain, they pour it upon the earth; and if a tree falls to the south or to the north, in the place where the tree falls, there it will be.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit observes that full clouds pour rain and a fallen tree stays where it falls, as part of advice about uncertainty. The leads use rain or trees for unrelated purposes (Elijah's rainstorm, God's word like rain, fruitless trees cut down, wind in a garden, compass directions), so none shares the specific image or its point."
         },
         {
           "reference": "Ecclesiastes 11:4",
@@ -9014,7 +9294,7 @@
     },
     {
       "chapter": 12,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 12,
         "section": 12,
@@ -9146,8 +9426,38 @@
           "id": "v12-4",
           "text": "when they shut doors in the marketplace as the grinding woman’s voice weakens, and one rises at the sound of a sparrow, and all the daughters of song are brought low;",
           "display_text": "when they shut doors in the marketplace as the grinding woman’s voice weakens, and one rises at the sound of a sparrow, and all the daughters of song are brought low;",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ecclesiastes-12-4__revelation-18-22",
+              "target": "Revelation 18:22",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both picture the silencing of ordinary sounds of life, pairing the sound of grinding with the sound of song: Ecclesiastes has 'the grinding woman's voice weakens' and 'all the daughters of song are brought low', while Revelation says musicians and 'the sound of a mill' will not be heard any more. Revelation applies the image to the city addressed.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "56230be2a3d9c3e8c1ba80fc205d522d968c9522b9c124cb5a461f6a7c200a01",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 18:22",
+                  "id": "v18-22",
+                  "text": "And the sound of lyre players and musicians and flute players and trumpeters will certainly not be heard in thee any more, and any craftsman of any craft will certainly not be found in thee any more, and the sound of a mill will certainly not be heard in thee any more,",
+                  "text_sha256": "506c16ba8433faf5fd1adaf3ba05873de0f6fad9f77a0ea6d640e2d415448f64"
+                }
+              ],
+              "target_passage_sha256": "b96b73448a6798a8b093bb51973c1126dadbc414b3606ecf209b10863d9b3b09",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ecclesiastes 12:5",
@@ -9585,5 +9895,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 5,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

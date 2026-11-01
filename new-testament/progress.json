@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated": "2026-11-01",
-  "updated_at_utc": "2026-11-01T12:34:31.439929+00:00",
+  "updated_at_utc": "2026-11-01T12:44:46.324025+00:00",
   "scope": "Separate New Testament source review within the Saints Holy Bible 70-book edition; exact source orders 44–70 and Salvation, Discipleship, Glory divisions. Targets may come from any of its 70 books when pinned text is available.",
   "canon_manifest": "../canon.json",
   "canon_book_count": 70,
@@ -9,20 +9,15 @@
   "reference_format_repository": "Dotty777/Saints-Translation",
   "reference_snapshot_commit": "328967336f32958587835c921fea3b96a5bf6494",
   "completion_definition": "Completed means an initial curated cross-reference pass: the complete supplied English source unit and each retained target passage were read, and each pair has a specific explanation. It does not mean exhaustive coverage or independent specialist approval.",
-  "completed_book_records": 23,
-  "pending_book_records": 4,
-  "completed_chapters": 256,
+  "completed_book_records": 27,
+  "pending_book_records": 0,
+  "completed_chapters": 260,
   "reviewed_source_units": 7943,
   "completed_source_verses": 7931,
   "completed_cross_references": 8695,
-  "deferred_source_units_count": 12,
-  "new_testament_complete": false,
-  "next": {
-    "book": "Matthew",
-    "chapter": 1,
-    "reference": "Matthew 1:14",
-    "source_id": "v1-14"
-  },
+  "deferred_source_units_count": 0,
+  "new_testament_complete": true,
+  "next": null,
   "next_unreviewed": null,
   "books": [
     {
@@ -33,11 +28,12 @@
       "order_in_division": 1,
       "source_staging_path": "/bible/salvation/matthew/",
       "records": "matthew/",
-      "status": "in_progress",
+      "status": "complete_initial_curated_pass",
       "total_source_verse_units": 1068,
       "completed_source_verses": 1066,
       "completed_cross_references": 1099,
       "completed_chapters": [
+        1,
         2,
         3,
         4,
@@ -66,7 +62,7 @@
         27,
         28
       ],
-      "next_reference": "Matthew 1:14",
+      "next_reference": null,
       "reviewed_source_units": 1068,
       "next_unreviewed_reference": null,
       "all_original_source_units_read": true
@@ -114,13 +110,14 @@
       "order_in_division": 3,
       "source_staging_path": "/bible/salvation/luke/",
       "records": "luke/",
-      "status": "in_progress",
+      "status": "complete_initial_curated_pass",
       "total_source_verse_units": 1149,
       "completed_source_verses": 1143,
       "completed_cross_references": 1154,
       "completed_chapters": [
         1,
         2,
+        3,
         4,
         5,
         6,
@@ -143,7 +140,7 @@
         23,
         24
       ],
-      "next_reference": "Luke 3:24",
+      "next_reference": null,
       "reviewed_source_units": 1149,
       "next_unreviewed_reference": null,
       "all_original_source_units_read": true
@@ -196,7 +193,7 @@
       "order_in_division": 1,
       "source_staging_path": "/bible/discipleship/acts/",
       "records": "acts/",
-      "status": "in_progress",
+      "status": "complete_initial_curated_pass",
       "total_source_verse_units": 1003,
       "completed_source_verses": 1002,
       "completed_cross_references": 1018,
@@ -227,9 +224,10 @@
         24,
         25,
         26,
-        27
+        27,
+        28
       ],
-      "next_reference": "Acts 28:12",
+      "next_reference": null,
       "reviewed_source_units": 1003,
       "next_unreviewed_reference": null,
       "all_original_source_units_read": true
@@ -242,7 +240,7 @@
       "order_in_division": 2,
       "source_staging_path": "/bible/discipleship/romans/",
       "records": "romans/",
-      "status": "in_progress",
+      "status": "complete_initial_curated_pass",
       "total_source_verse_units": 433,
       "completed_source_verses": 430,
       "completed_cross_references": 443,
@@ -261,9 +259,10 @@
         12,
         13,
         14,
-        15
+        15,
+        16
       ],
-      "next_reference": "Romans 16:8",
+      "next_reference": null,
       "reviewed_source_units": 433,
       "next_unreviewed_reference": null,
       "all_original_source_units_read": true
@@ -13721,18 +13720,72 @@
       ],
       "source_availability_resolution": "Revelation source record added to Saints-Translation at bf920386f6355064d4b7a5fd2f1ac4e99d8e5110 as a staging text snapshot (owner-approved); the earlier blocker is resolved for this snapshot only.",
       "reviewer": "Claude (AI-assisted editorial review)"
+    },
+    {
+      "schema_version": 1,
+      "run_id": "2026-11-01T124445Z",
+      "date": "2026-11-01",
+      "source_commit": "328967336f32958587835c921fea3b96a5bf6494",
+      "source_range": "Re-review of the 12 remaining deferred New Testament units",
+      "source_units_read": 12,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 12,
+      "new_completed_revisited_sources": 0,
+      "reconsidered_source_references": [
+        "Acts 28:12",
+        "Luke 3:24",
+        "Luke 3:25",
+        "Luke 3:26",
+        "Luke 3:28",
+        "Luke 3:29",
+        "Luke 3:30",
+        "Matthew 1:14",
+        "Matthew 1:15",
+        "Romans 16:14",
+        "Romans 16:15",
+        "Romans 16:8"
+      ],
+      "new_completed_source_verses": 0,
+      "new_completed_pairs": 0,
+      "deferred_source_units_count": 0,
+      "new_deferred_source_units_count": 0,
+      "closed_source_units_count": 12,
+      "next": null,
+      "next_unreviewed": null,
+      "pair_ids": [],
+      "proposal_files": [
+        "2026-11-01T124445Z/matthew-closure-review.json",
+        "2026-11-01T124445Z/luke-closure-review.json",
+        "2026-11-01T124445Z/acts-closure-review.json",
+        "2026-11-01T124445Z/romans-closure-review.json"
+      ],
+      "peer_review_files": [
+        "2026-11-01T124445Z/peer-matthew-closure.json",
+        "2026-11-01T124445Z/peer-luke-closure.json",
+        "2026-11-01T124445Z/peer-acts-closure.json",
+        "2026-11-01T124445Z/peer-romans-closure.json"
+      ],
+      "peer_review_resolution": "Each closure reason was read again by the lead editor; no retained pairs were proposed.",
+      "input_manifest": "../source-snapshots/manifest.json",
+      "target_per_hour": 500,
+      "target_unit": "newly_completed_distinct_source_verses",
+      "target_count": 0,
+      "target_met": false,
+      "target_shortfall": 500,
+      "target_excess": 0,
+      "reviewer": "Claude (AI-assisted editorial review)"
     }
   ],
   "target_per_hour": 500,
   "target_unit": "newly_completed_distinct_source_verses",
   "target_definition": "Complete passage-grounded cross-reference reviews for 500 new distinct source verses per hourly run, counting each source verse once. Keep pair totals separate; report actual counts and any shortfall.",
   "latest_target_result": {
-    "run_id": "2026-11-01T123430Z",
+    "run_id": "2026-11-01T124445Z",
     "target_per_hour": 500,
     "target_unit": "newly_completed_distinct_source_verses",
-    "target_count": 405,
+    "target_count": 0,
     "target_met": false,
-    "target_shortfall": 95,
+    "target_shortfall": 500,
     "target_excess": 0
   },
   "target_history": [
@@ -13775,8 +13828,9 @@
   ],
   "current_new_source_book": null,
   "source_availability_blocker": null,
-  "target_shortfall_reason": "Revelation was the only remaining never-reviewed New Testament book; its 405 source units were all completed. No further never-reviewed sources remain, so the run cannot reach 500.",
+  "target_shortfall_reason": "No never-reviewed or deferred New Testament source units remain; the final run closed the last 12 deferrals without new completion credit.",
   "next_unreviewed_source_identity_verified": true,
   "next_unreviewed_cursor_scope": "Every original New Testament source unit has been read; only saved deferrals remain.",
-  "source_availability_resolution": "Revelation source record added to Saints-Translation at bf920386f6355064d4b7a5fd2f1ac4e99d8e5110 as a staging text snapshot (owner-approved); the earlier blocker is resolved for this snapshot only."
+  "source_availability_resolution": "Revelation source record added to Saints-Translation at bf920386f6355064d4b7a5fd2f1ac4e99d8e5110 as a staging text snapshot (owner-approved); the earlier blocker is resolved for this snapshot only.",
+  "closed_source_units_count": 12
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Nehemiah",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,19 +28,28 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
     1,
     2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
     9,
+    10,
+    11,
+    12,
     13
   ],
-  "completed_source_verses": 308,
-  "completed_cross_references": 341,
+  "completed_source_verses": 342,
+  "completed_cross_references": 389,
   "total_chapters": 13,
   "total_source_verse_units": 392,
-  "next_reference": "Nehemiah 3:2",
+  "next_reference": null,
   "readable_html": "Nehemiah.html",
   "readable_text": "Nehemiah.txt",
   "canon_manifest": "../canon.json",
@@ -1546,7 +1555,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "staging_page_id": 2503,
@@ -1597,8 +1606,10 @@
           "id": "v3-2",
           "text": "and alongside the sons of the men of Jericho, and alongside the sons of Zakchour son of Amari.",
           "display_text": "and alongside the sons of the men of Jericho, and alongside the sons of Zakchour son of Amari.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit mentions the men of Jericho and Zakchour son of Amari working on the wall. The leads give a Jericho headcount in the return lists, a bare 'Zachor', or other men named Zakchour with different fathers; none ties these wall-builders to another notice beyond the city name or a recurring personal name."
         },
         {
           "reference": "Nehemiah 3:3",
@@ -1643,8 +1654,38 @@
           "id": "v3-4",
           "text": "Next to them, from Ramoth, a son of Ouria son of Akos took charge. Next to them Mosollam son of Barachias son of Masezebel took charge. Next to them Sadok son of Baana took charge.",
           "display_text": "Next to them, from Ramoth, a son of Ouria son of Akos took charge. Next to them Mosollam son of Barachias son of Masezebel took charge. Next to them Sadok son of Baana took charge.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-4__nehemiah-3-21",
+              "target": "Nehemiah 3:21",
+              "verdict": "supported",
+              "relationship": "same lineage",
+              "rationale": "Both name a repairer of the wall as son of Ouria son of Akos: Nehemiah 3:4 reads 'from Ramoth, a son of Ouria son of Akos', and Nehemiah 3:21 reads 'Meramoth son of Ouria son of Akos', who repaired 'a second section'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fc8c202da7084a77e12726266e49a5f52531ece075c4e4b5600eec9a0a72cce6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 3:21",
+                  "id": "v3-21",
+                  "text": "After him Meramoth son of Ouria son of Akos repaired a second section, from the entrance of Bethelisoub to the end of Bethelisoub.",
+                  "text_sha256": "16feafa3bf403768ba98e6ca23db41036b23b68944ccae53eea8cbdc3b0f9a14"
+                }
+              ],
+              "target_passage_sha256": "a6c4fb86ef78de165f98185b2e87aff33974a1269eab005f8244352de62625b4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:5",
@@ -1765,16 +1806,48 @@
           "id": "v3-9",
           "text": "Next to them Raphaia, ruler of half the district of Jerusalem, repaired.",
           "display_text": "Next to them Raphaia, ruler of half the district of Jerusalem, repaired.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-9__nehemiah-3-12",
+              "target": "Nehemiah 3:12",
+              "verdict": "supported",
+              "relationship": "parallel office",
+              "rationale": "Both repairers are described as 'ruler of half the district of Jerusalem': Raphaia in Nehemiah 3:9 and Saloum son of Alloes in Nehemiah 3:12, the two halves of the same district.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7e8e2fdbd80f582ec52911a73e210b9119557a21fd1c0411eee4cb03f13a8318",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 3:12",
+                  "id": "v3-12",
+                  "text": "Next to him Saloum son of Alloes, ruler of half the district of Jerusalem, repaired, he and his daughters.",
+                  "text_sha256": "11a1e6dcf6fc6712b1156e326d9c2022669fc7655900151fb74dd8815eb28e57"
+                }
+              ],
+              "target_passage_sha256": "a6c7470e12d03528aa0d3cca8c90f07e32f6b7a994090e23c3e6765925011641",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:10",
           "id": "v3-10",
           "text": "Next to them Iedaia son of Eromaph repaired, opposite his house. Next to him Atous son of Asbania repaired.",
           "display_text": "Next to them Iedaia son of Eromaph repaired, opposite his house. Next to him Atous son of Asbania repaired.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Iedaia son of Eromaph repairing opposite his house and Atous son of Asbania. The leads show other repairers working opposite their own houses or a bare 'Atous' in a list of names; they share only the general practice or a name without a matching father."
         },
         {
           "reference": "Nehemiah 3:11",
@@ -2017,72 +2090,258 @@
           "id": "v3-17",
           "text": "After him the Levites—Raoum son of Bani—repaired. Next to him Asabia, ruler of half the district of Keila, repaired for his district.",
           "display_text": "After him the Levites—Raoum son of Bani—repaired. Next to him Asabia, ruler of half the district of Keila, repaired for his district.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names the Levite Raoum son of Bani and Asabia, ruler of half the district of Keila. The leads give other half-district rulers of different districts, a 'Keilam' in a town list, Levite supervisors in general, or an Asabia who is the father of Ozi; none identifies these men or Asabia's office."
         },
         {
           "reference": "Nehemiah 3:18",
           "id": "v3-18",
           "text": "After him their brothers—Beni son of Enadad, ruler of half the district of Keila—repaired.",
           "display_text": "After him their brothers—Beni son of Enadad, ruler of half the district of Keila—repaired.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-18__nehemiah-3-24",
+              "target": "Nehemiah 3:24",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both name a repairer who is son of Enadad in the same wall account: Beni son of Enadad in Nehemiah 3:18, and Bani son of Enadad in Nehemiah 3:24, who repaired 'a second section', which implies an earlier one. The spelling differs (Beni / Bani).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b610d6b7fa8f99f350dd7ccb51b630f8023ee049cc7fca186781ea7dcd72bd02",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 3:24",
+                  "id": "v3-24",
+                  "text": "After him Bani son of Enadad repaired a second section, from Bethazaria to the corner and to the bend",
+                  "text_sha256": "c5508eac0bf9b17987935d69ff1e7b4407c7278e637e849c562f0f7f635357aa"
+                }
+              ],
+              "target_passage_sha256": "b6c4edda8e2a6b6c2b62728c4c47a52c61c486b3d00c659eca35493029d75a11",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:19",
           "id": "v3-19",
           "text": "Next to him Azour son of Iesous, ruler of Masphe, repaired a second section of the tower of the ascent adjoining the corner.",
           "display_text": "Next to him Azour son of Iesous, ruler of Masphe, repaired a second section of the tower of the ascent adjoining the corner.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Azour son of Iesous, ruler of Masphe, repairing at the tower of the ascent by the corner. The leads give Uzziah's corner towers, Levites named Jesus or Jesou, or other second sections; none matches Azour, Masphe or this tower."
         },
         {
           "reference": "Nehemiah 3:20",
           "id": "v3-20",
           "text": "After him Barouch son of Zabou repaired a second section, from the corner to the entrance of Bethelisoub of the high priest.",
           "display_text": "After him Barouch son of Zabou repaired a second section, from the corner to the entrance of Bethelisoub of the high priest.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-20__nehemiah-3-21",
+              "target": "Nehemiah 3:21",
+              "verdict": "supported",
+              "relationship": "adjoining section",
+              "rationale": "Barouch's section ends at 'the entrance of Bethelisoub', and the next repairer, Meramoth, works 'from the entrance of Bethelisoub to the end of Bethelisoub'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "586d6a9c0d52c1ee0486a8089fe7aebfa80c30f4bd642f6620ad0f8425495ecf",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 3:21",
+                  "id": "v3-21",
+                  "text": "After him Meramoth son of Ouria son of Akos repaired a second section, from the entrance of Bethelisoub to the end of Bethelisoub.",
+                  "text_sha256": "16feafa3bf403768ba98e6ca23db41036b23b68944ccae53eea8cbdc3b0f9a14"
+                }
+              ],
+              "target_passage_sha256": "a6c4fb86ef78de165f98185b2e87aff33974a1269eab005f8244352de62625b4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-3-20__nehemiah-3-1",
+              "target": "Nehemiah 3:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "The site is 'Bethelisoub of the high priest', and Nehemiah 3:1 names 'Elisoub the high priest', whose name forms part of Bethelisoub.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "586d6a9c0d52c1ee0486a8089fe7aebfa80c30f4bd642f6620ad0f8425495ecf",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 3:1",
+                  "id": "v3-1",
+                  "text": "Elisoub the high priest and his brothers the priests arose and built the Sheep Gate. They consecrated it and set up its doors, and consecrated as far as the Tower of the Hundred, as far as the Tower of Ananeel,",
+                  "text_sha256": "14e7798df6b4d9e169e1a0eac80166600382cfdaf988544268b8d1154603313c"
+                }
+              ],
+              "target_passage_sha256": "dbdb1d848273498ec5e5f5046692c0224b1b5e6a370f46a1e4d6aea5f8a1447c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:21",
           "id": "v3-21",
           "text": "After him Meramoth son of Ouria son of Akos repaired a second section, from the entrance of Bethelisoub to the end of Bethelisoub.",
           "display_text": "After him Meramoth son of Ouria son of Akos repaired a second section, from the entrance of Bethelisoub to the end of Bethelisoub.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-21__nehemiah-3-4",
+              "target": "Nehemiah 3:4",
+              "verdict": "supported",
+              "relationship": "same lineage",
+              "rationale": "Both name a repairer of the wall as son of Ouria son of Akos: Nehemiah 3:21 reads 'Meramoth son of Ouria son of Akos', and Nehemiah 3:4 reads 'from Ramoth, a son of Ouria son of Akos'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "16feafa3bf403768ba98e6ca23db41036b23b68944ccae53eea8cbdc3b0f9a14",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 3:4",
+                  "id": "v3-4",
+                  "text": "Next to them, from Ramoth, a son of Ouria son of Akos took charge. Next to them Mosollam son of Barachias son of Masezebel took charge. Next to them Sadok son of Baana took charge.",
+                  "text_sha256": "fc8c202da7084a77e12726266e49a5f52531ece075c4e4b5600eec9a0a72cce6"
+                }
+              ],
+              "target_passage_sha256": "c7dae3fadca3ead51f61c6d0bcdadddfe5818f83fcf4c6e06bcf0411c55dee26",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:22",
           "id": "v3-22",
           "text": "After him the priests, men of Achechar, repaired.",
           "display_text": "After him the priests, men of Achechar, repaired.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names only priests called men of Achechar repairing the wall; no shown text uses the designation Achechar, and the other passages merely share a gathering or a generic verb of repairing, so no specific group can be matched."
         },
         {
           "reference": "Nehemiah 3:23",
           "id": "v3-23",
           "text": "After him Benjamin and Asoub repaired opposite their house. After him Azaria son of Maasea son of Anania repaired beside his house.",
           "display_text": "After him Benjamin and Asoub repaired opposite their house. After him Azaria son of Maasea son of Anania repaired beside his house.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Benjamin, Asoub and Azaria son of Maasea son of Anania appear only as builders opposite or beside their houses; other uses of Asoub, Azaria or Anania carry different fathers or no identifying detail, and the remaining texts are other builders in the same wall list or unrelated assemblies."
         },
         {
           "reference": "Nehemiah 3:24",
           "id": "v3-24",
           "text": "After him Bani son of Enadad repaired a second section, from Bethazaria to the corner and to the bend",
           "display_text": "After him Bani son of Enadad repaired a second section, from Bethazaria to the corner and to the bend",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-24__nehemiah-10-10",
+              "target": "Nehemiah 10:10",
+              "verdict": "supported",
+              "relationship": "same family",
+              "rationale": "Both texts tie a man of similar name to Enadad: 'Bani son of Enadad' repairing the wall and 'Banaiou from the sons of Enadad' among the Levites who seal the pledge. The name forms differ (Bani/Banaiou), so the shared element is the Enadad family rather than a proven identical individual.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c5508eac0bf9b17987935d69ff1e7b4407c7278e637e849c562f0f7f635357aa",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 10:10",
+                  "id": "v10-10",
+                  "text": "And the Levites: Jesus son of Azania, of Banaiou from the sons of Enadad, Kadmiel,",
+                  "text_sha256": "f7edd49b9af9a14e5598e23de7402aeb05f886940322249cfaf189b58bcbb86e"
+                }
+              ],
+              "target_passage_sha256": "3b9ce55c70c06efe2883bf7429e34d8347a92b16f181e282c05652e7bfdede52",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:25",
           "id": "v3-25",
           "text": "of Phalal son of Euzai, opposite the corner, and the upper tower projecting from the king’s house, belonging to the court of the guard. After him was Phadaia son of Phoros.",
           "display_text": "of Phalal son of Euzai, opposite the corner, and the upper tower projecting from the king’s house, belonging to the court of the guard. After him was Phadaia son of Phoros.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-25__jeremiah-39-2",
+              "target": "Jeremiah 39:2",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Both texts place a court at the king's house in Jerusalem: here the tower 'projecting from the king's house, belonging to the court of the guard', and in Jeremiah 'the prison court at the king's house' where Jeremiah was kept. The wording differs (court of the guard / prison court).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7ebebabfa318c6a919651a421374e42d78f4cc3ce5a12a49dbc76d4cd5f67f5d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 39:2",
+                  "id": "v39-2",
+                  "text": "The king of Babylon’s force had built siegeworks against Jerusalem, and Jeremiah was kept in the prison court at the king’s house.",
+                  "text_sha256": "8c22c2c3cea452b96f95d97eb694118511cb63932afe5b14a56c1e6e842d7fdb"
+                }
+              ],
+              "target_passage_sha256": "afc083e0bd149ded65f7344645844ab732afcb6a7bc56f462ce352e98a270699",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:26",
@@ -2218,24 +2477,30 @@
           "id": "v3-29",
           "text": "After him Saddouk son of Emmer repaired opposite his house. After him Samaia son of Sechenia, keeper of the East Gate, repaired.",
           "display_text": "After him Saddouk son of Emmer repaired opposite his house. After him Samaia son of Sechenia, keeper of the East Gate, repaired.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Saddouk son of Emmer and Samaia son of Sechenia, keeper of the East Gate, are wall builders; the Emmer census totals and the Samaia son of Sechenia of a royal genealogy share only names, with no gatekeeping or building role to show the same persons, and the remaining texts concern unrelated gates."
         },
         {
           "reference": "Nehemiah 3:30",
           "id": "v3-30",
           "text": "After him Anania son of Selemia and Anoum, the sixth son of Seleph, repaired a second section. After him Mesoulam son of Barchia repaired opposite his treasury chamber.",
           "display_text": "After him Anania son of Selemia and Anoum, the sixth son of Seleph, repaired a second section. After him Mesoulam son of Barchia repaired opposite his treasury chamber.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists Anania son of Selemia, Anoum and Mesoulam son of Barchia repairing sections; the only other texts are different builders in the same wall list sharing the phrase 'second section', which identifies no person or event."
         },
         {
           "reference": "Nehemiah 3:31",
           "id": "v3-31",
           "text": "After him Melchia son of Saraphi repaired as far as Bethanathinim; and the dealers in small wares, opposite the gate of Maphekad and as far as the ascent of the bend.",
           "display_text": "After him Melchia son of Saraphi repaired as far as Bethanathinim; and the dealers in small wares, opposite the gate of Maphekad and as far as the ascent of the bend.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Melchia son of Saraphi, Bethanathinim and the gate of Maphekad appear nowhere else; the other Melchia/Melchias builders have different fathers, and the adjacent notice of dealers in small wares only continues the same wall list without identifying these sites."
         },
         {
           "reference": "Nehemiah 3:32",
@@ -2318,16 +2583,104 @@
           "id": "v3-34",
           "text": "He said before his brothers, “Is this the strength of Somoron, that these Jews are building their own city?”",
           "display_text": "He said before his brothers, “Is this the strength of Somoron, that these Jews are building their own city?”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-34__ezra-4-12",
+              "target": "Ezra 4:12",
+              "verdict": "supported",
+              "relationship": "parallel opposition",
+              "rationale": "Both texts are hostile reactions to 'the Jews' who are 'building' their 'city': here the mocking question 'Is this the strength of Somoron, that these Jews are building their own city?', and in Ezra an accusation to the king that the Jews 'are building the rebellious and wicked city'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d989e9d93096a461f1f25b04c768bcab4e219490fe11ffff8a661a6be6f5551d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 4:12",
+                  "id": "v4-12",
+                  "text": "Let it be known to the king that the Jews who came up from you to us have arrived in Jerusalem. They are building the rebellious and wicked city; they have put its walls in order and raised its foundations.",
+                  "text_sha256": "c95eec7035e402db9471adb05577cb32ed46126db7ddd7df835e9dfb6df0578c"
+                }
+              ],
+              "target_passage_sha256": "df5d7296735a1fa50ab54961fa3dae91f8dc1282b74700370af62e83b66ecb84",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:35",
           "id": "v3-35",
           "text": "Tobias the Ammanite came beside him, and they said to one another, “Surely they will not sacrifice or eat in their place? Will not a fox climb up and pull down their stone wall?”",
           "display_text": "Tobias the Ammanite came beside him, and they said to one another, “Surely they will not sacrifice or eat in their place? Will not a fox climb up and pull down their stone wall?”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-3-35__nehemiah-2-19",
+              "target": "Nehemiah 2:19",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Tobias the Ammanite here and Tobia the Ammoni servant in Nehemiah 2 are the same opponent, and in both he joins in ridiculing the Jews' work (the fox taunt here; 'they laughed at us' there). The name forms differ slightly (Tobias/Tobia, Ammanite/Ammoni).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "466ca9f22531f29508149988aa39c2ef0a73930fb11761689b7faa03774c1e48",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 2:19",
+                  "id": "v2-19",
+                  "text": "Sanaballat the Aroni, Tobia the Ammoni servant, and Gesam the Arabi heard. They laughed at us and came against us, and said, “What is this thing you are doing? Are you revolting against the king?”",
+                  "text_sha256": "a575753c7df42c14dadf28254a4bde29af1beff2f62bd1dafbe9e6a033a09de4"
+                }
+              ],
+              "target_passage_sha256": "12bc01e0b055f2626aebbfa0326a8ff308072d777bc882a20fe05939825c32cf",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-3-35__nehemiah-4-1",
+              "target": "Nehemiah 4:1",
+              "verdict": "supported",
+              "relationship": "same opposition",
+              "rationale": "Both texts concern Tobia and the Ammanites reacting against the rebuilding of Jerusalem's stone wall: here mocking that a fox could pull it down, there displeased that the breaches of the walls were being blocked.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "466ca9f22531f29508149988aa39c2ef0a73930fb11761689b7faa03774c1e48",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 4:1",
+                  "id": "v4-1",
+                  "text": "When Sanaballat, Tobia, the Arabs and the Ammanites heard that growth had risen on Jerusalem’s walls, that the breaches were beginning to be blocked, it seemed very bad to them.",
+                  "text_sha256": "bd8f1fad3ef7620561baeea824ff5decc3ec69d46ecd4f0b6e6932ab9b4b0c7d"
+                }
+              ],
+              "target_passage_sha256": "9b98c7f5bea1b3c52ed7ab68c32a5cc2c0017f25bbfa51905e0b3740189fa120",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 3:36",
@@ -2409,7 +2762,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "staging_page_id": 2500,
@@ -2536,8 +2889,10 @@
           "id": "v4-4",
           "text": "Judah said, “The strength of the enemies has been crushed. There is much rubble, and we will not be able to build the wall.”",
           "display_text": "Judah said, “The strength of the enemies has been crushed. There is much rubble, and we will not be able to build the wall.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is Judah's complaint about rubble and inability to build the wall; the other texts share only generic statements of inability, labour or building in unrelated settings (the spies' report, Solomon's workforce, Haggai's delay), none of which matches this complaint."
         },
         {
           "reference": "Nehemiah 4:5",
@@ -2620,8 +2975,44 @@
           "id": "v4-7",
           "text": "I stationed people in the lowest parts of the place behind the wall, in the sheltered areas. I stationed the people by local groups, with their swords, their spears and their bows.",
           "display_text": "I stationed people in the lowest parts of the place behind the wall, in the sheltered areas. I stationed the people by local groups, with their swords, their spears and their bows.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-4-7__nehemiah-4-11-12",
+              "target": "Nehemiah 4:11-12",
+              "verdict": "supported",
+              "relationship": "same account",
+              "rationale": "Both texts describe Nehemiah's armed defence of the wall during the building: here the people stationed behind the wall with their swords, spears and bows, and there the builders on the wall working with a sword girded at each man's waist.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d58bb14c852ffa70cfc74bde31ff997ef466fba460ec05c21c41d01e5502684f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 4:11",
+                  "id": "v4-11",
+                  "text": "those building on the wall. Those carrying with lifting gear were armed; with one hand each did the work itself, and the other held a dart.",
+                  "text_sha256": "1217d3617832722e8381a22ff39da605ad5bad24e407027eb1c220bbe1ec2167"
+                },
+                {
+                  "reference": "Nehemiah 4:12",
+                  "id": "v4-12",
+                  "text": "The builders worked with each man’s sword girded at his waist, and the one sounding the horn was beside him.",
+                  "text_sha256": "5de8469e54a0fc00c1d433ac30e6b44eade8ffaf74ba66b0db7ed8154992d773"
+                }
+              ],
+              "target_passage_sha256": "1a613e5f1f2a6431318a9254930e544c8e4cd65820f09d21424a73946e5beae4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 4:8",
@@ -2976,14 +3367,16 @@
           "id": "v4-17",
           "text": "I was there, with the men of the guard behind me, and not one of us took off his clothes.",
           "display_text": "I was there, with the men of the guard behind me, and not one of us took off his clothes.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reports that Nehemiah and the guard never took off their clothes; the other texts concern labour, leadership, garments or nakedness in unrelated situations and contain no matching practice of constant readiness."
         }
       ]
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "staging_page_id": 2507,
@@ -3211,8 +3604,10 @@
           "id": "v5-6",
           "text": "I was deeply grieved when I heard their outcry and these words.",
           "display_text": "I was deeply grieved when I heard their outcry and these words.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is Nehemiah's grief at the outcry over debt; the other texts share only a general expression of grief or anger (Moses, Jesus, the Psalms, Nehemiah's later reforms) with no common cause or event."
         },
         {
           "reference": "Nehemiah 5:7",
@@ -3638,8 +4033,10 @@
           "id": "v5-17",
           "text": "At my table were the Jews, one hundred and fifty men, and those who came to us from the nations around us.",
           "display_text": "At my table were the Jews, one hundred and fifty men, and those who came to us from the nations around us.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes 150 Jews and visitors from the nations at Nehemiah's table; the other texts mention eating at a king's or queen's table or general hospitality, with no matching company, number or occasion."
         },
         {
           "reference": "Nehemiah 5:18",
@@ -3721,7 +4118,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "staging_page_id": 2513,
@@ -3848,16 +4245,48 @@
           "id": "v6-4",
           "text": "They sent me this same message, and I sent them an answer accordingly.",
           "display_text": "They sent me this same message, and I sent them an answer accordingly.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit only says the same message came again and was answered likewise; none of the other texts concerns this exchange, and their shared ideas of persistence or reporting accordingly are generic."
         },
         {
           "reference": "Nehemiah 6:5",
           "id": "v6-5",
           "text": "Sanaballat sent his servant to me with an open letter in his hand.",
           "display_text": "Sanaballat sent his servant to me with an open letter in his hand.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-6-5__nehemiah-2-19",
+              "target": "Nehemiah 2:19",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Sanaballat, who here sends his servant with an open letter, is the same Sanaballat the Aroni who in Nehemiah 2 opposes Nehemiah's work with Tobia and Gesam.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "637a21245ef5cbe8c7288e0af7249b42fe0faccf60efab55e04ebb1d8190f161",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 2:19",
+                  "id": "v2-19",
+                  "text": "Sanaballat the Aroni, Tobia the Ammoni servant, and Gesam the Arabi heard. They laughed at us and came against us, and said, “What is this thing you are doing? Are you revolting against the king?”",
+                  "text_sha256": "a575753c7df42c14dadf28254a4bde29af1beff2f62bd1dafbe9e6a033a09de4"
+                }
+              ],
+              "target_passage_sha256": "12bc01e0b055f2626aebbfa0326a8ff308072d777bc882a20fe05939825c32cf",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 6:6",
@@ -4084,8 +4513,10 @@
           "id": "v6-11",
           "text": "I said, “Who is the man who could enter the house and live?”",
           "display_text": "I said, “Who is the man who could enter the house and live?”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is Nehemiah's refusal to enter the house to save his life; the other texts share only general courage or the verb 'live' in unrelated settings, and none addresses entering the house."
         },
         {
           "reference": "Nehemiah 6:12",
@@ -4425,7 +4856,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "staging_page_id": 2518,
@@ -5256,32 +5687,152 @@
           "id": "v7-22",
           "text": "The sons of Esam: three hundred twenty-eight.",
           "display_text": "The sons of Esam: three hundred twenty-eight.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-7-22__ezra-2-19",
+              "target": "Ezra 2:19",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Both registers of returnees list the sons of Esam/Asem within the same block of families. The name forms differ (Esam/Asem), as do the totals (328 here, 223 in Ezra) and the order of the block.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a53970ffb6723a443803ee0fd08734bb21ee5af04df69611daa4aae3d3040ff8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:19",
+                  "id": "v2-19",
+                  "text": "The sons of Asem: two hundred and twenty-three.",
+                  "text_sha256": "095f7c5c25e1147fcda93eb186425041bd0c88b7e0454241f3c5bed0c3a10bbb"
+                }
+              ],
+              "target_passage_sha256": "6e15931150a01508b31ead8702bb498fd01cfbb696d1988e3452a67a451d73dd",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 7:23",
           "id": "v7-23",
           "text": "The sons of Besi: three hundred twenty-four.",
           "display_text": "The sons of Besi: three hundred twenty-four.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-7-23__ezra-2-17",
+              "target": "Ezra 2:17",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Both registers of returnees list the sons of Besi/Basou within the same block of families. The name forms differ (Besi/Basou) and the totals differ by one (324 here, 323 in Ezra).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fd08f1cb5909c602d9d15468f65086a9c302567c873e98e0592fd1d3956013f5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:17",
+                  "id": "v2-17",
+                  "text": "The sons of Basou: three hundred and twenty-three.",
+                  "text_sha256": "fce39566bc9461017c46651a4a9b798ca64277cdc0ada2d917cb02e72c77b401"
+                }
+              ],
+              "target_passage_sha256": "542c02ae1a81820eb44c356545392227b1b2fda9896d15542384420005502c89",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 7:24",
           "id": "v7-24",
           "text": "The sons of Ariph: one hundred twelve.",
           "display_text": "The sons of Ariph: one hundred twelve.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-7-24__nehemiah-10-20",
+              "target": "Nehemiah 10:20",
+              "verdict": "supported",
+              "relationship": "same family name",
+              "rationale": "Ariph, listed here with 112 sons, is named among the rulers of the people who seal the pledge, where Ariph follows Esam and Besi just as the sons of Ariph follow the sons of Esam and Besi in this register.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "dc989e318df0110bea7322ef1442fe69d6cf346a6414a76c0bf818dc7d80509d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 10:20",
+                  "id": "v10-20",
+                  "text": "Ariph, Anathoth, Nobai,",
+                  "text_sha256": "8ffe460aeaab1739a8e10127e5e036f7b6e129b3405bf9bf7a83df443cefc3f2"
+                }
+              ],
+              "target_passage_sha256": "0709e145bcc61438d80362d3b9c0e91a0e5c51b3f985658f9ce19fa48f7fd409",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 7:25",
           "id": "v7-25",
           "text": "The sons of Gabaon: ninety-five.",
           "display_text": "The sons of Gabaon: ninety-five.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-7-25__ezra-2-20",
+              "target": "Ezra 2:20",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Both registers of returnees give ninety-five for this family in the same block of entries. The name differs in form (Gabaon here, Gaber in Ezra).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "32d846f5eb78d4a707346375780b336fb4ed211c43ae8b048f03a7e8a6497f13",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:20",
+                  "id": "v2-20",
+                  "text": "The sons of Gaber: ninety-five.",
+                  "text_sha256": "03297bd140a4ea3a07bde85da394fe327d0e467b20e29d584b84cc852a289abf"
+                }
+              ],
+              "target_passage_sha256": "74f3bde85e65fa6f66fd1747c1d6dcf90480ff93be5e64d2786e0a9c1999de22",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 7:26",
@@ -7187,7 +7738,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "staging_page_id": 2525,
@@ -7401,8 +7952,38 @@
           "id": "v8-5",
           "text": "Esdras opened the book before all the people—for he was above the people—and when he opened it, all the people stood.",
           "display_text": "Esdras opened the book before all the people—for he was above the people—and when he opened it, all the people stood.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-8-5__2-kings-23-3",
+              "target": "2 Kings 23:3",
+              "verdict": "supported",
+              "relationship": "parallel scene",
+              "rationale": "Both describe the assembled people standing in connection with the book of the law: here 'all the people stood' when Esdras opened the book before them, and in 2 Kings 'All the people stood in the covenant' when the king made the covenant upholding 'the things written in this book'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "64632f75b3c59fe90b9ab595f6a82085cd65596875bb106e3c47e9cd2aca44c8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-kings/verses.json",
+                "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Kings 23:3",
+                  "id": "v23-3",
+                  "text": "The king stood beside the pillar and made a covenant before the Lord: to follow the Lord and keep His commandments, testimonies, and ordinances with the whole heart and whole soul, upholding the words of this covenant, the things written in this book. All the people stood in the covenant.",
+                  "text_sha256": "ed6740bc7f689c5c6a23017c8d98b94401927f591677f8f161c7049fefb435f6"
+                }
+              ],
+              "target_passage_sha256": "f6166d7f50b1e6324ad39602da4ad25808d40858917bb292758e88e7bf317cab",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 8:6",
@@ -7629,8 +8210,38 @@
           "id": "v8-11",
           "text": "The Levites quieted all the people, saying, “Be silent, for the day is holy. Do not be downcast.”",
           "display_text": "The Levites quieted all the people, saying, “Be silent, for the day is holy. Do not be downcast.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-8-11__numbers-13-30",
+              "target": "Numbers 13:30",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both texts use the same act of a leader who 'quieted the people': here the Levites quieting all the people because the day is holy, there Caleb quieting the people before Moses. The occasions differ (a feast day versus the report of the spies).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2752bf2d07f5c8abe59f3f03fd8f1b9df72ece8ac429d333242c7697dce31457",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "numbers/verses.json",
+                "blob_sha": "f52d97f715891170060a770c8e2bd55267a3d5ca",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/numbers/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Numbers 13:30",
+                  "id": "v13-30",
+                  "text": "And Caleb quieted the people before Moses and said to him: No! We shall certainly go up and inherit it, for we shall surely prevail against them.",
+                  "text_sha256": "c18ce61bfc224fbe63f62c38139eb37474ac57eea71e7479280a7e3395b912ef"
+                }
+              ],
+              "target_passage_sha256": "74d8c51d557ab81e2d0351d6dca008f49cad46a643cc8e19ea556f2e49f83f8b",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 8:12",
@@ -10292,7 +10903,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "staging_page_id": 2541,
@@ -10373,216 +10984,1074 @@
           "id": "v10-2",
           "text": "Among those sealing: Neemias son of Achalia, and Sedekias",
           "display_text": "Among those sealing: Neemias son of Achalia, and Sedekias",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-2__nehemiah-1-1",
+              "target": "Nehemiah 1:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Neemias son of Achalia, first of those sealing the pledge, is the same Neemias son of Achalia whose words open the book.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "37133f21db25a64f5da28ab113377f2bdaf9c7cadc16ae9533d072efe14fa85e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 1:1",
+                  "id": "v1-1",
+                  "text": "The words of Neemias son of Achalia. In the month of Chaseelou, in the twentieth year, I was in Sousan abira,",
+                  "text_sha256": "989ef77dc1a88002288f49ef8d9ce64af7a5fe646dd1122a3b328b28cc31188f"
+                }
+              ],
+              "target_passage_sha256": "6343c4e269feb1b7b6e6d0f9af1eddc0700f1be7282df939e6982e2f88d3143f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:3",
           "id": "v10-3",
           "text": "son of Saraia, and Azaria and Jermia,",
           "display_text": "son of Saraia, and Azaria and Jermia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-3__nehemiah-12-1",
+              "target": "Nehemiah 12:1",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Saraia and Jermia appear in both lists of priestly names: here 'son of Saraia, and Azaria and Jermia', and in Nehemiah 12:1 'Saraia, Jermia, Esdra' among the priests and Levites who came up with Zorobabel.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "bdde212798d5b1c1a8f3e39bafc1fc3bd7f6d33a9fb8476f5ef73827f97c6d9d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:1",
+                  "id": "v12-1",
+                  "text": "These are the priests and Levites who came up with Zorobabel son of Salathiel and Jesus: Saraia, Jermia, Esdra,",
+                  "text_sha256": "f1defda50a9014e64cb3ade26f866b2d3470a0f4a17643864d19765b203eecc3"
+                }
+              ],
+              "target_passage_sha256": "1ce7881ef859abbb3fa00bded8925dcb50ec02ed233124daa4efd1f3c00b991f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-3__nehemiah-12-12",
+              "target": "Nehemiah 12:12",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "The list of heads of priestly families in the days of Joakim begins 'for Saraia ... for Jermia', the same two priestly names that appear here among the priests sealing the pledge.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "bdde212798d5b1c1a8f3e39bafc1fc3bd7f6d33a9fb8476f5ef73827f97c6d9d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:12",
+                  "id": "v12-12",
+                  "text": "In the days of Joakim, his brothers, the priests and the heads of the families, were: for Saraia, Maraia; for Jermia, Anania;",
+                  "text_sha256": "cf06efdada3a055f1248b2706474dd4c042ad780137728c54c1bcccb5afd2846"
+                }
+              ],
+              "target_passage_sha256": "6b339cad31765b6409b6d09026fe049af7b43aeec5191f541e6e9f385c364b1e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:4",
           "id": "v10-4",
           "text": "Phasour, Amaria, Melchia,",
           "display_text": "Phasour, Amaria, Melchia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-4__nehemiah-12-2",
+              "target": "Nehemiah 12:2",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Amaria appears in both lists of priests and is followed shortly by Malouch: here Amaria, Melchia, then Atous, Sebani, Malouch; there Amaria, Malouch.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8fc12ca52f3048135ad81f3def62621f486e6497fa36c5339496940705a327d5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:2",
+                  "id": "v12-2",
+                  "text": "Amaria, Malouch,",
+                  "text_sha256": "b9226f347237455f1279ea2d0012e6edf8399de7d551159035a66cc39080a30a"
+                }
+              ],
+              "target_passage_sha256": "cbd2e29dd7b93236facdb6f799f4b16ae534b3f5f6ce661b7d8c7fe143d84258",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-4__nehemiah-12-13",
+              "target": "Nehemiah 12:13",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Amaria is one of the priestly houses in the list of family heads ('for Amaria, Joanan'), matching his place here among the priests who seal the pledge.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8fc12ca52f3048135ad81f3def62621f486e6497fa36c5339496940705a327d5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:13",
+                  "id": "v12-13",
+                  "text": "for Esdra, Mesoulam; for Amaria, Joanan;",
+                  "text_sha256": "8c690bb3a1d0b6bfd5ba43b0e28f7f2c6b6120162f04695d91c52fc15a8a6c0f"
+                }
+              ],
+              "target_passage_sha256": "15ed10a0cd39b7f16221bfe0f5ed56cf99c18f1dbaa9e8c27cb25d6803a4aa76",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:5",
           "id": "v10-5",
           "text": "Atous, Sebani, Malouch,",
           "display_text": "Atous, Sebani, Malouch,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-5__nehemiah-12-2",
+              "target": "Nehemiah 12:2",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Malouch is named in both lists of priests, following Amaria in each (Amaria ... Malouch here; 'Amaria, Malouch' there).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "bc7280056ab44b755370b684b1ca3058911c0f17bd8ad24ce7b8ef6e5a762b71",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:2",
+                  "id": "v12-2",
+                  "text": "Amaria, Malouch,",
+                  "text_sha256": "b9226f347237455f1279ea2d0012e6edf8399de7d551159035a66cc39080a30a"
+                }
+              ],
+              "target_passage_sha256": "cbd2e29dd7b93236facdb6f799f4b16ae534b3f5f6ce661b7d8c7fe143d84258",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-5__nehemiah-12-14",
+              "target": "Nehemiah 12:14",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Malouch is a priestly house in the list of family heads ('for Malouch, Jonathan'), matching his place here among the priests who seal the pledge.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "bc7280056ab44b755370b684b1ca3058911c0f17bd8ad24ce7b8ef6e5a762b71",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:14",
+                  "id": "v12-14",
+                  "text": "for Malouch, Jonathan; for Sechenia, Joseph;",
+                  "text_sha256": "db0ce98472bc639db33fe34eed84117daa3a491bd6fc8182e5b0e53a51b89754"
+                }
+              ],
+              "target_passage_sha256": "db4510f732c919ce35ab55aab00fa0b4af98ef91ff0f89a62d3867dfdcd6a905",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:6",
           "id": "v10-6",
           "text": "Iram, Meramoth, Abdia,",
           "display_text": "Iram, Meramoth, Abdia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Iram, Meramoth and Abdia are listed only as names among the sealing priests; the Meramoth son of Ouria son of Akos who builds the wall and the various Abdias are not shown to be priests of this list, and the other texts are unrelated names."
         },
         {
           "reference": "Nehemiah 10:7",
           "id": "v10-7",
           "text": "Daniel, Ganathon, Barouch,",
           "display_text": "Daniel, Ganathon, Barouch,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-7__nehemiah-12-16",
+              "target": "Nehemiah 12:16",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Ganathon is named both among the priests sealing the pledge and as a priestly house in the list of family heads ('for Ganathon, Mosollam'); the rare name occurs in the same priestly setting.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7c19d71e849b435c8af5ec2dc191601b0830963f092658252c373d769a3cebb5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:16",
+                  "id": "v12-16",
+                  "text": "for Addai, Zacharias; for Ganathon, Mosollam;",
+                  "text_sha256": "298ceb855d1a18692a33c81100ada1995f4ed7e4a2ce6197d777823e029f6195"
+                }
+              ],
+              "target_passage_sha256": "af5decc1d46c72da6acb2d3251a7af120d1e9c6485aecd15a7d7978a655bf40c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:8",
           "id": "v10-8",
           "text": "Mesoulam, Abia, Miamin,",
           "display_text": "Mesoulam, Abia, Miamin,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-8__nehemiah-12-17",
+              "target": "Nehemiah 12:17",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Abia is named both among the priests sealing the pledge and as a priestly house in the list of family heads ('for Abia, Zechri').",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d35e617d34a99f58735fd378eed6aedc7eef5093d124bbf616565938ee082102",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:17",
+                  "id": "v12-17",
+                  "text": "for Abia, Zechri; for Beniamin, at times, for Pheleti;",
+                  "text_sha256": "47c9020715145474d219e3dbfd882171e5cc339683bae32087f45456c911f046"
+                }
+              ],
+              "target_passage_sha256": "50eaf1adb09859478189d34e303065ba879fcdf4060c33d91fd7ad09a7866b57",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-8__1-chronicles-24-9",
+              "target": "1 Chronicles 24:9",
+              "verdict": "supported",
+              "relationship": "priestly division",
+              "rationale": "Miamin is the name of a priestly division in the Chronicles lot list ('the sixth for Miamin'), matching his place here among the priests; Melchia, named there as the fifth, is also among these priests.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d35e617d34a99f58735fd378eed6aedc7eef5093d124bbf616565938ee082102",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 24:9",
+                  "id": "v24-9",
+                  "text": "the fifth for Melchia, the sixth for Miamin,",
+                  "text_sha256": "4ad19fd04d0a4aac3198020e163be3f1fe583a2e0016bcef30da173b8f6cd59d"
+                }
+              ],
+              "target_passage_sha256": "d3ed2ab14aadc31ba4d57236337a7bf02ae077d3c7a19d5e4d300ccf1131a7ca",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:9",
           "id": "v10-9",
           "text": "Maazia, Belgai and Samaia. These were priests.",
           "display_text": "Maazia, Belgai and Samaia. These were priests.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-9__nehemiah-12-18",
+              "target": "Nehemiah 12:18",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Belgai and Samaia, named consecutively here among the priests, correspond to the consecutive priestly houses 'for Balga ... for Semeia' in the list of family heads; the forms differ slightly (Belgai/Balga, Samaia/Semeia).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d69d02744c103fe7dcc7cc656000c249e15bda19fccda276da0e2d1b8058854f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:18",
+                  "id": "v12-18",
+                  "text": "for Balga, Samoue; for Semeia, Jonathan;",
+                  "text_sha256": "73c772780880430a39cc5b447035290d31fd5af43a97984b423c9ae5ff085dea"
+                }
+              ],
+              "target_passage_sha256": "c4ec2dfb0f3967b8d4597f19edd6f2467c6ec86cd12f7b6f303e3f96b47d75d4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:10",
           "id": "v10-10",
           "text": "And the Levites: Jesus son of Azania, of Banaiou from the sons of Enadad, Kadmiel,",
           "display_text": "And the Levites: Jesus son of Azania, of Banaiou from the sons of Enadad, Kadmiel,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-10__ezra-3-9",
+              "target": "Ezra 3:9",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Both texts name the Levites Jesus/Iesous and Kadmiel together with the sons of Enadad. In Ezra they oversee the work on God's house; here they head the Levites sealing the pledge.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "f7edd49b9af9a14e5598e23de7402aeb05f886940322249cfaf189b58bcbb86e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 3:9",
+                  "id": "v3-9",
+                  "text": "Iesous and his sons and his brothers, Kadmiel and his sons, sons of Judah, stood over those doing the work in the house of God; also the sons of Enadad, their sons and their brothers the Levites.",
+                  "text_sha256": "22d2883bf9420ce9883716662cda06d8c8e4f901c4fc4d00efb133af06592162"
+                }
+              ],
+              "target_passage_sha256": "cba85434c7edb58fa876c1cf96de37bf586a280fe04792d4ed8392125c8c84b0",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-10__nehemiah-12-8",
+              "target": "Nehemiah 12:8",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Both lists of Levites begin with the same leading names: Jesus, Banaiou, Kadmiel here and Jesou, Banoui, Kadmiel there, with slight differences in name form.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "f7edd49b9af9a14e5598e23de7402aeb05f886940322249cfaf189b58bcbb86e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:8",
+                  "id": "v12-8",
+                  "text": "The Levites: Jesou, Banoui, Kadmiel, Sarabia, Jouda and Machania; he and his brothers were over the hands,",
+                  "text_sha256": "d115560d0e32f0c51121ed6c4ef5889593d3d450186c553dfe08417c293a1e3f"
+                }
+              ],
+              "target_passage_sha256": "cbc7da365ac557d49914f16f91fd9b013dd6ba56c8afbf1f28c22e01b0c6e6a2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-10__nehemiah-3-24",
+              "target": "Nehemiah 3:24",
+              "verdict": "supported",
+              "relationship": "same family",
+              "rationale": "Banaiou 'from the sons of Enadad' among the Levites corresponds to 'Bani son of Enadad' among the wall builders; both are tied to Enadad, though the name forms differ (Banaiou/Bani).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "f7edd49b9af9a14e5598e23de7402aeb05f886940322249cfaf189b58bcbb86e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 3:24",
+                  "id": "v3-24",
+                  "text": "After him Bani son of Enadad repaired a second section, from Bethazaria to the corner and to the bend",
+                  "text_sha256": "c5508eac0bf9b17987935d69ff1e7b4407c7278e637e849c562f0f7f635357aa"
+                }
+              ],
+              "target_passage_sha256": "b6c4edda8e2a6b6c2b62728c4c47a52c61c486b3d00c659eca35493029d75a11",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:11",
           "id": "v10-11",
           "text": "and his brothers: Sabania, Odouia, Kalita, Pheleia, Anan,",
           "display_text": "and his brothers: Sabania, Odouia, Kalita, Pheleia, Anan,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Sabania, Odouia, Kalita, Pheleia and Anan are bare Levite names; Kalita only resembles the Levite Kolia/Kolitas, and the other texts list different Levites or unrelated people named Odouia, so no individual can be matched."
         },
         {
           "reference": "Nehemiah 10:12",
           "id": "v10-12",
           "text": "Micha, Roob, Esebias,",
           "display_text": "Micha, Roob, Esebias,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Micha, Roob and Esebias are bare Levite names; the Asabia/Asebia and Micha of other lists differ in form or appear in different genealogies, and Roob elsewhere is a place, so no specific identification exists."
         },
         {
           "reference": "Nehemiah 10:13",
           "id": "v10-13",
           "text": "Zachor, Sarabia, Sebania,",
           "display_text": "Zachor, Sarabia, Sebania,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-13__nehemiah-12-8",
+              "target": "Nehemiah 12:8",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Sarabia appears in both lists of Levites alongside the same leading Levites: here after Jesus, Banaiou and Kadmiel, there as 'Jesou, Banoui, Kadmiel, Sarabia'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "04d3ff1359f42332985240eab7bd906db8295370109354ec26f236f7d68dfabd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:8",
+                  "id": "v12-8",
+                  "text": "The Levites: Jesou, Banoui, Kadmiel, Sarabia, Jouda and Machania; he and his brothers were over the hands,",
+                  "text_sha256": "d115560d0e32f0c51121ed6c4ef5889593d3d450186c553dfe08417c293a1e3f"
+                }
+              ],
+              "target_passage_sha256": "cbc7da365ac557d49914f16f91fd9b013dd6ba56c8afbf1f28c22e01b0c6e6a2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-13__nehemiah-12-24",
+              "target": "Nehemiah 12:24",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Sarabia is named among the rulers of the Levites together with Jesou and Kadmiel, the same Levites who head the sealing list in which Sarabia appears here.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "04d3ff1359f42332985240eab7bd906db8295370109354ec26f236f7d68dfabd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 12:24",
+                  "id": "v12-24",
+                  "text": "The rulers of the Levites were Asabia, Sarabia, Jesou and the sons of Kadmiel, with their brothers opposite them, to sing hymns and praise by the command of David the man of God, service division facing service division,",
+                  "text_sha256": "80874cf833664a4a1ad4b3890bb78822a55588c2c093e4b74bb66955fa489997"
+                }
+              ],
+              "target_passage_sha256": "122f6b78d8d4d1c25ead525c429d405d5ab7b98b37226235e735ac0e4035d1ed",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:14",
           "id": "v10-14",
           "text": "Odouia, sons of Banounai.",
           "display_text": "Odouia, sons of Banounai.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reads only 'Odouia, sons of Banounai'; the other Odouia/Odouias texts belong to unrelated genealogies or a military division, and no list names the sons of Banounai."
         },
         {
           "reference": "Nehemiah 10:15",
           "id": "v10-15",
           "text": "The rulers of the people: Phoros, Phaathmoab, Elam, Zathouia, sons of",
           "display_text": "The rulers of the people: Phoros, Phaathmoab, Elam, Zathouia, sons of",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-15__nehemiah-7-11-13",
+              "target": "Nehemiah 7:11-13",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "The rulers Phaathmoab, Elam and Zathouia correspond to the consecutive register entries for the sons of Phaathmoab, Ailam and Zathoua; the forms differ slightly (Elam/Ailam, Zathouia/Zathoua).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "194ddb2d73fff7305feb695186e5a88fdb48f018f224b529b1e67060fcb8db7c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:11",
+                  "id": "v7-11",
+                  "text": "The sons of Phaathmoab, belonging to the sons of Jesus and Joab: two thousand eight hundred eighteen.",
+                  "text_sha256": "2b453b58a98ac15e1b269b24dc9844f5ff643a05a87e50fe2dd54793d378f98c"
+                },
+                {
+                  "reference": "Nehemiah 7:12",
+                  "id": "v7-12",
+                  "text": "The sons of Ailam: one thousand two hundred fifty-four.",
+                  "text_sha256": "385d99d98ddbf31de695fb0b5b70b6e7ea5a55892e3a1a22c70955f989bbaa72"
+                },
+                {
+                  "reference": "Nehemiah 7:13",
+                  "id": "v7-13",
+                  "text": "The sons of Zathoua: eight hundred forty-five.",
+                  "text_sha256": "888704720e65f8a356a870ce63fb0404859f2a1f70c552887e6f60d6c48f7783"
+                }
+              ],
+              "target_passage_sha256": "9cd3ed2b3612ec8a89c29e8e43c52debb099bd73e2dacd04834b7b84ea78853d",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-15__nehemiah-7-8",
+              "target": "Nehemiah 7:8",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Phoros, first of the rulers of the people here, heads the register of returnee families as 'the sons of Phoros'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "194ddb2d73fff7305feb695186e5a88fdb48f018f224b529b1e67060fcb8db7c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:8",
+                  "id": "v7-8",
+                  "text": "The sons of Phoros: two thousand one hundred seventy-two.",
+                  "text_sha256": "d21f08630339f42b9808ab019daccadb2928466c60ff90d463c1b9e8300ddc98"
+                }
+              ],
+              "target_passage_sha256": "f0eda0eee9d1547fc1f47be63d864bd3d7d0d0a43b8f8eb0348dd8368e392c20",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:16",
           "id": "v10-16",
           "text": "Bani, Asgad, Bebai,",
           "display_text": "Bani, Asgad, Bebai,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-16__nehemiah-7-16-17",
+              "target": "Nehemiah 7:16-17",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Asgad and Bebai here correspond to the consecutive register entries for the sons of Bebi and the sons of Asgad; the order is reversed and the form differs (Bebai/Bebi).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4a1ca2925b7f568f18599837f57e1f665b5ca4c067aa6707d9f218d8df3a4c61",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:16",
+                  "id": "v7-16",
+                  "text": "The sons of Bebi: six hundred twenty-eight.",
+                  "text_sha256": "ba8a26a3514a25b8f47fc23793788dc8bba9ebdc78e0d4ed28395c179e563e58"
+                },
+                {
+                  "reference": "Nehemiah 7:17",
+                  "id": "v7-17",
+                  "text": "The sons of Asgad: two thousand three hundred twenty-two.",
+                  "text_sha256": "82f306b1e2313d6343ce5adeb7536f982e55e72064612fd0b2956155f11274c8"
+                }
+              ],
+              "target_passage_sha256": "2beed75f5226daadfd2e33a1c9abd6363ac8663cad45490559aa8a7fdee854be",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-16__ezra-2-11-12",
+              "target": "Ezra 2:11-12",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Asgad and Bebai here correspond to the consecutive entries for the sons of Babi and the sons of Asgad in Ezra's register; the order is reversed and the form differs (Bebai/Babi).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4a1ca2925b7f568f18599837f57e1f665b5ca4c067aa6707d9f218d8df3a4c61",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:11",
+                  "id": "v2-11",
+                  "text": "The sons of Babi: six hundred and twenty-three.",
+                  "text_sha256": "0b8ffff70bba9ba5e009ea3aacbf9b4ca4fd16b71beeda7b21ad57e4f2dd1dfa"
+                },
+                {
+                  "reference": "Ezra 2:12",
+                  "id": "v2-12",
+                  "text": "The sons of Asgad: three thousand two hundred and twenty-two.",
+                  "text_sha256": "d8d8648c7365e5f168c21d37bc9605359de4a2ee8457a5b68db384448ef1da5e"
+                }
+              ],
+              "target_passage_sha256": "8ed58e807b52b8fc97abdcfba49601333da5d40ea9dd1ab15779db20bd4fce39",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:17",
           "id": "v10-17",
           "text": "Edania, Bagoi, Edin,",
           "display_text": "Edania, Bagoi, Edin,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-17__nehemiah-7-19-21",
+              "target": "Nehemiah 7:19-21",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "The names Bagoi and Edin, followed in the next unit by Ater and Ezekia, match the consecutive register entries for the sons of Bagoi, the sons of Edin and the sons of Ater, belonging to Ezekia.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "399189edfa2079f19882b72a1fcc7e4c9ca6673a22f9ee7f45fd9204c572dac3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:19",
+                  "id": "v7-19",
+                  "text": "The sons of Bagoi: two thousand sixty-seven.",
+                  "text_sha256": "b80019c1d113e67f5e90f3674c87e1ca03b23cc8ba955d511afd2d89f91bcbf8"
+                },
+                {
+                  "reference": "Nehemiah 7:20",
+                  "id": "v7-20",
+                  "text": "The sons of Edin: six hundred fifty-five.",
+                  "text_sha256": "984f62bd4fb9e82413730cc17aa3f1a380daac0575c9c85bc6dbb1cca66dc632"
+                },
+                {
+                  "reference": "Nehemiah 7:21",
+                  "id": "v7-21",
+                  "text": "The sons of Ater, belonging to Ezekia: ninety-eight.",
+                  "text_sha256": "3b647017a437cf562999c2f241a6cdde47a074bc40a037ded96df76fd87cbc15"
+                }
+              ],
+              "target_passage_sha256": "f76924c6369a8df4affbf562b90d6a1af43f1bf5d59f53a4d9b575b8e9adbe6b",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-17__ezra-2-14-16",
+              "target": "Ezra 2:14-16",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Bagoi and Edin match the consecutive entries for the sons of Bagoi and the sons of Adin in Ezra's register, followed there as here by Ater belonging to Ezekia; the form differs (Edin/Adin).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "399189edfa2079f19882b72a1fcc7e4c9ca6673a22f9ee7f45fd9204c572dac3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:14",
+                  "id": "v2-14",
+                  "text": "The sons of Bagoi: two thousand and fifty-six.",
+                  "text_sha256": "9016beacff32d006d4f3394bec9e6b722d9252c2261a071f9cb2b271bcd814c0"
+                },
+                {
+                  "reference": "Ezra 2:15",
+                  "id": "v2-15",
+                  "text": "The sons of Adin: four hundred and fifty-four.",
+                  "text_sha256": "625e07f6c1cbbd62d58cf5ec82a0d7ee655620d89bbffb41a68c6cc6a55ccb60"
+                },
+                {
+                  "reference": "Ezra 2:16",
+                  "id": "v2-16",
+                  "text": "The sons of Ater, belonging to Ezekia: ninety-eight.",
+                  "text_sha256": "3b647017a437cf562999c2f241a6cdde47a074bc40a037ded96df76fd87cbc15"
+                }
+              ],
+              "target_passage_sha256": "e7d47e44fd600040da89f7278f8796ad5d5a16fb8c22ac77e5c8081f46806677",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:18",
           "id": "v10-18",
           "text": "Ater, Ezekia, Azour,",
           "display_text": "Ater, Ezekia, Azour,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-18__nehemiah-7-21",
+              "target": "Nehemiah 7:21",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Ater and Ezekia, named together here after Bagoi and Edin, correspond to the register entry 'the sons of Ater, belonging to Ezekia', which also follows Bagoi and Edin. Here the two appear as successive names rather than in the 'belonging to' phrase.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "390adbec4b560239e1c212e65069384b4250b26704a96d3c8914589db652a96f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:21",
+                  "id": "v7-21",
+                  "text": "The sons of Ater, belonging to Ezekia: ninety-eight.",
+                  "text_sha256": "3b647017a437cf562999c2f241a6cdde47a074bc40a037ded96df76fd87cbc15"
+                }
+              ],
+              "target_passage_sha256": "39bc8bff945cb72bcd248fc56528d0f90d475628008fcd4d0427b2f642efcb61",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-18__ezra-2-16",
+              "target": "Ezra 2:16",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Ezra's register has the same entry 'the sons of Ater, belonging to Ezekia'; here Ater and Ezekia appear as successive names in the list of rulers.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "390adbec4b560239e1c212e65069384b4250b26704a96d3c8914589db652a96f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:16",
+                  "id": "v2-16",
+                  "text": "The sons of Ater, belonging to Ezekia: ninety-eight.",
+                  "text_sha256": "3b647017a437cf562999c2f241a6cdde47a074bc40a037ded96df76fd87cbc15"
+                }
+              ],
+              "target_passage_sha256": "dfc5bbacd2d91cdcd7532b95b2dcf92c62ea3da6082206699568256ae9219b94",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:19",
           "id": "v10-19",
           "text": "Odouia, Esam, Besi,",
           "display_text": "Odouia, Esam, Besi,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-19__nehemiah-7-22",
+              "target": "Nehemiah 7:22",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Esam and Besi, named consecutively here, correspond to the consecutive register entries for the sons of Esam and the sons of Besi.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0ec815b28a6ba2ed05df780b25a771fe795098dd3b925abe3d552fd5ab75ea6f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:22",
+                  "id": "v7-22",
+                  "text": "The sons of Esam: three hundred twenty-eight.",
+                  "text_sha256": "a53970ffb6723a443803ee0fd08734bb21ee5af04df69611daa4aae3d3040ff8"
+                }
+              ],
+              "target_passage_sha256": "dcfa830c3bd9021f0d35fb77a9afbc8ddd420a0acca5f4570c07660ea0219b5e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nehemiah-10-19__nehemiah-7-23",
+              "target": "Nehemiah 7:23",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "The sons of Besi follow the sons of Esam in the register, just as Besi follows Esam in this list of rulers.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0ec815b28a6ba2ed05df780b25a771fe795098dd3b925abe3d552fd5ab75ea6f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:23",
+                  "id": "v7-23",
+                  "text": "The sons of Besi: three hundred twenty-four.",
+                  "text_sha256": "fd08f1cb5909c602d9d15468f65086a9c302567c873e98e0592fd1d3956013f5"
+                }
+              ],
+              "target_passage_sha256": "9936be30878c0763995cc1931742f181fe3d330c19fc5eb9e0eb3170db0d8119",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:20",
           "id": "v10-20",
           "text": "Ariph, Anathoth, Nobai,",
           "display_text": "Ariph, Anathoth, Nobai,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-10-20__nehemiah-7-24",
+              "target": "Nehemiah 7:24",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Ariph, following Esam and Besi among the rulers, corresponds to the register entry for the sons of Ariph, which follows the sons of Esam and Besi.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8ffe460aeaab1739a8e10127e5e036f7b6e129b3405bf9bf7a83df443cefc3f2",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:24",
+                  "id": "v7-24",
+                  "text": "The sons of Ariph: one hundred twelve.",
+                  "text_sha256": "dc989e318df0110bea7322ef1442fe69d6cf346a6414a76c0bf818dc7d80509d"
+                }
+              ],
+              "target_passage_sha256": "2a68f9618ef9d8810c34150477ef5e8885d7b5d06c93217c3dcc23621c901180",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 10:21",
           "id": "v10-21",
           "text": "Magaphes, Mesoulam, Ezir,",
           "display_text": "Magaphes, Mesoulam, Ezir,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Magaphes, Mesoulam and Ezir are bare names among the rulers; Mesoulam is a common name borne by several men with different fathers (son of Basodia, son of Barchia), and nothing in the unit shows which, if any, is meant."
         },
         {
           "reference": "Nehemiah 10:22",
           "id": "v10-22",
           "text": "Mesozebel, Saddouk, Jeddoua,",
           "display_text": "Mesozebel, Saddouk, Jeddoua,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Mesozebel, Saddouk and Jeddoua are bare names among the rulers; the various Saddouks elsewhere are a builder, a scribe and high-priestly ancestors with no detail linking any of them to this signatory."
         },
         {
           "reference": "Nehemiah 10:23",
           "id": "v10-23",
           "text": "Phaltia, Anan, Anaia,",
           "display_text": "Phaltia, Anan, Anaia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Phaltia, Anan and Anaia are bare names; the other texts concern unrelated men named Anan in royal or tribal genealogies, so nothing identifies these signatories."
         },
         {
           "reference": "Nehemiah 10:24",
           "id": "v10-24",
           "text": "Osee, Anania, Asoub,",
           "display_text": "Osee, Anania, Asoub,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Osee, Anania and Asoub are bare names; the Asoubs and Ananias elsewhere have different fathers or roles (a builder son of Phaathmoab, a Levite's father, a royal deputy), so no identification is supported."
         },
         {
           "reference": "Nehemiah 10:25",
           "id": "v10-25",
           "text": "Aloes, Phalai, Sobek,",
           "display_text": "Aloes, Phalai, Sobek,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Aloes, Phalai and Sobek are personal names in the seal list; the only other text uses 'aloes' as a spice at Jesus' burial, which is unrelated."
         },
         {
           "reference": "Nehemiah 10:26",
           "id": "v10-26",
           "text": "Raoum, Esabana, Maasaia,",
           "display_text": "Raoum, Esabana, Maasaia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Raoum, Esabana and Maasaia are signatories among the rulers of the people; the Raoum of Ezra 4 is a Persian official opposing Jerusalem and the Raoum son of Bani is a Levite builder, neither matching this role."
         },
         {
           "reference": "Nehemiah 10:27",
           "id": "v10-27",
           "text": "and Aia, Ainan, Enan,",
           "display_text": "and Aia, Ainan, Enan,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Aia, Ainan and Enan are personal names in the seal list; the other texts use Ainan as a place name on Israel's northern border or near Timnah, which is unrelated."
         },
         {
           "reference": "Nehemiah 10:28",
           "id": "v10-28",
           "text": "Malouch, Eram and Baana.",
           "display_text": "Malouch, Eram and Baana.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Malouch, Eram and Baana close the rulers' list as bare names; the other Malouch texts are the priestly Malouch of the priest lists or a son of Banoui in Ezra, not shown to be this ruler."
         },
         {
           "reference": "Nehemiah 10:29",
@@ -11536,7 +13005,7 @@
     },
     {
       "chapter": 11,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 11,
         "staging_page_id": 2536,
@@ -11745,8 +13214,10 @@
           "id": "v11-6",
           "text": "All the sons of Phares who lived in Jerusalem were four hundred sixty-eight men of ability.",
           "display_text": "All the sons of Phares who lived in Jerusalem were four hundred sixty-eight men of ability.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit gives 468 men of ability among the sons of Phares in Jerusalem; the other texts share only numbers or the word 'ability' in unrelated contexts, and no shown passage records this group."
         },
         {
           "reference": "Nehemiah 11:7",
@@ -11835,8 +13306,10 @@
           "id": "v11-9",
           "text": "Joel son of Zechri was overseer over them, and Joudas son of Asana was second over the city.",
           "display_text": "Joel son of Zechri was overseer over them, and Joudas son of Asana was second over the city.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Joel son of Zechri and Joudas son of Asana are overseers of the Benjaminites in Jerusalem; the other texts name different Joels, a Benjaminite Salo, or the sons of Asana building a gate, none showing these men or their office."
         },
         {
           "reference": "Nehemiah 11:10",
@@ -11919,24 +13392,64 @@
           "id": "v11-12",
           "text": "and their brothers doing the work of the house: Amasi son of Zacharia, son of Phassour, son of Melchia,",
           "display_text": "and their brothers doing the work of the house: Amasi son of Zacharia, son of Phassour, son of Melchia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-11-12__1-chronicles-9-12-13",
+              "target": "1 Chronicles 9:12-13",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "Both lists of priests living in Jerusalem give a man whose ancestry runs back through Phassour/Paschor to Melchia/Malchia, and both describe these priests' brothers as serving in the work of the house of God. The nearer names in the chain differ (Amasi son of Zacharia here; Adaia son of Iraam in Chronicles).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "94244fa6df6c7167836a31186eaefdce96ea1c0fd7f1ea1efa9e2c9d3945a7cd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 9:12",
+                  "id": "v9-12",
+                  "text": "Adaia son of Iraam, son of Paschor, son of Malchia; and Maasaia son of Adiel, son of Jediou, son of Mosollam, son of Maselmoth, son of Emmer.",
+                  "text_sha256": "cd33712bb2306653bf74eb63d1f15874a6490a4730cd0b2482668b6340917692"
+                },
+                {
+                  "reference": "1 Chronicles 9:13",
+                  "id": "v9-13",
+                  "text": "Their brethren, rulers of ancestral houses, numbered one thousand seven hundred sixty, strong in power for the work of ministry in the house of God.",
+                  "text_sha256": "f4dd040e1366f32a188d6d56c137cabc68c60b8841de52035e30c1630e448661"
+                }
+              ],
+              "target_passage_sha256": "e0ef21f02dc4ff5dabb07627a33b252776f8eec7206edf3805b722945159e68f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 11:13",
           "id": "v11-13",
           "text": "heads of families: two hundred forty-two; and Amessai son of Esdriel,",
           "display_text": "heads of families: two hundred forty-two; and Amessai son of Esdriel,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit gives 242 heads of families and Amessai son of Esdriel; the other texts name an unrelated Esdriel among Transjordan chiefs or speak of 'families of the nations' in the Psalms."
         },
         {
           "reference": "Nehemiah 11:14",
           "id": "v11-14",
           "text": "and his brothers, men strong for battle: one hundred twenty-eight. Their overseer was Badiel.",
           "display_text": "and his brothers, men strong for battle: one hundred twenty-eight. Their overseer was Badiel.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit gives 128 men strong for battle under the overseer Badiel; the other texts share only battle language and different numbers, and Badiel appears nowhere else."
         },
         {
           "reference": "Nehemiah 11:15",
@@ -12025,8 +13538,10 @@
           "id": "v11-18",
           "text": "Two hundred eighty-four.",
           "display_text": "Two hundred eighty-four.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the bare total of 284; the other texts mention the holy city or contain unrelated numbers, and none records this total."
         },
         {
           "reference": "Nehemiah 11:19",
@@ -12109,16 +13624,20 @@
           "id": "v11-23",
           "text": "For the king’s command was upon them.",
           "display_text": "For the king’s command was upon them.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that the king's command was upon them; the other texts concern provisions for singers or Persian decrees for the temple, but none names this command, and the king here is unnamed."
         },
         {
           "reference": "Nehemiah 11:24",
           "id": "v11-24",
           "text": "Pathaia son of Baseza was at the king’s hand in every matter for the people.",
           "display_text": "Pathaia son of Baseza was at the king’s hand in every matter for the people.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Pathaia son of Baseza, at the king's hand for the people, appears nowhere else; the other texts concern Zerah, David's officials or Levitical service and share only the word 'hand'."
         },
         {
           "reference": "Nehemiah 11:25",
@@ -12175,8 +13694,10 @@
           "id": "v11-26",
           "text": "and in Jesou,",
           "display_text": "and in Jesou,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Jesou here is a town in the settlement list; the Joshua town lists shown contain no such name, and the other Jesou is a Levite, not a place."
         },
         {
           "reference": "Nehemiah 11:27",
@@ -12297,14 +13818,16 @@
           "id": "v11-36",
           "text": "From the Levites, portions of Jouda were for Beniamin.",
           "display_text": "From the Levites, portions of Jouda were for Beniamin.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit notes that Levitical portions of Jouda were for Beniamin; the other texts concern Jacob's scattering of Levi, Jerusalem's Judahite and Benjaminite residents or offerings for Levites, none describing this allocation."
         }
       ]
     },
     {
       "chapter": 12,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 12,
         "staging_page_id": 2548,
@@ -12565,8 +14088,10 @@
           "id": "v12-9",
           "text": "for the service divisions.",
           "display_text": "for the service divisions.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is only the fragment 'for the service divisions', continuing a list of Levites; other occurrences of service divisions or courses describe different arrangements, and the fragment itself names no group to match."
         },
         {
           "reference": "Nehemiah 12:10",
@@ -12611,8 +14136,10 @@
           "id": "v12-11",
           "text": "Jodae fathered Jonathan, and Jonathan fathered Jadou.",
           "display_text": "Jodae fathered Jonathan, and Jonathan fathered Jadou.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit traces the high-priestly line Jodae, Jonathan, Jadou; the other texts concern a priest Jodae of an earlier list or Jodae the father of David's officer Banaias, different men."
         },
         {
           "reference": "Nehemiah 12:12",
@@ -12745,56 +14272,98 @@
           "id": "v12-15",
           "text": "for Arem, Adnas; for Marioth, Elkai;",
           "display_text": "for Arem, Adnas; for Marioth, Elkai;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Arem, Adnas, Marioth and Elkai are priestly family heads; the only other text names a Marioth in the high priest's ancestry generations earlier, not this family head."
         },
         {
           "reference": "Nehemiah 12:16",
           "id": "v12-16",
           "text": "for Addai, Zacharias; for Ganathon, Mosollam;",
           "display_text": "for Addai, Zacharias; for Ganathon, Mosollam;",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nehemiah-12-16__nehemiah-10-7",
+              "target": "Nehemiah 10:7",
+              "verdict": "supported",
+              "relationship": "parallel priestly list",
+              "rationale": "Ganathon is a priestly house in this list of family heads ('for Ganathon, Mosollam') and is also named among the priests sealing the pledge (Daniel, Ganathon, Barouch).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "298ceb855d1a18692a33c81100ada1995f4ed7e4a2ce6197d777823e029f6195",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 10:7",
+                  "id": "v10-7",
+                  "text": "Daniel, Ganathon, Barouch,",
+                  "text_sha256": "7c19d71e849b435c8af5ec2dc191601b0830963f092658252c373d769a3cebb5"
+                }
+              ],
+              "target_passage_sha256": "48785c09b4d4ddc0c30f816b10dc971d2ef321684dc8dfd78c75269b0b1f3af5",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nehemiah 12:17",
           "id": "v12-17",
           "text": "for Abia, Zechri; for Beniamin, at times, for Pheleti;",
           "display_text": "for Abia, Zechri; for Beniamin, at times, for Pheleti;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names the priestly houses Abia and Beniamin with their heads; the other texts concern the tribe or sons of Beniamin living in Jerusalem, not a priestly house, so they share only a name."
         },
         {
           "reference": "Nehemiah 12:18",
           "id": "v12-18",
           "text": "for Balga, Samoue; for Semeia, Jonathan;",
           "display_text": "for Balga, Samoue; for Semeia, Jonathan;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names the priestly houses Balga and Semeia with their heads Samoue and Jonathan; the only other text lists a singer Semeias at the wall dedication, a different person."
         },
         {
           "reference": "Nehemiah 12:19",
           "id": "v12-19",
           "text": "for Joiarib, Maththanai; for Idia, Ozi;",
           "display_text": "for Joiarib, Maththanai; for Idia, Ozi;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Joiarib, Maththanai, Idia and Ozi are priestly family heads; the other texts name different men called Ozi in high-priestly and Issacharite genealogies."
         },
         {
           "reference": "Nehemiah 12:20",
           "id": "v12-20",
           "text": "for Sallai, Kallai; for Amouk, Abed;",
           "display_text": "for Sallai, Kallai; for Amouk, Abed;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Sallai, Kallai, Amouk and Abed are priestly family heads; the other texts concern Gaal son of Abed at Shechem, an unrelated man."
         },
         {
           "reference": "Nehemiah 12:21",
           "id": "v12-21",
           "text": "for Elkia, Asabias; for Jedeiou, Nathanael.",
           "display_text": "for Elkia, Asabias; for Jedeiou, Nathanael.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The priestly houses Elkia and Jedeiou with heads Asabias and Nathanael are not shown elsewhere; the other texts name a Levite Nathanael and Asabias under Josiah, an assistant of Esdras, and Elkia in the high priest's ancestry, all different men."
         },
         {
           "reference": "Nehemiah 12:22",
@@ -12915,8 +14484,10 @@
           "id": "v12-25",
           "text": "when I gathered the gatekeepers,",
           "display_text": "when I gathered the gatekeepers,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The fragment 'when I gathered the gatekeepers' records Nehemiah's own act; the other texts describe gatekeeper divisions or duties under David, Solomon or Jehoiada, or use 'gatekeepers' figuratively, none referring to this gathering."
         },
         {
           "reference": "Nehemiah 12:26",
@@ -13083,8 +14654,10 @@
           "id": "v12-29",
           "text": "and from fields, for the singers had built farmsteads for themselves in Jerusalem.",
           "display_text": "and from fields, for the singers had built farmsteads for themselves in Jerusalem.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit explains that the singers had built farmsteads for themselves around Jerusalem; the other texts concern Benjaminite towns, Levitical cities, farmsteads of Judah's settlers or Egypt's plague, none describing the singers' settlements."
         },
         {
           "reference": "Nehemiah 12:30",
@@ -13187,24 +14760,30 @@
           "id": "v12-32",
           "text": "and Osaia and half the rulers of Jouda went after them,",
           "display_text": "and Osaia and half the rulers of Jouda went after them,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Osaia and half the rulers of Jouda appear only in this dedication procession. The Osaia of Ezra 8:19 is a Merarite Levite brought back with Ezra, not shown in any processional role, and the other passages only mention the rulers or sons of Jouda in general settlement lists. Nothing identifies this group elsewhere."
         },
         {
           "reference": "Nehemiah 12:33",
           "id": "v12-33",
           "text": "with Azarias, Esdras and Mesoulam,",
           "display_text": "with Azarias, Esdras and Mesoulam,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Azarias, Esdras and Mesoulam are named only as members of this procession. Other texts with Azaria, Esdra(s) or Mesoulam involve different contexts: a covenant-sealing list, a priestly house headed by Mesoulam, the returnee leaders, Ezra's genealogy and a gate repairer. None shows these men in this role, and the names are too common to establish identity."
         },
         {
           "reference": "Nehemiah 12:34",
           "id": "v12-34",
           "text": "Jouda, Beniamin, Samaia and Jermia,",
           "display_text": "Jouda, Beniamin, Samaia and Jermia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Jouda, Beniamin, Samaia and Jermia are processional participants. The other passages use Jouda and Beniamin as tribal names in settlement lists, not as these individuals, and no text shows the same Samaia or Jermia in this ceremony."
         },
         {
           "reference": "Nehemiah 12:35",
@@ -13591,8 +15170,10 @@
           "id": "v12-42",
           "text": "and Maasias, Semeias, Eleazar, Ozi, Joanan, Melchias, Ailam and Ezour. The singers were heard and were appointed.",
           "display_text": "and Maasias, Semeias, Eleazar, Ozi, Joanan, Melchias, Ailam and Ezour. The singers were heard and were appointed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse lists participants in the dedication and notes that the singers were heard. Similar names elsewhere (Ozi the Levite overseer, Maasia and Melchia in a genealogy, Eleazar and Melchia among the sons of Phoros, Joanan son of Karee) are not shown to be the same people. The praise psalms are only generic calls to shout for joy and do not touch this specific ceremony."
         },
         {
           "reference": "Nehemiah 12:43",
@@ -15278,7 +16859,18 @@
   "completed_source_sections": [
     1,
     2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
     9,
+    10,
+    11,
+    12,
     13
-  ]
+  ],
+  "closed_source_units": 50,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

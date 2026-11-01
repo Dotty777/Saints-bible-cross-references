@@ -14,7 +14,8 @@ def render():
   done=[v for c in d['chapters'] for v in c['verses'] if v['status']=='completed']
   count=len(done);pairs=sum(len(v['cross_references']) for v in done);name=d['book']
   nextref=d.get('next_reference');newref=d.get('next_unreviewed_reference')
-  summary=f'{count} completed source verses; {pairs} retained pairs; {d["reviewed_source_units"]} source units read; {len(checks["deferred_source_units"])} deferred units.'
+  closed_units=checks.get('closed_source_units',[])
+  summary=f'{count} completed source verses; {pairs} retained pairs; {d["reviewed_source_units"]} source units read; {len(checks["deferred_source_units"])} deferred units.'+(f' {len(closed_units)} units closed with no supportable cross-reference (no completion credit).' if closed_units else '')
   follow=f'First unfinished: {nextref or "none"}. Next new source review in this book: {newref or "none"}.'
   if d.get('all_original_source_units_read'):
    follow+=' All original source units in this book have been read. Overall next new source: '+str((progress.get('next_unreviewed') or {}).get('reference','none'))+'.'
@@ -38,6 +39,9 @@ def render():
   deferred=checks['deferred_source_units']
   deferred_html='<aside><h2>Reviewed units still unfinished</h2><ul>'+''.join('<li>'+e(x['source_reference'])+': '+e(x['reason'])+'</li>' for x in deferred)+'</ul></aside>' if deferred else ''
   if deferred:text.extend(['Reviewed units still unfinished']+[x['source_reference']+': '+x['reason'] for x in deferred]+[''])
+  if closed_units:
+   deferred_html+='<aside><h2>Closed with no supportable cross-reference</h2><ul>'+''.join('<li>'+e(x['source_reference'])+': '+e(x['reason'])+'</li>' for x in closed_units)+'</ul></aside>'
+   text.extend(['Closed with no supportable cross-reference']+[x['source_reference']+': '+x['reason'] for x in closed_units]+[''])
   style='body{max-width:860px;margin:36px auto;padding:0 22px;font:18px/1.6 Georgia,serif;color:#202d35;background:#faf9f5}h1,h2,nav,summary,.kind{font-family:system-ui,sans-serif}h1{line-height:1.2}section{border-top:1px solid #ccd4d4;margin-top:30px;padding-top:12px}a{color:#1d5e79}nav a{display:inline-block;margin-right:12px}.scripture,.target-scripture{white-space:pre-line}.scripture{font-size:1.13em}.kind{font-size:.8em;color:#52656c}details{padding:8px 14px;border-left:3px solid #98b6bb;background:#f0f3f1}summary{cursor:pointer}li{margin-bottom:15px}aside{border:1px solid #d9c8a5;padding:16px;margin-top:26px}footer{margin-top:40px;font-size:.85em}'
   page='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(name)+' cross-references</title><style>'+style+'</style></head><body><header><h1>'+e(name)+' cross-references</h1><p>'+e(summary)+'</p><p>'+e(follow)+'</p><p>'+e(d['completion_definition'])+'</p><nav><a href="README.md">Book record</a><a href="'+e(d['readable_text'])+'">Plain text</a><a href="verses.json">Structured records</a><a href="../progress.json">New Testament progress</a></nav><nav>'+''.join(nav)+'</nav></header>'+''.join(sections)+deferred_html+'<footer><p>Review date '+e(d['date'])+'. AI-assisted comparison of supplied English records. <a href="'+e(d['source_snapshot']['url'])+'">Pinned source edition</a>. Independent specialist review and live destination checks remain pending.</p></footer></body></html>'
   write(folder/d['readable_html'],page);write(folder/d['readable_text'],'\n'.join(text))

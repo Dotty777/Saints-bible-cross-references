@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Micah",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,28 +32,38 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
+    1,
+    2,
     3,
-    5
+    4,
+    5,
+    6,
+    7
   ],
   "completed_source_sections": [
+    1,
+    2,
     3,
-    5
+    4,
+    5,
+    6,
+    7
   ],
-  "completed_source_verses": 98,
-  "completed_cross_references": 105,
+  "completed_source_verses": 100,
+  "completed_cross_references": 109,
   "total_chapters": 7,
   "total_source_sections": 7,
   "total_source_verse_units": 105,
-  "next_reference": "Micah 1:11",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Micah.html",
   "readable_text": "Micah.txt",
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "section": 1,
@@ -564,8 +574,10 @@
           "id": "v1-11",
           "text": "Dwelling well in her cities, the inhabitant of Sennaan did not come out to mourn the house adjoining her; she will receive from you a blow of pain.",
           "display_text": "Dwelling well in her cities, the inhabitant of Sennaan did not come out to mourn the house adjoining her; she will receive from you a blow of pain.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit concerns the inhabitant of Sennaan not mourning the adjoining house. No lead mentions Sennaan or the adjoining house; they speak of nakedness, mourning, or blows in other settings and share only general words."
         },
         {
           "reference": "Micah 1:12",
@@ -671,16 +683,76 @@
           "id": "v1-14",
           "text": "Therefore you will give away those being sent as far as the inheritance of Gath—vain houses; it became empty things for Israel’s kings.",
           "display_text": "Therefore you will give away those being sent as far as the inheritance of Gath—vain houses; it became empty things for Israel’s kings.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit speaks of those sent as far as the inheritance of Gath and vain houses for Israel's kings. The leads list Judean towns, gifts, vanity, or mention the Philistine city Gath in unrelated events; none mentions the inheritance of Gath or the vain houses."
         },
         {
           "reference": "Micah 1:15",
           "id": "v1-15",
           "text": "Until I bring heirs to you, O inheritance dwelling in Lachish, the glory of Israel’s daughter will come as far as Odollam.",
           "display_text": "Until I bring heirs to you, O inheritance dwelling in Lachish, the glory of Israel’s daughter will come as far as Odollam.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "micah-1-15__2-chronicles-11-7",
+              "target": "2 Chronicles 11:7",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Micah says the glory of Israel's daughter will come as far as Odollam, and 2 Chronicles 11:7 lists Odollam, with the same spelling, among the cities built up for defence.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "dae166aa9dd8f4bc1398e7380b6b448a2b3b7b5554658235e41915ac87a8ed06",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 11:7",
+                  "id": "v11-7",
+                  "text": "Baithsoura, Sokchoth, and Odollam,",
+                  "text_sha256": "1ff1b17f73aa8e0b48b7f5aaa5c073c8c0d28bdc24fd4cde2b3fab7d1272f433"
+                }
+              ],
+              "target_passage_sha256": "ef837950aa9e95e81cea71d3b2a144c63aa345c1ab3a3f5cbc65c1538289844a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "micah-1-15__1-samuel-22-1",
+              "target": "1 Samuel 22:1",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Micah's Odollam is the place David fled to when he escaped and came to 'the cave of Adullam'. The spelling differs (Odollam / Adullam).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "dae166aa9dd8f4bc1398e7380b6b448a2b3b7b5554658235e41915ac87a8ed06",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-samuel/verses.json",
+                "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Samuel 22:1",
+                  "id": "v22-1",
+                  "text": "David went from there and escaped, and he came to the cave of Adullam. His brothers and his father’s house heard, and they went down to him there.",
+                  "text_sha256": "ad58cc7616c74d39393d0237d40f27306e13c3792204df10e71b4f66d5550c67"
+                }
+              ],
+              "target_passage_sha256": "6c903cc428fa273085c66c80f296103b3ef9ae1635ec622dff4676deb3ec6736",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Micah 1:16",
@@ -725,7 +797,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -1003,8 +1075,10 @@
           "id": "v2-6",
           "text": "Do not weep with tears, nor let them shed tears over these things, for he will not reject reproaches.",
           "display_text": "Do not weep with tears, nor let them shed tears over these things, for he will not reject reproaches.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit forbids weeping and shedding tears over these things and speaks of reproaches. The leads forbid prophesying, which is not what the unit says, or mention tears and reproaches in unrelated settings."
         },
         {
           "reference": "Micah 2:7",
@@ -1867,7 +1941,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -2204,8 +2278,10 @@
           "id": "v4-8",
           "text": "And you, squalid tower of the flock, daughter of Zion, to you it will come and enter—the former rule, a kingdom from Babylon for the daughter of Jerusalem.”",
           "display_text": "And you, squalid tower of the flock, daughter of Zion, to you it will come and enter—the former rule, a kingdom from Babylon for the daughter of Jerusalem.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit addresses the squalid tower of the flock, daughter of Zion, promising the former rule and a kingdom from Babylon. The leads mention restored judges, a different 'tower of Gader', the capture of Zion, eternal reign, or Zion's towers; none shares the tower of the flock or the kingdom from Babylon."
         },
         {
           "reference": "Micah 4:9",
@@ -3117,7 +3193,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "section": 6,
@@ -3953,14 +4029,72 @@
           "id": "v6-16",
           "text": "You kept the ordinances of Zambri and all the works of Achaab’s house, and you walked in their counsels, so that I may hand you over to obliteration and her inhabitants to hissing. You will receive the reproaches of peoples.”",
           "display_text": "You kept the ordinances of Zambri and all the works of Achaab’s house, and you walked in their counsels, so that I may hand you over to obliteration and her inhabitants to hissing. You will receive the reproaches of peoples.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "micah-6-16__2-kings-21-3",
+              "target": "2 Kings 21:3",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Micah condemns keeping the works of Achaab's house, and 2 Kings 21:3 says Manasseh made groves 'as Ahab king of Israel had done'. Both describe Judah imitating the practices of this king; the spelling differs (Achaab / Ahab).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a389a400c0bf28f093fab5a86c017849c9cf53b18b03c60a5d6ed7f774f0deb3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-kings/verses.json",
+                "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Kings 21:3",
+                  "id": "v21-3",
+                  "text": "He rebuilt the high places his father Hezekiah had pulled down, erected an altar for Baal, and made groves as Ahab king of Israel had done. He bowed down to all heaven’s host and served them.",
+                  "text_sha256": "ca8019545da733330e0f42ead588fc3930436f38f696da0adf0a5c29b4229ec5"
+                }
+              ],
+              "target_passage_sha256": "c10a5c66d2f64d39c3d95cc2972de061555657b83a9060f263aef9b5b9c0803e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "micah-6-16__jeremiah-25-9",
+              "target": "Jeremiah 25:9",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both threaten the people with becoming a hissing and bearing reproach: Micah says 'her inhabitants to hissing. You will receive the reproaches of peoples', and Jeremiah says 'a ruin, a hissing, and eternal reproach.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a389a400c0bf28f093fab5a86c017849c9cf53b18b03c60a5d6ed7f774f0deb3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 25:9",
+                  "id": "v25-9",
+                  "text": "behold, I am sending and will take the clan from the north and bring them against this land, its inhabitants, and all the surrounding nations. I will lay them waste and make them a ruin, a hissing, and eternal reproach.",
+                  "text_sha256": "87b3cde2c6a65953389cda3b3a809a2512703608d9076b2f8340e25704caa492"
+                }
+              ],
+              "target_passage_sha256": "ea222352c0286277c060ffa1fb1ece6e11a0fd1e7fdc6ff8a9e5357c47e5eda0",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         }
       ]
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -4502,8 +4636,10 @@
           "id": "v7-12",
           "text": "that day. Your cities will come to leveling and division among Assyrians, and your fortified cities to division from Tyre as far as Syria’s river—a day of water and tumult.",
           "display_text": "that day. Your cities will come to leveling and division among Assyrians, and your fortified cities to division from Tyre as far as Syria’s river—a day of water and tumult.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit announces leveling and division of cities among the Assyrians, from Tyre to Syria's river. The leads describe the return of exiles from Egypt and Assyria, or mention Tyre, Syria or Assyria in unrelated events; none shares the leveling and division of cities."
         },
         {
           "reference": "Micah 7:13",
@@ -4969,5 +5105,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 5,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Daniel",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,22 +32,52 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
-  "completed_chapters": [],
-  "completed_source_sections": [],
-  "completed_source_verses": 428,
-  "completed_cross_references": 445,
+  "review_status": "complete_initial_curated_pass",
+  "completed_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "completed_source_sections": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "completed_source_verses": 447,
+  "completed_cross_references": 468,
   "total_chapters": 14,
   "total_source_sections": 14,
   "total_source_verse_units": 487,
-  "next_reference": "Daniel 1:11",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Daniel.html",
   "readable_text": "Daniel.txt",
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "section": 1,
@@ -608,8 +638,38 @@
           "id": "v1-11",
           "text": "Daniel said to Abiesdri, appointed chief eunuch over Daniel, Hananiah, Mishael, and Azariah,",
           "display_text": "Daniel said to Abiesdri, appointed chief eunuch over Daniel, Hananiah, Mishael, and Azariah,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-1-11__daniel-1-19",
+              "target": "Daniel 1:19",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "Both verses name the same four young men in the same order, 'Daniel, Hananiah, Mishael, and Azariah': here as those under the appointed chief eunuch, and there as those found to have no equal among the wise after their test.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "311fa7d90a97c5bf7818719ca34b3450e7bd3303bb9ab6b134be4389806baa1c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 1:19",
+                  "id": "v1-19",
+                  "text": "The king conversed with them, and among the wise no one was found like Daniel, Hananiah, Mishael, and Azariah. They remained beside the king.",
+                  "text_sha256": "b5fb2300a8d94fc47121955024b3570560f151d798f6b1f35e0b23b898388d32"
+                }
+              ],
+              "target_passage_sha256": "c79eae98acda96f32564484f49ac17f71a12d14038a106057e00b07824da02f1",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 1:12",
@@ -694,8 +754,38 @@
           "id": "v1-14",
           "text": "He dealt with them in this manner and tested them for ten days.",
           "display_text": "He dealt with them in this manner and tested them for ten days.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-1-14__revelation-2-10",
+              "target": "Revelation 2:10",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both texts speak of being 'tested' for 'ten days': Daniel and his companions are tested for ten days, while in Revelation 2:10 believers are told they will be thrown into prison 'that ye may be tested, and ye shall have affliction for ten days.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "be60275486c7b790ec2e0e34a5808da39e3c842f1b198f6399c6ed540214898d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 2:10",
+                  "id": "v2-10",
+                  "text": "Fear none of the things thou art about to suffer. Behold, the devil is about to throw some of you into prison, that ye may be tested, and ye shall have affliction for ten days. Become faithful until death, and I will give thee the crown of life.",
+                  "text_sha256": "6964651db9a01a1d98d47610e226f803560bb5a1765f43aec4780ccbfbae844f"
+                }
+              ],
+              "target_passage_sha256": "5097e29a4da84d4f3a0260c6c4194ea9a94f5e6bfb29fdd68f436f5583754b2f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 1:15",
@@ -1087,7 +1177,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -2832,8 +2922,66 @@
           "id": "v2-36",
           "text": "This was the vision; now we will state its interpretation before the king.",
           "display_text": "This was the vision; now we will state its interpretation before the king.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-2-36__daniel-2-26",
+              "target": "Daniel 2:26",
+              "verdict": "supported",
+              "relationship": "same event",
+              "rationale": "The king asked Daniel whether he could 'disclose to me the vision I saw and its interpretation', and this verse announces that, having stated 'the vision', Daniel will now give 'its interpretation'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c227dd410f0f89b384c4872755d9953b513df71f507049b3e6d3145bb4de3835",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 2:26",
+                  "id": "v2-26",
+                  "text": "The king answered Daniel, who was called Baltasar in Chaldean, “Will you be able to disclose to me the vision I saw and its interpretation?”",
+                  "text_sha256": "b533b081df12b3f6998cff16059de45aed434fbd6603e89c0fb1fb6c982182c3"
+                }
+              ],
+              "target_passage_sha256": "21fcc85597c578fc14313a091478ec9dbd1c7462875c5243cfe258e926bccf4a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "daniel-2-36__daniel-2-45",
+              "target": "Daniel 2:45",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "This verse opens the interpretation of 'the vision', and the closing verse of that interpretation affirms, 'The vision is exact, and its interpretation trustworthy.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c227dd410f0f89b384c4872755d9953b513df71f507049b3e6d3145bb4de3835",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 2:45",
+                  "id": "v2-45",
+                  "text": "just as you saw a stone cut from a mountain without hands, pounding together the earthenware, iron, bronze, silver, and gold. The great God has shown the king what will happen in the last days. The vision is exact, and its interpretation trustworthy.”",
+                  "text_sha256": "56a13db8a17634881c4a4cfeebb740903aa94e2b05aa94862ddb4d5ae4aad0a5"
+                }
+              ],
+              "target_passage_sha256": "841d94c2355d7ecbdd55abdb917c19ef69d5230f41dc2fdcca4defdd5f3c5bd7",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 2:37",
@@ -3424,7 +3572,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -3524,8 +3672,10 @@
           "id": "v3-3",
           "text": "Those previously listed stood opposite the image.",
           "display_text": "Those previously listed stood opposite the image.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The brief notice that the previously listed officials stood opposite the image depends on the preceding list, which is not shown; the image of Nebuchadnezzar's dream, the beast's image in Revelation, and other standing scenes share only 'image' or 'stood opposite'."
         },
         {
           "reference": "Daniel 3:4",
@@ -3755,8 +3905,38 @@
           "id": "v3-9",
           "text": "They spoke and said, “My lord king, live for ever!",
           "display_text": "They spoke and said, “My lord king, live for ever!",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-3-9__daniel-2-4",
+              "target": "Daniel 2:4",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both verses open an address to Nebuchadnezzar with the identical words 'My lord king, live for ever!' In the other verse the speakers are the Chaldeans asking about his dream; here they are introducing an accusation.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "274b1087db55b69f8351ca6ee3bc2851743702c3ec1d3873ef6e9af2434223cd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 2:4",
+                  "id": "v2-4",
+                  "text": "The Chaldeans spoke to the king in the Syrian language: “My lord king, live for ever! Report your dream to your servants, and we will explain its interpretation to you.”",
+                  "text_sha256": "c31244b83910eb34c2c0746267dc724d328fd55c05c324ce7cd3886d1d799250"
+                }
+              ],
+              "target_passage_sha256": "1d9d223dec4b728f51256cf09361dd12137d56d6d71c7737a4a10a1fbea874fe",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 3:10",
@@ -4011,8 +4191,66 @@
           "id": "v3-16",
           "text": "Sedrach, Misach, and Abdenago answered King Nebuchadnezzar, “O king, we have no need to answer you concerning this command.",
           "display_text": "Sedrach, Misach, and Abdenago answered King Nebuchadnezzar, “O king, we have no need to answer you concerning this command.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-3-16__daniel-3-12",
+              "target": "Daniel 3:12",
+              "verdict": "supported",
+              "relationship": "same event",
+              "rationale": "The accusation names 'Sedrach, Misach, and Abdenago' as men who 'have not feared your command', and in this verse the same three answer the king about 'this command'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "acb99eaedf74bac07e2ee7814caee7c38d126194546a800f57208333fe7f46e5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 3:12",
+                  "id": "v3-12",
+                  "text": "There are certain Jewish men whom you appointed over the country of Babylonia—Sedrach, Misach, and Abdenago. Those men have not feared your command; they have not served your idol or bowed to your golden image that you set up.”",
+                  "text_sha256": "b714e92c2eae747a1f58c46d75eb41428473898f2f031a304c7f031da306568a"
+                }
+              ],
+              "target_passage_sha256": "95548aa7e072cd7b7b7b28f9d66e22e4b5af1b1204f1e997f95cce7b0d349546",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "daniel-3-16__daniel-1-7",
+              "target": "Daniel 1:7",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "This verse names Sedrach, Misach, and Abdenago, and the other verse records that these are the names given to Hananiah, Mishael, and Azariah by the chief eunuch.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "acb99eaedf74bac07e2ee7814caee7c38d126194546a800f57208333fe7f46e5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 1:7",
+                  "id": "v1-7",
+                  "text": "The chief eunuch assigned them names: Daniel, Baltasar; Hananiah, Sedrach; Mishael, Misach; and Azariah, Abdenago.",
+                  "text_sha256": "04a163b8b601af566391ac641d60084e19682e08fc2c230c47b1ee4538c027cf"
+                }
+              ],
+              "target_passage_sha256": "d00811a80837798da5ec892bdf4a4045ea138bef44ca6a57300c30c1c37bc15c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 3:17",
@@ -5319,8 +5557,38 @@
           "id": "v3-47",
           "text": "The flame spread above the furnace for forty-nine cubits.",
           "display_text": "The flame spread above the furnace for forty-nine cubits.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-3-47__daniel-3-23",
+              "target": "Daniel 3:23",
+              "verdict": "supported",
+              "relationship": "parallel account",
+              "rationale": "Both verses describe the flame coming out of the furnace: Daniel 3:23 says \"the flame came out of the furnace\" and killed the men who had bound Azariah and his companions, and Daniel 3:47 says the flame \"spread above the furnace\". Only Daniel 3:47 gives the forty-nine-cubit measurement.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "42b0e8eefd4260a7583498d10caa099a7bad28bd6b4ab95dd1c40e0dc2a7af2d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 3:23",
+                  "id": "v3-23",
+                  "text": "The flame came out of the furnace and burned and killed the men who had bound Azariah and his companions; but they themselves were preserved.",
+                  "text_sha256": "4e927a5d8fb489351c5775b4cb80809f9ca93675651c83a47d94938639861b0b"
+                }
+              ],
+              "target_passage_sha256": "6f86f22e0f67a055f562101993d48335b63f1ae487505940455817d4b6198c55",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 3:48",
@@ -7388,7 +7656,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -8353,8 +8621,10 @@
           "id": "v4-29",
           "text": "After twelve months, the king was walking upon the city walls with all his glory and passing over its towers.",
           "display_text": "After twelve months, the king was walking upon the city walls with all his glory and passing over its towers.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit gives only a twelve-month interval and the king walking on the city walls and towers. The suggested passages either speak in general terms about God's patience and delayed judgment or describe other kings building walls and towers. None of them concerns this king, this walk or this interval."
         },
         {
           "reference": "Daniel 4:30",
@@ -8850,7 +9120,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "section": 5,
@@ -8933,8 +9203,38 @@
           "id": "v5-1",
           "text": "King Baltasar held a great banquet for his companions and drank wine.",
           "display_text": "King Baltasar held a great banquet for his companions and drank wine.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-5-1__daniel-5-23",
+              "target": "Daniel 5:23",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Daniel's rebuke recalls this same feast in nearly the same words: \"you held a banquet for your friends and drank wine\" matches \"held a great banquet for his companions and drank wine.\" Daniel 5:23 adds that the vessels of God's house were used.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e138b563d4b24cbc33431c6c19ac428d5ada6a274b9d0aa64d20406bdda5945f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 5:23",
+                  "id": "v5-23",
+                  "text": "O king, you held a banquet for your friends and drank wine. The vessels of the living God’s house were brought to you, and you and your magnates drank from them and praised all the idols made by human hands. But you did not bless the living God. Your breath is in His hand, and He gave you your kingdom, yet you neither blessed Him nor offered Him praise.",
+                  "text_sha256": "75f42d23ebf0cffa9018a62f4c1165d00ae68f72285cbe2a08eb936e770255c1"
+                }
+              ],
+              "target_passage_sha256": "fde78b513865d3bbfa204be988d7a24e0ffdcf737ca7753fc1cbd83ee140eb98",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 5:2",
@@ -9132,8 +9432,38 @@
           "id": "v5-6",
           "text": "His appearance changed, and fears and apprehensions pressed upon him. The king hurried and rose to look at that writing, while his companions around him were boasting.",
           "display_text": "His appearance changed, and fears and apprehensions pressed upon him. The king hurried and rose to look at that writing, while his companions around him were boasting.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-5-6__daniel-4-19",
+              "target": "Daniel 4:19",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The two verses use the same pair of phrases for a reaction to a sign from God. Here the king's \"appearance changed\" and \"apprehensions pressed upon him\". In Daniel 4:19 \"apprehension pressed upon\" Daniel and he was \"changed in appearance.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "424796efc0ef28e68829e878a9e3ad500fdd527eb7d820017e18dbcfa31b76b1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 4:19",
+                  "id": "v4-19",
+                  "text": "Daniel was greatly astonished, and apprehension pressed upon him. Frightened, seized with trembling, and changed in appearance, he shook his head and remained astonished for an hour. He answered me in a gentle voice, ‘O king, may this dream come upon those who hate you and its interpretation upon your enemies!",
+                  "text_sha256": "ecab7efce7c8c969fbbc827206e4660a59c0d13a6a7823fa1099d0c1960b7290"
+                }
+              ],
+              "target_passage_sha256": "4f37e3f5470ea5376a106409c2b5dbbf08de1f3455966e5dbcdeeb6d5b48b0c5",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 5:7",
@@ -9225,8 +9555,10 @@
           "id": "v5-9",
           "text": "Then the king summoned the queen about the sign and explained to her how great it was, and that no one could report the writing’s interpretation to the king.",
           "display_text": "Then the king summoned the queen about the sign and explained to her how great it was, and that no one could report the writing’s interpretation to the king.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is a transition in which the king summons the queen and tells her that no one could give the writing's interpretation. The suggested passages either repeat nearby details of the same chapter or come from other scenes, such as dreams told to interpreters or kings troubled by news. None of them mentions the queen or this exchange."
         },
         {
           "reference": "Daniel 5:10",
@@ -9378,8 +9710,38 @@
           "id": "v5-13",
           "text": "Then Daniel was brought before the king, and the king addressed him:",
           "display_text": "Then Daniel was brought before the king, and the king addressed him:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-5-13__daniel-2-25",
+              "target": "Daniel 2:25",
+              "verdict": "supported",
+              "relationship": "parallel scene",
+              "rationale": "In both verses Daniel is brought before a king to deal with a hidden matter: 'Daniel was brought before the king' here, and 'Arioch urgently brought Daniel to the king' in Daniel 2:25, presenting him as one 'who will disclose every detail to the king.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0f2f977ce153a2d01d7796ac103398694713974bd8ec918fdad43ee88bbcd2fd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 2:25",
+                  "id": "v2-25",
+                  "text": "Then Arioch urgently brought Daniel to the king and said, “I have found a wise man from the captivity of the sons of Judea who will disclose every detail to the king.”",
+                  "text_sha256": "b9796febb4070a3e992b2154d6d6766aa3bab1556d9531d0dd2e59748bbdc9ea"
+                }
+              ],
+              "target_passage_sha256": "8650340cd9617888152865a802d3d4a33c0f883e74b03e29b5427f815d789335",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 5:16",
@@ -9697,7 +10059,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "section": 6,
@@ -9712,8 +10074,38 @@
           "id": "v6-1",
           "text": "Artaxerxes of the Medes received the kingdom. Darius was full of days and glorious in old age.",
           "display_text": "Artaxerxes of the Medes received the kingdom. Darius was full of days and glorious in old age.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-6-1__daniel-6-29",
+              "target": "Daniel 6:29",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Daniel 6:1 and 6:29 open and close the account of King Darius in this chapter, and both use the phrase \"received the kingdom\" for a change of ruler. At the start Artaxerxes of the Medes receives the kingdom while Darius is in old age. At the end Darius is gathered to his people and Cyrus the Persian receives his kingdom.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fc09216c90668eaa2306e79c3ddcbfbed8888395f51e76967a4f52f5c2641075",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 6:29",
+                  "id": "v6-29",
+                  "text": "King Darius was gathered to his people, and Daniel was appointed in Darius’s reign. Cyrus the Persian received his kingdom.",
+                  "text_sha256": "898df62cd1c99cc7fe4aea41dbde31ece606ebca1fc84d31c4e75434aa277cec"
+                }
+              ],
+              "target_passage_sha256": "e71c2fdd05a098db81ba876ce0e64b14ce8ebdc05787d6d6ab07f534849e9298",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 6:2",
@@ -9929,8 +10321,10 @@
           "id": "v6-7",
           "text": "Then those men approached and said before the king:",
           "display_text": "Then those men approached and said before the king:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit only says that the men approached and spoke before the king. The suggested passages are other court speeches or greetings, a later step in the same plot, and a psalm about conspirators. None corresponds to this bare introduction to a speech."
         },
         {
           "reference": "Daniel 6:8",
@@ -10896,7 +11290,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -11127,8 +11521,38 @@
           "id": "v7-6",
           "text": "After this I watched another beast, like a leopard. Four wings stretched over it, and the beast had four heads; a tongue was given it.",
           "display_text": "After this I watched another beast, like a leopard. Four wings stretched over it, and the beast had four heads; a tongue was given it.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-7-6__revelation-13-2",
+              "target": "Revelation 13:2",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both visions show a beast described as \"like a leopard\" that is given something: here a tongue, in Revelation 13:2 power and great authority. Revelation's beast also has a bear's feet and a lion's mouth. The four wings and four heads appear only in Daniel.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "40787804554f16cca51c4c92b57232ad9ec96fb9d5cea241338f5274938bb35a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 13:2",
+                  "id": "v13-2",
+                  "text": "And the beast I saw was like a leopard, and its feet like a bear’s, and its mouth like a lion’s mouth. And the dragon gave it his power and his throne and great authority.",
+                  "text_sha256": "af3738ecf4aaddaba35fd5a0ee8a7018c28ee66628a38c85091dd8bb159ffd4c"
+                }
+              ],
+              "target_passage_sha256": "cad366dfa9f68c18cd0713bb94eb5f97be03caf4e0453ff8659b6972671648ec",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 7:7",
@@ -12205,7 +12629,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "section": 8,
@@ -12259,8 +12683,66 @@
           "id": "v8-2",
           "text": "I saw in the vision of my dream, while I was in the city of Susa in the country of Elymais, still beside the gate of Ailam,",
           "display_text": "I saw in the vision of my dream, while I was in the city of Susa in the country of Elymais, still beside the gate of Ailam,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-8-2__esther-1-2",
+              "target": "Esther 1:2",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Both name \"the city of Susa\" as the setting: here for Daniel's vision, and in Esther 1:2 as the city where King Artaxerxes reigned.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a9d6c0d306d388cd3e3d1be0a1e58440d6f678c90bf172b5bc09416da893a0c5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 1:2",
+                  "id": "v1-2",
+                  "text": "in those very days, when King Artaxerxes was enthroned in the city of Susa,",
+                  "text_sha256": "c0a68b3e88809890753bdf212f3a93846e8ee8165ea4033956af991ebdd2f466"
+                }
+              ],
+              "target_passage_sha256": "e49e25a05b27ea7b3b19f537f2b85be554e0c1768456c5b02c12c82cf7cef07a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "daniel-8-2__nehemiah-1-1",
+              "target": "Nehemiah 1:1",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Nehemiah was in the same royal city, spelled \"Sousan\" (\"Sousan abira\") where Daniel 8:2 has \"Susa\".",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a9d6c0d306d388cd3e3d1be0a1e58440d6f678c90bf172b5bc09416da893a0c5",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 1:1",
+                  "id": "v1-1",
+                  "text": "The words of Neemias son of Achalia. In the month of Chaseelou, in the twentieth year, I was in Sousan abira,",
+                  "text_sha256": "989ef77dc1a88002288f49ef8d9ce64af7a5fe646dd1122a3b328b28cc31188f"
+                }
+              ],
+              "target_passage_sha256": "6343c4e269feb1b7b6e6d0f9af1eddc0700f1be7282df939e6982e2f88d3143f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 8:3",
@@ -12384,8 +12866,10 @@
           "id": "v8-6",
           "text": "It came against the horned ram that I had seen standing beside the gate and ran at it in furious anger.",
           "display_text": "It came against the horned ram that I had seen standing beside the gate and ran at it in furious anger.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes the goat charging the ram \"in furious anger.\" The suggested verses use \"furious anger\" only for God's wrath against Israel, the nations or the ungodly. None depicts the goat, the ram or this charge."
         },
         {
           "reference": "Daniel 8:7",
@@ -13331,7 +13815,7 @@
     },
     {
       "chapter": 9,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 9,
         "section": 9,
@@ -13346,8 +13830,10 @@
           "id": "v9-1",
           "text": "In the first year under Darius son of Xerxes, from the Median family who ruled over the kingdom of the Chaldeans,",
           "display_text": "In the first year under Darius son of Xerxes, from the Median family who ruled over the kingdom of the Chaldeans,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit dates the vision to the first year of Darius son of Xerxes, of the Median family. The suggested passages mention a King Darius in chapter 6 without naming his father or family, attach \"of the Medes\" to Artaxerxes in Daniel 6:1, or refer to a different Darius, king of the Persians and Medes, whom Alexander defeated. None confirms this Darius's father or family."
         },
         {
           "reference": "Daniel 9:2",
@@ -14773,7 +15259,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "section": 10,
@@ -14961,8 +15447,38 @@
           "id": "v10-4",
           "text": "On the twenty-fourth day of the first month, I was on the bank of the great river, the Tigris,",
           "display_text": "On the twenty-fourth day of the first month, I was on the bank of the great river, the Tigris,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-10-4__genesis-2-14",
+              "target": "Genesis 2:14",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Both name the same river, \"the Tigris\": here Daniel stands on its bank, and in Genesis 2:14 it is the third river, which \"flows opposite Assyria.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "bb2a982de110caa4820b09e89d045ab60c299d4178430078224d18b68b3390f1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 2:14",
+                  "id": "v2-14",
+                  "text": "The third river is the Tigris; it flows opposite Assyria. And the fourth river is the Euphrates.",
+                  "text_sha256": "88713cafcf689764ef5362a36b74b62cd59c9fade2bb51abb6c66d84c43ab071"
+                }
+              ],
+              "target_passage_sha256": "4574721d78b6e05b0c21d82073a363d7d7d8f68d778fe12fe82e7149afafd2b4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 10:5",
@@ -15521,8 +16037,10 @@
           "id": "v10-17",
           "text": "How can the servant speak with his lord? I have become weak; there is no strength in me, and no breath was left in me.”",
           "display_text": "How can the servant speak with his lord? I have become weak; there is no strength in me, and no breath was left in me.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the speaker's complaint that the servant cannot speak with his lord because he has no strength or breath left. The suggested passages are other people's fear after seeing God or His messenger, Jacob calling himself a servant, or battle notices that no one breathing was left. None shares this question or this loss of strength."
         },
         {
           "reference": "Daniel 10:18",
@@ -15683,7 +16201,7 @@
     },
     {
       "chapter": 11,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 11,
         "section": 11,
@@ -15737,16 +16255,20 @@
           "id": "v11-2",
           "text": "“Now I have come to show you the truth. Three kings have stood in opposition in Persia, and the fourth will become richer than all the others. When he grows strong through his wealth, he will rise against every king of the Greeks.",
           "display_text": "“Now I have come to show you the truth. Three kings have stood in opposition in Persia, and the fourth will become richer than all the others. When he grows strong through his wealth, he will rise against every king of the Greeks.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit predicts three Persian kings, then a richer fourth king who rises against the kings of the Greeks. The suggested passages speak about revelation and truth in general, show the ram charging, give a date under Cyrus, or mention wealth in Persia under Antiochus. None names or lists this succession of kings."
         },
         {
           "reference": "Daniel 11:3",
           "id": "v11-3",
           "text": "A powerful king will arise, exercise great lordship, and do whatever he wishes.",
           "display_text": "A powerful king will arise, exercise great lordship, and do whatever he wishes.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit introduces an unnamed powerful king who does whatever he wishes. Other kings in Daniel 11 are also said to \"act according to his will\", and the male goat is identified as the first king of the Greeks, but nothing in this verse ties it to either. Other texts that share the word \"wish\" are unrelated."
         },
         {
           "reference": "Daniel 11:4",
@@ -15792,8 +16314,10 @@
           "id": "v11-5",
           "text": "He will strengthen Egypt’s kingdom, and one of the rulers will overpower him and rule; his rule will be a great rule.",
           "display_text": "He will strengthen Egypt’s kingdom, and one of the rulers will overpower him and rule; his rule will be a great rule.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit speaks of Egypt's kingdom being strengthened and of another ruler gaining power, without naming anyone. The suggested passages describe other stages of the north-against-Egypt conflict or use rule and kingdom vocabulary in unrelated settings. None matches this event."
         },
         {
           "reference": "Daniel 11:6",
@@ -15931,24 +16455,30 @@
           "id": "v11-9",
           "text": "He will enter Egypt’s kingdom for days and return to his land,",
           "display_text": "He will enter Egypt’s kingdom for days and return to his land,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that an unnamed ruler enters Egypt's kingdom for some days and returns home. No passage in the edition was found that describes this particular campaign."
         },
         {
           "reference": "Daniel 11:10",
           "id": "v11-10",
           "text": "and so will his son. He will be provoked, gather an assembly of a great crowd, and enter against it, sweeping through. He will pass over, return, and be greatly provoked.",
           "display_text": "and so will his son. He will be provoked, gather an assembly of a great crowd, and enter against it, sweeping through. He will pass over, return, and be greatly provoked.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes the son gathering a great crowd and sweeping through. The suggested verses either describe other, unnamed stages of the same conflict with similar campaign wording or use river and flood images that this verse does not contain. None identifies the same actors or event."
         },
         {
           "reference": "Daniel 11:11",
           "id": "v11-11",
           "text": "The king of Egypt will become angry and fight the king of the north, and the assembled force will be handed into his hands.",
           "display_text": "The king of Egypt will become angry and fight the king of the north, and the assembled force will be handed into his hands.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit tells of the king of Egypt fighting the king of the north and a force being handed over. The suggested passages are other battles, other cases of armies given into a king's hand, or nearby lines in the same prophecy. None describes this battle."
         },
         {
           "reference": "Daniel 11:12",
@@ -15994,24 +16524,58 @@
           "id": "v11-13",
           "text": "The king of the north will return and gather a city’s force larger than the first at the completion of a year’s appointed time. He will enter it against him with a great crowd and much money.",
           "display_text": "The king of the north will return and gather a city’s force larger than the first at the completion of a year’s appointed time. He will enter it against him with a great crowd and much money.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit has the king of the north returning after a year with a larger force and much money. 1 Maccabees 12:24 also mentions a force \"larger than before\", but it is about Demetrius's commanders and Jonathan, a different event. The other suggested passages share only the vocabulary of completion, money or numbers."
         },
         {
           "reference": "Daniel 11:14",
           "id": "v11-14",
           "text": "In those times designs will rise against the king of Egypt. He will rebuild the fallen things of your nation and arise to establish the prophecy, but they will stumble.",
           "display_text": "In those times designs will rise against the king of Egypt. He will rebuild the fallen things of your nation and arise to establish the prophecy, but they will stumble.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-11-14__amos-9-11",
+              "target": "Amos 9:11",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both speak of rebuilding fallen things in nearly the same words: 'He will rebuild the fallen things of your nation' here, and 'I will rebuild its fallen parts' of David's fallen tent in Amos 9:11. In Daniel the one who rebuilds arises 'to establish the prophecy', but they will stumble.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "da265fca6433a62a9f0f6202e697b1d2e54d7a576603275ed6718e7b284df154",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "amos/verses.json",
+                "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/amos/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Amos 9:11",
+                  "id": "v9-11",
+                  "text": "On that day I will raise David’s fallen tent; I will rebuild its fallen parts, raise its demolished parts and rebuild it as in days of old,",
+                  "text_sha256": "8da692e7578bd45894282a86b26daaa0690bf09e3ae0a34b2392e72b85f1ec97"
+                }
+              ],
+              "target_passage_sha256": "ab11fd7147612c58e35a6a8502951b86aed083d8161a698e78fc2103f86443f6",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 11:15",
           "id": "v11-15",
           "text": "The king of the north will come, turn his spears, and take the fortified city. The arms of Egypt’s king will stand with his rulers, but he will have no strength to resist him.",
           "display_text": "The king of the north will come, turn his spears, and take the fortified city. The arms of Egypt’s king will stand with his rulers, but he will have no strength to resist him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes the king of the north taking a fortified city while the king of Egypt cannot resist him. The suggested passages describe other sieges, Pharaoh's weakness in other wars, or God's strength that no one can resist. The city is not named, so none can be shown to describe this event."
         },
         {
           "reference": "Daniel 11:16",
@@ -16057,16 +16621,20 @@
           "id": "v11-17",
           "text": "He will set his face to advance all his undertaking by force and make treaties with him. He will give him a daughter of a human to destroy her, but she will not obey and will not remain.",
           "display_text": "He will set his face to advance all his undertaking by force and make treaties with him. He will give him a daughter of a human to destroy her, but she will not obey and will not remain.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes a ruler setting his face to his undertaking and giving \"a daughter of a human\", who does not remain. The suggested passages share only the expression \"set his face\" or the words \"obey\", \"remain\" and \"treaties\" in unrelated settings. None describes this marriage arrangement or the people involved."
         },
         {
           "reference": "Daniel 11:18",
           "id": "v11-18",
           "text": "He will set his face toward the sea and take many. He will turn back the wrath of their reproach with an oath according to his reproach.",
           "display_text": "He will set his face toward the sea and take many. He will turn back the wrath of their reproach with an oath according to his reproach.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes a turn toward the sea and a difficult clause about wrath, reproach and an oath. The suggested passages mention islands, reproach or oaths in unrelated settings. None describes the same advance or the same reversal of reproach."
         },
         {
           "reference": "Daniel 11:19",
@@ -16179,16 +16747,76 @@
           "id": "v11-21",
           "text": "In his place will arise one easily despised, upon whom royal glory will not be bestowed. He will come suddenly; a king will prevail in his allotment.",
           "display_text": "In his place will arise one easily despised, upon whom royal glory will not be bestowed. He will come suddenly; a king will prevail in his allotment.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes an easily despised successor who is not given royal glory. Jeremiah 30:9 also uses \"easily despised\", but of a nation God has made small, not of a ruler. The suggested Daniel passages describe other kings and do not show that they are the same person."
         },
         {
           "reference": "Daniel 11:22",
           "id": "v11-22",
           "text": "He will shatter the already-shattered arms before him.",
           "display_text": "He will shatter the already-shattered arms before him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-11-22__ezekiel-30-21",
+              "target": "Ezekiel 30:21",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both use the image of shattered arms to show a ruler's power broken. In Ezekiel 30:21 God says, \"I shattered the arms of Pharaoh king of Egypt,\" and they are not bound up so as to grasp a sword.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "545b9dde2d8a827c31da81af215f760b4b07d93f09354edd0fede2b3d0771ca8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezekiel/verses.json",
+                "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezekiel 30:21",
+                  "id": "v30-21",
+                  "text": "“Son of man, I shattered the arms of Pharaoh king of Egypt. Behold, it has not been bound up to provide healing, to put a poultice upon it, to give strength to grasp a sword.",
+                  "text_sha256": "668f9b05bdd2602a99b2d7e0b1c17dfb328a87d2c88cf70bfc4a9e8160a5731c"
+                }
+              ],
+              "target_passage_sha256": "7acaeefe5d6d3928e092f8fe6a34da33fe3f7e7d27539c399b2c0ffbfc82214a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "daniel-11-22__ezekiel-30-22",
+              "target": "Ezekiel 30:22",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Ezekiel 30:22 announces, 'I will shatter his arms, the strong and the outstretched', the same image as Daniel's 'shatter the already-shattered arms'. In Ezekiel the arms are Pharaoh's; Daniel's verse does not name whose arms they are.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "545b9dde2d8a827c31da81af215f760b4b07d93f09354edd0fede2b3d0771ca8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezekiel/verses.json",
+                "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezekiel 30:22",
+                  "id": "v30-22",
+                  "text": "Therefore thus says the Lord, the Lord: Behold, I am against Pharaoh king of Egypt. I will shatter his arms, the strong and the outstretched, and cast his sword down from his hand,",
+                  "text_sha256": "8c0aff6df381427af84a3dffb3db1e463d261f143a2dd17fddf306da88e770a0"
+                }
+              ],
+              "target_passage_sha256": "41d096f5755a8a940457497c7d02b01a2aefaf247e51743961b459880b7a5a53",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 11:23",
@@ -16245,24 +16873,30 @@
           "id": "v11-24",
           "text": "He will suddenly desolate a city and do what neither his fathers nor his fathers’ fathers did. He will give them plunder, spoils, and money and devise plans against the strong city, but his plans will be in vain.",
           "display_text": "He will suddenly desolate a city and do what neither his fathers nor his fathers’ fathers did. He will give them plunder, spoils, and money and devise plans against the strong city, but his plans will be in vain.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes a sudden desolation of a city, unprecedented deeds, a distribution of plunder and money, and vain plans against a strong city. The suggested passages share only individual words such as plunder, spoils or devising plans, in settings like Gog's invasion or Israel taking cities. None matches this sequence of events."
         },
         {
           "reference": "Daniel 11:25",
           "id": "v11-25",
           "text": "His strength and heart will be stirred against Egypt’s king with a great crowd. Egypt’s king will be provoked to war with an exceedingly strong crowd, but will not stand, because he will devise a design against him.",
           "display_text": "His strength and heart will be stirred against Egypt’s king with a great crowd. Egypt’s king will be provoked to war with an exceedingly strong crowd, but will not stand, because he will devise a design against him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes a campaign against Egypt's king and a design formed against him, without naming anyone. The suggested passages are other stages of the same prophecy, a proverb about battles, a plot against Jeremiah, or the stirring up of crowds. None describes this campaign."
         },
         {
           "reference": "Daniel 11:26",
           "id": "v11-26",
           "text": "His anxieties will consume him and turn him away. He will pass through and sweep away, and many wounded will fall.",
           "display_text": "His anxieties will consume him and turn him away. He will pass through and sweep away, and many wounded will fall.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says anxieties consume and turn an unnamed figure away and that many wounded fall. The suggested passages either repeat the same chapter's sweeping wording for other actors or use \"wounded will fall\" of Babylon's judgment. None describes this reversal."
         },
         {
           "reference": "Daniel 11:27",
@@ -16375,8 +17009,10 @@
           "id": "v11-29",
           "text": "at the appointed time. He will enter Egypt, but it will not be as the first and the last.",
           "display_text": "at the appointed time. He will enter Egypt, but it will not be as the first and the last.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that an entry into Egypt at the appointed time will not be like the first and the last. The suggested passages describe other stages of the prophecy, the appointed time in general, or unrelated last days. None describes this campaign or the comparison."
         },
         {
           "reference": "Daniel 11:30",
@@ -16637,8 +17273,10 @@
           "id": "v11-34",
           "text": "When they are crushed, they will gather a little strength. Many will assemble with them at a city, and many as in an allotment.",
           "display_text": "When they are crushed, they will gather a little strength. Many will assemble with them at a city, and many as in an allotment.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes crushed people gaining a little strength while many join them at a city and \"as in an allotment.\" The suggested passages are about false teachers, apostasy or the dragon, or use \"crushed\" and \"strength\" in other battles. None describes this gathering."
         },
         {
           "reference": "Daniel 11:35",
@@ -16730,8 +17368,38 @@
           "id": "v11-37",
           "text": "He will pay no heed to his fathers’ gods or to the desire of a woman, for he will be exalted in everything, and strong nations will be subject to him.",
           "display_text": "He will pay no heed to his fathers’ gods or to the desire of a woman, for he will be exalted in everything, and strong nations will be subject to him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-11-37__2-thessalonians-2-4",
+              "target": "2 Thessalonians 2:4",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both describe a ruler who disregards the gods and puts himself above everything. Daniel's king pays no heed to his fathers' gods and \"will be exalted in everything.\" Paul's figure \"exalts himself above everything called god.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "13bbc8751ef3420c44c6e73cc1f66ac3795c2b7fee24863b9064aea6d078d750",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-thessalonians/verses.json",
+                "blob_sha": "288f9670bb220cb4f5261ed43123800cbf81f400",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-thessalonians/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Thessalonians 2:4",
+                  "id": "v2-4",
+                  "text": "who opposes and exalts himself above everything called god or an object of worship, so that he takes his seat in God’s sanctuary, displaying himself as being God.",
+                  "text_sha256": "a68f1447b4a60a10c833eba09a9941d010e8c74b2d8930bd5b6697bbfb3293fe"
+                }
+              ],
+              "target_passage_sha256": "34d6cb72204bd3d8b1db96319bdadc349da8ec0c934fa0348760119a678314dc",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 11:38",
@@ -16786,32 +17454,40 @@
           "id": "v11-39",
           "text": "of cities he will act, and he will come into a strong fortification. With a foreign god, whom he may acknowledge, he will multiply glory, rule over him greatly, and apportion country as a gift.",
           "display_text": "of cities he will act, and he will come into a strong fortification. With a foreign god, whom he may acknowledge, he will multiply glory, rule over him greatly, and apportion country as a gift.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit speaks of a strong fortification, a foreign god, increasing glory and land handed out as a gift, without naming any actor or place. The suggested passages share only words such as fortification, multiply, rule or apportion, in unrelated settings like Joshua's division of the land, creation, or Babylon's trade. None describes this cult or land grant."
         },
         {
           "reference": "Daniel 11:40",
           "id": "v11-40",
           "text": "At the hour of completion, Egypt’s king will clash with him. The king of the north will rage against him with chariots, many horses, and many ships, and enter Egypt’s country",
           "display_text": "At the hour of completion, Egypt’s king will clash with him. The king of the north will rage against him with chariots, many horses, and many ships, and enter Egypt’s country",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes the king of the north attacking Egypt with chariots, horses and ships at the hour of completion. Other passages share the chariot and horse vocabulary but concern Nebuchadnezzar against Tyre, Joshua's battles, or Israel's wealth. The suggested Daniel passages speak of the time of completion in general. None describes this campaign."
         },
         {
           "reference": "Daniel 11:41",
           "id": "v11-41",
           "text": "and come into my country,",
           "display_text": "and come into my country,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit consists only of the words \"and come into my country.\" The suggested passages describe other invasions or other stages of the prophecy, and with no place named none can be shown to concern the same country or entry."
         },
         {
           "reference": "Daniel 11:42",
           "id": "v11-42",
           "text": "and in Egypt’s country no one will be saved.",
           "display_text": "and in Egypt’s country no one will be saved.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit states only that no one in Egypt's country will be saved. The suggested passages speak of bringing people back from Egypt, Egypt's restoration, Egypt as a symbol, or a different deliverance. None states the same judgment on this campaign."
         },
         {
           "reference": "Daniel 11:43",
@@ -16931,14 +17607,16 @@
           "id": "v11-45",
           "text": "Then he will set his tent between the seas and the mountain of the Holy One’s desire. The hour of his completion will come, and no one will help him.”",
           "display_text": "Then he will set his tent between the seas and the mountain of the Holy One’s desire. The hour of his completion will come, and no one will help him.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit places the ruler's tent between the seas and the mountain of the Holy One's desire, and says his end comes with no one to help him. Joel 2:20 also mentions seas, but its northern enemy is driven into a waterless land, not shown pitching a tent by a holy mountain. The other suggested passages speak of the end time or other figures in general. None matches this place or this end."
         }
       ]
     },
     {
       "chapter": 12,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 12,
         "section": 12,
@@ -17217,8 +17895,50 @@
           "id": "v12-5",
           "text": "I, Daniel, saw two others standing, one on this side of the river and one on the other.",
           "display_text": "I, Daniel, saw two others standing, one on this side of the river and one on the other.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-12-5__daniel-10-4-6",
+              "target": "Daniel 10:4-6",
+              "verdict": "supported",
+              "relationship": "same setting",
+              "rationale": "This verse belongs to the vision that began beside a river in Daniel 10:4, where Daniel was \"on the bank of the great river, the Tigris.\" Here two others stand \"one on this side of the river and one on the other.\" Daniel 10:4 describes only the setting and does not mention these two figures.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "40dda5383a4c69c14e76cbd2a06f9bd5d9499482825ce07a921a9f2a8159adbb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 10:4",
+                  "id": "v10-4",
+                  "text": "On the twenty-fourth day of the first month, I was on the bank of the great river, the Tigris,",
+                  "text_sha256": "bb2a982de110caa4820b09e89d045ab60c299d4178430078224d18b68b3390f1"
+                },
+                {
+                  "reference": "Daniel 10:5",
+                  "id": "v10-5",
+                  "text": "and I lifted my eyes and saw a man clothed in fine linen, with fine linen wrapped around his waist, and light coming from his middle.",
+                  "text_sha256": "ac28fdd710137b582f4eb0cb4d6cea14f486f7154ae1dbbac8acf5803ad2981c"
+                },
+                {
+                  "reference": "Daniel 10:6",
+                  "id": "v10-6",
+                  "text": "His body was like a tarshish stone, his face like a flash of lightning, his eyes like flaming torches, his arms and feet like flashing bronze, and the sound of his speech like the sound of an uproar.",
+                  "text_sha256": "8397d989095c394d1d36ff346adfa6802612e12863a53bdc3128f2c7d6c8423f"
+                }
+              ],
+              "target_passage_sha256": "70575ad3b9e8fdee99aba698954ab2d9a1fbd9afba1a0d64b79afb23ca1c7ca6",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Daniel 12:6",
@@ -17600,7 +18320,7 @@
     },
     {
       "chapter": 13,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 13,
         "section": 13,
@@ -17615,8 +18335,10 @@
           "id": "v1-6",
           "text": "And judicial cases from other cities came to them.",
           "display_text": "And judicial cases from other cities came to them.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says that legal cases from other cities were brought to the two elders. The suggested passages share only the word \"cases\", either for church disputes in 1 Corinthians or in the unrelated sense of situations. None describes cases being sent between cities to judges."
         },
         {
           "reference": "Susanna 1:7–8",
@@ -17740,8 +18462,10 @@
           "id": "v1-12",
           "text": "As dawn came, they would come, trying to outwit one another in their hurry to see who would appear to her first and speak with her.",
           "display_text": "As dawn came, they would come, trying to outwit one another in their hurry to see who would appear to her first and speak with her.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes the elders racing at dawn to see Susanna first. The suggested passages share only the word \"try\" or \"trying\", either for God testing hearts or philosophers questioning Paul. None describes this rivalry or approach."
         },
         {
           "reference": "Susanna 1:13–14",
@@ -18006,24 +18730,58 @@
           "id": "v1-29",
           "text": "The two elders and judges stood up and said, “Send for Susanna, daughter of Hilkiah, who is Joachim’s wife.” They summoned her at once.",
           "display_text": "The two elders and judges stood up and said, “Send for Susanna, daughter of Hilkiah, who is Joachim’s wife.” They summoned her at once.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-1-29__daniel-1-7-8",
+              "target": "Susanna 1:7–8",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both identify the same woman in the same way: here \"Susanna, daughter of Hilkiah, who is Joachim's wife,\" and in Susanna 1:7-8 \"Susanna, daughter of Hilkiah and wife of Joachim.\" The Susanna of Luke 8:3 is a different woman.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "93d787c626e09a647cc7280dc7cdd077d113095b2c63c9becaa84a6b46cadbe6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Susanna 1:7–8",
+                  "id": "v1-7-8",
+                  "text": "These men saw a woman lovely in appearance, the wife of their brother from the sons of Israel, named Susanna, daughter of Hilkiah and wife of Joachim, walking in her husband’s garden in the evening. They desired her",
+                  "text_sha256": "dbc2390794e5cc80cff6666431d742514f897aec5b76c6da09866078fffcfbed"
+                }
+              ],
+              "target_passage_sha256": "39a5b93590393bab568c82f8fc0c45baacbdb744fc124aff26591f07922bd2a2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Susanna 1:30",
           "id": "v1-30",
           "text": "The woman arrived with her father and mother. Her male and female servants, numbering five hundred, also arrived, together with Susanna’s four children.",
           "display_text": "The woman arrived with her father and mother. Her male and female servants, numbering five hundred, also arrived, together with Susanna’s four children.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists those who came with Susanna: her parents, five hundred male and female servants, and her four children. The suggested passages share only numbers or the pairing of male and female, in lists of returned exiles, valuation laws or Job's livestock. None describes this household."
         },
         {
           "reference": "Susanna 1:31",
           "id": "v1-31",
           "text": "The woman was very delicate.",
           "display_text": "The woman was very delicate.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that Susanna was very delicate. The suggested passages use \"delicate\" of other people, such as the delicate woman of the siege curse in Deuteronomy, Babylon's idol and children taken captive. None refers to Susanna or describes her."
         },
         {
           "reference": "Susanna 1:32",
@@ -18069,8 +18827,10 @@
           "id": "v1-33",
           "text": "All her people, and everyone who knew her, wept.",
           "display_text": "All her people, and everyone who knew her, wept.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says that Susanna's people and everyone who knew her wept. The suggested passages describe other occasions of weeping, such as Israel at Bochim and Jephthah's daughter, or share only the word \"knew.\" None corresponds to this scene."
         },
         {
           "reference": "Susanna 1:34",
@@ -18201,8 +18961,38 @@
           "id": "v1-36",
           "text": "The two elders said, “We were walking in her husband’s garden,",
           "display_text": "The two elders said, “We were walking in her husband’s garden,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "daniel-1-36__daniel-1-7-8",
+              "target": "Susanna 1:7–8",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The elders' testimony uses the narrator's exact phrase \"walking in her husband's garden,\" which Susanna 1:7-8 uses for Susanna's own evening walks. The garden is the same place, but there the one walking is Susanna, and here the elders claim they were walking there.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4ec4d04a1587183c19d4565be7985b97c3950b7388b20502a3f96ed0d34e3457",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Susanna 1:7–8",
+                  "id": "v1-7-8",
+                  "text": "These men saw a woman lovely in appearance, the wife of their brother from the sons of Israel, named Susanna, daughter of Hilkiah and wife of Joachim, walking in her husband’s garden in the evening. They desired her",
+                  "text_sha256": "dbc2390794e5cc80cff6666431d742514f897aec5b76c6da09866078fffcfbed"
+                }
+              ],
+              "target_passage_sha256": "39a5b93590393bab568c82f8fc0c45baacbdb744fc124aff26591f07922bd2a2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Susanna 1:37",
@@ -18276,24 +19066,30 @@
           "id": "v1-38",
           "text": "and they did not know that we were standing there. Then we said to one another, ‘Let us find out who these people are.’",
           "display_text": "and they did not know that we were standing there. Then we said to one another, ‘Let us find out who these people are.’",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is part of the elders' false account: the couple did not notice them, so they decided to find out who they were. No passage in the edition was found that matches this claim."
         },
         {
           "reference": "Susanna 1:39",
           "id": "v1-39",
           "text": "We approached and recognized her, but the young man fled, covered up.",
           "display_text": "We approached and recognized her, but the young man fled, covered up.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit claims that the elders recognized Susanna while a covered young man ran away. The suggested passages share only the words recognized, fled, approached or young man, in battles or healings. None describes a concealed person fleeing in the same way."
         },
         {
           "reference": "Susanna 1:40",
           "id": "v1-40",
           "text": "We seized her and asked her, ‘Who is the man?’",
           "display_text": "We seized her and asked her, ‘Who is the man?’",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit has the elders claim they seized Susanna and asked who the man was. The suggested passages describe other arrests or questioning: the Ephraimites at the Jordan, Paul taken by the tribune, and a city captured. None matches this claimed exchange."
         },
         {
           "reference": "Susanna 1:41",
@@ -18917,7 +19713,7 @@
     },
     {
       "chapter": 14,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 14,
         "section": 14,
@@ -18932,8 +19728,10 @@
           "id": "v1-1",
           "text": "From the prophecy of Habakkuk, son of Joshua, of the tribe of Levi.",
           "display_text": "From the prophecy of Habakkuk, son of Joshua, of the tribe of Levi.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The heading names Habakkuk son of Joshua, of the tribe of Levi. The suggested passages concern Joshua son of Nun or the Levites' inheritance, and none names this Habakkuk or this father and tribe."
         },
         {
           "reference": "Bel and Dragon 1:2",
@@ -19273,8 +20071,10 @@
           "id": "v1-10",
           "text": "They brought the king into the idol-temple.",
           "display_text": "They brought the king into the idol-temple.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that the king was brought into the idol-temple. Daniel 1:2 also mentions an idol-temple, but there the sacred vessels are stored in it. The other suggested passages are teaching about idols. None describes this visit by the king."
         },
         {
           "reference": "Bel and Dragon 1:11",
@@ -19320,8 +20120,10 @@
           "id": "v1-13",
           "text": "The proposal pleased the king.",
           "display_text": "The proposal pleased the king.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the stock phrase \"The proposal pleased the king.\" The same phrase appears with unrelated proposals about the Passover, peace with the Jews and Vashti's removal, so the shared formula does not connect these events."
         },
         {
           "reference": "Bel and Dragon 1:14",
@@ -19725,8 +20527,10 @@
           "id": "v1-26",
           "text": "The king consented and said to him, “It is granted to you.”",
           "display_text": "The king consented and said to him, “It is granted to you.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that the king consented and granted Daniel's request. The suggested passages describe other kings consenting to other requests or general remarks about consent. None matches this grant."
         },
         {
           "reference": "Bel and Dragon 1:27",
@@ -20396,5 +21200,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 40,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

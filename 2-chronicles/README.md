@@ -1,6 +1,6 @@
 # 2 Chronicles — Saints Bible cross-references
 
-2 Chronicles has **818 completed source verses and 928 distinct source/target-passage pairs**. Latest completed unit: **2 Chronicles 36:23**. Fully completed chapters: 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 30, 32, 33, 34, 36. Next: 2 Chronicles 8:3. Some source units remain pending. Completed entries within **2 Chronicles 1:1–36:23**; this span includes pending source deferrals. 15 read source unit(s) remain deferred with zero completion credit: 2 Chronicles 8:3, 2 Chronicles 20:16, 2 Chronicles 24:3, 2 Chronicles 26:11, 2 Chronicles 26:12, 2 Chronicles 26:13, 2 Chronicles 26:14, 2 Chronicles 27:5, 2 Chronicles 28:7, 2 Chronicles 29:20, 2 Chronicles 29:33, 2 Chronicles 31:7, 2 Chronicles 31:13, 2 Chronicles 31:16, 2 Chronicles 35:26. First pending source unit: 2 Chronicles 8:3. No never-reviewed source units remain. Next new source review: none; all OT source units read.
+2 Chronicles 1–36 is complete at the initial curated cross-reference stage: **820 source verses and 931 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: None. 13 source unit(s) were read and closed with no supportable cross-reference in this edition; they earn no completion credit and are listed with their reasons in the readable files and [source-checks.json](source-checks.json).
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,7 +19,7 @@ The counts were derived from the complete [pinned Saints-Translation record](htt
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **2 Chronicles 8:3**. All OT source units have been read; incomplete units remain pending. 15 read source unit(s) remain deferred with zero completion credit: 2 Chronicles 8:3, 2 Chronicles 20:16, 2 Chronicles 24:3, 2 Chronicles 26:11, 2 Chronicles 26:12, 2 Chronicles 26:13, 2 Chronicles 26:14, 2 Chronicles 27:5, 2 Chronicles 28:7, 2 Chronicles 29:20, 2 Chronicles 29:33, 2 Chronicles 31:7, 2 Chronicles 31:13, 2 Chronicles 31:16, 2 Chronicles 35:26. First pending source unit: 2 Chronicles 8:3. No never-reviewed source units remain. Next new source review: none; all OT source units read. Revisit these deferred units substantively before marking them complete. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **None**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
@@ -31,3 +31,4 @@ Unretained target candidates: 12, excluded from completed counts. See the record
 - [2026-10-30T113033Z](review-batches/2026-10-30T113033Z.json): 544 newly completed pairs across 500 source verses.
 - [2026-10-30T123534Z](review-batches/2026-10-30T123534Z.json): 326 newly completed pairs across 261 source verses.
 - [2026-10-31T204915Z](review-batches/2026-10-31T204915Z.json): 6 newly completed pairs across 5 source verses.
+- [2026-11-01T124729Z](review-batches/2026-11-01T124729Z.json): 3 newly completed pairs across 2 source verses.

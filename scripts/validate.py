@@ -1,6 +1,6 @@
 """Validate cross-reference evidence and saved progress using the standard library."""
 from collections import Counter
-from chapter_structure import chapter_units, chapter_references, completed_chapter_numbers, completed_source_sections
+from chapter_structure import chapter_units, chapter_references, completed_chapter_numbers, completed_source_sections, FINISHED
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -132,9 +132,12 @@ def validate_source_review_continuation(progress):
             continue
         data=load(file);checks=load(ROOT/record['records']/'source-checks.json')
         deferred={case['source_reference'] for case in checks.get('deferred_source_units',[])}
-        pending={v['reference'] for c in data['chapters'] for v in c['verses'] if v['status']!='completed'}
+        pending={v['reference'] for c in data['chapters'] for v in c['verses'] if v['status'] not in FINISHED}
+        closed={v['reference'] for c in data['chapters'] for v in c['verses'] if v['status']=='closed'}
+        require(closed=={case['source_reference'] for case in checks.get('closed_source_units',[])},'Closed source units differ from source-checks: '+record['book'])
+        require(all(case.get('reason') and case.get('completed_source_credit',0)==0 and case.get('completed_pair_credit',0)==0 for case in checks.get('closed_source_units',[])),'Closed source unit lacks a reason or earns credit: '+record['book'])
         require(deferred<=pending,'Deferred source is missing or already completed: '+record['book'])
-        unread=next(((c,v) for c in data['chapters'] for v in c['verses'] if v['status']!='completed' and v['reference'] not in deferred),None)
+        unread=next(((c,v) for c in data['chapters'] for v in c['verses'] if v['status'] not in FINISHED and v['reference'] not in deferred),None)
         ref=unread[1]['reference'] if unread else None
         for saved in [data,record]:
             if 'next_unreviewed_reference' in saved:require(saved['next_unreviewed_reference']==ref,'Book never-reviewed continuation mismatch: '+record['book'])
@@ -215,11 +218,13 @@ def validate(write_receipts=False):
                 complete_text(v)
                 if 'complete_text_sha256' in v:
                     require(v['complete_text_sha256']==digest(complete_text(v)),'Complete source unit hash mismatch')
-                require(v['status'] in {'completed','pending','unresolved'},'Invalid verse status')
+                require(v['status'] in {'completed','pending','unresolved','closed'},'Invalid verse status')
+                if v['status']=='closed':
+                    require(not v['cross_references'] and isinstance(v.get('closure_reason'),str) and v['closure_reason'].strip() and bool(v.get('reviewed')),'Closed source unit needs a reason, a review date and no pairs: '+v['reference'])
                 if v['status']=='completed':
                     require(bool(v['cross_references']),'Completed verse has no cross-references')
                     complete.append(v)
-                elif first_unfinished is None:
+                elif v['status']!='closed' and first_unfinished is None:
                     first_unfinished=v['reference']
                 for e in v['cross_references']:
                     require(v['status']=='completed','Unfinished verse contains completed pairs')
@@ -281,7 +286,7 @@ def validate(write_receipts=False):
                     if any(x.get('continuation_paragraphs') for x in e['target_verses']) or 'target_passage_complete_sha256' in e:
                         full='\n'.join(x['reference']+' '+complete_text(x) for x in e['target_verses'])
                         require(e.get('target_passage_complete_sha256')==digest(full),'Complete target passage hash mismatch')
-            all_done=all(v['status']=='completed' for v in ch['verses'])
+            all_done=all(v['status'] in FINISHED for v in ch['verses'])
             require((ch['status']=='completed')==all_done,'False chapter-completion claim')
         complete_chapters=completed_chapter_numbers(data)
         pair_keys=[(v['reference'],e['target']) for v in complete for e in v['cross_references']]
@@ -290,7 +295,7 @@ def validate(write_receipts=False):
         require(len(complete)==data['completed_source_verses']==b['completed_source_verses'],'Completed verse count mismatch')
         require(len(edges)==data['completed_cross_references']==b['completed_cross_references'],'Completed pair count mismatch')
         require(complete_chapters==data['completed_chapters']==b['completed_chapters'],'Completed chapter mismatch')
-        book_next=next((v['reference'] for ch in data['chapters'] for v in ch['verses'] if v['status']!='completed'),None)
+        book_next=next((v['reference'] for ch in data['chapters'] for v in ch['verses'] if v['status'] not in FINISHED),None)
         require(data['next_reference']==b['next_reference']==book_next,'Book continuation mismatch')
         require((data['review_status']=='complete_initial_curated_pass')==(book_next is None),'Book completion status mismatch')
         parser=Anchors();parser.feed((ROOT/b['records']/data['readable_html']).read_text(encoding='utf-8'))
@@ -316,13 +321,13 @@ def validate(write_receipts=False):
             (ROOT/b['records']/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         reports.append(report)
         total_pairs+=len(edges);total_verses+=len(complete);total_chapters+=len(complete_chapters)
-        total_books+=int(len(complete)==len(source_refs))
+        total_books+=int(book_next is None)
     require(total_pairs==progress['completed_cross_references'],'Root pair total mismatch')
     require(total_verses==progress['completed_source_verses'],'Root verse total mismatch')
     require(total_chapters==progress['completed_chapters'],'Root chapter total mismatch')
     require(total_books==progress['completed_book_records'],'Root completed-book total mismatch')
     require(len(progress['books'])-total_books==progress['pending_book_records'],'Root pending-book total mismatch')
-    require(first_unfinished==progress['next']['reference'],'Continuation skips an unfinished source verse')
+    require(first_unfinished==(progress['next'] or {}).get('reference'),'Continuation skips an unfinished source verse')
     print(json.dumps({'result':'passed','canon_books':len(canonical),'books_in_plan':len(names),'completed_source_verses':total_verses,
         'completed_pairs':total_pairs,'completed_chapters':total_chapters,'next':first_unfinished}))
     return reports

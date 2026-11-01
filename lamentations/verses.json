@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Lamentations",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,21 +32,27 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
     1,
-    2
+    2,
+    3,
+    4,
+    5
   ],
   "completed_source_sections": [
     1,
-    2
+    2,
+    3,
+    4,
+    5
   ],
-  "completed_source_verses": 138,
-  "completed_cross_references": 138,
+  "completed_source_verses": 144,
+  "completed_cross_references": 147,
   "total_chapters": 5,
   "total_source_sections": 5,
   "total_source_verse_units": 150,
-  "next_reference": "Lamentations 3:33",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Lamentations.html",
   "readable_text": "Lamentations.txt",
@@ -2052,7 +2058,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -3292,8 +3298,10 @@
           "id": "v3-33",
           "text": "For He did not answer from His heart, and He humbled human beings.",
           "display_text": "For He did not answer from His heart, and He humbled human beings.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says He did not answer from His heart and humbled human beings. The leads speak of God not desiring the impious man's death, His strange work of wrath, fatherly discipline, or human pride being humbled; none matches the specific wording about not answering from His heart, and the humbling leads share only the word 'humbled'."
         },
         {
           "reference": "Lamentations 3:34",
@@ -3417,8 +3425,50 @@
           "id": "v3-37",
           "text": "Who spoke in this way and it came to be? The Lord did not command,",
           "display_text": "Who spoke in this way and it came to be? The Lord did not command,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-3-37__psalms-32-9-11",
+              "target": "Psalms 32:9-11",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both join speaking, coming to be and commanding: Lamentations asks 'Who spoke in this way and it came to be?' and Psalms 32:9 says 'He spoke, and they came to be; He commanded.' Lamentations frames this as a question followed by 'The Lord did not command', whereas the psalm affirms it.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "153e8d205bc419e193170b975b900d8b435cba2183febc095cc7f99272c63787",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 32:9",
+                  "id": "v32-9",
+                  "text": "For He spoke, and they came to be; He commanded, and they were created.",
+                  "text_sha256": "72c4134e128911bf26b27205876e353875cf7594cfc9f7bca70571029653f857"
+                },
+                {
+                  "reference": "Psalms 32:10",
+                  "id": "v32-10",
+                  "text": "The Lord scatters the counsels of nations; He nullifies the plans of peoples and nullifies the counsels of rulers.",
+                  "text_sha256": "73672c39498fb747753078a773d4cbda7109957df88b52e840830d162ab85113"
+                },
+                {
+                  "reference": "Psalms 32:11",
+                  "id": "v32-11",
+                  "text": "But the Lord’s counsel remains for ever, the plans of His heart from generation to generation.",
+                  "text_sha256": "e0ac54b91c105360ef9efa6f58a81fda49c47d0715869bea0bbaf05c8ff0cdc3"
+                }
+              ],
+              "target_passage_sha256": "9c348d7bc7ea892b53b6ad92ce0f5e5c77d6c2859ee73f3740fcbbf0871056ff",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Lamentations 3:38",
@@ -3687,8 +3737,38 @@
           "id": "v3-44",
           "text": "Thou didst spread a cloud over Thyself because of prayer,",
           "display_text": "Thou didst spread a cloud over Thyself because of prayer,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-3-44__lamentations-3-8",
+              "target": "Lamentations 3:8",
+              "verdict": "supported",
+              "relationship": "same complaint",
+              "rationale": "In the same poem the speaker says of the Lord, 'He blocked my prayer', and later, 'Thou didst spread a cloud over Thyself because of prayer'. Both describe God acting against the speaker's prayer.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4df9d17ee052fc35027fe923d952512ee68e3b7b6d4b1f556d2edd40a0ad5c0d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "lamentations/verses.json",
+                "blob_sha": "05d7755a5e96cf65f30173d3e025cd7af50cdb5c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/lamentations/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Lamentations 3:8",
+                  "id": "v3-8",
+                  "text": "Indeed, I will cry and call out; He blocked my prayer.",
+                  "text_sha256": "2cd6a2026ca097b8dd8b02c1b7a3cf7b0d950d55bc714e78694e946473b7a3f2"
+                }
+              ],
+              "target_passage_sha256": "9d969c053a3734bfc4e5e8874637655c44516da711d4f3a3c046d48cbb05bef4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Lamentations 3:45",
@@ -3780,8 +3860,10 @@
           "id": "v3-47",
           "text": "Fear and fury have come upon us, exaltation and crushing.",
           "display_text": "Fear and fury have come upon us, exaltation and crushing.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists fear, fury, exaltation and crushing come upon us. The leads either list fear, pit and trap, or fall and crushing with famine and sword, or use exaltation in unrelated senses; they share at most one word of the catalogue and do not reproduce its combination."
         },
         {
           "reference": "Lamentations 3:48",
@@ -3905,8 +3987,10 @@
           "id": "v3-51",
           "text": "My eye will glean my soul beyond all the daughters of a city.",
           "display_text": "My eye will glean my soul beyond all the daughters of a city.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit's image of the eye gleaning the soul beyond all the daughters of a city has no counterpart; the leads concern siege cannibalism, captive virgins, sword and famine, or literal gleaning of grapes and men, sharing only isolated words."
         },
         {
           "reference": "Lamentations 3:52",
@@ -4462,8 +4546,10 @@
           "id": "v3-65",
           "text": "Thou wilt give them a shielding of heart, Thy toil for them.",
           "display_text": "Thou wilt give them a shielding of heart, Thy toil for them.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit asks that God give the enemies a shielding of heart as His toil for them. The leads speak of dull or hardened hearts, curses, or literal shields; none shares the phrase or image of a shielding of heart."
         },
         {
           "reference": "Lamentations 3:66",
@@ -4522,7 +4608,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -4792,8 +4878,66 @@
           "id": "v4-7",
           "text": "Her Nazirites were made purer than snow and shone beyond milk; they glowed red beyond sapphire stones in their cut portion.",
           "display_text": "Her Nazirites were made purer than snow and shone beyond milk;\nthey glowed red beyond sapphire stones in their cut portion.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-4-7__song-of-songs-5-10",
+              "target": "Song of Songs 5:10",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both describe a person's appearance as both white and red: Lamentations says the Nazirites were purer than snow, shone beyond milk and glowed red, and the Song says 'My kinsman is white and ruddy.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a8f46a5793fa4fb6054d4737107fd1f93af159b3d2e143b0f82ac0d940a7457",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "song-of-songs/verses.json",
+                "blob_sha": "c25dcabd0c7416a129af37911b972ee3b89ed821",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/song-of-songs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Song of Songs 5:10",
+                  "id": "v5-10",
+                  "text": "My kinsman is white and ruddy, selected from myriads.",
+                  "text_sha256": "c9603a08fd748d425c55f7cce5cb02a6ff7b812c84240378393ad872dfaf4381"
+                }
+              ],
+              "target_passage_sha256": "687bf61b3a0eac5e3b422e7e29242fa853c1d9a23f643ed7f8e446b2580fd38c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "lamentations-4-7__judges-13-5",
+              "target": "Judges 13:5",
+              "verdict": "supported",
+              "relationship": "same institution",
+              "rationale": "Lamentations speaks of Jerusalem's Nazirites, and Judges 13:5 describes a child who will be 'a sanctified Nazirite to God from the womb', on whose head no iron shall come. Both refer to the consecrated Nazirite.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a8f46a5793fa4fb6054d4737107fd1f93af159b3d2e143b0f82ac0d940a7457",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "judges/verses.json",
+                "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Judges 13:5",
+                  "id": "v13-5",
+                  "text": "For behold, you shall conceive and bear a son, and no iron shall come upon his head; for the child shall be a sanctified Nazirite to God from the womb, and he shall begin to save Israel from the hand of the foreigners.”",
+                  "text_sha256": "242b2ff80bc470131323fd4e820347951ec5ce54b5f3cbf4d60a31c400a850e8"
+                }
+              ],
+              "target_passage_sha256": "dcc20948821270525269b84ea01cddf8c2fcf202ea8119869d209df712ea1606",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Lamentations 4:8",
@@ -5158,8 +5302,10 @@
           "id": "v4-14",
           "text": "Her watchmen were shaken at the ways out, polluted with blood; when they were unable, they touched their garments.",
           "display_text": "Her watchmen were shaken at the ways out, polluted with blood;\nwhen they were unable, they touched their garments.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes watchmen shaken at the ways out, polluted with blood and touching their garments when unable. The leads concern blind groping, hands full of blood, uncleanness from touching the dead, mute watchdogs, or a woman touching Jesus' garment; each shares a single element but none matches the scene."
         },
         {
           "reference": "Lamentations 4:15",
@@ -5305,8 +5451,72 @@
           "id": "v4-18",
           "text": "We hunted our little ones so they would not walk in our squares. Our time has drawn near, our days were fulfilled, our time is here.",
           "display_text": "We hunted our little ones so they would not walk in our squares.\nOur time has drawn near, our days were fulfilled, our time is here.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-4-18__ezekiel-12-22-23",
+              "target": "Ezekiel 12:22-23",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both announce imminent fulfilment of judgment in nearly the same words: Lamentations says 'Our time has drawn near, our days were fulfilled', and Ezekiel says 'The days have drawn near, and the word of every vision.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0fec087d545d3fe9c621f98dfc680567377a47c3de5071fb181cf560c942775c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezekiel/verses.json",
+                "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezekiel 12:22",
+                  "id": "v12-22",
+                  "text": "“Son of man, what is this proverb you have concerning Israel’s land, saying, ‘The days are far off; vision has perished’?",
+                  "text_sha256": "4ac6272d48f002ca6bf7a0d2932b12cac5272c6e5bc1a99cccd0eeaa8e1279fa"
+                },
+                {
+                  "reference": "Ezekiel 12:23",
+                  "id": "v12-23",
+                  "text": "Therefore say to them, ‘Thus says the Lord: I will turn back this proverb, and the house of Israel certainly will no longer say this proverb.’ For you will speak to them: ‘The days have drawn near, and the word of every vision,",
+                  "text_sha256": "b3dc5cd315bd84c5e07d1b753267ac52b26b84c95f0f87176165eb0eafbbdde5"
+                }
+              ],
+              "target_passage_sha256": "dfcc3a02e84ce7e0867b3cb74c07ca6d2a1c65ce7d595dc089839f1e05ad5fe3",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "lamentations-4-18__mark-1-15",
+              "target": "Mark 1:15",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both pair a time that is fulfilled with one that has drawn near: Lamentations says 'Our time has drawn near, our days were fulfilled', and Mark says 'The appointed time is fulfilled, and the kingdom of God has drawn near.' Lamentations speaks of doom, Mark of the kingdom.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0fec087d545d3fe9c621f98dfc680567377a47c3de5071fb181cf560c942775c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "mark/verses.json",
+                "blob_sha": "ac20c0eea2fc0bc217c273797d64fc428cccc09c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/mark/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Mark 1:15",
+                  "id": "v1-15",
+                  "text": "and saying, “The appointed time is fulfilled, and the kingdom of God has drawn near; repent, and believe in the gospel.”",
+                  "text_sha256": "d69ac5dc6e7702d1548c063235511fd924222d90484e80cc3c6b42f4655eb216"
+                }
+              ],
+              "target_passage_sha256": "b215d8bc4281e876fee0bac96ec033a7f12a0e373ebf1d76785c5436030ed416",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Lamentations 4:19",
@@ -5482,7 +5692,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "section": 5,
@@ -5614,8 +5824,10 @@
           "id": "v5-4",
           "text": "From our days, our wood came in exchange.",
           "display_text": "From our days, our wood came in exchange.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that our wood came in exchange from our days. The leads speak of removing bread and water, serving enemies in want, or giving something in exchange for life or wisdom; they share only the word 'exchange' or general deprivation."
         },
         {
           "reference": "Lamentations 5:5",
@@ -5661,8 +5873,66 @@
           "id": "v5-6",
           "text": "Egypt gave a hand, Assyria for their satisfaction.",
           "display_text": "Egypt gave a hand,\nAssyria for their satisfaction.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-5-6__hosea-7-11",
+              "target": "Hosea 7:11",
+              "verdict": "supported",
+              "relationship": "shared pairing",
+              "rationale": "Both name Egypt and Assyria together as the nations the people turn to: Lamentations says 'Egypt gave a hand, Assyria for their satisfaction', and Hosea says Ephraim 'called on Egypt, and they went to the Assyrians.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a460dcffb9a88e5357af279091cd39076356e179e12a86e9e83abf7bcefbc12",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "hosea/verses.json",
+                "blob_sha": "c7b17f6519ad7ae6908d75a6d4230b02fbf7f278",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hosea/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Hosea 7:11",
+                  "id": "v7-11",
+                  "text": "Ephraim was like a senseless dove without understanding; he called on Egypt, and they went to the Assyrians.",
+                  "text_sha256": "5c27299fd1f8ecc95e4b243cfec136e73bcb5cb121429baf798847d3e3bfaed1"
+                }
+              ],
+              "target_passage_sha256": "4265e869678ad0fd9442d5516cce4f9ef844c69fabb0614126b82abb03418036",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "lamentations-5-6__hosea-12-2",
+              "target": "Hosea 12:2",
+              "verdict": "supported",
+              "relationship": "shared pairing",
+              "rationale": "Both join dealings with Egypt and Assyria: Hosea says Ephraim 'made a covenant with the Assyrians, and traded oil into Egypt', and Lamentations says 'Egypt gave a hand, Assyria for their satisfaction.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a460dcffb9a88e5357af279091cd39076356e179e12a86e9e83abf7bcefbc12",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "hosea/verses.json",
+                "blob_sha": "c7b17f6519ad7ae6908d75a6d4230b02fbf7f278",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/hosea/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Hosea 12:2",
+                  "id": "v12-2",
+                  "text": "But Ephraim is an evil spirit; he pursued scorching heat all day, multiplied empty and worthless things, made a covenant with the Assyrians, and traded oil into Egypt.",
+                  "text_sha256": "05c60d2f6e4c00afdce3a7ed1b33e0e946adc11558a41bc01fde9cc1c544e54e"
+                }
+              ],
+              "target_passage_sha256": "e2656943161277f5c5696d575c93cc3e2d304f32ab87466a2d4aa91085dce518",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Lamentations 5:7",
@@ -5910,8 +6180,38 @@
           "id": "v5-13",
           "text": "Chosen men took up weeping, and young men weakened under wood.",
           "display_text": "Chosen men took up weeping,\nand young men weakened under wood.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "lamentations-5-13__lamentations-1-15",
+              "target": "Lamentations 1:15",
+              "verdict": "supported",
+              "relationship": "same lament",
+              "rationale": "Both lament the chosen men of Judah with weeping: Lamentations 5:13 says chosen men took up weeping, and Lamentations 1:15 says the Lord called a time to crush my chosen men, 'for these things I weep.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c20c2c3a0c35c09061aa7e0e1771da33696b573743a9eca9ad3f2175082bb96d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "lamentations/verses.json",
+                "blob_sha": "05d7755a5e96cf65f30173d3e025cd7af50cdb5c",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/lamentations/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Lamentations 1:15",
+                  "id": "v1-15",
+                  "text": "The Lord removed all my strong men from my midst. He called a time against me to crush my chosen men. The Lord trod a winepress for the virgin Daughter Judah; for these things I weep.",
+                  "text_sha256": "5b43dffad2faaa55d88b6c66d50b82fca5c6089bc462d02f32f57631ecfd8229"
+                }
+              ],
+              "target_passage_sha256": "5447c9052a53d1e7e094c325746412e432f4628a04d97338c6183e0e0db8e0ca",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Lamentations 5:14",
@@ -6273,5 +6573,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 6,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

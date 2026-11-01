@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "1 Chronicles",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,12 +28,16 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
+    1,
+    2,
     3,
+    4,
     5,
     6,
+    7,
     8,
     9,
     10,
@@ -53,6 +57,7 @@
     24,
     25,
     26,
+    27,
     28,
     29
   ],
@@ -60,7 +65,7 @@
   "completed_cross_references": 1000,
   "total_chapters": 29,
   "total_source_verse_units": 930,
-  "next_reference": "1 Chronicles 1:24",
+  "next_reference": null,
   "readable_html": "1Chronicles.html",
   "readable_text": "1Chronicles.txt",
   "canon_manifest": "../canon.json",
@@ -68,7 +73,7 @@
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "staging_page_id": 2445,
@@ -547,8 +552,10 @@
           "id": "v1-24",
           "text": "Sala,",
           "display_text": "Sala,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit consists only of the name Sala. The Sala of Luke 3:32 stands between Boaz and Nahshon and is a different man, while Luke 3:35 reads Shelah, a different spelling; nothing in the unit itself shows that it is the same person, so no secure identification can be made."
         },
         {
           "reference": "1 Chronicles 1:25",
@@ -1701,8 +1708,10 @@
           "id": "v1-52",
           "text": "Chief Elibamas, Chief Elas, Chief Phinon,",
           "display_text": "Chief Elibamas, Chief Elas, Chief Phinon,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists the chiefs Elibamas, Elas and Phinon. No other passage in the edition gives these names in this form or describes the same chiefs, so there is nothing to link to."
         },
         {
           "reference": "1 Chronicles 1:53",
@@ -1784,7 +1793,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "staging_page_id": 2448,
@@ -3695,8 +3704,10 @@
           "id": "v2-47",
           "text": "Jadai’s sons: Ragem, Jotham, Gersom, Phalet, Gaipha, and Sagaph.",
           "display_text": "Jadai’s sons: Ragem, Jotham, Gersom, Phalet, Gaipha, and Sagaph.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists Jadai's sons. Gersom in Ezra 8:2 is a son of Phinees, Gaipha in 1 Chronicles 1:33 and Isaiah 60:6 is Midianite, and Jotham in Judges 9:5 is Jerubbaal's son. These are different people who only share a name, and no passage repeats this family."
         },
         {
           "reference": "1 Chronicles 2:48",
@@ -5002,7 +5013,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "staging_page_id": 2447,
@@ -5091,8 +5102,10 @@
           "id": "v4-3",
           "text": "These were Aitam’s sons: Jezrael, Ragma, and Jabas. Their sister’s name was Eselebbōn.",
           "display_text": "These were Aitam’s sons: Jezrael, Ragma, and Jabas. Their sister’s name was Eselebbōn.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Aitam's sons Jezrael, Ragma and Jabas and their sister Eselebbon. Aitam elsewhere is a town that Rehoboam built or that belonged to Simeon, Etam is a rock, and Jezrael is a city. None of these passages shows this family, so the name matches do not identify anyone."
         },
         {
           "reference": "1 Chronicles 4:4",
@@ -5257,8 +5270,10 @@
           "id": "v4-8",
           "text": "Kos begot Enob and Sabeba, and the generations of the brother of Rechab son of Jarim.",
           "display_text": "Kos begot Enob and Sabeba, and the generations of the brother of Rechab son of Jarim.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Kos, Enob, Sabeba and the brother of Rechab son of Jarim. No passage repeats these people. The other passages share only the formula 'generations of' and belong to unrelated genealogies."
         },
         {
           "reference": "1 Chronicles 4:9",
@@ -5531,40 +5546,50 @@
           "id": "v4-16",
           "text": "His son: Geseel, Ameachi, Zapha, Zaira, and Eserael.",
           "display_text": "His son: Geseel, Ameachi, Zapha, Zaira, and Eserael.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists five sons, Geseel, Ameachi, Zapha, Zaira and Eserael, under an unclear 'His son'. These names occur nowhere else in the edition, so no parallel exists."
         },
         {
           "reference": "1 Chronicles 4:17",
           "id": "v4-17",
           "text": "Esri’s sons: Jether, Morad, Apher, and Jalon. Jether begot Maron, Semai, and Mareth, Esthemon’s father.",
           "display_text": "Esri’s sons: Jether, Morad, Apher, and Jalon. Jether begot Maron, Semai, and Mareth, Esthemon’s father.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists Esri's sons and Jether's children down to Esthemon's father. Every Jether elsewhere is a different man: Gideon's firstborn, Amasa's father, or Jadae's son. Esthemoe, Esthamo and Esthie are differently spelled places or people in other families. None of these passages repeats this family."
         },
         {
           "reference": "1 Chronicles 4:18",
           "id": "v4-18",
           "text": "His wife—she was Adia—bore Jared, Gedor’s father, Aber, Sochon’s father, and Jekthiel, Zano’s father. These were the sons of Gelia daughter of Pharaoh, whom Mored took.",
           "display_text": "His wife—she was Adia—bore Jared, Gedor’s father, Aber, Sochon’s father, and Jekthiel, Zano’s father. These were the sons of Gelia daughter of Pharaoh, whom Mored took.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Adia's sons, who founded or fathered Gedor, Sochon and Zano, and Gelia daughter of Pharaoh, whom Mored took. 1 Chronicles 4:4 gives Gedor a different father, Phanouel. Socoh, Geddon and the other places differ in spelling and context, and the remaining passages share only words like 'wife' or 'Pharaoh'. No passage repeats this family."
         },
         {
           "reference": "1 Chronicles 4:19",
           "id": "v4-19",
           "text": "The sons of the woman Idouia, Nachem’s sister. Dalia was Keila’s father, and Semeion was Joman’s father. The sons of Naem, Keila’s father: Agarmi and Esthemoe Machathi.",
           "display_text": "The sons of the woman Idouia, Nachem’s sister. Dalia was Keila’s father, and Semeion was Joman’s father. The sons of Naem, Keila’s father: Agarmi and Esthemoe Machathi.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Keila as the son of Dalia within Idouia's family, along with Esthemoe Machathi. The other passages mention Keilam among Judah's towns, the district of Keila under Nehemiah, and an unrelated Machathi. They concern places or other people and do not show this genealogy, so the resemblance is only geographic or phonetic."
         },
         {
           "reference": "1 Chronicles 4:20",
           "id": "v4-20",
           "text": "Semion’s sons: Amnon and Rana, Anan’s son, and Thilon. Isei’s sons: Zoath and Zoath’s sons.",
           "display_text": "Semion’s sons: Amnon and Rana, Anan’s son, and Thilon. Isei’s sons: Zoath and Zoath’s sons.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists the sons of Semion and Isei. The Isei of 1 Chronicles 5:24 is a Manassite chief, and the various Anans are unrelated men, a Benjaminite and an Ammonite king's son. No passage repeats these branches."
         },
         {
           "reference": "1 Chronicles 4:21",
@@ -10834,7 +10859,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "staging_page_id": 2452,
@@ -11283,8 +11308,10 @@
           "id": "v7-12",
           "text": "Sapphin and Apphin, and Raom’s sons; his son Aer.",
           "display_text": "Sapphin and Apphin, and Raom’s sons; his son Aer.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Sapphin, Apphin, Raom's sons and Aer. Amphin and Mamphin in 1 Chronicles 7:15, Mamphin and Ophimin in Genesis 46:21, and Sophan in Numbers 26 are spelled differently, and their texts do not show that they are the same men. No exact form is repeated anywhere, so an identification would rest on outside reconstruction."
         },
         {
           "reference": "1 Chronicles 7:13",
@@ -11525,8 +11552,10 @@
           "id": "v7-19",
           "text": "Semira’s sons were Jaaim, Sychem, Lakei, and Aniam.",
           "display_text": "Semira’s sons were Jaaim, Sychem, Lakei, and Aniam.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists Semira's sons Jaaim, Sychem, Lakei and Aniam. Every other Sychem in the edition is the city, not this son, so no passage concerns these people."
         },
         {
           "reference": "1 Chronicles 7:20",
@@ -36360,7 +36389,7 @@
     },
     {
       "chapter": 27,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 27,
         "staging_page_id": 2470,
@@ -37699,8 +37728,10 @@
           "id": "v27-32",
           "text": "Jonathan, David’s paternal uncle, was a counselor, an understanding man and a scribe. Jiiel son of Achamani was with the king’s sons.",
           "display_text": "Jonathan, David’s paternal uncle, was a counselor, an understanding man and a scribe. Jiiel son of Achamani was with the king’s sons.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Jonathan, David's paternal uncle, as counselor and scribe, and Jiiel son of Achamani. Jonathan son of Shimei and Jonadab son of Shimeah were sons of David's brother, not his uncle, and Jonathan the scribe in Jeremiah lived much later. Jesebaal son of Achamani is a different man who shares only the patronymic. No passage records these two appointments."
         },
         {
           "reference": "1 Chronicles 27:33",
@@ -40685,9 +40716,13 @@
   ],
   "next_unreviewed_reference": null,
   "completed_source_sections": [
+    1,
+    2,
     3,
+    4,
     5,
     6,
+    7,
     8,
     9,
     10,
@@ -40707,7 +40742,10 @@
     24,
     25,
     26,
+    27,
     28,
     29
-  ]
+  ],
+  "closed_source_units": 13,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

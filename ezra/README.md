@@ -1,6 +1,6 @@
 # Ezra — Saints Bible cross-references
 
-Ezra has **235 completed source verses and 251 distinct source/target-passage pairs**. Latest completed unit: **Ezra 10:44**. Fully completed chapters: 6, 9. Next: Ezra 1:9. Some source units remain pending. Completed entries within **Ezra 1:1–10:44**; this span includes pending source deferrals. 45 read source unit(s) remain deferred with zero completion credit: Ezra 1:9, Ezra 1:10, Ezra 2:17, Ezra 2:18, Ezra 2:19, Ezra 2:20, Ezra 2:30, Ezra 3:9, Ezra 4:1, Ezra 4:6, Ezra 4:8, Ezra 4:9, Ezra 4:11, Ezra 4:14, Ezra 4:16, Ezra 4:17, Ezra 4:18, Ezra 4:22, Ezra 5:7, Ezra 7:3, Ezra 7:4, Ezra 7:12, Ezra 7:14, Ezra 7:18, Ezra 8:5, Ezra 8:7, Ezra 8:9, Ezra 8:10, Ezra 8:14, Ezra 10:15, Ezra 10:21, Ezra 10:23, Ezra 10:24, Ezra 10:26, Ezra 10:32, Ezra 10:33, Ezra 10:34, Ezra 10:35, Ezra 10:36, Ezra 10:37, Ezra 10:38, Ezra 10:39, Ezra 10:40, Ezra 10:41, Ezra 10:42. First pending source unit: Ezra 1:9. No never-reviewed source units remain. Next new source review: none; all OT source units read.
+Ezra 1–10 is complete at the initial curated cross-reference stage: **250 source verses and 271 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: None. 30 source unit(s) were read and closed with no supportable cross-reference in this edition; they earn no completion credit and are listed with their reasons in the readable files and [source-checks.json](source-checks.json).
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,7 +19,7 @@ The counts were derived from the complete [pinned Saints-Translation record](htt
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **Ezra 1:9**. All OT source units have been read; incomplete units remain pending. 45 read source unit(s) remain deferred with zero completion credit: Ezra 1:9, Ezra 1:10, Ezra 2:17, Ezra 2:18, Ezra 2:19, Ezra 2:20, Ezra 2:30, Ezra 3:9, Ezra 4:1, Ezra 4:6, Ezra 4:8, Ezra 4:9, Ezra 4:11, Ezra 4:14, Ezra 4:16, Ezra 4:17, Ezra 4:18, Ezra 4:22, Ezra 5:7, Ezra 7:3, Ezra 7:4, Ezra 7:12, Ezra 7:14, Ezra 7:18, Ezra 8:5, Ezra 8:7, Ezra 8:9, Ezra 8:10, Ezra 8:14, Ezra 10:15, Ezra 10:21, Ezra 10:23, Ezra 10:24, Ezra 10:26, Ezra 10:32, Ezra 10:33, Ezra 10:34, Ezra 10:35, Ezra 10:36, Ezra 10:37, Ezra 10:38, Ezra 10:39, Ezra 10:40, Ezra 10:41, Ezra 10:42. First pending source unit: Ezra 1:9. No never-reviewed source units remain. Next new source review: none; all OT source units read. Revisit these deferred units substantively before marking them complete. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **None**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
@@ -29,3 +29,4 @@ Unretained target candidates: 16, excluded from completed counts. See the record
 
 - [2026-10-30T143835Z](review-batches/2026-10-30T143835Z.json): 245 newly completed pairs across 230 source verses.
 - [2026-10-31T204915Z](review-batches/2026-10-31T204915Z.json): 6 newly completed pairs across 5 source verses.
+- [2026-11-01T124729Z](review-batches/2026-11-01T124729Z.json): 20 newly completed pairs across 15 source verses.

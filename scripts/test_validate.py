@@ -219,5 +219,46 @@ class SavedCompositeTargetTests(unittest.TestCase):
         self.assertEqual(path.read_bytes(),original)
 
 
+
+
+class ClosedSourceUnitTests(unittest.TestCase):
+    """Closed units are finished with a recorded reason and earn no completion credit."""
+    def setUp(self):
+        self.temporary=tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root=Path(self.temporary.name)
+        self.root_patch=patch.object(validate,'ROOT',self.root)
+        self.root_patch.start()
+        self.addCleanup(self.root_patch.stop)
+        self.data={'book':'Ruth','chapters':[{'chapter':1,'status':'completed','verses':[
+            {'reference':'Ruth 1:1','id':'v1-1','text':'A','status':'completed','cross_references':[{'id':'x'}]},
+            {'reference':'Ruth 1:2','id':'v1-2','text':'B','status':'closed','cross_references':[],'closure_reason':'Bare name.','reviewed':'2026-11-01'}]}]}
+        self.checks={'deferred_source_units':[],'closed_source_units':[
+            {'source_reference':'Ruth 1:2','reason':'Bare name.','completed_source_credit':0,'completed_pair_credit':0}]}
+
+    def write(self):
+        folder=self.root/'ruth';folder.mkdir(exist_ok=True)
+        (folder/'verses.json').write_text(json.dumps(self.data),encoding='utf-8')
+        (folder/'source-checks.json').write_text(json.dumps(self.checks),encoding='utf-8')
+        return {'books':[{'book':'Ruth','records':'ruth/'}],'next_unreviewed':None}
+
+    def test_closed_unit_counts_as_finished_chapter(self):
+        from chapter_structure import completed_chapter_numbers
+        self.assertEqual(completed_chapter_numbers(self.data),[1])
+
+    def test_closed_unit_is_not_a_continuation(self):
+        self.assertIsNone(validate.validate_source_review_continuation(self.write()))
+
+    def test_closed_unit_must_be_recorded_in_source_checks(self):
+        self.checks['closed_source_units']=[]
+        with self.assertRaisesRegex(ValueError,'Closed source units differ'):
+            validate.validate_source_review_continuation(self.write())
+
+    def test_closed_unit_cannot_earn_credit(self):
+        self.checks['closed_source_units'][0]['completed_source_credit']=1
+        with self.assertRaisesRegex(ValueError,'earns credit'):
+            validate.validate_source_review_continuation(self.write())
+
+
 if __name__=='__main__':
     unittest.main()

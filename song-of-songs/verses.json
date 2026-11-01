@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Song of Songs",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,28 +32,40 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
+    1,
+    2,
+    3,
     4,
+    5,
+    6,
+    7,
     8
   ],
   "completed_source_sections": [
+    1,
+    2,
+    3,
     4,
+    5,
+    6,
+    7,
     8
   ],
-  "completed_source_verses": 110,
-  "completed_cross_references": 110,
+  "completed_source_verses": 113,
+  "completed_cross_references": 114,
   "total_chapters": 8,
   "total_source_sections": 8,
   "total_source_verse_units": 117,
-  "next_reference": "Song of Songs 1:9",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "SongofSongs.html",
   "readable_text": "SongofSongs.txt",
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "section": 1,
@@ -380,8 +392,10 @@
           "id": "v1-9",
           "text": "I have compared you, my companion, to my mare among Pharaoh’s chariots.",
           "display_text": "I have compared you, my companion, to my mare among Pharaoh’s chariots.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit compares the companion to a mare among Pharaoh's chariots. The Song leads share only the address my companion with other images, and the Exodus verses describe Pharaoh's chariots and horses at the sea, without the mare comparison."
         },
         {
           "reference": "Song of Songs 1:10",
@@ -668,14 +682,16 @@
           "id": "v1-17",
           "text": "The beams of our houses are cedars; our ceiling panels are cypresses.",
           "display_text": "The beams of our houses are cedars; our ceiling panels are cypresses.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes cedar beams and cypress ceiling panels of the lovers' houses. The temple and palace passages use cedar in royal or sacred buildings, 2 Kings 19:23 mentions felled cedars and cypresses, and the remaining leads concern unrelated images; none describes this dwelling."
         }
       ]
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -1243,8 +1259,66 @@
           "id": "v2-15",
           "text": "Catch for us the little foxes that destroy vineyards, for our vines are flowering.",
           "display_text": "Catch for us the little foxes that destroy vineyards, for our vines are flowering.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "song-of-songs-2-15__song-of-songs-2-13",
+              "target": "Song of Songs 2:13",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both verses say the vines are flowering: here as the reason to catch the foxes that destroy vineyards, and in Song 2:13 as a sign of spring calling the companion to rise and come.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fabea6bea6ae41618b9ac71a09edd5952e6bb8bdf2b0393e7a0575a03cd5805e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "song-of-songs/verses.json",
+                "blob_sha": "c25dcabd0c7416a129af37911b972ee3b89ed821",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/song-of-songs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Song of Songs 2:13",
+                  "id": "v2-13",
+                  "text": "The fig tree has brought forth its early figs; the vines are flowering and have given fragrance. Rise, come, my companion, my beautiful one, my dove,",
+                  "text_sha256": "898f4ffa48050d638efe94e14314490f097d09fe1f24dcd1b56d1b3e69fa261f"
+                }
+              ],
+              "target_passage_sha256": "944a363b25d9dd0e4fbca440f6b14b3941937d47bd9b5d0b52f2eb9b29d90e9d",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "song-of-songs-2-15__song-of-songs-7-13",
+              "target": "Song of Songs 7:13",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both verses tie the vineyards to the flowering of the vine: Song 7:13 proposes going early to the vineyards to see whether the vine has blossomed. Only this unit mentions the foxes.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fabea6bea6ae41618b9ac71a09edd5952e6bb8bdf2b0393e7a0575a03cd5805e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "song-of-songs/verses.json",
+                "blob_sha": "c25dcabd0c7416a129af37911b972ee3b89ed821",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/song-of-songs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Song of Songs 7:13",
+                  "id": "v7-13",
+                  "text": "Let us rise early for the vineyards; let us see whether the vine has blossomed, whether the bloom has flowered, whether the pomegranates have flowered. There I will give you my breasts.",
+                  "text_sha256": "f108f00481be1f910bed75a0b940b0f4d9d18a3872902adaff68e772f3edc7fc"
+                }
+              ],
+              "target_passage_sha256": "8e55db91ae9c660fa26046500b4a985e970a829b65fb9f227d348e77ab92bcc0",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Song of Songs 2:16",
@@ -1328,7 +1402,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -1743,8 +1817,38 @@
           "id": "v3-10",
           "text": "He made its pillars silver and its reclining support gold; its step was purple, its interior paved with stone—love from the daughters of Jerusalem.",
           "display_text": "He made its pillars silver and its reclining support gold; its step was purple, its interior paved with stone—love from the daughters of Jerusalem.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "song-of-songs-3-10__esther-1-6",
+              "target": "Esther 1:6",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both describe lavish furnishings of silver and gold with pillars, purple and a stone pavement: here pillars of silver, a gold reclining support, a purple step and an interior paved with stone; in Esther 1:6 purple cords upon gold and silver blocks, pillars of marble and stone, and gold and silver couches on a pavement of stone. Only the Song adds 'love from the daughters of Jerusalem'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2e878d19fc4b45b91aa4421a3cc15b9fd20825fb30c215aae1cba479275678cd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 1:6",
+                  "id": "v1-6",
+                  "text": "which was adorned with fine linen and cotton cloths stretched on fine linen and purple cords upon gold and silver blocks, upon pillars of Parian marble and stone. There were gold and silver couches on a pavement of emerald stone, pearly stone, and Parian stone, and transparent coverings adorned with varied flowers, with roses scattered all around.",
+                  "text_sha256": "d453305f85abbf38bbd23d85f42c1f4a9b867a9870eb63c00dc300388ca08bc6"
+                }
+              ],
+              "target_passage_sha256": "4a885709ac8618f45611f7d33f7c2a9be0a6bfdb56646fe9dcf391fdcaf6d7f2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Song of Songs 3:11",
@@ -2477,7 +2581,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "section": 5,
@@ -2630,8 +2734,38 @@
           "id": "v5-4",
           "text": "My kinsman extended his hand from the opening, and my belly was stirred for him.",
           "display_text": "My kinsman extended his hand from the opening, and my belly was stirred for him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "song-of-songs-5-4__1-kings-3-26",
+              "target": "1 Kings 3:26",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both use the same idiom of inward stirring for a loved one: my belly was stirred for him, and her womb was stirred for her son. The Song speaks of a lover's longing, while 1 Kings speaks of a mother's compassion.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "24b0e410023d293d76ce793d7f3a586d2a8dc196911d60beb313000e5f15139b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-kings/verses.json",
+                "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Kings 3:26",
+                  "id": "v3-26",
+                  "text": "The woman whose son was alive answered the king, for her womb was stirred for her son. She said, “Please, my lord, give her the child! You must not put him to death!” But the other said, “He shall belong to neither me nor her. Divide him.”",
+                  "text_sha256": "9916d9778535f218826e5253fec800b0a36ac075e66bf98370e71d516e095a43"
+                }
+              ],
+              "target_passage_sha256": "2bc65145482e2bac08c3e965575695f791813b7b60cd5677e3361ae94d511393",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Song of Songs 5:5",
@@ -3161,7 +3295,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "section": 6,
@@ -3605,14 +3739,16 @@
           "id": "v6-12",
           "text": "My soul did not know; it set me among Amminadab’s chariots.",
           "display_text": "My soul did not know; it set me among Amminadab’s chariots.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit mentions Amminadab's chariots without identifying him. The genealogical Amminadabs in Matthew and Chronicles have no connection with chariots or this scene, and the other leads concern divine compassion and repentance with no shared wording."
         }
       ]
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -3627,8 +3763,10 @@
           "id": "v7-1",
           "text": "Return, return, Shulammite! Return, return, and we will look at you. What will you see in the Shulammite? She comes like dances of the camps.",
           "display_text": "Return, return, Shulammite! Return, return, and we will look at you. What will you see in the Shulammite? She comes like dances of the camps.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit calls the Shulammite to return and compares her to dances of the camps. Genesis 32:3 names a place Encampments, but this edition does not make the phrase a place name. The other leads mention dances or joy in unrelated settings."
         },
         {
           "reference": "Song of Songs 7:2",
@@ -4720,5 +4858,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 4,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

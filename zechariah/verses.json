@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Zechariah",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,21 +32,45 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
     1,
-    9
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
   ],
   "completed_source_sections": [
     1,
-    9
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
   ],
-  "completed_source_verses": 175,
-  "completed_cross_references": 200,
+  "completed_source_verses": 196,
+  "completed_cross_references": 234,
   "total_chapters": 14,
   "total_source_sections": 14,
   "total_source_verse_units": 211,
-  "next_reference": "Zechariah 2:3",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Zechariah.html",
   "readable_text": "Zechariah.txt",
@@ -821,7 +845,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -914,16 +938,82 @@
           "id": "v2-3",
           "text": "The Lord showed me four craftsmen.",
           "display_text": "The Lord showed me four craftsmen.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse only says the Lord showed four craftsmen. The other passages mention a smith, iron and bronze, judges or deliverers, or deported craftsmen, but none presents four craftsmen or identifies these figures, so any match would rest on interpretation not present in the texts."
         },
         {
           "reference": "Zechariah 2:4",
           "id": "v2-4",
           "text": "I said, “What are these coming to do?” He said to me, “These horns that scattered Judah also shattered Israel, and none of them lifted a head. These entered to sharpen them for their hands—the four horns, the nations lifting a horn against the Lord’s land to scatter it.”",
           "display_text": "I said, “What are these coming to do?” He said to me, “These horns that scattered Judah also shattered Israel, and none of them lifted a head. These entered to sharpen them for their hands—the four horns, the nations lifting a horn against the Lord’s land to scatter it.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-2-4__zechariah-2-2",
+              "target": "Zechariah 2:2",
+              "verdict": "supported",
+              "relationship": "same vision",
+              "rationale": "Both verses identify the horns in the same vision as \"the horns that scattered Judah\" and Israel; here the explanation adds that they \"shattered Israel\" and are the nations.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "208bf82059b9135b3425052c9474c54fd4c5835a9a50d151b4582663fe72a2f1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 2:2",
+                  "id": "v2-2",
+                  "text": "I said to the angel speaking within me, “What are these, lord?” He said to me, “These are the horns that scattered Judah and Israel.”",
+                  "text_sha256": "77a76ba3a57a4cb851e444ed4bb3569e709c713de8257efc3f99c2dd8151d3fb"
+                }
+              ],
+              "target_passage_sha256": "e00b93b8c65b2cbb1f5e3cd53e6eef86d1486652440df50413e90fb87749efe6",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-2-4__psalms-74-5-6",
+              "target": "Psalms 74:5-6",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both use the image of lifting a horn in hostility: the nations are 'lifting a horn against the Lord's land', and the psalm warns 'Do not raise a horn; do not lift your horn on high', followed by 'do not speak injustice against God.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "208bf82059b9135b3425052c9474c54fd4c5835a9a50d151b4582663fe72a2f1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 74:5",
+                  "id": "v74-5",
+                  "text": "I said to those acting lawlessly, “Do not act lawlessly,” and to those sinning, “Do not raise a horn;",
+                  "text_sha256": "c5cc7be89acc94d3d17880f38cd8b9fdb6bae89b6e8784ba438e82ead2592835"
+                },
+                {
+                  "reference": "Psalms 74:6",
+                  "id": "v74-6",
+                  "text": "do not lift your horn on high; do not speak injustice against God.”",
+                  "text_sha256": "65b96f6d1714f34e18ff18ad9fa735d4f49548b7f05e9e31f41a2979183f5195"
+                }
+              ],
+              "target_passage_sha256": "b91ed687b2ae845c1ff51ba5871fb035e8e9748bd80fdefd520ae7607d1fdfa2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 2:5",
@@ -1029,8 +1119,66 @@
           "id": "v2-7",
           "text": "Look, the angel speaking within me was standing, and another angel was going out to meet him,",
           "display_text": "Look, the angel speaking within me was standing, and another angel was going out to meet him,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-2-7__zechariah-1-9",
+              "target": "Zechariah 1:9",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "The figure here is 'the angel speaking within me', the same interpreting angel who says in Zechariah 1:9, 'I will show you what these are.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4700182492649bc0f4a64cd2a6124ce51cde0faa062043b1f2ea306737847e93",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 1:9",
+                  "id": "v1-9",
+                  "text": "I said, “What are these, lord?” The angel speaking within me said to me, “I will show you what these are.”",
+                  "text_sha256": "e2fc9be166d4ca730422d79e1968c36984ef9800498056d744fe6fb021edb221"
+                }
+              ],
+              "target_passage_sha256": "4e8a796033696ef708471deec088da750b895aaf4fb95c1d5ac39c1857424b69",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-2-7__zechariah-5-5",
+              "target": "Zechariah 5:5",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "The same 'angel speaking within me' appears again in 5:5, where he 'came out' and directs the prophet to look; here he stands while another angel goes out to meet him.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4700182492649bc0f4a64cd2a6124ce51cde0faa062043b1f2ea306737847e93",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 5:5",
+                  "id": "v5-5",
+                  "text": "The angel speaking within me came out and said to me, “Look up with your eyes and see what this is that is coming out.”",
+                  "text_sha256": "6bc92379e15ae83f2ed16bc097ed21c5f9cc550b49c65c7cee3b9bb3acd5a6f4"
+                }
+              ],
+              "target_passage_sha256": "a0ee4f1423c480ad78b5eef193193c1464b0651975ea5fecc5873837d7542917",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 2:8",
@@ -1588,7 +1736,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -1919,8 +2067,38 @@
           "id": "v3-6",
           "text": "The angel of the Lord solemnly testified to Joshua, saying:",
           "display_text": "The angel of the Lord solemnly testified to Joshua, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-3-6__zechariah-3-1",
+              "target": "Zechariah 3:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both verses concern Joshua and the angel of the Lord in the same vision: Joshua the high priest stands before the angel of the Lord, who here testifies solemnly to him.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c17fe3de0a434aa6d9310bfed1668fdd5298a9ebfe6fedaf0b38a30ad3c53516",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 3:1",
+                  "id": "v3-1",
+                  "text": "He showed me Joshua the high priest standing before the angel of the Lord, with the slanderer standing at his right hand to oppose him.",
+                  "text_sha256": "be63dfc44994baaea79aff9eccbec6279f6a995457b7f8f2c7ed6804b236ce4a"
+                }
+              ],
+              "target_passage_sha256": "fcd02170f6f02e15a52f462d939a0aa9f2436fa548e06c0842fc248bc5e17951",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 3:7",
@@ -2144,7 +2322,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -2353,16 +2531,132 @@
           "id": "v4-4",
           "text": "I asked the angel speaking within me, “What are these, lord?”",
           "display_text": "I asked the angel speaking within me, “What are these, lord?”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-4-4__zechariah-6-4",
+              "target": "Zechariah 6:4",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Zechariah asks 'the angel speaking within me' the identical question, 'What are these, lord?', again in 6:4.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b37f43969cc24acc846b6b2ac8a90530c99dcea96c7aa9f505e0389e30a454a6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 6:4",
+                  "id": "v6-4",
+                  "text": "I answered and said to the angel speaking within me, “What are these, lord?”",
+                  "text_sha256": "b0c38edcc6e64d6a4093d337371957880fc776cabbd9061d72db4f8b2b5c881f"
+                }
+              ],
+              "target_passage_sha256": "f3128247ff9d4c910ffdaecd3e6cec3d7b47c1353b22406624fd20f481f980a8",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-4-4__zechariah-2-2",
+              "target": "Zechariah 2:2",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The same question \"What are these, lord?\" is put to \"the angel speaking within me\" in the vision of the horns.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b37f43969cc24acc846b6b2ac8a90530c99dcea96c7aa9f505e0389e30a454a6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 2:2",
+                  "id": "v2-2",
+                  "text": "I said to the angel speaking within me, “What are these, lord?” He said to me, “These are the horns that scattered Judah and Israel.”",
+                  "text_sha256": "77a76ba3a57a4cb851e444ed4bb3569e709c713de8257efc3f99c2dd8151d3fb"
+                }
+              ],
+              "target_passage_sha256": "e00b93b8c65b2cbb1f5e3cd53e6eef86d1486652440df50413e90fb87749efe6",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-4-4__zechariah-1-9",
+              "target": "Zechariah 1:9",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The question 'What are these, lord?' is also asked in 1:9, where 'the angel speaking within me' promises, 'I will show you what these are.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b37f43969cc24acc846b6b2ac8a90530c99dcea96c7aa9f505e0389e30a454a6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 1:9",
+                  "id": "v1-9",
+                  "text": "I said, “What are these, lord?” The angel speaking within me said to me, “I will show you what these are.”",
+                  "text_sha256": "e2fc9be166d4ca730422d79e1968c36984ef9800498056d744fe6fb021edb221"
+                }
+              ],
+              "target_passage_sha256": "4e8a796033696ef708471deec088da750b895aaf4fb95c1d5ac39c1857424b69",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 4:5",
           "id": "v4-5",
           "text": "The angel speaking within me answered me, “Do you not know what these are?” I said, “No, lord.”",
           "display_text": "The angel speaking within me answered me, “Do you not know what these are?” I said, “No, lord.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-4-5__zechariah-4-13",
+              "target": "Zechariah 4:13",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The identical exchange recurs later in the same vision: \"Do you not know what these are?\" and the reply \"No, lord.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8a636b9cd51dcc10baff06258e7a74f99605eff8b13d290b54c97e8a9b8adfab",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 4:13",
+                  "id": "v4-13",
+                  "text": "He said to me, “Do you not know what these are?” I said, “No, lord.”",
+                  "text_sha256": "7222d1ce165de6f63082e9c4136f0986190435e2e1746606bbb9bd505319ad75"
+                }
+              ],
+              "target_passage_sha256": "976784f7363983f0b64e36e7fced42ba5b427081217a2d6a6f98c6abcce75258",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 4:6",
@@ -2415,16 +2709,88 @@
           "id": "v4-7",
           "text": "Who are you, great mountain, before Zerubbabel, to set things straight? I will bring out the stone of inheritance—an equality of grace, its grace.”",
           "display_text": "Who are you, great mountain, before Zerubbabel, to set things straight? I will bring out the stone of inheritance—an equality of grace, its grace.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-4-7__zechariah-4-9",
+              "target": "Zechariah 4:9",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both verses concern Zerubbabel: here the great mountain is challenged 'before Zerubbabel' and the speaker will 'bring out the stone of inheritance', and in 4:9 'Zerubbabel's hands laid this house's foundation, and his hands will complete it.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1ab1e1dc776e6d15c1631861163bf628a89b61f3f59b1f6440f8d8513437799d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 4:9",
+                  "id": "v4-9",
+                  "text": "“Zerubbabel’s hands laid this house’s foundation, and his hands will complete it. You will recognize that the Lord Almighty has sent me to you.",
+                  "text_sha256": "83c7078c4258b744bf3f3c603588019ddd46f8f8de2860bd7df16a5880034c0f"
+                }
+              ],
+              "target_passage_sha256": "fa19a52106359d6ce407bd877570b3ce24269925fcbe2373d00e0f543442eccd",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-4-7__haggai-2-21-23",
+              "target": "Haggai 2:21-23",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Haggai addresses the same Zerubbabel, son of Shealtiel, with a promise that the Lord will overturn the strength of kings and make him like a signet; here the great mountain cannot stand before him.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1ab1e1dc776e6d15c1631861163bf628a89b61f3f59b1f6440f8d8513437799d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "haggai/verses.json",
+                "blob_sha": "b9623d3c2c80b65db6366f940ccbb200a2c4ba5d",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/haggai/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Haggai 2:21",
+                  "id": "v2-21",
+                  "text": "“Speak to Zerubbabel, the son of Shealtiel, from the tribe of Judah, saying: I am shaking heaven and earth, the sea and the dry land,",
+                  "text_sha256": "28dc12bb598e743f0fb2dd703454273b1b0a01ab99bfbefc6538a9016b7a4a76"
+                },
+                {
+                  "reference": "Haggai 2:22",
+                  "id": "v2-22",
+                  "text": "and I will overturn the thrones of kings and destroy the strength of the kings of the nations. I will overturn chariots and riders; horses and their riders will fall, each with a sword against his brother.",
+                  "text_sha256": "c237165dfbc2dc04906107877f5e5df8b1d2e589901efc66a6edf047ad9d5b2d"
+                },
+                {
+                  "reference": "Haggai 2:23",
+                  "id": "v2-23",
+                  "text": "On that day, says the Lord Almighty, I will take you, Zerubbabel, the son of Shealtiel, My servant, says the Lord, and make you like a signet, for I have chosen you, says the Lord Almighty.”",
+                  "text_sha256": "e991ec5e59952ac78559da73fa808748137d950493bb668eaceaed29bdcca45a"
+                }
+              ],
+              "target_passage_sha256": "fc5ca52d53cdf880d8504c5a8d8886a9d8d0fb0e3b69152e58fe0ceffebf6816",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 4:8",
           "id": "v4-8",
           "text": "The word of the Lord came to me, saying:",
           "display_text": "The word of the Lord came to me, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse is only the formula announcing that the Lord's word came; no other passage was offered, and the formula alone gives no specific link."
         },
         {
           "reference": "Zechariah 4:9",
@@ -2641,16 +3007,104 @@
           "id": "v4-12",
           "text": "I asked a second time, “What are the two olive branches in the hands of the two golden nozzles that pour upon and draw up the golden pouring channels?”",
           "display_text": "I asked a second time, “What are the two olive branches in the hands of the two golden nozzles that pour upon and draw up the golden pouring channels?”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-4-12__zechariah-4-2",
+              "target": "Zechariah 4:2",
+              "verdict": "supported",
+              "relationship": "same vision",
+              "rationale": "Both verses describe the golden lampstand vision; the lampstand has \"seven pouring channels,\" and here the two olive branches are linked to \"the golden pouring channels.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7c9cb7cbf337c21fc6fdadf1b57774c370e6ef83ca721d1b91ca95e9ea0860c7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 4:2",
+                  "id": "v4-2",
+                  "text": "and said to me, “What do you see?” I said, “I see a lampstand entirely of gold, with its lamp-bowl above it, seven lamps upon it, and seven pouring channels for the lamps above it.",
+                  "text_sha256": "12d7b277079767bb582e9d30999d74b3ddf46870f3f851e9a4c136931590624d"
+                }
+              ],
+              "target_passage_sha256": "71c9ad7e5e468619a57318f73268e581a1e44dd78e930da06d300f9181dbf2f5",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-4-12__revelation-11-4",
+              "target": "Revelation 11:4",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Revelation names 'the two olive trees and the two lampstands', echoing this vision's 'two olive branches'; Zechariah's verse speaks of olive branches beside golden nozzles and pouring channels rather than olive trees and lampstands.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7c9cb7cbf337c21fc6fdadf1b57774c370e6ef83ca721d1b91ca95e9ea0860c7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 11:4",
+                  "id": "v11-4",
+                  "text": "These are the two olive trees and the two lampstands standing before the Lord of the earth.",
+                  "text_sha256": "2e733e69d07354607f0a932a54f72b4e07b57f036b99c4e3f74d3d526071c011"
+                }
+              ],
+              "target_passage_sha256": "50b92d49d001baffa7d69c0c7979799e840b12ac8c75b41fd72405bd584d20a9",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 4:13",
           "id": "v4-13",
           "text": "He said to me, “Do you not know what these are?” I said, “No, lord.”",
           "display_text": "He said to me, “Do you not know what these are?” I said, “No, lord.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-4-13__zechariah-4-5",
+              "target": "Zechariah 4:5",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The identical exchange appears earlier in the same vision: \"Do you not know what these are?\" and the reply \"No, lord.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7222d1ce165de6f63082e9c4136f0986190435e2e1746606bbb9bd505319ad75",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 4:5",
+                  "id": "v4-5",
+                  "text": "The angel speaking within me answered me, “Do you not know what these are?” I said, “No, lord.”",
+                  "text_sha256": "8a636b9cd51dcc10baff06258e7a74f99605eff8b13d290b54c97e8a9b8adfab"
+                }
+              ],
+              "target_passage_sha256": "335cca4a225f8bed3ef56ec4c22ab82b64389580f2b7d958f2036a40e61c63aa",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 4:14",
@@ -2695,7 +3149,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "section": 5,
@@ -2756,8 +3210,66 @@
           "id": "v5-2",
           "text": "He said to me, “What do you see?” I said, “I see a flying sickle, twenty cubits long and ten cubits wide.”",
           "display_text": "He said to me, “What do you see?” I said, “I see a flying sickle, twenty cubits long and ten cubits wide.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-5-2__1-kings-6-3",
+              "target": "1 Kings 6:3",
+              "verdict": "supported",
+              "relationship": "shared dimensions",
+              "rationale": "The flying sickle is \"twenty cubits long and ten cubits wide,\" exactly the dimensions given for the temple porch, \"twenty cubits long ... and ten cubits wide.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "ab275ca01ad915cd20545403af99e45e62c68320da900ca73c031ac3670af04d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-kings/verses.json",
+                "blob_sha": "00f7db4eede7e186cc8b7986b2249079495b4cc2",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Kings 6:3",
+                  "id": "v6-3",
+                  "text": "The porch in front of the temple was twenty cubits long across the house’s width, and ten cubits wide in front of the house. He built the house and completed it.",
+                  "text_sha256": "0186dd737d7173f69621242980ef33ce53503549fd164bfbb22a07fe1df66b4b"
+                }
+              ],
+              "target_passage_sha256": "278f613aeb68f87567da8c5ca688d3a072065c6c2fc58bf6912c98f5b284ea87",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-5-2__zechariah-4-2",
+              "target": "Zechariah 4:2",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both visions open with the same exchange, \"What do you see?\" followed by \"I see ...\"; there the object is the golden lampstand.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "ab275ca01ad915cd20545403af99e45e62c68320da900ca73c031ac3670af04d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 4:2",
+                  "id": "v4-2",
+                  "text": "and said to me, “What do you see?” I said, “I see a lampstand entirely of gold, with its lamp-bowl above it, seven lamps upon it, and seven pouring channels for the lamps above it.",
+                  "text_sha256": "12d7b277079767bb582e9d30999d74b3ddf46870f3f851e9a4c136931590624d"
+                }
+              ],
+              "target_passage_sha256": "71c9ad7e5e468619a57318f73268e581a1e44dd78e930da06d300f9181dbf2f5",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 5:3",
@@ -2849,16 +3361,104 @@
           "id": "v5-5",
           "text": "The angel speaking within me came out and said to me, “Look up with your eyes and see what this is that is coming out.”",
           "display_text": "The angel speaking within me came out and said to me, “Look up with your eyes and see what this is that is coming out.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-5-5__zechariah-1-9",
+              "target": "Zechariah 1:9",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "\"The angel speaking within me\" is the same interpreting angel who earlier promised, \"I will show you what these are\"; here he again directs the prophet to see.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "6bc92379e15ae83f2ed16bc097ed21c5f9cc550b49c65c7cee3b9bb3acd5a6f4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 1:9",
+                  "id": "v1-9",
+                  "text": "I said, “What are these, lord?” The angel speaking within me said to me, “I will show you what these are.”",
+                  "text_sha256": "e2fc9be166d4ca730422d79e1968c36984ef9800498056d744fe6fb021edb221"
+                }
+              ],
+              "target_passage_sha256": "4e8a796033696ef708471deec088da750b895aaf4fb95c1d5ac39c1857424b69",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-5-5__zechariah-4-5",
+              "target": "Zechariah 4:5",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "The same 'angel speaking within me' questions the prophet in 4:5, 'Do you not know what these are?', as here he invites him to look at what is coming out.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "6bc92379e15ae83f2ed16bc097ed21c5f9cc550b49c65c7cee3b9bb3acd5a6f4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 4:5",
+                  "id": "v4-5",
+                  "text": "The angel speaking within me answered me, “Do you not know what these are?” I said, “No, lord.”",
+                  "text_sha256": "8a636b9cd51dcc10baff06258e7a74f99605eff8b13d290b54c97e8a9b8adfab"
+                }
+              ],
+              "target_passage_sha256": "335cca4a225f8bed3ef56ec4c22ab82b64389580f2b7d958f2036a40e61c63aa",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 5:6",
           "id": "v5-6",
           "text": "I said, “What is it?” He said, “This is the measure coming out.” He said, “This is their injustice throughout the earth.”",
           "display_text": "I said, “What is it?” He said, “This is the measure coming out.” He said, “This is their injustice throughout the earth.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-5-6__amos-8-5",
+              "target": "Amos 8:5",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both texts tie the measure to injustice: here the measure coming out is \"their injustice throughout the earth,\" and Amos condemns \"making the measure small\" with \"an unjust balance.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "218081cbda47bff91c1dc693c092a71dc04a881bdfc13188941b83f888bd34ce",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "amos/verses.json",
+                "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/amos/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Amos 8:5",
+                  "id": "v8-5",
+                  "text": "saying, “When will the month pass, so we may trade, and the sabbaths, so we may open storehouses, making the measure small and the weights great and making an unjust balance,",
+                  "text_sha256": "597ca515b37d3795d09cc425036daa66f60564c959881628cea13d4165025429"
+                }
+              ],
+              "target_passage_sha256": "72c7ef97ed7cf543429fcf90a1689dd7f3d140ed4a12dab659945d6b2e0c2a84",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 5:7",
@@ -2904,38 +3504,186 @@
           "id": "v5-8",
           "text": "He said, “This is Lawlessness.” He threw her into the measure and threw the lead stone into her mouth.",
           "display_text": "He said, “This is Lawlessness.” He threw her into the measure and threw the lead stone into her mouth.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-5-8__zechariah-5-7",
+              "target": "Zechariah 5:7",
+              "verdict": "supported",
+              "relationship": "same vision",
+              "rationale": "The preceding verse describes the same scene: a talent of lead lifted and \"one woman ... sitting inside the measure,\" whom this verse names Lawlessness before throwing her back with the lead stone.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "6d46f566833c5b3170c445dec7d0d5e6698064e94f38f0279148a2915bea7d5a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 5:7",
+                  "id": "v5-7",
+                  "text": "Look, a talent of lead was being lifted out, and look, one woman was sitting inside the measure!",
+                  "text_sha256": "8513902ef4db34bc967982fcf96dd0db5b2beb3d8aad7920eca8fbe540499fcc"
+                }
+              ],
+              "target_passage_sha256": "7b8fe87de114e138c4b938084d9bf1c8512561cd9763a60607087543efc17da4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-5-8__micah-6-11",
+              "target": "Micah 6:11",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both texts associate lawlessness with measuring tools: Micah asks whether 'a lawless person' can be justified with a balance and deceptive weights, and here Lawlessness is thrown into the measure and the lead stone into her mouth.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "6d46f566833c5b3170c445dec7d0d5e6698064e94f38f0279148a2915bea7d5a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "micah/verses.json",
+                "blob_sha": "319c7964e056f960bdff58c9abc8e9ddd04d7ed5",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/micah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Micah 6:11",
+                  "id": "v6-11",
+                  "text": "Will a lawless person be justified with a balance and deceptive weights in a pouch?",
+                  "text_sha256": "550206ee8ca871c7205258c1c768377d40560cb828956e3a9bdbaf2b4c15ca6a"
+                }
+              ],
+              "target_passage_sha256": "072e4c174ba8afaea89164d0f30a978c52e8ce317ec2771fcc2a980359b8fca2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 5:9",
           "id": "v5-9",
           "text": "I lifted my eyes and saw: look, two women coming out, with wind in their wings! They had wings like a hoopoe’s wings, and they lifted the measure between earth and heaven.",
           "display_text": "I lifted my eyes and saw: look, two women coming out, with wind in their wings! They had wings like a hoopoe’s wings, and they lifted the measure between earth and heaven.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Re-reviewed with fresh leads; the proposed link did not survive a second reading: The only link is the bird name 'hoopoe' used in a simile; nothing else connects a winged-women vision with a dietary list, and the rationale's 'unclean birds' and 'food law' are not in the shown Leviticus verse."
         },
         {
           "reference": "Zechariah 5:10",
           "id": "v5-10",
           "text": "I said to the angel speaking within me, “Where are they carrying the measure?”",
           "display_text": "I said to the angel speaking within me, “Where are they carrying the measure?”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-5-10__zechariah-1-9",
+              "target": "Zechariah 1:9",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "The prophet again questions 'the angel speaking within me', the same interpreting angel who says in 1:9, 'I will show you what these are.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fb618a6c3fc96f9fdcbf88a924b5c8a8510ce636518724679ff1999a48293f87",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 1:9",
+                  "id": "v1-9",
+                  "text": "I said, “What are these, lord?” The angel speaking within me said to me, “I will show you what these are.”",
+                  "text_sha256": "e2fc9be166d4ca730422d79e1968c36984ef9800498056d744fe6fb021edb221"
+                }
+              ],
+              "target_passage_sha256": "4e8a796033696ef708471deec088da750b895aaf4fb95c1d5ac39c1857424b69",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 5:11",
           "id": "v5-11",
           "text": "He said to me, “To build a house for it in Babylon’s land and prepare it; they will place it there on its prepared setting.”",
           "display_text": "He said to me, “To build a house for it in Babylon’s land and prepare it; they will place it there on its prepared setting.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-5-11__daniel-1-2",
+              "target": "Daniel 1:2",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both texts place something in a house in Babylon: a house is to be built for the measure 'in Babylon's land', and the Lord's sacred vessels were carried away to Babylon and deposited in an idol-temple.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7f4e4fa0dcd2dd0c02ceabe8086fa10bea5e204a9a424541e73e3ff6e194fb1c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 1:2",
+                  "id": "v1-2",
+                  "text": "The Lord handed the city into his hands, together with Joakim king of Judea and a portion of the Lord’s sacred vessels. He carried them away to Babylon and deposited them in his idol-temple.",
+                  "text_sha256": "75aae76eadc47cc35bd2ce9099351c0a54da8753d23562a6b5a422e9cb005401"
+                }
+              ],
+              "target_passage_sha256": "52e6886375785c9e0172e5754fade134c8df22e59559d8e537742871f06d8ef5",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-5-11__genesis-10-10",
+              "target": "Genesis 10:10",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Babylon is named as the beginning of a kingdom \"in the land of Shinar,\" the same land of Babylon to which the measure is carried.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7f4e4fa0dcd2dd0c02ceabe8086fa10bea5e204a9a424541e73e3ff6e194fb1c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 10:10",
+                  "id": "v10-10",
+                  "text": "And the beginning of his kingdom was Babylon, Erech, Akkad, and Calneh, in the land of Shinar.",
+                  "text_sha256": "0ae5275987d86952cf009b9e83db8cf492e93c05cad00e750ab7fe24c8f772b7"
+                }
+              ],
+              "target_passage_sha256": "b6948654af0c5baba20b9b357af002b6e6ec21ea2122533cbea362ac9c40fad5",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         }
       ]
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "section": 6,
@@ -3276,8 +4024,10 @@
           "id": "v6-9",
           "text": "The word of the Lord came to me, saying:",
           "display_text": "The word of the Lord came to me, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse is only the stock formula \"The word of the Lord came to me, saying\"; the other occurrences of the formula in Zechariah date other oracles and share nothing specific with the crown instruction it introduces."
         },
         {
           "reference": "Zechariah 6:10",
@@ -3595,7 +4345,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -3649,24 +4399,114 @@
           "id": "v7-2",
           "text": "and Sarasar, King Arbeseer and his men sent to Bethel to appease the Lord,",
           "display_text": "and Sarasar, King Arbeseer and his men sent to Bethel to appease the Lord,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-7-2__zechariah-8-22",
+              "target": "Zechariah 8:22",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The embassy is sent \"to appease the Lord,\" and the later promise says many nations will come to Jerusalem to \"appease the Lord's presence.\" This links the language of the two passages but does not identify Sarasar or King Arbeseer.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5dec95683e417af37b747f5c8b803ecbbb8b5f75feee023835e4f2d95b5328aa",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 8:22",
+                  "id": "v8-22",
+                  "text": "Many peoples and many nations will come to seek the presence of the Lord Almighty in Jerusalem and appease the Lord’s presence.",
+                  "text_sha256": "201d59353518408bda6f728b69d775c6038b80716c49e27077700504dd297f7c"
+                }
+              ],
+              "target_passage_sha256": "f2d475929b62289283a135d9c2f7357e5e62044afac8911cdea1024b51ceecb2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 7:3",
           "id": "v7-3",
           "text": "saying to the priests in the house of the Lord Almighty and to the prophets, “The holy offering has come here in the fifth month, as I have already done for many years.”",
           "display_text": "saying to the priests in the house of the Lord Almighty and to the prophets, “The holy offering has come here in the fifth month, as I have already done for many years.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-7-3__zechariah-7-5",
+              "target": "Zechariah 7:5",
+              "verdict": "supported",
+              "relationship": "same occasion",
+              "rationale": "The Lord's reply takes up the same observance \"at the fifth\" month kept for many years (\"look, seventy years\"), asking whether it was truly kept for Him.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1ff6fde7a64b74b9aa9b0cee030a068c36dd7a3461e7df36aafaa6a872b0522c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 7:5",
+                  "id": "v7-5",
+                  "text": "“Say to all the land’s people and to the priests: If you fast or mourn at the fifth or seventh observances—and look, seventy years—surely you have not fasted a fast for Me?",
+                  "text_sha256": "aa3e4d7528022a13bf5321b75af55d99fbceffb48879ee445b3cdfc27ab76b4f"
+                }
+              ],
+              "target_passage_sha256": "c5834dfdc128a02a3c7ae5069f3508103baaa925affa699445050916d188d566",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-7-3__zechariah-8-19",
+              "target": "Zechariah 8:19",
+              "verdict": "supported",
+              "relationship": "same occasion",
+              "rationale": "The later promise names \"the fifth fast\" among the observances that will become joy and festivals, answering the practice in the fifth month mentioned here.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1ff6fde7a64b74b9aa9b0cee030a068c36dd7a3461e7df36aafaa6a872b0522c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 8:19",
+                  "id": "v8-19",
+                  "text": "“Thus says the Lord Almighty: The fourth fast, the fifth fast, the seventh fast and the tenth fast will become joy, gladness and good festivals for Judah’s house. You will rejoice; love truth and peace.",
+                  "text_sha256": "eed9a9220af4704685efe2799d02ddfe408ed01b0619de6eeda8c1b6ccd524f4"
+                }
+              ],
+              "target_passage_sha256": "735f40e41b0403b3d82fbd8f521c80a006301e24a721355dbd2e1e4b1e63f9f2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 7:4",
           "id": "v7-4",
           "text": "The word of the Lord of hosts came to me, saying:",
           "display_text": "The word of the Lord of hosts came to me, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse is only the formula announcing that the word of the Lord of hosts came; the other passages share only the title \"Lord of hosts\" or \"Lord Sabaoth\" (Joshua's captain, Elijah's and Elisha's oaths, a judgment on Assyria) and nothing particular."
         },
         {
           "reference": "Zechariah 7:5",
@@ -3804,8 +4644,10 @@
           "id": "v7-8",
           "text": "The word of the Lord came to Zechariah, saying:",
           "display_text": "The word of the Lord came to Zechariah, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse is only the formula that the Lord's word came to Zechariah; the other passages share only Zechariah's name in psalm headings and have no connection with the oracle."
         },
         {
           "reference": "Zechariah 7:9",
@@ -4157,7 +4999,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "section": 8,
@@ -4172,8 +5014,10 @@
           "id": "v8-1",
           "text": "The word of the Lord Almighty came, saying:",
           "display_text": "The word of the Lord Almighty came, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse is only the formula \"The word of the Lord Almighty came, saying\"; no other passage was offered, and the formula gives no specific link."
         },
         {
           "reference": "Zechariah 8:2",
@@ -4924,8 +5768,10 @@
           "id": "v8-18",
           "text": "The word of the Lord Almighty came to me, saying:",
           "display_text": "The word of the Lord Almighty came to me, saying:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse is only the formula introducing the next oracle; no other passage was offered, and the formula alone gives no specific link."
         },
         {
           "reference": "Zechariah 8:19",
@@ -6085,7 +6931,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "section": 10,
@@ -6266,8 +7112,10 @@
           "id": "v10-4",
           "text": "From him he looked, and from him he appointed; from him a bow in wrath. From him everyone driving out will come forth together.",
           "display_text": "From him he looked, and from him he appointed; from him a bow in wrath. From him everyone driving out will come forth together.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse's sequence of looking, appointing, a bow in wrath and everyone driving out leaves the referent \"him\" unstated in the verse itself. The other passages offer a ruler fixed in a trustworthy place, Judah's commanders, Judah bent as a bow, or lightning like a bow, but none shares the verse's actual content specifically enough."
         },
         {
           "reference": "Zechariah 10:5",
@@ -6708,7 +7556,7 @@
     },
     {
       "chapter": 11,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 11,
         "section": 11,
@@ -7073,8 +7921,10 @@
           "id": "v11-8",
           "text": "I will remove the three shepherds in one month. My soul will be burdened over them, for their souls also roared against me.",
           "display_text": "I will remove the three shepherds in one month. My soul will be burdened over them, for their souls also roared against me.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse speaks of removing three unnamed shepherds in one month amid mutual hostility; the other passages concern the world's or citizens' hatred, a despised servant, or roaring lions and waters, and none names or describes these three shepherds."
         },
         {
           "reference": "Zechariah 11:9",
@@ -7166,8 +8016,44 @@
           "id": "v11-11",
           "text": "It will be dissolved on that day, and the Canaanites—the sheep being guarded—will know that it is the Lord’s word.",
           "display_text": "It will be dissolved on that day, and the Canaanites—the sheep being guarded—will know that it is the Lord’s word.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-11-11__zechariah-11-6-7",
+              "target": "Zechariah 11:6-7",
+              "verdict": "supported",
+              "relationship": "same flock",
+              "rationale": "Both verses concern the same flock in the shepherd allegory: here \"the Canaanites—the sheep being guarded,\" and earlier the prophet shepherds \"the sheep destined for slaughter into Canaan's land.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b0f665aa4e8bffdc8c39311697f758bb386645e8c0853f20a6f9cd2d2bd4bad6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 11:6",
+                  "id": "v11-6",
+                  "text": "Therefore I will no longer spare the land’s residents, says the Lord. Look, I am handing over human beings, each into his neighbor’s hands and his king’s hands. They will cut the land to pieces, and I will certainly not rescue from their hand.”",
+                  "text_sha256": "8a323e705628929b29f4b1c1e02bbae3137bb0436df463c78b82449e2369c2b4"
+                },
+                {
+                  "reference": "Zechariah 11:7",
+                  "id": "v11-7",
+                  "text": "I will shepherd the sheep destined for slaughter into Canaan’s land. I will take two staffs for myself—I called one Beauty and the other Measuring Cord—and I will shepherd the sheep.",
+                  "text_sha256": "bc12fe591402ae867913eac124ebf9f471aa873e676c05c29c6486ebe1855c71"
+                }
+              ],
+              "target_passage_sha256": "2a886b41dfbbeceb73e3a6e06461cd774a6304139369daa9d4dd755fc55d5c8c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 11:12",
@@ -7425,8 +8311,10 @@
           "id": "v11-15",
           "text": "The Lord said to me, “Take again for yourself the shepherding equipment of an inexperienced shepherd.",
           "display_text": "The Lord said to me, “Take again for yourself the shepherding equipment of an inexperienced shepherd.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse commands taking an inexperienced shepherd's equipment; the other passages condemn foolish prophets or blind guides, mention many shepherds, or call someone inexperienced in the word, but none involves shepherding equipment or this symbolic act."
         },
         {
           "reference": "Zechariah 11:16",
@@ -7524,7 +8412,7 @@
     },
     {
       "chapter": 12,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 12,
         "section": 12,
@@ -7731,8 +8619,38 @@
           "id": "v12-5",
           "text": "Judah’s commanders of thousands will say in their hearts, ‘We will find for ourselves Jerusalem’s residents in the Lord Almighty, their God.’",
           "display_text": "Judah’s commanders of thousands will say in their hearts, ‘We will find for ourselves Jerusalem’s residents in the Lord Almighty, their God.’",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-12-5__zechariah-12-6",
+              "target": "Zechariah 12:6",
+              "verdict": "supported",
+              "relationship": "same group",
+              "rationale": "The next verse continues about the same \"Judah's commanders of thousands,\" whom the Lord makes like a firebrand among wood on that day.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "78ecc2f3195e111441c52b097a3ace4e7c7ca5bcb0f723cd975601f0e0e65fbe",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 12:6",
+                  "id": "v12-6",
+                  "text": "On that day I will make Judah’s commanders of thousands like a firebrand among wood and a flaming torch among stalks. They will consume all the surrounding peoples to right and left, and Jerusalem will again dwell by herself.",
+                  "text_sha256": "e207d76c5beece41c89fae212318f816a44bdf0aed3bcea47e4983a451348740"
+                }
+              ],
+              "target_passage_sha256": "1807ffe387bf52f7052887e4b3dbcd6bd5ad02ba8432f7bcd4b9a94bebe4e2b8",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 12:6",
@@ -8051,30 +8969,92 @@
           "id": "v12-12",
           "text": "and the land will mourn tribe by tribe, each tribe by itself and their wives by themselves: the tribe of David’s house by itself and their wives by themselves; the tribe of Nathan’s house by itself and their wives by themselves;",
           "display_text": "and the land will mourn tribe by tribe, each tribe by itself and their wives by themselves: the tribe of David’s house by itself and their wives by themselves; the tribe of Nathan’s house by itself and their wives by themselves;",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-12-12__revelation-1-7",
+              "target": "Revelation 1:7",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both texts describe tribes mourning: here \"the land will mourn tribe by tribe,\" and Revelation says \"all the tribes of the earth will mourn over Him.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b55861e9d0ad28b06b173db29979e35017153af7081bcaca715b8dd7fb10db15",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 1:7",
+                  "id": "v1-7",
+                  "text": "Behold, He is coming with the clouds, and every eye will see Him, even those who pierced Him, and all the tribes of the earth will mourn over Him. Yea, amen.",
+                  "text_sha256": "2150819882a8a23ef135b6a5d353096351dd73b516a4e499e76419afacc7e8e8"
+                }
+              ],
+              "target_passage_sha256": "9c4206c746904b8b6a9e9bb474f195c4d2d068a079e6bb15f49ea399fb8fdd51",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-12-12__matthew-24-30",
+              "target": "Matthew 24:30",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Matthew says 'all the tribes of the earth will mourn' when they see the Son of Man; Zechariah has 'the land will mourn tribe by tribe'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b55861e9d0ad28b06b173db29979e35017153af7081bcaca715b8dd7fb10db15",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "matthew/verses.json",
+                "blob_sha": "fb6d51c0bad174803753d8c11c650fc5db7564d8",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/matthew/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Matthew 24:30",
+                  "id": "v24-30",
+                  "text": "Then the sign of the Son of Man will appear in heaven, and then all the tribes of the earth will mourn; they will see the Son of Man coming upon the clouds of heaven with power and great glory.",
+                  "text_sha256": "97540990133ebe30922547e5b60c2540d40d78f58635e1a6113c1b9e4fe427d5"
+                }
+              ],
+              "target_passage_sha256": "481ac2949493dbb73e32dbbf9932fbc9f956c29da79b82ecea19024c96c1a955",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 12:13",
           "id": "v12-13",
           "text": "the tribe of Levi’s house by itself and their wives by themselves; the tribe of Simeon by itself and their wives by themselves;",
           "display_text": "the tribe of Levi’s house by itself and their wives by themselves; the tribe of Simeon by itself and their wives by themselves;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse lists the houses of Levi and Simeon mourning separately with their wives apart. The other passages are either unrelated men named Semei or Shimei, or lists and stories of the tribes Simeon and Levi, and none describes this separate mourning."
         },
         {
           "reference": "Zechariah 12:14",
           "id": "v12-14",
           "text": "all the tribes remaining, each tribe by itself and their wives by themselves.",
           "display_text": "all the tribes remaining, each tribe by itself and their wives by themselves.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse extends the separate mourning to all remaining tribes and their wives; the other passages concern a proverb about bearing evil alone, marriage between tribes, casting lots by tribes, or land division, and none depicts this mourning arrangement."
         }
       ]
     },
     {
       "chapter": 13,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 13,
         "section": 13,
@@ -8089,8 +9069,44 @@
           "id": "v13-1",
           "text": "On that day every place will be opened in David’s house.",
           "display_text": "On that day every place will be opened in David’s house.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-13-1__zechariah-12-10-11",
+              "target": "Zechariah 12:10-11",
+              "verdict": "supported",
+              "relationship": "same subject",
+              "rationale": "Both verses speak of what will happen on that day to \"David's house\": the Lord will pour upon it a spirit of grace and compassion, and here every place in it will be opened.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a6522904b6b208a9dfcedf92e68a3a378d5ade305c5e3fe0ac31d2ec4226844",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 12:10",
+                  "id": "v12-10",
+                  "text": "I will pour upon David’s house and Jerusalem’s residents a spirit of grace and compassion. They will look toward Me because they danced in mockery, and mourn over him as over a beloved one; they will suffer grief as over a firstborn.",
+                  "text_sha256": "5efff1f74b01fc680fb112f98b34fed266369e7000f1e7686ffc12de872b3a3a"
+                },
+                {
+                  "reference": "Zechariah 12:11",
+                  "id": "v12-11",
+                  "text": "On that day mourning in Jerusalem will grow great, like mourning over a pomegranate grove cut down in a plain,",
+                  "text_sha256": "5f98f0110bffa397967fa3da2ac66ca535fa7c249eacbfc3e283cc2cc2642a72"
+                }
+              ],
+              "target_passage_sha256": "92e6c85f6b5e4b806eb919cdbf8735dcf7d9fd315f221db6f63938fe70f1df44",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 13:2",
@@ -8337,8 +9353,10 @@
           "id": "v13-6",
           "text": "I will say to him, ‘What are these wounds between your hands?’ He will say, ‘The ones with which I was struck in my beloved house.’",
           "display_text": "I will say to him, ‘What are these wounds between your hands?’ He will say, ‘The ones with which I was struck in my beloved house.’",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse records wounds between the hands said to be received in the beloved house, within the dialogue with a former false prophet. The other passages show Baal's prophets cutting themselves, pierced hands and feet, or a friend's wounds, but none shows the same wounds, setting or speaker."
         },
         {
           "reference": "Zechariah 13:7",
@@ -8604,7 +9622,7 @@
     },
     {
       "chapter": 14,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 14,
         "section": 14,
@@ -8928,8 +9946,10 @@
           "id": "v14-6",
           "text": "On that day there will be no light, cold or ice.",
           "display_text": "On that day there will be no light, cold or ice.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse states that on that day there will be no light, cold or ice; the other passages speak either of darkened heavenly lights or of God's ice and cold, but none combines these terms or describes this particular day's condition."
         },
         {
           "reference": "Zechariah 14:7",
@@ -9274,8 +10294,66 @@
           "id": "v14-12",
           "text": "This will be the downfall with which the Lord will strike all the peoples who marched against Jerusalem: their flesh will melt while they stand on their feet; their eyes will flow from their sockets, and their tongue will melt in their mouth.",
           "display_text": "This will be the downfall with which the Lord will strike all the peoples who marched against Jerusalem: their flesh will melt while they stand on their feet; their eyes will flow from their sockets, and their tongue will melt in their mouth.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "zechariah-14-12__zechariah-14-18",
+              "target": "Zechariah 14:18",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The same chapter repeats \"the downfall with which the Lord will strike all the nations,\" applying it to Egypt if it does not go up to the feast.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "10342e40e057838915bc8df0ce3bc1eb0606fabda1f343e800f4ba738aeb0824",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 14:18",
+                  "id": "v14-18",
+                  "text": "If Egypt’s tribe does not go up or come there, upon these too will be the downfall with which the Lord will strike all the nations that do not go up to celebrate the Festival of Tent-Pitching.",
+                  "text_sha256": "fa212aa65f311c7162c2fb31ea8f21d5cf767c6abc09c8b7130b27091f3c339a"
+                }
+              ],
+              "target_passage_sha256": "ef7b8d9ac6586b32f8e5215c0c05967e5b422773a5e56ef34a809f540cca44f1",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "zechariah-14-12__zechariah-12-9",
+              "target": "Zechariah 12:9",
+              "verdict": "supported",
+              "relationship": "parallel teaching",
+              "rationale": "Both describe the Lord acting against the peoples who come against Jerusalem: here \"all the peoples who marched against Jerusalem,\" there \"all the nations coming against Jerusalem.\"",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "10342e40e057838915bc8df0ce3bc1eb0606fabda1f343e800f4ba738aeb0824",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 12:9",
+                  "id": "v12-9",
+                  "text": "On that day I will seek to remove all the nations coming against Jerusalem.",
+                  "text_sha256": "087793451b1de7145b4bd62947974c3c4a1f21e23b2270c680745423678dc157"
+                }
+              ],
+              "target_passage_sha256": "1c0c6cff99ca274b95b3499c0595c54386edca2fff89d62d6823ebc7d51a7daf",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Zechariah 14:13",
@@ -9797,5 +10875,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 15,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

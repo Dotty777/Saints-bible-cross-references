@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Habakkuk",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,22 +32,30 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
-  "completed_chapters": [],
-  "completed_source_sections": [],
-  "completed_source_verses": 52,
-  "completed_cross_references": 56,
+  "review_status": "complete_initial_curated_pass",
+  "completed_chapters": [
+    1,
+    2,
+    3
+  ],
+  "completed_source_sections": [
+    1,
+    2,
+    3
+  ],
+  "completed_source_verses": 56,
+  "completed_cross_references": 62,
   "total_chapters": 3,
   "total_source_sections": 3,
   "total_source_verse_units": 56,
-  "next_reference": "Habakkuk 1:1",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Habakkuk.html",
   "readable_text": "Habakkuk.txt",
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "section": 1,
@@ -62,8 +70,66 @@
           "id": "v1-1",
           "text": "The oracle that Habakkuk the prophet saw.",
           "display_text": "The oracle that Habakkuk the prophet saw.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "habakkuk-1-1__habakkuk-3-1",
+              "target": "Habakkuk 3:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both headings of the book name Habakkuk the prophet, the first for the oracle he saw and the second for his prayer with a song.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2519d2ac3180dd6b792a47121990f13636c37501fa40876db7987092c681035e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "habakkuk/verses.json",
+                "blob_sha": "063a4d3ef92c24ad68dc9ab29277e898efb3e22e",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/habakkuk/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Habakkuk 3:1",
+                  "id": "v3-1",
+                  "text": "A prayer of Habakkuk the prophet, with a song.",
+                  "text_sha256": "8c530bf73814afa3482f12d78476d9a2d383e468ac804fec09cc7ebe90d1345b"
+                }
+              ],
+              "target_passage_sha256": "fd211a97fe5b3c2a8c773e51cc97769af5a992f4a43ac4f21b7f9a8d6518e0b3",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "habakkuk-1-1__daniel-1-1",
+              "target": "Bel and Dragon 1:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Bel and the Dragon opens 'from the prophecy of Habakkuk', naming the same prophet. It adds that he was the son of Joshua of the tribe of Levi.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2519d2ac3180dd6b792a47121990f13636c37501fa40876db7987092c681035e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Bel and Dragon 1:1",
+                  "id": "v1-1",
+                  "text": "From the prophecy of Habakkuk, son of Joshua, of the tribe of Levi.",
+                  "text_sha256": "070922ee1ca723bf225206e485bc33649c8e6c3574ebc1942873c2ace1410475"
+                }
+              ],
+              "target_passage_sha256": "f70293a7d9a4f15648b1caa933b170073ee624351fd5f8aadd472c46b1e39a98",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Habakkuk 1:2",
@@ -834,7 +900,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -1515,8 +1581,38 @@
           "id": "v2-13",
           "text": "Are these things not from the Lord Almighty? Many peoples failed in fire, and many nations lost heart.",
           "display_text": "Are these things not from the Lord Almighty? Many peoples failed in fire, and many nations lost heart.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "habakkuk-2-13__jeremiah-28-58",
+              "target": "Jeremiah 28:58",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both pair peoples and nations with fire in a saying of judgment. Habakkuk has 'Many peoples failed in fire, and many nations lost heart', and in Jeremiah Babylon's 'high gates burned', with 'Peoples will not labor in vain, and nations will perish at the beginning.' The wording differs in detail.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "f2476f834afe21cfbd05d9abb59b65f9b6bafaeee67cf9ac5b964c2fb7406b09",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 28:58",
+                  "id": "v28-58",
+                  "text": "Thus says the Lord: Babylon’s wall was broadened; it will be utterly demolished, and her high gates burned. Peoples will not labor in vain, and nations will perish at the beginning.",
+                  "text_sha256": "c8f7ae59b86c1a491c5be697c837df15644336f22fd88af19632a99a2186c3c1"
+                }
+              ],
+              "target_passage_sha256": "06be4cd28e4ca503051c4d96c780a0cb337be64fffb66233329259162cdf23e2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Habakkuk 2:14",
@@ -1562,8 +1658,38 @@
           "id": "v2-15",
           "text": "O you who make your neighbor drink with a turbid overthrow and intoxicate him, so that you may look upon their caves!",
           "display_text": "O you who make your neighbor drink with a turbid overthrow and intoxicate him, so that you may look upon their caves!",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "habakkuk-2-15__jeremiah-28-7",
+              "target": "Jeremiah 28:7",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both texts picture an oppressor making others drunk: Habakkuk's woe on one who makes his neighbor drink and intoxicates him, and Babylon as a cup making the whole earth drunk. The 'caves' of Habakkuk have no counterpart in Jeremiah.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "42148ab8f1e1921faff8325505654007de89dd319a9932661d2aba83330a8abe",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 28:7",
+                  "id": "v28-7",
+                  "text": "Babylon was a golden cup in the Lord’s hand, making the whole earth drunk. Nations drank her wine; therefore they were shaken.",
+                  "text_sha256": "46a7d0788a2415d4443ed4e290e1e2bbd1243dd3e6f94516b8203214f8b50931"
+                }
+              ],
+              "target_passage_sha256": "997d88f14828ce0e6a7eb939084d5f7989d203aab8e97db1c1712c515f8be86e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Habakkuk 2:16",
@@ -1912,7 +2038,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -1927,8 +2053,66 @@
           "id": "v3-1",
           "text": "A prayer of Habakkuk the prophet, with a song.",
           "display_text": "A prayer of Habakkuk the prophet, with a song.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "habakkuk-3-1__habakkuk-1-1",
+              "target": "Habakkuk 1:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Both headings of the book name Habakkuk the prophet, here for the prayer with a song and in 1:1 for the oracle he saw.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8c530bf73814afa3482f12d78476d9a2d383e468ac804fec09cc7ebe90d1345b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "habakkuk/verses.json",
+                "blob_sha": "063a4d3ef92c24ad68dc9ab29277e898efb3e22e",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/habakkuk/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Habakkuk 1:1",
+                  "id": "v1-1",
+                  "text": "The oracle that Habakkuk the prophet saw.",
+                  "text_sha256": "2519d2ac3180dd6b792a47121990f13636c37501fa40876db7987092c681035e"
+                }
+              ],
+              "target_passage_sha256": "6022497b50051c6b78bab6c7c73952bfc0fab4d2307c133ba8d0541b7e901a56",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "habakkuk-3-1__daniel-1-1",
+              "target": "Bel and Dragon 1:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Bel and the Dragon introduces its account 'from the prophecy of Habakkuk', naming the same prophet, whom it calls the son of Joshua of the tribe of Levi.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "8c530bf73814afa3482f12d78476d9a2d383e468ac804fec09cc7ebe90d1345b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Bel and Dragon 1:1",
+                  "id": "v1-1",
+                  "text": "From the prophecy of Habakkuk, son of Joshua, of the tribe of Levi.",
+                  "text_sha256": "070922ee1ca723bf225206e485bc33649c8e6c3574ebc1942873c2ace1410475"
+                }
+              ],
+              "target_passage_sha256": "f70293a7d9a4f15648b1caa933b170073ee624351fd5f8aadd472c46b1e39a98",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Habakkuk 3:2",
@@ -2868,5 +3052,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 0,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

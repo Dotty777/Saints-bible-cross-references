@@ -1,8 +1,8 @@
 # Saints Holy Bible — separate New Testament cross-reference tracker
 
-7931 completed source verses; 8695 retained pairs; 256 completed chapters; 12 reviewed units deferred.
+7931 completed source verses; 8695 retained pairs; 260 completed chapters; 0 reviewed units deferred.
 
-First unfinished: **Matthew 1:14**. Next new source review: **none**.
+First unfinished: **none**. Next new source review: **none**.
 
 This hourly task begins at Matthew and follows the exact Saints Holy Bible 70-book order and divisions in [../canon.json](../canon.json): Salvation (44–47), Discipleship (48–69), Glory (70). Targets may use any of those 70 books when actual pinned passage evidence is available. [Progress](progress.json) and review counts here are separate from the [Old Testament tracker](../README.md). Pending books have no invented verse inventories.
 
@@ -12,12 +12,12 @@ The source texts remain the supplied English edition; this is not new critical-t
 
 | Order | Division | Book | Status | Completed verses | Pairs |
 | ---: | --- | --- | --- | ---: | ---: |
-| 44 | Salvation | [Matthew](matthew/README.md) | in_progress | 1066 | 1099 |
+| 44 | Salvation | [Matthew](matthew/README.md) | complete_initial_curated_pass | 1066 | 1099 |
 | 45 | Salvation | [Mark](mark/README.md) | complete_initial_curated_pass | 673 | 681 |
-| 46 | Salvation | [Luke](luke/README.md) | in_progress | 1143 | 1154 |
+| 46 | Salvation | [Luke](luke/README.md) | complete_initial_curated_pass | 1143 | 1154 |
 | 47 | Salvation | [John](john/README.md) | complete_initial_curated_pass | 878 | 889 |
-| 48 | Discipleship | [Acts](acts/README.md) | in_progress | 1002 | 1018 |
-| 49 | Discipleship | [Romans](romans/README.md) | in_progress | 430 | 443 |
+| 48 | Discipleship | [Acts](acts/README.md) | complete_initial_curated_pass | 1002 | 1018 |
+| 49 | Discipleship | [Romans](romans/README.md) | complete_initial_curated_pass | 430 | 443 |
 | 50 | Discipleship | [1 Corinthians](1-corinthians/README.md) | complete_initial_curated_pass | 437 | 440 |
 | 51 | Discipleship | [2 Corinthians](2-corinthians/README.md) | complete_initial_curated_pass | 256 | 257 |
 | 52 | Discipleship | [Galatians](galatians/README.md) | complete_initial_curated_pass | 149 | 153 |
@@ -42,6 +42,6 @@ The source texts remain the supplied English edition; this is not new critical-t
 
 Run `python scripts/render_new_testament.py` and `python scripts/validate_new_testament.py --write-verification` from the repository root after updating records. Follow the book’s recovery guidance. Independent specialist and live destination-anchor/display checks remain pending.
 
-Latest hourly result: **405 / 500 new source verses**; shortfall: 95. [Review record](review-batches/2026-11-01T123430Z.json).
+Latest hourly result: **0 / 500 new source verses**; shortfall: 500. [Review record](review-batches/2026-11-01T124445Z.json).
 
 Original source reading completed for: **Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude, Revelation**. Unresolved source deferrals remain separate and earn no completion credit.

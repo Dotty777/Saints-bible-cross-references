@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Jonah",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,28 +32,32 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
+    1,
     2,
-    3
+    3,
+    4
   ],
   "completed_source_sections": [
+    1,
     2,
-    3
+    3,
+    4
   ],
-  "completed_source_verses": 46,
-  "completed_cross_references": 54,
+  "completed_source_verses": 47,
+  "completed_cross_references": 55,
   "total_chapters": 4,
   "total_source_sections": 4,
   "total_source_verse_units": 48,
-  "next_reference": "Jonah 1:11",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Jonah.html",
   "readable_text": "Jonah.txt",
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "section": 1,
@@ -559,8 +563,44 @@
           "id": "v1-11",
           "text": "They said to him, “What shall we do to you, so that the sea may subside for us?” For the sea kept raising a greater surge.",
           "display_text": "They said to him, “What shall we do to you, so that the sea may subside for us?” For the sea kept raising a greater surge.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "jonah-1-11__1-samuel-6-2-3",
+              "target": "1 Samuel 6:2-3",
+              "verdict": "supported",
+              "relationship": "parallel situation",
+              "rationale": "In both, foreigners suffering under the Lord's affliction ask 'What shall we do' with the cause of it: the sailors ask what to do to Jonah so the sea may subside, and the foreigners ask what to do with the ark of the Lord so that His hand withdraws from them.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d622fe8f71a4fd40de78f7feaa766ef8117131e9bdc781ec12a3a5a12831234c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-samuel/verses.json",
+                "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Samuel 6:2",
+                  "id": "v6-2",
+                  "text": "The foreigners called for the priests, diviners, and their enchanters, saying, “What shall we do with the ark of the Lord? Tell us in what we should send it to its place.”",
+                  "text_sha256": "587149ebd1fdab6a51b5fee2586a5ddff505c09cad4b67029e86eba55fedc07a"
+                },
+                {
+                  "reference": "1 Samuel 6:3",
+                  "id": "v6-3",
+                  "text": "They said, “If you send away the ark of the covenant of the Lord, Israel’s God, do not send it empty. You must return to it something for the torment. Then you will be healed, and propitiation will be made for you, lest His hand fail to withdraw from you.”",
+                  "text_sha256": "11f969101029f3dcbed76939ad5854415ce57f6f57d75300a7e8850b1cc22cbe"
+                }
+              ],
+              "target_passage_sha256": "9a55284867c6cc77a63f75b47b26bb65ea7fc7ab1c1f75a4feadecb394819694",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Jonah 1:12",
@@ -1860,7 +1900,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -2095,8 +2135,10 @@
           "id": "v4-5",
           "text": "Jonah went out of the city and sat opposite the city. He made himself a shelter there and sat beneath it in the shade, until he could see what would happen to the city.",
           "display_text": "Jonah went out of the city and sat opposite the city. He made himself a shelter there and sat beneath it in the shade, until he could see what would happen to the city.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit has Jonah leaving Nineveh, making a shelter and sitting in its shade to watch the city's fate. The leads concern Elijah in a cave, grieving under divine discipline, Jeremiah's burning word, Jonah asleep in the ship, or generic shade and shelter; none shares the scene of waiting outside the city to see its outcome."
         },
         {
           "reference": "Jonah 4:6",
@@ -2384,5 +2426,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 1,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

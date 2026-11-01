@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Joel",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,28 +32,32 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
+    1,
+    2,
     3,
     4
   ],
   "completed_source_sections": [
+    1,
+    2,
     3,
     4
   ],
-  "completed_source_verses": 71,
-  "completed_cross_references": 76,
+  "completed_source_verses": 73,
+  "completed_cross_references": 79,
   "total_chapters": 4,
   "total_source_sections": 4,
   "total_source_verse_units": 73,
-  "next_reference": "Joel 1:17",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Joel.html",
   "readable_text": "Joel.txt",
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "section": 1,
@@ -730,8 +734,66 @@
           "id": "v1-17",
           "text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
           "display_text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "joel-1-17__habakkuk-3-17",
+              "target": "Habakkuk 3:17",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both describe agricultural collapse reaching the cattle at their feeding troughs: Joel's heifers leap at their feeding troughs as grain dries up, and Habakkuk has fields producing no food and no cattle at feeding troughs.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5fde319ea2daf01c4b1ba0e4ea0e47cc4587f0a94f60be9d11ef03f76e96339b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "habakkuk/verses.json",
+                "blob_sha": "063a4d3ef92c24ad68dc9ab29277e898efb3e22e",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/habakkuk/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Habakkuk 3:17",
+                  "id": "v3-17",
+                  "text": "For the fig tree will not bear fruit, and vines will have no produce; the olive’s labor will fail, and fields will not produce food. Sheep have failed for lack of food, and there are no cattle at feeding troughs.",
+                  "text_sha256": "f42e2b9e7cb8ff024df10b5a96b5c2a9534c47ad1944f0bbcc999085f99c97fe"
+                }
+              ],
+              "target_passage_sha256": "abd16f003e721c7aa0cc9b6c0ad31ec0a30c7cce872ca19f9724f89603ac019c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "joel-1-17__joel-2-24",
+              "target": "Joel 2:24",
+              "verdict": "supported",
+              "relationship": "reversal",
+              "rationale": "Joel 1:17 says winepresses were demolished because grain dried up; Joel 2:24 promises that threshing floors will be filled with grain and winepresses will overflow, reversing the same losses.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5fde319ea2daf01c4b1ba0e4ea0e47cc4587f0a94f60be9d11ef03f76e96339b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "joel/verses.json",
+                "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Joel 2:24",
+                  "id": "v2-24",
+                  "text": "Threshing floors will be filled with grain, and winepresses will overflow with wine and oil.",
+                  "text_sha256": "afb62b49b3ddcf06cd4babf40d225bb7f9ab4fa0130e7b62f64cf388bf114e52"
+                }
+              ],
+              "target_passage_sha256": "817794aa3480e655c9950e8b7d675d12a726b689589dab9773f7df395aa01208",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Joel 1:18",
@@ -882,7 +944,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -1021,8 +1083,38 @@
           "id": "v2-4",
           "text": "Their appearance is like the sight of horses; like riders they will pursue.",
           "display_text": "Their appearance is like the sight of horses; like riders they will pursue.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "joel-2-4__revelation-9-7",
+              "target": "Revelation 9:7",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Joel says the invaders' appearance is like the sight of horses; Revelation says the likenesses of the locusts were like horses prepared for war. Both liken an invading host to horses in appearance.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d24c16e4896e67c15ba274638e5d28de33c4962936f5b2332f62f5a2eef77b3e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 9:7",
+                  "id": "v9-7",
+                  "text": "And the likenesses of the locusts were like horses prepared for war, and upon their heads were things like crowns resembling gold, and their faces were like human faces,",
+                  "text_sha256": "79fcf932ce679709592828c76108adce9214a9f570ed622a1866ba33594ca813"
+                }
+              ],
+              "target_passage_sha256": "9953cceaf6c2a7e907089d6ae0b92468ec9fdc3bb6101c96c94674dd69b15402",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Joel 2:5",
@@ -3251,5 +3343,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 0,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

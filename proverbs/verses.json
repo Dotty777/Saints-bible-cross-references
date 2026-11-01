@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Proverbs",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,32 +28,83 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
+    1,
     2,
     3,
     4,
     5,
     6,
+    7,
     8,
-    13
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    30,
+    31,
+    25,
+    26,
+    27,
+    28,
+    29
   ],
   "completed_source_sections": [
+    1,
     2,
     3,
     4,
     5,
     6,
+    7,
     8,
-    13
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
   ],
-  "completed_source_verses": 857,
-  "completed_cross_references": 880,
+  "completed_source_verses": 883,
+  "completed_cross_references": 913,
   "total_chapters": 31,
   "total_source_sections": 34,
   "total_source_verse_units": 939,
-  "next_reference": "Proverbs 1:17",
+  "next_reference": null,
   "readable_html": "Proverbs.html",
   "readable_text": "Proverbs.txt",
   "canon_manifest": "../canon.json",
@@ -61,7 +112,7 @@
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "section": 1,
@@ -858,8 +909,10 @@
           "id": "v1-17",
           "text": "For nets are not unjustly stretched out for winged creatures.",
           "display_text": "For nets are not unjustly stretched out for winged creatures.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The saying is that nets are not unjustly stretched for winged creatures. The other texts about a bird hurrying into a trap, birds knowing their seasons, or winged creatures in creation do not repeat this claim about the justice of setting nets, and none clarifies its point in the warning against murderers."
         },
         {
           "reference": "Proverbs 1:18",
@@ -8039,7 +8092,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -8305,8 +8358,38 @@
           "id": "v7-6",
           "text": "For she leans out from a window of her house toward the squares,",
           "display_text": "For she leans out from a window of her house toward the squares,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-7-6__judges-5-28",
+              "target": "Judges 5:28",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "In both verses a woman leans out through a window to watch: here the seductress looks toward the squares, and in Judges Sisera's mother looks for his return. The motive differs, but the image of the watching woman leaning out of the window is the same.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "3dd769ee8b2d422b1138776fb658140f6ccb5d4747f6062bf50381719c3996a0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "judges/verses.json",
+                "blob_sha": "09fb1589032e5367d2f1f0081d1060fdd601f88f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/judges/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Judges 5:28",
+                  "id": "v5-28",
+                  "text": "Through the window Sisera’s mother leaned out, looking through the lattice toward those returning with Sisera: ‘Why is his chariot last to arrive? Why have the tracks of his chariots been delayed?’",
+                  "text_sha256": "3b28e6dabcd0295b8cc6cc5474b4296badda2e9ee673f9db0f8db87467c94bd9"
+                }
+              ],
+              "target_passage_sha256": "7200d1fa536460d259aa936f8628a894966771bf1270bb95fa000e2a4d093483",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 7:7",
@@ -8430,24 +8513,142 @@
           "id": "v7-10",
           "text": "the woman meets him, with a prostitute’s appearance, making young men’s hearts fly away.",
           "display_text": "the woman meets him, with a prostitute’s appearance, making young men’s hearts fly away.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-7-10__jeremiah-3-3",
+              "target": "Jeremiah 3:3",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both texts use the same phrase, a prostitute's appearance: in Proverbs for the woman who meets the young man, and in Jeremiah for unfaithful Israel, who was shameless.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5fc104a7ff4a1a606c7ed14dc342e46ea6ad2de7c2065ce5f0550069bdbdd9c4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 3:3",
+                  "id": "v3-3",
+                  "text": "You had many shepherds as a stumbling block for yourself. You had a prostitute’s appearance; you were shameless toward everyone.",
+                  "text_sha256": "a03ccec92ae28dfb623d991e908bc01d2e8b21a3c77181892c985e2a4b4579ef"
+                }
+              ],
+              "target_passage_sha256": "dfb23209f8d12a043d7b8c34b13108ddb1c75be1b1a5a8cc278d3d21d0fcad25",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "proverbs-7-10__sirach-9-3",
+              "target": "Sirach 9:3",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Proverbs pictures the woman with a prostitute's appearance meeting the young man. Sirach warns against meeting a woman who acts as a courtesan, lest one fall into her traps.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5fc104a7ff4a1a606c7ed14dc342e46ea6ad2de7c2065ce5f0550069bdbdd9c4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 9:3",
+                  "id": "v9-3",
+                  "text": "Do not encounter a woman who acts as a courtesan, lest you fall into her traps.",
+                  "text_sha256": "1337ef87bda63923907fad15d346b6ae776f692d53113092591d02f21231f8e8"
+                }
+              ],
+              "target_passage_sha256": "f22a4ef3a5cf8012bc19293fe4f32527e695ddded5c12f4f95ea5a99cbd19201",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 7:11",
           "id": "v7-11",
           "text": "She is fluttering with excitement and dissolute; her feet do not rest in the house.",
           "display_text": "She is fluttering with excitement and dissolute; her feet do not rest in the house.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse describes the woman as fluttering with excitement and dissolute, with feet that do not rest in the house. The other texts about a brazen foolish woman, women working at home, or idle women going around houses share only a broad theme of conduct away from home, not this specific characterization. The 'feet rest' passages concern priests, Asa and David and are unrelated."
         },
         {
           "reference": "Proverbs 7:12",
           "id": "v7-12",
           "text": "For at one time she roams outside, and at another she lies in wait in the squares, at every corner.",
           "display_text": "For at one time she roams outside, and at another she lies in wait in the squares, at every corner.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-7-12__proverbs-9-14",
+              "target": "Proverbs 9:14",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both depict a seductive woman positioned in the squares: here she lies in wait in the squares, and in Proverbs 9 the foolish woman sits on a stool openly in the squares.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a6b1ec4f5b23082a8d10acf0ab84ff15299173916a342bf946c6366e181ab829",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 9:14",
+                  "id": "v9-14",
+                  "text": "She sat at the doors of her own house, on a stool openly in the squares,",
+                  "text_sha256": "41e0c8c9195e328009626fe23808b1a430683d5e2020ad97f88703edd1722f35"
+                }
+              ],
+              "target_passage_sha256": "4d8aa2d51c1a8c73808f30ab35160400d20388cba393dcc20f713368caff0737",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "proverbs-7-12__jeremiah-3-2",
+              "target": "Jeremiah 3:2",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both picture a prostitute waiting for lovers along public ways. The woman lies in wait in the squares at every corner, and Israel sat for them on the roads, polluting the land with prostitution.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a6b1ec4f5b23082a8d10acf0ab84ff15299173916a342bf946c6366e181ab829",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 3:2",
+                  "id": "v3-2",
+                  "text": "Lift your eyes straight ahead and see: where have you not been defiled? You sat for them on the roads like a solitary crow, and polluted the land with your prostitution and your evils.",
+                  "text_sha256": "7c3f3af374935d1a4de4ebde23f4d952a4c0ce45f466e09fea20ae46d137e342"
+                }
+              ],
+              "target_passage_sha256": "3f67d62a696b5b3836b239499a0dade7d01f4bdde4d1afad00cb4f2b77066c65",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 7:13",
@@ -8532,16 +8733,76 @@
           "id": "v7-15",
           "text": "For this reason I came out to meet you; longing for your face, I have found you.",
           "display_text": "For this reason I came out to meet you; longing for your face, I have found you.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The seductress says she came out to meet the young man, longing for his face. No other text with this specific speech was found, and general love-seeking imagery is not a specific connection."
         },
         {
           "reference": "Proverbs 7:16",
           "id": "v7-16",
           "text": "I have stretched my bed with bands and spread it with double-sided rugs from Egypt.",
           "display_text": "I have stretched my bed with bands and spread it with double-sided rugs from Egypt.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-7-16__ezekiel-27-7",
+              "target": "Ezekiel 27:7",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both describe bedding made from Egyptian textiles: here the bed is spread with double-sided rugs from Egypt, and in Ezekiel fine embroidered linen from Egypt became Tyre's bedding.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fedba9e8d4e277d441d368ad02c2491ff23d14f4ae712251bb0bdebdfbb71f48",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezekiel/verses.json",
+                "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezekiel 27:7",
+                  "id": "v27-7",
+                  "text": "Fine linen with embroidery from Egypt became your bedding, to clothe you with glory and wrap you in blue and purple from the islands of Elishah; it became your coverings.",
+                  "text_sha256": "c657e52379e2760dd3d582d888f983c33643886f157cd0a5ed9e755151b58b75"
+                }
+              ],
+              "target_passage_sha256": "a4aae44354bbd4ff0e60dc062dada61998329f9645042d86a9ec5a4c88ab262d",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "proverbs-7-16__2-samuel-17-28",
+              "target": "2 Samuel 17:28",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both pair beds with double-sided rugs: here double-sided rugs spread on a bed, and in 2 Samuel beds and rugs with pile on both sides brought to David.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fedba9e8d4e277d441d368ad02c2491ff23d14f4ae712251bb0bdebdfbb71f48",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-samuel/verses.json",
+                "blob_sha": "6cbe45866f9f3c3c0134ce006ff8524dcdd727a6",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Samuel 17:28",
+                  "id": "v17-28",
+                  "text": "brought ten beds, rugs with pile on both sides, ten cauldrons, pottery vessels, wheat, barley, flour, barley meal, beans, and lentils,",
+                  "text_sha256": "3864e6aec4ce6f6fbe66d42a6b664840f25fde4eca34c5d015094981c6ebf376"
+                }
+              ],
+              "target_passage_sha256": "a3933d2643d611ccfa7d7d01c48277a20f5e24271184080e67932c51cd3c4e8f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 7:17",
@@ -8686,8 +8947,10 @@
           "id": "v7-20",
           "text": "taking a pouch of silver in his hand; after many days he will return to his house.”",
           "display_text": "taking a pouch of silver in his hand; after many days he will return to his house.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The husband takes a pouch of silver and will return after many days. The other passages mention a pouch only for deceptive weights or for gold used to make idols, which is unrelated, and the temple-building text shares nothing specific."
         },
         {
           "reference": "Proverbs 7:21",
@@ -10510,7 +10773,7 @@
     },
     {
       "chapter": 9,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 9,
         "section": 9,
@@ -11184,8 +11447,10 @@
           "id": "v9-13",
           "text": "A foolish and brazen woman comes to lack a morsel, she who does not know shame.",
           "display_text": "A foolish and brazen woman comes to lack a morsel, she who does not know shame.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The foolish, brazen woman lacks a morsel and does not know shame. Related sayings about a restless woman, slippery paths, quarrelsome wives and the foolish being invited by Wisdom share only general themes of folly or difficult women. None repeats her lack of a morsel or of shame."
         },
         {
           "reference": "Proverbs 9:14",
@@ -11433,8 +11698,10 @@
           "id": "v9-18b",
           "text": "For in this way you will cross foreign water and pass over a foreign river.",
           "display_text": "For in this way you will cross foreign water and pass over a foreign river.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The command to cross foreign water and pass over a foreign river is a distinctive image of escape. Other texts about crossing rivers (military crossing, God's protection in water, Babylon's humiliation, gods beyond the River) use the same words in unrelated senses and do not explain this image."
         },
         {
           "reference": "Proverbs 9:18c",
@@ -11518,7 +11785,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "section": 10,
@@ -11728,8 +11995,10 @@
           "id": "v10-5",
           "text": "An intelligent son was preserved from scorching heat, but a lawless son is ruined by wind at harvest.",
           "display_text": "An intelligent son was preserved from scorching heat, but a lawless son is ruined by wind at harvest.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The saying contrasts an intelligent son preserved from scorching heat with a lawless son ruined by wind at harvest. The ant's harvest provision, other sayings about sons, and the passages about scorching heat do not share this contrast of preservation and ruin."
         },
         {
           "reference": "Proverbs 10:6",
@@ -12809,7 +13078,7 @@
     },
     {
       "chapter": 11,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 11,
         "section": 11,
@@ -13784,8 +14053,10 @@
           "id": "v11-25",
           "text": "Every blessed life is sincere, but a quick-tempered man is not dignified.",
           "display_text": "Every blessed life is sincere, but a quick-tempered man is not dignified.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The saying links a blessed, sincere life with a quick-tempered man who is not dignified. The generosity and blessing passages do not mention sincerity or dignity, and the other sayings about quick-tempered people concern battles or companionship, not lack of dignity. None matches this combination."
         },
         {
           "reference": "Proverbs 11:26",
@@ -14053,7 +14324,7 @@
     },
     {
       "chapter": 12,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 12,
         "section": 12,
@@ -15078,8 +15349,10 @@
           "id": "v12-24",
           "text": "The hand of chosen people will rule easily, but deceitful people will become plunder.",
           "display_text": "The hand of chosen people will rule easily, but deceitful people will become plunder.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Chosen hands ruling easily is contrasted with deceitful people becoming plunder. The diligence sayings speak of courageous hands making rich, not of ruling or plunder. The nearby deceitful-hunter saying and the uses of 'easily' elsewhere share wording only."
         },
         {
           "reference": "Proverbs 12:25",
@@ -15164,8 +15437,10 @@
           "id": "v12-27",
           "text": "A deceitful person will not obtain game, but a pure man is a precious possession.",
           "display_text": "A deceitful person will not obtain game, but a pure man is a precious possession.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The deceitful person who obtains no game is set against the pure man as a precious possession. The other sayings about idleness and about a little with righteousness, and the texts on hunting game or a pure heart, share isolated words but not this contrast."
         },
         {
           "reference": "Proverbs 12:28",
@@ -16340,7 +16615,7 @@
     },
     {
       "chapter": 14,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 14,
         "section": 14,
@@ -16675,16 +16950,48 @@
           "id": "v14-9",
           "text": "The houses of lawless people will owe purification, but the houses of the righteous are acceptable.",
           "display_text": "The houses of lawless people will owe purification, but the houses of the righteous are acceptable.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The houses of lawless people owe purification and righteous houses are acceptable. The other sayings use 'acceptable' for the righteous in general terms, and none mentions houses or owed purification."
         },
         {
           "reference": "Proverbs 14:10",
           "id": "v14-10",
           "text": "A man’s heart is perceptive; his life is sorrowful, but when he rejoices, he does not mingle with insolence.",
           "display_text": "A man’s heart is perceptive; his life is sorrowful, but when he rejoices, he does not mingle with insolence.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-14-10__proverbs-14-30",
+              "target": "Proverbs 14:30",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both sayings use the distinctive phrase of a perceptive heart and link it with suffering: here the man's heart is perceptive and his life sorrowful, and in 14:30 a perceptive heart is a moth to the bones.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "da2ee4054dd5af00b37f37c20e73d8d5f27608465ea94ac4017852047a5335ac",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 14:30",
+                  "id": "v14-30",
+                  "text": "A gentle-tempered man is a physician of the heart, but a perceptive heart is a moth to the bones.",
+                  "text_sha256": "2f7fac557370c6123c621e1f70bbbf205562ac05cc4e97b280c13e41c8a49ea7"
+                }
+              ],
+              "target_passage_sha256": "2b2052c878e392373ab137054f55945a4f4e6505a60f3b451ecd6472c871c008",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 14:11",
@@ -17017,8 +17324,10 @@
           "id": "v14-19",
           "text": "Evil people will slip before good people, and the impious will attend the doors of the righteous.",
           "display_text": "Evil people will slip before good people, and the impious will attend the doors of the righteous.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Evil people slip before good people and the impious attend the doors of the righteous. The texts about oppressors coming in fear, bowing before feet, Joseph's brothers bowing, or the lawless trampled underfoot show general reversals, but none has the image of attending at the doors of the righteous."
         },
         {
           "reference": "Proverbs 14:20",
@@ -17181,8 +17490,10 @@
           "id": "v14-24",
           "text": "A resourceful person is the crown of the wise, but the occupation of fools is evil.",
           "display_text": "A resourceful person is the crown of the wise, but the occupation of fools is evil.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The resourceful person is the crown of the wise, and fools are occupied with evil. The other sayings about resourceful people and fools are general wise-versus-fool contrasts and do not use the crown image. The wealth and wisdom texts are about riches, which this verse does not mention."
         },
         {
           "reference": "Proverbs 14:25",
@@ -17306,8 +17617,10 @@
           "id": "v14-28",
           "text": "In a numerous nation is a king’s glory, but in the failing of a people is a ruler’s ruin.",
           "display_text": "In a numerous nation is a king’s glory, but in the failing of a people is a ruler’s ruin.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The saying ties a king's glory to a numerous nation and a ruler's ruin to a failing people. Historical accounts of shrinking armies or growing populations and descriptions of numerous nations do not state this principle. Sirach's foolish king destroying his people reverses the cause."
         },
         {
           "reference": "Proverbs 14:29",
@@ -17353,8 +17666,66 @@
           "id": "v14-30",
           "text": "A gentle-tempered man is a physician of the heart, but a perceptive heart is a moth to the bones.",
           "display_text": "A gentle-tempered man is a physician of the heart, but a perceptive heart is a moth to the bones.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-14-30__proverbs-14-10",
+              "target": "Proverbs 14:10",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both sayings use the distinctive phrase of a perceptive heart in a painful sense: here a perceptive heart is a moth to the bones, and in 14:10 a man's heart is perceptive and his life sorrowful.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2f7fac557370c6123c621e1f70bbbf205562ac05cc4e97b280c13e41c8a49ea7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 14:10",
+                  "id": "v14-10",
+                  "text": "A man’s heart is perceptive; his life is sorrowful, but when he rejoices, he does not mingle with insolence.",
+                  "text_sha256": "da2ee4054dd5af00b37f37c20e73d8d5f27608465ea94ac4017852047a5335ac"
+                }
+              ],
+              "target_passage_sha256": "11175d0c7d4cdcf2a95a061019657ce6becf929b056a22af25e585c7c8167b07",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "proverbs-14-30__proverbs-17-22",
+              "target": "Proverbs 17:22",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both sayings say an inner state of the heart affects the bones. Here a perceptive heart is a moth to the bones, and in 17:22 a sorrowful man's bones dry up while a rejoicing heart makes one flourish.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2f7fac557370c6123c621e1f70bbbf205562ac05cc4e97b280c13e41c8a49ea7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 17:22",
+                  "id": "v17-22",
+                  "text": "A rejoicing heart makes one flourish, but a sorrowful man’s bones dry up.",
+                  "text_sha256": "b0e48f2eba274c62efc6e16c0cfc8202d632795341a19454d1e69429e79cda15"
+                }
+              ],
+              "target_passage_sha256": "f157d28ea6fd6005ef74b9343fc14b3c5b9d3a29440ae8c503b66194ae57a001",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 14:31",
@@ -17555,7 +17926,7 @@
     },
     {
       "chapter": 15,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 15,
         "section": 15,
@@ -18332,8 +18703,38 @@
           "id": "v15-19",
           "text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
           "display_text": "The ways of the idle are strewn with thorns, but those of the courageous are well worn.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-15-19__proverbs-22-5",
+              "target": "Proverbs 22:5",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both sayings picture thorny growth on a bad person's ways: here the ways of the idle are strewn with thorns, and in 22:5 thistles and traps are in crooked ways.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "19f243bc0421e6f25fc6f011409a1e64d6af4b5ec3766fb7a36e21b63b3659fa",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 22:5",
+                  "id": "v22-5",
+                  "text": "Thistles and traps are in crooked ways, but one who guards his own life will keep away from them.",
+                  "text_sha256": "abb2aae3ff69feaa83c874cf95688d795bcbdde45f3d07cbbf869f62608bf41a"
+                }
+              ],
+              "target_passage_sha256": "af96f2713eeea3c787d851870f184989126c44837621b3f29ecc286ed79f7054",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 15:20",
@@ -18457,8 +18858,38 @@
           "id": "v15-23",
           "text": "The evil person will certainly not heed it, nor say anything timely and good for the community.",
           "display_text": "The evil person will certainly not heed it, nor say anything timely and good for the community.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-15-23__sirach-20-7",
+              "target": "Sirach 20:7",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both say that a bad speaker fails to speak at the right time. Here the evil person will not say anything timely, and in Sirach the babbler and the fool miss the right time, while the wise wait for it. Sirach does not mention the community.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0c4d1636002aed47f2133ff668bf19223965425598c8c2b74f602bf411a9c418",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 20:7",
+                  "id": "v20-7",
+                  "text": "A wise person will keep silent until the right time, but a babbler and a fool will miss the right time.",
+                  "text_sha256": "ea7f71a9a1bd9ed2a9645290f2dcb1836e79c69f4c19419e2ae626380eb06796"
+                }
+              ],
+              "target_passage_sha256": "1094b0e354114f16a90fcc9ede07b0cd445ee5cad1a41c7e06cdb1a60d8d75d6",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 15:24",
@@ -19042,7 +19473,7 @@
     },
     {
       "chapter": 16,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 16,
         "section": 16,
@@ -20240,14 +20671,44 @@
           "id": "v16-33",
           "text": "Everything comes into the laps of the unjust, but all righteous things are from the Lord.",
           "display_text": "Everything comes into the laps of the unjust, but all righteous things are from the Lord.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-16-33__proverbs-29-26",
+              "target": "Proverbs 29:26",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both sayings set what people obtain or seek against what comes from the Lord, in closely similar words: here everything comes into the laps of the unjust, but all righteous things are from the Lord, and in 29:26 many court the faces of leaders, but what is just for a man comes from the Lord.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e06229af7e2035fffdb6f36290b6126e77fab86597ff219d0afb45edc47ddcc0",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 29:26",
+                  "id": "v29-26",
+                  "text": "Many court the faces of leaders, but what is just for a man comes from the Lord.",
+                  "text_sha256": "b3187a04afa88ce33d5eacd67dc41d18f06a28848a6a3a54cc04fb65ad051405"
+                }
+              ],
+              "target_passage_sha256": "b4d6270ebf7fc6490f4280c247c11c9eccd9d40ae53b666120cfa8bce2f2bbbd",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         }
       ]
     },
     {
       "chapter": 17,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 17,
         "section": 17,
@@ -20780,8 +21241,10 @@
           "id": "v17-12",
           "text": "Concern will fall upon an intelligent man, but fools will deliberate evil things.",
           "display_text": "Concern will fall upon an intelligent man, but fools will deliberate evil things.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Concern falls upon an intelligent man while fools deliberate evil. The bear and lion passages belong to a different reading of the verse that this edition does not have. The other sayings about intelligent people and fools are general contrasts without the concern-and-deliberation pairing."
         },
         {
           "reference": "Proverbs 17:13",
@@ -20827,8 +21290,10 @@
           "id": "v17-14",
           "text": "The beginning of righteousness gives authority to words, but faction and battle lead the way to want.",
           "display_text": "The beginning of righteousness gives authority to words, but faction and battle lead the way to want.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Righteousness gives authority to words, while faction and battle lead to want. The other sayings about strife and battle say nothing about righteousness giving authority to words or about strife leading to want, and the remaining texts share isolated words only."
         },
         {
           "reference": "Proverbs 17:15",
@@ -21297,8 +21762,66 @@
           "id": "v17-24",
           "text": "An understanding face belongs to a wise man, but the fool’s eyes are upon the extremities of the earth.",
           "display_text": "An understanding face belongs to a wise man, but the fool’s eyes are upon the extremities of the earth.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-17-24__ecclesiastes-2-14",
+              "target": "Ecclesiastes 2:14",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both contrast the wise person and the fool by the face or eyes: here an understanding face belongs to a wise man while the fool's eyes are upon the extremities of the earth, and in Ecclesiastes the wise person's eyes are in his head while the fool walks in darkness.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "410cbdcbd23a8f15d728c7764a24b5b42c1fc398efb18182db77b3a1cf542609",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 2:14",
+                  "id": "v2-14",
+                  "text": "The wise person’s eyes are in his head, but the fool walks in darkness. Yet I too knew that one event will happen to them all.",
+                  "text_sha256": "7fb0fb4c7d47945dcc99d47c8bed24800306d7a6b53cbcd23fc5e34765031ff1"
+                }
+              ],
+              "target_passage_sha256": "557690eb02403844fc5ca37222f485c666fcb5336e4cfbb3dcdaa9c64c231962",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "proverbs-17-24__ecclesiastes-8-1",
+              "target": "Ecclesiastes 8:1",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both connect wisdom with the face: here an understanding face belongs to a wise man, and in Ecclesiastes a person's wisdom will light up his face.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "410cbdcbd23a8f15d728c7764a24b5b42c1fc398efb18182db77b3a1cf542609",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ecclesiastes/verses.json",
+                "blob_sha": "48f381cd900cf9fee506ab8b3eeb02bbfdc242b3",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ecclesiastes/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ecclesiastes 8:1",
+                  "id": "v8-1",
+                  "text": "Who knows wise people, and who knows the solution of a saying? A person’s wisdom will light up his face, but one with a shameless face will be hated.",
+                  "text_sha256": "4982651dbf6b09912aca6deeca3febb5a113eb29cf69fafbb0f7547d378a9cf9"
+                }
+              ],
+              "target_passage_sha256": "fb3c7e3b8b9295ac0f1bb4891148a15826d28ee7fde297595846ac47469dce33",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 17:25",
@@ -21489,7 +22012,7 @@
     },
     {
       "chapter": 18,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 18,
         "section": 18,
@@ -21582,8 +22105,38 @@
           "id": "v18-3",
           "text": "When the impious comes into the depth of evils, he despises, and dishonor and reproach come upon him.",
           "display_text": "When the impious comes into the depth of evils, he despises, and dishonor and reproach come upon him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-18-3__proverbs-11-2",
+              "target": "Proverbs 11:2",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both describe dishonor coming with the entry of wrongdoing: here when the impious comes into the depth of evils, dishonor and reproach come upon him, and in 11:2 wherever insolence enters, dishonor is there too.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4fc726558573a4a322174977c68c2dc5ca58be86a7d9db93009ede8377e0e850",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 11:2",
+                  "id": "v11-2",
+                  "text": "Wherever insolence enters, dishonor is there too, but the mouth of the humble meditates on wisdom.",
+                  "text_sha256": "2c2f47222bf7d31f6759a9112608ee001b3b857375e837fec66003ea9bbb6d9a"
+                }
+              ],
+              "target_passage_sha256": "51c21b81d90a21d5bbb3b5ad8393df9c85898389793c6dba918282246218eb79",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 18:4",
@@ -21785,8 +22338,10 @@
           "id": "v18-9",
           "text": "One who does not heal himself in his works is brother to one who ruins himself.",
           "display_text": "One who does not heal himself in his works is brother to one who ruins himself.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The saying compares one who does not heal himself in his works to one who ruins himself. The sayings on laziness, sluggishness and partnership with the impious do not mention self-healing in one's works, and the other texts use 'ruin' of land and vineyards."
         },
         {
           "reference": "Proverbs 18:10",
@@ -22416,7 +22971,7 @@
     },
     {
       "chapter": 19,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 19,
         "section": 19,
@@ -23142,8 +23697,10 @@
           "id": "v19-19",
           "text": "An evil-minded man will suffer many penalties, and if he acts pestilentially, he will add his own life as well.",
           "display_text": "An evil-minded man will suffer many penalties, and if he acts pestilentially, he will add his own life as well.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The evil-minded man suffers many penalties and, if he acts pestilentially, adds his own life. The sayings about wrathful or quick-tempered men and the narratives of Shimei and Saul show anger but not this escalation. 2 Maccabees speaks generally of the impious meeting penalties."
         },
         {
           "reference": "Proverbs 19:20",
@@ -23539,7 +24096,7 @@
     },
     {
       "chapter": 20,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 20,
         "section": 20,
@@ -23678,8 +24235,10 @@
           "id": "v20-4",
           "text": "A lazy person, when reproached, is not ashamed, and neither is one who borrows grain at harvest.",
           "display_text": "A lazy person, when reproached, is not ashamed, and neither is one who borrows grain at harvest.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The lazy person who is not ashamed when reproached is paired with one who borrows grain at harvest. The general idleness-and-poverty sayings do not mention reproach, shame or borrowing at harvest, and the harvest texts are unrelated."
         },
         {
           "reference": "Proverbs 20:5",
@@ -24486,7 +25045,7 @@
     },
     {
       "chapter": 21,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 21,
         "section": 21,
@@ -24863,8 +25422,10 @@
           "id": "v21-10",
           "text": "The life of the impious will receive mercy from none of humankind.",
           "display_text": "The life of the impious will receive mercy from none of humankind.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The life of the impious receives mercy from no human being. The candidate texts describe the impious person's own evil desires or schemes, or God's judgment without mercy on the merciless. None states that the impious receives mercy from no one."
         },
         {
           "reference": "Proverbs 21:11",
@@ -24910,8 +25471,38 @@
           "id": "v21-12",
           "text": "A righteous person understands the hearts of the impious, and brings the impious low amid evils.",
           "display_text": "A righteous person understands the hearts of the impious, and brings the impious low amid evils.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-21-12__proverbs-24-16",
+              "target": "Proverbs 24:16",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both sayings describe the impious brought down amid evils: here the righteous brings the impious low amid evils, and in 24:16 the impious will grow weak amid evils while the righteous rise.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d533d0162713f6500472f60a930668d08cd1eb7f99f155a73171f041aa8488d7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 24:16",
+                  "id": "v24-16",
+                  "text": "for the righteous will fall seven times and rise, but the impious will grow weak amid evils.",
+                  "text_sha256": "dce0b0dbbb31efd77db38fdffe6c7567721318f68cff5e5cc8ceb733f534410b"
+                }
+              ],
+              "target_passage_sha256": "5be9237be2b5e453c5977f005a7dd32474b172d54cf8ad6cf49d0a02726c3ef3",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 21:13",
@@ -25074,8 +25665,10 @@
           "id": "v21-17",
           "text": "A needy man loves gladness, loving wine and oil toward wealth;",
           "display_text": "A needy man loves gladness, loving wine and oil toward wealth;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "In this edition a needy man loves gladness, wine and oil toward wealth. The sayings about drunkards becoming poor, the fool swallowing treasure, and the prodigal son state that pleasure brings poverty, which this wording does not clearly say. The texts where wine and oil bring gladness are about God's provision."
         },
         {
           "reference": "Proverbs 21:18",
@@ -25662,7 +26255,7 @@
     },
     {
       "chapter": 22,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 22,
         "section": 22,
@@ -25886,8 +26479,38 @@
           "id": "v22-7",
           "text": "The rich will rule the poor, and household servants will lend to their own masters.",
           "display_text": "The rich will rule the poor, and household servants will lend to their own masters.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-22-7__deuteronomy-15-6",
+              "target": "Deuteronomy 15:6",
+              "verdict": "supported",
+              "relationship": "contrast",
+              "rationale": "Both pair ruling with lending: here the rich rule the poor and household servants lend to their own masters, and in Deuteronomy those addressed will lend to many nations and not borrow, and will rule over many nations. The roles differ: in Proverbs the lenders are servants, while in Deuteronomy the lenders are the ones who rule.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1152b7984e24d57260e832084420bb49ef86870e3a2d90fd07d056fc10f641b9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "deuteronomy/verses.json",
+                "blob_sha": "eb8309b456e5b6b87e756a4ff457a02237be00fb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/deuteronomy/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Deuteronomy 15:6",
+                  "id": "v15-6",
+                  "text": "For the Lord your God has blessed you, as He has spoken unto you; and you shall lend unto many nations, but you shall not borrow; and you shall rule over many nations, but they shall not rule over you.",
+                  "text_sha256": "497834e2d9eb09990c8ed7f43a368ada15d37dbaac4141889a6439c257404fdc"
+                }
+              ],
+              "target_passage_sha256": "6ff2ba837c8bf086c6416de663bd31fb7bb97cc35c240d6283495da7052a7382",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 22:8",
@@ -26135,8 +26758,10 @@
           "id": "v22-12",
           "text": "The eyes of the Lord preserve discernment, but a lawless person makes words worthless.",
           "display_text": "The eyes of the Lord preserve discernment, but a lawless person makes words worthless.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The Lord's eyes preserve discernment, while a lawless person makes words worthless. The Lord's eyes surveying the earth, God frustrating the counsels of the crafty, and the overthrow of the lawless one share only general elements. None mentions preserving discernment or making words worthless."
         },
         {
           "reference": "Proverbs 22:13",
@@ -26873,7 +27498,7 @@
     },
     {
       "chapter": 23,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 23,
         "section": 23,
@@ -26955,8 +27580,10 @@
           "id": "v23-2",
           "text": "and lay your hand to it, knowing that you must prepare such things;",
           "display_text": "and lay your hand to it, knowing that you must prepare such things;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The instruction to lay one's hand to the food, knowing one must prepare such things, is about the obligation to return hospitality at a ruler's table. The texts on table manners, the belly and self-control do not mention preparing in return."
         },
         {
           "reference": "Proverbs 23:3",
@@ -27048,8 +27675,10 @@
           "id": "v23-5",
           "text": "If you fix your eye upon him, he will appear nowhere, for wings like an eagle’s have been prepared for him, and he returns to the house of the one who presides over him.",
           "display_text": "If you fix your eye upon him, he will appear nowhere, for wings like an eagle’s have been prepared for him, and he returns to the house of the one who presides over him.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "In this edition the one who vanishes on eagle's wings is a person who returns to the house of the one presiding over him. The texts about fleeting wealth would wrongly substitute riches as the subject. The eagle passages in Jeremiah, Ezekiel and Daniel are unrelated images."
         },
         {
           "reference": "Proverbs 23:6",
@@ -27095,16 +27724,20 @@
           "id": "v23-7",
           "text": "for as if someone swallowed a hair, so he eats and drinks.",
           "display_text": "for as if someone swallowed a hair, so he eats and drinks.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The begrudging host eats and drinks as if swallowing a hair. The texts about deceitful lips, false dining companions and eating and drinking share only general ideas of insincerity or meals, not this image."
         },
         {
           "reference": "Proverbs 23:8",
           "id": "v23-8",
           "text": "Do not bring him in to yourself and eat your morsel with him, for he will vomit it and ruin your good words.",
           "display_text": "Do not bring him in to yourself and eat your morsel with him, for he will vomit it and ruin your good words.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The warning is that the companion will vomit the shared morsel and ruin one's good words. The other passages about vomiting concern unjust wealth, drunkenness under judgment, or a dog returning to its vomit, and none has the social setting of a shared meal."
         },
         {
           "reference": "Proverbs 23:9",
@@ -27385,8 +28018,10 @@
           "id": "v23-16",
           "text": "and your lips will spend time in words with my lips, if the words are upright.",
           "display_text": "and your lips will spend time in words with my lips, if the words are upright.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The child's lips will spend time in words with the father's lips if the words are upright. Wisdom speaking upright things, royal approval of upright words, and New Testament guidance on wholesome speech are general speech themes and do not include this shared conversation."
         },
         {
           "reference": "Proverbs 23:17",
@@ -27804,8 +28439,38 @@
           "id": "v23-28",
           "text": "for this will swiftly perish, and every lawless person will be consumed.",
           "display_text": "for this will swiftly perish, and every lawless person will be consumed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-23-28__proverbs-13-23",
+              "target": "Proverbs 13:23",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both sayings say the wrongdoer will perish swiftly: here this will swiftly perish and every lawless person will be consumed, and in 13:23 the unjust will perish swiftly.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "db6a26c500bb64f3fbd917fe75d709dd57f780489bf0d2bedf3b1b38672ee5d8",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 13:23",
+                  "id": "v13-23",
+                  "text": "The righteous will spend many years in wealth, but the unjust will perish swiftly.",
+                  "text_sha256": "45580d9fca96ed77401470a7b4c9493652df4739e7dba3602c06bc19597fe9bc"
+                }
+              ],
+              "target_passage_sha256": "c0252976e9c0274c727210e38fa1efb619e29a4b1346aa45c4797336b38fc948",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 23:29",
@@ -28154,7 +28819,7 @@
     },
     {
       "chapter": 24,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 24,
         "section": 24,
@@ -28548,8 +29213,10 @@
           "id": "v24-10",
           "text": "on an evil day and on a day of affliction, until he fails.",
           "display_text": "on an evil day and on a day of affliction, until he fails.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The clause continues the pestilent person's affliction on an evil day until he fails. The texts about losing heart, weariness and being agitated by pain use the familiar idea of fainting in adversity, which this wording does not express."
         },
         {
           "reference": "Proverbs 24:11",
@@ -28712,8 +29379,10 @@
           "id": "v24-15",
           "text": "Do not bring an impious person to the pasture of the righteous, and do not be deceived by a filled belly;",
           "display_text": "Do not bring an impious person to the pasture of the righteous, and do not be deceived by a filled belly;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The warning is against bringing an impious person to the pasture of the righteous and being deceived by a full belly. The texts about the wicked plotting against the righteous do not mention the pasture or the belly, and the pasture and fullness passages are unrelated."
         },
         {
           "reference": "Proverbs 24:16",
@@ -29156,14 +29825,44 @@
           "id": "v24-22e",
           "text": "and devours human bones, and burns them together like a flame, so that they are inedible to young eagles.",
           "display_text": "and devours human bones, and burns them together like a flame, so that they are inedible to young eagles.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-24-22e__proverbs-30-17",
+              "target": "Proverbs 30:17",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both mention young eagles in connection with eating what is left of a person under judgment or curse: here bones are burned so that they are inedible to young eagles, and in 30:17 young eagles are to devour the eye that mocks a father and dishonors a mother.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "ae1d5d3b4fbb4d2e349d6da2ff2f6f1d86e1283089f60ce3aa3f22b4078715c2",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 30:17",
+                  "id": "v30-17",
+                  "text": "An eye mocking a father and dishonoring a mother’s old age—may ravens from the ravines peck it out, and may young eagles devour it.",
+                  "text_sha256": "6fd1025741b6ebbb0190949a1abb34e5a58ccf5ca4d14b1bd2517ed4d0b9bbe0"
+                }
+              ],
+              "target_passage_sha256": "b86fd4cbd0115be05040e6e119eba96d885c82156729f89ff99a87ab37744c44",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         }
       ]
     },
     {
       "chapter": 30,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 30,
         "section": 25,
@@ -29178,8 +29877,10 @@
           "id": "v30-1",
           "text": "Fear my words, son, and receive them and repent. Thus says the man to those who trust in God, and I cease:",
           "display_text": "Fear my words, son, and receive them and repent. Thus says the man to those who trust in God, and I cease:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The opening calls the son to fear and receive the words and repent, addressed to those who trust in God. The heading of 31:1 and the New Testament calls to repent or attend to prophecy share only general wording of instruction or repentance, not this particular opening."
         },
         {
           "reference": "Proverbs 30:2",
@@ -29382,8 +30083,10 @@
           "id": "v30-7",
           "text": "Two things I ask from Thee; do not take favor away from me before I die:",
           "display_text": "Two things I ask from Thee; do not take favor away from me before I die:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The prayer asks for two things and that favor not be taken away before death. The other requests to God (one thing asked of the Lord, Solomon's request, Elisha's double portion) share only the general form of a petition, and the concrete petitions are in the following verses."
         },
         {
           "reference": "Proverbs 30:8",
@@ -29724,7 +30427,7 @@
     },
     {
       "chapter": 24,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 24,
         "section": 26,
@@ -29856,16 +30559,20 @@
           "id": "v24-26",
           "text": "and lips answering good words will kiss.",
           "display_text": "and lips answering good words will kiss.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Lips that answer with good words are linked to a kiss. The other texts about kissing (Judas, Job, Solomon greeting Bathsheba) share only the act of kissing, not the link to good answers."
         },
         {
           "reference": "Proverbs 24:27",
           "id": "v24-27",
           "text": "Prepare your works for going out, and make yourself ready for the field, and follow behind me, and you will rebuild your house.",
           "display_text": "Prepare your works for going out, and make yourself ready for the field, and follow behind me, and you will rebuild your house.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The instruction to prepare one's works, make ready for the field, follow the speaker, and rebuild one's house is a single distinctive sequence. The other texts about making ready or preparing (Gog's army, the upper room, a collection, a people prepared for the Lord) share only the verb 'prepare'."
         },
         {
           "reference": "Proverbs 24:28",
@@ -30158,7 +30865,7 @@
     },
     {
       "chapter": 30,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 30,
         "section": 27,
@@ -30290,16 +30997,48 @@
           "id": "v30-18",
           "text": "Three things are impossible for me to understand, and the fourth I do not comprehend:",
           "display_text": "Three things are impossible for me to understand, and the fourth I do not comprehend:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse introduces three things beyond understanding and a fourth the speaker cannot comprehend. The other texts about comprehending or impossibility share only general words and do not match the numbered list or its contents."
         },
         {
           "reference": "Proverbs 30:19",
           "id": "v30-19",
           "text": "the tracks of a flying eagle, and the ways of a snake upon a rock, and the paths of a seagoing ship, and the ways of a man in youth.",
           "display_text": "the tracks of a flying eagle, and the ways of a snake upon a rock, and the paths of a seagoing ship, and the ways of a man in youth.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-30-19__job-9-26",
+              "target": "Job 9:26",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both put the flight of an eagle beside the course of a ship: here the tracks of a flying eagle and the paths of a seagoing ship, and in Job the question whether there is a trace of a ship's way or of an eagle flying in search of food.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a7d8e0a4afdd371fc6fbfc02bcfb74ceabf82bc1251c7ecaa926b63e7993e26",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "job/verses.json",
+                "blob_sha": "07361990c34eac0a99553b11dd9d4b2482c3b37f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/job/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Job 9:26",
+                  "id": "v9-26",
+                  "text": "Is there a trace of a ship’s way, or of an eagle flying in search of food?",
+                  "text_sha256": "a95f1840d607c7c08fdbe13cfc5c9bad81d8ae65cbec852924a4907ae7d3db94"
+                }
+              ],
+              "target_passage_sha256": "4b671d2f07efd8121241db9cc7529755deb6141e0bed50c40d6ed65ef98cb8aa",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 30:20",
@@ -30345,8 +31084,10 @@
           "id": "v30-21",
           "text": "Through three things the earth is shaken, and it cannot bear the fourth:",
           "display_text": "Through three things the earth is shaken, and it cannot bear the fourth:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse introduces three things that shake the earth and a fourth it cannot bear. The other texts use 'the earth will be shaken' or 'cannot bear' in unrelated senses (a fourth kingdom, Jeremiah's burning word, heaven unable to contain God, fruit-bearing) and do not match the list."
         },
         {
           "reference": "Proverbs 30:22",
@@ -30392,8 +31133,38 @@
           "id": "v30-23",
           "text": "and if a maidservant casts out her own mistress, and if a hated woman obtains a good husband.",
           "display_text": "and if a maidservant casts out her own mistress, and if a hated woman obtains a good husband.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-30-23__isaiah-24-2",
+              "target": "Isaiah 24:2",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both use the maidservant and her mistress as an example of the usual order between them overturned or leveled: here a maidservant casts out her own mistress, and in Isaiah the maidservant will be like the mistress, alongside the slave like the master.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5a6240ee7203845a5098632ae30e7d5a8cdfe9a3155942109a75d4aecba9a13a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 24:2",
+                  "id": "v24-2",
+                  "text": "The people will be like the priest, the slave like the master, the maidservant like the mistress; the buyer will be like the seller, the lender like the borrower, and the debtor like the one to whom he owes a debt.",
+                  "text_sha256": "42248f1ea2a9b3d6182474dae59c714ade38db5b69b7acc3b32efa0281ccfcac"
+                }
+              ],
+              "target_passage_sha256": "7253f935d71983f6e9cd7cd81be4aa6f84226a3fa55240778827cb2dcd304b86",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 30:24",
@@ -30577,32 +31348,68 @@
           "id": "v30-28",
           "text": "And the lizard, bracing itself with its hands and being easily caught, lives in a king’s fortifications.",
           "display_text": "And the lizard, bracing itself with its hands and being easily caught, lives in a king’s fortifications.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The lizard that braces itself with its hands, is easily caught and lives in a king's fortifications is a specific example in a list of small, wise creatures. Leviticus only names the lizard among unclean animals, and the other texts share only the word 'easily'."
         },
         {
           "reference": "Proverbs 30:29",
           "id": "v30-29",
           "text": "Three things go on their way well, and the fourth moves beautifully:",
           "display_text": "Three things go on their way well, and the fourth moves beautifully:",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse only introduces a numbered set of four things that move well; the candidate texts share isolated words (beautiful, well, fourth, moved) but none presents a comparable numerical saying or the same subject."
         },
         {
           "reference": "Proverbs 30:30",
           "id": "v30-30",
           "text": "a lion’s cub, stronger than beasts, which does not turn back or shrink from a beast;",
           "display_text": "a lion’s cub, stronger than beasts, which does not turn back or shrink from a beast;",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-30-30__nahum-2-12",
+              "target": "Nahum 2:12",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both picture a lion's cub that is unafraid: Proverbs' cub does not turn back or shrink from a beast, and in Nahum the lion's cub went where it would and no one frightened them.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "9819e1ea914c24fbbf0f9305bb3cac0bcc22b92cbec0ffcf1e76914b2121bd3b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nahum/verses.json",
+                "blob_sha": "6901c800e024c859800afa7ab1e4fcda4e9d2658",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nahum/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nahum 2:12",
+                  "id": "v2-12",
+                  "text": "Where is the lions’ dwelling and the pasture that belonged to the cubs, where a lion went to enter there, a lion’s cub, and no one frightened them?",
+                  "text_sha256": "c79610e1abef463425b80fd8fcac138725cff07bf7e5fedfceefd7aee2994a20"
+                }
+              ],
+              "target_passage_sha256": "a73115465dd7c5abd2d1ef3bedbaafebe18fe1ba7e7a09d9668d0c8330608297",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 30:31",
           "id": "v30-31",
           "text": "and a spirited rooster walking among hens, and a male goat leading a flock, and a king addressing a nation.",
           "display_text": "and a spirited rooster walking among hens, and a male goat leading a flock, and a king addressing a nation.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The figures of a spirited rooster among hens, a male goat leading a flock and a king addressing a nation have no counterpart; the candidates mention goats as sacrifices, goats in a simile for an army, or Peter addressing the people, none sharing the image of stately leadership."
         },
         {
           "reference": "Proverbs 30:32",
@@ -30686,7 +31493,7 @@
     },
     {
       "chapter": 31,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 31,
         "section": 28,
@@ -30942,8 +31749,10 @@
           "id": "v31-7",
           "text": "so that they may forget their poverty and no longer remember their troubles.",
           "display_text": "so that they may forget their poverty and no longer remember their troubles.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse gives the purpose of giving drink to the distressed, that they forget poverty and troubles. The candidates either warn against drunkenness generally or speak of God forgetting, or the speaker remembering, poverty and affliction, which are different ideas despite shared vocabulary."
         },
         {
           "reference": "Proverbs 31:8",
@@ -31027,7 +31836,7 @@
     },
     {
       "chapter": 25,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 25,
         "section": 29,
@@ -31415,8 +32224,66 @@
           "id": "v25-10",
           "text": "lest the friend reproach you, and your battle and enmity not depart, but be for you equal to death.",
           "display_text": "lest the friend reproach you, and your battle and enmity not depart, but be for you equal to death.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-25-10__sirach-37-2",
+              "target": "Sirach 37:2",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both connect a friend's enmity with death: Proverbs warns that enmity with a friend will be equal to death, and Sirach asks whether there is not grief to the point of death when a companion and friend turns to enmity.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b66414ef8fd617e280d366dbb3912980eb363a10af8711465afa8b392fd2d002",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 37:2",
+                  "id": "v37-2",
+                  "text": "Is there not grief to the point of death when a companion and friend turns to enmity?",
+                  "text_sha256": "c48f0cf884f8f37f9fbed6d36b9377d3bb0be08d028f89b88f242af6ef0a9c4e"
+                }
+              ],
+              "target_passage_sha256": "a26ffbc4d38735ecc871374e14f39f072544f16b7f675858dd327467fc1b1b64",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "proverbs-25-10__sirach-6-9",
+              "target": "Sirach 6:9",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both warn of a friend whose enmity brings reproach: Proverbs speaks of a friend reproaching you and enmity not departing, and Sirach of a friend who turns to enmity and exposes a quarrel to your reproach.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "b66414ef8fd617e280d366dbb3912980eb363a10af8711465afa8b392fd2d002",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 6:9",
+                  "id": "v6-9",
+                  "text": "There is also a friend who turns to enmity and will expose a quarrel to your reproach.",
+                  "text_sha256": "ac6993e2a12bacb5d9ae9c9ed9812d1297c9a91ca1978e4cca4c19257f5278d0"
+                }
+              ],
+              "target_passage_sha256": "f4cce38142709b32f86a50af4aaa9edfaf51493e661238a70b023c6d7e3946c4",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 25:10a",
@@ -31593,8 +32460,44 @@
           "id": "v25-14",
           "text": "Like winds and clouds and very conspicuous rains, so are those who boast of a false gift.",
           "display_text": "Like winds and clouds and very conspicuous rains, so are those who boast of a false gift.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-25-14__jude-1-12-13",
+              "target": "Jude 1:12-13",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both liken people to clouds and winds: Proverbs compares those who boast of a false gift to winds and clouds and very conspicuous rains, and Jude calls those feasting at the love feasts and shepherding themselves waterless clouds carried along by winds. Proverbs speaks of conspicuous rains, while Jude stresses that the clouds are waterless.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d6b6d901afdb8af0b5a1f474d9ed092b03f98ddd1cd0c5087c3587f6d480bed7",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jude/verses.json",
+                "blob_sha": "5527c8487028c457ae7feb94a41af6504db1e1eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jude/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jude 1:12",
+                  "id": "v1-12",
+                  "text": "These are reefs at your love feasts, feasting together with you without fear, shepherding themselves; waterless clouds carried along by winds; late-autumn trees without fruit, twice dead, uprooted;",
+                  "text_sha256": "9b4a62818fcd0c6dc34cb46fba728c8575b111246f24e3a9a90d303d422dec6b"
+                },
+                {
+                  "reference": "Jude 1:13",
+                  "id": "v1-13",
+                  "text": "wild waves of the sea foaming up their own shames; wandering stars for whom the gloom of darkness has been kept forever.",
+                  "text_sha256": "211d0de8b799823d158c3c09671d6ef6aa003b67e236ef0d45add7c340e91c6f"
+                }
+              ],
+              "target_passage_sha256": "14069e3bcc8a06fe94107535df5897b77ea62484193dc93a00ff538642415219",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 25:15",
@@ -31679,8 +32582,38 @@
           "id": "v25-17",
           "text": "Bring your foot rarely to your own friend, lest he become filled with you and hate you.",
           "display_text": "Bring your foot rarely to your own friend, lest he become filled with you and hate you.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-25-17__sirach-21-22",
+              "target": "Sirach 21:22",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both counsel restraint in bringing one's foot into another's house: Proverbs says to bring your foot rarely to your friend, and Sirach contrasts a fool's foot quick to enter a house with an experienced person who feels shame before it.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fb9dd1aaea0ab350d645bb1fa03162557345c47caee1334e1ca46fdbc649224f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 21:22",
+                  "id": "v21-22",
+                  "text": "A fool’s foot is quick to enter a house, but an experienced person will feel shame before it.",
+                  "text_sha256": "08e0fcdff2792870a3e0ad275d22098eaf14cab785efab0d6178da4f239b6502"
+                }
+              ],
+              "target_passage_sha256": "af265985882800ed85181d3be25cff3004f31ff728963e606c2719092f91a63b",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 25:18",
@@ -31726,8 +32659,10 @@
           "id": "v25-19",
           "text": "An evil person’s tooth and a lawless person’s foot will perish on an evil day.",
           "display_text": "An evil person’s tooth and a lawless person’s foot will perish on an evil day.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse predicts that an evil person's tooth and a lawless person's foot will perish on an evil day. The candidates either concern trusting Egypt or others who fail (a sense absent from this wording) or merely list tooth and foot in the law of retaliation, so none shares the actual saying."
         },
         {
           "reference": "Proverbs 25:20",
@@ -31890,8 +32825,10 @@
           "id": "v25-23",
           "text": "A north wind raises clouds, but a shameless face provokes a tongue.",
           "display_text": "A north wind raises clouds, but a shameless face provokes a tongue.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The saying pairs a north wind raising clouds with a shameless face provoking a tongue. The candidates either describe winds or a north wind with no moral comparison, or list slander and insolence generally, so none reproduces the paired image."
         },
         {
           "reference": "Proverbs 25:24",
@@ -31976,8 +32913,10 @@
           "id": "v25-26",
           "text": "As if someone blocked a spring and ruined an outlet of water, so it is disorderly for a righteous person to have fallen before the impious.",
           "display_text": "As if someone blocked a spring and ruined an outlet of water, so it is disorderly for a righteous person to have fallen before the impious.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The comparison of a righteous person fallen before the impious to a blocked spring and ruined water outlet has no counterpart; the candidates describe literal blocking of springs in war or by Hezekiah, water troubled by feet, or killings of the righteous, none joining the water image to the righteous person's fall."
         },
         {
           "reference": "Proverbs 25:27",
@@ -32061,7 +33000,7 @@
     },
     {
       "chapter": 26,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 26,
         "section": 30,
@@ -32389,16 +33328,20 @@
           "id": "v26-9",
           "text": "Thorns grow in the hand of the drunkard, but slavery is in the hand of fools.",
           "display_text": "Thorns grow in the hand of the drunkard, but slavery is in the hand of fools.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse contrasts thorns growing in a drunkard's hand with slavery in the hand of fools. The candidates concern a proverb in a fool's mouth, a drunkard's insensibility, thorns under a cauldron, or thorns growing on ruined land, none sharing this pairing."
         },
         {
           "reference": "Proverbs 26:10",
           "id": "v26-10",
           "text": "All the flesh of fools is greatly storm-tossed, for their distraction is shattered.",
           "display_text": "All the flesh of fools is greatly storm-tossed, for their distraction is shattered.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The description of fools' flesh being storm-tossed because their distraction is shattered has no comparable text; the candidates share only words such as fool, flesh, distraction or shattered in unrelated sayings, or speak of general repayment."
         },
         {
           "reference": "Proverbs 26:11",
@@ -32724,8 +33667,10 @@
           "id": "v26-18",
           "text": "As healers put forward words to people, and the first to meet the word will be tripped up,",
           "display_text": "As healers put forward words to people, and the first to meet the word will be tripped up,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The simile of healers putting forward words so that the first to meet the word is tripped up has no counterpart; the candidates concern arrows, false testimony, unjust physicians, or God tripping the land, sharing only isolated words."
         },
         {
           "reference": "Proverbs 26:19",
@@ -33128,7 +34073,7 @@
     },
     {
       "chapter": 27,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 27,
         "section": 31,
@@ -33426,8 +34371,10 @@
           "id": "v27-7",
           "text": "A life in fullness mocks honeycombs, but to a needy life even bitter things seem sweet.",
           "display_text": "A life in fullness mocks honeycombs, but to a needy life even bitter things seem sweet.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The contrast of a full life mocking honeycombs with a needy life finding bitter things sweet is not reproduced; the candidates concern Israel's complaints about food, sweetness of God's sayings, Sodom's fullness, or calling bitter sweet as moral perversion, none expressing this appetite reversal."
         },
         {
           "reference": "Proverbs 27:8",
@@ -33650,16 +34597,20 @@
           "id": "v27-13",
           "text": "Take away his garment, for he has transgressed; one who ruins another’s property is insolent.",
           "display_text": "Take away his garment, for he has transgressed; one who ruins another’s property is insolent.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse orders a garment taken from someone who has transgressed and ruined another's property. It says nothing of a pledge or guarantor, so the pledge and suretyship candidates do not match, and the others share only the word insolent."
         },
         {
           "reference": "Proverbs 27:14",
           "id": "v27-14",
           "text": "One who blesses a friend early with a loud voice will seem no different from one cursing.",
           "display_text": "One who blesses a friend early with a loud voice will seem no different from one cursing.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The saying that a loud early blessing of a friend seems no different from cursing has no counterpart; the candidates describe Absalom's flattery, prophets' favorable words, or acclaim of a king, none presenting blessing that counts as cursing."
         },
         {
           "reference": "Proverbs 27:15",
@@ -33705,16 +34656,20 @@
           "id": "v27-16",
           "text": "The north wind is a harsh wind, but by name it is called favorable.",
           "display_text": "The north wind is a harsh wind, but by name it is called favorable.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse contrasts the harshness of the north wind with its favorable name. The candidates mention harsh winds driving ships, harsh sounds, or wind directions, and none shares this name-versus-nature contrast."
         },
         {
           "reference": "Proverbs 27:17",
           "id": "v27-17",
           "text": "Iron sharpens iron, but a man provokes the face of a companion.",
           "display_text": "Iron sharpens iron, but a man provokes the face of a companion.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse sets iron sharpening iron beside a man provoking a companion's face. The candidates speak of mutual encouragement (a positive sense not in this wording) or of literally sharpened iron, arrows or tongues, none sharing the paired saying."
         },
         {
           "reference": "Proverbs 27:18",
@@ -33760,8 +34715,38 @@
           "id": "v27-19",
           "text": "As faces are not like faces, so neither are human hearts.",
           "display_text": "As faces are not like faces, so neither are human hearts.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-27-19__psalms-32-15",
+              "target": "Psalms 32:15",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both stress that human hearts differ: Proverbs says that as faces are not like faces, so neither are human hearts, and the Psalm says God formed their hearts individually.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4a0e86dc07b7a8e08e63a70a12ad71f6cd802b3daca2d49ead63eb0c9098a869",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "psalms/verses.json",
+                "blob_sha": "a2dbd7f46f72598db5607ea2617e1d330aff4b74",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/psalms/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Psalms 32:15",
+                  "id": "v32-15",
+                  "text": "He formed their hearts individually; He understands all their deeds.",
+                  "text_sha256": "02206bf11e09de7461835862c55783a021d68730fdd08f33d473a4ea447541d0"
+                }
+              ],
+              "target_passage_sha256": "02b3ee3805d24ca681fb8e2ad0c2f8b7de12f33aad86a563ba147f28146110fb",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 27:20",
@@ -34009,8 +34994,10 @@
           "id": "v27-24",
           "text": "for a man’s might and strength do not last for ever, nor does he hand them on from generation to generation.",
           "display_text": "for a man’s might and strength do not last for ever, nor does he hand them on from generation to generation.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse says a man's might and strength do not last for ever nor pass from generation to generation. The candidates concern fleeting wealth, God's lasting righteousness, or a promised enduring dynasty, none stating the impermanence of human strength across generations."
         },
         {
           "reference": "Proverbs 27:25",
@@ -34154,7 +35141,7 @@
     },
     {
       "chapter": 28,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 28,
         "section": 32,
@@ -34856,8 +35843,66 @@
           "id": "v28-17",
           "text": "One who acts as guarantor for a man charged with murder will be a fugitive and will not be secure.",
           "display_text": "One who acts as guarantor for a man charged with murder will be a fugitive and will not be secure.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-28-17__proverbs-19-28",
+              "target": "Proverbs 19:28",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both judge harshly one who acts as guarantor for an unworthy person, a man charged with murder in one saying and a foolish child in the other: the first will be a fugitive and not secure, and the second treats just judgment with insolence.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a5874bccf4ec66bc410b404c380740a3525f181714ea67153461d6080a5376f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 19:28",
+                  "id": "v19-28",
+                  "text": "One who acts as guarantor for a foolish child treats just judgment with insolence, and the mouth of the impious swallows judgments.",
+                  "text_sha256": "685fcb059e7b3aede18173d43d7abac186cdd9a2a7c689205ff76274ef9e2a2f"
+                }
+              ],
+              "target_passage_sha256": "1f6589a62fea8cd4aabf5aa7a060a4b150d05c24d57888d22f2068aaa4dcdf7f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "proverbs-28-17__proverbs-17-18",
+              "target": "Proverbs 17:18",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both use the phrase one who acts as guarantor to warn against standing surety; Proverbs 17:18 calls such a guarantor foolish, while 28:17 says he will be a fugitive and not secure.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2a5874bccf4ec66bc410b404c380740a3525f181714ea67153461d6080a5376f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 17:18",
+                  "id": "v17-18",
+                  "text": "A foolish man claps and rejoices over himself, as does one who acts as guarantor for his own friend with a pledge.",
+                  "text_sha256": "5de1e17a1acc1016082a332b7c9f76105b1fabb40862d33659da9a3ddbe7f8b9"
+                }
+              ],
+              "target_passage_sha256": "d526edb68bcabdd6ff0fff4489062f0656afcaa8a9e85ea6a047a9aca4adb3be",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 28:17a",
@@ -34988,8 +36033,38 @@
           "id": "v28-20",
           "text": "A trustworthy man will be greatly blessed, but the evil person will not be unpunished.",
           "display_text": "A trustworthy man will be greatly blessed, but the evil person will not be unpunished.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-28-20__proverbs-11-21",
+              "target": "Proverbs 11:21",
+              "verdict": "supported",
+              "relationship": "parallel saying",
+              "rationale": "Both contrast the reward of the faithful with the certain punishment of the wrongdoer: one says the evil person will not be unpunished while the trustworthy man is blessed, the other that the unjust will not go unpunished while the sower of righteousness receives a faithful reward.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "dea41cd4b78923609e40d2485c24592c3c1490f739e6706eefa78e4cc5e07c81",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "proverbs/verses.json",
+                "blob_sha": "c5f312fbf47c53c3fc5f40ecdf0dec036545587b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/proverbs/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Proverbs 11:21",
+                  "id": "v11-21",
+                  "text": "One who unjustly puts hands into a hand will not go unpunished, but one who sows righteousness will receive a faithful reward.",
+                  "text_sha256": "f32e942c74319913cc12a385cff0bcc64393df297d0fd17ccaf857a2b8f587d5"
+                }
+              ],
+              "target_passage_sha256": "aacd1765c12fdeca8a30eed4130bb988cae7844167f376a0203acc5d355ac909",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 28:21",
@@ -35321,7 +36396,7 @@
     },
     {
       "chapter": 29,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 29,
         "section": 33,
@@ -35648,16 +36723,54 @@
           "id": "v29-9",
           "text": "A wise man judges nations, but a worthless man who becomes angry is laughed at and does not shrink back.",
           "display_text": "A wise man judges nations, but a worthless man who becomes angry is laughed at and does not shrink back.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The contrast of a wise man judging nations with an angry worthless man laughed at who does not shrink back has no counterpart; the candidates share only words such as shrink back, angry or laughed in unrelated contexts."
         },
         {
           "reference": "Proverbs 29:10",
           "id": "v29-10",
           "text": "Men sharing in bloodshed will hate a holy person, but the upright will seek his life.",
           "display_text": "Men sharing in bloodshed will hate a holy person, but the upright will seek his life.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-29-10__1-john-3-12-13",
+              "target": "1 John 3:12-13",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both link bloodshed with hostility toward the righteous: Proverbs says men sharing in bloodshed will hate a holy person, and 1 John says Cain slaughtered his brother because his own works were evil but his brother's were righteous, then tells the brothers not to be surprised if the world hates them.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "eb82407f68afc60da7dc1aa834b0d776a626a12c7f91c42bedf068617ea1def4",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-john/verses.json",
+                "blob_sha": "d5165122b8928b87c7fc9b31f9e9d1249e6b44c7",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-john/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 John 3:12",
+                  "id": "v3-12",
+                  "text": "not as Cain, who was from the evil one and slaughtered his brother. And for what reason did he slaughter him? Because his own works were evil, but his brother’s were righteous.",
+                  "text_sha256": "b236e712906e10db920a94b97d8028777fe7fb9d78ed6d597235578566c0a41f"
+                },
+                {
+                  "reference": "1 John 3:13",
+                  "id": "v3-13",
+                  "text": "And do not be surprised, brothers, if the world hates you.",
+                  "text_sha256": "b12548574faeb5da27c5f34405db8f35cc6eb3ff5a2f05b22c487411e0bae2b2"
+                }
+              ],
+              "target_passage_sha256": "1c704db042d8ef5b138837d5aaffe6cf71e1023aa1c5bb3508c67306925a67d1",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 29:11",
@@ -35990,8 +37103,38 @@
           "id": "v29-19",
           "text": "A harsh household servant will not be disciplined by words; for even if he understands, he will not obey.",
           "display_text": "A harsh household servant will not be disciplined by words; for even if he understands, he will not obey.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "proverbs-29-19__sirach-33-25",
+              "target": "Sirach 33:25",
+              "verdict": "supported",
+              "relationship": "shared teaching",
+              "rationale": "Both address the discipline of a household servant: Proverbs says a harsh household servant will not be disciplined by words, and Sirach prescribes bread, discipline and work for a household slave.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1eefc8f85ef4988c8fd4e82653983724fae70dfd860ac3b80b13cd11dfed5ed1",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "sirach/verses.json",
+                "blob_sha": "645c35de50dd8eec05e9c156c1656b88842dd7eb",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/sirach/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Sirach 33:25",
+                  "id": "v33-25",
+                  "text": "Fodder, a rod, and burdens for a donkey; bread, discipline, and work for a household slave.",
+                  "text_sha256": "b3d0ab18547d02427d324601434dbc39917eeb609e850a9b92c89752beac055b"
+                }
+              ],
+              "target_passage_sha256": "3c22fa2960b103e8edf35e845c059e68c665bc27ed5ae83a27ad7d6baf41e23e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Proverbs 29:20",
@@ -36351,7 +37494,7 @@
     },
     {
       "chapter": 31,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 31,
         "section": 34,
@@ -36522,8 +37665,10 @@
           "id": "v31-14",
           "text": "She became like a ship trading from afar, and she gathers her livelihood.",
           "display_text": "She became like a ship trading from afar, and she gathers her livelihood.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The comparison of the capable woman to a ship trading from afar has no counterpart; the candidates speak of Nineveh's or Tyre's trading or of a servant trading talents, sharing only the word trade."
         },
         {
           "reference": "Proverbs 31:15",
@@ -36569,8 +37714,10 @@
           "id": "v31-16",
           "text": "After inspecting a farm she bought it, and from the fruits of her hands she planted an estate.",
           "display_text": "After inspecting a farm she bought it, and from the fruits of her hands she planted an estate.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The woman's inspection and purchase of a farm and planting from the fruit of her hands are not paralleled; the candidates describe Solomon's gardens, a planted tree, or planting vineyards as a sign, sharing only planting vocabulary."
         },
         {
           "reference": "Proverbs 31:17",
@@ -36864,8 +38011,10 @@
           "id": "v31-24",
           "text": "She made linen cloths and sold them, and girdles for the Canaanites.",
           "display_text": "She made linen cloths and sold them, and girdles for the Canaanites.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The woman's making and selling linen cloths and girdles to the Canaanites has no counterpart; the candidates mention linen garments in Samson's riddle or linen cloths in the Passion narrative, unrelated to this trade."
         },
         {
           "reference": "Proverbs 31:25",
@@ -37028,8 +38177,10 @@
           "id": "v31-29",
           "text": "“Many daughters acquired wealth, many did mighty things, but you stand above and have surpassed them all.”",
           "display_text": "“Many daughters acquired wealth, many did mighty things, but you stand above and have surpassed them all.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The praise that this woman surpasses many daughters who acquired wealth and did mighty things has no specific counterpart; the candidates speak of Solomon or the Preacher surpassing others, sharing only the word surpassed."
         },
         {
           "reference": "Proverbs 31:30",
@@ -37134,5 +38285,7 @@
     }
   ],
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
-  "next_unreviewed_reference": null
+  "next_unreviewed_reference": null,
+  "closed_source_units": 56,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Amos",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,23 +32,35 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
     1,
+    2,
+    3,
+    4,
     5,
+    6,
+    7,
+    8,
     9
   ],
   "completed_source_sections": [
     1,
+    2,
+    3,
+    4,
     5,
+    6,
+    7,
+    8,
     9
   ],
-  "completed_source_verses": 134,
-  "completed_cross_references": 139,
+  "completed_source_verses": 141,
+  "completed_cross_references": 147,
   "total_chapters": 9,
   "total_source_sections": 9,
   "total_source_verse_units": 146,
-  "next_reference": "Amos 2:3",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Amos.html",
   "readable_text": "Amos.txt",
@@ -675,7 +687,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -782,8 +794,38 @@
           "id": "v2-3",
           "text": "I will destroy the judge from her, and kill all her rulers with him,” says the Lord.",
           "display_text": "I will destroy the judge from her, and kill all her rulers with him,” says the Lord.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "amos-2-3__jeremiah-31-7",
+              "target": "Jeremiah 31:7",
+              "verdict": "supported",
+              "relationship": "parallel oracle",
+              "rationale": "Both are oracles against Moab in which its leadership is taken down together with its head: Amos speaks of killing 'all her rulers with him', and Jeremiah of Chemosh going into deportation with 'his priests and rulers together'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "5252cae515e26e6527f38c939f5667acad47429cbea6bc8badb3270bbc0655ec",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 31:7",
+                  "id": "v31-7",
+                  "text": "Because you trusted in your fortifications, you too will be seized. Chemosh will go into deportation, his priests and rulers together.",
+                  "text_sha256": "07059f21df82c935de1a3b99767019bdbe39bb56c835ee4d6592a65e4b82382e"
+                }
+              ],
+              "target_passage_sha256": "cb4f3f13eb7050ccab7933e464563a55f0dc521b594f7d38f1f6ef02ded91a2b",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Amos 2:4",
@@ -1204,8 +1246,38 @@
           "id": "v2-13",
           "text": "Therefore look, I roll beneath you as a wagon full of straw rolls,",
           "display_text": "Therefore look, I roll beneath you as a wagon full of straw rolls,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "amos-2-13__isaiah-28-27",
+              "target": "Isaiah 28:27",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both use the image of a harvest wagon rolling: in Amos the Lord rolls beneath the people 'as a wagon full of straw rolls', and Isaiah says a 'wagon wheel' will not 'roll over cumin'. Amos uses the image for judgment, while Isaiah uses it for the measured threshing of crops.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "2ef23d5baba133b71f1e0cc8b8a7fe50eb2406c2cf902fc24e544aa37cf85704",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 28:27",
+                  "id": "v28-27",
+                  "text": "For black cumin is not cleaned with harshness, nor will a wagon wheel roll over cumin; black cumin is shaken out with a rod, but cumin",
+                  "text_sha256": "b6c094e8f37d3608ef9f37321ba32c545e1417d22163a19d71700afa6ef39b7c"
+                }
+              ],
+              "target_passage_sha256": "65c02da8ba6b0108ed17a054c0dde583b9e8e43e9e13fde8ab82369b136d9f87",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Amos 2:14",
@@ -1290,14 +1362,16 @@
           "id": "v2-16",
           "text": "and he will find his heart among powers; the naked one will pursue on that day,” says the Lord.",
           "display_text": "and he will find his heart among powers; the naked one will pursue on that day,” says the Lord.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse says the naked one 'will pursue' and speaks of finding his heart among powers; the texts about fleeing naked or fleeing on foot describe flight, not pursuit, and the other texts share only 'pursue' or 'find' in unrelated contexts."
         }
       ]
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -1437,8 +1511,10 @@
           "id": "v3-3",
           "text": "Will two go together at all unless they make themselves known to one another?",
           "display_text": "Will two go together at all unless they make themselves known to one another?",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The question asks whether two go together unless they make themselves known to one another; the texts on pleasing God, unequal yoking, or being known through speech share only general themes of companionship or knowledge and do not contain this specific question."
         },
         {
           "reference": "Amos 3:4",
@@ -2046,7 +2122,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -2167,8 +2243,10 @@
           "id": "v4-3",
           "text": "and you will be carried out naked opposite one another and thrown onto Mount Remman,” says the Lord God.",
           "display_text": "and you will be carried out naked opposite one another and thrown onto Mount Remman,” says the Lord God.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Being carried out naked and thrown onto Mount Remman is unique to this verse; no other text names Mount Remman, and the texts about passing through a wall, renouncing silver, or discarded garments share no specific element with it."
         },
         {
           "reference": "Amos 4:4",
@@ -2214,8 +2292,10 @@
           "id": "v4-5",
           "text": "and they read a law outside and invoked acknowledgments. Announce that the sons of Israel loved these things,” says the Lord God.",
           "display_text": "and they read a law outside and invoked acknowledgments. Announce that the sons of Israel loved these things,” says the Lord God.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse speaks of reading a law outside and invoking acknowledgments; the texts on praise offerings, hypocrisy, reading the law, and giving acknowledgment share only single words and no specific practice or wording."
         },
         {
           "reference": "Amos 4:6",
@@ -3874,7 +3954,7 @@
     },
     {
       "chapter": 6,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 6,
         "section": 6,
@@ -3889,24 +3969,142 @@
           "id": "v6-1",
           "text": "Woe to those who despise Zion and trust in Samaria’s mountain! They harvested the firstfruits of nations and entered themselves. House of Israel,",
           "display_text": "Woe to those who despise Zion and trust in Samaria’s mountain! They harvested the firstfruits of nations and entered themselves. House of Israel,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "amos-6-1__amos-4-1",
+              "target": "Amos 4:1",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Both oracles in Amos name 'Samaria's mountain': here woe is pronounced on those who trust in it, and in 4:1 on the 'heifers of Bashan on Samaria's mountain' who oppress the poor.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1e9ef77b245db51c820836e2d85968b2379b1b8a4c7e2ee8fbee6688a7965d55",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "amos/verses.json",
+                "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/amos/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Amos 4:1",
+                  "id": "v4-1",
+                  "text": "Hear this word, heifers of Bashan on Samaria’s mountain, who oppress the poor and trample the needy, who say to their masters, “Give to us so that we may drink!”",
+                  "text_sha256": "0371c581f37501ba93775f41592d72e2101745887eda21b42987c6a40cac6087"
+                }
+              ],
+              "target_passage_sha256": "b2c60bf2f5fa60bb294a5d4f38953221225436669351245f6f6897dba4475990",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Amos 6:2",
           "id": "v6-2",
           "text": "all of you cross over and see; pass from there to Emath Rabba, and go down from there to Geth of foreigners, the strongest of all these kingdoms, to see whether their borders are greater than your borders.",
           "display_text": "all of you cross over and see; pass from there to Emath Rabba, and go down from there to Geth of foreigners, the strongest of all these kingdoms, to see whether their borders are greater than your borders.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "amos-6-2__2-chronicles-26-6",
+              "target": "2 Chronicles 26:6",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Amos points to 'Geth of foreigners' as an example of a strong kingdom, and the Chronicler records that Uzziah fought 'the foreigners' and pulled down 'Geth's walls'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "48b0a48bf4466c87e9d025db9b374c444038561f55de20d01dd88160fd939914",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 26:6",
+                  "id": "v26-6",
+                  "text": "He went out and fought the foreigners. He pulled down Geth’s walls, Jabne’s walls, and Azotus’s walls, and built cities of Azotus and among the foreigners.",
+                  "text_sha256": "95c57126140568492a0c069418a959510e3b198e80d42ce858ce37eb30f25aaa"
+                }
+              ],
+              "target_passage_sha256": "5164710e295cede01d6e75b788474675fc2193a04358f8047097d6b1103773c0",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "amos-6-2__zechariah-9-2",
+              "target": "Zechariah 9:2",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Both name Emath in connection with borders: Amos sends Israel to Emath Rabba and Geth to see whether these kingdoms' 'borders are greater than your borders', and Zechariah's oracle names 'Emath within its borders'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "48b0a48bf4466c87e9d025db9b374c444038561f55de20d01dd88160fd939914",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zechariah/verses.json",
+                "blob_sha": "16228318100b747c05311caeb18f15f5f378c765",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zechariah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zechariah 9:2",
+                  "id": "v9-2",
+                  "text": "and Emath within its borders, Tyre and Sidon, because they were exceedingly wise.",
+                  "text_sha256": "224bee4b11ff1a442378017f283405ee464847102cd22cdab64092b8342c5c4c"
+                }
+              ],
+              "target_passage_sha256": "c26893ea29c0428823474e31f6e630a24a9363bf45ee33598a00fbc4f1d3a0f2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Amos 6:3",
           "id": "v6-3",
           "text": "You come toward an evil day, drawing near and touching false sabbaths,",
           "display_text": "You come toward an evil day, drawing near and touching false sabbaths,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "amos-6-3__amos-9-10",
+              "target": "Amos 9:10",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both verses in Amos concern evil drawing near to complacent sinners: here they come 'toward an evil day, drawing near', and in the other verse they say, 'Evils certainly will not draw near or come upon us.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "f559c13f9b697a7eb0141c559c611c45d88c51548bb1c12710278181f9804109",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "amos/verses.json",
+                "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/amos/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Amos 9:10",
+                  "id": "v9-10",
+                  "text": "All the sinners of My people will die by a sword, those who say, ‘Evils certainly will not draw near or come upon us.’",
+                  "text_sha256": "58ee997ec6e27f4ee9c4416c34ddb771ea9b8d4bcf0985246af1ade641ff8ce1"
+                }
+              ],
+              "target_passage_sha256": "b582e3e31b1a5b118559fb8f76304bf89c505d4bb2602ebf25ce1823ca58bc7a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Amos 6:4",
@@ -4189,8 +4387,38 @@
           "id": "v6-10",
           "text": "Their relatives will take them and force their way to bring their bones out of the house. He will say to those in charge of the house, “Is there anyone else with you?” He will say, “No more.” Then he will say, “Be silent, so as not to name the Lord’s name.”",
           "display_text": "Their relatives will take them and force their way to bring their bones out of the house. He will say to those in charge of the house, “Is there anyone else with you?” He will say, “No more.” Then he will say, “Be silent, so as not to name the Lord’s name.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "amos-6-10__amos-8-3",
+              "target": "Amos 8:3",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both verses in Amos portray widespread death followed by enforced silence: here bones are carried out of a house with the command 'Be silent', and in the other verse 'many have fallen in every place' and the Lord says, 'I will cast silence upon them.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "bb0b7f2548c8443f510d33620fbf7907a0eabfc57e73fc444e63629c254d4e17",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "amos/verses.json",
+                "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/amos/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Amos 8:3",
+                  "id": "v8-3",
+                  "text": "The temple’s coffered ceilings will wail. On that day,” says the Lord, “many have fallen in every place. I will cast silence upon them.”",
+                  "text_sha256": "a7bdd7b524a65c78f515858969d70252446111dc380aa2d3d4f0c33d1c3785ae"
+                }
+              ],
+              "target_passage_sha256": "f1a3694f094fbf39c5f672dd3362a06ea00c19364c23bad39c816542662db87d",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Amos 6:11",
@@ -4375,7 +4603,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -4646,8 +4874,10 @@
           "id": "v7-7",
           "text": "The Lord showed me this: Look, a man was standing upon an adamant wall, with adamant in his hand.",
           "display_text": "The Lord showed me this: Look, a man was standing upon an adamant wall, with adamant in his hand.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The vision of a man standing on an adamant wall with adamant in his hand has no matching image; the texts about measures, measuring reeds and measuring cords never mention adamant, and the other texts share only 'showed'."
         },
         {
           "reference": "Amos 7:8",
@@ -5127,7 +5357,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "section": 8,
@@ -5142,8 +5372,38 @@
           "id": "v8-1",
           "text": "The Lord showed me this: Look, a fowler’s vessel.",
           "display_text": "The Lord showed me this: Look, a fowler’s vessel.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "amos-8-1__amos-7-7",
+              "target": "Amos 7:7",
+              "verdict": "supported",
+              "relationship": "parallel vision",
+              "rationale": "Both visions open with the identical formula 'The Lord showed me this: Look,' as part of Amos's series of visions, here a fowler's vessel and there a man on an adamant wall.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "21c75616c9a8a90e88fced61539f78e2dd11bf59df05d5ca7e58c63d1bbf8962",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "amos/verses.json",
+                "blob_sha": "b957b9828af4dc1b2106ca6d3d76da14fe8d6b30",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/amos/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Amos 7:7",
+                  "id": "v7-7",
+                  "text": "The Lord showed me this: Look, a man was standing upon an adamant wall, with adamant in his hand.",
+                  "text_sha256": "b814d5adff3c960371db83451617e0a52fad0540ae9463d5cdce92a147d9dd56"
+                }
+              ],
+              "target_passage_sha256": "ff7b13c79c675cde6beddec1d9eec8a69ed3bb995e07373ccae98b64a90c7948",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Amos 8:2",
@@ -6478,5 +6738,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 5,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

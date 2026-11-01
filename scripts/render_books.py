@@ -2,7 +2,7 @@
 from pathlib import Path
 import html,json,re
 from collections import Counter
-from chapter_structure import chapter_units
+from chapter_structure import chapter_units, FINISHED
 ROOT=Path(__file__).resolve().parents[1]
 END_OF_OT='none; all OT source units read'
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
@@ -32,9 +32,10 @@ def render_book(record,progress,style):
     verses=[v for c in data['chapters'] for v in c['verses'] if v['status']=='completed']
     anchors=readable_source_anchors(data)
     count=len(verses);pairs=sum(len(v['cross_references']) for v in verses)
-    finished=count==data['total_source_verse_units'];next_ref=data['next_reference']
+    closed=[v for c in data['chapters'] for v in c['verses'] if v['status']=='closed']
+    finished=all(v['status'] in FINISHED for c in data['chapters'] for v in c['verses']);next_ref=data['next_reference']
     deferred_set={case['source_reference'] for case in checks.get('deferred_source_units',[])}
-    pending=[v['reference'] for c in data['chapters'] for v in c['verses'] if v['status']!='completed']
+    pending=[v['reference'] for c in data['chapters'] for v in c['verses'] if v['status'] not in FINISHED]
     deferred=[ref for ref in pending if ref in deferred_set]
     next_unreviewed=next((ref for ref in pending if ref not in deferred_set),None)
     deferred_note=(f'{len(deferred)} read source unit(s) remain deferred with zero completion credit: '+', '.join(deferred)+'. First pending source unit: '+str(next_ref)+'. '+('Never-reviewed source units start at '+next_unreviewed+'.' if next_unreviewed else 'No never-reviewed source units remain.')) if deferred else ''
@@ -48,6 +49,8 @@ def render_book(record,progress,style):
           f'{count} completed source verses; {pairs} completed cross-reference pairs.',data['completion_definition'],
           'Reference edition: '+data['source_edition']+'. Greek-based source numbering is retained.','']
     if deferred:text.insert(3,deferred_note)
+    closed_note=(f'{len(closed)} source unit(s) were read and closed with no supportable cross-reference in this edition; they earn no completion credit and are listed with their reasons at the end.') if closed else ''
+    if closed:text.insert(3,closed_note)
     if waiting:text.insert(4,f'{len(waiting)} target candidate(s) remain unretained and are excluded from completed pair totals; see the recorded reasons in source-checks.json.')
     sections=[]
     for v in verses:
@@ -57,13 +60,17 @@ def render_book(record,progress,style):
             quoted=''.join('<p class="target-scripture"'+(' style="white-space:pre-line"' if t.get('continuation_paragraphs') else '')+'><b>'+e(t['reference'])+'</b> '+e(complete_text(t))+'</p>' for t in edge['target_verses'])
             items.append('<li><strong>'+e(edge['target'])+'</strong> <span class="kind">'+e(edge['relationship'])+'</span><p>'+e(edge['rationale'])+'</p><details><summary>Read matching passage</summary>'+quoted+'<p><a href="'+e(edge['target_source']['url'])+'">Pinned source record</a></p></details></li>')
         text.append('');sections.append('<section id="'+e(anchors[v['reference']])+'"'+(' data-source-id="'+e(v['id'])+'"' if anchors[v['reference']]!=v['id'] else '')+'><h2>'+e(v['reference'])+'</h2><p class="scripture"'+(' style="white-space:pre-line"' if v.get('continuation_paragraphs') else '')+'>'+e(complete_text(v))+'</p><ol>'+''.join(items)+'</ol></section>')
+    if closed:text.extend(['Closed with no supportable cross-reference']+[v['reference']+': '+v['closure_reason'] for v in closed]+[''])
     write(folder/data['readable_text'],'\n'.join(text))
     nav=' · '.join('<a href="#'+e(anchors[c['verses'][0]['reference']])+'">'+e(name)+' '+str(c['chapter'])+'</a>' for c in data['chapters'] if c['status']=='completed')
     summary=('Completed entries within '+scope if deferred else scope)+f' · {count} completed verses · {pairs} completed pairs'
-    page='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(name)+' cross-references</title><style>'+style+'</style></head><body><header><h1>'+e(name)+' cross-references</h1><p>'+e(summary)+'</p><p class="note">Initial curated pass. '+e(continuation)+' Greek-based Saints-Translation numbering is retained.</p><p class="note">'+e(data['completion_definition'])+'</p><nav>'+nav+'</nav><nav><a href="README.md">Book record</a> · <a href="'+e(data['readable_text'])+'">Plain text</a> · <a href="verses.json">Structured verse tracker</a> · <a href="../progress.json">Overall progress</a></nav></header>'+''.join(sections)+'<footer><p class="note">Latest review '+e(data['date'])+' by Codex (AI-assisted editorial review). Source: <a href="'+e(data['source_snapshot']['url'])+'">pinned Saints-Translation record</a>. Source-edition limitations continue to apply. Independent specialist and live-anchor review remain pending.</p></footer></body></html>'
-    if not verses:page=page.replace('Latest review '+e(data['date'])+' by Codex (AI-assisted editorial review).','Inventory prepared '+e(data['date'])+' by Codex. Source verse review is pending.',1)
+    page='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(name)+' cross-references</title><style>'+style+'</style></head><body><header><h1>'+e(name)+' cross-references</h1><p>'+e(summary)+'</p><p class="note">Initial curated pass. '+e(continuation)+' Greek-based Saints-Translation numbering is retained.</p><p class="note">'+e(data['completion_definition'])+'</p><nav>'+nav+'</nav><nav><a href="README.md">Book record</a> · <a href="'+e(data['readable_text'])+'">Plain text</a> · <a href="verses.json">Structured verse tracker</a> · <a href="../progress.json">Overall progress</a></nav></header>'+''.join(sections)+'<footer><p class="note">Latest review '+e(data['date'])+' by '+e(data.get('latest_reviewer','Codex (AI-assisted editorial review)'))+'. Source: <a href="'+e(data['source_snapshot']['url'])+'">pinned Saints-Translation record</a>. Source-edition limitations continue to apply. Independent specialist and live-anchor review remain pending.</p></footer></body></html>'
+    if not verses:page=page.replace('Latest review '+e(data['date'])+' by '+e(data.get('latest_reviewer','Codex (AI-assisted editorial review)'))+'.','Inventory prepared '+e(data['date'])+' by Codex. Source verse review is pending.',1)
     if waiting:page=page.replace('</header>','<p class="note">'+str(len(waiting))+' target candidate(s) remain unretained and are excluded from completed totals. <a href="source-checks.json">Recorded reasons</a>.</p></header>',1)
     if deferred:page=page.replace('</header>','<p class="note">'+e(deferred_note)+' <a href="source-checks.json">Deferred source evidence</a>.</p></header>',1)
+    if closed:
+        page=page.replace('</header>','<p class="note">'+e(closed_note)+'</p></header>',1)
+        page=page.replace('<footer>','<aside><h2>Closed with no supportable cross-reference</h2><ul>'+''.join('<li><b>'+e(v['reference'])+'</b>: '+e(v['closure_reason'])+'</li>' for v in closed)+'</ul></aside><footer>',1)
     write(folder/data['readable_html'],page)
     readme=(folder/'README.md').read_text(encoding='utf-8')
     last=max(data['completed_chapters']) if data['completed_chapters'] else None
@@ -74,6 +81,7 @@ def render_book(record,progress,style):
         current=f'{name} has **{count} completed source verses and {pairs} distinct source/target-passage pairs**. Latest completed unit: **{verses[-1]["reference"]}**. Fully completed chapters: {chapters}. '+continuation
     if not verses:current=f'{name} has a complete source inventory; the initial curated pass has not started. **0 source verses and 0 completed pairs**. '+continuation
     if deferred:current+=' Completed entries within **'+scope+'**; this span includes pending source deferrals. '+deferred_note
+    if closed:current+=' '+closed_note.replace(' at the end.',' in the readable files and [source-checks.json](source-checks.json).')
     readme=re.sub(r'\n'+re.escape(name)+r' [^\n]+\n','\n'+current+'\n',readme,count=1)
     start=readme.index('## Continuation');end=readme.find('## Review batches',start)
     if end<0:end=len(readme)
@@ -90,7 +98,7 @@ def render_book(record,progress,style):
     marker='## Review batches'
     if marker in readme:readme=readme[:readme.index(marker)]
     write(folder/'README.md',readme.rstrip()+'\n\n'+marker+'\n\n'+'\n'.join(links))
-    return {'book':name,'record':record,'units':data['total_source_verse_units'],'count':count,'pairs':pairs,'finished':finished,'last_chapter':last,'reviewed_through':verses[-1]['reference'] if verses else None,'total_chapters':len(chapter_units(data)),'total_source_sections':len(data['chapters']),'division_label':data.get('chapter_display_label')}
+    return {'book':name,'record':record,'units':data['total_source_verse_units'],'count':count,'closed':len(closed),'pairs':pairs,'finished':finished,'last_chapter':last,'reviewed_through':verses[-1]['reference'] if verses else None,'total_chapters':len(chapter_units(data)),'total_source_sections':len(data['chapters']),'division_label':data.get('chapter_display_label')}
 
 def main():
     progress=load(ROOT/'progress.json')
@@ -106,7 +114,7 @@ def main():
         lines.append('- ['+r['book']+' — '+division_label+']('+r['record']['records']+'README.md): '+state+'; **'+str(r['count'])+' source verses, '+str(r['pairs'])+' matching cross-reference pairs**.')
     start=readme.index('- [Genesis');end=readme.index('[progress.json]',start)
     readme=readme[:start]+'\n'.join(lines)+'\n\n'+readme[end:]
-    next_ref=(progress.get('next') or {}).get('reference')
+    next_ref=(progress.get('next') or {}).get('reference') or 'none; every Old Testament source unit is linked or closed'
     readme=re.sub(r'\*\*Next: [^\n]+?\.\*\*',f'**Next: {next_ref}.**',readme,count=1)
     readme=re.sub(r'\n\*\*Next new source review: [^\n]+?\.\*\*','',readme)
     next_unreviewed=(progress.get('next_unreviewed') or {}).get('reference')
@@ -114,7 +122,7 @@ def main():
     n=progress['completed_book_records'];completion=f'{n} Old Testament '+('book has a complete initial curated pass.' if n==1 else 'books have complete initial curated passes.')
     readme=readme.replace('No complete Old Testament book is claimed yet.',completion)
     readme=re.sub(r'\d+ Old Testament books? (?:has|have) (?:a complete initial curated pass|complete initial curated passes)\.',lambda _:completion,readme)
-    inventory=' '.join(r['book']+' has '+format(r['units'],',')+' inventoried source units, of which '+format(r['count'],',')+' are completed.' for r in reports)
+    inventory=' '.join(r['book']+' has '+format(r['units'],',')+' inventoried source units, of which '+format(r['count'],',')+' are completed'+(' and '+format(r['closed'],',')+' closed with no supportable cross-reference' if r['closed'] else '')+'.' for r in reports)
     readme=re.sub(r'Each active book receives[^\n]+','Each active book receives a complete inventory from its declared source edition before review. Pending books have no invented verse totals. '+inventory,readme)
     readme=re.sub(r'After updating the structured records[^\n]+','After updating structured records and progress, run `python scripts/render_books.py` to refresh all inventoried books and README counts, then `python scripts/validate.py --write-verification`. The existing `render_genesis.py` entry point runs the same multi-book renderer.',readme)
     marker='\nLatest saved review: '

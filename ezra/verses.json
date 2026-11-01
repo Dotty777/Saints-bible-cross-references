@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "Ezra",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,17 +28,25 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
     6,
-    9
+    7,
+    8,
+    9,
+    10
   ],
-  "completed_source_verses": 235,
-  "completed_cross_references": 251,
+  "completed_source_verses": 250,
+  "completed_cross_references": 271,
   "total_chapters": 10,
   "total_source_verse_units": 280,
-  "next_reference": "Ezra 1:9",
+  "next_reference": null,
   "readable_html": "Ezra.html",
   "readable_text": "Ezra.txt",
   "canon_manifest": "../canon.json",
@@ -46,7 +54,7 @@
   "chapters": [
     {
       "chapter": 1,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 1,
         "staging_page_id": 2476,
@@ -459,16 +467,48 @@
           "id": "v1-9",
           "text": "This was their number: thirty gold cooling vessels, a thousand silver cooling vessels, twenty-nine miscellaneous items;",
           "display_text": "This was their number: thirty gold cooling vessels, a thousand silver cooling vessels, twenty-nine miscellaneous items;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit itemizes thirty gold cooling vessels, a thousand silver cooling vessels and twenty-nine miscellaneous items from the returned temple vessels. The leads (Solomon's and Jehoiada's vessels, Ezra's later gift list, Esther's banquet cups, unrelated numbers) do not repeat this inventory or these counts."
         },
         {
           "reference": "Ezra 1:10",
           "id": "v1-10",
           "text": "thirty gold kephphoure, two hundred silver ones, and a thousand other vessels.",
           "display_text": "thirty gold kephphoure, two hundred silver ones, and a thousand other vessels.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-1-10__1-chronicles-28-17",
+              "target": "1 Chronicles 28:17",
+              "verdict": "supported",
+              "relationship": "same vessel term",
+              "rationale": "Both texts use the rare term kephphoure for temple vessels made in both gold and silver. 1 Chronicles 28:17 concerns David's weights for Solomon's vessels, while Ezra 1:10 counts the vessels returned from Babylon.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "789b15e0de3e40b9dd47fbf53685d430f7cdbd0840f4e31a8077332777c9619e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 28:17",
+                  "id": "v28-17",
+                  "text": "and of the meat hooks, libation vessels, and golden bowls, and the weight of the gold and silver ones, kephphoure of each weight.",
+                  "text_sha256": "92f3d0769af5de4b588aaa0ed736b4ef29667ada1099c4528ad1c768a91ebb2c"
+                }
+              ],
+              "target_passage_sha256": "20fe4d9c3bc61e5be039aeb0ca2b382971df01e7d5a1e5d323fb3f12c8d0351b",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 1:11",
@@ -524,7 +564,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "staging_page_id": 2477,
@@ -1151,32 +1191,124 @@
           "id": "v2-17",
           "text": "The sons of Basou: three hundred and twenty-three.",
           "display_text": "The sons of Basou: three hundred and twenty-three.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-2-17__nehemiah-7-23",
+              "target": "Nehemiah 7:23",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "In the parallel register of returning families, Basou with three hundred and twenty-three corresponds to Besi with three hundred twenty-four. The name is spelled differently and the totals differ by one.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fce39566bc9461017c46651a4a9b798ca64277cdc0ada2d917cb02e72c77b401",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:23",
+                  "id": "v7-23",
+                  "text": "The sons of Besi: three hundred twenty-four.",
+                  "text_sha256": "fd08f1cb5909c602d9d15468f65086a9c302567c873e98e0592fd1d3956013f5"
+                }
+              ],
+              "target_passage_sha256": "9936be30878c0763995cc1931742f181fe3d330c19fc5eb9e0eb3170db0d8119",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 2:18",
           "id": "v2-18",
           "text": "The sons of Iora: one hundred and twelve.",
           "display_text": "The sons of Iora: one hundred and twelve.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Iora with one hundred and twelve is matched only by Ariph with one hundred twelve in the parallel register. The two names share nothing, so the equal total and nearby position alone do not show the same family."
         },
         {
           "reference": "Ezra 2:19",
           "id": "v2-19",
           "text": "The sons of Asem: two hundred and twenty-three.",
           "display_text": "The sons of Asem: two hundred and twenty-three.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-2-19__nehemiah-7-22",
+              "target": "Nehemiah 7:22",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "The returning family called Asem here appears as Esam in the parallel register. The spellings transpose the vowels, and the totals differ (two hundred and twenty-three against three hundred twenty-eight).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "095f7c5c25e1147fcda93eb186425041bd0c88b7e0454241f3c5bed0c3a10bbb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:22",
+                  "id": "v7-22",
+                  "text": "The sons of Esam: three hundred twenty-eight.",
+                  "text_sha256": "a53970ffb6723a443803ee0fd08734bb21ee5af04df69611daa4aae3d3040ff8"
+                }
+              ],
+              "target_passage_sha256": "dcfa830c3bd9021f0d35fb77a9afbc8ddd420a0acca5f4570c07660ea0219b5e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 2:20",
           "id": "v2-20",
           "text": "The sons of Gaber: ninety-five.",
           "display_text": "The sons of Gaber: ninety-five.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-2-20__nehemiah-7-25",
+              "target": "Nehemiah 7:25",
+              "verdict": "supported",
+              "relationship": "parallel list",
+              "rationale": "In the parallel register, Gaber with ninety-five corresponds to Gabaon with ninety-five. The totals are identical, but the name differs in form (Gaber, Gabaon).",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "03297bd140a4ea3a07bde85da394fe327d0e467b20e29d584b84cc852a289abf",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:25",
+                  "id": "v7-25",
+                  "text": "The sons of Gabaon: ninety-five.",
+                  "text_sha256": "32d846f5eb78d4a707346375780b336fb4ed211c43ae8b048f03a7e8a6497f13"
+                }
+              ],
+              "target_passage_sha256": "ed172e0abbde0666d6ec43cb47ef4143d9e4074226f923a4a6da82d656301cac",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 2:21",
@@ -1525,8 +1657,10 @@
           "id": "v2-30",
           "text": "The sons of Magebos: one hundred and fifty-six.",
           "display_text": "The sons of Magebos: one hundred and fifty-six.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The Magebos entry with one hundred and fifty-six has no Magebos entry among the leads. The leads are unrelated numbers (horse prices, census totals) and a differently named family, so no counterpart can be shown."
         },
         {
           "reference": "Ezra 2:31",
@@ -3134,7 +3268,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "staging_page_id": 2478,
@@ -3704,8 +3838,94 @@
           "id": "v3-9",
           "text": "Iesous and his sons and his brothers, Kadmiel and his sons, sons of Judah, stood over those doing the work in the house of God; also the sons of Enadad, their sons and their brothers the Levites.",
           "display_text": "Iesous and his sons and his brothers, Kadmiel and his sons, sons of Judah, stood over those doing the work in the house of God; also the sons of Enadad, their sons and their brothers the Levites.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-3-9__ezra-2-40",
+              "target": "Ezra 2:40",
+              "verdict": "supported",
+              "relationship": "same families",
+              "rationale": "Iesous and Kadmiel head Levite groups here and in the register of returning Levites, which counts the sons of Iesous and Kadmiel.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "22d2883bf9420ce9883716662cda06d8c8e4f901c4fc4d00efb133af06592162",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:40",
+                  "id": "v2-40",
+                  "text": "The Levites: the sons of Iesous and Kadmiel, belonging to the sons of Odouia: seventy-four.",
+                  "text_sha256": "8044665249ebfe626ffc6ec5c8e558880cc528d27a2b9684fa85c599020ff25d"
+                }
+              ],
+              "target_passage_sha256": "c76437985d7d9cd93f0ebaf4e5e07d04f6ef6ddcfee965e826eb27cee3c865f1",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "ezra-3-9__ezra-3-8",
+              "target": "Ezra 3:8",
+              "verdict": "supported",
+              "relationship": "same event",
+              "rationale": "Ezra 3:8 sets the Levites over those doing the work in the Lord's house, and 3:9 names the Levite groups who stood over those doing the work in the house of God. The Iesous son of Iosedek named in 3:8 is a different figure from the Levite Iesous of 3:9.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "22d2883bf9420ce9883716662cda06d8c8e4f901c4fc4d00efb133af06592162",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 3:8",
+                  "id": "v3-8",
+                  "text": "In the second year after their arrival at the house of God in Jerusalem, in the second month, Zorobabel son of Salathiel, Iesous son of Iosedek, the rest of their brothers the priests and Levites, and all who had come from captivity to Jerusalem began. They set the Levites from twenty years old and upward over those doing the work in the Lord’s house.",
+                  "text_sha256": "64b60fe912c6c944826b55e4abf929ef93a0766852abd04b75863e1a9671efcc"
+                }
+              ],
+              "target_passage_sha256": "1985fdd51713451c59f0234e785a104884de218407e51ce6d1dd45824abc543a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "ezra-3-9__nehemiah-10-10",
+              "target": "Nehemiah 10:10",
+              "verdict": "supported",
+              "relationship": "same families",
+              "rationale": "The Levite names Jesus (Iesous), the sons of Enadad and Kadmiel appear together again in Nehemiah's list of Levites. The spelling of Iesous varies between the two books.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "22d2883bf9420ce9883716662cda06d8c8e4f901c4fc4d00efb133af06592162",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 10:10",
+                  "id": "v10-10",
+                  "text": "And the Levites: Jesus son of Azania, of Banaiou from the sons of Enadad, Kadmiel,",
+                  "text_sha256": "f7edd49b9af9a14e5598e23de7402aeb05f886940322249cfaf189b58bcbb86e"
+                }
+              ],
+              "target_passage_sha256": "3b9ce55c70c06efe2883bf7429e34d8347a92b16f181e282c05652e7bfdede52",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 3:10",
@@ -3934,7 +4154,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "staging_page_id": 2479,
@@ -3947,8 +4167,38 @@
           "id": "v4-1",
           "text": "Those who oppressed Judah and Benjamin heard that the sons of the deportation were building a house for the Lord, God of Israel.",
           "display_text": "Those who oppressed Judah and Benjamin heard that the sons of the deportation were building a house for the Lord, God of Israel.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-4-1__ezra-1-5",
+              "target": "Ezra 1:5",
+              "verdict": "supported",
+              "relationship": "same project",
+              "rationale": "The opponents of Judah and Benjamin hear of the building of the house for the Lord that the leaders of Judah and Benjamin had arisen to build in Ezra 1:5.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "6f82e309be65dd387e2338727faaa1996e6fb587fdff961944d6bbb892a18d4f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 1:5",
+                  "id": "v1-5",
+                  "text": "The leaders of the families of Judah and Benjamin, the priests and the Levites arose, of all those whose spirit God had stirred to go up and build the Lord’s house in Jerusalem.",
+                  "text_sha256": "1bd2a282eecbb69042d2e7d71d391083121c28a7f59768574fe2a0244269154d"
+                }
+              ],
+              "target_passage_sha256": "ac949c7748a2bf72419386aa9ce4c6120c309382105ee9100e881eaa24f92166",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 4:2",
@@ -4167,8 +4417,10 @@
           "id": "v4-6",
           "text": "In the reign of Asoueros, at the beginning of his reign, they wrote a letter against the inhabitants of Judah and Jerusalem.",
           "display_text": "In the reign of Asoueros, at the beginning of his reign, they wrote a letter against the inhabitants of Judah and Jerusalem.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit dates an accusing letter to the beginning of the reign of Asoueros. No lead names Asoueros: the Daniel and Esther leads name Xerxes, Darius and Artaxerxes, and the rest are unrelated accusations or letters. Nothing shows the same reign or the same letter."
         },
         {
           "reference": "Ezra 4:7",
@@ -4214,16 +4466,104 @@
           "id": "v4-8",
           "text": "Raoum the baaltam and Samsai the scribe wrote one letter against Jerusalem to Arthasastha the king.",
           "display_text": "Raoum the baaltam and Samsai the scribe wrote one letter against Jerusalem to Arthasastha the king.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-4-8__ezra-4-17",
+              "target": "Ezra 4:17",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "Raoum the baaltam and Samsai the scribe, who write the letter here, are the addressees of the king's reply in 4:17.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "80918cef5aa4c30347ded575370d402063c44616d5252a80ef29e7e3c622df37",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 4:17",
+                  "id": "v4-17",
+                  "text": "The king sent peace to Raoum the baaltam, Samsai the scribe, their remaining fellow slaves living in Samaria and the others beyond the river, and he says:",
+                  "text_sha256": "0ae2d22c59087a8b3e14e18ca1ef4ffe1adf64bae0830a1767a0ab2358f3477d"
+                }
+              ],
+              "target_passage_sha256": "f5355486edde3def66d33ea6e5c87475233bf280d76e85c1c96b711d7da9a8f0",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "ezra-4-8__ezra-4-23",
+              "target": "Ezra 4:23",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "The king's reply is read before Raoum and Samsai the scribe, who then stop the work in Jerusalem.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "80918cef5aa4c30347ded575370d402063c44616d5252a80ef29e7e3c622df37",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 4:23",
+                  "id": "v4-23",
+                  "text": "Then King Arthasastha’s tax collector read before Raoum, Samsai the scribe and their fellow slaves. They hurried to Jerusalem and into Judah and stopped them with horses and force.",
+                  "text_sha256": "4e18eeded8f82859571fa951e22edf61bbc769c9ac1f0c98560211106124a7c8"
+                }
+              ],
+              "target_passage_sha256": "7ae1c6a2198eee4f99a525707a3e62f5665ce7e6f686032a7b7389e7abb2de97",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 4:9",
           "id": "v4-9",
           "text": "These things were decided by Raoum the baaltam, Samsai the scribe and the rest of our fellow slaves—the Dinaians, Apharsathachaians, Tarphallaians, Apharsaians, Archyaians, Babylonians and Sousanachaians, who are Elamites,",
           "display_text": "These things were decided by Raoum the baaltam, Samsai the scribe and the rest of our fellow slaves—the Dinaians, Apharsathachaians, Tarphallaians, Apharsaians, Archyaians, Babylonians and Sousanachaians, who are Elamites,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-4-9__ezra-4-17",
+              "target": "Ezra 4:17",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "Raoum the baaltam, Samsai the scribe and their fellow slaves named as authors here are the same group addressed in the king's reply. The list of peoples (Dinaians through Sousanachaians) is not repeated there.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "175d024af17afdcde279e1058c11afaedc6930d64d9ab314d1c88854630ff3a9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 4:17",
+                  "id": "v4-17",
+                  "text": "The king sent peace to Raoum the baaltam, Samsai the scribe, their remaining fellow slaves living in Samaria and the others beyond the river, and he says:",
+                  "text_sha256": "0ae2d22c59087a8b3e14e18ca1ef4ffe1adf64bae0830a1767a0ab2358f3477d"
+                }
+              ],
+              "target_passage_sha256": "f5355486edde3def66d33ea6e5c87475233bf280d76e85c1c96b711d7da9a8f0",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 4:10",
@@ -4268,8 +4608,10 @@
           "id": "v4-11",
           "text": "This is the wording of the letter they sent him: “To Arthasastha the king: your servants, men beyond the river.",
           "display_text": "This is the wording of the letter they sent him: “To Arthasastha the king: your servants, men beyond the river.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the address line of the letter to Arthasastha from the men beyond the river. The leads are Arthasastha's own decree for Esdras, Nehemiah's letters to the governors and Thanthanai's letter to Darius. These share only the phrase beyond the river or a royal addressee, not this letter."
         },
         {
           "reference": "Ezra 4:12",
@@ -4376,8 +4718,10 @@
           "id": "v4-14",
           "text": "It is not permitted for us to look upon the king’s disgrace. Therefore we have sent and informed the king,",
           "display_text": "It is not permitted for us to look upon the king’s disgrace. Therefore we have sent and informed the king,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The writers explain that they cannot look on the king's disgrace and so inform him. The leads concern Pilate's crowd, Judas, public disgrace or Tamar's disgrace, which share only the word disgrace or a general loyalty theme, not this profession of loyalty."
         },
         {
           "reference": "Ezra 4:15",
@@ -4422,24 +4766,86 @@
           "id": "v4-16",
           "text": "We therefore inform the king that if that city is built and its walls put in order, you will have no peace.”",
           "display_text": "We therefore inform the king that if that city is built and its walls put in order, you will have no peace.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the letter's closing warning that a rebuilt and walled city would leave the king no peace. The leads concern Solomon's peace, the king's later findings about past kings of Jerusalem, or unrelated building and reporting, and none repeats or answers this warning."
         },
         {
           "reference": "Ezra 4:17",
           "id": "v4-17",
           "text": "The king sent peace to Raoum the baaltam, Samsai the scribe, their remaining fellow slaves living in Samaria and the others beyond the river, and he says:",
           "display_text": "The king sent peace to Raoum the baaltam, Samsai the scribe, their remaining fellow slaves living in Samaria and the others beyond the river, and he says:",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-4-17__ezra-4-8",
+              "target": "Ezra 4:8",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "The king's reply goes to Raoum the baaltam and Samsai the scribe, the same two who wrote the letter against Jerusalem to Arthasastha.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0ae2d22c59087a8b3e14e18ca1ef4ffe1adf64bae0830a1767a0ab2358f3477d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 4:8",
+                  "id": "v4-8",
+                  "text": "Raoum the baaltam and Samsai the scribe wrote one letter against Jerusalem to Arthasastha the king.",
+                  "text_sha256": "80918cef5aa4c30347ded575370d402063c44616d5252a80ef29e7e3c622df37"
+                }
+              ],
+              "target_passage_sha256": "cf0b2e2033226e3a1237335c93c40befa6b8c46d2450336760d1d5d218ebf856",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "ezra-4-17__ezra-4-23",
+              "target": "Ezra 4:23",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "The reply addressed to Raoum, Samsai the scribe and their fellow slaves is read before Raoum, Samsai the scribe and their fellow slaves in 4:23.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0ae2d22c59087a8b3e14e18ca1ef4ffe1adf64bae0830a1767a0ab2358f3477d",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 4:23",
+                  "id": "v4-23",
+                  "text": "Then King Arthasastha’s tax collector read before Raoum, Samsai the scribe and their fellow slaves. They hurried to Jerusalem and into Judah and stopped them with horses and force.",
+                  "text_sha256": "4e18eeded8f82859571fa951e22edf61bbc769c9ac1f0c98560211106124a7c8"
+                }
+              ],
+              "target_passage_sha256": "7ae1c6a2198eee4f99a525707a3e62f5665ce7e6f686032a7b7389e7abb2de97",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 4:18",
           "id": "v4-18",
           "text": "“The tax collector whom you sent to us was called before me.",
           "display_text": "“The tax collector whom you sent to us was called before me.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The king says the tax collector who was sent was called before him. The leads are Ezra reading the law and Gospel or Job uses of tax collectors, which share only the word tax collector and not this official or event."
         },
         {
           "reference": "Ezra 4:19",
@@ -4572,8 +4978,38 @@
           "id": "v4-22",
           "text": "you are on your guard against allowing slackness in this matter, lest destruction increase to the harm of kings.”",
           "display_text": "you are on your guard against allowing slackness in this matter, lest destruction increase to the harm of kings.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-4-22__ezra-4-13",
+              "target": "Ezra 4:13",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The king's warning against slackness 'to the harm of kings' repeats the accusers' claim in 4:13 that the rebuilding 'harms kings'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e169441fd82e33fe5e56ea1ab129fa155bda8935d8ace621c2392990ab1f3a62",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 4:13",
+                  "id": "v4-13",
+                  "text": "Now therefore let it be known to the king that if that city is rebuilt and its walls put in order, there will be no taxes for you, nor will they pay them; this harms kings.",
+                  "text_sha256": "2090cb8f177b2b44a03f984360dbfb8ad1d08abe5566ee938b94d68e8abc3d10"
+                }
+              ],
+              "target_passage_sha256": "b62b6bc5d17d44456bac5dbb2aedd997739f42d1c02db75b962867733a3614cb",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 4:23",
@@ -4703,7 +5139,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "staging_page_id": 2480,
@@ -5030,8 +5466,10 @@
           "id": "v5-7",
           "text": "They sent him a statement, and this is written in it: “To Darius the king: all peace.",
           "display_text": "They sent him a statement, and this is written in it: “To Darius the king: all peace.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the conventional peace greeting of Thanthanai's letter to Darius. The leads are other peace blessings or salutations to kings (Nebuchadnezzar's decree, 'live for ever', Gospel and epistle peace sayings), which share only the greeting form and not this letter."
         },
         {
           "reference": "Ezra 5:8",
@@ -6763,7 +7201,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "staging_page_id": 2482,
@@ -6864,16 +7302,48 @@
           "id": "v7-3",
           "text": "son of Samaria, son of Esria, son of Mareroth,",
           "display_text": "son of Samaria, son of Esria, son of Mareroth,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit continues Ezra's priestly ancestry with Samaria, Esria and Mareroth, and no lead text was provided. No parallel list of these names can be shown from the edition."
         },
         {
           "reference": "Ezra 7:4",
           "id": "v7-4",
           "text": "son of Zaraia, son of Saouia, son of Bokki,",
           "display_text": "son of Zaraia, son of Saouia, son of Bokki,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-7-4__1-chronicles-6-36",
+              "target": "1 Chronicles 6:36",
+              "verdict": "supported",
+              "relationship": "parallel genealogy",
+              "rationale": "Both lines run from Bokki (Bokai) through one intermediate generation to Zaraia. The middle name differs (Saouia here, Ozi in Chronicles), and Bokki is spelled Bokai.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "f2bf48f4b1391cc03e1029ce026a0d22bfaff2eb39790895722abe01c3a8fbbd",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 6:36",
+                  "id": "v6-36",
+                  "text": "Bokai his son, Ozi his son, Zaraia his son,",
+                  "text_sha256": "122c1bc98dc357bf3100aa7b661e45e79a5a4507661c6051604139e8b2f2910e"
+                }
+              ],
+              "target_passage_sha256": "e0a3cc1d552e63d07ff523ece7911aa7b7cee88827379c4554b79cc9116a0307",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 7:5",
@@ -7194,8 +7664,66 @@
           "id": "v7-12",
           "text": "“Arthasastha, king of kings, to Esdras, scribe of the law of the God of heaven: The word and the answer are completed.",
           "display_text": "“Arthasastha, king of kings, to Esdras, scribe of the law of the God of heaven: The word and the answer are completed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-7-12__daniel-2-37",
+              "target": "Daniel 2:37",
+              "verdict": "supported",
+              "relationship": "shared title",
+              "rationale": "Arthasastha styles himself king of kings, the same title Daniel gives the Babylonian king Nebuchadnezzar.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "70ba5c179ee2914a5cef2fc9f7df8b96bd6f074fc646982b4e48a3b7e2e63853",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "daniel/verses.json",
+                "blob_sha": "a5f238b35d6182e1e913dff88715e3870fbfb229",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/daniel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Daniel 2:37",
+                  "id": "v2-37",
+                  "text": "You, O king, are king of kings, and the Lord of heaven has given you rule, kingdom, strength, honor, and glory.",
+                  "text_sha256": "bec600abcf65762eac667f69df4b042b7064f48b31a53181547766eb06e459d1"
+                }
+              ],
+              "target_passage_sha256": "f9530f2e0b1e08285d671982f0edab235c41c69b46e58e07944d6dac7a573e1c",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "ezra-7-12__ezekiel-26-7",
+              "target": "Ezekiel 26:7",
+              "verdict": "supported",
+              "relationship": "shared title",
+              "rationale": "The title king of kings, used here by the Persian king Arthasastha, is applied in Ezekiel to Nebuchadnezzar king of Babylon.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "70ba5c179ee2914a5cef2fc9f7df8b96bd6f074fc646982b4e48a3b7e2e63853",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezekiel/verses.json",
+                "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezekiel 26:7",
+                  "id": "v26-7",
+                  "text": "For thus says the Lord: I am bringing against you, Tyre, Nebuchadnezzar king of Babylon from the north—he is king of kings—with horses, chariots, horsemen, and an assembly of very many nations.",
+                  "text_sha256": "2f2d460371f1168a35376aba3651389fbd49b6a1362c3161c30bf51eba635d04"
+                }
+              ],
+              "target_passage_sha256": "dfa28593d2715570aa3553e5438c5b6817bf911ec5eec5d37b75f51249e1d5fc",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 7:13",
@@ -7246,8 +7774,38 @@
           "id": "v7-14",
           "text": "He has been sent from the king and the seven advisers to inspect Judea and Jerusalem by the law of their God that is in your hand,",
           "display_text": "He has been sent from the king and the seven advisers to inspect Judea and Jerusalem by the law of their God that is in your hand,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-7-14__ezra-7-28",
+              "target": "Ezra 7:28",
+              "verdict": "supported",
+              "relationship": "same persons",
+              "rationale": "The king and his advisers who send Esdras are the same king and advisers before whom Esdras says God inclined mercy toward him in 7:28. The verse does not name the advisers or give their number.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a11b4b4d37a0599e1681968cb84c6d4bbb62fafa1cb3d3a194838214aa15c96c",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 7:28",
+                  "id": "v7-28",
+                  "text": "and inclined mercy toward me in the eyes of the king, his advisers and all the king’s exalted officials. I was strengthened, as the good hand of God was upon me, and gathered leaders from Israel to go up with me.",
+                  "text_sha256": "6914fbff57ff266e4101aa914e263139ef57f7056cf5a4a3f4da7acafc28692c"
+                }
+              ],
+              "target_passage_sha256": "3c9afd3d7e5834d20de1e75dd0cb8260ec34d20c428f23b76e3993ba2c90b6a3",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 7:15",
@@ -7410,8 +7968,10 @@
           "id": "v7-18",
           "text": "Whatever seems good to you and your brothers to do with the remaining silver and gold, do as is pleasing to your God.",
           "display_text": "Whatever seems good to you and your brothers to do with the remaining silver and gold, do as is pleasing to your God.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lets Esdras and his brothers use the remaining silver and gold as pleases their God. The leads concern penalties, trust in workers handling silver, or doing what seems good in unrelated settings, and none reports how this remainder was used."
         },
         {
           "reference": "Ezra 7:19",
@@ -7935,7 +8495,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "staging_page_id": 2483,
@@ -8118,8 +8678,10 @@
           "id": "v8-5",
           "text": "from the sons of Zathoes, Sechenias son of Aziel, and with him three hundred males;",
           "display_text": "from the sons of Zathoes, Sechenias son of Aziel, and with him three hundred males;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Sechenias son of Aziel of the sons of Zathoes. The leads name other men called Sechenia in Davidic, priestly or gatekeeper settings, which share a common name but not this person or family."
         },
         {
           "reference": "Ezra 8:6",
@@ -8164,8 +8726,10 @@
           "id": "v8-7",
           "text": "from the sons of Elam, Iesia son of Athelia, and with him seventy males;",
           "display_text": "from the sons of Elam, Iesia son of Athelia, and with him seventy males;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The sons of Elam with Iesia son of Athelia are matched only with differently spelled register entries (Ailam, Elam-ar, Elam-aar) and unrelated Elam or seventy-male texts. The family correspondence cannot be shown from these texts."
         },
         {
           "reference": "Ezra 8:8",
@@ -8210,16 +8774,20 @@
           "id": "v8-9",
           "text": "from the sons of Ioab, Abadia son of Iiel, and with him two hundred and eighteen males;",
           "display_text": "from the sons of Ioab, Abadia son of Iiel, and with him two hundred and eighteen males;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The sons of Ioab under Abadia son of Iiel are matched only with the Ioab subgroup inside the Phaathmoab entry and with other men named Iiel. Neither shows that this Ioab family is the same group."
         },
         {
           "reference": "Ezra 8:10",
           "id": "v8-10",
           "text": "from the sons of Baani, Salimouth son of Iosephia, and with him one hundred and sixty males;",
           "display_text": "from the sons of Baani, Salimouth son of Iosephia, and with him one hundred and sixty males;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The sons of Baani with Salimouth son of Iosephia have no Baani entry among the leads, which share only the word males or sons. No family identification can be shown."
         },
         {
           "reference": "Ezra 8:11",
@@ -8340,8 +8908,10 @@
           "id": "v8-14",
           "text": "From the sons of Bago, Outhi, and with him seventy males.",
           "display_text": "From the sons of Bago, Outhi, and with him seventy males.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The sons of Bago with Outhi are matched only with the differently spelled Bagoi entries of another register, and with unrelated seventy-male or name lists. Neither the texts nor the totals establish that it is the same family."
         },
         {
           "reference": "Ezra 8:15",
@@ -10215,7 +10785,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "staging_page_id": 2485,
@@ -10880,8 +11450,10 @@
           "id": "v10-15",
           "text": "Only Ionathan son of Asael and Iazia son of Thekoue were with me concerning this, and Mesoulam and Sabathai the Levite were helping them.",
           "display_text": "Only Ionathan son of Asael and Iazia son of Thekoue were with me concerning this, and Mesoulam and Sabathai the Levite were helping them.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Ionathan son of Asael, Iazia son of Thekoue, Mesoulam and Sabathai the Levite in the mixed-marriage inquiry. The leads give other men called Mesoulam, Ionathan or Iazia, or the place Thekoue, without the same ancestry or role."
         },
         {
           "reference": "Ezra 10:16",
@@ -11102,8 +11674,10 @@
           "id": "v10-21",
           "text": "From the sons of Eram: Masaia, Elia, Samaia, Iiel and Ozia.",
           "display_text": "From the sons of Eram: Masaia, Elia, Samaia, Iiel and Ozia.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The sons of Eram listed here are matched only by spelling-related register entries (Erem, Eram, Charem) and by men with similar names. Nothing in the texts shown places them in the same priestly family."
         },
         {
           "reference": "Ezra 10:22",
@@ -11148,16 +11722,20 @@
           "id": "v10-23",
           "text": "From the Levites: Iozabad, Samou, Kolia—he is Kolitas—Phathaia, Iodom and Eliezer.",
           "display_text": "From the Levites: Iozabad, Samou, Kolia—he is Kolitas—Phathaia, Iodom and Eliezer.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The Levites Iozabad, Samou, Kolia (Kolitas), Phathaia, Iodom and Eliezer are matched only by a Levite Iozabad son of Iesous and a Levite Kalita in other lists. Name and office alone do not establish that these are the same men."
         },
         {
           "reference": "Ezra 10:24",
           "id": "v10-24",
           "text": "From the singers: Elisaph. From the gatekeepers: Sellem, Telem and Odoue.",
           "display_text": "From the singers: Elisaph. From the gatekeepers: Sellem, Telem and Odoue.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The singer Elisaph and the gatekeepers Sellem, Telem and Odoue appear in no lead. The leads only mention singers and gatekeepers as classes."
         },
         {
           "reference": "Ezra 10:25",
@@ -11202,8 +11780,38 @@
           "id": "v10-26",
           "text": "From the sons of Elam: Mathania, Zacharia, Iaiel, Abdia, Iarimoth and Elia.",
           "display_text": "From the sons of Elam: Mathania, Zacharia, Iaiel, Abdia, Iarimoth and Elia.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-10-26__ezra-10-2",
+              "target": "Ezra 10:2",
+              "verdict": "supported",
+              "relationship": "same family",
+              "rationale": "The sons of Elam listed here among those with foreign wives belong to the same family as Sechenias son of Iiel, of the sons of Elam, who first confessed to Esdras that foreign wives had been taken.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "18f1cd5be889e9604add609b364a67b28369858afe2793548b5ca9d15d0be890",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 10:2",
+                  "id": "v10-2",
+                  "text": "Sechenias son of Iiel, of the sons of Elam, answered Esdras, “We have broken covenant with our God and have settled foreign wives from the peoples of the land among us. Now there is patient hope for Israel concerning this.",
+                  "text_sha256": "75c1e29abb3bbfaf679f95cf511dce35edbc1cc334913b70777c5014ec759664"
+                }
+              ],
+              "target_passage_sha256": "92b5c6de2d09e7b0403d3d6e4d5fcbd764b896d439ae1cd5383ffbac71581c02",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 10:27",
@@ -11400,88 +12008,138 @@
           "id": "v10-32",
           "text": "Benjamin, Malouch and Samaria.",
           "display_text": "Benjamin, Malouch and Samaria.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists the personal names Benjamin, Malouch and Samaria. The leads use Benjamin and Samaria as places or give other men called Malouch, so the shared names do not identify these men."
         },
         {
           "reference": "Ezra 10:33",
           "id": "v10-33",
           "text": "From the sons of Esam: Mathani, Mathatha, Zabed, Eliphaleth, Ierami, Manasse and Semei.",
           "display_text": "From the sons of Esam: Mathani, Mathatha, Zabed, Eliphaleth, Ierami, Manasse and Semei.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "ezra-10-33__nehemiah-7-22",
+              "target": "Nehemiah 7:22",
+              "verdict": "supported",
+              "relationship": "same family",
+              "rationale": "The sons of Esam listed here belong to the returning family registered as the sons of Esam, spelled identically.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "44c7e514f3c1dfa25dbeed24089cc7ad4a23f16705d7f49eceebea464aa3ef66",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nehemiah/verses.json",
+                "blob_sha": "2293e026368c9466269afa1e0ecfcadf751dd88a",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nehemiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nehemiah 7:22",
+                  "id": "v7-22",
+                  "text": "The sons of Esam: three hundred twenty-eight.",
+                  "text_sha256": "a53970ffb6723a443803ee0fd08734bb21ee5af04df69611daa4aae3d3040ff8"
+                }
+              ],
+              "target_passage_sha256": "dcfa830c3bd9021f0d35fb77a9afbc8ddd420a0acca5f4570c07660ea0219b5e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Ezra 10:34",
           "id": "v10-34",
           "text": "From the sons of Bani: Moodi, Amram and Ouel;",
           "display_text": "From the sons of Bani: Moodi, Amram and Ouel;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The sons of Bani named Moodi, Amram and Ouel are matched only with Amram son of Kohath, the father of Moses, who is a different person."
         },
         {
           "reference": "Ezra 10:35",
           "id": "v10-35",
           "text": "Banaia, Badaia and Chelia;",
           "display_text": "Banaia, Badaia and Chelia;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The personal names Banaia, Badaia and Chelia are matched only with Levites or Simeonites called Banaias or Banaia from other periods, without shared ancestry or role."
         },
         {
           "reference": "Ezra 10:36",
           "id": "v10-36",
           "text": "Ouiechoa, Ieramoth and Eliasib;",
           "display_text": "Ouiechoa, Ieramoth and Eliasib;",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The personal names Ouiechoa, Ieramoth and Eliasib are matched only with other men called Eliasib (a Davidic descendant, a priestly course, a high priest), who are different persons."
         },
         {
           "reference": "Ezra 10:37",
           "id": "v10-37",
           "text": "Mathania, Mathanai; and acted",
           "display_text": "Mathania, Mathanai; and acted",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit gives Mathania and Mathanai and the unusual phrase 'and acted'. The leads give other men named Mathania with different fathers or settings, so no identity or parallel is shown."
         },
         {
           "reference": "Ezra 10:38",
           "id": "v10-38",
           "text": "the sons of Banoui and the sons of Semei,",
           "display_text": "the sons of Banoui and the sons of Semei,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Because of the unusual preceding wording, it is unclear whether 'the sons of Banoui and the sons of Semei' is a family heading. The same chapter has already listed sons of Banoui, so linking this phrase to the register's Banoui family would require reconstructing the list."
         },
         {
           "reference": "Ezra 10:39",
           "id": "v10-39",
           "text": "and Selemia, Nathan and Adaia,",
           "display_text": "and Selemia, Nathan and Adaia,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The personal names Selemia, Nathan and Adaia are matched only with men of the same names whose fathers, offices or periods differ, which does not identify them."
         },
         {
           "reference": "Ezra 10:40",
           "id": "v10-40",
           "text": "Machnadabou, Sesi and Sarou,",
           "display_text": "Machnadabou, Sesi and Sarou,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unusual names Machnadabou, Sesi and Sarou have no lead text and no attested counterpart in the edition."
         },
         {
           "reference": "Ezra 10:41",
           "id": "v10-41",
           "text": "Ezerel, Selemia and Samaria,",
           "display_text": "Ezerel, Selemia and Samaria,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The names Ezerel, Selemia and Samaria are matched only with other men called Selemia, a father of a wall-builder and a priest, which does not identify this layman."
         },
         {
           "reference": "Ezra 10:42",
           "id": "v10-42",
           "text": "and Saloum, Amaria and Joseph.",
           "display_text": "and Saloum, Amaria and Joseph.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Saloum, Amaria and Joseph are matched only with a district ruler, a gatekeeper family and a priestly ancestor who are each called Saloum. These are different persons or families."
         },
         {
           "reference": "Ezra 10:43",
@@ -11570,7 +12228,17 @@
   ],
   "next_unreviewed_reference": null,
   "completed_source_sections": [
+    1,
+    2,
+    3,
+    4,
+    5,
     6,
-    9
-  ]
+    7,
+    8,
+    9,
+    10
+  ],
+  "closed_source_units": 30,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

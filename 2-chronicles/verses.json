@@ -2,7 +2,7 @@
   "schema_version": 1,
   "edition": "Saints Bible cross-reference records",
   "book": "2 Chronicles",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_edition": "Saints Holy Bible 70-book edition, pinned Saints-Translation English records",
   "source_status": "Supplied English records; source-edition limitations remain. No new original-language, apparatus or independent specialist verification is claimed.",
   "source_snapshot": {
@@ -28,7 +28,7 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completion_definition": "Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.",
   "completed_chapters": [
     1,
@@ -38,6 +38,7 @@
     5,
     6,
     7,
+    8,
     9,
     10,
     11,
@@ -49,21 +50,29 @@
     17,
     18,
     19,
+    20,
     21,
     22,
     23,
+    24,
     25,
+    26,
+    27,
+    28,
+    29,
     30,
+    31,
     32,
     33,
     34,
+    35,
     36
   ],
-  "completed_source_verses": 818,
-  "completed_cross_references": 928,
+  "completed_source_verses": 820,
+  "completed_cross_references": 931,
   "total_chapters": 36,
   "total_source_verse_units": 833,
-  "next_reference": "2 Chronicles 8:3",
+  "next_reference": null,
   "readable_html": "2Chronicles.html",
   "readable_text": "2Chronicles.txt",
   "canon_manifest": "../canon.json",
@@ -6559,7 +6568,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "staging_page_id": 2387,
@@ -6660,8 +6669,38 @@
           "id": "v8-3",
           "text": "Solomon came to Aimath Soba and prevailed over it.",
           "display_text": "Solomon came to Aimath Soba and prevailed over it.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "2-chronicles-8-3__1-chronicles-18-3",
+              "target": "1 Chronicles 18:3",
+              "verdict": "supported",
+              "relationship": "same region",
+              "rationale": "The source names Aimath Soba, and 1 Chronicles 18:3 names Adraazar as king of Souba, Hemath, pairing the same two place names (spelled Soba/Souba and Aimath/Hemath). David struck the king of this territory; here Solomon prevails over it.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "6dd16cd23c5ee9f6f8623547c7a110a202c68d175be4fddde48a4b0deee66e63",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-chronicles/verses.json",
+                "blob_sha": "2101f758b42ee75471f73d6e75912dbe9090a35b",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Chronicles 18:3",
+                  "id": "v18-3",
+                  "text": "David struck Adraazar king of Souba, Hemath, as he went to establish his hand upon the River Euphrates.",
+                  "text_sha256": "82ec9a0e5980602e0b97cbe0bfaaba27c61364ec32ecc6f4ee6b56b45d44780f"
+                }
+              ],
+              "target_passage_sha256": "a78b8294e59f07c77115888dd7a35f831c0fc256bdb92bcc49a1b5bed9de3900",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "2 Chronicles 8:4",
@@ -16893,7 +16932,7 @@
     },
     {
       "chapter": 20,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 20,
         "staging_page_id": 2409,
@@ -17750,8 +17789,10 @@
           "id": "v20-16",
           "text": "Tomorrow go down against them. Behold, they are coming up by the ascent of Asas. You will find them at the edge of the river of the wilderness of Jeriel.",
           "display_text": "Tomorrow go down against them. Behold, they are coming up by the ascent of Asas. You will find them at the edge of the river of the wilderness of Jeriel.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The ascent of Asas and the wilderness of Jeriel are named only here in the edition. The leads share only the phrase 'river's edge' or 'wilderness' in unrelated visions and campaigns, so no place identity can be established."
         },
         {
           "reference": "2 Chronicles 20:17",
@@ -21217,7 +21258,7 @@
     },
     {
       "chapter": 24,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 24,
         "staging_page_id": 2413,
@@ -21312,8 +21353,10 @@
           "id": "v24-3",
           "text": "Jehoiada took two wives for him, and he begot sons and daughters.",
           "display_text": "Jehoiada took two wives for him, and he begot sons and daughters.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The verse records Jehoiada taking two wives for Joash. The leads are other men's marriages (Lamech, Isaac, Ishmael, Rehoboam, Abijah), teaching on marriage, Jehoiada's death notice, or Benaiah son of Jehoiada, a different person; none parallels this arrangement."
         },
         {
           "reference": "2 Chronicles 24:4",
@@ -23693,7 +23736,7 @@
     },
     {
       "chapter": 26,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 26,
         "staging_page_id": 2415,
@@ -24120,32 +24163,40 @@
           "id": "v26-11",
           "text": "Uzziah had forces that waged war and went out to battle array by number. Their number was recorded by Iiel the scribe and Maasaias the judge under Ananias, the king’s deputy.",
           "display_text": "Uzziah had forces that waged war and went out to battle array by number. Their number was recorded by Iiel the scribe and Maasaias the judge under Ananias, the king’s deputy.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Iiel the scribe, Maasaias the judge and Ananias the king's deputy appear only in this muster. The Ananias and Maasaia of Nehemiah 8:4 are different people centuries later, and the other leads share only generic military wording."
         },
         {
           "reference": "2 Chronicles 26:12",
           "id": "v26-12",
           "text": "The total number of ancestral rulers mighty for war was two thousand six hundred.",
           "display_text": "The total number of ancestral rulers mighty for war was two thousand six hundred.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The total of two thousand six hundred ancestral rulers for Uzziah's army has no counterpart. The leads are tribal genealogical musters with different numbers and occasions, sharing only the stock phrase 'mighty in strength'."
         },
         {
           "reference": "2 Chronicles 26:13",
           "id": "v26-13",
           "text": "With them was a fighting force of three hundred seven thousand five hundred, waging war with mighty strength to help the king against his adversaries.",
           "display_text": "With them was a fighting force of three hundred seven thousand five hundred, waging war with mighty strength to help the king against his adversaries.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The force of 307,500 under Uzziah is recorded only here. The leads are musters of other kings (Rehoboam, Abijah, Asa, Jehoshaphat, Amaziah) or other groups with different figures; shared army-count language does not make a specific parallel."
         },
         {
           "reference": "2 Chronicles 26:14",
           "id": "v26-14",
           "text": "Uzziah prepared for them, for the whole force, large shields, spears, helmets, breastplates, bows, and slings for stones.",
           "display_text": "Uzziah prepared for them, for the whole force, large shields, spears, helmets, breastplates, bows, and slings for stones.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Uzziah's equipping of the army is not paralleled elsewhere. The leads mention some of the same weapons (shields, spears, helmets, breastplates, slings) in unrelated settings such as Nehemiah's wall guards, Gog's army, and David's sling, which is only a shared vocabulary of arms."
         },
         {
           "reference": "2 Chronicles 26:15",
@@ -24649,7 +24700,7 @@
     },
     {
       "chapter": 27,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 27,
         "staging_page_id": 2416,
@@ -24878,8 +24929,10 @@
           "id": "v27-5",
           "text": "He fought the king of the sons of Ammon and prevailed over him. The sons of Ammon gave him yearly one hundred talents of silver, ten thousand kors of wheat, and ten thousand of barley. The king of Ammon brought him these each year, in the first, second, and third years.",
           "display_text": "He fought the king of the sons of Ammon and prevailed over him. The sons of Ammon gave him yearly one hundred talents of silver, ten thousand kors of wheat, and ten thousand of barley. The king of Ammon brought him these each year, in the first, second, and third years.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Jotham's victory over Ammon and the three-year tribute of silver, wheat and barley appear only here. The leads concern other Ammonite wars, prophecy against Ammon, or unrelated quantities of silver and grain."
         },
         {
           "reference": "2 Chronicles 27:6",
@@ -24999,7 +25052,7 @@
     },
     {
       "chapter": 28,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 28,
         "staging_page_id": 2417,
@@ -25308,8 +25361,10 @@
           "id": "v28-7",
           "text": "Ezekri, the mighty man of Ephraim, killed Maasaias the king’s son, Esdrikam the ruler of his house, and Elkana, the king’s deputy.",
           "display_text": "Ezekri, the mighty man of Ephraim, killed Maasaias the king’s son, Esdrikam the ruler of his house, and Elkana, the king’s deputy.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Ezekri, Maasaias the king's son, Esdrikam and Elkana the deputy appear only in this report. The Maasaias of 2 Chronicles 26:11 is a judge under Uzziah, a different person, and the remaining leads share only words such as 'deputy' or 'Ephraim'."
         },
         {
           "reference": "2 Chronicles 28:8",
@@ -26401,7 +26456,7 @@
     },
     {
       "chapter": 29,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 29,
         "staging_page_id": 2418,
@@ -27622,8 +27677,10 @@
           "id": "v29-20",
           "text": "King Hezekiah rose early, gathered the city’s rulers, and went up to the Lord’s house.",
           "display_text": "King Hezekiah rose early, gathered the city’s rulers, and went up to the Lord’s house.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Hezekiah's rising early and gathering the city's rulers is a brief transition within the temple restoration. The leads are other figures rising early (Abraham, Moses, Joshua) on different occasions, or Hezekiah's illness prayer, none of which parallels this assembly."
         },
         {
           "reference": "2 Chronicles 29:21",
@@ -28480,8 +28537,10 @@
           "id": "v29-33",
           "text": "The consecrated animals were six hundred calves and three thousand sheep.",
           "display_text": "The consecrated animals were six hundred calves and three thousand sheep.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The count of six hundred calves and three thousand sheep is unique to this sacrifice. The leads give different numbers for different occasions (tithes, Josiah's Passover, Solomon's dedication) or share only the word 'calves'."
         },
         {
           "reference": "2 Chronicles 29:34",
@@ -30553,7 +30612,7 @@
     },
     {
       "chapter": 31,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 31,
         "staging_page_id": 2420,
@@ -31078,8 +31137,10 @@
           "id": "v31-7",
           "text": "In the third month the heaps began to be laid, and in the seventh month they were completed.",
           "display_text": "In the third month the heaps began to be laid, and in the seventh month they were completed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The timetable of heaps laid from the third to the seventh month has no matching record. The leads mention the seventh month or completion in unrelated contexts, and the heaps themselves are introduced in the immediately preceding verse of the same account."
         },
         {
           "reference": "2 Chronicles 31:8",
@@ -31330,8 +31391,10 @@
           "id": "v31-13",
           "text": "Iiel, Ozazias, Naeth, Asael, Jerimoth, Jozabath, Eliel, Samachia, Maath, Banaias, and his sons were appointed through Chonenias and his brother Semei, as King Hezekiah and Azarias, the leader of the Lord’s house, commanded.",
           "display_text": "Iiel, Ozazias, Naeth, Asael, Jerimoth, Jozabath, Eliel, Samachia, Maath, Banaias, and his sons were appointed through Chonenias and his brother Semei, as King Hezekiah and Azarias, the leader of the Lord’s house, commanded.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The listed overseers under Chonenias and Semei are recorded only here. Similar names in other lists belong to different reigns and functions (Hezekiah's Levite purifiers, Josiah's Passover rulers, Jehoshaphat's sons), and the Azaria of 1 Chronicles 9:11 is not shown to be Hezekiah's Azarias."
         },
         {
           "reference": "2 Chronicles 31:14",
@@ -31444,8 +31507,10 @@
           "id": "v31-16",
           "text": "apart from the male offspring from three years old and upward, for everyone entering the Lord’s house for the daily account, for ministry in their appointed divisions.",
           "display_text": "apart from the male offspring from three years old and upward, for everyone entering the Lord’s house for the daily account, for ministry in their appointed divisions.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The provision for males from three years old upward has no parallel rule. The leads concern different age thresholds (twenty or thirty years) for military or Levitical census, or unrelated festival ordinances."
         },
         {
           "reference": "2 Chronicles 31:17",
@@ -36215,7 +36280,7 @@
     },
     {
       "chapter": 35,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 35,
         "staging_page_id": 2425,
@@ -37690,8 +37755,66 @@
           "id": "v35-26",
           "text": "Josiah’s deeds and his hope were written in the Lord’s law;",
           "display_text": "Josiah’s deeds and his hope were written in the Lord’s law;",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "2-chronicles-35-26__2-kings-23-28",
+              "target": "2 Kings 23:28",
+              "verdict": "supported",
+              "relationship": "parallel account",
+              "rationale": "Both are the closing notice of Josiah's reign, stating that Josiah's deeds/acts are written in a record. The source says they were written in the Lord's law, while 2 Kings 23:28 refers to the book of the chronicles of Judah's kings.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1270f7354c4521d7f53537b081172472b252d01c8106e209aabfb97da0a61469",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-kings/verses.json",
+                "blob_sha": "2cd20f65a020ea02f6ccdda727d47c2feb2dbb55",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-kings/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Kings 23:28",
+                  "id": "v23-28",
+                  "text": "The rest of Josiah’s acts and everything he did—are these not written in the book of the chronicles of Judah’s kings?",
+                  "text_sha256": "d8468386499b0d24c038dab7669509f6ad0f25e97de9f61a19a6e4e31a96658e"
+                }
+              ],
+              "target_passage_sha256": "af5a1660818ffbd247f2e296607a0f597d252b2b0abf3359da1e2258f52f8919",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "2-chronicles-35-26__2-chronicles-32-32",
+              "target": "2 Chronicles 32:32",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The Chronicler closes Hezekiah's reign with the same formula: Hezekiah's 'deeds and his mercy are written', as here Josiah's 'deeds and his hope were written'. The cited records differ.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1270f7354c4521d7f53537b081172472b252d01c8106e209aabfb97da0a61469",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "2-chronicles/verses.json",
+                "blob_sha": "75e5e8532a256844737dd68aec41c6e695ce8e1f",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/2-chronicles/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "2 Chronicles 32:32",
+                  "id": "v32-32",
+                  "text": "The rest of Hezekiah’s deeds and his mercy are written in the prophecy of Isaiah son of Amoz the prophet and in the Book of the Kings of Judah and Israel.",
+                  "text_sha256": "f0d65ac1178659458cc4a8c4caa4549efabb0f0824759b8f59ea4fd2f5fe0edc"
+                }
+              ],
+              "target_passage_sha256": "d3413ce82cd6631683b0583c7f78ab01a58482abcb9cb5f14525d73fb0581238",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "2 Chronicles 35:27",
@@ -39295,6 +39418,7 @@
     5,
     6,
     7,
+    8,
     9,
     10,
     11,
@@ -39306,14 +39430,24 @@
     17,
     18,
     19,
+    20,
     21,
     22,
     23,
+    24,
     25,
+    26,
+    27,
+    28,
+    29,
     30,
+    31,
     32,
     33,
     34,
+    35,
     36
-  ]
+  ],
+  "closed_source_units": 13,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

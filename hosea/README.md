@@ -1,6 +1,6 @@
 # Hosea - Saints Bible cross-references
 
-Hosea has **169 completed source verses and 177 distinct source/target-passage pairs**. Latest completed unit: **Hosea 14:10**. Fully completed chapters: 2, 13, 14. Next: Hosea 1:8. Some source units remain pending. Completed entries within **Hosea 1:1–14:10**; this span includes pending source deferrals. 28 read source unit(s) remain deferred with zero completion credit: Hosea 1:8, Hosea 3:2, Hosea 4:4, Hosea 4:5, Hosea 4:19, Hosea 5:2, Hosea 5:7, Hosea 5:9, Hosea 6:7, Hosea 6:8, Hosea 6:9, Hosea 7:7, Hosea 7:8, Hosea 8:3, Hosea 8:10, Hosea 8:12, Hosea 9:2, Hosea 9:5, Hosea 9:11, Hosea 9:13, Hosea 10:4, Hosea 10:5, Hosea 10:7, Hosea 10:9, Hosea 10:10, Hosea 11:4, Hosea 11:7, Hosea 12:12. First pending source unit: Hosea 1:8. No never-reviewed source units remain. Next new source review: none; all OT source units read.
+Hosea 1–14 is complete at the initial curated cross-reference stage: **189 source verses and 209 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: None. 8 source unit(s) were read and closed with no supportable cross-reference in this edition; they earn no completion credit and are listed with their reasons in the readable files and [source-checks.json](source-checks.json).
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -15,7 +15,7 @@ Preserve every original reference, anchor, word, native metadata field and sourc
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **Hosea 1:8**. All OT source units have been read; incomplete units remain pending. 28 read source unit(s) remain deferred with zero completion credit: Hosea 1:8, Hosea 3:2, Hosea 4:4, Hosea 4:5, Hosea 4:19, Hosea 5:2, Hosea 5:7, Hosea 5:9, Hosea 6:7, Hosea 6:8, Hosea 6:9, Hosea 7:7, Hosea 7:8, Hosea 8:3, Hosea 8:10, Hosea 8:12, Hosea 9:2, Hosea 9:5, Hosea 9:11, Hosea 9:13, Hosea 10:4, Hosea 10:5, Hosea 10:7, Hosea 10:9, Hosea 10:10, Hosea 11:4, Hosea 11:7, Hosea 12:12. First pending source unit: Hosea 1:8. No never-reviewed source units remain. Next new source review: none; all OT source units read. Revisit these deferred units substantively before marking them complete. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **None**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
@@ -25,3 +25,4 @@ Unretained target candidates: 5, excluded from completed counts. See the recorde
 
 - [2026-10-31T140227Z](review-batches/2026-10-31T140227Z.json): 175 newly completed pairs across 167 source verses.
 - [2026-10-31T215146Z](review-batches/2026-10-31T215146Z.json): 2 newly completed pairs across 2 source verses.
+- [2026-11-01T124729Z](review-batches/2026-11-01T124729Z.json): 32 newly completed pairs across 20 source verses.

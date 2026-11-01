@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "book": "Luke",
-  "checked_at_utc": "2026-11-01T12:37:13.881709+00:00",
+  "checked_at_utc": "2026-11-01T12:50:49.707477+00:00",
   "result": "passed",
   "canon_and_division_order": "passed",
   "original_full_book_snapshot_git_blobs": "passed",
@@ -15,6 +15,7 @@
   "completed_chapters": [
     1,
     2,
+    3,
     4,
     5,
     6,
@@ -38,8 +39,8 @@
     24
   ],
   "reviewed_source_units": 1149,
-  "deferred_source_units": 6,
-  "next_reference": "Luke 3:24",
+  "deferred_source_units": 0,
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "semantic_review": "AI-assisted passage review recorded per pair; technical validation does not independently establish the interpretation.",
   "independent_specialist_review": "pending",
@@ -51,26 +52,26 @@
   "hourly_target": 500,
   "target_unit": "newly_completed_distinct_source_verses",
   "latest_target_result": {
-    "run_id": "2026-11-01T123430Z",
+    "run_id": "2026-11-01T124445Z",
     "target_per_hour": 500,
     "target_unit": "newly_completed_distinct_source_verses",
-    "target_count": 405,
+    "target_count": 0,
     "target_met": false,
-    "target_shortfall": 95,
+    "target_shortfall": 500,
     "target_excess": 0
   },
   "checked_file_sha256": {
     "canon.json": "d78dd5623716b3de01aff759754f783e71e0bb3ec40008d8cf7786365e8b72d9",
-    "new-testament/progress.json": "c54a0616c13dec3164c2a7f6c1bb7cc6aaca465ff16d18f147298d867b863e6c",
+    "new-testament/progress.json": "58b195e7cc42fbfa7949333411575c21acad72e32222e5f46a58e352a665d41b",
     "new-testament/source-snapshots/manifest.json": "bb9ff3fcd9ccc26d7cd81ae83ff8c077e95022d0a4a256d5e9fb1d3d04461f5f",
-    "new-testament/luke/verses.json": "121a68ec0518a40beb4a644c28d38a1713fd7f9d3e1d2ab97e9c313ce0b039da",
+    "new-testament/luke/verses.json": "3d993c26d8c4b6b94e366bf1085afeb43e74522136877565a58b39ba070053a7",
     "new-testament/luke/inventory.json": "c8da600dcfb5a88ac9c88b20bbffab8b470359445ca1746371d7fe162404672c",
-    "new-testament/luke/source-checks.json": "354f45b5b27c7942d6ab218de3a7a3f2a74fcb8e676c6527d999d0719bbd3d57",
+    "new-testament/luke/source-checks.json": "1c3fedea87a831c07b72167ebc60c42a3455d46d37bbd79b46dff32c1216d73b",
     "new-testament/luke/editorial-notes.json": "2f5ca7e6dafbfa636add2916cf9b909e9d8d13d9419214a04d0012f1f076fc5b",
-    "new-testament/luke/README.md": "029551e1cf16937f19e6258ef079a0b6856b2e16266a3f58d9a8c8237e85dfc3",
-    "new-testament/luke/RESTORE.md": "95436805a70449f8a116f429af8430c786787000db94b30c38337ece37b01815",
-    "new-testament/luke/Luke.html": "da87f79a98815216e94253f746f26d4e4f840857180fc90a28661e0705649d98",
-    "new-testament/luke/Luke.txt": "ee6f5f859e0530c1978261b42c4d5fb531e5e564dd2348282c2c65e882a747b6",
+    "new-testament/luke/README.md": "0b3ef7f36f04b8f2d8db14df16b59fa012f5003dc0a1a5cb8432b5db88614931",
+    "new-testament/luke/RESTORE.md": "29803c0b6e87b66dd00ef43e3c00ddc876b8c9999e34017f9ce21dc854a5be4f",
+    "new-testament/luke/Luke.html": "24d436e1210fec1587c8025e65b9cd0b5b283e82ad12dc98fa4c4fa5bdf51f9d",
+    "new-testament/luke/Luke.txt": "5fbcbc22c85c596980da7c8a0391378a36b7c74c02533c77edc0c84dd7c1137b",
     "new-testament/review-batches/2026-10-30T224159Z.json": "24c0d1d0302dd51ab059a602fb30364ad4e3cfe8b254d224a4c24405b18aeaa1",
     "new-testament/review-batches/2026-10-30T224159Z/matthew-1-2-review.json": "d1120e4c4680944cbe049e7d684def54951b5bd29b0d5bfa1f7ce26032694ded",
     "new-testament/review-batches/2026-10-30T224159Z/matthew-3-4-review.json": "174e8461df02140dcc03f282bc98973dbb087fbb9fd6bf88d7a633ff98ed0813",
@@ -567,7 +568,16 @@
     "new-testament/review-batches/2026-11-01T123430Z/revelation-review.json": "0b437ef26d46820aa3a4fd8db28a2609280c0d4493e655ec2e06f448212aa67f",
     "new-testament/review-batches/2026-11-01T123430Z/peer-revelation.json": "25449bfc0a49832359d493aab58eea9c1b64cdde1b9d3117fe3d9e0d2f5f2775",
     "new-testament/review-batches/2026-11-01T123430Z/revelation-first-drafts.json": "8bf286ba8fb6f062752d93b39007069dd44ec2eafbfe8ffbabde348f1e664e50",
-    "new-testament/review-batches/2026-11-01T123430Z/revelation-inventory-preparation.json": "b529b029ac0ae5b207610a3f51c7c76acceb17b6126d25dca418f8dd348d9f4c"
+    "new-testament/review-batches/2026-11-01T123430Z/revelation-inventory-preparation.json": "b529b029ac0ae5b207610a3f51c7c76acceb17b6126d25dca418f8dd348d9f4c",
+    "new-testament/review-batches/2026-11-01T124445Z.json": "2c78162c0a28552c4ae8b7ee4b3e57cd91631881306df60c594529f07b955626",
+    "new-testament/review-batches/2026-11-01T124445Z/matthew-closure-review.json": "7672c17b982b035a8d1202b22bed182dc9241aa11b98c4f7f47d702d23910e6f",
+    "new-testament/review-batches/2026-11-01T124445Z/luke-closure-review.json": "257e6a5703f399944327639d04d8611fd2a6676ff46529fa82814ce3d7744882",
+    "new-testament/review-batches/2026-11-01T124445Z/acts-closure-review.json": "54fa7ef9ea1a6a05b3a8b17c6c8e71baa928bd2a24ebccdbec7b69216ddffeef",
+    "new-testament/review-batches/2026-11-01T124445Z/romans-closure-review.json": "00d4e9893e35670be214b1404aab7c4b989f162e2f82a8b7cf7ec4ea0f24b188",
+    "new-testament/review-batches/2026-11-01T124445Z/peer-matthew-closure.json": "6ac7900e2e900d6e424fb68eb6b714f297eed679028a65b8a6c2dc6e10176813",
+    "new-testament/review-batches/2026-11-01T124445Z/peer-luke-closure.json": "ae1873bedbd5377207f59e95965a4cd6ec32220a83fe459bcef2693528957ab3",
+    "new-testament/review-batches/2026-11-01T124445Z/peer-acts-closure.json": "56f60cc16bfc983122b9d1eda1fbf7a541ecde2aa3653b965c2e30c2e67aafee",
+    "new-testament/review-batches/2026-11-01T124445Z/peer-romans-closure.json": "d43e7f6f15a49b1d044ac209c62768eb4b0910a47d1c07f2e8812109283e200f"
   },
-  "root_tracker_pointer_sha256": "9131131ac93ab6d81fb878dd7eff2f6fcafb0b6eb61386fc06d6583957b10391"
+  "root_tracker_pointer_sha256": "859d5fa6ee55b765168576f7223c3810e4f4d727423ce316263548340ea7406b"
 }

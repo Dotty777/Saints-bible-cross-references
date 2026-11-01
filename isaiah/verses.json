@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Isaiah",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,21 +32,41 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
     1,
     2,
+    3,
+    4,
+    5,
     6,
+    7,
+    8,
+    9,
+    10,
     11,
     12,
     13,
     14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
     24,
     25,
     26,
+    27,
+    28,
+    29,
     30,
     31,
     32,
+    33,
     34,
     35,
     36,
@@ -54,11 +74,20 @@
     38,
     39,
     40,
+    41,
+    42,
+    43,
+    44,
+    45,
     46,
+    47,
     48,
     49,
     50,
+    51,
     52,
+    53,
+    54,
     55,
     56,
     57,
@@ -68,22 +97,44 @@
     61,
     62,
     63,
+    64,
+    65,
     66
   ],
   "completed_source_sections": [
     1,
     2,
+    3,
+    4,
+    5,
     6,
+    7,
+    8,
+    9,
+    10,
     11,
     12,
     13,
     14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
     24,
     25,
     26,
+    27,
+    28,
+    29,
     30,
     31,
     32,
+    33,
     34,
     35,
     36,
@@ -91,11 +142,20 @@
     38,
     39,
     40,
+    41,
+    42,
+    43,
+    44,
+    45,
     46,
+    47,
     48,
     49,
     50,
+    51,
     52,
+    53,
+    54,
     55,
     56,
     57,
@@ -105,14 +165,16 @@
     61,
     62,
     63,
+    64,
+    65,
     66
   ],
-  "completed_source_verses": 1231,
-  "completed_cross_references": 1324,
+  "completed_source_verses": 1252,
+  "completed_cross_references": 1351,
   "total_chapters": 66,
   "total_source_sections": 66,
   "total_source_verse_units": 1289,
-  "next_reference": "Isaiah 3:6",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Isaiah.html",
   "readable_text": "Isaiah.txt",
@@ -2690,7 +2752,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -2935,16 +2997,48 @@
           "id": "v3-6",
           "text": "For a man will seize his brother or a member of his father’s household, saying, “You have a cloak; become our leader, and let my food be under you!”",
           "display_text": "For a man will seize his brother or a member of his father’s household, saying, “You have a cloak; become our leader, and let my food be under you!”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-3-6__isaiah-4-1",
+              "target": "Isaiah 4:1",
+              "verdict": "supported",
+              "relationship": "parallel image",
+              "rationale": "Isaiah 3:6 has a man seize his brother, offering leadership because he has a cloak and speaking of food, and Isaiah 4:1 has seven women take hold of one man, promising their own bread and clothes. Both picture desperate people seizing a man over bread and clothing in the coming collapse.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "529b6425951954c0e68f2202d53485f1a4d6fb51dd64fc215433714206687b63",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 4:1",
+                  "id": "v4-1",
+                  "text": "Seven women will take hold of one man, saying, “We will eat our own bread and put on our own clothes; only let your name be called over us. Take away our disgrace!”",
+                  "text_sha256": "ad4e64ef4bc88289bf05dcec43b976712536223638eca754a362731b8ef47adc"
+                }
+              ],
+              "target_passage_sha256": "0e57b3ad2890761648b3e0e8dfd768ea054270af690b42a1a25943cba844142d",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 3:7",
           "id": "v3-7",
           "text": "Answering on that day, he will say, “I will not be your leader, for there is neither bread nor cloak in my house. I will not be leader of this people.”",
           "display_text": "Answering on that day, he will say, “I will not be your leader, for there is neither bread nor cloak in my house. I will not be leader of this people.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the refusal to be leader because there is neither bread nor cloak in the house. The leads concern healing and wounds, God's oath, a rejection of a ruler in a different setting, and unrelated mentions of bread or leaders; none shares a refusal of leadership grounded in lacking bread and a cloak."
         },
         {
           "reference": "Isaiah 3:8",
@@ -3598,16 +3692,48 @@
           "id": "v3-21",
           "text": "the garments bordered with purple and those purple at the center,",
           "display_text": "the garments bordered with purple and those purple at the center,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit lists garments bordered with purple and purple at the center among removed finery. The leads concern rings, earrings, robes and collars, or the purple garment placed on Jesus or Jonathan; none mentions purple-bordered or purple-centered garments or a catalogue of finery removed in judgment."
         },
         {
           "reference": "Isaiah 3:22",
           "id": "v3-22",
           "text": "the coverings used about the house and the transparent Laconian garments,",
           "display_text": "the coverings used about the house and the transparent Laconian garments,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-3-22__esther-1-6",
+              "target": "Esther 1:6",
+              "verdict": "supported",
+              "relationship": "shared item",
+              "rationale": "Both name transparent fabrics among luxury goods. Isaiah 3:22 lists 'the coverings used about the house and the transparent Laconian garments', and Esther 1:6 describes 'transparent coverings adorned with varied flowers' among the furnishings of a lavish setting.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "03021b530bbf56e7be8043dba8741416c6fdf386d8770588b935fa8c33dde29a",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "esther/verses.json",
+                "blob_sha": "6df661a54d219eb4f3f340cfca93a84ee8a120ed",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/esther/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Esther 1:6",
+                  "id": "v1-6",
+                  "text": "which was adorned with fine linen and cotton cloths stretched on fine linen and purple cords upon gold and silver blocks, upon pillars of Parian marble and stone. There were gold and silver couches on a pavement of emerald stone, pearly stone, and Parian stone, and transparent coverings adorned with varied flowers, with roses scattered all around.",
+                  "text_sha256": "d453305f85abbf38bbd23d85f42c1f4a9b867a9870eb63c00dc300388ca08bc6"
+                }
+              ],
+              "target_passage_sha256": "4a885709ac8618f45611f7d33f7c2a9be0a6bfdb56646fe9dcf391fdcaf6d7f2",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 3:23",
@@ -3790,7 +3916,7 @@
     },
     {
       "chapter": 4,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 4,
         "section": 4,
@@ -3805,8 +3931,72 @@
           "id": "v4-1",
           "text": "Seven women will take hold of one man, saying, “We will eat our own bread and put on our own clothes; only let your name be called over us. Take away our disgrace!”",
           "display_text": "Seven women will take hold of one man, saying, “We will eat our own bread and put on our own clothes; only let your name be called over us. Take away our disgrace!”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-4-1__isaiah-3-25-26",
+              "target": "Isaiah 3:25-26",
+              "verdict": "supported",
+              "relationship": "preceding context",
+              "rationale": "Isaiah 3:25-26 says your strong men will fall by the sword and she will be left alone, and Isaiah 4:1 has seven women take hold of one man. The loss of the men in war is the situation in which the women seek a single man.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "ad4e64ef4bc88289bf05dcec43b976712536223638eca754a362731b8ef47adc",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 3:25",
+                  "id": "v3-25",
+                  "text": "Your most beautiful son, whom you love, will fall by the sword, and your strong men will fall by the sword.",
+                  "text_sha256": "e9353206383eff68da36ea7acabd0c1e4015d93258d1588a23e718a274d8d556"
+                },
+                {
+                  "reference": "Isaiah 3:26",
+                  "id": "v3-26",
+                  "text": "The cases of your adornment will be humbled and mourn; you will be left alone and dashed to the ground.”",
+                  "text_sha256": "9d6c0b88c5514a4240ef0d4d2271fb42e03fa522c362115f6edd3f8a86d0bb8f"
+                }
+              ],
+              "target_passage_sha256": "aa35713d883d0dc25e6b54708c63047ce5ce9f4477df066e6703eb561f8c4114",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "isaiah-4-1__luke-1-25",
+              "target": "Luke 1:25",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "The women ask, Take away our disgrace, and in Luke 1:25 Elizabeth says the Lord looked upon me to take away my disgrace among people. Both use the plea or thanks for the removal of a woman's disgrace, though Luke's occasion is a pregnancy.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "ad4e64ef4bc88289bf05dcec43b976712536223638eca754a362731b8ef47adc",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "luke/verses.json",
+                "blob_sha": "f059110731a04e47ac360a1046fb29d7d5500dcd",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/luke/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Luke 1:25",
+                  "id": "v1-25",
+                  "text": "“This is what the Lord has done for me in these days, when He looked upon me to take away my disgrace among people.”",
+                  "text_sha256": "c1602fd12ab0c3d4adafdd506c93fa711727b6b75535da51af9991474f17d717"
+                }
+              ],
+              "target_passage_sha256": "f620c972753f5c7159f624957898bf446a6772a7ebb6a37988e133278f895ec1",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 4:2",
@@ -4085,7 +4275,7 @@
     },
     {
       "chapter": 5,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 5,
         "section": 5,
@@ -5297,8 +5487,66 @@
           "id": "v5-27",
           "text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
           "display_text": "They will not hunger or grow weary, slumber or sleep, nor loosen the belts from their waists; their sandal straps will certainly not break.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-5-27__isaiah-40-28",
+              "target": "Isaiah 40:28",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Isaiah 5:27 says the invaders will not hunger or grow weary, and Isaiah 40:28 says God will not hunger or grow weary. The same phrase is applied to an invading force and to God.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a9cf81c508b9b3250b29e108f7d0c411a1cfd668e33aa2959b1f3c5b7c5d7cc6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 40:28",
+                  "id": "v40-28",
+                  "text": "And now, did you not know, if you have not heard? God is eternal, the God who fashioned the earth’s extremities. He will not hunger or grow weary, and His understanding cannot be discovered.",
+                  "text_sha256": "37432d1700302e82beb75b5b6ac3f49744d0fbcad1fc76957cc665fc23d3a146"
+                }
+              ],
+              "target_passage_sha256": "77c514a1a8a0b761393db0654c58ef4dd13a645fa295e7ab8b536e83492684a1",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "isaiah-5-27__isaiah-40-31",
+              "target": "Isaiah 40:31",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Isaiah 5:27 describes a force that does not hunger or grow weary, and Isaiah 40:31 says those enduring for God will run without growing weary and walk without hunger. Both describe tireless strength in the same terms.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "a9cf81c508b9b3250b29e108f7d0c411a1cfd668e33aa2959b1f3c5b7c5d7cc6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 40:31",
+                  "id": "v40-31",
+                  "text": "But those enduring for God will exchange their strength and grow wings like eagles. They will run without growing weary and walk without hunger.",
+                  "text_sha256": "8892be51954b2c0f8a76fbfb51d89356c9a080618184b7b06564bdc01e62d5c2"
+                }
+              ],
+              "target_passage_sha256": "c2448e70b7e238a25e4bf2ebc4e0c17398b297054ef2dfc35f971a62d30a76c3",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 5:28",
@@ -6228,7 +6476,7 @@
     },
     {
       "chapter": 7,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 7,
         "section": 7,
@@ -6650,8 +6898,38 @@
           "id": "v7-10",
           "text": "And the Lord spoke again to Achaz, saying,",
           "display_text": "And the Lord spoke again to Achaz, saying,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-7-10__isaiah-1-1",
+              "target": "Isaiah 1:1",
+              "verdict": "supported",
+              "relationship": "same person",
+              "rationale": "Isaiah 7:10 addresses Achaz, and Isaiah 1:1 names Achaz among the kings of Judea during whose reign Isaiah saw his vision. Both refer to the same king Achaz of Judah.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0ff8500115c8c103d67f49d1dc902d0565612eb104962eb1112bbfa33a2ce2bc",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 1:1",
+                  "id": "v1-1",
+                  "text": "The vision that Isaiah son of Amos saw, which he saw against Judea and against Jerusalem during the reign of Oziah, Joatham, Achaz and Hezekiah, who reigned over Judea.",
+                  "text_sha256": "8150972c04e000ebee1b36c03571e456879d6d22161d47e9e29fac68529e2d16"
+                }
+              ],
+              "target_passage_sha256": "660b1b169f9e9ae8e2a432dc668625571d18e9415a2f24adc09422889c3424a6",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 7:11",
@@ -7051,8 +7329,38 @@
           "id": "v7-19",
           "text": "and they will all come and rest in the country’s ravines, in holes of the rocks, in the caves, in every fissure and in every tree.",
           "display_text": "and they will all come and rest in the country’s ravines, in holes of the rocks, in the caves, in every fissure and in every tree.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-7-19__isaiah-2-19",
+              "target": "Isaiah 2:19",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Isaiah 7:19 has the summoned swarm rest in holes of the rocks, in the caves and in every fissure, and Isaiah 2:19 speaks of caves, clefts in the rocks and holes in the earth. Both list the same rock refuges, though in Isaiah 2:19 people flee into them from the Lord's terror.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "293f9fafa8999a601bbecdbe83506e487b488161f090a630b35d3b397077008e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 2:19",
+                  "id": "v2-19",
+                  "text": "carrying them into caves, into clefts in the rocks and into holes in the earth, from the Lord’s terror and the glory of His strength, whenever He rises to shatter the earth.",
+                  "text_sha256": "b6a578582ad99d924f5690336c122cb9d0a7c67cf2315171ba5bb2a86b590366"
+                }
+              ],
+              "target_passage_sha256": "139dc48e43087cda481aaeae450e4a3a92f3f6b213a8d78443648627b755435f",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 7:20",
@@ -7119,8 +7427,38 @@
           "id": "v7-21",
           "text": "On that day a person will raise a heifer from the cattle and two sheep,",
           "display_text": "On that day a person will raise a heifer from the cattle and two sheep,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-7-21__isaiah-7-25",
+              "target": "Isaiah 7:25",
+              "verdict": "supported",
+              "relationship": "same oracle",
+              "rationale": "Isaiah 7:21 says a person will raise a heifer from the cattle and two sheep, and Isaiah 7:25 says the ruined land will become pasture for sheep and a trampling place for cattle. Both verses of the oracle describe the emptied land given over to small-scale herding of cattle and sheep.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "3c254fc5040b4f22f6fce132a93a54b9e5e42d91a9e3d624068aed1181b0ece9",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 7:25",
+                  "id": "v7-25",
+                  "text": "Every mountain that is plowed will be plowed, and fear will certainly not come there; for from fallow ground and thorn it will become pasture for sheep and a trampling place for cattle.",
+                  "text_sha256": "9ab17ce2ab63563a576d2850f360eb1e9b9968fc32ecfd6626301a7e79986f6c"
+                }
+              ],
+              "target_passage_sha256": "114593c8f4d8199cc3a781a27340069c51b9ebe04ce830f1d1386d20a6290f0e",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 7:22",
@@ -7221,8 +7559,38 @@
           "id": "v7-24",
           "text": "With missile and arrow they will enter there, because all the land will be fallow ground and thorn.",
           "display_text": "With missile and arrow they will enter there, because all the land will be fallow ground and thorn.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-7-24__isaiah-5-6",
+              "target": "Isaiah 5:6",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Isaiah 7:24 says all the land will be fallow ground and thorn, and Isaiah 5:6 says thorns will rise in the abandoned vineyard as in fallow ground. Both describe cultivated land in Judah reverting to fallow ground and thorns under judgment.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "fbd07e30f049567c31d4243be2f0a33a823a4b8d7802ad2d4dc97a3bc7f03a03",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 5:6",
+                  "id": "v5-6",
+                  "text": "and I will abandon My vineyard. It will certainly not be pruned or dug, and thorns will rise in it as in fallow ground. I will command the clouds not to rain upon it.",
+                  "text_sha256": "76f87fc9f2d0accfc6aa3b3e0c56b5a07ead7c016874245302d1de34a0b1d34a"
+                }
+              ],
+              "target_passage_sha256": "78564841951ae0850269dc1dd29b92b4b05344948f2bab72c3a833e36c754f06",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 7:25",
@@ -7267,7 +7635,7 @@
     },
     {
       "chapter": 8,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 8,
         "section": 8,
@@ -7516,8 +7884,10 @@
           "id": "v8-5",
           "text": "The Lord spoke to me yet again,",
           "display_text": "The Lord spoke to me yet again,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is only the formula that the Lord spoke to me yet again. Its sole lead, Isaiah 7:10, shares just the renewed-speech formula with a different addressee (Achaz), which is a generic introduction rather than a substantive connection."
         },
         {
           "reference": "Isaiah 8:6",
@@ -7783,8 +8153,10 @@
           "id": "v8-11",
           "text": "Thus says the Lord: “With a strong hand they resist the course of this people’s way, saying,",
           "display_text": "Thus says the Lord: “With a strong hand they resist the course of this people’s way, saying,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "In this edition the unit says they resist the course of this people's way with a strong hand. The leads describe the Lord's hand on a prophet, warnings not to walk in a way, divine guidance, Jeremiah's compulsion, or building courses; none shares a plural group resisting the people's course with a strong hand."
         },
         {
           "reference": "Isaiah 8:12",
@@ -8266,8 +8638,38 @@
           "id": "v8-21",
           "text": "A harsh famine will come upon you; when you hunger, you will be grieved and speak evil of the ruler and the cult images, and they will look up toward heaven above,",
           "display_text": "A harsh famine will come upon you; when you hunger, you will be grieved and speak evil of the ruler and the cult images, and they will look up toward heaven above,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-8-21__exodus-22-27",
+              "target": "Exodus 22:27",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Isaiah says the hungry will speak evil of the ruler and the cult images, and Exodus 22:27 commands, You shall not revile gods, neither shall you speak evil of the rulers. Both pair speaking evil of rulers with reviling divine objects.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "c68f249543f9be7c6bc65a3017158e088c3e9f1b08ba3b0e6cd46437b4d8d65e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "exodus/verses.json",
+                "blob_sha": "10d700d84ea79ee19c32481f88ebc6c3d046a975",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/exodus/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Exodus 22:27",
+                  "id": "v22-27",
+                  "text": "You shall not revile gods, neither shall you speak evil of the rulers of your people.",
+                  "text_sha256": "eb93bbd6a7a46239a9da9e77ae41db2b0c744d1928c4902f091b7e0ddb2fdba7"
+                }
+              ],
+              "target_passage_sha256": "ae853cdb80a33600d4ba6d7cab849279c9547d61579e114c90b94c0c3917e2a7",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 8:22",
@@ -8386,7 +8788,7 @@
     },
     {
       "chapter": 9,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 9,
         "section": 9,
@@ -8944,8 +9346,10 @@
           "id": "v9-10",
           "text": "God will dash those rising against Mount Zion upon them, and He will scatter their enemies,",
           "display_text": "God will dash those rising against Mount Zion upon them, and He will scatter their enemies,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says God will dash those rising against Mount Zion upon them and scatter their enemies. The leads narrate Assyrian conquests of Damascus and Israel or Aram's decline, and generic petitions about enemies rising against the speaker; none mentions those rising against Mount Zion or matches this action."
         },
         {
           "reference": "Isaiah 9:11",
@@ -9414,7 +9818,7 @@
     },
     {
       "chapter": 10,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 10,
         "section": 10,
@@ -9779,8 +10183,10 @@
           "id": "v10-8",
           "text": "If they say to him, “You alone are ruler,”",
           "display_text": "If they say to him, “You alone are ruler,”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit is the conditional clause, If they say to him, You alone are ruler. The leads give Assyrian taunts about governors, horses and Jerusalem, or titles of king of kings for Nebuchadnezzar; none contains the claim that he alone is ruler."
         },
         {
           "reference": "Isaiah 10:9",
@@ -10764,40 +11170,218 @@
           "id": "v10-28",
           "text": "For he will come to the city of Angai, pass into Magedo, and deposit his equipment in Machmas,",
           "display_text": "For he will come to the city of Angai, pass into Magedo, and deposit his equipment in Machmas,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-10-28__1-samuel-13-5",
+              "target": "1 Samuel 13:5",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Isaiah describes an invader depositing his equipment in Machmas, and 1 Samuel 13:5 has the foreigners' invading army camp at Michmash. Both use the same town as an invader's staging point, spelled Machmas and Michmash.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0e28f3733dbaf68a22728ab7f9bd238f6c250046f0a0dbaf5841964e3866d7b3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "1-samuel/verses.json",
+                "blob_sha": "e93bdeb6fc3aec4b2f1671e0e8663454737a8228",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/1-samuel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "1 Samuel 13:5",
+                  "id": "v13-5",
+                  "text": "The foreigners gathered for war against Israel. They went up against Israel with thirty thousand chariots, six thousand horsemen, and people as numerous as the sand by the sea. They went up and camped at Michmash, opposite Baithon toward the south.",
+                  "text_sha256": "3e0dfa59de6840e6c68eea5bc518e88264e89edb32e73851d7744994072fea02"
+                }
+              ],
+              "target_passage_sha256": "b39d5294094ce12a8ddb2fa29c7fa61d148657a00dc507f84ec1dc788b8c1a33",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "isaiah-10-28__ezra-2-27",
+              "target": "Ezra 2:27",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Ezra 2:27 lists the men of Machmas among the returning Israelites, the same town named in Isaiah 10:28 with the same spelling.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "0e28f3733dbaf68a22728ab7f9bd238f6c250046f0a0dbaf5841964e3866d7b3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezra/verses.json",
+                "blob_sha": "7556e4111c7d9cf947f31760284b62f5edca9302",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezra/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezra 2:27",
+                  "id": "v2-27",
+                  "text": "The men of Machmas: one hundred and twenty-two.",
+                  "text_sha256": "ae0f4000cbfab99affc933e526d41de1e2314c0dd1cc027811f8732e446455b2"
+                }
+              ],
+              "target_passage_sha256": "ce11b57bf7610c5c41154b5b86a69ed30dbe5e945cde913564ce18ad6310553d",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 10:29",
           "id": "v10-29",
           "text": "cross a ravine and come to Angai. Fear will seize Rama, Saul’s city; she will flee—",
           "display_text": "cross a ravine and come to Angai. Fear will seize Rama, Saul’s city; she will flee—",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "Re-reviewed with fresh leads; the proposed link did not survive a second reading: In the shown Zechariah 14:10, 'Rama will remain in its place, from Benjamin's Gate to the place of the First Gate... to the king's wine vats' gives the extent of Jerusalem itself, marked by its gates. It is not the town of Rama north of Jerusalem, so the rationale's identification is unsupported. The shown Isaiah 10:29 also has no Gabe."
         },
         {
           "reference": "Isaiah 10:30",
           "id": "v10-30",
           "text": "Daughter Gallim. Laisa will listen, Anathoth will listen.",
           "display_text": "Daughter Gallim. Laisa will listen, Anathoth will listen.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-10-30__jeremiah-1-1",
+              "target": "Jeremiah 1:1",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Isaiah 10:30 names Anathoth among towns on the invader's route, and Jeremiah 1:1 locates Anathoth in the land of Benjamin. Both refer to the same Benjaminite town.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7edcf6545639eef89c5cf2f6031a06a6b5bc613302049724b514f40948a8af34",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 1:1",
+                  "id": "v1-1",
+                  "text": "The word of God that came upon Jeremiah son of Hilkiah, one of the priests, who lived in Anathoth in the land of Benjamin,",
+                  "text_sha256": "c6b3043bdfa8ac8cdc37289dca9ba40676dd51159ccbc8ac46fb0772765a85a3"
+                }
+              ],
+              "target_passage_sha256": "5d5862a60e7b1a45ed3df4acd64645535cce359aaabc2e63f426414f086dff1a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "isaiah-10-30__joshua-21-18",
+              "target": "Joshua 21:18",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Joshua 21:18 lists Anathoth among the cities with allotted lands, the same town named in Isaiah 10:30.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "7edcf6545639eef89c5cf2f6031a06a6b5bc613302049724b514f40948a8af34",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "joshua/verses.json",
+                "blob_sha": "20323ec8aab28987867dca2e8102276d626ad33e",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joshua/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Joshua 21:18",
+                  "id": "v21-18",
+                  "text": "Anathoth with its allotted lands, and Gamala with its allotted lands: four cities.",
+                  "text_sha256": "1009632135d06d08a63d5c9be2d61dad8143c7885e5c67f0bd2b2a0c4bfe4ab4"
+                }
+              ],
+              "target_passage_sha256": "baf86ccb4e675da5fd7b0001911030653c340c5eb8b2c0348b8a7e2bfcb1b810",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 10:31",
           "id": "v10-31",
           "text": "Madebena and Gibbir’s residents were distraught. Offer encouragement,",
           "display_text": "Madebena and Gibbir’s residents were distraught. Offer encouragement,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit names Madebena and Gibbir, whose residents were distraught, with a call to offer encouragement. Neither place appears in the leads, which give a different town list (Ziklag, Macharim) or unrelated uses of 'distraught' for Hamath and Arpad, Eli, David's house and envoys."
         },
         {
           "reference": "Isaiah 10:32",
           "id": "v10-32",
           "text": "today along the way, to remain; with the hand offer encouragement, the mountain, Daughter Zion, and the hills in Jerusalem.",
           "display_text": "today along the way, to remain; with the hand offer encouragement, the mountain, Daughter Zion, and the hills in Jerusalem.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-10-32__isaiah-10-24",
+              "target": "Isaiah 10:24",
+              "verdict": "supported",
+              "relationship": "same oracle",
+              "rationale": "Isaiah 10:32 calls for encouragement to Daughter Zion and Jerusalem's hills, and Isaiah 10:24 tells My people dwelling in Zion not to fear the Assyrians. Both address Zion during the same Assyrian advance.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1cc1da73ed345679e20984fdb7b600652e275f82f1181954abe080734b568c6f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 10:24",
+                  "id": "v10-24",
+                  "text": "Therefore thus says the Lord Sabaoth: “Do not fear the Assyrians, My people dwelling in Zion, because he will strike you with a rod; for I bring a blow upon you to see Egypt’s way.",
+                  "text_sha256": "d531ee5ece822dbb42e4ea367e1ccc5f6270c1c2bc7b3a78635b62f596013373"
+                }
+              ],
+              "target_passage_sha256": "6c9d61bdb3d095a3d8272d2929a7c139725e6cc3c79a6f536a17bef0fac364fa",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "isaiah-10-32__isaiah-37-22",
+              "target": "Isaiah 37:22",
+              "verdict": "supported",
+              "relationship": "parallel wording",
+              "rationale": "Both name Daughter Zion together with Jerusalem. Isaiah 10:32 speaks of 'the mountain, Daughter Zion, and the hills in Jerusalem', and in Isaiah 37:22 'Virgin daughter Zion despised and sneered at you; daughter Jerusalem shook her head over you.' Both belong to Isaiah's oracles on the Assyrian threat to Jerusalem.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "1cc1da73ed345679e20984fdb7b600652e275f82f1181954abe080734b568c6f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 37:22",
+                  "id": "v37-22",
+                  "text": "This is the word God spoke concerning him: Virgin daughter Zion despised and sneered at you; daughter Jerusalem shook her head over you.",
+                  "text_sha256": "9ce62bb735b4bda728cfc525e811ccdd5dacd4647604feb48a99c7f39a172694"
+                }
+              ],
+              "target_passage_sha256": "66217929954cb43f2d1c22cddccb75c298c1ce53dd2f82cb9de31a273518f124",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 10:33",
@@ -14748,7 +15332,7 @@
     },
     {
       "chapter": 15,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 15,
         "section": 15,
@@ -15054,16 +15638,66 @@
           "id": "v15-7",
           "text": "Surely she is not going to be saved even so? For I will bring Arabs upon the ravine, and they will take her.",
           "display_text": "Surely she is not going to be saved even so? For I will bring Arabs upon the ravine, and they will take her.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit asks whether Moab will be saved and announces that Arabs will be brought upon the ravine to take her. No text shown names Arabs coming against Moab or a ravine taken; the Moab laments speak of lost acquisitions and other passages concern lions, seizing, spoils or Arabs bringing gifts to Jehoshaphat, so only general words of seizing and saving are shared."
         },
         {
           "reference": "Isaiah 15:8",
           "id": "v15-8",
           "text": "For the cry has reached Moab’s border at Agallim, and her wailing extends to Ailim’s well.",
           "display_text": "For the cry has reached Moab’s border at Agallim, and her wailing extends to Ailim’s well.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-15-8__isaiah-15-2-5",
+              "target": "Isaiah 15:2-5",
+              "verdict": "supported",
+              "relationship": "same lament",
+              "rationale": "Within the same lament over Moab, the cry of Moab is described as reaching named places: Hesebon and Eleale cry out and their voice was heard as far as Iassa, and Moab's heart cries as far as Segor. Isaiah 15:8 continues this image with the cry reaching Moab's border at Agallim and the wailing extending to Ailim's well.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "914dda4e5d4b08b9d545afbd901df59f6d7b26bffbd7a9e90590b78b48a6efa3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 15:2",
+                  "id": "v15-2",
+                  "text": "Grieve over yourselves, for Debon too will perish. Where your altar is, there you will go up to weep. Over Nabau of Moab’s country, wail: baldness upon every head, every arm cut.",
+                  "text_sha256": "0e335bce39510929695ca6a1677c78802c5cddde8abee4632a7a21b317d0cc1e"
+                },
+                {
+                  "reference": "Isaiah 15:3",
+                  "id": "v15-3",
+                  "text": "In her squares put on sackcloth and beat yourselves in mourning; upon her roofs and in her lanes all of you wail with weeping.",
+                  "text_sha256": "35174222485acca52e6b717e2c9253b854a416a65b5ef4fb75dead5e5b47e940"
+                },
+                {
+                  "reference": "Isaiah 15:4",
+                  "id": "v15-4",
+                  "text": "For Hesebon and Eleale have cried out; their voice was heard as far as Iassa. Therefore Moab’s loins cry out; her soul will know.",
+                  "text_sha256": "19cc0273cf9e377b5fe879819cce5bbe665fda2a63bc908c3ae402ea275bec36"
+                },
+                {
+                  "reference": "Isaiah 15:5",
+                  "id": "v15-5",
+                  "text": "Moab’s heart cries within her as far as Segor, for she is a three-year-old heifer. On Louith’s ascent they will go up toward you weeping; along Aroniim’s road destruction and shaking cry out.",
+                  "text_sha256": "442d01ce2a4656c8a4450a47797b3a3d8cff148995ce57cc1c41c9597a4cf1a2"
+                }
+              ],
+              "target_passage_sha256": "debe7d4b3b50c75c5178ef8a9bfcd35c82763bfe59791a63211eae0b91f7bd83",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 15:9",
@@ -15122,7 +15756,7 @@
     },
     {
       "chapter": 16,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 16,
         "section": 16,
@@ -15137,8 +15771,10 @@
           "id": "v16-1",
           "text": "I will send them like creeping creatures upon the earth. Surely Mount Zion is not a deserted rock?",
           "display_text": "I will send them like creeping creatures upon the earth. Surely Mount Zion is not a deserted rock?",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit speaks of being sent like creeping creatures upon the earth and asks whether Mount Zion is a deserted rock. The texts shown concern Moab's lamb tribute, Edom's Rock, sacrificial lambs, creeping things in creation and law, or Zion's deserted places being comforted; none shares the creeping-creature sending or the question about Mount Zion as a deserted rock."
         },
         {
           "reference": "Isaiah 16:2",
@@ -15230,8 +15866,10 @@
           "id": "v16-4",
           "text": "Moab’s fugitives will sojourn with you; they will be a shelter for you from the pursuer, because your alliance was removed, and the ruler trampling the earth perished.",
           "display_text": "Moab’s fugitives will sojourn with you; they will be a shelter for you from the pursuer, because your alliance was removed, and the ruler trampling the earth perished.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says Moab's fugitives will sojourn with the addressee and be a shelter from the pursuer, because the alliance was removed and the ruler trampling the earth perished. The texts shown speak of a taskmaster resting, an oppressor's anger, trampling the lawless or Moab trampled, and sheltering under God's wings; none presents Moab's fugitives as shelter or the perishing of a ruler trampling the earth in shared wording."
         },
         {
           "reference": "Isaiah 16:5",
@@ -15677,7 +16315,7 @@
     },
     {
       "chapter": 17,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 17,
         "section": 17,
@@ -16211,8 +16849,10 @@
           "id": "v17-11",
           "text": "on the day you plant, you will wander. In the morning, if you sow, it will blossom for harvest on whatever day you allot, and like a human father you will allot to your sons.",
           "display_text": "on the day you plant, you will wander. In the morning, if you sow, it will blossom for harvest on whatever day you allot, and like a human father you will allot to your sons.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit pairs wandering on the day of planting with morning sowing that blossoms for harvest on an allotted day, likened to a human father allotting to sons. The texts shown share only common agricultural words (sow, blossom, harvest) used for reaping trouble, fading grass or a fresh shoot; none has the allotment or the father-to-sons comparison."
         },
         {
           "reference": "Isaiah 17:12",
@@ -16356,7 +16996,7 @@
     },
     {
       "chapter": 18,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 18,
         "section": 18,
@@ -16371,16 +17011,76 @@
           "id": "v18-1",
           "text": "Woe, wings of a land of ships, beyond Ethiopia’s rivers,",
           "display_text": "Woe, wings of a land of ships, beyond Ethiopia’s rivers,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-18-1__zephaniah-3-10",
+              "target": "Zephaniah 3:10",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both texts use the distinctive geographic phrase 'Ethiopia's rivers' for the distant southern region: Isaiah speaks of a land 'beyond Ethiopia's rivers', and Zephaniah of 'the far reaches of Ethiopia's rivers', from which sacrifices will be brought.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "3d29d526197c1296d1eec0d4e3b55e3b1107dfd8b1be3f98cf5e050dbc54e457",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "zephaniah/verses.json",
+                "blob_sha": "0c97c5b11c38e2daddb34710025bd1e1454ca2c6",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/zephaniah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Zephaniah 3:10",
+                  "id": "v3-10",
+                  "text": "From the far reaches of Ethiopia’s rivers they will bring sacrifices to Me.",
+                  "text_sha256": "cd05398f25a569f54a4d0e655aad46eeb60b3403a040bd23d8285ae41ba47d4e"
+                }
+              ],
+              "target_passage_sha256": "a7e827844b7741abba44558f69b8db599daf72935079da14844fb098aae05821",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 18:2",
           "id": "v18-2",
           "text": "the one sending hostages by sea and papyrus letters over the water! For swift messengers will go to a lofty nation and a foreign and harsh people—who is beyond it?—a hopeless and trampled nation. Now the land’s rivers,",
           "display_text": "the one sending hostages by sea and papyrus letters over the water! For swift messengers will go to a lofty nation and a foreign and harsh people—who is beyond it?—a hopeless and trampled nation. Now the land’s rivers,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-18-2__isaiah-18-7",
+              "target": "Isaiah 18:7",
+              "verdict": "supported",
+              "relationship": "same people",
+              "rationale": "Later in the same oracle the same distant nation is described again with the paired terms 'trampled nation' and a reference to its land's river. Isaiah 18:2 calls it 'a hopeless and trampled nation' while 18:7 has 'a hoping and trampled nation', a notable difference in the first adjective.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "4ead4bfe17678fc2a11199a8948062bffdfe0170a2bf1b4cbff4087c1c932513",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 18:7",
+                  "id": "v18-7",
+                  "text": "At that time gifts will be brought to the Lord Sabaoth from a people afflicted and plucked, and from a great people from now on and for everlasting time—a hoping and trampled nation, which is in a part of its country’s river—to the place where the Lord Sabaoth’s name was called, Mount Zion.",
+                  "text_sha256": "b716b7f678a3057ff992a9f2bc18de7592727647ecff26fb5a31856c7c5dd35f"
+                }
+              ],
+              "target_passage_sha256": "38b453ff8f6c07f152e1123246248539cc8c03f310e90266c9234656ac56b3fe",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 18:3",
@@ -16631,7 +17331,7 @@
     },
     {
       "chapter": 19,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 19,
         "section": 19,
@@ -17075,8 +17775,10 @@
           "id": "v19-10",
           "text": "and those warping them will be in pain, and all who make beer will be grieved and suffer in their souls.",
           "display_text": "and those warping them will be in pain, and all who make beer will be grieved and suffer in their souls.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes grief among those warping cloth and all who make beer in Egypt. The texts shown concern Egypt's rivers, canals and marshes during the plagues, watering Egypt's land by foot, or general pain and suffering; none mentions these trades or their grief."
         },
         {
           "reference": "Isaiah 19:11",
@@ -17773,7 +18475,7 @@
     },
     {
       "chapter": 20,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 20,
         "section": 20,
@@ -17788,8 +18490,10 @@
           "id": "v20-1",
           "text": "In the year Tanathan entered Azotus, when he was sent by Arna king of the Assyrians and fought Azotus and seized it,",
           "display_text": "In the year Tanathan entered Azotus, when he was sent by Arna king of the Assyrians and fought Azotus and seized it,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit dates an Assyrian capture of Azotus by Tanathan, sent by Arna king of the Assyrians. The Azotus texts shown concern other events (Uzziah breaking its walls, prophetic threats, the ark at Ashdod), and the Assyrian envoy Tharthan in 2 Kings is sent against Jerusalem, not Azotus, under a king not named Arna; no text gives this campaign or these persons."
         },
         {
           "reference": "Isaiah 20:2",
@@ -18039,7 +18743,7 @@
     },
     {
       "chapter": 21,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 21,
         "section": 21,
@@ -18585,8 +19289,10 @@
           "id": "v21-13",
           "text": "in the wood you will sleep at evening, on Daidan’s road.”",
           "display_text": "in the wood you will sleep at evening, on Daidan’s road.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit pictures sleeping in the wood at evening on Daidan's road. Texts naming Daidan or Dedan give genealogies, merchants or a list of peoples to be judged, without this road or lodging, and the passage about sleeping in the woods describes secure dwelling under a covenant of peace rather than travellers forced to lodge on Daidan's road."
         },
         {
           "reference": "Isaiah 21:14",
@@ -18748,7 +19454,7 @@
     },
     {
       "chapter": 22,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 22,
         "section": 22,
@@ -18763,16 +19469,20 @@
           "id": "v22-1",
           "text": "The utterance of Zion’s ravine. What happened to you now, that you all went up to the roofs,",
           "display_text": "The utterance of Zion’s ravine. What happened to you now, that you all went up to the roofs,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit opens the utterance of Zion's ravine by asking why all went up to the roofs. The texts shown concern other valleys (Sor, Jehoshaphat, Judgment), mountains around Jerusalem, or Moabite wailing on roofs, and the remaining ones share only the word 'utterance'; none addresses this ascent to the roofs in Zion's ravine."
         },
         {
           "reference": "Isaiah 22:2",
           "id": "v22-2",
           "text": "the futile roofs? The city was filled with people crying out. Your wounded were not wounded by a sword, nor did your dead die in war.",
           "display_text": "the futile roofs? The city was filled with people crying out. Your wounded were not wounded by a sword, nor did your dead die in war.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit describes futile roofs, a city full of crying, and wounded and dead not slain by sword or in war. The texts shown describe cities full of the sword-slain, famine, or feasting before death, or use crying and wounds in unrelated settings; none states that the city's dead did not die by sword or in war."
         },
         {
           "reference": "Isaiah 22:3",
@@ -19002,8 +19712,10 @@
           "id": "v22-8",
           "text": "and they will uncover Judah’s gates and look on that day into the city’s choice houses,",
           "display_text": "and they will uncover Judah’s gates and look on that day into the city’s choice houses,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says Judah's gates will be uncovered and the city's choice houses looked into on that day. The texts shown concern Solomon's House of the Forest and its shields, armour on David's tower, Rehoboam's shields, the Assyrian envoy at Jerusalem, or gates and houses in unrelated laws and promises; none corresponds to this uncovering of gates and inspection of choice houses."
         },
         {
           "reference": "Isaiah 22:9",
@@ -19757,7 +20469,7 @@
     },
     {
       "chapter": 23,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 23,
         "section": 23,
@@ -19910,8 +20622,10 @@
           "id": "v23-4",
           "text": "“Be ashamed, Sidon,” said the sea; and the sea’s strength said, “I did not labor or give birth or rear young men or raise maidens.”",
           "display_text": "“Be ashamed, Sidon,” said the sea; and the sea’s strength said, “I did not labor or give birth or rear young men or raise maidens.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit has the sea and the sea's strength tell Sidon to be ashamed, saying it did not labor, give birth or rear young men and maidens. The texts shown name Sidon in genealogies and borders or in general judgments on Tyre and Sidon, or use birth and young-men-and-maidens language in unrelated contexts; none shares the sea's denial of bearing and rearing children."
         },
         {
           "reference": "Isaiah 23:5",
@@ -20468,8 +21182,10 @@
           "id": "v23-16",
           "text": "“Take a lyre, wander through cities, forgotten prostitute! Play the lyre well, sing much, so that you may be remembered.”",
           "display_text": "“Take a lyre, wander through cities, forgotten prostitute! Play the lyre well, sing much, so that you may be remembered.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit tells a forgotten prostitute to take a lyre, wander through cities and sing so she may be remembered. The texts shown speak of forgotten friends, a prostitute roaming streets in Proverbs, or lyres in worship and music generally; none combines the forgotten prostitute with lyre-playing for remembrance."
         },
         {
           "reference": "Isaiah 23:17",
@@ -23220,7 +23936,7 @@
     },
     {
       "chapter": 27,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 27,
         "section": 27,
@@ -23437,8 +24153,10 @@
           "id": "v27-4",
           "text": "There is none who has not seized her. Who will set me to guard stubble in a field? Because of this hostility I rejected her.” Therefore, for this reason the Lord God has done everything He commanded. “I have been burned!”",
           "display_text": "There is none who has not seized her. Who will set me to guard stubble in a field? Because of this hostility I rejected her.” Therefore, for this reason the Lord God has done everything He commanded. “I have been burned!”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit, with shifting speakers, speaks of seizure, guarding stubble in a field, rejection because of hostility, the Lord doing what He commanded, and a cry of being burned. The texts shown share only general images of fire consuming grass, chaff or thorns, cessation of wrath, or the verb 'seize' in narrative; none matches the stubble-guarding question or this sequence."
         },
         {
           "reference": "Isaiah 27:5",
@@ -23583,8 +24301,10 @@
           "id": "v27-8",
           "text": "Fighting and reproaching, he will send them away. Wast Thou not the One planning with a harsh spirit to destroy them with a spirit of wrath?",
           "display_text": "Fighting and reproaching, he will send them away. Wast Thou not the One planning with a harsh spirit to destroy them with a spirit of wrath?",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says he will send them away fighting and reproaching, and asks whether God planned with a harsh spirit to destroy them with a spirit of wrath. The texts shown speak of a scorching wind, discipline in judgment, or wrath turned away; none shares the sending away with reproach or the harsh spirit of destruction in common wording."
         },
         {
           "reference": "Isaiah 27:9",
@@ -23880,7 +24600,7 @@
     },
     {
       "chapter": 28,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 28,
         "section": 28,
@@ -24784,8 +25504,10 @@
           "id": "v28-20",
           "text": "Cramped, we cannot fight, and we ourselves are too weak to be gathered.",
           "display_text": "Cramped, we cannot fight, and we ourselves are too weak to be gathered.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says, 'Cramped, we cannot fight, and we ourselves are too weak to be gathered.' The texts shown concern wind carrying people off, useless webs, false trust, or ordinary statements about being unable to fight; none shares the cramped condition or the weakness to be gathered."
         },
         {
           "reference": "Isaiah 28:21",
@@ -25063,8 +25785,10 @@
           "id": "v28-27",
           "text": "For black cumin is not cleaned with harshness, nor will a wagon wheel roll over cumin; black cumin is shaken out with a rod, but cumin",
           "display_text": "For black cumin is not cleaned with harshness, nor will a wagon wheel roll over cumin; black cumin is shaken out with a rod, but cumin",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit distinguishes processing black cumin with a rod from cumin, neither being crushed harshly or by a wagon wheel. The texts shown use threshing wheels as images of judgment, mention a wagon rolling or tithing cumin, or speak of discipline in judgment; none sets out this differentiated handling of the two herbs."
         },
         {
           "reference": "Isaiah 28:28",
@@ -25110,14 +25834,72 @@
           "id": "v28-29",
           "text": "These wonders too came from the Lord Sabaoth. Take counsel; raise up futile consolation!",
           "display_text": "These wonders too came from the Lord Sabaoth. Take counsel; raise up futile consolation!",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-28-29__isaiah-30-7",
+              "target": "Isaiah 30:7",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both Isaiah texts use the phrase of futile consolation: Isaiah 28:29 ends 'raise up futile consolation!' and Isaiah 30:7 says 'This consolation of yours is futile.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "777e6704d81ebdec5a7e7b331fdfd07a39c2df8f0d2964d09df9e63eddf2fa2b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 30:7",
+                  "id": "v30-7",
+                  "text": "Egyptians will benefit you with futile and empty things. Announce to them, “This consolation of yours is futile.”",
+                  "text_sha256": "4bf8a97f1c9b7d08f01b833309f4b1711913efd118566a8856f91981bdfe33aa"
+                }
+              ],
+              "target_passage_sha256": "f5b9688a09b271066ac9261eca62927cf969d4679072a8a09f4b6003c9ae2f16",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "isaiah-28-29__isaiah-8-18",
+              "target": "Isaiah 8:18",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both texts speak of wonders coming from the Lord Sabaoth: 'These wonders too came from the Lord Sabaoth' and 'signs and wonders in Israel's house, from the Lord Sabaoth'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "777e6704d81ebdec5a7e7b331fdfd07a39c2df8f0d2964d09df9e63eddf2fa2b",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 8:18",
+                  "id": "v8-18",
+                  "text": "Behold, I and the children God gave me—and it will be for signs and wonders in Israel’s house, from the Lord Sabaoth, who dwells on Mount Zion.",
+                  "text_sha256": "ed0d4a74fe5a84cab08df45241772e4a410054c1400464bab9957ff1f00cbfa9"
+                }
+              ],
+              "target_passage_sha256": "fdb4921f7869c801b4626219af37243521039f7bd61ed4fdfc786b10b562efa3",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         }
       ]
     },
     {
       "chapter": 29,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 29,
         "section": 29,
@@ -25192,8 +25974,10 @@
           "id": "v29-2",
           "text": "For I will press Ariel hard, and her strength and wealth will be Mine.",
           "display_text": "For I will press Ariel hard, and her strength and wealth will be Mine.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit has the Lord pressing Ariel hard and claiming her strength and wealth as His. The texts shown describe the Lord destroying strongholds, a mother lacking strength to give birth, Zion's hills, mourning adornment or a sacrifice in Bosor, and other passages use 'press hard' of unrelated persons; none names Ariel or this claim on her strength and wealth."
         },
         {
           "reference": "Isaiah 29:3",
@@ -29253,7 +30037,7 @@
     },
     {
       "chapter": 33,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 33,
         "section": 33,
@@ -29399,8 +30183,10 @@
           "id": "v33-4",
           "text": "Now your spoils, small and great, will be gathered; as someone gathers locusts, so they will mock you.",
           "display_text": "Now your spoils, small and great, will be gathered; as someone gathers locusts, so they will mock you.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit compares gathering spoils small and great to gathering locusts, followed by mockery. The texts shown describe plundering spoils in battle, locusts as a devouring force, or recovering spoil 'from small to great'; none uses the locust-gathering comparison for spoils or the accompanying mockery."
         },
         {
           "reference": "Isaiah 33:5",
@@ -29566,8 +30352,10 @@
           "id": "v33-8",
           "text": "For their roads will be deserted; fear of the nations has ceased, the covenant with these people is removed, and you will certainly not reckon them as human beings.",
           "display_text": "For their roads will be deserted; fear of the nations has ceased, the covenant with these people is removed, and you will certainly not reckon them as human beings.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit joins deserted roads, the ceasing of fear of the nations, a removed covenant and people not reckoned as human beings. The texts shown describe travellers using twisted roads, Zion's mourning roads, Assyrian boasting or deserted cities refilled; each shares at most a single general element and none the combined statement."
         },
         {
           "reference": "Isaiah 33:9",
@@ -30148,8 +30936,44 @@
           "id": "v33-19",
           "text": "a people small and great?” With whom they did not deliberate, nor did he know a deep voice, so that a despised people would not hear; the hearer has no understanding.",
           "display_text": "a people small and great?” With whom they did not deliberate, nor did he know a deep voice, so that a despised people would not hear; the hearer has no understanding.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-33-19__ezekiel-3-5-6",
+              "target": "Ezekiel 3:5-6",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both texts describe deep speech that hearers cannot understand: Isaiah speaks of not knowing 'a deep voice' and of a hearer who 'has no understanding', while Ezekiel speaks of 'a people of deep speech and heavy tongue' whose words 'you will not understand'. Ezekiel applies this to peoples the prophet is not sent to, a different setting.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "adfb1fc8ea611762810c40e5bfc21fadb01441c6271408e984094a93cb4ae9bb",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "ezekiel/verses.json",
+                "blob_sha": "b0ef2643ca9eec85f56f1b44e516672ca81e8b3d",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/ezekiel/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Ezekiel 3:5",
+                  "id": "v3-5",
+                  "text": "for you are not sent out to a people of deep speech and heavy tongue, but to the house of Israel,",
+                  "text_sha256": "06a20621aa3178039d7b6d287662f39389018d439c3f32a1288636fbd6cfdd72"
+                },
+                {
+                  "reference": "Ezekiel 3:6",
+                  "id": "v3-6",
+                  "text": "nor to many peoples of foreign speech or foreign tongues, nor those strong in tongue whose words you will not understand. If I had sent you to such people, they would have listened to you.",
+                  "text_sha256": "08b63a67efc370ce43aaeafbb27e2359789e6483621a03e1d0018e20feb6f58f"
+                }
+              ],
+              "target_passage_sha256": "0adb97ee299246a0533ab00684bdbb578f3a6d1e04246a733da089e0a594e51b",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 33:20",
@@ -37312,7 +38136,7 @@
     },
     {
       "chapter": 41,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 41,
         "section": 41,
@@ -37405,8 +38229,10 @@
           "id": "v41-3",
           "text": "He will pursue them, and the way of his feet will pass through in peace.",
           "display_text": "He will pursue them, and the way of his feet will pass through in peace.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says an unnamed figure will pursue them and the way of his feet will pass through in peace. The texts shown concern burial in peace, a peaceful house, or the exhortation to seek and pursue peace; none describes this pursuit and peaceful passage, and the figure is not identified in any of them."
         },
         {
           "reference": "Isaiah 41:4",
@@ -38354,8 +39180,10 @@
           "id": "v41-21",
           "text": "Your judgment draws near, says the Lord God; your plans have drawn near, says Jacob’s King.",
           "display_text": "Your judgment draws near, says the Lord God; your plans have drawn near, says Jacob’s King.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says, from the Lord God and Jacob's King, that 'your judgment draws near' and 'your plans have drawn near'. The texts shown are Job's challenges to answer, Job stating his case, Micah's lawsuit, or uses of 'draw near' about Jacob and Esau; none shares the drawing near of judgment and plans under the title Jacob's King."
         },
         {
           "reference": "Isaiah 41:22",
@@ -38736,7 +39564,7 @@
     },
     {
       "chapter": 42,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 42,
         "section": 42,
@@ -39813,8 +40641,10 @@
           "id": "v42-23",
           "text": "Who among you will give ear to these things and listen for what is coming?",
           "display_text": "Who among you will give ear to these things and listen for what is coming?",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit asks who among them will give ear and listen for what is coming. The texts shown are general calls to listen or laments that people did not listen; none shares this question about attending to coming things beyond the common vocabulary of hearing."
         },
         {
           "reference": "Isaiah 42:24",
@@ -39928,7 +40758,7 @@
     },
     {
       "chapter": 43,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 43,
         "section": 43,
@@ -40656,8 +41486,38 @@
           "id": "v43-15",
           "text": "I am the Lord God, your Holy One, who presented Israel as your king.”",
           "display_text": "I am the Lord God, your Holy One, who presented Israel as your king.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-43-15__isaiah-43-3",
+              "target": "Isaiah 43:3",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "In the same chapter God declares, 'I am the Lord your God, Israel's Holy One', closely matching 'I am the Lord God, your Holy One' here. Isaiah 43:3 continues with God saving Israel, whereas 43:15 adds that God presented Israel as your king.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "db28ea22b94742f68c04ee8adf1f8f57cf9ee69b2475ad02196abfdd78375ab3",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 43:3",
+                  "id": "v43-3",
+                  "text": "For I am the Lord your God, Israel’s Holy One, who saves you. I made Egypt your exchange, and Ethiopia and Soene on your behalf.",
+                  "text_sha256": "9421c2a176f46319c30effed4d0590c0cab6fd56ad231fc06758de6878241e78"
+                }
+              ],
+              "target_passage_sha256": "8c01b25ef1713b99e2b402b40f0332e33529eb3d090776472a3f60c2fb2fe50d",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 43:16",
@@ -41366,7 +42226,7 @@
     },
     {
       "chapter": 44,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 44,
         "section": 44,
@@ -41856,8 +42716,10 @@
           "id": "v44-11",
           "text": "and all from whom they came have dried up. Let the deaf from among humankind all assemble and stand together; let them be abashed and ashamed together.",
           "display_text": "and all from whom they came have dried up. Let the deaf from among humankind all assemble and stand together; let them be abashed and ashamed together.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit joins the drying up of those from whom they came with the deaf among humankind assembling and standing abashed and ashamed together. The texts shown share only the common formula of being ashamed and abashed, applied to idolaters or enemies; none contains the dried-up origins or the deaf assembling."
         },
         {
           "reference": "Isaiah 44:12",
@@ -42725,7 +43587,7 @@
     },
     {
       "chapter": 45,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 45,
         "section": 45,
@@ -43244,16 +44106,20 @@
           "id": "v45-10",
           "text": "The one saying to the father, ‘What will you father?’ and to the mother, ‘What will you bring forth in labor?’",
           "display_text": "The one saying to the father, ‘What will you father?’ and to the mother, ‘What will you bring forth in labor?’",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit quotes questions put to a father ('What will you father?') and a mother ('What will you bring forth in labor?'). The texts shown concern honouring father and mother, divine fatherhood, a mother's labor pains, or parents bringing matters before elders; none contains these questions about what parents will produce."
         },
         {
           "reference": "Isaiah 45:11",
           "id": "v45-11",
           "text": "For thus says the Lord God, Israel’s Holy One, who made what is coming: “Ask Me about My sons and My daughters, and command Me concerning the works of My hands.",
           "display_text": "For thus says the Lord God, Israel’s Holy One, who made what is coming: “Ask Me about My sons and My daughters, and command Me concerning the works of My hands.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit invites the hearers to ask God about His sons and daughters and to command Him concerning the works of His hands. The texts shown use common phrases (Israel's Holy One, the work of Thy hands, children seeing God's works) or general calls to prayer; none shares the invitation to ask and command about God's sons, daughters and works."
         },
         {
           "reference": "Isaiah 45:12",
@@ -44600,7 +45466,7 @@
     },
     {
       "chapter": 47,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 47,
         "section": 47,
@@ -45251,8 +46117,10 @@
           "id": "v47-15",
           "text": "These will be your help! You toiled in your trade from youth; each person wandered on his own, but there will be no salvation for you.”",
           "display_text": "These will be your help! You toiled in your trade from youth; each person wandered on his own, but there will be no salvation for you.”",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit tells Babylon her helpers, with whom she toiled in trade from youth, have each wandered on his own and there is no salvation for her. The texts shown describe fleeing Babylon, self-seeking leaders, Egypt's toil and trade, or toil from youth in a psalm; none shares the failed trading helpers wandering away, beyond single common words."
         }
       ]
     },
@@ -48134,7 +49002,7 @@
     },
     {
       "chapter": 51,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 51,
         "section": 51,
@@ -48792,8 +49660,10 @@
           "id": "v51-14",
           "text": "For as you are saved, it will not stand or linger.",
           "display_text": "For as you are saved, it will not stand or linger.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says only that as you are saved, it will not stand or linger, with no stated referent. The texts shown speak of captives freed, rescue from Babylon, a waterless pit, or something that will not linger, but none shares a definite referent or this statement, so no specific connection can be fixed."
         },
         {
           "reference": "Isaiah 51:15",
@@ -49982,7 +50852,7 @@
     },
     {
       "chapter": 53,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 53,
         "section": 53,
@@ -50560,8 +51430,56 @@
           "id": "v53-10",
           "text": "And the Lord desires to cleanse him of his affliction. If you give an offering for sin, your soul will see seed that lives long. And the Lord desires to take him away",
           "display_text": "And the Lord desires to cleanse him of his affliction.\nIf you give an offering for sin,\nyour soul will see seed that lives long.\nAnd the Lord desires to take him away",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-53-10__isaiah-53-3-6",
+              "target": "Isaiah 53:3-6",
+              "verdict": "supported",
+              "relationship": "same figure",
+              "rationale": "Both passages in the same song speak of the same afflicted figure and of the Lord acting toward him. Earlier he is 'a man under affliction' and 'the Lord delivered him over to our sins'; here 'the Lord desires to cleanse him of his affliction'. The two describe different divine actions toward his affliction.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "e91816cca2a4c73f85a9fc907e7ab7dab7237ad1ef2742b46ea084e860c2326e",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "isaiah/verses.json",
+                "blob_sha": "9a3da0d8d542bf9ba459c64d687feb66a9fec1df",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/isaiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Isaiah 53:3",
+                  "id": "v53-3",
+                  "text": "But his form was without honour, fallen below all men: a man under affliction, and knowing how to bear sickness. For his face has been turned away; he was dishonoured and held of no account.",
+                  "text_sha256": "b97e5ca7fe0414774e2a5975099efea79d641c893c5e5c1d92cec23918961faf"
+                },
+                {
+                  "reference": "Isaiah 53:4",
+                  "id": "v53-4",
+                  "text": "He bears our sins, and suffers pain for us; yet we reckoned him to be in toil and affliction and distress.",
+                  "text_sha256": "820cd718638ca4fc58fde066d59bbf17b4d7c2b16b8774f23311962428cda147"
+                },
+                {
+                  "reference": "Isaiah 53:5",
+                  "id": "v53-5",
+                  "text": "But he was wounded for our iniquities, and has been weakened for our sins. The chastisement of our peace was upon him; by his bruise we were healed.",
+                  "text_sha256": "fe6c9c8817112aee16e62e231f650efa72d0e1e62b2380d5f24cbfc509cba874"
+                },
+                {
+                  "reference": "Isaiah 53:6",
+                  "id": "v53-6",
+                  "text": "We all, like sheep, have gone astray; each person has strayed in his own way. And the Lord delivered him over to our sins.",
+                  "text_sha256": "cce5926ce0bab585b552a1dbbfa30c121d9f6de478e08ea3aa9462b745a59ef7"
+                }
+              ],
+              "target_passage_sha256": "af5a58db9e34791ddf6e66fae98ba04811b8ff47e20288b5c6135cf99b95c078",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 53:11",
@@ -50688,7 +51606,7 @@
     },
     {
       "chapter": 54,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 54,
         "section": 54,
@@ -51212,16 +52130,76 @@
           "id": "v54-11",
           "text": "Humbled and unsettled woman, you were not comforted! Behold, I am preparing carbuncle as your stone and sapphire as your foundations,",
           "display_text": "Humbled and unsettled woman, you were not comforted! Behold, I am preparing carbuncle as your stone and sapphire as your foundations,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-54-11__revelation-21-19",
+              "target": "Revelation 21:19",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both texts describe a city's foundations made with precious stones including sapphire: Isaiah promises 'sapphire as your foundations', and Revelation lists 'the second sapphire' among the foundations of the city's wall. Isaiah also names carbuncle, which Revelation's list does not include.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "9d8877e74bff1564a01dad9ec82754ec7e57a55be469a6d48933d56ec44d4189",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 21:19",
+                  "id": "v21-19",
+                  "text": "The foundations of the wall of the city were adorned with every precious stone: the first foundation jasper, the second sapphire, the third chalcedony, the fourth emerald,",
+                  "text_sha256": "86ad75746520b5ed91e11c0a013b747bcdc39ce901dcc1a12d21e10254275b3b"
+                }
+              ],
+              "target_passage_sha256": "5a56f259e37758d6a005db51496ab83a0539e5954f6f5eab3744f830edfc8686",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 54:12",
           "id": "v54-12",
           "text": "and I will make your battlements jasper, your gates crystal stones, and your enclosing wall choice stones,",
           "display_text": "and I will make your battlements jasper, your gates crystal stones, and your enclosing wall choice stones,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "isaiah-54-12__revelation-21-11",
+              "target": "Revelation 21:11",
+              "verdict": "supported",
+              "relationship": "shared image",
+              "rationale": "Both texts describe a restored city adorned with jasper and crystal: Isaiah promises battlements of jasper and gates of crystal stones, and Revelation describes the city's radiance as 'a jasper stone shining as crystal'.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "bc2d387fa0ceb0755a4b5160835de2c4402a7ce49fb12faf429472d1cac6e3f6",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "bf920386f6355064d4b7a5fd2f1ac4e99d8e5110",
+                "path": "revelation/verses.json",
+                "blob_sha": "ed952bfa23f62f9530102fde614f08b101628c27",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/bf920386f6355064d4b7a5fd2f1ac4e99d8e5110/revelation/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Revelation 21:11",
+                  "id": "v21-11",
+                  "text": "having the glory of God. Her radiance was like a most precious stone, like a jasper stone shining as crystal,",
+                  "text_sha256": "e99a031f5e39ea5e66211b90cfa0cba9cee2b714eb295e04fc07d5f3f16b1c9d"
+                }
+              ],
+              "target_passage_sha256": "81dac4a768d06518275f05353f8aa10d215da114a8eb6299e3b09b8686761043",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Isaiah 54:13",
@@ -58319,7 +59297,7 @@
     },
     {
       "chapter": 64,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 64,
         "section": 64,
@@ -58451,8 +59429,10 @@
           "id": "v64-4",
           "text": "For He will meet those doing what is just, and they will remember Thy ways. Behold, Thou becamest angry, and we sinned; therefore we went astray.",
           "display_text": "For He will meet those doing what is just, and they will remember Thy ways. Behold, Thou becamest angry, and we sinned; therefore we went astray.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit joins God's meeting those doing what is just, remembering His ways, God's anger, sin and going astray. The texts shown speak of provoking God's spirit, hoping in His name, God accepting those practising righteousness, or confessions of sin; none shares this combination of meeting the just with anger and straying."
         },
         {
           "reference": "Isaiah 64:5",
@@ -58780,7 +59760,7 @@
     },
     {
       "chapter": 65,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 65,
         "section": 65,
@@ -59716,8 +60696,10 @@
           "id": "v65-20",
           "text": "There will never be one cut off prematurely there, nor an old man who fails to complete his time. For the young person will be a hundred years old, but the sinner who dies will be a hundred years old and accursed.",
           "display_text": "There will never be one cut off prematurely there, nor an old man who fails to complete his time. For the young person will be a hundred years old, but the sinner who dies will be a hundred years old and accursed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit says no one will be cut off early, the young person will be a hundred years old, and the sinner who dies at a hundred will be accursed. The texts shown speak of a timely death, prolonged days for the obedient, or the ungodly not prolonging days, without the hundred-year life of the young or the accursed sinner at a hundred."
         },
         {
           "reference": "Isaiah 65:21",
@@ -61089,5 +62071,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 37,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

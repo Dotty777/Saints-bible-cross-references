@@ -1,10 +1,10 @@
 # Romans cross-reference records
 
-430 completed source verses; 443 retained pairs; 433 source units read; 3 deferred units.
+430 completed source verses; 443 retained pairs; 433 source units read; 0 deferred units. 3 units closed with no supportable cross-reference (no completion credit).
 
-First unfinished: Romans 16:8. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: none.
+First unfinished: none. Next new source review in this book: none. All original source units in this book have been read. Overall next new source: none.
 
-Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 433 original source units in 16 chapters. Deferred units receive no completion credit.
+Completed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Reviewed chapters: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16. Complete inventory: 433 original source units in 16 chapters. Deferred units receive no completion credit.
 
 [Readable HTML](Romans.html) · [Plain text](Romans.txt) · [Structured verse records](verses.json) · [Source inventory](inventory.json) · [Editorial notes](editorial-notes.json) · [Source checks](source-checks.json) · [Verification](verification.json) · [Recovery](RESTORE.md)
 
@@ -25,3 +25,4 @@ Read [New Testament progress](../progress.json). Reconsider the first unfinished
 - [2026-10-31T131026Z](../review-batches/2026-10-31T131026Z.json): 2 completed source verses and 2 retained pairs.
 - [2026-10-31T145128Z](../review-batches/2026-10-31T145128Z.json): 1 completed source verses and 1 retained pairs.
 - [2026-10-31T194744Z](../review-batches/2026-10-31T194744Z.json): 0 completed source verses and 0 retained pairs.
+- [2026-11-01T124445Z](../review-batches/2026-11-01T124445Z.json): 0 completed source verses and 0 retained pairs.

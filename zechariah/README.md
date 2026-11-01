@@ -1,6 +1,6 @@
 # Zechariah - Saints Bible cross-references
 
-Zechariah has **175 completed source verses and 200 distinct source/target-passage pairs**. Latest completed unit: **Zechariah 14:21**. Fully completed chapters: 1, 9. Next: Zechariah 2:3. Some source units remain pending. Completed entries within **Zechariah 1:1–14:21**; this span includes pending source deferrals. 36 read source unit(s) remain deferred with zero completion credit: Zechariah 2:3, Zechariah 2:4, Zechariah 2:7, Zechariah 3:6, Zechariah 4:4, Zechariah 4:5, Zechariah 4:7, Zechariah 4:8, Zechariah 4:12, Zechariah 4:13, Zechariah 5:2, Zechariah 5:5, Zechariah 5:6, Zechariah 5:8, Zechariah 5:9, Zechariah 5:10, Zechariah 5:11, Zechariah 6:9, Zechariah 7:2, Zechariah 7:3, Zechariah 7:4, Zechariah 7:8, Zechariah 8:1, Zechariah 8:18, Zechariah 10:4, Zechariah 11:8, Zechariah 11:11, Zechariah 11:15, Zechariah 12:5, Zechariah 12:12, Zechariah 12:13, Zechariah 12:14, Zechariah 13:1, Zechariah 13:6, Zechariah 14:6, Zechariah 14:12. First pending source unit: Zechariah 2:3. No never-reviewed source units remain. Next new source review: none; all OT source units read.
+Zechariah 1–14 is complete at the initial curated cross-reference stage: **196 source verses and 234 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: None. 15 source unit(s) were read and closed with no supportable cross-reference in this edition; they earn no completion credit and are listed with their reasons in the readable files and [source-checks.json](source-checks.json).
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -15,7 +15,7 @@ Preserve every original reference, anchor, word, native metadata field and sourc
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **Zechariah 2:3**. All OT source units have been read; incomplete units remain pending. 36 read source unit(s) remain deferred with zero completion credit: Zechariah 2:3, Zechariah 2:4, Zechariah 2:7, Zechariah 3:6, Zechariah 4:4, Zechariah 4:5, Zechariah 4:7, Zechariah 4:8, Zechariah 4:12, Zechariah 4:13, Zechariah 5:2, Zechariah 5:5, Zechariah 5:6, Zechariah 5:8, Zechariah 5:9, Zechariah 5:10, Zechariah 5:11, Zechariah 6:9, Zechariah 7:2, Zechariah 7:3, Zechariah 7:4, Zechariah 7:8, Zechariah 8:1, Zechariah 8:18, Zechariah 10:4, Zechariah 11:8, Zechariah 11:11, Zechariah 11:15, Zechariah 12:5, Zechariah 12:12, Zechariah 12:13, Zechariah 12:14, Zechariah 13:1, Zechariah 13:6, Zechariah 14:6, Zechariah 14:12. First pending source unit: Zechariah 2:3. No never-reviewed source units remain. Next new source review: none; all OT source units read. Revisit these deferred units substantively before marking them complete. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **None**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
@@ -25,3 +25,4 @@ Unretained target candidates: 9, excluded from completed counts. See the recorde
 
 - [2026-10-31T194844Z](review-batches/2026-10-31T194844Z.json): 196 newly completed pairs across 171 source verses.
 - [2026-10-31T215146Z](review-batches/2026-10-31T215146Z.json): 4 newly completed pairs across 4 source verses.
+- [2026-11-01T124729Z](review-batches/2026-11-01T124729Z.json): 34 newly completed pairs across 21 source verses.

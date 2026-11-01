@@ -8,7 +8,7 @@
   "canon_policy": "Old Testament cross-references exclusively within the Saints Holy Bible 70-book edition: 43 source books in their exact order and divisions; matching targets restricted to its 70 books.",
   "chapter_status_scope": "Each chapters entry is one original source section; completed_chapters aggregates all source sections carrying the same native chapter number.",
   "book": "Nahum",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source_snapshot": {
     "repository": "Dotty777/Saints-Translation",
     "commit": "328967336f32958587835c921fea3b96a5bf6494",
@@ -32,19 +32,23 @@
     ],
     "original_chapter_metadata_preserved": true
   },
-  "review_status": "initial_curated_pass_in_progress",
+  "review_status": "complete_initial_curated_pass",
   "completed_chapters": [
-    1
+    1,
+    2,
+    3
   ],
   "completed_source_sections": [
-    1
+    1,
+    2,
+    3
   ],
-  "completed_source_verses": 43,
-  "completed_cross_references": 46,
+  "completed_source_verses": 45,
+  "completed_cross_references": 49,
   "total_chapters": 3,
   "total_source_sections": 3,
   "total_source_verse_units": 47,
-  "next_reference": "Nahum 2:2",
+  "next_reference": null,
   "next_unreviewed_reference": null,
   "readable_html": "Nahum.html",
   "readable_text": "Nahum.txt",
@@ -776,7 +780,7 @@
     },
     {
       "chapter": 2,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 2,
         "section": 2,
@@ -859,8 +863,44 @@
           "id": "v2-2",
           "text": "One who breathes into your face has come up, rescuing from affliction. Watch the road; hold your waist firm; act courageously with great strength,",
           "display_text": "One who breathes into your face has come up, rescuing from affliction. Watch the road; hold your waist firm; act courageously with great strength,",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nahum-2-2__nahum-3-14-15",
+              "target": "Nahum 3:14-15",
+              "verdict": "supported",
+              "relationship": "parallel command",
+              "rationale": "Both address the besieged city with imperatives to hold firm against attack: Nahum 2:2 says 'Watch the road; hold your waist firm', and Nahum 3:14 says 'Draw water for yourself for the siege, hold your fortresses firmly', before announcing destruction.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "d464cae353fdba99af36ddc870f76c94deb5d0157e716a760962d8c1dfdf988f",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "nahum/verses.json",
+                "blob_sha": "6901c800e024c859800afa7ab1e4fcda4e9d2658",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/nahum/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Nahum 3:14",
+                  "id": "v3-14",
+                  "text": "Draw water for yourself for the siege, hold your fortresses firmly; step into mud, be trampled in straw, hold fast over the brick.",
+                  "text_sha256": "1f86b987548aebbe67fafc200f9a52e179c8dc55956ae44c79a95ac8b329f69b"
+                },
+                {
+                  "reference": "Nahum 3:15",
+                  "id": "v3-15",
+                  "text": "There fire will consume you; a sword will destroy you, devouring you like a locust, and you will become heavy like a crawling locust.",
+                  "text_sha256": "8bce3a2433341a0a042f7bac8e1c496a286bd2f32ed67db5049c1f0ba12ead00"
+                }
+              ],
+              "target_passage_sha256": "641d227b9ff20ef3aa99366ce151d567644ce6306712752d84a43d45d457b5d1",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nahum 2:3",
@@ -1044,8 +1084,10 @@
           "id": "v2-7",
           "text": "The river gates were opened, and the royal palace collapsed.",
           "display_text": "The river gates were opened, and the royal palace collapsed.",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit reports opened river gates and a collapsed royal palace. The lead about doors opened before Cyrus concerns other conquests, and the remaining leads mention rivers or collapse in unrelated settings."
         },
         {
           "reference": "Nahum 2:8",
@@ -1098,8 +1140,66 @@
           "id": "v2-9",
           "text": "Nineveh—her waters are like a swimming pool; they were fleeing and did not stop, and there was no one looking back.",
           "display_text": "Nineveh—her waters are like a swimming pool; they were fleeing and did not stop, and there was no one looking back.",
-          "status": "pending",
-          "cross_references": []
+          "status": "completed",
+          "cross_references": [
+            {
+              "id": "nahum-2-9__jeremiah-26-5",
+              "target": "Jeremiah 26:5",
+              "verdict": "supported",
+              "relationship": "verbal echo",
+              "rationale": "Both describe defeated warriors in headlong flight: Nahum says 'they were fleeing and did not stop, and there was no one looking back', and Jeremiah says 'They fled in flight and did not turn back.'",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "222d7457de04a31ccaa3dbecf7bb99c27960af84916ddada9672a7bb2dace670",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "jeremiah/verses.json",
+                "blob_sha": "578a1de9615fed312c5f42590b8b5a0a9ba42947",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/jeremiah/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Jeremiah 26:5",
+                  "id": "v26-5",
+                  "text": "Why are they terrified and withdrawing backward? Because their strong men will be cut down. They fled in flight and did not turn back, surrounded on every side, says the Lord.",
+                  "text_sha256": "397381f5c67104f97153d05eaf589d52ac09462e2440d30d7adc5237edf40ad2"
+                }
+              ],
+              "target_passage_sha256": "ea61bff66aceb76906d2dafda5faa8b10632804c0a36594353c6562fb0b01c3a",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            },
+            {
+              "id": "nahum-2-9__genesis-10-11",
+              "target": "Genesis 10:11",
+              "verdict": "supported",
+              "relationship": "same place",
+              "rationale": "Nahum speaks of Nineveh and her waters; Genesis 10:11 records that Asshur went out and built Nineveh.",
+              "reviewed": "2026-11-01",
+              "reviewer": "Claude (AI-assisted editorial review)",
+              "review_batch": "2026-11-01T124729Z",
+              "source_text_sha256": "222d7457de04a31ccaa3dbecf7bb99c27960af84916ddada9672a7bb2dace670",
+              "target_source": {
+                "repository": "Dotty777/Saints-Translation",
+                "commit": "328967336f32958587835c921fea3b96a5bf6494",
+                "path": "genesis/verses.json",
+                "blob_sha": "cb03fe4a864c66380de2577e70a74b0c87a62886",
+                "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/genesis/verses.json"
+              },
+              "target_verses": [
+                {
+                  "reference": "Genesis 10:11",
+                  "id": "v10-11",
+                  "text": "From that land Asshur went out and built Nineveh, the city of Rehoboth, and Calah,",
+                  "text_sha256": "202f9d58555e4e7e4e04c4b2db03ecd8b7d7803bdd5ef98d0eccd08a208cee97"
+                }
+              ],
+              "target_passage_sha256": "b5d5b3ffb0a5bde94e327776a61bc0b4fe13271808ea413ceeb8c31cc21ee6d5",
+              "destination_anchor_check": "staging anchor and wording checked against the live site text on 2026-11-01"
+            }
+          ],
+          "reviewed": "2026-11-01"
         },
         {
           "reference": "Nahum 2:10",
@@ -1335,7 +1435,7 @@
     },
     {
       "chapter": 3,
-      "status": "pending",
+      "status": "completed",
       "source_metadata": {
         "chapter": 3,
         "section": 3,
@@ -1693,8 +1793,10 @@
           "id": "v3-8",
           "text": "Prepare a portion; tune a string; prepare a portion, Amon, who dwells among rivers, water around her, whose dominion was the sea and whose walls were water,",
           "display_text": "Prepare a portion; tune a string; prepare a portion, Amon, who dwells among rivers, water around her, whose dominion was the sea and whose walls were water,",
-          "status": "pending",
-          "cross_references": []
+          "status": "closed",
+          "cross_references": [],
+          "reviewed": "2026-11-01",
+          "closure_reason": "The unit addresses Amon, dwelling among rivers with water for walls. Only one lead names Amon, and there as 'Amon her son' alongside Pharaoh with no city among rivers; the others describe differently named places or Egypt's river, so the same place cannot be identified from the texts shown."
         },
         {
           "reference": "Nahum 3:9",
@@ -2211,5 +2313,7 @@
         }
       ]
     }
-  ]
+  ],
+  "closed_source_units": 2,
+  "latest_reviewer": "Claude (AI-assisted editorial review)"
 }

@@ -7,6 +7,8 @@ import argparse,hashlib,json
 ROOT=Path(__file__).resolve().parents[1];NT=ROOT/'new-testament'
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
 REVIEWERS={'Codex (AI-assisted editorial review)','Claude (AI-assisted editorial review)'}
+# A closed unit was read and recorded as having no supportable cross-reference; it is finished but earns no completion credit.
+FINISHED={'completed','closed'}
 def need(ok,message):
  if not ok:raise ValueError(message)
 def digest(s):return hashlib.sha256(s.encode('utf-8')).hexdigest()
@@ -84,7 +86,7 @@ def validate(write_verification=False):
   need(len(d['chapters'])==len(original['chapters'])==inventory['chapters'],'Chapter inventory mismatch')
   sourceunits=units(d);originalunits=units(original);need(len(sourceunits)==len(originalunits)==d['total_source_verse_units']==b['total_source_verse_units']==inventory['total_source_verse_units'],'Source inventory total mismatch')
   need(inventory['completion_credit']==0,'Inventory cannot earn review credit')
-  expected_inventory=[];done=[];reviewed=[];deferred=[];all_edges=[];completed_chapters=[];reviewed_chapters=[];nextref=None;newref=None;unreviewed_gap=False
+  expected_inventory=[];done=[];reviewed=[];deferred=[];closed=[];all_edges=[];completed_chapters=[];reviewed_chapters=[];nextref=None;newref=None;unreviewed_gap=False
   for ch,origch in zip(d['chapters'],original['chapters']):
    for key in ['chapter','section','title','staging_page_id','staging_url']:
     need(ch.get(key)==origch.get(key),'Original chapter identity/order changed')
@@ -93,10 +95,10 @@ def validate(write_verification=False):
    need(len(ch['verses'])==len(origch['verses']),'Original chapter verse count changed')
    for v,orig in zip(ch['verses'],origch['verses']):
     for key,value in orig.items():need(v.get(key)==value,'Original source field changed: '+orig['reference']+'/'+key)
-    need(v['status'] in ['pending','deferred','completed'],'Invalid source status')
+    need(v['status'] in ['pending','deferred','completed','closed'],'Invalid source status')
     expected_inventory.append({'reference':v['reference'],'id':v['id'],'chapter':ch['chapter'],'section':ch.get('section'),'text_sha256':digest(v['text']),'complete_text_sha256':digest(full(v))})
     pos={'book':b['book'],'chapter':ch['chapter'],'reference':v['reference'],'source_id':v['id']}
-    if v['status']!='completed' and nextref is None:nextref=pos
+    if v['status'] not in FINISHED and nextref is None:nextref=pos
     if v['status']=='pending' and newref is None:newref=pos
     if v['status']=='pending':
      need('reviewed' not in v and not v['cross_references'],'Unreviewed unit has review/completion evidence');unreviewed_gap=True
@@ -104,6 +106,7 @@ def validate(write_verification=False):
      need(not unreviewed_gap,'Source review skips a never-reviewed unit before '+v['reference'])
      need(bool(v.get('reviewed')),'Reviewed source lacks its review date');reviewed.append(v)
     if v['status']=='deferred':need(bool(v.get('deferral_reason')) and not v['cross_references'],'Invalid source deferral');deferred.append(v)
+    if v['status']=='closed':need(bool(v.get('closure_reason')) and not v['cross_references'],'Invalid source closure');closed.append(v)
     if v['status']!='completed':continue
     need(bool(v['cross_references']) and bool(v.get('reviewed')),'Completed source lacks retained reviewed pair');done.append(v)
     target_keys=set()
@@ -132,7 +135,7 @@ def validate(write_verification=False):
      batch_decisions.setdefault(edge['review_batch'],[]).append((b['book'],v['id'],book,target_ids,edge['relationship'],edge['rationale']))
      batch_source_books.setdefault(edge['review_batch'],set()).add(b['book'])
      all_edges.append(edge);pair_ids.append(edge['id'])
-   complete=all(v['status']=='completed' for v in ch['verses']);read=all(v['status']!='pending' for v in ch['verses'])
+   complete=all(v['status'] in FINISHED for v in ch['verses']);read=all(v['status']!='pending' for v in ch['verses'])
    need(ch['status']==('completed' if complete else 'reviewed_with_deferrals' if read else 'pending'),'Chapter completion claim mismatch')
    if complete:completed_chapters.append(ch['chapter'])
    if read:reviewed_chapters.append(ch['chapter'])
@@ -149,6 +152,8 @@ def validate(write_verification=False):
   need(d['review_status']==b['status']==('complete_initial_curated_pass' if not nextref else 'in_progress'),'Book review status mismatch')
   need({x['source_id']:x['reason'] for x in checks['deferred_source_units']}=={v['id']:v['deferral_reason'] for v in deferred},'Deferred source decisions mismatch')
   need(all(x['completed_source_credit']==x['completed_pair_credit']==0 for x in checks['deferred_source_units']),'Deferred source earns completion credit')
+  need({x['source_id']:x['reason'] for x in checks.get('closed_source_units',[])}=={v['id']:v['closure_reason'] for v in closed},'Closed source decisions mismatch')
+  need(all(x['completed_source_credit']==x['completed_pair_credit']==0 for x in checks.get('closed_source_units',[])),'Closed source earns completion credit')
   need(checks['checked_scope']['source_units_read']==len(reviewed) and checks['checked_scope']['completed_source_verses']==len(done) and checks['checked_scope']['retained_pairs']==len(all_edges),'Source checks totals mismatch')
   html_text=(folder/d['readable_html']).read_text(encoding='utf-8');parser=Readable();parser.feed(html_text)
   need(parser.ids==[v['id'] for v in done] and parser.sources==[full(v) for v in done],'Readable HTML source identities/text/order changed')
@@ -232,8 +237,8 @@ def validate(write_verification=False):
    reviewed_ids=proposal.get('reviewed_source_ids',chapter_ids)
    need(set(proposal['reviewed_chapters']).issubset({c['chapter'] for c in original_source['chapters']}),'Proposal names an absent source chapter')
    need(len(reviewed_ids)==len(set(reviewed_ids)) and set(reviewed_ids).issubset(chapter_ids),'Proposal reviewed source identities are duplicated or outside its declared chapters')
-   paired_ids={x['source_id'] for x in proposal['pairs']};pending_ids={x['source_id'] for x in proposal.get('deferred',[])}
-   need(paired_ids.isdisjoint(pending_ids) and paired_ids|pending_ids==set(reviewed_ids),'Proposal does not preserve one explicit completed-or-deferred decision for every reviewed source')
+   paired_ids={x['source_id'] for x in proposal['pairs']};pending_ids={x['source_id'] for x in proposal.get('deferred',[])};closed_ids={x['source_id'] for x in proposal.get('closed',[])}
+   need(paired_ids.isdisjoint(pending_ids) and paired_ids.isdisjoint(closed_ids) and pending_ids.isdisjoint(closed_ids) and paired_ids|pending_ids|closed_ids==set(reviewed_ids),'Proposal does not preserve one explicit completed-or-deferred decision for every reviewed source')
    reviewed_decisions.extend((source_book,source_id) for source_id in reviewed_ids)
    deferred_ids.extend((source_book,x['source_id']) for x in proposal.get('deferred',[]))
    proposed_pairs.extend((source_book,x['source_id'],x['target_book'],tuple(x['target_ids']),x['relationship'],x['rationale']) for x in proposal['pairs'])

@@ -45,6 +45,18 @@
       "deferred_source_units": 0,
       "continued_pending_source_observations": 0,
       "unresolved_retained_cases": 0
+    },
+    {
+      "run_id": "2026-11-01T124729Z",
+      "records": "review-batches/2026-11-01T124729Z.json",
+      "new_source_verses": 2,
+      "new_pairs": 3,
+      "source_units_read": 2,
+      "first_reviewed_source_units": 0,
+      "revisited_source_units_read": 2,
+      "resolved_source_deferrals": 2,
+      "deferred_source_units": 0,
+      "closed_source_units": 0
     }
   ],
   "canon_manifest": "../canon.json",
@@ -464,62 +476,7 @@
       "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/wisdom-of-solomon/verses.json"
     }
   ],
-  "deferred_source_units": [
-    {
-      "source_reference": "Joel 1:17",
-      "source_text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
-      "reason": "The actual unit combines heifers leaping at feeding troughs, vanished storehouses, demolished winepresses and dried grain. No sufficiently particular counterpart was established for that combination; the unit remains pending without importing the familiar wording about rotting seeds.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "joel/verses.json",
-        "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Joel 1:17",
-        "id": "v1-17",
-        "text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
-        "display_text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
-        "text_sha256": "5fde319ea2daf01c4b1ba0e4ea0e47cc4587f0a94f60be9d11ef03f76e96339b"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T140227Z",
-      "target": null
-    },
-    {
-      "source_reference": "Joel 2:4",
-      "source_text": "Their appearance is like the sight of horses; like riders they will pursue.",
-      "reason": "The unit compares appearance to horses and pursuit to riders. The read Nahum candidate supplies general mounted battle imagery but does not establish a sufficiently particular counterpart to these comparisons. The separate proposed Revelation range is unavailable and unread, so the source remains pending.",
-      "source_unit_read": true,
-      "completed_source_credit": 0,
-      "completed_pair_credit": 0,
-      "source_snapshot": {
-        "repository": "Dotty777/Saints-Translation",
-        "commit": "328967336f32958587835c921fea3b96a5bf6494",
-        "path": "joel/verses.json",
-        "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
-        "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
-      },
-      "source_verse": {
-        "reference": "Joel 2:4",
-        "id": "v2-4",
-        "text": "Their appearance is like the sight of horses; like riders they will pursue.",
-        "display_text": "Their appearance is like the sight of horses; like riders they will pursue.",
-        "text_sha256": "d24c16e4896e67c15ba274638e5d28de33c4962936f5b2332f62f5a2eef77b3e"
-      },
-      "reviewer": "Codex author /root/proverbs_end_author",
-      "reviewed": "2026-10-31",
-      "review_timezone": "America/New_York",
-      "review_batch": "2026-10-31T140227Z",
-      "target": null
-    }
-  ],
+  "deferred_source_units": [],
   "unresolved_candidates": [
     {
       "source_reference": "Joel 2:4",
@@ -866,6 +823,68 @@
       ],
       "new_completed_source_credit": 1,
       "new_completed_pair_credit": 1
+    },
+    {
+      "source_reference": "Joel 1:17",
+      "prior_deferral": {
+        "source_reference": "Joel 1:17",
+        "source_text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
+        "reason": "The actual unit combines heifers leaping at feeding troughs, vanished storehouses, demolished winepresses and dried grain. No sufficiently particular counterpart was established for that combination; the unit remains pending without importing the familiar wording about rotting seeds.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "joel/verses.json",
+          "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Joel 1:17",
+          "id": "v1-17",
+          "text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
+          "display_text": "Heifers leaped at their feeding troughs; storehouses disappeared, winepresses were demolished, because grain dried up.",
+          "text_sha256": "5fde319ea2daf01c4b1ba0e4ea0e47cc4587f0a94f60be9d11ef03f76e96339b"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T140227Z",
+        "target": null
+      },
+      "resolved_by_run": "2026-11-01T124729Z"
+    },
+    {
+      "source_reference": "Joel 2:4",
+      "prior_deferral": {
+        "source_reference": "Joel 2:4",
+        "source_text": "Their appearance is like the sight of horses; like riders they will pursue.",
+        "reason": "The unit compares appearance to horses and pursuit to riders. The read Nahum candidate supplies general mounted battle imagery but does not establish a sufficiently particular counterpart to these comparisons. The separate proposed Revelation range is unavailable and unread, so the source remains pending.",
+        "source_unit_read": true,
+        "completed_source_credit": 0,
+        "completed_pair_credit": 0,
+        "source_snapshot": {
+          "repository": "Dotty777/Saints-Translation",
+          "commit": "328967336f32958587835c921fea3b96a5bf6494",
+          "path": "joel/verses.json",
+          "blob_sha": "6f65f3ac53777a45d109eecfef23c614ebc1ba9f",
+          "url": "https://github.com/Dotty777/Saints-Translation/blob/328967336f32958587835c921fea3b96a5bf6494/joel/verses.json"
+        },
+        "source_verse": {
+          "reference": "Joel 2:4",
+          "id": "v2-4",
+          "text": "Their appearance is like the sight of horses; like riders they will pursue.",
+          "display_text": "Their appearance is like the sight of horses; like riders they will pursue.",
+          "text_sha256": "d24c16e4896e67c15ba274638e5d28de33c4962936f5b2332f62f5a2eef77b3e"
+        },
+        "reviewer": "Codex author /root/proverbs_end_author",
+        "reviewed": "2026-10-31",
+        "review_timezone": "America/New_York",
+        "review_batch": "2026-10-31T140227Z",
+        "target": null
+      },
+      "resolved_by_run": "2026-11-01T124729Z"
     }
   ],
   "pending_revisit_history": [
@@ -891,5 +910,6 @@
       ],
       "completion_credit_for_consideration_or_rereading": 0
     }
-  ]
+  ],
+  "closed_source_units": []
 }

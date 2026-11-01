@@ -1,6 +1,6 @@
 # 1 Chronicles — Saints Bible cross-references
 
-1 Chronicles has **917 completed source verses and 1000 distinct source/target-passage pairs**. Latest completed unit: **1 Chronicles 29:30**. Fully completed chapters: 3, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29. Next: 1 Chronicles 1:24. Some source units remain pending. Completed entries within **1 Chronicles 1:1–29:30**; this span includes pending source deferrals. 13 read source unit(s) remain deferred with zero completion credit: 1 Chronicles 1:24, 1 Chronicles 1:52, 1 Chronicles 2:47, 1 Chronicles 4:3, 1 Chronicles 4:8, 1 Chronicles 4:16, 1 Chronicles 4:17, 1 Chronicles 4:18, 1 Chronicles 4:19, 1 Chronicles 4:20, 1 Chronicles 7:12, 1 Chronicles 7:19, 1 Chronicles 27:32. First pending source unit: 1 Chronicles 1:24. No never-reviewed source units remain. Next new source review: none; all OT source units read.
+1 Chronicles 1–29 is complete at the initial curated cross-reference stage: **917 source verses and 1000 distinct source/target-passage pairs**. Book initial curated pass complete. Overall next: None. 13 source unit(s) were read and closed with no supportable cross-reference in this edition; they earn no completion credit and are listed with their reasons in the readable files and [source-checks.json](source-checks.json).
 
 Completed means the initial curated cross-reference pass: the source verse and every listed target passage were read in the pinned Saints-Translation English records, and each retained pair has a specific explanation. It does not mean every possible biblical connection has been exhausted, or independent scholarly approval.
 
@@ -19,7 +19,7 @@ The counts were derived from the complete [pinned Saints-Translation record](htt
 
 ## Continuation
 
-Read the current [overall tracker](../progress.json), preserve completed records, and note the first unfinished source: **1 Chronicles 1:24**. All OT source units have been read; incomplete units remain pending. 13 read source unit(s) remain deferred with zero completion credit: 1 Chronicles 1:24, 1 Chronicles 1:52, 1 Chronicles 2:47, 1 Chronicles 4:3, 1 Chronicles 4:8, 1 Chronicles 4:16, 1 Chronicles 4:17, 1 Chronicles 4:18, 1 Chronicles 4:19, 1 Chronicles 4:20, 1 Chronicles 7:12, 1 Chronicles 7:19, 1 Chronicles 27:32. First pending source unit: 1 Chronicles 1:24. No never-reviewed source units remain. Next new source review: none; all OT source units read. Revisit these deferred units substantively before marking them complete. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
+This book's initial curated pass is complete. Follow the current [overall tracker](../progress.json) for the next source verse: **None**. Retain only passage-grounded connections with individual explanations. A target range is one pair; unresolved identities remain pending. Preserve continuation units and source wording.
 
 Same-chapter relationships are labelled explicitly. This is an initial curated pass, not an exhaustive list of every possible cross-reference. Independent specialist and live destination checks remain pending.
 
@@ -30,3 +30,4 @@ Unretained target candidates: 45, excluded from completed counts. See the record
 - [2026-10-30T092501Z](review-batches/2026-10-30T092501Z.json): 516 newly completed pairs across 516 source verses.
 - [2026-10-30T102602Z](review-batches/2026-10-30T102602Z.json): 484 newly completed pairs across 401 source verses.
 - [2026-10-31T204915Z](review-batches/2026-10-31T204915Z.json): 0 newly completed pairs across 0 source verses.
+- [2026-11-01T124729Z](review-batches/2026-11-01T124729Z.json): 0 newly completed pairs across 0 source verses.
