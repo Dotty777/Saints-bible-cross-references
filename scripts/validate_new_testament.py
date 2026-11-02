@@ -22,6 +22,8 @@ def units(d,book=None):
  return [v for c in d['chapters'] for v in c['verses']]
 def path(relative):
  p=(NT/relative).resolve();need(p.is_relative_to(NT.resolve()),'Path escapes New Testament tracker');return p
+def bookpath(relative):
+ p=(ROOT/relative).resolve();need(p.parent==ROOT.resolve(),'Book records must sit in the repository root');return p
 class Readable(HTMLParser):
  def __init__(self):super().__init__(convert_charrefs=True);self.ids=[];self.pairs=[];self.sources=[];self.targets=[];self.notes=[];self.note_anchor=None;self.note_position=None;self.capture=None;self.body=[];self.details=0;self.links=[]
  def handle_starttag(self,tag,attrs):
@@ -69,7 +71,7 @@ def validate(write_verification=False):
   snapshots[book]=d;pins[book]={k:v for k,v in s.items() if k not in ['size','sha256']}
  totals=Counter();pair_ids=[];global_next=None;global_new=None;reports=[];all_reviewed=[];all_deferred=[];earlier_book_unreviewed=False;batch_decisions={};batch_source_books={};fully_read_books=[]
  for b in p['books']:
-  folder=path(b['records']);record=folder/'verses.json'
+  folder=bookpath(b['records']);record=folder/'verses.json'
   if not record.exists():
    need(b['status']=='pending' and b['total_source_verse_units'] is None and b['completed_source_verses']==b['completed_cross_references']==0 and b['completed_chapters']==[],'Uninventoried book has completion claims')
    need(b.get('reviewed_source_units',0)==0,'Uninventoried book has source-review claims')
@@ -82,7 +84,7 @@ def validate(write_verification=False):
   need(d['book']==b['book'] and d['division']==b['division'] and d['canonical_order']==b['order'],'Book identity mismatch')
   need(d['source_snapshot']==checks['source_snapshot']==inventory['source_snapshot']==pins[b['book']],'Source pin mismatch')
   need(d['source_status']==original['source_status'] and d['source_edition']==original['edition'],'Source edition/limitations changed')
-  need(checks['canon_manifest']=='../../canon.json','Book canon link mismatch')
+  need(checks['canon_manifest']=='../canon.json','Book canon link mismatch')
   need(len(d['chapters'])==len(original['chapters'])==inventory['chapters'],'Chapter inventory mismatch')
   sourceunits=units(d);originalunits=units(original);need(len(sourceunits)==len(originalunits)==d['total_source_verse_units']==b['total_source_verse_units']==inventory['total_source_verse_units'],'Source inventory total mismatch')
   need(inventory['completion_credit']==0,'Inventory cannot earn review credit')
